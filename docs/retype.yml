@@ -12,7 +12,7 @@ links:
 
 - text: Bugs & Feature Requests
   link: https://github.com/CommandPost/FinalCutPro/issues
-  icon: issue-opened
+  icon: bug
   target: blank
 
 - text: Discussions

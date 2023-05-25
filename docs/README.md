@@ -1,6 +1,6 @@
 # Latest News
 
-FCP Cafe is a technical community for professional Final Cut Pro editors.
+**FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
 !!!
 **NOTE:** This site is very much a work-in-progress!
