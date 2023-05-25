@@ -1,3 +1,7 @@
-# Final Cut Pro Bug Tracker
+<img src="https://github.com/commandpost/FinalCutPro/raw/main/docs/static/fcpcafe.png" align="right" width="15%" height="15%" />
 
-This repository's sole purpose is to keep track of Apple's Final Cut Pro application bugs and issues.
+# FCP Cafe
+
+The source code for the [fcp.cafe](https://fcp.cafe) website.
+
+This is very much a work-in-progress.

@@ -1,0 +1,24 @@
+input: .
+output: .retype
+
+url: fcp.cafe # Add your website address here
+
+branding:
+  title: FCP Cafe
+  #label: Docs
+  logo: static/fcpcafe.png
+
+links:
+
+- text: Bugs & Feature Requests
+  link: https://github.com/CommandPost/FinalCutPro/issues
+  icon: issue-opened
+  target: blank
+
+- text: Discussions
+  link: https://github.com/CommandPost/FinalCutPro/discussions
+  icon: comment-discussion
+  target: blank
+
+footer:
+  copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
