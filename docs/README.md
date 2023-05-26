@@ -6,7 +6,9 @@
 Want to contribute? Simply make a GitHub pull request! [Learn more](https://fcp.cafe/contribute/).
 !!!
 
-## Friday 26th May 2023
+---
+
+### Friday 26th May 2023
 
 Everyone's talking about Final Cut Pro for iPad.
 
