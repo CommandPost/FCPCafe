@@ -1,6 +1,6 @@
 # Case Studies on Apple
 
-Here's some links to case studies on the Apple site:
+Here's some links to case studies on the [Apple site](https://www.apple.com/au/final-cut-pro/workflows/):
 
 - [Jenn Jager](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-1)
 - [Our Last Night](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-2)
