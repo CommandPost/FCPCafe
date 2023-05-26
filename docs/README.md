@@ -51,6 +51,16 @@ Edited by Knut Hake.
 
 ---
 
+**Sex O'Clock** premieres today in Czechia. Episodes 3, 6, 9 and 10 was cut in Final Cut Pro by [Jiří Fiala](https://jirifiala.cz) (the other episodes were cut in Adobe Premiere).
+
+FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+---
+
 Everyone's talking about **Final Cut Pro for iPad**.
 
 Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:
