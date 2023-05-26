@@ -25,6 +25,14 @@ Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
 
 ---
 
+### Saturday 27th May 2023
+
+Hedge on the lookout for passionate beta users to help shape the future of Hedge products (like Hedge, PostLab & EditReady). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
+
+![Hedge Beta Testers](/static/hedge.jpeg)
+
+---
+
 ### Friday 26th May 2023
 
 **Turn of the Tide** premieres today on Netflix. Fully edited in Final Cut Pro.
