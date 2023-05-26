@@ -1,6 +1,9 @@
 name: Update Issues and Publish to GitHub Pages
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   issues_to_markdown:
