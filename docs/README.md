@@ -1,6 +1,21 @@
 <img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Latest News
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
@@ -11,6 +26,28 @@ Want to contribute? Simply make a GitHub pull request! [Learn more](https://fcp.
 ---
 
 ### Friday 26th May 2023
+
+**Turn of the Tide** premieres today on Netflix. Fully edited in Final Cut Pro.
+
+Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 & 7) and Pedro Ribeiro (Ep's 3, 4 & 6).
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+We will be adding a full case study in the coming weeks.
+
+---
+
+**Blood & Gold** premieres today on Netflix. Fully edited in Final Cut Pro.
+
+Edited by Knut Hake.
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+---
 
 Everyone's talking about **Final Cut Pro for iPad**.
 
