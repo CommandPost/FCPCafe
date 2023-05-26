@@ -1,3 +1,28 @@
 # Case Studies
 
-A collection of user case studies.
+This page contains a collection of case studies from Final Cut Pro users around the world.
+
+---
+
+## Apple
+
+- [Jenn Jager](https://www.apple.com/au/final-cut-pro/workflows/)
+- [Our Last Night](https://www.apple.com/au/final-cut-pro/workflows/)
+- [Blood Red Sky](https://www.apple.com/au/final-cut-pro/workflows/)
+- [Elsa Rhae and Barron Link](https://www.apple.com/au/final-cut-pro/workflows/)
+- [The Banker](https://www.apple.com/au/final-cut-pro/workflows/)
+
+---
+
+## fcp.co
+
+- [Timbrée or How to Use Stamps to Build a Story (09 May 2023)](https://fcp.co/user-stories/2616-timbree-or-how-to-use-stamps-to-build-a-story)
+- [In Love with Final Cut Pro (10 February 2023)](https://fcp.co/user-stories/2614-in-love-with-final-cut-pro)
+- [Native BRAW Editing in Final Cut Pro with Chris Hocking (08 February 2023)](https://fcp.co/user-stories/2612-native-braw-editing-in-final-cut-pro-with-chris-hocking)
+- [evrExpanse 3 Adds Features for EXIF Metadata XML Import into Final Cut Pro (08 February 2023)](https://fcp.co/user-stories/2613-evrexpanse-3-adds-features-for-exif-metadata-xml-import-into-final-cut-pro)
+- [BRAW Toolbox and Gyroflow Toolbox (29 January 2023)](https://fcp.co/user-stories/2611-braw-toolbox-and-gyroflow-toolbox)
+- [Bright Future; Slow Progress (27 December 2022)](https://fcp.co/user-stories/2610-bright-future-slow-progress)
+- [Using an OLED TV as a Monitor — Crazy or Genius? (29 November 2022)](https://fcp.co/user-stories/2609-using-an-oled-tv-as-a-monitor-crazy-or-genius)
+- [The Very Best One-Key Shortcuts for Final Cut Pro (17 November 2022)](https://fcp.co/user-stories/2608-the-very-best-one-key-shortcuts-for-final-cut-pro)
+- [A New Script-focused Feature Film Workflow for Final Cut Pro (11 November 2022)](https://fcp.co/user-stories/2607-a-new-script-focused-feature-film-workflow-for-final-cut-pro)
+- [Solve Review and Approval Problems for Music on Video with Freque (04 November 2022)](https://fcp.co/user-stories/2606-solve-review-and-approval-problems-for-music-on-video-with-freque)
