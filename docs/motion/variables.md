@@ -2,7 +2,6 @@
 
 Here's a list of text variables you can use in Motion to write data in Final Cut Pro:
 
-```
 **@#$sourceObject_alphaHandling**
 
 **@#$sourceObject_angle**
@@ -76,4 +75,3 @@ Here's a list of text variables you can use in Motion to write data in Final Cut
 **@#$sourceObject_timecodeFrameDuration**
 
 **@#$sourceObject_timeRange**
-```
