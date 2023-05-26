@@ -1,4 +1,4 @@
-name: Publish Retype powered website to GitHub Pages
+name: Update Issues and Publish to GitHub Pages
 on:
   workflow_dispatch:
   push:
@@ -6,8 +6,35 @@ on:
       - main
 
 jobs:
+  issues_to_markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/issues_to_md.js
+
+      - name: Commit and push if it's necessary
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet && git diff --staged --quiet || (git add docs/bugtracker.md; git commit -m "Update bugtracker.md"; git push)
+
   publish:
     name: Publish to retype branch
+    needs: issues_to_markdown
 
     runs-on: ubuntu-latest
 
