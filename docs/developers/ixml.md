@@ -47,13 +47,13 @@ The iXML Specification can be found [here](http://www.ixml.info).
 
 In Final Cut Pro, you can assign roles based on the iXML metadata using the **Assign iXML track names if available** checkbox in Import preferences.
 
-![Audio Roles](static/audio-roles.png)
+![Audio Roles](../static/audio-roles.png)
 
 When this checkbox is selected, Final Cut Pro analyses imported audio for iXML metadata tags, then creates subroles with the names embedded by the audio field recorder, and assigns the subroles to the corresponding components in the imported clips.
 
 The Assign Role setting and the **Assign iXML track names if available** setting can work together. For example, you can create a custom role such as Location Sound using the role editor and then choose that role from the Assign Role pop-up menu. If the **Assign iXML track names if available** checkbox is selected, imported clips are assigned the Location Sound role, with custom audio channel names coming from the iXML file.
 
-![Audio Roles](static/roles.png)
+![Audio Roles](../static/roles.png)
 
 All of this occurs automatically on import, and the settings are retained for future import operations.
 
