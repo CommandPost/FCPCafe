@@ -11,12 +11,12 @@ branding:
 links:
 
 - text: Bugs & Feature Requests
-  link: https://github.com/CommandPost/FinalCutPro/issues
+  link: https://github.com/CommandPost/FCPCafe/issues
   icon: bug
   target: blank
 
 - text: Discussions
-  link: https://github.com/CommandPost/FinalCutPro/discussions
+  link: https://github.com/CommandPost/FCPCafe/discussions
   icon: comment-discussion
   target: blank
 
