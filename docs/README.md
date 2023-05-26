@@ -32,7 +32,7 @@ Want to contribute? Simply make a GitHub pull request! [Learn more](https://fcp.
 Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 & 7) and Pedro Ribeiro (Ep's 3, 4 & 6).
 
 !!!
-We will be adding a full case study soon!
+We will be adding an extensive case study [here](https://fcp.cafe/casestudies/turnofthetide/) soon!
 !!!
 
 <div class="video-container">
