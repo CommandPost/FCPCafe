@@ -9,32 +9,32 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Plugins</title>
-    <meta name="title" content="Plugins">
-    <meta name="description" content="A directory of Final Cut Pro Plugins." />
+    <title>iXML</title>
+    <meta name="title" content="iXML">
+    <meta name="description" content="iXML is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://fcp.cafe/plugins/" />
+    <link rel="canonical" href="https://fcp.cafe/developers/ixml/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fcp.cafe/plugins/">
-    <meta property="og:title" content="Plugins">
-    <meta property="og:description" content="A directory of Final Cut Pro Plugins.">
+    <meta property="og:url" content="https://fcp.cafe/developers/ixml/">
+    <meta property="og:title" content="iXML">
+    <meta property="og:description" content="iXML is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://fcp.cafe/plugins/">
-    <meta property="twitter:title" content="Plugins">
-    <meta property="twitter:description" content="A directory of Final Cut Pro Plugins.">
+    <meta property="twitter:url" content="https://fcp.cafe/developers/ixml/">
+    <meta property="twitter:title" content="iXML">
+    <meta property="twitter:description" content="iXML is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.738398252419" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.738398252419" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -49,10 +49,10 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/fcpcafe.png">
-                                <img class="max-h-10 hidden dark:inline-block" src="../static/fcpcafe.png">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fcpcafe.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fcpcafe.png">
                             </span>
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
                         </a>
@@ -193,13 +193,134 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="plugins" class="break-words">
+<doc-anchor-target id="ixml" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#plugins">#</doc-anchor-trigger>
-        <span>Plugins</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ixml">#</doc-anchor-trigger>
+        <span>iXML</span>
     </h1>
 </doc-anchor-target>
-<p>A directory of Final Cut Pro Plugins.</p>
+<doc-anchor-target id="introduction">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>iXML</strong> is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files.</p>
+<p>This includes things like Scene, Take and Notes information. It is designed to standardise the exchange of metadata between field recorders and post production software.</p>
+<p>The iXML specification describes an WAV RIFF chunk in BWF files which contains standard XML data following the <a href="http://www.ixml.info">iXML specification</a>.</p>
+<p>iXML uses the XML (eXtensible Markup Language) standard for communication of tagged metadata. All fields are optional when creating iXML, and readers of iXML data must not assume or require any fields to be present.</p>
+<p>A very simplified iXML data chunk, in a mono file with only the most basic metadata objects will look something like this:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">	&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+	&lt;BWFXML&gt;
+		&lt;IXML_VERSION&gt;1.27&lt;/IXML_VERSION&gt;
+		&lt;PROJECT&gt;A New Movie&lt;/PROJECT&gt;
+		&lt;SCENE&gt;21A&lt;/SCENE&gt;
+		&lt;TAKE&gt;10&lt;/TAKE&gt;
+		&lt;TAPE&gt;15&lt;/TAPE&gt;
+		&lt;NOTE&gt;free text note&lt;/NOTE&gt;
+		&lt;TRACK_LIST&gt;
+			&lt;TRACK_COUNT&gt;1&lt;/TRACK_COUNT&gt;
+			&lt;TRACK&gt;
+				&lt;CHANNEL_INDEX&gt;1&lt;/CHANNEL_INDEX&gt;
+				&lt;INTERLEAVE_INDEX&gt;1&lt;/INTERLEAVE_INDEX&gt;
+				&lt;NAME&gt;left&lt;/NAME&gt;
+				&lt;FUNCTION&gt;LEFT&lt;/FUNCTION&gt;
+			&lt;/TRACK&gt;
+		&lt;/TRACK_LIST&gt;
+	&lt;/BWFXML&gt;</code></pre>
+</doc-codeblock></div>
+<p>You can read a very detailed article about iXML <a href="http://www.gallery.co.uk/ixml/iXML-LineUp.pdf">here</a>.</p>
+<hr />
+<doc-anchor-target id="specification">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#specification">#</doc-anchor-trigger>
+        <span>Specification</span>
+    </h2>
+</doc-anchor-target>
+<p>The iXML Specification can be found <a href="http://www.ixml.info">here</a>.</p>
+<hr />
+<doc-anchor-target id="final-cut-pro-ixml-support">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-ixml-support">#</doc-anchor-trigger>
+        <span>Final Cut Pro iXML Support</span>
+    </h2>
+</doc-anchor-target>
+<p>In Final Cut Pro, you can assign roles based on the iXML metadata using the <strong>Assign iXML track names if available</strong> checkbox in Import preferences.</p>
+<p><figure class="content-center">
+    <img src="static/audio-roles.png" alt="Audio Roles" />
+    <figcaption class="caption">Audio Roles</figcaption>
+</figure>
+</p>
+<p>When this checkbox is selected, Final Cut Pro analyses imported audio for iXML metadata tags, then creates subroles with the names embedded by the audio field recorder, and assigns the subroles to the corresponding components in the imported clips.</p>
+<p>The Assign Role setting and the <strong>Assign iXML track names if available</strong> setting can work together. For example, you can create a custom role such as Location Sound using the role editor and then choose that role from the Assign Role pop-up menu. If the <strong>Assign iXML track names if available</strong> checkbox is selected, imported clips are assigned the Location Sound role, with custom audio channel names coming from the iXML file.</p>
+<p><figure class="content-center">
+    <img src="static/roles.png" alt="Audio Roles" />
+    <figcaption class="caption">Audio Roles</figcaption>
+</figure>
+</p>
+<p>All of this occurs automatically on import, and the settings are retained for future import operations.</p>
+<p>It&#x27;s important to note however that during the import, Final Cut Pro will copy this iXML metadata and store it in the Library database - it does <strong>not</strong> read the iXML metadata more than once, so if you update the iXML metadata after import, these changes will <strong>not</strong> be reflected in your Final Cut Pro Library.</p>
+<p>Although QuickTime files can also contain iXML metadata, as of version 10.3.3, Final Cut Pro seems to only be able to analyse WAV files on import.</p>
+<p>Final Cut Pro Supports the following iXML fields:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>iXML Parameter</th>
+<th>Final Cut Pro Metadata Property</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CIRCLED</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>NOTE</td>
+<td>Notes</td>
+</tr>
+<tr>
+<td>TAPE</td>
+<td>Reel</td>
+</tr>
+<tr>
+<td>SCENE</td>
+<td>Scene</td>
+</tr>
+<tr>
+<td>TAKE</td>
+<td>Take</td>
+</tr>
+<tr>
+<td>TRACK: NAME</td>
+<td>Audio Configuration Track Name</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As of Final Cut Pro 10.3.3, the following parameter&#x27;s don&#x27;t seem to be supported:</p>
+<ul>
+<li>PROJECT</li>
+<li>TAKE_TYPE</li>
+<li>NO_GOOD</li>
+<li>FALSE_START</li>
+<li>WILD_TRACK</li>
+<li>UBITS</li>
+<li>SYNC_POINT_LIST</li>
+<li>SPEED</li>
+<li>HISTORY</li>
+<li>FILE_SET</li>
+<li>TRACK_LIST: FUNCTION</li>
+</ul>
+<hr />
+<doc-anchor-target id="tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tools">#</doc-anchor-trigger>
+        <span>Tools</span>
+    </h2>
+</doc-anchor-target>
+<p>The most useful tool for reading and writing iXML data is the free <a href="https://www.sounddevices.com/products/accessories/software/wave-agent">Sound Devices Wave Agent</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -209,20 +330,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../bugtracker/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../developers/fxplug/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Bug Tracker</span>
+                                                <span class="block mt-1">Developers</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../workflowextensions/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../developers/librarybundle/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Workflow Extensions</span>
+                                                <span class="block mt-1">Developers</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -266,6 +387,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Plugins", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "iXML", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

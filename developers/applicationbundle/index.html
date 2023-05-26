@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738398252419">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 2.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Application Bundle</title>
+    <meta name="title" content="Application Bundle">
+    <meta name="description" content="This document is a random collection of notes, thoughts and comments as we start to research the \"inside workings\" of Apple's Final Cut Pro package." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fcp.cafe/developers/applicationbundle/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcp.cafe/developers/applicationbundle/">
+    <meta property="og:title" content="Application Bundle">
+    <meta property="og:description" content="This document is a random collection of notes, thoughts and comments as we start to research the \"inside workings\" of Apple's Final Cut Pro package.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fcp.cafe/developers/applicationbundle/">
+    <meta property="twitter:title" content="Application Bundle">
+    <meta property="twitter:description" content="This document is a random collection of notes, thoughts and comments as we start to research the \"inside workings\" of Apple's Final Cut Pro package.">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=2.4.0.738398252419" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fcpcafe.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fcpcafe.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FinalCutPro/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path fill-rule="evenodd" d="M7.72.22a.75.75 0 011.06 0l1.204 1.203A4.983 4.983 0 0112 1c.717 0 1.4.151 2.016.423L15.22.22a.75.75 0 011.06 1.06l-.971.972A4.988 4.988 0 0117 6v1.104a2.755 2.755 0 011.917 1.974l1.998-.999a.75.75 0 01.67 1.342L19 10.714V13.5l3.25.003a.75.75 0 110 1.5L19 15.001V16a7.02 7.02 0 01-.204 1.686.833.833 0 01.04.018l2.75 1.375a.75.75 0 11-.671 1.342l-2.638-1.319A7 7 0 0112 23a7 7 0 01-6.197-3.742l-2.758 1.181a.75.75 0 11-.59-1.378l2.795-1.199A7.007 7.007 0 015 16v-.996H1.75a.75.75 0 010-1.5H5v-2.79L2.415 9.42a.75.75 0 01.67-1.342l1.998.999A2.755 2.755 0 017 7.104V6a4.99 4.99 0 011.69-3.748l-.97-.972a.75.75 0 010-1.06zM8.5 7h7V6a3.5 3.5 0 10-7 0v1zm-2 3.266V9.75c0-.69.56-1.25 1.25-1.25h8.5c.69 0 1.25.56 1.25 1.25V16a5.5 5.5 0 01-11 0v-5.734z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Bugs &amp; Feature Requests</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FinalCutPro/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v9.5C0 13.216.784 14 1.75 14H3v1.543a1.457 1.457 0 002.487 1.03L8.061 14h6.189A1.75 1.75 0 0016 12.25v-9.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v9.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 15.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-9.5z"/><path d="M22.5 8.75a.25.25 0 00-.25-.25h-3.5a.75.75 0 010-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0122.25 20H21v1.543a1.457 1.457 0 01-2.487 1.03L15.939 20H10.75A1.75 1.75 0 019 18.25v-1.465a.75.75 0 011.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 01.53.22l2.72 2.72v-2.19a.75.75 0 01.75-.75h2a.25.25 0 00.25-.25v-9.5z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FinalCutPro/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M7.72.22a.75.75 0 011.06 0l1.204 1.203A4.983 4.983 0 0112 1c.717 0 1.4.151 2.016.423L15.22.22a.75.75 0 011.06 1.06l-.971.972A4.988 4.988 0 0117 6v1.104a2.755 2.755 0 011.917 1.974l1.998-.999a.75.75 0 01.67 1.342L19 10.714V13.5l3.25.003a.75.75 0 110 1.5L19 15.001V16a7.02 7.02 0 01-.204 1.686.833.833 0 01.04.018l2.75 1.375a.75.75 0 11-.671 1.342l-2.638-1.319A7 7 0 0112 23a7 7 0 01-6.197-3.742l-2.758 1.181a.75.75 0 11-.59-1.378l2.795-1.199A7.007 7.007 0 015 16v-.996H1.75a.75.75 0 010-1.5H5v-2.79L2.415 9.42a.75.75 0 01.67-1.342l1.998.999A2.755 2.755 0 017 7.104V6a4.99 4.99 0 011.69-3.748l-.97-.972a.75.75 0 010-1.06zM8.5 7h7V6a3.5 3.5 0 10-7 0v1zm-2 3.266V9.75c0-.69.56-1.25 1.25-1.25h8.5c.69 0 1.25.56 1.25 1.25V16a5.5 5.5 0 01-11 0v-5.734z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Bugs &amp; Feature Requests</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FinalCutPro/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v9.5C0 13.216.784 14 1.75 14H3v1.543a1.457 1.457 0 002.487 1.03L8.061 14h6.189A1.75 1.75 0 0016 12.25v-9.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v9.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 15.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-9.5z"/><path d="M22.5 8.75a.25.25 0 00-.25-.25h-3.5a.75.75 0 010-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0122.25 20H21v1.543a1.457 1.457 0 01-2.487 1.03L15.939 20H10.75A1.75 1.75 0 019 18.25v-1.465a.75.75 0 011.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 01.53.22l2.72 2.72v-2.19a.75.75 0 01.75-.75h2a.25.25 0 00.25-.25v-9.5z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="grow min-w-0 px-6 md:px-16">
+                        <main class="relative pt-6 pb-16">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="application-bundle" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#application-bundle">#</doc-anchor-trigger>
+        <span>Application Bundle</span>
+    </h1>
+</doc-anchor-target>
+<p>This document is a random collection of notes, thoughts and comments as we start to research the &quot;inside workings&quot; of Apple&#x27;s Final Cut Pro package.</p>
+<p>It&#x27;s interesting to note that most of the Frameworks contained within Final Cut Pro X can also be found in Apple Motion, iMovie on iOS, iMovie on macOS and Clips on iOS.</p>
+<hr />
+<doc-anchor-target id="what-is-a-framework">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-a-framework">#</doc-anchor-trigger>
+        <span>What is a Framework?</span>
+    </h2>
+</doc-anchor-target>
+<p>A framework is a bundle (a structured directory) that contains a dynamic shared library along with associated resources, such as <code v-pre>.nib</code> files, image files, and header files. When you develop an application, your project links to one or more frameworks. For example, iPhone application projects link by default to the Foundation, UIKit, and Core Graphics frameworks. Your code accesses the capabilities of a framework through the application programming interface (API), which is published by the framework through its header files. Because the library is dynamically shared, multiple applications can access the framework code and resources simultaneously. The system loads the code and resources of a framework into memory, as needed, and shares the one copy of a resource among all applications.</p>
+<hr />
+<doc-anchor-target id="history-lesson">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#history-lesson">#</doc-anchor-trigger>
+        <span>History Lesson</span>
+    </h2>
+</doc-anchor-target>
+<p>Phil Pan <a href="https://www.facebook.com/Alex4D/posts/2875905815768477?comment_id=2878510342174691&amp;comment_tracking=%7B%22tn%22%3A%22R%22%7D">writes on Alex4D&#x27;s Facebook Page</a>:</p>
+<blockquote>
+<p>I worked on that team for five years. There wasn&#x27;t much work done on merging Shake and FCP. Most of the advanced work done by the core Shake team focused on the Helium renderer, which today is core to Pro Apps today. Shake&#x27;s genius was how it was ultra-efficient as CPU-only code. Management had little interest in Shake and most resources went to Motion and Aperture; projects that Steve could related to when he wasn&#x27;t completely absorbed by the iPad, the iPhone and the iTunes business ecosystem. The author of this patent, Christophe Souchard, is a French mathematician who had tons of prior experience at Discreet/Autodesk. He joined Apple when it purchased his Senso technology, which was the first Intel-based library to do advanced image scaling and frame-rate conversion using motion vector estimation. While at Apple, Christophe&#x27;s skills impressed management enough that his position was labelled &quot;Applied Magic&quot;, and a veteran aerospace software engineer was hired to perform curation and clerical code management for his inventions. He introduced the team to methods using partial differential equations and while exteremely slow to compute, his next-generation prototypes performed jaw-dropping feats 15 years before similar tools would be introduced by Adobe. None of this work ever came out because Apple had a policy not to release compute-intensive software. Randy Ubillos (father of FCP and close to Steve) wouldn&#x27;t accept any operation that took longer than a second per frame to render. This relegated Christophe to a research position for a while, until Randy got so impressed that he monopolized Christophe to work on advanced concepts for FCPX. Randy had some clever ideas about shot alignment and automatic editing, and this patent is the result of one of their collaborative projects. Today Christophe works at Unity Technologies doing advanced AR work, and he consults on the side when he has the time. He&#x27;s recently rumored to have authored the rendering engine for ColorSynth, a complex colour grading plugin for FCPX and Premiere.</p>
+<p>Helium was done in Santa Monica by the mad frenchmen team at Apple; Arnaud Hervas, Emmanuel Mogenet and Chrisophe Souchard. Arnaud was the co-founder of Nothing Real, the company that produced Shake. The idea was to do automatic tiled rendering using all available compute resources, so CPU cores and GPU(s). It was a lot trickier than people would think, as math functions would be rounded differently on different resources, and this would affect pixel values. The renderer has to evaluate the render graph to intelligently tile the proper regions-of-interest; i.e. it has to know the size of convolution kernels and all parts of a shader to produce tiles that will later merge properly, and it has to do all of this in real-time. Beautiful work. Emmanuel is now an executive at Google Research in Switzerland. Arnaud is growing tomatoes in Culver City, when he&#x27;s not working on camera alignement software. Apple could have done a lot more in the high end, but in the last days of Steve, the company shifted its focus on the mass market and mobile devices. It was the right thing to do for all the reasons we know today (the Bottom Line being the most evident), but in so doing it hurt engineering effors in high-end imaging across the world; Adobe was going through a bad patch and the Discreet team at Autodesk was in disarray. The high-end was picked up by The Foundry: Its founder, Bruno Nicoletti (a Discreet alumnus) had the clever idea to acquire Nuke from Digital Domain and he had the skills and industry knowledge to turn it into the work-horse that it&#x27;s become today. Still, Nuke is a geek&#x27;s tool and there could have been an opportunity for a more artist-oriented solution in the high-end. This would not be one of Apple&#x27;s pursuits: After a couple of years of soul-searching it became clear in 2007 that the future of Apple would be the iPhone and that all the Pro Apps stuff was no longer interesting. It survived nonetheless and I&#x27;d say that today the spirit of high(ish) end imaging is coming back to Apple. But so is the case at Adobe. In the end, the consumer wins and it&#x27;s an exciting time to be buying graphics solutions.</p>
+</blockquote>
+<hr />
+<doc-anchor-target id="plugins">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#plugins">#</doc-anchor-trigger>
+        <span>Plugins</span>
+    </h2>
+</doc-anchor-target>
+<p>Internally, Final Cut Pro supports and contains a number of different plugin types and formats:</p>
+<hr />
+<doc-anchor-target id="compressor">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#compressor">#</doc-anchor-trigger>
+        <span>Compressor</span>
+    </h3>
+</doc-anchor-target>
+<p>Contains <code v-pre>CompressorKit.bundle</code> - which can also be found in Compressor and Motion - it&#x27;s basically the Compressor engine.</p>
+<hr />
+<doc-anchor-target id="fcp-dal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fcp-dal">#</doc-anchor-trigger>
+        <span>FCP-DAL</span>
+    </h3>
+</doc-anchor-target>
+<p>Contains <code v-pre>ACD.plugin</code> - a CoreMediaIO plugin that enables the &quot;A/V Output&quot; feature in Final Cut Pro.</p>
+<p>The CoreMediaIO Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.</p>
+<p>You can download sample DAL code <a href="https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html">here</a>.</p>
+<hr />
+<doc-anchor-target id="fxplug">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug">#</doc-anchor-trigger>
+        <span>FxPlug</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html">The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. </a></p>
+<p>This folder contains two plugins:</p>
+<ul>
+<li><code v-pre>FiltersLegacyPath.bundle</code> - I believe this contains older Filters (such as the Primatte keyer) still used by Motion &amp; Final Cut Pro.</li>
+<li><code v-pre>PAECIAdaptor.fxplug</code> - I have no idea what a PAECI is, or what this FxPlug does.</li>
+</ul>
+<hr />
+<doc-anchor-target id="internalfiltersxpcpluginkit">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#internalfiltersxpcpluginkit">#</doc-anchor-trigger>
+        <span>InternalFiltersXPC.pluginkit</span>
+    </h3>
+</doc-anchor-target>
+<p>Internal filters used by Final Cut Pro &amp; Motion.</p>
+<hr />
+<doc-anchor-target id="mediaproviders">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mediaproviders">#</doc-anchor-trigger>
+        <span>MediaProviders</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>MotionEffect.fxp</code> - Contains Motion Particle Images, Materials and Text Styles.</p>
+<hr />
+<doc-anchor-target id="radplugins">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#radplugins">#</doc-anchor-trigger>
+        <span>RADPlugins</span>
+    </h3>
+</doc-anchor-target>
+<p>Plugins for 3rd Party codecs:</p>
+<ul>
+<li><code v-pre>Archive.RADPlug</code></li>
+<li><code v-pre>AVCHD.RADPlug</code></li>
+<li><code v-pre>MPEG2.RADPlug</code></li>
+<li><code v-pre>MPEG4.RADPlug</code></li>
+<li><code v-pre>P2.RADPlug</code></li>
+<li><code v-pre>P2AVF.RADPlug</code></li>
+<li><code v-pre>XDCAM.RADPlug</code></li>
+<li><code v-pre>XDCAMFormat.RADPlug</code></li>
+</ul>
+<hr />
+<doc-anchor-target id="frameworks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frameworks">#</doc-anchor-trigger>
+        <span>Frameworks</span>
+    </h2>
+</doc-anchor-target>
+<hr />
+<doc-anchor-target id="bloodhound">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bloodhound">#</doc-anchor-trigger>
+        <span>Bloodhound</span>
+    </h3>
+</doc-anchor-target>
+<p>I&#x27;m not exactly sure what this is but I&#x27;m ASSUMING it has something to do with the more complex side of Apple Motion (possibly rendering?) - due to the following string found in the executable:</p>
+<p><code v-pre>PROGRAM:Bloodhound  PROJECT:Motion-29551.8.52</code></p>
+<p>I don&#x27;t think this is much help to CommandPost.</p>
+<hr />
+<doc-anchor-target id="coremedia">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coremedia">#</doc-anchor-trigger>
+        <span>CoreMedia</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://developer.apple.com/reference/coremedia">Represent time-based audio-visual assets with essential data types.</a></p>
+<hr />
+<doc-anchor-target id="coremediaio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coremediaio">#</doc-anchor-trigger>
+        <span>CoreMediaIO</span>
+    </h3>
+</doc-anchor-target>
+<p>The <a href="https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2">CoreMediaIO</a> Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.</p>
+<hr />
+<doc-anchor-target id="flexo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#flexo">#</doc-anchor-trigger>
+        <span>Flexo</span>
+    </h3>
+</doc-anchor-target>
+<p>This seems to be one of the most important frameworks for iMovie &amp; Final Cut Pro.</p>
+<p>It contains:</p>
+<ul>
+<li>All the default <code v-pre>.audio.effectBundle</code> and <code v-pre>.effectBundle</code> files.</li>
+<li>The FCPX Document Type Definition&#x27;s (version 1.0 to 1.6)</li>
+<li>Compressor settings for FCPX Bundles, Library XMLs and Project XMLs</li>
+<li>72 Fonts used internally by Final Cut Pro &amp; iMovie</li>
+<li>3D Luts (<code v-pre>VLog_to_V709_forV35_ver100.3dlut</code> &amp; <code v-pre>VLog_to_V2020_forV35_20160707.3dlut</code>)</li>
+<li>Files for <code v-pre>Trailers</code>, <code v-pre>Themes</code>, <code v-pre>Titles</code> and <code v-pre>Maps</code></li>
+<li>Metadata Definitions (<code v-pre>DPPEditorialServices</code>, <code v-pre>DPPMedia</code> &amp; <code v-pre>MXFMetadata</code>)</li>
+<li>Color Presets (in the <code v-pre>.cboard</code> format)</li>
+<li><a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/LoadingResources/CocoaNibs/CocoaNibs.html">Nib files</a> for a huge range of different Final Cut Pro &amp; iMovie Windows &amp; Modules.</li>
+<li><code v-pre>FFLocalizable.strings</code> which contains a huge range of different UI strings for both iMovie and Final Cut Pro</li>
+<li><code v-pre>ProMSRendererTool</code> seems to be both a video and audio rendering engine based on the <code v-pre>ProMSRendererLocalizable.strings</code> file.</li>
+</ul>
+<p>It also contains the following Frameworks:</p>
+<doc-anchor-target id="deepskylite">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deepskylite">#</doc-anchor-trigger>
+        <span>DeepSkyLite</span>
+    </h4>
+</doc-anchor-target>
+<p>This framework seems to be the Core Data interface for Final Cut Pro. It contains the Compiled Core Data Models.</p>
+<doc-anchor-target id="facecoreembedded">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#facecoreembedded">#</doc-anchor-trigger>
+        <span>FaceCoreEmbedded</span>
+    </h4>
+</doc-anchor-target>
+<p>FaceCore is Apple&#x27;s Face Recognition framework, which was <a href="http://www.darkreading.com/risk-management/apple-to-acquire-polar-rose-face-recognition-firm/d/d-id/1092644?">acquired from Polar Rose</a>.</p>
+<hr />
+<doc-anchor-target id="fxplug-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-1">#</doc-anchor-trigger>
+        <span>FxPlug</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html">The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. </a></p>
+<hr />
+<doc-anchor-target id="helium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#helium">#</doc-anchor-trigger>
+        <span>Helium</span>
+    </h3>
+</doc-anchor-target>
+<p>Helium looks like it&#x27;s the video processing engine for Final Cut Pro, and other ProApps (i.e. there&#x27;s references to Shake in some of the frameworks).</p>
+<p>It looks like it&#x27;s using <a href="http://www.nvidia.com/docs/IO/8228/GDC2003_OGL_ARBVertexProgram.pdf">OpenGL&#x27;s ARB Vertex</a> Programming language?</p>
+<p>It contains two &quot;Plug-ins&quot;:</p>
+<ul>
+<li><code v-pre>HCache</code></li>
+<li><code v-pre>HConverter</code></li>
+</ul>
+<p>It contains several internal Frameworks:</p>
+<doc-anchor-target id="heliumfilters">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#heliumfilters">#</doc-anchor-trigger>
+        <span>HeliumFilters</span>
+    </h4>
+</doc-anchor-target>
+<p>Looks like it contains a bunch of OpenGL Shaders. Assuming it&#x27;s a bunch of filters for Helium?</p>
+<doc-anchor-target id="heliumrender">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#heliumrender">#</doc-anchor-trigger>
+        <span>HeliumRender</span>
+    </h4>
+</doc-anchor-target>
+<p>Looks like it contains a bunch of OpenGL Shaders. Assuming it&#x27;s the &quot;render&quot; engine for Helium?</p>
+<doc-anchor-target id="heliumsenso">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#heliumsenso">#</doc-anchor-trigger>
+        <span>HeliumSenso</span>
+    </h4>
+</doc-anchor-target>
+<p>Senso looks like the Optical Flow engine (possibly the same that originally came from Shake?).</p>
+<doc-anchor-target id="heliumsensocore">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#heliumsensocore">#</doc-anchor-trigger>
+        <span>HeliumSensoCore</span>
+    </h4>
+</doc-anchor-target>
+<p>Looks like more Optical Flow OpenGL functions.</p>
+<doc-anchor-target id="heliumsensocore2">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#heliumsensocore2">#</doc-anchor-trigger>
+        <span>HeliumSensoCore2</span>
+    </h4>
+</doc-anchor-target>
+<p>More Optical Flow code - but this looks less like OpenGL functions, and more like some kind of &quot;interface&quot;</p>
+<hr />
+<doc-anchor-target id="lithium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lithium">#</doc-anchor-trigger>
+        <span>Lithium</span>
+    </h3>
+</doc-anchor-target>
+<p>Looks like another Framework for doing processing on the GPU using the <a href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language">OpenGL Shading Language</a>. It has references to <a href="https://developer.apple.com/metal/">Metal</a> as well. I&#x27;m ASSUMING that this the main Shader code.</p>
+<p>Has two .glsl files inside:</p>
+<ul>
+<li><code v-pre>shadow.glsl</code></li>
+<li><code v-pre>ShadowBlurFragShader.glsl</code></li>
+</ul>
+<hr />
+<doc-anchor-target id="lunakit">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lunakit">#</doc-anchor-trigger>
+        <span>LunaKit</span>
+    </h3>
+</doc-anchor-target>
+<p>This looks like the Framework that contains all of the ProApps UI elements - from Windows, to Audio Meters, to Toolbars and the Browser.</p>
+<p>It contains a bunch of <code v-pre>.car</code> (CoreUI Archives) files, which can be extracted using <a href="https://github.com/insidegui/AssetCatalogTinkerer">Asset Catalog Tinkerer</a>:</p>
+<ul>
+<li><strong>AppThemeBits.car:</strong> contains LOTS of PSDs of UI elements.</li>
+<li><strong>AppThemeBitsB.car:</strong> looks like a duplicate of <code v-pre>AppThemeBits.car</code>, but maybe at higher resolution (Retina version?)</li>
+<li><strong>Assets.car:</strong> looks like it contains all of the mouse cursors.</li>
+<li><strong>NOX.car:</strong> UI Elements such as Checkboxes, Buttons, Steppers, Text Fields, etc.</li>
+<li><strong>NOXConsumer.car</strong>: Assuming it&#x27;s the same as <code v-pre>NOX.car</code>, except for iMovie?</li>
+<li><strong>NOXHud_MOTION.car:</strong> Assuming it&#x27;s all the UI graphics for the HUD in Motion?</li>
+<li><strong>NOXHud.car:</strong> UI graphics for Final Cut Pro&#x27;s HUD?</li>
+<li><strong>NOXInspector.car:</strong> - UI graphics for Final Cut Pro&#x27;s Inspector?</li>
+<li><strong>NOXRevealed.car:</strong> Not sure what these graphics are? Segmented Control?</li>
+<li><strong>NOXToken.car:</strong> This bundle looks empty?</li>
+<li><strong>NOXToolbar.car</strong>: Looks like it just has two loading animations?</li>
+<li><strong>NOXViewer.car</strong> UI graphics for Final Cut Pro&#x27;s Viewer?</li>
+<li><strong>WideSliderIconAppearance.car:</strong> Not sure what these graphics are for?</li>
+</ul>
+<p>It contains a human-readible plist file called <code v-pre>Container.moduleLayout</code>.</p>
+<p>It contains a bunch of other interesting plain-text plist files:</p>
+<ul>
+<li><strong>LKColor.plist:</strong> Colour settings for a huge range of different UI elements (for things like HUDs, etc.)</li>
+<li><strong>LKCursor.plist:</strong> Hotspot Locations for various mouse cursors.</li>
+<li><strong>SRColor.plist:</strong> Colour settings for a huge range of different UI elements (for things like Audio Waveforms, etc.)</li>
+<li><strong>SRCursor.plist:</strong> Hotspot Locations for various mouse cursors.</li>
+<li><strong>TLKColor.plist:</strong> Colour settings for various timeline elements.</li>
+</ul>
+<p>It also contains a Perl script called <code v-pre>viddiagnose.pl</code>. I&#x27;m ASSUMING this is a script that creates Diagnostic reports for Apple to help debug FCPX?</p>
+<p>There are also localised files in LOTS of different languages. In the <code v-pre>English.lproj</code> folder for example, it contains:</p>
+<ul>
+<li><strong>Commands.strings:</strong> A binary plist of Command Editor strings.</li>
+<li>Several <code v-pre>.nib</code> files for what looks like the Command Editor?</li>
+<li><strong>LKLocalizable.strings:</strong> Binary plist which contains a few basic strings for when you trash Final Cut Pro&#x27;s preferences, and copyright messages.</li>
+<li><strong>LunaKit.strings</strong>: Binary plist containing a list of colours (probably for the Command Editor).</li>
+<li><strong>ModuleKit.strings:</strong> Binary plist containing text for Window Layouts.</li>
+<li><strong>NSProCommandDescriptions.strings:</strong> Binary plist containing a single key (<code v-pre>ChangeWindowLayout</code>).</li>
+<li><strong>NSProCommandNames.strings:</strong> Binary plist containing a single key (<code v-pre>ChangeWindowLayout</code>).</li>
+</ul>
+<hr />
+<doc-anchor-target id="mediatoolbox">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mediatoolbox">#</doc-anchor-trigger>
+        <span>MediaToolbox</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://developer.apple.com/library/content/releasenotes/General/APIDiffsMacOSX10_10_3/modules/MediaToolbox.html">Contains interfaces for playing video and audio content.</a></p>
+<hr />
+<doc-anchor-target id="mio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mio">#</doc-anchor-trigger>
+        <span>MIO</span>
+    </h3>
+</doc-anchor-target>
+<p>Not sure what MIO stands for (maybe MediaIO or <a href="https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2">CoreMediaIO</a>?) but seems to be something to do with the reading and processing of video &amp; audio files. Possibly also has something to do with the controlling of FireWire DV devices?</p>
+<hr />
+<doc-anchor-target id="ozone">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ozone">#</doc-anchor-trigger>
+        <span>Ozone</span>
+    </h3>
+</doc-anchor-target>
+<p>Ozone looks like it&#x27;s the Apple Motion render engine. This Framework is identical in both Final Cut Pro &amp; Motion.</p>
+<p>This framework is quite big in terms of file size as it contains things like Environment Map&#x27;s and Physical Layer Assets (all in OpenEXR format).</p>
+<p>It contains one internal Framework:</p>
+<doc-anchor-target id="audiomixengine">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#audiomixengine">#</doc-anchor-trigger>
+        <span>AudioMixEngine</span>
+    </h4>
+</doc-anchor-target>
+<p>As the name suggests, this looks like a Framework that handles audio mixing.</p>
+<p>It also contains several internal Plugins:</p>
+<ul>
+<li><code v-pre>Behaviors.ozp</code></li>
+<li><code v-pre>Navigator.ozp</code></li>
+<li><code v-pre>Particles.ozp</code></li>
+<li><code v-pre>Text.ozp</code></li>
+</ul>
+<hr />
+<doc-anchor-target id="pluginmanager">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pluginmanager">#</doc-anchor-trigger>
+        <span>PluginManager</span>
+    </h3>
+</doc-anchor-target>
+<p>As the name suggests, this looks like the Plugin Manager for Final Cut Pro.</p>
+<p>Interestingly, it contains a property list file called <code v-pre>6B9D8D3C-D3BF-4276-828F-2212D24B11CE.plist</code> which contains a list of 3rd party plugins that can only run certain versions of the plugin on certain versions of Final Cut Pro.</p>
+<hr />
+<doc-anchor-target id="proappsfxsupport">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proappsfxsupport">#</doc-anchor-trigger>
+        <span>ProAppsFxSupport</span>
+    </h3>
+</doc-anchor-target>
+<p>I&#x27;m not exactly sure what this Framework is, but given it contains a whole bunch of files such as:</p>
+<ul>
+<li><code v-pre>BlueNoise1.tiff</code>, <code v-pre>BlueNoise2.tiff</code>, <code v-pre>BlueNoise3.tiff</code></li>
+<li><code v-pre>GaussianNoise1.tiff</code>, <code v-pre>GaussianNoise2.tiff</code>, <code v-pre>GaussianNoise3.tiff</code></li>
+<li><code v-pre>PinkNoise1.tiff</code>, <code v-pre>PinkNoise2.tiff</code>, <code v-pre>PinkNoise3.tiff</code></li>
+<li><code v-pre>TVStatic1.tiff</code>, <code v-pre>TVStatic2.tiff</code>, <code v-pre>TVStatic3.tiff</code></li>
+<li><code v-pre>WhiteNoise1.tiff</code>, <code v-pre>WhiteNoise2.tiff</code>, <code v-pre>WhiteNoise3.tiff</code></li>
+</ul>
+<p>...and the fact it&#x27;s called &quot;ProAppsFxSupport&quot;, one can only assume it&#x27;s a support library for some of the internal effects Apple&#x27;s ProApp&#x27;s take advantage of.</p>
+<p>This Framework also exists in Motion.</p>
+<hr />
+<doc-anchor-target id="prochannel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prochannel">#</doc-anchor-trigger>
+        <span>ProChannel</span>
+    </h3>
+</doc-anchor-target>
+<p>A shared Framework between Motion &amp; Final Cut Pro, I assume this is something to do with colour processing.</p>
+<hr />
+<doc-anchor-target id="procore">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#procore">#</doc-anchor-trigger>
+        <span>ProCore</span>
+    </h3>
+</doc-anchor-target>
+<p>Another shared Framework between Motion &amp; Final Cut Pro, I believe this Framework also has to do with colour processing - such as blend modes, and colour space conversion.</p>
+<hr />
+<doc-anchor-target id="procurveeditor">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#procurveeditor">#</doc-anchor-trigger>
+        <span>ProCurveEditor</span>
+    </h3>
+</doc-anchor-target>
+<p>I believe this Framework contains the Curve Editor used by Apple Motion.</p>
+<hr />
+<doc-anchor-target id="progl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#progl">#</doc-anchor-trigger>
+        <span>ProGL</span>
+    </h3>
+</doc-anchor-target>
+<p>The Framework that handles the OpenGL processing. I believe this creates an <a href="https://developer.apple.com/documentation/appkit/nsopenglcontext"><code v-pre>NSOpenGLContext</code></a> (i.e. an object that represents an OpenGL graphics context, into which all OpenGL calls are rendered).</p>
+<hr />
+<doc-anchor-target id="prographics">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prographics">#</doc-anchor-trigger>
+        <span>ProGraphics</span>
+    </h3>
+</doc-anchor-target>
+<p>A shared Framework between Motion &amp; Final Cut Pro, I assume this is something to do with graphics processing.</p>
+<hr />
+<doc-anchor-target id="proinspector">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proinspector">#</doc-anchor-trigger>
+        <span>ProInspector</span>
+    </h3>
+</doc-anchor-target>
+<p>The Inspector UI used by Motion.</p>
+<hr />
+<doc-anchor-target id="promedia">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#promedia">#</doc-anchor-trigger>
+        <span>ProMedia</span>
+    </h3>
+</doc-anchor-target>
+<p>This Framework looks like it handles support for things like RAW images and OpenEXR. It looks like it uses Metal 1.0.</p>
+<hr />
+<doc-anchor-target id="proosc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proosc">#</doc-anchor-trigger>
+        <span>ProOSC</span>
+    </h3>
+</doc-anchor-target>
+<p>This looks like Motion&#x27;s Framework for handling On-screen Controls.</p>
+<p>It looks like it&#x27;s doing processing on the GPU using the <a href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language">OpenGL Shading Language</a>.</p>
+<p>It has several .glsl files inside:</p>
+<ul>
+<li><code v-pre>GammaLineFragment.glsl</code></li>
+<li><code v-pre>RGBBackgroundFragment.glsl</code></li>
+<li><code v-pre>RGBForegroundFragment.glsl</code></li>
+<li><code v-pre>RGBMaskFillBackgroundFragment.glsl</code></li>
+<li><code v-pre>RGBMaskFillForegroundFragment.glsl</code></li>
+<li><code v-pre>RGBMaskFillVertex.glsl</code></li>
+<li><code v-pre>RGBVertex.glsl</code></li>
+<li><code v-pre>ShapeDashFragment.glsl</code></li>
+<li><code v-pre>ShapeDashVertex.glsl</code></li>
+<li><code v-pre>ShapeSmoothFragment.glsl</code></li>
+<li><code v-pre>ShapeSmoothVertex.glsl</code></li>
+</ul>
+<hr />
+<doc-anchor-target id="proshapes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proshapes">#</doc-anchor-trigger>
+        <span>ProShapes</span>
+    </h3>
+</doc-anchor-target>
+<p>Motion&#x27;s framework for handling Shapes.</p>
+<p>Looks like it uses Metal 1.0, and makes uses of the Helium Renderer.</p>
+<hr />
+<doc-anchor-target id="retimingmath">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#retimingmath">#</doc-anchor-trigger>
+        <span>RetimingMath</span>
+    </h3>
+</doc-anchor-target>
+<p>Looks like it&#x27;s used by Motion to do some kind of complex retiming algorithm&#x27;s.</p>
+<hr />
+<doc-anchor-target id="stalgo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stalgo">#</doc-anchor-trigger>
+        <span>Stalgo</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://www.sthu.org/code/stalgo/">STALGO</a> is an industrial-strength C++ software package for computing straight skeletons and mitered offset-curves.</p>
+<hr />
+<doc-anchor-target id="studiosharedresources">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#studiosharedresources">#</doc-anchor-trigger>
+        <span>StudioSharedResources</span>
+    </h3>
+</doc-anchor-target>
+<p>This Framework just looks like it&#x27;s mainly a collection of UI images used by both Motion and Final Cut Pro.</p>
+<hr />
+<doc-anchor-target id="textframework">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#textframework">#</doc-anchor-trigger>
+        <span>TextFramework</span>
+    </h3>
+</doc-anchor-target>
+<p>Text Tools used by both Motion &amp; Final Cut Pro.</p>
+<p>Looks like it uses Metal 1.0.</p>
+<hr />
+<doc-anchor-target id="tlkeventdispatcher">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tlkeventdispatcher">#</doc-anchor-trigger>
+        <span>TLKEventDispatcher</span>
+    </h3>
+</doc-anchor-target>
+<p>TimeLineKit Event Dispatcher.</p>
+<p>This looks like it&#x27;s the &quot;backend&quot; to the magnetic timeline - i.e. the framework that translates user interactions (such as mouse clicks and drags) to actions with Final Cut Pro&#x27;s timeline.</p>
+<p>It looks like you register &quot;events&quot; for the timeline, and this Framework handles these requests.</p>
+<hr />
+<doc-anchor-target id="tlkit">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tlkit">#</doc-anchor-trigger>
+        <span>TLKit</span>
+    </h3>
+</doc-anchor-target>
+<p>The TimeLineKit Framework. This is the Framework that makes up the Magnetic Timeline, and also the timelines for iMovie &amp; Motion.</p>
+<p>It contains a bunch of <code v-pre>.caar</code> files, which are binary plists.</p>
+<p>The <code v-pre>CornerRadius.plist</code> file allows you to adjust the corner radius of clips in the timeline.</p>
+<p>I believe filenames that say &quot;SimpleMode&quot; refer to iMovie.</p>
+<hr />
+<doc-anchor-target id="videotoolbox">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#videotoolbox">#</doc-anchor-trigger>
+        <span>VideoToolbox</span>
+    </h3>
+</doc-anchor-target>
+<p>I think this is the Framework that communicates with AV Foundations, CoreMedia, and handles video decoding, codecs, etc.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../motiontemplates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Motion Templates</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../developers/fcpxml/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Workflow Extension</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Application Bundle", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

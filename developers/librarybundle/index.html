@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738396314943">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738398252419">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Developers</title>
-    <meta name="title" content="Developers">
-    <meta name="description" content="This section of the site is dedicated to developers." />
+    <title>Library Bundle</title>
+    <meta name="title" content="Library Bundle">
+    <meta name="description" content="There's very limited information out there about the Final Cut Pro library bundle." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://fcp.cafe/developers/" />
+    <link rel="canonical" href="https://fcp.cafe/developers/librarybundle/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fcp.cafe/developers/">
-    <meta property="og:title" content="Developers">
-    <meta property="og:description" content="This section of the site is dedicated to developers.">
+    <meta property="og:url" content="https://fcp.cafe/developers/librarybundle/">
+    <meta property="og:title" content="Library Bundle">
+    <meta property="og:description" content="There's very limited information out there about the Final Cut Pro library bundle.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://fcp.cafe/developers/">
-    <meta property="twitter:title" content="Developers">
-    <meta property="twitter:description" content="This section of the site is dedicated to developers.">
+    <meta property="twitter:url" content="https://fcp.cafe/developers/librarybundle/">
+    <meta property="twitter:title" content="Library Bundle">
+    <meta property="twitter:description" content="There's very limited information out there about the Final Cut Pro library bundle.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.738396314943" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.738398252419" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738396314943" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738396314943" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.738398252419" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -49,10 +49,10 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/fcpcafe.png">
-                                <img class="max-h-10 hidden dark:inline-block" src="../static/fcpcafe.png">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fcpcafe.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fcpcafe.png">
                             </span>
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
                         </a>
@@ -193,14 +193,60 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="developers" class="break-words">
+<doc-anchor-target id="library-bundle" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#developers">#</doc-anchor-trigger>
-        <span>Developers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#library-bundle">#</doc-anchor-trigger>
+        <span>Library Bundle</span>
     </h1>
 </doc-anchor-target>
-<p>This section of the site is dedicated to developers.</p>
-<p>In the future we&#x27;ll cover things like FCPXML, Workflow Extensions and FxPlug4.</p>
+<doc-anchor-target id="introduction">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
+    </h3>
+</doc-anchor-target>
+<p>There&#x27;s very limited information out there about the Final Cut Pro library bundle.</p>
+<p>The purpose of this article is to look inside the bundle, and explain what all its bits are and how it works. Let the adventure begin!</p>
+<hr />
+<doc-anchor-target id="core-data">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#core-data">#</doc-anchor-trigger>
+        <span>Core Data</span>
+    </h3>
+</doc-anchor-target>
+<p>Before we dig too deep into the Final Cut Pro library, it&#x27;s important to understand one of the core technologies Apple uses in Final Cut Pro - <strong>Core Data</strong>.</p>
+<p>Core Data is an object graph and persistence framework provided by Apple in the macOS and iOS operating systems. More than 13 years old now (at the time of writing), Core Data was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 3.0 and like many parts of macOS, Core Data owes much of its design to an earlier NeXT product, <a href="https://en.wikipedia.org/wiki/Enterprise_Objects_Framework">Enterprise Objects Framework (EOF)</a>.</p>
+<p>You can watch the original 2004 WWDC session on Core Data <a href="https://www.youtube.com/watch?v=RsmBrENRvig">here</a>.</p>
+<p>You can read Apple&#x27;s official developer documentation on Core Data <a href="https://developer.apple.com/documentation/coredata?language=objc">here</a>.</p>
+<p>Core Data is a framework that you use to manage the model layer objects in an application. It provides generalised and automated solutions to common tasks associated with object life cycle and object graph management, including persistence (meaning that, for example, an iPhone App can remember its settings each time the phone is turned off and on again).</p>
+<p>It allows data organised by the relational entity–attribute model to be serialised into XML, binary, or SQLite stores. The data can be manipulated using higher level objects representing entities and their relationships. Core Data manages the serialised version.</p>
+<p>Core Data can interface directly with SQLite, insulating the developer from the underlying SQL - but it&#x27;s <strong>not</strong> a SQL wrapper, and offers a much higher level of abstraction. Instead of writing SQL, you can create complex queries by associating an <a href="https://developer.apple.com/documentation/foundation/nspredicate?language=objc">NSPredicate</a> object with a fetch request. However, because Core Data can use SQLite, it&#x27;s easy to get confused with the differences between SQLite and Core Data. Remember that Core Data isn’t a database. If you want an <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping (O/RM)</a> or SQL wrapper, Core Data is not what you want.</p>
+<p>Essentially, Core Data is a model layer technology, that&#x27;s been designed to help programmers do lots of cool stuff, whilst writing less code. It&#x27;s a toolkit that allows developers to more easily access and manipulate data. For example, it has built-in undo/redo management, allowing developers to add complex undo/redo functionality to their applications with minimum code.</p>
+<p>Even though Core Data is a fantastic framework, there are several drawbacks. These drawbacks are directly related to the nature of the framework and how it works.</p>
+<p>Core Data can only do its magic because it keeps the object graph it manages in memory. This means that it can only operate on records once they’re in memory. This is very different from performing a SQL query on a database. If you want to delete thousands of records, Core Data first needs to load each record into memory. It goes without saying that this results in memory and performance issues if done incorrectly.</p>
+<p>Another important limitation is the threading model of Core Data. The framework expects to be run on a single thread. Fortunately, Core Data has evolved dramatically over the years and the framework has put <a href="https://cocoacasts.com/core-data-and-concurrency">various solutions</a> in place to make working with Core Data in a multithreaded environment safer and easier.</p>
+<p>For applications that need to manage a complex object graph (i.e. Final Cut Pro), Core Data is a great fit.</p>
+<hr />
+<doc-anchor-target id="deepskylite">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deepskylite">#</doc-anchor-trigger>
+        <span>DeepSkyLite</span>
+    </h3>
+</doc-anchor-target>
+<p>Final Cut Pro uses a lot of internal Frameworks, which you can learn more about <a href="https://lab.commandpost.io/final-cut-pro/application-bundle#frameworks">here</a>.</p>
+<p>Within the Flexo Framework, is a framework called DeepSkyLite, which is essentially the &quot;database engine&quot; for Final Cut Pro.</p>
+<p>Inside the DeepSkyLite Framework is two Compiled Core Data Models:</p>
+<ul>
+<li><code v-pre>DSLite_v1.mom</code></li>
+<li><code v-pre>DSLite_v2b1.mom</code></li>
+</ul>
+<p>A <code v-pre>.mom</code> file is a binary property list that&#x27;s <a href="https://developer.apple.com/documentation/foundation/nskeyedarchiver?language=objc"><code v-pre>NSKeyedArchiver</code></a> encoded. You can easily open it up in something like BBEdit and have a look, but the easiest and best way to explore a Core Data Model is to just <a href="https://stackoverflow.com/a/24162480">import it back into Xcode</a>.</p>
+<p>Here&#x27;s what Final Cut Pro&#x27;s model looks like in Xcode:</p>
+<p><figure class="content-center">
+    <img src="static/model.png" alt="Patent Screenshot" />
+    <figcaption class="caption">Patent Screenshot</figcaption>
+</figure>
+</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -210,20 +256,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../motiontemplates/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../developers/ixml/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Motion Templates</span>
+                                                <span class="block mt-1">i​XML</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../contribute/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../developers/patents/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Contribute</span>
+                                                <span class="block mt-1">Patents</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -267,6 +313,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Developers", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Developers", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
