@@ -1,20 +1,6 @@
-# Case Studies
+# Case Studies on fcp.co
 
-This page contains a collection of case studies from Final Cut Pro users around the world.
-
----
-
-### Apple
-
-- [Jenn Jager](https://www.apple.com/au/final-cut-pro/workflows/)
-- [Our Last Night](https://www.apple.com/au/final-cut-pro/workflows/)
-- [Blood Red Sky](https://www.apple.com/au/final-cut-pro/workflows/)
-- [Elsa Rhae and Barron Link](https://www.apple.com/au/final-cut-pro/workflows/)
-- [The Banker](https://www.apple.com/au/final-cut-pro/workflows/)
-
----
-
-### fcp.co
+Here's some links to case studies on [fcp.co](https://fcp.co):
 
 - [Timbrée or How to Use Stamps to Build a Story (09 May 2023)](https://fcp.co/user-stories/2616-timbree-or-how-to-use-stamps-to-build-a-story)
 - [In Love with Final Cut Pro (10 February 2023)](https://fcp.co/user-stories/2614-in-love-with-final-cut-pro)
