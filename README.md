@@ -2,6 +2,8 @@
 
 # FCP Cafe
 
-The source code for the [fcp.cafe](https://fcp.cafe) website.
+This repository contains the source code for the [fcp.cafe](https://fcp.cafe) website.
 
-This is very much a work-in-progress.
+You can also find a list of Final Cut Pro bug reports and feature requests in the [Issues](https://github.com/CommandPost/FCPCafe/issues) section.
+
+Discussions about the website can also be found [here](https://github.com/CommandPost/FCPCafe/discussions).
