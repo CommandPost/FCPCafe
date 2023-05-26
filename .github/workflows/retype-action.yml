@@ -20,17 +20,23 @@ jobs:
       - name: Install dependencies
         run: npm install axios
 
-      - name: Run script
+      - name: Generate Bug Tracker Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/issues_to_md.js
 
+      - name: Generate Wish List Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/issues_to_wishlist.js
+
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add docs/bugtracker.md; git commit -m "Update bugtracker.md"; git push)
+          git diff --quiet && git diff --staged --quiet || (git add docs/bugtracker.md docs/wishlist.md; git commit -m "Update bugtracker.md and wishlist.md"; git push)
 
   publish:
     name: Publish to retype branch
