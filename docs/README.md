@@ -20,7 +20,7 @@
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
 !!!
-Want to contribute? Simply make a GitHub pull request! [Learn more](https://fcp.cafe/contribute/).
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
 
 ---
@@ -64,3 +64,11 @@ Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos
 - [The Verge - Final Cut Pro for iPad review: still rendering (10mins)](https://www.youtube.com/watch?v=r4QCQ7qGsL4)
 
 Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Toolbox](https://transfertoolbox.io) on [Twitter](https://twitter.com/chrisatlatenite/status/1661610054292758529), allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.
+
+He also discovered that Final Cut Pro (for iPad) [can actually read files from an external SSD](https://twitter.com/chrisatlatenite/status/1661697912202743809).
+
+---
+
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
+!!!
