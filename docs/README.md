@@ -69,6 +69,12 @@ He also discovered that Final Cut Pro (for iPad) [can actually read files from a
 
 ---
 
+### Tuesday 23rd May 2023
+
+Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/) over at Pro Video Coalition.
+
+---
+
 !!!
 Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
