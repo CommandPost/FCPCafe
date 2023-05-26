@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CommandPost/FinalCutPro/master/docs/static/fcpcafe.png" align="right" width="100px" height="100px" />
+<img src="https://raw.githubusercontent.com/CommandPost/FinalCutPro/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Latest News
 
