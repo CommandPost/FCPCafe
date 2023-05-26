@@ -58,6 +58,8 @@ jobs:
           path: docs/
 
       - uses: retypeapp/action-build@latest
+        with:
+          license: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
