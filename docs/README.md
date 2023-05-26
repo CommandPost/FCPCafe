@@ -12,7 +12,7 @@ Want to contribute? Simply make a GitHub pull request! [Learn more](https://fcp.
 
 ### Friday 26th May 2023
 
-Everyone's talking about Final Cut Pro for iPad.
+Everyone's talking about **Final Cut Pro for iPad**.
 
 Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:
 
@@ -24,4 +24,4 @@ Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos
 - [Six Colors - Hands on with Final Cut Pro for iPad (32mins)](https://www.youtube.com/watch?v=VpwUN5o_3mo)
 - [The Verge - Final Cut Pro for iPad review: still rendering (10mins)](https://www.youtube.com/watch?v=r4QCQ7qGsL4)
 
-Chris at LateNite has also announced Transfer Toolbox on [Twitter](https://twitter.com/chrisatlatenite/status/1661610054292758529), allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.
+Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Toolbox](https://transfertoolbox.io) on [Twitter](https://twitter.com/chrisatlatenite/status/1661610054292758529), allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.
