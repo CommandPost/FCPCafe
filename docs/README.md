@@ -1,4 +1,5 @@
 <img src="https://raw.githubusercontent.com/CommandPost/FinalCutPro/master/docs/static/fcpcafe.png" align="right" width="15%" height="15%" />
+
 # Latest News
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
