@@ -4,7 +4,7 @@ This page contains a collection of case studies from Final Cut Pro users around 
 
 ---
 
-## Apple
+### Apple
 
 - [Jenn Jager](https://www.apple.com/au/final-cut-pro/workflows/)
 - [Our Last Night](https://www.apple.com/au/final-cut-pro/workflows/)
@@ -14,7 +14,7 @@ This page contains a collection of case studies from Final Cut Pro users around 
 
 ---
 
-## fcp.co
+### fcp.co
 
 - [Timbrée or How to Use Stamps to Build a Story (09 May 2023)](https://fcp.co/user-stories/2616-timbree-or-how-to-use-stamps-to-build-a-story)
 - [In Love with Final Cut Pro (10 February 2023)](https://fcp.co/user-stories/2614-in-love-with-final-cut-pro)
