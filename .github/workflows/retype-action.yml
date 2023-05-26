@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  issues:
+    types: [opened, closed]
 
 jobs:
   issues_to_markdown:
