@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738398511269">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738398680081">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -21,20 +21,22 @@
     <meta property="og:url" content="https://fcp.cafe/developers/ixml/">
     <meta property="og:title" content="iXML">
     <meta property="og:description" content="iXML is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files.">
+    <meta property="og:image" content="https://fcp.cafe/static/audio-roles.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fcp.cafe/developers/ixml/">
     <meta property="twitter:title" content="iXML">
     <meta property="twitter:description" content="iXML is an open standard for the inclusion of location sound metadata in Broadcast Wave audio files.">
+    <meta property="twitter:image" content="https://fcp.cafe/static/audio-roles.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.738398511269" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.738398680081" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.738398511269" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.738398680081" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.738398511269" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.738398680081" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -248,14 +250,14 @@
 </doc-anchor-target>
 <p>In Final Cut Pro, you can assign roles based on the iXML metadata using the <strong>Assign iXML track names if available</strong> checkbox in Import preferences.</p>
 <p><figure class="content-center">
-    <img src="static/audio-roles.png" alt="Audio Roles" />
+    <img src="../../static/audio-roles.png" alt="Audio Roles" />
     <figcaption class="caption">Audio Roles</figcaption>
 </figure>
 </p>
 <p>When this checkbox is selected, Final Cut Pro analyses imported audio for iXML metadata tags, then creates subroles with the names embedded by the audio field recorder, and assigns the subroles to the corresponding components in the imported clips.</p>
 <p>The Assign Role setting and the <strong>Assign iXML track names if available</strong> setting can work together. For example, you can create a custom role such as Location Sound using the role editor and then choose that role from the Assign Role pop-up menu. If the <strong>Assign iXML track names if available</strong> checkbox is selected, imported clips are assigned the Location Sound role, with custom audio channel names coming from the iXML file.</p>
 <p><figure class="content-center">
-    <img src="static/roles.png" alt="Audio Roles" />
+    <img src="../../static/roles.png" alt="Audio Roles" />
     <figcaption class="caption">Audio Roles</figcaption>
 </figure>
 </p>
