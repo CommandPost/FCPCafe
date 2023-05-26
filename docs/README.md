@@ -27,9 +27,9 @@ Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
 
 ### Saturday 27th May 2023
 
-Hedge on the lookout for passionate beta users to help shape the future of Hedge products (like Hedge, PostLab & EditReady). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
+Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge), [PostLab](https://hedge.video/postlab/benefits) & [EditReady](https://hedge.video/editready)). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
 
-![Hedge Beta Testers](/static/hedge.jpeg)
+![Hedge Beta Program](/static/hedge.jpeg)
 
 ---
 
