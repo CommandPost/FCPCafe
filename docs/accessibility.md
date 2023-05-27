@@ -39,6 +39,19 @@ Apple believe that technology should be accessible to everyone — including **S
 
 ---
 
+It's likely that many people don't realize that a blind person is able to edit videos. **Unsightly Opinions** shows how they edit their videos as blind and low vision editors using their editor of choice, Final Cut Pro X.
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/wKwpiXXNUao?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/4LL_YCHbeZA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+---
+
 ### iPad
 
 Here's an amazing video of **Christopher Hills** using Final Cut Pro on iPad using Switch Control.
