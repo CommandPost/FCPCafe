@@ -1,6 +1,24 @@
 # Bug Tracker
 
-Here's a list of the 30 most recently reported Final Cut Pro bugs:
+This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
+
+We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
+
+In general, whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com).
+
+---
+
+### Final Cut Pro 10.6.6
+
+Here's a list of the main issues we've discovered in the latest Final Cut Pro Release:
+
+- [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
+
+---
+
+### Recently Reported
+
+Here's a list of the **30 most recently reported** Final Cut Pro bugs on our GitHub issues site:
 
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
 - [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87)
