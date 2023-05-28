@@ -20,6 +20,7 @@ Here's a list of the main issues we've discovered in the latest Final Cut Pro Re
 
 Here's a list of the **30 most recently reported** Final Cut Pro bugs on our GitHub issues site:
 
+- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
 - [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
 - [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87)
@@ -46,4 +47,3 @@ Here's a list of the **30 most recently reported** Final Cut Pro bugs on our Git
 - [Crash - Changing order of Roles in Timeline Index  (June 10, 2021)](https://github.com/CommandPost/FCPCafe/issues/60)
 - [Dispatch queue: com.apple.flexo.scrub-buffer-update-thread (February 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/59)
 - [iMac Shuts Down While using Final Cut Pro X (July 22, 2020)](https://github.com/CommandPost/FCPCafe/issues/57)
-- [Unable to set in and out point in browser when viewer is active. (January 15, 2020)](https://github.com/CommandPost/FCPCafe/issues/53)
