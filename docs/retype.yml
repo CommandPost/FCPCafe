@@ -20,6 +20,11 @@ links:
   icon: comment-discussion
   target: blank
 
+- text: Chris on Twitter
+  link: https://twitter.com/chrisatlatenite
+  icon: people
+  target: blank
+
 footer:
   copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
 
