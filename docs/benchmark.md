@@ -12,8 +12,14 @@ The Bruce X benchmark is based on timing how long a Mac configuration takes to e
 
 You can learn more [here](https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/).
 
-### FCP Lag Test
+---
 
-This is a simple test that stresses FCP. It contains 1 PNG, 1 WAV and 1 AIFF. It shows that the wav and aiff interact and create performance lag. Also included is a video file explaining how to replicate this test. This issue has been reported to Apple. 
+### Final Cut Pro Lag Test
 
-https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77
+[Robbie Patton](https://twitter.com/FilmPatton) has created a simple test that stresses Final Cut Pro.
+
+It contains 1 `.png`, 1 `.wav` and 1 `.aiff`. It shows that the `.wav` and `.aiff` interact and create performance lag.
+
+Also included is a video file explaining how to replicate this test. This issue has been reported to Apple.
+
+You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77).
