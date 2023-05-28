@@ -41,5 +41,5 @@ We want this site to be:
 - **No bullshit:** We want this site to be honest, truthful, useful and professional
 - **Community Driven:** This isn't our site, it's "owned" by the professional Final Cut Pro Community
 - **Modern:** This site should work great on the latest browsers, including mobile
-- **Fast & Clean:** This should should load quickly, and be easy to navigate
+- **Fast & Clean:** This site should load quickly, and be easy to navigate
 - **No analytics or user tracking:** No cookies here!
