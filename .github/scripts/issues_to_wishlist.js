@@ -27,7 +27,20 @@ const generateMarkdown = (issues) => {
     content += `- [${issue.title} (${date})](${issue.html_url})\n`;
   }
 
-  fs.writeFileSync('docs/wishlist.md', content);
+  let existingContent = fs.readFileSync('docs/wishlist.md', 'utf-8');
+
+  // Find the key phrase index
+  const keyPhrase = 'Here\'s a list of the 30 most recently added Final Cut Pro feature requests:';
+  let keyPhraseIndex = existingContent.indexOf(keyPhrase);
+
+  // Check if the key phrase is found in the existing content
+  if (keyPhraseIndex !== -1) {
+    // Extract the content before the key phrase
+    existingContent = existingContent.slice(0, keyPhraseIndex);
+  }
+
+  // Write the combined content to the file
+  fs.writeFileSync('docs/wishlist.md', existingContent + content);
 };
 
 getIssues().then(generateMarkdown);
