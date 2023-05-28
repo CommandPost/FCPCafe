@@ -19,15 +19,22 @@ const getIssues = async () => {
 };
 
 const generateMarkdown = (issues) => {
-  let content = '# Bug Tracker\n\n';
-  content += 'Here\'s a list of the 30 most recently reported Final Cut Pro bugs:\n\n';
+  // read the existing content
+  let oldContent = fs.readFileSync('docs/bugtracker.md', 'utf-8');
 
+  // split it at the marker line and keep only the part before it
+  let marker = 'Here\'s a list of the **30 most recently reported** Final Cut Pro bugs on our GitHub issues site:';
+  oldContent = oldContent.split(marker)[0];
+
+  let newContent = `${oldContent}${marker}\n\n`;
+
+  // build the new list
   for (const issue of issues) {
     const date = new Date(issue.created_at).toLocaleDateString("en-US", { day: 'numeric', month: 'long', year: 'numeric' });
-    content += `- [${issue.title} (${date})](${issue.html_url})\n`;
+    newContent += `- [${issue.title} (${date})](${issue.html_url})\n`;
   }
 
-  fs.writeFileSync('docs/bugtracker.md', content);
+  fs.writeFileSync('docs/bugtracker.md', newContent);
 };
 
 getIssues().then(generateMarkdown);
