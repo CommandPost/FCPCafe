@@ -12,7 +12,7 @@ In general, whenever posting a new bug/issue to GitHub, we also submit feedback 
 
 Here's a list of the main issues we've discovered in the latest Final Cut Pro Release:
 
-- [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
+- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
 
 ---
 
