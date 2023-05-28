@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>https://fcp.cafe/blog/</link>
+    <description>Blog</description>
+    <copyright>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 24 May 2023 00:00:00 GMT</lastBuildDate>
+    <generator>https://retype.com</generator>
+    <atom:link rel="self" type="application/rss+xml" href="https://fcp.cafe/blog/feed.xml" />
+    <item>
+      <title>Wednesday 24th May 2023</title>
+      <guid isPermaLink="true">https://fcp.cafe/blog/20230524/</guid>
+      <description>This is a test.</description>
+      <author>Chris Hocking</author>
+      <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tuesday 23rd May 2023</title>
+      <guid isPermaLink="true">https://fcp.cafe/blog/20230523/</guid>
+      <description>Iain Anderson has written a very detailed Final Cut Pro 10.6.6 blog post over at Pro Video Coalition.</description>
+      <author>Chris Hocking</author>
+      <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
