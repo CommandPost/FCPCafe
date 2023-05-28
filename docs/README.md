@@ -33,6 +33,12 @@ Hedge are on the lookout for passionate beta users to help shape the future of H
 
 ---
 
+!!!info Sponsored
+Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
+!!!
+
+---
+
 ### Friday 26th May 2023
 
 **Turn of the Tide** premieres today on Netflix. Fully edited in Final Cut Pro.
@@ -43,9 +49,9 @@ Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 & 7) and Ped
 We will be adding an extensive case study [here](https://fcp.cafe/casestudies/turnofthetide/) soon!
 !!!
 
-<div class="video-container">
-    <iframe class="video" src="https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+:::videocontainer
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
 
 ---
 
@@ -53,9 +59,9 @@ We will be adding an extensive case study [here](https://fcp.cafe/casestudies/tu
 
 Edited by Knut Hake.
 
-<div class="video-container">
-    <iframe class="video" src="https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+:::videocontainer
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
 
 ---
 
@@ -63,9 +69,9 @@ Edited by Knut Hake.
 
 FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.
 
-<div class="video-container">
-    <iframe class="video" src="https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+:::videocontainer
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
 
 ---
 
