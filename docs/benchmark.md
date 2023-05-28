@@ -18,7 +18,7 @@ You can learn more [here](https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-b
 
 [Robbie Patton](https://twitter.com/FilmPatton) has created a simple test that stresses Final Cut Pro.
 
-It contains 1 `.png`, 1 `.wav` and 1 `.aiff`. It shows that the `.wav` and `.aiff` interact and create performance lag.
+It contains a `.png`, a `.wav` and a `.aiff`. It shows that the `.wav` and `.aiff` interact and create performance lag.
 
 Also included is a video file explaining how to replicate this test. This issue has been reported to Apple.
 
