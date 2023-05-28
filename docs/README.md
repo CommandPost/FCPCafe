@@ -25,6 +25,17 @@ Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
 
 ---
 
+### Sunday 28th May 2023
+
+We've recently reported two annoying **Final Cut Pro 10.6.6 bugs** to be across:
+
+- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
+- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
+
+We've reported them to Apple, and will keep track of them in our [Bug Tracker](https://fcp.cafe/bugtracker/).
+
+---
+
 ### Saturday 27th May 2023
 
 Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge), [PostLab](https://hedge.video/postlab/benefits) & [EditReady](https://hedge.video/editready)). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
