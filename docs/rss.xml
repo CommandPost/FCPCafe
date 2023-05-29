@@ -4,16 +4,14 @@
         <description><![CDATA[The latest news from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 May 2023 06:34:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 May 2023 06:42:56 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[<img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />]]></title>
             <description><![CDATA[<h1>Latest News</h1>
 <p><strong>FCP Cafe is a technical community for professional Final Cut Pro editors.</strong></p>
 <hr>
-<p>!!!
-Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a>
-!!!</p>
+<p>Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a></p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#&lt;img-src=&quot;https://raw.githubusercontent.com/commandpost/fcpcafe/master/docs/static/fcpcafe.png&quot;-align=&quot;right&quot;-style=&quot;width:-100px-!important;-height:-100px-!important;&quot;-/&gt;</link>
@@ -66,9 +64,8 @@ Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn mo
             <description><![CDATA[<p>Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like <a href="https://hedge.video/hedge">Hedge</a>, <a href="https://hedge.video/postlab/benefits">PostLab</a> &amp; <a href="https://hedge.video/editready">EditReady</a>). If you think you have what it takes and would like to join, sign up <a href="http://bit.ly/HedgeBetaProgram">here</a>.</p>
 <p><img src="/static/hedge.jpeg" alt="Hedge Beta Program"></p>
 <hr>
-<p>!!!info Sponsored
-Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final Cut Pro for Mac to iPad!
-!!!</p>
+<p>info Sponsored
+Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final Cut Pro for Mac to iPad!</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#saturday-27th-may-2023</link>
@@ -79,24 +76,16 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
             <title><![CDATA[Friday 26th May 2023]]></title>
             <description><![CDATA[<p><strong>Turn of the Tide</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
 <p>Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 &amp; 7) and Pedro Ribeiro (Ep's 3, 4 &amp; 6).</p>
-<p>!!!
-We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a> soon!
-!!!</p>
-<p>:::videocontainer
-&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;
-:::</p>
+<p>We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a> soon!</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
 <hr>
 <p><strong>Blood &amp; Gold</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
 <p>Edited by Knut Hake.</p>
-<p>:::videocontainer
-&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;
-:::</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
 <hr>
 <p><strong>Sex O'Clock</strong> premieres today in Czechia. Episodes 3, 6, 9 and 10 was cut in Final Cut Pro by <a href="https://jirifiala.cz">Jiří Fiala</a> (the other episodes were cut in Adobe Premiere).</p>
 <p>FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.</p>
-<p>:::videocontainer
-&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;
-:::</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
 <hr>
 <p>Everyone's talking about <strong>Final Cut Pro for iPad</strong>.</p>
 <p>Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:</p>
@@ -121,9 +110,7 @@ We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/
             <title><![CDATA[Tuesday 23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
 <hr>
-<p>!!!
-Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a>
-!!!</p>
+<p>Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a></p>
 <hr>
 <p><a href="https://fcp.cafe/rss.xml">!button variant=&quot;warning&quot; target=&quot;blank&quot; text=&quot;Get the Latest News via our RSS Feed&quot;</a></p>
 ]]></description>
