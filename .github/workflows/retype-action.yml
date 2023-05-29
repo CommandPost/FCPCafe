@@ -77,7 +77,9 @@ jobs:
   publish:
     name: Publish to retype branch
     needs: issues_to_markdown
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -87,6 +89,10 @@ jobs:
         with:
           name: docs
           path: docs/
+
+      - name: Copy rss.xml
+        run: |
+          cp docs/rss.xml ./rss.xml
 
       - uses: retypeapp/action-build@latest
         with:
