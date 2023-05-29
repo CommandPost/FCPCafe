@@ -26,6 +26,10 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         generator: 'RSS for Node'
     });
 
+    // Ignore everything above the first date
+    const entriesStartIndex = data.indexOf('### ');
+    data = data.substring(entriesStartIndex);
+
     const entries = data.split('\n### ');
 
     for (const entry of entries) {
@@ -39,7 +43,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         content = content.replace(/:::videocontainer/g, '')
             .replace(/:::/g, '')
             .replace(/!!!/g, '')
-            .replace(/!!!info Sponsored[\s\S]*!!!/g, '');
+            .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
+            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
 
         content = md.render(content);
 
