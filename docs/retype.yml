@@ -35,4 +35,4 @@ edit:
   base: /docs
   label: Edit this page on GitHub
 
-favicon: static/favicon.png
+favicon: static/favicon.ico
