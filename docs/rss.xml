@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 29 May 2023 11:11:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 May 2023 23:20:57 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Monday 29th May 2023]]></title>
@@ -22,7 +22,7 @@
 <p>Their upcoming apps will have the same pricing model:</p>
 <ul>
 <li><strong><a href="https://recalltoolbox.io">Recall Toolbox</a></strong> is now <strong>29.99</strong> in your local currency (i.e. <strong>AUD29.99</strong>, <strong>USD29.99</strong>, <strong>CAD29.99</strong>).</li>
-<li><strong><a href="https://trasnfertoolbox.io">Transfer Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
+<li><strong><a href="https://transfertoolbox.io">Transfer Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
 </ul>
 <p>However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.</p>
 <p>Transfer Toolbox is currently waiting for approval on the Mac App Store, but you can download from TestFlight.</p>
