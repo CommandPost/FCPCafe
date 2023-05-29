@@ -24,16 +24,20 @@ You can learn more on their [website](https://colorfinale.com).
 
 Chris at [LateNite](https://latenitefilms.com/technology/) has updated the pricing for [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io) & [Marker Toolbox](https://markertoolbox.io).
 
-- **BRAW Toolbox** is now **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
-- **Marker Toolbox** is now **19.99** in your local currency (i.e. **AUD19.99**, **USD19.99**, **CAD19.99**).
-- **Gyroflow Toolbox** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[BRAW Toolbox](https://brawtoolbox.io)** is now **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
+- **[Marker Toolbox](https://markertoolbox.io)** is now **19.99** in your local currency (i.e. **AUD19.99**, **USD19.99**, **CAD19.99**).
+- **[Gyroflow Toolbox](https://gyroflowtoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 Their upcoming apps will have the same pricing model:
 
-- **Recall Toolbox** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
-- **Transfer Toolbox** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[Recall Toolbox](https://recalltoolbox.io)** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
+- **[Transfer Toolbox](https://trasnfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.
+
+Transfer Toolbox is currently waiting for approval on the Mac App Store, but you can download from TestFlight.
+
+Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.
 
 ---
 
