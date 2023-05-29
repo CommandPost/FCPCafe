@@ -56,7 +56,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+            node-version: 16
 
       - name: Install dependencies
         run: npm install rss markdown-it
@@ -89,25 +89,30 @@ jobs:
           name: docs
           path: docs/
 
-      - uses: retypeapp/action-build@latest
+      - name: Copy rss.xml to a temporary location
+        run: |
+          cp docs/rss.xml /tmp/rss.xml
+
+      - name: Build and publish using Retype
+        uses: retypeapp/action-build@latest
         with:
           license: ${{ secrets.RETYPE_SECRET }}
-
-      - uses: retypeapp/action-github-pages@latest
+          
+      - name: Push to retype branch
+        uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
 
-      - name: Checkout main branch
+      - name: Checkout retype branch
         uses: actions/checkout@v2
         with:
-          ref: main
+          ref: retype
 
-      - name: Copy rss.xml to retype branch
+      - name: Copy rss.xml from the temporary location to retype branch
         run: |
-          git checkout retype
+          cp /tmp/rss.xml ./rss.xml
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          cp rss.xml ../rss.xml
-          git add ../rss.xml
+          git add rss.xml
           git commit -m "Update rss.xml"
           git push
