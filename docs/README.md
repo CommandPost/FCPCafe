@@ -134,4 +134,4 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ---
 
-[!button variant="warning" target="blank" text="RSS Feed"](https://fcp.cafe/rss.xml)
+[!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml)
