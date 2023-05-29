@@ -68,8 +68,12 @@ generate_rss:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add public/rss.xml; git commit -m "Update rss.xml"; git push)
-
+          if [[ $(git status --porcelain) ]]; then
+            git add docs/rss.xml
+            git commit -m "Update rss.xml"
+            git push
+          fi
+          
   publish:
     name: Publish to retype branch
     needs: issues_to_markdown
