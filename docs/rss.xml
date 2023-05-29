@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 29 May 2023 07:17:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 May 2023 07:25:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Monday 29th May 2023]]></title>
@@ -31,7 +31,7 @@
 ]]></description>
             <link>https://fcp.cafe/#monday-29th-may-2023</link>
             <guid isPermaLink="false">Monday 29th May 2023</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Sunday 28th May 2023]]></title>
@@ -45,7 +45,7 @@
 ]]></description>
             <link>https://fcp.cafe/#sunday-28th-may-2023</link>
             <guid isPermaLink="false">Sunday 28th May 2023</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Saturday 27th May 2023]]></title>
@@ -58,7 +58,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
 ]]></description>
             <link>https://fcp.cafe/#saturday-27th-may-2023</link>
             <guid isPermaLink="false">Saturday 27th May 2023</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 27 May 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Friday 26th May 2023]]></title>
@@ -92,7 +92,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
 ]]></description>
             <link>https://fcp.cafe/#friday-26th-may-2023</link>
             <guid isPermaLink="false">Friday 26th May 2023</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tuesday 23rd May 2023]]></title>
@@ -101,7 +101,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
 ]]></description>
             <link>https://fcp.cafe/#tuesday-23rd-may-2023</link>
             <guid isPermaLink="false">Tuesday 23rd May 2023</guid>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
