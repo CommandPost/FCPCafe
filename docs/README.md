@@ -4,6 +4,12 @@
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
+---
+
+[!button variant="warning" target="blank" text="RSS Feed"](https://fcp.cafe/rss.xml)
+
+---
+
 !!!
 Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
@@ -123,12 +129,6 @@ He also discovered that Final Cut Pro (for iPad) [can actually read files from a
 ### Tuesday 23rd May 2023
 
 Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/) over at Pro Video Coalition.
-
----
-
-### Monday 22nd May 2023
-
-This is just a test post.
 
 ---
 
