@@ -4,6 +4,8 @@
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
+[!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml)
+
 ---
 
 !!!
@@ -131,7 +133,3 @@ Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https
 !!!
 Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
-
----
-
-[!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml)
