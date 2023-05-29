@@ -34,3 +34,5 @@ edit:
   repo: "https://github.com/CommandPost/FCPCafe"
   base: /docs
   label: Edit this page on GitHub
+
+favicon: static/favicon.png
