@@ -1,27 +1,39 @@
 <img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Latest News
-<style>
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-}
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-</style>
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
 !!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
+Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
+
+---
+
+### Monday 29th May 2023
+
+**Color Finale 2.6.6** has been released to fix support for Final Cut Pro 10.6.6.
+
+Only install Color Finale 2.6.6 after updating to Final Cut Pro 10.6.6. The plugin won’t work otherwise.
+
+If you are on Color Finale 2.6.5, update by launching ColorFinale.app and navigating to **ColorFinale > Check For Updates…** in the menu bar.
+
+You can learn more on their [website](https://colorfinale.com).
+
+---
+
+Chris at [LateNite](https://latenitefilms.com/technology/) has updated the pricing for [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io) & [Marker Toolbox](https://markertoolbox.io).
+
+- **BRAW Toolbox** is now **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
+- **Marker Toolbox** is now **19.99** in your local currency (i.e. **AUD19.99**, **USD19.99**, **CAD19.99**).
+- **Gyroflow Toolbox** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+
+Their upcoming apps will have the same pricing model:
+
+- **Recall Toolbox** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
+- **Transfer Toolbox** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+
+However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.
 
 ---
 
@@ -111,5 +123,5 @@ Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https
 ---
 
 !!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/)
+Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
