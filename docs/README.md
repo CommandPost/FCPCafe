@@ -35,7 +35,7 @@ Chris at [LateNite](https://latenitefilms.com/technology/) has updated the prici
 Their upcoming apps will have the same pricing model:
 
 - **[Recall Toolbox](https://recalltoolbox.io)** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
-- **[Transfer Toolbox](https://trasnfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[Transfer Toolbox](https://transfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.
 
