@@ -20,10 +20,10 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
     const feed = new RSS({
         title: 'FCP Cafe',
-        description: 'The latest news from FCP Cafe',
+        description: 'Latest News from FCP Cafe',
         feed_url: 'https://fcp.cafe/rss.xml',
         site_url: 'https://fcp.cafe',
-        generator: 'RSS for Node'
+        generator: 'FCP Cafe'
     });
 
     // Ignore everything above the first date
@@ -35,6 +35,11 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
     for (const entry of entries) {
         const lines = entry.split('\n');
         const title = lines[0].trim();
+
+        // Remove the leading '### ' from the title
+        if (title.startsWith('### ')) {
+            title = title.substring(4);
+        }
         const date = convertDateToRFC822(title);
 
         let content = lines.slice(1).join('\n').trim();
