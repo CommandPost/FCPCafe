@@ -32,7 +32,17 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         const lines = entry.split('\n');
         const title = lines[0].trim();
         const date = convertDateToRFC822(title);
-        const content = md.render(lines.slice(1).join('\n').trim());
+
+        let content = lines.slice(1).join('\n').trim();
+
+        // Remove the videocontainer, !!! and !!!info Sponsored
+        content = content.replace(/:::videocontainer/g, '')
+            .replace(/:::/g, '')
+            .replace(/!!!/g, '')
+            .replace(/!!!info Sponsored[\s\S]*!!!/g, '');
+
+        content = md.render(content);
+
         const url = generateUrl(title);
 
         feed.item({
