@@ -47,37 +47,36 @@ jobs:
           path: docs/
 
   generate_rss:
-      runs-on: ubuntu-latest
-      needs: issues_to_markdown
-      steps:
-        - name: Checkout code
-          uses: actions/checkout@v2
-  
-        - name: Set up Node.js
-          uses: actions/setup-node@v2
-          with:
-            node-version: 16
-  
-        - name: Install dependencies
-          run: npm install rss markdown-it
-  
-        - name: Generate RSS Feed
-          run: node .github/scripts/generate_rss.js
-  
-        - name: Commit and push if it's necessary
-          run: |
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            if [[ $(git status --porcelain) ]]; then
-              git add docs/rss.xml
-              git commit -m "Update rss.xml"
-              git push
-            fi
+    runs-on: ubuntu-latest
+    needs: issues_to_markdown
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install rss markdown-it
+
+      - name: Generate RSS Feed
+        run: node .github/scripts/generate_rss.js
+
+      - name: Commit and push if it's necessary
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [[ $(git status --porcelain) ]]; then
+            git add docs/rss.xml
+            git commit -m "Update rss.xml"
+            git push
+          fi
 
   publish:
     name: Publish to retype branch
     needs: [issues_to_markdown, generate_rss]
-
     runs-on: ubuntu-latest
 
     steps:
@@ -90,10 +89,6 @@ jobs:
           name: docs
           path: docs/
 
-      - name: Copy rss.xml to root
-        run: |
-          cp docs/rss.xml ./rss.xml
-
       - uses: retypeapp/action-build@latest
         with:
           license: ${{ secrets.RETYPE_SECRET }}
@@ -101,3 +96,18 @@ jobs:
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+
+      - name: Checkout main branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Copy rss.xml to retype branch
+        run: |
+          git checkout retype
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          cp rss.xml ../rss.xml
+          git add ../rss.xml
+          git commit -m "Update rss.xml"
+          git push
