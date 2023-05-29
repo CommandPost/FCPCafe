@@ -4,7 +4,7 @@
         <description><![CDATA[The latest news from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 May 2023 06:25:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 May 2023 06:34:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[<img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />]]></title>
@@ -125,7 +125,7 @@ We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/
 Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a>
 !!!</p>
 <hr>
-<p><a href="https://fcp.cafe/rss.xml">!button variant=&quot;warning&quot; target=&quot;blank&quot; text=&quot;RSS Feed&quot;</a></p>
+<p><a href="https://fcp.cafe/rss.xml">!button variant=&quot;warning&quot; target=&quot;blank&quot; text=&quot;Get the Latest News via our RSS Feed&quot;</a></p>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-23rd-may-2023</link>
             <guid isPermaLink="false">Tuesday 23rd May 2023</guid>
