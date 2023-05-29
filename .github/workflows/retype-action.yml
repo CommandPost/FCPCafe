@@ -73,13 +73,11 @@ generate_rss:
             git commit -m "Update rss.xml"
             git push
           fi
-          
+
   publish:
     name: Publish to retype branch
     needs: issues_to_markdown
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
