@@ -4,6 +4,8 @@ const MarkdownIt = require('markdown-it');
 const md = new MarkdownIt();
 
 function convertDateToRFC822(dateString) {
+    // Remove ordinal indicators
+    dateString = dateString.replace(/\b(\d+)(st|nd|rd|th)\b/g, "$1");
     let date = new Date(dateString);
     return date.toUTCString();
 }
