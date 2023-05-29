@@ -4,23 +4,10 @@
         <description><![CDATA[The latest news from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 May 2023 06:43:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 May 2023 06:51:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[<img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />]]></title>
-            <description><![CDATA[<h1>Latest News</h1>
-<p><strong>FCP Cafe is a technical community for professional Final Cut Pro editors.</strong></p>
-<p><a href="https://fcp.cafe/rss.xml">!button variant=&quot;warning&quot; target=&quot;blank&quot; text=&quot;Get the Latest News via our RSS Feed&quot;</a></p>
-<hr>
-<p>Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a></p>
-<hr>
-]]></description>
-            <link>https://fcp.cafe/#&lt;img-src=&quot;https://raw.githubusercontent.com/commandpost/fcpcafe/master/docs/static/fcpcafe.png&quot;-align=&quot;right&quot;-style=&quot;width:-100px-!important;-height:-100px-!important;&quot;-/&gt;</link>
-            <guid isPermaLink="false">&lt;img src=&quot;https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png&quot; align=&quot;right&quot; style=&quot;width: 100px !important; height: 100px !important;&quot; /&gt;</guid>
-            <pubDate>Invalid Date</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Monday 29th May 2023]]></title>
+            <title><![CDATA[### Monday 29th May 2023]]></title>
             <description><![CDATA[<p><strong>Color Finale 2.6.6</strong> has been released to fix support for Final Cut Pro 10.6.6.</p>
 <p>Only install Color Finale 2.6.6 after updating to Final Cut Pro 10.6.6. The plugin won’t work otherwise.</p>
 <p>If you are on Color Finale 2.6.5, update by launching ColorFinale.app and navigating to <strong>ColorFinale &gt; Check For Updates…</strong> in the menu bar.</p>
@@ -42,8 +29,8 @@
 <p>Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.</p>
 <hr>
 ]]></description>
-            <link>https://fcp.cafe/#monday-29th-may-2023</link>
-            <guid isPermaLink="false">Monday 29th May 2023</guid>
+            <link>https://fcp.cafe/####-monday-29th-may-2023</link>
+            <guid isPermaLink="false">### Monday 29th May 2023</guid>
             <pubDate>Invalid Date</pubDate>
         </item>
         <item>
@@ -111,7 +98,6 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
             <title><![CDATA[Tuesday 23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
 <hr>
-<p>Want to contribute or advertise? <a href="https://fcp.cafe/contribute/">Learn more here!</a></p>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-23rd-may-2023</link>
             <guid isPermaLink="false">Tuesday 23rd May 2023</guid>
