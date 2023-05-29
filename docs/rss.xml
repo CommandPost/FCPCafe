@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[FCP Cafe]]></title>
-        <description><![CDATA[The latest news from FCP Cafe]]></description>
+        <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
-        <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 May 2023 06:51:09 GMT</lastBuildDate>
+        <generator>FCP Cafe</generator>
+        <lastBuildDate>Mon, 29 May 2023 07:17:44 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[### Monday 29th May 2023]]></title>
+            <title><![CDATA[Monday 29th May 2023]]></title>
             <description><![CDATA[<p><strong>Color Finale 2.6.6</strong> has been released to fix support for Final Cut Pro 10.6.6.</p>
 <p>Only install Color Finale 2.6.6 after updating to Final Cut Pro 10.6.6. The plugin won’t work otherwise.</p>
 <p>If you are on Color Finale 2.6.5, update by launching ColorFinale.app and navigating to <strong>ColorFinale &gt; Check For Updates…</strong> in the menu bar.</p>
@@ -29,8 +29,8 @@
 <p>Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.</p>
 <hr>
 ]]></description>
-            <link>https://fcp.cafe/####-monday-29th-may-2023</link>
-            <guid isPermaLink="false">### Monday 29th May 2023</guid>
+            <link>https://fcp.cafe/#monday-29th-may-2023</link>
+            <guid isPermaLink="false">Monday 29th May 2023</guid>
             <pubDate>Invalid Date</pubDate>
         </item>
         <item>
