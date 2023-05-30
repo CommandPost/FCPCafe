@@ -23,3 +23,7 @@ It contains a `.png`, a `.wav` and a `.aiff`. It shows that the `.wav` and `.aif
 Also included is a video file explaining how to replicate this test. This issue has been reported to Apple.
 
 You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77).
+
+---
+
+{{ include "giscus.md" }}
