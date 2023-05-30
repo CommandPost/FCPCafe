@@ -5,7 +5,7 @@ on:
     branches:
       - main
   issues:
-    types: [opened, closed]
+    types: [opened, closed, labeled, unlabeled]
 
 jobs:
   issues_to_markdown:
