@@ -4,12 +4,36 @@
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
+<p><a href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://fcp.cafe');" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-yellow-500 hover:bg-yellow-600 text-black px-4 h-10 text-sm rounded-md"><span>Set as homepage</span></a></p>
+
 [!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml)
 
 ---
 
 !!!
 Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
+!!!
+
+---
+
+### Wednesday 31st May 2023
+
+**Colourlab Ai** is having a Spring Flash Sale! Up to 50% Off on Our Color Grading Software - Only 48 Hours Left!
+
+Spring is in the air, and so are the savings!
+
+Here's what's on offer:
+
+**Colourlab Ai Studio Annual License:** Get a whopping 50% off on their Colourlab Ai Studio Annual License. This brings the cost of Colourlab Ai, Look Designer Plugin, and Grainlab Plugin down to just $249. That's less than the cost of a single plugin! Considering the combined value of all three applications is over $1000, this is a massive saving. Use the code `springstudio50` to take advantage of this offer.
+**Look Designer Perpetual Licenses:** Colourlab Ai is offering a 30% discount on their Look Designer Perpetual Licenses. This means you can own Look Designer forever for just $349. Look Designer 3.0 for Davinci and Premiere runs on both Mac and PC and is the perfect companion for creating X01 files, Look Design, Look Testing, EL Zones, and Full Color Management. Use the code `springlook30` to avail this offer.
+
+Buy Colourlab Ai Studio [here](https://colourlab.ai/colourlab-ai-studio-2-yearly/).
+Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-perpetual/)
+
+---
+
+!!!info Sponsored
+Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
 !!!
 
 ---
@@ -45,6 +69,12 @@ They've also released a nice new package called [mProduct](https://www.motionvfx
 AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.
 
 AudioSwift works great in companion with [CommandPost](https://commandpost.io) via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/).
+
+---
+
+!!!info Sponsored
+[Recall Toolbox](https://recalltoolbox.io) is now available on TestFlight as an early beta!
+!!!
 
 ---
 
@@ -95,12 +125,6 @@ We've reported them to Apple, and will keep track of them in our [Bug Tracker](h
 Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge), [PostLab](https://hedge.video/postlab/benefits) & [EditReady](https://hedge.video/editready)). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
 
 ![Hedge Beta Program](/static/hedge.jpeg)
-
----
-
-!!!info Sponsored
-Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
-!!!
 
 ---
 
