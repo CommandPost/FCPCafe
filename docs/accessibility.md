@@ -45,5 +45,4 @@ Here's an amazing video of **Christopher Hills** using Final Cut Pro on iPad usi
 
 ---
 
-:::giscus
-:::
+<div id="comments" class="giscus w-full my-8"></div>
