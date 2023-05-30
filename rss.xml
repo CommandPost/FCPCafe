@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[FCP Cafe]]></title>
+        <description><![CDATA[Latest News from FCP Cafe]]></description>
+        <link>https://fcp.cafe</link>
+        <generator>FCP Cafe</generator>
+        <lastBuildDate>Tue, 30 May 2023 10:33:10 GMT</lastBuildDate>
+        <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Tuesday 30th May 2023]]></title>
+            <description><![CDATA[<p>We're currently experimenting with adding Discussions &amp; Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.</p>
+<p>We're still working on the formatting - they're currently a bit &quot;buggy&quot; in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.</p>
+<hr>
+<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
+<p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
+<p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
+<hr>
+<p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has decided to put the Final Cut Pro &amp; DaVinci Resolve Communities literally head-to-head by introducing <a href="https://resolve.cafe">Resolve Cafe</a>. Let's see which community is more proactive in sharing awesome content!</p>
+<hr>
+<p><strong>MotionVFX</strong> is having a <a href="https://www.motionvfx.com/store">50% Flash Sale</a> on selected products.</p>
+<p>They've also released a nice new package called <a href="https://www.motionvfx.com/store,mproduct,p3977.html">mProduct</a>.</p>
+<hr>
+<p><strong>AudioSwift 2.3.5 Beta</strong> with 14-bit MIDI CC is <a href="https://audioswiftapp.com/try-out-these-new-features-in-beta/">now available</a>.</p>
+<p>AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.</p>
+<p>AudioSwift works great in companion with <a href="https://commandpost.io">CommandPost</a> via MIDI for <a href="https://audioswiftapp.com/fcp/">controlling Final Cut Pro</a>.</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#tuesday-30th-may-2023</link>
+            <guid isPermaLink="false">Tuesday 30th May 2023</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Monday 29th May 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale 2.6.6</strong> has been released to fix support for Final Cut Pro 10.6.6.</p>
+<p>Only install Color Finale 2.6.6 after updating to Final Cut Pro 10.6.6. The plugin won’t work otherwise.</p>
+<p>If you are on Color Finale 2.6.5, update by launching ColorFinale.app and navigating to <strong>ColorFinale &gt; Check For Updates…</strong> in the menu bar.</p>
+<p>You can learn more on their <a href="https://colorfinale.com">website</a>.</p>
+<hr>
+<p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has updated the pricing for <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> &amp; <a href="https://markertoolbox.io">Marker Toolbox</a>.</p>
+<ul>
+<li><strong><a href="https://brawtoolbox.io">BRAW Toolbox</a></strong> is now <strong>79.99</strong> in your local currency (i.e. <strong>AUD79.99</strong>, <strong>USD79.99</strong>, <strong>CAD79.99</strong>).</li>
+<li><strong><a href="https://markertoolbox.io">Marker Toolbox</a></strong> is now <strong>19.99</strong> in your local currency (i.e. <strong>AUD19.99</strong>, <strong>USD19.99</strong>, <strong>CAD19.99</strong>).</li>
+<li><strong><a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
+</ul>
+<p>Their upcoming apps will have the same pricing model:</p>
+<ul>
+<li><strong><a href="https://recalltoolbox.io">Recall Toolbox</a></strong> is now <strong>29.99</strong> in your local currency (i.e. <strong>AUD29.99</strong>, <strong>USD29.99</strong>, <strong>CAD29.99</strong>).</li>
+<li><strong><a href="https://transfertoolbox.io">Transfer Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
+</ul>
+<p>However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.</p>
+<p>Transfer Toolbox is currently waiting for approval on the Mac App Store, but you can download from TestFlight.</p>
+<p>Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#monday-29th-may-2023</link>
+            <guid isPermaLink="false">Monday 29th May 2023</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sunday 28th May 2023]]></title>
+            <description><![CDATA[<p>We've recently reported two annoying <strong>Final Cut Pro 10.6.6 bugs</strong> to be across:</p>
+<ul>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/94">FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/92">Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)</a></li>
+</ul>
+<p>We've reported them to Apple, and will keep track of them in our <a href="https://fcp.cafe/bugtracker/">Bug Tracker</a>.</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#sunday-28th-may-2023</link>
+            <guid isPermaLink="false">Sunday 28th May 2023</guid>
+            <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Saturday 27th May 2023]]></title>
+            <description><![CDATA[<p>Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like <a href="https://hedge.video/hedge">Hedge</a>, <a href="https://hedge.video/postlab/benefits">PostLab</a> &amp; <a href="https://hedge.video/editready">EditReady</a>). If you think you have what it takes and would like to join, sign up <a href="http://bit.ly/HedgeBetaProgram">here</a>.</p>
+<p><img src="/static/hedge.jpeg" alt="Hedge Beta Program"></p>
+<hr>
+<p>info Sponsored
+Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final Cut Pro for Mac to iPad!</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#saturday-27th-may-2023</link>
+            <guid isPermaLink="false">Saturday 27th May 2023</guid>
+            <pubDate>Sat, 27 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Friday 26th May 2023]]></title>
+            <description><![CDATA[<p><strong>Turn of the Tide</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
+<p>Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 &amp; 7) and Pedro Ribeiro (Ep's 3, 4 &amp; 6).</p>
+<p>We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a> soon!</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<hr>
+<p><strong>Blood &amp; Gold</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
+<p>Edited by Knut Hake.</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<hr>
+<p><strong>Sex O'Clock</strong> premieres today in Czechia. Episodes 3, 6, 9 and 10 was cut in Final Cut Pro by <a href="https://jirifiala.cz">Jiří Fiala</a> (the other episodes were cut in Adobe Premiere).</p>
+<p>FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.</p>
+<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<hr>
+<p>Everyone's talking about <strong>Final Cut Pro for iPad</strong>.</p>
+<p>Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=XvMDC9V3-Rs">Ripple Training - Final Cut Pro for iPad Getting Started (39mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=MjRouMY7bgU">iJustine - Final Cut Pro on iPad Review - Forget everything you know about editing (13mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=iLXnuoEPheQ">Dylan Bates - The Complete Guide to Final Cut Pro on iPad (53mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=eKG_T9GumVM">Tyler Stalman - Final Cut Pro for iPad: Guide &amp; Review (16mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=cacbcjvlFRg">PetaPixel - Final Cut Pro for iPad Review: It FINALLY Happened! (12mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=VpwUN5o_3mo">Six Colors - Hands on with Final Cut Pro for iPad (32mins)</a></li>
+<li><a href="https://www.youtube.com/watch?v=r4QCQ7qGsL4">The Verge - Final Cut Pro for iPad review: still rendering (10mins)</a></li>
+</ul>
+<p>Chris at <a href="https://latenitefilms.com">LateNite</a> has also announced <a href="https://transfertoolbox.io">Transfer Toolbox</a> on <a href="https://twitter.com/chrisatlatenite/status/1661610054292758529">Twitter</a>, allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.</p>
+<p>He also discovered that Final Cut Pro (for iPad) <a href="https://twitter.com/chrisatlatenite/status/1661697912202743809">can actually read files from an external SSD</a>.</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#friday-26th-may-2023</link>
+            <guid isPermaLink="false">Friday 26th May 2023</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tuesday 23rd May 2023]]></title>
+            <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
+<hr>
+<hr>
+<p>{{ include &quot;giscus.md&quot; }}</p>
+]]></description>
+            <link>https://fcp.cafe/#tuesday-23rd-may-2023</link>
+            <guid isPermaLink="false">Tuesday 23rd May 2023</guid>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
