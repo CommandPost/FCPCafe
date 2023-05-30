@@ -1,19 +1,4 @@
 # History
-<style>
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-}
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-</style>
 
 This section is dedicated to the history and backstory of Final Cut Pro.
 
