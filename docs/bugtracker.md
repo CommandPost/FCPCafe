@@ -21,7 +21,6 @@ Here's a list of the main issues we've discovered in the latest Final Cut Pro Re
 
 Here's a list of the **30 most recently reported** Final Cut Pro bugs on our GitHub issues site:
 
-- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
 - [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
 - [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
