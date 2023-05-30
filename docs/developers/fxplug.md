@@ -20,6 +20,7 @@ If you want a real-world example of a FxPlug4 application, you can look at [Gyro
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

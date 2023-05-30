@@ -199,6 +199,7 @@ PS: This letter is not intended as a criticism of the huge amount of hard work d
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

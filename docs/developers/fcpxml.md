@@ -20,6 +20,7 @@ There's a great article called [Demystifying Final Cut Pro XMLs by Philip Hodget
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

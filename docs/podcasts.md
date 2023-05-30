@@ -18,6 +18,7 @@ Richard Taylor also does a [FINAL CUT TV & Coffee](https://www.youtube.com/richa
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

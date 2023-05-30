@@ -67,6 +67,7 @@ Here's what Final Cut Pro's model looks like in Xcode:
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

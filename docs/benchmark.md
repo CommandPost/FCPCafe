@@ -38,6 +38,7 @@ You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?d
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

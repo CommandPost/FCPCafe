@@ -18,6 +18,7 @@ There's a Notion page dedicated to Final Cut Pro Workflows for feature films [he
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

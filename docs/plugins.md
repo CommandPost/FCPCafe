@@ -18,6 +18,7 @@ We're big fans of everything [CoreMelt](https://coremelt.com) & [Motion VFX](htt
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

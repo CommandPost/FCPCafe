@@ -90,6 +90,7 @@ Here's a list of text variables you can use in Motion to write data in Final Cut
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

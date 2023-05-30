@@ -44,6 +44,7 @@ Larry Jordan’s highly illustrated guide is packed with over 520 power tips, te
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

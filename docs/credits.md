@@ -20,6 +20,7 @@ Chris decided that FCP Cafe was a better name/domain, and as a result, this site
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

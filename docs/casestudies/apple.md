@@ -22,6 +22,7 @@ Here's some links to case studies on the [Apple site](https://www.apple.com/au/f
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

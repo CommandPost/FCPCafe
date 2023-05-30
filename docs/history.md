@@ -122,6 +122,7 @@ In 2011 Apple ended Final Cut Pro as we knew it and started over with a brand ne
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

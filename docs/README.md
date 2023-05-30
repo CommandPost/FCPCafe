@@ -148,6 +148,7 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

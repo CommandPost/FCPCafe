@@ -57,6 +57,7 @@ Here's an amazing video of **Christopher Hills** using Final Cut Pro on iPad usi
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

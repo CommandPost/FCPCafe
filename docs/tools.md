@@ -90,6 +90,7 @@ X2Pro uses Marquis Media Highway technology to integrate FCP X into the establis
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

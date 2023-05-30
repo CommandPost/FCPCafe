@@ -183,6 +183,7 @@ Cost is based on the duration of the media to transcribe and the rate your plan 
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

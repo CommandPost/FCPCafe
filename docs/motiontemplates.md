@@ -20,6 +20,7 @@ There's also a database of free Motion Templates on [FCPX Free: The World's Larg
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

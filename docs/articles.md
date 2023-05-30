@@ -59,6 +59,7 @@ In the coming weeks we'll update this page with direct links to relevant and use
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

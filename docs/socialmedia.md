@@ -28,6 +28,7 @@ Run by the amazing [Felipe Baez](https://cre8ivebeast.com).
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

@@ -29,6 +29,7 @@ You can find more over at [fcp.co](https://fcp.co).
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

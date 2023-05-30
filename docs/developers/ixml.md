@@ -106,6 +106,7 @@ The most useful tool for reading and writing iXML data is the free [Sound Device
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

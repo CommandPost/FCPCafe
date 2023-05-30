@@ -428,6 +428,7 @@ I think this is the Framework that communicates with AV Foundations, CoreMedia, 
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
