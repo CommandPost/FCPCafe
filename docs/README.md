@@ -55,7 +55,8 @@ Here's what's on offer:
 **Look Designer Perpetual Licenses:** Colourlab Ai is offering a 30% discount on their Look Designer Perpetual Licenses. This means you can own Look Designer forever for just $349. Look Designer 3.0 for Davinci and Premiere runs on both Mac and PC and is the perfect companion for creating X01 files, Look Design, Look Testing, EL Zones, and Full Color Management. Use the code `springlook30` to avail this offer.
 
 Buy Colourlab Ai Studio [here](https://colourlab.ai/colourlab-ai-studio-2-yearly/){target="_blank"}.
-Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-perpetual/){target="_blank"}
+
+Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-perpetual/){target="_blank"}.
 
 ---
 
