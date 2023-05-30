@@ -33,12 +33,12 @@
 6. Restart your browser.
 +++
 
-[!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml)
+[!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml){target="_blank"}
 
 ---
 
 !!!
-Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
+Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
 
 ---
@@ -54,13 +54,13 @@ Here's what's on offer:
 **Colourlab Ai Studio Annual License:** Get a whopping 50% off on their Colourlab Ai Studio Annual License. This brings the cost of Colourlab Ai, Look Designer Plugin, and Grainlab Plugin down to just $249. That's less than the cost of a single plugin! Considering the combined value of all three applications is over $1000, this is a massive saving. Use the code `springstudio50` to take advantage of this offer.
 **Look Designer Perpetual Licenses:** Colourlab Ai is offering a 30% discount on their Look Designer Perpetual Licenses. This means you can own Look Designer forever for just $349. Look Designer 3.0 for Davinci and Premiere runs on both Mac and PC and is the perfect companion for creating X01 files, Look Design, Look Testing, EL Zones, and Full Color Management. Use the code `springlook30` to avail this offer.
 
-Buy Colourlab Ai Studio [here](https://colourlab.ai/colourlab-ai-studio-2-yearly/).
-Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-perpetual/)
+Buy Colourlab Ai Studio [here](https://colourlab.ai/colourlab-ai-studio-2-yearly/){target="_blank"}.
+Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-perpetual/){target="_blank"}
 
 ---
 
 !!!info Sponsored
-Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
+Use [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} to get from Final Cut Pro for Mac to iPad!
 !!!
 
 ---
@@ -73,7 +73,7 @@ We're still working on the formatting - they're currently a bit "buggy" in terms
 
 ---
 
-**Recall Toolbox** is now available for early beta testing on [TestFlight](https://recalltoolbox.io).
+**Recall Toolbox** is now available for early beta testing on [TestFlight](https://recalltoolbox.io){target="_blank"}.
 
 Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.
 
@@ -81,26 +81,26 @@ Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.
 
 ---
 
-Chris at [LateNite](https://latenitefilms.com/technology/) has decided to put the Final Cut Pro & DaVinci Resolve Communities literally head-to-head by introducing [Resolve Cafe](https://resolve.cafe). Let's see which community is more proactive in sharing awesome content!
+Chris at [LateNite](https://latenitefilms.com/technology/){target="_blank"} has decided to put the Final Cut Pro & DaVinci Resolve Communities literally head-to-head by introducing [Resolve Cafe](https://resolve.cafe){target="_blank"}. Let's see which community is more proactive in sharing awesome content!
 
 ---
 
-**MotionVFX** is having a [50% Flash Sale](https://www.motionvfx.com/store) on selected products.
+**MotionVFX** is having a [50% Flash Sale](https://www.motionvfx.com/store){target="_blank"} on selected products.
 
-They've also released a nice new package called [mProduct](https://www.motionvfx.com/store,mproduct,p3977.html).
+They've also released a nice new package called [mProduct](https://www.motionvfx.com/store,mproduct,p3977.html){target="_blank"}.
 
 ---
 
-**AudioSwift 2.3.5 Beta** with 14-bit MIDI CC is [now available](https://audioswiftapp.com/try-out-these-new-features-in-beta/).
+**AudioSwift 2.3.5 Beta** with 14-bit MIDI CC is [now available](https://audioswiftapp.com/try-out-these-new-features-in-beta/){target="_blank"}.
 
 AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.
 
-AudioSwift works great in companion with [CommandPost](https://commandpost.io) via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/).
+AudioSwift works great in companion with [CommandPost](https://commandpost.io){target="_blank"} via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/){target="_blank"}.
 
 ---
 
 !!!info Sponsored
-[Recall Toolbox](https://recalltoolbox.io) is now available on TestFlight as an early beta!
+[Recall Toolbox](https://recalltoolbox.io){target="_blank"} is now available on TestFlight as an early beta!
 !!!
 
 ---
@@ -113,20 +113,20 @@ Only install Color Finale 2.6.6 after updating to Final Cut Pro 10.6.6. The plug
 
 If you are on Color Finale 2.6.5, update by launching ColorFinale.app and navigating to **ColorFinale > Check For Updates…** in the menu bar.
 
-You can learn more on their [website](https://colorfinale.com).
+You can learn more on their [website](https://colorfinale.com){target="_blank"}.
 
 ---
 
-Chris at [LateNite](https://latenitefilms.com/technology/) has updated the pricing for [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io) & [Marker Toolbox](https://markertoolbox.io).
+Chris at [LateNite](https://latenitefilms.com/technology/){target="_blank"} has updated the pricing for [BRAW Toolbox](https://brawtoolbox.io){target="_blank"}, [Gyroflow Toolbox](https://gyroflowtoolbox.io){target="_blank"} & [Marker Toolbox](https://markertoolbox.io){target="_blank"}.
 
-- **[BRAW Toolbox](https://brawtoolbox.io)** is now **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
-- **[Marker Toolbox](https://markertoolbox.io)** is now **19.99** in your local currency (i.e. **AUD19.99**, **USD19.99**, **CAD19.99**).
-- **[Gyroflow Toolbox](https://gyroflowtoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[BRAW Toolbox](https://brawtoolbox.io){target="_blank"}** is now **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
+- **[Marker Toolbox](https://markertoolbox.io){target="_blank"}** is now **19.99** in your local currency (i.e. **AUD19.99**, **USD19.99**, **CAD19.99**).
+- **[Gyroflow Toolbox](https://gyroflowtoolbox.io){target="_blank"}** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 Their upcoming apps will have the same pricing model:
 
-- **[Recall Toolbox](https://recalltoolbox.io)** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
-- **[Transfer Toolbox](https://transfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[Recall Toolbox](https://recalltoolbox.io){target="_blank"}** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
+- **[Transfer Toolbox](https://transfertoolbox.io){target="_blank"}** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.
 
@@ -140,8 +140,8 @@ Recall Toolbox is currently on TestFlight, and will hopefully be submitted to th
 
 We've recently reported two annoying **Final Cut Pro 10.6.6 bugs** to be across:
 
-- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
-- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
+- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94){target="_blank"}
+- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92){target="_blank"}
 
 We've reported them to Apple, and will keep track of them in our [Bug Tracker](https://fcp.cafe/bugtracker/).
 
@@ -149,7 +149,7 @@ We've reported them to Apple, and will keep track of them in our [Bug Tracker](h
 
 ### Saturday 27th May 2023
 
-Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge), [PostLab](https://hedge.video/postlab/benefits) & [EditReady](https://hedge.video/editready)). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram).
+Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge){target="_blank"}, [PostLab](https://hedge.video/postlab/benefits){target="_blank"} & [EditReady](https://hedge.video/editready){target="_blank"}). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram){target="_blank"}.
 
 ![Hedge Beta Program](/static/hedge.jpeg)
 
@@ -195,23 +195,23 @@ Everyone's talking about **Final Cut Pro for iPad**.
 
 Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:
 
-- [Ripple Training - Final Cut Pro for iPad Getting Started (39mins)](https://www.youtube.com/watch?v=XvMDC9V3-Rs)
-- [iJustine - Final Cut Pro on iPad Review - Forget everything you know about editing (13mins)](https://www.youtube.com/watch?v=MjRouMY7bgU)
-- [Dylan Bates - The Complete Guide to Final Cut Pro on iPad (53mins)](https://www.youtube.com/watch?v=iLXnuoEPheQ)
-- [Tyler Stalman - Final Cut Pro for iPad: Guide & Review (16mins)](https://www.youtube.com/watch?v=eKG_T9GumVM)
-- [PetaPixel - Final Cut Pro for iPad Review: It FINALLY Happened! (12mins)](https://www.youtube.com/watch?v=cacbcjvlFRg)
-- [Six Colors - Hands on with Final Cut Pro for iPad (32mins)](https://www.youtube.com/watch?v=VpwUN5o_3mo)
-- [The Verge - Final Cut Pro for iPad review: still rendering (10mins)](https://www.youtube.com/watch?v=r4QCQ7qGsL4)
+- [Ripple Training - Final Cut Pro for iPad Getting Started (39mins)](https://www.youtube.com/watch?v=XvMDC9V3-Rs){target="_blank"}
+- [iJustine - Final Cut Pro on iPad Review - Forget everything you know about editing (13mins)](https://www.youtube.com/watch?v=MjRouMY7bgU){target="_blank"}
+- [Dylan Bates - The Complete Guide to Final Cut Pro on iPad (53mins)](https://www.youtube.com/watch?v=iLXnuoEPheQ){target="_blank"}
+- [Tyler Stalman - Final Cut Pro for iPad: Guide & Review (16mins)](https://www.youtube.com/watch?v=eKG_T9GumVM){target="_blank"}
+- [PetaPixel - Final Cut Pro for iPad Review: It FINALLY Happened! (12mins)](https://www.youtube.com/watch?v=cacbcjvlFRg){target="_blank"}
+- [Six Colors - Hands on with Final Cut Pro for iPad (32mins)](https://www.youtube.com/watch?v=VpwUN5o_3mo){target="_blank"}
+- [The Verge - Final Cut Pro for iPad review: still rendering (10mins)](https://www.youtube.com/watch?v=r4QCQ7qGsL4){target="_blank"}
 
-Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Toolbox](https://transfertoolbox.io) on [Twitter](https://twitter.com/chrisatlatenite/status/1661610054292758529), allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.
+Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} on [Twitter](https://twitter.com/chrisatlatenite/status/1661610054292758529){target="_blank"}, allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.
 
-He also discovered that Final Cut Pro (for iPad) [can actually read files from an external SSD](https://twitter.com/chrisatlatenite/status/1661697912202743809).
+He also discovered that Final Cut Pro (for iPad) [can actually read files from an external SSD](https://twitter.com/chrisatlatenite/status/1661697912202743809){target="_blank"}.
 
 ---
 
 ### Tuesday 23rd May 2023
 
-Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/) over at Pro Video Coalition.
+Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/){target="_blank"} over at Pro Video Coalition.
 
 ---
 
