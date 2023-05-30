@@ -15,7 +15,11 @@ We're big fans of everything [CoreMelt](https://coremelt.com) & [Motion VFX](htt
 
 ### CoreMelt Plugins
 
-<img src="https://fcp.cafe/static/coremelt.png" align="left" />
+<img src="https://fcp.cafe/static/coremelt.png" />
+
+CoreMelt's mission is to bring powerful and flexible tools to video editors with simple workflow and at affordable prices. They take the tools from high end visual effects and bring them to you inside desktop software. Using our years of experience in feature films and high-end TV commercials they redesign complex user interfaces to make their software simple and intuitive to use. They also pride themselves on their customer service and responsiveness to their users.
+
+CoreMelt Pty Ltd is an Australian owned company founded by Roger Bolton, a visual effects veteran with over 15 years experience in post production and whose list of feature film credits include "Lord of the Rings", "Kingdom of Heaven" and "Charlie and the Chocolate Factory". Roger has worked as a visual effects supervisor, senior Flame operator and lead compositor all over Asia as well as in the UK and Australia.
 
 ---
 
