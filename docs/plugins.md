@@ -15,7 +15,7 @@ We're big fans of everything [CoreMelt](https://coremelt.com) & [Motion VFX](htt
 
 ### CoreMelt Plugins
 
-<img src="https://fcp.cafe/static/coremelt.png" align="left" style="height:100px !important; width:100px !important; " />
+<img src="https://fcp.cafe/static/coremelt.png" align="left" />
 
 ---
 
