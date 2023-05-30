@@ -6,8 +6,7 @@
 
 ---
 
-#### Make FCP Cafe your Home Page
-
+==- :icon-bookmark: Make FCP Cafe your Home Page
 +++ Safari
 1. In the top left corner of your screen, select **Safari** and then **Preferences** and then **General**.
 2. Next to **New windows open with** and **New tabs open with**, select **Homepage**.
@@ -32,6 +31,7 @@
 5. Click OK.
 6. Restart your browser.
 +++
+===
 
 [!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml){target="_blank"}
 
