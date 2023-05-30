@@ -184,3 +184,21 @@ Signed,
 112. Ryan Malone IATSE 891, Editor of ‘Paramedics: Emergency Response,’ TV Documentary Series, Canada
 
 PS: This letter is not intended as a criticism of the huge amount of hard work done by the Final Cut team over the years. We are asking Apple to change the policies that they work under.
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

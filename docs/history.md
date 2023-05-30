@@ -107,3 +107,21 @@ In 2011 Apple ended Final Cut Pro as we knew it and started over with a brand ne
 :::videocontainer
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/bfII0EcbCsg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

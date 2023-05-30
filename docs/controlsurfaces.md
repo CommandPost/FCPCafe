@@ -61,3 +61,21 @@ In the future, he plans to add support for:
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

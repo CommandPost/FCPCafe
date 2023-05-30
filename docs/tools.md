@@ -75,3 +75,21 @@ Requirements
 • Pro Tools v7.0 or later for AAF import (not LE versions, v7 and v8 require Digitranslator for AAF import)
 
 X2Pro uses Marquis Media Highway technology to integrate FCP X into the established professional audio workflow. Marquis Media Highway is the core technology employed by Marquis’ media integration products – it improves how broadcast production systems interoperate by delivering a seamless and cost-effective integration between leading broadcast content applications. Marquis Broadcast specializes in content workflows and media integration software and has been delivering solutions to broadcast since 1998.
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
