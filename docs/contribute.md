@@ -6,7 +6,9 @@ You can make changes to the site by [submitting pull requests on GitHub](https:/
 
 We welcome and encourage users submitting their own case studies, articles and products.
 
-The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without knowing any HTML or code.
+You can see all the current contributors [here](https://github.com/CommandPost/FCPCafe/graphs/contributors).
+
+The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
 For example, you can just edit the contents of this page by [clicking here](https://github.com/CommandPost/FCPCafe/edit/main/docs/contribute.md).
 
@@ -20,15 +22,25 @@ If you're not confident using GitHub, you can email us content here: [support@la
 
 ### Advertising & Sponsored Content
 
-We're open to promoting Final Cut Pro products and services on the front page in a clean and useful way.
+We're open to promoting Final Cut Pro products and services on the front page within the Latest News in a clean and useful way.
 
-Please contact us to discuss: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
+For example, here's a sponsored post that could appear on the home page within the Latest News:
+
+!!!info Sponsored
+Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
+!!!
+
+Sponsored posts can just be plain text, with a single link. We don't allow images, videos, or other embedded elements.
+
+If you would like to advertise on FCP Cafe, please contact us to discuss: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
 ---
 
 ### Powered by Retype
 
 FCP Cafe is powered by [Retype](https://retype.com) and hosted on [GitHub Pages](https://pages.github.com).
+
+The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app).
 
 ---
 
