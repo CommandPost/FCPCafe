@@ -20,6 +20,11 @@ links:
   icon: comment-discussion
   target: blank
 
+- text: Resolve Cafe
+  link: https://resolve.cafe
+  icon: git-branch
+  target: blank
+
 - text: Chris on Twitter
   link: https://twitter.com/chrisatlatenite
   icon: people
