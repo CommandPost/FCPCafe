@@ -4,8 +4,26 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 30 May 2023 02:59:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2023 03:13:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Tuesday 30th May 2023]]></title>
+            <description><![CDATA[<p>We're currently experimenting with adding Discussions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. We're still working on the formatting.</p>
+<hr>
+<p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has decided to put the Final Cut Pro &amp; DaVinci Resolve Communities literally head-to-head by introducing <a href="https://resolve.cafe">Resolve Cafe</a>. Let's see which community is more proactive in sharing awesome content!</p>
+<hr>
+<p><strong>MotionVFX</strong> is having a <a href="https://www.motionvfx.com/store">50% Flash Sale</a> on selected products.</p>
+<p>They've also released a nice new package called <a href="https://www.motionvfx.com/store,mproduct,p3977.html">mProduct</a>.</p>
+<hr>
+<p><strong>AudioSwift 2.3.5 Beta</strong> with 14-bit MIDI CC is <a href="https://audioswiftapp.com/try-out-these-new-features-in-beta/">now available</a>.</p>
+<p>AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.</p>
+<p>AudioSwift works great in companion with <a href="https://commandpost.io">CommandPost</a> via MIDI for <a href="https://audioswiftapp.com/fcp/">controlling Final Cut Pro</a>.</p>
+<hr>
+]]></description>
+            <link>https://fcp.cafe/#tuesday-30th-may-2023</link>
+            <guid isPermaLink="false">Tuesday 30th May 2023</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Monday 29th May 2023]]></title>
             <description><![CDATA[<p><strong>Color Finale 2.6.6</strong> has been released to fix support for Final Cut Pro 10.6.6.</p>
