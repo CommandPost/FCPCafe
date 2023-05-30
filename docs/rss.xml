@@ -4,11 +4,15 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 30 May 2023 03:23:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2023 03:49:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Tuesday 30th May 2023]]></title>
             <description><![CDATA[<p>We're currently experimenting with adding Discussions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. We're still working on the formatting.</p>
+<hr>
+<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
+<p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
+<p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
 <hr>
 <p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has decided to put the Final Cut Pro &amp; DaVinci Resolve Communities literally head-to-head by introducing <a href="https://resolve.cafe">Resolve Cafe</a>. Let's see which community is more proactive in sharing awesome content!</p>
 <hr>
