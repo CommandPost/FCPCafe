@@ -16,7 +16,9 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ### Tuesday 30th May 2023
 
-We're currently experimenting with adding Discussions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. We're still working on the formatting.
+We're currently experimenting with adding Discussions & Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.
+
+We're still working on the formatting - they're currently a bit "buggy" in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.
 
 ---
 
