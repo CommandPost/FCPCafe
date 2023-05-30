@@ -15,15 +15,17 @@ We're big fans of everything [CoreMelt](https://coremelt.com) & [Motion VFX](htt
 
 ### CoreMelt Plugins
 
-![image](https://fcp.cafe/static/coremelt.png)
+<img src="https://fcp.cafe/static/coremelt.png" align="left" style="height:100px !important; width:100px !important; " />
+
+---
 
 <img src="https://fcp.cafe/static/paintx.png" align="right" style="height:100px !important; width:100px !important; " />
 
 #### PaintX
 
-[!button text="Visit Website"](https://coremelt.com/products/paintx-powered-by-mocha)
+**PaintX** is powerful vector based tracked paint. Instant fixes for damaged footage, paint on tracked effects, add tracked warps and glows. Create digital makeup effects and more.
 
-PaintX is powerful vector based tracked paint. Instant fixes for damaged footage, paint on tracked effects, add tracked warps and glows. Create digital makeup effects and more.
+[!button text="Visit Website"](https://coremelt.com/products/paintx-powered-by-mocha)
 
 ---
 
@@ -31,9 +33,9 @@ PaintX is powerful vector based tracked paint. Instant fixes for damaged footage
 
 #### SliceX
 
-[!button text="Visit Website"](https://coremelt.com/products/slicex-powered-by-mocha)
+**SliceX** lets you quickly create tracked Shape Masks to cut out layers or isolate effects. SliceX powered by mocha takes the pain out of following complex motion, just draw a shape and hit track. You can then adjust with manual keyframes as needed giving you ultimate control in a way not easily done with the built in tracking.
 
-SliceX lets you quickly create tracked Shape Masks to cut out layers or isolate effects. SliceX powered by mocha takes the pain out of following complex motion, just draw a shape and hit track. You can then adjust with manual keyframes as needed giving you ultimate control in a way not easily done with the built in tracking.
+[!button text="Visit Website"](https://coremelt.com/products/slicex-powered-by-mocha)
 
 ---
 
@@ -41,9 +43,9 @@ SliceX lets you quickly create tracked Shape Masks to cut out layers or isolate 
 
 #### TrackX
 
-[!button text="Visit Website"](https://coremelt.com/products/trackx-powered-by-mocha)
+**TrackX** lets you track text or graphics to background movement , or track and insert a layer for screen replacements, to replace a sign, or extend a set.
 
-The TrackX Final Cut Pro X plugin lets you track text or graphics to background movement , or track and insert a layer for screen replacements, to replace a sign, or extend a set.
+[!button text="Visit Website"](https://coremelt.com/products/trackx-powered-by-mocha)
 
 ---
 
@@ -51,9 +53,9 @@ The TrackX Final Cut Pro X plugin lets you track text or graphics to background 
 
 #### DriveX
 
-[!button text="Visit Website"](https://www.coremelt.com/drivex/)
+**DriveX** tracks 3D text, particles, callouts and visual effects to your footage with 30 premade templates.
 
-DriveX tracks 3D text, particles, callouts and visual effects to your footage with 30 premade templates.
+[!button text="Visit Website"](https://www.coremelt.com/drivex/)
 
 ---
 
@@ -61,9 +63,9 @@ DriveX tracks 3D text, particles, callouts and visual effects to your footage wi
 
 #### Lock & Load X
 
-[!button text="Visit Website"](https://coremelt.com/products/lock-and-load-x)
+**Lock & Load** is the fastest and most robust stabilizer for FCP X. Lock & Load is more than 3x faster than the built in stabilizer in FCP X and includes rolling shutter reduction and advanced region of interest stabilisation.
 
-Lock & Load is the fastest and most robust stabilizer for FCP X. Lock & Load is more than 3x faster than the built in stabilizer in FCP X and includes rolling shutter reduction and advanced region of interest stabilisation.
+[!button text="Visit Website"](https://coremelt.com/products/lock-and-load-x)
 
 ---
 
@@ -71,9 +73,9 @@ Lock & Load is the fastest and most robust stabilizer for FCP X. Lock & Load is 
 
 #### LUTx
 
-[!button text="Visit Website"](https://coremelt.com/products/lutx-feature-look-collection)
+**LUTx** is a simple and yet very powerful LUT / color look solution for Final Cut Pro X. Our interactive LUT gallery lets you see all your LUTs instantly on your own footage.
 
-LUTx is a simple and yet very powerful LUT / color look solution for Final Cut Pro X. Our interactive LUT gallery lets you see all your LUTs instantly on your own footage.
+[!button text="Visit Website"](https://coremelt.com/products/lutx-feature-look-collection)
 
 ---
 
@@ -81,9 +83,9 @@ LUTx is a simple and yet very powerful LUT / color look solution for Final Cut P
 
 #### ModelX
 
-[!button text="Visit Website"](https://coremelt.com/products/modelx-next-gen-3d-models-with-pbr-materials-and-lighting-for-final-cut-pro)
+**ModelX** is a versatile utility for adding and retextureing 3D models inside FCP. Grab a model from a popular site like SketchFab, add a logo onto it, and place it into your edit, all in minutes.
 
-ModelX is a versatile utility for adding and retextureing 3D models inside FCP. Grab a model from a popular site like SketchFab, add a logo onto it, and place it into your edit, all in minutes.
+[!button text="Visit Website"](https://coremelt.com/products/modelx-next-gen-3d-models-with-pbr-materials-and-lighting-for-final-cut-pro)
 
 ---
 
@@ -91,9 +93,9 @@ ModelX is a versatile utility for adding and retextureing 3D models inside FCP. 
 
 #### StyleX
 
-[!button text="Visit Website"](https://coremelt.com/products/stylex-video-style-transfer-for-fcpx)
+**StyleX** lets you apply a selection of trained machine learning video styles onto your footage to create unique textured effects that are far more than just color correction. Take a look at some examples of usage below, each product has a full range of video tutorials.
 
-StyleX lets you apply a selection of trained machine learning video styles onto your footage to create unique textured effects that are far more than just color correction. Take a look at some examples of usage below, each product has a full range of video tutorials.
+[!button text="Visit Website"](https://coremelt.com/products/stylex-video-style-transfer-for-fcpx)
 
 ---
 
