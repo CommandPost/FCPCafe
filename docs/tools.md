@@ -6,7 +6,7 @@ This page is dedicated to handy applications that can be used in conjunction wit
 
 ### Transfer Toolbox
 
-[!ref Visit Website](https://transfertoolbox.io)
+[!button text="Visit Website"](https://transfertoolbox.io)
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
 
@@ -24,7 +24,7 @@ Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
 ### CommandPost
 
-[!ref Visit Website](https://commandpost.io)
+[!button text="Visit Website"](https://commandpost.io)
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
@@ -44,9 +44,19 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 ---
 
+### Final Cut Library Manager
+
+[!button text="Visit Website"](https://www.arcticwhiteness.com/finalcutlibrarymanager/)
+
+Final Cut Library Manager instantly displays all of the Final Cut Pro X libraries that it finds on your Spotlight-indexed drives. When a Library references external media Final Cut Library Manager will automatically create a group to clearly present the distribution of these media files across your system. You can also add other sources : including external disks, or folders, including those not indexed by spotlight.
+
+![Final Cut Library Manager](../static/fclm.png)
+
+---
+
 ### X2Pro
 
-[!ref View on Mac App Store](https://apps.apple.com/ph/app/x2pro-audio-convert/id501688639?mt=12)
+[!button text="View on Mac App Store"](https://apps.apple.com/ph/app/x2pro-audio-convert/id501688639?mt=12)
 
 Move your Final Cut Pro X projects to the audio suite simply and quickly. X2Pro Audio Convert takes your FCP X XML and creates an AAF with embedded or referenced audio media which Avid Pro Tools can open as a session, delivering seamless integration between the two applications..
 
