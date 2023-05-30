@@ -20,6 +20,14 @@ We're currently experimenting with adding Discussions to the bottom of every pag
 
 ---
 
+**Recall Toolbox** is now available for early beta testing on [TestFlight](https://recalltoolbox.io).
+
+Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.
+
+Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.
+
+---
+
 Chris at [LateNite](https://latenitefilms.com/technology/) has decided to put the Final Cut Pro & DaVinci Resolve Communities literally head-to-head by introducing [Resolve Cafe](https://resolve.cafe). Let's see which community is more proactive in sharing awesome content!
 
 ---
