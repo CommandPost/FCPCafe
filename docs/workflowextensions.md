@@ -168,3 +168,7 @@ Our products:
 
 **Cost:**
 Cost is based on the duration of the media to transcribe and the rate your plan is entitled to. There are Pay As You Go and subscription plans: see the website for details.
+
+---
+
+{{ include "giscus.md" }}

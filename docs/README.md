@@ -14,6 +14,40 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ---
 
+### Tuesday 30th May 2023
+
+We're currently experimenting with adding Discussions & Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.
+
+We're still working on the formatting - they're currently a bit "buggy" in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.
+
+---
+
+**Recall Toolbox** is now available for early beta testing on [TestFlight](https://recalltoolbox.io).
+
+Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.
+
+Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.
+
+---
+
+Chris at [LateNite](https://latenitefilms.com/technology/) has decided to put the Final Cut Pro & DaVinci Resolve Communities literally head-to-head by introducing [Resolve Cafe](https://resolve.cafe). Let's see which community is more proactive in sharing awesome content!
+
+---
+
+**MotionVFX** is having a [50% Flash Sale](https://www.motionvfx.com/store) on selected products.
+
+They've also released a nice new package called [mProduct](https://www.motionvfx.com/store,mproduct,p3977.html).
+
+---
+
+**AudioSwift 2.3.5 Beta** with 14-bit MIDI CC is [now available](https://audioswiftapp.com/try-out-these-new-features-in-beta/).
+
+AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.
+
+AudioSwift works great in companion with [CommandPost](https://commandpost.io) via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/).
+
+---
+
 ### Monday 29th May 2023
 
 **Color Finale 2.6.6** has been released to fix support for Final Cut Pro 10.6.6.
@@ -35,7 +69,7 @@ Chris at [LateNite](https://latenitefilms.com/technology/) has updated the prici
 Their upcoming apps will have the same pricing model:
 
 - **[Recall Toolbox](https://recalltoolbox.io)** is now **29.99** in your local currency (i.e. **AUD29.99**, **USD29.99**, **CAD29.99**).
-- **[Transfer Toolbox](https://trasnfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
+- **[Transfer Toolbox](https://transfertoolbox.io)** is now **4.99** in your local currency (i.e. **AUD4.99**, **USD4.99**, **CAD4.99**).
 
 However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.
 
@@ -133,3 +167,7 @@ Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https
 !!!
 Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
 !!!
+
+---
+
+{{ include "giscus.md" }}

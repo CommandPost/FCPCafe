@@ -413,3 +413,7 @@ I believe filenames that say "SimpleMode" refer to iMovie.
 ### VideoToolbox
 
 I think this is the Framework that communicates with AV Foundations, CoreMedia, and handles video decoding, codecs, etc.
+
+---
+
+{{ include "giscus.md" }}

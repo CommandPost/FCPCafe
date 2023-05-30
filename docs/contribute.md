@@ -43,3 +43,7 @@ We want this site to be:
 - **Modern:** This site should work great on the latest browsers, including mobile
 - **Fast & Clean:** This site should load quickly, and be easy to navigate
 - **No analytics or user tracking:** No cookies here!
+
+---
+
+{{ include "giscus.md" }}

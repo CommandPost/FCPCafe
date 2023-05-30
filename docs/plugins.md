@@ -4,11 +4,14 @@ A directory of Final Cut Pro Plugins (FxPlug4).
 
 We're big fans of everything [CoreMelt](https://coremelt.com) & [Motion VFX](https://www.motionvfx.com) do.
 
+---
+
 !!!
-IMPORTANT: The recent FCP 10.6.6 Update has removed compatibility for all FxPlug3 based plugins immediately and without warning. This is true both for Intel Macs, as well as Apple Silicon Macs running Rosetta 2. Former workarounds are no longer viable, and opening a Library in FCP 10.6.6 will force an update, making that library incompatible with previous versions of FCP.
+**IMPORTANT:** The recent FCP 10.6.6 Update has removed compatibility for all FxPlug3 based plugins immediately and without warning. This is true both for Intel Macs, as well as Apple Silicon Macs running Rosetta 2. Former workarounds are no longer viable, and opening a Library in FCP 10.6.6 will force an update, making that library incompatible with previous versions of FCP.
 [Learn more here!](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update)
 !!!
 
+---
 
 # Coremelt Plugins
 ![image](https://github.com/jakemelt/FCPCafe/assets/134953998/26f74891-8372-4d82-bb84-dd668ecbd36e)
@@ -68,3 +71,4 @@ StyleX lets you apply a selection of trained machine learning video styles onto 
 
 ---
 
+{{ include "giscus.md" }}

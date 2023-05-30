@@ -75,3 +75,7 @@ Here's a list of text variables you can use in Motion to write data in Final Cut
 **@#$sourceObject_timecodeFrameDuration**
 
 **@#$sourceObject_timeRange**
+
+---
+
+{{ include "giscus.md" }}

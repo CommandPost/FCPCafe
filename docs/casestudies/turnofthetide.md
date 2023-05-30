@@ -13,3 +13,7 @@ We will be adding a full case study soon!
 :::
 
 ![Turn of the Tide Poster](../static/EN_GB_TOTTS1_9x16_RGB_PRE.jpg)
+
+---
+
+{{ include "giscus.md" }}

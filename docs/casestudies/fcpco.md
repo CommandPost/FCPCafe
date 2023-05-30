@@ -14,3 +14,7 @@ Here's some links to case studies on [fcp.co](https://fcp.co):
 - [Solve Review and Approval Problems for Music on Video with Freque (04 November 2022)](https://fcp.co/final-cut-pro/articles/2606-solve-review-and-approval-problems-for-music-on-video-with-freque)
 
 You can find more over at [fcp.co](https://fcp.co).
+
+---
+
+{{ include "giscus.md" }}

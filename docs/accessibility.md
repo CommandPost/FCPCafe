@@ -42,3 +42,7 @@ Here's an amazing video of **Christopher Hills** using Final Cut Pro on iPad usi
 :::videocontainer
 <iframe class="video" src="https://www.youtube-nocookie.com/embed/wXxY2ti-HZ8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
+
+---
+
+{{ include "giscus.md" }}
