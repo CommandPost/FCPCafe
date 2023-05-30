@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 30 May 2023 02:52:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2023 02:59:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Monday 29th May 2023]]></title>
@@ -111,6 +111,7 @@ data-emit-metadata=&quot;0&quot;
 data-input-position=&quot;bottom&quot;
 data-theme=&quot;preferred_color_scheme&quot;
 data-lang=&quot;en&quot;
+data-loading=&quot;lazy&quot;
 crossorigin=&quot;anonymous&quot;
 async&gt;
 &lt;/script&gt;</p>
