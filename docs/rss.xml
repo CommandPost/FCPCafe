@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 30 May 2023 05:06:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2023 08:30:08 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Tuesday 30th May 2023]]></title>
@@ -121,22 +121,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to get from Final 
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
 <hr>
 <hr>
-<p>&lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CommandPost/FCPCafe&quot;
-data-repo-id=&quot;MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg==&quot;
-data-category=&quot;Website Discussions&quot;
-data-category-id=&quot;DIC_kwDOBamd9s4CW0qy&quot;
-data-mapping=&quot;title&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-data-loading=&quot;lazy&quot;
-crossorigin=&quot;anonymous&quot;
-async&gt;
-&lt;/script&gt;</p>
+<p>{{ include &quot;giscus.md&quot; }}</p>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-23rd-may-2023</link>
             <guid isPermaLink="false">Tuesday 23rd May 2023</guid>
