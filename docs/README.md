@@ -14,6 +14,30 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ---
 
+### Tuesday 30th May 2023
+
+We're currently experimenting with adding Discussions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. We're still working on the formatting.
+
+---
+
+Chris at [LateNite](https://latenitefilms.com/technology/) has decided to put the Final Cut Pro & DaVinci Resolve Communities literally head-to-head by introducing [Resolve Cafe](https://resolve.cafe). Let's see which community is more proactive in sharing awesome content!
+
+---
+
+**MotionVFX** is having a [50% Flash Sale](https://www.motionvfx.com/store) on selected products.
+
+They've also released a nice new package called [mProduct](https://www.motionvfx.com/store,mproduct,p3977.html).
+
+---
+
+**AudioSwift 2.3.5 Beta** with 14-bit MIDI CC is [now available](https://audioswiftapp.com/try-out-these-new-features-in-beta/).
+
+AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.
+
+AudioSwift works great in companion with [CommandPost](https://commandpost.io) via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/).
+
+---
+
 ### Monday 29th May 2023
 
 **Color Finale 2.6.6** has been released to fix support for Final Cut Pro 10.6.6.
