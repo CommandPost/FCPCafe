@@ -10,14 +10,14 @@ branding:
 
 links:
 
-- text: Bugs & Feature Requests
-  link: https://github.com/CommandPost/FCPCafe/issues
-  icon: bug
-  target: blank
-
 - text: Discussions
   link: https://github.com/CommandPost/FCPCafe/discussions
   icon: comment-discussion
+  target: blank
+
+- text: Bugs & Feature Requests
+  link: https://github.com/CommandPost/FCPCafe/issues
+  icon: bug
   target: blank
 
 - text: Resolve Cafe
