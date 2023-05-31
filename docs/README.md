@@ -60,6 +60,10 @@ Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-pe
 
 ---
 
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 !!!info Sponsored
 Use [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} to get from Final Cut Pro for Mac to iPad!
 !!!
@@ -100,6 +104,10 @@ AudioSwift works great in companion with [CommandPost](https://commandpost.io){t
 
 ---
 
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 !!!info Sponsored
 [Recall Toolbox](https://recalltoolbox.io){target="_blank"} is now available on TestFlight as an early beta!
 !!!
@@ -137,6 +145,10 @@ Recall Toolbox is currently on TestFlight, and will hopefully be submitted to th
 
 ---
 
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 ### Sunday 28th May 2023
 
 We've recently reported two annoying **Final Cut Pro 10.6.6 bugs** to be across:
@@ -148,11 +160,19 @@ We've reported them to Apple, and will keep track of them in our [Bug Tracker](h
 
 ---
 
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 ### Saturday 27th May 2023
 
 Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge){target="_blank"}, [PostLab](https://hedge.video/postlab/benefits){target="_blank"} & [EditReady](https://hedge.video/editready){target="_blank"}). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram){target="_blank"}.
 
 ![Hedge Beta Program](/static/hedge.jpeg)
+
+---
+
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
 
 ---
 
@@ -210,9 +230,17 @@ He also discovered that Final Cut Pro (for iPad) [can actually read files from a
 
 ---
 
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 ### Tuesday 23rd May 2023
 
 Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/){target="_blank"} over at Pro Video Coalition.
+
+---
+
+[!button text="Discuss this news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
 
 ---
 
