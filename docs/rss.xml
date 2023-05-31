@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 31 May 2023 06:14:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 May 2023 10:15:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Wednesday 31st May 2023]]></title>
@@ -15,6 +15,8 @@
 <strong>Look Designer Perpetual Licenses:</strong> Colourlab Ai is offering a 30% discount on their Look Designer Perpetual Licenses. This means you can own Look Designer forever for just $349. Look Designer 3.0 for Davinci and Premiere runs on both Mac and PC and is the perfect companion for creating X01 files, Look Design, Look Testing, EL Zones, and Full Color Management. Use the code <code>springlook30</code> to avail this offer.</p>
 <p>Buy Colourlab Ai Studio <a href="https://colourlab.ai/colourlab-ai-studio-2-yearly/">here</a>{target=&quot;_blank&quot;}.</p>
 <p>Buy Look Designer Perpetual <a href="https://colourlab.ai/look-designer-resolve-perpetual/">here</a>{target=&quot;_blank&quot;}.</p>
+<hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <p>info Sponsored
 Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blank&quot;} to get from Final Cut Pro for Mac to iPad!</p>
@@ -41,6 +43,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
 <p><strong>AudioSwift 2.3.5 Beta</strong> with 14-bit MIDI CC is <a href="https://audioswiftapp.com/try-out-these-new-features-in-beta/">now available</a>{target=&quot;_blank&quot;}.</p>
 <p>AudioSwift for macOS transforms your trackpad into a set of MIDI tools like sliders, triggers, XY pads, mixing controllers and MPE. With support for MacBooks and Magic Trackpads, the app runs in the top menu bar waiting to be called. Tap the trackpad with a four fingers tap gesture to activate and a console window appears showing the current controller mode. You can then start sending MIDI with simple touch gestures and when you finish, press the Esc key to turn AudioSwift off. It’s the perfect compact MIDI controller for the mobile or desktop producer.</p>
 <p>AudioSwift works great in companion with <a href="https://commandpost.io">CommandPost</a>{target=&quot;_blank&quot;} via MIDI for <a href="https://audioswiftapp.com/fcp/">controlling Final Cut Pro</a>{target=&quot;_blank&quot;}.</p>
+<hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <p>info Sponsored
 <a href="https://recalltoolbox.io">Recall Toolbox</a>{target=&quot;_blank&quot;} is now available on TestFlight as an early beta!</p>
@@ -72,6 +76,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
 <p>Transfer Toolbox is currently waiting for approval on the Mac App Store, but you can download from TestFlight.</p>
 <p>Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.</p>
 <hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<hr>
 ]]></description>
             <link>https://fcp.cafe/#monday-29th-may-2023</link>
             <guid isPermaLink="false">Monday 29th May 2023</guid>
@@ -86,6 +92,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
 </ul>
 <p>We've reported them to Apple, and will keep track of them in our <a href="https://fcp.cafe/bugtracker/">Bug Tracker</a>.</p>
 <hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<hr>
 ]]></description>
             <link>https://fcp.cafe/#sunday-28th-may-2023</link>
             <guid isPermaLink="false">Sunday 28th May 2023</guid>
@@ -95,6 +103,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
             <title><![CDATA[Saturday 27th May 2023]]></title>
             <description><![CDATA[<p>Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like <a href="https://hedge.video/hedge">Hedge</a>{target=&quot;_blank&quot;}, <a href="https://hedge.video/postlab/benefits">PostLab</a>{target=&quot;_blank&quot;} &amp; <a href="https://hedge.video/editready">EditReady</a>{target=&quot;_blank&quot;}). If you think you have what it takes and would like to join, sign up <a href="http://bit.ly/HedgeBetaProgram">here</a>{target=&quot;_blank&quot;}.</p>
 <p><img src="/static/hedge.jpeg" alt="Hedge Beta Program"></p>
+<hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#saturday-27th-may-2023</link>
@@ -130,6 +140,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
 <p>Chris at <a href="https://latenitefilms.com">LateNite</a> has also announced <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blank&quot;} on <a href="https://twitter.com/chrisatlatenite/status/1661610054292758529">Twitter</a>{target=&quot;_blank&quot;}, allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.</p>
 <p>He also discovered that Final Cut Pro (for iPad) <a href="https://twitter.com/chrisatlatenite/status/1661697912202743809">can actually read files from an external SSD</a>{target=&quot;_blank&quot;}.</p>
 <hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<hr>
 ]]></description>
             <link>https://fcp.cafe/#friday-26th-may-2023</link>
             <guid isPermaLink="false">Friday 26th May 2023</guid>
@@ -138,6 +150,8 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
         <item>
             <title><![CDATA[Tuesday 23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a>{target=&quot;_blank&quot;} over at Pro Video Coalition.</p>
+<hr>
+<p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss this news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <hr>
 <p>{{ include &quot;giscus.md&quot; }}</p>
