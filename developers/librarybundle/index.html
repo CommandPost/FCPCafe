@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.0.738801710860">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.0.738815161446">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.0">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.0.738801710860" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.0.738815161446" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.0.738801710860" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.0.738815161446" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.0.738801710860" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.0.738815161446" data-turbo-eval="false" defer></script>
 
     <style>
     .videocontainer {
@@ -298,16 +298,16 @@
     </h3>
 </doc-anchor-target>
 <p>Before we dig too deep into the Final Cut Pro library, it&#x27;s important to understand one of the core technologies Apple uses in Final Cut Pro - <strong>Core Data</strong>.</p>
-<p>Core Data is an object graph and persistence framework provided by Apple in the macOS and iOS operating systems. More than 13 years old now (at the time of writing), Core Data was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 3.0 and like many parts of macOS, Core Data owes much of its design to an earlier NeXT product, <a href="https://en.wikipedia.org/wiki/Enterprise_Objects_Framework">Enterprise Objects Framework (EOF)</a>.</p>
-<p>You can watch the original 2004 WWDC session on Core Data <a href="https://www.youtube.com/watch?v=RsmBrENRvig">here</a>.</p>
-<p>You can read Apple&#x27;s official developer documentation on Core Data <a href="https://developer.apple.com/documentation/coredata?language=objc">here</a>.</p>
+<p>Core Data is an object graph and persistence framework provided by Apple in the macOS and iOS operating systems. More than 13 years old now (at the time of writing), Core Data was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 3.0 and like many parts of macOS, Core Data owes much of its design to an earlier NeXT product, <a href="https://en.wikipedia.org/wiki/Enterprise_Objects_Framework" target="_blank">Enterprise Objects Framework (EOF)</a>.</p>
+<p>You can watch the original 2004 WWDC session on Core Data <a href="https://www.youtube.com/watch?v=RsmBrENRvig" target="_blank">here</a>.</p>
+<p>You can read Apple&#x27;s official developer documentation on Core Data <a href="https://developer.apple.com/documentation/coredata?language=objc" target="_blank">here</a>.</p>
 <p>Core Data is a framework that you use to manage the model layer objects in an application. It provides generalised and automated solutions to common tasks associated with object life cycle and object graph management, including persistence (meaning that, for example, an iPhone App can remember its settings each time the phone is turned off and on again).</p>
 <p>It allows data organised by the relational entity–attribute model to be serialised into XML, binary, or SQLite stores. The data can be manipulated using higher level objects representing entities and their relationships. Core Data manages the serialised version.</p>
-<p>Core Data can interface directly with SQLite, insulating the developer from the underlying SQL - but it&#x27;s <strong>not</strong> a SQL wrapper, and offers a much higher level of abstraction. Instead of writing SQL, you can create complex queries by associating an <a href="https://developer.apple.com/documentation/foundation/nspredicate?language=objc">NSPredicate</a> object with a fetch request. However, because Core Data can use SQLite, it&#x27;s easy to get confused with the differences between SQLite and Core Data. Remember that Core Data isn’t a database. If you want an <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping (O/RM)</a> or SQL wrapper, Core Data is not what you want.</p>
+<p>Core Data can interface directly with SQLite, insulating the developer from the underlying SQL - but it&#x27;s <strong>not</strong> a SQL wrapper, and offers a much higher level of abstraction. Instead of writing SQL, you can create complex queries by associating an <a href="https://developer.apple.com/documentation/foundation/nspredicate?language=objc" target="_blank">NSPredicate</a> object with a fetch request. However, because Core Data can use SQLite, it&#x27;s easy to get confused with the differences between SQLite and Core Data. Remember that Core Data isn’t a database. If you want an <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping (O/RM)</a> or SQL wrapper, Core Data is not what you want.</p>
 <p>Essentially, Core Data is a model layer technology, that&#x27;s been designed to help programmers do lots of cool stuff, whilst writing less code. It&#x27;s a toolkit that allows developers to more easily access and manipulate data. For example, it has built-in undo/redo management, allowing developers to add complex undo/redo functionality to their applications with minimum code.</p>
 <p>Even though Core Data is a fantastic framework, there are several drawbacks. These drawbacks are directly related to the nature of the framework and how it works.</p>
 <p>Core Data can only do its magic because it keeps the object graph it manages in memory. This means that it can only operate on records once they’re in memory. This is very different from performing a SQL query on a database. If you want to delete thousands of records, Core Data first needs to load each record into memory. It goes without saying that this results in memory and performance issues if done incorrectly.</p>
-<p>Another important limitation is the threading model of Core Data. The framework expects to be run on a single thread. Fortunately, Core Data has evolved dramatically over the years and the framework has put <a href="https://cocoacasts.com/core-data-and-concurrency">various solutions</a> in place to make working with Core Data in a multithreaded environment safer and easier.</p>
+<p>Another important limitation is the threading model of Core Data. The framework expects to be run on a single thread. Fortunately, Core Data has evolved dramatically over the years and the framework has put <a href="https://cocoacasts.com/core-data-and-concurrency" target="_blank">various solutions</a> in place to make working with Core Data in a multithreaded environment safer and easier.</p>
 <p>For applications that need to manage a complex object graph (i.e. Final Cut Pro), Core Data is a great fit.</p>
 <hr />
 <doc-anchor-target id="deepskylite">
@@ -316,14 +316,14 @@
         <span>DeepSkyLite</span>
     </h3>
 </doc-anchor-target>
-<p>Final Cut Pro uses a lot of internal Frameworks, which you can learn more about <a href="https://lab.commandpost.io/final-cut-pro/application-bundle#frameworks">here</a>.</p>
+<p>Final Cut Pro uses a lot of internal Frameworks, which you can learn more about <a href="https://lab.commandpost.io/final-cut-pro/application-bundle#frameworks" target="_blank">here</a>.</p>
 <p>Within the Flexo Framework, is a framework called DeepSkyLite, which is essentially the &quot;database engine&quot; for Final Cut Pro.</p>
 <p>Inside the DeepSkyLite Framework is two Compiled Core Data Models:</p>
 <ul>
 <li><code v-pre>DSLite_v1.mom</code></li>
 <li><code v-pre>DSLite_v2b1.mom</code></li>
 </ul>
-<p>A <code v-pre>.mom</code> file is a binary property list that&#x27;s <a href="https://developer.apple.com/documentation/foundation/nskeyedarchiver?language=objc"><code v-pre>NSKeyedArchiver</code></a> encoded. You can easily open it up in something like BBEdit and have a look, but the easiest and best way to explore a Core Data Model is to just <a href="https://stackoverflow.com/a/24162480">import it back into Xcode</a>.</p>
+<p>A <code v-pre>.mom</code> file is a binary property list that&#x27;s <a href="https://developer.apple.com/documentation/foundation/nskeyedarchiver?language=objc" target="_blank"><code v-pre>NSKeyedArchiver</code></a> encoded. You can easily open it up in something like BBEdit and have a look, but the easiest and best way to explore a Core Data Model is to just <a href="https://stackoverflow.com/a/24162480" target="_blank">import it back into Xcode</a>.</p>
 <p>Here&#x27;s what Final Cut Pro&#x27;s model looks like in Xcode:</p>
 <p><figure class="content-center">
     <img src="../../static/model.png" alt="Patent Screenshot" />
