@@ -46,6 +46,3 @@ Here's a list of the **30 most recently reported** Final Cut Pro bugs on our Git
 - [Final Cut Pro 10.6 renders light in Motion Templates slightly differently than in 10.5.4 (October 22, 2021)](https://github.com/CommandPost/FCPCafe/issues/65)
 - [Final Cut Pro 10.6 has issues with AC3 Encoded Audio (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/63)
 - [Final Cut Pro 10.6 won't import FCPXML with certain region settings (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/62)
-- [Crash - Video Tracker Controller Deallocation (October 19, 2021)](https://github.com/CommandPost/FCPCafe/issues/61)
-- [Crash - Changing order of Roles in Timeline Index  (June 10, 2021)](https://github.com/CommandPost/FCPCafe/issues/60)
-- [Dispatch queue: com.apple.flexo.scrub-buffer-update-thread (February 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/59)
