@@ -14,6 +14,7 @@ Richard Taylor also maintains a list of [101+ Requests for Final Cut Pro](https:
 
 Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 
+- [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107)
 - [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106)
 - [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104)
 - [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103)

@@ -44,4 +44,3 @@ Here's a list of the **30 most recently reported** Final Cut Pro bugs on our Git
 - [Crash - Making a compound clip (November 29, 2021)](https://github.com/CommandPost/FCPCafe/issues/67)
 - [Titles/Generator with lots of Parameters slow in Inspector (November 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/66)
 - [Final Cut Pro 10.6 renders light in Motion Templates slightly differently than in 10.5.4 (October 22, 2021)](https://github.com/CommandPost/FCPCafe/issues/65)
-- [Final Cut Pro 10.6 has issues with AC3 Encoded Audio (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/63)
