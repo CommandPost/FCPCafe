@@ -12,12 +12,11 @@ In general, whenever posting a new bug/issue to GitHub, we also submit feedback 
 
 ### Final Cut Pro 10.6.6
 
-Here's a list of the main issues we've discovered in the latest Final Cut Pro Release:
+Here's a list of the **30 most recently added** Final Cut Pro 10.6.6 bug reports:
 
-- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
-- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
+{{ include "bugtracker-latest.md" }}
 
-The above list is manually curated.
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
 ---
 

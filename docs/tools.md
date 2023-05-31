@@ -188,6 +188,11 @@ It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](htt
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html){target="_blank"} and [Episode #43](http://fcpradio.com/episodes/episode043.html){target="_blank"}.
 
+#### User Reviews
+
+> CommandPost and FCP are so intertwined on my day to day that I see them as one app.
+> [Marcos Castiel BFE](www.marcoscastiel.com){target="_blank"}
+
 [!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
 
 ---
