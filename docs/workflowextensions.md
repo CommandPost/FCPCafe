@@ -37,6 +37,7 @@ BRAW Toolbox requires Final Cut Pro 10.6.5 or later.
 #### User Reviews
 
 :::review
+:star2: :star2: :star2: :star2: :star2:
 This developer did what Apple Couldn't/Wouldn't
 This app is a great solution to a common problem Final Cut Pro users have: getting Blackmagic Raw footage into the app. At first it might seem like a bizarre workaround, but you only have to go through the process of setting it up once, and then you can easily import your Blackmagic footage right into FCP. Honestly, from that point on it works so incredibly well that I really struggle to understand why Apple has made it so difficult. Except it's not difficult, not anymore. This is great software: a small developer solving a problem that a big one (Apple) can't. That's innovation, my friends.
 
@@ -186,6 +187,24 @@ This can be a MASSIVE time saver, as you can simply copy and paste a long list o
 
 Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 
+#### User Reviews
+
+:::review
+:star2: :star2: :star2: :star2: :star2:
+Excellent addition to FCP
+This is a great tool. I have my clients make notes on Vimeo, and Marker Toolbox lets me download a .csv of those comments and create markers on the FCP project/timeline at the proper locations, with notes visible and that will follow the clips as I move them. Once downloaded and installed it's easy. Downloading the .csv and running it through Marker Toolbox and adding the Markers to the project/timeline takes less than a minute, then you're ready to go. Really great find!
+
+_Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
+:::
+
+:::review
+:star2: :star2: :star2: :star2: :star2:
+Amazing simple
+I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
+
+_Blazy – Apr 6, 2023 (Apple App Store Review)_
+:::
+
 [!button text="Visit Website" target="blank" variant="info"](https://markertoolbox.io)
 
 ---
@@ -201,6 +220,24 @@ Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it
 You can even use this in conjunction with BRAW Toolbox (also on the App Store), to stabilise Blackmagic RAW files!
 
 None of this would be possible without the incredible Gyroflow project and the incredibly help and support from their main developer, AdrianEddy.
+
+#### User Reviews
+
+:::review
+:star2: :star2: :star2: :star2: :star2:
+Nice product!
+Thank you Chris!
+
+_NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
+:::
+
+:::
+:star2: :star2: :star2: :star2: :star2:
+The Best Way to Stabilize Pro Res RAW
+I record both internally and externally with an Atomos Ninja, on my FX3 with the end goal of delivering HDR. I record internal to capture Gyroscopic data that my FX3 records. This allows me to Use GryoFlow, and Thus GryoFlow Toolbox to stabilize Pro Res RAW footage. This tool has made it possible, and works awesomely. I highly recommend this tool it will help immensely.
+
+_Tydar94 – Jan 27, 2023 (Apple App Store Review)_
+:::
 
 [!button text="Visit Website" target="blank" variant="info"](https://gyroflowtoolbox.io)
 
