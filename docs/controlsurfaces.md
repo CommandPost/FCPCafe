@@ -6,6 +6,12 @@ We will be adding reviews and information here in the future.
 
 ---
 
+!!!
+Want to contribute or add your hardware? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 ### CommandPost
 
 CommandPost currently supports:

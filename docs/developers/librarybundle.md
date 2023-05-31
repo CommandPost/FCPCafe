@@ -38,7 +38,7 @@ For applications that need to manage a complex object graph (i.e. Final Cut Pro)
 
 ### DeepSkyLite
 
-Final Cut Pro uses a lot of internal Frameworks, which you can learn more about [here](https://lab.commandpost.io/final-cut-pro/application-bundle#frameworks){target="_blank"}.
+Final Cut Pro uses a lot of internal Frameworks, which you can learn more about [here](https://fcp.cafe/developers/applicationbundle/).
 
 Within the Flexo Framework, is a framework called DeepSkyLite, which is essentially the "database engine" for Final Cut Pro.
 
@@ -52,6 +52,8 @@ A `.mom` file is a binary property list that's [`NSKeyedArchiver`](https://devel
 Here's what Final Cut Pro's model looks like in Xcode:
 
 ![Patent Screenshot](../static/model.png)
+
+Interestingly, this model is used for both Final Cut Pro on Mac and Final Cut Pro for iPad.
 
 ---
 

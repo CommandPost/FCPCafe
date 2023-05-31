@@ -8,4 +8,10 @@ There's a great article called [Demystifying Final Cut Pro XMLs by Philip Hodget
 
 ---
 
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 {{ include "giscus.md" }}

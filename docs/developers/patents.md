@@ -8,4 +8,10 @@ Here's one of the screenshots from the patent:
 
 ---
 
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 {{ include "giscus.md" }}

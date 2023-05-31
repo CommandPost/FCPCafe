@@ -6,6 +6,18 @@ It's interesting to note that most of the Frameworks contained within Final Cut 
 
 ---
 
+!!!danger Warning
+The content on this page is quite out-dated, and doesn't take into account Final Cut Pro 10.6.6 or Final Cut Pro for iPad. It will be updated over the coming months.
+!!!
+
+---
+
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 ## What is a Framework?
 
 A framework is a bundle (a structured directory) that contains a dynamic shared library along with associated resources, such as `.nib` files, image files, and header files. When you develop an application, your project links to one or more frameworks. For example, iPhone application projects link by default to the Foundation, UIKit, and Core Graphics frameworks. Your code accesses the capabilities of a framework through the application programming interface (API), which is published by the framework through its header files. Because the library is dynamically shared, multiple applications can access the framework code and resources simultaneously. The system loads the code and resources of a framework into memory, as needed, and shares the one copy of a resource among all applications.

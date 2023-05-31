@@ -1,12 +1,22 @@
 # Release Notes
 
+This page is designed to not just copy and paste Final Cut Pro's [official release notes](https://support.apple.com/en-us/HT201237){target="_blank"}, but also keep track of changes/bugs/additions that weren't actually included in the official release notes.
+
+---
+
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 ### Final Cut Pro 10.6.6
 
 **Released May 23, 2023**
 
 #### Notes from FCP Cafe:
 
-- This release removes FxPlug2 and FxPlug3 support. Only FxPlug4 is now supported, and older plugins will no longer work.
+- This release removes FxPlug2 and FxPlug3 support. Only FxPlug4 is now supported, and older plugins will no longer work. You can learn more [here](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update){target="_blank"}.
 
 #### New features:
 

@@ -110,4 +110,10 @@ In 2011 Apple ended Final Cut Pro as we knew it and started over with a brand ne
 
 ---
 
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 {{ include "giscus.md" }}

@@ -6,4 +6,10 @@ Richard Taylor also does a [FINAL CUT TV & Coffee](https://www.youtube.com/richa
 
 ---
 
+!!!
+Want to contribute or add your podcast? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
+
+---
+
 {{ include "giscus.md" }}
