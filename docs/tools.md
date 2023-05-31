@@ -34,6 +34,33 @@ Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.a
 
 ---
 
+### Xsend Motion
+
+The missing piece between Final Cut Pro and Motion 5: Xsend Motion from Automatic Duck.
+
+Xsend Motion converts your FCP timeline into a Motion project in just seconds, translating Transforms like Position and Scale, Opacity and blending modes, titles and many third party effects as well.
+
+A new Motion project is created referencing the same media files used by Final Cut Pro, no new media is created. You can easily adjust your footage in Motion, everything is live and not baked-in.
+
+Uploaded by Automatic Duck on 2017-12-05.
+You can send an entire project from FCP to Motion, or you can export the contents of a compound clip to XML and translate that into Motion. Your Motion work can be exported back to FCP as a QuickTime movie or published as a Generator. Any time you have a clip or set of clips in FCPX that want to use in Motion, Xsend Motion is the tool you need to send those projects across.
+
+Xsend Motion integrates with the Final Cut Pro Share menu as well as with XML exports from FCP 10.2.1 and later, including Final Cut Pro X 10.6.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/xsendmotion/)
+
+---
+
+### Ximport AE
+
+Ximport AE is a powerful After Effects plug-in that imports XML files from Final Cut Pro. This plug-in offers the most complete workflow for translating a timeline from Final Cut Pro to Adobe After Effects.
+
+Watch the QuickStart video at the right to get an introduction to Ximport AE. It is a very powerful plug-in, and the best way to get to know it is to use it.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/ximportae/)
+
+---
+
 ### SendToX
 
 SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.
@@ -206,6 +233,14 @@ Requirements
 X2Pro uses Marquis Media Highway technology to integrate FCP X into the established professional audio workflow. Marquis Media Highway is the core technology employed by Marquis’ media integration products – it improves how broadcast production systems interoperate by delivering a seamless and cost-effective integration between leading broadcast content applications. Marquis Broadcast specializes in content workflows and media integration software and has been delivering solutions to broadcast since 1998.
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/ph/app/x2pro-audio-convert/id501688639?mt=12)
+
+---
+
+### Media Copy 4.0
+
+Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
 
 ---
 
