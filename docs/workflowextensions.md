@@ -190,7 +190,7 @@ Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 #### User Reviews
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
 Excellent addition to FCP
 This is a great tool. I have my clients make notes on Vimeo, and Marker Toolbox lets me download a .csv of those comments and create markers on the FCP project/timeline at the proper locations, with notes visible and that will follow the clips as I move them. Once downloaded and installed it's easy. Downloading the .csv and running it through Marker Toolbox and adding the Markers to the project/timeline takes less than a minute, then you're ready to go. Really great find!
 
@@ -198,7 +198,7 @@ _Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
 Amazing simple
 I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
 
