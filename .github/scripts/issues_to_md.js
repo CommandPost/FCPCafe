@@ -15,7 +15,7 @@ const getIssues = async () => {
     }
   });
 
-  return response.data.filter(issue => issue.labels.length > 0 && !issue.labels.some(label => label.name === "Feature Request"));
+  return response.data;
 };
 
 const generateMarkdown = (issues, path, sortFunc) => {
@@ -50,6 +50,10 @@ const sumReactions = issue => {
 }
 
 getIssues().then(issues => {
-  generateMarkdown(issues, 'docs/_includes/bugtracker-recent.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
-  generateMarkdown(issues, 'docs/_includes/bugtracker-reactions.md', (a, b) => sumReactions(b) - sumReactions(a));
+  const issuesFilteredByRecent = issues.filter(issue => issue.labels.length > 0 && !issue.labels.some(label => label.name === "Feature Request"));
+  const issuesFilteredByLatest = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.6"));
+  
+  generateMarkdown(issuesFilteredByRecent, 'docs/_includes/bugtracker-recent.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
+  generateMarkdown(issuesFilteredByLatest, 'docs/_includes/bugtracker-latest.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
+  generateMarkdown(issuesFilteredByRecent, 'docs/_includes/bugtracker-reactions.md', (a, b) => sumReactions(b) - sumReactions(a));
 });
