@@ -190,24 +190,6 @@ It is easy:
 3. Your transcript is ready! Bookmark, annotate, edit, and collaborate with teammates. Even preview subtitle formatting in the visual subtitle editor.
 4. Export back to your video editing application (like FCPX, Premiere, Avid) or to Word.
 
-TaDa!
-
-#### About
-Simon Says is the advanced A.I. transcription and translation tool built for video pros. We make post production more efficient, saving significant time and costs. Import audio/video and in 100 languages: they accurately transcribe, subtitle, caption, and translate in minutes.
-
-Our products:
-- Web: https://simonsays.ai
-- macOS app
-- FCP X Extension and Mac app
-- iOS meeting recorder/transcriber
-
-*A project transcribed in any of the above applications is then accessible from any other Simon Says app.
-
--Mac/PC on-premise application for customers with high-security requirements: the A.I. runs locally, data is not sent to the cloud (https://help.simonsays.ai/en/articles/2657987-do-you-have-an-on-premise-solution-for-high-security-environments)
-
-#### Cost
-Cost is based on the duration of the media to transcribe and the rate your plan is entitled to. There are Pay As You Go and subscription plans: see the website for details.
-
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/simon-says-transcription/id1441555493?mt=12)
 
 ---
