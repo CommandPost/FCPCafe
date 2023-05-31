@@ -4,9 +4,19 @@ This page is dedicated to keeping track of Final Cut Pro feature requests, via o
 
 To submit a new feature request, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
-In general, whenever posting a new feature request to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
+We also keep track of the most popular feature requests, based on the amount of reactions the issues get.
+
+In general, whenever posting a new feature request to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}, and make a note of the Feedback Assistant ID in the issue.
 
 Richard Taylor also maintains a list of [101+ Requests for Final Cut Pro](https://fcpx.tv/top.html).
+
+---
+
+### Most Popular
+
+Here's a list of the **30 most popular** Final Cut Pro feature requests:
+
+{{ include "wishlist-reactions.md" }}
 
 ---
 
@@ -14,12 +24,10 @@ Richard Taylor also maintains a list of [101+ Requests for Final Cut Pro](https:
 
 Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 
-- [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107)
-- [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106)
-- [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104)
-- [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103)
-- [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102)
-- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
-- [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89)
-- [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85)
-- [Reveal in Browser with detached Audio/Video (May 19, 2022)](https://github.com/CommandPost/FCPCafe/issues/78)
+{{ include "wishlist-recent.md" }}
+
+---
+
+!!!
+Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
