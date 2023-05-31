@@ -2,6 +2,8 @@
 
 This page is dedicated to handy applications that can be used in conjunction with Final Cut Pro.
 
+[FxFactory](https://fxfactory.com){target="_blank"} also has a lot of great tools.
+
 ---
 
 !!!
