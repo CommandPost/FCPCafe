@@ -30,7 +30,7 @@ const generateMarkdown = (issues, path, sortFunc) => {
   // build the new list
   for (const issue of issues) {
     const date = new Date(issue.created_at).toLocaleDateString("en-US", { day: 'numeric', month: 'long', year: 'numeric' });
-    content += `- [${issue.title} (${date})](${issue.html_url})\n`;
+    content += `- [${issue.title} (${date})](${issue.html_url}){target="_blank"}\n`;
   }
 
   fs.writeFileSync(path, content);
