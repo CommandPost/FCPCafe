@@ -43,6 +43,16 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ---
 
+### Thursday 1st June 2023
+
+**Alteon.io** has announced that **Brian Meaney** will now be their new Head of Product. He brings more than two decades of experience from Apple and Magic Leap. Brian will direct product development and UX for their entire ecosystem.
+
+This is very exciting for Final Cut Pro users - as Alteon is very committed to the Final Cut Pro ecosystem! You can learn more [here](https://www.accesswire.com/viewarticle.aspx?id=758114).
+
+[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 ### Wednesday 31st May 2023
 
 **Colourlab Ai** is having a Spring Flash Sale! Up to 50% Off on Our Color Grading Software - Only 48 Hours Left!
