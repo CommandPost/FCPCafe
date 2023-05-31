@@ -2,13 +2,66 @@
 
 This page is dedicated to handy applications that can be used in conjunction with Final Cut Pro.
 
-[FxFactory](https://fxfactory.com){target="_blank"} also has a lot of great tools.
-
 ---
 
 !!!
 Want to contribute or add your tools? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
+
+---
+
+### FxFactory
+
+Visual effect plugins and apps for video creators. FxFactory is THE App Store for Final Cut Pro editors.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com)
+
+---
+
+### CommandPost
+
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html){target="_blank"}.
+
+It’s been downloaded over [163 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}, and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"} in our [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
+
+It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy){target="_blank"}.
+
+It’s used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
+
+For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
+
+Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
+
+It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"}.
+
+You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html){target="_blank"} and [Episode #43](http://fcpradio.com/episodes/episode043.html){target="_blank"}.
+
+#### User Reviews
+
+:::review
+CommandPost and FCP are so intertwined on my day to day that I see them as one app.
+[Marcos Castiel BFE](www.marcoscastiel.com){target="_blank"}
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
+
+---
+
+### Transfer Toolbox
+
+Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
+
+You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
+
+You should ensure your library only has a single event, and all project timecode starts at 00:00:00:00.
+
+All Motion Content and Media should be contained within the Library.
+
+If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
+
+Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
+
+[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
 
 ---
 
@@ -151,51 +204,6 @@ Except those teams have already moved ahead with their jobs and have complex pro
 The Change List is the step-by-step instructions to convert the current project to conform to the new edit. This is frequently a manual process but there are advanced tools that use the text-based change list to automate the changes.
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/change-list-x/id694746044?mt=12)
-
----
-
-### Transfer Toolbox
-
-Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
-
-You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
-
-You should ensure your library only has a single event, and all project timecode starts at 00:00:00:00.
-
-All Motion Content and Media should be contained within the Library.
-
-If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
-
-Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
-
-[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
-
----
-
-### CommandPost
-
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html){target="_blank"}.
-
-It’s been downloaded over [163 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}, and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"} in our [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
-
-It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy){target="_blank"}.
-
-It’s used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
-
-For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
-
-Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
-
-It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"}.
-
-You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html){target="_blank"} and [Episode #43](http://fcpradio.com/episodes/episode043.html){target="_blank"}.
-
-#### User Reviews
-
-> CommandPost and FCP are so intertwined on my day to day that I see them as one app.
-> [Marcos Castiel BFE](www.marcoscastiel.com){target="_blank"}
-
-[!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
 
 ---
 
