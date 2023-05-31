@@ -2,9 +2,9 @@
 
 This section of the site is dedicated to linking to great external articles, as well as providing a space to write FCP Cafe specific articles.
 
-There's also a massive collection of Final Cut Pro articles over at [macProVideo.com](https://macprovideo.com/articles/final-cut).
+There's also a massive collection of Final Cut Pro articles over at [macProVideo.com](https://macprovideo.com/articles/final-cut){target="_blank"}.
 
-Richard Taylor also links to a lot of great articles on [FCPX.TV](https://fcpx.tv).
+Richard Taylor also links to a lot of great articles on [FCPX.TV](https://fcpx.tv){target="_blank"}.
 
 In the coming weeks we'll update this page with direct links to relevant and useful articles.
 
@@ -12,7 +12,7 @@ In the coming weeks we'll update this page with direct links to relevant and use
 
 ### fcp.co
 
-[fcp.co](https://fcp.co) is an entire site dedicated to Final Cut Pro, so there's lots of great articles there.
+[fcp.co](https://fcp.co){target="_blank"} is an entire site dedicated to Final Cut Pro, so there's lots of great articles there.
 
 - [Timbrée or How to Use Stamps to Build a Story (Peter Wiggins - 09 May 2023)](https://fcp.co/final-cut-pro/articles/2616-timbree-or-how-to-use-stamps-to-build-a-story)
 - [In Love with Final Cut Pro (Joaquin Gonzalez Dajer - 10 Feb 2023)](https://fcp.co/final-cut-pro/articles/2614-in-love-with-final-cut-pro)

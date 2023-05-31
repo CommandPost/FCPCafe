@@ -14,7 +14,7 @@ A framework is a bundle (a structured directory) that contains a dynamic shared 
 
 ## History Lesson
 
-Phil Pan [writes on Alex4D's Facebook Page](https://www.facebook.com/Alex4D/posts/2875905815768477?comment_id=2878510342174691&comment_tracking=%7B%22tn%22%3A%22R%22%7D):
+Phil Pan [writes on Alex4D's Facebook Page](https://www.facebook.com/Alex4D/posts/2875905815768477?comment_id=2878510342174691&comment_tracking=%7B%22tn%22%3A%22R%22%7D){target="_blank"}:
 
 > I worked on that team for five years. There wasn't much work done on merging Shake and FCP. Most of the advanced work done by the core Shake team focused on the Helium renderer, which today is core to Pro Apps today. Shake's genius was how it was ultra-efficient as CPU-only code. Management had little interest in Shake and most resources went to Motion and Aperture; projects that Steve could related to when he wasn't completely absorbed by the iPad, the iPhone and the iTunes business ecosystem. The author of this patent, Christophe Souchard, is a French mathematician who had tons of prior experience at Discreet/Autodesk. He joined Apple when it purchased his Senso technology, which was the first Intel-based library to do advanced image scaling and frame-rate conversion using motion vector estimation. While at Apple, Christophe's skills impressed management enough that his position was labelled "Applied Magic", and a veteran aerospace software engineer was hired to perform curation and clerical code management for his inventions. He introduced the team to methods using partial differential equations and while exteremely slow to compute, his next-generation prototypes performed jaw-dropping feats 15 years before similar tools would be introduced by Adobe. None of this work ever came out because Apple had a policy not to release compute-intensive software. Randy Ubillos (father of FCP and close to Steve) wouldn't accept any operation that took longer than a second per frame to render. This relegated Christophe to a research position for a while, until Randy got so impressed that he monopolized Christophe to work on advanced concepts for FCPX. Randy had some clever ideas about shot alignment and automatic editing, and this patent is the result of one of their collaborative projects. Today Christophe works at Unity Technologies doing advanced AR work, and he consults on the side when he has the time. He's recently rumored to have authored the rendering engine for ColorSynth, a complex colour grading plugin for FCPX and Premiere.
 >
@@ -40,13 +40,13 @@ Contains `ACD.plugin` - a CoreMediaIO plugin that enables the "A/V Output" featu
 
 The CoreMediaIO Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.
 
-You can download sample DAL code [here](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html).
+You can download sample DAL code [here](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html){target="_blank"}.
 
 ---
 
 ### FxPlug
 
-[The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. ](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html)
+[The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. ](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html){target="_blank"}
 
 This folder contains two plugins:
 - `FiltersLegacyPath.bundle` - I believe this contains older Filters (such as the Primatte keyer) still used by Motion & Final Cut Pro.
@@ -97,13 +97,13 @@ I don't think this is much help to CommandPost.
 
 ### CoreMedia
 
-[Represent time-based audio-visual assets with essential data types.](https://developer.apple.com/reference/coremedia)
+[Represent time-based audio-visual assets with essential data types.](https://developer.apple.com/reference/coremedia){target="_blank"}
 
 ---
 
 ### CoreMediaIO
 
-The [CoreMediaIO](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2) Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.
+The [CoreMediaIO](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2){target="_blank"} Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.
 
 ---
 
@@ -121,7 +121,7 @@ It contains:
 * Files for `Trailers`, `Themes`, `Titles` and `Maps`
 * Metadata Definitions (`DPPEditorialServices`, `DPPMedia` & `MXFMetadata`)
 * Color Presets (in the `.cboard` format)
-* [Nib files](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/LoadingResources/CocoaNibs/CocoaNibs.html) for a huge range of different Final Cut Pro & iMovie Windows & Modules.
+* [Nib files](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/LoadingResources/CocoaNibs/CocoaNibs.html){target="_blank"} for a huge range of different Final Cut Pro & iMovie Windows & Modules.
 * `FFLocalizable.strings` which contains a huge range of different UI strings for both iMovie and Final Cut Pro
 * `ProMSRendererTool` seems to be both a video and audio rendering engine based on the `ProMSRendererLocalizable.strings` file.
 
@@ -133,13 +133,13 @@ This framework seems to be the Core Data interface for Final Cut Pro. It contain
 
 #### FaceCoreEmbedded
 
-FaceCore is Apple's Face Recognition framework, which was [acquired from Polar Rose](http://www.darkreading.com/risk-management/apple-to-acquire-polar-rose-face-recognition-firm/d/d-id/1092644?).
+FaceCore is Apple's Face Recognition framework, which was [acquired from Polar Rose](http://www.darkreading.com/risk-management/apple-to-acquire-polar-rose-face-recognition-firm/d/d-id/1092644?){target="_blank"}.
 
 ---
 
 ### FxPlug
 
-[The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. ](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html)
+[The FxPlug SDK is a compact yet powerful image processing plug-in architecture that lets you create new effects for Final Cut Pro and Motion. ](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html){target="_blank"}
 
 ---
 
@@ -147,7 +147,7 @@ FaceCore is Apple's Face Recognition framework, which was [acquired from Polar R
 
 Helium looks like it's the video processing engine for Final Cut Pro, and other ProApps (i.e. there's references to Shake in some of the frameworks).
 
-It looks like it's using [OpenGL's ARB Vertex](http://www.nvidia.com/docs/IO/8228/GDC2003_OGL_ARBVertexProgram.pdf) Programming language?
+It looks like it's using [OpenGL's ARB Vertex](http://www.nvidia.com/docs/IO/8228/GDC2003_OGL_ARBVertexProgram.pdf){target="_blank"} Programming language?
 
 It contains two "Plug-ins":
 
@@ -180,7 +180,7 @@ More Optical Flow code - but this looks less like OpenGL functions, and more lik
 
 ### Lithium
 
-Looks like another Framework for doing processing on the GPU using the [OpenGL Shading Language](https://en.wikipedia.org/wiki/OpenGL_Shading_Language). It has references to [Metal](https://developer.apple.com/metal/) as well. I'm ASSUMING that this the main Shader code.
+Looks like another Framework for doing processing on the GPU using the [OpenGL Shading Language](https://en.wikipedia.org/wiki/OpenGL_Shading_Language){target="_blank"}. It has references to [Metal](https://developer.apple.com/metal/){target="_blank"} as well. I'm ASSUMING that this the main Shader code.
 
 Has two .glsl files inside:
 
@@ -193,7 +193,7 @@ Has two .glsl files inside:
 
 This looks like the Framework that contains all of the ProApps UI elements - from Windows, to Audio Meters, to Toolbars and the Browser.
 
-It contains a bunch of `.car` (CoreUI Archives) files, which can be extracted using [Asset Catalog Tinkerer](https://github.com/insidegui/AssetCatalogTinkerer):
+It contains a bunch of `.car` (CoreUI Archives) files, which can be extracted using [Asset Catalog Tinkerer](https://github.com/insidegui/AssetCatalogTinkerer){target="_blank"}:
 
 - **AppThemeBits.car:** contains LOTS of PSDs of UI elements.
 - **AppThemeBitsB.car:** looks like a duplicate of `AppThemeBits.car`, but maybe at higher resolution (Retina version?)
@@ -235,13 +235,13 @@ There are also localised files in LOTS of different languages. In the `English.l
 
 ### MediaToolbox
 
-[Contains interfaces for playing video and audio content.](https://developer.apple.com/library/content/releasenotes/General/APIDiffsMacOSX10_10_3/modules/MediaToolbox.html)
+[Contains interfaces for playing video and audio content.](https://developer.apple.com/library/content/releasenotes/General/APIDiffsMacOSX10_10_3/modules/MediaToolbox.html){target="_blank"}
 
 ---
 
 ### MIO
 
-Not sure what MIO stands for (maybe MediaIO or [CoreMediaIO](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2)?) but seems to be something to do with the reading and processing of video & audio files. Possibly also has something to do with the controlling of FireWire DV devices?
+Not sure what MIO stands for (maybe MediaIO or [CoreMediaIO](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html#//apple_ref/doc/uid/DTS40012293-Intro-DontLinkElementID_2){target="_blank"}?) but seems to be something to do with the reading and processing of video & audio files. Possibly also has something to do with the controlling of FireWire DV devices?
 
 ---
 
@@ -310,7 +310,7 @@ I believe this Framework contains the Curve Editor used by Apple Motion.
 
 ### ProGL
 
-The Framework that handles the OpenGL processing. I believe this creates an [`NSOpenGLContext`](https://developer.apple.com/documentation/appkit/nsopenglcontext) (i.e. an object that represents an OpenGL graphics context, into which all OpenGL calls are rendered).
+The Framework that handles the OpenGL processing. I believe this creates an [`NSOpenGLContext`](https://developer.apple.com/documentation/appkit/nsopenglcontext){target="_blank"} (i.e. an object that represents an OpenGL graphics context, into which all OpenGL calls are rendered).
 
 ---
 
@@ -336,7 +336,7 @@ This Framework looks like it handles support for things like RAW images and Open
 
 This looks like Motion's Framework for handling On-screen Controls.
 
-It looks like it's doing processing on the GPU using the [OpenGL Shading Language](https://en.wikipedia.org/wiki/OpenGL_Shading_Language).
+It looks like it's doing processing on the GPU using the [OpenGL Shading Language](https://en.wikipedia.org/wiki/OpenGL_Shading_Language){target="_blank"}.
 
 It has several .glsl files inside:
 
@@ -370,7 +370,7 @@ Looks like it's used by Motion to do some kind of complex retiming algorithm's.
 
 ### Stalgo
 
-[STALGO](https://www.sthu.org/code/stalgo/) is an industrial-strength C++ software package for computing straight skeletons and mitered offset-curves.
+[STALGO](https://www.sthu.org/code/stalgo/){target="_blank"} is an industrial-strength C++ software package for computing straight skeletons and mitered offset-curves.
 
 ---
 

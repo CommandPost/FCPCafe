@@ -10,7 +10,7 @@ BruceX is a small Final Cut Pro X XML file that you import into Final Cut Pro. I
 
 The Bruce X benchmark is based on timing how long a Mac configuration takes to export the project.
 
-You can learn more [here](https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/).
+You can learn more [here](https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/){target="_blank"}.
 
 ---
 
@@ -20,9 +20,9 @@ You can learn more [here](https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-b
 
 It contains a `.png`, a `.wav` and a `.aiff`. It shows that the `.wav` and `.aiff` interact and create performance lag.
 
-Also included is a video file explaining how to replicate this test. This issue has been reported to Apple.
+Also included in the Final Cut Pro library is a video file explaining how to replicate this test. This issue has been reported to Apple.
 
-You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77).
+You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77){target="_blank"}.
 
 ---
 
