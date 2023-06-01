@@ -1,3 +1,4 @@
+- [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111){target="_blank"}
 - [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107){target="_blank"}
 - [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106){target="_blank"}
 - [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104){target="_blank"}
