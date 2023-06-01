@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110){target="_blank"}
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109){target="_blank"}
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108){target="_blank"}
+- [FCP Apple Silicon: 10-bit H264 black clips and timeline export failure with certain formats starting with Ventura 13.4 (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119){target="_blank"}
 - [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94){target="_blank"}
 - [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92){target="_blank"}
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88){target="_blank"}
@@ -27,4 +28,3 @@
 - [Crash - Video Tracker Controller Deallocation (October 19, 2021)](https://github.com/CommandPost/FCPCafe/issues/61){target="_blank"}
 - [Crash - Changing order of Roles in Timeline Index  (June 10, 2021)](https://github.com/CommandPost/FCPCafe/issues/60){target="_blank"}
 - [Dispatch queue: com.apple.flexo.scrub-buffer-update-thread (February 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/59){target="_blank"}
-- [iMac Shuts Down While using Final Cut Pro X (July 22, 2020)](https://github.com/CommandPost/FCPCafe/issues/57){target="_blank"}
