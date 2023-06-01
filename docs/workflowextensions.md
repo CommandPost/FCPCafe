@@ -37,7 +37,8 @@ BRAW Toolbox requires Final Cut Pro 10.6.5 or later.
 #### User Reviews
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 This developer did what Apple Couldn't/Wouldn't
 This app is a great solution to a common problem Final Cut Pro users have: getting Blackmagic Raw footage into the app. At first it might seem like a bizarre workaround, but you only have to go through the process of setting it up once, and then you can easily import your Blackmagic footage right into FCP. Honestly, from that point on it works so incredibly well that I really struggle to understand why Apple has made it so difficult. Except it's not difficult, not anymore. This is great software: a small developer solving a problem that a big one (Apple) can't. That's innovation, my friends.
 
@@ -45,7 +46,8 @@ _moosefuel – Feb 3, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 The tool we have dreamed of is here.
 For lovers of Final Cut Pro who have struggled with the endless BRAW proxy XML loop, this is a dream come true. BRAW natively inside Final Cut. Controls for RAW adjustments at your fingertips. Is it the full Resolve interface? No, doesnt need to be, Between BRAW ToolBox and FCP, most edits can be done natively without ever having the leave the Final Cut NLE. If you shoot any BRAW camera, this is the best of both worlds if you live in the FCP ecosystem. Thank you latenightfilms team for this, its a huge step forward and a wonderful plugin.
 
@@ -53,7 +55,8 @@ _Chasing Photography – May 16, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 Perfect!
 Just perfect.
 
@@ -61,7 +64,8 @@ _Viaswage – Feb 18, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 Great!
 Love this! thank you!
 
@@ -69,7 +73,8 @@ _NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 UMMMMMM THANK YOU, YOU'RE A GENIUS
 I've needed this for years!!!!!! You are a genius and this is incredible!!! Thank you so much!!! No clue how BM never made this.
 
@@ -77,28 +82,32 @@ _gordonfromvan – Feb 4, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 I've been waiting for this!
 I can finally use my two Blackmagic cameras and shoot in BRAW. As a Final Cut Pro editor, I'm really excited. The app is working great! I really appreciate the team at LateNite for all the hard work it took to get this up and running. Well worth the money to be able to handle BRAW seamlessly.
 _Scott_Hartman – Feb 2, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 Boom!
 Such an amazing plugin and works fantastic!
 _Grant Digital Sky – Feb 2, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 Absolutely Amazing.
 Solves a massive problem and works beautifully!
 _Jmurphy8503 – Jan 31, 2023 (Apple App Store Review)_
 :::
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 The impossible made possible.
 Amazing to work natively with BRAW in my favourite editor. Thank you!
 _MadMitch1993 – Jan 30, 2023 (Apple App Store Review)_
@@ -191,6 +200,7 @@ Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 
 :::review
 {{ include "five-stars.md" }}
+
 Excellent addition to FCP
 This is a great tool. I have my clients make notes on Vimeo, and Marker Toolbox lets me download a .csv of those comments and create markers on the FCP project/timeline at the proper locations, with notes visible and that will follow the clips as I move them. Once downloaded and installed it's easy. Downloading the .csv and running it through Marker Toolbox and adding the Markers to the project/timeline takes less than a minute, then you're ready to go. Really great find!
 
@@ -199,6 +209,7 @@ _Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
 
 :::review
 {{ include "five-stars.md" }}
+
 Amazing simple
 I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
 
@@ -224,7 +235,8 @@ None of this would be possible without the incredible Gyroflow project and the i
 #### User Reviews
 
 :::review
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 Nice product!
 Thank you Chris!
 
@@ -232,7 +244,8 @@ _NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
 :::
 
 :::
-:star2: :star2: :star2: :star2: :star2:
+{{ include "five-stars.md" }}
+
 The Best Way to Stabilize Pro Res RAW
 I record both internally and externally with an Atomos Ninja, on my FX3 with the end goal of delivering HDR. I record internal to capture Gyroscopic data that my FX3 records. This allows me to Use GryoFlow, and Thus GryoFlow Toolbox to stabilize Pro Res RAW footage. This tool has made it possible, and works awesomely. I highly recommend this tool it will help immensely.
 
