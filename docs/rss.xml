@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 01 Jun 2023 22:01:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jun 2023 22:11:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -47,8 +47,9 @@
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <p>info Sponsored
-Tight. Terse. Terrific. Bim. Bam. Boom. – Cut/daily reader
-Post Production insight delivered to your inbox. Sign up for free at <a href="https://www.cut-daily.com">Cut/daily.com</a>{target=&quot;_blank&quot;}</p>
+<em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader&lt;br /&gt;
+Post Production insight delivered to your inbox.&lt;br /&gt;
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com">Cut/daily.com</a>{target=&quot;_blank&quot;}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#thursday-1st-june-2023</link>
