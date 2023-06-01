@@ -55,7 +55,7 @@ You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-
 
 #### Fun Stats
 
-- 3 Film Editors (Florian Duffe)
+- 3 Film Editors (Florian Duffe, Silke Botsch & Martin Wunschick)
 - 1 Assistant Editor
 - 174 shifts of editing
 - 89 hours of footage
