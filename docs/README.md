@@ -43,6 +43,45 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ---
 
+### Friday 2nd June 2023
+
+**Der Schatten** (The Shadow) is streaming tomorrow on German public broadcaster ZDFneo.
+
+It's a 6 x 45min mystery series cut in Final Cut Pro, based on a novel by **Melanie Raabe**.
+
+The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young & arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen.
+
+You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
+
+#### Fun Stats
+
+- 3 Film Editors (Florian Duffe)
+- 1 Assistant Editor
+- 174 shifts of editing
+- 89 hours of footage
+- 3946 Video Clips
+- 3500 Audio Clips
+
+#### Apps Used:
+
+- [Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"}
+- [CommandPost](https://fcp.cafe/tools/#commandpost){target="_blank"} - using **Titles to Keywords** for line-by-lines
+- [PostLab](https://fcp.cafe/tools/#postlab){target="_blank"}
+- [X2Pro](https://fcp.cafe/tools/#x2pro){target="_blank"}
+- [Producers Best Friend](https://fcp.cafe/tools/#producers-best-friend){target="_blank"}
+
+#### Screenshots
+
+![Final Cut Pro Screenshots](../static/schatten-timeline-tuesday.jpeg)
+
+#### Poster
+
+![Poster](../static/deleila-piasko-key_visual-2.jpg)
+
+[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
 ### Thursday 1st June 2023
 
 **Alteon.io** has announced that **Brian Meaney** will now be their new Head of Product. He brings more than two decades of experience from Apple and Magic Leap. Brian will direct product development and UX for their entire ecosystem.
@@ -50,6 +89,13 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 This is very exciting for Final Cut Pro users - as Alteon is very committed to the Final Cut Pro ecosystem! You can learn more [here](https://www.accesswire.com/viewarticle.aspx?id=758114).
 
 [!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+
+---
+
+!!!info Sponsored
+Tight. Terse. Terrific. Bim. Bam. Boom. – Cut/daily reader
+Post Production insight delivered to your inbox. Sign up for free at [Cut/daily.com](https://www.cut-daily.com){target="_blank"}
+!!!
 
 ---
 
