@@ -147,9 +147,53 @@ Get started making movies and have fun making them
 
 ---
 
+<img src="https://fcp.cafe/static/final-cut-pro-efficient-editing-10.6-cover-image.jpeg" align="right" style="height:123px !important; width:100px !important; " />
+
 ### Final Cut Pro Efficient Editing (Book)
 
 A comprehensive, best-practice guide from Apple Certified Trainer Iain Anderson. With illustrated step-by-step instructions, you’ll explore Final Cut Pro by following an editing workflow from shoot to delivery.
+
+#### User Reviews
+
+:::review
+{{ include "five-stars.md" }}
+
+This book rocks!
+
+This is a incredibly written book. Intuitive, in-depth and a essential for the beginner and the experienced. This book is as detailed as FCP itself being only limited by the imagination, editors, storytellers or creatives. Surely a must have for me and hopefully you as well.
+
+_[Jason Mark Williams](https://www.amazon.com/gp/profile/amzn1.account.AH3XA7QZT2B5RLTUP2VMLHY6BMOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8)_
+:::
+
+:::review
+{{ include "five-stars.md" }}
+
+An amazing guide through FCPX, for both novices and experienced editors.
+
+Forget your old stereo instructions. For a technical manual, this book is a very easy and enjoyable read.
+
+What it is: a wide-ranging look at all things Final Cut Pro X. That means it’s written with sections for editing novices, which go over the absolute basics. And other sections aimed at experienced editors who either want to learn a new NLE (non-linear editor), or who know the basics of Final Cut and want to improve their workflow with efficiencies they haven’t discovered yet. The book even has a section on basic production tips for those who need the help. Personally, I am a highly experienced editor (who does not do production work) so I just skimmed that section, but even skimming it I picked up a few technical production details I wasn’t aware of before.
+
+But the meat and bones focuses on using Final Cut Pro X. And it’s fantastic! Iain Anderson is a gifted teacher, able to explain concepts and fine points to novices and experienced editors alike with easy readability. The sections are so clearly delineated that it’s easy to jump to specific knowledge you are looking for, or you can just work your way through the book from start to finish.
+
+Highly recommended for those wanting to dive into FCPX’s depths, or who want to dip their toes in the water for the first time.
+
+_[M. Yanovich](https://www.amazon.com/gp/profile/amzn1.account.AFIP4EGME4RW43GZBTUOBEKX2WOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8)_
+:::
+
+:::review
+{{ include "five-stars.md" }}
+
+Exactly as described. Excellent Book.
+
+This thick book has everything you want to know about editing. Great value and fast delivery.
+
+I would highly recommend this purchase. I’ll be busy reading over Christmas and right into Easter!
+
+Thank You!
+
+_[Eemies](https://www.amazon.com/gp/profile/amzn1.account.AFIP4EGME4RW43GZBTUOBEKX2WOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8)_
+:::
 
 [!button text="Buy on Apple Books" target="blank" variant="info"](https://books.apple.com/au/book/final-cut-pro-efficient-editing/id1527510084)
 
