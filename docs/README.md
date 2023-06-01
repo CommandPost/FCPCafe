@@ -62,7 +62,7 @@ You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-
 - 3946 Video Clips
 - 3500 Audio Clips
 
-#### Apps Used:
+#### Tools Used
 
 - [Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"}
 - [CommandPost](https://fcp.cafe/tools/#commandpost){target="_blank"} - using **Titles to Keywords** for line-by-lines
