@@ -1,3 +1,4 @@
+- [Adjustable Storyline Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/114){target="_blank"}
 - [Native Blackmagic RAW Support (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/113){target="_blank"}
 - [Pasteboard Manager & Pasteboard History (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/112){target="_blank"}
 - [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111){target="_blank"}
