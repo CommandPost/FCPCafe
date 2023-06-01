@@ -45,11 +45,13 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ### Friday 2nd June 2023
 
-**Der Schatten** (The Shadow) is streaming tomorrow on German public broadcaster ZDFneo.
+**Der Schatten** (The Shadow) is streaming tomorrow on German public broadcaster [ZDFneo](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
 
-It's a 6 x 45min mystery series cut in Final Cut Pro, based on a novel by **Melanie Raabe**.
+It's a **6 x 45min mystery** series cut in Final Cut Pro, based on a novel by **Melanie Raabe**.
 
-The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young & arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen.
+_The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young & arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen._
+
+#### Trailer
 
 You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
 
