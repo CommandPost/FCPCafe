@@ -93,8 +93,9 @@ This is very exciting for Final Cut Pro users - as Alteon is very committed to t
 ---
 
 !!!info Sponsored
-Tight. Terse. Terrific. Bim. Bam. Boom. – Cut/daily reader
-Post Production insight delivered to your inbox. Sign up for free at [Cut/daily.com](https://www.cut-daily.com){target="_blank"}
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com){target="_blank"}
 !!!
 
 ---
