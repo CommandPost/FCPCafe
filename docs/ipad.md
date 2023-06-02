@@ -4,6 +4,12 @@ This section is dedicated to Final Cut Pro for iPad.
 
 ---
 
+### User Manual
+
+You can find the Final Cut Pro for iPad manual [here](https://support.apple.com/en-au/guide/final-cut-pro-ipad/welcome/ipados){target="_blank"}.
+
+---
+
 ### Richard Taylor - FCPX.TV
 
 Richard Taylor has an EPIC list of all the latest iPad videos and articles on [FCPX.TV](https://fcpx.tv/){target="_blank"}.
