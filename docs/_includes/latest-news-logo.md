@@ -1,7 +1,7 @@
 <style>
     @media (max-width: 959px) {
-        .rightLogo {
-            display: none;
+        img.rightLogo {
+            display: none !important;
         }
     }
 </style>
