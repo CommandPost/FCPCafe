@@ -10,6 +10,14 @@ There's also a database of free Motion Templates on [FCPX Free: The World's Larg
 
 ---
 
+### FCPxTemplates
+
+**FCPXTemplates.com** is the "storefront" for Sight-Creations (the d.b.a. for F. X. Mahoney a.k.a., “Fox” Mahoney) since Nov. 1, 2013. There is also galleries of some of Fox's work, a few online tools like the Motion Template Backdater, and several blog entries.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fcpxtemplates.com)
+
+---
+
 ### PiP Kit
 
 **PiP Kit** is a Picture-in-Picture plug-in. It's packaged as Effects, not drop zones in generators or titles, so you can trim, roll, copy and paste effects, and save effects presets just as you can with any regular clip. To get started, just drag one of the effects to one of your clips, and start tweaking the settings.
@@ -42,7 +50,7 @@ First, you’ll pick a style that suits your project — synthetic generated opt
 - Checkmarks (aka “ticks”) and Crosses to mark things as good or bad.
 - Zoom In, to magnify part of the image and optionally darken down everything else. Only available in the generated styles.
 
-Every item here can be easily positioned, rotated and scaled using the on-screen controls. In the Inspector you can adjust many more properties about the shapes, like the color, the outline width, animation speed, and to change which organic recorded shape is shown. Dashed and Dotted styles include several relevant options so you can dial in the settings you want. Advanced controls let you add a drop shadow or a glow, or change the 3D rotation or anchor point. 
+Every item here can be easily positioned, rotated and scaled using the on-screen controls. In the Inspector you can adjust many more properties about the shapes, like the color, the outline width, animation speed, and to change which organic recorded shape is shown. Dashed and Dotted styles include several relevant options so you can dial in the settings you want. Advanced controls let you add a drop shadow or a glow, or change the 3D rotation or anchor point.
 
 All the shapes will work with any aspect ratio from vertical through ultra-wide.
 
