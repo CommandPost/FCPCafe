@@ -239,9 +239,8 @@ Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 & 7) and Ped
 We will be adding an extensive case study [here](https://fcp.cafe/casestudies/turnofthetide/) soon!
 !!!
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
+
+[![](/static/turn-of-the-tide-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA){target="_blank"}
 
 ---
 
@@ -249,9 +248,8 @@ We will be adding an extensive case study [here](https://fcp.cafe/casestudies/tu
 
 Edited by Knut Hake.
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
+
+[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw){target="_blank"}
 
 ---
 
@@ -259,9 +257,7 @@ Edited by Knut Hake.
 
 FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
+[![](/static/sex-oclock.jpg)](https://www.youtube.com/watch?v=HKvOAB7NzzQ){target="_blank"}
 
 ---
 
