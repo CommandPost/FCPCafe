@@ -2,7 +2,9 @@
 
 FCP Cafe is entirely open source and hosted on [GitHub](https://github.com){target="_blank"}.
 
-[GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
+[GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
+
+FCP Cafe uses [CloudFlare](https://www.cloudflare.com){target="_blank"} for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
 
 You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/FCPCafe){target="_blank"}.
 
