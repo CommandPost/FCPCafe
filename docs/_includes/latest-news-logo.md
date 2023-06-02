@@ -1,5 +1,5 @@
 <style>
-    @media (min-width: 1200px) {
+    @media (max-width: 959px) {
         .rightLogo {
             display: none;
         }
