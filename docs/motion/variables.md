@@ -20,7 +20,7 @@ Token                                                       | Description
 `@#$sourceObject_sourceName`                                | Source Name
 `@#$sourceObject_sequenceName`                              | Sequence Name
 `@#$sourceObject_objectName`                                | Object Name
-                                                            |
+-                                                           | -
 `@#$sourceObject_metadata_displayName`                      | Display Name
 `@#$sourceObject_metadata_reel`                             | Source Reel Name
 `@#$sourceObject_metadata_scene`                            | Scene
@@ -37,15 +37,15 @@ Token                                                       | Description
 `@#$sourceObject_metadata_timeRange`                        | Time Range
 `@#$sourceObject_metadata_frameDuration`                    | Frame Duration
 `@#$sourceObject_timecodeFrameDuration`                     | Timecode Frame Duration
-                                                            |
+-                                                           | -
 `@#$sourceObject_metadata_metadataMediaStart`               | Media Start
 `@#$sourceObject_metadata_metadataMediaEnd`                 | Media End
 `@#$sourceObject_metadata_metadataMediaDuration`            | Media Duration
-                                                            |
+-                                                           | -
 `@#$sourceObject_metadata_metadataSelectionStart`           | Selection Start
 `@#$sourceObject_metadata_metadataSelectionEnd`             | Selection End
 `@#$sourceObject_metadata_metadataSelectionDuration`        | Selection Duration
-                                                            |
+-                                                           | -
 `@#$sourceObject_metadata_alphaHandling`                    | Alpha Handling
 `@#$sourceObject_metadata_metadataDeinterlaceType`          | De-interlace Type
 `@#$sourceObject_metadata_metadataFieldDominanceOverride`   | Field Dominance Override
