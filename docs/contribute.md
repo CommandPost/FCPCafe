@@ -100,6 +100,14 @@ You can also email us here: [support@latenitefilms.com](mailto:support@latenitef
 
 ---
 
+### YouTube & Vimeo Embeds
+
+To keep that site as fast as possible, and free from tracking/cookies, we've decided not to allow embedded videos.
+
+Instead, we'll be posting the Video Thumbnail as a clickable link to the video.
+
+---
+
 ### GitHub Desktop
 
 You can also use GitHub Desktop to essentially "clone" the entire FCP Cafe website to your local machine.

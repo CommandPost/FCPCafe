@@ -4,11 +4,21 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 07:29:53 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 13:00:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
-            <description><![CDATA[<p><strong>Der Schatten</strong> (The Shadow) is streaming tomorrow on German public broadcaster <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">ZDFneo</a>{target=&quot;_blank&quot;}.</p>
+            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
+<p>The only change according the the release notes is:</p>
+<ul>
+<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
+</ul>
+<p>You can find the <a href="https://fcp.cafe/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+<hr>
+<p>The <strong>Transfer Toolbox</strong> website has some information on the danger of using external drives on iPad.</p>
+<p>You can learn more <a href="https://transfertoolbox.io/how-to-use/#danger-using-external-drives-on-ipad">here</a>.</p>
+<hr>
+<p><strong>Der Schatten</strong> (The Shadow) is streaming tomorrow on German public broadcaster <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">ZDFneo</a>{target=&quot;_blank&quot;}.</p>
 <p>It's a <strong>6 x 45min mystery</strong> series cut in Final Cut Pro, based on a novel by <strong>Melanie Raabe</strong>.</p>
 <p><em>The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young &amp; arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen.</em></p>
 <h4>Trailer</h4>
@@ -51,10 +61,7 @@
 <p>This is very exciting for Final Cut Pro users - as Alteon is very committed to the Final Cut Pro ecosystem! You can learn more <a href="https://www.accesswire.com/viewarticle.aspx?id=758114">here</a>.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>info Sponsored
-<em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader&lt;br /&gt;
-Post Production insight delivered to your inbox.&lt;br /&gt;
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com">Cut/daily.com</a>{target=&quot;_blank&quot;}</p>
+<p>{{ include &quot;sponsors/cut-daily.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#thursday-1st-june-2023</link>
@@ -74,8 +81,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com">Cut/dai
 <p>A new batch of nOb controllers is now available! You can order <a href="https://order.nobcontrol.com">here</a>{target=&quot;_blank&quot;}.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>info Sponsored
-Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blank&quot;} to get from Final Cut Pro for Mac to iPad!</p>
+<p>{{ include &quot;sponsors/transfer-toolbox.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#wednesday-31st-may-2023</link>
@@ -101,8 +107,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
 <p>AudioSwift works great in companion with <a href="https://commandpost.io">CommandPost</a>{target=&quot;_blank&quot;} via MIDI for <a href="https://audioswiftapp.com/fcp/">controlling Final Cut Pro</a>{target=&quot;_blank&quot;}.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>info Sponsored
-<a href="https://recalltoolbox.io">Recall Toolbox</a>{target=&quot;_blank&quot;} is now available on TestFlight as an early beta!</p>
+<p>{{ include &quot;sponsors/recall-toolbox.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-30th-may-2023</link>
@@ -203,6 +208,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a>{target=&quot;_blank&quot;} over at Pro Video Coalition.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
+<p>{{ include &quot;advertise-banner.md&quot; }}</p>
 <hr>
 <p>{{ include &quot;giscus.md&quot; }}</p>
 ]]></description>
