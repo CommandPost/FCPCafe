@@ -4,11 +4,18 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 11:09:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 11:15:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
-            <description><![CDATA[<p><strong>Der Schatten</strong> (The Shadow) is streaming tomorrow on German public broadcaster <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">ZDFneo</a>{target=&quot;_blank&quot;}.</p>
+            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
+<p>The only change according the the release notes is:</p>
+<ul>
+<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
+</ul>
+<p>You can find the <a href="https://fcp.cafe/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+<hr>
+<p><strong>Der Schatten</strong> (The Shadow) is streaming tomorrow on German public broadcaster <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">ZDFneo</a>{target=&quot;_blank&quot;}.</p>
 <p>It's a <strong>6 x 45min mystery</strong> series cut in Final Cut Pro, based on a novel by <strong>Melanie Raabe</strong>.</p>
 <p><em>The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young &amp; arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen.</em></p>
 <h4>Trailer</h4>
