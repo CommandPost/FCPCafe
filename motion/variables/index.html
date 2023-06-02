@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738991579290">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.739001994264">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.1">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Motion Variables</title>
     <meta name="title" content="Motion Variables">
-    <meta name="description" content="Here's a list of text variables you can use in Motion to write data in Final Cut Pro:" />
+    <meta name="description" content="Below is a list of text variables you can use in Motion to write data in Final Cut Pro." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://fcp.cafe/motion/variables/" />
@@ -20,22 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fcp.cafe/motion/variables/">
     <meta property="og:title" content="Motion Variables">
-    <meta property="og:description" content="Here's a list of text variables you can use in Motion to write data in Final Cut Pro:">
+    <meta property="og:description" content="Below is a list of text variables you can use in Motion to write data in Final Cut Pro.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fcp.cafe/motion/variables/">
     <meta property="twitter:title" content="Motion Variables">
-    <meta property="twitter:description" content="Here's a list of text variables you can use in Motion to write data in Final Cut Pro:">
+    <meta property="twitter:description" content="Below is a list of text variables you can use in Motion to write data in Final Cut Pro.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.1.738991579290" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.1.739001994264" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.738991579290" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.739001994264" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.738991579290" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.739001994264" data-turbo-eval="false" defer></script>
 
     <style>
         .videocontainer {
@@ -306,44 +306,168 @@
         <span>Motion Variables</span>
     </h1>
 </doc-anchor-target>
-<p>Here&#x27;s a list of text variables you can use in Motion to write data in Final Cut Pro:</p>
-<p><code v-pre>@#$sourceObject_alphaHandling</code>
-<code v-pre>@#$sourceObject_angle</code>
-<code v-pre>@#$sourceObject_audioChannelCount</code>
-<code v-pre>@#$sourceObject_audioSampleRate</code>
-<code v-pre>@#$sourceObject_contentCreated</code>
-<code v-pre>@#$sourceObject_displayFormat</code>
-<code v-pre>@#$sourceObject_displayName</code>
-<code v-pre>@#$sourceObject_effects</code>
-<code v-pre>@#$sourceObject_frameDuration</code>
-<code v-pre>@#$sourceObject_frameSize</code>
-<code v-pre>@#$sourceObject_metaData_reel</code> - Source Reel Name
-<code v-pre>@#$sourceObject_metadataAudioRoles</code>
-<code v-pre>@#$sourceObject_metadataDeinterlaceType</code>
-<code v-pre>@#$sourceObject_metadataFieldDominanceOverride</code>
-<code v-pre>@#$sourceObject_metadataImportToApp</code>
-<code v-pre>@#$sourceObject_metadataLocation</code>
-<code v-pre>@#$sourceObject_metadataMediaDuration</code>
-<code v-pre>@#$sourceObject_metadataMediaEnd</code>
-<code v-pre>@#$sourceObject_metadataMediaStart</code>
-<code v-pre>@#$sourceObject_metadataRoles</code>
-<code v-pre>@#$sourceObject_metadataRotationAngle</code>
-<code v-pre>@#$sourceObject_metadataSelectionDuration</code>
-<code v-pre>@#$sourceObject_metadataSelectionEnd</code>
-<code v-pre>@#$sourceObject_metadataSelectionStart</code>
-<code v-pre>@#$sourceObject_metadataVideoRoles</code>
-<code v-pre>@#$sourceObject_notes</code>
-<code v-pre>@#$sourceObject_objectName</code>
-<code v-pre>@#$sourceObject_projectOrSource</code> - Source Clip Name
-<code v-pre>@#$sourceObject_projectOrSourceName</code>
-<code v-pre>@#$sourceObject_reel</code>
-<code v-pre>@#$sourceObject_sampleDuration</code>
-<code v-pre>@#$sourceObject_scene</code>
-<code v-pre>@#$sourceObject_sequenceName</code>
-<code v-pre>@#$sourceObject_shot</code>
-<code v-pre>@#$sourceObject_sourceName</code>
-<code v-pre>@#$sourceObject_timecodeFrameDuration</code>
-<code v-pre>@#$sourceObject_timeRange</code></p>
+<p>Below is a list of text variables you can use in Motion to write data in Final Cut Pro.</p>
+<p>This list was found by exploring the Motion binary using <a href="https://www.hopperapp.com" target="_blank">Hopper</a>.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Variable</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>@#$sourceObject_alphaHandling</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_angle</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_audioChannelCount</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_audioSampleRate</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_contentCreated</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_displayFormat</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_displayName</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_effects</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_frameDuration</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_frameSize</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metaData_reel</code></td>
+<td><strong>Source Reel Name</strong></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataAudioRoles</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataDeinterlaceType</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataFieldDominanceOverride</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataImportToApp</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataLocation</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataMediaDuration</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataMediaEnd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataMediaStart</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataRoles</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataRotationAngle</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataSelectionDuration</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataSelectionEnd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataSelectionStart</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadataVideoRoles</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_notes</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_objectName</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_projectOrSource</code></td>
+<td><strong>Source Clip Name</strong></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_projectOrSourceName</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_reel</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_sampleDuration</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_scene</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_sequenceName</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_shot</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_sourceName</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_timecodeFrameDuration</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_timeRange</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr />
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
@@ -358,7 +482,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Want to contribute? <a href="https://fcp.cafe/contribute/" target="_blank">Learn more here!</a></p>
+<p>Want to update any of the above? <a href="https://fcp.cafe/contribute/" target="_blank">Learn more here!</a></p>
         </div>
     </div>
 </div>
