@@ -2,7 +2,13 @@
 
 This section is dedicated to Final Cut Pro for iPad.
 
-We'll be adding more in the coming weeks!
+---
+
+### Richard Taylor - FCPX.TV
+
+Richard Taylor has an EPIC list of all the latest iPad videos and articles on [FCPX.TV](https://fcpx.tv/){target="_blank"}.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fcpx.tv/pages1/fcipad.html)
 
 ---
 
