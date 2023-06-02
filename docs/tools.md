@@ -49,13 +49,17 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 #### User Reviews
 
 :::review
+{{ include "five-stars.md" }}
+
 CommandPost and FCP are so intertwined on my day to day that I see them as one app.<br />
-[Marcos Castiel BFE](http://www.marcoscastiel.com){target="_blank"}
+[_Marcos Castiel BFE_](http://www.marcoscastiel.com){target="_blank"}
 :::
 
 :::review
+{{ include "five-stars.md" }}
+
 As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable.<br />
-[Oli Frost](https://olifro.st){target="_blank"}
+[_Oli Frost_](https://olifro.st){target="_blank"}
 :::
 
 [!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
