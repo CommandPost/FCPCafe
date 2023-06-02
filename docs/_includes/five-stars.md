@@ -1,7 +1,1 @@
-<span class="review-rating">
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-</span>
+Rating: {{ star }}{{ star }}{{ star }}{{ star }}{{ star }}
