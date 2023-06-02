@@ -1,4 +1,4 @@
-<img src="https://fcp.cafe/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
+{{ include "latest-news-logo.md" }}
 
 # Latest News
 
