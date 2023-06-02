@@ -223,7 +223,7 @@ We've reported them to Apple, and will keep track of them in our [Bug Tracker](h
 
 Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge){target="_blank"}, [PostLab](https://hedge.video/postlab/benefits){target="_blank"} & [EditReady](https://hedge.video/editready){target="_blank"}). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram){target="_blank"}.
 
-![Hedge Beta Program](/static/hedge.jpeg)
+[![](/static/hedge.jpeg)](http://bit.ly/HedgeBetaProgram){target="_blank"}
 
 [!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
 
