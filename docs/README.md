@@ -28,6 +28,12 @@ You can find the [release note on FCP Cafe](https://fcp.cafe/releasenotes/#final
 
 ---
 
+The **Transfer Toolbox** website has some information on the danger of using external drives on iPad.
+
+You can learn more [here](https://transfertoolbox.io/how-to-use/#danger-using-external-drives-on-ipad).
+
+---
+
 **Der Schatten** (The Shadow) is streaming tomorrow on German public broadcaster [ZDFneo](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
 
 It's a **6 x 45min mystery** series cut in Final Cut Pro, based on a novel by **Melanie Raabe**.
