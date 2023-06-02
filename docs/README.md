@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CommandPost/FCPCafe/master/docs/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
+<img src="https://fcp.cafe/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Latest News
 
