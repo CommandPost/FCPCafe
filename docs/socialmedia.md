@@ -16,4 +16,18 @@ Run by the amazing [Felipe Baez](https://cre8ivebeast.com){target="_blank"}.
 
 ---
 
+### Creators
+
+[Dylan Bates, The Final Cut Bro](https://www.youtube.com/@TheFinalCutBro){target="_blank"} Motion & Final Cut Tutorials, Effect Developer
+
+[Matthew O'Brien](https://www.youtube.com/@matthewTobrien){target="_blank"} Tips & Tricks, Lifestreams, Editing Philosophy
+
+[Jenn Jager](https://www.youtube.com/@JennJager){target="_blank"} Videoproduction, Motion & FCP Tutorials
+
+[Rafael Ludwig](https://www.youtube.com/@RafaelLudwig){target="_blank"} Tech Reviews, Tutorials, Thoughtpieces
+
+_to be continued_
+
+---
+
 {{ include "giscus.md" }}
