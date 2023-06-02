@@ -4,6 +4,10 @@ Below is a list of text variables you can use in Motion to write data in Final C
 
 This list was found by exploring the Motion binary using [Hopper](https://www.hopperapp.com){target="_blank"}.
 
+You can also download an example Motion Template [here](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip).
+
+---
+
 Token                                               | Description
 ---                                                 | ---
 `@#$sourceObject_alphaHandling`                     | Alpha Handling
