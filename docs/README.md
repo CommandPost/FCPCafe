@@ -42,11 +42,15 @@ _The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vien
 
 #### Trailer
 
-You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
+You can watch the trailer [here](https://www.youtube.com/watch?v=u9uRBf6o_IA){target="_blank"}.
+
+#### Commentary Head of Editing
+Editing a TV-Show in Final Cut is a charm if you set it up right. Especially with the new MacStudio and fast SSDs we could fly through the tons of footage. Postlab provides the necessary tools to collaborate between different workstations. Since we had a lot of Flashbacks, the structure of FCP - editing every Scene in a Compound Clip - made it really easy to 'steal' edits of another episode from our fellow editors.
+I will follow up with a decent case study on this site in a few days. Stay tuned. _Florian Duffe_ 
 
 #### Fun Stats
 
-- 3 Film Editors (Florian Duffe, Silke Botsch & Martin Wunschick)
+- 3 Film Editors ([Florian Duffe](https://twitter.com/FlowDefoe), Silke Botsch & Martin Wunschick)
 - 1 Assistant Editor
 - 174 shifts of editing
 - 89 hours of footage
@@ -55,14 +59,16 @@ You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-
 
 #### Tools Used
 
-- [Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"}
+- [Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"} - creating Sync Clips with Metadata
 - [CommandPost](https://fcp.cafe/tools/#commandpost){target="_blank"} - using **Titles to Keywords** for line-by-lines
-- [PostLab](https://fcp.cafe/tools/#postlab){target="_blank"}
-- [X2Pro](https://fcp.cafe/tools/#x2pro){target="_blank"}
-- [Producers Best Friend](https://fcp.cafe/tools/#producers-best-friend){target="_blank"}
+- [Notion](https://www.notion.so){target="_blank"} - to build a digital bulletin board, one scene one card
+- [PostLab](https://fcp.cafe/tools/#postlab){target="_blank"} - collaborating in 6 libraries on 4 workstations in 3 cities
+- [X2Pro](https://fcp.cafe/tools/#x2pro){target="_blank"} - send Audio to Soundpost
+- [Producers Best Friend](https://fcp.cafe/tools/#producers-best-friend){target="_blank"} - creating lists (ADR, VFX, Music, DI, Motion Design)
 
 #### Screenshots
 
+Picture Lock Timelines of all 6 Episodes
 ![Final Cut Pro Screenshots](../static/schatten-timeline-tuesday.jpeg)
 
 #### Poster
