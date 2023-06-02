@@ -1,6 +1,6 @@
 # Release Notes
 
-This page is designed to not just copy and paste Final Cut Pro's [official release notes](https://support.apple.com/en-us/HT201237){target="_blank"}, but also keep track of changes/bugs/additions that weren't actually included in the official release notes.
+This page is designed to not just copy and paste Final Cut Pro's [official release notes for Mac](https://support.apple.com/en-us/HT201237){target="_blank"} or [iPad](https://support.apple.com/en-us/HT213774){target="_blank"}, but also keep track of changes/bugs/additions that weren't actually included in the official release notes.
 
 ---
 
@@ -9,6 +9,21 @@ Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_bl
 !!!
 
 ---
+
+### Final Cut Pro 1.0.1 (for iPad)
+
+**Released June 1, 2023**
+
+- Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.
+
+---
+
+### Final Cut Pro 1.0.0 (for iPad)
+
+This is the first release of Final Cut Pro for iPad!
+
+---
+
 
 ### Final Cut Pro 10.6.6
 
