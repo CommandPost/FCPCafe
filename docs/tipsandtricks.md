@@ -4,9 +4,7 @@ This page will be dedicated to user supplied tips and tricks.
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

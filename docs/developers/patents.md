@@ -79,9 +79,7 @@ You can find more by searching by these authors:
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

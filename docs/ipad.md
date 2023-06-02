@@ -42,9 +42,7 @@ Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

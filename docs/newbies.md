@@ -41,9 +41,7 @@ Whether you're doing your own showreel or preparing the files to send to an edit
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

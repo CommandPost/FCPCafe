@@ -16,9 +16,7 @@ Learn more on [GitHub](https://github.com/jslinker/FxKit).
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

@@ -58,9 +58,7 @@ All the shapes will work with any aspect ratio from vertical through ultra-wide.
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

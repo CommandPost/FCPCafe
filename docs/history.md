@@ -90,13 +90,10 @@ For more details, check out the announcement on [Ars Technica](https://arstechni
 
 This in video Randy Ubillos explains the beginnings of Final Cut Pro.
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/K78sKGN30u0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/e8sWj2TSHiE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
+[![](/static/randy-1.jpg)](https://www.youtube.com/watch?v=K78sKGN30u0){target="_blank"}
+
+[![](/static/randy-2.jpg)](https://www.youtube.com/watch?v=e8sWj2TSHiE){target="_blank"}
 
 ---
 
@@ -104,15 +101,12 @@ This in video Randy Ubillos explains the beginnings of Final Cut Pro.
 
 In 2011 Apple ended Final Cut Pro as we knew it and started over with a brand new video editing application: Final Cut Pro X. The disruption from this change is still being felt by the film, television, and video industries to this day. With misinformation running amok, Off The Tracks aims to clear the air once and for all. This documentary features exclusive interviews with the creative professionals who use the software and the developers who created it. Why did Apple make Final Cut Pro X?
 
-:::videocontainer
-<iframe class="video" src="https://www.youtube-nocookie.com/embed/bfII0EcbCsg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-:::
+
+[![](/static/off-the-tracks.jpg)](https://www.youtube.com/watch?v=bfII0EcbCsg){target="_blank"}
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

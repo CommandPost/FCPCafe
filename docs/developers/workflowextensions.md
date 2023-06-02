@@ -8,9 +8,7 @@ If you want a real-world example of a FxPlug4 application, you can look at [Comm
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

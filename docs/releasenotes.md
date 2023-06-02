@@ -4,9 +4,7 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 

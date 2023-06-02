@@ -12,9 +12,7 @@ The content on this page is quite out-dated, and doesn't take into account Final
 
 ---
 
-!!!
-Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "contribute-learn-more.md" }}
 
 ---
 
