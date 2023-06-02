@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 13:00:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 14:39:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -22,10 +22,13 @@
 <p>It's a <strong>6 x 45min mystery</strong> series cut in Final Cut Pro, based on a novel by <strong>Melanie Raabe</strong>.</p>
 <p><em>The journalist Norah (Deleila Piasko / Transatlantic) moves from Berlin to Vienna to start a new life and job at a young &amp; arty magazine. As soon as she arrives, a homeless woman foretells her that she will kill a man named Arthur Grimm six weeks later. Norah tries to ignore the incident - until strange things happen.</em></p>
 <h4>Trailer</h4>
-<p>You can watch the trailer <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">here</a>{target=&quot;_blank&quot;}.</p>
+<p>You can watch the trailer <a href="https://www.youtube.com/watch?v=u9uRBf6o_IA">here</a>{target=&quot;_blank&quot;}.</p>
+<h4>Commentary Head of Editing</h4>
+<p>Editing a TV-Show in Final Cut is a charm if you set it up right. Especially with the new MacStudio and fast SSDs we could fly through the tons of footage. Postlab provides the necessary tools to collaborate between different workstations. Since we had a lot of Flashbacks, the structure of FCP - editing every Scene in a Compound Clip - made it really easy to 'steal' edits of another episode from our fellow editors.
+I will follow up with a decent case study on this site in a few days. Stay tuned. <em>Florian Duffe</em></p>
 <h4>Fun Stats</h4>
 <ul>
-<li>3 Film Editors (Florian Duffe, Silke Botsch &amp; Martin Wunschick)</li>
+<li>3 Film Editors (<a href="https://twitter.com/FlowDefoe">Florian Duffe</a>, Silke Botsch &amp; Martin Wunschick)</li>
 <li>1 Assistant Editor</li>
 <li>174 shifts of editing</li>
 <li>89 hours of footage</li>
@@ -34,14 +37,16 @@
 </ul>
 <h4>Tools Used</h4>
 <ul>
-<li><a href="https://fcp.cafe/tools/#sync-n-link-x">Sync-N-Link</a>{target=&quot;_blank&quot;}</li>
+<li><a href="https://fcp.cafe/tools/#sync-n-link-x">Sync-N-Link</a>{target=&quot;_blank&quot;} - creating Sync Clips with Metadata</li>
 <li><a href="https://fcp.cafe/tools/#commandpost">CommandPost</a>{target=&quot;_blank&quot;} - using <strong>Titles to Keywords</strong> for line-by-lines</li>
-<li><a href="https://fcp.cafe/tools/#postlab">PostLab</a>{target=&quot;_blank&quot;}</li>
-<li><a href="https://fcp.cafe/tools/#x2pro">X2Pro</a>{target=&quot;_blank&quot;}</li>
-<li><a href="https://fcp.cafe/tools/#producers-best-friend">Producers Best Friend</a>{target=&quot;_blank&quot;}</li>
+<li><a href="https://www.notion.so">Notion</a>{target=&quot;_blank&quot;} - to build a digital bulletin board, one scene one card</li>
+<li><a href="https://fcp.cafe/tools/#postlab">PostLab</a>{target=&quot;_blank&quot;} - collaborating in 6 libraries on 4 workstations in 3 cities</li>
+<li><a href="https://fcp.cafe/tools/#x2pro">X2Pro</a>{target=&quot;_blank&quot;} - send Audio to Soundpost</li>
+<li><a href="https://fcp.cafe/tools/#producers-best-friend">Producers Best Friend</a>{target=&quot;_blank&quot;} - creating lists (ADR, VFX, Music, DI, Motion Design)</li>
 </ul>
 <h4>Screenshots</h4>
-<p><img src="../static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
+<p>Picture Lock Timelines of all 6 Episodes
+<img src="../static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
 <h4>Poster</h4>
 <p><img src="../static/deleila-piasko-key_visual-2.jpg" alt="Poster"></p>
 <hr>
