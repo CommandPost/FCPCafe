@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 12:13:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 12:51:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -14,6 +14,9 @@
 <li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
 </ul>
 <p>You can find the <a href="https://fcp.cafe/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+<hr>
+<p>The <strong>Transfer Toolbox</strong> website has some information on the danger of using external drives on iPad.</p>
+<p>You can learn more <a href="https://transfertoolbox.io/how-to-use/#danger-using-external-drives-on-ipad">here</a>.</p>
 <hr>
 <p><strong>Der Schatten</strong> (The Shadow) is streaming tomorrow on German public broadcaster <a href="https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html">ZDFneo</a>{target=&quot;_blank&quot;}.</p>
 <p>It's a <strong>6 x 45min mystery</strong> series cut in Final Cut Pro, based on a novel by <strong>Melanie Raabe</strong>.</p>
