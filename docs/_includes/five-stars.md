@@ -1,1 +1,1 @@
-Rating: {{ star }}{{ star }}{{ star }}{{ star }}{{ star }}
+{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}
