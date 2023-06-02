@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 01 Jun 2023 23:11:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 01:32:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -164,15 +164,15 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
             <description><![CDATA[<p><strong>Turn of the Tide</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
 <p>Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 &amp; 7) and Pedro Ribeiro (Ep's 3, 4 &amp; 6).</p>
 <p>We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a> soon!</p>
-<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/_tHdyD9TGCA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<p><a href="https://www.youtube.com/watch?v=_tHdyD9TGCA"><img src="/static/turn-of-the-tide-youtube.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
 <hr>
 <p><strong>Blood &amp; Gold</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
 <p>Edited by Knut Hake.</p>
-<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/mqNzrsUerYw?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<p><a href="https://www.youtube.com/watch?v=mqNzrsUerYw"><img src="/static/blood-and-gold.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
 <hr>
 <p><strong>Sex O'Clock</strong> premieres today in Czechia. Episodes 3, 6, 9 and 10 was cut in Final Cut Pro by <a href="https://jirifiala.cz">Jiří Fiala</a> (the other episodes were cut in Adobe Premiere).</p>
 <p>FCPXMLs were sent to DaVinci Resolve for colour grading and X2Pro was used to send AAFs to ProTools for mixing. The sound designer was very impressed with the neatness of the timeline.</p>
-<p>&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube-nocookie.com/embed/HKvOAB7NzzQ?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+<p><a href="https://www.youtube.com/watch?v=HKvOAB7NzzQ"><img src="/static/sex-oclock.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
 <hr>
 <p>Everyone's talking about <strong>Final Cut Pro for iPad</strong>.</p>
 <p>Here's a collection of some of the great Final Cut Pro (for iPad) YouTube videos:</p>
