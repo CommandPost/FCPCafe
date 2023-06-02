@@ -4,45 +4,45 @@ Below is a list of text variables you can use in Motion to write data in Final C
 
 This list was found by exploring the Motion binary using [Hopper](https://www.hopperapp.com){target="_blank"}.
 
-| Variable | Notes |
-| --- | --- |
-| `@#$sourceObject_alphaHandling` |  |
-| `@#$sourceObject_angle` |  |
-| `@#$sourceObject_audioChannelCount` |  |
-| `@#$sourceObject_audioSampleRate` |  |
-| `@#$sourceObject_contentCreated` |  |
-| `@#$sourceObject_displayFormat` |  |
-| `@#$sourceObject_displayName` |  |
-| `@#$sourceObject_effects` |  |
-| `@#$sourceObject_frameDuration` |  |
-| `@#$sourceObject_frameSize` |  |
-| `@#$sourceObject_metaData_reel` | **Source Reel Name** |
-| `@#$sourceObject_metadataAudioRoles` |  |
-| `@#$sourceObject_metadataDeinterlaceType` |  |
-| `@#$sourceObject_metadataFieldDominanceOverride` |  |
-| `@#$sourceObject_metadataImportToApp` |  |
-| `@#$sourceObject_metadataLocation` |  |
-| `@#$sourceObject_metadataMediaDuration` |  |
-| `@#$sourceObject_metadataMediaEnd` |  |
-| `@#$sourceObject_metadataMediaStart` |  |
-| `@#$sourceObject_metadataRoles` |  |
-| `@#$sourceObject_metadataRotationAngle` |  |
-| `@#$sourceObject_metadataSelectionDuration` |  |
-| `@#$sourceObject_metadataSelectionEnd` |  |
-| `@#$sourceObject_metadataSelectionStart` |  |
-| `@#$sourceObject_metadataVideoRoles` |  |
-| `@#$sourceObject_notes` |  |
-| `@#$sourceObject_objectName` |  |
-| `@#$sourceObject_projectOrSource` | **Source Clip Name** |
-| `@#$sourceObject_projectOrSourceName` |  |
-| `@#$sourceObject_reel` |  |
-| `@#$sourceObject_sampleDuration` |  |
-| `@#$sourceObject_scene` |  |
-| `@#$sourceObject_sequenceName` |  |
-| `@#$sourceObject_shot` |  |
-| `@#$sourceObject_sourceName` |  |
-| `@#$sourceObject_timecodeFrameDuration` |  |
-| `@#$sourceObject_timeRange` |  |
+Token                                               | Description
+---                                                 | ---
+`@#$sourceObject_alphaHandling`                     | Alpha Handling
+`@#$sourceObject_angle`                             | Angle
+`@#$sourceObject_audioChannelCount`                 | Audio Channel Count
+`@#$sourceObject_audioSampleRate`                   | Audio Sample Rate
+`@#$sourceObject_contentCreated`                    | Content Created
+`@#$sourceObject_displayFormat`                     | Display Format
+`@#$sourceObject_displayName`                       | Display Name
+`@#$sourceObject_effects`                           | Effects
+`@#$sourceObject_frameDuration`                     | Frame Duration
+`@#$sourceObject_frameSize`                         | Frame Size
+`@#$sourceObject_metaData_reel`                     | **Source Reel Name**
+`@#$sourceObject_metadataAudioRoles`                | Audio Roles Metadata
+`@#$sourceObject_metadataDeinterlaceType`           | De-interlace Type
+`@#$sourceObject_metadataFieldDominanceOverride`    | Field Dominance Override
+`@#$sourceObject_metadataImportToApp`               | Import to App
+`@#$sourceObject_metadataLocation`                  | Location
+`@#$sourceObject_metadataMediaDuration`             | Media Duration
+`@#$sourceObject_metadataMediaEnd`                  | Media End
+`@#$sourceObject_metadataMediaStart`                | Media Start
+`@#$sourceObject_metadataRoles`                     | Metadata Roles
+`@#$sourceObject_metadataRotationAngle`             | Rotation Angle
+`@#$sourceObject_metadataSelectionDuration`         | Selection Duration
+`@#$sourceObject_metadataSelectionEnd`              | Selection End
+`@#$sourceObject_metadataSelectionStart`            | Selection Start
+`@#$sourceObject_metadataVideoRoles`                | Video Roles
+`@#$sourceObject_notes`                             | Notes
+`@#$sourceObject_objectName`                        | Object Name
+`@#$sourceObject_projectOrSource`                   | **Source Clip Name** |
+`@#$sourceObject_projectOrSourceName`               | Project or Source Name
+`@#$sourceObject_reel`                              | Reel
+`@#$sourceObject_sampleDuration`                    | Sample Duration
+`@#$sourceObject_scene`                             | Scene
+`@#$sourceObject_sequenceName`                      | Sequence Name
+`@#$sourceObject_shot`                              | Shot
+`@#$sourceObject_sourceName`                        | Source Name
+`@#$sourceObject_timecodeFrameDuration`             | Timecode Frame Duration
+`@#$sourceObject_timeRange`                         | Time Range
 
 ---
 
