@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 01:32:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 03:15:58 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -151,7 +151,7 @@ Use <a href="https://transfertoolbox.io">Transfer Toolbox</a>{target=&quot;_blan
         <item>
             <title><![CDATA[Saturday 27th May 2023]]></title>
             <description><![CDATA[<p>Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like <a href="https://hedge.video/hedge">Hedge</a>{target=&quot;_blank&quot;}, <a href="https://hedge.video/postlab/benefits">PostLab</a>{target=&quot;_blank&quot;} &amp; <a href="https://hedge.video/editready">EditReady</a>{target=&quot;_blank&quot;}). If you think you have what it takes and would like to join, sign up <a href="http://bit.ly/HedgeBetaProgram">here</a>{target=&quot;_blank&quot;}.</p>
-<p><img src="/static/hedge.jpeg" alt="Hedge Beta Program"></p>
+<p><a href="http://bit.ly/HedgeBetaProgram"><img src="/static/hedge.jpeg" alt=""></a>{target=&quot;_blank&quot;}</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 ]]></description>
