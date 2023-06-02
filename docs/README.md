@@ -45,6 +45,16 @@ Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/
 
 ### Friday 2nd June 2023
 
+**Final Cut Pro v1.0.1** for iPad is out now!
+
+The only change according the the release notes is:
+
+- Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.
+
+You can find the [release note on FCP Cafe](https://fcp.cafe/releasenotes/#final-cut-pro-101-for-ipad). We'll update that page if we find anything undocumented.
+
+---
+
 **Der Schatten** (The Shadow) is streaming tomorrow on German public broadcaster [ZDFneo](https://www.zdf.de/serien/der-schatten/trailer-staffel-1-104.html){target="_blank"}.
 
 It's a **6 x 45min mystery** series cut in Final Cut Pro, based on a novel by **Melanie Raabe**.
