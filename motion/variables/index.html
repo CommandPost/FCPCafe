@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.739048101865">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.739053118194">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.1">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Motion Variables</title>
     <meta name="title" content="Motion Variables">
-    <meta name="description" content="On this page is a list of text variables you can use in Apple's Motion to write metadata in Final Cut Pro." />
+    <meta name="description" content="On this page is a list of tokens you can use in Apple Motion to display metadata in Motion Templates, that will also appear in Final Cut Pro." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://fcp.cafe/motion/variables/" />
@@ -20,24 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fcp.cafe/motion/variables/">
     <meta property="og:title" content="Motion Variables">
-    <meta property="og:description" content="On this page is a list of text variables you can use in Apple's Motion to write metadata in Final Cut Pro.">
+    <meta property="og:description" content="On this page is a list of tokens you can use in Apple Motion to display metadata in Motion Templates, that will also appear in Final Cut Pro.">
     <meta property="og:image" content="https://fcp.cafe/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fcp.cafe/motion/variables/">
     <meta property="twitter:title" content="Motion Variables">
-    <meta property="twitter:description" content="On this page is a list of text variables you can use in Apple's Motion to write metadata in Final Cut Pro.">
+    <meta property="twitter:description" content="On this page is a list of tokens you can use in Apple Motion to display metadata in Motion Templates, that will also appear in Final Cut Pro.">
     <meta property="twitter:image" content="https://fcp.cafe/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.1.739048101865" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.1.739053118194" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.739048101865" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.739053118194" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.739048101865" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.739053118194" data-turbo-eval="false" defer></script>
 
     <style>
         .videocontainer {
@@ -308,18 +308,17 @@
         <span>Motion Variables</span>
     </h1>
 </doc-anchor-target>
-<p>On this page is a list of text variables you can use in Apple&#x27;s Motion to write metadata in Final Cut Pro.</p>
-<p>This list was found by exploring the Motion binary using <a href="https://www.hopperapp.com" target="_blank">Hopper</a>.</p>
-<p>You can also download an example Motion Template effect <a href="https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip">here</a>.</p>
+<p>On this page is a list of tokens you can use in <strong>Apple Motion</strong> to display metadata in Motion Templates, that will also appear in Final Cut Pro.</p>
+<p>This was originally discovered on this <a href="https://web.archive.org/web/20180325233958/yuri.kiev.ua/2017/02/fcpx_autotitles/" target="_blank">blog</a>.</p>
+<p>Special thanks to <a href="https://twitter.com/sightcreations" target="_blank">F•X Mahoney</a> from <a href="https://fcpxtemplates.com" target="_blank">FCPxTemplates.com</a> for his help correcting this page!</p>
+<p>You can also download an example Motion Template effect <a href="https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip" target="_blank">here</a>.</p>
 <p>The output of the effect looks like this in Final Cut Pro 10.6.6 (created in Motion 5.6.4):</p>
 <p><figure class="content-center">
-    <img src="../../static/motion-example.png" alt="Motion Variables" />
+    <img src="../../static/motion-example.jpg" alt="Motion Variables" />
     <figcaption class="caption">Motion Variables</figcaption>
 </figure>
 </p>
-<p>As you can see in the above screenshot, not all the metadata is showing - this is because some of it only works in Apple Motion.</p>
-<p>It&#x27;s also possible that things change between Final Cut Pro versions.</p>
-<hr />
+<p>The below table contains all the tokens in the order they&#x27;re shown in the above screenshot:</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -330,152 +329,160 @@
 </thead>
 <tbody>
 <tr>
-<td><code v-pre>@#$sourceObject_alphaHandling</code></td>
-<td>Alpha Handling</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_angle</code></td>
-<td>Angle</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_audioChannelCount</code></td>
-<td>Audio Channel Count</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_audioSampleRate</code></td>
-<td>Audio Sample Rate</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_contentCreated</code></td>
-<td>Content Created</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_displayFormat</code></td>
-<td>Display Format</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_displayName</code></td>
-<td>Display Name</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_effects</code></td>
-<td>Effects</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_frameDuration</code></td>
-<td>Frame Duration</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_frameSize</code></td>
-<td>Frame Size</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metaData_reel</code></td>
-<td><strong>Source Reel Name</strong></td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataAudioRoles</code></td>
-<td>Audio Roles Metadata</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataDeinterlaceType</code></td>
-<td>De-interlace Type</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataFieldDominanceOverride</code></td>
-<td>Field Dominance Override</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataImportToApp</code></td>
-<td>Import to App</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataLocation</code></td>
-<td>Location</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataMediaDuration</code></td>
-<td>Media Duration</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataMediaEnd</code></td>
-<td>Media End</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataMediaStart</code></td>
-<td>Media Start</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataRoles</code></td>
-<td>Metadata Roles</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataRotationAngle</code></td>
-<td>Rotation Angle</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataSelectionDuration</code></td>
-<td>Selection Duration</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataSelectionEnd</code></td>
-<td>Selection End</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataSelectionStart</code></td>
-<td>Selection Start</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_metadataVideoRoles</code></td>
-<td>Video Roles</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_notes</code></td>
-<td>Notes</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_objectName</code></td>
-<td>Object Name</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_projectOrSource</code></td>
-<td><strong>Source Clip Name</strong></td>
-</tr>
-<tr>
 <td><code v-pre>@#$sourceObject_projectOrSourceName</code></td>
 <td>Project or Source Name</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_reel</code></td>
-<td>Reel</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_sampleDuration</code></td>
-<td>Sample Duration</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_scene</code></td>
-<td>Scene</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_sequenceName</code></td>
-<td>Sequence Name</td>
-</tr>
-<tr>
-<td><code v-pre>@#$sourceObject_shot</code></td>
-<td>Shot</td>
 </tr>
 <tr>
 <td><code v-pre>@#$sourceObject_sourceName</code></td>
 <td>Source Name</td>
 </tr>
 <tr>
+<td><code v-pre>@#$sourceObject_sequenceName</code></td>
+<td>Sequence Name</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_objectName</code></td>
+<td>Object Name</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_displayName</code></td>
+<td>Display Name</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_reel</code></td>
+<td>Source Reel Name</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_scene</code></td>
+<td>Scene</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_angle</code></td>
+<td>Angle</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_shot</code></td>
+<td>Shot</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_notes</code></td>
+<td>Notes</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_displayFormat</code></td>
+<td>Display Format</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_frameSize</code></td>
+<td>Frame Size</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataLocation</code></td>
+<td>Location</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_effects</code></td>
+<td>Effects</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metaData_metadataRotationAngle</code></td>
+<td>Rotation Angle</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataImportToApp</code></td>
+<td>Import to App</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_contentCreated</code></td>
+<td>Content Created</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_timeRange</code></td>
+<td>Time Range</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_frameDuration</code></td>
+<td>Frame Duration</td>
+</tr>
+<tr>
 <td><code v-pre>@#$sourceObject_timecodeFrameDuration</code></td>
 <td>Timecode Frame Duration</td>
 </tr>
 <tr>
-<td><code v-pre>@#$sourceObject_timeRange</code></td>
-<td>Time Range</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataMediaStart</code></td>
+<td>Media Start</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataMediaEnd</code></td>
+<td>Media End</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataMediaDuration</code></td>
+<td>Media Duration</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataSelectionStart</code></td>
+<td>Selection Start</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataSelectionEnd</code></td>
+<td>Selection End</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataSelectionDuration</code></td>
+<td>Selection Duration</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_alphaHandling</code></td>
+<td>Alpha Handling</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataDeinterlaceType</code></td>
+<td>De-interlace Type</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataFieldDominanceOverride</code></td>
+<td>Field Dominance Override</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_sampleDuration</code></td>
+<td>Sample Duration</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_audioChannelCount</code></td>
+<td>Audio Channel Count</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_audioSampleRate</code></td>
+<td>Audio Sample Rate</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataRoles</code></td>
+<td>Metadata Roles</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataVideoRoles</code></td>
+<td>Video Roles</td>
+</tr>
+<tr>
+<td><code v-pre>@#$sourceObject_metadata_metadataAudioRoles</code></td>
+<td>Audio Roles Metadata</td>
 </tr>
 </tbody>
 </table>
