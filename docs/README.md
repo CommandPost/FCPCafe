@@ -80,6 +80,14 @@ You can watch the trailer [here](https://www.zdf.de/serien/der-schatten/trailer-
 
 ![Poster](../static/deleila-piasko-key_visual-2.jpg)
 
+---
+
+**Ulti.media** has released a new **Transcriber** Promo on YouTube. Chris at LateNite has been beta testing, and it's awesome.
+
+[![](/static/transcriber.jpg)](https://www.youtube.com/watch?v=RMG-FelZY64){target="_blank"}
+
+You can learn more [here](https://ulti.media/transcriber/).
+
 [!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
 
 ---
