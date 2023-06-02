@@ -25,6 +25,14 @@ He has an incredible YouTube series called **FCP FTW** that show bite-size examp
 
 ---
 
+### MotionVFX FCP Academy
+
+Get the best tips & tricks, step up your editing game, and unleash the full potential of your creativity.
+
+[![](/static/motionvfx-academy.jpg)](https://www.motionvfx.com/fcp-academy){target="_blank"}
+
+---
+
 ### Cinematographer's Guide to Showreels in Final Cut Pro
 
 Whether you're doing your own showreel or preparing the files to send to an editor, ACS Member and Certified Final Cut Pro Trainer, Lee Herbet explains step by step how to use Final Cut Pro to manage the process easily from a cinematographer's point of view.
