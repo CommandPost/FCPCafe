@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 03:15:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 03:25:56 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -34,6 +34,10 @@
 <p><img src="../static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
 <h4>Poster</h4>
 <p><img src="../static/deleila-piasko-key_visual-2.jpg" alt="Poster"></p>
+<hr>
+<p><strong>Ulti.media</strong> has released a new <strong>Transcriber</strong> Promo on YouTube. Chris at LateNite has been beta testing, and it's awesome.</p>
+<p><a href="https://www.youtube.com/watch?v=RMG-FelZY64"><img src="/static/transcriber.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
+<p>You can learn more <a href="https://ulti.media/transcriber/">here</a>.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 ]]></description>
