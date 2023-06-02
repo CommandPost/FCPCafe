@@ -86,7 +86,7 @@ This is very exciting for Final Cut Pro users - as Alteon is very committed to t
 ---
 
 
-{{ include "cut-daily.md" }}
+{{ include "sponsors/cut-daily.md" }}
 
 ---
 
@@ -113,7 +113,7 @@ A new batch of nOb controllers is now available! You can order [here](https://or
 
 ---
 
-{{ include "transfer-toolbox.md" }}
+{{ include "sponsors/transfer-toolbox.md" }}
 
 ---
 
@@ -153,7 +153,7 @@ AudioSwift works great in companion with [CommandPost](https://commandpost.io){t
 
 ---
 
-{{ include "recall-toolbox.md" }}
+{{ include "sponsors/recall-toolbox.md" }}
 
 ---
 
