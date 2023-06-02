@@ -1,14 +1,18 @@
 # Motion Variables
 
-Below is a list of text variables you can use in Motion to write data in Final Cut Pro.
+On this page is a list of text variables you can use in Apple's Motion to write metadata in Final Cut Pro.
 
 This list was found by exploring the Motion binary using [Hopper](https://www.hopperapp.com){target="_blank"}.
 
 You can also download an example Motion Template effect [here](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip).
 
-The output of the effect looks like this:
+The output of the effect looks like this in Final Cut Pro 10.6.6 (created in Motion 5.6.4):
 
 ![Motion Variables](../static/motion-example.png)
+
+As you can see in the above screenshot, not all the metadata is showing - this is because some of it only works in Apple Motion.
+
+It's also possible that things change between Final Cut Pro versions.
 
 ---
 
@@ -51,6 +55,7 @@ Token                                               | Description
 `@#$sourceObject_sourceName`                        | Source Name
 `@#$sourceObject_timecodeFrameDuration`             | Timecode Frame Duration
 `@#$sourceObject_timeRange`                         | Time Range
+
 
 ---
 
