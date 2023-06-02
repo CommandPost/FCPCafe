@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 Jun 2023 11:36:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 11:43:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Friday 2nd June 2023]]></title>
@@ -58,7 +58,7 @@
 <p>This is very exciting for Final Cut Pro users - as Alteon is very committed to the Final Cut Pro ecosystem! You can learn more <a href="https://www.accesswire.com/viewarticle.aspx?id=758114">here</a>.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>{{ include &quot;cut-daily.md&quot; }}</p>
+<p>{{ include &quot;sponsors/cut-daily.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#thursday-1st-june-2023</link>
@@ -78,7 +78,7 @@
 <p>A new batch of nOb controllers is now available! You can order <a href="https://order.nobcontrol.com">here</a>{target=&quot;_blank&quot;}.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>{{ include &quot;transfer-toolbox.md&quot; }}</p>
+<p>{{ include &quot;sponsors/transfer-toolbox.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#wednesday-31st-may-2023</link>
@@ -104,7 +104,7 @@
 <p>AudioSwift works great in companion with <a href="https://commandpost.io">CommandPost</a>{target=&quot;_blank&quot;} via MIDI for <a href="https://audioswiftapp.com/fcp/">controlling Final Cut Pro</a>{target=&quot;_blank&quot;}.</p>
 <p><a href="https://github.com/CommandPost/FCPCafe/discussions">!button text=&quot;Discuss today's news&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
-<p>{{ include &quot;recall-toolbox.md&quot; }}</p>
+<p>{{ include &quot;sponsors/recall-toolbox.md&quot; }}</p>
 <hr>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-30th-may-2023</link>
