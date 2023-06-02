@@ -6,40 +6,13 @@
 
 ---
 
-==- :icon-bookmark: Make FCP Cafe your Home Page
-+++ Safari
-1. In the top left corner of your screen, select **Safari** and then **Preferences** and then **General**.
-2. Next to **New windows open with** and **New tabs open with**, select **Homepage**.
-3. Next to **Homepage** enter: `https://fcp.cafe`.
-+++ Chrome
-1. In the top right corner of your computer's browser, click **More** icon and then **Settings**.
-2. Under **Appearance**, turn on **Show home button**.
-3. Select your current homepage, then, enter: `https://fcp.cafe`.
-+++ Firefox
-1. Drag this tab to the **Home** button, then release.
-2. Click **Yes**.
-+++ Microsoft Edge
-1. In the upper right corner of your browser, select the **More** icon and then **Settings**.
-2. Under **Set your homepage**, click the Down arrow and then **A specific page or pages**.
-3. If you have a current homepage: Next to the URL, click **X**.
-4. Click **Enter a URL**. Then, type: `https://fcp.cafe`.
-+++ Internet Explorer
-1. In the menu bar on the top of your browser, click **Tools**.
-2. Select **Internet Options**.
-3. Click the **General** tab.
-4. Under "Home page," enter: `https://fcp.cafe`.
-5. Click OK.
-6. Restart your browser.
-+++
-===
+{{ include "homepage.md" }}
 
 [!button variant="warning" target="blank" text="Get the Latest News via our RSS Feed"](https://fcp.cafe/rss.xml){target="_blank"}
 
 ---
 
-!!!
-Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
-!!!
+{{ include "advertise-banner.md" }}
 
 ---
 
@@ -112,11 +85,8 @@ This is very exciting for Final Cut Pro users - as Alteon is very committed to t
 
 ---
 
-!!!info Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com){target="_blank"}
-!!!
+
+{{ include "cut-daily.md" }}
 
 ---
 
@@ -143,9 +113,7 @@ A new batch of nOb controllers is now available! You can order [here](https://or
 
 ---
 
-!!!info Sponsored
-Use [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} to get from Final Cut Pro for Mac to iPad!
-!!!
+{{ include "transfer-toolbox.md" }}
 
 ---
 
@@ -185,9 +153,7 @@ AudioSwift works great in companion with [CommandPost](https://commandpost.io){t
 
 ---
 
-!!!info Sponsored
-[Recall Toolbox](https://recalltoolbox.io){target="_blank"} is now available on TestFlight as an early beta!
-!!!
+{{ include "recall-toolbox.md" }}
 
 ---
 
@@ -307,9 +273,7 @@ Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https
 
 ---
 
-!!!
-Want to contribute or advertise? [Learn more here!](https://fcp.cafe/contribute/)
-!!!
+{{ include "advertise-banner.md" }}
 
 ---
 
