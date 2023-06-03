@@ -36,17 +36,17 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
         let date = convertDateToRFC822(title);
 
         let node = article;
+        let content = '';
         while (node.nextSibling && node.nextSibling.nodeName !== 'HR') {
             node = node.nextSibling;
-
             if (node.outerHTML) {
-                // Skip <p>{{ include "XXX" }}</p> lines
-                if (!/<p>\{\{ include ".*" \}\}<\/p>/i.test(node.outerHTML)) {
+                // Skip lines that are includes
+                if (!node.outerHTML.includes('{{ include')) {
                     content += node.outerHTML;
                 }
             }
         }
-
+        
         // Split content by <hr /> and create a new item for each part
         let contents = content.split('<hr />').filter(part => part.trim() !== '');
         contents.forEach((content, index) => {
