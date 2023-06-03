@@ -1,12 +1,10 @@
 # Motion Templates
 
-This will eventually be a directory of the best Motion Templates.
+A work in progress of Motion Template resources.
 
-In the meantime, we highly recommend [Motion VFX](https://www.motionvfx.com){target="_blank"}.
-
-There's also a database of free Motion Templates on [FCPX Free: The World's Largest Collection of Free FCPX Plugins](https://fcpxfree.com){target="_blank"}.
-
-[FxFactory](https://fxfactory.com){target="_blank"} also has a lot of great Motion Templates.
+[Motion VFX](https://www.motionvfx.com){target="_blank"} are the leading creators of plugins & templates
+Create with a wide range of great video effects at [FxFactory](https://fxfactory.com/){target="_blank"}
+Everything free at [FCPX Free: The World's Largest Collection of Free FCPX Plugins](https://fcpxfree.com){target="_blank"}
 
 ---
 
@@ -57,6 +55,12 @@ All the shapes will work with any aspect ratio from vertical through ultra-wide.
 [!button text="Buy on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/annotator/)
 
 ---
+
+### Adjustment Layers
+
+**Adjustment Layers** from [FxFactory](https://fxfactory.com) is a free set of tools to help with layering effects & elements in the timeline. Quickly connect creative effects like double exposure, split screens or apply a color grade across multiple underlying clips. Also included are utility tools that help you with guided alignments, animating elements and more.
+
+[!button text="Free Download" target="blank" variant="info"](https://fxfactory.com/info/adjustmentlayers/)
 
 {{ include "contribute-learn-more.md" }}
 
