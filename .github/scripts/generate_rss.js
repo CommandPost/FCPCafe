@@ -66,6 +66,12 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         // Convert the markdown to HTML
         content = md.render(content);
         
+        // Undo HTML escaping
+        content = content.replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&amp;/g, '&')
+            .replace(/&quot;/g, '"');
+        
         const url = generateUrl(title);
         
         feed.item({
