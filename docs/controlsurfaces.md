@@ -16,34 +16,27 @@ Want to contribute or add your hardware? [Learn more here!](https://fcp.cafe/con
 
 CommandPost currently supports:
 
-- [Tangent Panels](http://tangentwave.co.uk){target="_blank"} (including Tangent's iPad & Android App)
-
-- [Monogram/Palette](https://monogramcc.com){target="_blank"}
-
-- [TourBox (Original)](https://www.tourboxtech.com){target="_blank"}
-
-- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}
-- [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}
-- [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}
-- [Stream Deck Plus](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}
-
-- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02){target="_blank"}
-- [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard){target="_blank"}
-
-- [Loupedeck (Original)](https://loupedeck.com){target="_blank"}
-- [Loupedeck CT](https://loupedeck.com){target="_blank"}
-- [Loupedeck Live](https://loupedeck.com){target="_blank"} - Direct & via Loupedeck Plugin
-- [Loupedeck Live-S](https://www.indiegogo.com/projects/loupedeck-live-s-customizable-streaming-console#/){target="_blank"} - Direct & via Loupedeck Plugin
-- [Loupedeck+](https://loupedeck.com){target="_blank"}
-
-- [Razer Stream Controller](https://www.razer.com/au-en/streaming-accessories/razer-stream-controller){target="_blank"} - Direct & via Loupedeck Plugin
-
-- [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo){target="_blank"}
-- [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012){target="_blank"}
-- [Razer Orbweaver Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3619/~/razer-orbweaver-chroma-%7C-rz07-01440-support){target="_blank"}
-- [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support){target="_blank"}
-- [Razer Tartarus Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3617/~/razer-tartarus-chroma-%7C-rz07-01510-support){target="_blank"}
-- [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro){target="_blank"}
+- [Tangent Panels](http://tangentwave.co.uk){target="_blank"} (including Tangent's iPad & Android App)<br />
+- [Monogram/Palette](https://monogramcc.com){target="_blank"}<br />
+- [TourBox (Original)](https://www.tourboxtech.com){target="_blank"}<br />
+- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}<br />
+- [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}<br />
+- [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}<br />
+- [Stream Deck Plus](https://www.elgato.com/en/gaming/stream-deck){target="_blank"}<br />
+- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02){target="_blank"}<br />
+- [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard){target="_blank"}<br />
+- [Loupedeck (Original)](https://loupedeck.com){target="_blank"}<br />
+- [Loupedeck CT](https://loupedeck.com){target="_blank"}<br />
+- [Loupedeck Live](https://loupedeck.com){target="_blank"} - Direct & via Loupedeck Plugin<br />
+- [Loupedeck Live-S](https://www.indiegogo.com/projects/loupedeck-live-s-customizable-streaming-console#/){target="_blank"} - Direct & via Loupedeck Plugin<br />
+- [Loupedeck+](https://loupedeck.com){target="_blank"}<br />
+- [Razer Stream Controller](https://www.razer.com/au-en/streaming-accessories/razer-stream-controller){target="_blank"} - Direct & via Loupedeck Plugin<br />
+- [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo){target="_blank"}<br />
+- [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012){target="_blank"}<br />
+- [Razer Orbweaver Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3619/~/razer-orbweaver-chroma-%7C-rz07-01440-support){target="_blank"}<br />
+- [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support){target="_blank"}<br />
+- [Razer Tartarus Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3617/~/razer-tartarus-chroma-%7C-rz07-01510-support){target="_blank"}<br />
+- [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro){target="_blank"}<br />
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1){target="_blank"}
 
 It also supports:
