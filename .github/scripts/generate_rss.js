@@ -53,13 +53,16 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             .replace(/!!!/g, '')
             .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
             .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
-
+        
         // Remove anything like <p>{{ include XXX }}</p>
-        content = content.replace(/<p>\{\{ include .* \}\}<\/p>/g, '');
-
+        content = content.replace(/<p>\{\{ include .*? \}\}<\/p>/g, '');
+        
         // Replace any instance of src="../static/ with the absolute URL
         content = content.replace(/src="..\/static\//g, 'src="https://fcp.cafe/static/');
-
+        
+        // Convert !button Markdown syntax to HTML
+        content = content.replace(/\[!button text="(.*?)" target="(.*?)" variant="(.*?)"\]\((.*?)\)/g, '<a href="$4" target="$2">$1</a>');
+        
         content = md.render(content);
 
         const url = generateUrl(title);
