@@ -1,3 +1,11 @@
+<!--
+Annotator
+FCPeffects
+FCPxTemplates.com
+FxFactory
+MotionVFX
+PiP Kit
+-->
 # Motion Templates
 
 This will eventually be a directory of the best Motion Templates.
@@ -7,32 +15,6 @@ In the meantime, we highly recommend [Motion VFX](https://www.motionvfx.com){tar
 There's also a database of free Motion Templates on [FCPX Free: The World's Largest Collection of Free FCPX Plugins](https://fcpxfree.com){target="_blank"}.
 
 [FxFactory](https://fxfactory.com){target="_blank"} also has a lot of great Motion Templates.
-
----
-
-### FCPxTemplates.com
-
-**FCPXTemplates.com** is the "storefront" for Sight-Creations (the d.b.a. for F. X. Mahoney a.k.a., “Fox” Mahoney) since Nov. 1, 2013. There is also galleries of some of Fox's work, a few online tools like the Motion Template Backdater, and several blog entries.
-
-[!button text="Visit Website" target="blank" variant="info"](https://fcpxtemplates.com)
-
----
-
-### PiP Kit
-
-**PiP Kit** is a Picture-in-Picture plug-in. It's packaged as Effects, not drop zones in generators or titles, so you can trim, roll, copy and paste effects, and save effects presets just as you can with any regular clip. To get started, just drag one of the effects to one of your clips, and start tweaking the settings.
-
-As well as a solid border color, you can use a gradient or outline gradient. Position the outline centered on the edge, the inside or outside, or use the Outline Offset to make something original. Remove the border entirely or leave just a shadow with the Fade Outside slider.
-
-You can scale a PiP up from nothing, at a choice of speeds (Fast, Medium, Slow), or scale down from a full-screen shot to reveal a clip underneath. PiP Kit also includes a special set of transitions that only affect the connected picture, ignoring the background.
-
-To use these, turn off the built-in transitions by unchecking the Build In and Build Out, then look in the transitions browser to find funwithstuff PiP Kit. These transitions have to be applied to the correct “in” or “out” side of a clip to work properly, but they do allow you to customise the way a clip enters or leaves the frame.
-
-PiP Kit also includes several adjustment layer titles that change everything below them, and uniquely, these adjustments fade in and out. You can use the Obscure effects to apply your choice of blur, gamma, brightness, vignette and crystallize, which fade in and out with controllable speeds. Use the fade or wipe variants just above your background clips to make your picture-in-picture clips really stand out.
-
-The last adjustment layer enables a very popular trick: punching in and out smoothly. Add the Zoom in and Out title, trim it to where you want the zoom to happen, then customise the speed. Easy, and useful even if you’re not using a Picture in Picture effect.
-
-[!button text="Buy on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/pipkit/)
 
 ---
 
@@ -55,6 +37,82 @@ Every item here can be easily positioned, rotated and scaled using the on-screen
 All the shapes will work with any aspect ratio from vertical through ultra-wide.
 
 [!button text="Buy on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/annotator/)
+
+---
+
+### FCPeffects
+
+In July 2011, Turner & Emma launched **FCPeffects.com** in an effort to help Final Cut Pro editors work more efficiently and effectively on a tight budget.
+
+They continue to take pride in offering powerful tools at affordable prices and providing prompt, friendly customer service.
+
+They are dedicated to Final Cut Pro X and its users. They are family owned and operated and consider themselves blessed to have the opportunity to do what they do.
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.fcpeffects.com)
+
+---
+
+### FCPxTemplates.com
+
+**FCPXTemplates.com** is the "storefront" for Sight-Creations (the d.b.a. for F. X. Mahoney a.k.a., “Fox” Mahoney) since Nov. 1, 2013. There is also galleries of some of Fox's work, a few online tools like the Motion Template Backdater, and several blog entries.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fcpxtemplates.com)
+
+---
+
+### FxFactory
+
+Visual effect plugins and apps for video creators. FxFactory is THE App Store for Final Cut Pro editors.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com)
+
+:::review
+{{ include "five-stars.md" }}
+
+FxFactory is THE App Store for Final Cut Pro Professionals. It's like a "pro" version of the Apple App Store. The team behind it are also INCREDIBLE - so smart, so lovely, so talented.
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+---
+
+### MotionVFX
+
+MotionVFX is a registered trademark of a company called MotionVFX sp. z o.o., founded by Szymon Masiak.
+
+Szymon is well known in the computer graphic industry and has been working for over 25 years in the areas of computer games, commercials, and major motion pictures.
+
+They are a small company of dedicated people based in the south of Poland.
+
+They also make the BEST Final Cut Pro template and plugins in the world.
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.motionvfx.com)
+
+:::review
+{{ include "five-stars.md" }}
+
+MotionVFX are incredible. They make some of the most amazing templates and plugin, taking into account ANY app. I've purchased hundreds of their plugins over the years, and they're all rock solid. A+
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+---
+
+### PiP Kit
+
+**PiP Kit** is a Picture-in-Picture plug-in. It's packaged as Effects, not drop zones in generators or titles, so you can trim, roll, copy and paste effects, and save effects presets just as you can with any regular clip. To get started, just drag one of the effects to one of your clips, and start tweaking the settings.
+
+As well as a solid border color, you can use a gradient or outline gradient. Position the outline centered on the edge, the inside or outside, or use the Outline Offset to make something original. Remove the border entirely or leave just a shadow with the Fade Outside slider.
+
+You can scale a PiP up from nothing, at a choice of speeds (Fast, Medium, Slow), or scale down from a full-screen shot to reveal a clip underneath. PiP Kit also includes a special set of transitions that only affect the connected picture, ignoring the background.
+
+To use these, turn off the built-in transitions by unchecking the Build In and Build Out, then look in the transitions browser to find funwithstuff PiP Kit. These transitions have to be applied to the correct “in” or “out” side of a clip to work properly, but they do allow you to customise the way a clip enters or leaves the frame.
+
+PiP Kit also includes several adjustment layer titles that change everything below them, and uniquely, these adjustments fade in and out. You can use the Obscure effects to apply your choice of blur, gamma, brightness, vignette and crystallize, which fade in and out with controllable speeds. Use the fade or wipe variants just above your background clips to make your picture-in-picture clips really stand out.
+
+The last adjustment layer enables a very popular trick: punching in and out smoothly. Add the Zoom in and Out title, trim it to where you want the zoom to happen, then customise the speed. Easy, and useful even if you’re not using a Picture in Picture effect.
+
+[!button text="Buy on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/pipkit/)
 
 ---
 

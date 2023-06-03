@@ -118,6 +118,8 @@ You can then make changes locally, and once done, submit a pull request back to 
 
 You can download GitHub Desktop [here](https://desktop.github.com){target="_blank"}.
 
+You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/){target="_blank"} to edit your Markdown files on your Mac.
+
 ---
 
 ### Powered by Retype

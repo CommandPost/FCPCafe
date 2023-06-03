@@ -1,3 +1,36 @@
+<!--
+BeatMark Pro
+Canister
+Change List X
+Cleanterview
+CommandPost
+EditingTools.io
+EditReady
+EDL-X
+FCP Cut Finder
+FCP Diet 2
+FCP SRT Importer 2
+FCP Video Tag
+FCPX AutoDuck
+Final Cut Library Manager
+FoolCat
+FxFactory
+Media Copy 4.0
+OffShoot
+PostLab
+Producer’s Best Friend
+ScopeBox
+SendToX
+Smart Video Splitter
+Subtitles Extractor
+Sync-N-Link X
+Transfer Toolbox
+Ulti.Media Converter 2
+X2Pro
+Ximport AE
+Xsend Motion
+XtoCC
+-->
 # Tools
 
 This page is dedicated to handy applications that can be used in conjunction with Final Cut Pro.
@@ -5,26 +38,74 @@ This page is dedicated to handy applications that can be used in conjunction wit
 ---
 
 !!!
-Want to contribute or add your tools? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+Something missing? Submit your favourite tools! [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
 
 ---
 
-### EditingTools.io
+### BeatMark Pro
 
-**EditingTools.io** is a collection of web-based generators, scripts and converters designed for various post-production purposes. Optimized for workflows with Adobe Premiere Pro, Avid Media Composer, DaVinci Resolve and Apple Final Cut Pro X.
+Automatic Music-Driven Video Editing for Final Cut Pro.
 
-It's an AMAZING website that you should definitely check out.
+:::review
+{{ include "five-stars.md" }}
 
-[!button text="Visit Website" target="blank" variant="info"](https://en.editingtools.io)
+This software is awesome. Beautifully built, and incredibly useful.
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/)
 
 ---
 
-### FxFactory
+### Canister
 
-Visual effect plugins and apps for video creators. FxFactory is THE App Store for Final Cut Pro editors.
+**Canister** takes the hassle out of LTO.
 
-[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com)
+:::review
+
+So easy... it's like LTO for Dummies.
+
+_Keenan J. Mock, LightIron_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://hedge.video/canister)
+
+---
+
+### Change List X
+
+Finally, you reached picture lock and send the project off so the sound department can start work. Which they do. Except a week or two later, there’s just “a few minor changes when the director took another pass”…
+
+And that’s where a Change List comes in. Because “Final” is never “Final” and “Locked” is regularly “Unlocked” again.
+
+Change List X analyses two Final Cut Pro X Projects and produces a change list comparing the Primary Storylines of the two versions of the edit.
+
+- The report lists the changes that need to be made to the initial cut to match the new edits, step by step
+- The report can be created as a PDF, tab-separated text file, or both
+- Report times can be shown as either Timecode, Feet+Frames or Frame Count
+- Change List X can also create a change pull list (for new footage added to the timeline) and a change discard list (for footage that needs to be removed from the timeline)
+
+What is a Change List and who uses them?
+
+A Change List lists changes made between one edit and another version of the same edit. This comes into play when you’ve handed over the “Final” version to VFX, post audio and a color pass.
+
+Inevitably there will need to be some additional edits, for whatever reason. Another pass by the Director, Studio suggestions, feedback from a focus group: it’s inevitable.
+
+Except those teams have already moved ahead with their jobs and have complex projects built around the timing of the first edit. They can’t take the new edit and start over. What they need are the steps to convert the version they been working on, to the latest revision: how many frames trimmed here, or added there; which shots have been added, and which deleted or replaced.
+
+The Change List is the step-by-step instructions to convert the current project to conform to the new edit. This is frequently a manual process but there are advanced tools that use the text-based change list to automate the changes.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/change-list-x/id694746044?mt=12)
+
+---
+
+### Cleanterview
+
+Cleanterview helps you to clean up effectively and efficiently the audio track of your videos, ideal for interviews, for video-selfie, for any occasion when there is someone talking and… you want to hear it and make it sound better!
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://ulti.media/cleanterview/)
 
 ---
 
@@ -66,21 +147,169 @@ As someone who doesn’t like clicking to do things, CommandPost makes my work m
 
 ---
 
-### Transfer Toolbox
+### EditingTools.io
 
-Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
+**EditingTools.io** is a collection of web-based generators, scripts and converters designed for various post-production purposes. Optimized for workflows with Adobe Premiere Pro, Avid Media Composer, DaVinci Resolve and Apple Final Cut Pro X.
 
-You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
+It's an AMAZING website that you should definitely check out.
 
-You should ensure your library only has a single event, and all project timecode starts at 00:00:00:00.
+[!button text="Visit Website" target="blank" variant="info"](https://en.editingtools.io)
 
-All Motion Content and Media should be contained within the Library.
+---
 
-If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
+### EditReady
 
-Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
+Since 2008, EditReady has had your back when your NLE doesn’t support your camera’s file format. And now, we're turning it up a notch with EditReady Pro!
 
-[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
+:::review
+{{ include "five-stars.md" }}
+
+I've been using EditReady for years. It's super fast. Very clean, and logical app. Almost perfect.
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://hedge.video/editready/)
+
+---
+
+### EDL-X
+
+Create Edit Decision Lists - EDLs - from Final Cut Pro X XML files. The EDLs can conform to the CMX 3600 standard and can be used to bring your cut into post production systems like DaVinci Resolve, Smoke, as well as various non-linear editing systems.
+
+
+EDL X features flexible Source Reel Name handling:
+
+- Source names can be read from XML files, or directly from the QuickTime files used in the project.
+- Alternatively, media file names, or full file paths can be used.
+- Source names can be made to conform to strict CMX standards (three numbers), or 8, 16, 32 or unlimited alpha-numerical characters.
+- All source names are user-editable, on a per-source basis.
+
+Roles can be used to filter the clips reflected in the EDL.
+
+Metadata associated with the footage - or added in FCP X - can be shown in the EDL as comments. This is provides a way to pass ASC CDL values on to color grading.
+
+EDL-X can be set up so that EDLs can be made directly from Final Cut Pro's Share menu.
+
+The app can list effects including some parameters and keyframes.
+
+EDL-X groups all video and audio clips into as few tracks as possible. Each video track gets its own EDL, with synch audio in the same EDL.
+
+Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.3.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/edl-x/id539666579?mt=12)
+
+---
+
+### FCP Cut Finder
+
+**FCP Cut Finder** analyzes a movie and identifies cut and editing points, then sends the result to Final Cut Pro.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://ulti.media/fcpx-cut-finder/)
+
+---
+
+### FCP Diet 2
+
+**FCP Diet 2** is the most innovative, powerful and effective solution for managing projects and save space with Final Cut Pro libraries.
+
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/fcp-diet-2/)
+
+---
+
+### FCP SRT Importer 2
+
+Import subtitles in SRT format as titles in Final Cut Pro.
+
+:::review
+{{ include "five-stars.md" }}
+
+This is my preferred tool for importing SRT files into Final Cut Pro. Works great - beautifully designed software.
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/fcp-srt-importer-2/)
+
+---
+
+### FCP Video Tag
+
+**FCP Video Tag** automatically generates keywords based on media content to be used in Final Cut Pro.
+
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/fcp-video-tag-automatic-keyword-generator-for-final-cut-pro/)
+
+---
+
+### FCPX AutoDuck
+
+Automatic Ducking for Final Cut Pro X.
+
+:::review
+{{ include "five-stars.md" }}
+
+I used to duck audio by hand. Sometimes it took me hours. Now just 5 seconds!
+
+_Rick Untanee_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/fcpxautoduck/)
+
+---
+
+### Final Cut Library Manager
+
+Final Cut Library Manager instantly displays all of the Final Cut Pro X libraries that it finds on your Spotlight-indexed drives. When a Library references external media Final Cut Library Manager will automatically create a group to clearly present the distribution of these media files across your system. You can also add other sources : including external disks, or folders, including those not indexed by spotlight.
+
+![Final Cut Library Manager](../static/fclm.png)
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.arcticwhiteness.com/finalcutlibrarymanager/)
+
+---
+
+### FoolCat
+
+Beautiful, customizable, and easily shareable camera reports.
+
+:::review
+FoolCat does one thing, and it does it exceptionally well. It is an indispensable tool in my go-to toolbox.
+
+_Philip Grossman_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://hedge.video/foolcat)
+
+---
+
+### FxFactory
+
+Visual effect plugins and apps for video creators. FxFactory is THE App Store for Final Cut Pro editors.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com)
+
+---
+
+### Media Copy 4.0
+
+Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
+
+---
+
+### OffShoot (formally Hedge)
+
+Offload media lightning fast, whether it's video, stills or audio. Make your life easy and let Hedge do the tedious jobs.
+
+:::review
+{{ include "five-stars.md" }}
+
+I've been using Hedge since it first came out. It's my preferred data wrangling tool. I've used it on feature films, television shows, television commercials, music videos, and everything in-between. It's awesome.
+
+_Chris Hocking - 3rd June 2023_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://hedge.video/hedge)
 
 ---
 
@@ -152,6 +381,38 @@ Reports can be further processed in your spreadsheet application for formatting 
 
 ---
 
+### ScopeBox
+
+All the audio & video scopes you'd expect from hardware, and many many more. A custom toolset crafted for creative professionals - colorists, editors, DITs, and sound. Mix and match scopes, save layouts, and be confident that you're seeing every pixel and every frame of your signal.
+
+[!button text="Visit Website" target="blank" variant="info"](https://hedge.video/scopebox/)
+
+---
+
+### SendToX
+
+SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/sendtox/id496926258?mt=12)
+
+---
+
+### Smart Video Splitter
+
+Smart Video Splitter is the perfect app for those who create professional or semi-professional stories with videos on social networks like Instagram, Facebook, Whatsapp and Snapchat.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://ulti.media/smart-video-splitter-for-instagram-facebook-whatsapp-and-snapchat-stories/)
+
+---
+
+### Subtitles Extractor
+
+Subtitles Extractor allows you to extract subtitles from movies where they are “printed” (i.e. not on a separate track) and export them to SRT format.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://ulti.media/subtitles-extractor/)
+
+---
+
 ### Sync-N-Link X
 
 “AutoSync” for Final Cut Pro X: batch sync dual-system sound using jam-synced SMPTE/EBU timecode.
@@ -176,131 +437,29 @@ Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.a
 
 ---
 
-### Xsend Motion
+### Transfer Toolbox
 
-The missing piece between Final Cut Pro and Motion 5: Xsend Motion from Automatic Duck.
+Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
 
-Xsend Motion converts your FCP timeline into a Motion project in just seconds, translating Transforms like Position and Scale, Opacity and blending modes, titles and many third party effects as well.
+You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
 
-A new Motion project is created referencing the same media files used by Final Cut Pro, no new media is created. You can easily adjust your footage in Motion, everything is live and not baked-in.
+You should ensure your library only has a single event, and all project timecode starts at 00:00:00:00.
 
-Uploaded by Automatic Duck on 2017-12-05.
-You can send an entire project from FCP to Motion, or you can export the contents of a compound clip to XML and translate that into Motion. Your Motion work can be exported back to FCP as a QuickTime movie or published as a Generator. Any time you have a clip or set of clips in FCPX that want to use in Motion, Xsend Motion is the tool you need to send those projects across.
+All Motion Content and Media should be contained within the Library.
 
-Xsend Motion integrates with the Final Cut Pro Share menu as well as with XML exports from FCP 10.2.1 and later, including Final Cut Pro X 10.6.
+If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
 
-[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/xsendmotion/)
+Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
----
-
-### Ximport AE
-
-Ximport AE is a powerful After Effects plug-in that imports XML files from Final Cut Pro. This plug-in offers the most complete workflow for translating a timeline from Final Cut Pro to Adobe After Effects.
-
-Watch the QuickStart video at the right to get an introduction to Ximport AE. It is a very powerful plug-in, and the best way to get to know it is to use it.
-
-[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/ximportae/)
+[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
 
 ---
 
-### SendToX
+### Ulti.Media Converter 2
 
-SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.
+The Swiss army knife for transcoding, workflow and multimedia file management.
 
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/sendtox/id496926258?mt=12)
-
----
-
-### XtoCC
-
-The all-in-one tool to move a Final Cut Pro X Event or Project to Premiere Pro, After Effects, Audition, FCP 7 and beyond!
-
-This app translates Final Cut Pro X Library XML (fcpxml) and converts it for import into Adobe's Creative Cloud apps, Premiere Pro CS6, Final Cut Pro 6 or 7, or other applications.
-
-Your Final Cut Pro XML is ready for:
-
-- Premiere Pro, and then to:
-- AAF to Avid Media Composer and Pro Tools
-- OMF output for ProTools, etc.
-- EDL
-- After Effects
-- Audition
-- Final Cut Pro 7
-- other Final Cut Pro 7 XML workflow tools
-
-Check the XtoCC Support document for instructions, including listings of what translates and what doesn't.
-
-Requirements:
-
-- Final Cut Pro version 10.0.1 or later
-- An application that imports Final Cut Pro XML (such as Final Cut Pro 7 or 6, Premiere Pro CC, After Effects CC, Audition CC, DaVinci Resolve, Color, etc.)
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/xtocc/id487899517?mt=12)
-
----
-
-### EDL-X
-
-Create Edit Decision Lists - EDLs - from Final Cut Pro X XML files. The EDLs can conform to the CMX 3600 standard and can be used to bring your cut into post production systems like DaVinci Resolve, Smoke, as well as various non-linear editing systems.
-
-
-EDL X features flexible Source Reel Name handling:
-
-- Source names can be read from XML files, or directly from the QuickTime files used in the project.
-- Alternatively, media file names, or full file paths can be used.
-- Source names can be made to conform to strict CMX standards (three numbers), or 8, 16, 32 or unlimited alpha-numerical characters.
-- All source names are user-editable, on a per-source basis.
-
-Roles can be used to filter the clips reflected in the EDL.
-
-Metadata associated with the footage - or added in FCP X - can be shown in the EDL as comments. This is provides a way to pass ASC CDL values on to color grading.
-
-EDL-X can be set up so that EDLs can be made directly from Final Cut Pro's Share menu.
-
-The app can list effects including some parameters and keyframes.
-
-EDL-X groups all video and audio clips into as few tracks as possible. Each video track gets its own EDL, with synch audio in the same EDL.
-
-Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.3.
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/edl-x/id539666579?mt=12)
-
----
-
-### Change List X
-
-Finally, you reached picture lock and send the project off so the sound department can start work. Which they do. Except a week or two later, there’s just “a few minor changes when the director took another pass”…
-
-And that’s where a Change List comes in. Because “Final” is never “Final” and “Locked” is regularly “Unlocked” again.
-
-Change List X analyses two Final Cut Pro X Projects and produces a change list comparing the Primary Storylines of the two versions of the edit.
-
-- The report lists the changes that need to be made to the initial cut to match the new edits, step by step
-- The report can be created as a PDF, tab-separated text file, or both
-- Report times can be shown as either Timecode, Feet+Frames or Frame Count
-- Change List X can also create a change pull list (for new footage added to the timeline) and a change discard list (for footage that needs to be removed from the timeline)
-
-What is a Change List and who uses them?
-
-A Change List lists changes made between one edit and another version of the same edit. This comes into play when you’ve handed over the “Final” version to VFX, post audio and a color pass.
-
-Inevitably there will need to be some additional edits, for whatever reason. Another pass by the Director, Studio suggestions, feedback from a focus group: it’s inevitable.
-
-Except those teams have already moved ahead with their jobs and have complex projects built around the timing of the first edit. They can’t take the new edit and start over. What they need are the steps to convert the version they been working on, to the latest revision: how many frames trimmed here, or added there; which shots have been added, and which deleted or replaced.
-
-The Change List is the step-by-step instructions to convert the current project to conform to the new edit. This is frequently a manual process but there are advanced tools that use the text-based change list to automate the changes.
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/change-list-x/id694746044?mt=12)
-
----
-
-### Final Cut Library Manager
-
-Final Cut Library Manager instantly displays all of the Final Cut Pro X libraries that it finds on your Spotlight-indexed drives. When a Library references external media Final Cut Library Manager will automatically create a group to clearly present the distribution of these media files across your system. You can also add other sources : including external disks, or folders, including those not indexed by spotlight.
-
-[!button text="Visit Website" target="blank" variant="info"](https://www.arcticwhiteness.com/finalcutlibrarymanager/)
-
-![Final Cut Library Manager](../static/fclm.png)
+[!button text="Visit Website" target="blank" variant="info"](https://ulti.media/converter/)
 
 ---
 
@@ -338,12 +497,70 @@ X2Pro uses Marquis Media Highway technology to integrate FCP X into the establis
 
 ---
 
-### Media Copy 4.0
+### Ximport AE
 
-Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
+Ximport AE is a powerful After Effects plug-in that imports XML files from Final Cut Pro. This plug-in offers the most complete workflow for translating a timeline from Final Cut Pro to Adobe After Effects.
 
-[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
+Watch the QuickStart video at the right to get an introduction to Ximport AE. It is a very powerful plug-in, and the best way to get to know it is to use it.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/ximportae/)
+
+---
+
+### Xsend Motion
+
+The missing piece between Final Cut Pro and Motion 5: Xsend Motion from Automatic Duck.
+
+Xsend Motion converts your FCP timeline into a Motion project in just seconds, translating Transforms like Position and Scale, Opacity and blending modes, titles and many third party effects as well.
+
+A new Motion project is created referencing the same media files used by Final Cut Pro, no new media is created. You can easily adjust your footage in Motion, everything is live and not baked-in.
+
+Uploaded by Automatic Duck on 2017-12-05.
+You can send an entire project from FCP to Motion, or you can export the contents of a compound clip to XML and translate that into Motion. Your Motion work can be exported back to FCP as a QuickTime movie or published as a Generator. Any time you have a clip or set of clips in FCPX that want to use in Motion, Xsend Motion is the tool you need to send those projects across.
+
+Xsend Motion integrates with the Final Cut Pro Share menu as well as with XML exports from FCP 10.2.1 and later, including Final Cut Pro X 10.6.
+
+[!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/xsendmotion/)
+
+---
+
+### XtoCC
+
+The all-in-one tool to move a Final Cut Pro X Event or Project to Premiere Pro, After Effects, Audition, FCP 7 and beyond!
+
+This app translates Final Cut Pro X Library XML (fcpxml) and converts it for import into Adobe's Creative Cloud apps, Premiere Pro CS6, Final Cut Pro 6 or 7, or other applications.
+
+Your Final Cut Pro XML is ready for:
+
+- Premiere Pro, and then to:
+- AAF to Avid Media Composer and Pro Tools
+- OMF output for ProTools, etc.
+- EDL
+- After Effects
+- Audition
+- Final Cut Pro 7
+- other Final Cut Pro 7 XML workflow tools
+
+Check the XtoCC Support document for instructions, including listings of what translates and what doesn't.
+
+Requirements:
+
+- Final Cut Pro version 10.0.1 or later
+- An application that imports Final Cut Pro XML (such as Final Cut Pro 7 or 6, Premiere Pro CC, After Effects CC, Audition CC, DaVinci Resolve, Color, etc.)
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/xtocc/id487899517?mt=12)
 
 ---
 
 {{ include "giscus.md" }}
+
+
+
+
+
+
+
+
+
+
+
