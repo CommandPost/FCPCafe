@@ -64,8 +64,26 @@ jobs:
         with:
           node-version: 16
   
-      - name: Install dependencies
-        run: npm install rss jsdom
+      - name: Create package.json in /tmp
+        run: |
+          echo '{
+            "name": "tmp",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "scripts": {
+              "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "author": "",
+            "license": "ISC",
+            "dependencies": {
+              "rss": "^1.2.2",
+              "jsdom": "^16.7.0"
+            }
+          }' > /tmp/package.json
+  
+      - name: Install dependencies in /tmp
+        run: npm install --prefix /tmp
   
       - name: Copy script to a temporary location
         run: |
@@ -77,7 +95,7 @@ jobs:
           ref: retype  # <-- Switch to 'retype' branch
   
       - name: Generate RSS Feed
-        run: node /tmp/generate_rss.js  # <-- Run script from /tmp
+        run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js  # <-- Run script from /tmp
   
       - name: Commit and push if it's necessary
         run: |
