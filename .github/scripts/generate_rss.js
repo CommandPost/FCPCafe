@@ -4,7 +4,6 @@ const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
 function convertDateToRFC822(dateString) {
-    // Remove ordinal indicators
     dateString = dateString.replace(/\b(\d+)(st|nd|rd|th)\b/g, "$1");
     let date = new Date(dateString);
     return date.toUTCString();
@@ -36,24 +35,30 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
         let title = article.getAttribute('id');
         let date = convertDateToRFC822(title);
 
-        let content = '';
-
         let node = article;
         while (node.nextSibling && node.nextSibling.nodeName !== 'HR') {
             node = node.nextSibling;
+
             if (node.outerHTML) {
-                content += node.outerHTML;
+                // Skip <p>{{ include "XXX" }}</p> lines
+                if (!/<p>\{\{ include ".*" \}\}<\/p>/i.test(node.outerHTML)) {
+                    content += node.outerHTML;
+                }
             }
         }
+
+        // Split content by <hr /> and create a new item for each part
+        let contents = content.split('<hr />').filter(part => part.trim() !== '');
+        contents.forEach((content, index) => {
+            const url = generateUrl(`${title}-${index+1}`);
         
-        const url = generateUrl(title);
-        
-        feed.item({
-            title: title,
-            guid: title,
-            description: content,
-            url: url,
-            date: date
+            feed.item({
+                title: `${title} News item ${index+1}`,
+                guid: `${title}-${index+1}`,
+                description: content,
+                url: url,
+                date: date
+            });
         });
     });
 
