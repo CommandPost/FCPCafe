@@ -1,11 +1,17 @@
-name: Update Issues and Publish to GitHub Pages
+name: Update FCP Cafe Website & Publish to GitHub Pages
 on:
   workflow_dispatch:
   push:
     branches:
       - main
+    tags:
+      - '*'
+  pull_request:
+    types: [closed]
   issues:
     types: [opened, closed, labeled, unlabeled]
+  release:
+    types: [created]
 
 jobs:
   issues_to_markdown:
