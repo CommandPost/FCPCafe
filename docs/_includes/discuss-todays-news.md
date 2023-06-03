@@ -1,0 +1,1 @@
+[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)

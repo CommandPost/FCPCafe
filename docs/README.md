@@ -16,6 +16,49 @@
 
 ---
 
+### Saturday 3rd June 2023
+
+It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these [closed pull requests](https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed){target="_blank"}!).
+
+I proposed creating [avid.cafe](https://avid.cafe) and [premiere.cafe](https://premiere.cafe)/[premierepro.cafe](https://premierepro.cafe) on some big Facebook Communities and my posts were [pretty quickly removed](https://twitter.com/chrisatlatenite/status/1664442143262543872){target="_blank"}.
+
+Meanwhile, the Final Cut Pro community has fully embraced my [crazy spur-of-the-moment idea](https://twitter.com/chrisatlatenite/status/1661729178826477569), and gone full steam ahead - love it!
+
+Thanks team!
+
+_Chris @ LateNite_
+
+---
+
+**BorisFX** is giving away their free Continuum FCPX Looks filter!
+
+We've been using mocha Pro for years, and love it dearly - so are always excited by what BorisFX have in-store!
+
+They just need to HURRY UP and give us native mocha Pro support within Final Cut Pro! In the meantime, this is great...
+
+BCC+ Looks Includes:
+
+- 80 drag-and-drop presets
+- Award-Winning Mocha tracking through Pixel Chooser: Quickly mask & isolate effects
+- Fully customizable: Easily adjust hue-sat, brightness, contrast, grain, and more
+- 8mm film stock, bleach by-pass, and day for night looks
+- Diffusion, color gradients, and lighting gels
+- Custom FX Editor: Browse and apply presets in seconds
+
+[!button text="Visit Website" target="blank" variant="info"](https://vfx.borisfx.com/free-fcp-bcc-looks)
+
+---
+
+**FCPeffects.com** is celebrating 12 years making plugins for Final Cut Pro!
+
+Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.fcpeffects.com/pages/mb-9887697887914709998)
+
+{{ include "discuss-todays-news.md" }}
+
+---
+
 ### Friday 2nd June 2023
 
 **Final Cut Pro v1.0.1** for iPad is out now!
@@ -87,7 +130,8 @@ Picture Lock Timelines of all 6 Episodes
 
 You can learn more [here](https://ulti.media/transcriber/).
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
+
 
 ---
 
@@ -97,7 +141,7 @@ You can learn more [here](https://ulti.media/transcriber/).
 
 This is very exciting for Final Cut Pro users - as Alteon is very committed to the Final Cut Pro ecosystem! You can learn more [here](https://www.accesswire.com/viewarticle.aspx?id=758114).
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -125,7 +169,7 @@ Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-pe
 
 A new batch of nOb controllers is now available! You can order [here](https://order.nobcontrol.com){target="_blank"}.
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -165,7 +209,7 @@ AudioSwift for macOS transforms your trackpad into a set of MIDI tools like slid
 
 AudioSwift works great in companion with [CommandPost](https://commandpost.io){target="_blank"} via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/){target="_blank"}.
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -202,7 +246,7 @@ Transfer Toolbox is currently waiting for approval on the Mac App Store, but you
 
 Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -215,7 +259,7 @@ We've recently reported two annoying **Final Cut Pro 10.6.6 bugs** to be across:
 
 We've reported them to Apple, and will keep track of them in our [Bug Tracker](https://fcp.cafe/bugtracker/).
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -225,7 +269,7 @@ Hedge are on the lookout for passionate beta users to help shape the future of H
 
 [![](/static/hedge.jpeg)](http://bit.ly/HedgeBetaProgram){target="_blank"}
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -277,7 +321,7 @@ Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Tool
 
 He also discovered that Final Cut Pro (for iPad) [can actually read files from an external SSD](https://twitter.com/chrisatlatenite/status/1661697912202743809){target="_blank"}.
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
@@ -285,7 +329,7 @@ He also discovered that Final Cut Pro (for iPad) [can actually read files from a
 
 Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/){target="_blank"} over at Pro Video Coalition.
 
-[!button text="Discuss today's news" target="blank" variant="info"](https://github.com/CommandPost/FCPCafe/discussions)
+{{ include "discuss-todays-news.md" }}
 
 ---
 
