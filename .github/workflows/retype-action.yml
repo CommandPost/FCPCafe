@@ -56,10 +56,21 @@ jobs:
     runs-on: ubuntu-latest
     needs: issues_to_markdown
     steps:
-      - name: Checkout code
+      - name: Checkout code (main)
+        uses: actions/checkout@v3
+  
+      - name: Copy script to a temporary location
+        run: |
+          cp .github/scripts/generate_rss.js /tmp/generate_rss.js
+  
+      - name: Checkout code (retype)
         uses: actions/checkout@v3
         with:
           ref: retype  # <-- Switch to 'retype' branch
+  
+      - name: Copy script from the temporary location
+        run: |
+          cp /tmp/generate_rss.js .github/scripts/generate_rss.js
   
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -81,7 +92,7 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
-
+          
   publish:
     name: Publish to retype branch
     needs: [issues_to_markdown, generate_rss]
