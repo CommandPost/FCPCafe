@@ -68,10 +68,6 @@ jobs:
         with:
           ref: retype  # <-- Switch to 'retype' branch
   
-      - name: Copy script from the temporary location
-        run: |
-          cp /tmp/generate_rss.js .github/scripts/generate_rss.js
-  
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -81,7 +77,7 @@ jobs:
         run: npm install rss jsdom
   
       - name: Generate RSS Feed
-        run: node .github/scripts/generate_rss.js
+        run: node /tmp/generate_rss.js  # <-- Run script from /tmp
   
       - name: Commit and push if it's necessary
         run: |
@@ -92,7 +88,7 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
-          
+
   publish:
     name: Publish to retype branch
     needs: [issues_to_markdown, generate_rss]
