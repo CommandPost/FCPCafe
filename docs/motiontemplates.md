@@ -15,7 +15,7 @@ In the meantime, we highly recommend [Motion VFX](https://www.motionvfx.com){tar
 
 There's also a database of free Motion Templates on [FCPX Free: The World's Largest Collection of Free FCPX Plugins](https://fcpxfree.com){target="_blank"}.
 
-[FxFactory](https://fxfactory.com){target="_blank"} also has a lot of great Motion Templates.
+Create with a wide range of great video effects at [FxFactory](https://fxfactory.com){target="_blank"}.
 
 ---
 
