@@ -35,20 +35,24 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
         let title = article.getAttribute('id');
         let date = convertDateToRFC822(title);
 
-        let node = article;
         let content = '';
-        while (node.nextSibling && node.nextSibling.nodeName !== 'HR') {
-            node = node.nextSibling;
-            if (node.outerHTML) {
-                // Skip lines that are includes
+        let contents = [];
+        let nodes = article.nextSibling ? Array.from(article.nextSibling.parentNode.childNodes) : [];
+        nodes.forEach(node => {
+            if (node.nodeName === 'HR') {
+                contents.push(content.trim());
+                content = '';
+            } else if (node.outerHTML) {
                 if (!node.outerHTML.match(/<p>\{\{ include "(.*?)" \}\}<\/p>/g)) {
                     content += node.outerHTML;
                 }
             }
+        });
+
+        if (content.trim() !== '') {
+            contents.push(content.trim());
         }
 
-        // Split content by <hr />, ignore empty and include-only parts
-        let contents = content.split('<hr />').filter(part => part.trim() !== '' && !part.match(/<p>\{\{ include "(.*?)" \}\}<\/p>/g));
         contents.forEach((content, index) => {
             const url = generateUrl(`${title}-${index+1}`);
         
@@ -64,3 +68,4 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
 
     fs.writeFileSync('docs/rss.xml', feed.xml({indent: true}));
 });
+
