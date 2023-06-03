@@ -58,18 +58,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+        with:
+          ref: retype  # <-- Switch to 'retype' branch
+  
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 16
-
+  
       - name: Install dependencies
-        run: npm install rss markdown-it
-
+        run: npm install rss jsdom
+  
       - name: Generate RSS Feed
         run: node .github/scripts/generate_rss.js
-
+  
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
