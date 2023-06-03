@@ -18,6 +18,8 @@ Here's a list of the **30 most popular** Final Cut Pro feature requests:
 
 {{ include "wishlist-reactions.md" }}
 
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+
 ---
 
 ### Recently Added
@@ -26,8 +28,14 @@ Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 
 {{ include "wishlist-recent.md" }}
 
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+
 ---
 
 !!!
 Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
+
+---
+
+{{ include "giscus.md" }}
