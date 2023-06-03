@@ -106,18 +106,25 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
-
+          
   publish:
     name: Publish to retype branch
     needs: issues_to_markdown
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code (main)
+        uses: actions/checkout@v3
+      
+      - name: Copy script to a temporary location
+        run: |
+          cp .github/scripts/generate_rss.js /tmp/generate_rss.js
+
       - name: Checkout code (retype)
         uses: actions/checkout@v3
         with:
           ref: retype
-
+          
       - name: Download artifacts
         uses: actions/download-artifact@v2
         with:
@@ -128,7 +135,7 @@ jobs:
         uses: retypeapp/action-build@latest
         with:
           license: ${{ secrets.RETYPE_SECRET }}
-          
+      
       # Generate RSS feed after building with Retype
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -155,10 +162,6 @@ jobs:
   
       - name: Install dependencies in /tmp
         run: npm install --prefix /tmp
-  
-      - name: Copy script to a temporary location
-        run: |
-          cp .github/scripts/generate_rss.js /tmp/generate_rss.js
   
       - name: Generate RSS Feed
         run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js  # <-- Run script from /tmp
