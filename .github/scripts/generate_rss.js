@@ -1,7 +1,7 @@
 const fs = require('fs');
 const RSS = require('rss');
-const MarkdownIt = require('markdown-it');
-const md = new MarkdownIt();
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
 
 function convertDateToRFC822(dateString) {
     // Remove ordinal indicators
@@ -14,11 +14,14 @@ function generateUrl(title) {
     return 'https://fcp.cafe/#' + title.toLowerCase().replace(/ /g, '-');
 }
 
-fs.readFile('docs/README.md', 'utf8', function(err, data) {
+fs.readFile('docs/README.html', 'utf8', function(err, data) {
     if (err) {
         console.error(err);
         return;
     }
+
+    const dom = new JSDOM(data);
+    const document = dom.window.document;
 
     const feed = new RSS({
         title: 'FCP Cafe',
@@ -28,49 +31,20 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         generator: 'FCP Cafe'
     });
 
-    // Ignore everything above the first date
-    const entriesStartIndex = data.indexOf('### ');
-    data = data.substring(entriesStartIndex);
+    const articles = document.querySelectorAll('doc-anchor-target');
+    articles.forEach(article => {
+        let title = article.getAttribute('id');
+        let date = convertDateToRFC822(title);
 
-    const entries = data.split('\n### ');
+        let content = '';
 
-    for (const entry of entries) {
-        const lines = entry.split('\n');
-        let title = lines[0].trim();
-
-        // Remove the leading '### ' from the title
-        if (title.startsWith('### ')) {
-            title = title.substring(4);
+        let node = article;
+        while (node.nextSibling && node.nextSibling.nodeName !== 'HR') {
+            node = node.nextSibling;
+            if (node.outerHTML) {
+                content += node.outerHTML;
+            }
         }
-        
-        const date = convertDateToRFC822(title);
-
-        let content = lines.slice(1).join('\n').trim();
-
-        // Remove the videocontainer, !!! and !!!info Sponsored
-        content = content.replace(/:::videocontainer/g, '')
-            .replace(/:::/g, '')
-            .replace(/!!!/g, '')
-            .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
-            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
-        
-        // Remove anything like <p>{{ include XXX }}</p>
-        content = content.replace(/<p>\{\{ include .* \}\}<\/p>/g, '');
-        
-        // Replace any instance of src="../static/ with the absolute URL
-        content = content.replace(/src="..\/static\//g, 'src="https://fcp.cafe/static/');
-        
-        // Replace any instance of the custom button markdown
-        content = content.replace(/\[!button text="([^"]+)" target="([^"]+)" variant="[^"]+"\]\(([^)]+)\)/g, '<a href="$3" target="$2">$1</a>');
-        
-        // Convert the markdown to HTML
-        content = md.render(content);
-        
-        // Undo HTML escaping
-        content = content.replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&amp;/g, '&')
-            .replace(/&quot;/g, '"');
         
         const url = generateUrl(title);
         
@@ -81,7 +55,7 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             url: url,
             date: date
         });
-    }
+    });
 
     fs.writeFileSync('docs/rss.xml', feed.xml({indent: true}));
 });
