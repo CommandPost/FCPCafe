@@ -41,7 +41,7 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
             node = node.nextSibling;
             if (node.outerHTML) {
                 // Skip lines that are includes
-                if (!node.outerHTML.includes('{{ include')) {
+                if (!node.outerHTML.match(/<p>\{\{ include "(.*?)" \}\}<\/p>/g)) {
                     content += node.outerHTML;
                 }
             }
