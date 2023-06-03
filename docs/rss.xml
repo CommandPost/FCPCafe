@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 03 Jun 2023 04:30:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jun 2023 04:40:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Saturday 3rd June 2023]]></title>
@@ -26,11 +26,11 @@
 <li>Diffusion, color gradients, and lighting gels</li>
 <li>Custom FX Editor: Browse and apply presets in seconds</li>
 </ul>
-<p><a href="https://vfx.borisfx.com/free-fcp-bcc-looks">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<p>&lt;a href=&quot;https://vfx.borisfx.com/free-fcp-bcc-looks&quot; target=&quot;blank&quot;&gt;Visit Website&lt;/a&gt;</p>
 <hr>
 <p><strong>FCPeffects.com</strong> is celebrating 12 years making plugins for Final Cut Pro!</p>
 <p>Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!</p>
-<p><a href="https://www.fcpeffects.com/pages/mb-9887697887914709998">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<p>&lt;a href=&quot;https://www.fcpeffects.com/pages/mb-9887697887914709998&quot; target=&quot;blank&quot;&gt;Visit Website&lt;/a&gt;</p>
 <p>{{ include &quot;discuss-todays-news.md&quot; }}</p>
 <hr>
 ]]></description>
