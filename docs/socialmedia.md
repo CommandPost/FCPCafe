@@ -6,9 +6,8 @@ This page is dedicated to Final Cut Pro communities on Social Media.
 
 ### Facebook
 
-The [Final Cut Pro Users](https://www.facebook.com/groups/135647653213414){target="_blank"} Facebook Group has **62.8K members**.
-
-The [Final Cut Pro for iPad](https://www.facebook.com/groups/1009739173727156){target="_blank"} Facebook Group has **191 members**.
+- The [Final Cut Pro Users](https://www.facebook.com/groups/135647653213414){target="_blank"} Facebook Group has **62.8K members**.
+- The [Final Cut Pro for iPad](https://www.facebook.com/groups/1009739173727156){target="_blank"} Facebook Group has **191 members**.
 
 ---
 
