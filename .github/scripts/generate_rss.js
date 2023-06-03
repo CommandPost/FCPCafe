@@ -46,9 +46,9 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
                 }
             }
         }
-        
-        // Split content by <hr /> and create a new item for each part
-        let contents = content.split('<hr />').filter(part => part.trim() !== '');
+
+        // Split content by <hr />, ignore empty and include-only parts
+        let contents = content.split('<hr />').filter(part => part.trim() !== '' && !part.match(/<p>\{\{ include "(.*?)" \}\}<\/p>/g));
         contents.forEach((content, index) => {
             const url = generateUrl(`${title}-${index+1}`);
         
