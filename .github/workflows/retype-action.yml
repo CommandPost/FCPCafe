@@ -119,7 +119,7 @@ jobs:
       - name: Copy script to a temporary location
         run: |
           cp .github/scripts/generate_rss.js /tmp/generate_rss.js
-          
+
       - name: Download artifacts
         uses: actions/download-artifact@v2
         with:
@@ -131,7 +131,6 @@ jobs:
         with:
           license: ${{ secrets.RETYPE_SECRET }}
       
-      # Generate RSS feed after building with Retype
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -154,12 +153,12 @@ jobs:
               "jsdom": "^16.7.0"
             }
           }' > /tmp/package.json
-  
+
       - name: Install dependencies in /tmp
         run: npm install --prefix /tmp
-  
+
       - name: Generate RSS Feed
-        run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js  # <-- Run script from /tmp
+        run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js ${{ env.RETYPE_OUTPUT_PATH }}/README.html ${{ env.RETYPE_OUTPUT_PATH }}/rss.xml
   
       - name: Commit and push if it's necessary
         run: |
