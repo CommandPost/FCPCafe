@@ -119,11 +119,6 @@ jobs:
       - name: Copy script to a temporary location
         run: |
           cp .github/scripts/generate_rss.js /tmp/generate_rss.js
-
-      - name: Checkout code (retype)
-        uses: actions/checkout@v3
-        with:
-          ref: retype
           
       - name: Download artifacts
         uses: actions/download-artifact@v2
