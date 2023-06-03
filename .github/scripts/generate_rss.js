@@ -47,6 +47,9 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
         let content = lines.slice(1).join('\n').trim();
 
+        // Replace any instance of src="../static/ with the absolute URL
+        content = content.replace(/src="..\/static\//g, 'src="https://fcp.cafe/static/');
+        
         // Remove the videocontainer, !!! and !!!info Sponsored
         content = content.replace(/:::videocontainer/g, '')
             .replace(/:::/g, '')
@@ -54,14 +57,14 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
             .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
         
-        // Remove anything like {{ include XXX }}
-        content = content.replace(/\{\{ include .* \}\}/g, '');
+        // Convert the markdown to HTML
+        content = md.render(content);
         
         // Convert !button Markdown syntax to HTML
-        content = content.replace(/\[!button text="(.*?)" target="(.*?)" variant="(.*?)"\]\((.*?)\)/g, '<a href="$4" target="$2">$1</a>');
+        content = content.replace(/&lt;a href="([^"]*)" target="([^"]*)"&gt;([^\&]*)&lt;\/a&gt;/g, '<a href="$1" target="$2">$3</a>');
         
-        // Replace any instance of src="../static/ with the absolute URL
-        content = content.replace(/src="..\/static\//g, 'src="https://fcp.cafe/static/');
+        // Remove anything like {{ include XXX }}
+        content = content.replace(/&lt;p&gt;\{\{ include .* \}\}&lt;\/p&gt;/g, '');
         
         content = md.render(content);
 
