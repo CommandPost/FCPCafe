@@ -1,4 +1,32 @@
-# Case Studies on fcp.co
+# External Case Studies
+
+Here's a collection of case studies found outside FCP Cafe.
+
+---
+
+### Apple
+
+Here's some links to case studies on the [Apple site](https://www.apple.com/au/final-cut-pro/workflows/){target="_blank"}:
+
+- [Jenn Jager](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-1){target="_blank"}
+- [Our Last Night](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-2){target="_blank"}
+- [Blood Red Sky](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-3){target="_blank"}
+- [Elsa Rhae and Barron Link](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-4){target="_blank"}
+- [The Banker](https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-5){target="_blank"}
+
+---
+
+### Blogs
+
+Frame.io also has an incredible blog [jam-packed with quality content](https://blog.frame.io){target="_blank"}.
+
+Here's some case studies we've found online:
+
+- [ONA: Better Care for a Lifetime (16th January 2018)](https://adamschoales.com/blog/2018/1/ona-better-care-for-a-lifetime){target="_blank"}
+
+---
+
+### fcp.co
 
 Here's some links to case studies on [fcp.co](https://fcp.co){target="_blank"}:
 
@@ -14,6 +42,12 @@ Here's some links to case studies on [fcp.co](https://fcp.co){target="_blank"}:
 - [Solve Review and Approval Problems for Music on Video with Freque (04 November 2022)](https://fcp.co/final-cut-pro/articles/2606-solve-review-and-approval-problems-for-music-on-video-with-freque){target="_blank"}
 
 You can find more over at [fcp.co](https://fcp.co){target="_blank"}.
+
+---
+
+!!!
+Something missing? Contribute! [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+!!!
 
 ---
 
