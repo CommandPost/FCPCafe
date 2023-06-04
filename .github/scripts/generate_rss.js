@@ -56,13 +56,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
             .replace(/\{target="[^"]*"\}/g, '');
 
+        // Render markdown to HTML
         content = md.render(content);
-
-        // Escape html entities
-        content = content.replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&quot;/g, '"')
-            .replace(/&amp;/g, '&');
 
         const url = generateUrl(currentTitle);
 
