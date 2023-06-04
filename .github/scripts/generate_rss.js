@@ -32,7 +32,7 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
     const entriesStartIndex = data.indexOf('### ');
     data = data.substring(entriesStartIndex);
 
-    const entries = data.split('\n### ');
+    const entries = data.split('\n---\n');
 
     for (const entry of entries) {
         const lines = entry.split('\n');
@@ -41,6 +41,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         // Remove the leading '### ' from the title
         if (title.startsWith('### ')) {
             title = title.substring(4);
+        } else {
+            continue; // skip entries without date headings
         }
 
         const date = convertDateToRFC822(title);
@@ -48,11 +50,15 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         let content = lines.slice(1).join('\n').trim();
 
         // Remove the videocontainer, !!! and !!!info Sponsored
+        // Include non-standard markdown replacements
         content = content.replace(/:::videocontainer/g, '')
             .replace(/:::/g, '')
             .replace(/!!!/g, '')
             .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
-            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
+            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '')
+            .replace(/{{ include ".*" }}/g, '')
+            .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, '<img src="https://fcp.cafe/$2" alt="$1">')
+            .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>');
 
         content = md.render(content);
 
