@@ -10,6 +10,30 @@
 
 ---
 
+### Monday 5th June 2023
+
+We've added some information from the editor, and lots of Final Cut Pro screenshots to our [Turn of the Tide case study](https://fcp.cafe/casestudies/turnofthetide/). Enjoy!
+
+---
+
+It's a month old, but for those that might have missed it, there's an awesome YouTube video that showcases the Audio Design Desk v2.0 Beta.
+
+Audio Design Desk is to audio software what Pro Tools was to the tape machine. It’s an entirely new breed of Digital Audio Workstation that artists can play like an instrument, revolutionizing the process of adding music and sound effects to picture and cutting down what can typically be a full day project to just a few minutes. It comes bundled with 75,000 sounds embedded with patent-pending Sonic Intelligence™, using AI-assisted content creation tools to enable filmmakers, sound designers, composers, and creators to produce cinema-quality compositions at the speed of thought, giving them a level of creative control that is unmatched by any other software.
+
+[![](/static/add.jpg)](https://www.youtube.com/watch?v=fojw1YNmuUM){target="_blank"}
+
+You can learn more about Audio Design Desk [here](https://fcp.cafe/tools/#audio-design-desk).
+
+---
+
+{{ include "discuss-todays-news.md" }}
+
+---
+
+{{ include "advertise-banner.md" }}
+
+---
+
 ### Saturday 3rd June 2023
 
 It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these [closed pull requests](https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed){target="_blank"}!).
@@ -52,10 +76,6 @@ Get all of their plugins in an easy to install package with the Mega Bundle. I'v
 ---
 
 {{ include "discuss-todays-news.md" }}
-
----
-
-{{ include "advertise-banner.md" }}
 
 ---
 
@@ -120,7 +140,7 @@ Picture Lock Timelines of all 6 Episodes
 
 #### Poster
 
-![Poster](../static/deleila-piasko-key_visual-2.jpg)
+![](../static/deleila-piasko-key_visual-2.jpg)
 
 ---
 

@@ -1,4 +1,5 @@
 <!--
+An Awesome Guide (Website)
 Core Training for FCP 10.4 (Mac App)
 Final Cut Pro Efficient Editing (Book)
 Final Cut Pro Power Tips (Book)
@@ -17,6 +18,16 @@ Apple has a lot of training resources [here](https://www.apple.com/au/final-cut-
 !!!
 Want to contribute or add your training? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
+
+---
+
+### An Awesome Guide (Website)
+
+Final Cut Pro Help is a collection of training, support, templates, and additional resources to assist you with Final Cut Pro.
+
+Jared Ewing is an Apple Certified Final Cut Studio Master Pro and has been editing video for over 20 years. While growing up, trial and error was a common practice in learning to edit and shoot video. After attending Columbia College Chicago, Jared worked as a software trainer and hardware technician where he mastered the ability to explain complex topics in a straightforward and digestible way. Jared now uses his technical and creative skills to support you here at An Awesome Guide and the Final Cut Pro Help channels.
+
+[!button text="Visit Website" target="blank" variant="info"](https://anawesomeguide.com)
 
 ---
 
