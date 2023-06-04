@@ -50,14 +50,14 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
         let content = lines.join('\n').trim();
 
-        // Handle non-standard markdown
+        // Render markdown to HTML
+        content = md.render(content);
+
+        // Handle non-standard markdown after HTML rendering
         content = content.replace(/{{ include ".*" }}/g, '')
             .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, '<img src="https://fcp.cafe/$2" alt="$1">')
             .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
             .replace(/\{target="[^"]*"\}/g, '');
-
-        // Render markdown to HTML
-        content = md.render(content);
 
         const url = generateUrl(currentTitle);
 
