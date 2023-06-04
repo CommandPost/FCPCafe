@@ -60,7 +60,7 @@ _Marcos Castiel (Ep's 1, 2, 5 & 7)_
 
 ### Poster
 
-![Turn of the Tide Poster](../static/turn-of-the-tide-poster.jpg)
+![](../static/turn-of-the-tide-poster.jpg)
 
 ---
 
