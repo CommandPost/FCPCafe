@@ -22,8 +22,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         return;
     }
 
-    let pubDate = new Date();
-    let lastBuildDate = new Date();
+    let pubDate = null;
+    let lastBuildDate = null;
 
     if (fs.existsSync('docs/rss.xml')) {
         const feedparser = new FeedParser();
@@ -31,8 +31,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         fs.createReadStream('docs/rss.xml').pipe(feedparser);
 
         feedparser.on('meta', function(meta) {
-            pubDate = meta.pubdate || pubDate;
-            lastBuildDate = meta.date || lastBuildDate;
+            pubDate = meta.pubdate || new Date();
+            lastBuildDate = meta.date || new Date();
         });
     }
 
@@ -41,10 +41,13 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         description: 'Latest News from FCP Cafe',
         feed_url: 'https://fcp.cafe/rss.xml',
         site_url: 'https://fcp.cafe',
-        generator: 'FCP Cafe',
-        pubDate: pubDate,
-        date: lastBuildDate
+        generator: 'FCP Cafe'
     });
+
+    if (pubDate !== null) {
+        feed.pubDate = pubDate;
+        feed.date = lastBuildDate;
+    }
 
     const entries = data.split('\n---\n');
 
