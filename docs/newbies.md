@@ -2,7 +2,6 @@
 
 If you're brand new to **Final Cut Pro for Mac** or **Final Cut Pro for iPad** - this is the place for you!
 
-
 ---
 
 ### Ripple Training

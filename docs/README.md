@@ -145,7 +145,6 @@ This is very exciting for Final Cut Pro users - as Alteon is very committed to t
 
 ---
 
-
 {{ include "sponsors/cut-daily.md" }}
 
 ---
