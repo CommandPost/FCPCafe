@@ -70,12 +70,11 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         });
     }
 
-    const newXMLContent = feed.xml({indent: true});
     const oldXMLContent = fs.existsSync('docs/rss.xml') ? fs.readFileSync('docs/rss.xml', 'utf8') : '';
+    const newXMLContent = feed.xml({indent: true});
 
     // Only write to the file if the content has changed
     if (newXMLContent !== oldXMLContent) {
-        // set the pubDate and lastBuildDate only when the content changes
         feed.pubDate = new Date();
         feed.lastBuildDate = new Date();
         fs.writeFileSync('docs/rss.xml', feed.xml({indent: true}));
