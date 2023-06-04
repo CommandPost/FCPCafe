@@ -4,8 +4,27 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 04 Jun 2023 21:46:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jun 2023 21:56:12 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Monday 5th June 2023]]></title>
+            <description><![CDATA[<p>We've added some information from the editor, and lots of Final Cut Pro screenshots to our <a href="https://fcp.cafe/casestudies/turnofthetide/">Turn of the Tide case study</a>. Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#monday-5th-june-2023</link>
+            <guid isPermaLink="false">Monday 5th June 2023</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Monday 5th June 2023]]></title>
+            <description><![CDATA[<p>It's a month old, but for those that might have missed it, there's an awesome YouTube video that showcases the Audio Design Desk v2.0 Beta.</p>
+<p>Audio Design Desk is to audio software what Pro Tools was to the tape machine. It’s an entirely new breed of Digital Audio Workstation that artists can play like an instrument, revolutionizing the process of adding music and sound effects to picture and cutting down what can typically be a full day project to just a few minutes. It comes bundled with 75,000 sounds embedded with patent-pending Sonic Intelligence™, using AI-assisted content creation tools to enable filmmakers, sound designers, composers, and creators to produce cinema-quality compositions at the speed of thought, giving them a level of creative control that is unmatched by any other software.</p>
+<p><a href="https://www.youtube.com/watch?v=fojw1YNmuUM"><img src="/static/add.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
+<p>You can learn more about Audio Design Desk <a href="https://fcp.cafe/tools/#audio-design-desk">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#monday-5th-june-2023</link>
+            <guid isPermaLink="false">Monday 5th June 2023</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Saturday 3rd June 2023]]></title>
             <description><![CDATA[<p>It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these <a href="https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed">closed pull requests</a>{target=&quot;_blank&quot;}!).</p>
@@ -106,7 +125,7 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
 <p>Picture Lock Timelines of all 6 Episodes
 <img src="../static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
 <h4>Poster</h4>
-<p><img src="../static/deleila-piasko-key_visual-2.jpg" alt="Poster"></p>
+<p><img src="../static/deleila-piasko-key_visual-2.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#friday-2nd-june-2023</link>
             <guid isPermaLink="false">Friday 2nd June 2023</guid>
