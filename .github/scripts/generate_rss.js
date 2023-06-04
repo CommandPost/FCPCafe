@@ -1,7 +1,7 @@
 const fs = require('fs');
 const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
-const md = new MarkdownIt();
+const md = new MarkdownIt({html: true}); // Allow inline HTML
 
 function convertDateToRFC822(dateString) {
     // Remove ordinal indicators
