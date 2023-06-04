@@ -28,48 +28,42 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         generator: 'FCP Cafe'
     });
 
-    // Ignore everything above the first date
-    const entriesStartIndex = data.indexOf('### ');
-    data = data.substring(entriesStartIndex);
-
     const entries = data.split('\n---\n');
 
-    for (const entry of entries) {
-        const lines = entry.split('\n');
-        let title = lines[0].trim();
+    let currentTitle = '';
+    let currentDate = '';
 
-        // Remove the leading '### ' from the title
-        if (title.startsWith('### ')) {
-            title = title.substring(4);
-        } else {
-            continue; // skip entries without date headings
+    for (const entry of entries) {
+        const lines = entry.trim().split('\n');
+
+        // if the line starts with '###', it's a new date
+        if (lines[0].startsWith('### ')) {
+            currentTitle = lines[0].substring(4);
+            currentDate = convertDateToRFC822(currentTitle);
+            lines.shift();  // remove the date line
         }
 
-        const date = convertDateToRFC822(title);
+        // skip empty entries or entries starting with an include line
+        if (lines.length === 0 || lines[0].startsWith('{{ include')) {
+            continue;
+        }
 
-        let content = lines.slice(1).join('\n').trim();
+        let content = lines.join('\n').trim();
 
-        // Remove the videocontainer, !!! and !!!info Sponsored
-        // Include non-standard markdown replacements
-        content = content.replace(/:::videocontainer/g, '')
-            .replace(/:::/g, '')
-            .replace(/!!!/g, '')
-            .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
-            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '')
-            .replace(/{{ include ".*" }}/g, '')
+        // Handle non-standard markdown
+        content = content.replace(/{{ include ".*" }}/g, '')
             .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, '<img src="https://fcp.cafe/$2" alt="$1">')
             .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>');
-
         content = md.render(content);
 
-        const url = generateUrl(title);
+        const url = generateUrl(currentTitle);
 
         feed.item({
-            title: title,
-            guid: title,
+            title: currentTitle,
+            guid: currentTitle,
             description: content,
             url: url,
-            date: date
+            date: currentDate
         });
     }
 
