@@ -6,9 +6,9 @@
 
 ---
 
-{{ include "homepage.md" }}
-
 {{ include "rss-buttons.md" }}
+
+{{ include "homepage.md" }}
 
 ---
 
