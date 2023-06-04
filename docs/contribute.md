@@ -30,6 +30,7 @@ If you're interested in collaborating, and helping FCP Cafe grow, here's some id
 - Add information to our [FAQ](https://fcp.cafe/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
 - Add any missing [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/).
 - Add personalised reviews to any [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/) you use regularly.
+- Expand the [Motion Templates](https://fcp.cafe/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](https://fcp.cafe/motiontemplates/#motionvfx), we should also list their best/most useful products.
 
 ---
 
