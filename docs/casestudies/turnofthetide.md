@@ -30,7 +30,7 @@ As a group, we even wrote an [open letter](https://fcp.cafe/openletter/) to Appl
 
 The production company asked for a workflow test, which I confidently agreed to.
 
-To prepare, I read Knut and Sam's [Notion Workflow Guide for FCP on feature and episodic TV](https://fcp.cafe/tipsandtricks/#final-cut-pro-workflow-for-feature-films), which I highly recommend to anyone using FCP for fiction.
+To prepare, I read Knut and Sam's [Notion Workflow Guide for FCP on feature and episodic TV](https://fcp.cafe/workflow/#final-cut-pro-workflow-for-feature-films), which I highly recommend to anyone using FCP for fiction.
 
 I also called the color grading and sound studios to talk about validating my XMLs and AAFs. That workflow test went seamlessly.
 
