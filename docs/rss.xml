@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 04 Jun 2023 12:40:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jun 2023 12:45:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 04 Jun 2023 12:40:30 GMT</pubDate>
+        <pubDate>Sun, 04 Jun 2023 12:45:30 GMT</pubDate>
         <item>
             <title><![CDATA[Saturday 3rd June 2023]]></title>
             <description><![CDATA[<p>It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these <a href="https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed">closed pull requests</a>{target=&quot;_blank&quot;}!).</p>
@@ -257,11 +257,9 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         </item>
         <item>
             <title><![CDATA[Friday 26th May 2023]]></title>
-            <description><![CDATA[<p><strong>Turn of the Tide</strong> premieres today on Netflix. Fully edited in Final Cut Pro.</p>
+            <description><![CDATA[<p><strong>Turn of the Tide</strong> premiered today on Netflix. Fully edited in Final Cut Pro.</p>
 <p>Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 &amp; 7) and Pedro Ribeiro (Ep's 3, 4 &amp; 6).</p>
-<p>!!!
-We will be adding an extensive case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a> soon!
-!!!</p>
+<p>You can read the full case study <a href="https://fcp.cafe/casestudies/turnofthetide/">here</a>.</p>
 <p><a href="https://www.youtube.com/watch?v=_tHdyD9TGCA"><img src="/static/turn-of-the-tide-youtube.jpg" alt=""></a>{target=&quot;_blank&quot;}</p>
 ]]></description>
             <link>https://fcp.cafe/#friday-26th-may-2023</link>
