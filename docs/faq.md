@@ -40,6 +40,8 @@ THINGS TO ADD (FROM COMMUNITY):
 - Backups and how to.
 - Media usage, drive bandwidth, proxy, etc
 - Rendering or exporting failing normally due to a corrupt rendered frame
+
+- Why "Leave In Place", doesn't when Importing copied card structures from a drive, using the Import window. This consistently baffles and confuses folks, often resulting in the dreaded "missing camera icon", due to crashing and slowness because they are unwittingly copying media back to the source, where the media already is.
 -->
 # Frequently Asked Questions
 

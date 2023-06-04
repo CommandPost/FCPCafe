@@ -20,6 +20,19 @@ However, if you're not confident using GitHub, you can also email us content her
 
 ---
 
+### Our To-Do List
+
+If you're interested in collaborating, and helping FCP Cafe grow, here's some ideas of some of the things you can do:
+
+- Make sure all your Final Cut Pro feature requests are added to our [Wish List](https://fcp.cafe/wishlist/).
+- Make sure all your Final Cut Pro bug reports are added to our [Bug Tracker](https://fcp.cafe/bugtracker/).
+- If you've worked on a professional product (feature film, short film, television commercial, television series, etc), consider writing a case study.
+- Add information to our [FAQ](https://fcp.cafe/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
+- Add any missing [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/).
+- Add personalised reviews to any [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/) you use regularly.
+
+---
+
 ### Our Mission
 
 We want this site to be:

@@ -10,13 +10,21 @@ branding:
 
 links:
 
+- text: Contribute
+  link: https://fcp.cafe/contribute/
+  icon: mark-github
+
 - text: Discussions
   link: https://github.com/CommandPost/FCPCafe/discussions
   icon: comment-discussion
   target: blank
 
-- text: Bugs & Feature Requests
-  link: https://github.com/CommandPost/FCPCafe/issues
+- text: Wish List
+  link: https://fcp.cafe/wishlist/
+  icon: thumbsup
+
+- text: Bug Tracker
+  link: https://fcp.cafe/bugtracker/
   icon: bug
   target: blank
 
