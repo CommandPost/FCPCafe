@@ -12,10 +12,6 @@
 
 ---
 
-{{ include "advertise-banner.md" }}
-
----
-
 ### Saturday 3rd June 2023
 
 It's been so incredibly exciting watching all the professional editors contributing to this site via GitHub (check out these [closed pull requests](https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed){target="_blank"}!).
@@ -58,6 +54,10 @@ Get all of their plugins in an easy to install package with the Mega Bundle. I'v
 ---
 
 {{ include "discuss-todays-news.md" }}
+
+---
+
+{{ include "advertise-banner.md" }}
 
 ---
 
