@@ -99,13 +99,9 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
     }
 
     if (isContentChanged) {
-        feed.xmlFields.lastBuildDate = new Date().toUTCString();
-    } else {
-        feed.xmlFields.lastBuildDate = lastBuildDate.toUTCString();
-    }
-
-    if (isContentChanged) {
-        const newXMLContent = feed.xml({indent: true});
+        let newXMLContent = feed.xml({indent: true});
+        const newLastBuildDate = new Date().toUTCString();
+        newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
         fs.writeFileSync('docs/rss.xml', newXMLContent);
     }
 });
