@@ -99,9 +99,9 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
     }
 
     if (isContentChanged) {
-        feed.date = new Date();
-    } else if (lastBuildDate !== null) {
-        feed.date = lastBuildDate;
+        feed.xmlFields.lastBuildDate = new Date().toUTCString();
+    } else {
+        feed.xmlFields.lastBuildDate = lastBuildDate.toUTCString();
     }
 
     if (isContentChanged) {
