@@ -96,6 +96,13 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             isContentChanged = true;
             feed.item(newEntry);
         }
+
+        if (!deepEqual(existingEntry, newEntry)) {
+            console.log(`Existing entry: ${JSON.stringify(existingEntry, null, 2)}`);
+            console.log(`New entry: ${JSON.stringify(newEntry, null, 2)}`);
+            isContentChanged = true;
+            feed.item(newEntry);
+        }
     }
 
     if (isContentChanged) {
