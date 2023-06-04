@@ -1,9 +1,10 @@
 const fs = require('fs');
 const RSS = require('rss');
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
+const MarkdownIt = require('markdown-it');
+const md = new MarkdownIt();
 
 function convertDateToRFC822(dateString) {
+    // Remove ordinal indicators
     dateString = dateString.replace(/\b(\d+)(st|nd|rd|th)\b/g, "$1");
     let date = new Date(dateString);
     return date.toUTCString();
@@ -13,14 +14,11 @@ function generateUrl(title) {
     return 'https://fcp.cafe/#' + title.toLowerCase().replace(/ /g, '-');
 }
 
-fs.readFile('docs/README.html', 'utf8', function(err, data) {
+fs.readFile('docs/README.md', 'utf8', function(err, data) {
     if (err) {
         console.error(err);
         return;
     }
-
-    const dom = new JSDOM(data);
-    const document = dom.window.document;
 
     const feed = new RSS({
         title: 'FCP Cafe',
@@ -30,42 +28,44 @@ fs.readFile('docs/README.html', 'utf8', function(err, data) {
         generator: 'FCP Cafe'
     });
 
-    const articles = document.querySelectorAll('doc-anchor-target');
-    articles.forEach(article => {
-        let title = article.getAttribute('id');
-        let date = convertDateToRFC822(title);
+    // Ignore everything above the first date
+    const entriesStartIndex = data.indexOf('### ');
+    data = data.substring(entriesStartIndex);
 
-        let content = '';
-        let contents = [];
-        let nodes = article.nextSibling ? Array.from(article.nextSibling.parentNode.childNodes) : [];
-        nodes.forEach(node => {
-            if (node.nodeName === 'HR') {
-                contents.push(content.trim());
-                content = '';
-            } else if (node.outerHTML) {
-                if (!node.outerHTML.match(/<p>\{\{ include "(.*?)" \}\}<\/p>/g)) {
-                    content += node.outerHTML;
-                }
-            }
-        });
+    const entries = data.split('\n### ');
 
-        if (content.trim() !== '') {
-            contents.push(content.trim());
+    for (const entry of entries) {
+        const lines = entry.split('\n');
+        let title = lines[0].trim();
+
+        // Remove the leading '### ' from the title
+        if (title.startsWith('### ')) {
+            title = title.substring(4);
         }
 
-        contents.forEach((content, index) => {
-            const url = generateUrl(`${title}-${index+1}`);
-        
-            feed.item({
-                title: `${title} News item ${index+1}`,
-                guid: `${title}-${index+1}`,
-                description: content,
-                url: url,
-                date: date
-            });
+        const date = convertDateToRFC822(title);
+
+        let content = lines.slice(1).join('\n').trim();
+
+        // Remove the videocontainer, !!! and !!!info Sponsored
+        content = content.replace(/:::videocontainer/g, '')
+            .replace(/:::/g, '')
+            .replace(/!!!/g, '')
+            .replace(/!!!info Sponsored[\s\S]*!!!/g, '')
+            .replace(/Want to contribute or advertise\? \[Learn more here!\]\(https:\/\/fcp\.cafe\/contribute\/\)/g, '');
+
+        content = md.render(content);
+
+        const url = generateUrl(title);
+
+        feed.item({
+            title: title,
+            guid: title,
+            description: content,
+            url: url,
+            date: date
         });
-    });
+    }
 
     fs.writeFileSync('docs/rss.xml', feed.xml({indent: true}));
 });
-

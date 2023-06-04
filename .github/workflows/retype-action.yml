@@ -51,12 +51,12 @@ jobs:
         with:
           name: docs
           path: docs/
-          
+
   generate_rss:
     runs-on: ubuntu-latest
     needs: issues_to_markdown
     steps:
-      - name: Checkout code (main)
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Node.js
@@ -64,39 +64,12 @@ jobs:
         with:
           node-version: 16
 
-      - name: Create package.json in /tmp
-        run: |
-          echo '{
-            "name": "tmp",
-            "version": "1.0.0",
-            "description": "",
-            "main": "index.js",
-            "scripts": {
-              "test": "echo \"Error: no test specified\" && exit 1"
-            },
-            "author": "",
-            "license": "ISC",
-            "dependencies": {
-              "rss": "^1.2.2",
-              "jsdom": "^16.7.0"
-            }
-          }' > /tmp/package.json
-  
-      - name: Install dependencies in /tmp
-        run: npm install --prefix /tmp
-  
-      - name: Copy script to a temporary location
-        run: |
-          cp .github/scripts/generate_rss.js /tmp/generate_rss.js
-  
-      - name: Checkout code (retype)
-        uses: actions/checkout@v3
-        with:
-          ref: retype  # <-- Switch to 'retype' branch
-  
+      - name: Install dependencies
+        run: npm install rss markdown-it
+
       - name: Generate RSS Feed
-        run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js  # <-- Run script from /tmp
-  
+        run: node .github/scripts/generate_rss.js
+
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
@@ -106,19 +79,15 @@ jobs:
             git commit -m "Update rss.xml"
             git push
           fi
-          
+
   publish:
     name: Publish to retype branch
-    needs: issues_to_markdown
+    needs: [issues_to_markdown, generate_rss]
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code (main)
+      - name: Checkout code
         uses: actions/checkout@v3
-      
-      - name: Copy script to a temporary location
-        run: |
-          cp .github/scripts/generate_rss.js /tmp/generate_rss.js
 
       - name: Download artifacts
         uses: actions/download-artifact@v2
@@ -126,54 +95,33 @@ jobs:
           name: docs
           path: docs/
 
+      - name: Copy rss.xml to a temporary location
+        run: |
+          cp docs/rss.xml /tmp/rss.xml
+
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
         with:
           license: ${{ secrets.RETYPE_SECRET }}
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-
-      - name: Create package.json in /tmp
-        run: |
-          echo '{
-            "name": "tmp",
-            "version": "1.0.0",
-            "description": "",
-            "main": "index.js",
-            "scripts": {
-              "test": "echo \"Error: no test specified\" && exit 1"
-            },
-            "author": "",
-            "license": "ISC",
-            "dependencies": {
-              "rss": "^1.2.2",
-              "jsdom": "^16.7.0"
-            }
-          }' > /tmp/package.json
-
-      - name: Install dependencies in /tmp
-        run: npm install --prefix /tmp
-
-      - name: Generate RSS Feed
-        run: NODE_PATH=/tmp/node_modules node /tmp/generate_rss.js ${{ env.RETYPE_OUTPUT_PATH }}/README.html ${{ env.RETYPE_OUTPUT_PATH }}/rss.xml
-  
-      - name: Commit and push if it's necessary
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          if [[ $(git status --porcelain) ]]; then
-            git add docs/rss.xml
-            git commit -m "Update rss.xml"
-            git push
-          fi
 
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+
+      - name: Checkout retype branch
+        uses: actions/checkout@v3
+        with:
+          ref: retype
+
+      - name: Copy rss.xml from the temporary location to retype branch
+        run: |
+          cp /tmp/rss.xml ./rss.xml
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add rss.xml
+          git commit -m "Update rss.xml"
+          git push
 
       - name: Purge CloudFlare cache
         run: |
