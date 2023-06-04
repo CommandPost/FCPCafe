@@ -288,14 +288,11 @@ Hedge are on the lookout for passionate beta users to help shape the future of H
 
 ### Friday 26th May 2023
 
-**Turn of the Tide** premieres today on Netflix. Fully edited in Final Cut Pro.
+**Turn of the Tide** premiered today on Netflix. Fully edited in Final Cut Pro.
 
 Created by Augusto de Fraga. Edited by Marcos Castiel (Ep's 1, 2, 5 & 7) and Pedro Ribeiro (Ep's 3, 4 & 6).
 
-!!!
-We will be adding an extensive case study [here](https://fcp.cafe/casestudies/turnofthetide/) soon!
-!!!
-
+You can read the full case study [here](https://fcp.cafe/casestudies/turnofthetide/).
 
 [![](/static/turn-of-the-tide-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA){target="_blank"}
 
