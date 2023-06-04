@@ -4,8 +4,6 @@
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
 
----
-
 {{ include "homepage.md" }}
 
 {{ include "rss-buttons.md" }}
