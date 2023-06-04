@@ -121,6 +121,7 @@ Also, keep in mind that Final Cut Pro libraries might only contain references to
 ### How can I export a project in Final Cut Pro?
 
 You can learn more [here](https://support.apple.com/en-au/guide/final-cut-pro/ver13664388c/mac){target="_blank"}.
+
 ---
 
 ### How can I improve my editing speed in Final Cut Pro?
