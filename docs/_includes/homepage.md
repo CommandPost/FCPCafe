@@ -19,8 +19,6 @@
 1. In the menu bar on the top of your browser, click **Tools**.
 2. Select **Internet Options**.
 3. Click the **General** tab.
-4. Under "Home page," enter: `https://fcp.cafe`.
-5. Click OK.
-6. Restart your browser.
+4. Under "Home page," enter: `https://fcp.cafe`, click OK and restart your browser.
 +++
 ===
