@@ -65,7 +65,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install rss markdown-it feedparser
+        run: npm install rss markdown-it feedparser deep-equal
 
       - name: Generate RSS Feed
         run: node .github/scripts/generate_rss.js
