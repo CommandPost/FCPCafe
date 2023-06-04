@@ -29,6 +29,17 @@ What is Apple's Final Cut Pro?
 What kind of animations can be created in Final Cut Pro?
 What kind of effects can I add using Final Cut Pro?
 Where can I find good tutorials or courses for learning Final Cut Pro?
+
+
+THINGS TO ADD (FROM COMMUNITY):
+- XML workflow between PP is still a biatch.
+- working remotely online / proxy editing
+- captions (we now use filmora for speech to text captions)
+
+- Media management, everything from how to setup the library and best practices to its using all my drive space to export settings.
+- Backups and how to.
+- Media usage, drive bandwidth, proxy, etc
+- Rendering or exporting failing normally due to a corrupt rendered frame
 -->
 # Frequently Asked Questions
 

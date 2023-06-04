@@ -55,6 +55,8 @@ Get all of their plugins in an easy to install package with the Mega Bundle. I'v
 
 [!button text="Visit Website" target="blank" variant="info"](https://www.fcpeffects.com/pages/mb-9887697887914709998)
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 ---
@@ -130,6 +132,8 @@ Picture Lock Timelines of all 6 Episodes
 
 You can learn more [here](https://ulti.media/transcriber/).
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 
@@ -167,6 +171,8 @@ Buy Look Designer Perpetual [here](https://colourlab.ai/look-designer-resolve-pe
 ---
 
 A new batch of nOb controllers is now available! You can order [here](https://order.nobcontrol.com){target="_blank"}.
+
+---
 
 {{ include "discuss-todays-news.md" }}
 
@@ -208,6 +214,8 @@ AudioSwift for macOS transforms your trackpad into a set of MIDI tools like slid
 
 AudioSwift works great in companion with [CommandPost](https://commandpost.io){target="_blank"} via MIDI for [controlling Final Cut Pro](https://audioswiftapp.com/fcp/){target="_blank"}.
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 ---
@@ -245,6 +253,8 @@ Transfer Toolbox is currently waiting for approval on the Mac App Store, but you
 
 Recall Toolbox is currently on TestFlight, and will hopefully be submitted to the Mac App Store by the end of this week for review.
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 ---
@@ -258,6 +268,8 @@ We've recently reported two annoying **Final Cut Pro 10.6.6 bugs** to be across:
 
 We've reported them to Apple, and will keep track of them in our [Bug Tracker](https://fcp.cafe/bugtracker/).
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 ---
@@ -267,6 +279,8 @@ We've reported them to Apple, and will keep track of them in our [Bug Tracker](h
 Hedge are on the lookout for passionate beta users to help shape the future of Hedge products (like [Hedge](https://hedge.video/hedge){target="_blank"}, [PostLab](https://hedge.video/postlab/benefits){target="_blank"} & [EditReady](https://hedge.video/editready){target="_blank"}). If you think you have what it takes and would like to join, sign up [here](http://bit.ly/HedgeBetaProgram){target="_blank"}.
 
 [![](/static/hedge.jpeg)](http://bit.ly/HedgeBetaProgram){target="_blank"}
+
+---
 
 {{ include "discuss-todays-news.md" }}
 
@@ -320,6 +334,8 @@ Chris at [LateNite](https://latenitefilms.com) has also announced [Transfer Tool
 
 He also discovered that Final Cut Pro (for iPad) [can actually read files from an external SSD](https://twitter.com/chrisatlatenite/status/1661697912202743809){target="_blank"}.
 
+---
+
 {{ include "discuss-todays-news.md" }}
 
 ---
@@ -327,6 +343,8 @@ He also discovered that Final Cut Pro (for iPad) [can actually read files from a
 ### Tuesday 23rd May 2023
 
 Iain Anderson has written a very detailed [Final Cut Pro 10.6.6 blog post](https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/){target="_blank"} over at Pro Video Coalition.
+
+---
 
 {{ include "discuss-todays-news.md" }}
 
