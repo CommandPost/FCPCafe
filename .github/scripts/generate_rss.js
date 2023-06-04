@@ -92,9 +92,7 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
         const existingEntry = oldFeedItems.find(item => item.guid === newEntry.guid);
 
-        if (!existingEntry || !deepEqual({title: existingEntry.title, description: existingEntry.description, date: existingEntry.date}, newEntry)) {
-            console.log(`Existing entry: ${JSON.stringify(existingEntry, null, 2)}`);
-            console.log(`New entry: ${JSON.stringify(newEntry, null, 2)}`);
+        if (!existingEntry || !deepEqual(existingEntry, newEntry)) {
             isContentChanged = true;
             feed.item(newEntry);
         }
