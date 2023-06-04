@@ -1,6 +1,8 @@
 const fs = require('fs');
 const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
+const FeedParser = require('feedparser');
+
 const md = new MarkdownIt({html: true}); // Allow inline HTML
 
 function convertDateToRFC822(dateString) {
@@ -20,12 +22,28 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         return;
     }
 
+    let pubDate = new Date();
+    let lastBuildDate = new Date();
+
+    if (fs.existsSync('docs/rss.xml')) {
+        const feedparser = new FeedParser();
+
+        fs.createReadStream('docs/rss.xml').pipe(feedparser);
+
+        feedparser.on('meta', function(meta) {
+            pubDate = meta.pubdate || pubDate;
+            lastBuildDate = meta.date || lastBuildDate;
+        });
+    }
+
     const feed = new RSS({
         title: 'FCP Cafe',
         description: 'Latest News from FCP Cafe',
         feed_url: 'https://fcp.cafe/rss.xml',
         site_url: 'https://fcp.cafe',
-        generator: 'FCP Cafe'
+        generator: 'FCP Cafe',
+        pubDate: pubDate,
+        date: lastBuildDate
     });
 
     const entries = data.split('\n---\n');
@@ -70,13 +88,11 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         });
     }
 
-    const oldXMLContent = fs.existsSync('docs/rss.xml') ? fs.readFileSync('docs/rss.xml', 'utf8') : '';
     const newXMLContent = feed.xml({indent: true});
+    const oldXMLContent = fs.existsSync('docs/rss.xml') ? fs.readFileSync('docs/rss.xml', 'utf8') : '';
 
     // Only write to the file if the content has changed
     if (newXMLContent !== oldXMLContent) {
-        feed.pubDate = new Date();
-        feed.lastBuildDate = new Date();
-        fs.writeFileSync('docs/rss.xml', feed.xml({indent: true}));
+        fs.writeFileSync('docs/rss.xml', newXMLContent);
     }
 });
