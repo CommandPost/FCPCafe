@@ -2,6 +2,8 @@
 Audio Design Desk
 BeatMark Pro
 Canister
+Caption Burner
+Caption Converter
 Change List X
 Cleanterview
 CommandPost
@@ -81,6 +83,28 @@ _Keenan J. Mock, LightIron_
 :::
 
 [!button text="Visit Website" target="blank" variant="info"](https://hedge.video/canister)
+
+---
+
+### Caption Burner
+
+Caption Burner is a plugin for Final Cut Pro, Premiere Pro, After Effects and Motion that lets you burn captions and subtitles into your video.
+
+Caption Burner helps deliver video for platforms such as Instagram® that do not allow caption information to be submitted as metadata.
+
+[!embed](https://www.youtube.com/watch?v=eh5TjCssOo8)
+
+[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/info/captionburner/)
+
+---
+
+### Caption Converter
+
+Caption Converter is an app for macOS that lets you import, export, edit and translate caption and subtitle information in the following formats: iTunes Timed Text (iTT), WebVTT (VTT), SubRip (SRT), SubViewer (SUB), Adobe Encore Script and Adobe Premiere Pro Markers (CSV).
+
+[!embed](https://www.youtube.com/watch?v=2VOY70LfA-4)
+
+[!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/info/captionconverter/)
 
 ---
 
