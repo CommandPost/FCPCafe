@@ -1,3 +1,4 @@
+<!--
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/FCPCafe"
         data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
@@ -14,3 +15,4 @@
         crossorigin="anonymous"
         async>
 </script>
+-->
