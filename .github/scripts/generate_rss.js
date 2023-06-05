@@ -123,6 +123,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         let newXMLContent = feed.xml({indent: true});
         const newLastBuildDate = new Date().toUTCString();
         newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
+        newXMLContent = newXMLContent.replace(/{target="_blank"}/g, ''); // remove all instances of {target="_blank"}
+        newXMLContent = newXMLContent.replace(/\.\.\/static\//g, 'https://fcp.cafe/static/'); // replace all instances of ../static/ with https://fcp.cafe/static/
         fs.writeFileSync('docs/rss.xml', newXMLContent);
     }
 });
