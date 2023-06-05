@@ -12,7 +12,7 @@ If you want a real-world example of a FxPlug4 application, you can look at [Gyro
 
 A Swift implementation of FxCore plugins for Final Cut Pro and Apple Motion.
 
-Learn more on [GitHub](https://github.com/jslinker/FxKit).
+Learn more on [GitHub](https://github.com/jslinker/FxKit){target="_blank"}.
 
 ---
 
