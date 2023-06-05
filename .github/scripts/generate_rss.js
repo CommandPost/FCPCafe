@@ -15,6 +15,13 @@ function generateUrl(title) {
     return 'https://fcp.cafe/#' + title.toLowerCase().replace(/ /g, '-');
 }
 
+function entriesAreEqual(entry1, entry2) {
+    return entry1.title === entry2.title &&
+           entry1.guid === entry2.guid &&
+           entry1.description === entry2.description &&
+           entry1.url === entry2.url;
+}
+
 let pubDate = null;
 let lastBuildDate = null;
 let isContentChanged = false;
@@ -97,7 +104,7 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
         const existingEntryIndex = oldFeedItems.findIndex(item => item.guid === newEntry.guid);
 
-        if (existingEntryIndex === -1 || oldFeedItems[existingEntryIndex].description !== newEntry.description) {
+        if (existingEntryIndex === -1 || !entriesAreEqual(oldFeedItems[existingEntryIndex], newEntry)) {
             isContentChanged = true;
             feed.item(newEntry);
 
