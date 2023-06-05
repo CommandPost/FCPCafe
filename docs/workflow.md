@@ -20,7 +20,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 ![](../static/shotdata.gif)
 
-[!button text="Open User Guide" target="blank" variant="info"](https://help.commandpost.io/toolbox/shot_dat)
+[!button text="Open User Guide" target="blank" variant="info"](https://help.commandpost.io/toolbox/shot_data)
 
 ---
 
