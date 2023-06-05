@@ -45,6 +45,9 @@ THINGS TO ADD (FROM COMMUNITY):
 
 - ‘What’s that red box in the viewer’ (zoomed in, shift Z to ‘fit to window’)
 - ‘What have I done’ you’ve opened the precision editor, ESC will close it.
+
+- Help!!! It’s saying my storage is full and I’m only working on a five minute zoom call!!!!
+- (Turn off background rendering and select leave files in place…)
 -->
 # Frequently Asked Questions
 
