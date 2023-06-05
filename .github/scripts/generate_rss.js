@@ -2,7 +2,6 @@ const fs = require('fs');
 const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
 const FeedParser = require('feedparser');
-const deepEqual = require('deep-equal');
 
 const md = new MarkdownIt({html: true});
 
@@ -96,13 +95,21 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
             date: currentDate
         };
 
-        const existingEntry = oldFeedItems.find(item => item.guid === newEntry.guid);
+        const existingEntryIndex = oldFeedItems.findIndex(item => item.guid === newEntry.guid);
 
-        // Change the condition to check if descriptions are the same
-        if (!existingEntry || existingEntry.description !== newEntry.description) {
+        if (existingEntryIndex === -1 || oldFeedItems[existingEntryIndex].description !== newEntry.description) {
             isContentChanged = true;
             feed.item(newEntry);
+
+            if (existingEntryIndex !== -1) {
+                oldFeedItems.splice(existingEntryIndex, 1);
+            }
         }
+    }
+
+    // Add all items in oldFeedItems back into the feed
+    for (const oldItem of oldFeedItems) {
+        feed.item(oldItem);
     }
 
     if (isContentChanged) {
