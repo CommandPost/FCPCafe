@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 05 Jun 2023 21:30:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jun 2023 21:46:13 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Tuesday 6th June 2023]]></title>
@@ -21,25 +21,25 @@
             <description><![CDATA[<p><strong>WWDC</strong> time!</p>
 <p>Here's a <a href="https://developer.apple.com/videos/play/wwdc2023/111486/">17 big &amp; little things at WWDC23</a>{target=&quot;_blank&quot;}.</p>
 <p>Here is some of the relevant highlights for Final Cut Pro editors:</p>
-<p><img src="../static/wwdc23-macpro.png" alt=""></p>
-<p><img src="../static/wwdc23-macpro-pricing.png" alt=""></p>
-<p><img src="../static/wwdc23-macpro-compare.png" alt=""></p>
-<p><img src="../static/wwdc23-macpro-compare-2.png" alt=""></p>
-<p><img src="../static/wwdc23-macpro-compare-3.png" alt=""></p>
-<p><img src="../static/wwdc23-macpro-pricing-aud.png" alt=""></p>
-<p><img src="../static/wwdc23-m2ultra.png" alt=""></p>
-<p><img src="../static/wwdc23-macbook-air.png" alt=""></p>
-<p><img src="../static/wwdc23-macos.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro-pricing.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare-2.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare-3.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macpro-pricing-aud.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-m2ultra.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macbook-air.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-macos.png" alt=""></p>
 <p>You can learn more about the new MacPro <a href="https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/">here</a>{target=&quot;_blank&quot;}.</p>
 <p>...and introducing <strong>Vision Pro</strong>. It's <strong>USD$3499</strong> coming early next year.</p>
-<p><img src="../static/wwdc23-vision-pro-1.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-2.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-3.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-4.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-5.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-6.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-7.jpeg" alt=""></p>
-<p><img src="../static/wwdc23-vision-pro-8.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-1.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-2.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-3.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-4.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-5.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-6.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-7.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-8.jpeg" alt=""></p>
 <p>DaVinci Resolve will run on Vision Pro out-of-the-box. No word on Final Cut Pro support.</p>
 <p>You can learn more about Vision Pro <a href="https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/">here</a>{target=&quot;_blank&quot;}.</p>
 <p>You can watch the entire WWDC Keynote <a href="https://www.apple.com/apple-events/event-stream/">here</a>{target=&quot;_blank&quot;}.</p>
@@ -53,7 +53,7 @@
             <description><![CDATA[<p><strong>NeoFinder 8.4.1</strong> is out now. This is a bugfix release that contains two fixes for the Smart Folders, and one fix when searching hierarchical keywords.</p>
 <p>NeoFinder 8.4.1 is another free update for all customers with a NeoFinder 8.x license.</p>
 <p>NeoFinder 8.x is a <a href="https://www.cdfinder.de/store.html">paid upgrade</a>{target=&quot;_blank&quot;} for NeoFinder 6.x, NeoFinder 7.x, and CDFinder customers.</p>
-<p><img src="../static/neofinder-8-4.jpeg" alt=""></p>
+<p><img src="https://fcp.cafe/static/neofinder-8-4.jpeg" alt=""></p>
 <p>You can learn more <a href="https://fcp.cafe/tools/#neofinder">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-6th-june-2023</link>
@@ -63,7 +63,7 @@
         <item>
             <title><![CDATA[Tuesday 6th June 2023]]></title>
             <description><![CDATA[<p>Purchase a Ninja V, Ninja V+, Shogun Connect, Sumo 19SE or Shogun Studio 2 before the end of June 2023 to receive a FREE Assimilate Play Pro Studio license worth US$299 when registering your product. Existing registered owners quality for an exclusive price of USD$99.</p>
-<p><img src="../static/assimilate-play-pro-studio.png" alt=""></p>
+<p><img src="https://fcp.cafe/static/assimilate-play-pro-studio.png" alt=""></p>
 <p>You can learn more <a href="http://my.atomos.com">here</a>{target=&quot;_blank&quot;}.</p>
 ]]></description>
             <link>https://fcp.cafe/#tuesday-6th-june-2023</link>
@@ -196,9 +196,9 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
 </ul>
 <h4>Screenshots</h4>
 <p>Picture Lock Timelines of all 6 Episodes
-<img src="../static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
+<img src="https://fcp.cafe/static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
 <h4>Poster</h4>
-<p><img src="../static/deleila-piasko-key_visual-2.jpg" alt=""></p>
+<p><img src="https://fcp.cafe/static/deleila-piasko-key_visual-2.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#friday-2nd-june-2023</link>
             <guid isPermaLink="false">Friday 2nd June 2023</guid>
