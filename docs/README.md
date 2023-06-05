@@ -24,6 +24,8 @@ You can buy BRAW Toolbox and learn more [here](https://brawtoolbox.io){target="_
 
 Here's a [17 big & little things at WWDC23](https://developer.apple.com/videos/play/wwdc2023/111486/){target="_blank"}.
 
+Iain Anderson has also written [Apple Vision Pro revealed at WWDC](https://www.provideocoalition.com/apple-vision-pro-revealed-at-wwdc/){target="_blank"} over at [ProVideo Coalition](https://www.provideocoalition.com){target="_blank"}.
+
 Below are some of the relevant highlights for Final Cut Pro editors.
 
 First up, the new **Mac Pro**:
