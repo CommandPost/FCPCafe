@@ -136,11 +136,41 @@ You can learn more [here](https://docs.github.com/en/codespaces/the-githubdev-we
 
 ---
 
-### YouTube & Vimeo Embeds
+### External Links
 
-To keep that site as fast as possible, and free from tracking/cookies, we've decided not to allow embedded videos.
+All external links should open in a new tab/window.
+
+The trick is to add `{target="_blank"}` at the end of the link.
+
+Here's an example of how to do this in Markdown:
+
+```
+[Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"}
+```
+
+---
+
+### Embedded Videos
+
+To keep that site as fast as possible, and free from tracking/cookies, we've decided **not** to allow embedded videos.
 
 Instead, we'll be posting the Video Thumbnail as a clickable link to the video.
+
+Here's an example of how this looks in Markdown:
+
+```
+[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target="_blank"}
+```
+
+You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank"} for download YouTube Thumbnails.
+
+---
+
+### Images
+
+All images should be stored within the `/docs/static/` folder on GitHub.
+
+You can find it [here](https://github.com/CommandPost/FCPCafe/tree/main/docs/static){target="_blank"}.
 
 ---
 

@@ -6,7 +6,7 @@ The actual patent can be found [here](https://patents.google.com/patent/US887502
 
 Here's one of the screenshots from the patent:
 
-![Patent Screenshot](../static/patent.png)
+![](../static/patent.png)
 
 ---
 

@@ -92,7 +92,7 @@ Caption Burner is a plugin for Final Cut Pro, Premiere Pro, After Effects and Mo
 
 Caption Burner helps deliver video for platforms such as Instagram® that do not allow caption information to be submitted as metadata.
 
-[!embed](https://www.youtube.com/watch?v=eh5TjCssOo8)
+[![](/static/caption-burner.jpg)](https://www.youtube.com/watch?v=eh5TjCssOo8){target="_blank"}
 
 [!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/info/captionburner/)
 
@@ -102,7 +102,7 @@ Caption Burner helps deliver video for platforms such as Instagram® that do not
 
 Caption Converter is an app for macOS that lets you import, export, edit and translate caption and subtitle information in the following formats: iTunes Timed Text (iTT), WebVTT (VTT), SubRip (SRT), SubViewer (SUB), Adobe Encore Script and Adobe Premiere Pro Markers (CSV).
 
-[!embed](https://www.youtube.com/watch?v=2VOY70LfA-4)
+[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target="_blank"}
 
 [!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/info/captionconverter/)
 
