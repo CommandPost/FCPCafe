@@ -21,6 +21,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 ![Shot Data Demo](https://1056917983-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L9OTURb51tpF4FoDube%2Fuploads%2Fgit-blob-4cf31b23c3c0281860871a36391801886408a120%2FS2.4.gif?alt=media)
 
 [!button text="Open Notion Site" target="blank" variant="info"](https://help.commandpost.io/toolbox/shot_data)
+
 {{ include "contribute-learn-more.md" }}
 
 ---
