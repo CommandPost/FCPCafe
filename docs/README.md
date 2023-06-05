@@ -24,7 +24,9 @@ You can buy BRAW Toolbox and learn more [here](https://brawtoolbox.io){target="_
 
 Here's a [17 big & little things at WWDC23](https://developer.apple.com/videos/play/wwdc2023/111486/){target="_blank"}.
 
-Here is some of the relevant highlights for Final Cut Pro editors:
+Below are some of the relevant highlights for Final Cut Pro editors.
+
+First up, the new **Mac Pro**:
 
 ![](../static/wwdc23-macpro.png)
 
@@ -38,15 +40,29 @@ Here is some of the relevant highlights for Final Cut Pro editors:
 
 ![](../static/wwdc23-macpro-pricing-aud.png)
 
+You can learn more about the new MacPro [here](https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/){target="_blank"}.
+
+There's the new **M2 Ultra**.
+
 ![](../static/wwdc23-m2ultra.png)
+
+You can learn more [here](https://www.apple.com/newsroom/2023/06/apple-introduces-m2-ultra/){target="_blank"}.
+
+There's the new **15-inch MacBook Air**:
 
 ![](../static/wwdc23-macbook-air.png)
 
+You can learn more [here](https://www.apple.com/au/newsroom/2023/06/apple-introduces-the-15-inch-macbook-air/){target="_blank"}.
+
+There's the new **macOS Sonoma**:
+
 ![](../static/wwdc23-macos.png)
 
-You can learn more about the new MacPro [here](https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/){target="_blank"}.
+You can learn more [here](https://www.apple.com/au/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/){target="_blank"}.
 
-...and introducing **Vision Pro**. It's **USD$3499** coming early next year.
+There's the new **Vision Pro**.
+
+It's **USD$3499** coming early next year.
 
 ![](../static/wwdc23-vision-pro-1.jpeg)
 
@@ -64,7 +80,7 @@ You can learn more about the new MacPro [here](https://www.apple.com/newsroom/20
 
 ![](../static/wwdc23-vision-pro-8.jpeg)
 
-DaVinci Resolve will run on Vision Pro out-of-the-box. No word on Final Cut Pro support.
+DaVinci Resolve will run on Vision Pro out-of-the-box. No word yet on Final Cut Pro support.
 
 You can learn more about Vision Pro [here](https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/){target="_blank"}.
 
