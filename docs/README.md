@@ -64,7 +64,7 @@ You can learn more [here](https://www.apple.com/au/newsroom/2023/06/macos-sonoma
 
 There's the new **Vision Pro**.
 
-It's **USD$3499** coming early next year.
+It's **USD$3499** and "available early next year in the U.S".
 
 ![](../static/wwdc23-vision-pro-1.jpeg)
 
