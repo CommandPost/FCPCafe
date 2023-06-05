@@ -11,7 +11,7 @@ branding:
 links:
 
 - text: Contribute
-  link: https://fcp.cafe/contribute/
+  link: contribute.md
   icon: mark-github
 
 - text: Discussions
@@ -20,11 +20,11 @@ links:
   target: blank
 
 - text: Wish List
-  link: https://fcp.cafe/wishlist/
+  link: wishlist.md
   icon: thumbsup
 
 - text: Bug Tracker
-  link: https://fcp.cafe/bugtracker/
+  link: bugtracker.md
   icon: bug
   target: blank
 
@@ -45,6 +45,11 @@ links:
 
 footer:
   copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
+
+  links:
+    - text: Contribute
+      link: contribute.md
+      icon: mark-github
 
 poweredByRetype: false
 
