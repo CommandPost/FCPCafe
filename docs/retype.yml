@@ -26,7 +26,6 @@ links:
 - text: Bug Tracker
   link: bugtracker.md
   icon: bug
-  target: blank
 
 - text: Resolve Cafe
   link: https://resolve.cafe
@@ -45,7 +44,6 @@ links:
 
 footer:
   copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
-
   links:
     - text: Contribute
       link: contribute.md
