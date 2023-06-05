@@ -98,7 +98,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
 
         const existingEntry = oldFeedItems.find(item => item.guid === newEntry.guid);
 
-        if (!existingEntry || !deepEqual(existingEntry, newEntry)) {
+        // Change the condition to check if descriptions are the same
+        if (!existingEntry || existingEntry.description !== newEntry.description) {
             isContentChanged = true;
             feed.item(newEntry);
         }
