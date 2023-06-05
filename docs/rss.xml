@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 05 Jun 2023 22:03:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jun 2023 22:12:11 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Tuesday 6th June 2023]]></title>
@@ -20,6 +20,7 @@
             <title><![CDATA[Tuesday 6th June 2023]]></title>
             <description><![CDATA[<p><strong>WWDC</strong> time!</p>
 <p>Here's a <a href="https://developer.apple.com/videos/play/wwdc2023/111486/">17 big &amp; little things at WWDC23</a>.</p>
+<p>Iain Anderson has also written <a href="https://www.provideocoalition.com/apple-vision-pro-revealed-at-wwdc/">Apple Vision Pro revealed at WWDC</a> over at <a href="https://www.provideocoalition.com">ProVideo Coalition</a>.</p>
 <p>Below are some of the relevant highlights for Final Cut Pro editors.</p>
 <p>First up, the new <strong>Mac Pro</strong>:</p>
 <p><img src="https://fcp.cafe/static/wwdc23-macpro.png" alt=""></p>
