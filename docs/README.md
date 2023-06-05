@@ -32,6 +32,10 @@ Here is some of the relevant highlights for Final Cut Pro editors:
 
 ![](../static/wwdc23-macpro-compare.png)
 
+![](../static/wwdc23-macpro-compare-2.png)
+
+![](../static/wwdc23-macpro-compare-3.png)
+
 ![](../static/wwdc23-macpro-pricing-aud.png)
 
 ![](../static/wwdc23-m2ultra.png)
