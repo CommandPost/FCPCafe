@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739247071019">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739248856636">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.2">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.2.739247071019" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.2.739248856636" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.2.739247071019" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.2.739248856636" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.2.739247071019" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.2.739248856636" data-turbo-eval="false" defer></script>
 
     <style>
         .videocontainer {
@@ -497,14 +497,41 @@
 </doc-codeblock></div>
 <p>You can learn more <a href="https://docs.github.com/en/codespaces/the-githubdev-web-based-editor">here</a>.</p>
 <hr />
-<doc-anchor-target id="youtube--vimeo-embeds">
+<doc-anchor-target id="external-links">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#youtube--vimeo-embeds">#</doc-anchor-trigger>
-        <span>YouTube &amp; Vimeo Embeds</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#external-links">#</doc-anchor-trigger>
+        <span>External Links</span>
     </h3>
 </doc-anchor-target>
-<p>To keep that site as fast as possible, and free from tracking/cookies, we&#x27;ve decided not to allow embedded videos.</p>
+<p>All external links should open in a new tab/window.</p>
+<p>The trick is to add <code v-pre>{target=&quot;_blank&quot;}</code> at the end of the link.</p>
+<p>Here&#x27;s an example of how to do this in Markdown:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">[Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target=&quot;_blank&quot;}</code></pre>
+</doc-codeblock></div>
+<hr />
+<doc-anchor-target id="embedded-videos">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#embedded-videos">#</doc-anchor-trigger>
+        <span>Embedded Videos</span>
+    </h3>
+</doc-anchor-target>
+<p>To keep that site as fast as possible, and free from tracking/cookies, we&#x27;ve decided <strong>not</strong> to allow embedded videos.</p>
 <p>Instead, we&#x27;ll be posting the Video Thumbnail as a clickable link to the video.</p>
+<p>Here&#x27;s an example of how this looks in Markdown:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target=&quot;_blank&quot;}</code></pre>
+</doc-codeblock></div>
+<p>You can use <a href="https://youtube-thumbnail-grabber.com" target="_blank">this website</a> for download YouTube Thumbnails.</p>
+<hr />
+<doc-anchor-target id="images">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#images">#</doc-anchor-trigger>
+        <span>Images</span>
+    </h3>
+</doc-anchor-target>
+<p>All images should be stored within the <code v-pre>/docs/static/</code> folder on GitHub.</p>
+<p>You can find it <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/static" target="_blank">here</a>.</p>
 <hr />
 <doc-anchor-target id="github-desktop">
     <h3>
