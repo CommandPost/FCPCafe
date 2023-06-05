@@ -83,7 +83,8 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
                 return `<img src="${src}" alt="${alt}">`;
             })
             .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
-            .replace(/\{target="[^"]*"\}/g, '');
+            .replace(/\{target="[^"]*"\}/g, '')
+            .replace(/{target="_blank"}/g, '');
 
         const url = generateUrl(currentTitle);
 
