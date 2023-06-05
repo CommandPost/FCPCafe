@@ -76,7 +76,12 @@ fs.readFile('docs/README.md', 'utf8', function(err, data) {
         content = md.render(content);
 
         content = content.replace(/{{ include ".*" }}/g, '')
-            .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, '<img src="https://fcp.cafe/$2" alt="$1">')
+            .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, (match, alt, src) => {
+                if (src.startsWith('../')) {
+                    src = `https://fcp.cafe/${src.substring(3)}`;
+                }
+                return `<img src="${src}" alt="${alt}">`;
+            })
             .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
             .replace(/\{target="[^"]*"\}/g, '');
 
