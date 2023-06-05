@@ -10,6 +10,94 @@
 
 ---
 
+### Tuesday 6th June 2023
+
+**BRAW Toolbox v1.1.3** is out now with a re-designed **Relink BRAW Clips within an LIBRARY / EVENT / PROJECT** Toolbox!
+
+You can learn more about the toolbox [here](https://brawtoolbox.io/toolbox/#relink-braw-clips-within-an-library--event--project){target="_blank"}.
+
+You can buy BRAW Toolbox and learn more [here](https://brawtoolbox.io){target="_blank"}.
+
+---
+
+**WWDC** time!
+
+Here's a [17 big & little things at WWDC23](https://developer.apple.com/videos/play/wwdc2023/111486/){target="_blank"}.
+
+Here is some of the relevant highlights for Final Cut Pro editors:
+
+![](../static/wwdc23-macpro.png)
+
+![](../static/wwdc23-macpro-pricing.png)
+
+![](../static/wwdc23-macpro-compare.png)
+
+![](../static/wwdc23-macpro-pricing-aud.png)
+
+![](../static/wwdc23-m2ultra.png)
+
+![](../static/wwdc23-macbook-air.png)
+
+![](../static/wwdc23-macos.png)
+
+You can learn more about the new MacPro [here](https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/){target="_blank"}.
+
+...and introducing **Vision Pro**. It's **USD$3499** coming early next year.
+
+![](../static/wwdc23-vision-pro-1.jpeg)
+
+![](../static/wwdc23-vision-pro-2.jpeg)
+
+![](../static/wwdc23-vision-pro-3.jpeg)
+
+![](../static/wwdc23-vision-pro-4.jpeg)
+
+![](../static/wwdc23-vision-pro-5.jpeg)
+
+![](../static/wwdc23-vision-pro-6.jpeg)
+
+![](../static/wwdc23-vision-pro-7.jpeg)
+
+![](../static/wwdc23-vision-pro-8.jpeg)
+
+DaVinci Resolve will run on Vision Pro out-of-the-box. No word on Final Cut Pro support.
+
+You can learn more about Vision Pro [here](https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/){target="_blank"}.
+
+You can watch the entire WWDC Keynote [here](https://www.apple.com/apple-events/event-stream/){target="_blank"}.
+
+---
+
+**NeoFinder 8.4.1** is out now. This is a bugfix release that contains two fixes for the Smart Folders, and one fix when searching hierarchical keywords.
+
+NeoFinder 8.4.1 is another free update for all customers with a NeoFinder 8.x license.
+
+NeoFinder 8.x is a [paid upgrade](https://www.cdfinder.de/store.html){target="_blank"} for NeoFinder 6.x, NeoFinder 7.x, and CDFinder customers.
+
+![](../static/neofinder-8-4.jpeg)
+
+You can learn more [here](https://fcp.cafe/tools/#neofinder).
+
+---
+
+Purchase a Ninja V, Ninja V+, Shogun Connect, Sumo 19SE or Shogun Studio 2 before the end of June 2023 to receive a FREE Assimilate Play Pro Studio license worth US$299 when registering your product. Existing registered owners quality for an exclusive price of USD$99.
+
+![](../static/assimilate-play-pro-studio.png)
+
+You can learn more [here](http://my.atomos.com){target="_blank"}.
+
+---
+
+Premiere Gal is giving away USD$10,000 worth of Video Gear!
+
+[![](/static/kelsey-promo.jpeg)](https://www.youtube.com/watch?v=7nCISaCgVh4){target="_blank"}
+
+---
+
+{{ include "discuss-todays-news.md" }}
+
+---
+
 ### Monday 5th June 2023
 
 We've added some information from the editor, and lots of Final Cut Pro screenshots to our [Turn of the Tide case study](https://fcp.cafe/casestudies/turnofthetide/). Enjoy!
