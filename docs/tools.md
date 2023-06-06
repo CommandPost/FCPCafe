@@ -49,6 +49,8 @@ Something missing? Submit your favourite tools! [Learn more here!](https://fcp.c
 
 ---
 
+# A
+
 ### Audio Design Desk
 
 Audio Design Desk is to audio software what Pro Tools was to the tape machine. It’s an entirely new breed of Digital Audio Workstation that artists can play like an instrument, revolutionizing the process of adding music and sound effects to picture and cutting down what can typically be a full day project to just a few minutes. It comes bundled with 75,000 sounds embedded with patent-pending Sonic Intelligence™, using AI-assisted content creation tools to enable filmmakers, sound designers, composers, and creators to produce cinema-quality compositions at the speed of thought, giving them a level of creative control that is unmatched by any other software.
@@ -56,6 +58,8 @@ Audio Design Desk is to audio software what Pro Tools was to the tape machine. I
 [!button text="Visit Website" target="blank" variant="info"](https://add.app)
 
 ---
+
+# B
 
 ### BeatMark Pro
 
@@ -72,6 +76,8 @@ _Chris Hocking - 3rd June 2023_
 [!button text="Visit Website" target="blank" variant="info"](https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/)
 
 ---
+
+# C
 
 ### Canister
 
@@ -229,6 +235,8 @@ As someone who doesn’t like clicking to do things, CommandPost makes my work m
 
 ---
 
+# D
+
 ### Detail: Video Studio
 
 Record, remix, and share inspiring video in minutes. Supports exporting to FCPXML.
@@ -263,6 +271,8 @@ One simple app. Everything you need.
 [!button text="Visit on Mac App Store" target="blank" variant="info"](https://apps.apple.com/us/app/detail-video-studio/id6443923358?mt=12)
 
 ---
+
+# E
 
 ### EditingTools.io
 
@@ -317,6 +327,8 @@ Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/edl-x/id539666579?mt=12)
 
 ---
+
+# F
 
 ### FCP Cut Finder
 
@@ -411,6 +423,8 @@ Resources for [Support](https://support.fxfactory.com){target="_blank"} & [Devel
 
 ---
 
+# M
+
 ### Media Copy 4.0
 
 Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
@@ -418,6 +432,8 @@ Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF expo
 [!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
 
 ---
+
+# N
 
 ### NeoFinder
 
@@ -447,6 +463,8 @@ _Chris Hocking - 6th June 2023_
 
 ---
 
+# O
+
 ### OffShoot (formally Hedge)
 
 Offload media lightning fast, whether it's video, stills or audio. Make your life easy and let Hedge do the tedious jobs.
@@ -462,6 +480,8 @@ _Chris Hocking - 3rd June 2023_
 [!button text="Visit Website" target="blank" variant="info"](https://hedge.video/hedge)
 
 ---
+
+# P
 
 ### PostLab
 
@@ -531,6 +551,8 @@ Reports can be further processed in your spreadsheet application for formatting 
 
 ---
 
+# S
+
 ### ScopeBox
 
 All the audio & video scopes you'd expect from hardware, and many many more. A custom toolset crafted for creative professionals - colorists, editors, DITs, and sound. Mix and match scopes, save layouts, and be confident that you're seeing every pixel and every frame of your signal.
@@ -587,6 +609,8 @@ Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.a
 
 ---
 
+# T
+
 ### Transfer Toolbox
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
@@ -605,6 +629,8 @@ Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
 ---
 
+# U
+
 ### Ulti.Media Converter 2
 
 The Swiss army knife for transcoding, workflow and multimedia file management.
@@ -612,6 +638,8 @@ The Swiss army knife for transcoding, workflow and multimedia file management.
 [!button text="Visit Website" target="blank" variant="info"](https://ulti.media/converter/)
 
 ---
+
+# X
 
 ### X2Pro
 
