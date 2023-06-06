@@ -16,3 +16,4 @@
         async>
 </script>
 -->
+_We've temporarily disabled the page Discussions & Reactions until [this is fixed](https://github.com/retypeapp/retype/issues/556){target="_blank"}._

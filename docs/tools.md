@@ -49,9 +49,9 @@ Something missing? Submit your favourite tools! [Learn more here!](https://fcp.c
 
 ---
 
-# A
+### A
 
-### Audio Design Desk
+#### Audio Design Desk
 
 Audio Design Desk is to audio software what Pro Tools was to the tape machine. It’s an entirely new breed of Digital Audio Workstation that artists can play like an instrument, revolutionizing the process of adding music and sound effects to picture and cutting down what can typically be a full day project to just a few minutes. It comes bundled with 75,000 sounds embedded with patent-pending Sonic Intelligence™, using AI-assisted content creation tools to enable filmmakers, sound designers, composers, and creators to produce cinema-quality compositions at the speed of thought, giving them a level of creative control that is unmatched by any other software.
 
@@ -59,9 +59,9 @@ Audio Design Desk is to audio software what Pro Tools was to the tape machine. I
 
 ---
 
-# B
+### B
 
-### BeatMark Pro
+#### BeatMark Pro
 
 Automatic Music-Driven Video Editing for Final Cut Pro.
 
@@ -77,9 +77,9 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
-# C
+### C
 
-### Canister
+#### Canister
 
 **Canister** takes the hassle out of LTO.
 
@@ -94,7 +94,7 @@ _Keenan J. Mock, LightIron_
 
 ---
 
-### Caption Burner
+#### Caption Burner
 
 Caption Burner is a plugin for Final Cut Pro, Premiere Pro, After Effects and Motion that lets you burn captions and subtitles into your video.
 
@@ -106,7 +106,7 @@ Caption Burner helps deliver video for platforms such as Instagram® that do not
 
 ---
 
-### Caption Converter
+#### Caption Converter
 
 Caption Converter is an app for macOS that lets you import, export, edit and translate caption and subtitle information in the following formats: iTunes Timed Text (iTT), WebVTT (VTT), SubRip (SRT), SubViewer (SUB), Adobe Encore Script and Adobe Premiere Pro Markers (CSV).
 
@@ -116,7 +116,7 @@ Caption Converter is an app for macOS that lets you import, export, edit and tra
 
 ---
 
-### Change List X
+#### Change List X
 
 Finally, you reached picture lock and send the project off so the sound department can start work. Which they do. Except a week or two later, there’s just “a few minor changes when the director took another pass”…
 
@@ -143,45 +143,45 @@ The Change List is the step-by-step instructions to convert the current project 
 
 ---
 
-### Cinecred
+#### Cinecred
 
 Create beautiful film credits without the pain.
 
 Licensed under the GPLv3, everyone can use Cinecred free of charge forever. The source code is publicly available in a GitHub Repository. Contributions, bug reports, and suggestions are welcome!
 
-#### Use Your Favorite Spreadsheet Editor
+##### Use Your Favorite Spreadsheet Editor
 
 Cinecred can read the raw credits data from a Credits.xls(x) (Microsoft Excel), Credits.ods (OpenOffice/LibreOffice Calc), or Credits.csv file. Edit it with your preferred spreadsheet tool, integrating perfectly with the rest of your production workflow. Need to add a credit or fix a typo later on? Just change the spreadsheet!
 
-#### Live Visualization
+##### Live Visualization
 
 While editing the credits data and its styling, Cinecred continually updates an interactive visual preview and indicates any problems with the Credits file. Optional layout guides (press the red button in the screenshot) make both learning Cinecred and styling your credits dead easy.
 
-#### Interactive Styling
+##### Interactive Styling
 
 All the styling options Cinecred provides might seem overwhelming at first. But the interactive nature of Cinecred—including contextual input, live application of changes, and easy reverts—make it intuitive and fun to play around with different settings and thereby explore and learn Cinecred’s styling system. In addition, a comprehensive User Guide is readily available.
 
-#### Get Started Immediately
+##### Get Started Immediately
 
 Cinecred initializes new projects with a template that covers many common use cases. Start entering your credits straightaway and learn how to further customize them as you go.
 
-#### Flexible Design
+##### Flexible Design
 
 In addition to standard use cases, Cinecred’s flexible styling system enables a wide range of layouts and designs. Whatever you have in mind, Cinecred can likely assist you in implementing it.
 
-#### Your Desired Runtime
+##### Your Desired Runtime
 
 Have to add another name, but the score has already been recorded and synced to the earlier version? Just tell Cinecred the desired runtime of the whole credits or specific sections, and it will shrink vertical gaps to exactly match it—without resorting to shimmer-prone fractional scroll speeds. Test it yourself and press the red button in the screenshot!
 
-#### Play Back at Any Time
+##### Play Back at Any Time
 
 Want to watch your credits in motion to verify your latest changes? Just like your favorite editing suite, Cinecred offers instant real-time playback at any time. No need to wait for your credits to render out. Also supported are the JKL shuttle keys.
 
-#### Manifold Delivery Options
+##### Manifold Delivery Options
 
 Does your post-production workflow require ProRes, PNG sequences, or even TIFFs which you animate yourself? Do you want to send around PDFs of the credits for checks? No matter what the need, Cinecred probably has you covered. Expand the red dropdown in the screenshot to see all supported formats.
 
-#### Cinecred Is Not Opinionated
+##### Cinecred Is Not Opinionated
 
 Cinecred was specifically designed to cater to every user’s needs as fully as possible, without adding bloat, making it hard to use, or requiring a steep learning curve.
 
@@ -189,7 +189,7 @@ Cinecred was specifically designed to cater to every user’s needs as fully as 
 
 ---
 
-### Cleanterview
+#### Cleanterview
 
 Cleanterview helps you to clean up effectively and efficiently the audio track of your videos, ideal for interviews, for video-selfie, for any occasion when there is someone talking and… you want to hear it and make it sound better!
 
@@ -197,7 +197,7 @@ Cleanterview helps you to clean up effectively and efficiently the audio track o
 
 ---
 
-### CommandPost
+#### CommandPost
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html){target="_blank"}.
 
@@ -215,7 +215,7 @@ It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](htt
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html){target="_blank"} and [Episode #43](http://fcpradio.com/episodes/episode043.html){target="_blank"}.
 
-#### User Reviews
+##### User Reviews
 
 :::review
 {{ include "five-stars.md" }}
@@ -235,9 +235,9 @@ As someone who doesn’t like clicking to do things, CommandPost makes my work m
 
 ---
 
-# D
+### D
 
-### Detail: Video Studio
+#### Detail: Video Studio
 
 Record, remix, and share inspiring video in minutes. Supports exporting to FCPXML.
 
@@ -272,9 +272,9 @@ One simple app. Everything you need.
 
 ---
 
-# E
+### E
 
-### EditingTools.io
+#### EditingTools.io
 
 **EditingTools.io** is a collection of web-based generators, scripts and converters designed for various post-production purposes. Optimized for workflows with Adobe Premiere Pro, Avid Media Composer, DaVinci Resolve and Apple Final Cut Pro X.
 
@@ -284,7 +284,7 @@ It's an AMAZING website that you should definitely check out.
 
 ---
 
-### EditReady
+#### EditReady
 
 Since 2008, EditReady has had your back when your NLE doesn’t support your camera’s file format. And now, we're turning it up a notch with EditReady Pro!
 
@@ -300,7 +300,7 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
-### EDL-X
+#### EDL-X
 
 Create Edit Decision Lists - EDLs - from Final Cut Pro X XML files. The EDLs can conform to the CMX 3600 standard and can be used to bring your cut into post production systems like DaVinci Resolve, Smoke, as well as various non-linear editing systems.
 
@@ -328,9 +328,9 @@ Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.
 
 ---
 
-# F
+### F
 
-### FCP Cut Finder
+#### FCP Cut Finder
 
 **FCP Cut Finder** analyzes a movie and identifies cut and editing points, then sends the result to Final Cut Pro.
 
@@ -338,7 +338,7 @@ Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.
 
 ---
 
-### FCP Diet 2
+#### FCP Diet 2
 
 **FCP Diet 2** is the most innovative, powerful and effective solution for managing projects and save space with Final Cut Pro libraries.
 
@@ -346,7 +346,7 @@ Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.
 
 ---
 
-### FCP SRT Importer 2
+#### FCP SRT Importer 2
 
 Import subtitles in SRT format as titles in Final Cut Pro.
 
@@ -362,7 +362,7 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
-### FCP Video Tag
+#### FCP Video Tag
 
 **FCP Video Tag** automatically generates keywords based on media content to be used in Final Cut Pro.
 
@@ -370,7 +370,7 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
-### FCPX AutoDuck
+#### FCPX AutoDuck
 
 Automatic Ducking for Final Cut Pro X.
 
@@ -386,7 +386,7 @@ _Rick Untanee_
 
 ---
 
-### Final Cut Library Manager
+#### Final Cut Library Manager
 
 Final Cut Library Manager instantly displays all of the Final Cut Pro X libraries that it finds on your Spotlight-indexed drives. When a Library references external media Final Cut Library Manager will automatically create a group to clearly present the distribution of these media files across your system. You can also add other sources : including external disks, or folders, including those not indexed by spotlight.
 
@@ -396,7 +396,7 @@ Final Cut Library Manager instantly displays all of the Final Cut Pro X librarie
 
 ---
 
-### FoolCat
+#### FoolCat
 
 Beautiful, customizable, and easily shareable camera reports.
 
@@ -410,7 +410,7 @@ _Philip Grossman_
 
 ---
 
-### FxFactory
+#### FxFactory
 
 Expand your abilities with a wide supply of effects, plug-ins & templates for Final Cut Pro & Motion.
 Explore your creativity using free watermarked trials. Fully functional testing gives you confidence to purchase products that fit your needs.
@@ -423,9 +423,9 @@ Resources for [Support](https://support.fxfactory.com){target="_blank"} & [Devel
 
 ---
 
-# M
+### M
 
-### Media Copy 4.0
+#### Media Copy 4.0
 
 Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
 
@@ -433,9 +433,9 @@ Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF expo
 
 ---
 
-# N
+### N
 
-### NeoFinder
+#### NeoFinder
 
 **NeoFinder** (formally CDFinder) quickly catalogs and manages your entire media and disk library, and your backup archive.
 
@@ -463,9 +463,9 @@ _Chris Hocking - 6th June 2023_
 
 ---
 
-# O
+### O
 
-### OffShoot (formally Hedge)
+#### OffShoot (formally Hedge)
 
 Offload media lightning fast, whether it's video, stills or audio. Make your life easy and let Hedge do the tedious jobs.
 
@@ -481,9 +481,9 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
-# P
+### P
 
-### PostLab
+#### PostLab
 
 Collaborating with other editors was never this easy.
 
@@ -491,7 +491,7 @@ Collaborating with other editors was never this easy.
 
 ---
 
-### Producer’s Best Friend
+#### Producer’s Best Friend
 
 Eliminate Clip Reporting hell! Every Report you need from Final Cut Pro X, in a formatted spreadsheet with no EDL or copy and paste!
 
@@ -551,9 +551,9 @@ Reports can be further processed in your spreadsheet application for formatting 
 
 ---
 
-# S
+### S
 
-### ScopeBox
+#### ScopeBox
 
 All the audio & video scopes you'd expect from hardware, and many many more. A custom toolset crafted for creative professionals - colorists, editors, DITs, and sound. Mix and match scopes, save layouts, and be confident that you're seeing every pixel and every frame of your signal.
 
@@ -561,7 +561,7 @@ All the audio & video scopes you'd expect from hardware, and many many more. A c
 
 ---
 
-### SendToX
+#### SendToX
 
 SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.
 
@@ -569,7 +569,7 @@ SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 
 
 ---
 
-### Smart Video Splitter
+#### Smart Video Splitter
 
 Smart Video Splitter is the perfect app for those who create professional or semi-professional stories with videos on social networks like Instagram, Facebook, Whatsapp and Snapchat.
 
@@ -577,7 +577,7 @@ Smart Video Splitter is the perfect app for those who create professional or sem
 
 ---
 
-### Subtitles Extractor
+#### Subtitles Extractor
 
 Subtitles Extractor allows you to extract subtitles from movies where they are “printed” (i.e. not on a separate track) and export them to SRT format.
 
@@ -585,7 +585,7 @@ Subtitles Extractor allows you to extract subtitles from movies where they are �
 
 ---
 
-### Sync-N-Link X
+#### Sync-N-Link X
 
 “AutoSync” for Final Cut Pro X: batch sync dual-system sound using jam-synced SMPTE/EBU timecode.
 
@@ -609,9 +609,9 @@ Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.a
 
 ---
 
-# T
+### T
 
-### Transfer Toolbox
+#### Transfer Toolbox
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
 
@@ -629,9 +629,9 @@ Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
 ---
 
-# U
+### U
 
-### Ulti.Media Converter 2
+#### Ulti.Media Converter 2
 
 The Swiss army knife for transcoding, workflow and multimedia file management.
 
@@ -639,9 +639,9 @@ The Swiss army knife for transcoding, workflow and multimedia file management.
 
 ---
 
-# X
+### X
 
-### X2Pro
+#### X2Pro
 
 Move your Final Cut Pro X projects to the audio suite simply and quickly. X2Pro Audio Convert takes your FCP X XML and creates an AAF with embedded or referenced audio media which Avid Pro Tools can open as a session, delivering seamless integration between the two applications..
 
@@ -675,7 +675,7 @@ X2Pro uses Marquis Media Highway technology to integrate FCP X into the establis
 
 ---
 
-### Ximport AE
+#### Ximport AE
 
 Ximport AE is a powerful After Effects plug-in that imports XML files from Final Cut Pro. This plug-in offers the most complete workflow for translating a timeline from Final Cut Pro to Adobe After Effects.
 
@@ -685,7 +685,7 @@ Watch the QuickStart video at the right to get an introduction to Ximport AE. It
 
 ---
 
-### Xsend Motion
+#### Xsend Motion
 
 The missing piece between Final Cut Pro and Motion 5: Xsend Motion from Automatic Duck.
 
@@ -702,7 +702,7 @@ Xsend Motion integrates with the Final Cut Pro Share menu as well as with XML ex
 
 ---
 
-### XtoCC
+#### XtoCC
 
 The all-in-one tool to move a Final Cut Pro X Event or Project to Premiere Pro, After Effects, Audition, FCP 7 and beyond!
 
@@ -731,14 +731,3 @@ Requirements:
 ---
 
 {{ include "giscus.md" }}
-
-
-
-
-
-
-
-
-
-
-
