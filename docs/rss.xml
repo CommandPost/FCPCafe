@@ -4,8 +4,40 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 06 Jun 2023 20:39:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jun 2023 20:55:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Wednesday 7th June 2023]]></title>
+            <description><![CDATA[<p><strong>To My Father</strong> is a Short Documentary Film edited in Final Cut Pro that premieres this week at the Tribeca Film Festival in New York City.</p>
+<p>The movie depicts Deaf actor Troy Kotsur's journey to winning an Oscar and his father's inspiring influence on him, despite a tragic accident.</p>
+<p>Troy previously won the Best Supporting Actor Oscar for his role in Apple TV’s <strong>CODA</strong>.</p>
+<p><strong>Josh Meyers</strong>, the film’s editor, had previously presented this project as a work in progress as part of his Keynote Presentation at the 2022 FCPX Summit in Austin, Texas.</p>
+<p>Josh and the team at Emergent Order Foundation has truly enjoyed collaborating with Troy and hope people can come out to support the film if you’re in town!</p>
+<h4>Screening</h4>
+<p><strong>To My Father</strong> will be screening 4 times at the festival as part of the Shorts program.</p>
+<blockquote>
+<p>Thursday June 8th @ 8:15pm
+Friday June 9th @ 2:30pm
+Wednesday June 14th @ 6:00pm
+Saturday June 17th @ 3:30pm</p>
+</blockquote>
+<p>There's more information on the <a href="https://tribecafilm.com/films/to-my-father-2023">Tribeca Schedule and Tickets Page</a>.</p>
+<p>It is also available for streaming with the <a href="https://tribecafilm.com/festival/tickets#at-home-passes">Tribeca At Home</a> pass.</p>
+<h4>Credits</h4>
+<p><strong>Director:</strong> Sean Schiavolin
+<strong>Producers:</strong> John Papola, Troy Kotsur, Justin Bergeron
+<strong>Screenwriter:</strong> Sean Schiavolin
+<strong>Cinematographer:</strong> Brody Carmichael
+<strong>Editor:</strong> Josh Meyers
+<strong>Composer:</strong> Hanan Townshend
+<strong>Associate Producer:</strong> Jessi Bennett</p>
+<h4>Trailer</h4>
+<p><a href="https://www.youtube.com/watch?v=P4hfBbDvgVY"><img src="/static/to-my-father.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#wednesday-7th-june-2023</link>
+            <guid isPermaLink="false">Wednesday 7th June 2023</guid>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Tuesday 6th June 2023]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox v1.1.3</strong> is out now with a re-designed <strong>Relink BRAW Clips within an LIBRARY / EVENT / PROJECT</strong> Toolbox!</p>
