@@ -74,8 +74,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase origin main;
           if [[ $(git status --porcelain) ]]; then
-            git pull --rebase origin main;
             git add docs/rss.xml
             git commit -m "Update rss.xml"
             git push
