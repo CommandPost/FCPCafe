@@ -125,6 +125,8 @@ It's **USD$3499** and "available early next year in the U.S".
 
 DaVinci Resolve will run on Vision Pro out-of-the-box. No word yet on Final Cut Pro support.
 
+![](../static/resolve-on-vision-pro.png)
+
 You can learn more about Vision Pro [here](https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/){target="_blank"}.
 
 You can watch the entire WWDC Keynote [here](https://www.apple.com/apple-events/event-stream/){target="_blank"}.
