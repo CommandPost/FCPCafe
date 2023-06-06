@@ -26,9 +26,9 @@ Josh and the team at Emergent Order Foundation has truly enjoyed collaborating w
 
 **To My Father** will be screening 4 times at the festival as part of the Shorts program.
 
-> Thursday June 8th @ 8:15pm
-> Friday June 9th @ 2:30pm
-> Wednesday June 14th @ 6:00pm
+> Thursday June 8th @ 8:15pm<br />
+> Friday June 9th @ 2:30pm<br />
+> Wednesday June 14th @ 6:00pm<br />
 > Saturday June 17th @ 3:30pm
 
 There's more information on the [Tribeca Schedule and Tickets Page](https://tribecafilm.com/films/to-my-father-2023).
