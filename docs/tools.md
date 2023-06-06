@@ -1,4 +1,5 @@
 <!--
+ARC-X
 Audio Design Desk
 BeatMark Pro
 Canister
@@ -21,6 +22,7 @@ Final Cut Library Manager
 FoolCat
 FxFactory
 Media Copy 4.0
+Media Sync Tool
 NeoFinder
 OffShoot
 PostLab
@@ -50,6 +52,29 @@ Something missing? Submit your favourite tools! [Learn more here!](https://fcp.c
 ---
 
 ## A
+
+### ARC-X
+
+ARC-X safely archives your Final Cut Pro X projects and backs up all the elements in your edit including:
+- video and audio media files
+- graphics and still image files
+- fonts
+- 3rd-party plugins
+
+Easy Media Backup
+Backing up your FCPX events, projects, and clips is quick and easy. Drag and drop your project directly into ARC-X and start the backup. ARC-X gives you complete control over exactly which files to backup. Archive any combination of your project's video, audio, and graphics files - even the fonts and 3rd-party plugins used in your edit can be archived.
+
+Simple, One-Step Restore
+When it's time to revise or restart your edit, restoring your a project is a simple one-step process. Import the ARC-X generated XML file into FCPX and your project is restored to its original state in seconds including titles, effects, transitions, keyword, and markers.
+
+Powerful Media Management
+Use the ARC-X media inventory spreadsheet to track your project's media files, fonts, and 3rd-party plugins. The Excel-compatible file gives you detailed info on every piece of media including its original FCPX storage location.
+
+Whether you want to protect your projects and media by archiving them for long-term storage or share them today with colorists, FX designers, and other editors, ARC-X makes it a simple and easy process. Your keywords, markers, titles, effects, fonts, and 3rd-party plugins are all preserved.
+
+[!button text="Visit Website" target="blank" variant="info"](https://edit-tools.com/arc-x.html)
+
+---
 
 ### Audio Design Desk
 
@@ -232,6 +257,16 @@ As someone who doesn’t like clicking to do things, CommandPost makes my work m
 :::
 
 [!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
+
+---
+
+### Csv to Motn Generator
+
+A batch program for Apple Motion. For generating a lot of motion files based on a template. Perfect for bumpers, conference intros, supers(lower 3rd), commercial spots (end posters or the whole thing), graduation yearbooks, information videos or even use it at the house of worship for bible texts.
+
+Input is taken from a CSV file, with all the names and info. Drop it on CSV to motion generator and drop a motion project into it as well, now set up the patching of fields and choose your output folder. Csv to Motn Generator now starts to output one .motn file per line (row) from the CSV file.
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.htjelta.com/csv-to-motn/)
 
 ---
 
@@ -430,6 +465,20 @@ Resources for [Support](https://support.fxfactory.com){target="_blank"} & [Devel
 Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
 
 [!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
+
+---
+
+### Media Sync Tool
+
+Media Sync Tool is a revolutionary sync tool for Final Cut Pro.
+
+By utilizing jam-synced SMPTE timecode and metadata from the source media, it automates the sync process to the point where almost no human involvement is required, while automatically dealing with overlapped timecode.
+
+Now all Final Cut Pro video editors can fully eliminate the time-consuming routine of manually syncing dailies by using Media Sync Tool in a bundle with Final Cut Pro.
+
+[![](/static/media-sync-tool.jpg)](https://www.youtube.com/watch?v=-nBBhmwfj88){target="_blank"}
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/id1559556642?mt=12)
 
 ---
 

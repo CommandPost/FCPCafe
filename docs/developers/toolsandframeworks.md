@@ -1,5 +1,6 @@
 <!--
 FxCore
+FxKit
 MarkersExtractor CLI
 OpenTimelineIO
 Pipeline
@@ -11,6 +12,8 @@ This section of the site is dedicated third party developer tools and frameworks
 
 ---
 
+## F
+
 ### FxCore
 
 **FxCore** is a node-based compositing engine inspired by Quartz Composer and designed for the demanding workloads of visual effects hosted by video applications.
@@ -20,6 +23,16 @@ FxCore powers the most advanced products you see in FxFactory, providing Metal G
 [!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/fxcore/)
 
 ---
+
+### FxKit
+
+A Swift implementation of FxCore plugins for Final Cut Pro and Apple Motion
+
+[!button text="View on GitHub" target="blank" variant="info"](https://github.com/jslinker/FxKit)
+
+---
+
+## M
 
 ### MarkersExtractor CLI
 
@@ -37,6 +50,8 @@ Spearheaded by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target
 
 ---
 
+## O
+
 ### OpenTimelineIO
 
 OpenTimelineIO is an interchange format and API for editorial cut information. OTIO contains information about the order and length of cuts and references to external media. It is not however, a container format for media.
@@ -49,6 +64,8 @@ The project also supports an official python binding, which is intended to be an
 
 ---
 
+## P
+
 ### Pipeline
 
 **Pipeline** is a Swift framework for working with FCPXML files easily.
@@ -58,6 +75,8 @@ However, it hasn't been updated since June 2019.
 [!button text="View on GitHub" target="blank" variant="info"](https://github.com/reuelk/pipeline)
 
 ---
+
+## T
 
 ### TimecodeKit
 
