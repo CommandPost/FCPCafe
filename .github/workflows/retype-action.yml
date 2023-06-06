@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add docs/_includes/*; git commit -m "Update wishlists"; git push)
+          git diff --quiet && git diff --staged --quiet || (git pull --rebase origin main; git add docs/_includes/*; git commit -m "Update wishlists"; git push)
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
@@ -75,6 +75,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           if [[ $(git status --porcelain) ]]; then
+            git pull --rebase origin main;
             git add docs/rss.xml
             git commit -m "Update rss.xml"
             git push
