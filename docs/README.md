@@ -1,9 +1,5 @@
 {{ include "latest-news-logo.md" }}
-<!--
 
-[![](/static/XXX.jpeg)](XXX){target="_blank"}
-
--->
 # Latest News
 
 **FCP Cafe is a technical community for professional Final Cut Pro editors.**
