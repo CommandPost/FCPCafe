@@ -21,6 +21,7 @@ Final Cut Library Manager
 FoolCat
 FxFactory
 Media Copy 4.0
+Media Sync Tool
 NeoFinder
 OffShoot
 PostLab
@@ -235,6 +236,16 @@ As someone who doesn’t like clicking to do things, CommandPost makes my work m
 
 ---
 
+### Csv to Motn Generator
+
+A batch program for Apple Motion. For generating a lot of motion files based on a template. Perfect for bumpers, conference intros, supers(lower 3rd), commercial spots (end posters or the whole thing), graduation yearbooks, information videos or even use it at the house of worship for bible texts.
+
+Input is taken from a CSV file, with all the names and info. Drop it on CSV to motion generator and drop a motion project into it as well, now set up the patching of fields and choose your output folder. Csv to Motn Generator now starts to output one .motn file per line (row) from the CSV file.
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.htjelta.com/csv-to-motn/)
+
+---
+
 ## D
 
 ### Detail: Video Studio
@@ -430,6 +441,20 @@ Resources for [Support](https://support.fxfactory.com){target="_blank"} & [Devel
 Automatic Duck’s Media Copy is a very helpful utility that reads Avid AAF exports or XML files from Final Cut Pro, then copies the media files referenced by the project to a location you specify. This makes it very easy to identify and copy the media you need for a specific AAF or XML File. You can archive the media, or perhaps send to another computer.
 
 [!button text="View on FxFactory" target="blank" variant="info"](https://fxfactory.com/info/mediacopy/)
+
+---
+
+### Media Sync Tool
+
+Media Sync Tool is a revolutionary sync tool for Final Cut Pro.
+
+By utilizing jam-synced SMPTE timecode and metadata from the source media, it automates the sync process to the point where almost no human involvement is required, while automatically dealing with overlapped timecode.
+
+Now all Final Cut Pro video editors can fully eliminate the time-consuming routine of manually syncing dailies by using Media Sync Tool in a bundle with Final Cut Pro.
+
+[![](/static/caption-burner.jpg)](https://www.youtube.com/watch?v=-nBBhmwfj88){target="_blank"}
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/id1559556642?mt=12)
 
 ---
 
