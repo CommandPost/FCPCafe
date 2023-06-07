@@ -32,25 +32,31 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/issues_to_md.js
+        run: node .github/scripts/generate-bug-tracker.js
 
       - name: Generate Wish List Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/issues_to_wishlist.js
+        run: node .github/scripts/generate-wishlist.js
 
       - name: Generate Workflow Extensions Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/update_workflow_extensions.js
+        run: node .github/scripts/generate-workflow-extensions.js
 
       - name: Generate Tools Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/update_tools.js
+        run: node .github/scripts/generate-tools.js
+
+      - name: Generate Latest News Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-latest-news.js
 
       - name: Commit and push if it's necessary
         run: |
@@ -87,7 +93,7 @@ jobs:
         run: npm install rss markdown-it feedparser deep-equal glob
 
       - name: Generate RSS Feed
-        run: node .github/scripts/generate_rss.js
+        run: node .github/scripts/generate-rss.js
 
       - name: Commit and push if it's necessary
         run: |
