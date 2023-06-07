@@ -89,6 +89,8 @@ jobs:
             git add docs/rss.xml
             git commit -m "Update rss.xml"
             git push
+          else
+            echo "No changes to commit"
           fi
 
   publish:
