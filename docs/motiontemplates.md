@@ -10,7 +10,7 @@ Create with a wide range of great video effects at [FxFactory](https://fxfactory
 
 ---
 
-{{ include "motion-templates" }}
+{{ include "generated-motion-templates" }}
 
 ---
 

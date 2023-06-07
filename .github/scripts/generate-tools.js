@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/tools');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/tools.md');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-tools.md');
 
 try {
     fs.readdir(directoryPath, function (err, files) {

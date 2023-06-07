@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/motion-templates');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/motion-templates.md');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-motion-templates.md');
 
 try {
     fs.readdir(directoryPath, function (err, files) {

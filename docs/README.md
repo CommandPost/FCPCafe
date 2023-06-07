@@ -9,16 +9,9 @@
 {{ include "rss-buttons" }}
 
 ---
-{{ include "advertise-banner" }}
-{{ include "sponsors/cut-daily" }}
-{{ include "sponsors/transfer-toolbox" }}
-{{ include "sponsors/recall-toolbox" }}
 
-{{ include "advertise-banner" }}
-
+{{ include "generated-latest-news" }}
 
 ---
 
 {{ include "advertise-banner" }}
-
----
