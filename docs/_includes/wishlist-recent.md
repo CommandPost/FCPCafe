@@ -1,3 +1,4 @@
+- [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138){target="_blank"}
 - [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117){target="_blank"}
 - [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116){target="_blank"}
 - [Customisable Match Color & Balance Color Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/115){target="_blank"}
