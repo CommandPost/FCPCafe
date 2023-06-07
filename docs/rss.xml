@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 06 Jun 2023 21:29:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jun 2023 23:55:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Wednesday 7th June 2023]]></title>
@@ -82,6 +82,7 @@ Saturday June 17th @ 3:30pm</p>
 <p><img src="https://fcp.cafe/static/wwdc23-vision-pro-7.jpeg" alt=""></p>
 <p><img src="https://fcp.cafe/static/wwdc23-vision-pro-8.jpeg" alt=""></p>
 <p>DaVinci Resolve will run on Vision Pro out-of-the-box. No word yet on Final Cut Pro support.</p>
+<p><img src="https://fcp.cafe/static/resolve-on-vision-pro.png" alt=""></p>
 <p>You can learn more about Vision Pro <a href="https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/">here</a>.</p>
 <p>You can watch the entire WWDC Keynote <a href="https://www.apple.com/apple-events/event-stream/">here</a>.</p>
 ]]></description>
