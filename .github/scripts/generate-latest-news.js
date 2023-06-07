@@ -28,11 +28,11 @@ try {
 
             // Update the year and month headers if needed
             if (year !== currentYear) {
-                outputContent += `## ${year}\n`;
+                outputContent += `# ${year}\n`;
                 currentYear = year;
             }
             if (month !== currentMonth) {
-                outputContent += `### ${month}\n\n`;
+                outputContent += `## ${month}\n\n`;
                 currentMonth = month;
             }
 
