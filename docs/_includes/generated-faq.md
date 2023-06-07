@@ -1,4 +1,4 @@
-## #
+## C
 
 {{ include "faq/4k-8k-editing" }}
 
@@ -24,6 +24,11 @@
 
 ---
 
+
+---
+
+## D
+
 {{ include "faq/multicam" }}
 
 ---
@@ -31,6 +36,11 @@
 {{ include "faq/vr-360" }}
 
 ---
+
+
+---
+
+## H
 
 {{ include "faq/backup" }}
 
@@ -80,6 +90,11 @@
 
 ---
 
+
+---
+
+## I
+
 {{ include "faq/windows" }}
 
 ---
@@ -87,6 +102,11 @@
 {{ include "faq/trial" }}
 
 ---
+
+
+---
+
+## W
 
 {{ include "faq/key-features" }}
 
