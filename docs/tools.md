@@ -91,7 +91,7 @@ Audio Design Desk is to audio software what Pro Tools was to the tape machine. I
 Automatic Music-Driven Video Editing for Final Cut Pro.
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 This software is awesome. Beautifully built, and incredibly useful.
 
@@ -222,41 +222,7 @@ Cleanterview helps you to clean up effectively and efficiently the audio track o
 
 ---
 
-### CommandPost
-
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html){target="_blank"}.
-
-It’s been downloaded over [163 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}, and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"} in our [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
-
-It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy){target="_blank"}.
-
-It’s used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
-
-For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
-
-Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
-
-It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"}.
-
-You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html){target="_blank"} and [Episode #43](http://fcpradio.com/episodes/episode043.html){target="_blank"}.
-
-#### User Reviews
-
-:::review
-{{ include "five-stars.md" }}
-
-CommandPost and FCP are so intertwined on my day to day that I see them as one app.<br />
-[_Marcos Castiel BFE_](http://www.marcoscastiel.com){target="_blank"}
-:::
-
-:::review
-{{ include "five-stars.md" }}
-
-As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable.<br />
-[_Oli Frost_](https://olifro.st){target="_blank"}
-:::
-
-[!button text="Visit Website" target="blank" variant="info"](https://commandpost.io)
+{{ include "tools/commandpost" }}
 
 ---
 
@@ -324,7 +290,7 @@ It's an AMAZING website that you should definitely check out.
 Since 2008, EditReady has had your back when your NLE doesn’t support your camera’s file format. And now, we're turning it up a notch with EditReady Pro!
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 I've been using EditReady for years. It's super fast. Very clean, and logical app. Almost perfect.
 
@@ -386,7 +352,7 @@ Drag and drop XML files to create EDLs, or drag projects directly out of FCP 10.
 Import subtitles in SRT format as titles in Final Cut Pro.
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 This is my preferred tool for importing SRT files into Final Cut Pro. Works great - beautifully designed software.
 
@@ -410,7 +376,7 @@ _Chris Hocking - 3rd June 2023_
 Automatic Ducking for Final Cut Pro X.
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 I used to duck audio by hand. Sometimes it took me hours. Now just 5 seconds!
 
@@ -499,7 +465,7 @@ Catalog your digital data: SSD, hard disks (internal, external, USB, FireWire, T
 Find your files NOW! Whatever you need to find, NeoFinder knows where it is! If you are a desktop user, or work in a small or large network, you stay in control of your data at any time.
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 I've been using NeoFinder for over a decade now. We have hundreds of external hard drives and hundreds of LTOs all catalogued.
 
@@ -519,7 +485,7 @@ _Chris Hocking - 6th June 2023_
 Offload media lightning fast, whether it's video, stills or audio. Make your life easy and let Hedge do the tedious jobs.
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 I've been using Hedge since it first came out. It's my preferred data wrangling tool. I've used it on feature films, television shows, television commercials, music videos, and everything in-between. It's awesome.
 
@@ -660,21 +626,7 @@ Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.a
 
 ## T
 
-### Transfer Toolbox
-
-Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
-
-You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
-
-You should ensure your library only has a single event, and all project timecode starts at 00:00:00:00.
-
-All Motion Content and Media should be contained within the Library.
-
-If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
-
-Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
-
-[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
+{{ include "tools/transfer-toolbox" }}
 
 ---
 
@@ -777,6 +729,4 @@ Requirements:
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/xtocc/id487899517?mt=12)
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

@@ -62,6 +62,4 @@ Token                                                       | Description
 Want to update any of the above? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

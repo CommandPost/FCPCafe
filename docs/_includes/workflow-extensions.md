@@ -1,0 +1,16 @@
+- [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117){target="_blank"}
+- [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116){target="_blank"}
+- [Customisable Match Color & Balance Color Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/115){target="_blank"}
+- [Adjustable Storyline Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/114){target="_blank"}
+- [Native Blackmagic RAW Support (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/113){target="_blank"}
+- [Pasteboard Manager & Pasteboard History (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/112){target="_blank"}
+- [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111){target="_blank"}
+- [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107){target="_blank"}
+- [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106){target="_blank"}
+- [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104){target="_blank"}
+- [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103){target="_blank"}
+- [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102){target="_blank"}
+- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101){target="_blank"}
+- [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89){target="_blank"}
+- [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85){target="_blank"}
+- [Reveal in Browser with detached Audio/Video (May 19, 2022)](https://github.com/CommandPost/FCPCafe/issues/78){target="_blank"}

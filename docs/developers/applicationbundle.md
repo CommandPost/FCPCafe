@@ -12,7 +12,7 @@ The content on this page is quite out-dated, and doesn't take into account Final
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
 ---
 
@@ -424,6 +424,4 @@ I believe filenames that say "SimpleMode" refer to iMovie.
 
 I think this is the Framework that communicates with AV Foundations, CoreMedia, and handles video decoding, codecs, etc.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

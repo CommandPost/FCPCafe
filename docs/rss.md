@@ -95,6 +95,4 @@ Keep control of your news reading with Reeder, RSS reader and read later client 
 Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

@@ -40,8 +40,6 @@ Run by the amazing [Felipe Baez](https://cre8ivebeast.com){target="_blank"}.
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

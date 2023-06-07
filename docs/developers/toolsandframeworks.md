@@ -88,8 +88,6 @@ Timecode is a standard for representing video frames and used for video burn-in 
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

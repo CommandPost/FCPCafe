@@ -16,7 +16,7 @@ In general, whenever posting a new bug/issue to GitHub, we also submit feedback 
 
 Here's a list of the **30 most recently added** Final Cut Pro 10.6.6 bug reports:
 
-{{ include "bugtracker-latest.md" }}
+{{ include "bugtracker-latest" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
@@ -26,7 +26,7 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
-{{ include "bugtracker-reactions.md" }}
+{{ include "bugtracker-reactions" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
@@ -36,7 +36,7 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 
-{{ include "bugtracker-recent.md" }}
+{{ include "bugtracker-recent" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 

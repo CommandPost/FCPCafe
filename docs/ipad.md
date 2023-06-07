@@ -42,8 +42,6 @@ Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

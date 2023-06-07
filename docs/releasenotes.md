@@ -4,7 +4,7 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
 ---
 
@@ -1284,6 +1284,4 @@ Export AVC-Intra files
 - Fixes an issue in which custom ICC colour profiles affected the image in the Viewer.
 - Improves the performance and reliability of automatic saving.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

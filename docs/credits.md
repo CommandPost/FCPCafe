@@ -18,6 +18,4 @@ LateNite is an independent production studio committed to investing in emerging 
 
 Chris has been working in the entertainment industry for over two decades. Previously the Post Production Supervisor at Melbourne's award winning editing house The Butchery, and finishing house The Refinery, Chris has an incredibly strong and varied technical and business background, ensuring that each production makes use of the best and most relevant technology and workflows. He is the creator of the open source macOS application, CommandPost, which has been downloaded over 165K times - as well as a suite of Final Cut Pro tools on the macOS App Store. His producing credits include the SBS2 series The Wizards of Aus, the Fairy Tale unit on Foxtel mini series Lambs of God, and the ABC ME project The Legend of Burnout Barry. Chris is a member of SPA, ASE and is an Adobe Certified Expert.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

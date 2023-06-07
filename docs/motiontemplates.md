@@ -94,7 +94,7 @@ Visual effect plugins and apps for video creators. FxFactory is THE App Store fo
 [!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com)
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 FxFactory is THE App Store for Final Cut Pro Professionals. It's like a "pro" version of the Apple App Store. The team behind it are also INCREDIBLE - so smart, so lovely, so talented.
 
@@ -116,7 +116,7 @@ They also make the BEST Final Cut Pro template and plugins in the world.
 [!button text="Visit Website" target="blank" variant="info"](https://www.motionvfx.com)
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 MotionVFX are incredible. They make some of the most amazing templates and plugin, taking into account ANY app. I've purchased hundreds of their plugins over the years, and they're all rock solid. A+
 
@@ -143,8 +143,6 @@ The last adjustment layer enables a very popular trick: punching in and out smoo
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

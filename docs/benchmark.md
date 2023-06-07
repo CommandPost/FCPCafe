@@ -24,6 +24,4 @@ Also included in the Final Cut Pro library is a video file explaining how to rep
 
 You can download [here](https://www.dropbox.com/scl/fo/an3rsn9y2q3fni2dfr4ld/h?dl=0&rlkey=th249p50ssvhn7oxzb9iifr77){target="_blank"}.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

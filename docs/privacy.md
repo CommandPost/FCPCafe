@@ -48,6 +48,4 @@ You can check the change history of this privacy policy [here](https://github.co
 
 Please contact us with any questions: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

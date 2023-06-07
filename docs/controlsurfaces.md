@@ -61,6 +61,4 @@ In the future, he plans to add support for:
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/){target="_blank"}
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414){target="_blank"}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

@@ -83,7 +83,7 @@ A comprehensive, best-practice guide from Apple Certified Trainer Iain Anderson.
 #### User Reviews
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 This book rocks!
 
@@ -93,7 +93,7 @@ _[Jason Mark Williams](https://www.amazon.com/gp/profile/amzn1.account.AH3XA7QZT
 :::
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 An amazing guide through FCPX, for both novices and experienced editors.
 
@@ -109,7 +109,7 @@ _[M. Yanovich](https://www.amazon.com/gp/profile/amzn1.account.AFIP4EGME4RW43GZB
 :::
 
 :::review
-{{ include "five-stars.md" }}
+{{ include "five-stars" }}
 
 Exactly as described. Excellent Book.
 
@@ -234,8 +234,6 @@ Make better movies and have fun making them using iJustine Teaches Final Cut Pro
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

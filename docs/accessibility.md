@@ -33,6 +33,4 @@ Here's an amazing video of **Christopher Hills** using Final Cut Pro on iPad usi
 
 [![](/static/christopher-hills-ipad.jpg)](https://www.youtube.com/watch?v=wXxY2ti-HZ8){target="_blank"}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

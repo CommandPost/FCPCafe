@@ -57,7 +57,7 @@ This page is dedicated to answering the most common questions about Apple's Fina
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
 ---
 
@@ -429,8 +429,6 @@ You can find lots of great resources on our [Training page](https://fcp.cafe/tra
 
 ---
 
-{{ include "contribute-learn-more.md" }}
+{{ include "contribute-learn-more" }}
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

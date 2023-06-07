@@ -1,7 +1,9 @@
 const fs = require('fs');
+const path = require('path');
 const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
 const FeedParser = require('feedparser');
+const glob = require('glob');
 
 const md = new MarkdownIt({html: true});
 
@@ -54,77 +56,89 @@ const feed = new RSS({
     pubDate: pubDate,
 });
 
-fs.readFile('docs/README.md', 'utf8', function(err, data) {
+const newsDir = path.join(__dirname, 'docs/_includes/news');
+
+// Find all markdown files in newsDir
+glob(newsDir + '/*.md', function(err, files) {
     if (err) {
         console.error(err);
         return;
     }
 
-    const entries = data.split('\n---\n');
-    let currentTitle = '';
-    let currentDate = '';
-
-    for (const entry of entries) {
-        const lines = entry.trim().split('\n');
-
-        if (lines[0].startsWith('### ')) {
-            currentTitle = lines[0].substring(4);
-            currentDate = convertDateToRFC822(currentTitle);
-            lines.shift();
-        }
-
-        if (lines.length === 0 || lines[0].startsWith('{{ include')) {
-            continue;
-        }
-
-        let content = lines.join('\n').trim();
-
-        content = md.render(content);
-
-        content = content.replace(/{{ include ".*" }}/g, '')
-            .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, (match, alt, src) => {
-                if (src.startsWith('../')) {
-                    src = `https://fcp.cafe/${src.substring(3)}`;
-                }
-                return `<img src="${src}" alt="${alt}">`;
-            })
-            .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
-            .replace(/\{target="[^"]*"\}/g, '')
-            .replace(/{target="_blank"}/g, '');
-
-        const url = generateUrl(currentTitle);
-
-        const newEntry = {
-            title: currentTitle,
-            guid: currentTitle,
-            description: content,
-            url: url,
-            date: currentDate
-        };
-
-        const existingEntryIndex = oldFeedItems.findIndex(item => item.guid === newEntry.guid);
-
-        if (existingEntryIndex === -1 || !entriesAreEqual(oldFeedItems[existingEntryIndex], newEntry)) {
-            isContentChanged = true;
-            feed.item(newEntry);
-
-            if (existingEntryIndex !== -1) {
-                oldFeedItems.splice(existingEntryIndex, 1);
+    for (const file of files) {
+        fs.readFile(file, 'utf8', function(err, data) {
+            if (err) {
+                console.error(err);
+                return;
             }
-        }
-    }
 
-    // Add all items in oldFeedItems back into the feed
-    for (const oldItem of oldFeedItems) {
-        feed.item(oldItem);
-    }
+            const entries = data.split('\n---\n');
+            let currentTitle = '';
+            let currentDate = '';
 
-    if (isContentChanged) {
-        let newXMLContent = feed.xml({indent: true});
-        const newLastBuildDate = new Date().toUTCString();
-        newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
-        newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
-        newXMLContent = newXMLContent.replace(/\.\.\/static\//g, 'https://fcp.cafe/static/');
-        fs.writeFileSync('docs/rss.xml', newXMLContent);
+            for (const entry of entries) {
+                const lines = entry.trim().split('\n');
+
+                if (lines[0].startsWith('### ')) {
+                    currentTitle = lines[0].substring(4);
+                    currentDate = convertDateToRFC822(currentTitle);
+                    lines.shift();
+                }
+
+                if (lines.length === 0 || lines[0].startsWith('{{ include')) {
+                    continue;
+                }
+
+                let content = lines.join('\n').trim();
+
+                content = md.render(content);
+
+                content = content.replace(/{{ include ".*" }}/g, '')
+                    .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, (match, alt, src) => {
+                        if (src.startsWith('../')) {
+                            src = `https://fcp.cafe/${src.substring(3)}`;
+                        }
+                        return `<img src="${src}" alt="${alt}">`;
+                    })
+                    .replace(/\[\!button text="([^"]*)" target="([^"]*)" variant="([^"]*)"\]\(([^)]*)\)/g, '<a href="$4">$1</a>')
+                    .replace(/\{target="[^"]*"\}/g, '')
+                    .replace(/{target="_blank"}/g, '');
+
+                const url = generateUrl(currentTitle);
+
+                const newEntry = {
+                    title: currentTitle,
+                    guid: currentTitle,
+                    description: content,
+                    url: url,
+                    date: currentDate
+                };
+
+                const existingEntryIndex = oldFeedItems.findIndex(item => item.guid === newEntry.guid);
+
+                if (existingEntryIndex === -1 || !entriesAreEqual(oldFeedItems[existingEntryIndex], newEntry)) {
+                    isContentChanged = true;
+                    feed.item(newEntry);
+
+                    if (existingEntryIndex !== -1) {
+                        oldFeedItems.splice(existingEntryIndex, 1);
+                    }
+                }
+            }
+        });
     }
 });
+
+// Add all items in oldFeedItems back into the feed
+for (const oldItem of oldFeedItems) {
+    feed.item(oldItem);
+}
+
+if (isContentChanged) {
+    let newXMLContent = feed.xml({indent: true});
+    const newLastBuildDate = new Date().toUTCString();
+    newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
+    newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
+    newXMLContent = newXMLContent.replace(/\.\.\/static\//g, 'https://fcp.cafe/static/');
+    fs.writeFileSync('docs/rss.xml', newXMLContent);
+}

@@ -102,6 +102,4 @@ _Marcos Castiel (Ep's 1, 2, 5 & 7)_
 
 ![](../static/turn-of-the-tide-18.png)
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

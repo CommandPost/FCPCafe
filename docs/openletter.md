@@ -185,6 +185,4 @@ Signed,
 
 PS: This letter is not intended as a criticism of the huge amount of hard work done by the Final Cut team over the years. We are asking Apple to change the policies that they work under.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

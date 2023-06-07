@@ -92,6 +92,4 @@ As of Final Cut Pro 10.3.3, the following parameter's don't seem to be supported
 
 The most useful tool for reading and writing iXML data is the free [Sound Devices Wave Agent](https://www.sounddevices.com/products/accessories/software/wave-agent){target="_blank"}.
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

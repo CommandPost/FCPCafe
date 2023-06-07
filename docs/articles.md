@@ -45,6 +45,4 @@ In the coming weeks we'll update this page with direct links to relevant and use
 - [A Week with the New Mac Studio M1 Ultra and Studio Display (Peter Wiggins - 17 Mar 2022)](https://fcp.co/final-cut-pro/2585-a-week-with-the-new-mac-studio-m1-ultra-and-studio-display)
 - [Why I Switched from Premiere Pro to Final Cut Pro (Peter Wiggins - 15 Mar 2022)](https://fcp.co/final-cut-pro/articles/2584-why-i-switched-from-premiere-pro-to-final-cut-pro)
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}

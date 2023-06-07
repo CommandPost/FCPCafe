@@ -18,7 +18,7 @@ Richard Taylor also maintains a list of [101+ Requests for Final Cut Pro](https:
 
 Here's a list of the **30 most popular** Final Cut Pro feature requests:
 
-{{ include "wishlist-reactions.md" }}
+{{ include "wishlist-reactions" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
@@ -28,7 +28,7 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 
-{{ include "wishlist-recent.md" }}
+{{ include "wishlist-recent" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
@@ -38,6 +38,4 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 Want to contribute? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
 !!!
 
----
-
-{{ include "giscus.md" }}
+{{ include "giscus" }}
