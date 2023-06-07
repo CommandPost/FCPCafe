@@ -216,6 +216,10 @@
 
 ---
 
+{{ include "tools/srt2subtitles" }}
+
+---
+
 {{ include "tools/subtitles-extractor" }}
 
 ---
