@@ -76,6 +76,23 @@ So, in simple terms, **a pull request is a way of proposing changes to a shared 
 
 ---
 
+### Navigating GitHub
+
+To create the fastest website possible, FCP Cafe is what's called a "static site". It just a collection of HTML files in a folder - nothing fancy.
+
+However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions){target="_blank"} to "do stuff" to our markdown files whenever we submit a pull request.
+
+For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
+
+- Looks at all the latest news items and generates an [RSS feed](https://fcp.cafe/rss.xml){target="_blank"}
+- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](https://fcp.cafe/tools/){target="_blank"}
+- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](https://fcp.cafe/motiontemplates/){target="_blank"}
+- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](https://fcp.cafe/workflowextensions/){target="_blank"}
+
+This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
+
+---
+
 ### How to Edit Pages
 
 If you're not already registered with GitHub, [create a free account](https://github.com/join){target="_blank"}.
