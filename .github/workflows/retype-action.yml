@@ -50,7 +50,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/update_tools_md.js
+        run: node .github/scripts/update_tools.js
 
       - name: Commit and push if it's necessary
         run: |
