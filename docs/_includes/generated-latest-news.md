@@ -1,5 +1,5 @@
-## 2023
-### June
+# 2023
+## June
 
 {{ include "news/20230607" }}
 {{ include "discuss-todays-news" }}
@@ -47,7 +47,7 @@
 
 ---
 
-### May
+## May
 
 {{ include "news/20230531" }}
 {{ include "discuss-todays-news" }}
