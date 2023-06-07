@@ -52,6 +52,12 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-tools.js
 
+      - name: Generate Plugins Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-plugins.js
+
       - name: Generate Latest News Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

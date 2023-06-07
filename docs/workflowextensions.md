@@ -13,5 +13,3 @@ Want to contribute or add your Workflow Extension? [Learn more here!](https://fc
 ---
 
 {{ include "generated-workflow-extensions" }}
-
----
