@@ -79,13 +79,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git stash
           git pull --rebase origin main
-          STASHES=$(git stash list)
-          if [[ "$STASHES" != "" ]]; then
-            git stash pop
-          fi
           if [[ $(git status --porcelain) ]]; then
+            git stash
+            STASHES=$(git stash list)
+            if [[ "$STASHES" != "" ]]; then
+              git stash pop
+            fi
             git add docs/rss.xml
             git commit -m "Update rss.xml"
             git push
