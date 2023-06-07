@@ -13,6 +13,10 @@
 
 ## B
 
+{{ include "backups-for-final-cut-pro" }}
+
+---
+
 {{ include "beatmark-pro" }}
 
 ---
@@ -31,6 +35,10 @@
 ---
 
 {{ include "caption-converter" }}
+
+---
+
+{{ include "captionator" }}
 
 ---
 
@@ -120,6 +128,15 @@
 
 ---
 
+## K
+
+{{ include "keyclips" }}
+
+---
+
+
+---
+
 ## M
 
 {{ include "media-copy" }}
@@ -162,6 +179,15 @@
 ---
 
 {{ include "producers-best-friend" }}
+
+---
+
+
+---
+
+## R
+
+{{ include "reference-x" }}
 
 ---
 
