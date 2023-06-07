@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, '../../../docs/_includes/workflow-extensions');
-const outputFile = path.join(__dirname, '../../../docs/_includes/workflow-extensions.md');
+const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/workflow-extensions');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/workflow-extensions.md');
 
 try {
     fs.readdir(directoryPath, function (err, files) {
