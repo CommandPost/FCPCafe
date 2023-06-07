@@ -1,5 +1,7 @@
 ### Media Sync Tool
 
+![Media Sync Tool](../static/ss-media-sync-tool.png)
+
 Media Sync Tool is a revolutionary sync tool for Final Cut Pro.
 
 By utilizing jam-synced SMPTE timecode and metadata from the source media, it automates the sync process to the point where almost no human involvement is required, while automatically dealing with overlapped timecode.
