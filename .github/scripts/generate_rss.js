@@ -3,7 +3,7 @@ const path = require('path');
 const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
 const FeedParser = require('feedparser');
-const glob = require('glob');
+const glob = require('glob').glob;
 
 const md = new MarkdownIt({html: true});
 
