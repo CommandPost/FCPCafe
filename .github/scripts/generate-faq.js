@@ -13,7 +13,7 @@ try {
         // filter out non-markdown files and create an array of objects containing file info
         const fileInfo = files.filter(file => path.extname(file) === '.md').map(file => {
             const content = fs.readFileSync(path.join(directoryPath, file), 'utf-8');
-            const firstLine = content.split('\n')[0];
+            const firstLine = content.split('\n')[0].replace('### ', '');  // remove '### ' prefix
             return { file, firstLine };
         });
 
