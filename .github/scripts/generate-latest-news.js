@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/latest-news.md');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
 
 try {
     fs.readdir(directoryPath, function (err, files) {
