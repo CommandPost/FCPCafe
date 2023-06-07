@@ -13,14 +13,30 @@ try {
         // Filter markdown files and sort in descending order
         const mdFiles = files
             .filter(file => path.extname(file) === '.md')
-            .map(file => file.replace('.md', ''))
             .sort()
-            .reverse()
-            .slice(0, 5);  // take top 5
+            .reverse();
 
         let outputContent = '';
+        let currentYear = '';
+        let currentMonth = '';
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
         mdFiles.forEach((file, index) => {
-            outputContent += `{{ include "news/${file}" }}\n{{ include "discuss-todays-news" }}\n\n---\n\n`;
+            const date = file.replace('.md', '');
+            const year = date.slice(0, 4);
+            const month = monthNames[parseInt(date.slice(4, 6), 10) - 1];
+
+            // Update the year and month headers if needed
+            if (year !== currentYear) {
+                outputContent += `## ${year}\n`;
+                currentYear = year;
+            }
+            if (month !== currentMonth) {
+                outputContent += `### ${month}\n\n`;
+                currentMonth = month;
+            }
+
+            outputContent += `{{ include "news/${date}" }}\n{{ include "discuss-todays-news" }}\n\n---\n\n`;
             if (index < 4) {
                 outputContent += `{{ include "sponsors/sponsor-0${index + 1}" }}\n\n---\n\n`;
             }
