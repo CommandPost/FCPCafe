@@ -11,6 +11,10 @@ try {
         }
 
         let fileContent = '';
+        let lastInitial = '';
+
+        // Sort files array to guarantee alphabetical order
+        files.sort();
 
         files.forEach(function (file) {
             // Ignore if not a markdown file
@@ -18,6 +22,20 @@ try {
 
             // Removing file extension for include command
             const fileNameWithoutExtension = path.parse(file).name;
+
+            // Extract first character of the file name
+            const currentInitial = fileNameWithoutExtension.charAt(0).toUpperCase();
+
+            // If current initial is different from last initial, then add a new section
+            if (currentInitial !== lastInitial) {
+                // Don't add '---' for the first section
+                if (lastInitial !== '') {
+                    fileContent += '\n---\n\n';
+                }
+
+                fileContent += `## ${currentInitial}\n\n`;
+                lastInitial = currentInitial;
+            }
 
             fileContent += `{{ include "${fileNameWithoutExtension}" }}\n\n---\n\n`;
         });
