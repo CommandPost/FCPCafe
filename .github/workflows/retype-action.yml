@@ -46,6 +46,12 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/update_workflow_extensions.js
 
+      - name: Generate Tools Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/update_tools_md.js
+
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
