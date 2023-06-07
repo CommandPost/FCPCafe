@@ -40,6 +40,12 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/issues_to_wishlist.js
 
+      - name: Update Workflow Extensions Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/update_workflow_extensions.js
+
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
@@ -51,11 +57,6 @@ jobs:
         with:
           name: docs
           path: docs/
-
-      - name: Update Workflow Extensions Markdown
-        env:
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/update_workflow_extensions.js
 
   generate_rss:
     runs-on: ubuntu-latest
