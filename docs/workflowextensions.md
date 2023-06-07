@@ -1,3 +1,17 @@
+<!--
+Alteon.io for Final Cut Pro
+BRAW Toolbox
+DAWBridge
+fontAudition-X
+Frame.io
+Gyroflow Toolbox
+Marker Toolbox
+Media Sync Tool
+Reading Is Fundamental!
+Recall Toolbox
+Simon Says Transcription
+Shutterstock for Final Cut Pro
+-->
 # Workflow Extensions
 
 This page contains a collection of the latest Final Cut Pro Workflow Extensions.
@@ -11,6 +25,27 @@ Want to contribute or add your Workflow Extension? [Learn more here!](https://fc
 !!!
 
 ---
+
+## A
+
+### Alteon.io for Final Cut Pro
+
+Designed for content creators, Alteon lets you upload, transcode, share and collaborate on media from a single, universal space.
+
+- Collaborate remotely with secure screener links and automatic proxies
+- Stop shipping drives between collaborators and clients
+- Scale your cloud storage, so you spend less on archived assets
+- Consolidate single-purpose apps into a streamlined workflow
+
+This app contains Alteon’s workflow extension for Final Cut Pro, helping creatives complete an end-to-end workflow—downloading files, syncing with remote collaborators and uploading media—all within Apple’s flagship NLE.
+
+Users can launch the workflow extension within Final Cut Pro to view media files housed in Alteon’s secure cloud storage platform. From there, they can download media files directly from Alteon into Final Cut Pro to start editing immediately. Users can upload entire libraries of media or individual clips by dragging and dropping them right from Final Cut Pro into the Alteon panel.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/alteon-io-for-final-cut-pro/id1641172792?mt=12)
+
+---
+
+## B
 
 ### BRAW Toolbox
 
@@ -117,6 +152,187 @@ _MadMitch1993 – Jan 30, 2023 (Apple App Store Review)_
 
 ---
 
+## D
+
+### DAWBridge
+
+**DAWBridge** is an extension for Final Cut Pro that syncs Logic Pro, Pro Tools and other DAWs to Final Cut Pro. Using the DAW Bridge, cleaning up audio, composing music and mixing become virtually effortless and you never need to leave your favorite video editing software. When you sync your DAW with Final Cut Pro, audio will only play from your DAW so if you'd like your original FCP timeline audio to play as well, export your audio to your DAW using the share menu.
+
+There are a few simple steps to linking Final Cut Pro with your DAW:
+
+1. First, open the DAW Bridge extension in Final Cut Pro
+2. Make sure your timecode settings are the same in both applications:
+3. Project start timecode must match. For example, 01:00:00:00.
+4. Frame rates must match for the timecode to work correctly. Hint: you can drag your Final Cut Pro project into the DAW Bridge window to pull its frame rate.
+5. Match sample rates in your DAW and Final Cut Pro
+6. In your DAW, navigate to the MTC settings and select 'DAW Bridge In'.
+7. In Logic Pro you can find this in the transport or in Synchronization preferences.
+8. In Pro Tools it is under Peripherals → Synchronization
+
+Once your timelines are in sync, your DAW's playhead can control Final Cut Pro's playhead. The DAW Bridge combines the power of your audio and video editors. Imagine what you can do.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/dawbridge/id1620198313?mt=12)
+
+---
+
+## F
+
+### fontAudition-X
+
+A new way to look at fonts! See your text displayed in all your font styles size-by-side. Choose a favorite and then drag & drop your text directly onto the FCP timeline.
+
+Editors have hundreds, even thousands of fonts on their computers. FontAudition makes viewing and managing them easier. And it runs right inside Final Cut Pro.
+
+Enter your text into fontAudition and instantly see it displayed in every font available on your computer. No other font utility gives you such a complete view of your font options or makes it so easy to pick just the right one for your text.
+
+- See the Big Picture of your text displayed in all your computer's font styles in a unique side-by-side display
+- Search for installed fonts by name, family, or description, such as bold, italic, and condensed
+- Quickly sort your favorite fonts into an unlimited number of collections to help keep them organized and ready to use
+- Add or delete fonts to your collections at any time to keep them up-to-date
+- Easy access to every font’s extended characters such as accents and flourishes
+- Simply double-click any font to display it’s extended character set and then copy and paste them into your title
+- FontAudition is written as a Final Cut Pro Workflow Extension which allows it to run inside of Final Cut Pro while you are editing
+- Drag & drop your text from fontAudtion directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
+- Runs natively on both Intel and Apple Silicon Macs
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/fontaudition-x/id1554676357?mt=12)
+
+---
+
+### Frame.io
+
+Introducing the Frame.io workflow extension and Mac menu bar app. A whole new way to create video with your team in Final Cut Pro X, and a faster way to upload, share, and transfer media projects anywhere in the world.
+
+Frame.io is the world’s most popular video review and collaboration platform, used by over 550,000 filmmakers and media pros.
+
+Frame.io in Final Cut Pro X:
+
+- Easily share your timeline or individual clips with your team.
+- Your edits stay organized with automatic version stacking.
+- See the instant your client is reviewing your work—to take action while feedback is still fresh.
+- Get real-time, frame-accurate comments, right in your edit.
+- Your comment markers stay with clips―no matter where you move them.
+- Pull media and comments from Frame.io right into your timeline.
+
+
+Menu bar app:
+
+- Watch folders save you valuable time and allow you to render and upload overnight.
+- Local folder structure is preserved when uploading.
+- Review Page links can be quickly copied from the Recent Uploads tab.
+- Render directly from any of your preferred editing tools.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/frame-io-video-collaboration/id992958444?mt=12)
+
+---
+
+## G
+
+### Gyroflow Toolbox
+
+**Gyroflow Toolbox** allows you to import Gyroflow Projects into Final Cut Pro.
+
+Gyroflow is a free and open source third-party application that can stabilise your video by using motion data from a gyroscope and optionally an accelerometer. Modern cameras record that data internally (GoPro, Sony, Insta360 etc), and Gyroflow stabilizes the captured footage precisely by using them. It can also use gyro data from an external source (eg. from Betaflight blackbox).
+
+Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it within Final Cut Pro as an effect, so you don't have to export a ProRes from Gyroflow!
+
+You can even use this in conjunction with BRAW Toolbox (also on the App Store), to stabilise Blackmagic RAW files!
+
+None of this would be possible without the incredible Gyroflow project and the incredibly help and support from their main developer, AdrianEddy.
+
+#### User Reviews
+
+:::review
+{{ include "five-stars.md" }}
+
+Nice product!
+Thank you Chris!
+
+_NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
+:::
+
+:::
+{{ include "five-stars.md" }}
+
+The Best Way to Stabilize Pro Res RAW
+I record both internally and externally with an Atomos Ninja, on my FX3 with the end goal of delivering HDR. I record internal to capture Gyroscopic data that my FX3 records. This allows me to Use GryoFlow, and Thus GryoFlow Toolbox to stabilize Pro Res RAW footage. This tool has made it possible, and works awesomely. I highly recommend this tool it will help immensely.
+
+_Tydar94 – Jan 27, 2023 (Apple App Store Review)_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://gyroflowtoolbox.io)
+
+---
+
+## M
+
+### Marker Toolbox
+
+**Marker Toolbox** allows you to import Vimeo CSV, Wipster CSV, Dropbox Replay JSON & Email Comments into Apple's Final Cut Pro via a handy Workflow Extension.
+
+You can also OPTIONALLY use OpenAI's ChatGPT to help translate email comments into markers using your own personal OpenAI API key!
+
+If you use Vimeo Review pages or Wipster to share video edits with clients to consolidate feedback, you can simply export a CSV file from Vimeo or Wipster, and drag it into the Workflow Extension to convert the comments into Markers within Final Cut Pro. It's fast and easy!
+
+Dropbox Replay works exactly the same way, except Marker Toolbox will also import any drawn annotations!
+
+Similar to Frame.io's Workflow Extension, the markers come in as a Compound Clip, that you can then "break apart" so that the markers are attached to the clips in your Primary Storyline, meaning that your clients comments stay in the correct position as you make revisions to the edit. For each marker, there's also a title, so that you can easily visually see the comments right in your Viewer - this is great if you need to export an edit with all your client feedback "burnt" into the export.
+
+Replies and the date the comment was added can be included in the Marker names. It also takes "resolved" comments in Vimeo, Wipster & Dropbox Replay, and marks them as "completed" in Final Cut Pro!
+
+You can also easily copy and paste client feedback from emails into the Workflow Extension. In most cases, you can use the "Process Comments Locally" button to use a custom-built algorithm that converts each line of text into a comment. However, you can also the power of OpenAI's ChatGPT to help translate more complicated feedback into markers. You can customise the ChatGPT prompt, and also pick the ChatGPT Model. You supply your own OpenAI API key, giving you full control.
+
+This can be a MASSIVE time saver, as you can simply copy and paste a long list of email comments, and ChatGPT will do the work to convert them into easy-to-read Final Cut Pro markers, that you can then easily navigate via the Timeline Index.
+
+Marker Toolbox requires Final Cut Pro 10.6.5 or later.
+
+#### User Reviews
+
+:::review
+I’ve been absolutely flatout while working in Thailand.
+[Wipsters](https://www.wipster.io){target="_blank"} has been been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io){target="_blank"} can send Wipster notes straight into #fcpx
+
+_Alister Robbie via [Twitter](https://twitter.com/alisterrobbie/status/1664105856475238400)_
+:::
+
+:::review
+{{ include "five-stars.md" }}
+
+Excellent addition to FCP
+This is a great tool. I have my clients make notes on Vimeo, and Marker Toolbox lets me download a .csv of those comments and create markers on the FCP project/timeline at the proper locations, with notes visible and that will follow the clips as I move them. Once downloaded and installed it's easy. Downloading the .csv and running it through Marker Toolbox and adding the Markers to the project/timeline takes less than a minute, then you're ready to go. Really great find!
+
+_Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
+:::
+
+:::review
+{{ include "five-stars.md" }}
+
+Amazing simple
+I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
+
+_Blazy – Apr 6, 2023 (Apple App Store Review)_
+:::
+
+[!button text="Visit Website" target="blank" variant="info"](https://markertoolbox.io)
+
+---
+
+### Media Sync Tool
+
+Media Sync Tool is a revolutionary sync tool for Final Cut Pro.
+
+By utilizing jam-synced SMPTE timecode and metadata from the source media, it automates the sync process to the point where almost no human involvement is required, while automatically dealing with overlapped timecode.
+
+Now all Final Cut Pro video editors can fully eliminate the time-consuming routine of manually syncing dailies by using Media Sync Tool in a bundle with Final Cut Pro.
+
+[![](/static/media-sync-tool.jpg)](https://www.youtube.com/watch?v=-nBBhmwfj88){target="_blank"}
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/id1559556642?mt=12)
+
+---
+
+## R
+
 ### Reading Is Fundamental!
 
 **Reading is Fundamental!** is a versatile, multi-format document reader in a Workflow Extension so you can read documents without leaving Final Cut Pro.
@@ -176,113 +392,7 @@ You can share folders with other iCloud users, and control permissions. For exam
 
 ---
 
-### Marker Toolbox
-
-**Marker Toolbox** allows you to import Vimeo CSV, Wipster CSV, Dropbox Replay JSON & Email Comments into Apple's Final Cut Pro via a handy Workflow Extension.
-
-You can also OPTIONALLY use OpenAI's ChatGPT to help translate email comments into markers using your own personal OpenAI API key!
-
-If you use Vimeo Review pages or Wipster to share video edits with clients to consolidate feedback, you can simply export a CSV file from Vimeo or Wipster, and drag it into the Workflow Extension to convert the comments into Markers within Final Cut Pro. It's fast and easy!
-
-Dropbox Replay works exactly the same way, except Marker Toolbox will also import any drawn annotations!
-
-Similar to Frame.io's Workflow Extension, the markers come in as a Compound Clip, that you can then "break apart" so that the markers are attached to the clips in your Primary Storyline, meaning that your clients comments stay in the correct position as you make revisions to the edit. For each marker, there's also a title, so that you can easily visually see the comments right in your Viewer - this is great if you need to export an edit with all your client feedback "burnt" into the export.
-
-Replies and the date the comment was added can be included in the Marker names. It also takes "resolved" comments in Vimeo, Wipster & Dropbox Replay, and marks them as "completed" in Final Cut Pro!
-
-You can also easily copy and paste client feedback from emails into the Workflow Extension. In most cases, you can use the "Process Comments Locally" button to use a custom-built algorithm that converts each line of text into a comment. However, you can also the power of OpenAI's ChatGPT to help translate more complicated feedback into markers. You can customise the ChatGPT prompt, and also pick the ChatGPT Model. You supply your own OpenAI API key, giving you full control.
-
-This can be a MASSIVE time saver, as you can simply copy and paste a long list of email comments, and ChatGPT will do the work to convert them into easy-to-read Final Cut Pro markers, that you can then easily navigate via the Timeline Index.
-
-Marker Toolbox requires Final Cut Pro 10.6.5 or later.
-
-#### User Reviews
-
-:::review
-I’ve been absolutely flatout while working in Thailand.
-[Wipsters](https://www.wipster.io){target="_blank"} has been been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io){target="_blank"} can send Wipster notes straight into #fcpx
-
-_Alister Robbie via [Twitter](https://twitter.com/alisterrobbie/status/1664105856475238400)_
-:::
-
-:::review
-{{ include "five-stars.md" }}
-
-Excellent addition to FCP
-This is a great tool. I have my clients make notes on Vimeo, and Marker Toolbox lets me download a .csv of those comments and create markers on the FCP project/timeline at the proper locations, with notes visible and that will follow the clips as I move them. Once downloaded and installed it's easy. Downloading the .csv and running it through Marker Toolbox and adding the Markers to the project/timeline takes less than a minute, then you're ready to go. Really great find!
-
-_Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
-:::
-
-:::review
-{{ include "five-stars.md" }}
-
-Amazing simple
-I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
-
-_Blazy – Apr 6, 2023 (Apple App Store Review)_
-:::
-
-[!button text="Visit Website" target="blank" variant="info"](https://markertoolbox.io)
-
----
-
-### Gyroflow Toolbox
-
-**Gyroflow Toolbox** allows you to import Gyroflow Projects into Final Cut Pro.
-
-Gyroflow is a free and open source third-party application that can stabilise your video by using motion data from a gyroscope and optionally an accelerometer. Modern cameras record that data internally (GoPro, Sony, Insta360 etc), and Gyroflow stabilizes the captured footage precisely by using them. It can also use gyro data from an external source (eg. from Betaflight blackbox).
-
-Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it within Final Cut Pro as an effect, so you don't have to export a ProRes from Gyroflow!
-
-You can even use this in conjunction with BRAW Toolbox (also on the App Store), to stabilise Blackmagic RAW files!
-
-None of this would be possible without the incredible Gyroflow project and the incredibly help and support from their main developer, AdrianEddy.
-
-#### User Reviews
-
-:::review
-{{ include "five-stars.md" }}
-
-Nice product!
-Thank you Chris!
-
-_NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
-:::
-
-:::
-{{ include "five-stars.md" }}
-
-The Best Way to Stabilize Pro Res RAW
-I record both internally and externally with an Atomos Ninja, on my FX3 with the end goal of delivering HDR. I record internal to capture Gyroscopic data that my FX3 records. This allows me to Use GryoFlow, and Thus GryoFlow Toolbox to stabilize Pro Res RAW footage. This tool has made it possible, and works awesomely. I highly recommend this tool it will help immensely.
-
-_Tydar94 – Jan 27, 2023 (Apple App Store Review)_
-:::
-
-[!button text="Visit Website" target="blank" variant="info"](https://gyroflowtoolbox.io)
-
----
-
-### DAWBridge
-
-**DAWBridge** is an extension for Final Cut Pro that syncs Logic Pro, Pro Tools and other DAWs to Final Cut Pro. Using the DAW Bridge, cleaning up audio, composing music and mixing become virtually effortless and you never need to leave your favorite video editing software. When you sync your DAW with Final Cut Pro, audio will only play from your DAW so if you'd like your original FCP timeline audio to play as well, export your audio to your DAW using the share menu.
-
-There are a few simple steps to linking Final Cut Pro with your DAW:
-
-1. First, open the DAW Bridge extension in Final Cut Pro
-2. Make sure your timecode settings are the same in both applications:
-3. Project start timecode must match. For example, 01:00:00:00.
-4. Frame rates must match for the timecode to work correctly. Hint: you can drag your Final Cut Pro project into the DAW Bridge window to pull its frame rate.
-5. Match sample rates in your DAW and Final Cut Pro
-6. In your DAW, navigate to the MTC settings and select 'DAW Bridge In'.
-7. In Logic Pro you can find this in the transport or in Synchronization preferences.
-8. In Pro Tools it is under Peripherals → Synchronization
-
-Once your timelines are in sync, your DAW's playhead can control Final Cut Pro's playhead. The DAW Bridge combines the power of your audio and video editors. Imagine what you can do.
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/dawbridge/id1620198313?mt=12)
-
----
+## S
 
 ### Simon Says Transcription
 
@@ -336,72 +446,6 @@ Features:
 - Save and store all your favorite stock assets in one place.
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/shutterstock-for-final-cut-pro/id1435467162?mt=12)
-
----
-
-### Frame.io
-
-Introducing the Frame.io workflow extension and Mac menu bar app. A whole new way to create video with your team in Final Cut Pro X, and a faster way to upload, share, and transfer media projects anywhere in the world.
-
-Frame.io is the world’s most popular video review and collaboration platform, used by over 550,000 filmmakers and media pros.
-
-Frame.io in Final Cut Pro X:
-
-- Easily share your timeline or individual clips with your team.
-- Your edits stay organized with automatic version stacking.
-- See the instant your client is reviewing your work—to take action while feedback is still fresh.
-- Get real-time, frame-accurate comments, right in your edit.
-- Your comment markers stay with clips―no matter where you move them.
-- Pull media and comments from Frame.io right into your timeline.
-
-
-Menu bar app:
-
-- Watch folders save you valuable time and allow you to render and upload overnight.
-- Local folder structure is preserved when uploading.
-- Review Page links can be quickly copied from the Recent Uploads tab.
-- Render directly from any of your preferred editing tools.
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/frame-io-video-collaboration/id992958444?mt=12)
-
----
-
-### Alteon.io for Final Cut Pro
-
-Designed for content creators, Alteon lets you upload, transcode, share and collaborate on media from a single, universal space.
-
-- Collaborate remotely with secure screener links and automatic proxies
-- Stop shipping drives between collaborators and clients
-- Scale your cloud storage, so you spend less on archived assets
-- Consolidate single-purpose apps into a streamlined workflow
-
-This app contains Alteon’s workflow extension for Final Cut Pro, helping creatives complete an end-to-end workflow—downloading files, syncing with remote collaborators and uploading media—all within Apple’s flagship NLE.
-
-Users can launch the workflow extension within Final Cut Pro to view media files housed in Alteon’s secure cloud storage platform. From there, they can download media files directly from Alteon into Final Cut Pro to start editing immediately. Users can upload entire libraries of media or individual clips by dragging and dropping them right from Final Cut Pro into the Alteon panel.
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/alteon-io-for-final-cut-pro/id1641172792?mt=12)
-
----
-
-### fontAudition-X
-
-A new way to look at fonts! See your text displayed in all your font styles size-by-side. Choose a favorite and then drag & drop your text directly onto the FCP timeline.
-
-Editors have hundreds, even thousands of fonts on their computers. FontAudition makes viewing and managing them easier. And it runs right inside Final Cut Pro.
-
-Enter your text into fontAudition and instantly see it displayed in every font available on your computer. No other font utility gives you such a complete view of your font options or makes it so easy to pick just the right one for your text.
-
-- See the Big Picture of your text displayed in all your computer's font styles in a unique side-by-side display
-- Search for installed fonts by name, family, or description, such as bold, italic, and condensed
-- Quickly sort your favorite fonts into an unlimited number of collections to help keep them organized and ready to use
-- Add or delete fonts to your collections at any time to keep them up-to-date
-- Easy access to every font’s extended characters such as accents and flourishes
-- Simply double-click any font to display it’s extended character set and then copy and paste them into your title
-- FontAudition is written as a Final Cut Pro Workflow Extension which allows it to run inside of Final Cut Pro while you are editing
-- Drag & drop your text from fontAudtion directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
-- Runs natively on both Intel and Apple Silicon Macs
-
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/fontaudition-x/id1554676357?mt=12)
 
 ---
 
