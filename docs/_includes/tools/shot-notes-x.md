@@ -1,5 +1,7 @@
 ### Shot Notes X
 
+![Shot Notes X](../static/ss-short-notes-x.png)
+
 Shot Notes X, automatically combines notes from a CSV, ScriptE XML, or Movie Slate XML file with clips from Final Cut Pro X and Adobe Premiere.
 
 Use ScriptE, Movie Slate, or your favorite spreadsheet application to take notes on location or while watching dailies, then use Shot Notes X to bring those notes into Final Cut Pro or Adobe Premiere using the template provided by Shot Notes X. CSV files can also be exported from various on set script supervision applications, or FileMaker Pro.

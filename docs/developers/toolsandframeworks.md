@@ -36,6 +36,8 @@ A Swift implementation of FxCore plugins for Final Cut Pro and Apple Motion
 
 ### MarkersExtractor CLI
 
+![](https://github.com/TheAcharya/MarkersExtractor/blob/main/assets/MarkersExtractorCLI.gif)
+
 MarkersExtractor CLI is Marker metadata extraction and conversion tool for Final Cut Pro. It is both a CLI Tool and an API Library.
 
 Some of the core features include :
@@ -53,6 +55,8 @@ Spearheaded by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target
 ## O
 
 ### OpenTimelineIO
+
+![](https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenTimelineIO/main/docs/_static/OpenTimelineIO%403xDark.png)
 
 OpenTimelineIO is an interchange format and API for editorial cut information. OTIO contains information about the order and length of cuts and references to external media. It is not however, a container format for media.
 
@@ -79,6 +83,8 @@ However, it hasn't been updated since June 2019.
 ## T
 
 ### TimecodeKit
+
+![](https://github.com/orchetect/TimecodeKit/blob/main/Images/timecodekit-banner.png)
 
 The most robust, precise and complete Swift library for working with SMPTE timecode. Supports 22 industry timecode frame rates, including conversions to/from timecode strings and offering timecode-based calculations.
 
