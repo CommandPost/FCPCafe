@@ -34,7 +34,7 @@ To prepare, I read Knut and Sam's [Notion Workflow Guide for FCP on feature and 
 
 I also called the color grading and sound studios to talk about validating my XMLs and AAFs. That workflow test went seamlessly.
 
-The editorial collaboration was made possible by [PostLab](/tools/#postlab), a third-party software tool since FCP does not have native collaboration built-in.
+The editorial collaboration was made possible by [PostLab](/ecosystem/tools/#postlab), a third-party software tool since FCP does not have native collaboration built-in.
 
 We used shared storage and edited seamlessly without technical hiccups.
 
@@ -42,7 +42,7 @@ FCP is so fast that we spent more time focusing on the creative aspect of editin
 
 Our 1st assistant, Maria Ruiz, smoothly handled VFX turnovers and color using FCP's native XML.
 
-For sound turnovers, she used [X2Pro](/tools/#x2pro) to create AAFs, which our sound team praised. Our AAFs were very well organized. We can thank FCP roles feature for that.
+For sound turnovers, she used [X2Pro](/ecosystem/tools/#x2pro) to create AAFs, which our sound team praised. Our AAFs were very well organized. We can thank FCP roles feature for that.
 
 Color was done in Resolve, sound in ProTools.
 

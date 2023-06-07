@@ -28,9 +28,9 @@ If you're interested in collaborating, and helping FCP Cafe grow, here's some id
 - Make sure all your Final Cut Pro bug reports are added to our [Bug Tracker](/bugtracker/).
 - If you've worked on a professional product (feature film, short film, television commercial, television series, etc), consider writing a case study.
 - Add information to our [FAQ](/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
-- Add any missing [Motion Templates](/motiontemplates/), [Tools](/tools/) and [Plugins](/plugins/).
-- Add personalised reviews to any [Motion Templates](/motiontemplates/), [Tools](/tools/) and [Plugins](/plugins/) you use regularly.
-- Expand the [Motion Templates](/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/motiontemplates/#motionvfx), we should also list their best/most useful products.
+- Add any missing [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/).
+- Add personalised reviews to any [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/) you use regularly.
+- Expand the [Motion Templates](/ecosystem/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/ecosystem/motiontemplates/#motionvfx), we should also list their best/most useful products.
 
 ---
 
@@ -87,7 +87,7 @@ For example, each time you make a pull request, our [fancy GitHub Action](https:
 - Looks at all the latest news items and generates an [RSS feed](/rss.xml){target="_blank"}
 - Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](/tools/){target="_blank"}
 - Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](/motiontemplates/){target="_blank"}
-- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/workflowextensions/){target="_blank"}
+- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/ecosystem/workflowextensions/){target="_blank"}
 
 This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 

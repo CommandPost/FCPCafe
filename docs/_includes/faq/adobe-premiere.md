@@ -14,7 +14,7 @@ Final Cut Pro and Adobe Premiere Pro are both powerful, professional-grade video
 
 **Learning Curve**: Both programs have a steep learning curve due to their advanced capabilities, but some users find Final Cut Pro to be more user-friendly initially.
 
-**Support for Formats and Codecs**: Both support a wide range of video formats and codecs, but there may be differences in support for specific formats. For example, you'll need to use a third party solution called [BRAW Toolbox](/workflowextensions/#braw-toolbox) to use BRAW files in Final Cut Pro.
+**Support for Formats and Codecs**: Both support a wide range of video formats and codecs, but there may be differences in support for specific formats. For example, you'll need to use a third party solution called [BRAW Toolbox](/ecosystem/workflowextensions/#braw-toolbox) to use BRAW files in Final Cut Pro.
 
 **Collaboration Features**: Adobe Premiere Pro has a feature called "Team Projects" for cloud-based collaboration between editors. You'll need to use a third party solution like [PostLab](/tools/#postlab) to easily collaborate in Final Cut Pro.
 
