@@ -37,7 +37,7 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "motion-templates/${fileNameWithoutExtension}" }}\n\n---\n\n`;
+            fileContent += `{{ include "camera-formats/${fileNameWithoutExtension}" }}\n\n---\n\n`;
         });
 
         // Remove the last extra line and '---'
