@@ -166,8 +166,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add rss.xml
-          git commit -m "Update rss.xml"
-          git push
+          if git diff --exit-code --staged; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update rss.xml"
+            git push
+          fi
 
       - name: Purge CloudFlare cache
         run: |
