@@ -76,6 +76,12 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-camera-formats.js
 
+      - name: Generate Asset Management Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-asset-management.js
+
       - name: Generate Latest News Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
