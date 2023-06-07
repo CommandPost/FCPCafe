@@ -1,10 +1,12 @@
 <!--
 ARC-X
 Audio Design Desk
+Backups for Final Cut Pro
 BeatMark Pro
 Canister
 Caption Burner
 Caption Converter
+Captionator for Final Cut Pro
 Change List X
 Cinecred
 Cleanterview
@@ -28,6 +30,7 @@ NeoFinder
 OffShoot
 PostLab
 Producer’s Best Friend
+Reference X
 ScopeBox
 SendToX
 Smart Video Splitter
@@ -87,6 +90,18 @@ Audio Design Desk is to audio software what Pro Tools was to the tape machine. I
 
 ## B
 
+### Backups for Final Cut Pro
+
+Ever had an FCP X library corrupted so you can't launch it? Ever gone down an editing path you didn't like and find you can't undo it? Backups for Final Cut Pro will get you out of such situations.
+
+Install it before you need it!
+
+Backups for Final Cut Pro is like Time Machine® for Final Cut Pro X®! It performs timed and manual snapshots of your FCP X Libraries, Projects and Events.
+
+[!button text="Visit Website" target="blank" variant="info"](http://npassociatesllc.com/backupsforfcp/)
+
+---
+
 ### BeatMark Pro
 
 Automatic Music-Driven Video Editing for Final Cut Pro.
@@ -139,6 +154,14 @@ Caption Converter is an app for macOS that lets you import, export, edit and tra
 [![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target="_blank"}
 
 [!button text="Visit Website" target="blank" variant="info"](https://fxfactory.com/info/captionconverter/)
+
+---
+
+### Captionator for Final Cut Pro
+
+Captionator for Final Cut Pro uses the hardware inside your Mac to automatically generate captions and high energy titles like you see on all the biggest YouTube and TikTok videos. You can easily keyframe or animate individual words, or entire sentences.
+
+[!button text="Visit Website" target="blank" variant="info"](https://apps.apple.com/us/app/captionator-for-final-cut/id1627843786?mt=12)
 
 ---
 
@@ -463,7 +486,7 @@ Resources for [Support](https://support.fxfactory.com){target="_blank"} & [Devel
 
 ### KeyClips
 
-[![](/static/caption-burner.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY){target="_blank"}
+[![](/static/keyclips.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY){target="_blank"}
 
 The MovieSlate KeyClips app organizes Final Cut Pro X (FCPX) media into category folders, keywords, selects, and sequences- with notes, markers, and optional bottom-third titles. This helps Editors quickly find the exact footage they need.
 
@@ -482,6 +505,10 @@ How it Works:
 2. Log+Clip Matching. Run the KeyClips app on macos- which imports logged data from MovieSlate; imports fcpxml files from FCPX; matches logs and clips; builds new fcpxml; and sends its new fcpxml to FCPX.
 
 3. FCPX Organizing. FCPX imports the KeyClips app's new fcpxml file- creating events with category folders, selects, markers, notes, sequences, and bottom-third titles.
+
+[!button text="Keyword Logging Overview" target="blank" variant="info"](https://www.youtube.com/watch?v=hPuhPrlg_4c)
+
+[!button text="Organization + Editing Overview" target="blank" variant="info"](https://www.youtube.com/watch?v=BkGWW-OX1O4)
 
 [!button text="Visit Website" target="blank" variant="info"](http://www.movie-slate.com/KeyClips/)
 
@@ -556,6 +583,16 @@ _Chris Hocking - 3rd June 2023_
 :::
 
 [!button text="Visit Website" target="blank" variant="info"](https://hedge.video/hedge)
+
+---
+
+## R
+
+### Reference X
+
+Reference X is designed for FCPXML file. Listing source files from FCPXML, edit and export to new FCPXML. FCPXML is exported from Apple Final Cut Pro, Blackmagic DaVinci Resolve, Autodesk Flame, Luma touch Luma Fusion. FCPXML is simple xml formate for send and recived Final Cut Pro editing information designed by Apple.
+
+[!button text="Visit Website" target="blank" variant="info"](http://www.tokyocode.io/index.html)
 
 ---
 
