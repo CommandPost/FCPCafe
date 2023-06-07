@@ -37,7 +37,7 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "${fileNameWithoutExtension}" }}\n\n---\n\n`;
+            fileContent += `{{ include "workflow-extensions/${fileNameWithoutExtension}" }}\n\n---\n\n`;
         });
 
         // Remove the last extra line and '---'
