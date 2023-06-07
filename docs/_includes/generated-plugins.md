@@ -1,4 +1,4 @@
 ## C
 
-{{ include "coremelt" }}
+{{ include "plugins/coremelt" }}
 

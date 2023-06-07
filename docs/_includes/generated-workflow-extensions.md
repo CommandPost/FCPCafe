@@ -1,6 +1,6 @@
 ## A
 
-{{ include "alteon" }}
+{{ include "workflow-extensions/alteon" }}
 
 ---
 
@@ -9,7 +9,7 @@
 
 ## B
 
-{{ include "braw-toolbox" }}
+{{ include "workflow-extensions/braw-toolbox" }}
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## D
 
-{{ include "dawbridge" }}
+{{ include "workflow-extensions/dawbridge" }}
 
 ---
 
@@ -27,11 +27,11 @@
 
 ## F
 
-{{ include "fontauditionx" }}
+{{ include "workflow-extensions/fontauditionx" }}
 
 ---
 
-{{ include "frameio" }}
+{{ include "workflow-extensions/frameio" }}
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## G
 
-{{ include "gyroflow-toolbox" }}
+{{ include "workflow-extensions/gyroflow-toolbox" }}
 
 ---
 
@@ -49,7 +49,7 @@
 
 ## M
 
-{{ include "marker-toolbox" }}
+{{ include "workflow-extensions/marker-toolbox" }}
 
 ---
 
@@ -58,11 +58,11 @@
 
 ## R
 
-{{ include "reading-is-fundamental" }}
+{{ include "workflow-extensions/reading-is-fundamental" }}
 
 ---
 
-{{ include "recall-toolbox" }}
+{{ include "workflow-extensions/recall-toolbox" }}
 
 ---
 
@@ -71,9 +71,9 @@
 
 ## S
 
-{{ include "shutterstock" }}
+{{ include "workflow-extensions/shutterstock" }}
 
 ---
 
-{{ include "simon-says" }}
+{{ include "workflow-extensions/simon-says" }}
 

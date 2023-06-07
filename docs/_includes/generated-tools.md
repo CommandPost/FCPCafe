@@ -1,10 +1,10 @@
 ## A
 
-{{ include "arcx" }}
+{{ include "tools/arcx" }}
 
 ---
 
-{{ include "audio-design-desk" }}
+{{ include "tools/audio-design-desk" }}
 
 ---
 
@@ -13,11 +13,11 @@
 
 ## B
 
-{{ include "backups-for-final-cut-pro" }}
+{{ include "tools/backups-for-final-cut-pro" }}
 
 ---
 
-{{ include "beatmark-pro" }}
+{{ include "tools/beatmark-pro" }}
 
 ---
 
@@ -26,39 +26,39 @@
 
 ## C
 
-{{ include "canister" }}
+{{ include "tools/canister" }}
 
 ---
 
-{{ include "caption-burner" }}
+{{ include "tools/caption-burner" }}
 
 ---
 
-{{ include "caption-converter" }}
+{{ include "tools/caption-converter" }}
 
 ---
 
-{{ include "captionator" }}
+{{ include "tools/captionator" }}
 
 ---
 
-{{ include "change-list-x" }}
+{{ include "tools/change-list-x" }}
 
 ---
 
-{{ include "cinecred" }}
+{{ include "tools/cinecred" }}
 
 ---
 
-{{ include "cleanterview" }}
+{{ include "tools/cleanterview" }}
 
 ---
 
-{{ include "commandpost" }}
+{{ include "tools/commandpost" }}
 
 ---
 
-{{ include "csv-to-motn-generator" }}
+{{ include "tools/csv-to-motn-generator" }}
 
 ---
 
@@ -67,7 +67,7 @@
 
 ## D
 
-{{ include "detail-video-studio" }}
+{{ include "tools/detail-video-studio" }}
 
 ---
 
@@ -76,15 +76,15 @@
 
 ## E
 
-{{ include "editing-tools-io" }}
+{{ include "tools/editing-tools-io" }}
 
 ---
 
-{{ include "editready" }}
+{{ include "tools/editready" }}
 
 ---
 
-{{ include "edl-x" }}
+{{ include "tools/edl-x" }}
 
 ---
 
@@ -93,35 +93,35 @@
 
 ## F
 
-{{ include "fcp-cut-finder" }}
+{{ include "tools/fcp-cut-finder" }}
 
 ---
 
-{{ include "fcp-diet-2" }}
+{{ include "tools/fcp-diet-2" }}
 
 ---
 
-{{ include "fcp-srt-importer-2" }}
+{{ include "tools/fcp-srt-importer-2" }}
 
 ---
 
-{{ include "fcp-video-tag" }}
+{{ include "tools/fcp-video-tag" }}
 
 ---
 
-{{ include "fcpx-autoduck" }}
+{{ include "tools/fcpx-autoduck" }}
 
 ---
 
-{{ include "final-cut-pro-library-manager" }}
+{{ include "tools/final-cut-pro-library-manager" }}
 
 ---
 
-{{ include "foolcat" }}
+{{ include "tools/foolcat" }}
 
 ---
 
-{{ include "fxfactory" }}
+{{ include "tools/fxfactory" }}
 
 ---
 
@@ -130,7 +130,7 @@
 
 ## K
 
-{{ include "keyclips" }}
+{{ include "tools/keyclips" }}
 
 ---
 
@@ -139,11 +139,11 @@
 
 ## M
 
-{{ include "media-copy" }}
+{{ include "tools/media-copy" }}
 
 ---
 
-{{ include "media-sync-tool" }}
+{{ include "tools/media-sync-tool" }}
 
 ---
 
@@ -152,7 +152,7 @@
 
 ## N
 
-{{ include "neofinder" }}
+{{ include "tools/neofinder" }}
 
 ---
 
@@ -161,7 +161,7 @@
 
 ## O
 
-{{ include "offshoot" }}
+{{ include "tools/offshoot" }}
 
 ---
 
@@ -170,19 +170,19 @@
 
 ## P
 
-{{ include "postlab" }}
+{{ include "tools/postlab" }}
 
 ---
 
-{{ include "postsync" }}
+{{ include "tools/postsync" }}
 
 ---
 
-{{ include "postwatch" }}
+{{ include "tools/postwatch" }}
 
 ---
 
-{{ include "producers-best-friend" }}
+{{ include "tools/producers-best-friend" }}
 
 ---
 
@@ -191,7 +191,7 @@
 
 ## R
 
-{{ include "reference-x" }}
+{{ include "tools/reference-x" }}
 
 ---
 
@@ -200,23 +200,23 @@
 
 ## S
 
-{{ include "scopebox" }}
+{{ include "tools/scopebox" }}
 
 ---
 
-{{ include "sendtox" }}
+{{ include "tools/sendtox" }}
 
 ---
 
-{{ include "smart-video-splitter" }}
+{{ include "tools/smart-video-splitter" }}
 
 ---
 
-{{ include "subtitles-extractor" }}
+{{ include "tools/subtitles-extractor" }}
 
 ---
 
-{{ include "sync-n-link-x" }}
+{{ include "tools/sync-n-link-x" }}
 
 ---
 
@@ -225,7 +225,7 @@
 
 ## T
 
-{{ include "transfer-toolbox" }}
+{{ include "tools/transfer-toolbox" }}
 
 ---
 
@@ -234,7 +234,7 @@
 
 ## U
 
-{{ include "ulti-media-converter-2" }}
+{{ include "tools/ulti-media-converter-2" }}
 
 ---
 
@@ -243,17 +243,17 @@
 
 ## X
 
-{{ include "x2pro" }}
+{{ include "tools/x2pro" }}
 
 ---
 
-{{ include "ximport-ae" }}
+{{ include "tools/ximport-ae" }}
 
 ---
 
-{{ include "xsend-motion" }}
+{{ include "tools/xsend-motion" }}
 
 ---
 
-{{ include "xtocc" }}
+{{ include "tools/xtocc" }}
 
