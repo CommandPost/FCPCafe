@@ -208,7 +208,7 @@
 
 ---
 
-{{ include "tools/shot notes-x" }}
+{{ include "tools/shot-notes-x" }}
 
 ---
 
