@@ -208,6 +208,10 @@
 
 ---
 
+{{ include "tools/shot notes-x" }}
+
+---
+
 {{ include "tools/smart-video-splitter" }}
 
 ---
