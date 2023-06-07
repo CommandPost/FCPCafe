@@ -1,5 +1,7 @@
 ### EditReady
 
+![EditReady](../static/ss-editready.png)
+
 Since 2008, EditReady has had your back when your NLE doesn’t support your camera’s file format. And now, we're turning it up a notch with EditReady Pro!
 
 :::review
