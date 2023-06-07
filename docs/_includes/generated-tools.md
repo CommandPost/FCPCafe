@@ -117,6 +117,10 @@
 
 ---
 
+{{ include "tools/findrcat" }}
+
+---
+
 {{ include "tools/foolcat" }}
 
 ---

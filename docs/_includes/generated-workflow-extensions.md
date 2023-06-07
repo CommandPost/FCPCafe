@@ -53,6 +53,10 @@
 
 ---
 
+{{ include "workflow-extensions/media-sync-tool" }}
+
+---
+
 
 ---
 
