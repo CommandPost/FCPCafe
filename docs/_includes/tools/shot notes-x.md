@@ -10,7 +10,7 @@ Shot Notes X, reduces the amount of work required to start editing, saving time 
 
 Shot Notes X has been a big hit with editors, script supervisors, and post-production supervisors.
 
-[![](/static/media-sync-tool.jpg)](https://www.youtube.com/watch?v=A1Diuxkf8E4){target="_blank"}
+[![](/static/shot notes-x.jpg)](https://www.youtube.com/watch?v=A1Diuxkf8E4){target="_blank"}
 
 Features:
 
