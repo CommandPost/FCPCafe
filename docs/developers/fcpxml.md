@@ -9,5 +9,3 @@ There's a great article called [Demystifying Final Cut Pro XMLs by Philip Hodget
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

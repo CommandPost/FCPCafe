@@ -29,5 +29,3 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 {{ include "tools/transfer-toolbox" }}
 
 ---
-
-{{ include "giscus" }}

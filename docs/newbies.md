@@ -41,5 +41,3 @@ Whether you're doing your own showreel or preparing the files to send to an edit
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

@@ -430,5 +430,3 @@ You can find lots of great resources on our [Training page](https://fcp.cafe/tra
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

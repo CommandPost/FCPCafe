@@ -25,5 +25,3 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

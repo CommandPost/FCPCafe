@@ -15,5 +15,3 @@ Want to contribute or add your Workflow Extension? [Learn more here!](https://fc
 {{ include "workflow-extensions" }}
 
 ---
-
-{{ include "giscus" }}

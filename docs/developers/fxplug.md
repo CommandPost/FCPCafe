@@ -17,5 +17,3 @@ Learn more on [GitHub](https://github.com/jslinker/FxKit){target="_blank"}.
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

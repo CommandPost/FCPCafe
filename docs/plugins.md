@@ -107,4 +107,3 @@ CoreMelt is an Australian owned company founded by **Roger Bolton**, a visual ef
 
 [!button text="Visit Website" target="blank" variant="info"](https://coremelt.com/products/stylex-video-style-transfer-for-fcpx)
 
-{{ include "giscus" }}

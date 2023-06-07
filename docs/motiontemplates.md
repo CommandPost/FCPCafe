@@ -145,4 +145,3 @@ The last adjustment layer enables a very popular trick: punching in and out smoo
 
 {{ include "contribute-learn-more" }}
 
-{{ include "giscus" }}

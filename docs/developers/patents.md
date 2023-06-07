@@ -80,5 +80,3 @@ You can find more by searching by these authors:
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

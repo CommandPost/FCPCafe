@@ -9,5 +9,3 @@ If you want a real-world example of a FxPlug4 application, you can look at [Comm
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}

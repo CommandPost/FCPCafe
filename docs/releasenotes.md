@@ -1283,5 +1283,3 @@ Export AVC-Intra files
 - Improves the quality of video retiming when applying slow motion or when working with interlaced video.
 - Fixes an issue in which custom ICC colour profiles affected the image in the Viewer.
 - Improves the performance and reliability of automatic saving.
-
-{{ include "giscus" }}

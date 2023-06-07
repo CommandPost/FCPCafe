@@ -13,5 +13,3 @@ Something missing? Submit your favourite tools! [Learn more here!](https://fcp.c
 {{ include "tools" }}
 
 ---
-
-{{ include "giscus" }}

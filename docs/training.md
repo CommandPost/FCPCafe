@@ -235,5 +235,3 @@ Make better movies and have fun making them using iJustine Teaches Final Cut Pro
 ---
 
 {{ include "contribute-learn-more" }}
-
-{{ include "giscus" }}
