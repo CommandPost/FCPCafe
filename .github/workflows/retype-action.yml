@@ -50,7 +50,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git pull --rebase origin main; git add docs/_includes/*; git commit -m "Update wishlists"; git push)
+          git diff --quiet && git diff --staged --quiet || (
+            git stash --include-untracked
+            git pull --rebase origin main
+            git stash pop
+            git add docs/_includes/*
+            git commit -m "Update Generated Markdown Files"
+            git push
+          )
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
