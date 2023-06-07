@@ -38,7 +38,7 @@ For applications that need to manage a complex object graph (i.e. Final Cut Pro)
 
 ### DeepSkyLite
 
-Final Cut Pro uses a lot of internal Frameworks, which you can learn more about [here](https://fcp.cafe/developers/applicationbundle/).
+Final Cut Pro uses a lot of internal Frameworks, which you can learn more about [here](/developers/applicationbundle/).
 
 Within the Flexo Framework, is a framework called DeepSkyLite, which is essentially the "database engine" for Final Cut Pro.
 

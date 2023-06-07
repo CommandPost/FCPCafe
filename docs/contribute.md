@@ -24,13 +24,13 @@ However, if you're not confident using GitHub, you can also email us content her
 
 If you're interested in collaborating, and helping FCP Cafe grow, here's some ideas of some of the things you can do:
 
-- Make sure all your Final Cut Pro feature requests are added to our [Wish List](https://fcp.cafe/wishlist/).
-- Make sure all your Final Cut Pro bug reports are added to our [Bug Tracker](https://fcp.cafe/bugtracker/).
+- Make sure all your Final Cut Pro feature requests are added to our [Wish List](/wishlist/).
+- Make sure all your Final Cut Pro bug reports are added to our [Bug Tracker](/bugtracker/).
 - If you've worked on a professional product (feature film, short film, television commercial, television series, etc), consider writing a case study.
-- Add information to our [FAQ](https://fcp.cafe/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
-- Add any missing [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/).
-- Add personalised reviews to any [Motion Templates](https://fcp.cafe/motiontemplates/), [Tools](https://fcp.cafe/tools/) and [Plugins](https://fcp.cafe/plugins/) you use regularly.
-- Expand the [Motion Templates](https://fcp.cafe/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](https://fcp.cafe/motiontemplates/#motionvfx), we should also list their best/most useful products.
+- Add information to our [FAQ](/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
+- Add any missing [Motion Templates](/motiontemplates/), [Tools](/tools/) and [Plugins](/plugins/).
+- Add personalised reviews to any [Motion Templates](/motiontemplates/), [Tools](/tools/) and [Plugins](/plugins/) you use regularly.
+- Expand the [Motion Templates](/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/motiontemplates/#motionvfx), we should also list their best/most useful products.
 
 ---
 
@@ -84,10 +84,10 @@ However, to make sure the website is super easy to update and improve, we use [G
 
 For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
 
-- Looks at all the latest news items and generates an [RSS feed](https://fcp.cafe/rss.xml){target="_blank"}
-- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](https://fcp.cafe/tools/){target="_blank"}
-- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](https://fcp.cafe/motiontemplates/){target="_blank"}
-- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](https://fcp.cafe/workflowextensions/){target="_blank"}
+- Looks at all the latest news items and generates an [RSS feed](/rss.xml){target="_blank"}
+- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](/tools/){target="_blank"}
+- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](/motiontemplates/){target="_blank"}
+- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/workflowextensions/){target="_blank"}
 
 This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
@@ -162,7 +162,7 @@ The trick is to add `{target="_blank"}` at the end of the link.
 Here's an example of how to do this in Markdown:
 
 ```
-[Sync-N-Link](https://fcp.cafe/tools/#sync-n-link-x){target="_blank"}
+[Sync-N-Link](/tools/#sync-n-link-x){target="_blank"}
 ```
 
 ---

@@ -26,15 +26,15 @@ Pedro is an avid user and veteran editor, so I had to break the news to him that
 
 The production company initially resisted the idea of using FCP, and I vented my frustration to fellow editors about the lack of trust in FCP for major projects.
 
-As a group, we even wrote an [open letter](https://fcp.cafe/openletter/) to Apple addressing the issues we sometimes face trying to convince producers to let us edit on FCP.
+As a group, we even wrote an [open letter](/openletter/) to Apple addressing the issues we sometimes face trying to convince producers to let us edit on FCP.
 
 The production company asked for a workflow test, which I confidently agreed to.
 
-To prepare, I read Knut and Sam's [Notion Workflow Guide for FCP on feature and episodic TV](https://fcp.cafe/workflow/#final-cut-pro-workflow-for-feature-films), which I highly recommend to anyone using FCP for fiction.
+To prepare, I read Knut and Sam's [Notion Workflow Guide for FCP on feature and episodic TV](/workflow/#final-cut-pro-workflow-for-feature-films), which I highly recommend to anyone using FCP for fiction.
 
 I also called the color grading and sound studios to talk about validating my XMLs and AAFs. That workflow test went seamlessly.
 
-The editorial collaboration was made possible by [PostLab](https://fcp.cafe/tools/#postlab), a third-party software tool since FCP does not have native collaboration built-in.
+The editorial collaboration was made possible by [PostLab](/tools/#postlab), a third-party software tool since FCP does not have native collaboration built-in.
 
 We used shared storage and edited seamlessly without technical hiccups.
 
@@ -42,7 +42,7 @@ FCP is so fast that we spent more time focusing on the creative aspect of editin
 
 Our 1st assistant, Maria Ruiz, smoothly handled VFX turnovers and color using FCP's native XML.
 
-For sound turnovers, she used [X2Pro](https://fcp.cafe/tools/#x2pro) to create AAFs, which our sound team praised. Our AAFs were very well organized. We can thank FCP roles feature for that.
+For sound turnovers, she used [X2Pro](/tools/#x2pro) to create AAFs, which our sound team praised. Our AAFs were very well organized. We can thank FCP roles feature for that.
 
 Color was done in Resolve, sound in ProTools.
 

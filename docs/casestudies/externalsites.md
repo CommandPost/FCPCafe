@@ -46,5 +46,5 @@ You can find more over at [fcp.co](https://fcp.co){target="_blank"}.
 ---
 
 !!!
-Something missing? Contribute! [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+Something missing? Contribute! [Learn more here!](/contribute/){target="_blank"}
 !!!

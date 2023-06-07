@@ -36,7 +36,7 @@ try {
                 currentMonth = month;
             }
 
-            outputContent += `{{ include "news/${date}" }}\n{{ include "discuss-todays-news" }}\n\n---\n\n`;
+            outputContent += `{{ include "news/${date}" }}\n\n---\n\n{{ include "discuss-todays-news" }}\n\n---\n\n`;
             if (index < 4) {
                 outputContent += `{{ include "sponsors/sponsor-0${index + 1}" }}\n\n---\n\n`;
             }

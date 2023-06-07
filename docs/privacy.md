@@ -8,7 +8,7 @@ When embedding YouTube videos, we always enable the "privacy-enhanced mode" to p
 
 We use [GitHub Pages](https://pages.github.com){target="_blank"} to host and manage this website.
 
-We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues){target="_blank"} to manage our [Bug Tracker](https://fcp.cafe/bugtracker/) & [Wish List](https://fcp.cafe/wishlist/).
+We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues){target="_blank"} to manage our [Bug Tracker](/bugtracker/) & [Wish List](/wishlist/).
 
 We use [GitHub Discussions](https://github.com/CommandPost/FCPCafe/discussions){target="_blank"} to manage the comments and discussions on the site.
 

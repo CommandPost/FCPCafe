@@ -7,7 +7,7 @@ You can use extensions to access features of third-party apps from within Final 
 ---
 
 !!!
-Want to contribute or add your Workflow Extension? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+Want to contribute or add your Workflow Extension? [Learn more here!](/contribute/){target="_blank"}
 !!!
 
 ---

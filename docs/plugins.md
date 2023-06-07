@@ -14,7 +14,7 @@ We're big fans of everything [CoreMelt](https://coremelt.com){target="_blank"} &
 ---
 
 !!!
-Want to contribute or add your Plugin? [Learn more here!](https://fcp.cafe/contribute/){target="_blank"}
+Want to contribute or add your Plugin? [Learn more here!](/contribute/){target="_blank"}
 !!!
 
 ---
