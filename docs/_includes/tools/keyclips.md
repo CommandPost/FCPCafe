@@ -1,6 +1,6 @@
 ### KeyClips
 
-[![](/static/keyclips.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY){target="_blank"}
+![KeyClips](../static/ss-keyclips.png)
 
 The MovieSlate KeyClips app organizes Final Cut Pro X (FCPX) media into category folders, keywords, selects, and sequences- with notes, markers, and optional bottom-third titles. This helps Editors quickly find the exact footage they need.
 
@@ -19,6 +19,8 @@ How it Works:
 2. Log+Clip Matching. Run the KeyClips app on macos- which imports logged data from MovieSlate; imports fcpxml files from FCPX; matches logs and clips; builds new fcpxml; and sends its new fcpxml to FCPX.
 
 3. FCPX Organizing. FCPX imports the KeyClips app's new fcpxml file- creating events with category folders, selects, markers, notes, sequences, and bottom-third titles.
+
+[![](/static/keyclips.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY){target="_blank"}
 
 [!button text="Keyword Logging Overview" target="blank" variant="info"](https://www.youtube.com/watch?v=hPuhPrlg_4c)
 
