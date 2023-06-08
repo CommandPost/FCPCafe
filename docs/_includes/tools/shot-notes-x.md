@@ -1,6 +1,6 @@
 ### Shot Notes X
 
-![Shot Notes X](../static/ss-short-notes-x.png)
+![Shot Notes X](/static/ss-short-notes-x.png)
 
 Shot Notes X, automatically combines notes from a CSV, ScriptE XML, or Movie Slate XML file with clips from Final Cut Pro X and Adobe Premiere.
 
