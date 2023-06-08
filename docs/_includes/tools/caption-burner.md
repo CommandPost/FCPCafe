@@ -1,6 +1,6 @@
 ### Caption Burner
 
-![](https://fxfactory.com/info/captionburner/captions-window.jpg)
+![](/static/captions-window.jpg)
 
 Caption Burner is a plugin for Final Cut Pro, Premiere Pro, After Effects and Motion that lets you burn captions and subtitles into your video.
 
