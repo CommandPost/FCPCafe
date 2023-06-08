@@ -1,12 +1,3 @@
-##  
-
-{{ include "motion-templates/ lenofx" }}
-
----
-
-
----
-
 ## A
 
 {{ include "motion-templates/adjustment-layers" }}
@@ -44,6 +35,15 @@
 ---
 
 {{ include "motion-templates/fxfactory" }}
+
+---
+
+
+---
+
+## L
+
+{{ include "motion-templates/lenofx" }}
 
 ---
 
