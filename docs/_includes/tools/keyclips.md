@@ -1,6 +1,6 @@
 ### KeyClips
 
-![KeyClips](/static/ss-keyclips.png)
+![](/static/ss-keyclips.png)
 
 The MovieSlate KeyClips app organizes Final Cut Pro X (FCPX) media into category folders, keywords, selects, and sequences- with notes, markers, and optional bottom-third titles. This helps Editors quickly find the exact footage they need.
 
