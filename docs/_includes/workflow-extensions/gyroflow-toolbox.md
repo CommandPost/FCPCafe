@@ -21,7 +21,7 @@ Thank you Chris!
 _NarimanGafurov – Feb 6, 2023 (Apple App Store Review)_
 :::
 
-:::
+:::review
 {{ include "five-stars" }}
 
 The Best Way to Stabilize Pro Res RAW
