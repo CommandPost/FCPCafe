@@ -1,8 +1,8 @@
 ### PostSync
 
-More than just sync, PostSync helps prepare your macOS workstation for the daily demands of your post-production workflow.
+![](/static/postsync-header.png)
 
-![](../static/postsync-header.png)
+More than just sync, PostSync helps prepare your macOS workstation for the daily demands of your post-production workflow.
 
 PostSync is a multi-use tool that is designed as a macOS startup utility; syncing templates and presets, clearing caches, connecting shares, launching apps, etc. But it has many uses beyond that…
 
