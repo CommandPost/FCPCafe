@@ -1,6 +1,6 @@
 ### TimecodeKit
 
-![](https://github.com/orchetect/TimecodeKit/blob/3ed67f62b33f180989435bdf7c50734899d21509/Images/timecodekit-banner.png)
+![](/static/timecodekit-banner.png)
 
 The most robust, precise and complete Swift library for working with SMPTE timecode. Supports 22 industry timecode frame rates, including conversions to/from timecode strings and offering timecode-based calculations.
 
