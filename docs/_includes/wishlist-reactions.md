@@ -1,4 +1,5 @@
 - [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102){target="_blank"}
+- [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147){target="_blank"}
 - [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146){target="_blank"}
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138){target="_blank"}
 - [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117){target="_blank"}
