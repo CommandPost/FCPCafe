@@ -1,6 +1,6 @@
 ### PostSync
 
-![](/static/postsync-header.png)
+![](/static/postsync-header.jpeg)
 
 More than just sync, PostSync helps prepare your macOS workstation for the daily demands of your post-production workflow.
 
@@ -16,6 +16,6 @@ All this can be done either manually or completely automatic using a Calendar ev
 
 Your choice… PostSync is built to be easy to setup and very customizable.
 
-![](../static/postsync.png)
+![](/static/postsync.png)
 
 [!button text="Visit Website" target="blank" variant="info"](https://chrisroyfilms.com/postsync/)
