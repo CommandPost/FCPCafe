@@ -25,9 +25,13 @@ THINGS TO ADD (FROM COMMUNITY):
 
 This page is dedicated to answering the most common questions about Apple's Final Cut Pro.
 
+You can use the Search Tool at the top right of this page to search the FAQ.
+
 ---
 
-{{ include "contribute-learn-more" }}
+!!!
+Something missing or have a question? [Learn more here!](/contribute/){target="_blank"}
+!!!
 
 ---
 
@@ -35,4 +39,6 @@ This page is dedicated to answering the most common questions about Apple's Fina
 
 ---
 
-{{ include "contribute-learn-more" }}
+!!!
+Something missing or have a question? [Learn more here!](/contribute/){target="_blank"}
+!!!
