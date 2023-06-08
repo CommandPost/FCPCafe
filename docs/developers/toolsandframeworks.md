@@ -36,7 +36,7 @@ A Swift implementation of FxCore plugins for Final Cut Pro and Apple Motion
 
 ### MarkersExtractor CLI
 
-![](https://github.com/TheAcharya/MarkersExtractor/blob/main/assets/MarkersExtractorCLI.gif)
+![](https://github.com/TheAcharya/MarkersExtractor/blob/9a51a73d6c6945f2b620b6f1a2c20fbe01373905/assets/MarkersExtractorCLI.gif)
 
 MarkersExtractor CLI is Marker metadata extraction and conversion tool for Final Cut Pro. It is both a CLI Tool and an API Library.
 
@@ -84,7 +84,7 @@ However, it hasn't been updated since June 2019.
 
 ### TimecodeKit
 
-![](https://github.com/orchetect/TimecodeKit/blob/main/Images/timecodekit-banner.png)
+![](https://github.com/orchetect/TimecodeKit/blob/3ed67f62b33f180989435bdf7c50734899d21509/Images/timecodekit-banner.png)
 
 The most robust, precise and complete Swift library for working with SMPTE timecode. Supports 22 industry timecode frame rates, including conversions to/from timecode strings and offering timecode-based calculations.
 
