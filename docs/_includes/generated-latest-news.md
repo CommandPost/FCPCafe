@@ -1,7 +1,7 @@
 # 2023
 ## June
 
-{{ include "news/20230608" }}
+{{ include "news/20230609" }}
 
 ---
 
@@ -13,7 +13,7 @@
 
 ---
 
-{{ include "news/20230607" }}
+{{ include "news/20230608" }}
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-{{ include "news/20230606" }}
+{{ include "news/20230607" }}
 
 ---
 
@@ -37,7 +37,7 @@
 
 ---
 
-{{ include "news/20230605" }}
+{{ include "news/20230606" }}
 
 ---
 
@@ -46,6 +46,14 @@
 ---
 
 {{ include "sponsors/sponsor-04" }}
+
+---
+
+{{ include "news/20230605" }}
+
+---
+
+{{ include "discuss-todays-news" }}
 
 ---
 
