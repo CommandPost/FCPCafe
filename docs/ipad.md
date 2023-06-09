@@ -16,6 +16,14 @@ You can find the official Apple Support site [here](https://support.apple.com/fi
 
 ---
 
+### Introducing Final Cut Pro for iPad
+
+The amazing [Iain Anderson](https://iain-anderson.com){target="_blank"} has released a new **free** online training course for **Final Cut Pro for iPad**.
+
+You can learn more [here](https://macprovideo.com/course/introducing-final-cut-pro-for-ipad){target="_blank"}.
+
+---
+
 ### Richard Taylor - FCPX.TV
 
 Richard Taylor has an EPIC list of all the latest iPad videos and articles on [FCPX.TV](https://fcpx.tv/){target="_blank"}.
