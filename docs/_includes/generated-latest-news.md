@@ -1,6 +1,18 @@
 # 2023
 ## June
 
+{{ include "news/20230610" }}
+
+---
+
+{{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
 {{ include "news/20230609" }}
 
 ---
@@ -9,7 +21,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-01" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -21,7 +33,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -33,7 +45,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -45,7 +57,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -57,11 +69,19 @@
 
 ---
 
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
 {{ include "news/20230603" }}
 
 ---
 
 {{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -73,11 +93,19 @@
 
 ---
 
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
 {{ include "news/20230601" }}
 
 ---
 
 {{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -91,11 +119,19 @@
 
 ---
 
+{{ include "sponsors/sponsor-04.md" }}
+
+---
+
 {{ include "news/20230530" }}
 
 ---
 
 {{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -107,11 +143,19 @@
 
 ---
 
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
 {{ include "news/20230528" }}
 
 ---
 
 {{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -123,6 +167,10 @@
 
 ---
 
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
 {{ include "news/20230526" }}
 
 ---
@@ -131,11 +179,19 @@
 
 ---
 
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
 {{ include "news/20230523" }}
 
 ---
 
 {{ include "discuss-todays-news" }}
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
