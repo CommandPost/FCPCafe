@@ -2,9 +2,13 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
+const sponsorsPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
 const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
 
 try {
+    // Read the sponsor files
+    const sponsorFiles = fs.readdirSync(sponsorsPath).filter(file => path.extname(file) === '.md').sort();
+
     fs.readdir(directoryPath, function (err, files) {
         if (err) {
             throw new Error('Unable to scan directory: ' + err);
@@ -20,6 +24,7 @@ try {
         let currentYear = '';
         let currentMonth = '';
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        let sponsorIndex = 0;
 
         mdFiles.forEach((file, index) => {
             const date = file.replace('.md', '');
@@ -37,8 +42,16 @@ try {
             }
 
             outputContent += `{{ include "news/${date}" }}\n\n---\n\n{{ include "discuss-todays-news" }}\n\n---\n\n`;
-            if (index < 4) {
-                outputContent += `{{ include "sponsors/sponsor-0${index + 1}" }}\n\n---\n\n`;
+
+            // Add sponsor
+            if (sponsorFiles.length > 0) {
+                // Always show sponsor-01.md as the first sponsor item, but only once.
+                if (index === 0) {
+                    outputContent += `{{ include "sponsors/${sponsorFiles[0]}" }}\n\n---\n\n`;
+                } else {
+                    sponsorIndex = (sponsorIndex % (sponsorFiles.length - 1)) + 1;
+                    outputContent += `{{ include "sponsors/${sponsorFiles[sponsorIndex]}" }}\n\n---\n\n`;
+                }
             }
         });
 
