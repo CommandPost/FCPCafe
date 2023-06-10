@@ -4,7 +4,7 @@ This page will be dedicated to professional Final Cut Pro Workflows.
 
 ---
 
-### Final Cut Pro Workflow for Feature Films
+## Final Cut Pro Workflow for Feature Films
 
 Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has created an entire Notion page dedicated to Final Cut Pro Workflows for feature films.
 
@@ -12,7 +12,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 ---
 
-### Shot Data
+## Shot Data
 
 [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target="_blank"} has developed a unique workflow with [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} for filmmakers. The workflow uses CommandPost’s Shot Data Toolbox to create a Shot List & Storyboard Database from Final Cut Pro to Notion.
 
@@ -24,7 +24,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 ---
 
-### Titles to Keywords
+## Titles to Keywords
 
 [CommandPost](/ecosystem/tools/#commandpost) has as insanely powerful Toolbox called **Titles to Keywords**.
 
@@ -32,13 +32,13 @@ You can learn more [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused
 
 ---
 
-### Best Practices
+## Best Practices
 
 Apple's Final Cut Pro is a professional-grade, non-linear video editing software widely used for editing feature films, music videos, documentaries, and other forms of digital media. In this post, we will explore the best practices for using Final Cut Pro for long-form feature film editing. This will ensure your workflow is optimized, your output is professional, and your editing process is efficient.
 
 ---
 
-#### Organise Your Workflow
+### Organise Your Workflow
 
 **Create a Sound Workflow Structure**
 
@@ -54,7 +54,7 @@ Final Cut Pro allows users to input and leverage metadata for clips, such as sce
 
 ---
 
-#### Understanding RAM Requirements
+### Understanding RAM Requirements
 
 One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software's RAM requirements. In particular, running FCP on Apple Silicon - Apple's own line of processors - requires careful consideration.
 
@@ -127,7 +127,7 @@ While HDDs may be more cost-effective in terms of raw storage space, the speed, 
 
 ---
 
-#### Storage Locations
+### Storage Locations
 
 To keep library sizes as small as possible (which makes backing them up and sharing them easier), we always recommend keeping your media and cache external to the library.
 
@@ -136,7 +136,7 @@ To keep library sizes as small as possible (which makes backing them up and shar
 
 ---
 
-#### Library Organisation
+### Library Organisation
 
 Each event in Final Cut Pro is it's own Core Data database.
 
@@ -166,7 +166,7 @@ If you're working on a very heavy feature film, your current feature length time
 
 ---
 
-#### Avoid Snapshots
+### Avoid Snapshots
 
 Snapshots are the devil. You're much better off using something like [PostLab](/ecosystem/tools/#postlab).
 
@@ -186,31 +186,31 @@ An overly large Final Cut Pro library can lead to several issues:
 
 ---
 
-#### Edit with Proxy Media
+### Edit with Proxy Media
 
 Long-form editing, particularly at high resolutions (4K, 8K), can be quite demanding on system resources. To ensure a smooth editing experience, Final Cut Pro offers a 'proxy workflow'. This allows you to create lower-resolution versions (proxies) of your footage for editing. Once the editing is complete, you can easily switch back to the original high-resolution files for final output.
 
 ---
 
-#### Use the Magnetic Timeline
+### Use the Magnetic Timeline
 
 The Magnetic Timeline is one of the unique features of Final Cut Pro. It offers a trackless approach to editing, allowing clips to automatically slide into place and avoid clip collisions and sync problems. This is particularly useful in feature film editing, where you may be juggling hundreds or even thousands of clips.
 
 ---
 
-#### Master Your Tools and Shortcuts
+### Master Your Tools and Shortcuts
 
 Final Cut Pro offers a wide range of tools for tasks such as trimming, re-timing, and applying effects. Mastering these tools, along with the keyboard shortcuts for commonly used functions, can significantly speed up your editing process.
 
 ---
 
-#### Leverage Final Cut Pro's Multicam Editing
+### Leverage Final Cut Pro's Multicam Editing
 
 If your film includes footage from multiple cameras, Final Cut Pro's Multicam editing feature can be a major time-saver. It allows you to sync up to **64 angles** of video footage using audio waveforms, timecode, or markers. Once synced, you can cut between angles in real time while watching the multicam viewer.
 
 ---
 
-#### Use Compound Clips and Roles for Organisation & Efficiency
+### Use Compound Clips and Roles for Organisation & Efficiency
 
 Compound Clips allow you to bundle separate clips together into a single clip, which can then be edited as one. This is useful for managing complex sequences or visual effects compositions.
 
@@ -218,13 +218,13 @@ Roles in Final Cut Pro allow you to label and organize different types of audio 
 
 ---
 
-#### Keep Regular Backups
+### Keep Regular Backups
 
 Given the scale and importance of feature film projects, it's essential to keep regular backups of your work. Final Cut Pro's built-in backup tool makes this process easy and automatic.
 
 ----
 
-#### Conclusion
+### Conclusion
 
 Final Cut Pro is a powerful tool for long-form feature film editing, but like any tool, its effectiveness depends on how it's used. By adopting these best practices, you can ensure that your editing process is efficient, your workflow is smooth, and the end result is a feature film of professional quality. Remember, the key to successful film editing is a combination of technical skill, organization, creativity, and storytelling.
 
