@@ -30,6 +30,8 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 You can learn more [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}.
 
+![](../static/toolbox-titles-to-keywords.png)
+
 ---
 
 ## Best Practices
