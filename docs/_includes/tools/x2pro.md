@@ -1,5 +1,7 @@
 ### X2Pro
 
+![](/static/ss-x2pro.png)
+
 Move your Final Cut Pro X projects to the audio suite simply and quickly. X2Pro Audio Convert takes your FCP X XML and creates an AAF with embedded or referenced audio media which Avid Pro Tools can open as a session, delivering seamless integration between the two applications..
 
 X2Pro Audio Convert is a cutting edge conversion application for delivering FCP X projects for audio finishing, it is easy to use directly from within FCP X.

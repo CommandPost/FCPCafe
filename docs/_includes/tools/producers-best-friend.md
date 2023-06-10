@@ -1,5 +1,7 @@
 ### Producer’s Best Friend
 
+![](/static/ss-producer-best-friend.jpg)
+
 Eliminate Clip Reporting hell! Every Report you need from Final Cut Pro X, in a formatted spreadsheet with no EDL or copy and paste!
 
 Producer’s Best Friend creates a formatted .xlsx spreadsheet report (for Numbers, Excel, Preview, etc.) about the video clips, audio clips, titles, generators, markers, keywords, effects and transitions in your timeline or event to help you make batch lists, cut lists and music cue sheets. Producer’s Best Friend reports on Clips in a Library, Event, Compound Clip or Project. The report includes sheets for:
