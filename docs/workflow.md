@@ -40,15 +40,15 @@ Apple's Final Cut Pro is a professional-grade, non-linear video editing software
 
 ### Organise Your Workflow
 
-**Create a Sound Workflow Structure**
+**Create a Sound Workflow Structure:**
 
 Before starting the editing process, it's crucial to establish a well-structured workflow. In the context of long-form feature films, this often involves breaking down your project into scenes or sequences, each with its own dedicated project file within Final Cut Pro. This allows for focused editing and simplifies collaboration, as different editors can work on different scenes simultaneously.
 
-**Consistent Naming Conventions**
+**Consistent Naming Conventions:**
 
 Consistency is key to smooth editing, especially for large projects like feature films. Use consistent naming conventions for your clips, sequences, and projects. This will make it much easier to locate and identify specific assets as your project grows.
 
-**Leverage Metadata**
+**Leverage Metadata:**
 
 Final Cut Pro allows users to input and leverage metadata for clips, such as scene number, shot number, take number, and more. You can also add custom metadata. Using metadata effectively can greatly enhance organization and searchability within your project.
 
@@ -58,8 +58,9 @@ Final Cut Pro allows users to input and leverage metadata for clips, such as sce
 
 One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software's RAM requirements. In particular, running FCP on Apple Silicon - Apple's own line of processors - requires careful consideration.
 
+---
 
-**Apple Silicon and Unified Memory**
+**Apple Silicon and Unified Memory:**
 
 Unlike traditional computer architecture, where the CPU and GPU have separate memory (RAM and VRAM), Apple Silicon uses a unified memory architecture. This means that the CPU and GPU share the same pool of memory. As a result, your RAM has to serve the needs of both processing and graphics tasks.
 
@@ -71,6 +72,7 @@ For long-form feature film editing in Final Cut Pro, this has several implicatio
 
 3. **Importance of choosing the right Mac model**: When buying an Apple Silicon Mac, you can't upgrade the RAM later, unlike with some previous Intel-based Mac models. So, it's important to consider your RAM needs upfront.
 
+---
 
 **How Much RAM Do You Need?**
 
@@ -94,18 +96,21 @@ While the unified memory architecture in Apple Silicon offers advantages such as
 
 In 2023, you should **definitely** be removing slow spinning disks from your workflow entirely.
 
+---
 
-***Choosing the Right Storage for Final Cut Pro: SSDs Over Spinning Disks**
+**Choosing the Right Storage for Final Cut Pro: SSDs Over Spinning Disks:**
 
 An often underappreciated factor that can significantly impact your video editing workflow is the type of storage you use. When it comes to editing in Final Cut Pro, especially long-form feature film editing, opting for a Solid State Drive (SSD) over a traditional Hard Disk Drive (HDD) can make a significant difference.
 
+---
 
-**Understanding HDDs vs SSDs**
+**Understanding HDDs vs SSDs:**
 
 **HDDs**, or hard disk drives, are traditional storage devices that use mechanical, moving parts to read and write data. They are made up of spinning disks, hence the name "spinning disks." HDDs are typically slower and less reliable (due to potential mechanical failure), but they usually offer more storage space for a lower price.
 
 On the other hand, **SSDs**, or solid-state drives, are storage devices that use flash memory (similar to your smartphone or USB thumb drive) to store data. Because there are no moving parts, SSDs are significantly faster and more reliable than HDDs. However, they are also typically more expensive per gigabyte.
 
+---
 
 **The Advantages of SSDs for Final Cut Pro**
 
@@ -114,8 +119,9 @@ On the other hand, **SSDs**, or solid-state drives, are storage devices that use
 3. **Improved Multitasking**: SSDs are better at handling multiple tasks simultaneously, such as playing back multiple video streams, which is common in multicam editing or when working with complex timelines.
 4. **Greater Reliability**: Because they have no moving parts, SSDs are less likely to suffer mechanical failures, making them more reliable than HDDs. This is critical when working on important projects like feature films, where data loss can be disastrous.
 
+---
 
-**Practical Tips for Using SSDs with Final Cut Pro**
+**Practical Tips for Using SSDs with Final Cut Pro:**
 
 While SSDs are clearly advantageous for video editing, it's important to use them strategically to balance performance and cost:
 
