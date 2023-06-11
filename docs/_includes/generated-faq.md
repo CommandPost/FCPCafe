@@ -1,5 +1,9 @@
 ## A
 
+{{ include "faq/animations" }}
+
+---
+
 {{ include "faq/audio-editing" }}
 
 ---
@@ -130,10 +134,6 @@
 ---
 
 {{ include "faq/what-is-fcpx" }}
-
----
-
-{{ include "faq/animations" }}
 
 ---
 
