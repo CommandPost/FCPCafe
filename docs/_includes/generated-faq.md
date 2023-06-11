@@ -62,6 +62,15 @@
 
 ---
 
+## F
+
+{{ include "faq/adobe-premiere" }}
+
+---
+
+
+---
+
 ## H
 
 {{ include "faq/export" }}
@@ -93,10 +102,6 @@
 ---
 
 {{ include "faq/upgrade" }}
-
----
-
-{{ include "faq/adobe-premiere" }}
 
 ---
 
