@@ -8,6 +8,14 @@ There's a great article called [Demystifying Final Cut Pro XMLs by Philip Hodget
 
 ---
 
+### Preferred XML Editor
+
+I'm a massive fan of [BBEdit 14](https://www.barebones.com/products/bbedit/).
+
+It has a 30 day free trial, and is also available on the Mac App Store.
+
+---
+
 ### DTD Validation
 
 macOS has a built in XML lint tool - allowing you to validate a `FCPXML` document against it's `DTD` file.
