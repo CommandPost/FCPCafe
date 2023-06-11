@@ -64,6 +64,10 @@
 
 ---
 
+{{ include "faq/effects" }}
+
+---
+
 {{ include "faq/export" }}
 
 ---
@@ -149,10 +153,6 @@
 ---
 
 {{ include "faq/what-is-fcpx" }}
-
----
-
-{{ include "faq/effects" }}
 
 ---
 
