@@ -73,6 +73,10 @@
 
 ## F
 
+{{ include "faq/file-formats" }}
+
+---
+
 {{ include "faq/adobe-premiere" }}
 
 ---
@@ -141,10 +145,6 @@
 ---
 
 {{ include "faq/system-requirements" }}
-
----
-
-{{ include "faq/file-formats" }}
 
 ---
 
