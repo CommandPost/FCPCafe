@@ -1,3 +1,12 @@
+##  
+
+{{ include "faq/collaboration" }}
+
+---
+
+
+---
+
 ## A
 
 {{ include "faq/animations" }}
@@ -95,10 +104,6 @@
 ## H
 
 {{ include "faq/4k-8k-editing" }}
-
----
-
-{{ include "faq/collaboration" }}
 
 ---
 
