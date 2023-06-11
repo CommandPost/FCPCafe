@@ -1,4 +1,4 @@
-### How do I customize the interface in Final Cut Pro?
+### User Interface - how to customize?
 
 Final Cut Pro offers several ways to customize the interface to better suit your workflow. Here are some of the key ways you can customize the interface:
 
