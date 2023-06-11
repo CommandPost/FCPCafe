@@ -60,6 +60,10 @@
 
 ## E
 
+{{ include "faq/improve-speed" }}
+
+---
+
 {{ include "faq/export" }}
 
 ---
@@ -79,10 +83,6 @@
 ## H
 
 {{ include "faq/4k-8k-editing" }}
-
----
-
-{{ include "faq/improve-speed" }}
 
 ---
 
