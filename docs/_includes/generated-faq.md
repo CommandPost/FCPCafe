@@ -1,5 +1,9 @@
 ## A
 
+{{ include "faq/audio-editing" }}
+
+---
+
 {{ include "faq/audio-levels" }}
 
 ---
@@ -18,10 +22,6 @@
 ---
 
 {{ include "faq/motion-tracking" }}
-
----
-
-{{ include "faq/audio-editing" }}
 
 ---
 
