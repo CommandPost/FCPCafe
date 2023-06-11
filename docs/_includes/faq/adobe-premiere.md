@@ -1,4 +1,4 @@
-### How does Final Cut Pro compare to other video editing software like Adobe Premiere Pro?
+### Final Cut Pro vs. Adobe Premiere Pro
 
 Final Cut Pro and Adobe Premiere Pro are both powerful, professional-grade video editing software, but they have some important differences.
 
