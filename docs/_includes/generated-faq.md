@@ -15,6 +15,15 @@
 
 ---
 
+## B
+
+{{ include "faq/backup" }}
+
+---
+
+
+---
+
 ## C
 
 {{ include "faq/4k-8k-editing" }}
@@ -54,10 +63,6 @@
 ---
 
 ## H
-
-{{ include "faq/backup" }}
-
----
 
 {{ include "faq/export" }}
 
