@@ -26,10 +26,6 @@
 
 ## C
 
-{{ include "faq/4k-8k-editing" }}
-
----
-
 {{ include "faq/color-grading" }}
 
 ---
@@ -72,6 +68,10 @@
 ---
 
 ## H
+
+{{ include "faq/4k-8k-editing" }}
+
+---
 
 {{ include "faq/export" }}
 
