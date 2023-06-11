@@ -35,10 +35,6 @@
 
 ## C
 
-{{ include "faq/color-grading" }}
-
----
-
 {{ include "faq/motion-tracking" }}
 
 ---
@@ -48,6 +44,10 @@
 ---
 
 {{ include "faq/third-party-plugins" }}
+
+---
+
+{{ include "faq/color-grading" }}
 
 ---
 
