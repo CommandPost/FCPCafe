@@ -1,4 +1,4 @@
-### What are the key features of Final Cut Pro?
+### FCP's key features
 
 Final Cut Pro is a robust video editing software with a wide range of features designed for both amateur and professional video editors. Here are some of its key features:
 
