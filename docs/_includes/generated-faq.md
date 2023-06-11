@@ -58,6 +58,15 @@
 
 ---
 
+## E
+
+{{ include "faq/export" }}
+
+---
+
+
+---
+
 ## F
 
 {{ include "faq/adobe-premiere" }}
@@ -70,10 +79,6 @@
 ## H
 
 {{ include "faq/4k-8k-editing" }}
-
----
-
-{{ include "faq/export" }}
 
 ---
 
