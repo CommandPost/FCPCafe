@@ -1,4 +1,4 @@
-### How can I improve my editing speed in Final Cut Pro?
+### Editing with Speed
 
 Improving your editing speed in Final Cut Pro can be accomplished with a combination of technical skills, keyboard shortcuts, and optimizing your workflow. Here are some tips:
 
