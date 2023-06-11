@@ -114,10 +114,6 @@
 
 ---
 
-{{ include "faq/cost" }}
-
----
-
 
 ---
 
@@ -128,6 +124,15 @@
 ---
 
 {{ include "faq/trial" }}
+
+---
+
+
+---
+
+## M
+
+{{ include "faq/cost" }}
 
 ---
 
