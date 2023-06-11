@@ -8,7 +8,7 @@ Final Cut Pro is a robust tool that allows for a variety of animations, both sim
 
 3. **Keyframe Animations**: You can animate virtually any visual aspect of a video clip or effect using keyframes. Keyframes allow you to set specific values for certain parameters (like position, scale, or opacity) at specific points in time. Final Cut Pro then animates the change in these parameters over time.
 
-4. **Effects and Filters**: Final Cut Pro includes a variety of effects and filters that can be animated, like blurs, color changes, distortions, and more. see also [Effects](https://fcp.cafe/faq/#what-kind-of-effects-can-i-add-using-final-cut-pro).
+4. **Effects and Filters**: Final Cut Pro includes a variety of effects and filters that can be animated, like blurs, color changes, distortions, and more. see also [Effects](/faq/#what-kind-of-effects-can-i-add-using-final-cut-pro).
 
 5. **Motion Paths**: You can animate objects to move along a specific path over time.
 
