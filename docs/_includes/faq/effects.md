@@ -1,4 +1,4 @@
-### What kind of effects can I add using Final Cut Pro?
+### Effects - Overview
 
 Final Cut Pro comes with a variety of built-in effects that you can apply to your video clips. These include:
 
