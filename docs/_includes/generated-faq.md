@@ -139,6 +139,15 @@
 
 ---
 
+## K
+
+{{ include "faq/keyboard-shortcuts" }}
+
+---
+
+
+---
+
 ## M
 
 {{ include "faq/cost" }}
@@ -158,10 +167,6 @@
 ---
 
 ## W
-
-{{ include "faq/keyboard-shortcuts" }}
-
----
 
 {{ include "faq/system-requirements" }}
 
