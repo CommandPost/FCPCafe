@@ -1,18 +1,36 @@
-## C
+## A
 
-{{ include "faq/4k-8k-editing" }}
+{{ include "faq/animations" }}
 
 ---
+
+{{ include "faq/audio-editing" }}
+
+---
+
+{{ include "faq/audio-levels" }}
+
+---
+
+
+---
+
+## B
+
+{{ include "faq/backup" }}
+
+---
+
+
+---
+
+## C
 
 {{ include "faq/color-grading" }}
 
 ---
 
 {{ include "faq/motion-tracking" }}
-
----
-
-{{ include "faq/audio-editing" }}
 
 ---
 
@@ -40,9 +58,18 @@
 
 ---
 
+## F
+
+{{ include "faq/adobe-premiere" }}
+
+---
+
+
+---
+
 ## H
 
-{{ include "faq/backup" }}
+{{ include "faq/4k-8k-editing" }}
 
 ---
 
@@ -74,15 +101,7 @@
 
 ---
 
-{{ include "faq/audio-levels" }}
-
----
-
 {{ include "faq/upgrade" }}
-
----
-
-{{ include "faq/adobe-premiere" }}
 
 ---
 
@@ -125,10 +144,6 @@
 ---
 
 {{ include "faq/what-is-fcpx" }}
-
----
-
-{{ include "faq/animations" }}
 
 ---
 
