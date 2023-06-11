@@ -1,3 +1,4 @@
-### Is Final Cut Pro available for Windows or is it Mac only?
+### Windows, Linux?
 
-Mac only.
+FCP is an Apple designed product, therefore optimized for Mac and iPad.
+Chances are low, that it will come to other platforms in the future.

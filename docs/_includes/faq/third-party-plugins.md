@@ -1,3 +1,3 @@
-### Can I use third-party plugins with Final Cut Pro?
+### Third-party plugins - where to find?
 
-Absolutely. Check out our [plugins page](/plugins/) for a list of our favourites.
+Check out our [plugins page](/plugins/) for a list of our favourites.
