@@ -1,4 +1,4 @@
-### Can Final Cut Pro handle 4K or 8K video editing?
+### High Resolutions: Can FCP handle 4K and 8??
 
 Yes, Apple's Final Cut Pro can handle both 4K and 8K video editing.
 
