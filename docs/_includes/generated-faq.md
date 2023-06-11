@@ -110,10 +110,6 @@
 
 ---
 
-{{ include "faq/interface" }}
-
----
-
 {{ include "faq/upgrade" }}
 
 ---
@@ -132,6 +128,15 @@
 ---
 
 {{ include "faq/trial" }}
+
+---
+
+
+---
+
+## U
+
+{{ include "faq/interface" }}
 
 ---
 
