@@ -1,4 +1,4 @@
-### How can I share my Final Cut Pro project with others for collaboration?
+###  Collaboration: How can I share my FCP projects with others?
 
 If you're looking for the best collaboration workflow, check out [PostLab](/ecosystem/tools/#postlab).
 
