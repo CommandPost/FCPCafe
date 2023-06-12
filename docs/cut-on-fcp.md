@@ -6,6 +6,13 @@ If there's something missing, [please let us know](/contribute/).
 
 ---
 
+## Success Stories
+
+- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards?fbclid=IwAR01XwQsPtk5ZpXm4-UulTrInJD9-3nNm4NhrF6FJt2suwIS0vsZOVrKfDg) - **_8,181,158,261 views on YouTube_**
+- Neighbours: Erinsborough High (2019) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt10925930/) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
+
+---
+
 ## Awards & Nominations
 
 
