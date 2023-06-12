@@ -2,7 +2,7 @@
 
 Backing up your Final Cut Pro project files is crucial to prevent losing your work. Here are a few ways you can do this:
 
-1. **Library Backups:** Final Cut Pro automatically creates backups of your libraries. These backups are stored in a folder named **Final Cut Backups** in your Movies folder. You can adjust how often these backups are made using [CommandPost](https://commandpost.io){target="_blank"}.
+1. **Library Backups:** Final Cut Pro automatically creates backups of your libraries. These backups are stored in a folder named **Final Cut Backups** in your Movies folder. You can adjust how often these backups are made using [CommandPost](/ecosystem/tools/#commandpost).
 2. **Duplicate Libraries:** To manually back up your work, you can duplicate your library in Finder.
 3. **External Drive:** You can also manually copy the library to an external hard drive or another secure location. Simply drag the library file in Finder to your backup location.
 4. **Time Machine:** If you're using Apple's Time Machine backup system, make sure that your Final Cut Pro library is in a location that Time Machine backs up. Time Machine backs up your entire computer at regular intervals, so this provides a kind of automatic backup.

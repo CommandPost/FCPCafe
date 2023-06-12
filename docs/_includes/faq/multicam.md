@@ -1,4 +1,4 @@
-### Multicam editing
+### Multicam Editing
 
 Some say Final Cut Pro has the best Multicam handling in the industry.
 
