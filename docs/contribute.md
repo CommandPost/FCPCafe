@@ -27,10 +27,10 @@ If you're interested in collaborating, and helping FCP Cafe grow, here's some id
 - Make sure all your Final Cut Pro feature requests are added to our [Wish List](/wishlist/).
 - Make sure all your Final Cut Pro bug reports are added to our [Bug Tracker](/bugtracker/).
 - If you've worked on a professional product (feature film, short film, television commercial, television series, etc), consider writing a case study.
-- Add information to our [FAQ](/faq/). There's a list of things on our TODO list as comments in the [Markdown file](https://raw.githubusercontent.com/CommandPost/FCPCafe/main/docs/faq.md){target="_blank"}.
+- Add information to our [FAQ](/faq/).
 - Add any missing [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/).
 - Add personalised reviews to any [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/) you use regularly.
-- Expand the [Motion Templates](/ecosystem/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/ecosystem/motiontemplates/#motionvfx), we should also list their best/most useful products.
+- Expand the [Motion Templates](/ecosystem/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/ecosystem/motiontemplates/#motionvfx) and [FxFactory](/ecosystem/tools/#fxfactory), we should also list their best/most useful products.
 
 There's a bunch of TVCs we can add to the [Cut on Final Cut Pro](/cut-on-fcp/) page:
 
