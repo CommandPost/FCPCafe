@@ -23,7 +23,7 @@ If there's something missing, [please let us know](/contribute/).
 ### Drama
 
 - Blood & Gold (2023) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt18073328/)
-- Blood Red Sky (2023) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6402468/)
+- Blood Red Sky (2021) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6402468/)
 - Antigang 2 (2023) {{ fcpx }} {{ disneyplus }}
 - Vazhiye (2022) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11304358/)
 - Gaia (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11881160/)
