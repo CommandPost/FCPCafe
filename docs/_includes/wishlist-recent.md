@@ -1,3 +1,4 @@
+- [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175){target="_blank"}
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149){target="_blank"}
 - [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148){target="_blank"}
 - [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147){target="_blank"}
