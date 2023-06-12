@@ -1,4 +1,4 @@
-### Can I do motion tracking in Final Cut Pro?
+### Motion Tracking included?
 
 Yes, you can do object-based tracking in Final Cut Pro.
 
