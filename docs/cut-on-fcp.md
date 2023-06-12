@@ -26,20 +26,20 @@ If there's something missing, [please let us know](/contribute/).
 - Boszorkányház (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10345858/)
 - Monsters of Man (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6456326/)
 - Budapest Heist (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10319486/)
-- Follow Me (2020) {{ fcpx }}
-- Faith Based (2020) {{ fcpx }}
-- The Banker (2020) {{ appletv }} {{ fcpx }}
-- Chasing Molly (2019) {{ fcpx }}
-- Against the Clock (2019) {{ fcpx }}
+- Follow Me (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt8160834/)
+- Faith Based (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10260692/)
+- The Banker (2020) {{ appletv }} {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6285944/)
+- Chasing Molly (2019) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10149868/)
+- Headlock / Against the Clock (2019) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt3813094/)
 - Psychosynthesis (2019) {{ fcpx }}
-- Jezebel (2019) {{ fcpx }}
+- Jezebel (2019) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt7103742/)
 - Parasite (2019) {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6751668/)
-- Shadows on the Road (2018) {{ fcpx }}
-- The Isle (2018) {{ fcpx }}
-- Dantza (2018) {{ fcpx }}
-- Gabriel (2018) {{ fcpx }}
-- Dead Envy (2018) {{ fcpx }}
-- Brothers' Nest (2018) {{ fcpx }}
+- Shadows on the Road (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt7391194/)
+- The Isle (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt5075662/)
+- Dantza (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt9057168/)
+- Gabriel (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt8534294/)
+- Dead Envy (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6608068/)
+- Brothers' Nest (2018) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt7263664/)
 - Unhinged (2017) {{ fcpx }}
 - Sleep Has Her House (2017) {{ fcpx }}
 - La llum d'Elna (2017) {{ fcpx }}
@@ -188,6 +188,21 @@ If there's something missing, [please let us know](/contribute/).
 ## Online Series
 
 - The Future of Everything (2023) {{ fcpx }} [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/originals/the-future-of-everything/)
+
+---
+
+## Music Videos
+
+- Gang Of Youths: The Deepest Sighs, the Frankest Shadows {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=9URhKk22xbM) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/gang-of-youths-the-deepest-sighs-the-frankest-shadows/)
+- Peking Duk: Let You Down {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=zUfVJ7c22r8) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/peking-duk-let-you-down/)
+- American Doubles - The Swell {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=BobK7ZC3afE) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/american-doubles-the-swell/)
+- Vera Blue - Like I Remember You {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=IkMqDLOrmXw) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/vera-blue-like-i-remember-you/)
+- Rüfüs Du Sol - Be With You {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=DKH2t5d2Mj0) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/rufus-du-sol-be-with-you/)
+- Guy Pearce - What Makes You Think {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=KcXrf-eHQeE) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/guy-pearce-what-makes-you-think/)
+- Cosmos Midnight - Mind Off {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=5LvO-K_0BNA) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/cosmos-midnight-mind-off/)
+- Dappled Cities - Stone Men {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=1-t4SeoRx40) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/dappled-cities-stone-men/)
+- Crooked Colours - Flow {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=DgkgGbJwRyo) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/crooked-colours-flow/)
+- Casey Donovan - The Villain
 
 ---
 
