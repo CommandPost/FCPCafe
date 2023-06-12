@@ -12,6 +12,26 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 ---
 
+### Apple White Papers
+
+- [Apple ProRes RAW (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes_RAW.pdf){target="_blank"}
+- [Apple ProRes (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf){target="_blank"}
+- [Audio Roles in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/Audio_Roles.pdf){target="_blank"}
+- [HDR and Wide Color Gamut in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf){target="_blank"}
+- [Manage Media with Final Cut Pro Libraries (November 2020)](https://www.apple.com/final-cut-pro/docs/Media_Management.pdf){target="_blank"}
+- [RED Workflows with Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/RED_Workflows_with_Final_Cut_Pro_X.pdf){target="_blank"}
+- [Final Cut Pro X for Final Cut Pro 7 Editors (October 2019)](https://www.apple.com/final-cut-pro/docs/Final_Cut_Pro_X_for_Final_Cut_Pro_7_Editors.pdf){target="_blank"}
+- [Transition to Compressor 4.1 (December 2013)](https://images.apple.com/final-cut-pro/docs/Transitioning_to_Compressor.pdf){target="_blank"}
+- [Final Cut Pro X for Final Cut Pro 7 Editors (September 2011)](https://www.postmagazine.com/documents/Apple-FCP-X-Whitepaper.pdf){target="_blank"}
+
+---
+
+### Frame.io White Papers
+
+- [Shared & Remote Solutions (2021)](https://blog.frame.io/wp-content/uploads/2021/01/Final-Cut-Pro-Shared-and-Remote-Solutions-2021.pdf){target="_blank"}
+
+---
+
 ## Shot Data
 
 [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target="_blank"} has developed a unique workflow with [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} for filmmakers. The workflow uses CommandPost’s Shot Data Toolbox to create a Shot List & Storyboard Database from Final Cut Pro to Notion.

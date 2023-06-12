@@ -4,6 +4,15 @@ If you're brand new to **Final Cut Pro for Mac** or **Final Cut Pro for iPad** -
 
 ---
 
+### Apple White Papers
+
+Here's a collection of official Apple White Papers to help people transition from Final Cut Pro 7 to Final Cut Pro X:
+
+- [Final Cut Pro X for Final Cut Pro 7 Editors (October 2019)](https://www.apple.com/final-cut-pro/docs/Final_Cut_Pro_X_for_Final_Cut_Pro_7_Editors.pdf){target="_blank"}
+- [Final Cut Pro X for Final Cut Pro 7 Editors (September 2011)](https://www.postmagazine.com/documents/Apple-FCP-X-Whitepaper.pdf){target="_blank"}
+
+---
+
 ### Ripple Training
 
 Steve delivers a full **58 minute** FCP class for beginners that includes the media for following along with him in FCP.
