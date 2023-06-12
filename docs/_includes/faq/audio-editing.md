@@ -1,4 +1,4 @@
-### Audio editing - do I need a separate App for it?
+### Audio editing - do I need a separate App?
 
 Yes, you can do complex editing in Final Cut Pro.
 

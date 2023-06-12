@@ -1,4 +1,4 @@
-### Backups: How to be safe?
+### Backups - How to be safe?
 
 Backing up your Final Cut Pro project files is crucial to prevent losing your work. Here are a few ways you can do this:
 
