@@ -39,6 +39,10 @@
 
 ---
 
+{{ include "faq/codecs" }}
+
+---
+
 {{ include "faq/color-grading" }}
 
 ---
