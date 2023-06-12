@@ -8,11 +8,11 @@ If there's something missing, [let us know](/contribute/).
 
 ## Award Winning
 
-- Parasite (2019) - **Academy Award nominee for Best Editing – Yang Jin-mo**
-- The Social Network (2011) - **Academy Award winner for Best Editing – Kirk Baxter and Angus Wall**
-- The Curious Case of Benjamin Button (2008) - **Academy Award nominee for Best Editing - Kirk Baxter and Angus Wall**
-- No Country for Old Men (2007) - **Academy Award nominee for Best Editing – Roderick Jaynes**
-- Cold Mountain (2003) - **Academy Award nominee for Best Editing – Walter Murch**
+- Parasite (2019) - **Academy Award nominee for Best Editing – Yang Jin-mo** [!badge variant="primary" text="Final Cut Pro 7"]
+- The Social Network (2011) - **Academy Award winner for Best Editing – Kirk Baxter and Angus Wall** [!badge variant="primary" text="Final Cut Pro 7"]
+- The Curious Case of Benjamin Button (2008) - **Academy Award nominee for Best Editing - Kirk Baxter and Angus Wall** [!badge variant="primary" text="Final Cut Pro 7"]
+- No Country for Old Men (2007) - **Academy Award nominee for Best Editing – Roderick Jaynes** [!badge variant="primary" text="Final Cut Pro 7"]
+- Cold Mountain (2003) - **Academy Award nominee for Best Editing – Walter Murch** [!badge variant="primary" text="Final Cut Pro 7"]
 
 ---
 
