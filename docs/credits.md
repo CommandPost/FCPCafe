@@ -6,6 +6,8 @@ The origin story comes back to [this tweet](https://twitter.com/chrisatlatenite/
 
 Chris decided that FCP Cafe was a better name/domain, and as a result, this site was born.
 
+Since creating the site, [lots of people](https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed){target="_blank"} have contributed!
+
 ---
 
 ### LateNite Films
