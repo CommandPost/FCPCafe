@@ -1,4 +1,4 @@
-### How do I create and manage libraries in Final Cut Pro?
+### Libraries - how to organize?
 
 Creating and managing libraries in Final Cut Pro is a fundamental part of organizing your editing projects. Here's how to create and manage libraries:
 

@@ -35,32 +35,11 @@
 
 ## C
 
-{{ include "faq/motion-tracking" }}
-
----
-
-{{ include "faq/professional-editing" }}
-
----
-
-{{ include "faq/third-party-plugins" }}
+{{ include "faq/subtitles" }}
 
 ---
 
 {{ include "faq/color-grading" }}
-
----
-
-
----
-
-## D
-
-{{ include "faq/multicam" }}
-
----
-
-{{ include "faq/vr-360" }}
 
 ---
 
@@ -107,35 +86,6 @@
 
 ---
 
-{{ include "faq/stabilize" }}
-
----
-
-{{ include "faq/subtitles" }}
-
----
-
-{{ include "faq/libraries" }}
-
----
-
-{{ include "faq/upgrade" }}
-
----
-
-
----
-
-## I
-
-{{ include "faq/windows" }}
-
----
-
-{{ include "faq/trial" }}
-
----
-
 
 ---
 
@@ -148,9 +98,65 @@
 
 ---
 
+## L
+
+{{ include "faq/libraries" }}
+
+---
+
+
+---
+
 ## M
 
 {{ include "faq/cost" }}
+
+---
+
+{{ include "faq/motion-tracking" }}
+
+---
+
+{{ include "faq/multicam" }}
+
+---
+
+
+---
+
+## P
+
+{{ include "faq/professional-editing" }}
+
+---
+
+
+---
+
+## S
+
+{{ include "faq/stabilize" }}
+
+---
+
+{{ include "faq/system-requirements" }}
+
+---
+
+
+---
+
+## T
+
+{{ include "faq/third-party-plugins" }}
+
+---
+
+{{ include "faq/trial" }}
+
+---
+
+{{ include "faq/training" }}
 
 ---
 
@@ -159,7 +165,20 @@
 
 ## U
 
+{{ include "faq/upgrade" }}
+
+---
+
 {{ include "faq/interface" }}
+
+---
+
+
+---
+
+## V
+
+{{ include "faq/vr-360" }}
 
 ---
 
@@ -168,13 +187,9 @@
 
 ## W
 
-{{ include "faq/system-requirements" }}
-
----
-
 {{ include "faq/what-is-fcpx" }}
 
 ---
 
-{{ include "faq/training" }}
+{{ include "faq/windows" }}
 
