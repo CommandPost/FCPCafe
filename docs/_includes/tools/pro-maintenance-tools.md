@@ -1,6 +1,6 @@
 ### Pro Maintenance Tools
 
-![](/static/ss-editready.png)
+![](/static/pro-maintenance-tools-logo.png)
 
 Pro Maintenance Tools keeps your editing system running smoothly so you can quickly get back on track in the event of a problem.
 
