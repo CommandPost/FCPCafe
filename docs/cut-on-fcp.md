@@ -8,11 +8,11 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Awards & Nominations
 
-- Parasite (2019) - **_Academy Award nominee for Best Editing – Yang Jin-mo_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6751668/)
-- The Social Network (2010) - **_Academy Award winner for Best Editing – Kirk Baxter and Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1285016/)
-- The Curious Case of Benjamin Button (2008) - **_Academy Award nominee for Best Editing - Kirk Baxter and Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0421715/)
-- No Country for Old Men (2007) - **_Academy Award nominee for Best Editing – Roderick Jaynes_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0477348/)
-- Cold Mountain (2003) - **_Academy Award nominee for Best Editing – Walter Murch_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0159365/)
+- Parasite (2019) - **_Academy Award Nominee for Best Editing – Yang Jin-mo_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6751668/)
+- The Social Network (2010) - **_Academy Award Winner for Best Editing – Kirk Baxter & Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1285016/)
+- The Curious Case of Benjamin Button (2008) - **_Academy Award Nominee for Best Editing - Kirk Baxter & Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0421715/)
+- No Country for Old Men (2007) - **_Academy Award Nominee for Best Editing – Roderick Jaynes_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0477348/)
+- Cold Mountain (2003) - **_Academy Award Nominee for Best Editing – Walter Murch_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0159365/)
 
 ---
 
