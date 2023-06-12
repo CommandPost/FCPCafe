@@ -69,10 +69,6 @@
 
 ## F
 
-{{ include "faq/key-features" }}
-
----
-
 {{ include "faq/file-formats" }}
 
 ---
@@ -94,6 +90,10 @@
 ---
 
 ## K
+
+{{ include "faq/key-features" }}
+
+---
 
 {{ include "faq/keyboard-shortcuts" }}
 
