@@ -1,6 +1,6 @@
 ### FCS Remover
 
-![](/static/ss-editready.png)
+![](/static/fcs-remover-logo.png)
 
 FCS Remover allows you to uninstall all Final Cut Studio, Final Cut Express, Final Cut Server or Final Cut Pro X components with the press of a button.
 
