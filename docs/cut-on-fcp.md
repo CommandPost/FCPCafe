@@ -151,6 +151,7 @@ If there's something missing, [please let us know](/contribute/).
 - India's Space Odyssey (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt15609374/)
 - Stephen King: Le mal nécessaire (2020) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt13329714/)
 - Action Women (2020) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt18922790/)
+- Mystify: Michael Hutchence (2019) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt5938950/)
 - Wild Amsterdam (2018) {{ fcpx }}
 - Off The Tracks (2018) {{ fcpx }}
 - Fragments of Truth (2018) {{ fcpx }}
@@ -159,6 +160,9 @@ If there's something missing, [please let us know](/contribute/).
 - Le Mystère Jacques Audiard (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt8413688/)
 - Filmer le Chaos (2018) {{ fcpx }}
 - Hold Up, autopsie d'un braquage (2017) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt7915910/)
+- Ecco Homo Movie (2016) {{ fcp7 }}
+- In Bob We Trust (2013) {{ fcp7 }} {{ imdb }}(https://www.imdb.com/title/tt3005560/)
+- Autoluminescent: Rowland S. Howard (2011) {{ fcp7 }} {{ imdb }}(https://www.imdb.com/title/tt2015298/)
 
 ---
 
@@ -167,7 +171,7 @@ If there's something missing, [please let us know](/contribute/).
 ### Television Series
 
 - Machine (2024) {{ fcpx }}
-- Turn of the Tide (2023) {{ netflix }} {{ fcpx }} [!badge variant="dark" target="blank" text="Case Study"](/casestudies/turnofthetide/)
+- Turn of the Tide (2023) {{ netflix }} {{ fcpx }} {{ casestudy }}(/casestudies/turnofthetide/)
 - Q: Into the Storm (2021) {{ fcpx }}
 - J'ai tué mon mari (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt15823312/?ref_=nm_flmg_unrel_2_edt)
 - BBC Have I Got News For You (2020) {{ fcpx }}
@@ -205,7 +209,14 @@ If there's something missing, [please let us know](/contribute/).
 
 - Bo Burnham: Inside (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt14544192/)
 - The Legend of Burnout Barry (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11147376/) {{ website }}(https://latenitefilms.com/originals/the-legend-of-burnout-barry/)
-- Neighbours: Erinsborough High (2019) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt10925930/) [!badge variant="dark" target="blank" text="Case Study"](https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia)
+- Neighbours: Erinsborough High (2019) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt10925930/) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia)
+
+---
+
+### Broadcast News & Sports
+
+- MLR Weekly _(longest running American Rugby show broadcast)_ {{ website }}(https://jonnylewisfilms.com/rugby-wrap-up)
+- BBC World News - Click _(comprehensive guide to all the latest gadgets, websites, games and computer industry news)_ {{ website }}(https://www.bbc.co.uk/programmes/n13xtmd5)
 
 ---
 
@@ -231,6 +242,9 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Music Videos
 
+- METTE - Mamas Eyes (2023) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=gi9OBRzbMNI)
+- STORMZY - VOSSI BOP (2019) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=9ClYy0MxsU0)
+- Mura Masa - Move Me (2019) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=Tbz6xQkewo4)
 - Gang Of Youths: The Deepest Sighs, the Frankest Shadows {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=9URhKk22xbM) {{ website }}(https://latenitefilms.com/collaborations/gang-of-youths-the-deepest-sighs-the-frankest-shadows/)
 - Peking Duk: Let You Down {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=zUfVJ7c22r8) {{ website }}(https://latenitefilms.com/collaborations/peking-duk-let-you-down/)
 - American Doubles - The Swell {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=BobK7ZC3afE) {{ website }}(https://latenitefilms.com/collaborations/american-doubles-the-swell/)
@@ -246,7 +260,22 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Television Commercials
 
-- Coming soon!
+- Apple - Run Baby Run {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/run-baby-run)
+- Green & Blacks - Made of Nature {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/made-of-nature)
+- Mercedes - The Journey That Changed Everything {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/bertha-benz-the-journey-that-changed-everything)
+- Honda - The Other Side {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/the-other-side-2)
+- Apple - Simple As That {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/simple-as-that)
+- Discord - The Movie {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/the-movie)
+- FIFA - Champions Rise {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/champions_rise)
+- KIA - Hidden Ideas {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/hidden-ideas)
+- Volva - Favourite Things {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/favourite-things)
+- Birds Eye - With Love {{ fcpx }} {{ watch }}(https://trimediting.com/thomas-grove-carter/with-love)
+- Nike - Tell Us Never {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/tell-us-never)
+- Amnesty International - We have the will to win {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/we-have-the-will-to-win-on-a-la-rage-de-vaincre-2)
+- Nike - The Toughest Athletes {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/the-toughest-athletes)
+- Malaria No More - Draw The Line Against Malaria {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/draw-the-line-against-malaria)
+- Samsung - Awesome Is For Everyone {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/awesome-is-for-everyone)
+- Adidas - Speed Factory {{ fcpx }} {{ watch }}(https://trimediting.com/vid-price/speedfactory)
 
 ---
 

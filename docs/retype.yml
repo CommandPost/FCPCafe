@@ -62,3 +62,4 @@ data:
   imdb: "[!badge variant=\"warning\" target=\"blank\" text=\"IMDB\"]"
   watch: "[!badge variant=\"dark\" target=\"blank\" text=\"Watch\"]"
   website: "[!badge variant=\"dark\" target=\"blank\" text=\"Website\"]"
+  casestudy: "[!badge variant=\"dark\" target=\"blank\" text=\"Case Study\"]"
