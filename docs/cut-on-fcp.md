@@ -23,6 +23,7 @@ If there's something missing, [please let us know](/contribute/).
 - Blood Red Sky (2023) {{ netflix }} {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6402468/)
 - Vazhiye (2022) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt11304358/)
 - Gaia (2021) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt11881160/)
+- Boszorkányház (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10345858/)
 - Monsters of Man (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6456326/)
 - Budapest Heist (2020) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt10319486/)
 - Follow Me (2020) {{ fcpx }}
