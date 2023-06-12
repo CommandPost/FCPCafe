@@ -265,6 +265,7 @@ If there's something missing, [please let us know](/contribute/).
 - METTE - Mamas Eyes (2023) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=gi9OBRzbMNI)
 - STORMZY - VOSSI BOP (2019) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=9ClYy0MxsU0)
 - Mura Masa - Move Me (2019) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=Tbz6xQkewo4)
+- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards?fbclid=IwAR01XwQsPtk5ZpXm4-UulTrInJD9-3nNm4NhrF6FJt2suwIS0vsZOVrKfDg)
 - Gang Of Youths: The Deepest Sighs, the Frankest Shadows {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=9URhKk22xbM) {{ website }}(https://latenitefilms.com/collaborations/gang-of-youths-the-deepest-sighs-the-frankest-shadows/)
 - Peking Duk: Let You Down {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=zUfVJ7c22r8) {{ website }}(https://latenitefilms.com/collaborations/peking-duk-let-you-down/)
 - American Doubles - The Swell {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=BobK7ZC3afE) {{ website }}(https://latenitefilms.com/collaborations/american-doubles-the-swell/)
