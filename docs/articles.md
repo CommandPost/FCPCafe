@@ -10,6 +10,15 @@ In the coming weeks we'll update this page with direct links to relevant and use
 
 ---
 
+### Pro Video Coalition
+
+[Pro Video Coalition](https://www.provideocoalition.com/){target="_blank"} has an awesome collection of Final Cut Pro blogs and articles.
+
+- [Why ProRes? (August 2022) by Iain Anderson](https://www.provideocoalition.com/why-prores/){target="_blank"}
+- [Understanding Color Management (August 2022) by Iain Anderson](https://www.provideocoalition.com/understanding-color-management/){target="_blank"}
+
+---
+
 ### fcp.co
 
 [fcp.co](https://fcp.co){target="_blank"} is an entire site dedicated to Final Cut Pro, so there's lots of great articles there.
