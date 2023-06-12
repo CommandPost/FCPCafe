@@ -24,7 +24,6 @@ If there's something missing, [let us know](/contribute/).
 - Becoming the Queen of the North (2022) [!badge variant="success" text="Final Cut Pro X"]
 - Vazhiye (2022) [!badge variant="success" text="Final Cut Pro X"]
 - Thariode (2021) [!badge variant="success" text="Final Cut Pro X"]
-- Blood Red Sky (2021) [!badge variant="success" text="Final Cut Pro X"]
 - Bo Burnham: Inside (2021) [!badge variant="success" text="Final Cut Pro X"]
 - Gaia (2021) [!badge variant="success" text="Final Cut Pro X"]
 - Monsters of Man (2020) [!badge variant="success" text="Final Cut Pro X"]
