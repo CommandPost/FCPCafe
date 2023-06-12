@@ -58,6 +58,10 @@
 
 ---
 
+{{ include "tools/compressor-repair" }}
+
+---
+
 {{ include "tools/csv-to-motn-generator" }}
 
 ---
@@ -110,6 +114,10 @@
 ---
 
 {{ include "tools/fcpx-autoduck" }}
+
+---
+
+{{ include "tools/fcs-remover" }}
 
 ---
 
@@ -183,6 +191,18 @@
 ---
 
 {{ include "tools/postwatch" }}
+
+---
+
+{{ include "tools/preference-manager" }}
+
+---
+
+{{ include "tools/pro-maintenance-tools" }}
+
+---
+
+{{ include "tools/pro-media-tools" }}
 
 ---
 
