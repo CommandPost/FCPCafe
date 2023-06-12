@@ -1,6 +1,6 @@
 ### Compressor Repair
 
-![](/static/ss-editready.png)
+![](/static/compressor-repair-logo.png)
 
 Compressor Repair checks for problems that could be preventing Compressor from operating correctly. It checks for missing files, incorrect permissions, an invalid hostname, and attempts to manually start the qmasterd process.
 
