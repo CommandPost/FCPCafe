@@ -32,6 +32,35 @@ If you're interested in collaborating, and helping FCP Cafe grow, here's some id
 - Add personalised reviews to any [Motion Templates](/ecosystem/motiontemplates/), [Tools](/ecosystem/tools/) and [Plugins](/ecosystem/plugins/) you use regularly.
 - Expand the [Motion Templates](/ecosystem/motiontemplates/) page. For example, rather than just having one section for [MotionVFX](/ecosystem/motiontemplates/#motionvfx), we should also list their best/most useful products.
 
+There's a bunch of TVCs we can add to the [Cut on Final Cut Pro](/cut-on-fcp/) page:
+
+- [Dominic Leung](https://marsheen.com/editors/dominic-leung){target="_blank"}
+- [Dave Davis](https://marsheen.com/editors/dave-davis){target="_blank"}
+- [Tom Lindsay](https://trimediting.com/tom-lindsay/){target="_blank"}
+- [Elise Butt](https://trimediting.com/elise-butt/){target="_blank"}
+- [Fouad Gaber](https://trimediting.com/fouad-gaber/){target="_blank"}
+- [Ross Hallard](https://trimediting.com/ross-hallard/){target="_blank"}
+- [Ed Hanbury](https://trimediting.com/ed-hanbury/){target="_blank"}
+- [Matt Newman](https://trimediting.com/matt-newman/){target="_blank"} (last 3 years only!)
+- [Paul Hardcastle](https://trimediting.com/paul-hardcastle/){target="_blank"} (last 9 months only!)
+- [Rohan Zerna](https://theeditors.com.au/rohan-zerna){target="_blank"} (earlier TVCs were cut in FCP7)
+
+There's a bunch of stuff we can add to the FAQ - these are real questions from the community:
+
+- XML workflow between PP is still a biatch.
+- working remotely online / proxy editing
+- captions (we now use filmora for speech to text captions)
+- Media management, everything from how to setup the library and best practices to its using all my drive space to export settings.
+- Backups and how to.
+- Media usage, drive bandwidth, proxy, etc
+- Rendering or exporting failing normally due to a corrupt rendered frame
+- Why "Leave In Place", doesn't when Importing copied card structures from a drive, using the Import window. This consistently baffles and confuses folks, often resulting in the dreaded "missing camera icon", due to crashing and slowness because they are unwittingly copying media back to the source, where the media already is.
+- ‘What’s that red box in the viewer’ (zoomed in, shift Z to ‘fit to window’)
+- ‘What have I done’ you’ve opened the precision editor, ESC will close it.
+- Help!!! It’s saying my storage is full and I’m only working on a five minute zoom call!!!!
+- (Turn off background rendering and select leave files in place…)
+- Why do we have to render over and over again a project with titles everytime we close the program
+
 ---
 
 ### Our Mission

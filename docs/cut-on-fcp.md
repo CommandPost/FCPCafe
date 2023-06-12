@@ -1,20 +1,4 @@
 # Cut on Final Cut Pro
-<!--
-THINGS TO ADD:
-
-Dominic Leung - https://marsheen.com/editors/dominic-leung
-Dave Davis - https://marsheen.com/editors/dave-davis
-
-Tom lindsay - https://trimediting.com/tom-lindsay/
-Elise Butt - https://trimediting.com/elise-butt/
-Fouad Gaber - https://trimediting.com/fouad-gaber/
-Ross Hallard - https://trimediting.com/ross-hallard/
-Ed Hanbury - https://trimediting.com/ed-hanbury/
-Matt Newman (in the last 3 years) - https://trimediting.com/matt-newman/
-Paul Hardcastle (for the last 9months) - https://trimediting.com/paul-hardcastle/
-
-Rohan Zerna (some of the old ones are FCP7) - https://theeditors.com.au/rohan-zerna
--->
 
 This page is dedicated to listing all the amazing projects cut on Final Cut Pro.
 
