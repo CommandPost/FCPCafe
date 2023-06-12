@@ -130,7 +130,8 @@ If there's something missing, [please let us know](/contribute/).
 
 ### Documentary
 
-- Becoming the Queen of the North (2022) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt16154330/#)
+- Becoming the Queen of the North (2022) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt16154330/)
+- India's Space Odyssey (2021) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt15609374/)
 - Wild Amsterdam (2018) {{ fcpx }}
 - Off The Tracks (2018) {{ fcpx }}
 - Fragments of Truth (2018) {{ fcpx }}
