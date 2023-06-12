@@ -54,3 +54,7 @@ favicon: static/favicon.ico
 data:
   star: "<span class=\"fa fa-star checked\"></span>"
   unstar: "<span class=\"fa fa-star\">"
+  fcpx: "[!badge variant=\"success\" text=\"Final Cut Pro X\"]"
+  fcp7: "[!badge variant=\"primary\" text=\"Final Cut Pro 7 (or earlier)\"]"
+  netflix: "[!badge variant=\"danger\" text=\"Netflix\"]"
+  appletv: "[!badge variant=\"secondary\" text=\"Apple TV\"]"
