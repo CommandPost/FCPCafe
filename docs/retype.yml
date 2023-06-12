@@ -58,3 +58,5 @@ data:
   fcp7: "[!badge variant=\"primary\" text=\"Final Cut Pro 7 (or earlier)\"]"
   netflix: "[!badge variant=\"danger\" text=\"Netflix\"]"
   appletv: "[!badge variant=\"secondary\" text=\"Apple TV\"]"
+  disneyplus: "[!badge variant=\"secondary\" text=\"Disney+\"]"
+  imdb: "[!badge variant=\"warning\" target=\"blank\" text=\"IMDB\"]"

@@ -22,8 +22,10 @@ If there's something missing, [please let us know](/contribute/).
 
 ### Drama
 
-- Blood Red Sky (2023) {{ netflix }} {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6402468/)
-- Antigang 2 (2023) {{ fcpx }} {{ disney+ }}
+https://www.imdb.com/title/tt18073328/
+- Blood & Gold (2023) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt18073328/)
+- Blood Red Sky (2023) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6402468/)
+- Antigang 2 (2023) {{ fcpx }} {{ disneyplus }}
 - Vazhiye (2022) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt11304358/)
 - Gaia (2021) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt11881160/)
 - L'Invitation (2021) {{ fcpx }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt14909468/?ref_=nm_flmg_t_5_edt)
@@ -117,6 +119,7 @@ If there's something missing, [please let us know](/contribute/).
 - Inland Empire (2006) {{ fcp7 }}
 - Happy Feet (2006) {{ fcp7 }}
 - Black Snake Moan (2006) {{ fcp7 }}
+- Brick (2005) {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0393109/)
 - Little Manhattan (2005) {{ fcp7 }}
 - Me and You and Everyone We Know (2005) {{ fcp7 }}
 - Jarhead (2005) {{ fcp7 }}
@@ -237,7 +240,19 @@ If there's something missing, [please let us know](/contribute/).
 - Cosmos Midnight - Mind Off {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=5LvO-K_0BNA) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/cosmos-midnight-mind-off/)
 - Dappled Cities - Stone Men {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=1-t4SeoRx40) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/dappled-cities-stone-men/)
 - Crooked Colours - Flow {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=DgkgGbJwRyo) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/crooked-colours-flow/)
-- Casey Donovan - The Villain
+- Casey Donovan - The Villain {{ fcpx }} [!badge variant="dark" target="blank" text="Watch"](https://www.youtube.com/watch?v=xUzGldp7_QA) [!badge variant="dark" target="blank" text="Website"](https://latenitefilms.com/collaborations/casey-donovan-the-villain/)
+
+---
+
+## Television Commercials
+
+- Coming soon!
+
+---
+
+## Corporate/Brand Spots
+
+- Coming soon!
 
 ---
 
