@@ -32,6 +32,14 @@ Richard Taylor has an EPIC list of all the latest iPad videos and articles on [F
 
 ---
 
+### Final Cut Pro for iPad Tutorials, Tips & Tricks
+
+Bascomb Productions has a YouTube series covering Final Cut Pro for iPad.
+
+[![](/static/ill-show-you-ipad.jpg)](https://www.youtube.com/playlist?list=PL-SbkI16sMhT1bGW5j9LDtU77bf7cBEXq){target="_blank"}
+
+---
+
 ### Transfer Toolbox
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
