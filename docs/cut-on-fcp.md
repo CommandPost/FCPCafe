@@ -8,7 +8,9 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Awards & Nominations
 
+
 - Parasite (2019) - **_Academy Award Nominee for Best Editing – Yang Jin-mo_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt6751668/)
+- The Girl with the Dragon Tattoo (2011) {{ fcp7 }} - **_Academy Award for Best Editing – Kirk Baxter & Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1568346/)
 - The Social Network (2010) - **_Academy Award Winner for Best Editing – Kirk Baxter & Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1285016/)
 - The Curious Case of Benjamin Button (2008) - **_Academy Award Nominee for Best Editing - Kirk Baxter & Angus Wall_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0421715/)
 - No Country for Old Men (2007) - **_Academy Award Nominee for Best Editing – Roderick Jaynes_** {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt0477348/)
@@ -72,7 +74,6 @@ If there's something missing, [please let us know](/contribute/).
 - Well Wishes (2015) {{ fcpx }}
 - Focus (2015) {{ fcpx }}
 - What Happened, Miss Simone? (2015) {{ fcp7 }}
-- Focus (2015) {{ fcp7 }}
 - Loreak (2014) {{ fcpx }}
 - A Most Violent Year (2014) {{ fcp7 }}
 - Young Detective Dee: Rise of the Sea Dragon (2013) {{ fcpx }}
@@ -82,7 +83,7 @@ If there's something missing, [please let us know](/contribute/).
 - Twixt (2011) {{ fcp7 }}
 - Courageous (2011) {{ fcp7 }}
 - John Carter (2011) {{ fcp7 }}
-- The Girl with the Dragon Tattoo (2011) {{ fcp7 }}
+- The Girl with the Dragon Tattoo (2011) {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1568346/)
 - The Social Network (2010) {{ fcp7 }} [!badge variant="warning" target="blank" text="IMDB"](https://www.imdb.com/title/tt1285016/)
 - Eat Pray Love (2010) {{ fcp7 }}
 - By the People: The Election of Barack Obama (2009) {{ fcp7 }}
