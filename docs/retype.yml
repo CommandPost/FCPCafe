@@ -59,6 +59,7 @@ data:
   netflix: "[!badge variant=\"danger\" text=\"Netflix\"]"
   appletv: "[!badge variant=\"secondary\" text=\"Apple TV\"]"
   disneyplus: "[!badge variant=\"secondary\" text=\"Disney+\"]"
+  hbo: "[!badge variant=\"secondary\" text=\"HBO\"]"
   imdb: "[!badge variant=\"warning\" target=\"blank\" text=\"IMDB\"]"
   watch: "[!badge variant=\"dark\" target=\"blank\" text=\"Watch\"]"
   website: "[!badge variant=\"dark\" target=\"blank\" text=\"Website\"]"
