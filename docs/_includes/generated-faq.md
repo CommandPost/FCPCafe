@@ -47,6 +47,10 @@
 
 ---
 
+{{ include "faq/hackintosh" }}
+
+---
+
 
 ---
 
