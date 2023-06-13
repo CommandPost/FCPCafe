@@ -7,7 +7,7 @@ You can use the Search Tool at the top right of this page to search the FAQ.
 ---
 
 !!!
-Something missing or have a question? [Learn more here!](/contribute/){target="_blank"}
+Something missing or have a question? [Learn more here!](/contribute/)
 !!!
 
 ---
@@ -17,5 +17,5 @@ Something missing or have a question? [Learn more here!](/contribute/){target="_
 ---
 
 !!!
-Something missing or have a question? [Learn more here!](/contribute/){target="_blank"}
+Something missing or have a question? [Learn more here!](/contribute/)
 !!!

@@ -92,5 +92,5 @@ Keep control of your news reading with Reeder, RSS reader and read later client 
 ---
 
 !!!
-Want to contribute? [Learn more here!](/contribute/){target="_blank"}
+Want to contribute? [Learn more here!](/contribute/)
 !!!

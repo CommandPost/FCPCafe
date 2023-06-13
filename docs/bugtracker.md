@@ -43,5 +43,5 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 ---
 
 !!!
-Want to contribute? [Learn more here!](/contribute/){target="_blank"}
+Want to contribute? [Learn more here!](/contribute/)
 !!!

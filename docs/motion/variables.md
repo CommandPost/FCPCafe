@@ -59,5 +59,5 @@ Token                                                       | Description
 ---
 
 !!!
-Want to update any of the above? [Learn more here!](/contribute/){target="_blank"}
+Want to update any of the above? [Learn more here!](/contribute/)
 !!!

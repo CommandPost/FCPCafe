@@ -16,7 +16,7 @@ Apple has a lot of training resources [here](https://www.apple.com/au/final-cut-
 ---
 
 !!!
-Want to contribute or add your training? [Learn more here!](/contribute/){target="_blank"}
+Want to contribute or add your training? [Learn more here!](/contribute/)
 !!!
 
 ---
