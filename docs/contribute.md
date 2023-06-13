@@ -36,7 +36,6 @@ There's a bunch of TVCs we can add to the [Cut on Final Cut Pro](/cut-on-fcp/) p
 
 - [Dominic Leung](https://marsheen.com/editors/dominic-leung){target="_blank"}
 - [Dave Davis](https://marsheen.com/editors/dave-davis){target="_blank"}
-- [Tom Lindsay](https://trimediting.com/tom-lindsay/){target="_blank"}
 - [Elise Butt](https://trimediting.com/elise-butt/){target="_blank"}
 - [Fouad Gaber](https://trimediting.com/fouad-gaber/){target="_blank"}
 - [Ross Hallard](https://trimediting.com/ross-hallard/){target="_blank"}
