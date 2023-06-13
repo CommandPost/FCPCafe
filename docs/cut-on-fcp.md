@@ -10,6 +10,7 @@ If there's something missing, [please let us know](/contribute/).
 
 - Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{ fcpx }} {{ watch }}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards?fbclid=IwAR01XwQsPtk5ZpXm4-UulTrInJD9-3nNm4NhrF6FJt2suwIS0vsZOVrKfDg) - **_8,181,158,261 views on YouTube_**
 - Neighbours: Erinsborough High (2019) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt10925930/) {{ casestudy }}(https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
+- O Shaolin do Sertão (2016) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt5786508/) - **_First Brazilian feature edited on Final Cut Pro X_**
 
 ---
 
@@ -32,6 +33,8 @@ If there's something missing, [please let us know](/contribute/).
 - Blood & Gold (2023) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt18073328/)
 - Antigang 2 (2023) {{ fcpx }} {{ disneyplus }}
 - Vazhiye (2022) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11304358/)
+- Bem-vinda a Quixeramobim (2022) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt18573106/)
+- Vermelho Monet (2022) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11286592/)
 - Blood Red Sky (2021) {{ netflix }} {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6402468/)
 - Gaia (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt11881160/)
 - The Colony (2021) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6506264/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_tides)
@@ -58,6 +61,7 @@ If there's something missing, [please let us know](/contribute/).
 - Dead Envy (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt6608068/)
 - Brothers' Nest (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt7263664/)
 - Demi-soeurs (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt7195416/)
+- Cine Holliúdy 2: A Chibata Sideral (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt7247512/)
 - Luna (2017) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt5089068/)
 - Unhinged (2017) {{ fcpx }}
 - Sleep Has Her House (2017) {{ fcpx }}
@@ -79,6 +83,7 @@ If there's something missing, [please let us know](/contribute/).
 - 79 Parts (2016) {{ fcp7 }}
 - Saved By Grace (2016) {{ fcp7 }}
 - Whiskey Tango Foxtrot (2016) {{ fcp7 }}
+- O Shaolin do Sertão (2016) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt5786508/)
 - The Chosen (2015) {{ fcpx }}
 - Amama (2015) {{ fcpx }}
 - An Autumn Without Berlin (2015) {{ fcpx }}
