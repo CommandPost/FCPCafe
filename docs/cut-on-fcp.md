@@ -87,11 +87,10 @@ If there's something missing, [please let us know](/contribute/).
 - El Hombre de las Mil Caras (2016) {{ fcpx }}
 - Voice from the Stone (2016) {{ fcpx }}
 - Saturday's Warrior (2016) {{ fcpx }}
-- Whiskey Tango Foxtrot (2016) {{ fcpx }}
+- Whiskey Tango Foxtrot (2016) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt3553442/)
 - Saved by Grace (2016) {{ fcpx }}
 - 79 Parts (2016) {{ fcp7 }}
 - Saved By Grace (2016) {{ fcp7 }}
-- Whiskey Tango Foxtrot (2016) {{ fcp7 }}
 - O Shaolin do Sertão (2016) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt5786508/)
 - The Chosen (2015) {{ fcpx }}
 - Amama (2015) {{ fcpx }}
