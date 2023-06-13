@@ -186,7 +186,9 @@ If there's something missing, [please let us know](/contribute/).
 - Voulez-vous rire avec moi ce soir? (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt8413624/)
 - Le Mystère Jacques Audiard (2018) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt8413688/)
 - Filmer le Chaos (2018) {{ fcpx }}
+- Kings of Crime - Season 2 (2018) {{ fcpx }} {{ website }}(https://www.discoveryplus.com/it/show/kings-of-crime-roberto-saviano)
 - Hold Up, autopsie d'un braquage (2017) {{ fcpx }} {{ imdb }}(https://www.imdb.com/title/tt7915910/)
+- Kings of Crime - Season 1 (2017) {{ fcpx }} {{ website }}(https://www.discoveryplus.com/it/show/kings-of-crime-roberto-saviano)
 - Ecco Homo Movie (2016) {{ fcp7 }}
 - In Bob We Trust (2013) {{ fcp7 }} {{ imdb }}(https://www.imdb.com/title/tt3005560/)
 - Autoluminescent: Rowland S. Howard (2011) {{ fcp7 }} {{ imdb }}(https://www.imdb.com/title/tt2015298/)
