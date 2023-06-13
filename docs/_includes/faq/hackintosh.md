@@ -1,4 +1,4 @@
-### Could Final Cut run on a Hackintosh?
+### Could Final Cut Pro run on a Hackintosh?
 
 Yes. There are many users and hobbyist who have built a Hackintosh to run Final Cut Pro. 
 
