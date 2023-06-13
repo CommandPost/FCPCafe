@@ -40,13 +40,13 @@ Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will in
 
 ---
 
-### Pro Import Toolbox
+### Import Toolbox
 
 **ETA: October 2023**
 
-**Pro Import Toolbox** will be a Workflow Extension that allows you to import files with better metadata and preset controls (i.e. clip volume).
+**Import Toolbox** will be a Workflow Extension that allows you to import files with better metadata and preset controls (i.e. clip volume).
 
-We will also be spinning out the Watch Folders from CommandPost and moving them into this app.
+We will also be spinning out the **Watch Folders** from CommandPost and moving them into this app.
 
 ---
 
