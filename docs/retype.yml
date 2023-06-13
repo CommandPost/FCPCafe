@@ -61,6 +61,6 @@ data:
   disneyplus: "[!badge variant=\"secondary\" text=\"Disney+\"]"
   hbo: "[!badge variant=\"secondary\" text=\"HBO\"]"
   imdb: "[!badge variant=\"warning\" target=\"blank\" text=\"IMDB\"]"
-  watch: "[!badge variant=\"dark\" target=\"blank\" text=\"Watch\"]"
+  watch: "[!badge variant=\"info\" target=\"blank\" text=\"Watch\"]"
   website: "[!badge variant=\"dark\" target=\"blank\" text=\"Website\"]"
-  casestudy: "[!badge variant=\"dark\" target=\"blank\" text=\"Case Study\"]"
+  casestudy: "[!badge variant=\"light\" target=\"blank\" text=\"Case Study\"]"
