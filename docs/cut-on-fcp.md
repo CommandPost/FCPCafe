@@ -34,6 +34,7 @@ If there's something missing, [please let us know](/contribute/).
 - Antigang 2 (2023) {{fcpx}} {{disneyplus}}
 - Only The River Flows (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt27590147/)
 - A Song Sung Blue (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt27540911/)
+- The three Investigators - Legacy of the dragon {{fcpx}} {{imdb}}([https://www.imdb.com/title/tt15512578/])
 - Vazhiye (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11304358/)
 - Bem-vinda a Quixeramobim (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18573106/)
 - Vermelho Monet (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11286592/)
