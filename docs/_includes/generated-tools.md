@@ -236,6 +236,10 @@
 
 ---
 
+{{ include "tools/shutter-encoder" }}
+
+---
+
 {{ include "tools/smart-video-splitter" }}
 
 ---
