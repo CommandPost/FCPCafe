@@ -112,12 +112,21 @@ However, to make sure the website is super easy to update and improve, we use [G
 
 For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
 
-- Looks at all the latest news items and generates an [RSS feed](/rss.xml){target="_blank"}
-- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools page](/tools/){target="_blank"}
-- Looks at all the indiviual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates page](/motiontemplates/){target="_blank"}
-- Looks at all the indiviual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions page](/ecosystem/workflowextensions/){target="_blank"}
 
-This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
+- Looks at all the individual **Asset Management** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/asset-management){target="_blank"}, and generates an alphabetical list of them for the [Asset Management](/ecosystem/asset-management/) page.
+- Looks at all the individual **Camera Formats** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/camera-formats){target="_blank"}, and generates an alphabetical list of them for the [Camera Formats](/camera-formats/) page.
+- Looks at all the individual **Tools & Frameworks** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/developer-tools-and-frameworks){target="_blank"}, and generates an alphabetical list of them for the [Tools & Frameworks](/developers/toolsandframeworks/) page.
+- Looks at all the individual **FAQ** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/faq){target="_blank"}, and generates an alphabetical list of them for the [FAQ](/faq/) page.
+- Looks at all the individual **FxPlug** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/fxplug){target="_blank"}, and generates an alphabetical list of them for the [FxPlug](/developers/fxplug/) page.
+- Looks at all the individual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates](/motiontemplates/) page.
+- Looks at all the individual **News** item in [this folder](https://github.com/CommandPost/ResolveCafe/tree/main/docs/_includes/news){target="_blank"}, and generates an alphabetical list of them for the [Latest News](/) page.
+- Looks at all the individual **Plugins** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/plugins){target="_blank"}, and generates an alphabetical list of them for the [Plugins](/ecosystem/plugins/) page.
+- Looks at all the individual **Sponsors** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors){target="_blank"}, and uses them on the [Latest News](/) page.
+- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools](/ecosystem/tools/) page.
+- Looks at all the individual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions](/ecosystem/workflowextensions/) page.
+- Looks at all the **Latest News** items and generates an [RSS feed](/rss.xml){target="_blank"}
+
+This means, if you want to add a Tool, Motion Template, Workflow Extension, News item, etc. you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
 ---
 
