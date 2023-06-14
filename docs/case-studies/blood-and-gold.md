@@ -5,13 +5,17 @@
 **Blood & Gold** premiered on Netflix on Friday May 26th 2023. Fully edited in Final Cut Pro. Directed by Peter Thorwarth and edited by Knut Hake.
 I (Sam Pluemacher) was the Assistant & VFX Editor on this production. If there are any questions please feel free to [reach out](https://sammathis.com/contact-me/){target="_blank"} to me.
 
-To get started, here's a short excerpt from an interview with director Peter Thorwarth about Blood & Gold published on [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"}:  **Once upon a time... a German spaghetti western**  "The origin of "Blood & Gold" goes back to 2006. As you saw with "Blood Red Sky", I can be persistent when it comes to material I really believe in.
+To get started, here's a short excerpt from an interview with director Peter Thorwarth about Blood & Gold published on [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"}:  
+
+**Once upon a time... a German spaghetti western**  
+
+"The origin of "Blood & Gold" goes back to 2006. As you saw with "Blood Red Sky", I can be persistent when it comes to material I really believe in.
 
 This time we shot a lot outside, on real locations. That generally creates more of a mood and a better atmosphere. For our little town of Sonnenberg, we went to Vysluní in the former Sudetenland. The story we're telling could have actually happened there. There is a big neo-Romanesque church there in the center [...] this had been desecrated by the communist government, which gave us the opportunity to really shoot our showdown there. To shoot an homage to the Italo-Western with a shootout in a church has always been my dream. Accordingly, the church was the main reason why we chose Vysluní as the location.
 
 Netflix was the gamechanger for me. They made two dream projects possible for me - both of which I had been trying in vain to get off the ground for more than ten years before that.
 
-*Excerpt from* [*Blickpunkt:Film*](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"}* - Thomas Schultze 25.05.2023 12:48*
+*Excerpt from* [*Blickpunkt:Film*](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"} - Thomas Schultze 25.05.2023 12:48
 
 ---
 
