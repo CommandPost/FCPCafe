@@ -16,7 +16,7 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Awards & Nominations
 
-
+- Tina Mobil (2021) - **_Grimme Preis for best television series_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15475734/)
 - Parasite (2019) - **_Academy Award Nominee for Best Editing – Yang Jin-mo_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6751668/)
 - The Girl with the Dragon Tattoo (2011) {{fcp7}} - **_Academy Award for Best Editing – Kirk Baxter & Angus Wall_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1568346/)
 - The Social Network (2010) - **_Academy Award Winner for Best Editing – Kirk Baxter & Angus Wall_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1285016/)
@@ -212,6 +212,7 @@ If there's something missing, [please let us know](/contribute/).
 - Turn of the Tide (2023) {{netflix}} {{fcpx}} {{casestudy}}(/case-studies/turn-of-the-tide/)
 - Der Schatten (2023) {{ZDFneo}} {{imdb}}(https://www.imdb.com/title/tt27835798/)
 - Q: Into the Storm (2021) {{fcpx}}
+- Tina Mobil (2021) {{fcpx}} {{ARD}} {{imdb}}(https://www.imdb.com/title/tt15475734/)
 - J'ai tué mon mari (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15823312/)
 - BBC Have I Got News For You (2020) {{fcpx}}
 - La Línea: Shadow of Narco (2020) {{fcpx}}
