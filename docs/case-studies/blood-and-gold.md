@@ -1,6 +1,9 @@
 # Blood & Gold
 
-**Blood & Gold** premiered on Netflix on Friday May 26th 2023. Fully edited in Final Cut Pro. Directed by Peter Thorwarth and edited by Knut Hake.
+**Blood & Gold** premiered on Netflix on Friday May 26th 2023. Fully edited in Final Cut Pro.
+
+Directed by Peter Thorwarth and edited by Knut Hake.
+
 I (Sam Pluemacher) was the Assistant & VFX Editor on this production. If there are any questions please feel free to [reach out](https://sammathis.com/contact-me/){target="_blank"} to me.
 
 ![](/static/blood-and-gold-1.jpg)
