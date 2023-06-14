@@ -44,9 +44,12 @@ We considered a [Jellyfish](https://www.lumaforge.com/jellyfish){target="_blank"
 Before shooting started we talked with our post-production supervisor, sound recordist, script supervisor, camera department and DIT on set to align our workflows.
 
 We discuss editing codecs and naming of media files. We usually prefer ProRes 422 LT files because of the excellent quality to size ratio that is suitable for cinema screenings.
+
 It is especially important to make sure they shoot with permanently synced timecode. For the sound files it is important to carry over the iXML information so that FCP can read the correct channel names.
 
-With all of the above set we continue to setup our edit bays and our workflow down this project. *An in-depth version of our workflow can be found here* [*Final Cut Pro Workflow for feature films*](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09){target="_blank"}
+With all of the above set we continue to setup our edit bays and our workflow down this project.
+
+*_An in-depth version of our workflow can be found here: [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09){target="_blank"}_*
 
 ---
 
