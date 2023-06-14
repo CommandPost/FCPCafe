@@ -2,11 +2,7 @@
 
 {{ include "developer-tools-and-frameworks/fxcore" }}
 
----
-
 {{ include "developer-tools-and-frameworks/fxkit" }}
-
----
 
 
 ---
@@ -15,16 +11,12 @@
 
 {{ include "developer-tools-and-frameworks/markersextractor-cli" }}
 
----
-
 
 ---
 
 ## O
 
 {{ include "developer-tools-and-frameworks/opentimelineio" }}
-
----
 
 
 ---
@@ -33,16 +25,12 @@
 
 {{ include "developer-tools-and-frameworks/pipeline" }}
 
----
-
 
 ---
 
 ## S
 
 {{ include "developer-tools-and-frameworks/subtitlekit" }}
-
----
 
 
 ---
@@ -51,12 +39,9 @@
 
 {{ include "developer-tools-and-frameworks/timecodekit" }}
 
----
-
 
 ---
 
 ## V
 
 {{ include "developer-tools-and-frameworks/vuo" }}
-

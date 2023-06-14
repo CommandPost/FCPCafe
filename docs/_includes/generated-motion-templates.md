@@ -2,11 +2,7 @@
 
 {{ include "motion-templates/adjustment-layers" }}
 
----
-
 {{ include "motion-templates/annotator" }}
-
----
 
 
 ---
@@ -15,11 +11,7 @@
 
 {{ include "motion-templates/chris-roy-films" }}
 
----
-
 {{ include "motion-templates/continuum-fcp-looks" }}
-
----
 
 
 ---
@@ -28,15 +20,9 @@
 
 {{ include "motion-templates/fcpeffects" }}
 
----
-
 {{ include "motion-templates/fcpxtemplates-com" }}
 
----
-
 {{ include "motion-templates/fxfactory" }}
-
----
 
 
 ---
@@ -45,8 +31,6 @@
 
 {{ include "motion-templates/lenofx" }}
 
----
-
 
 ---
 
@@ -54,12 +38,9 @@
 
 {{ include "motion-templates/motionvfx" }}
 
----
-
 
 ---
 
 ## P
 
 {{ include "motion-templates/pip-kit" }}
-
