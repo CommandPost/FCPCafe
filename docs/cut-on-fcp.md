@@ -209,7 +209,7 @@ If there's something missing, [please let us know](/contribute/).
 ### Television Series
 
 - Machine (2024) {{fcpx}}
-- Turn of the Tide (2023) {{netflix}} {{fcpx}} {{casestudy}}(/casestudies/turnofthetide/)
+- Turn of the Tide (2023) {{netflix}} {{fcpx}} {{casestudy}}(/case-studies/turn-of-the-tide/)
 - Der Schatten (2023) {{ZDFneo}} {{imdb}}(https://www.imdb.com/title/tt27835798/)
 - Q: Into the Storm (2021) {{fcpx}}
 - J'ai tué mon mari (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15823312/)
