@@ -22,6 +22,8 @@ Thunderbolt connectivity ensures Pro Data works with every computer and every ap
 
 ### OWC LumaForge
 
+![](https://media.owcnow.com/image/upload/w_1400,f_auto,q_auto,dpr_2.0/jellyfish-mobile-23-front)
+
 OWC Jellyfish workflow servers are a family of highly-specialized network attached storage devices that are specifically designed for editors and post-production teams looking to streamline workflow and maximize output.
 
 It's been called, "A giant hard drive your whole team can use." However you describe it, the OWC Jellyfish has become the gold standard for seamless collaboration among creatives.
