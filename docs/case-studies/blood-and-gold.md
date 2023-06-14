@@ -64,7 +64,7 @@ With all of the above set we continue to setup our edit bays and our workflow do
 
 ![](/static/blood-and-gold-3.jpg)
 
-![](blood-and-gold-4.png)
+![](/static/blood-and-gold-4.png)
 
 ---
 
@@ -78,7 +78,7 @@ We use a number of different tools to prepare our shooting days:
 - [**CommandPost**](https://commandpost.io/){target="_blank"} is the Swiss Army Knife for Post Production Professionals. It offers several toolboxes that offer huge time savings. One of which is to create line-by-line keywords:
 "*The* ***Titles to Keywords** toolbox is a huge timesaver when editing complex scenes. Couldn’t live without it anymore. And directors love that every delivery of any line from any take is just one click away!" - Knut Hake -* Additional information can be found in this article [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}
 
-![](blood-and-gold-5.png)
+![](/static/blood-and-gold-5.png)
 
 ---
 
@@ -96,7 +96,7 @@ Here are a few tips for the editing part when working on a Netflix production:
 
 ![](/static/blood-and-gold-7.png)
 
-![](blood-and-gold-8.png)
+![](/static/blood-and-gold-8.png)
 
 ---
 
