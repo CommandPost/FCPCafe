@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740022320084">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740023652501">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.3.740022320084" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740023652501" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740022320084" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740023652501" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740022320084" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740023652501" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -442,12 +442,20 @@
 <p>However, to make sure the website is super easy to update and improve, we use <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a> to &quot;do stuff&quot; to our markdown files whenever we submit a pull request.</p>
 <p>For example, each time you make a pull request, our <a href="https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml" target="_blank">fancy GitHub Action</a> does the following:</p>
 <ul>
-<li>Looks at all the latest news items and generates an <a href="../rss.xml" target="_blank">RSS feed</a></li>
-<li>Looks at all the individual <strong>Tools</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="/tools/" target="_blank">Tools page</a></li>
-<li>Looks at all the indiviual <strong>Motion Templates</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="/motiontemplates/" target="_blank">Motion Templates page</a></li>
-<li>Looks at all the indiviual <strong>Workflow Extensions</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/workflowextensions/" target="_blank">Workflow Extensions page</a></li>
+<li>Looks at all the individual <strong>Asset Management</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/asset-management" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="/ecosystem/asset-management/">Asset Management</a> page.</li>
+<li>Looks at all the individual <strong>Camera Formats</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/camera-formats" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../camera-formats/">Camera Formats</a> page.</li>
+<li>Looks at all the individual <strong>Tools &amp; Frameworks</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/developer-tools-and-frameworks" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../developers/toolsandframeworks/">Tools &amp; Frameworks</a> page.</li>
+<li>Looks at all the individual <strong>FAQ</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/faq" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../faq/">FAQ</a> page.</li>
+<li>Looks at all the individual <strong>FxPlug</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/fxplug" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../developers/fxplug/">FxPlug</a> page.</li>
+<li>Looks at all the individual <strong>Motion Templates</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="/motiontemplates/">Motion Templates</a> page.</li>
+<li>Looks at all the individual <strong>News</strong> item in <a href="https://github.com/CommandPost/ResolveCafe/tree/main/docs/_includes/news" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../">Latest News</a> page.</li>
+<li>Looks at all the individual <strong>Plugins</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/plugins" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/plugins/">Plugins</a> page.</li>
+<li>Looks at all the individual <strong>Sponsors</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors" target="_blank">this folder</a>, and uses them on the <a href="../">Latest News</a> page.</li>
+<li>Looks at all the individual <strong>Tools</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/tools/">Tools</a> page.</li>
+<li>Looks at all the individual <strong>Workflow Extensions</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/workflowextensions/">Workflow Extensions</a> page.</li>
+<li>Looks at all the <strong>Latest News</strong> items and generates an <a href="../rss.xml" target="_blank">RSS feed</a></li>
 </ul>
-<p>This means, if you want to add a Tool, Motion Template, or Workflow Extension, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.</p>
+<p>This means, if you want to add a Tool, Motion Template, Workflow Extension, News item, etc. you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.</p>
 <hr />
 <doc-anchor-target id="how-to-edit-pages">
     <h3>
