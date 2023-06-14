@@ -78,7 +78,7 @@ Final Cut Pro allows users to input and leverage metadata for clips, such as sce
 
 ### Understanding RAM Requirements
 
-One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software's RAM requirements. In particular, running FCP on Apple Silicon - Apple's own line of processors - requires careful consideration.
+One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software's RAM requirements. In particular, running FCP on Apple silicon (Apple's own line of processors) requires careful consideration. As all new Macs now use Apple silicon, it's important to get this right.
 
 ---
 
@@ -116,7 +116,7 @@ While the unified memory architecture in Apple Silicon offers advantages such as
 
 ### Understanding Drive Requirements
 
-In 2023, you should **definitely** be removing slow spinning disks from your workflow entirely.
+In 2023, you should **definitely** be removing slow spinning disks from your editing workflow entirely. (You might still choose to use them for backup.)
 
 ---
 
@@ -159,22 +159,23 @@ While HDDs may be more cost-effective in terms of raw storage space, the speed, 
 
 To keep library sizes as small as possible (which makes backing them up and sharing them easier), we always recommend keeping your media and cache external to the library.
 
-![](../static/storage-location.png)
+Storing your media inside the library is an option for solo editors who do not work collaboratively, but external media offers more power and flexibility.
 
+![](../static/storage-location.png)
 
 ---
 
 ### Library Organisation
 
-Each event in Final Cut Pro is it's own Core Data database.
+Each event in Final Cut Pro is its own Core Data database.
 
 ![](../static/inside-library.png)
 
 You can learn more about the library structure [here](/developers/librarybundle/).
 
-Given this, we recommend splitting up your media into multiple events.
+Given this, we recommend splitting up your media into multiple events, rather than putting all your media in a single event powered by a single database.
 
-We recommend using emoji's to make events easily to quickly visually recognise.
+We recommend using emojis in event names, to differentiate the list of events more clearly.
 
 For example, this is from a **5 x 30min** broadcast television special:
 
@@ -190,7 +191,7 @@ Here's an example of a library for a basic corporate edit:
 
 ![](../static/corporate-edit.png)
 
-If you're working on a very heavy feature film, your current feature length timeline should be in it's own event.
+If you're working on a very heavy feature film, your current feature length timeline should be in its own event.
 
 ---
 
@@ -200,7 +201,7 @@ Snapshots are the devil. You're much better off using something like [PostLab](/
 
 When you duplicate a project as a snapshot, Final Cut Pro embeds copies of compound or multicam “parent” clips in the duplicate, so any changes to other instances of those clips do not affect the duplicate.
 
-Generally speaking, when you're working with a long-form project, all of your media is generally a Multicam Clip (because you're syncing with external audio) - so each time you create a Snapshot you're essentially creating a duplicate of all the clips metadata.
+Generally speaking, when you're working with a long-form project, all of your media is generally a Multicam Clip (because you're syncing with external audio) — so each time you create a Snapshot you're essentially creating a duplicate of all the clips metadata.
 
 When you create a Snapshot, Final Cut Pro generates copies of your used clips and any connected clips, including titles, effects, compound clips, and multicam clips. All of these elements contribute to the overall size of the Snapshot.
 
@@ -248,7 +249,7 @@ Roles in Final Cut Pro allow you to label and organize different types of audio 
 
 ### Keep Regular Backups
 
-Given the scale and importance of feature film projects, it's essential to keep regular backups of your work. Final Cut Pro's built-in backup tool makes this process easy and automatic.
+Given the scale and importance of feature film projects, it's essential to keep regular backups of your work. Final Cut Pro's built-in backup tool makes this process easy and automatic. Backups can be accessed from the File > Open Library > From Backup command, but they can also be found in the Finder, in Home > Movies > Final Cut Backups > LIBRARYNAME.
 
 ----
 
