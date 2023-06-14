@@ -199,10 +199,10 @@ If there's something missing, [please let us know](/contribute/).
 
 ### Television Movies
 
-- Tatort: Hackl (2023) {{ARD}} {{fcp}} {{imdb}}([https://www.imdb.com/title/tt26754816/](https://www.imdb.com/title/tt26754816/?ref_=nm_flmg_eps_tt_1))
-- Tatort: Mord unter Misteln (2022) {{ARD}} {{fcp}} {{imdb}}([https://www.imdb.com/title/tt23873506/](https://www.imdb.com/title/tt23873506/))
-- Tatort: Dreams (2021) {{ARD}} {{fcp}} {{imdb}}([https://www.imdb.com/title/tt15881286/](https://www.imdb.com/title/tt15881286/))
-- Schwartz & Schwartz: Der Tod im Haus (2019) {{ZDF}} {{fcpx}} {{imdb}}([https://www.imdb.com/title/tt9903966/](https://www.imdb.com/title/tt9903966/?ref_=fn_al_tt_1))
+- Tatort: Hackl (2023) {{ARD}} {{fcp}} {{imdb}}(https://www.imdb.com/title/tt26754816/)
+- Tatort: Mord unter Misteln (2022) {{ard}} {{fcp}} {{imdb}}(https://www.imdb.com/title/tt23873506/)
+- Tatort: Dreams (2021) {{ARD}} {{fcp}} {{imdb}}(https://www.imdb.com/title/tt15881286/)
+- Schwartz & Schwartz: Der Tod im Haus (2019) {{zdf}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt9903966/)
 
 ---
 

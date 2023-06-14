@@ -60,6 +60,8 @@ data:
   appletv: "[!badge variant=\"secondary\" text=\"Apple TV\"]"
   disneyplus: "[!badge variant=\"secondary\" text=\"Disney+\"]"
   hbo: "[!badge variant=\"secondary\" text=\"HBO\"]"
+  ard: "[!badge variant=\"secondary\" text=\"ARD\"]"
+  zdf: "[!badge variant=\"secondary\" text=\"ZDF\"]"
   imdb: "[!badge variant=\"warning\" target=\"blank\" text=\"IMDB\"]"
   watch: "[!badge variant=\"info\" target=\"blank\" text=\"Watch\"]"
   website: "[!badge variant=\"dark\" target=\"blank\" text=\"Website\"]"
