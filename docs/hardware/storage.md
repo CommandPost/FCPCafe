@@ -8,9 +8,7 @@ We will be adding reviews and information here in the future.
 
 ### iodyne Pro Data
 
-![](https://iodyne.com/wp-content/uploads/2021/10/1150427-ports.jpg)
-
-![](https://iodyne.com/wp-content/uploads/2021/10/1150466pro-data_svc.jpg)
+![](/static/storage-Iodyne.jpg)
 
 The incredible Pro Data builds on Thunderbolt’s breathtaking speed and daisy-chain expandability, and takes its amazing capabilities to new heights. With a staggering eight full-speed ports, there’s no need to sacrifice peripherals: just connect your displays and other downstream devices to Pro Data, and boost your productivity without losing a single port.
 
@@ -22,7 +20,7 @@ Thunderbolt connectivity ensures Pro Data works with every computer and every ap
 
 ### OWC LumaForge
 
-![](https://media.owcnow.com/image/upload/w_1400,f_auto,q_auto,dpr_2.0/jellyfish-mobile-23-front)
+![](/static/storage-jellyfish.png)
 
 OWC Jellyfish workflow servers are a family of highly-specialized network attached storage devices that are specifically designed for editors and post-production teams looking to streamline workflow and maximize output.
 
@@ -34,7 +32,7 @@ It's been called, "A giant hard drive your whole team can use." However you desc
 
 ### OWC ThunderBay Flex 8
 
-![](https://media.owcnow.com/image/upload/w_600,c_scale,f_auto,q_auto,dpr_2.0/thunderbay-flex-8-hero-right)
+![](/static/storage-thunderbay-flex-8.jpg)
 
 Whether you call it a workflow workhorse, a productivity platform, or a configurable command center, one description of the ThunderBay Flex 8 says it best. It’s a groundbreaking workflow solution for digital imaging, VFX, video production, and video editing professionals from the world’s leading Thunderbolt accessory manufacturer.
 
