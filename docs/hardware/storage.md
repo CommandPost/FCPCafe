@@ -32,6 +32,8 @@ It's been called, "A giant hard drive your whole team can use." However you desc
 
 ### OWC ThunderBay Flex 8
 
+![](https://media.owcnow.com/image/upload/w_600,c_scale,f_auto,q_auto,dpr_2.0/thunderbay-flex-8-hero-right)
+
 Whether you call it a workflow workhorse, a productivity platform, or a configurable command center, one description of the ThunderBay Flex 8 says it best. It’s a groundbreaking workflow solution for digital imaging, VFX, video production, and video editing professionals from the world’s leading Thunderbolt accessory manufacturer.
 
 ThunderBay Flex 8 offers eight drive bays that support a mix of SATA/SAS and U.2/M.2 NVMe drives for up to 172TB of storage capacity. Next, there’s a plethora of ports including two Thunderbolt 3, one USB-C, and two USB-A for device docking and charging.
