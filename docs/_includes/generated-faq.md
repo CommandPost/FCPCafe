@@ -2,15 +2,9 @@
 
 {{ include "faq/animations" }}
 
----
-
 {{ include "faq/audio-editing" }}
 
----
-
 {{ include "faq/audio-levels" }}
-
----
 
 
 ---
@@ -19,8 +13,6 @@
 
 {{ include "faq/backup" }}
 
----
-
 
 ---
 
@@ -28,23 +20,13 @@
 
 {{ include "faq/subtitles" }}
 
----
-
 {{ include "faq/codecs" }}
-
----
 
 {{ include "faq/collaboration" }}
 
----
-
 {{ include "faq/color-grading" }}
 
----
-
 {{ include "faq/hackintosh" }}
-
----
 
 
 ---
@@ -53,15 +35,9 @@
 
 {{ include "faq/improve-speed" }}
 
----
-
 {{ include "faq/effects" }}
 
----
-
 {{ include "faq/export" }}
-
----
 
 
 ---
@@ -70,11 +46,7 @@
 
 {{ include "faq/file-formats" }}
 
----
-
 {{ include "faq/adobe-premiere" }}
-
----
 
 
 ---
@@ -83,11 +55,7 @@
 
 {{ include "faq/4k-8k-editing" }}
 
----
-
 {{ include "faq/how-many-users" }}
-
----
 
 
 ---
@@ -96,11 +64,7 @@
 
 {{ include "faq/key-features" }}
 
----
-
 {{ include "faq/keyboard-shortcuts" }}
-
----
 
 
 ---
@@ -109,8 +73,6 @@
 
 {{ include "faq/libraries" }}
 
----
-
 
 ---
 
@@ -118,15 +80,9 @@
 
 {{ include "faq/cost" }}
 
----
-
 {{ include "faq/motion-tracking" }}
 
----
-
 {{ include "faq/multicam" }}
-
----
 
 
 ---
@@ -135,8 +91,6 @@
 
 {{ include "faq/professional-editing" }}
 
----
-
 
 ---
 
@@ -144,11 +98,7 @@
 
 {{ include "faq/stabilize" }}
 
----
-
 {{ include "faq/system-requirements" }}
-
----
 
 
 ---
@@ -157,15 +107,9 @@
 
 {{ include "faq/third-party-plugins" }}
 
----
-
 {{ include "faq/trial" }}
 
----
-
 {{ include "faq/training" }}
-
----
 
 
 ---
@@ -174,11 +118,7 @@
 
 {{ include "faq/upgrade" }}
 
----
-
 {{ include "faq/interface" }}
-
----
 
 
 ---
@@ -187,8 +127,6 @@
 
 {{ include "faq/vr-360" }}
 
----
-
 
 ---
 
@@ -196,7 +134,4 @@
 
 {{ include "faq/what-is-fcpx" }}
 
----
-
 {{ include "faq/windows" }}
-
