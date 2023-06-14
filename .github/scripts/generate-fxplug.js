@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/fxplug');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-fxplug.md');
+const pageName = 'fxplug';
+const directoryPath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${pageName}`);
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/generated-${pageName}.md`);
 
 try {
     fs.readdir(directoryPath, function (err, files) {
@@ -28,7 +29,7 @@ try {
 
             // If current initial is different from last initial, then add a new section
             if (currentInitial !== lastInitial) {
-                // Don't add '---' for the first section
+                // Add '---' for the new section except the first
                 if (lastInitial !== '') {
                     fileContent += '\n---\n\n';
                 }
@@ -37,11 +38,11 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "fxplug/${fileNameWithoutExtension}" }}\n\n---\n\n`;
+            fileContent += `{{ include "${pageName}/${fileNameWithoutExtension}" }}\n\n`;
         });
 
         // Remove the last extra line and '---'
-        fileContent = fileContent.slice(0, -5);
+        fileContent = fileContent.slice(0, -2);
 
         // Write to the output file
         try {
