@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740040027153">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740047315737">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.3.740040027153" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.740047315737" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.740040027153" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.740047315737" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.740040027153" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.740047315737" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -423,7 +423,7 @@
         <span>Understanding RAM Requirements</span>
     </h3>
 </doc-anchor-target>
-<p>One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software&#x27;s RAM requirements. In particular, running FCP on Apple Silicon - Apple&#x27;s own line of processors - requires careful consideration.</p>
+<p>One crucial aspect of achieving optimal performance with Final Cut Pro revolves around understanding and addressing the software&#x27;s RAM requirements. In particular, running FCP on Apple silicon (Apple&#x27;s own line of processors) requires careful consideration. As all new Macs now use Apple silicon, it&#x27;s important to get this right.</p>
 <hr />
 <p><strong>Apple Silicon and Unified Memory:</strong></p>
 <p>Unlike traditional computer architecture, where the CPU and GPU have separate memory (RAM and VRAM), Apple Silicon uses a unified memory architecture. This means that the CPU and GPU share the same pool of memory. As a result, your RAM has to serve the needs of both processing and graphics tasks.</p>
@@ -458,7 +458,7 @@
         <span>Understanding Drive Requirements</span>
     </h3>
 </doc-anchor-target>
-<p>In 2023, you should <strong>definitely</strong> be removing slow spinning disks from your workflow entirely.</p>
+<p>In 2023, you should <strong>definitely</strong> be removing slow spinning disks from your editing workflow entirely. (You might still choose to use them for backup.)</p>
 <hr />
 <p><strong>Choosing the Right Storage for Final Cut Pro: SSDs Over Spinning Disks:</strong></p>
 <p>An often underappreciated factor that can significantly impact your video editing workflow is the type of storage you use. When it comes to editing in Final Cut Pro, especially long-form feature film editing, opting for a Solid State Drive (SSD) over a traditional Hard Disk Drive (HDD) can make a significant difference.</p>
@@ -491,6 +491,7 @@
     </h3>
 </doc-anchor-target>
 <p>To keep library sizes as small as possible (which makes backing them up and sharing them easier), we always recommend keeping your media and cache external to the library.</p>
+<p>Storing your media inside the library is an option for solo editors who do not work collaboratively, but external media offers more power and flexibility.</p>
 <p><figure class="content-center">
     <img src="../../static/storage-location.png" alt="" />
     <figcaption class="caption"></figcaption>
@@ -503,15 +504,15 @@
         <span>Library Organisation</span>
     </h3>
 </doc-anchor-target>
-<p>Each event in Final Cut Pro is it&#x27;s own Core Data database.</p>
+<p>Each event in Final Cut Pro is its own Core Data database.</p>
 <p><figure class="content-center">
     <img src="../../static/inside-library.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can learn more about the library structure <a href="../../developers/librarybundle/">here</a>.</p>
-<p>Given this, we recommend splitting up your media into multiple events.</p>
-<p>We recommend using emoji&#x27;s to make events easily to quickly visually recognise.</p>
+<p>Given this, we recommend splitting up your media into multiple events, rather than putting all your media in a single event powered by a single database.</p>
+<p>We recommend using emojis in event names, to differentiate the list of events more clearly.</p>
 <p>For example, this is from a <strong>5 x 30min</strong> broadcast television special:</p>
 <p><figure class="content-center">
     <img src="../../static/list-of-events.jpeg" alt="" />
@@ -531,7 +532,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>If you&#x27;re working on a very heavy feature film, your current feature length timeline should be in it&#x27;s own event.</p>
+<p>If you&#x27;re working on a very heavy feature film, your current feature length timeline should be in its own event.</p>
 <hr />
 <doc-anchor-target id="avoid-snapshots">
     <h3>
@@ -541,7 +542,7 @@
 </doc-anchor-target>
 <p>Snapshots are the devil. You&#x27;re much better off using something like <a href="../../ecosystem/tools/#postlab">PostLab</a>.</p>
 <p>When you duplicate a project as a snapshot, Final Cut Pro embeds copies of compound or multicam “parent” clips in the duplicate, so any changes to other instances of those clips do not affect the duplicate.</p>
-<p>Generally speaking, when you&#x27;re working with a long-form project, all of your media is generally a Multicam Clip (because you&#x27;re syncing with external audio) - so each time you create a Snapshot you&#x27;re essentially creating a duplicate of all the clips metadata.</p>
+<p>Generally speaking, when you&#x27;re working with a long-form project, all of your media is generally a Multicam Clip (because you&#x27;re syncing with external audio) — so each time you create a Snapshot you&#x27;re essentially creating a duplicate of all the clips metadata.</p>
 <p>When you create a Snapshot, Final Cut Pro generates copies of your used clips and any connected clips, including titles, effects, compound clips, and multicam clips. All of these elements contribute to the overall size of the Snapshot.</p>
 <p>While Snapshots can be a valuable tool for preserving your project&#x27;s state at a specific point in time, excessive use can have a significant impact on your library size and performance. This can in turn affect Final Cut Pro&#x27;s performance.</p>
 <p>An overly large Final Cut Pro library can lead to several issues:</p>
@@ -598,7 +599,7 @@
         <span>Keep Regular Backups</span>
     </h3>
 </doc-anchor-target>
-<p>Given the scale and importance of feature film projects, it&#x27;s essential to keep regular backups of your work. Final Cut Pro&#x27;s built-in backup tool makes this process easy and automatic.</p>
+<p>Given the scale and importance of feature film projects, it&#x27;s essential to keep regular backups of your work. Final Cut Pro&#x27;s built-in backup tool makes this process easy and automatic. Backups can be accessed from the File &gt; Open Library &gt; From Backup command, but they can also be found in the Finder, in Home &gt; Movies &gt; Final Cut Backups &gt; LIBRARYNAME.</p>
 <hr />
 <doc-anchor-target id="conclusion">
     <h3>
