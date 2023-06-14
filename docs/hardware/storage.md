@@ -46,6 +46,16 @@ ThunderBay Flex 8 is the one Thunderbolt 3 desktop device that rules them all. W
 
 ---
 
+### PROMISE Pegasus3 Series
+
+![](/static/storage-promise-pegasus3.jpg)
+
+Pegasus3 Series with Thunderbolt™ 3 technology delivers incredible speed and performance for HD and 4K video editing, creative workflow with ease of use and performance optimization.
+
+[!button text="Visit Website" target="blank" variant="info"](https://www.promise.com/Products/Pegasus/Pegasus3-Series)
+
+---
+
 !!!
 Want to contribute or add your hardware? [Learn more here!](/contribute/)
 !!!
