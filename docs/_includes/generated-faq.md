@@ -1,12 +1,3 @@
-##  
-
-{{ include "faq/collaboration" }}
-
----
-
-
----
-
 ## A
 
 {{ include "faq/animations" }}
@@ -40,6 +31,10 @@
 ---
 
 {{ include "faq/codecs" }}
+
+---
+
+{{ include "faq/collaboration" }}
 
 ---
 
