@@ -132,16 +132,18 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install rss markdown-it feedparser deep-equal glob
+        run: npm install rss markdown-it feedparser-promised deep-equal glob cheerio
 
       - name: Generate RSS Feed
-        run: node .github/scripts/generate-rss.js
+        run: node .github/scripts/generate-rss.js || echo "An error occurred. See the stack trace above for more details."
 
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git stash
           git pull --rebase origin main
+          git stash pop
           if git diff --exit-code --quiet docs/rss.xml; then
             echo "No changes to commit"
           else
@@ -187,9 +189,18 @@ jobs:
         with:
           ref: retype
 
+      - name: Pull latest changes from retype branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull origin retype
+
       - name: Copy rss.xml from the temporary location to retype branch
         run: |
           cp /tmp/rss.xml ./rss.xml
+
+      - name: Commit and push if it's necessary
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add rss.xml
