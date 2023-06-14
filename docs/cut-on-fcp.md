@@ -43,7 +43,7 @@ If there's something missing, [please let us know](/contribute/).
 - The Sunny Side Of The Street (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18280126/)
 - Blood Red Sky (2021) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6402468/) {{casestudy}}(https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-3)
 - Gaia (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11881160/)
-- The Colony (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6506264/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_tides)
+- The Colony (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6506264/)
 - L'Invitation (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14909468/)
 - Ripples Of Life (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13736078/)
 - The Business of Christmas 2 (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14662334/)
@@ -203,33 +203,33 @@ If there's something missing, [please let us know](/contribute/).
 - Turn of the Tide (2023) {{netflix}} {{fcpx}} {{casestudy}}(/casestudies/turnofthetide/)
 - Der Schatten (2023) {{ZDFneo}} {{imdb}}(https://www.imdb.com/title/tt27835798/)
 - Q: Into the Storm (2021) {{fcpx}}
-- J'ai tué mon mari (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15823312/?ref_=nm_flmg_unrel_2_edt)
+- J'ai tué mon mari (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15823312/)
 - BBC Have I Got News For You (2020) {{fcpx}}
 - La Línea: Shadow of Narco (2020) {{fcpx}}
-- Moah (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13206854/?ref_=nm_flmg_t_9_edt)
+- Moah (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13206854/)
 - Apollo: Missions to the Moon (2019) {{fcpx}}
 - Matchday: Inside FC Barcelona (2019) {{fcpx}}
 - Salvados (2019) {{fcpx}}
-- Marianne (2019) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10875696/?ref_=nm_flmg_t_13_edt)
-- Trauma (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11139828/?ref_=nm_flmg_unrel_1_edt)
+- Marianne (2019) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10875696/)
+- Trauma (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11139828/)
 - Students on the Edge (2018) {{fcpx}}
 - La Peste (2018) {{fcpx}}
 - Dogs Of Berlin (2018) {{fcpx}}
 - Conquistadores Adventum (2017) {{fcpx}}
 - Diana: In Her Own Words (2017) {{fcpx}}
-- Missions (2017-2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6445112/?ref_=nm_flmg_t_9_edt)
+- Missions (2017-2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6445112/)
 - Challenger Disaster: Lost Tapes (2016) {{fcpx}}
 - Rebellion (2016) {{fcpx}}
 - Sex on the Edge (2016) {{fcpx}}
-- T.A.N.K. (2016-2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8710332/?ref_=nm_flmg_t_14_edt)
-- Les Grands (2016-2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6340430/?ref_=nm_flmg_t_12_edt)
+- T.A.N.K. (2016-2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8710332/)
+- Les Grands (2016-2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6340430/)
 - O.J. Speaks: The Hidden Tapes (2015) {{fcpx}}
 - Paramedics: Emergency Response (2015) {{fcpx}}
 - BBC News (2014) {{fcpx}}
 - Drag Queens of London (2014) {{fcpx}}
 - George to the Rescue (2013) {{fcpx}}
 - The Hong Kong Affair (2013) {{fcpx}}
-- Lazy Company (2013-2015) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt2497358/?ref_=nm_flmg_t_19_edt)
+- Lazy Company (2013-2015) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt2497358/)
 - Trailer Park Boys (2012) {{fcpx}}
 - Leverage (2012) {{fcpx}}
 
@@ -253,14 +253,14 @@ If there's something missing, [please let us know](/contribute/).
 ## Short Films
 
 - Le Coffre (2023) {{fcpx}}
-- Dans les bois: L'orée (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5421280/?ref_=nm_flmg_t_1_edt)
-- Hajimé (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13667718/?ref_=nm_flmg_t_6_edt)
+- Dans les bois: L'orée (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5421280/)
+- Hajimé (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13667718/)
 - Goblin Spoon (2020) {{fcpx}} {{website}}(https://latenitefilms.com/originals/goblin-spoon/)
-- Life After: A Story of Unexpected Friendships & Random Sh*tstorms (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13028546/?ref_=nm_flmg_t_10_edt)
+- Life After: A Story of Unexpected Friendships & Random Sh*tstorms (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13028546/)
 - Thariode (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8593946/)
-- EZK: Beyond the Walls (EZK: Au-dela des Murs) (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8994292/?ref_=nm_flmg_t_11_edt)
-- Detour (2016) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6185616/?ref_=nm_flmg_t_18_edt)
-- Les vivants (2014) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt3599620/?ref_=nm_flmg_t_20_edt)
+- EZK: Beyond the Walls (EZK: Au-dela des Murs) (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8994292/)
+- Detour (2016) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6185616/)
+- Les vivants (2014) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt3599620/)
 
 ---
 
