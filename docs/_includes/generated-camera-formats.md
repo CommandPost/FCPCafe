@@ -2,8 +2,6 @@
 
 {{ include "camera-formats/braw-toolbox" }}
 
----
-
 
 ---
 
@@ -11,12 +9,9 @@
 
 {{ include "camera-formats/canon-raw-plugin" }}
 
----
-
 
 ---
 
 ## R
 
 {{ include "camera-formats/redcode-raw" }}
-
