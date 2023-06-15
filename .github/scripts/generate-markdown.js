@@ -17,7 +17,7 @@ try {
         // Sort files array to guarantee alphabetical order
         files.sort();
 
-        files.forEach(function (file) {
+        files.forEach(function (file, index) {
             // Ignore if not a markdown file
             if(path.extname(file) !== '.md') return;
 
@@ -39,10 +39,15 @@ try {
             }
 
             fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n\n`;
+
+            // Add '---' separator if not the last file in the array
+            if (index !== files.length - 1) {
+                fileContent += '---\n\n';
+            }
         });
 
-        // Remove the last extra line and '---'
-        fileContent = fileContent.slice(0, -2);
+        // Remove the last extra lines and '---'
+        fileContent = fileContent.replace(/\n\n---\n\n$/, '\n');
 
         // Write to the output file
         try {
