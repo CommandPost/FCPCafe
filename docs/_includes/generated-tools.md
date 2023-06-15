@@ -56,6 +56,10 @@
 
 {{ include "tools/edl-x" }}
 
+{{ include "tools/evrexpanse" }}
+
+{{ include "tools/evrx" }}
+
 
 ---
 
