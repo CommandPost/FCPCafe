@@ -38,16 +38,21 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n\n`;
+            fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n`;
 
-            // Add '---' separator if not the last file in the array
+            // Add '---' separator if the next file is not of the same initial
             if (index !== files.length - 1) {
-                fileContent += '---\n\n';
+                const nextFileNameWithoutExtension = path.parse(files[index+1]).name;
+                const nextInitial = nextFileNameWithoutExtension.charAt(0).toUpperCase();
+
+                if (currentInitial === nextInitial) {
+                    fileContent += '\n---\n\n';
+                }
             }
         });
 
-        // Remove the last extra lines and '---'
-        fileContent = fileContent.replace(/\n\n---\n\n$/, '\n');
+        // Remove the last extra lines
+        fileContent = fileContent.replace(/\n$/, '');
 
         // Write to the output file
         try {
