@@ -8,9 +8,6 @@
 
 ---
 
-
----
-
 ## C
 
 {{ include "motion-templates/chris-roy-films" }}
@@ -18,9 +15,6 @@
 ---
 
 {{ include "motion-templates/continuum-fcp-looks" }}
-
----
-
 
 ---
 
@@ -38,15 +32,9 @@
 
 ---
 
-
----
-
 ## L
 
 {{ include "motion-templates/lenofx" }}
-
----
-
 
 ---
 
@@ -56,10 +44,6 @@
 
 ---
 
-
----
-
 ## P
 
 {{ include "motion-templates/pip-kit" }}
-

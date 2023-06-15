@@ -4,24 +4,15 @@
 
 ---
 
-
----
-
 ## B
 
 {{ include "workflow-extensions/braw-toolbox" }}
 
 ---
 
-
----
-
 ## D
 
 {{ include "workflow-extensions/dawbridge" }}
-
----
-
 
 ---
 
@@ -35,15 +26,9 @@
 
 ---
 
-
----
-
 ## G
 
 {{ include "workflow-extensions/gyroflow-toolbox" }}
-
----
-
 
 ---
 
@@ -57,9 +42,6 @@
 
 ---
 
-
----
-
 ## R
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
@@ -70,9 +52,6 @@
 
 ---
 
-
----
-
 ## S
 
 {{ include "workflow-extensions/shutterstock" }}
@@ -80,4 +59,3 @@
 ---
 
 {{ include "workflow-extensions/simon-says" }}
-

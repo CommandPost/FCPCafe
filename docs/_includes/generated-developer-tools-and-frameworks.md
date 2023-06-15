@@ -8,15 +8,9 @@
 
 ---
 
-
----
-
 ## M
 
 {{ include "developer-tools-and-frameworks/markersextractor-cli" }}
-
----
-
 
 ---
 
@@ -26,15 +20,9 @@
 
 ---
 
-
----
-
 ## P
 
 {{ include "developer-tools-and-frameworks/pipeline" }}
-
----
-
 
 ---
 
@@ -44,19 +32,12 @@
 
 ---
 
-
----
-
 ## T
 
 {{ include "developer-tools-and-frameworks/timecodekit" }}
 
 ---
 
-
----
-
 ## V
 
 {{ include "developer-tools-and-frameworks/vuo" }}
-

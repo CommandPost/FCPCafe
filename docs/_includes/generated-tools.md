@@ -8,9 +8,6 @@
 
 ---
 
-
----
-
 ## B
 
 {{ include "tools/backups-for-final-cut-pro" }}
@@ -18,9 +15,6 @@
 ---
 
 {{ include "tools/beatmark-pro" }}
-
----
-
 
 ---
 
@@ -66,15 +60,9 @@
 
 ---
 
-
----
-
 ## D
 
 {{ include "tools/detail-video-studio" }}
-
----
-
 
 ---
 
@@ -97,9 +85,6 @@
 ---
 
 {{ include "tools/evrx" }}
-
----
-
 
 ---
 
@@ -145,15 +130,9 @@
 
 ---
 
-
----
-
 ## K
 
 {{ include "tools/keyclips" }}
-
----
-
 
 ---
 
@@ -167,24 +146,15 @@
 
 ---
 
-
----
-
 ## N
 
 {{ include "tools/neofinder" }}
 
 ---
 
-
----
-
 ## O
 
 {{ include "tools/offshoot" }}
-
----
-
 
 ---
 
@@ -218,15 +188,9 @@
 
 ---
 
-
----
-
 ## R
 
 {{ include "tools/reference-x" }}
-
----
-
 
 ---
 
@@ -268,24 +232,15 @@
 
 ---
 
-
----
-
 ## T
 
 {{ include "tools/transfer-toolbox" }}
 
 ---
 
-
----
-
 ## U
 
 {{ include "tools/ulti-media-converter-2" }}
-
----
-
 
 ---
 
@@ -304,4 +259,3 @@
 ---
 
 {{ include "tools/xtocc" }}
-

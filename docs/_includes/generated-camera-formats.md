@@ -4,19 +4,12 @@
 
 ---
 
-
----
-
 ## C
 
 {{ include "camera-formats/canon-raw-plugin" }}
 
 ---
 
-
----
-
 ## R
 
 {{ include "camera-formats/redcode-raw" }}
-
