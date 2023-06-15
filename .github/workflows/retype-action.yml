@@ -40,65 +40,54 @@ jobs:
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-wishlist.js
 
-      - name: Generate Workflow Extensions Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-workflow-extensions.js
-
-      - name: Generate Tools Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-tools.js
-
-      - name: Generate Plugins Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-plugins.js
-
-      - name: Generate Motion Templates Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-motion-templates.js
-
       - name: Generate FAQ Markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-faq.js
 
+      - name: Generate Latest News Markdown
+        run: node .github/scripts/generate-latest-news.js
+
+      - name: Generate Workflow Extensions Markdown
+        env:
+          PAGE_NAME: "workflow-extensions"
+        run: node .github/scripts/generate-markdown.js
+
+      - name: Generate Tools Markdown
+        env:
+          PAGE_NAME: "tools"
+        run: node .github/scripts/generate-markdown.js
+
+      - name: Generate Plugins Markdown
+        env:
+          PAGE_NAME: "plugins"
+        run: node .github/scripts/generate-markdown.js
+
+      - name: Generate Motion Templates Markdown
+        env:
+          PAGE_NAME: "motion-templates"
+        run: node .github/scripts/generate-markdown.js
+
       - name: Generate Camera Formats Markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-camera-formats.js
+          PAGE_NAME: "camera-formats"
+        run: node .github/scripts/generate-markdown.js
 
       - name: Generate Asset Management Markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-asset-management.js
+          PAGE_NAME: "asset-management"
+        run: node .github/scripts/generate-markdown.js
 
       - name: Generate Developer Tools & Frameworks Markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-developer-tools-and-frameworks.js
+          PAGE_NAME: "developer-tools-and-frameworks"
+        run: node .github/scripts/generate-markdown.js
 
       - name: Generate FxPlug Markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-fxplug.js
-
-      - name: Generate Latest News Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_NAME: ${{ github.repository }}
-        run: node .github/scripts/generate-latest-news.js
+          PAGE_NAME: "fxplug"
+        run: node .github/scripts/generate-markdown.js
 
       - name: Commit and push if it's necessary
         run: |
