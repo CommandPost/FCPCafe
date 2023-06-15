@@ -1,3 +1,4 @@
+- [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189){target="_blank"}
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133){target="_blank"}
 - [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119){target="_blank"}
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110){target="_blank"}
