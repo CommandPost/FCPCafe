@@ -1,3 +1,4 @@
+- [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190){target="_blank"}
 - [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189){target="_blank"}
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133){target="_blank"}
 - [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119){target="_blank"}
@@ -27,4 +28,3 @@
 - [Final Cut Pro 10.6 renders light in Motion Templates slightly differently than in 10.5.4 (October 22, 2021)](https://github.com/CommandPost/FCPCafe/issues/65){target="_blank"}
 - [Final Cut Pro 10.6 has issues with AC3 Encoded Audio (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/63){target="_blank"}
 - [Final Cut Pro 10.6 won't import FCPXML with certain region settings (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/62){target="_blank"}
-- [Crash - Video Tracker Controller Deallocation (October 19, 2021)](https://github.com/CommandPost/FCPCafe/issues/61){target="_blank"}
