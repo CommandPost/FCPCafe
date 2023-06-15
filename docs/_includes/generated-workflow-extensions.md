@@ -2,12 +2,16 @@
 
 {{ include "workflow-extensions/alteon" }}
 
+---
+
 
 ---
 
 ## B
 
 {{ include "workflow-extensions/braw-toolbox" }}
+
+---
 
 
 ---
@@ -16,6 +20,8 @@
 
 {{ include "workflow-extensions/dawbridge" }}
 
+---
+
 
 ---
 
@@ -23,7 +29,11 @@
 
 {{ include "workflow-extensions/fontauditionx" }}
 
+---
+
 {{ include "workflow-extensions/frameio" }}
+
+---
 
 
 ---
@@ -32,6 +42,8 @@
 
 {{ include "workflow-extensions/gyroflow-toolbox" }}
 
+---
+
 
 ---
 
@@ -39,7 +51,11 @@
 
 {{ include "workflow-extensions/marker-toolbox" }}
 
+---
+
 {{ include "workflow-extensions/media-sync-tool" }}
+
+---
 
 
 ---
@@ -48,7 +64,11 @@
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
 
+---
+
 {{ include "workflow-extensions/recall-toolbox" }}
+
+---
 
 
 ---
@@ -57,4 +77,7 @@
 
 {{ include "workflow-extensions/shutterstock" }}
 
+---
+
 {{ include "workflow-extensions/simon-says" }}
+
