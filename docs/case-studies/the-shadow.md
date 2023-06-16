@@ -282,4 +282,4 @@ Follow Florian here:
 
 ## Poster
 
-![](the-shadow-poster.jpg)
+![](/static/the-shadow-poster.jpg)
