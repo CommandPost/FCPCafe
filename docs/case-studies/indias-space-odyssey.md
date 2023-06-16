@@ -1,6 +1,10 @@
 # India’s Space Odyssey
 
-India’s Space Odyssey, the science documentary produced by Miditech Studios for Warner Bros. Discovery/Discovery+ India released in October, 2021. It is special in one of many ways, i.e. it was edited completely on the Final Cut Pro X while pandemic regulations also being around. It is Directed by Pria Somiah and Edited by Palok Singh.
+India’s Space Odyssey, the science documentary produced by Miditech Studios for Warner Bros. Discovery/Discovery+ India released in October, 2021.
+
+It is special in one of many ways, i.e. it was edited completely on the Final Cut Pro X while pandemic regulations also being around.
+
+It is Directed by **Pria Somiah** and Edited by **Palok Singh**.
 
 ---
 
