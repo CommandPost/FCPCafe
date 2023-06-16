@@ -26,7 +26,7 @@ You can watch the show [here](https://www.zdf.de/serien/der-schatten){target="_b
 
 ## Stats
 
-> 6 x 45min Television Series<br />
+> **6 x 45min Television Series**<br />
 > 53 shooting days, 174 shifts of editing, 29 days / episode<br />
 > 89 hours of footage, 3946 Video Clips, 3491 Audio Clips<br />
 > 6 main FCP-Libraries, one per episode
@@ -55,12 +55,12 @@ You can watch the show [here](https://www.zdf.de/serien/der-schatten){target="_b
 >
 > **Tools Used:**
 > - Final Cut Pro 10.6.4
-> - [Sync-N-Link](/ecosystem/tools/#sync-n-link-x)- creating Sync Clips with Metadata
-> - [CommandPost](/ecosystem/tools/#commandpost)- using**Titles to Keywords**for line-by-lines
-> - [Notion](https://www.notion.so/){target="_blank"}- to build a digital bulletin board, one scene = one card
-> - [PostLab](/ecosystem/tools#postlab)- collaborating in 6 libraries on 4 workstations in 3 cities
-> - [X2Pro](/ecosystem/tools/#x2pro)- send Audio to Soundpost ([Sleepwalker](http://www.sleepwalker.cz/){target="_blank"})
-> - [Producers Best Friend](/ecosystem/tools/#producers-best-friend)- creating lists (ADR, VFX, Music, DI, Motion Design)
+> - [Sync-N-Link](/ecosystem/tools/#sync-n-link-x) - _Creating Sync Clips with Metadata_
+> - [CommandPost](/ecosystem/tools/#commandpost) - _Using **Titles to Keywords** for line-by-lines_
+> - [Notion](https://www.notion.so/){target="_blank"} - _To build a digital bulletin board, one scene = one card_
+> - [PostLab](/ecosystem/tools#postlab) - _Collaborating in 6 libraries on 4 workstations in 3 cities_
+> - [X2Pro](/ecosystem/tools/#x2pro) - _Send Audio to Soundpost ([Sleepwalker](http://www.sleepwalker.cz/){target="_blank"})_
+> - [Producers Best Friend](/ecosystem/tools/#producers-best-friend) - _Creating lists (ADR, VFX, Music, DI, Motion Design)_
 
 ---
 
