@@ -4,9 +4,15 @@
 
 ---
 
+
+---
+
 ## B
 
 {{ include "workflow-extensions/braw-toolbox" }}
+
+---
+
 
 ---
 
@@ -16,13 +22,16 @@
 
 ---
 
-## F
-
-{{ include "workflow-extensions/fontauditionx" }}
 
 ---
 
+## F
+
+{{ include "workflow-extensions/fontauditionx" }}
 {{ include "workflow-extensions/frameio" }}
+
+---
+
 
 ---
 
@@ -32,30 +41,30 @@
 
 ---
 
-## M
-
-{{ include "workflow-extensions/marker-toolbox" }}
 
 ---
 
+## M
+
+{{ include "workflow-extensions/marker-toolbox" }}
 {{ include "workflow-extensions/media-sync-tool" }}
+
+---
+
 
 ---
 
 ## R
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
+{{ include "workflow-extensions/recall-toolbox" }}
 
 ---
 
-{{ include "workflow-extensions/recall-toolbox" }}
 
 ---
 
 ## S
 
 {{ include "workflow-extensions/shutterstock" }}
-
----
-
 {{ include "workflow-extensions/simon-says" }}
