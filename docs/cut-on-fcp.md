@@ -35,6 +35,7 @@ If there's something missing, [please let us know](/contribute/).
 - Only The River Flows (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt27590147/)
 - A Song Sung Blue (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt27540911/)
 - The Three Investigators - Legacy of the dragon (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15512578/)
+- Autobiography (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt21372280/)
 - Vazhiye (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11304358/)
 - Bem-vinda a Quixeramobim (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18573106/)
 - Vermelho Monet (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11286592/)
@@ -42,12 +43,17 @@ If there's something missing, [please let us know](/contribute/).
 - Where The Wind Blows (2022) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6902394/)
 - The Last Queen (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18039808/)
 - The Sunny Side Of The Street (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18280126/)
+- Photocopier (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13729220/)
+- Death Knot (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14892248/)
+- One Night Stand (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15788948/)
 - Blood Red Sky (2021) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6402468/) {{casestudy}}(https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-3)
 - Gaia (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11881160/)
 - The Colony (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6506264/)
 - L'Invitation (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14909468/)
 - Ripples Of Life (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13736078/)
 - The Business of Christmas 2 (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14662334/)
+- The Portait of a Nightmare (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11853706/)
+- May the Devil Take You Two (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10776270/)
 - Isi & Ossi (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt9806322/)
 - La leyenda negra (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10313748/)
 - Boszorkányház (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10345858/)
@@ -57,6 +63,8 @@ If there's something missing, [please let us know](/contribute/).
 - Faith Based (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10260692/)
 - The Banker (2020) {{appletv}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6285944/) {{casestudy}}(https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-5)
 - The Best Is Yet To Come (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11564218/)
+- Homecoming (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11289634/)
+- The Science of Fictions (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10652934/)
 - Chasing Molly (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10149868/)
 - Headlock / Against the Clock (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt3813094/)
 - Psychosynthesis (2019) {{fcpx}}
@@ -65,6 +73,7 @@ If there's something missing, [please let us know](/contribute/).
 - Let's Dance (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8599746/)
 - Relativity (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6586090/)
 - The Wild Goose Lake (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt9647768/)
+- Arini (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8077382/)
 - Shadows on the Road (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7391194/)
 - The Isle (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5075662/)
 - Dantza (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt9057168/)
@@ -73,6 +82,7 @@ If there's something missing, [please let us know](/contribute/).
 - Brothers' Nest (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7263664/)
 - Demi-soeurs (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7195416/)
 - Cine Holliúdy 2: A Chibata Sideral (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7247512/)
+- The Carousel Never Stops Turning (2017) {{imdb}}(https://www.imdb.com/title/tt6966554/)
 - Luna (2017) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5089068/)
 - Unhinged (2017) {{fcpx}}
 - Sleep Has Her House (2017) {{fcpx}}
@@ -212,6 +222,7 @@ If there's something missing, [please let us know](/contribute/).
 - Machine (2024) {{fcpx}}
 - Turn of the Tide (2023) {{netflix}} {{fcpx}} {{casestudy}}(/case-studies/turn-of-the-tide/)
 - Der Schatten (2023) {{ZDFneo}} {{imdb}}(https://www.imdb.com/title/tt27835798/)
+- Detektif Soleh (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13938790/)
 - Q: Into the Storm (2021) {{fcpx}}
 - Tina Mobil (2021) {{fcpx}} {{ARD}} {{imdb}}(https://www.imdb.com/title/tt15475734/)
 - J'ai tué mon mari (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15823312/)
