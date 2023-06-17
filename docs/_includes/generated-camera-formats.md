@@ -1,12 +1,18 @@
-## B
+## {
 
 {{ include "camera-formats/braw-toolbox" }}
+
+---
+
 
 ---
 
 ## C
 
 {{ include "camera-formats/canon-raw-plugin" }}
+
+---
+
 
 ---
 

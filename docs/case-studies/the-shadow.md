@@ -76,7 +76,7 @@ Main post-production was handled in Prague. Rough-cut was done in 3 different Ge
 
 ## How hard was it to get FCP approved?
 
-Not that hard. In this case the director, Nina Vukovic, knew and liked FCP - so the Production quickly agreed to my editing concept. Additionally I can point to half a dozen major projects Ive done so far on Final Cut Pro.
+Not that hard. In this case the director, Nina Vukovic, knew and liked FCP - so the Production quickly agreed to my editing concept. Additionally I can point to half a dozen major projects I have done so far on Final Cut Pro.
 
 But of course, since FCP is not as common as Avid MC in the industry, it always takes a little bit of convincing of every department to approve such a workflow. And its essential to have well-trained Assistant Editors. Fortunately, for AEs, its easy to switch to FCP. If you already are an experienced Assistant, the basics can be learned in two days, with a little remote support over the following week.
 Whats also true: if you dont have a post-production facility that knows FCP to their heart, its my responsibility as Head of Editing to be informed of the entire workflow. I have to guarantee that it will work and I have to fix it when it doesn't. Thats a burden Ill gladly carry, because the maintenance of the FCP ecosystem is way more easy to handle than for example Media Composer. And I have a solid international community to back me.
@@ -116,7 +116,7 @@ At this stage, it's a proven and constantly improved workflow.
 - Downloads Masterfiles on local drive
 - Creates Sync Clips with Sync-N-Link (+ Audio Metadata import)
 - Further adjustments in FCP (markers, notes from Script Supervisor)
-- Creates parts in FCP via [CommandPost](/ecosystem/tools/#commandpost)s **Titles to Keywords**
+- Creates parts in FCP via [CommandPost](/ecosystem/tools/#commandpost)'s **Titles to Keywords**
 - Moves every Masterclips into each episode-library.
 - Populates scene-Events with Sync Clips and moves them into dedicated episode.
 - Updates Notion database with necessary information for the shooting day

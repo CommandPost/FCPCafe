@@ -1,10 +1,10 @@
 ## A
 
 {{ include "motion-templates/adjustment-layers" }}
+{{ include "motion-templates/annotator" }}
 
 ---
 
-{{ include "motion-templates/annotator" }}
 
 ---
 
@@ -14,27 +14,36 @@
 
 ---
 
-## C
-
-{{ include "motion-templates/chris-roy-films" }}
 
 ---
 
+## C
+
+{{ include "motion-templates/chris-roy-films" }}
 {{ include "motion-templates/continuum-fcp-looks" }}
+
+---
+
+
+---
+
+## D
+
+{{ include "motion-templates/the-final-cut-pro-bro" }}
+
+---
+
 
 ---
 
 ## F
 
 {{ include "motion-templates/fcpeffects" }}
-
----
-
 {{ include "motion-templates/fcpxtemplates-com" }}
+{{ include "motion-templates/fxfactory" }}
 
 ---
 
-{{ include "motion-templates/fxfactory" }}
 
 ---
 
@@ -44,18 +53,18 @@
 
 ---
 
+
+---
+
 ## M
 
 {{ include "motion-templates/motionvfx" }}
 
 ---
 
-## P
-
-{{ include "motion-templates/pip-kit" }}
 
 ---
 
-## T
+## P
 
-{{ include "motion-templates/the-final-cut-pro-bro" }}
+{{ include "motion-templates/pip-kit" }}
