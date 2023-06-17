@@ -6,62 +6,68 @@ const directoryPath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${
 const outputFile = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/generated-${PAGE_NAME}.md`);
 
 try {
-    fs.readdir(directoryPath, function (err, files) {
-        if (err) {
-            throw new Error('Unable to scan directory: ' + err);
+    const files = fs.readdirSync(directoryPath);
+    if (!files.length) {
+        console.log(`No files found in the directory ${directoryPath}`);
+    }
+
+    let fileContent = '';
+    let lastInitial = '';
+
+    // Map files to an array of objects containing file name and first line
+    let fileList = [];
+    for (const file of files) {
+        // Ignore if not a markdown file
+        if(path.extname(file) !== '.md') {
+            console.log(`Ignoring non-markdown file: ${file}`);
+            continue;
         }
 
-        let fileContent = '';
-        let lastInitial = '';
+        const filePath = path.join(directoryPath, file);
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const firstLineWithoutHashes = fileContent.split('\n')[0].replace(/^[#]*\s*/, ''); // remove hashes and leading space
+        fileList.push({file, firstLine: firstLineWithoutHashes});
+    }
 
-        // Sort files array to guarantee alphabetical order
-        files.sort();
+    // Sort the array based on the first line of each file
+    fileList.sort((a, b) => a.firstLine.localeCompare(b.firstLine));
 
-        files.forEach(function (file, index) {
-            // Ignore if not a markdown file
-            if(path.extname(file) !== '.md') return;
+    for (const {file, firstLine} of fileList) {
+        const fileNameWithoutExtension = path.parse(file).name;
 
-            // Removing file extension for include command
-            const fileNameWithoutExtension = path.parse(file).name;
+        // Extract first character of the first line
+        const currentInitial = firstLine.charAt(0).toUpperCase();
 
-            // Extract first character of the file name
-            const currentInitial = fileNameWithoutExtension.charAt(0).toUpperCase();
-
-            // If current initial is different from last initial, then add a new section
-            if (currentInitial !== lastInitial) {
-                // Add '---' for the new section except the first
-                if (lastInitial !== '') {
-                    fileContent += '\n---\n\n';
-                }
-
-                fileContent += `## ${currentInitial}\n\n`;
-                lastInitial = currentInitial;
+        // If current initial is different from last initial, then add a new section
+        if (currentInitial !== lastInitial) {
+            // Add '---' for the new section except the first
+            if (lastInitial !== '') {
+                fileContent += '\n---\n\n';
             }
 
-            fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n`;
-
-            // Add '---' separator if the next file is not of the same initial
-            if (index !== files.length - 1) {
-                const nextFileNameWithoutExtension = path.parse(files[index+1]).name;
-                const nextInitial = nextFileNameWithoutExtension.charAt(0).toUpperCase();
-
-                if (currentInitial === nextInitial) {
-                    fileContent += '\n---\n\n';
-                }
-            }
-        });
-
-        // Remove the last extra lines
-        fileContent = fileContent.replace(/\n$/, '');
-
-        // Write to the output file
-        try {
-            fs.writeFileSync(outputFile, fileContent);
-            console.log(`Successfully written to ${outputFile}`);
-        } catch (err) {
-            throw new Error('Unable to write to file: ' + err);
+            fileContent += `## ${currentInitial}\n\n`;
+            lastInitial = currentInitial;
         }
-    });
+
+        fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n`;
+
+        // Add '---' separator if the next file is not of the same initial
+        const nextFile = fileList[fileList.findIndex(f => f.file === file) + 1];
+        if (nextFile && currentInitial !== nextFile.firstLine.charAt(0).toUpperCase()) {
+            fileContent += '\n---\n\n';
+        }
+    }
+
+    // Remove the last extra lines
+    fileContent = fileContent.replace(/\n$/, '');
+
+    // Write to the output file
+    try {
+        fs.writeFileSync(outputFile, fileContent);
+        console.log(`Successfully written to ${outputFile}`);
+    } catch (err) {
+        throw new Error('Unable to write to file: ' + err);
+    }
 } catch (err) {
     console.error(err);
 }
