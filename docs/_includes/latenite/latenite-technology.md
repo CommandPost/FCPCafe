@@ -86,7 +86,7 @@ Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com)
 
 Here's some of our projects still in active development, awaiting Mac App Store approval:
 
-{{ include "workflow-extensions/recall-toolbox" }}
+{{ include "latenite/recall-toolbox" }}
 
 ---
 
@@ -98,7 +98,7 @@ Here's some of our projects still in active development, awaiting Mac App Store 
 
 Here's some of our free and open source tools used by professional editors worldwide:
 
-{{ include "tools/commandpost" }}
+{{ include "latenite/commandpost" }}
 
 ---
 
@@ -106,13 +106,13 @@ Here's some of our free and open source tools used by professional editors world
 
 Here's some of our products currently for sale on the Mac App Store:
 
-{{ include "workflow-extensions/braw-toolbox" }}
+{{ include "latenite/braw-toolbox" }}
 
 ---
 
-{{ include "workflow-extensions/gyroflow-toolbox" }}
+{{ include "latenite/gyroflow-toolbox" }}
 
 ---
 
-{{ include "workflow-extensions/marker-toolbox" }}
+{{ include "latenite/marker-toolbox" }}
 
