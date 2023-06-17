@@ -1,15 +1,18 @@
+## {
+
+{{ include "workflow-extensions/braw-toolbox" }}
+{{ include "workflow-extensions/gyroflow-toolbox" }}
+{{ include "workflow-extensions/marker-toolbox" }}
+{{ include "workflow-extensions/recall-toolbox" }}
+
+---
+
+
+---
+
 ## A
 
 {{ include "workflow-extensions/alteon" }}
-
----
-
-
----
-
-## B
-
-{{ include "workflow-extensions/braw-toolbox" }}
 
 ---
 
@@ -35,18 +38,8 @@
 
 ---
 
-## G
-
-{{ include "workflow-extensions/gyroflow-toolbox" }}
-
----
-
-
----
-
 ## M
 
-{{ include "workflow-extensions/marker-toolbox" }}
 {{ include "workflow-extensions/media-sync-tool" }}
 
 ---
@@ -57,7 +50,6 @@
 ## R
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
-{{ include "workflow-extensions/recall-toolbox" }}
 
 ---
 
