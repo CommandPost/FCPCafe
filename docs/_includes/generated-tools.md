@@ -1,3 +1,13 @@
+## {
+
+{{ include "tools/commandpost" }}
+{{ include "tools/transfer-toolbox" }}
+
+---
+
+
+---
+
 ## A
 
 {{ include "tools/arcx" }}
@@ -27,7 +37,6 @@
 {{ include "tools/change-list-x" }}
 {{ include "tools/cinecred" }}
 {{ include "tools/cleanterview" }}
-{{ include "tools/commandpost" }}
 {{ include "tools/compressor-repair" }}
 {{ include "tools/csv-to-motn-generator" }}
 
@@ -148,15 +157,6 @@
 {{ include "tools/subtitles-extractor" }}
 {{ include "tools/subvert" }}
 {{ include "tools/sync-n-link-x" }}
-
----
-
-
----
-
-## T
-
-{{ include "tools/transfer-toolbox" }}
 
 ---
 
