@@ -90,15 +90,15 @@ Here's some of our projects still in active development, awaiting Mac App Store 
 
 ---
 
-{{ include "tools/transfer-toolbox" }}
+## Free Apps
+
+Here's some of our free tools used by professional editors worldwide:
+
+{{ include "latenite/commandpost" }}
 
 ---
 
-## Free & Open Source
-
-Here's some of our free and open source tools used by professional editors worldwide:
-
-{{ include "latenite/commandpost" }}
+{{ include "tools/transfer-toolbox" }}
 
 ---
 
@@ -115,4 +115,3 @@ Here's some of our products currently for sale on the Mac App Store:
 ---
 
 {{ include "latenite/marker-toolbox" }}
-
