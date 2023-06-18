@@ -98,7 +98,7 @@ Here's some of our free tools used by professional editors worldwide:
 
 ---
 
-{{ include "tools/transfer-toolbox" }}
+{{ include "latenite/transfer-toolbox" }}
 
 ---
 
