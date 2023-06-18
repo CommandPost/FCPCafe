@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 18 Jun 2023 01:59:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jun 2023 02:12:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
         <item>
@@ -122,6 +122,15 @@
         </item>
         <item>
             <title><![CDATA[30th May 2023]]></title>
+            <description><![CDATA[<p>We're currently experimenting with adding Discussions &amp; Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.</p>
+<p>We're still working on the formatting - they're currently a bit &quot;buggy&quot; in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-may-2023</link>
+            <guid isPermaLink="false">30th May 2023</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th May 2023]]></title>
             <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
 <p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
 <p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
@@ -187,6 +196,19 @@
             <link>https://fcp.cafe/#1st-june-2023</link>
             <guid isPermaLink="false">1st June 2023</guid>
             <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd June 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
+<p>The only change according the the release notes is:</p>
+<ul>
+<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
+</ul>
+<p>You can find the <a href="/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-june-2023</link>
+            <guid isPermaLink="false">2nd June 2023</guid>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2nd June 2023]]></title>
@@ -263,6 +285,26 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         </item>
         <item>
             <title><![CDATA[3rd June 2023]]></title>
+            <description><![CDATA[<p><strong>BorisFX</strong> is giving away their free Continuum FCPX Looks filter!</p>
+<p>We've been using mocha Pro for years, and love it dearly - so are always excited by what BorisFX have in-store!</p>
+<p>They just need to HURRY UP and give us native mocha Pro support within Final Cut Pro! In the meantime, this is great...</p>
+<p>BCC+ Looks Includes:</p>
+<ul>
+<li>80 drag-and-drop presets</li>
+<li>Award-Winning Mocha tracking through Pixel Chooser: Quickly mask &amp; isolate effects</li>
+<li>Fully customizable: Easily adjust hue-sat, brightness, contrast, grain, and more</li>
+<li>8mm film stock, bleach by-pass, and day for night looks</li>
+<li>Diffusion, color gradients, and lighting gels</li>
+<li>Custom FX Editor: Browse and apply presets in seconds</li>
+</ul>
+<p><a href="https://vfx.borisfx.com/free-fcp-bcc-looks">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2023</link>
+            <guid isPermaLink="false">3rd June 2023</guid>
+            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2023]]></title>
             <description><![CDATA[<p><strong>FCPeffects.com</strong> is celebrating 12 years making plugins for Final Cut Pro!</p>
 <p>Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!</p>
 <p><a href="https://www.fcpeffects.com/pages/mb-9887697887914709998">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
@@ -270,6 +312,14 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <link>https://fcp.cafe/#3rd-june-2023</link>
             <guid isPermaLink="false">3rd June 2023</guid>
             <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2023]]></title>
+            <description><![CDATA[<p>We've added some information from the editor, and lots of Final Cut Pro screenshots to our <a href="/case-studies/turn-of-the-tide/">Turn of the Tide case study</a>. Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2023</link>
+            <guid isPermaLink="false">5th June 2023</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[5th June 2023]]></title>
@@ -461,6 +511,15 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[13th June 2023]]></title>
+            <description><![CDATA[<p>FCP Cafe has been slowly growing and expanding, and professional film &amp; television editors from all around the world start making contributions!</p>
+<p>If you haven't already checked out the <a href="/cut-on-fcp/">Cut on Final Cut Pro</a> page, it's worth a visit!</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-june-2023</link>
+            <guid isPermaLink="false">13th June 2023</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th June 2023]]></title>
             <description><![CDATA[<p>The amazing Philip Hodgetts from <a href="https://intelligentassistance.com">Intelligent Assistance</a> has written an excellent blog post on <strong>Generative AI Devalues Experience</strong> <a href="http://www.philiphodgetts.com/2023/06/generative-ai-devalues-experience/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#13th-june-2023</link>
@@ -519,6 +578,14 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[14th June 2023]]></title>
             <description><![CDATA[<p>FCP Cafe now has a new logo/icon designed by the amazing <a href="https://matthewskiles.com">Matthew Skiles</a>. We hope you like it as much as we do!</p>
 <p>He has also designed a new logo/icon for <a href="https://resolve.cafe">Resolve Cafe</a>, which is equally amazing.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-june-2023</link>
+            <guid isPermaLink="false">14th June 2023</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th June 2023]]></title>
+            <description><![CDATA[<p>We've just added an amazingly detailed case study for <strong>Blood &amp; Gold</strong>. Check it out <a href="/case-studies/blood-and-gold/">here</a>!</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-june-2023</link>
             <guid isPermaLink="false">14th June 2023</guid>
