@@ -16,7 +16,9 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Awards & Nominations
 
+- Autobiography (2022) - **_Venice Film Festival FIPRESCI Award for Best Film and World Film Fesitval of Bangkok for Best Technical Achievement in Editing - Carlo Francisco Manatad_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt21372280/)
 - Tina Mobil (2021) - **_Grimme Preis for best television series_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15475734/)
+- Photocopier (2021) - **_12 Festival Film Indonesia Citra Awards including Best Editing and Best Film_**  {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13729220/)
 - Parasite (2019) - **_Academy Award Nominee for Best Editing – Yang Jin-mo_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6751668/)
 - The Girl with the Dragon Tattoo (2011) {{fcp7}} - **_Academy Award for Best Editing – Kirk Baxter & Angus Wall_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1568346/)
 - The Social Network (2010) - **_Academy Award Winner for Best Editing – Kirk Baxter & Angus Wall_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1285016/)
