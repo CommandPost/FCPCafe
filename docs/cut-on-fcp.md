@@ -28,6 +28,22 @@ If there's something missing, [please let us know](/contribute/).
 
 ---
 
+## Filmmakers using Final Cut Pro
+
+- Clayton Jacobson {{fcpx}} {{imdb}}(https://www.imdb.com/name/nm0414814/)
+- Guy Pearce {{fcpx}} {{imdb}}(https://www.imdb.com/name/nm0001602/)
+- Simon Wincer {{fcpx}} {{imdb}}(https://www.imdb.com/name/nm0934578/)
+
+---
+
+## YouTubers using Final Cut Pro
+
+- iJustine {{fcpx}} {{watch}}(https://www.youtube.com/channel/UCey_c7U86mJGz1VJWH5CYPA)
+- Jonathan Morrison {{fcpx}} {{watch}}(https://www.youtube.com/channel/UCDlQwv99CovKafGvxyaiNDA)
+- Marques Brownlee {{fcpx}} {{watch}}(https://www.youtube.com/user/marquesbrownlee)
+
+---
+
 ## Feature Films
 
 ### Drama
