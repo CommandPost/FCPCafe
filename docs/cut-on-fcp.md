@@ -16,7 +16,7 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Awards & Nominations
 
-- Autobiography (2022) - **_Venice Film Festival FIPRESCI Award for Best Film and World Film Fesitval of Bangkok for Best Technical Achievement in Editing - Carlo Francisco Manatad_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt21372280/)
+- Autobiography (2022) - **_Venice Film Festival FIPRESCI Award for Best Film and World Film Festival of Bangkok for Best Technical Achievement in Editing - Carlo Francisco Manatad_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt21372280/)
 - Tina Mobil (2021) - **_Grimme Preis for best television series_** {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15475734/)
 - Photocopier (2021) - **_12 Festival Film Indonesia Citra Awards including Best Editing and Best Film_**  {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13729220/)
 - Parasite (2019) - **_Academy Award Nominee for Best Editing – Yang Jin-mo_** {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6751668/)
@@ -61,7 +61,7 @@ If there's something missing, [please let us know](/contribute/).
 - Where The Wind Blows (2022) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6902394/)
 - The Last Queen (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18039808/)
 - The Sunny Side Of The Street (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18280126/)
-- Photocopier (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13729220/)
+- Photocopier (2021) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13729220/)
 - Death Knot (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14892248/)
 - One Night Stand (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15788948/)
 - Blood Red Sky (2021) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6402468/) {{casestudy}}(https://www.apple.com/au/final-cut-pro/workflows/#image-slide-gallery-item-3)
@@ -90,6 +90,7 @@ If there's something missing, [please let us know](/contribute/).
 - Parasite (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6751668/)
 - Let's Dance (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8599746/)
 - Relativity (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6586090/)
+- The Night Comes for Us (2018) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6116856/)
 - The Wild Goose Lake (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt9647768/)
 - Arini (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8077382/)
 - Shadows on the Road (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7391194/)
