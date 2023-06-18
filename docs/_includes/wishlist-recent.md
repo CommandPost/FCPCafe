@@ -1,3 +1,4 @@
+- [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196){target="_blank"}
 - [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175){target="_blank"}
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149){target="_blank"}
 - [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148){target="_blank"}
