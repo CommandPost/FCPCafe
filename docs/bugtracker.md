@@ -6,14 +6,16 @@ We keep track of these bugs via our [GitHub issues site](https://github.com/Comm
 
 [GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new/choose){target="_blank"}.
+To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}.
 
 In general, whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
+
+You can also send feedback directly to the Final Cut Pro team [here](https://www.apple.com/feedback/finalcutpro/){target="_blank"}, although unlike Feedback Assistant you can't track your request or add additional information - so we generally recommend you use Feedback Assistant instead.
 
 ---
 
 !!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new/choose){target="_blank"}!
+Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}!
 !!!
 
 ---
