@@ -24,7 +24,23 @@ try {
         }
 
         const filePath = path.join(directoryPath, file);
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        let fileContent = fs.readFileSync(filePath, 'utf-8');
+
+        // Check if the first line is an include command
+        const includeCommandRegex = /^\s*\{\{\s*include\s*"([^"]+)"\s*\}\}\s*$/;
+        const match = fileContent.match(includeCommandRegex);
+
+        if (match) {
+            // If so, read the included file instead
+            const includedFilePath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${match[1]}.md`);
+            if (fs.existsSync(includedFilePath)) {
+                fileContent = fs.readFileSync(includedFilePath, 'utf-8');
+            } else {
+                console.error(`The included file ${includedFilePath} doesn't exist.`);
+                continue;
+            }
+        }
+
         const firstLineWithoutHashes = fileContent.split('\n')[0].replace(/^[#]*\s*/, ''); // remove hashes and leading space
         fileList.push({file, firstLine: firstLineWithoutHashes});
     }
