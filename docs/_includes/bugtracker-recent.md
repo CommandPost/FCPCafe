@@ -1,3 +1,4 @@
+- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202){target="_blank"}
 - [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190){target="_blank"}
 - [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189){target="_blank"}
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133){target="_blank"}
@@ -27,4 +28,3 @@
 - [Titles/Generator with lots of Parameters slow in Inspector (November 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/66){target="_blank"}
 - [Final Cut Pro 10.6 renders light in Motion Templates slightly differently than in 10.5.4 (October 22, 2021)](https://github.com/CommandPost/FCPCafe/issues/65){target="_blank"}
 - [Final Cut Pro 10.6 has issues with AC3 Encoded Audio (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/63){target="_blank"}
-- [Final Cut Pro 10.6 won't import FCPXML with certain region settings (October 20, 2021)](https://github.com/CommandPost/FCPCafe/issues/62){target="_blank"}
