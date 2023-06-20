@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 20 Jun 2023 22:03:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jun 2023 22:20:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
         <item>
@@ -122,6 +122,15 @@
         </item>
         <item>
             <title><![CDATA[30th May 2023]]></title>
+            <description><![CDATA[<p>We're currently experimenting with adding Discussions &amp; Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.</p>
+<p>We're still working on the formatting - they're currently a bit &quot;buggy&quot; in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-may-2023</link>
+            <guid isPermaLink="false">30th May 2023</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th May 2023]]></title>
             <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
 <p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
 <p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
@@ -190,6 +199,19 @@
         </item>
         <item>
             <title><![CDATA[2nd June 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
+<p>The only change according the the release notes is:</p>
+<ul>
+<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
+</ul>
+<p>You can find the <a href="/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-june-2023</link>
+            <guid isPermaLink="false">2nd June 2023</guid>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd June 2023]]></title>
             <description><![CDATA[<p>The <strong>Transfer Toolbox</strong> website has some information on the danger of using external drives on iPad.</p>
 <p>You can learn more <a href="https://transfertoolbox.io/how-to-use/#danger-using-external-drives-on-ipad">here</a>.</p>
 ]]></description>
@@ -231,9 +253,9 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
 </ul>
 <p><strong>Screenshots:</strong></p>
 <p>Picture Lock Timelines of all 6 Episodes
-<img src="https://fcp.cafe/static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
+<img src="/static/schatten-timeline-tuesday.jpeg" alt="Final Cut Pro Screenshots"></p>
 <p><strong>Poster:</strong></p>
-<p><img src="https://fcp.cafe/static/deleila-piasko-key_visual-2.jpg" alt=""></p>
+<p><img src="/static/deleila-piasko-key_visual-2.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#2nd-june-2023</link>
             <guid isPermaLink="false">2nd June 2023</guid>
@@ -263,6 +285,26 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         </item>
         <item>
             <title><![CDATA[3rd June 2023]]></title>
+            <description><![CDATA[<p><strong>BorisFX</strong> is giving away their free Continuum FCPX Looks filter!</p>
+<p>We've been using mocha Pro for years, and love it dearly - so are always excited by what BorisFX have in-store!</p>
+<p>They just need to HURRY UP and give us native mocha Pro support within Final Cut Pro! In the meantime, this is great...</p>
+<p>BCC+ Looks Includes:</p>
+<ul>
+<li>80 drag-and-drop presets</li>
+<li>Award-Winning Mocha tracking through Pixel Chooser: Quickly mask &amp; isolate effects</li>
+<li>Fully customizable: Easily adjust hue-sat, brightness, contrast, grain, and more</li>
+<li>8mm film stock, bleach by-pass, and day for night looks</li>
+<li>Diffusion, color gradients, and lighting gels</li>
+<li>Custom FX Editor: Browse and apply presets in seconds</li>
+</ul>
+<p><a href="https://vfx.borisfx.com/free-fcp-bcc-looks">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2023</link>
+            <guid isPermaLink="false">3rd June 2023</guid>
+            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2023]]></title>
             <description><![CDATA[<p><strong>FCPeffects.com</strong> is celebrating 12 years making plugins for Final Cut Pro!</p>
 <p>Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!</p>
 <p><a href="https://www.fcpeffects.com/pages/mb-9887697887914709998">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
@@ -270,6 +312,14 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <link>https://fcp.cafe/#3rd-june-2023</link>
             <guid isPermaLink="false">3rd June 2023</guid>
             <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2023]]></title>
+            <description><![CDATA[<p>We've added some information from the editor, and lots of Final Cut Pro screenshots to our <a href="/case-studies/turn-of-the-tide/">Turn of the Tide case study</a>. Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2023</link>
+            <guid isPermaLink="false">5th June 2023</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[5th June 2023]]></title>
@@ -299,34 +349,34 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
 <p>Iain Anderson has also written <a href="https://www.provideocoalition.com/apple-vision-pro-revealed-at-wwdc/">Apple Vision Pro revealed at WWDC</a> over at <a href="https://www.provideocoalition.com">ProVideo Coalition</a>.</p>
 <p>Below are some of the relevant highlights for Final Cut Pro editors.</p>
 <p>First up, the new <strong>Mac Pro</strong>:</p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro.png" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro-pricing.png" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare.png" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare-2.png" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro-compare-3.png" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-macpro-pricing-aud.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro-pricing.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro-compare.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro-compare-2.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro-compare-3.png" alt=""></p>
+<p><img src="/static/wwdc23-macpro-pricing-aud.png" alt=""></p>
 <p>You can learn more about the new MacPro <a href="https://www.apple.com/newsroom/2023/06/apple-unveils-new-mac-studio-and-brings-apple-silicon-to-mac-pro/">here</a>.</p>
 <p>There's the new <strong>M2 Ultra</strong>.</p>
-<p><img src="https://fcp.cafe/static/wwdc23-m2ultra.png" alt=""></p>
+<p><img src="/static/wwdc23-m2ultra.png" alt=""></p>
 <p>You can learn more <a href="https://www.apple.com/newsroom/2023/06/apple-introduces-m2-ultra/">here</a>.</p>
 <p>There's the new <strong>15-inch MacBook Air</strong>:</p>
-<p><img src="https://fcp.cafe/static/wwdc23-macbook-air.jpg" alt=""></p>
+<p><img src="/static/wwdc23-macbook-air.jpg" alt=""></p>
 <p>You can learn more <a href="https://www.apple.com/au/newsroom/2023/06/apple-introduces-the-15-inch-macbook-air/">here</a>.</p>
 <p>There's the new <strong>macOS Sonoma</strong>:</p>
-<p><img src="https://fcp.cafe/static/wwdc23-macos.jpg" alt=""></p>
+<p><img src="/static/wwdc23-macos.jpg" alt=""></p>
 <p>You can learn more <a href="https://www.apple.com/au/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/">here</a>.</p>
 <p>There's the new <strong>Vision Pro</strong>.</p>
 <p>It's <strong>USD$3499</strong> and &quot;available early next year in the U.S&quot;.</p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-1.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-2.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-3.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-4.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-5.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-6.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-7.jpeg" alt=""></p>
-<p><img src="https://fcp.cafe/static/wwdc23-vision-pro-8.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-1.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-2.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-3.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-4.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-5.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-6.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-7.jpeg" alt=""></p>
+<p><img src="/static/wwdc23-vision-pro-8.jpeg" alt=""></p>
 <p>DaVinci Resolve will run on Vision Pro out-of-the-box. No word yet on Final Cut Pro support.</p>
-<p><img src="https://fcp.cafe/static/resolve-on-vision-pro.jpg" alt=""></p>
+<p><img src="/static/resolve-on-vision-pro.jpg" alt=""></p>
 <p>You can learn more about Vision Pro <a href="https://www.apple.com/au/newsroom/2023/06/introducing-apple-vision-pro/">here</a>.</p>
 <p>You can watch the entire WWDC Keynote <a href="https://www.apple.com/apple-events/event-stream/">here</a>.</p>
 ]]></description>
@@ -339,7 +389,7 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <description><![CDATA[<p><strong>NeoFinder 8.4.1</strong> is out now. This is a bugfix release that contains two fixes for the Smart Folders, and one fix when searching hierarchical keywords.</p>
 <p>NeoFinder 8.4.1 is another free update for all customers with a NeoFinder 8.x license.</p>
 <p>NeoFinder 8.x is a <a href="https://www.cdfinder.de/store.html">paid upgrade</a> for NeoFinder 6.x, NeoFinder 7.x, and CDFinder customers.</p>
-<p><img src="https://fcp.cafe/static/neofinder-8-4.jpeg" alt=""></p>
+<p><img src="/static/neofinder-8-4.jpeg" alt=""></p>
 <p>You can learn more <a href="/ecosystem/tools/#neofinder">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-june-2023</link>
@@ -349,7 +399,7 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         <item>
             <title><![CDATA[6th June 2023]]></title>
             <description><![CDATA[<p>Purchase a Ninja V, Ninja V+, Shogun Connect, Sumo 19SE or Shogun Studio 2 before the end of June 2023 to receive a FREE Assimilate Play Pro Studio license worth US$299 when registering your product. Existing registered owners quality for an exclusive price of USD$99.</p>
-<p><img src="https://fcp.cafe/static/assimilate-play-pro-studio.jpg" alt=""></p>
+<p><img src="/static/assimilate-play-pro-studio.jpg" alt=""></p>
 <p>You can learn more <a href="http://my.atomos.com">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-june-2023</link>
@@ -404,7 +454,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>...editing in Final Cut Pro in AR will be available for launch 👀 editing with eyes and gestures. We freaking finally get to edit minority report styles.</p>
 </blockquote>
 <p>You can read more over at <a href="https://appleinsider.com/articles/23/06/07/final-cut-pro-said-to-be-available-for-apple-vision-pro-at-launch">AppleInsider</a>.</p>
-<p><img src="https://fcp.cafe/static/fcpx-on-vision-pro.jpeg" alt=""></p>
+<p><img src="/static/fcpx-on-vision-pro.jpeg" alt=""></p>
 <p>Michael Kammes has also written a great article on <a href="https://www.postperspective.com/emails/Shift/ppnews-Shift-230516.html">Empowering Creatives: The Future of Creativity and Collaboration in the M&amp;E Industry</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#8th-june-2023</link>
@@ -458,6 +508,15 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#10th-june-2023</link>
             <guid isPermaLink="false">10th June 2023</guid>
             <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th June 2023]]></title>
+            <description><![CDATA[<p>FCP Cafe has been slowly growing and expanding, and professional film &amp; television editors from all around the world start making contributions!</p>
+<p>If you haven't already checked out the <a href="/cut-on-fcp/">Cut on Final Cut Pro</a> page, it's worth a visit!</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-june-2023</link>
+            <guid isPermaLink="false">13th June 2023</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[13th June 2023]]></title>
@@ -526,6 +585,14 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[14th June 2023]]></title>
+            <description><![CDATA[<p>We've just added an amazingly detailed case study for <strong>Blood &amp; Gold</strong>. Check it out <a href="/case-studies/blood-and-gold/">here</a>!</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-june-2023</link>
+            <guid isPermaLink="false">14th June 2023</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th June 2023]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox</strong> v1.1.4 (51) is <a href="https://brawtoolbox.io">now available</a> on the Mac App Store.</p>
 <p>Thanks to the help and support of the awesome Final Cut Pro team, we finally have a workaround to the Synchronised Clips bug.</p>
 <p>Previously, Synchronised Clips could cause random glitches during playback, and produce unexpected results in some, but not all, cases.</p>
@@ -557,7 +624,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>CommandPost v1.4.18</strong> is out now!</p>
 <p>A few new features, and a bunch of bug fixes, especially for those on macOS Ventura.</p>
 <p>You can learn more and download <a href="https://commandpost.io">here</a>.</p>
-<p><img src="https://fcp.cafe/static/commandpost-1-4-18.png" alt=""></p>
+<p><img src="/static/commandpost-1-4-18.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#15th-june-2023</link>
             <guid isPermaLink="false">15th June 2023</guid>
@@ -577,7 +644,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[15th June 2023]]></title>
             <description><![CDATA[<p>BorisFX has a really interesting new case study on their blog - <strong>The Last Of Us: Wylie Co.’s Motion Tracking Journey with Mocha Pro</strong>.</p>
 <p>You can read more <a href="https://blog.borisfx.com/the-last-of-us-wylie-co-motion-tracking-journey-with-mocha-pro">here</a>.</p>
-<p><img src="https://fcp.cafe/static/last-us-ellie-interface.jpeg" alt=""></p>
+<p><img src="/static/last-us-ellie-interface.jpeg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#15th-june-2023</link>
             <guid isPermaLink="false">15th June 2023</guid>
@@ -613,7 +680,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>BRAW Toolbox 1.2.0 (52)</strong> is out now!</p>
 <p>It has added support for Fujifilm X-S20 Blackmagic RAW clips, and the Blackmagic RAW SDK has been updated from v3.1 to v3.2.</p>
 <p>You can download and learn more <a href="https://brawtoolbox.io">here</a>.</p>
-<p><img src="https://fcp.cafe/static/braw-toolbox.jpg" alt=""></p>
+<p><img src="/static/braw-toolbox.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#16th-june-2023</link>
             <guid isPermaLink="false">16th June 2023</guid>
@@ -656,7 +723,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.</p>
 <p>You can learn more and <strong>download for free</strong> <a href="https://transfertoolbox.io">here</a>.</p>
 <p>The Transfer Toolbox icon was designed by <a href="https://matthewskiles.com">Matthew Skiles</a>.</p>
-<p><img src="https://fcp.cafe/static/transfer-toolbox-about.png" alt=""></p>
+<p><img src="/static/transfer-toolbox-about.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#18th-june-2023</link>
             <guid isPermaLink="false">18th June 2023</guid>
