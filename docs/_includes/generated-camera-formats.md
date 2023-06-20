@@ -1,4 +1,4 @@
-## {
+## B
 
 {{ include "camera-formats/braw-toolbox" }}
 
