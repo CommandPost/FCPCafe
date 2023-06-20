@@ -44,6 +44,8 @@
 
 ## F
 
+{{ include "faq/fcpxml" }}
+
 {{ include "faq/file-formats" }}
 
 {{ include "faq/adobe-premiere" }}
@@ -88,6 +90,8 @@
 ---
 
 ## P
+
+{{ include "faq/performance" }}
 
 {{ include "faq/professional-editing" }}
 
