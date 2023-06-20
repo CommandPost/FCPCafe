@@ -4,6 +4,7 @@ const path = require('path');
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
 const sponsorsPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
 const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
+const newsOutputDirectory = path.join(process.env.GITHUB_WORKSPACE, 'docs/news');  // Directory for individual news files
 
 try {
     // Read the sponsor files
@@ -52,6 +53,16 @@ try {
                     sponsorIndex = (sponsorIndex % (sponsorFiles.length - 1)) + 1;
                     outputContent += `{{ include "sponsors/${sponsorFiles[sponsorIndex]}" }}\n\n---\n\n`;
                 }
+            }
+
+            // Generate individual news file
+            const newsOutputFile = path.join(newsOutputDirectory, `${date}.md`);
+            const newsContent = `{{ include "news/${date}" }}`;
+            try {
+                fs.writeFileSync(newsOutputFile, newsContent);
+                console.log(`Successfully written to ${newsOutputFile}`);
+            } catch (err) {
+                throw new Error('Unable to write to news file: ' + err);
             }
         });
 
