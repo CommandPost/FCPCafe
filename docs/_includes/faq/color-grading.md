@@ -1,4 +1,4 @@
-### Color Grading - Is it legit?
+### Color Grading - Does it shine?
 
 Yes, Final Cut Pro has very powerful built-in colour grading tools.
 
