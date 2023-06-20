@@ -10,7 +10,7 @@ You can also download an example Motion Template effect [here](https://github.co
 
 The output of the effect looks like this in Final Cut Pro 10.6.6 (created in Motion 5.6.4):
 
-![Motion Variables](../static/motion-example.jpg)
+![Motion Variables](/static/motion-example.jpg)
 
 The below table contains all the tokens in the order they're shown in the above screenshot:
 

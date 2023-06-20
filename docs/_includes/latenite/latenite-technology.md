@@ -78,7 +78,7 @@ You'll be able to add titles to the timeline, to trigger Machine Learning action
 
 Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key.
 
-![](../static/magic-toolbox.jpg)
+![](/static/magic-toolbox.jpg)
 
 ---
 

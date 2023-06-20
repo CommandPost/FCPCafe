@@ -1,6 +1,6 @@
 ### Media Sync Tool
 
-![Media Sync Tool](../static/ss-media-sync-tool.png)
+![Media Sync Tool](/static/ss-media-sync-tool.png)
 
 Media Sync Tool is a revolutionary sync tool for Final Cut Pro.
 

@@ -57,7 +57,12 @@ try {
 
             // Generate individual news file
             const newsOutputFile = path.join(newsOutputDirectory, `${date}.md`);
-            const newsContent = `{{ include "news/${date}" }}`;
+
+            const year = date.slice(0, 4);
+            const month = monthNames[parseInt(date.slice(4, 6), 10) - 1];
+
+            const newsContent = `# ${year}\n## ${month}\n\n{{ include "news/${date}" }}`;
+
             try {
                 fs.writeFileSync(newsOutputFile, newsContent);
                 console.log(`Successfully written to ${newsOutputFile}`);

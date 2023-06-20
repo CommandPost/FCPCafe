@@ -52,20 +52,20 @@ Beyond performance and stability, I also use FCPX because I find the interface d
 
 ### Poster
 
-![](../static/indias-space-odyssey-poster.jpg)
+![](/static/indias-space-odyssey-poster.jpg)
 
 ---
 
 ### Screenshots
 
-![](../static/indias-space-odyssey-5.jpg)
+![](/static/indias-space-odyssey-5.jpg)
 
-![](../static/indias-space-odyssey-6.jpg)
+![](/static/indias-space-odyssey-6.jpg)
 
-![](../static/indias-space-odyssey-7.jpg)
+![](/static/indias-space-odyssey-7.jpg)
 
-![](../static/indias-space-odyssey-8.jpg)
+![](/static/indias-space-odyssey-8.jpg)
 
-![](../static/indias-space-odyssey-9.jpg)
+![](/static/indias-space-odyssey-9.jpg)
 
-![](../static/indias-space-odyssey-10.jpg)
+![](/static/indias-space-odyssey-10.jpg)

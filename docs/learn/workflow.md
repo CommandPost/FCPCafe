@@ -36,9 +36,9 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target="_blank"} has developed a unique workflow with [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} for filmmakers. The workflow uses CommandPost’s Shot Data Toolbox to create a Shot List & Storyboard Database from Final Cut Pro to Notion.
 
-![](../static/shotdata.png)
+![](/static/shotdata.png)
 
-![](../static/shotdata.gif)
+![](/static/shotdata.gif)
 
 [!button text="Open User Guide" target="blank" variant="info"](https://commandpost.io/toolbox/shot-data/)
 
@@ -50,7 +50,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 You can learn more [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}.
 
-![](../static/toolbox-titles-to-keywords.png)
+![](/static/toolbox-titles-to-keywords.png)
 
 ---
 
@@ -161,7 +161,7 @@ To keep library sizes as small as possible (which makes backing them up and shar
 
 Storing your media inside the library is an option for solo editors who do not work collaboratively, but external media offers more power and flexibility.
 
-![](../static/storage-location.png)
+![](/static/storage-location.png)
 
 ---
 
@@ -169,7 +169,7 @@ Storing your media inside the library is an option for solo editors who do not w
 
 Each event in Final Cut Pro is its own Core Data database.
 
-![](../static/inside-library.png)
+![](/static/inside-library.png)
 
 You can learn more about the library structure [here](/developers/librarybundle/).
 
@@ -179,17 +179,17 @@ We recommend using emojis in event names, to differentiate the list of events mo
 
 For example, this is from a **5 x 30min** broadcast television special:
 
-![](../static/list-of-events.jpeg)
+![](/static/list-of-events.jpeg)
 
 You can learn more about this workflow [here](https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia){target="_blank"}.
 
 Here's an example of a library for a job where all the user interface designs were build in Final Cut Pro for a game:
 
-![](../static/sceneit.png)
+![](/static/sceneit.png)
 
 Here's an example of a library for a basic corporate edit:
 
-![](../static/corporate-edit.png)
+![](/static/corporate-edit.png)
 
 If you're working on a very heavy feature film, your current feature length timeline should be in its own event.
 

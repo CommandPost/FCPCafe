@@ -51,6 +51,6 @@ A `.mom` file is a binary property list that's [`NSKeyedArchiver`](https://devel
 
 Here's what Final Cut Pro's model looks like in Xcode:
 
-![Patent Screenshot](../static/model.png)
+![Patent Screenshot](/static/model.png)
 
 Interestingly, this model is used for both Final Cut Pro on Mac and Final Cut Pro for iPad.

@@ -60,44 +60,44 @@ _Marcos Castiel (Ep's 1, 2, 5 & 7)_
 
 ### Poster
 
-![](../static/turn-of-the-tide-poster.jpg)
+![](/static/turn-of-the-tide-poster.jpg)
 
 ---
 
 ### Screenshots
 
-![](../static/turn-of-the-tide-1.png)
+![](/static/turn-of-the-tide-1.png)
 
-![](../static/turn-of-the-tide-2.png)
+![](/static/turn-of-the-tide-2.png)
 
-![](../static/turn-of-the-tide-3.png)
+![](/static/turn-of-the-tide-3.png)
 
-![](../static/turn-of-the-tide-4.png)
+![](/static/turn-of-the-tide-4.png)
 
-![](../static/turn-of-the-tide-5.png)
+![](/static/turn-of-the-tide-5.png)
 
-![](../static/turn-of-the-tide-6.png)
+![](/static/turn-of-the-tide-6.png)
 
-![](../static/turn-of-the-tide-7.png)
+![](/static/turn-of-the-tide-7.png)
 
-![](../static/turn-of-the-tide-8.png)
+![](/static/turn-of-the-tide-8.png)
 
-![](../static/turn-of-the-tide-9.png)
+![](/static/turn-of-the-tide-9.png)
 
-![](../static/turn-of-the-tide-10.png)
+![](/static/turn-of-the-tide-10.png)
 
-![](../static/turn-of-the-tide-11.png)
+![](/static/turn-of-the-tide-11.png)
 
-![](../static/turn-of-the-tide-12.png)
+![](/static/turn-of-the-tide-12.png)
 
-![](../static/turn-of-the-tide-13.png)
+![](/static/turn-of-the-tide-13.png)
 
-![](../static/turn-of-the-tide-14.png)
+![](/static/turn-of-the-tide-14.png)
 
-![](../static/turn-of-the-tide-15.png)
+![](/static/turn-of-the-tide-15.png)
 
-![](../static/turn-of-the-tide-16.png)
+![](/static/turn-of-the-tide-16.png)
 
-![](../static/turn-of-the-tide-17.png)
+![](/static/turn-of-the-tide-17.png)
 
-![](../static/turn-of-the-tide-18.png)
+![](/static/turn-of-the-tide-18.png)
