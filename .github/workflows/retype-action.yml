@@ -96,7 +96,7 @@ jobs:
           echo "Checking for changes to commit..."
           git status
           echo "Adding changes..."
-          git add -A
+          git add -A docs/news/* docs/_includes/*
           git status
           echo "Committing changes..."
           git commit -m "Update Generated Markdown Files" || echo "No changes to commit"
