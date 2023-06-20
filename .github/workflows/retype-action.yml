@@ -97,7 +97,7 @@ jobs:
             git stash --include-untracked
             git pull --rebase origin main
             git stash pop
-            git add docs/_includes/*
+            git add docs/_includes/* docs/news/*
             git commit -m "Update Generated Markdown Files"
             git push
           )
