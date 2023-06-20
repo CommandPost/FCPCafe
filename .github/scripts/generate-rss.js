@@ -68,7 +68,9 @@ for (const file of files) {
         const lines = entry.trim().split('\n');
 
         if (lines[0].startsWith('### ')) {
-            currentTitle = lines[0].substring(4);
+            // Extract the title using a regular expression that matches either of your formats
+            const titleMatch = lines[0].substring(4).match(/(\[)?(.*?)(\])?(\(.*\))?/);
+            currentTitle = titleMatch[2].trim();
             currentDate = convertDateToRFC822(currentTitle);
             lines.shift();
         }
