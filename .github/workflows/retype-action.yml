@@ -95,14 +95,14 @@ jobs:
           git config --local user.name "GitHub Action"
           echo "Checking for changes to commit..."
           git status
-          git diff --quiet && git diff --staged --quiet || (
-            git stash --include-untracked
-            git pull --rebase origin main
-            git stash pop
-            git add -A docs/_includes/* docs/news/*
-            git commit -m "Update Generated Markdown Files"
-            git push
-          )
+          echo "Adding changes..."
+          git add -A
+          git status
+          echo "Committing changes..."
+          git commit -m "Update Generated Markdown Files" || echo "No changes to commit"
+          git status
+          echo "Pushing changes..."
+          git push
           echo "Completed commit step."
 
       - name: Archive production artifacts
