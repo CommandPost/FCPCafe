@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740613865625">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740614869561">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.3.740613865625" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740614869561" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740613865625" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740614869561" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740613865625" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740614869561" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -395,7 +395,7 @@
 <p>Backing up your Final Cut Pro project files is crucial to prevent losing your work. Here are a few ways you can do this:</p>
 <ol>
 <li><strong>Library Backups:</strong> Final Cut Pro automatically creates backups of your libraries. These backups are stored in a folder named <strong>Final Cut Backups</strong> in your Movies folder. You can adjust how often these backups are made using <a href="../ecosystem/tools/#commandpost">CommandPost</a>.</li>
-<li><strong>Duplicate Libraries:</strong> To manually back up your work, you can duplicate your library in Finder.</li>
+<li><strong>Duplicate Libraries:</strong> To manually back up your work, you can duplicate your library in Finder and zip it. - as long as you store all Media outside the library.(see below)</li>
 <li><strong>External Drive:</strong> You can also manually copy the library to an external hard drive or another secure location. Simply drag the library file in Finder to your backup location.</li>
 <li><strong>Time Machine:</strong> If you&#x27;re using Apple&#x27;s Time Machine backup system, make sure that your Final Cut Pro library is in a location that Time Machine backs up. Time Machine backs up your entire computer at regular intervals, so this provides a kind of automatic backup.</li>
 <li><strong>Cloud Storage:</strong> You can also use a cloud storage service like iCloud, Google Drive, or Dropbox for backups. Note that video files can be quite large, and you&#x27;ll need enough storage space in your cloud service to accommodate them.</li>
@@ -403,6 +403,15 @@
 <p>Remember to keep your backup drives or locations secure and check them regularly to make sure the backups are being performed correctly.</p>
 <p>Before you perform any major edits or changes to a project, it&#x27;s a good idea to create a backup. That way, if something goes wrong, you can go back to the backup version.</p>
 <p>Also, keep in mind that Final Cut Pro libraries might only contain references to your media files if you&#x27;re keeping your media external to the library, so it&#x27;s important to also back up your media files.</p>
+<p>keeping your Media outside the library:</p>
+<ul>
+<li>go to settings &gt; import &gt; leave files in place. It&#x27;s mandatory to check this setting from time to time.</li>
+<li>go to Library Properties &gt; Storage Locations &gt; Modify Settings, then</li>
+<li>route Media into a folder of your choice. This creates Final Cut Original, ...Optimized, and Proxy Media Folders eventually. Only the ...Original folder shouldn&#x27;t be deleted in any situation to avoid media-loss.</li>
+<li>leave Motion Content in Motion templates folder</li>
+<li>route Cache into a folder of your choice. This folder can be deleted at any time to free up disk-space.</li>
+<li>leave Backups in Final Cut Backups. That&#x27;s in Movies/Final Cut Backups. If your Library file is on your desktop: route the Backups folder to external storage.</li>
+</ul>
 <hr />
 <doc-anchor-target id="c">
     <h2>
@@ -438,10 +447,10 @@
 </doc-anchor-target>
 <p>If you&#x27;re looking for the best collaboration workflow, check out <a href="../ecosystem/tools/#postlab">PostLab</a>.</p>
 <p>You should also read the <a href="../learn/workflow/">Workflow</a> section of this site.</p>
-<doc-anchor-target id="color-grading---is-it-legit">
+<doc-anchor-target id="color-grading---does-it-shine">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#color-grading---is-it-legit">#</doc-anchor-trigger>
-        <span>Color Grading - Is it legit?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#color-grading---does-it-shine">#</doc-anchor-trigger>
+        <span>Color Grading - Does it shine?</span>
     </h3>
 </doc-anchor-target>
 <p>Yes, Final Cut Pro has very powerful built-in colour grading tools.</p>
@@ -517,6 +526,15 @@
         <span>F</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="fcpxml---overview">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fcpxml---overview">#</doc-anchor-trigger>
+        <span>FCPXML - Overview</span>
+    </h3>
+</doc-anchor-target>
+<p>fcpxml is FCP&#x27;s propietary file format for sending timelines or even entire libraries to third party apps and plugins. It opens Final Cut to the rest of the world and even to other NLEs, like daVinci Resolve.</p>
+<p>Have a look at <a href="https://fcp.cafe/ecosystem/tools/">tools</a> to get an impression what&#x27;s possible with fcpxml.</p>
+<p>Final Cut usually supports the current and the previous version of fcpxml. example: 10.9 and 10.10. You&#x27;d be well advised to use the previous version, because it&#x27;s usually supported by a wider range of Apps.</p>
 <doc-anchor-target id="file-formats---what-file-formats-are-supported">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#file-formats---what-file-formats-are-supported">#</doc-anchor-trigger>
@@ -691,6 +709,27 @@
         <span>P</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="performance---stay-snappy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#performance---stay-snappy">#</doc-anchor-trigger>
+        <span>Performance - Stay Snappy</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>What is causing delay and laggy behaviour or even increased freezes?</strong></p>
+<p>FCP can lag with <strong>timelines longer than 30 minutes</strong>. Aside from slow drives, too less RAM or bad media management, it is the sheer amount of clips (Audio and Video) in a timeline that could hit on performance. It&#x27;s hard to pin-point exactly, but it starts from around 500 assets (clips, titles, effects) in the timline.</p>
+<p>Apple Silicon Macs do perform significantly better than Intel Macs. With M1 Pro/Max+ timelines of 40-60 minutes should be no problem.</p>
+<p>there are several tricks and workarounds to keep long timelines without lags</p>
+<p><strong>workarounds</strong></p>
+<p>RAM should increase with the lengths of your projects. Though it&#x27;s possible to edit 90 minutes with 16 GB, we would recommend 32-64 GB of RAM with feature-length timelines. This reduces the risk of freezes, when FCP has to suddenly load big Events.</p>
+<p>working in reels:</p>
+<p>You can segment your timeline into regions of around 20-25 minutes and put them into Compound Clips. Inside the Compounds you drive the edit. &quot;Outside&quot; the Compounds you compose the film. For example you could try out different styles of music. With smart Role-management you can turn on/off different music types, for example. important note: before export, you always have to check the joints between the reels.</p>
+<p>stay snappy:</p>
+<p>With the aforementioned reels-system you could have even 3-hour-timelines. you also could temporarily put a segment of the edit into a Compound to work faster and break it apart afterwards.</p>
+<p>stay snappier:</p>
+<p>We are big fans of transcoding beforehand. So every video that goes in is ProRes and any Audio is transcoded to WAV. There are reports of reliable workflows with (high resolution) h264-.mov on Apple Silicon. But you have to take care that the TC runs within the container for postproduction.</p>
+<p>We would also recommend having fast thunderbolt SSD-RAIDs or even enough internal SSD-storage for all your media (4-8 TB). This practically neagtes load-times for waveforms and thumbnails, for example while zooming in or out the TL.</p>
+<p>beware the bug</p>
+<p>As of June 2023 there&#x27;s still&#x27; a bug, when you have long titles or effects that span over the entire timeline, such as Watermarks, TC-burnin and color adjustments. This can slow down the whole system. Try to avoid those or only apply for export. You can apply them to the &quot;reels&quot;-TL, without limitations.</p>
 <doc-anchor-target id="professional-film-editing---can-fcp-compete">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#professional-film-editing---can-fcp-compete">#</doc-anchor-trigger>
