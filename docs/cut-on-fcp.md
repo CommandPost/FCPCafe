@@ -90,8 +90,10 @@ If there's something missing, [please let us know](/contribute/).
 - Parasite (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6751668/)
 - Let's Dance (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8599746/)
 - Relativity (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6586090/)
-- The Night Comes for Us (2018) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6116856/)
 - The Wild Goose Lake (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt9647768/)
+- HeartBreak (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt3175260/)
+- The ReVisitant (2019) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt6435770/)
+- The Night Comes for Us (2018) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt6116856/)
 - Arini (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt8077382/)
 - Shadows on the Road (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt7391194/)
 - The Isle (2018) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5075662/)
@@ -112,6 +114,7 @@ If there's something missing, [please let us know](/contribute/).
 - Flesh And Blood (2017) {{fcpx}}
 - The Unknown Soldier (2017) {{fcpx}}
 - Geostorm (2017) {{fcpx}}
+- Characterz (2016) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt5046632/)
 - Everything Else (2016) {{fcpx}}
 - La Historia de Jan (2016) {{fcpx}}
 - Bokeh (2016) {{fcpx}}
@@ -136,6 +139,9 @@ If there's something missing, [please let us know](/contribute/).
 - What Happened, Miss Simone? (2015) {{fcp7}}
 - Antigang (2015) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt4232610/)
 - Fou d'amour (2015) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt4019142/)
+- My Fair Lidy (2015) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1995374/)
+- The Visitant (2014) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2276258/)
+- Old Fashioned (2014) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2048824/)
 - Loreak (2014) {{fcpx}}
 - A Most Violent Year (2014) {{fcp7}}
 - Goal of the Dead (2014) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2787824/)
@@ -144,6 +150,7 @@ If there's something missing, [please let us know](/contribute/).
 - A Touch Of Sin (2013) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2852400/)
 - Hemingway & Gellhorn (2012) {{fcp7}}
 - John Carter (2012) {{fcp7}}
+- Takaseem El Hob (2012) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2358869/)
 - Twixt (2011) {{fcp7}}
 - Courageous (2011) {{fcp7}}
 - John Carter (2011) {{fcp7}}
@@ -158,10 +165,12 @@ If there's something missing, [please let us know](/contribute/).
 - 500 Days of Summer (2009) {{fcp7}}
 - X-Men Origins: Wolverine (2009) {{fcp7}}
 - La Horde (2009) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1183276/)
+- Scare Zone (2009) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0815113/)
 - Traitor (2008) {{fcp7}}
 - The X-Files: I Want to Believe (2008) {{fcp7}}
 - Burn After Reading (2008) {{fcp7}}
 - The Curious Case of Benjamin Button (2008) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0421715/)
+- Terror Inside (2008) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0926341/)
 - No Country for Old Men (2007) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0477348/)
 - Enchanted (2007) {{fcp7}}
 - Gabriel (2007) {{fcp7}}
@@ -182,6 +191,7 @@ If there's something missing, [please let us know](/contribute/).
 - Happy Endings (2005) {{fcp7}}
 - Dreamer: Inspired by a True Story (2005) {{fcp7}}
 - Corpse Bride (2005) {{fcp7}}
+- The Touch (2005) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0483826/)
 - Super Size Me (2004) {{fcp7}}
 - Sky Captain and the World of Tomorrow (2004) {{fcp7}}
 - The Ladykillers (2004) {{fcp7}}
@@ -205,6 +215,7 @@ If there's something missing, [please let us know](/contribute/).
 - Scènes de Crimes (2022) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt26997835/)
 - India's Space Odyssey (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt15609374/)
 - Juice WRLD: Into the Abyss (2021) {{fcpx}} {{hbo}} {{imdb}}(https://www.imdb.com/title/tt15168124/)
+- Killing the Shepherd (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14023170/)
 - Stephen King: Le mal nécessaire (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13329714/)
 - Action Women (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18922790/)
 - 40 Years a Prisoner (2020) {{fcpx}} {{hbo}} {{imdb}}(https://www.imdb.com/title/tt9697452/)
@@ -222,6 +233,8 @@ If there's something missing, [please let us know](/contribute/).
 - Ecco Homo Movie (2016) {{fcp7}}
 - In Bob We Trust (2013) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt3005560/)
 - Autoluminescent: Rowland S. Howard (2011) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt2015298/)
+- The Making of “We Own The Night” (2008) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt1233214/)
+- Blindsided (2006) {{fcp7}} {{imdb}}(https://www.imdb.com/title/tt0815113/)
 
 ---
 
