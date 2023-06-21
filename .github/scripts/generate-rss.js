@@ -68,9 +68,19 @@ for (const file of files) {
         const lines = entry.trim().split('\n');
 
         if (lines[0].startsWith('### ')) {
-            // Extract the title using a regular expression that matches either of your formats
-            const titleMatch = lines[0].substring(4).match(/(\[)?(.*?)(\])?(\(.*\))?/);
-            currentTitle = titleMatch[2].trim();
+            const line = lines[0].substring(4);
+
+            // Regular expression for new format e.g. '[23rd May 2023](/news/20230523)'
+            const newFormatRegex = /\[(.*?)\]\(.*?\)/;
+
+            if (newFormatRegex.test(line)) {
+                // If the line matches new format, extract the date from inside brackets
+                currentTitle = line.match(newFormatRegex)[1];
+            } else {
+                // Else consider the whole line as title
+                currentTitle = line;
+            }
+
             currentDate = convertDateToRFC822(currentTitle);
             lines.shift();
         }
