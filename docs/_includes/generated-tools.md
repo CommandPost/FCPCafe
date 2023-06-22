@@ -12,6 +12,7 @@
 
 {{ include "tools/backups-for-final-cut-pro" }}
 {{ include "tools/beatmark-pro" }}
+{{ include "tools/builder-nle" }}
 
 ---
 
