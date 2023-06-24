@@ -5,7 +5,7 @@
         data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
         data-category="Website Discussions"
         data-category-id="DIC_kwDOBamd9s4CW0qy"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
