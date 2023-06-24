@@ -42,7 +42,7 @@ try {
                 currentMonth = month;
             }
 
-            outputContent += `{{ include "news/${date}" }}\n\n[!button text=\"Discuss this news item\" variant=\"info\"](news/${date})\n\n---\n\n`;
+            outputContent += `{{ include "news/${date}" }}\n\n[!button text=\"Discuss this news item\" variant=\"info\"](news/${date}#discuss-this-page)\n\n---\n\n`;
 
             // Add sponsor
             if (sponsorFiles.length > 0) {
