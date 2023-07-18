@@ -28,8 +28,8 @@ function entriesAreEqual(entry1, entry2) {
 
 let oldFeedItems = [];
 
-if (fs.existsSync('docs/rss.xml')) {
-    const rssContent = fs.readFileSync('docs/rss.xml');
+if (fs.existsSync('rss.xml')) {
+    const rssContent = fs.readFileSync('rss.xml');
     const $ = cheerio.load(rssContent, { xmlMode: true });
     $('item').each((i, elem) => {
         oldFeedItems.push({
@@ -134,5 +134,5 @@ if (isContentChanged) {
     newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
     newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
     newXMLContent = newXMLContent.replace(/\.\.\/static\//g, 'https://fcp.cafe/static/');
-    fs.writeFileSync('docs/rss.xml', newXMLContent);
+    fs.writeFileSync('rss.xml', newXMLContent);
 }

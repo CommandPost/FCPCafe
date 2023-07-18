@@ -118,6 +118,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Switch to retype branch and pull the latest
+        run: |
+          git checkout retype
+          git pull origin retype
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -131,18 +136,10 @@ jobs:
 
       - name: Commit and push if it's necessary
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git stash
-          git pull --rebase origin main
-          git stash pop
-          if git diff --exit-code --quiet docs/rss.xml; then
-            echo "No changes to commit"
-          else
-            git add docs/rss.xml
-            git commit -m "Update rss.xml"
-            git push
-          fi
+          git reset --hard
+          git clean -fd
+          git checkout retype
+          git pull origin retype
 
   publish:
     name: Publish to retype branch
@@ -161,10 +158,6 @@ jobs:
         with:
           name: docs
           path: docs/
-
-      - name: Copy rss.xml to a temporary location
-        run: |
-          cp docs/rss.xml /tmp/rss.xml
 
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
@@ -187,9 +180,9 @@ jobs:
           git config --local user.name "GitHub Action"
           git pull origin retype
 
-      - name: Copy rss.xml from the temporary location to retype branch
+      - name: Move rss.xml to retype branch
         run: |
-          cp /tmp/rss.xml ./rss.xml
+          mv docs/rss.xml ./rss.xml
 
       - name: Commit and push if it's necessary
         run: |
