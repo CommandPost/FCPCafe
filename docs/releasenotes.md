@@ -8,6 +8,42 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ---
 
+### Final Cut Pro 1.1 (for iPad)
+
+**Released July 18, 2023**
+
+Final Cut Pro for iPad 1.1 includes the following bug fixes and enhancements:
+
+- Turn snapping on or off using the keyboard shortcut N.
+- Move the playhead backward or forward 10 frames using the keyboard shortcuts Shift-Left Arrow and Shift-Right Arrow.
+- Show info for browser clips using the keyboard shortcut Control-I.
+- Turn skimming on or off using the keyboard shortcut S.
+- Turn audio skimming on or off using the keyboard shortcut Shift-S.
+- Split and switch multicam clip angles using the keyboard shortcuts 1, 2, 3, and 4.
+- Show or hide the jog wheel using the keyboard shortcut Control-Shift-W; expand or collapse it using Control-W.
+- Switch the jog wheel between playhead mode and nudge mode using the keyboard shortcut Shift-W.
+- Resolves an issue with custom fonts not appearing in the inspector.
+- Improves reliability and performance when dragging a clip from the browser to the timeline.
+- Addresses an issue with keyboard shortcuts not working as expected in the content browser.
+- Improves visual feedback when adding effects and transitions to timeline clips in Position mode.
+- Fixes an issue where importing media on a device with no remaining storage would cause Final Cut Pro for iPad to quit unexpectedly.
+- Improves reliability when retiming a clip with Scene Removal Mask applied.
+- Resolves an issue where importing clips with the same name would generate blank clip thumbnails.
+- Improves reliability and performance when using soundtracks and dynamic titles.
+- Addresses an issue where copying and pasting transform settings would unexpectedly paste clip speed.
+- Improves visual feedback and reliability when rating and adding keywords to clips while filtering clips in the browser.
+- Fixes an issue where resetting audio settings would unexpectedly reset clip speed.
+- Resolves an issue with the appearance of onscreen controls for cropping and shape masks.
+- Addresses an issue where clip height adjustments would not update audio-only clips in connected storylines.
+- Fixes an issue where the Keywords window would open offscreen with the timeline minimized.
+- Resolves an issue where disabled multicam audio angles would appear in the audio component list in the inspector.
+
+#### Notes from FCP Cafe:
+
+- Final Cut Pro 10.6.7 on Mac uses a newer Library format than Final Cut Pro 1.1 on iPad. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using Final Cut Pro 10.6.6.
+
+---
+
 ### Final Cut Pro 1.0.1 (for iPad)
 
 **Released June 1, 2023**
