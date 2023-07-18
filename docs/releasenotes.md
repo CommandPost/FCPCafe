@@ -22,6 +22,18 @@ This is the first release of Final Cut Pro for iPad!
 
 ---
 
+### Final Cut Pro 10.6.7
+
+**Released July 18, 2023**
+
+- Addresses an issue where audio effects would not be reset during playback.
+- Fixes an issue where an Audio Units effect could have incorrect values when importing using FCPXML.
+- Improves waveform redrawing on expanded audio components when adjusting volume with the Touch Bar.
+- Resolves an issue where the Voice Isolation Amount slider would snap to 0% when trying to set a value less than 7%.
+- Improves reliability when retiming a clip with the Scene Removal Mask applied.
+- Fixes an issue where the Control Range setting in the Color Adjustments effect would be incorrectly set to SDR when importing using FCPXML.
+
+---
 
 ### Final Cut Pro 10.6.6
 
