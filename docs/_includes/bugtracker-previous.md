@@ -1,4 +1,3 @@
-- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202){target="_blank"}
 - [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189){target="_blank"}
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133){target="_blank"}
 - [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119){target="_blank"}
