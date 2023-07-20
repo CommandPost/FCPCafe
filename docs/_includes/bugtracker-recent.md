@@ -1,3 +1,4 @@
+- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217){target="_blank"}
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211){target="_blank"}
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202){target="_blank"}
 - [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190){target="_blank"}
@@ -27,4 +28,3 @@
 - [Neat Video v5.4.7 Crash (December 3, 2021)](https://github.com/CommandPost/FCPCafe/issues/68){target="_blank"}
 - [Crash - Making a compound clip (November 29, 2021)](https://github.com/CommandPost/FCPCafe/issues/67){target="_blank"}
 - [Titles/Generator with lots of Parameters slow in Inspector (November 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/66){target="_blank"}
-- [Final Cut Pro 10.6 renders light in Motion Templates slightly differently than in 10.5.4 (October 22, 2021)](https://github.com/CommandPost/FCPCafe/issues/65){target="_blank"}
