@@ -20,7 +20,7 @@ const getIssues = async () => {
 
 const generateMarkdown = (issues, path, sortFunc) => {
   let content = '';
-  
+
   // sort issues according to provided sort function
   issues.sort(sortFunc);
 
@@ -51,9 +51,11 @@ const sumReactions = issue => {
 
 getIssues().then(issues => {
   const issuesFilteredByRecent = issues.filter(issue => issue.labels.length > 0 && !issue.labels.some(label => label.name === "Feature Request"));
-  const issuesFilteredByLatest = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.6"));
-  
+  const issuesFilteredByLatest = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.7"));
+  const issuesFilteredByPrevious = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.6"));
+
   generateMarkdown(issuesFilteredByRecent, 'docs/_includes/bugtracker-recent.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
   generateMarkdown(issuesFilteredByLatest, 'docs/_includes/bugtracker-latest.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
+  generateMarkdown(issuesFilteredByPrevious, 'docs/_includes/bugtracker-previous.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));
   generateMarkdown(issuesFilteredByRecent, 'docs/_includes/bugtracker-reactions.md', (a, b) => sumReactions(b) - sumReactions(a));
 });

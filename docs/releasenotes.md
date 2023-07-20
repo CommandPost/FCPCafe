@@ -12,6 +12,8 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 **Released July 18, 2023**
 
+**Build:** 451.1.61
+
 Final Cut Pro for iPad 1.1 includes the following bug fixes and enhancements:
 
 - Turn snapping on or off using the keyboard shortcut N.
