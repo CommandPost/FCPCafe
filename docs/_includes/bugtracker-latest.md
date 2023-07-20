@@ -2,4 +2,5 @@
 - [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218){target="_blank"}
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217){target="_blank"}
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211){target="_blank"}
+- [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190){target="_blank"}
 - [Renders being lost/missing after restart (April 23, 2019)](https://github.com/CommandPost/FCPCafe/issues/44){target="_blank"}
