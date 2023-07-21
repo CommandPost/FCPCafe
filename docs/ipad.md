@@ -74,17 +74,17 @@ First you must install NDI Tools on your Mac by downloading [here](https://downl
 
 Once you've installed and restarted your Mac, an NDI option will appear in your **A/V Output** settings in Final Cut Pro:
 
-![](../static/ndi-av-output.png)
+![](/static/ndi-av-output.png)
 
 You can adjust the NDI video format and frame rate in System Preferences:
 
-![](../static/ndi-system-prefs.png)
+![](/static/ndi-system-prefs.png)
 
 You can then install an app such as [NDI Monitor](https://apps.apple.com/au/app/ndi-monitor/id1196221514){target="_blank"} on your iPad.
 
 For best quality, it's important to enable **Hi-Res NDI** and **Retina Display** in the NDI Monitor settings in the Settings app.
 
-![](../static/ndi-monitor-settings.jpeg)
+![](/static/ndi-monitor-settings.jpeg)
 
 You can now stream from your Mac to your iPad over NDI, just like a regular A/V Output device.
 
