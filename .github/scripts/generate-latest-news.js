@@ -61,7 +61,25 @@ try {
             const newsYear = date.slice(0, 4);
             const newsMonth = monthNames[parseInt(date.slice(4, 6), 10) - 1];
 
-            const newsContent = `# ${newsYear}\n## ${newsMonth}\n\n{{ include "news/${date}" }}`;
+            const newsDay = parseInt(date.slice(6, 8), 10); // Extract day from the filename
+
+            // Convert day to its ordinal form
+            let suffix = 'th';
+            if (newsDay % 10 === 1 && newsDay !== 11) suffix = 'st';
+            else if (newsDay % 10 === 2 && newsDay !== 12) suffix = 'nd';
+            else if (newsDay % 10 === 3 && newsDay !== 13) suffix = 'rd';
+
+            const formattedDateLabel = `${newsDay}${suffix} ${newsMonth} ${newsYear}`;
+
+            const metadata = `---
+            label: ${formattedDateLabel}
+            icon: broadcast
+            image: /static/thumbnail.jpg
+            ---
+
+            `;
+
+            const newsContent = metadata + `# ${newsYear}\n## ${newsMonth}\n\n{{ include "news/${date}" }}`;
 
             try {
                 fs.writeFileSync(newsOutputFile, newsContent);
