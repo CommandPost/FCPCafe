@@ -157,6 +157,7 @@
 
 ## T
 
+{{ include "tools/transcriber" }}
 {{ include "tools/transfer-toolbox" }}
 
 ---
