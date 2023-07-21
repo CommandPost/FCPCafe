@@ -1,3 +1,4 @@
+- [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220){target="_blank"}
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219){target="_blank"}
 - [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218){target="_blank"}
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217){target="_blank"}
