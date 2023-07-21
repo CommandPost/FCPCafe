@@ -115,7 +115,7 @@ Initially, I told myself that this would not be a big problem, just specify in t
 I succeeded by taking advantage of some libraries provided by Apple for analyzing sounds.
 Subsequently, one thing I have been working on in parallel with both this app and the one that does text-to-speech is the highlighting of sentences in sync with the video (or, rather, with the audio).
 
-![](/static/transcriber-Audio_pre_analisys3D.png)
+![](/static/transcriber-Audio_pre_analisys3D.jpg)
 
 I always thought that when doing a speech review, physically, the people in charge have in front of them a sheet, printed in Courier font, with all the features of the script.
 For this very reason I wanted the words and sentences to be written in this same style, not so much for skeuomorphism, but because it is still the most effective and efficient method of reading the text while listening to the related audio.
