@@ -1,3 +1,5 @@
+- [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219){target="_blank"}
+- [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218){target="_blank"}
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217){target="_blank"}
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211){target="_blank"}
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202){target="_blank"}
@@ -26,5 +28,3 @@
 - [FCPX stalled using iZotope RX9 (February 4, 2022)](https://github.com/CommandPost/FCPCafe/issues/70){target="_blank"}
 - [Crash scrubbing audio (February 4, 2022)](https://github.com/CommandPost/FCPCafe/issues/69){target="_blank"}
 - [Neat Video v5.4.7 Crash (December 3, 2021)](https://github.com/CommandPost/FCPCafe/issues/68){target="_blank"}
-- [Crash - Making a compound clip (November 29, 2021)](https://github.com/CommandPost/FCPCafe/issues/67){target="_blank"}
-- [Titles/Generator with lots of Parameters slow in Inspector (November 25, 2021)](https://github.com/CommandPost/FCPCafe/issues/66){target="_blank"}

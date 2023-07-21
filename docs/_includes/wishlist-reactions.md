@@ -1,5 +1,6 @@
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212){target="_blank"}
 - [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102){target="_blank"}
+- [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210){target="_blank"}
 - [[Final Cut Pro (for iPad) v1.0.1] Add support for Custom Fonts (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/200){target="_blank"}
 - [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197){target="_blank"}
 - [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196){target="_blank"}
