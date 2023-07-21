@@ -71,13 +71,7 @@ try {
 
             const formattedDateLabel = `${newsDay}${suffix} ${newsMonth} ${newsYear}`;
 
-            const metadata = `---
-            label: ${formattedDateLabel}
-            icon: broadcast
-            image: /static/thumbnail.jpg
-            ---
-
-            `;
+            const metadata = `---\nlabel: ${formattedDateLabel}\nicon: broadcast\nimage: /static/thumbnail.jpg\n---\n\n`;
 
             const newsContent = metadata + `# ${newsYear}\n## ${newsMonth}\n\n{{ include "news/${date}" }}`;
 
