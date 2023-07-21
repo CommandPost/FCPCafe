@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 20 Jul 2023 08:31:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jul 2023 02:41:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
         <item>
@@ -122,15 +122,6 @@
         </item>
         <item>
             <title><![CDATA[30th May 2023]]></title>
-            <description><![CDATA[<p>We're currently experimenting with adding Discussions &amp; Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.</p>
-<p>We're still working on the formatting - they're currently a bit &quot;buggy&quot; in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.</p>
-]]></description>
-            <link>https://fcp.cafe/#30th-may-2023</link>
-            <guid isPermaLink="false">30th May 2023</guid>
-            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[30th May 2023]]></title>
             <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
 <p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
 <p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
@@ -196,19 +187,6 @@
             <link>https://fcp.cafe/#1st-june-2023</link>
             <guid isPermaLink="false">1st June 2023</guid>
             <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2nd June 2023]]></title>
-            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
-<p>The only change according the the release notes is:</p>
-<ul>
-<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
-</ul>
-<p>You can find the <a href="/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
-]]></description>
-            <link>https://fcp.cafe/#2nd-june-2023</link>
-            <guid isPermaLink="false">2nd June 2023</guid>
-            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2nd June 2023]]></title>
@@ -285,26 +263,6 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         </item>
         <item>
             <title><![CDATA[3rd June 2023]]></title>
-            <description><![CDATA[<p><strong>BorisFX</strong> is giving away their free Continuum FCPX Looks filter!</p>
-<p>We've been using mocha Pro for years, and love it dearly - so are always excited by what BorisFX have in-store!</p>
-<p>They just need to HURRY UP and give us native mocha Pro support within Final Cut Pro! In the meantime, this is great...</p>
-<p>BCC+ Looks Includes:</p>
-<ul>
-<li>80 drag-and-drop presets</li>
-<li>Award-Winning Mocha tracking through Pixel Chooser: Quickly mask &amp; isolate effects</li>
-<li>Fully customizable: Easily adjust hue-sat, brightness, contrast, grain, and more</li>
-<li>8mm film stock, bleach by-pass, and day for night looks</li>
-<li>Diffusion, color gradients, and lighting gels</li>
-<li>Custom FX Editor: Browse and apply presets in seconds</li>
-</ul>
-<p><a href="https://vfx.borisfx.com/free-fcp-bcc-looks">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
-]]></description>
-            <link>https://fcp.cafe/#3rd-june-2023</link>
-            <guid isPermaLink="false">3rd June 2023</guid>
-            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[3rd June 2023]]></title>
             <description><![CDATA[<p><strong>FCPeffects.com</strong> is celebrating 12 years making plugins for Final Cut Pro!</p>
 <p>Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!</p>
 <p><a href="https://www.fcpeffects.com/pages/mb-9887697887914709998">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
@@ -312,14 +270,6 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <link>https://fcp.cafe/#3rd-june-2023</link>
             <guid isPermaLink="false">3rd June 2023</guid>
             <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[5th June 2023]]></title>
-            <description><![CDATA[<p>We've added some information from the editor, and lots of Final Cut Pro screenshots to our <a href="/case-studies/turn-of-the-tide/">Turn of the Tide case study</a>. Enjoy!</p>
-]]></description>
-            <link>https://fcp.cafe/#5th-june-2023</link>
-            <guid isPermaLink="false">5th June 2023</guid>
-            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[5th June 2023]]></title>
@@ -511,15 +461,6 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[13th June 2023]]></title>
-            <description><![CDATA[<p>FCP Cafe has been slowly growing and expanding, and professional film &amp; television editors from all around the world start making contributions!</p>
-<p>If you haven't already checked out the <a href="/cut-on-fcp/">Cut on Final Cut Pro</a> page, it's worth a visit!</p>
-]]></description>
-            <link>https://fcp.cafe/#13th-june-2023</link>
-            <guid isPermaLink="false">13th June 2023</guid>
-            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[13th June 2023]]></title>
             <description><![CDATA[<p>The amazing Philip Hodgetts from <a href="https://intelligentassistance.com">Intelligent Assistance</a> has written an excellent blog post on <strong>Generative AI Devalues Experience</strong> <a href="http://www.philiphodgetts.com/2023/06/generative-ai-devalues-experience/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#13th-june-2023</link>
@@ -578,14 +519,6 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[14th June 2023]]></title>
             <description><![CDATA[<p>FCP Cafe now has a new logo/icon designed by the amazing <a href="https://matthewskiles.com">Matthew Skiles</a>. We hope you like it as much as we do!</p>
 <p>He has also designed a new logo/icon for <a href="https://resolve.cafe">Resolve Cafe</a>, which is equally amazing.</p>
-]]></description>
-            <link>https://fcp.cafe/#14th-june-2023</link>
-            <guid isPermaLink="false">14th June 2023</guid>
-            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[14th June 2023]]></title>
-            <description><![CDATA[<p>We've just added an amazingly detailed case study for <strong>Blood &amp; Gold</strong>. Check it out <a href="/case-studies/blood-and-gold/">here</a>!</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-june-2023</link>
             <guid isPermaLink="false">14th June 2023</guid>
@@ -853,7 +786,7 @@ Saturday June 17th @ 3:30pm</p>
         <item>
             <title><![CDATA[30th June 2023]]></title>
             <description><![CDATA[<p><strong>Marker Toolbox v1.3.0 (14)</strong> is out now on the Mac App Store.</p>
-<p><img src="https://fcp.cafe/static/marker-toolbox-v1-3-0.jpg" alt=""></p>
+<p><img src="/static/marker-toolbox-v1-3-0.jpg" alt=""></p>
 <p><strong>New Features:</strong></p>
 <ul>
 <li>Added the ability to export <strong>Avid Media Composer Marker Text</strong> files. Thanks for suggesting Scott Simmons!</li>
@@ -886,7 +819,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[3rd July 2023]]></title>
             <description><![CDATA[<p><strong>CommandPost v1.4.19</strong> is out now!</p>
 <p>We've added actions to control all the parameters for a <strong>Colourlab Ai</strong> Effect in the Final Cut Pro Video Inspector. Enjoy!</p>
-<p><img src="https://fcp.cafe/static/commandpost-1-4-19.png" alt=""></p>
+<p><img src="/static/commandpost-1-4-19.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#3rd-july-2023</link>
             <guid isPermaLink="false">3rd July 2023</guid>
@@ -896,7 +829,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[3rd July 2023]]></title>
             <description><![CDATA[<p><strong>Color Finale</strong> is having a Summer Sale! Get in quick!</p>
 <p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
-<p><img src="https://fcp.cafe/static/color-finale-sale.png" alt=""></p>
+<p><img src="/static/color-finale-sale.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#3rd-july-2023</link>
             <guid isPermaLink="false">3rd July 2023</guid>
@@ -935,7 +868,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[7th July 2023]]></title>
             <description><![CDATA[<p><strong>Ulti.Media Transcriber</strong> is out now! We've been beta testing it for a few months now, and it's awesome.</p>
 <p>You can learn more and purchase at <a href="https://fxfactory.com/info/transcriber/">FxFactory</a>.</p>
-<p><img src="https://fcp.cafe/static/transcriber.jpeg" alt=""></p>
+<p><img src="/static/transcriber.jpeg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#7th-july-2023</link>
             <guid isPermaLink="false">7th July 2023</guid>
@@ -957,7 +890,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>BRAW Toolbox v1.3.0</strong> is out now!</p>
 <p>It has added support for <strong>Panasonic Lumix GH6</strong> Blackmagic RAW clips.</p>
 <p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
-<p><img src="https://fcp.cafe/static/brawtoolbox-1-3-0.png" alt=""></p>
+<p><img src="/static/brawtoolbox-1-3-0.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#12th-july-2023</link>
             <guid isPermaLink="false">12th July 2023</guid>
@@ -968,7 +901,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>CommandPost v1.4.20</strong> is out now!</p>
 <p>It has added support for the latest Loupedeck CT hardware. Thanks for reporting Marshall Fife!</p>
 <p>You can learn more <a href="https://commandpost.io">here</a>.</p>
-<p><img src="https://fcp.cafe/static/commandpost-1-4-20.png" alt=""></p>
+<p><img src="/static/commandpost-1-4-20.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#12th-july-2023</link>
             <guid isPermaLink="false">12th July 2023</guid>
@@ -979,7 +912,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p>For those that missed the news back in May, Apple has updated their <strong>Apple ProRes RAW White Paper</strong> to include information about the all-new plug-in architecture for camera makers.</p>
 <p>You can download it as a PDF <a href="https://www.apple.com/final-cut-pro/docs/Apple_ProRes_RAW.pdf">here</a>.</p>
 <p>PetaPixel also has an article that explains it in more detail <a href="https://petapixel.com/2023/05/31/apples-new-prores-raw-plug-ins-let-camera-makers-specify-processing/">here</a>.</p>
-<p><img src="https://fcp.cafe/static/prores-raw.png" alt=""></p>
+<p><img src="/static/prores-raw.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#16th-july-2023</link>
             <guid isPermaLink="false">16th July 2023</guid>
@@ -988,7 +921,7 @@ Saturday June 17th @ 3:30pm</p>
         <item>
             <title><![CDATA[18th July 2023]]></title>
             <description><![CDATA[<p>Exciting news! Apple has listed <strong>Marker Toolbox</strong> in their Mac App Store Story, <a href="https://apps.apple.com/au/story/id1439356777">The power of Final Cut Pro</a> in both the <strong>Great apps for Final Cut Pro</strong> &amp; <strong>Workflow Extensions</strong> sections! Amazing! Thanks EVERYONE for your on-going support!</p>
-<p><img src="https://fcp.cafe/static/marker-toolbox-app-store-story.png" alt=""></p>
+<p><img src="/static/marker-toolbox-app-store-story.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#18th-july-2023</link>
             <guid isPermaLink="false">18th July 2023</guid>
@@ -999,7 +932,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>PostSync</strong> has been updated to Version 1.7.</p>
 <p>There's lots of feature improvements and bug fixes. You can find the full list of changes <a href="https://chrisroyfilms.com/postsync/version-history/">here</a>.</p>
 <p>You can learn more <a href="https://chrisroyfilms.com/postsync/">here</a>.</p>
-<p><img src="https://fcp.cafe/static/postsync-main-1.7.png" alt=""></p>
+<p><img src="/static/postsync-main-1.7.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#18th-july-2023</link>
             <guid isPermaLink="false">18th July 2023</guid>
@@ -1017,7 +950,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>Fixes an issue where the Control Range setting in the Color Adjustments effect would be incorrectly set to SDR when importing using FCPXML.</li>
 </ul>
 <p>Interestingly, this update requires a database update, so there must be some bigger changes under the hood.</p>
-<p><img src="https://fcp.cafe/static/database-update.png" alt=""></p>
+<p><img src="/static/database-update.png" alt=""></p>
 <p><strong>Final Cut Pro for iPad 1.1</strong> is out now with the following bug fixes and enhancements:</p>
 <ul>
 <li>Turn snapping on or off using the keyboard shortcut N.</li>
@@ -1084,7 +1017,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>After one of the restarts, after applying an cut to an audio clip, and adding a transition, suddenly the Viewer went &quot;strobing&quot; - again, requiring another manual restart.</p>
 <p>I haven't had any crashes, but it's definitely got... issues.</p>
 <p>One major <a href="https://github.com/CommandPost/FCPCafe/issues/217">confirmed bug</a> is that Final Cut Pro 10.6.7 doesn't properly respect 0% opacity in Motion Templates. For example, if you apply the <code>Placeholder</code> Generator, it will ALWAYS show the notes:</p>
-<p><img src="https://fcp.cafe/static/fcpx-10-6-7-bug.png" alt=""></p>
+<p><img src="/static/fcpx-10-6-7-bug.png" alt=""></p>
 <p>This could be a deal breaker if you're using a Motion Template that uses this technique to hide things. Luckily none of the Motion Templates I used today had any issues.</p>
 <p>It's also worth nothing that <strong>Final Cut Pro 10.6.7 (for Mac)</strong> uses a newer Library format than <strong>Final Cut Pro 1.1 (for iPad)</strong>.</p>
 <p>This means that if you want to use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to go from Mac to iPad, you should keep using <strong>Final Cut Pro 10.6.6 (for Mac)</strong>.</p>
@@ -1094,6 +1027,47 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#20th-july-2023</link>
             <guid isPermaLink="false">20th July 2023</guid>
             <pubDate>Thu, 20 Jul 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21th July 2023]]></title>
+            <description><![CDATA[<p>Today is the last day of the introductory <strong>USD$50 discount</strong> on <strong>Builder NLE</strong> in the Mac App Store.</p>
+<p>Builder is a Text Based Editing app that’s tightly integrated with, and complements, Final Cut Pro. Builder NLE is a fully featured Text Based Editor that works with Final Cut Pro.</p>
+<p>Builder includes:</p>
+<ul>
+<li>Unlimited free transcription in 14 languages</li>
+<li>Full keywording support (to and from Final Cut Pro)</li>
+<li>A unique Keyword Manager</li>
+<li>Superb search and filtering tools</li>
+<li>Unlimited stores</li>
+<li>Built-in synthetic voiceover</li>
+<li>Multiple outputs including sending to Final Cut Pro for finishing</li>
+</ul>
+<p>Builder is the ultimate solution for text-based video editing for productions that rely heavily on transcripts.</p>
+<p>Come for the free transcripts, and write great stories with our superior workflows!</p>
+<p>Builder is designed to write stories from multiple transcripts using transcripts to edit text and video at the same time.</p>
+<p>Builder is a hybrid of word processor and video editor combined! It's faster for transcript-based workflows than in Final Cut Pro.</p>
+<p>Text and video are always linked so you can go from scanning text to observing nuance, instantly, anywhere in Builder.</p>
+<p>You can learn more <a href="https://www.lumberjacksystem.com/builder-nle-2/">here</a>.</p>
+<p>You can buy on the Mac App Store <a href="https://apps.apple.com/us/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+<p><img src="/static/builder-story-building.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#21th-july-2023</link>
+            <guid isPermaLink="false">21th July 2023</guid>
+            <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21th July 2023]]></title>
+            <description><![CDATA[<p>Our friends at Boris FX have added some new Continuum FCP Lens Flares.</p>
+<p>Quickly add dreamy lens flares to your #FCP projects — only $39!</p>
+<p>😎 300+ drag &amp; drop presets
+😎 Mocha tracking
+😎 Create your own flares
+😎 Beat Reactor + more</p>
+<p>You can learn more <a href="https://fcp.borisfx.com/lens-flares">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21th-july-2023</link>
+            <guid isPermaLink="false">21th July 2023</guid>
+            <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
