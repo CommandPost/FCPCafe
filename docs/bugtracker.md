@@ -8,9 +8,21 @@ We keep track of these bugs via our [GitHub issues site](https://github.com/Comm
 
 To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}.
 
+If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=Bug Report)
+
 In general, whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
 
 You can also send feedback directly to the Final Cut Pro team [here](https://www.apple.com/feedback/finalcutpro/){target="_blank"}, although unlike Feedback Assistant you can't track your request or add additional information - so we generally recommend you use Feedback Assistant instead.
+
+---
+
+### Finding Crash Logs
+
+You can find previous crash logs in this folder:
+
+`~/Library/Logs/DiagnosticReports/`
+
+You can find your user library by holding down `OPTION` when you click the `Go` menubar item from Finder.
 
 ---
 
