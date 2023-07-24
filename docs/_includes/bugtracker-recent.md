@@ -1,3 +1,5 @@
+- [[Final Cut Pro 10.6.7] crashed when past text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
+- [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
 - [Final Cut Pro 10.6.7 generally unreliable and buggy (Thread) (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
 - [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220){target="_blank"}
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219){target="_blank"}
@@ -26,5 +28,3 @@
 - [Crash - Dragging clips into new event (March 23, 2022)](https://github.com/CommandPost/FCPCafe/issues/74){target="_blank"}
 - [Pan Mode Dropdown has wrong AXValue (March 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/73){target="_blank"}
 - [Crash - FFSegmentStore compressionOutputCallback did not run at the expected QOS level (March 21, 2022)](https://github.com/CommandPost/FCPCafe/issues/72){target="_blank"}
-- [Crash - Repositioning a layer (February 17, 2022)](https://github.com/CommandPost/FCPCafe/issues/71){target="_blank"}
-- [FCPX stalled using iZotope RX9 (February 4, 2022)](https://github.com/CommandPost/FCPCafe/issues/70){target="_blank"}
