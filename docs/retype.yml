@@ -66,3 +66,7 @@ data:
   watch: "[!badge variant=\"info\" target=\"blank\" text=\"Watch\"]"
   website: "[!badge variant=\"dark\" target=\"blank\" text=\"Website\"]"
   casestudy: "[!badge variant=\"light\" target=\"blank\" text=\"Case Study\"]"
+
+outbound:
+  exclude:
+    - github.com/CommandPost/FCPCafe/
