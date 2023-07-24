@@ -1,3 +1,4 @@
+- [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228){target="_blank"}
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227){target="_blank"}
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
