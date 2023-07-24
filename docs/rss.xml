@@ -4,7 +4,7 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 24 Jul 2023 11:05:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jul 2023 11:14:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
         <item>
@@ -122,6 +122,15 @@
         </item>
         <item>
             <title><![CDATA[30th May 2023]]></title>
+            <description><![CDATA[<p>We're currently experimenting with adding Discussions &amp; Reactions to the bottom of every page at FCP Cafe - that tie into GitHub Discussions. You'll need a free GitHub account to comment and react.</p>
+<p>We're still working on the formatting - they're currently a bit &quot;buggy&quot; in terms of automatically resizing, and sometimes require a hard page reset to appear properly. We're investigating a proper fix - stay tuned.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-may-2023</link>
+            <guid isPermaLink="false">30th May 2023</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th May 2023]]></title>
             <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
 <p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
 <p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
@@ -187,6 +196,19 @@
             <link>https://fcp.cafe/#1st-june-2023</link>
             <guid isPermaLink="false">1st June 2023</guid>
             <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd June 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v1.0.1</strong> for iPad is out now!</p>
+<p>The only change according the the release notes is:</p>
+<ul>
+<li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
+</ul>
+<p>You can find the <a href="/releasenotes/#final-cut-pro-101-for-ipad">release note on FCP Cafe</a>. We'll update that page if we find anything undocumented.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-june-2023</link>
+            <guid isPermaLink="false">2nd June 2023</guid>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2nd June 2023]]></title>
@@ -263,6 +285,26 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
         </item>
         <item>
             <title><![CDATA[3rd June 2023]]></title>
+            <description><![CDATA[<p><strong>BorisFX</strong> is giving away their free Continuum FCPX Looks filter!</p>
+<p>We've been using mocha Pro for years, and love it dearly - so are always excited by what BorisFX have in-store!</p>
+<p>They just need to HURRY UP and give us native mocha Pro support within Final Cut Pro! In the meantime, this is great...</p>
+<p>BCC+ Looks Includes:</p>
+<ul>
+<li>80 drag-and-drop presets</li>
+<li>Award-Winning Mocha tracking through Pixel Chooser: Quickly mask &amp; isolate effects</li>
+<li>Fully customizable: Easily adjust hue-sat, brightness, contrast, grain, and more</li>
+<li>8mm film stock, bleach by-pass, and day for night looks</li>
+<li>Diffusion, color gradients, and lighting gels</li>
+<li>Custom FX Editor: Browse and apply presets in seconds</li>
+</ul>
+<p><a href="https://vfx.borisfx.com/free-fcp-bcc-looks">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2023</link>
+            <guid isPermaLink="false">3rd June 2023</guid>
+            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2023]]></title>
             <description><![CDATA[<p><strong>FCPeffects.com</strong> is celebrating 12 years making plugins for Final Cut Pro!</p>
 <p>Get all of their plugins in an easy to install package with the Mega Bundle. I've just pressed the buy button!</p>
 <p><a href="https://www.fcpeffects.com/pages/mb-9887697887914709998">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
@@ -270,6 +312,14 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <link>https://fcp.cafe/#3rd-june-2023</link>
             <guid isPermaLink="false">3rd June 2023</guid>
             <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2023]]></title>
+            <description><![CDATA[<p>We've added some information from the editor, and lots of Final Cut Pro screenshots to our <a href="/case-studies/turn-of-the-tide/">Turn of the Tide case study</a>. Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2023</link>
+            <guid isPermaLink="false">5th June 2023</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[5th June 2023]]></title>
@@ -461,6 +511,15 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[13th June 2023]]></title>
+            <description><![CDATA[<p>FCP Cafe has been slowly growing and expanding, and professional film &amp; television editors from all around the world start making contributions!</p>
+<p>If you haven't already checked out the <a href="/cut-on-fcp/">Cut on Final Cut Pro</a> page, it's worth a visit!</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-june-2023</link>
+            <guid isPermaLink="false">13th June 2023</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th June 2023]]></title>
             <description><![CDATA[<p>The amazing Philip Hodgetts from <a href="https://intelligentassistance.com">Intelligent Assistance</a> has written an excellent blog post on <strong>Generative AI Devalues Experience</strong> <a href="http://www.philiphodgetts.com/2023/06/generative-ai-devalues-experience/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#13th-june-2023</link>
@@ -519,6 +578,14 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[14th June 2023]]></title>
             <description><![CDATA[<p>FCP Cafe now has a new logo/icon designed by the amazing <a href="https://matthewskiles.com">Matthew Skiles</a>. We hope you like it as much as we do!</p>
 <p>He has also designed a new logo/icon for <a href="https://resolve.cafe">Resolve Cafe</a>, which is equally amazing.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-june-2023</link>
+            <guid isPermaLink="false">14th June 2023</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th June 2023]]></title>
+            <description><![CDATA[<p>We've just added an amazingly detailed case study for <strong>Blood &amp; Gold</strong>. Check it out <a href="/case-studies/blood-and-gold/">here</a>!</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-june-2023</link>
             <guid isPermaLink="false">14th June 2023</guid>
@@ -817,16 +884,6 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[3rd July 2023]]></title>
-            <description><![CDATA[<p><strong>CommandPost v1.4.19</strong> is out now!</p>
-<p>We've added actions to control all the parameters for a <strong>Colourlab Ai</strong> Effect in the Final Cut Pro Video Inspector. Enjoy!</p>
-<p><img src="/static/commandpost-1-4-19.png" alt=""></p>
-]]></description>
-            <link>https://fcp.cafe/#3rd-july-2023</link>
-            <guid isPermaLink="false">3rd July 2023</guid>
-            <pubDate>Mon, 03 Jul 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[3rd July 2023]]></title>
             <description><![CDATA[<p><strong>Color Finale</strong> is having a Summer Sale! Get in quick!</p>
 <p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
 <p><img src="/static/color-finale-sale.png" alt=""></p>
@@ -940,65 +997,6 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[19th July 2023]]></title>
-            <description><![CDATA[<p><strong>Final Cut Pro 10.6.7</strong> is out now with the following bug fixes:</p>
-<ul>
-<li>Addresses an issue where audio effects would not be reset during playback.</li>
-<li>Fixes an issue where an Audio Units effect could have incorrect values when importing using FCPXML.</li>
-<li>Improves waveform redrawing on expanded audio components when adjusting volume with the Touch Bar.</li>
-<li>Resolves an issue where the Voice Isolation Amount slider would snap to 0% when trying to set a value less than 7%.</li>
-<li>Improves reliability when retiming a clip with the Scene Removal Mask applied.</li>
-<li>Fixes an issue where the Control Range setting in the Color Adjustments effect would be incorrectly set to SDR when importing using FCPXML.</li>
-</ul>
-<p>Interestingly, this update requires a database update, so there must be some bigger changes under the hood.</p>
-<p><img src="/static/database-update.png" alt=""></p>
-<p><strong>Final Cut Pro for iPad 1.1</strong> is out now with the following bug fixes and enhancements:</p>
-<ul>
-<li>Turn snapping on or off using the keyboard shortcut N.</li>
-<li>Move the playhead backward or forward 10 frames using the keyboard shortcuts Shift-Left Arrow and Shift-Right Arrow.</li>
-<li>Show info for browser clips using the keyboard shortcut Control-I.</li>
-<li>Turn skimming on or off using the keyboard shortcut S.</li>
-<li>Turn audio skimming on or off using the keyboard shortcut Shift-S.</li>
-<li>Split and switch multicam clip angles using the keyboard shortcuts 1, 2, 3, and 4.</li>
-<li>Show or hide the jog wheel using the keyboard shortcut Control-Shift-W; expand or collapse it using Control-W.</li>
-<li>Switch the jog wheel between playhead mode and nudge mode using the keyboard shortcut Shift-W.</li>
-<li>Resolves an issue with custom fonts not appearing in the inspector.</li>
-<li>Improves reliability and performance when dragging a clip from the browser to the timeline.</li>
-<li>Addresses an issue with keyboard shortcuts not working as expected in the content browser.</li>
-<li>Improves visual feedback when adding effects and transitions to timeline clips in Position mode.</li>
-<li>Fixes an issue where importing media on a device with no remaining storage would cause Final Cut Pro for iPad to quit unexpectedly.</li>
-<li>Improves reliability when retiming a clip with Scene Removal Mask applied.</li>
-<li>Resolves an issue where importing clips with the same name would generate blank clip thumbnails.</li>
-<li>Improves reliability and performance when using soundtracks and dynamic titles.</li>
-<li>Addresses an issue where copying and pasting transform settings would unexpectedly paste clip speed.</li>
-<li>Improves visual feedback and reliability when rating and adding keywords to clips while filtering clips in the browser.</li>
-<li>Fixes an issue where resetting audio settings would unexpectedly reset clip speed.</li>
-<li>Resolves an issue with the appearance of onscreen controls for cropping and shape masks.</li>
-<li>Addresses an issue where clip height adjustments would not update audio-only clips in connected storylines.</li>
-<li>Fixes an issue where the Keywords window would open offscreen with the timeline minimized.</li>
-<li>Resolves an issue where disabled multicam audio angles would appear in the audio component list in the inspector.</li>
-</ul>
-<p>Importantly, Final Cut Pro 10.6.7 on Mac uses a newer Library format than Final Cut Pro 1.1 on iPad. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using Final Cut Pro 10.6.6.</p>
-<p><strong>Compressor 4.6.5</strong> is out now with the following enhancements and bug fixes:</p>
-<ul>
-<li>Changed the Settings and Locations sidebar to now be resizable when the Inspector is open.</li>
-<li>Improves reliability when processing 4:2:2-based H.264 media on Mac computers with Apple silicon.</li>
-<li>Addresses an issue where the color space of a Photo-JPEG source was incorrect when Color space was set to Automatic.</li>
-<li>Fixes an issue where an exported IMF supplemental package was one frame shorter than the original package.</li>
-</ul>
-<p><strong>Motion 5.6.5</strong> is out now with the following bug fixes:</p>
-<ul>
-<li>Improves stability with FxPlug 4 plug-ins.</li>
-<li>Improves stability when dragging a group that contains an FxPlug plug-in to the Favorites folder.</li>
-<li>Improves performance when using the Sequence Text behavior with Anchor Point set to Line (in the Layout pane of the Text Inspector).</li>
-</ul>
-<p>We're excited to test it out, and see if there's other undocumented fixes and improvements.</p>
-]]></description>
-            <link>https://fcp.cafe/#19th-july-2023</link>
-            <guid isPermaLink="false">19th July 2023</guid>
-            <pubDate>Wed, 19 Jul 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[19th July 2023]]></title>
             <description><![CDATA[<p>In other news, Logitech has acquired Loupedeck - which is big news for a lot of Final Cut Pro editors who use Loupedeck devices with CommandPost.</p>
 <p>You can learn more <a href="https://news.logitech.com/press-releases/news-details/2023/Logitech-Acquires-Loupedeck/default.aspx">here</a>.</p>
 <p>Scott Simmons has also written his thoughts on the acquisition over at <a href="https://www.provideocoalition.com/logitech-acquires-loupedeck-and-i-dont-know-how-to-feel-about-it/">ProVideo Coalition</a>.</p>
@@ -1079,21 +1077,6 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#22nd-july-2023</link>
             <guid isPermaLink="false">22nd July 2023</guid>
             <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[24th July 2023]]></title>
-            <description><![CDATA[<p>Ben Kozuch <a href="https://www.facebook.com/groups/664445450353744/posts/2895722990559301/?comment_id=2896243510507249&amp;__cft__%5B0%5D=AZWxKhVHcHv55Fm-fFgHojazlT3BCSsMANsY_2xMAC039DHof0ftoPT4M7lmvzZx7h0FP9Q6SI8OZaaDR3ZuonDcV_EimD7EYDNERn4k6xxNNwLI14x0po5qcc1rRaQeueMN6a0MK5QLsDofV0M1Jpjic_VyPGQ3mxY5SiPLvBDxVZg8uUeanvrlOc7qccU_CS8&amp;__tn__=R%5D-R">reports</a>:</p>
-<blockquote>
-<p>The <strong>2023 FCP Summit</strong> will take place in <strong>Cupertino</strong> in <strong>November</strong>.</p>
-<p>We will be announcing dates, venue and the program in about a week.</p>
-<p>The Summit will feature a full day at Apple followed by 2 day of breakout sessions and a mini expo at a hotel venue close by.</p>
-<p>Courtesy Apple, the cost of Full Pass will only be <strong>USD$299</strong> for the entire 3 days.</p>
-</blockquote>
-<p>Exciting times!</p>
-]]></description>
-            <link>https://fcp.cafe/#24th-july-2023</link>
-            <guid isPermaLink="false">24th July 2023</guid>
-            <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
