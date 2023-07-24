@@ -1,9 +1,11 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110){target="_blank"}
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109){target="_blank"}
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108){target="_blank"}
+- [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228){target="_blank"}
+- [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227){target="_blank"}
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
-- [Final Cut Pro 10.6.7 generally unreliable and buggy (Thread) (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
+- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
 - [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220){target="_blank"}
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219){target="_blank"}
 - [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218){target="_blank"}
@@ -26,5 +28,3 @@
 - [A/V-Output / Workspaces (May 27, 2022)](https://github.com/CommandPost/FCPCafe/issues/79){target="_blank"}
 - [Final Cut Pro Playback Preferences Click State Bug (May 10, 2022)](https://github.com/CommandPost/FCPCafe/issues/77){target="_blank"}
 - [Crash - Dragging clips into new event (March 23, 2022)](https://github.com/CommandPost/FCPCafe/issues/74){target="_blank"}
-- [Pan Mode Dropdown has wrong AXValue (March 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/73){target="_blank"}
-- [Crash - FFSegmentStore compressionOutputCallback did not run at the expected QOS level (March 21, 2022)](https://github.com/CommandPost/FCPCafe/issues/72){target="_blank"}
