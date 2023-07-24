@@ -1,3 +1,4 @@
+- [Impossible to change font variation (bold, italic...) Reproductible (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227){target="_blank"}
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
 - [Final Cut Pro 10.6.7 generally unreliable and buggy (Thread) (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
@@ -27,4 +28,3 @@
 - [Final Cut Pro Playback Preferences Click State Bug (May 10, 2022)](https://github.com/CommandPost/FCPCafe/issues/77){target="_blank"}
 - [Crash - Dragging clips into new event (March 23, 2022)](https://github.com/CommandPost/FCPCafe/issues/74){target="_blank"}
 - [Pan Mode Dropdown has wrong AXValue (March 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/73){target="_blank"}
-- [Crash - FFSegmentStore compressionOutputCallback did not run at the expected QOS level (March 21, 2022)](https://github.com/CommandPost/FCPCafe/issues/72){target="_blank"}

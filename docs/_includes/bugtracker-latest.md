@@ -1,3 +1,4 @@
+- [Impossible to change font variation (bold, italic...) Reproductible (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227){target="_blank"}
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
 - [Final Cut Pro 10.6.7 generally unreliable and buggy (Thread) (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
