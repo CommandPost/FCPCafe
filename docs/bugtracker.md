@@ -2,8 +2,6 @@
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
----
-
 !!!danger
 **Final Cut Pro 10.6.7** has been released, and whilst there have been some users that have reported zero issues, there's many professionals that are reporting lots of unexpected bugs and crashes.
 
@@ -11,7 +9,7 @@ There currently doesn't seem to be any common thread - people on Apple Silicon, 
 
 For now, I would strongly suggest you stick with **Final Cut Pro 10.6.5** or **Final Cut Pro 10.6.6** until Apple resolves these issues in a future update.
 
-We are keeping track of the bug reports [here](https://github.com/CommandPost/FCPCafe/issues/223), in our [Bug Tracker](/bug-tracker). We've reported several bugs directly to Apple.
+We are keeping track of the bug reports [in this thread](https://github.com/CommandPost/FCPCafe/issues/223), in our Bug Tracker. We've reported several bugs directly to Apple.
 
 I've personally been pushing **Final Cut Pro 10.6.7** pretty hard since it's release on a new, big and complex timeline, with heaps of Motion Templates, effects, stills and random footage. I've had to restart it a few times due to the Viewer going black, or strobing, and so far I've had one crash.
 
@@ -21,8 +19,6 @@ This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io
 
 _**Last Updated:** 24th July 2023_
 !!!
-
----
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
 
