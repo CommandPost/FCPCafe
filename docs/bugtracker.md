@@ -10,9 +10,9 @@ To submit a new bug report, simply sign up for a free GitHub account and post an
 
 If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 
-In general, whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
+Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
 
-You can also send feedback directly to the Final Cut Pro team [here](https://www.apple.com/feedback/finalcutpro/){target="_blank"}, although unlike Feedback Assistant you can't track your request or add additional information - so we generally recommend you use Feedback Assistant instead.
+You can also send feedback directly to the Final Cut Pro team via their [Feedback Form](https://www.apple.com/feedback/finalcutpro/){target="_blank"}, however, unlike Feedback Assistant you can't track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.
 
 ---
 
