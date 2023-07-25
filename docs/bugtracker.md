@@ -42,6 +42,8 @@ You can find previous crash logs in this folder:
 
 You can find your user library by holding down `OPTION` when you click the `Go` menubar item from Finder.
 
+Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a [GitHub Gist](https://gist.github.com).
+
 ---
 
 ### Third Party Software
