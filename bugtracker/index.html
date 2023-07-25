@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.743566473398">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.743567493031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.1.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.1.0.743566473398" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.1.0.743567493031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.1.0.743566473398" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.1.0.743567493031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.1.0.743566473398" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.1.0.743567493031" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -335,6 +335,28 @@
 <p>You can find previous crash logs in this folder:</p>
 <p><code v-pre>~/Library/Logs/DiagnosticReports/</code></p>
 <p>You can find your user library by holding down <code v-pre>OPTION</code> when you click the <code v-pre>Go</code> menubar item from Finder.</p>
+<hr>
+<doc-anchor-target id="third-party-software">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#third-party-software">#</doc-anchor-trigger>
+        <span>Third Party Software</span>
+    </h3>
+</doc-anchor-target>
+<p>It&#x27;s important to note that since <strong>Final Cut Pro 10.6.6</strong> Apple has dropped <strong>FxPlug3</strong> support.</p>
+<p>When the effect or look you want to achieve can&#x27;t be created with the filters or generators provided with Final Cut Pro or Motion, the FxPlug software development kit (SDK) allows you to write your own custom visual effects.</p>
+<p>FxPlug is a compact, powerful image-processing plug-in architecture that lets you create unique, hardware-accelerated or CPU-based effects plug-ins with customized UI and onscreen controls.</p>
+<p>In <strong>Final Cut Pro 10.6.5</strong> and earlier, <strong>FxPlug3</strong> plugins ran &quot;inside&quot; Final Cut Pro, and a bad plugin could crash Final Cut Pro.</p>
+<p>However, since <strong>Final Cut Pro 10.6.6</strong>, only <strong>FxPlug4</strong> is supported, and all FxPlug4 plugins are run &quot;out of process&quot; - meaning they&#x27;re effectively their own application, and if they crash, Final Cut Pro doesn&#x27;t.</p>
+<p>Generally speaking if a FxPlug4 plugin crashes, then Final Cut Pro will just try restart it, and if it crashes 5 times or so, then it&#x27;ll display the &quot;this plugin is not responding&quot; message.</p>
+<p>All <strong>Workflow Extensions</strong> also run out of process.</p>
+<p>For example, you can see all the different processes in Activity Monitor:</p>
+<p><figure class="content-center">
+    <img src="../static/fcp-activity-monitor.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you manually try and force quit a process, you&#x27;ll see Final Cut Pro start it up again when needed.</p>
+<p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain.</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
