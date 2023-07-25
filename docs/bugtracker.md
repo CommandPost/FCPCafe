@@ -26,6 +26,32 @@ You can find your user library by holding down `OPTION` when you click the `Go` 
 
 ---
 
+### Third Party Software
+
+It's important to note that since **Final Cut Pro 10.6.6** Apple has dropped **FxPlug3** support.
+
+When the effect or look you want to achieve can't be created with the filters or generators provided with Final Cut Pro or Motion, the FxPlug software development kit (SDK) allows you to write your own custom visual effects.
+
+FxPlug is a compact, powerful image-processing plug-in architecture that lets you create unique, hardware-accelerated or CPU-based effects plug-ins with customized UI and onscreen controls.
+
+In **Final Cut Pro 10.6.5** and earlier, **FxPlug3** plugins ran "inside" Final Cut Pro, and a bad plugin could crash Final Cut Pro.
+
+However, since **Final Cut Pro 10.6.6**, only **FxPlug4** is supported, and all FxPlug4 plugins are run "out of process" - meaning they're effectively their own application, and if they crash, Final Cut Pro doesn't.
+
+Generally speaking if a FxPlug4 plugin crashes, then Final Cut Pro will just try restart it, and if it crashes 5 times or so, then it'll display the "this plugin is not responding" message.
+
+All **Workflow Extensions** also run out of process.
+
+For example, you can see all the different processes in Activity Monitor:
+
+![](../static/fcp-activity-monitor.png)
+
+If you manually try and force quit a process, you'll see Final Cut Pro start it up again when needed.
+
+What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes, it's NOT a third party FxPlug4 effect or a Workflow Extension - it's something in Apple's own code, and there's nothing third party developers can do about it, so there's no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain.
+
+---
+
 !!!success Want to add something to the Bug Tracker?
 Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}!
 !!!

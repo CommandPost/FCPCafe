@@ -10,8 +10,7 @@
 
 ---
 
-!!!danger 24th July 2023
-
+!!!danger
 **Final Cut Pro 10.6.7** has been released, and whilst there have been some users that have reported zero issues, there's many professionals that are reporting lots of unexpected bugs and crashes.
 
 There currently doesn't seem to be any common thread - people on Apple Silicon, Intel, Monterey, Ventura, etc. are all reporting different problems across all areas of the application - from Viewer going black to full system shutdowns.
@@ -25,6 +24,8 @@ I've personally been pushing **Final Cut Pro 10.6.7** pretty hard since it's rel
 Additionally, **Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.
 
 This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
+
+_**Last Updated:** 24th July 2023_
 !!!
 
 ---
