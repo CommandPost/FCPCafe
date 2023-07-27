@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110){target="_blank"}
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109){target="_blank"}
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108){target="_blank"}
+- [FCP 10.6.7, Ventura 13.4.1 (c) bug after adding title to project (timeline) and black viewer. (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231){target="_blank"}
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230){target="_blank"}
 - [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229){target="_blank"}
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228){target="_blank"}
@@ -27,4 +28,3 @@
 - [Crash - objects in array must be FigTimeRangeAndObject objects! (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/82){target="_blank"}
 - [Crash - Missing method for retimeEffect (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/81){target="_blank"}
 - [Playback (Viewer and Output) displays pumping video (June 2, 2022)](https://github.com/CommandPost/FCPCafe/issues/80){target="_blank"}
-- [A/V-Output / Workspaces (May 27, 2022)](https://github.com/CommandPost/FCPCafe/issues/79){target="_blank"}
