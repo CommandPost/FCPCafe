@@ -1,3 +1,4 @@
+- [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232){target="_blank"}
 - [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231){target="_blank"}
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230){target="_blank"}
 - [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229){target="_blank"}
