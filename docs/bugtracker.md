@@ -7,6 +7,8 @@ This page is dedicated to keeping track of the latest Final Cut Pro bugs and iss
 
 **Dylan Bates - The Final Cut Bro** has posted a [video here](https://www.youtube.com/watch?v=QiiasioJQ5Q) explaining.
 
+Apple is very much aware of these issues, and is actively working on fixing them. We understand beta testing is already underway for a new release, which we hope will be public soon.
+
 There currently doesn't seem to be any common thread - people on Apple Silicon, Intel, Monterey, Ventura, Sonoma etc. are all reporting different problems across all areas of the application - from Viewer going black to full system shutdowns.
 
 For now, I would strongly suggest you stick with **Final Cut Pro 10.6.5** or **Final Cut Pro 10.6.6** until Apple resolves these issues in a future update.
@@ -19,7 +21,7 @@ Additionally, **Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format tha
 
 This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
 
-_**Last Updated:** 27th July 2023_
+_**Last Updated:** 29th July 2023_
 !!!
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
