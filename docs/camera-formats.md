@@ -7,7 +7,7 @@ You can find the full list of Cameras supported by Final Cut Pro [on Apple's sit
 ---
 
 !!!
-Is there a camera format missing? [Make an edit!](/contribute/){target="_blank"}
+Is there a camera format missing? [Make an edit!](/contribute/)
 !!!
 
 ---

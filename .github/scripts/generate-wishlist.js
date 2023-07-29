@@ -20,7 +20,7 @@ const getIssues = async () => {
 
 const generateMarkdown = (issues, path, sortFunc) => {
   let content = '';
-  
+
   // sort issues according to provided sort function
   issues.sort(sortFunc);
 
@@ -30,7 +30,7 @@ const generateMarkdown = (issues, path, sortFunc) => {
   // build the new list
   for (const issue of issues) {
     const date = new Date(issue.created_at).toLocaleDateString("en-US", { day: 'numeric', month: 'long', year: 'numeric' });
-    content += `- [${issue.title} (${date})](${issue.html_url}){target="_blank"}\n`;
+    content += `- [${issue.title} (${date})](${issue.html_url})\n`;
   }
 
   fs.writeFileSync(path, content);

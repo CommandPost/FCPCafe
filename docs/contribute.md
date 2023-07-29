@@ -124,7 +124,7 @@ For example, each time you make a pull request, our [fancy GitHub Action](https:
 - Looks at all the individual **Sponsors** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors), and uses them on the [Latest News](/) page.
 - Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools), and generates an alphabetical list of them for the [Tools](/ecosystem/tools/) page.
 - Looks at all the individual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions), and generates an alphabetical list of them for the [Workflow Extensions](/ecosystem/workflowextensions/) page.
-- Looks at all the **Latest News** items and generates an [RSS feed](/rss.xml){target="_blank"}
+- Looks at all the **Latest News** items and generates an [RSS feed](/rss.xml)
 
 This means, if you want to add a Tool, Motion Template, Workflow Extension, News item, etc. you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
@@ -194,13 +194,7 @@ You can learn more [here](https://docs.github.com/en/codespaces/the-githubdev-we
 
 All external links should open in a new tab/window.
 
-The trick is to add `{target="_blank"}` at the end of the link.
-
-Here's an example of how to do this in Markdown:
-
-```
-[Sync-N-Link](/tools/#sync-n-link-x){target="_blank"}
-```
+This is handled automatically by Retype.
 
 ---
 
