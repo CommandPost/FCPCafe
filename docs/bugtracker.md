@@ -24,17 +24,17 @@ This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io
 _**Last Updated:** 29th July 2023_
 !!!
 
-We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
-[GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
+[GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}.
+To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
 
 If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 
-Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com){target="_blank"}.
+Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com).
 
-You can also send feedback directly to the Final Cut Pro team via their [Feedback Form](https://www.apple.com/feedback/finalcutpro/){target="_blank"}, however, unlike Feedback Assistant you can't track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.
+You can also send feedback directly to the Final Cut Pro team via their [Feedback Form](https://www.apple.com/feedback/finalcutpro/), however, unlike Feedback Assistant you can't track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.
 
 ---
 
@@ -89,7 +89,7 @@ What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes
 ---
 
 !!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=){target="_blank"}!
+Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
 !!!
 
 ---
@@ -100,7 +100,7 @@ Here's a list of the **30 most recently added** Final Cut Pro 10.6.7 bug reports
 
 {{ include "bugtracker-latest" }}
 
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 ---
 
@@ -112,7 +112,7 @@ These bugs will eventually be migration to the 10.6.7 list once confirmed.
 
 {{ include "bugtracker-previous" }}
 
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 ---
 
@@ -122,7 +122,7 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
 {{ include "bugtracker-reactions" }}
 
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 ---
 
@@ -132,7 +132,7 @@ Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 
 {{ include "bugtracker-recent" }}
 
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues){target="_blank"}.
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 ---
 

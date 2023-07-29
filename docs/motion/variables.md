@@ -2,11 +2,11 @@
 
 On this page is a list of tokens you can use in **Apple Motion** to display metadata in Motion Templates, that will also appear in Final Cut Pro.
 
-This was originally discovered on this [blog](https://web.archive.org/web/20180325233958/yuri.kiev.ua/2017/02/fcpx_autotitles/){target="_blank"}.
+This was originally discovered on this [blog](https://web.archive.org/web/20180325233958/yuri.kiev.ua/2017/02/fcpx_autotitles/).
 
-Special thanks to [F•X Mahoney](https://twitter.com/sightcreations){target="_blank"} from [FCPxTemplates.com](https://fcpxtemplates.com){target="_blank"} for his help correcting this page!
+Special thanks to [F•X Mahoney](https://twitter.com/sightcreations) from [FCPxTemplates.com](https://fcpxtemplates.com) for his help correcting this page!
 
-You can also download an example Motion Template effect [here](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip){target="_blank"}.
+You can also download an example Motion Template effect [here](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip).
 
 The output of the effect looks like this in Final Cut Pro 10.6.6 (created in Motion 5.6.4):
 

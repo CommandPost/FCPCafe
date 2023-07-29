@@ -14,13 +14,13 @@ This television series is an adaptation of the novel by **Melanie Raabe**.
 
 ![Still frames of Der Schatten. A woman in front of a painting of a wounded woman, a winding staircase, two people in a mortuary, a steep escalator](/static/the-shadow-1.jpg)
 
-You can watch the show [here](https://www.zdf.de/serien/der-schatten){target="_blank"} (eventually geofenced, if your not in Germany).
+You can watch the show [here](https://www.zdf.de/serien/der-schatten) (eventually geofenced, if your not in Germany).
 
 ---
 
 ## Trailer
 
-[![](/static/the-shadow-youtube.jpg)](https://www.youtube.com/watch?v=u9uRBf6o_IA){target="_blank"}
+[![](/static/the-shadow-youtube.jpg)](https://www.youtube.com/watch?v=u9uRBf6o_IA)
 
 ---
 
@@ -32,7 +32,7 @@ You can watch the show [here](https://www.zdf.de/serien/der-schatten){target="_b
 > 6 main FCP-Libraries, one per episode
 >
 > **Production Company:**<br />
-> [Keshet Tresor Fiction](https://www.tresor.tv/en/keshet-tresor-fiction/){target="_blank"}
+> [Keshet Tresor Fiction](https://www.tresor.tv/en/keshet-tresor-fiction/)
 >
 > **Public Broadcaster:**<br />
 > ZDFneo ("young" Side-Channel of ZDF)
@@ -57,9 +57,9 @@ You can watch the show [here](https://www.zdf.de/serien/der-schatten){target="_b
 > - Final Cut Pro 10.6.4
 > - [Sync-N-Link](/ecosystem/tools/#sync-n-link-x) - _Creating Sync Clips with Metadata_
 > - [CommandPost](/ecosystem/tools/#commandpost) - _Using **Titles to Keywords** for line-by-lines_
-> - [Notion](https://www.notion.so/){target="_blank"} - _To build a digital bulletin board, one scene = one card_
+> - [Notion](https://www.notion.so/) - _To build a digital bulletin board, one scene = one card_
 > - [PostLab](/ecosystem/tools#postlab) - _Collaborating in 6 libraries on 4 workstations in 3 cities_
-> - [X2Pro](/ecosystem/tools/#x2pro) - _Send Audio to Soundpost ([Sleepwalker](http://www.sleepwalker.cz/){target="_blank"})_
+> - [X2Pro](/ecosystem/tools/#x2pro) - _Send Audio to Soundpost ([Sleepwalker](http://www.sleepwalker.cz/))_
 > - [Producers Best Friend](/ecosystem/tools/#producers-best-friend) - _Creating lists (ADR, VFX, Music, DI, Motion Design)_
 
 ---
@@ -108,11 +108,11 @@ I counted. Der Schatten is my 8th major project in FCP(X).
 
 At this stage, it's a proven and constantly improved workflow.
 
-**DIT (Prague, [Magic Lab](http://www.magiclab.cz/){target="_blank"})**
+**DIT (Prague, [Magic Lab](http://www.magiclab.cz/))**
 - Pre-Grade and Transcode to ProRes Proxy on set. (I would prefer ProRes LT, but we opted for Proxy to have less data to download)
 - Upload onto cloud server (Prague), QC in-house (Prague)
 
-**Assistant Editor (Ulm, [Awesome Pixels](https://www.awpi.de){target="_blank"}):**
+**Assistant Editor (Ulm, [Awesome Pixels](https://www.awpi.de)):**
 - Downloads Masterfiles on local drive
 - Creates Sync Clips with Sync-N-Link (+ Audio Metadata import)
 - Further adjustments in FCP (markers, notes from Script Supervisor)
@@ -197,7 +197,7 @@ Rather late in the process, maybe 3 days before Picture Lock, we break apart the
 
 ## Notion Database
 
-To complement the flood of footage and keep 4 Editors in the loop about the shooting schedule we use [notion.so](http://notion.so){target="_blank"}. (credit to [Knut Hake](https://twitter.com/knurrrrrrt){target="_blank"} for finding this!) Its like a bulletin board in the cloud with flexible views.
+To complement the flood of footage and keep 4 Editors in the loop about the shooting schedule we use [notion.so](http://notion.so). (credit to [Knut Hake](https://twitter.com/knurrrrrrt) for finding this!) Its like a bulletin board in the cloud with flexible views.
 
 Below you see the arrangement for every shooting day. We can look ahead what is coming the next days, what is shot, but not yet delivered to us and what is ready to edit.
 
@@ -275,8 +275,8 @@ In 2020 he was credited Associate Editor at the team of dystopian Sci-Fi-Thrille
 
 Follow Florian here:
 
-- [Twitter](https://twitter.com/FlowDefoe){target="_blank"}
-- [Mastodon](https://postchat.io/@flow){target="_blank"}
+- [Twitter](https://twitter.com/FlowDefoe)
+- [Mastodon](https://postchat.io/@flow)
 
 ---
 

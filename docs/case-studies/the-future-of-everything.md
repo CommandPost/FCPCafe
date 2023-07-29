@@ -2,13 +2,13 @@
 
 _**Animated in Animate, Finalised in Final Cut**_
 
-Hi! I'm Kevin, the editor of **The Future of Everything**, a 2D animated anthology comedy series created by writer/director [Mike Greaney](http://www.mikegreaney.com){target="_blank"}.
+Hi! I'm Kevin, the editor of **The Future of Everything**, a 2D animated anthology comedy series created by writer/director [Mike Greaney](http://www.mikegreaney.com).
 
 Being from a live action background, this was a different workflow for me. During pre-production, Mike would board each episode and build an animatic in **Storyboard Pro** which had a voice scratch track that Mike would produce himself, along with basic sound design elements and some music tracks for reference.
 
-One area where live action differs from animation, is that the animatic is where you get your timing and ‘edit’ right before you start animating. Our focus during this period was sharing notes between the team on [Frame.io](https://frame.io){target="_blank"} and finessing the animatic so that by the time we entered the edit, there were really only minor tweaks required to reach our final locked off master.
+One area where live action differs from animation, is that the animatic is where you get your timing and ‘edit’ right before you start animating. Our focus during this period was sharing notes between the team on [Frame.io](https://frame.io) and finessing the animatic so that by the time we entered the edit, there were really only minor tweaks required to reach our final locked off master.
 
-As animation commenced, I began to piece the edit together as shots were approved and delivered. This was all tracked using a [Google Sheet](https://www.google.com.au/sheets/about/){target="_blank"} with the shots available to the whole team via [Box](https://www.box.com){target="_blank"}.
+As animation commenced, I began to piece the edit together as shots were approved and delivered. This was all tracked using a [Google Sheet](https://www.google.com.au/sheets/about/) with the shots available to the whole team via [Box](https://www.box.com).
 
 For post, we set up the project in [PostLab](/ecosystem/tools/#postlab) so we could utilise the collaboration tools it offered. We encountered a few issues, with some work lost when uploading changes, however the terrible internet in Melbourne could have equally been to blame. As mentioned, the animatics for the series were produced in **Storyboard Pro**, from which we could export Final Cut Pro XML (`.xml`) files, along with any rendered visuals separated by panels. Using [SendToX](/ecosystem/tools/#sendtox), I then produced a timeline with cut points along with Mike’s temp audio work. This was essentially my starting point.
 
@@ -40,7 +40,7 @@ Due to the pace in which we were working, and with multiple animators across eac
 
 ![This Post-it note on top is my first prop design debut, helping to fix a continuity problem.](/static/tfoe-7.png)
 
-Once we locked our edit - we’d then turn over our temp sound and music to the designer and composer respectively. On this job we were fortunate that [Dead on Sound](https://deadonsound.com.au){target="_blank"} handled both. We’d export an AAF with [X2Pro](/ecosystem/tools/#x2pro), with settings to discard any inactive or disabled audio. We’d also embed the audio with eight-second handles. When the mixes and stems came back as `.wav` files, it was just a matter of adding them as connected clips, assigning a new role, and disabling all other audio roles.
+Once we locked our edit - we’d then turn over our temp sound and music to the designer and composer respectively. On this job we were fortunate that [Dead on Sound](https://deadonsound.com.au) handled both. We’d export an AAF with [X2Pro](/ecosystem/tools/#x2pro), with settings to discard any inactive or disabled audio. We’d also embed the audio with eight-second handles. When the mixes and stems came back as `.wav` files, it was just a matter of adding them as connected clips, assigning a new role, and disabling all other audio roles.
 
 That first episode was about setting up how our workflow was going to function, so there was a bit or trial and error involved, but once we found something that worked for our post team, as well as Mike and the producers, we stuck to it for the remainder of the series.
 
@@ -50,4 +50,4 @@ To finish with an interesting aside - we found that the episodes with less dialo
 
 ## Watch Series
 
-[![](/static/tfoe-youtube.jpg)](https://ltnt.tv/tfoe){target="_blank"}
+[![](/static/tfoe-youtube.jpg)](https://ltnt.tv/tfoe)

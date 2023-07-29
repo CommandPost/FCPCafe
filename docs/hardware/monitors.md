@@ -8,7 +8,7 @@ We will be adding reviews and information here in the future.
 
 ### LG UltraFine 5K Display
 
-This is what we use as our main GUI monitor for all machines at [LateNite](https://latenitefilms.com){target="_blank"} and they work great.
+This is what we use as our main GUI monitor for all machines at [LateNite](https://latenitefilms.com) and they work great.
 
 ---
 

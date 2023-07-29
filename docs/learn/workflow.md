@@ -6,7 +6,7 @@ This page will be dedicated to professional Final Cut Pro Workflows.
 
 ## Final Cut Pro Workflow for Feature Films
 
-Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has created an entire Notion page dedicated to Final Cut Pro Workflows for feature films.
+Feature film editor [Knut Hake](http://www.knuthake.de) has created an entire Notion page dedicated to Final Cut Pro Workflows for feature films.
 
 [!button text="Open Notion Site" target="blank" variant="info"](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09)
 
@@ -14,27 +14,27 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 ### Apple White Papers
 
-- [Apple ProRes RAW (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes_RAW.pdf){target="_blank"}
-- [Apple ProRes (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf){target="_blank"}
-- [Audio Roles in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/Audio_Roles.pdf){target="_blank"}
-- [HDR and Wide Color Gamut in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf){target="_blank"}
-- [Manage Media with Final Cut Pro Libraries (November 2020)](https://www.apple.com/final-cut-pro/docs/Media_Management.pdf){target="_blank"}
-- [RED Workflows with Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/RED_Workflows_with_Final_Cut_Pro_X.pdf){target="_blank"}
-- [Final Cut Pro X for Final Cut Pro 7 Editors (October 2019)](https://www.apple.com/final-cut-pro/docs/Final_Cut_Pro_X_for_Final_Cut_Pro_7_Editors.pdf){target="_blank"}
-- [Transition to Compressor 4.1 (December 2013)](https://images.apple.com/final-cut-pro/docs/Transitioning_to_Compressor.pdf){target="_blank"}
-- [Final Cut Pro X for Final Cut Pro 7 Editors (September 2011)](https://www.postmagazine.com/documents/Apple-FCP-X-Whitepaper.pdf){target="_blank"}
+- [Apple ProRes RAW (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes_RAW.pdf)
+- [Apple ProRes (April 2022)](https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf)
+- [Audio Roles in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/Audio_Roles.pdf)
+- [HDR and Wide Color Gamut in Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf)
+- [Manage Media with Final Cut Pro Libraries (November 2020)](https://www.apple.com/final-cut-pro/docs/Media_Management.pdf)
+- [RED Workflows with Final Cut Pro (November 2020)](https://www.apple.com/final-cut-pro/docs/RED_Workflows_with_Final_Cut_Pro_X.pdf)
+- [Final Cut Pro X for Final Cut Pro 7 Editors (October 2019)](https://www.apple.com/final-cut-pro/docs/Final_Cut_Pro_X_for_Final_Cut_Pro_7_Editors.pdf)
+- [Transition to Compressor 4.1 (December 2013)](https://images.apple.com/final-cut-pro/docs/Transitioning_to_Compressor.pdf)
+- [Final Cut Pro X for Final Cut Pro 7 Editors (September 2011)](https://www.postmagazine.com/documents/Apple-FCP-X-Whitepaper.pdf)
 
 ---
 
 ### Frame.io White Papers
 
-- [Shared & Remote Solutions (2021)](https://blog.frame.io/wp-content/uploads/2021/01/Final-Cut-Pro-Shared-and-Remote-Solutions-2021.pdf){target="_blank"}
+- [Shared & Remote Solutions (2021)](https://blog.frame.io/wp-content/uploads/2021/01/Final-Cut-Pro-Shared-and-Remote-Solutions-2021.pdf)
 
 ---
 
 ## Shot Data
 
-[Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target="_blank"} has developed a unique workflow with [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} for filmmakers. The workflow uses CommandPost’s Shot Data Toolbox to create a Shot List & Storyboard Database from Final Cut Pro to Notion.
+[Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran) has developed a unique workflow with [Chris Hocking](https://twitter.com/chrisatlatenite) for filmmakers. The workflow uses CommandPost’s Shot Data Toolbox to create a Shot List & Storyboard Database from Final Cut Pro to Notion.
 
 ![](/static/shotdata.png)
 
@@ -48,7 +48,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de){target="_blank"} has cre
 
 [CommandPost](/ecosystem/tools/#commandpost) has as insanely powerful Toolbox called **Titles to Keywords**.
 
-You can learn more [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}.
+You can learn more [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
 
 ![](/static/toolbox-titles-to-keywords.png)
 
@@ -98,7 +98,7 @@ For long-form feature film editing in Final Cut Pro, this has several implicatio
 
 **How Much RAM Do You Need?**
 
-As a baseline, [Apple recommends](https://www.apple.com/au/final-cut-pro/specs/){target="_blank"} a minimum of 8GB RAM for Final Cut Pro:
+As a baseline, [Apple recommends](https://www.apple.com/au/final-cut-pro/specs/) a minimum of 8GB RAM for Final Cut Pro:
 
 > 4GB of RAM (8GB recommended for 4K editing, 3D titles and 360° video editing)
 
@@ -108,7 +108,7 @@ However, for long-form feature film editing, you'll likely need more.
 
 2. **32GB RAM or higher**: If you're working with 6K, 8K, or multiple streams of 4K video, or if you use lots of effects, consider 32GB or even 64GB of RAM. These larger RAM options will also provide greater flexibility for heavy multitasking and future-proof your setup as software demands increase over time.
 
-At [LateNite](https://latenitefilms.com){target="_blank"} we're primarily using MacBook Pro's (2021 16-inch, Apple M1 Max, 64GB RAM, 3TB SSD), and they're rock solid.
+At [LateNite](https://latenitefilms.com) we're primarily using MacBook Pro's (2021 16-inch, Apple M1 Max, 64GB RAM, 3TB SSD), and they're rock solid.
 
 While the unified memory architecture in Apple Silicon offers advantages such as increased efficiency and speed, it also places greater demands on your system's RAM. Therefore, when planning to use Final Cut Pro for long-form feature film editing on an Apple Silicon Mac, consider opting for at least 16GB of RAM, or even 32GB or 64GB for more complex projects and improved future-proofing. Remember, it's better to have a bit more RAM than you need, rather than not having enough when you need it most.
 
@@ -181,7 +181,7 @@ For example, this is from a **5 x 30min** broadcast television special:
 
 ![](/static/list-of-events.jpeg)
 
-You can learn more about this workflow [here](https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia){target="_blank"}.
+You can learn more about this workflow [here](https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia).
 
 Here's an example of a library for a job where all the user interface designs were build in Final Cut Pro for a game:
 

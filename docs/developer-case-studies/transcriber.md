@@ -8,7 +8,7 @@ Hi, before I start I would like to say a couple of things about what you will re
 
 Let me be very clear: I am not writing this article to advertise myself, that maybe, eventually, will come later... Every time I make a product I end up writing somewhere, on some website, an article that tells the genesis of that product, its story.
 
-And I am here precisely to tell you a story, a five-month long story about the launch of my latest app, [**Transcriber**](https://ulti.media/transcriber/){target="_blank"}, that I will try to condense into "a few" paragraphs...
+And I am here precisely to tell you a story, a five-month long story about the launch of my latest app, [**Transcriber**](https://ulti.media/transcriber/), that I will try to condense into "a few" paragraphs...
 
 ![](/static/transcriber-PakSideSite_Transcriber_00000.jpg)
 
@@ -22,11 +22,11 @@ Again, before we begin two words about yours truly: my name is Alex, I live and 
 
 ![](/static/transcriber-alexraccuglia.jpg)
 
-Now my official label, as far as my occupation is concerned, is "director of TV commercials and promotional videos," however, I deal with all aspects of production and especially post-production in a small company called [Exmachina](https://Exmachina.it){target="_blank"}, also in Milan.
+Now my official label, as far as my occupation is concerned, is "director of TV commercials and promotional videos," however, I deal with all aspects of production and especially post-production in a small company called [Exmachina](https://Exmachina.it), also in Milan.
 
-Throughout my career as a video maker, however, I have always made small tools, tiny programs, utilities that we use internally in the company as an aid to the management of the video and audio production processes (I probably forgot to tell you that I have also been doing podcasts for 12 years, my last show, if you know some Italian, is [Techno Pillz](https://www.spreaker.com/show/technopillz){target="_blank"} in which I talk about my work as a programmer and video maker).
+Throughout my career as a video maker, however, I have always made small tools, tiny programs, utilities that we use internally in the company as an aid to the management of the video and audio production processes (I probably forgot to tell you that I have also been doing podcasts for 12 years, my last show, if you know some Italian, is [Techno Pillz](https://www.spreaker.com/show/technopillz) in which I talk about my work as a programmer and video maker).
 
-After the great crisis of 2008, which was overwhelmingly felt in Italy in 2011, I had to kind of find a way to reinvent myself, so I started in 2017 to refine some of the applications I had made and then sell them directly on the [Ulti.Media](https://Ulti.Media){target="_blank"} website.
+After the great crisis of 2008, which was overwhelmingly felt in Italy in 2011, I had to kind of find a way to reinvent myself, so I started in 2017 to refine some of the applications I had made and then sell them directly on the [Ulti.Media](https://Ulti.Media) website.
 
 Initially it was not even a second job, as much as, let's say, a kind of hobby, but for a few years now in this second job has become a very important part of both my personal and professional life, with a market that is starting to get interesting.
 
@@ -40,7 +40,7 @@ Towards the end of 2022, and in January 2023, I started working on a very ambiti
 
 ![](/static/transcriber-Speechal.jpg)
 
-I don't know if this program will be able to see the light of day before the end of 2023, I'm still working on it and it's quite a long process, at any rate, also earlier this year, I had started to do some experiments with [Whisper](https://openai.com/research/whisper){target="_blank"}, for transcribing audio, something that is quite handy for me to find keywords in podcasts (and which I've already done using Siri in another application of mine, [FCP Video Tag](https://ulti.media/fcp-video-tag-automatic-keyword-generator-for-final-cut-pro/){target="_blank"}).
+I don't know if this program will be able to see the light of day before the end of 2023, I'm still working on it and it's quite a long process, at any rate, also earlier this year, I had started to do some experiments with [Whisper](https://openai.com/research/whisper), for transcribing audio, something that is quite handy for me to find keywords in podcasts (and which I've already done using Siri in another application of mine, [FCP Video Tag](https://ulti.media/fcp-video-tag-automatic-keyword-generator-for-final-cut-pro/)).
 
 ![](/static/transcriber-PakSideSite_FCP-Video-Tag_00000.jpg)
 
@@ -56,7 +56,7 @@ In my head, during my car rides between home and office, I began to form the ide
 
 I was just about to start putting down some code and data structures, when I do a little research: surely I'm not the first one who has something like this in mind, let's see what others have done.
 
-So I come across [Macwhisper](https://goodsnooze.gumroad.com/l/macwhisper){target="_blank"}, an excellent application by [Jordi Bruin](https://twitter.com/jordibruin){target="_blank"}, download it, try it out, and decide not to pursue developing my own application: this competitor has already done it all and done it very well, too!
+So I come across [Macwhisper](https://goodsnooze.gumroad.com/l/macwhisper), an excellent application by [Jordi Bruin](https://twitter.com/jordibruin), download it, try it out, and decide not to pursue developing my own application: this competitor has already done it all and done it very well, too!
 
 (Note that in an article in which I talk about one of my products, I quote one of my competitors and give him high compliments: at the very least in marketing school they would have flunked me with a grade worse than unclassifiable...).
 
@@ -72,7 +72,7 @@ This is probably referred to in psychology as "megalomania." I think it's more u
 
 You know what? F*ck you, I do that too!
 
-Well, yes, I decide to develop my application anyway and focus it on a different, probably fuller workflow than Macwhisper's, and I start testing with Whisper's Large model, made available in open source by the people who created it: [OpenAI](https://openai.com/){target="_blank"}, yes, the same people as [ChatGPT](https://chat.openai.com/){target="_blank"}.
+Well, yes, I decide to develop my application anyway and focus it on a different, probably fuller workflow than Macwhisper's, and I start testing with Whisper's Large model, made available in open source by the people who created it: [OpenAI](https://openai.com/), yes, the same people as [ChatGPT](https://chat.openai.com/).
 
 ---
 
@@ -217,11 +217,11 @@ And this is also how I have operated with regard to the separation of subtitles 
 
 ### I got a publisher!
 
-At the end of 2022 I was contacted by the guys at [FxFactory](https://fxfactory.com/){target="_blank"} because they were interested in publishing some of my apps on their store, on their marketplace.
+At the end of 2022 I was contacted by the guys at [FxFactory](https://fxfactory.com/) because they were interested in publishing some of my apps on their store, on their marketplace.
 
 This filled me with joy, pride, and also with fear: for the first time I would be playing in the big leagues, and I would have to maintain much higher quality standards; this time I would not be doing everything myself, but I would also have to be accountable to someone else for my work.
 
-Initially we had planned to bring a couple of my most popular apps, such as [BeatMark Pro](https://ulti.media/bmpro){target="_blank"} or [FCP Diet 2](https://ulti.media/fcp-diet-2/){target="_blank"}, to this marketplace, adding features and cleaning up the interface.
+Initially we had planned to bring a couple of my most popular apps, such as [BeatMark Pro](https://ulti.media/bmpro) or [FCP Diet 2](https://ulti.media/fcp-diet-2/), to this marketplace, adding features and cleaning up the interface.
 
 I, however, proposed that they start with a completely new app, whose name initially was *Transcriptor*.
 
@@ -243,7 +243,7 @@ And, I have to be honest, I don't think I can thank them enough for making me gr
 
 ### Exporting to Final Cut Pro
 
-Initially Transcriber was not supposed to allow exporting subtitles to Final Cut Pro because I already have an application in my catalog that does just that, [FCP SRT Importer 2](https://ulti.media/fcp-srt-importer-2/){target="_blank"}, by the way one of my most successful applications (which means that the gentlemen at Apple and whoever is in charge of managing Final Cut Pro development should ask themselves some questions if so many people need such a basic feature...).
+Initially Transcriber was not supposed to allow exporting subtitles to Final Cut Pro because I already have an application in my catalog that does just that, [FCP SRT Importer 2](https://ulti.media/fcp-srt-importer-2/), by the way one of my most successful applications (which means that the gentlemen at Apple and whoever is in charge of managing Final Cut Pro development should ask themselves some questions if so many people need such a basic feature...).
 
 Let's say I didn't want to cannibalize myself, even though I knew Transcriber would be a higher cost application, there would probably be enough of a market for one to buy Transcriber bundled with FCP SRT Importer 2.
 
@@ -299,13 +299,13 @@ Since I had started to develop a system for synthetic speech of more or less "su
 
 This might be a more or less debatable choice, I am the first to fear very much the "uncanny valley" effect, but I believe that the quality level of synthetic voices has reached such a level that, in any case, at least from my point of view, it is preferable to a promotional video made with only overlay text.
 
-So here I made [my first promo video](https://youtu.be/mWcbe5q6-TQ){target="_blank"}.
+So here I made [my first promo video](https://youtu.be/mWcbe5q6-TQ).
 
 And, because the application is definitely complex, some things may even seem intuitive, but to understand how the workflow works in my opinion you need to sit down for a moment and understand a little bit what is the best way to operate, I decided to also make some tutorials of increasing complexity, making use of both screen captures and animations made with Adobe After Effects, which is the program I use most in my first job as a video maker.
 
 This time I tried to maintain a distinctly high level of quality, not only in the promo but also for all the side videos, it was a really big effort, maybe it might not look like it, however trying to show things in a quick, effective, clear, understandable way without becoming pompous, is not a child's play...
 
-Find [all the videos I made for Transcriber here](https://www.youtube.com/playlist?list=PLrDR4S9nie2a3UlEVFRzAKT3tNUSQVsoM){target="_blank"}.
+Find [all the videos I made for Transcriber here](https://www.youtube.com/playlist?list=PLrDR4S9nie2a3UlEVFRzAKT3tNUSQVsoM).
 
 And, in addition, one important thing there is to say: every time I set out to make a tutorial, therefore trying to do things the way any user would do them, I find a lot of mistakes or things that can be improved, so to make a video of a few minutes, it can take me even several days because, in the meantime, I am working on the code and improving the interface or adding features.
 
@@ -323,7 +323,7 @@ All things I had already prepared, however, small problem: in the promotional vi
 
 Nothing you can't see anyway in any kind of promotional material from this same movie, however, the publisher politely asked me to replace it with something else so as to avoid any copyright issues.
 
-Datum done, in one day I revamped [the promotional video](https://youtu.be/RMG-FelZY64){target="_blank"} and made all the art work.
+Datum done, in one day I revamped [the promotional video](https://youtu.be/RMG-FelZY64) and made all the art work.
 
 I was basically ready to go.
 
@@ -379,15 +379,15 @@ I have slipped into this "niche" by trying to find a way to speed up workflows a
 
 In the meantime, I'm working on at least two or three other new apps that I'd like to bring to market, tools that can help video makers who do everything themselves speed up their work.
 
-Well, the story, for now, stops here, but we can have a chat directly with the comments to this article, below, or [follow me on Twitter](https://twitter.com/ulti_media){target="_blank"}, I am quite active and respond quickly...
+Well, the story, for now, stops here, but we can have a chat directly with the comments to this article, below, or [follow me on Twitter](https://twitter.com/ulti_media), I am quite active and respond quickly...
 
-Finally, if you want to find out about the other things I do, and other apps I have developed, you can find everything on my website: [Ulti.Media](https://Ulti.Media.){target="_blank"}.
+Finally, if you want to find out about the other things I do, and other apps I have developed, you can find everything on my website: [Ulti.Media](https://Ulti.Media.).
 
 ---
 
 ### Thank you
 
-At the end of this long article, I hope I haven't bored you, I would like to sincerely thank [Chris](https://twitter.com/chrisatlatenite){target="_blank"} for all the support he has given me these past months and all the knowledge he has provided... I can never offer enough beers to repay you!
+At the end of this long article, I hope I haven't bored you, I would like to sincerely thank [Chris](https://twitter.com/chrisatlatenite) for all the support he has given me these past months and all the knowledge he has provided... I can never offer enough beers to repay you!
 
 Finally, thanks to the entire community on Twitter, who have supported me and put up with me patiently over the past few months while waiting for the release of Transcriber.
 

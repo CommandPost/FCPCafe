@@ -1,6 +1,6 @@
 # Release Notes
 
-This page is designed to not just copy and paste Final Cut Pro's [official release notes for Mac](https://support.apple.com/en-us/HT201237){target="_blank"} or [iPad](https://support.apple.com/en-us/HT213774){target="_blank"}, but also keep track of changes/bugs/additions that weren't actually included in the official release notes.
+This page is designed to not just copy and paste Final Cut Pro's [official release notes for Mac](https://support.apple.com/en-us/HT201237) or [iPad](https://support.apple.com/en-us/HT213774), but also keep track of changes/bugs/additions that weren't actually included in the official release notes.
 
 ---
 
@@ -79,7 +79,7 @@ This is the first release of Final Cut Pro for iPad!
 
 #### Notes from FCP Cafe:
 
-- This release removes FxPlug2 and FxPlug3 support. Only FxPlug4 is now supported, and older plugins will no longer work. You can learn more [here](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update){target="_blank"}.
+- This release removes FxPlug2 and FxPlug3 support. Only FxPlug4 is now supported, and older plugins will no longer work. You can learn more [here](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update).
 
 #### New features:
 

@@ -6,7 +6,7 @@
 
 This includes things like Scene, Take and Notes information. It is designed to standardise the exchange of metadata between field recorders and post production software.
 
-The iXML specification describes an WAV RIFF chunk in BWF files which contains standard XML data following the [iXML specification](http://www.ixml.info){target="_blank"}.
+The iXML specification describes an WAV RIFF chunk in BWF files which contains standard XML data following the [iXML specification](http://www.ixml.info).
 
 iXML uses the XML (eXtensible Markup Language) standard for communication of tagged metadata. All fields are optional when creating iXML, and readers of iXML data must not assume or require any fields to be present.
 
@@ -33,13 +33,13 @@ A very simplified iXML data chunk, in a mono file with only the most basic metad
 	</BWFXML>
 ```
 
-You can read a very detailed article about iXML [here](http://www.gallery.co.uk/ixml/iXML-LineUp.pdf){target="_blank"}.
+You can read a very detailed article about iXML [here](http://www.gallery.co.uk/ixml/iXML-LineUp.pdf).
 
 ---
 
 ## Specification
 
-The iXML Specification can be found [here](http://www.ixml.info){target="_blank"}.
+The iXML Specification can be found [here](http://www.ixml.info).
 
 ---
 
@@ -90,4 +90,4 @@ As of Final Cut Pro 10.3.3, the following parameter's don't seem to be supported
 
 ## Tools
 
-The most useful tool for reading and writing iXML data is the free [Sound Devices Wave Agent](https://www.sounddevices.com/products/accessories/software/wave-agent){target="_blank"}.
+The most useful tool for reading and writing iXML data is the free [Sound Devices Wave Agent](https://www.sounddevices.com/products/accessories/software/wave-agent).

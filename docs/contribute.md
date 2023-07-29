@@ -1,20 +1,20 @@
 # Contribute
 
-FCP Cafe is entirely open source and hosted on [GitHub](https://github.com){target="_blank"}.
+FCP Cafe is entirely open source and hosted on [GitHub](https://github.com).
 
-[GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
+[GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-FCP Cafe uses [CloudFlare](https://www.cloudflare.com){target="_blank"} for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
+FCP Cafe uses [CloudFlare](https://www.cloudflare.com) for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
 
-You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/FCPCafe){target="_blank"}.
+You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/FCPCafe).
 
 We welcome and encourage users submitting their own **case studies**, **articles**, **products** and **news items**.
 
-You can see all the current contributors [here](https://github.com/CommandPost/FCPCafe/graphs/contributors){target="_blank"}. Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe){target="_blank"}.
+You can see all the current contributors [here](https://github.com/CommandPost/FCPCafe/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe).
 
 The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
-The website is build on [Retype](https://retype.com){target="_blank"}, which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/){target="_blank"} just using Markdown.
+The website is build on [Retype](https://retype.com), which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/) just using Markdown.
 
 However, if you're not confident using GitHub, you can also email us content here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
@@ -34,15 +34,15 @@ If you're interested in collaborating, and helping FCP Cafe grow, here's some id
 
 There's a bunch of TVCs we can add to the [Cut on Final Cut Pro](/cut-on-fcp/) page:
 
-- [Dominic Leung](https://marsheen.com/editors/dominic-leung){target="_blank"}
-- [Dave Davis](https://marsheen.com/editors/dave-davis){target="_blank"}
-- [Elise Butt](https://trimediting.com/elise-butt/){target="_blank"}
-- [Fouad Gaber](https://trimediting.com/fouad-gaber/){target="_blank"}
-- [Ross Hallard](https://trimediting.com/ross-hallard/){target="_blank"}
-- [Ed Hanbury](https://trimediting.com/ed-hanbury/){target="_blank"}
-- [Matt Newman](https://trimediting.com/matt-newman/){target="_blank"} (last 3 years only!)
-- [Paul Hardcastle](https://trimediting.com/paul-hardcastle/){target="_blank"} (last 9 months only!)
-- [Rohan Zerna](https://theeditors.com.au/rohan-zerna){target="_blank"} (earlier TVCs were cut in FCP7)
+- [Dominic Leung](https://marsheen.com/editors/dominic-leung)
+- [Dave Davis](https://marsheen.com/editors/dave-davis)
+- [Elise Butt](https://trimediting.com/elise-butt/)
+- [Fouad Gaber](https://trimediting.com/fouad-gaber/)
+- [Ross Hallard](https://trimediting.com/ross-hallard/)
+- [Ed Hanbury](https://trimediting.com/ed-hanbury/)
+- [Matt Newman](https://trimediting.com/matt-newman/) (last 3 years only!)
+- [Paul Hardcastle](https://trimediting.com/paul-hardcastle/) (last 9 months only!)
+- [Rohan Zerna](https://theeditors.com.au/rohan-zerna) (earlier TVCs were cut in FCP7)
 
 There's a bunch of stuff we can add to the FAQ - these are real questions from the community:
 
@@ -83,7 +83,7 @@ We're open to promoting Final Cut Pro products and services on the front page wi
 For example, here's a sponsored post that could appear on the home page within the Latest News:
 
 !!!info Sponsored
-Use [Transfer Toolbox](https://transfertoolbox.io){target="_blank"} to get from Final Cut Pro for Mac to iPad!
+Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
 !!!
 
 Sponsored posts can just be plain text, with a single link. We don't allow images, videos, or other embedded elements.
@@ -108,22 +108,22 @@ So, in simple terms, **a pull request is a way of proposing changes to a shared 
 
 To create the fastest website possible, FCP Cafe is what's called a "static site". It just a collection of HTML files in a folder - nothing fancy.
 
-However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions){target="_blank"} to "do stuff" to our markdown files whenever we submit a pull request.
+However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions) to "do stuff" to our markdown files whenever we submit a pull request.
 
-For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
+For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml) does the following:
 
 
-- Looks at all the individual **Asset Management** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/asset-management){target="_blank"}, and generates an alphabetical list of them for the [Asset Management](/ecosystem/asset-management/) page.
-- Looks at all the individual **Camera Formats** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/camera-formats){target="_blank"}, and generates an alphabetical list of them for the [Camera Formats](/camera-formats/) page.
-- Looks at all the individual **Tools & Frameworks** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/developer-tools-and-frameworks){target="_blank"}, and generates an alphabetical list of them for the [Tools & Frameworks](/developers/toolsandframeworks/) page.
-- Looks at all the individual **FAQ** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/faq){target="_blank"}, and generates an alphabetical list of them for the [FAQ](/faq/) page.
-- Looks at all the individual **FxPlug** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/fxplug){target="_blank"}, and generates an alphabetical list of them for the [FxPlug](/developers/fxplug/) page.
-- Looks at all the individual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates){target="_blank"}, and generates an alphabetical list of them for the [Motion Templates](/motiontemplates/) page.
-- Looks at all the individual **News** item in [this folder](https://github.com/CommandPost/ResolveCafe/tree/main/docs/_includes/news){target="_blank"}, and generates an alphabetical list of them for the [Latest News](/) page.
-- Looks at all the individual **Plugins** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/plugins){target="_blank"}, and generates an alphabetical list of them for the [Plugins](/ecosystem/plugins/) page.
-- Looks at all the individual **Sponsors** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors){target="_blank"}, and uses them on the [Latest News](/) page.
-- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools){target="_blank"}, and generates an alphabetical list of them for the [Tools](/ecosystem/tools/) page.
-- Looks at all the individual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions){target="_blank"}, and generates an alphabetical list of them for the [Workflow Extensions](/ecosystem/workflowextensions/) page.
+- Looks at all the individual **Asset Management** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/asset-management), and generates an alphabetical list of them for the [Asset Management](/ecosystem/asset-management/) page.
+- Looks at all the individual **Camera Formats** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/camera-formats), and generates an alphabetical list of them for the [Camera Formats](/camera-formats/) page.
+- Looks at all the individual **Tools & Frameworks** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/developer-tools-and-frameworks), and generates an alphabetical list of them for the [Tools & Frameworks](/developers/toolsandframeworks/) page.
+- Looks at all the individual **FAQ** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/faq), and generates an alphabetical list of them for the [FAQ](/faq/) page.
+- Looks at all the individual **FxPlug** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/fxplug), and generates an alphabetical list of them for the [FxPlug](/developers/fxplug/) page.
+- Looks at all the individual **Motion Templates** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/motion-templates), and generates an alphabetical list of them for the [Motion Templates](/motiontemplates/) page.
+- Looks at all the individual **News** item in [this folder](https://github.com/CommandPost/ResolveCafe/tree/main/docs/_includes/news), and generates an alphabetical list of them for the [Latest News](/) page.
+- Looks at all the individual **Plugins** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/plugins), and generates an alphabetical list of them for the [Plugins](/ecosystem/plugins/) page.
+- Looks at all the individual **Sponsors** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors), and uses them on the [Latest News](/) page.
+- Looks at all the individual **Tools** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools), and generates an alphabetical list of them for the [Tools](/ecosystem/tools/) page.
+- Looks at all the individual **Workflow Extensions** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions), and generates an alphabetical list of them for the [Workflow Extensions](/ecosystem/workflowextensions/) page.
 - Looks at all the **Latest News** items and generates an [RSS feed](/rss.xml){target="_blank"}
 
 This means, if you want to add a Tool, Motion Template, Workflow Extension, News item, etc. you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
@@ -132,7 +132,7 @@ This means, if you want to add a Tool, Motion Template, Workflow Extension, News
 
 ### How to Edit Pages
 
-If you're not already registered with GitHub, [create a free account](https://github.com/join){target="_blank"}.
+If you're not already registered with GitHub, [create a free account](https://github.com/join).
 
 There's an **Edit this page on GitHub** link at the bottom of every page.
 
@@ -150,7 +150,7 @@ You should make sure all external links open in a new tab/window (edit this page
 
 If you're modifying a list of Tools or Workflow Extensions, everything should be sorted in alphabetical order.
 
-You can learn more about basic formatting [here](https://retype.com/guides/formatting/){target="_blank"}.
+You can learn more about basic formatting [here](https://retype.com/guides/formatting/).
 
 ![Edit this file](/static/editor.png)
 
@@ -168,7 +168,7 @@ This will send your changes to the FCP Cafe team to review and approve.
 
 If changes are required, they'll add comments within the pull request.
 
-If you have questions, you can ask them on the [Discussions board](https://github.com/CommandPost/FCPCafe/discussions){target="_blank"}.
+If you have questions, you can ask them on the [Discussions board](https://github.com/CommandPost/FCPCafe/discussions).
 
 You can also email us here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
@@ -176,7 +176,7 @@ You can also email us here: [support@latenitefilms.com](mailto:support@latenitef
 
 ### GitHub Web-based Editor
 
-You can use the [github.dev](https://github.dev){target="_blank"} web-based editor to edit files and commit your changes.
+You can use the [github.dev](https://github.dev) web-based editor to edit files and commit your changes.
 
 Simply replace the `.com` with `.dev` on any GitHub URL.
 
@@ -213,10 +213,10 @@ Instead, we'll be posting the Video Thumbnail as a clickable link to the video.
 Here's an example of how this looks in Markdown:
 
 ```
-[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target="_blank"}
+[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4)
 ```
 
-You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank"} for download YouTube Thumbnails.
+You can use [this website](https://youtube-thumbnail-grabber.com) for download YouTube Thumbnails.
 
 ---
 
@@ -224,7 +224,7 @@ You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank
 
 All images should be stored within the `/docs/static/` folder on GitHub.
 
-You can find it [here](https://github.com/CommandPost/FCPCafe/tree/main/docs/static){target="_blank"}.
+You can find it [here](https://github.com/CommandPost/FCPCafe/tree/main/docs/static).
 
 ---
 
@@ -234,19 +234,19 @@ You can also use GitHub Desktop to essentially "clone" the entire FCP Cafe websi
 
 You can then make changes locally, and once done, submit a pull request back to the main GitHub repository.
 
-You can download GitHub Desktop [here](https://desktop.github.com){target="_blank"}.
+You can download GitHub Desktop [here](https://desktop.github.com).
 
-You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/){target="_blank"} to edit your Markdown files on your Mac.
+You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/) to edit your Markdown files on your Mac.
 
 ---
 
 ### Powered by Retype
 
-FCP Cafe is powered by [Retype](https://retype.com){target="_blank"} and hosted on [GitHub Pages](https://pages.github.com){target="_blank"}.
+FCP Cafe is powered by [Retype](https://retype.com) and hosted on [GitHub Pages](https://pages.github.com).
 
-We've VERY thankful for [all the support](https://github.com/retypeapp/retype/issues/created_by/latenitefilms){target="_blank"} Retype has given us!
+We've VERY thankful for [all the support](https://github.com/retypeapp/retype/issues/created_by/latenitefilms) Retype has given us!
 
-The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app){target="_blank"}.
+The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app).
 
 ---
 

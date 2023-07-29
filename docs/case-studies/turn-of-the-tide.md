@@ -54,7 +54,7 @@ _Marcos Castiel (Ep's 1, 2, 5 & 7)_
 
 ### Trailer
 
-[![](/static/turn-of-the-tide-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA){target="_blank"}
+[![](/static/turn-of-the-tide-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
 
 ---
 

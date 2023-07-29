@@ -10,6 +10,6 @@ Some of the core features include :
 - Ability to batch extract and render stills or animated GIFs based on each marker's timecode
 - Ability to batch burn-in labels of each marker's metadata onto the stills or animated GIFs
 
-Spearheaded by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target="_blank"}.
+Spearheaded by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran).
 
 [!button text="View on GitHub" target="blank" variant="info"](https://github.com/TheAcharya/MarkersExtractor)

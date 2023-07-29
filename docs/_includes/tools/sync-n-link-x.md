@@ -16,6 +16,6 @@ Sync-N-Link X adds a "Synced" keyword for the video range (essentially trimming 
 
 Sync-N-Link X assigns audio Subroles and component names to second-system audio tracks and camera audio, giving the user dynamic control over audio playback during editorial.
 
-Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.apple.com/finalcutpro/in-action/electric/){target="_blank"}.
+Case study: Electric Entertainment's workflow for "Leverage" [here](http://www.apple.com/finalcutpro/in-action/electric/).
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/sync-n-link-x/id517599985?mt=12)

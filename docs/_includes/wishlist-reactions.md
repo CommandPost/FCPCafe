@@ -1,27 +1,27 @@
-- [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212){target="_blank"}
-- [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102){target="_blank"}
-- [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210){target="_blank"}
-- [[Final Cut Pro (for iPad) v1.0.1] Add support for Custom Fonts (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/200){target="_blank"}
-- [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197){target="_blank"}
-- [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196){target="_blank"}
-- [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175){target="_blank"}
-- [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149){target="_blank"}
-- [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148){target="_blank"}
-- [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147){target="_blank"}
-- [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146){target="_blank"}
-- [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138){target="_blank"}
-- [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117){target="_blank"}
-- [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116){target="_blank"}
-- [Customisable Match Color & Balance Color Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/115){target="_blank"}
-- [Adjustable Storyline Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/114){target="_blank"}
-- [Native Blackmagic RAW Support (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/113){target="_blank"}
-- [Pasteboard Manager & Pasteboard History (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/112){target="_blank"}
-- [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111){target="_blank"}
-- [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107){target="_blank"}
-- [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106){target="_blank"}
-- [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104){target="_blank"}
-- [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103){target="_blank"}
-- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101){target="_blank"}
-- [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89){target="_blank"}
-- [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85){target="_blank"}
-- [Reveal in Browser with detached Audio/Video (May 19, 2022)](https://github.com/CommandPost/FCPCafe/issues/78){target="_blank"}
+- [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
+- [Scrolling Timeline (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/102)
+- [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
+- [[Final Cut Pro (for iPad) v1.0.1] Add support for Custom Fonts (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/200)
+- [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197)
+- [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196)
+- [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175)
+- [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149)
+- [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148)
+- [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147)
+- [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146)
+- [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
+- [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117)
+- [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116)
+- [Customisable Match Color & Balance Color Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/115)
+- [Adjustable Storyline Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/114)
+- [Native Blackmagic RAW Support (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/113)
+- [Pasteboard Manager & Pasteboard History (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/112)
+- [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111)
+- [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107)
+- [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106)
+- [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104)
+- [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103)
+- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
+- [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89)
+- [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85)
+- [Reveal in Browser with detached Audio/Video (May 19, 2022)](https://github.com/CommandPost/FCPCafe/issues/78)

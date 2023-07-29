@@ -4,11 +4,11 @@
 
 Directed by Peter Thorwarth and edited by Knut Hake.
 
-I (Sam Pluemacher) was the Assistant & VFX Editor on this production. If there are any questions please feel free to [reach out](https://sammathis.com/contact-me/){target="_blank"} to me.
+I (Sam Pluemacher) was the Assistant & VFX Editor on this production. If there are any questions please feel free to [reach out](https://sammathis.com/contact-me/) to me.
 
 ![](/static/blood-and-gold-1.jpg)
 
-To get started, here's a short excerpt from an interview with director Peter Thorwarth about Blood & Gold published on [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"}:
+To get started, here's a short excerpt from an interview with director Peter Thorwarth about Blood & Gold published on [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87):
 
 > **Once upon a time... a German spaghetti western**
 >
@@ -18,7 +18,7 @@ To get started, here's a short excerpt from an interview with director Peter Tho
 >
 > Netflix was the gamechanger for me. They made two dream projects possible for me - both of which I had been trying in vain to get off the ground for more than ten years before that.
 >
-> **_Excerpt from [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87){target="_blank"} - Thomas Schultze 25.05.2023 12:48_**
+> **_Excerpt from [Blickpunkt:Film](https://www.blickpunktfilm.de/produktion/blood-und-gold-es-war-einmal-ein-deutscher-spagettiwestern-9fbcb9a84fc42fa2b1ad7850b6af5c87) - Thomas Schultze 25.05.2023 12:48_**
 
 ---
 
@@ -37,9 +37,9 @@ This workflow has been proven stable & reliable on 5 different Netflix productio
 
 On previous shows we would mostly work remote from each other. With Blood & Gold we moved into a new studio in Berlin which made us reconsider a few key aspects of our workflow.
 
-We've been using [PostLab](https://hedge.video/postlab){target="_blank"} for a couple of years already and love the stress-free collaboration and its backup abilities. Working on large libraries requires a lot of up- and downloading which were constrained by our internet bandwidth. I setup a PostLab Local server on a M1 Mac mini which greatly reduced upload times (down to around 60 secs from previously 10-15 mins). The instructions to setup a Local server can be found in the [Hedge documentation](https://docs.hedge.video/postlab/postlab-local){target="_blank"} and we were able to set it up in 2 days without any prior knowledge of GitLab. For additional security we implemented Tailscale (Wireguard VPN) to restrict access to the server, which also allows us to access libraries remotely.
+We've been using [PostLab](https://hedge.video/postlab) for a couple of years already and love the stress-free collaboration and its backup abilities. Working on large libraries requires a lot of up- and downloading which were constrained by our internet bandwidth. I setup a PostLab Local server on a M1 Mac mini which greatly reduced upload times (down to around 60 secs from previously 10-15 mins). The instructions to setup a Local server can be found in the [Hedge documentation](https://docs.hedge.video/postlab/postlab-local) and we were able to set it up in 2 days without any prior knowledge of GitLab. For additional security we implemented Tailscale (Wireguard VPN) to restrict access to the server, which also allows us to access libraries remotely.
 
-We considered a [Jellyfish](https://www.lumaforge.com/jellyfish){target="_blank"} NAS for our media management, but couldn't justify the cost for our 2-person studio. PostLab Drive is a great tool for working remotely, but it still requires all media to be uploaded to their server. We were looking for a similar tool that would keep our media in sync which lead me to [Syncthing](https://syncthing.net/){target="_blank"}. It allows you to sync directly over your local ethernet network, but also syncs peer-to-peer over WAN access. For additional security these connections are also running through Tailscale. This setup allows us to be very mobile and we solely work off [OWC Envoy Pro SX 4TB](https://www.owc.com/solutions/envoy-pro-sx){target="_blank"} drives which are super-fast and rugged. In addition we keep daily backups on two [OWC ThunderBay Flex 8](https://www.owc.com/solutions/thunderbay-flex-8){target="_blank"} drives.
+We considered a [Jellyfish](https://www.lumaforge.com/jellyfish) NAS for our media management, but couldn't justify the cost for our 2-person studio. PostLab Drive is a great tool for working remotely, but it still requires all media to be uploaded to their server. We were looking for a similar tool that would keep our media in sync which lead me to [Syncthing](https://syncthing.net/). It allows you to sync directly over your local ethernet network, but also syncs peer-to-peer over WAN access. For additional security these connections are also running through Tailscale. This setup allows us to be very mobile and we solely work off [OWC Envoy Pro SX 4TB](https://www.owc.com/solutions/envoy-pro-sx) drives which are super-fast and rugged. In addition we keep daily backups on two [OWC ThunderBay Flex 8](https://www.owc.com/solutions/thunderbay-flex-8) drives.
 
 Before shooting started we talked with our post-production supervisor, sound recordist, script supervisor, camera department and DIT on set to align our workflows.
 
@@ -49,16 +49,16 @@ It is especially important to make sure they shoot with permanently synced timec
 
 With all of the above set we continue to setup our edit bays and our workflow down this project.
 
-*_An in-depth version of our workflow can be found here: [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09){target="_blank"}_*
+*_An in-depth version of our workflow can be found here: [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09)_*
 
 ---
 
 ### System Setup
 
-- [**Post Haste**](https://www.digitalrebellion.com/posthaste/){target="_blank"} allows you to save folder structures as a template. Huge timesaver as we name all drives or RAIDs identically and work with the exact same folder hierarchy.
-- [**Syncthing**](https://syncthing.net/){target="_blank"} enables us to synchronize all media in the background between our different edit bays. It works over the internet as well as on a local network without the need to upload lots of data.
-- [**Tailscale**](https://tailscale.com/){target="_blank"} is a super easy VPN solution for building secure networks and allows you to remotely access from any network or physical location.
-- [**Notion**](https://notion.so){target="_blank"} is our database to keep track of the production status of each scene, VFX shots and other useful information.
+- [**Post Haste**](https://www.digitalrebellion.com/posthaste/) allows you to save folder structures as a template. Huge timesaver as we name all drives or RAIDs identically and work with the exact same folder hierarchy.
+- [**Syncthing**](https://syncthing.net/) enables us to synchronize all media in the background between our different edit bays. It works over the internet as well as on a local network without the need to upload lots of data.
+- [**Tailscale**](https://tailscale.com/) is a super easy VPN solution for building secure networks and allows you to remotely access from any network or physical location.
+- [**Notion**](https://notion.so) is our database to keep track of the production status of each scene, VFX shots and other useful information.
 
 ![](/static/blood-and-gold-2.jpg)
 
@@ -72,11 +72,11 @@ With all of the above set we continue to setup our edit bays and our workflow do
 
 We use a number of different tools to prepare our shooting days:
 
-- [**PostLab**](https://hedge.video/postlab){target="_blank"} offers stress-free collaboration for Final Cut Pro. Upload your FCP Library and everybody on your team can access it over the cloud. It also serves as a time-machine as you can revert to any uploaded iteration of your library. Starting with this production we moved to PostLab Local.
-- [**Lockit Network**](https://lockitnetwork.com/home/){target="_blank"} is a powerful script supervising tool that collects metadata on set which can be ingested into Final Cut Pro without the need to manually copy-paste important script notes.
-- [**Sync-N-Link**](https://intelligentassistance.com/sync-n-lnk-x.html){target="_blank"} is a tool to batch synchronize dual-system audio and video and to batch-create multicams. You can also use a target project to create synced clips in a different aspect ratio.
-- [**CommandPost**](https://commandpost.io/){target="_blank"} is the Swiss Army Knife for Post Production Professionals. It offers several toolboxes that offer huge time savings. One of which is to create line-by-line keywords:
-"*The* ***Titles to Keywords** toolbox is a huge timesaver when editing complex scenes. Couldn’t live without it anymore. And directors love that every delivery of any line from any take is just one click away!" - Knut Hake -* Additional information can be found in this article [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}
+- [**PostLab**](https://hedge.video/postlab) offers stress-free collaboration for Final Cut Pro. Upload your FCP Library and everybody on your team can access it over the cloud. It also serves as a time-machine as you can revert to any uploaded iteration of your library. Starting with this production we moved to PostLab Local.
+- [**Lockit Network**](https://lockitnetwork.com/home/) is a powerful script supervising tool that collects metadata on set which can be ingested into Final Cut Pro without the need to manually copy-paste important script notes.
+- [**Sync-N-Link**](https://intelligentassistance.com/sync-n-lnk-x.html) is a tool to batch synchronize dual-system audio and video and to batch-create multicams. You can also use a target project to create synced clips in a different aspect ratio.
+- [**CommandPost**](https://commandpost.io/) is the Swiss Army Knife for Post Production Professionals. It offers several toolboxes that offer huge time savings. One of which is to create line-by-line keywords:
+"*The* ***Titles to Keywords** toolbox is a huge timesaver when editing complex scenes. Couldn’t live without it anymore. And directors love that every delivery of any line from any take is just one click away!" - Knut Hake -* Additional information can be found in this article [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro)
 
 ![](/static/blood-and-gold-5.png)
 
@@ -89,8 +89,8 @@ We use a number of different tools to prepare our shooting days:
 Here are a few tips for the editing part when working on a Netflix production:
 
 - Use roles extensively as they help organize the timeline and makes turnovers easy and comprehensible.
-- Netflix requires all non-english content to be captioned for all internal screenings. We used [**MacWhipser**](https://goodsnooze.gumroad.com/l/macwhisper?layout=profile){target="_blank"} with on-device transcription and then translate it using [**DeepL**](https://deepl.com/){target="_blank"} to generate captions.
-- Blood & Gold included lots of fighting and shooting sequences. We used [Audio Design Desk](https://add.app/){target="_blank"} to do temp SFX layouts which made this process fun and super quick. Their Final Cut Pro integration made things a really smooth process.
+- Netflix requires all non-english content to be captioned for all internal screenings. We used [**MacWhipser**](https://goodsnooze.gumroad.com/l/macwhisper?layout=profile) with on-device transcription and then translate it using [**DeepL**](https://deepl.com/) to generate captions.
+- Blood & Gold included lots of fighting and shooting sequences. We used [Audio Design Desk](https://add.app/) to do temp SFX layouts which made this process fun and super quick. Their Final Cut Pro integration made things a really smooth process.
 - We used chapter markers to tag VFX shots as they are easily searchable in the timeline Index.
 - Create a Compound clip for every VFX shot and place all iterations inside. They are very useful to update VFX shots in multiple timelines and have access to previous versions.
 
@@ -102,10 +102,10 @@ Here are a few tips for the editing part when working on a Netflix production:
 
 ### Turnovers
 
-- [**X2Pro**](https://x2pro.net/){target="_blank"} will generate a ProTools AAF which includes roles as named tracks making the session very organized for the sound editor.
-- [**EDL-X**](https://xmil.biz/EDL-X/EDL-X.shtml){target="_blank"} creates industry standard EDLs for either picture or sound turnovers and can be easily filtered by roles for specific turnovers.
-- [**Producer's Best Friend**](https://intelligentassistance.com/producer-s-best-friend.html){target="_blank"} generates rich & detailed spreadsheets that we include with any turnover as they show all relevant metadata such as effects, keywords, markers. We also use those reports to ingest information into our Notion VFX database.
-- [**Change List X**](https://intelligentassistance.com/change-list-x.html){target="_blank"} lets you compare two timelines and generate a detailed report that shows you all edit changes.
+- [**X2Pro**](https://x2pro.net/) will generate a ProTools AAF which includes roles as named tracks making the session very organized for the sound editor.
+- [**EDL-X**](https://xmil.biz/EDL-X/EDL-X.shtml) creates industry standard EDLs for either picture or sound turnovers and can be easily filtered by roles for specific turnovers.
+- [**Producer's Best Friend**](https://intelligentassistance.com/producer-s-best-friend.html) generates rich & detailed spreadsheets that we include with any turnover as they show all relevant metadata such as effects, keywords, markers. We also use those reports to ingest information into our Notion VFX database.
+- [**Change List X**](https://intelligentassistance.com/change-list-x.html) lets you compare two timelines and generate a detailed report that shows you all edit changes.
 
 ![](/static/blood-and-gold-9.png)
 
@@ -113,11 +113,11 @@ Here are a few tips for the editing part when working on a Netflix production:
 
 ### Trailer
 
-[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw){target="_blank"}
+[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw)
 
 ---
 
 ### Additional Links
 
-- [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09){target="_blank"} by Knut Hake
-- [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"} by Iain Anderson
+- [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09) by Knut Hake
+- [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro) by Iain Anderson

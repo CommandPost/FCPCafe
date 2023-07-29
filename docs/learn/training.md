@@ -9,9 +9,9 @@ iJustine Teaches FCP X (Mac App)
 -->
 # Training
 
-We're big fans of [Ripple Training](https://www.rippletraining.com){target="_blank"}.
+We're big fans of [Ripple Training](https://www.rippletraining.com).
 
-Apple has a lot of training resources [here](https://www.apple.com/au/final-cut-pro/resources/){target="_blank"}.
+Apple has a lot of training resources [here](https://www.apple.com/au/final-cut-pro/resources/).
 
 ---
 

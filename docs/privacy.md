@@ -8,23 +8,23 @@ We do not collect any personal identifiable information from you when you visit 
 
 We don't embed any videos - we only show a thumbnail which links to the video - to prevent third party cookies/trackers.
 
-We use [GitHub Pages](https://pages.github.com){target="_blank"} to host and manage this website.
+We use [GitHub Pages](https://pages.github.com) to host and manage this website.
 
-We use [CloudFlare](https://www.cloudflare.com){target="_blank"} for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
+We use [CloudFlare](https://www.cloudflare.com) for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
 
-You can read CloudFlare's privacy policy [here](https://www.cloudflare.com/en-au/privacypolicy/){target="_blank"}.
+You can read CloudFlare's privacy policy [here](https://www.cloudflare.com/en-au/privacypolicy/).
 
-We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues){target="_blank"} to manage our [Bug Tracker](/bugtracker/) & [Wish List](/wishlist/).
+We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues) to manage our [Bug Tracker](/bugtracker/) & [Wish List](/wishlist/).
 
-We use [GitHub Discussions](https://github.com/CommandPost/FCPCafe/discussions){target="_blank"} to manage the comments and discussions on the site.
+We use [GitHub Discussions](https://github.com/CommandPost/FCPCafe/discussions) to manage the comments and discussions on the site.
 
-The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app){target="_blank"}, which also has no tracking or database.
+The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app), which also has no tracking or database.
 
-You can read GitHub's Privacy Statement [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){target="_blank"}.
+You can read GitHub's Privacy Statement [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-The source code and change log for this website can be found on [GitHub](https://github.com/CommandPost/FCPCafe){target="_blank"}.
+The source code and change log for this website can be found on [GitHub](https://github.com/CommandPost/FCPCafe).
 
-Any code (such as GitHub Actions) are licensed under a [MIT License](https://github.com/CommandPost/FCPCafe/blob/main/LICENSE){target="_blank"}.
+Any code (such as GitHub Actions) are licensed under a [MIT License](https://github.com/CommandPost/FCPCafe/blob/main/LICENSE).
 
 ---
 
@@ -46,7 +46,7 @@ We have no control over, and assume no responsibility for the content, privacy p
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
 
-You can check the change history of this privacy policy [here](https://github.com/CommandPost/FCPCafe/commits/main/docs/privacy.md){target="_blank"}.
+You can check the change history of this privacy policy [here](https://github.com/CommandPost/FCPCafe/commits/main/docs/privacy.md).
 
 ---
 

@@ -20,7 +20,7 @@ How it Works:
 
 3. FCPX Organizing. FCPX imports the KeyClips app's new fcpxml file- creating events with category folders, selects, markers, notes, sequences, and bottom-third titles.
 
-[![](/static/keyclips.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY){target="_blank"}
+[![](/static/keyclips.jpg)](https://www.youtube.com/watch?v=hv8SYotqHbY)
 
 [!button text="Keyword Logging Overview" target="blank" variant="info"](https://www.youtube.com/watch?v=hPuhPrlg_4c)
 
