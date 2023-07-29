@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.743906476220">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.743906850366">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.1.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.1.0.743906476220" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.1.0.743906850366" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.1.0.743906476220" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.1.0.743906850366" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.1.0.743906476220" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.1.0.743906850366" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -451,7 +451,7 @@
 <li>Looks at all the individual <strong>Sponsors</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/sponsors">this folder</a>, and uses them on the <a href="../">Latest News</a> page.</li>
 <li>Looks at all the individual <strong>Tools</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/tools">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/tools/">Tools</a> page.</li>
 <li>Looks at all the individual <strong>Workflow Extensions</strong> in <a href="https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/workflow-extensions">this folder</a>, and generates an alphabetical list of them for the <a href="../ecosystem/workflowextensions/">Workflow Extensions</a> page.</li>
-<li>Looks at all the <strong>Latest News</strong> items and generates an <a href="../rss.xml" target="_blank">RSS feed</a></li>
+<li>Looks at all the <strong>Latest News</strong> items and generates an <a href="../rss.xml">RSS feed</a></li>
 </ul>
 <p>This means, if you want to add a Tool, Motion Template, Workflow Extension, News item, etc. you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.</p>
 <hr>
@@ -523,11 +523,7 @@
     </h3>
 </doc-anchor-target>
 <p>All external links should open in a new tab/window.</p>
-<p>The trick is to add <code v-pre>{target=&quot;_blank&quot;}</code> at the end of the link.</p>
-<p>Here&#x27;s an example of how to do this in Markdown:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">[Sync-N-Link](/tools/#sync-n-link-x){target=&quot;_blank&quot;}</code></pre>
-</doc-codeblock></div>
+<p>This is handled automatically by Retype.</p>
 <hr>
 <doc-anchor-target id="embedded-videos">
     <h3>
