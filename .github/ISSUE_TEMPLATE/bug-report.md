@@ -10,32 +10,31 @@ assignees: ''
 Apple Feedback Assistant ID: MISSING
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**DESCRIBE THE BUG:**
+xxx
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+---
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**TO REPRODUCE:**
+xxx
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+---
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**EXPECTED BEHAVIOUR:**
+xxx
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+---
 
-**Additional context**
-Add any other context about the problem here.
+**SCREENSHOTS:**
+xxx
+
+---
+
+**SPECS:**
+- MacBook Pro / iMac Pro / Mac Pro / Mac Studio
+- macOS Monterey 12.6.6 / macOS Ventura 13.4.1 / macOS Ventura 13.5
+- Final Cut Pro 10.6.x
+
+---
+**ADDITIONAL COMMENTS:**
+xxx
