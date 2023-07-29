@@ -1,30 +1,30 @@
-- [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
-- [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
-- [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
-- [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229)
-- [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
-- [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
-- [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
-- [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225)
-- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
-- [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220)
-- [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
-- [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218)
-- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
-- [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
-- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
-- [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190)
-- [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189)
-- [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133)
-- [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119)
-- [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
-- [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
-- [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
-- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
-- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
-- [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
-- [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87)
-- [Crash - failureToCloseUndoScope when repositioning titles within viewer (August 1, 2022)](https://github.com/CommandPost/FCPCafe/issues/84)
-- [Crash - [FFAnchoredFavoriteMarker sequenceRecord]: unrecognized selector sent to instance (June 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/83)
-- [Crash - objects in array must be FigTimeRangeAndObject objects! (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/82)
-- [Crash - Missing method for retimeEffect (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/81)
+- [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232){target="_blank"}
+- [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231){target="_blank"}
+- [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230){target="_blank"}
+- [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229){target="_blank"}
+- [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228){target="_blank"}
+- [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227){target="_blank"}
+- [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226){target="_blank"}
+- [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225){target="_blank"}
+- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223){target="_blank"}
+- [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220){target="_blank"}
+- [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219){target="_blank"}
+- [Viewer Goes Black Requiring Restart of Final Cut Pro (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/218){target="_blank"}
+- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217){target="_blank"}
+- [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211){target="_blank"}
+- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202){target="_blank"}
+- [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190){target="_blank"}
+- [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189){target="_blank"}
+- [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133){target="_blank"}
+- [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119){target="_blank"}
+- [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110){target="_blank"}
+- [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109){target="_blank"}
+- [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108){target="_blank"}
+- [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94){target="_blank"}
+- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92){target="_blank"}
+- [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88){target="_blank"}
+- [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87){target="_blank"}
+- [Crash - failureToCloseUndoScope when repositioning titles within viewer (August 1, 2022)](https://github.com/CommandPost/FCPCafe/issues/84){target="_blank"}
+- [Crash - [FFAnchoredFavoriteMarker sequenceRecord]: unrecognized selector sent to instance (June 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/83){target="_blank"}
+- [Crash - objects in array must be FigTimeRangeAndObject objects! (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/82){target="_blank"}
+- [Crash - Missing method for retimeEffect (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/81){target="_blank"}
