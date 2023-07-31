@@ -1,3 +1,4 @@
+- [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
 - [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
@@ -27,4 +28,3 @@
 - [Crash - failureToCloseUndoScope when repositioning titles within viewer (August 1, 2022)](https://github.com/CommandPost/FCPCafe/issues/84)
 - [Crash - [FFAnchoredFavoriteMarker sequenceRecord]: unrecognized selector sent to instance (June 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/83)
 - [Crash - objects in array must be FigTimeRangeAndObject objects! (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/82)
-- [Crash - Missing method for retimeEffect (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/81)
