@@ -46,6 +46,8 @@ You can manually copy and paste the older Final Cut Pro application from a backu
 
 Inside the Final Cut Pro application bundle is your unique App Store receipt - therefore it's only recommended use share your Final Cut Pro application with machines that are using the same Apple ID, otherwise it might trigger Apple's copy protection processes.
 
+If you don't have a copy of **Final Cut Pro 10.6.5** handy, if you have an older machine running **macOS Big Sur**, you can download **Final Cut Pro 10.6.5** on it. You can download a copy of macOS Big Sur [here](https://apps.apple.com/id/app/macos-big-sur/id1526878132?mt=12) and install it on an external SSD.
+
 If you're already updated a library to Final Cut Pro 10.6.7's format, Final Cut Pro will have automatically made a backup in your backups folder prior to the migration. Alternatively, you can also export out a FCPXML and import it into an older version, keeping in mind that FCPXML isn't lossless (i.e some Title parameters don't apply correctly).
 
 ---
