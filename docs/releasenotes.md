@@ -60,9 +60,23 @@ This is the first release of Final Cut Pro for iPad!
 
 ---
 
+### Final Cut Pro 10.6.8
+
+**Released August 1, 2023**
+
+- Fixes an issue where video could freeze in the viewer.
+
+---
+
 ### Final Cut Pro 10.6.7
 
 **Released July 18, 2023**
+
+#### Notes from FCP Cafe:
+
+- This release is incredibly buggy, and should be avoided. You can learn more [here](https://github.com/CommandPost/FCPCafe/issues/223).
+
+#### Release Notes:
 
 - Addresses an issue where audio effects would not be reset during playback.
 - Fixes an issue where an Audio Units effect could have incorrect values when importing using FCPXML.

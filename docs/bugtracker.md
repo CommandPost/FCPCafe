@@ -2,26 +2,16 @@
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
-!!!danger
-**Final Cut Pro 10.6.7** has been released, and whilst there have been some users that have reported zero issues (although some that originally said they had no issues, have since had issues), there's many professionals that are reporting lots of unexpected bugs and crashes.
+!!!
+**Final Cut Pro 10.6.8** has been released on the Mac App Store!
 
-**Dylan Bates - The Final Cut Bro** has posted a [video here](https://www.youtube.com/watch?v=QiiasioJQ5Q) explaining.
+If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being.
 
-Apple is very much aware of these issues, and is actively working on fixing them. We understand beta testing is already underway for a new release, which we hope will be public soon.
+However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
 
-There currently doesn't seem to be any common thread - people on Apple Silicon, Intel, Monterey, Ventura, Sonoma etc. are all reporting different problems across all areas of the application - from Viewer going black to full system shutdowns.
+You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
 
-For now, I would strongly suggest you stick with **Final Cut Pro 10.6.5** or **Final Cut Pro 10.6.6** until Apple resolves these issues in a future update.
-
-We are keeping track of the bug reports [here](https://github.com/CommandPost/FCPCafe/issues/223), in our [Bug Tracker](/bug-tracker). We've reported several bugs and crash reports directly to Apple.
-
-I've personally been pushing **Final Cut Pro 10.6.7** pretty hard since it's release on a new, big and complex timeline, with heaps of Motion Templates, effects, stills and random footage. I've had to restart it a few times due to the Viewer going black, or strobing, and so far I've had several crashes on initial launch.
-
-Additionally, **Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.
-
-This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
-
-_**Last Updated:** 29th July 2023_
+_**Last Updated:** 2nd August 2023_
 !!!
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
@@ -35,20 +25,6 @@ If you'd prefer not to use GitHub, then you can always email us your bug report:
 Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com).
 
 You can also send feedback directly to the Final Cut Pro team via their [Feedback Form](https://www.apple.com/feedback/finalcutpro/), however, unlike Feedback Assistant you can't track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.
-
----
-
-### Workarounds
-
-We recommend sticking with **Final Cut Pro 10.6.5** or **Final Cut Pro 10.6.6** for now. Whilst there are SOME users that are reporting that 10.6.7 is stable, there's not enough improvements in that version to take the risk.
-
-You can manually copy and paste the older Final Cut Pro application from a backup or another machine to your Mac. Final Cut Pro is a universal app, so the same binary works on both Intel and Apple Silicon.
-
-Inside the Final Cut Pro application bundle is your unique App Store receipt - therefore it's only recommended you share your Final Cut Pro application with machines that are using the same Apple ID, otherwise it might trigger Apple's copy protection processes.
-
-If you don't have a copy of **Final Cut Pro 10.6.5** handy, if you have an older machine running **macOS Big Sur**, you can download **Final Cut Pro 10.6.5** on it. You can download a copy of macOS Big Sur [here](https://apps.apple.com/id/app/macos-big-sur/id1526878132?mt=12) and install it on an external SSD.
-
-If you're already updated a library to Final Cut Pro 10.6.7's format, Final Cut Pro will have automatically made a backup in your backups folder prior to the migration. Alternatively, you can also export out a FCPXML and import it into an older version, keeping in mind that FCPXML isn't lossless (i.e some Title parameters don't apply correctly).
 
 ---
 
@@ -96,9 +72,9 @@ Create a free GitHub account then [click here](https://github.com/CommandPost/FC
 
 ---
 
-### Final Cut Pro 10.6.7
+### Final Cut Pro 10.6.8
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.6.7 bug reports:
+Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports:
 
 {{ include "bugtracker-latest" }}
 
@@ -106,11 +82,11 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 ---
 
-### Final Cut Pro 10.6.6
+### Final Cut Pro 10.6.7
 
 Here's a list of the **30 most recently added** Final Cut Pro 10.6.6 bug reports.
 
-These bugs will eventually be migration to the 10.6.7 list once confirmed.
+These bugs will eventually be migration to the 10.6.8 list once confirmed.
 
 {{ include "bugtracker-previous" }}
 
