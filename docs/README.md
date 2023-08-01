@@ -19,6 +19,10 @@ However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it r
 
 You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
 
+Additionally, **Final Cut Pro 10.6.7** and **Final Cut Pro 10.6.8** use a newer Library format than **Final Cut Pro 1.1 (for iPad)**.
+
+This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
+
 _**Last Updated:** 2nd August 2023_
 !!!
 
