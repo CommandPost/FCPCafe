@@ -44,7 +44,7 @@ We recommend sticking with **Final Cut Pro 10.6.5** or **Final Cut Pro 10.6.6** 
 
 You can manually copy and paste the older Final Cut Pro application from a backup or another machine to your Mac. Final Cut Pro is a universal app, so the same binary works on both Intel and Apple Silicon.
 
-Inside the Final Cut Pro application bundle is your unique App Store receipt - therefore it's only recommended use share your Final Cut Pro application with machines that are using the same Apple ID, otherwise it might trigger Apple's copy protection processes.
+Inside the Final Cut Pro application bundle is your unique App Store receipt - therefore it's only recommended you share your Final Cut Pro application with machines that are using the same Apple ID, otherwise it might trigger Apple's copy protection processes.
 
 If you don't have a copy of **Final Cut Pro 10.6.5** handy, if you have an older machine running **macOS Big Sur**, you can download **Final Cut Pro 10.6.5** on it. You can download a copy of macOS Big Sur [here](https://apps.apple.com/id/app/macos-big-sur/id1526878132?mt=12) and install it on an external SSD.
 
