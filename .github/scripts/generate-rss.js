@@ -4,8 +4,11 @@ const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
 const cheerio = require('cheerio');
 
-const siteTitle = 'FCP Cafe';
-const siteUrl = 'https://fcp.cafe';
+const { SITE_TITLE } = process.env;
+const { SITE_URL } = process.env;
+
+const siteTitle = '${SITE_TITLE}';
+const siteUrl = '${SITE_URL}';
 
 const md = new MarkdownIt({html: true});
 

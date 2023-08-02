@@ -70,3 +70,6 @@ data:
 outbound:
   exclude:
     - github.com/CommandPost/FCPCafe/
+
+include:
+  - "rss.xml"

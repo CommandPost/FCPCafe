@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { PAGE_NAME } = process.env;
 
-const pageName = 'faq';
+const pageName = '${PAGE_NAME}';
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${pageName}`);
 const outputFile = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/generated-${pageName}.md`);
 
