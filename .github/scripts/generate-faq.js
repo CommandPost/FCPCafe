@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+
 const { PAGE_NAME } = process.env;
 
-const pageName = '${PAGE_NAME}';
-const directoryPath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${pageName}`);
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/generated-${pageName}.md`);
+const directoryPath = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/${PAGE_NAME}`);
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, `docs/_includes/generated-${PAGE_NAME}.md`);
 
 try {
     fs.readdir(directoryPath, async function (err, files) {
@@ -43,7 +43,7 @@ try {
                 lastInitial = currentInitial;
             }
 
-            fileContent += `{{ include "${pageName}/${fileNameWithoutExtension}" }}\n\n`;
+            fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n\n`;
         });
 
         // Remove the last extra line and '---'

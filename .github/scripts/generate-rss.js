@@ -4,11 +4,7 @@ const RSS = require('rss');
 const MarkdownIt = require('markdown-it');
 const cheerio = require('cheerio');
 
-const { SITE_TITLE } = process.env;
-const { SITE_URL } = process.env;
-
-const siteTitle = '${SITE_TITLE}';
-const siteUrl = '${SITE_URL}';
+const { SITE_TITLE, SITE_URL } = process.env;
 
 const md = new MarkdownIt({html: true});
 
@@ -19,7 +15,7 @@ function convertDateToRFC822(dateString) {
 }
 
 function generateUrl(title) {
-    return `${siteUrl}/#${title.toLowerCase().replace(/ /g, '-')}`;
+    return `${SITE_URL}/#${title.toLowerCase().replace(/ /g, '-')}`;
 }
 
 function entriesAreEqual(entry1, entry2) {
@@ -46,11 +42,11 @@ if (fs.existsSync('docs/rss.xml')) {
 }
 
 const feed = new RSS({
-    title: siteTitle,
-    description: `Latest News from ${siteTitle}`,
-    feed_url: `${siteUrl}/rss.xml`,
-    site_url: siteUrl,
-    generator: siteTitle,
+    title: SITE_TITLE,
+    description: `Latest News from ${SITE_TITLE}`,
+    feed_url: `${SITE_URL}/rss.xml`,
+    site_url: SITE_URL,
+    generator: SITE_TITLE,
     pubDate: oldFeedItems.length > 0 ? oldFeedItems[0].date : new Date(),
 });
 
