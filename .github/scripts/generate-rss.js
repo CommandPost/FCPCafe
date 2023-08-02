@@ -95,7 +95,7 @@ for (const file of files) {
         content = content.replace(/{{ include ".*" }}/g, '')
             .replace(/\!\[([^\]]*)\]\(([^)]*)\)/g, (match, alt, src) => {
                 if (src.startsWith('../')) {
-                    src = `https://fcp.cafe/${src.substring(3)}`;
+                    src = `${SITE_URL}/${src.substring(3)}`;
                 }
                 return `<img src="${src}" alt="${alt}">`;
             })
