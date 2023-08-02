@@ -117,6 +117,7 @@ jobs:
 
   generate_rss:
     runs-on: ubuntu-latest
+     needs: generate_markdown
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -150,6 +151,12 @@ jobs:
           echo "Pushing changes..."
           git push
           echo "Completed commit step."
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: docs/
 
   publish:
     name: Publish to retype branch
