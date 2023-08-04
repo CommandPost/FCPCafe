@@ -18,43 +18,19 @@ function generateUrl(title) {
     return `${SITE_URL}/#${title.toLowerCase().replace(/ /g, '-')}`;
 }
 
-function entriesAreEqual(entry1, entry2) {
-    return entry1.title === entry2.title &&
-           entry1.guid === entry2.guid &&
-           entry1.description === entry2.description &&
-           entry1.url === entry2.url;
-}
-
-let oldFeedItems = [];
-
-if (fs.existsSync('docs/rss.xml')) {
-    const rssContent = fs.readFileSync('docs/rss.xml');
-    const $ = cheerio.load(rssContent, { xmlMode: true });
-    $('item').each((i, elem) => {
-        oldFeedItems.push({
-            title: $(elem).find('title').text(),
-            guid: $(elem).find('guid').text(),
-            description: $(elem).find('description').text(),
-            url: $(elem).find('link').text(),
-            date: new Date($(elem).find('pubDate').text())
-        });
-    });
-}
-
 const feed = new RSS({
     title: SITE_TITLE,
     description: `Latest News from ${SITE_TITLE}`,
     feed_url: `${SITE_URL}/rss.xml`,
     site_url: SITE_URL,
     generator: SITE_TITLE,
-    pubDate: oldFeedItems.length > 0 ? oldFeedItems[0].date : new Date(),
+    pubDate: new Date(),
 });
 
 const newsDir = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
 
 // Find all markdown files in newsDir
 const files = fs.readdirSync(newsDir).filter(fn => fn.endsWith('.md'));
-let isContentChanged = false;
 
 for (const file of files) {
     const data = fs.readFileSync(path.join(newsDir, file), 'utf8');
@@ -69,14 +45,11 @@ for (const file of files) {
         if (lines[0].startsWith('### ')) {
             const line = lines[0].substring(4);
 
-            // Regular expression for new format e.g. '[23rd May 2023](/news/20230523)'
             const newFormatRegex = /\[(.*?)\]\(.*?\)/;
 
             if (newFormatRegex.test(line)) {
-                // If the line matches new format, extract the date from inside brackets
                 currentTitle = line.match(newFormatRegex)[1];
             } else {
-                // Else consider the whole line as title
                 currentTitle = line;
             }
 
@@ -105,33 +78,17 @@ for (const file of files) {
 
         const url = generateUrl(currentTitle);
 
-        const newEntry = {
+        feed.item({
             title: currentTitle,
             guid: currentTitle,
             description: content,
             url: url,
             date: currentDate
-        };
-
-        const existingEntryIndex = oldFeedItems.findIndex(item => item.guid === newEntry.guid);
-
-        if (existingEntryIndex === -1 || !entriesAreEqual(oldFeedItems[existingEntryIndex], newEntry)) {
-            isContentChanged = true;
-            feed.item(newEntry);
-
-            if (existingEntryIndex !== -1) {
-                oldFeedItems.splice(existingEntryIndex, 1);
-            }
-        }
+        });
     }
 }
 
-// Write to file only if content has changed
-if (isContentChanged) {
-    let newXMLContent = feed.xml({indent: true});
-    const newLastBuildDate = new Date().toUTCString();
-    newXMLContent = newXMLContent.replace(/<lastBuildDate>.*<\/lastBuildDate>/, `<lastBuildDate>${newLastBuildDate}</lastBuildDate>`);
-    newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
-    newXMLContent = newXMLContent.replace(/\.\.\/static\//g, 'https://fcp.cafe/static/');
-    fs.writeFileSync('docs/rss.xml', newXMLContent);
-}
+let newXMLContent = feed.xml({indent: true});
+newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
+newXMLContent = newXMLContent.replace(/\.\.\/static\//g, '${SITE_URL}/static/');
+fs.writeFileSync('docs/rss.xml', newXMLContent);
