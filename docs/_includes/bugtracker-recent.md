@@ -1,3 +1,4 @@
+- [Final Cut Pro 10.6.8 - Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
 - [Command Set Import should be limited to .commandset files (August 5, 2023)](https://github.com/CommandPost/FCPCafe/issues/236)
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
@@ -27,4 +28,3 @@
 - [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
 - [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87)
-- [Crash - failureToCloseUndoScope when repositioning titles within viewer (August 1, 2022)](https://github.com/CommandPost/FCPCafe/issues/84)
