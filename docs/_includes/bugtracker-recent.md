@@ -1,3 +1,5 @@
+- [Command Set Import should be limited to .commandset files (August 5, 2023)](https://github.com/CommandPost/FCPCafe/issues/236)
+- [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
 - [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
@@ -26,5 +28,3 @@
 - [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
 - [Crash dragging clips into another event (March 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/87)
 - [Crash - failureToCloseUndoScope when repositioning titles within viewer (August 1, 2022)](https://github.com/CommandPost/FCPCafe/issues/84)
-- [Crash - [FFAnchoredFavoriteMarker sequenceRecord]: unrecognized selector sent to instance (June 22, 2022)](https://github.com/CommandPost/FCPCafe/issues/83)
-- [Crash - objects in array must be FigTimeRangeAndObject objects! (June 14, 2022)](https://github.com/CommandPost/FCPCafe/issues/82)
