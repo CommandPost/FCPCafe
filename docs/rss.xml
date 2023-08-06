@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 04 Aug 2023 22:37:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Aug 2023 06:54:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Aug 2023 22:37:36 GMT</pubDate>
+        <pubDate>Sun, 06 Aug 2023 06:54:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1264,6 +1264,22 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#4th-august-2023</link>
             <guid isPermaLink="false">4th August 2023</guid>
             <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th August 2023]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.1.1</strong> is out now!</p>
+<p>This release includes two bug fixes:</p>
+<ul>
+<li>Fixed an issue where the Gyroflow Toolbox output could be incorrectly clipped when in a HDR project. Thanks for reporting Tumist! Thanks to AdrianEddy for fixing the issue in Gyroflow Core!</li>
+<li>Fixed an issue where a Gyroflow Project could fail to reload correctly after restarting Final Cut Pro due to FxPlug4 incorrectly HTML decoding the string value. We solve this by now base64 encoding the Gyroflow Project in FxPlug4.</li>
+</ul>
+<p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
+<p>You can learn more and buy on the Mac App Store <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p><img src="/static/gyroflow-toolbox-1-1-0.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#6th-august-2023</link>
+            <guid isPermaLink="false">6th August 2023</guid>
+            <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
