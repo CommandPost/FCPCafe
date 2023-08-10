@@ -114,7 +114,7 @@ How were the proxies delivered to you and how were they created?
 
 **FLORIAN:** And have there been notes from the ScriptSupervisor?
 
-**DAVID:** Yes, from Stella Fachinger. I was also on the set for the first two days of shooting, and then we talked on the phone, and in the classic way there were [Lockit files]((https://lockitnetwork.com/home/) digital ScriptSuper-notes that Victor transferred into FCP).
+**DAVID:** Yes, from Stella Fachinger. I was also on the set for the first two days of shooting, and then we talked on the phone, and in the classic way there were [Lockit files](https://lockitnetwork.com/home/) digital ScriptSuper-notes that Victor transferred into FCP).
 
 **FLORIAN:** And then there was one event per scene? Or did you do it via keywords?
 
