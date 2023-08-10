@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.744846044445">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.744976776416">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.1.0">
@@ -33,11 +33,13 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.1.0.744846044445" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.1.0.744976776416" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.1.0.744846044445" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.1.0.744976776416" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.1.0.744846044445" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.1.0.744976776416" data-turbo-eval="false" defer></script>
+    <link href="../../resources/css/katex.css?v=3.1.0" rel="stylesheet">
+    <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.1.0" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -322,12 +324,14 @@
 <p>You can find the official FxPlug4 documentation <a href="https://developer.apple.com/documentation/professional_video_applications/fxplug" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>If you want a real-world example of a FxPlug4 application, you can look at <a href="https://github.com/latenitefilms/gyroflowtoolbox/" class="outbound" target="_blank"><span>Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
-<doc-anchor-target id="f">
+<doc-anchor-target id="third-party-frameworks">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#f">#</doc-anchor-trigger>
-        <span>F</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#third-party-frameworks">#</doc-anchor-trigger>
+        <span>Third Party Frameworks.</span>
     </h2>
 </doc-anchor-target>
+<p>Here is a collection of useful third party frameworks.</p>
+<hr>
 <doc-anchor-target id="fxkit">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#fxkit">#</doc-anchor-trigger>
@@ -338,6 +342,241 @@
 <p><a href="https://github.com/jslinker/FxKit" target="_blank" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
     <span>View on GitHub</span>
 </a></p>
+<hr>
+<doc-anchor-target id="release-notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#release-notes">#</doc-anchor-trigger>
+        <span>Release Notes</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="fxplug-427">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-427">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.7</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Released:</strong> 18th July 2023</p>
+<ul>
+<li>Improved reconnection of Plug-ins after crash.</li>
+<li>Fixed an issue with the Motion hanging when a 3rd party plug-in crashes.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplpug-426">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplpug-426">#</doc-anchor-trigger>
+        <span>FxPlpug 4.2.6</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Improved stability and reliability</li>
+<li>Removal of unsupported FxPlug 3 APIs from the FxPlug framework</li>
+<li>Fixed an issue where the <code v-pre>Fx3DBox</code> example plug-in would fail to build.</li>
+<li>Fixed an issue where only one push button would be available when using the <code v-pre>FxSimpleColorCorrector</code> example plug-in.</li>
+<li>Fixed an issue where an older method was used for interpolating custom parameters.</li>
+<li>Fixed an issue with Full Width parameters being clipped on the right after reloading a project in FCP.</li>
+<li>Fixed an issue where a plug-in could start two analyses without the app realizing it.</li>
+<li>Fixed an issue where, in some cases, the <code v-pre>FxOnScreenControlAPI</code> <code v-pre>-objectBounds</code> method could return an incorrect cached value.</li>
+<li>Fixed an issue where an FxPlug plug-in accessing multiple lights in a scene could cause a crash.</li>
+<li>Fixed a leak of <code v-pre>IOSurface</code>s in the <code v-pre>FxAnalyzer</code> when the plug-in canceled analysis.</li>
+<li>Fixed a potential leak of OpenGL contexts during analysis.</li>
+<li>Fixed a caching error when analysis was canceled.</li>
+<li>Fixed an issue with 3rd party plug-ins being restricted to rendering in Rec709 when Automatic Color Processing was enabled in a Motion project or template.</li>
+<li>Fixed a crash when scheduling frames for image wells.</li>
+<li>Fixed an issue with the 3D API where changes to the camera did not always cause the plug-in to re-render.</li>
+<li>Fixed an issue with <code v-pre>FxColorGamutAPI</code> accessing previously-freed memory.</li>
+<li>Fixed an issue where analysis tasks canceled by the plug-in would remain in memory and block further analysis from happening.</li>
+<li>Fixed an issue where undoing a text change in a template that uses an FxPlug plug-in would cause a crash.</li>
+<li>Fixed an issue where an effect source layer used as the input to a generator image well would restrict the image well input to the template’s dimensions.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-425">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-425">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.5</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Improved stability and reliability</li>
+<li>Improved reconnection with plug-ins after a memory jetsam event.</li>
+<li>Improved the speed of reconnection with plug-ins after a crash, or plug-in process suspension by macOS.</li>
+<li>Improved the performance of image well inputs.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-424">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-424">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.4</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Improved stability and reliability</li>
+<li>Fixed a potential hang when a plug-in called -startAction:.</li>
+<li>Fixed a potential crasher when a plug-in&#x27;s window was open and the document was closed or the application was quit.</li>
+<li>Fixed a memory leak that could occur when retrieving frames at other times.</li>
+<li>Ensured that the analysis state is set properly if the plug-in returns <code v-pre>NO</code> from <code v-pre>-desiredAnalysisTimeRange:forInputTimeRange:error:</code></li>
+<li>Fixed a large memory leak when retrieving image well images with zero opacity or of zero size.</li>
+<li>Ensured that <code v-pre>-layerMatrixAtTime:error:</code> returns a transform that includes its ancestors&#x27; transforms.</li>
+<li>Fixed an issue where the frames returned for analysis could be the wrong size.</li>
+<li>Fixed leak of a small empty image when an image well had no media in it.</li>
+<li>Fixed an issue of the application hanging when deleting an instance of an FxPlug plug-in which had ongoing analysis.</li>
+<li>Fixed an issue where custom views were sometimes not created properly for plug-ins that had numerous custom views.</li>
+<li>Improved the speed of custom parameter creation.</li>
+<li>Fixed an issue with Final Cut Pro unable to close the application window while FxPlug analysis was in-progress.</li>
+<li>Fixed a performance issue when using image references with Drop Zones.</li>
+<li>Fixed a crash triggered by dragging an effect to Motion’s Favorites.</li>
+<li>Fixed a memory leak that affected Apple Silicon Macs.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-423">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-423">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.3</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Introduced <code v-pre>FxRemoteWindowAPI_v2</code> with a new method for setting the minimum and maximum size of remote windows</li>
+<li>Images retrieved from image wells in transitions will now have the proper image origin.</li>
+<li>The reply block for calls to <code v-pre>-[FxRemoteWindowAPI remoteWindowOfSize:]</code> will now always be run on the plug-in&#x27;s main UI thread.</li>
+<li>Improved loading time of custom views in the host app&#x27;s inspector.</li>
+<li>Changes to parameters made by OSCs will now be properly recorded in the host&#x27;s undo stack.</li>
+<li>Fixed a leak of onscreen control objects in the host.</li>
+<li>Fixed a crash when deleting a plug-in that had an active analysis session running.</li>
+<li>The <code v-pre>FxColorGamutAPI</code> should now be available during analysis.</li>
+<li>The <code v-pre>FxTimingAPI</code> should now be available and give correct results during <code v-pre>-pluginInstanceAddedToDocument</code>.</li>
+<li>Fixed an issue with display of the blocked/legacy plug-in warning.</li>
+<li>Improved undo stack management for bulk changes to multiple parameters.</li>
+<li>Minor changes made to the FxPlug template and examples to improve Metal rendering.</li>
+<li>Improved how <code v-pre>FxRemoteWindowAPI</code> handles window resizing.</li>
+<li>Improved behavior of rigged parameters.</li>
+<li>Filters can now use <code v-pre>FxAnalysisAPI_v2</code> methods to analyze image parameter inputs.</li>
+<li><code v-pre>kFxCommand_Undo</code> and <code v-pre>kFxCommand_Redo</code> commands now function from remote windows created in Final Cut Pro.</li>
+<li>Fixed an issue with adding a path to a path picker.</li>
+<li>Improved behavior of show/hide properties of parameters that have a dependency on another parameter.</li>
+<li>Undo group names are now used in the undo queue.</li>
+<li>Fixed an issue with <code v-pre>-setPopupMenuParameter:entries:defaultValue:</code> not updating pop-up menu entries in Final Cut Pro.</li>
+<li>Improved performance of the <code v-pre>FxAnalysisAPI</code> when analyzing HEVC and H.264 clips in Final Cut Pro.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-422">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-422">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.2</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Introduced <code v-pre>FxParameterSettingAPI_v6</code>, which adds two new methods, <code v-pre>-addFlags:toParameter:</code> and <code v-pre>-removeFlags:fromParameter:</code>, for simplified parameter flag management</li>
+<li>Introduced <code v-pre>FxAnalysisAPI_v2</code> with two new methods <code v-pre>-startForwardAnalysis:ofParameter:error:</code> and, <code v-pre>-startBackwardsAnalysis:ofParameter:error:</code> to analyze input from image reference parameters</li>
+<li>Improvements to performance of <code v-pre>FxAnalysisAPI</code>.</li>
+<li>Setting float parameters during analysis should cause OSCs to be updated.</li>
+<li>Fixed an issue where putting a Motion object into an image well in a template could cause Final Cut Pro to crash.</li>
+<li>The Timing API should now work properly when called from a custom view&#x27;s <code v-pre>-draw</code> method.</li>
+<li>Misusing <code v-pre>-startAction:</code> / <code v-pre>-endAction:</code> will now log a message to the console and the call will do nothing.</li>
+<li>Times sent to OSC methods in Final Cut Pro should be correct now.</li>
+<li>Fixed an issue with <code v-pre>FxParameterSettingAPI</code> not setting a parameter successfully from within the body of a method associated with a push button.</li>
+<li>Fixed an issue with onscreen control temporal drift when setting keyframes while dragging an OSC object.</li>
+<li>Fixed an issue with <code v-pre>-analyzeFrame:atTime:error:</code> not being called from a custom UI control.</li>
+<li>Fixed an issue with app bundle identification when rendering FxPlug 4 in Compressor.</li>
+<li>Fixed an issue with setting parameter flags in a generator when the host is processing an undoable operation.</li>
+<li><code v-pre>FxImageTile</code>s should now be properly marked as having their origin in the top left or bottom left in all cases.</li>
+<li>When a plug-in sets the <code v-pre>kFxPropertyKey_NeedsFullBuffer</code> property, the apps should now always provide a fully buffered set of inputs and outputs, even if the entire canvas is not showing.</li>
+<li>Images over 4,000 pixels on a side should no longer cause issues with transitions in Final Cut Pro.</li>
+<li><code v-pre>-parameterChanged:atTime:error:</code> should be called less frequently during undo and should be called when a plug-in changes a parameter.</li>
+<li>When a rigged FxPlug parameter is changed by the rig, the canvas will now properly update.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-421">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-421">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.1</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>FxRemoteWindowAPI</code> allows a plug-in to create a window within Final Cut Pro or Motion and populate it with a custom view</li>
+<li>Push button and help selectors no longer take an argument, which allows them to be properly called in Swift. This means you’ll need to update the selectors you previously sent to <code v-pre>-addPushButtonWithName:parameterID:selector:flags:</code>.</li>
+<li>Changes to parameters are more consistent during onscreen control operations. Also, a series of changes from a mouseDown, through several mouseDragged events, and a mouseUp event will now automatically be treated as a single undoable event. There should be no need to use the <code v-pre>UndoAPI</code> during OSC usage.</li>
+<li>The <code v-pre>FxRemoteWindowAPI</code> will only allow one window to be created per plug-in instance. The <code v-pre>FxSimpleColorCorrector</code> example has been updated to use the <code v-pre>-displayWindow:</code> method.</li>
+<li><code v-pre>-setupAnalysisForTimerange:frameDuration:error:</code> now provides field duration instead of frame duration for interlaced timelines. Progressive timelines remain unchanged.</li>
+<li>The <code v-pre>FxAnalyzer</code> <code v-pre>inputTimeRange</code> no longer includes additional frame handles.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-420">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-420">#</doc-anchor-trigger>
+        <span>FxPlug 4.2.0</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>FxPlug.framework</code> is now a universal framework</li>
+<li><code v-pre>FxCommandAPI_v2</code> allows a plug-in to move the host’s playhead to an arbitrary time</li>
+<li><code v-pre>FxProjectAPI</code> retrieves the URL of the plug-in data folder within a Motion project’s folder</li>
+<li><code v-pre>FxParameterRetrievalAPI_v7</code> adds a method for retrieving the image information about an image parameter</li>
+<li>New method <code v-pre>-pluginInstanceAddedToDocument</code> added to <code v-pre>FxTileableEffect</code> to track open documents in the host app</li>
+<li>New <code v-pre>kFxParameterFlag_USE_FULL_VIEW_WIDTH</code> flag for parameters to use full width of the inspector</li>
+<li>The FxShape example’s OSC has been made thread-safe</li>
+<li>The macOS deployment target for the plug-in examples has been updated to 10.15</li>
+<li><code v-pre>kFxError_UserCancelled</code> added for <code v-pre>FxAnalyzer</code> for when you want to stop analysis, but don&#x27;t wish to display an error alert to the user</li>
+<li>Motion now warns users when it does not load 3rd party in-process FxPlugs on Apple Silicon</li>
+<li><code v-pre>kFxParameterFlag_HIDDEN</code> now works with custom parameters</li>
+</ul>
+<p><strong>Known Issues:</strong></p>
+<ul>
+<li>The <code v-pre>FxDynamicRegistration</code> example may display deprecation errors for <code v-pre>FxOpenGLContextCache.m</code>. This is expected when building with recent macOS SDKs because OpenGL has been deprecated. This example is included for Metal comparison purposes.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-410">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-410">#</doc-anchor-trigger>
+        <span>FxPlug 4.1.0</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>FxAnalysisAPI</code> allows frame-by-frame analysis of source video in both Final Cut Pro and Motion</li>
+<li>FxPlug 2 and FxPlug 3 are deprecated</li>
+<li>Improved performance of enabling and disabling parameters</li>
+<li>Introduced <code v-pre>Fx3DAPI_v5</code> and deprecated <code v-pre>Fx3DAPI_v4</code></li>
+<li>New <code v-pre>FxCommandAPI</code> can instruct the host application to perform commands</li>
+<li>Dynamically registered plug-ins’ plist requirements have changed for FxPlug 4.1 and the FxDynamicRegistration example has been updated.</li>
+<li>Some FxPlug example projects have revised names that include the prefix “Fx”.</li>
+<li><code v-pre>FxBrightness</code> example and Swift template have been updated to Swift 5.</li>
+<li>FxPlug now ships as a sparse SDK, which requires you to make some small changes to the search paths of your plug-in in the Xcode project. This includes modifying the Additional SDKs (<code v-pre>ADDITIONAL_SDKS</code>) setting to include <code v-pre>/Library/Developer/SDKs/FxPlug.sdk</code>, and replacing the current Framework Search Paths setting (<code v-pre>FRAMEWORK_SEARCH_PATHS</code>) with <code v-pre>/Library/Frameworks $(inherited)</code> in the Build Settings of the Xcode project.</li>
+<li>You can receive the host&#x27;s identifier and version with the new <code v-pre>FxPrincipalDelegate</code> protocol.</li>
+<li>Plugins are called to do work on background threads, and AppKit should never be used when running on a background thread. This may raise an exception, which will cause your plug-in to crash if your plug-in doesn’t catch it. All UI work should be done on the main UI thread. If you need to display an alert or window but are running on a background thread, you can use:  <code v-pre>dispatch_async(dispatch_get_main_queue(), ^(){…});</code> or: <code v-pre>[self performSelectorOnMainThread:…];</code> These will both run your code on the main UI thread at some later time.</li>
+<li>New <code v-pre>Fx3DBox</code> example demonstrates how to use the new <code v-pre>Fx3DAPI_v5</code></li>
+<li>Motion templates containing missing FxPlugs will now display an error rather than rendering</li>
+<li><code v-pre>FxImageTile</code>s now include a <code v-pre>CGColorSpaceRef</code> describing the color space they are in</li>
+<li>FxPlugs with windows can instruct the app to perform specific commands when the user presses a key combination for that command</li>
+<li><code v-pre>PluginManager.framework</code> is now copied to the bundle and code signed with a script in the FxPlug examples and FxPlug templates</li>
+<li><code v-pre>ViewBridge</code> keys added to plists for the FxPlug examples and FxPlug templates</li>
+<li>Improved responsiveness for OSCs and custom UI</li>
+</ul>
+<p><strong>Known Issues:</strong></p>
+<ul>
+<li>The error “‘FxPlug/FxPlugSDK.h’” will occur after installing FxPlug 4.1 and attempting to build an FxPlug 4.0 or older plug-in. This is a result of the FxPlug SDK switch to a sparse SDK and can be easily remedied by changing the SDK and framework search locations in your plug-in’s Xcode project. See the release notes above for details.</li>
+</ul>
+<hr>
+<doc-anchor-target id="fxplug-400">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-400">#</doc-anchor-trigger>
+        <span>FxPlug 4.0.0</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>FxPlug plug-ins run sandboxed and out-of-process for improved stability and security</li>
+<li>Plug-in developers can control the rendering technologies and languages they use, including Metal and Swift</li>
+<li>The new FxTileableEffect API allows plug-ins to render only the required portions of an effect for improved efficiency</li>
+<li>The FxEyeType property indicates if Final Cut Pro X is currently rendering the left or right eye of a 360° Stereoscopic project</li>
+<li>Plug-ins written in the FxPlug 4.0 style should use the latest protocol versions available as many of the new protocols do not inherit from previous versions and now use <code v-pre>CMTime</code> instead of <code v-pre>FxTime</code></li>
+<li>Even though OpenGL, OpenCL, and Quartz Composer have been deprecated in macOS, those technologies can still be used to aid in the phased migration of many FxPlug 3 plug-ins to FxPlug 4, and then to Metal or Core Image</li>
+<li>Version A of PluginManager.framework is no longer bundled in the framework</li>
+<li>FxPlug 3.1.1 documentation has been archived <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/FXPlug_overview/FXPlugSDKOverview/FXPlugSDKOverview.html" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+<li>FxPlug 4.0 documentation highlights new and updated concepts and APIs in the FxPlug SDK; it is included as a PDF with the installer and is available <a href="https://developer.apple.com/documentation/fxplug" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+</ul>
+<p><strong>Known Issues:</strong></p>
+<ul>
+<li>If you are attempting to use Hardened Runtime and are hitting this build error: “PluginManager.framework/Versions/A: bundle format unrecognized, invalid, or unsuitable. Command CodeSign failed with a nonzero exit code” when attempting to copy the PluginManager.framework into your built product while using Code Sign On Copy, you may need the following fix. Instead of using a &quot;Copy Files&quot; build phase, it is recommended that you use a “Run Script” build phase to copy and then force code sign PluginManager.framework. To code sign you can use the following command in your script: codesign --force --timestamp --options runtime --sign &quot;<span class="math" BUILT_PRODUCTS_DIR="">{CODE_SIGN_IDENTITY}&quot; &quot;</span>/$/PluginManager.framework&quot;</li>
+<li>Build error “Multiple commands produce …” occurs in Swift projects if the Product Name for both the Wrapper App and the XPC Service are the same. It is recommended that you append “XPC” to the product name of the XPC Service to differentiate it from the Wrapper App process.</li>
+<li>If ad-hoc code signing fails when building plug-ins written in Swift, it is recommended you code sign the targets with your own certificate to avoid code sign build errors</li>
+</ul>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
@@ -460,6 +699,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "FxPlug", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "FxPlug", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: true }</script>
 </body>
 </html>
