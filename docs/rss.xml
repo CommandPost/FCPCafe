@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 08 Aug 2023 21:38:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Aug 2023 09:56:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 08 Aug 2023 21:38:53 GMT</pubDate>
+        <pubDate>Thu, 10 Aug 2023 09:56:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1280,6 +1280,55 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#6th-august-2023</link>
             <guid isPermaLink="false">6th August 2023</guid>
             <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th August 2023]]></title>
+            <description><![CDATA[<p><strong>Florian Duffe</strong> has tried something new on FCP Cafe, and has added an epic new interview-style case study!</p>
+<p>You can read the over <strong>eight-thousand-word case study</strong> on the feature film <strong>SCHOCK</strong> <a href="/case-studies/schock/">here</a>.</p>
+<p><img src="/static/schock-stills-favoriten-027.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#10th-august-2023</link>
+            <guid isPermaLink="false">10th August 2023</guid>
+            <pubDate>Thu, 10 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th August 2023]]></title>
+            <description><![CDATA[<p>We've added FxPlug4 release notes to the <a href="/developers/fxplug/">FxPlug section</a>.</p>
+<p>As there's no official notification system for when FxPlug and Workflow Extensions SDK are updated, we'll try and keep an eye out and let you know on FCP Cafe when there's an update.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-august-2023</link>
+            <guid isPermaLink="false">10th August 2023</guid>
+            <pubDate>Thu, 10 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th August 2023]]></title>
+            <description><![CDATA[<p>The <strong>Final Cut Pro Creative Summit</strong> dates and locations have now been confirmed.</p>
+<p>It will take place <strong>November 6th to 8th</strong> at Apple Park &amp; <a href="https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara">The Hyatt Regency Santa Clara</a>.</p>
+<blockquote>
+<p>Whether you are a trained professional or just starting your creative career, Apple has the software and tools you need to power your creative work. This unique event is where Apple power users and Final Cut Pro Professionals come together to learn and discuss their craft. We are excited to be back in Cupertino! The FCP Creative Summit features 2 full days of sessions in multiple tracks and a unique day at Apple!</p>
+</blockquote>
+<p>You can visit the official website <a href="http://fcpcreativesummits.com">here</a>.</p>
+<p><img src="/static/fcp-creative-summit-2023.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#10th-august-2023</link>
+            <guid isPermaLink="false">10th August 2023</guid>
+            <pubDate>Thu, 10 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th August 2023]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.1.2</strong> is out now!</p>
+<p>This release includes two bug fixes:</p>
+<ul>
+<li>Updated to FxPlug v4.2.7, which offers improved stability and reliability.</li>
+<li>Fixed a bug that could cause a memory leak. Thanks for reporting Денис Глушков!</li>
+</ul>
+<p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
+<p>You can learn more and buy on the Mac App Store <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p><img src="/static/gyroflow-toolbox-1-1-0.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#10th-august-2023</link>
+            <guid isPermaLink="false">10th August 2023</guid>
+            <pubDate>Thu, 10 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
