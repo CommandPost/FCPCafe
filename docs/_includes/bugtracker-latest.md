@@ -1,3 +1,5 @@
+- [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
+- [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
 - [Command Set Import should be limited to .commandset files (August 5, 2023)](https://github.com/CommandPost/FCPCafe/issues/236)
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
