@@ -1,15 +1,13 @@
 # FCP Creative Summit
 
-Ben Kozuch [reports](https://www.facebook.com/groups/664445450353744/posts/2895722990559301/?comment_id=2896243510507249&__cft__[0]=AZWxKhVHcHv55Fm-fFgHojazlT3BCSsMANsY_2xMAC039DHof0ftoPT4M7lmvzZx7h0FP9Q6SI8OZaaDR3ZuonDcV_EimD7EYDNERn4k6xxNNwLI14x0po5qcc1rRaQeueMN6a0MK5QLsDofV0M1Jpjic_VyPGQ3mxY5SiPLvBDxVZg8uUeanvrlOc7qccU_CS8&__tn__=R]-R):
+The **Final Cut Pro Creative Summit** dates and locations have now been confirmed.
 
-> The **2023 FCP Summit** will take place in **Cupertino** in **November**.
->
-> We will be announcing dates, venue and the program in about a week.
->
-> The Summit will feature a full day at Apple followed by 2 day of breakout sessions and a mini expo at a hotel venue close by.
->
-> Courtesy Apple, the cost of Full Pass will only be **USD$299** for the entire 3 days.
+It will take place **November 6th to 8th** at Apple Park & [The Hyatt Regency Santa Clara](https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara).
 
-Exciting times!
+> Whether you are a trained professional or just starting your creative career, Apple has the software and tools you need to power your creative work. This unique event is where Apple power users and Final Cut Pro Professionals come together to learn and discuss their craft. We are excited to be back in Cupertino! The FCP Creative Summit features 2 full days of sessions in multiple tracks and a unique day at Apple!
 
-You can learn more about last years FCP Global Summit [here](https://www.fcpglobalsummit.com).
+We will add more details to this site as they become available.
+
+You can visit the official website [here](http://fcpcreativesummits.com).
+
+![](/static/fcp-creative-summit-2023.jpg)

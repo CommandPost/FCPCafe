@@ -88,11 +88,6 @@ jobs:
           PAGE_NAME: "developer-tools-and-frameworks"
         run: node .github/scripts/generate-markdown.js
 
-      - name: Generate FxPlug Markdown
-        env:
-          PAGE_NAME: "fxplug"
-        run: node .github/scripts/generate-markdown.js
-
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
