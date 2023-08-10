@@ -106,7 +106,7 @@ _**Editing a feature film with Final Cut Pro**_
 **FLORIAN:** Okay, do you mind telling us briefly what the technical workflow was like, from the set to the editing room. And after that, we would look a little bit at how you actually worked dramaturgically on set.
 How were the proxies delivered to you and how were they created?
 
-**DAVID:** As I said, we wanted to do as much as possible ourselves. But of course, in order to have a certain security, just for insurance and stuff like that, there was still a post-production house involved. And that was WeFadeToGrey (https://wefadetogrey.de). The proxies were created there, then the proxies went to Victor (Rosario, Assistant Editor), and he synced everything. Then I took a walk to Victor's place, because it was very close, and picked up the footage on a hard drive, super oldschool, and if he was already done, also the Final Cut Library, or he sent it to me later.
+**DAVID:** As I said, we wanted to do as much as possible ourselves. But of course, in order to have a certain security, just for insurance and stuff like that, there was still a post-production house involved. And that was [WeFadeToGrey](https://wefadetogrey.de). The proxies were created there, then the proxies went to Victor (Rosario, Assistant Editor), and he synced everything. Then I took a walk to Victor's place, because it was very close, and picked up the footage on a hard drive, super oldschool, and if he was already done, also the Final Cut Library, or he sent it to me later.
 
 **FLORIAN:** So it’s been ProRes proxies?
 
@@ -114,7 +114,7 @@ How were the proxies delivered to you and how were they created?
 
 **FLORIAN:** And have there been notes from the ScriptSupervisor?
 
-**DAVID:** Yes, from Stella Fachinger. I was also on the set for the first two days of shooting, and then we talked on the phone, and in the classic way there were Lockit files (https://lockitnetwork.com/home/ digital ScriptSuper-notes that Victor transferred into FCP).
+**DAVID:** Yes, from Stella Fachinger. I was also on the set for the first two days of shooting, and then we talked on the phone, and in the classic way there were [Lockit files]((https://lockitnetwork.com/home/) digital ScriptSuper-notes that Victor transferred into FCP).
 
 **FLORIAN:** And then there was one event per scene? Or did you do it via keywords?
 
