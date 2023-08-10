@@ -4,7 +4,7 @@ _**The Violent Footage Tornado (alternate title: “Final Cut is simply years ah
 
 _**An Interview with the director and the editor of SCHOCK (Germany, 2023)**_
 
-This Zoom interview was transcribed with [Transcriber](/ecosystem/tools/#transcriber), and translated from German via DeepL.
+This Zoom interview was transcribed with [Transcriber](/ecosystem/tools/#transcriber), and translated from German via [DeepL](https://www.deepl.com/en/translator).
 
 It covers not only the technical workflow of the film regarding the Final Cut eco-system, but also touches on its unusual creative decisions, how filmmaking as a collective joint questions hierarchical structures, and if the director as VFX-artist could be a good idea.
 
@@ -14,9 +14,9 @@ It covers not only the technical workflow of the film regarding the Final Cut ec
 
 ## Biographies
 
-**Daniel Rakete Siegel** ([Instagram](https://www.instagram.com/raketentyp/), [Twitter](https://twitter.com/raketentyp/) grew up in Cologne, Germany. Started his directing career after studying at ifs and KHM with the series "Im Knast", where he also met Denis Moschitto (co-director and leading actor of SCHOCK).
+**Daniel Rakete Siegel** grew up in Cologne, Germany. Started his directing career after studying at ifs and KHM with the series "Im Knast", where he also met Denis Moschitto (co-director and leading actor of SCHOCK). You can follow him on [Instagram](https://www.instagram.com/raketentyp/) and [Twitter](https://twitter.com/raketentyp/).
 
-**David Wieching** ([Twitter](https://twitter.com/wieching)) started film editing via an apprenticeship as media designer and was head editor at [btf](https://btf.de/) for 5 years, responsible among others for "Neo Magazin", later "ZDF Magazin Royal" (famous German late-night show).
+**David Wieching** started film editing via an apprenticeship as media designer and was head editor at [btf](https://btf.de/) for 5 years, responsible among others for "Neo Magazin", later "ZDF Magazin Royal" (famous German late-night show). You can follow him on [Twitter](https://twitter.com/wieching).
 
 Daniel and David know each other from joint projects in the early days of their working careers and even have been roommates for 5 years. Their debut feature **SCHOCK** just screened at the [Munich Film Festival 2023](https://www.filmfest-muenchen.de/de/programm/filme/film/?id=7264&f=116).
 
