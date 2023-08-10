@@ -1,6 +1,7 @@
 # SCHOCK
 
 _**The Violent Footage Tornado (alternate title: “Final Cut is simply years ahead!”)**_
+
 _**An Interview with the director and the editor of SCHOCK (Germany, 2023)**_
 
 This Zoom interview was transcribed with [Transcriber](/ecosystem/tools/#transcriber), and translated from German via DeepL.
