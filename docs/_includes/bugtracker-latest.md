@@ -1,3 +1,4 @@
+- [Phantom Clip Skimming (August 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/241)
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
 - [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
 - [Command Set Import should be limited to .commandset files (August 5, 2023)](https://github.com/CommandPost/FCPCafe/issues/236)
