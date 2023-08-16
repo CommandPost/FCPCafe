@@ -8,7 +8,7 @@ This Zoom interview was transcribed with [Transcriber](/ecosystem/tools/#transcr
 
 It covers not only the technical workflow of the film regarding the Final Cut eco-system, but also touches on its unusual creative decisions, how filmmaking as a collective joint questions hierarchical structures, and if the director as VFX-artist could be a good idea.
 
-![](/static/schock-zoom-call.jpg)
+![Still frame of the video-interview. from left: Florian, David and Daniel](/static/schock-zoom-call.jpg)
 
 ---
 
@@ -28,11 +28,11 @@ Bruno has lost his license to practice medicine and is now practicing illegally,
 
 The narration is characterized by sparse dialogues and a varied visual language. **SCHOCK** succeeds in simultaneously affirming the "gangster film" and reinterpreting it through bitter realism, avoiding typical traps of the genre, like coolness or quirky comic relief.
 
-![](/static/schock-stills-favoriten-024.jpg)
+![Denis Moschitto as Bruno](/static/schock-stills-favoriten-024.jpg)
 
-![](/static/schock-stills-favoriten-027.jpg)
+![Fahri Yardim as Giuli](/static/schock-stills-favoriten-027.jpg)
 
-![](/static/schock-stills-zusatz-026.jpg)
+![Bruno is trapped](/static/schock-stills-zusatz-026.jpg)
 
 ---
 
@@ -54,9 +54,9 @@ The narration is characterized by sparse dialogues and a varied visual language.
 
 **DANIEL:** Final Cut is important for both of us. To bring the thing forward is of course super cool. Especially in the professional realm there aren't that many resources online, honestly.
 
-![](/static/schock-bts.jpg)
+![BTS of Schock](/static/schock-bts.jpg)
 
-![](/static/schock-hainbach-david-denis-daniel.jpg)
+![from left: Composer Hainbach, Editor David Wieching, Director Denis Moschitto, Director Daniel Siegel](/static/schock-hainbach-david-denis-daniel.jpg)
 
 ---
 
@@ -82,11 +82,13 @@ And that was at least as important as the story: to figure out our own process, 
 
 **FLORIAN:** So I understand it like this: everyone brings their particular skills from a different direction and then you mingle together. And Denis brought his skills from the acting-side?
 
-**DANIEL:** Yes, basically that's right. And if I may say one more thing, which is really close to my heart; a really underestimated part of your (David and Florian’s) work is: Montage isn’t only connecting lines and securing continuity! If you do a somewhat decent job, you finish writing the script in the edit!
+> Some even say the Film Editor is like a second director. Denis recently called it shadow-directing.
+
+**DANIEL:** Yes, basically that's right. And if I may say one more thing, which is really close to my heart; a really underestimated part of your (David and Florian’s) work is: Editing isn’t only connecting lines and securing continuity! If you do a somewhat decent job, you finish writing the script in the edit!
 And I think it's totally important not just to award credits, but, prospectively, understand it as the collective effort it already is. Some even say the Film Editor is like a second director. Denis recently called it shadow-directing.
 It's sometimes very difficult to distinguish: what is script, what is acting, what is camera, what is staging? And with editing, somehow nobody sees it unless it sucks. Or you win an Oscar, like in this Queen film, because you clearly saw how strong the interventions are there. Unfortunately, there's no real obvious traction for this, neither inside nor outside our line of work, that articulates how much these processes are interdependent and extremely interdisciplinary.
 And I also think that a lot of the work of directing on set is about opening up spaces for people to do their work well. That's always been a saying that we've had: you don't tell actors how to play it well, but you find people, through casting and all other processes, who work it out with you.
-And for us, Montage is simply part of that from the very beginning. That's the way it is for me from now on. With every larger project, it's simply an absolute must-have that the editing is there as early as it can be. That you simply talk about everything. So David was even present during prep for blocking the scenes. That all paid off. That's not the most efficient way of working as far as human life is concerned. Nevertheless, for me it’s the nucleus of an ideal shooting situation.
+And for us, Editing is simply part of that from the very beginning. That's the way it is for me from now on. With every larger project, it's simply an absolute must-have that the editing is there as early as it can be. That you simply talk about everything. So David was even present during prep for blocking the scenes. That all paid off. That's not the most efficient way of working as far as human life is concerned. Nevertheless, for me it’s the nucleus of an ideal shooting situation.
 To manage this in 30 shooting days, which have come to destroy you. (smiles) To pull that off, that’s killer!
 
 **FLORIAN:** David, did you actually co-write or just read the script and comment on it?
@@ -120,7 +122,7 @@ How were the proxies delivered to you and how were they created?
 
 **DAVID:** No, I had one event per shooting day and then sorted the scenes by keywords.
 
-![](/static/schock-event-structure.jpg)
+![Event structure of the editing project](/static/schock-event-structure.jpg)
 
 **FLORIAN:** Okay. Then you split it into reels yourself at some point, or scene-Events?
 
@@ -147,6 +149,8 @@ The first version was really bad... but after they changed the library structure
 **DAVID:** Totally. Although our workflow and also the structure of the library was not ideal. But the pure editing, that went super fast, well off the cuff. Basically, I've never understood it if you only want to work with one technique or one software. Because first of all you’d limit yourself. And I think they all have their advantages and disadvantages. Final Cut is simply years ahead! But still, both Avid and Premiere have their justification. At btf, we worked on Premiere for all those years and it was perfect for one-shots that had a lot of graphics and VFX shots. It would have been unthinkable to work on Avid. And that was kind of the approach to learn the "new hot shit" as well. Of course, that started with the viewing and selecting, how much fun that is! Because otherwise, in Premiere or in Avid, with every new project, I'm actually always faced with such a conundrum first, that I have to decide how I want to watch and select now.
 
 **FLORIAN:** Okay, let's start there. You get the first shooting day in for SCHOCK, and then: how do you select?
+
+> My motivation to work like this also came from my buddy Frido, who always used to select in Final Cut with the Playstation controller. He used to sit on the couch, in front of his client monitor, he does a lot of advertising and has a really fat client monitor, so he used to sit on the client couch and did selects with the controller.
 
 **DAVID:** Unlike with Avid or Premiere, I don't have to decide: do I just watch everything first? Do I do markers or a select sequence or do I start cutting directly and slowly work my way through the footage? When I'm working on Avid or Premiere, I usually do it in such a way that I start cutting right away and then go from the footage further into the structure, into the deep.
 With the way you can mark favorites in Final Cut, I've gone back to doing selects classically without feeling like it's costing me too much time, energy, and motivation. I feel like selecting with other NLEs, maybe that's fun, too. But when you're done you haven't done anything yet. (Laughter)
@@ -207,6 +211,8 @@ _**Without negating the legacy**_
 **DANIEL:** So it's a mixture of very easy and very, very, very difficult. When we decided to make a movie at that time, the idea came up, "what about a gangster movie?". And then we actually said, "no, this coolness, somehow we're not up for it at all". And that was, I think, a narrative demand that had been seething with us for so long that we couldn't get past it.
 We wanted to play with it. For example, Fahri (Yardim, supporting cast) is wearing a cool leather jacket and is looking grim, but in such a way that it doesn't tip over into a comic reality. That was actually a very simple decision. A film that nevertheless serves the genre, with a showdown, with a certain form of depiction of violence. That it has to be a bit borderline. Not a film that has to please everyone. It was ultimately about going a little bit to the extreme. For example: How little can you talk without thinking it’s a student film where the task was: you're not allowed to talk. So, getting the coolness out of it wasn't that hard. But a film that builds a coherent atmosphere and world within these 114 minutes, without classically learned mechanics, without a love interest, with a main character for whom you can't clearly say why he's actually acting like this. That was very, very difficult. And it took a lot of time.
 
+> How little can you talk without thinking it’s a student film where the task was: you're not allowed to talk.
+
 **FLORIAN:** Cool gangster movies - there would be a lot of references. So there are pitfalls when you're staging it the opposite way and dealing with actors who are used to it differently. There's a lot for you to do on set, isn't there? Always holding them back a little bit or nudging it in a different direction.
 
 **DANIEL:** Yeah, ..., we still have a few ADR parts in it that are a thorn in our side. That's why I watched the raw footage of a scene again. And I was totally surprised. It's the scene where Bruno is at Giuli's house for the first time and treats this wound. The scene is just forever long. The footage is forever. And Denis is acting with this medicine bag that was completely filled, like, 300 times in the movie. Incredibly hard to act shit. It's an awkward prop. Incredible number of times he has to open it, close it.
@@ -260,8 +266,10 @@ Coming back to the genre arc, what was really important for the shoot as well: t
 
 **DAVID:** Vaping noises, behind me all day.
 
+> Final Cut invites you to go on forever: fade here, something there, jab jab, while it is running (!), ...
+
 **DANIEL:** Vape, vape, vape ... I picked up the mouse every once in a while. I really like seeing the timeline to get a feel for what's happening. And what I find so nice about Final Cut is that you can just let it run, trim another clip while it's running, turn the music down a bit, you can just march through. Even Denis felt the vibe that you can just march and “massage” the footage as you like.
-We actually took moments now and then to get away from the computer and watch it on a TV-Set. Because Final Cut invites you to go on all the time: fade here, something there, jab jab, while it is running (!), and so constantly the attention is gone.
+We actually took moments now and then to get away from the computer and watch it on a TV-Set. Because Final Cut invites you to go on forever: fade here, something there, jab jab, while it is running (!), and so constantly the attention is gone.
 But I don't think I'm a better editor than David, on the contrary. I'm just a bit more into technical shit, whereas David is more into "I'll edit the scene nice and tidy". If there's a new Voice Isolation thing in there, I immediately want to know how it works. Where the limits of it are and where they aren't. David just doesn't give a shit. So I was doing more of an editing assist, if you will.
 
 **FLORIAN:** The filmstrip view and how visually Final Cut presents everything, even to a bystander, is helpful to your work.
@@ -276,7 +284,7 @@ And that's where Daniel really pissed us off, in a positive sense. He "beat us u
 **FLORIAN:** My experience is almost the other way around, that I always say, "I know you don't like it, but I'll remind you in two days, that maybe we should cut it out." Here the director is fighting obtrusively for something? But I guess it makes sense in your collective construct?
 
 **DAVID:** Yes, and I think with me it derives from "learned stress" from other projects. I had to unlearn that, in a way. We're editing together again at the moment. Daniel can say "yes, let's have another look", as often as he likes - I'm rarely annoyed. Except maybe when I'm tired, the dog is barking and I'm hungry and I think to myself, "now leave me alone!"
-The three of us have had a lot of things to deal with, I guess. Even Denis, who has never sat in the edit so intensely. I mean, with three people, if there's a disagreement, then it's two against one. There's no other way. And of course you’ll get annoyed sometimes. But in the end we all mastered these challenges, even if it took a little while. Denis is also happy now that Naimee's death is still in there. And I also like the way we approached the scene in the montage and with elliptical storytelling. How Bruno sits there and is desperate about what happened. That's how it became a strong scene. Not an action sequence of "will he manage to save her?". He arrives, she's already dead, and through our montage his desperation becomes very clear and relatable.
+The three of us have had a lot of things to deal with, I guess. Even Denis, who has never sat in the edit so intensely. I mean, with three people, if there's a disagreement, then it's two against one. There's no other way. And of course you’ll get annoyed sometimes. But in the end we all mastered these challenges, even if it took a little while. Denis is also happy now that Naimee's death is still in there. And I also like the way we approached the scene in the edit and with elliptical storytelling. How Bruno sits there and is desperate about what happened. That's how it became a strong scene. Not an action sequence of "will he manage to save her?". He arrives, she's already dead, and through our editing his desperation becomes very clear and relatable.
 
 **FLORIAN:** Bitter reality.
 
@@ -297,7 +305,7 @@ And for David it was just stress, because there are two guys sitting behind him 
 
 **FLORIAN:** I think it’s great.
 
-![](/static/schock-timeline-standard-view.jpg)
+![Picture Lock Timeline with Playouts and Burnins above](/static/schock-timeline-standard-view.jpg)
 
 ---
 
@@ -320,6 +328,8 @@ And timecode... Or is that solved now? There is this timecode window. Is it poss
 
 **FLORIAN:** It would actually need some kind of render lock for one clip. That's what Alex4D once suggested.
 
+>  I also think that you can't design sound as beautifully in almost any other tool as you can in Final Cut. It's an incredibly cool sound tool!
+
 **DANIEL:** Exactly. At least some kind of rebuild function for the internal effects, which are otherwise great. And of course a render lock would be great as well. I think those are the few things I can think of right now.
 I also think audio lanes are great. I'm very happy about that. I also think that you can't design sound as beautifully in almost any other tool as you can in Final Cut. It's an incredibly cool sound tool!
 And that's super important to all of us. We worked on sound a lot and very precisely. So it's a shame - but this is a ProTools issue - when you put so much work into details that then all goes down the drain in transfers. I think that's really sad. If I still had time to learn programming somehow, I would do everything I could to get the sound in the studio to be exactly the same as it is in the edit. And also this "In Avid, a lot of people only edit with mix-tracks"-paradigm, that you don't really care about the sound in the edit, that bothers me.
@@ -330,7 +340,7 @@ And that's super important to all of us. We worked on sound a lot and very preci
 
 **FLORIAN:** But in Resolve probably.
 
-![](/static/schock-picture-lock-audio-lanes.jpg)
+![Audio Lanes View of final edit](/static/schock-picture-lock-audio-lanes.jpg)
 
 ---
 
@@ -395,7 +405,9 @@ And I had a short contact with the X2Pro people, Marquis Broadcast. They also he
 
 **DAVID:** We'll keep talking at you for another two hours. (Laughter)
 
-**DANIEL:** I have one last thing. And I'll make this real quick. What was so cool for us was when our producers and everybody said we're going to go back into the mix and we're going to re-cut. That everyone worked together like that. With EDLX, I pushed out EDLs for reconforming and created changelists with "Change List X". With reference audio because we cut with stems and only brought in original audio where there were changes. I provided the Soundpost with a small flood of deliveries and that worked super well. So don't be afraid to change things afterwards. It's not like we changed every other frame now, it was much more selective. We added one more scene, took one out, changed a few timings and tried to relax so that we didn't have to go into the whole process again. In the process, two or three VFX shots were created and I did the conforming in Resolve, I bounced the transfers back to our audio post, which worked really well. And I have to say, a little bit of “new school filmmaking” is that you don't let technical shit like that stop you. That just because you have a Picture-Lock planned, you're not going to change anything anymore. It's important, of course, that you do it reasonably and don't, like a maniac, say, “I'm not going to stop editing the film”. Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully. And if there's one tool that invites you to do that, it's Final Cut. You get lists beaten out of there, technical solutions via Resolve and other tools... you can do things that are otherwise very difficult.
+> Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully! And if there's one tool that invites you to do that, it's Final Cut.
+
+**DANIEL:** I have one last thing. And I'll make this real quick. What was so cool for us was when our producers and everybody said we're going to go back into the mix and we're going to re-cut. That everyone worked together like that. With EDLX, I pushed out EDLs for reconforming and created changelists with "Change List X". With reference audio because we cut with stems and only brought in original audio where there were changes. I provided the Soundpost with a small flood of deliveries and that worked super well. So don't be afraid to change things afterwards. It's not like we changed every other frame now, it was much more selective. We added one more scene, took one out, changed a few timings and tried to relax so that we didn't have to go into the whole process again. In the process, two or three VFX shots were created and I did the conforming in Resolve, I bounced the transfers back to our audio post, which worked really well. And I have to say, a little bit of “new school filmmaking” is that you don't let technical shit like that stop you. That just because you have a Picture-Lock planned, you're not going to change anything anymore. It's important, of course, that you do it reasonably and don't, like a maniac, say, “I'm not going to stop editing the film”. Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully! And if there's one tool that invites you to do that, it's Final Cut. You get lists beaten out of there, technical solutions via Resolve and other tools... you can do things that are otherwise very difficult.
 
 **FLORIAN:** That's good to hear. So I'll say, David, Daniel, thank you so much for talking to us. I wish you big success for SCHOCK. That's going to start in January 2024?
 
@@ -405,13 +417,13 @@ And I had a short contact with the X2Pro people, Marquis Broadcast. They also he
 
 **FLORIAN:** Fingers crossed.
 
-![](/static/schock-second-delivery-with-audio-stems.jpg)
+![re-edit with cut-in Audio-Stems for convenient reconform](/static/schock-second-delivery-with-audio-stems.jpg)
 
-![](/static/schock-all-clips-comp.jpg)
+![Event Structure, all Sync Clips](/static/schock-all-clips-comp.jpg)
 
 ---
 
-**Florian Duffe** made his debut as main Editor with Luna (FCPX, 2015) and has since cut several Movies and Series for German national Television, most of them in Final Cut Pro. Most recently he was credited Additional Editor of the dystopian Sci-Fi-Thriller “Paradise” (Avid MC) on Netflix.
+**Florian Duffe** made his debut as Film Editor with Luna (FCPX, 2015) and has since cut several Movies and Series for German national Television, most of them in Final Cut Pro. Most recently he was credited Additional Editor of the dystopian Sci-Fi-Thriller “Paradise” (Avid MC) on Netflix.
 
 Follow Florian here:
 
