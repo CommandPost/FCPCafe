@@ -82,7 +82,7 @@ And that was at least as important as the story: to figure out our own process, 
 
 **FLORIAN:** So I understand it like this: everyone brings their particular skills from a different direction and then you mingle together. And Denis brought his skills from the acting-side?
 
-> Some even say the Film Editor is like a second director. Denis recently called it shadow-directing.
+> _“ Some even say the Film Editor is like a second director. Denis recently called it shadow-directing. ”_
 
 **DANIEL:** Yes, basically that's right. And if I may say one more thing, which is really close to my heart; a really underestimated part of your (David and Florian’s) work is: Editing isn’t only connecting lines and securing continuity! If you do a somewhat decent job, you finish writing the script in the edit!
 And I think it's totally important not just to award credits, but, prospectively, understand it as the collective effort it already is. Some even say the Film Editor is like a second director. Denis recently called it shadow-directing.
