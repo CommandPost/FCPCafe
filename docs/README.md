@@ -8,10 +8,14 @@
 
 {{ include "rss-buttons" }}
 
+---
+
 !!!
-**Should I update Final Cut Pro?**
+**Should I update Final Cut Pro?**<br />
 Read our current recommendations [here](/bugtracker/).
 !!!
+
+---
 
 {{ include "generated-latest-news" }}
 
