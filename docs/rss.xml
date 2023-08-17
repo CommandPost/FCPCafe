@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 17 Aug 2023 00:00:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Aug 2023 02:31:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Aug 2023 00:00:47 GMT</pubDate>
+        <pubDate>Thu, 17 Aug 2023 02:31:41 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1329,6 +1329,26 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#10th-august-2023</link>
             <guid isPermaLink="false">10th August 2023</guid>
             <pubDate>Thu, 10 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th August 2023]]></title>
+            <description><![CDATA[<p>Ripple Training is having a 72 hour Flash Sale!</p>
+<p>These are awesome Final Cut Pro plugins personally created by Steve and Mark.</p>
+<p>You can learn more <a href="https://www.rippletraining.com/product-category/plugins/">here</a>.</p>
+<p><img src="/static/ripple-flash-sale.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#17th-august-2023</link>
+            <guid isPermaLink="false">17th August 2023</guid>
+            <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th August 2023]]></title>
+            <description><![CDATA[<p>More information has been announced about the upcoming FCP Creative Summit.</p>
+<p>You can follow along with the latest news <a href="/fcp-creative-summit/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-august-2023</link>
+            <guid isPermaLink="false">17th August 2023</guid>
+            <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
