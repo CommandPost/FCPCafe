@@ -150,7 +150,7 @@ The first version was really bad... but after they changed the library structure
 
 **FLORIAN:** Okay, let's start there. You get the first shooting day in for SCHOCK, and then: how do you select?
 
-> My motivation to work like this also came from my buddy Frido, who always used to select in Final Cut with the Playstation controller. He used to sit on the couch, in front of his client monitor, he does a lot of advertising and has a really fat client monitor, so he used to sit on the client couch and did selects with the controller.
+> _“ My motivation to work like this also came from my buddy Frido, who always used to select in Final Cut with the Playstation controller. He used to sit on the couch, in front of his client monitor, he does a lot of advertising and has a really fat client monitor, so he used to sit on the client couch and did selects with the controller. ”_
 
 **DAVID:** Unlike with Avid or Premiere, I don't have to decide: do I just watch everything first? Do I do markers or a select sequence or do I start cutting directly and slowly work my way through the footage? When I'm working on Avid or Premiere, I usually do it in such a way that I start cutting right away and then go from the footage further into the structure, into the deep.
 With the way you can mark favorites in Final Cut, I've gone back to doing selects classically without feeling like it's costing me too much time, energy, and motivation. I feel like selecting with other NLEs, maybe that's fun, too. But when you're done you haven't done anything yet. (Laughter)
@@ -211,7 +211,7 @@ _**Without negating the legacy**_
 **DANIEL:** So it's a mixture of very easy and very, very, very difficult. When we decided to make a movie at that time, the idea came up, "what about a gangster movie?". And then we actually said, "no, this coolness, somehow we're not up for it at all". And that was, I think, a narrative demand that had been seething with us for so long that we couldn't get past it.
 We wanted to play with it. For example, Fahri (Yardim, supporting cast) is wearing a cool leather jacket and is looking grim, but in such a way that it doesn't tip over into a comic reality. That was actually a very simple decision. A film that nevertheless serves the genre, with a showdown, with a certain form of depiction of violence. That it has to be a bit borderline. Not a film that has to please everyone. It was ultimately about going a little bit to the extreme. For example: How little can you talk without thinking it’s a student film where the task was: you're not allowed to talk. So, getting the coolness out of it wasn't that hard. But a film that builds a coherent atmosphere and world within these 114 minutes, without classically learned mechanics, without a love interest, with a main character for whom you can't clearly say why he's actually acting like this. That was very, very difficult. And it took a lot of time.
 
-> How little can you talk without thinking it’s a student film where the task was: you're not allowed to talk.
+> _“ How little can you talk without thinking it’s a student film where the task was: you're not allowed to talk. ”_
 
 **FLORIAN:** Cool gangster movies - there would be a lot of references. So there are pitfalls when you're staging it the opposite way and dealing with actors who are used to it differently. There's a lot for you to do on set, isn't there? Always holding them back a little bit or nudging it in a different direction.
 
@@ -266,7 +266,7 @@ Coming back to the genre arc, what was really important for the shoot as well: t
 
 **DAVID:** Vaping noises, behind me all day.
 
-> Final Cut invites you to go on forever: fade here, something there, jab jab, while it is running (!), ...
+> _“ Final Cut invites you to go on forever: fade here, something there, jab jab, while it is running (!), ... ”
 
 **DANIEL:** Vape, vape, vape ... I picked up the mouse every once in a while. I really like seeing the timeline to get a feel for what's happening. And what I find so nice about Final Cut is that you can just let it run, trim another clip while it's running, turn the music down a bit, you can just march through. Even Denis felt the vibe that you can just march and “massage” the footage as you like.
 We actually took moments now and then to get away from the computer and watch it on a TV-Set. Because Final Cut invites you to go on forever: fade here, something there, jab jab, while it is running (!), and so constantly the attention is gone.
@@ -328,7 +328,7 @@ And timecode... Or is that solved now? There is this timecode window. Is it poss
 
 **FLORIAN:** It would actually need some kind of render lock for one clip. That's what Alex4D once suggested.
 
->  I also think that you can't design sound as beautifully in almost any other tool as you can in Final Cut. It's an incredibly cool sound tool!
+>  _“ I also think that you can't design sound as beautifully in almost any other tool as you can in Final Cut. It's an incredibly cool sound tool! ”_
 
 **DANIEL:** Exactly. At least some kind of rebuild function for the internal effects, which are otherwise great. And of course a render lock would be great as well. I think those are the few things I can think of right now.
 I also think audio lanes are great. I'm very happy about that. I also think that you can't design sound as beautifully in almost any other tool as you can in Final Cut. It's an incredibly cool sound tool!
@@ -405,7 +405,7 @@ And I had a short contact with the X2Pro people, Marquis Broadcast. They also he
 
 **DAVID:** We'll keep talking at you for another two hours. (Laughter)
 
-> Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully! And if there's one tool that invites you to do that, it's Final Cut.
+> _“ Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully! And if there's one tool that invites you to do that, it's Final Cut. ”_
 
 **DANIEL:** I have one last thing. And I'll make this real quick. What was so cool for us was when our producers and everybody said we're going to go back into the mix and we're going to re-cut. That everyone worked together like that. With EDLX, I pushed out EDLs for reconforming and created changelists with "Change List X". With reference audio because we cut with stems and only brought in original audio where there were changes. I provided the Soundpost with a small flood of deliveries and that worked super well. So don't be afraid to change things afterwards. It's not like we changed every other frame now, it was much more selective. We added one more scene, took one out, changed a few timings and tried to relax so that we didn't have to go into the whole process again. In the process, two or three VFX shots were created and I did the conforming in Resolve, I bounced the transfers back to our audio post, which worked really well. And I have to say, a little bit of “new school filmmaking” is that you don't let technical shit like that stop you. That just because you have a Picture-Lock planned, you're not going to change anything anymore. It's important, of course, that you do it reasonably and don't, like a maniac, say, “I'm not going to stop editing the film”. Technically, I found that going through this process with Final Cut was incredibly convenient. Even the re-delivery process was very relaxed. If you document it thoughtfully! And if there's one tool that invites you to do that, it's Final Cut. You get lists beaten out of there, technical solutions via Resolve and other tools... you can do things that are otherwise very difficult.
 
