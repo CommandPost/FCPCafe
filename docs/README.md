@@ -8,13 +8,10 @@
 
 {{ include "rss-buttons" }}
 
----
-
 !!!
-Considering updating to **Final Cut Pro 10.6.8**? Check out latest recommendations [here](/bugtracker/).
+**Should I update Final Cut Pro?**
+Read our current recommendations [here](/bugtracker/).
 !!!
-
----
 
 {{ include "generated-latest-news" }}
 
