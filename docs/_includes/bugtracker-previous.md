@@ -2,7 +2,6 @@
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
 - [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
-- [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229)
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225)
 - [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)

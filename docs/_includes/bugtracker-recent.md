@@ -8,7 +8,6 @@
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
 - [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
-- [Editing projects with 4K (or larger) resolution is not recommended on this computer. You may experience performance issues. (July 25, 2023)](https://github.com/CommandPost/FCPCafe/issues/229)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
@@ -28,3 +27,4 @@
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
 - [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
 - [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)
+- [Crash rejecting a section of a clip (March 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/88)
