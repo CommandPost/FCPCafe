@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 17 Aug 2023 22:46:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Aug 2023 01:29:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Aug 2023 22:46:21 GMT</pubDate>
+        <pubDate>Thu, 24 Aug 2023 01:29:07 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1349,6 +1349,62 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#17th-august-2023</link>
             <guid isPermaLink="false">17th August 2023</guid>
             <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2023]]></title>
+            <description><![CDATA[<p><strong>FxFactory</strong> is currently doing a <strong>20% off all plugins and effects</strong> promo for 48 hours when you use the promo code <strong>SUMMER</strong>.</p>
+<p><img src="/static/fxfactory-sale.jpeg" alt=""></p>
+<p>There's so many great FxFactory plugins out there. Here's a look at some of the ones we use:</p>
+<p><img src="/static/fxfactory-apps.png" alt=""></p>
+<p>You can learn more <a href="https://fxfactory.com/products/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2023</link>
+            <guid isPermaLink="false">24th August 2023</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2023]]></title>
+            <description><![CDATA[<p>The dream team at <a href="https://www.motionvfx.com">MotionVFX</a> announced they're working on something new and exciting:</p>
+<p><img src="/static/motionvfx-create-further.png" alt=""></p>
+<p>We're massive fans of everything MotionVFX do, so we're super keen to find out what they've been building!</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2023</link>
+            <guid isPermaLink="false">24th August 2023</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2023]]></title>
+            <description><![CDATA[<p><strong>Ulti.Media's Transcriber v1.15</strong> is out now, with many new features and improvements.</p>
+<p><img src="/static/transcriber-1-15.jpeg" alt=""></p>
+<p>It's a free update for existing users.</p>
+<p>You can use the FxFactory promo code <strong>SUMMER</strong> to get 20% off today only!</p>
+<p>You can watch a video of the new features below:</p>
+<p><a href="https://www.youtube.com/watch?v=2PnHOiSZcwU"><img src="/static/transcriber-1-15-youtube.jpeg" alt=""></a></p>
+<p>You can learn more <a href="https://fxfactory.com/info/transcriber/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2023</link>
+            <guid isPermaLink="false">24th August 2023</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2023]]></title>
+            <description><![CDATA[<p>For any poor Final Cut Pro editors out there that still have to jump back to Avid Media Composer every now and again, Scott Simmons has written a great article called <strong>Speeding Up Avid Media Composer</strong>.</p>
+<p>Interestingly, Scott's using <a href="https://commandpost.io">CommandPost</a> to control Avid Media Composer over screen-sharing.</p>
+<p>You can read it over at <a href="https://www.provideocoalition.com/speeding-up-avid-media-composer/">ProVideo Coalition</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2023</link>
+            <guid isPermaLink="false">24th August 2023</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2023]]></title>
+            <description><![CDATA[<p>The talented team over at the TWiT Tech Podcast Network have released a video called <strong>Awesome Final Cut Pro for iPad Features</strong>.</p>
+<p>You can have a watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=YwSVKYlgkx8"><img src="/static/twit-fcpx-ipad.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2023</link>
+            <guid isPermaLink="false">24th August 2023</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
