@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 24 Aug 2023 03:23:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Aug 2023 06:08:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Aug 2023 03:23:44 GMT</pubDate>
+        <pubDate>Sat, 26 Aug 2023 06:08:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1405,6 +1405,16 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#24th-august-2023</link>
             <guid isPermaLink="false">24th August 2023</guid>
             <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th August 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale 2 Pro</strong> is currently 25% off until the end of August when you use the promo code <strong>AUGUST25</strong> at checkout.</p>
+<p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=3YZPqmXfU7g"><img src="/static/color-finale-2.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#25th-august-2023</link>
+            <guid isPermaLink="false">25th August 2023</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
