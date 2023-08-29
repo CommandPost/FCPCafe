@@ -27,6 +27,7 @@
 
 ## F
 
+{{ include "workflow-extensions/fast-collections" }}
 {{ include "workflow-extensions/fontauditionx" }}
 {{ include "workflow-extensions/frameio" }}
 
