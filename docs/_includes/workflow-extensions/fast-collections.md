@@ -1,0 +1,1 @@
+{{ include "latenite/fast-collections" }}

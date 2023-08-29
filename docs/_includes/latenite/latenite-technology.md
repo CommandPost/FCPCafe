@@ -16,33 +16,25 @@ Exact shipping dates may vary, as all these ideas are still in active developmen
 
 ### Timecode Toolbox
 
-**ETA: July 2023**
-
 We're spinning out the Sony Timecode Repair Toolbox from CommandPost and making it a standalone app.
 
 In addition to the current functionality, you'll also be able to modify the original camera files to add Final Cut Pro friendly timecode.
 
 ---
 
-### Metadata Toolbox
-
-**ETA: August 2023**
-
-**Metadata Toolbox** is a Workflow Extension that allows you to drag in a project, select burn-in metadata options, then drag a Compound Clip back to the timeline with all the metadata as titles.
-
----
-
 ### RAW Toolbox
-
-**ETA: September 2023**
 
 Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add Nikon N-RAW support to Final Cut Pro.
 
 ---
 
-### Import Toolbox
+### Metadata Toolbox
 
-**ETA: October 2023**
+**Metadata Toolbox** is a Workflow Extension that allows you to drag in a project, select burn-in metadata options, then drag a Compound Clip back to the timeline with all the metadata as titles.
+
+---
+
+### Import Toolbox
 
 **Import Toolbox** will be a Workflow Extension that allows you to import files with better metadata and preset controls (i.e. clip volume).
 
@@ -52,8 +44,6 @@ We will also be spinning out the **Watch Folders** from CommandPost and moving t
 
 ### Assistant Toolbox
 
-**ETA: November 2023**
-
 **Assistant Toolbox** will be a Workflow Extension that spins out **Titles to Keywords** and **Auto Sequence** from CommandPost.
 
 It'll include various improvements and enhancements to make the job even easier for Assistant Editors working on long-form feature film projects.
@@ -61,8 +51,6 @@ It'll include various improvements and enhancements to make the job even easier 
 ---
 
 ### Magic Toolbox
-
-**ETA: December 2023**
 
 **Magic Toolbox** is our first Machine Learning experiment.
 
@@ -115,3 +103,7 @@ Here's some of our products currently for sale on the Mac App Store:
 ---
 
 {{ include "latenite/marker-toolbox" }}
+
+---
+
+{{ include "latenite/fast-collections" }}
