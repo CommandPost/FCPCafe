@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 26 Aug 2023 06:08:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Aug 2023 22:27:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 26 Aug 2023 06:08:03 GMT</pubDate>
+        <pubDate>Tue, 29 Aug 2023 22:27:28 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1415,6 +1415,29 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#25th-august-2023</link>
             <guid isPermaLink="false">25th August 2023</guid>
             <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th August 2023]]></title>
+            <description><![CDATA[<p>Here's another sneak peak at <strong>Audio Design Desk 2.0</strong>:</p>
+<p><img src="/static/add-sneak-peak.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#25th-august-2023</link>
+            <guid isPermaLink="false">25th August 2023</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th August 2023]]></title>
+            <description><![CDATA[<p>We've just released a very niche new app to the Mac App Store called <strong>Fast Collections</strong>.</p>
+<p><strong>Fast Collections</strong> is a <strong>Final Cut Pro Workflow Extension</strong> that allows you to quickly create a <strong>Smart Collection</strong> from a list of <strong>Keywords</strong>.</p>
+<p><img src="/static/fast-collections.png" alt=""></p>
+<p>When you're working on massive long-form projects, such as <strong>feature-length documentaries</strong> with <strong>hundreds of clips</strong> and <strong>thousands of keywords</strong>, the Final Cut Pro interface can grind to a halt when using the built-in Smart Collection panel.</p>
+<p>This simple Workflow Extension allows you to create a new <strong>Smart Collection</strong>, using a list of supplied keywords within seconds, rather than minutes.</p>
+<p>If you have <strong>thousands of keywords</strong> across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with <strong>Fast Collections</strong>, it can now take seconds.</p>
+<p><a href="https://latenitefilms.github.io/FastCollections/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+]]></description>
+            <link>https://fcp.cafe/#30th-august-2023</link>
+            <guid isPermaLink="false">30th August 2023</guid>
+            <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
