@@ -1,3 +1,4 @@
+- [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
 - [[Final Cut Pro (for iPad) v1.0.1] Add support for Custom Fonts (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/200)
