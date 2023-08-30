@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 29 Aug 2023 22:27:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Aug 2023 23:37:38 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Aug 2023 22:27:28 GMT</pubDate>
+        <pubDate>Tue, 29 Aug 2023 23:37:38 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1434,6 +1434,9 @@ Saturday June 17th @ 3:30pm</p>
 <p>This simple Workflow Extension allows you to create a new <strong>Smart Collection</strong>, using a list of supplied keywords within seconds, rather than minutes.</p>
 <p>If you have <strong>thousands of keywords</strong> across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with <strong>Fast Collections</strong>, it can now take seconds.</p>
 <p><a href="https://latenitefilms.github.io/FastCollections/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<hr>
+<p><strong>Iain Anderson</strong> has also written a great blog post over at ProVideo Coalition on <strong>How to make animated product mockups</strong> using Apple Motion.</p>
+<p>You can read it <a href="https://www.provideocoalition.com/how-to-make-animated-product-mockups/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#30th-august-2023</link>
             <guid isPermaLink="false">30th August 2023</guid>
