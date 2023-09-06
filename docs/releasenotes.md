@@ -108,6 +108,8 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 
 ---
 
+## iPad
+
 ### Final Cut Pro 1.1 (for iPad)
 
 **Released July 18, 2023**
@@ -167,6 +169,8 @@ This is the first release of Final Cut Pro for iPad!
 - Fixes an issue where video could freeze in the viewer.
 
 ---
+
+## Mac
 
 ### Final Cut Pro 10.6.7
 
