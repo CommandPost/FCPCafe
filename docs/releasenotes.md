@@ -12,6 +12,7 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 The below information was consolidated by [finalcutgod](https://twitter.com/finalcutgod).
 
+{.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
 | 10.6.8            | 01/08/2023   | 14                   | 12.6          | 4.0            |
@@ -64,6 +65,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | 10.0.1            | 30/01/2012   | 63                   | 10.7.2        | 2.0            |
 | 10.0.0            | 28/11/2011   | 0                    | 10.7          | 2.0            |
 
+{.compact}
 | Years | Updates |
 |-------|---------|
 | 2011	| 2       |
@@ -80,6 +82,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | 2022	| 4       |
 | 2023	| 3       |
 
+{.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 8       |
@@ -87,6 +90,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | Q3	  | 10      |
 | Q4	  | 16      |
 
+{.compact}
 | Month | Updates |
 |-------|---------|
 | Jan	| 4       |
