@@ -1,3 +1,4 @@
+- [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
 - [Changing Background Rendering Time (August 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/245)
 - [Phantom Clip Skimming (August 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/241)
 - [Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/239)
@@ -27,4 +28,3 @@
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
 - [FCPXML v1.11 doesn't support Soundtracks (May 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/94)
-- [Audio Presets don't migrate from earlier versions to v10.6.6 (May 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/92)

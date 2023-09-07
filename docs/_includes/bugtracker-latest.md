@@ -1,3 +1,4 @@
+- [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
 - [Changing Background Rendering Time (August 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/245)
 - [Phantom Clip Skimming (August 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/241)
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
