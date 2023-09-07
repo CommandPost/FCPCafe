@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 Sep 2023 01:45:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Sep 2023 04:53:22 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 Sep 2023 01:45:21 GMT</pubDate>
+        <pubDate>Thu, 07 Sep 2023 04:53:22 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1510,6 +1510,31 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#1st-september-2023</link>
             <guid isPermaLink="false">1st September 2023</guid>
             <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th September 2023]]></title>
+            <description><![CDATA[<p>Our good friend <strong>Bradley Andrew</strong>, founder of <a href="https://filmdrives.com">FilmDrives</a> and creator of <a href="https://apps.apple.com/au/app/crew-call/id1532198878">Crew Call</a>, has just released a really exciting new iPad App onto TestFlight.</p>
+<p><img src="/static/video-assist-logo.jpg" alt=""></p>
+<p>Whilst this isn't strictly Final Cut Pro related - I'm sure it'll be of interest to many of the Final Cut Pro Community - especially those shooting, as well as editing. There's a whole world of possibilities here, for both production and post.</p>
+<p><strong>Video Assist</strong> allows you to use your iPad as an external monitor and recording device with compatible USB Capture Cards.</p>
+<p>You can easily record videos or capture frame grabs from any HDMI Video Source. SDI Video Sources are also supported with specific capture cards.</p>
+<p>Video Tools such as Color Correction, Transform, Grid Lines, Center Marks and Aspect Ratio Masks are built-in.</p>
+<p><strong>Record Trigger</strong> is supported for all ARRI Alexa and Sony Venice Cameras via a custom computer vision model.</p>
+<p>Support for RED and Blackmagic Cameras will be coming prior to public launch.</p>
+<p>Only yesterday Bradley built <strong>RGB &amp; Luminance Histograms</strong> into the app and has enabled a clean video output from the iPad. This means you can use your iPad as a recorder and then output a clean video feed of live or playback via a USB-C to HDMI Adaptor or via AirPlay.</p>
+<p>To date, the only way to use your iPad as a monitor is via a <a href="https://qtakehd.com/hardware/screenport/">QTake ScreenPort</a> or the <a href="https://accsoon.com/accsoon-seemo/">Accsoon SeeMo</a> range.</p>
+<p>This app-based approach is super exciting, as it allows people to use off-the-shelf hardware to turn under-utilised USB-C iPads into great displays.</p>
+<p>USB Capture Cards range from $20-$250 depending on compatible resolutions, so they are well within reach for most people.</p>
+<p>You can watch a short demo of the app in action on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=-KxTDOyLeWQ"><img src="/static/video-assist-youtube.jpeg" alt=""></a></p>
+<p>Bradley is super lovely and insanely talented, and <strong>Video Assist</strong> is such a great implementation - you can tell he's had decades of experience in the camera department, as the user interface is so familiar and easy to use.</p>
+<p>We've been chatting with Bradley about all the possibilities for hooking up his app to Frame.io and Final Cut Pro for more seamless exchanges of favourites/selects and on-set notes. Exciting times!</p>
+<p>If you are curious and want to test it for yourself on a <strong>USB-C iPad running iPadOS 17 Beta</strong>, you can try the pre-release version via Apple TestFlight <a href="https://testflight.apple.com/join/vgjAL68x">here</a>.</p>
+<p>Apple’s iPhone Media Event is scheduled for 12th September, and typically new iOS versions go live the day after the event or at the end of that week.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-september-2023</link>
+            <guid isPermaLink="false">7th September 2023</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[7th September 2023]]></title>
