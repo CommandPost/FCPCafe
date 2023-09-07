@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 06 Sep 2023 11:28:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Sep 2023 01:45:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 Sep 2023 11:28:27 GMT</pubDate>
+        <pubDate>Thu, 07 Sep 2023 01:45:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1510,6 +1510,20 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#1st-september-2023</link>
             <guid isPermaLink="false">1st September 2023</guid>
             <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th September 2023]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.1.3</strong> is out now!</p>
+<p>It just contains a couple of bug fixes:</p>
+<ul>
+<li>Fixed a bug where the stabilisation wouldn't load correctly after importing a clip or Gyroflow Project into Final Cut Pro until after you modified a parameter or toggled the Stabilisation Overview. Thanks for reporting JoneyMacaroney and JLPG!</li>
+<li>Fixed a bug where the Gyroflow Toolbox version information at the top of the Final Cut Pro Inspector was incorrect. Thanks for reporting JoneyMacaroney and JLPG!</li>
+</ul>
+<p>You can learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-september-2023</link>
+            <guid isPermaLink="false">7th September 2023</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
