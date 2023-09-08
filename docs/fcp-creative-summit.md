@@ -6,6 +6,8 @@ It will take place **November 6th to 8th** at Apple Park & [The Hyatt Regency Sa
 
 > Whether you are a trained professional or just starting your creative career, Apple has the software and tools you need to power your creative work. This unique event is where Apple power users and Final Cut Pro Professionals come together to learn and discuss their craft. We are excited to be back in Cupertino! The FCP Creative Summit features 2 full days of sessions in multiple tracks and a unique day at Apple!
 
+You can get discounted accommodation from **Aloft Santa Clara** [here](https://www.marriott.com/events/start.mi?id=1694023520386&key=GRP).
+
 You can find the evolving **program** [here](http://fcpcreativesummits.com/program/).
 
 You can find a list of **speakers** [here](http://fcpcreativesummits.com/speakers/).
