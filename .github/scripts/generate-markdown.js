@@ -48,6 +48,8 @@ try {
     // Sort the array based on the first line of each file
     fileList.sort((a, b) => a.firstLine.localeCompare(b.firstLine));
 
+    let isFirstFileInCurrentInitial = true; // Flag to identify the first file in the current section
+
     for (const {file, firstLine} of fileList) {
         const fileNameWithoutExtension = path.parse(file).name;
 
@@ -63,15 +65,18 @@ try {
 
             fileContent += `## ${currentInitial}\n\n`;
             lastInitial = currentInitial;
+            isFirstFileInCurrentInitial = true; // Reset the flag
         }
 
-        fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n`;
-
-        // Add '---' separator if the next file is not of the same initial
-        const nextFile = fileList[fileList.findIndex(f => f.file === file) + 1];
-        if (nextFile && currentInitial !== nextFile.firstLine.charAt(0).toUpperCase()) {
+        // Add '---' separator if this is not the first file in the current section
+        if (!isFirstFileInCurrentInitial) {
             fileContent += '\n---\n\n';
         }
+
+        // Add the include statement
+        fileContent += `{{ include "${PAGE_NAME}/${fileNameWithoutExtension}" }}\n`;
+
+        isFirstFileInCurrentInitial = false; // After the first file, set this flag to false
     }
 
     // Remove the last extra lines
@@ -84,6 +89,7 @@ try {
     } catch (err) {
         throw new Error('Unable to write to file: ' + err);
     }
+
 } catch (err) {
     console.error(err);
 }
