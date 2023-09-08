@@ -135,16 +135,20 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          echo "Fetching latest changes..."
+          git fetch origin main
           echo "Checking for changes to commit..."
           git status
           echo "Adding changes..."
           git add -A docs/rss.xml
           git status
+          echo "Rebasing changes..."
+          git rebase origin/main
           echo "Committing changes..."
           git commit -m "Update RSS Feed" || echo "No changes to commit"
           git status
           echo "Pushing changes..."
-          git push
+          git push origin main
           echo "Completed commit step."
 
       - name: Archive production artifacts
