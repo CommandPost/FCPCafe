@@ -4,9 +4,6 @@
 
 ---
 
-
----
-
 ## F
 
 {{ include "plugins/fxfactory" }}

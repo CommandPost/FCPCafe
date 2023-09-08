@@ -4,15 +4,9 @@
 
 ---
 
-
----
-
 ## C
 
 {{ include "camera-formats/canon-raw-plugin" }}
-
----
-
 
 ---
 

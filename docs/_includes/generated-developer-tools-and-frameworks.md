@@ -1,10 +1,10 @@
 ## F
 
 {{ include "developer-tools-and-frameworks/fxcore" }}
-{{ include "developer-tools-and-frameworks/fxkit" }}
 
 ---
 
+{{ include "developer-tools-and-frameworks/fxkit" }}
 
 ---
 
@@ -14,15 +14,9 @@
 
 ---
 
-
----
-
 ## O
 
 {{ include "developer-tools-and-frameworks/opentimelineio" }}
-
----
-
 
 ---
 
@@ -32,24 +26,15 @@
 
 ---
 
-
----
-
 ## S
 
 {{ include "developer-tools-and-frameworks/subtitlekit" }}
 
 ---
 
-
----
-
 ## T
 
 {{ include "developer-tools-and-frameworks/timecodekit" }}
-
----
-
 
 ---
 
