@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 08 Sep 2023 20:40:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Sep 2023 23:07:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 08 Sep 2023 20:40:59 GMT</pubDate>
+        <pubDate>Mon, 11 Sep 2023 23:07:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1549,6 +1549,47 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#7th-september-2023</link>
             <guid isPermaLink="false">7th September 2023</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th September 2023]]></title>
+            <description><![CDATA[<p><strong>Procreate Dreams</strong> has been announced - an all-new animation app for iPad.</p>
+<p>It will be available 22nd November 2023 for a one-time payment of USD$19.99.</p>
+<p><img src="/static/procreate-dreams-screenshot.jpg" alt=""></p>
+<p>You can watch the keynote on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=tqx3i_-Qvw4"><img src="/static/procreate-dreams.jpeg" alt=""></a></p>
+<p>You can learn more <a href="https://procreate.com/dreams">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-september-2023</link>
+            <guid isPermaLink="false">9th September 2023</guid>
+            <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th September 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has given some more hints about their upcoming new product on <a href="https://twitter.com/motionVFX/status/1700139674948563205">Twitter</a> and <a href="https://www.facebook.com/motionvfx/posts/pfbid0dvicZrnDGY5HJQequRXdMQqiE5Z1TvLRJCQsbdHsENGrrmMyufk6L5sN1rKXqVAol?__cft__%5B0%5D=AZW4mvjF8DVOUvfUdhearIi0hyUm07Ocb5N8TU4lfrMZ_BmrU58hHU0MdNjtyPRQRuR0lZh38ba0vHOShdvWAVmO70J0rV9OQVzjsYxw5iy10cBn2ePhIKM3mUTVKU3IjvxkOl2xuiIbakUR1k93fiBwBSya0t5i8YOGRkUzAreSyA2MstC9CIt77XISYlcgfFdc3hquyglxYB5Y0JEc37eF&amp;__tn__=%2CO%2CP-R">Facebook</a> with this new video:</p>
+<p><a href="https://www.youtube.com/watch?v=dRqtrRpJdFk"><img src="/static/motionvfx-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-september-2023</link>
+            <guid isPermaLink="false">9th September 2023</guid>
+            <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th September 2023]]></title>
+            <description><![CDATA[<p>Development of <strong>Recall Toolbox</strong> has ramped up again. We hope to have it ready to ship on the Mac App Store by the end of the month.</p>
+<p><img src="/static/recall-toolbox-sep-2023.jpg" alt=""></p>
+<p>You can learn more and download a TestFlight build <a href="https://recalltoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-september-2023</link>
+            <guid isPermaLink="false">9th September 2023</guid>
+            <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th September 2023]]></title>
+            <description><![CDATA[<p><strong>FCP Creative Summit</strong> has announced discounted group rates at the <strong>Aloft Santa Clara</strong>.</p>
+<p>You can learn more <a href="https://www.marriott.com/events/start.mi?id=1694023520386&amp;key=GRP">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-september-2023</link>
+            <guid isPermaLink="false">9th September 2023</guid>
+            <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
