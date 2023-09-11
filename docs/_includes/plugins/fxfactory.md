@@ -1,6 +1,7 @@
+<img src="https://fcp.cafe/static/fxfactory.png" align="left" style="height:100px !important; width:100px !important; " />
+
 ### FxFactory Plugins
 
-<img src="https://fcp.cafe/static/fxfactory.png" align="left" style="height:200px !important; width:200px !important; " />
 
 Visual Effects, audio plugins and apps for video creators.
 
