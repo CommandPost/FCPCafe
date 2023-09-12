@@ -14,7 +14,7 @@ on:
     types: [created]
 
 jobs:
-  generate_markdown:
+  generate_markdown_and_rss:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -26,7 +26,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install axios
+        run: npm install axios rss markdown-it feedparser-promised deep-equal glob cheerio
 
       - name: Generate Bug Tracker Markdown
         env:
@@ -88,6 +88,12 @@ jobs:
           PAGE_NAME: "developer-tools-and-frameworks"
         run: node .github/scripts/generate-markdown.js
 
+      - name: Generate RSS Feed
+        env:
+          SITE_TITLE: "FCP Cafe"
+          SITE_URL: "https://fcp.cafe"
+        run: node .github/scripts/generate-rss.js
+
       - name: Commit and push if it's necessary
         run: |
           git config --local user.email "action@github.com"
@@ -95,7 +101,7 @@ jobs:
           echo "Checking for changes to commit..."
           git status
           echo "Adding changes..."
-          git add -A docs/news/* docs/_includes/*
+          git add -A docs/news/* docs/_includes/* docs/rss.xml
           git status
           echo "Committing changes..."
           git commit -m "Update Generated Markdown Files" || echo "No changes to commit"
@@ -110,54 +116,9 @@ jobs:
           name: docs
           path: docs/
 
-  generate_rss:
-    runs-on: ubuntu-latest
-    needs: generate_markdown
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install dependencies
-        run: npm install rss markdown-it feedparser-promised deep-equal glob cheerio
-
-      - name: Generate RSS Feed
-        env:
-          SITE_TITLE: "FCP Cafe"
-          SITE_URL: "https://fcp.cafe"
-        run: node .github/scripts/generate-rss.js || echo "An error occurred. See the stack trace above for more details."
-
-      - name: Commit and push if it's necessary
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          echo "Checking for changes to commit..."
-          git status
-          echo "Adding changes..."
-          git add docs/rss.xml
-          git status
-          echo "Committing changes..."
-          git commit -m "Update RSS Feed" || echo "No changes to commit"
-          git status
-          echo "Pulling changes from remote..."
-          git pull --rebase
-          echo "Pushing changes..."
-          git push
-          echo "Completed commit step."
-
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: docs
-          path: docs/
-
   publish:
     name: Publish to retype branch
-    needs: [generate_markdown, generate_rss]
+    needs: [generate_markdown_and_rss]
     runs-on: ubuntu-latest
 
     permissions:
