@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 11 Sep 2023 23:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Sep 2023 03:03:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Sep 2023 23:07:31 GMT</pubDate>
+        <pubDate>Tue, 12 Sep 2023 03:03:07 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1590,6 +1590,51 @@ Saturday June 17th @ 3:30pm</p>
             <link>https://fcp.cafe/#9th-september-2023</link>
             <guid isPermaLink="false">9th September 2023</guid>
             <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th September 2023]]></title>
+            <description><![CDATA[<p><strong>Ben Allan ACS CSI</strong> has written a great article over at Newsshooter, titled &quot;The Long Game– A Closer Look at FCP for iPad&quot;.</p>
+<p>You can read <a href="https://www.newsshooter.com/2023/09/09/the-long-game-a-closer-look-at-fcp-for-ipad/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-september-2023</link>
+            <guid isPermaLink="false">12th September 2023</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th September 2023]]></title>
+            <description><![CDATA[<p><strong>Alex Raccuglia</strong> from <a href="https://ulti.media">Ulti.Media</a> has post a new video called &quot;The Morning Rant: The Future of Final Cut Pro (IMHO)&quot;.</p>
+<p>The description reads:</p>
+<blockquote>
+<p>In the video, Alex expresses concerns and opinions about Final Cut Pro's development and features, comparing it to other software options like DaVinci Resolve and discussing the need for certain features like automatic ducking and transcription.
+Alex also encourages viewers, especially editors, to share their thoughts and opinions on the state of Final Cut Pro and Apple's commitment to professional applications.
+Overall, it's a commentary and opinion piece about Final Cut Pro's evolution and the content creator's personal experiences and concerns with the software.</p>
+</blockquote>
+<p>You can watch on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=3LPBw8cHQkw"><img src="/static/alex-future-of-fcpx.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#12th-september-2023</link>
+            <guid isPermaLink="false">12th September 2023</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th September 2023]]></title>
+            <description><![CDATA[<p><strong>Blackmagic Design</strong> is doing their big IBC announcements this week.</p>
+<p><img src="/static/bmd-update.jpeg" alt=""></p>
+<p>You can join the live stream starting:</p>
+<ul>
+<li>Los Angeles 10 AM PDT on Thursday the 14th of September</li>
+<li>New York 1 PM EDT on Thursday the 14th of September</li>
+<li>London 6 PM BST on Thursday the 14th of September</li>
+<li>Singapore 1 AM SGT on Friday the 15th of September</li>
+<li>Tokyo 2 AM JST on Friday the 15th of September</li>
+<li>Sydney 3 AM AEST on Friday the 15th of September</li>
+</ul>
+<p>With USB-C capture cards soon to be supported on iPad, rumours of USB-C iPhone’s, and BMD hiring so many web programmers, maybe IBC will be where BMD really takes on “Camera to Cloud” workflows? I expect more metadata from cameras in BRAW too! Exciting times…</p>
+<p>You can learn more <a href="https://blackmagicdesign.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-september-2023</link>
+            <guid isPermaLink="false">12th September 2023</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
