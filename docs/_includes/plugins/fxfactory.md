@@ -1,4 +1,4 @@
-<img src="https://fcp.cafe/static/fxfactory.png" align="left" style="height:100px !important; width:100px !important; " />
+<img src="https://fcp.cafe/static/fxfactory.png" align="right" style="height:100px !important; width:100px !important;" />
 
 ### FxFactory Plugins
 
