@@ -143,6 +143,8 @@ jobs:
           echo "Committing changes..."
           git commit -m "Update RSS Feed" || echo "No changes to commit"
           git status
+          echo "Pulling changes from remote..."
+          git pull --rebase
           echo "Pushing changes..."
           git push
           echo "Completed commit step."
