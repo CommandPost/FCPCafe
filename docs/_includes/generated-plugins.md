@@ -7,3 +7,9 @@
 ## F
 
 {{ include "plugins/fxfactory" }}
+
+---
+
+## M
+
+{{ include "plugins/motionvfx" }}
