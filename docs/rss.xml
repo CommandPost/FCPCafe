@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 12 Sep 2023 03:35:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Sep 2023 03:46:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 Sep 2023 03:35:39 GMT</pubDate>
+        <pubDate>Wed, 13 Sep 2023 03:46:55 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1635,6 +1635,39 @@ Overall, it's a commentary and opinion piece about Final Cut Pro's evolution and
             <link>https://fcp.cafe/#12th-september-2023</link>
             <guid isPermaLink="false">12th September 2023</guid>
             <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th September 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has dropped some more breadcrumbs as to what they're building...</p>
+<blockquote>
+<p>When the universe of video editing and AI collide...that's when the magic happens! 🪐✨
+Get ready to explore the vast universe of new possibilities and take command of the space in your scenes with the power of AI! 🚀
+Revolutionize your workflow with intelligent tools! 🦾 Get ready to #CreateFurther with MotionVFX.
+Sign up to be the first to know 👉🏻</p>
+</blockquote>
+<p>You can learn more <a href="https://www.motionvfx.com/go-beyond-possible">here</a>.</p>
+<p><img src="/static/motionvfx-sept13-01.jpeg" alt=""></p>
+<p><img src="/static/motionvfx-sept13-02.jpeg" alt=""></p>
+<p><img src="/static/motionvfx-sept13-03.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#13th-september-2023</link>
+            <guid isPermaLink="false">13th September 2023</guid>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th September 2023]]></title>
+            <description><![CDATA[<p><strong>Tokyocode.io</strong> have released <strong>Reference X v1.7.8</strong> on the Mac App Store.</p>
+<p>It includes:</p>
+<ul>
+<li>Support FCPXML v1.11 and <code>fcpxmld</code> files.</li>
+<li>Fixed when edit note tag export FCPXML.</li>
+<li>Improved more stability and reliability on export fcpxml.</li>
+</ul>
+<p>You can learn more <a href="http://tokyocode.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-september-2023</link>
+            <guid isPermaLink="false">13th September 2023</guid>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
