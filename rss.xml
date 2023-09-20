@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 15 Sep 2023 08:42:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Sep 2023 21:58:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 Sep 2023 08:42:54 GMT</pubDate>
+        <pubDate>Wed, 20 Sep 2023 21:58:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1684,6 +1684,98 @@ Sign up to be the first to know 👉🏻</p>
             <link>https://fcp.cafe/#15th-september-2023</link>
             <guid isPermaLink="false">15th September 2023</guid>
             <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st September 2023]]></title>
+            <description><![CDATA[<p>Yesterday Apple released updates to Final Cut Pro, Final Cut Pro for iPad, Motion and Pro Video Formats.</p>
+<p>These updates drop support for macOS Monterey - only macOS Ventura and Sonoma are now supported, which is disappointing, but not surprising.</p>
+<p>Unfortunately we've already had reports from <a href="https://fxfactory.com">FxFactory</a> that the Final Cut Pro 10.6.9 update has at least one serious bug:</p>
+<blockquote>
+<p>In what is now an established pattern, Apple released an update to Final Cut Pro 10.6.9 that contains a rather horrible regression. As they fixed the “Opacity” slider bug affecting some Motion Templates, they broke something worse.</p>
+<p>Many of our products rely on what they call the “Analysis API” to analyze sequences of frames. Most products do so within the context of a Title Template, because developers and users have come to prefer Title-layer effects above all else.
+In Final Cut Pro 10.6.9, any Title-layer effect that attempts to perform analysis via an object tracker or face detector no longer works. As the status window will clearly show you, the host app is feeding the top-right 1/4 of the frame. This obviously makes the algorithm fail.</p>
+<p>In the coming days we are going to face a disaster, as thousands of users with products based on analysis will fail.&quot;</p>
+<p>We request that you file feedback <a href="https://www.apple.com/feedback/finalcutpro.html">here</a>.</p>
+<p>Next, submit a bug report <a href="https://feedbackassistant.apple.com/">here</a>.</p>
+</blockquote>
+<p>Sadly, Apple doesn't provide beta releases to most third party developers, so it's a mad scramble to test and review updates once they're made public.</p>
+<p>We're currently in the process of testing and reviewing all the updates, and will post more on FCP Cafe as new things come to light.</p>
+<p>You can find our <strong>Update Recommendations</strong> <a href="/update-guide">here</a>.</p>
+<p>If you run into any issues, make sure you report them in our <a href="/bugtracker/">Bug Tracker</a>.</p>
+<p><strong>Final Cut Pro 10.6.9</strong> includes the following enhancements:</p>
+<ul>
+<li>Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.</li>
+<li>Use new third-party log profiles to enhance the look of footage shot on popular cameras from Fujifilm, DJI, and ARRI.</li>
+<li>Adds support for Cinematic video recorded with iPhone on iOS 17.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Fixes an issue that could cause Motion templates to not respond to Opacity parameter adjustments.</li>
+<li>Fixes an issue that could cause duplicating a project to result in the original project opening in the timeline.</li>
+<li>Fixes an issue that caused some Canon 4K 24fps media to not be recognized properly.</li>
+<li>Fixes an issue that could cause the app to stop responding when the Share menu was opened.</li>
+<li>Fixes an issue where a background render would sometimes not complete when stabilization or rolling shutter were selected in the inspector.</li>
+</ul>
+<p><strong>Motion 5.6.6</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Adds support for log-encoded video recorded with iPhone 15 Pro and iPhone 15 Pro Max.</li>
+<li>Adds support for Cinematic video recorded with iPhone on iOS 17.</li>
+<li>Improves performance when using the Align behavior.</li>
+<li>Fixes an issue where Motion could hang when playing back 3D titles at high quality.</li>
+</ul>
+<p><strong>Compressor 4.6.6</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Adds support for log-encoded video recorded with iPhone 15 Pro and iPhone 15 Pro Max.</li>
+<li>Fixes an issue where the source/output comparison viewer would not reflect the camera log selection.</li>
+<li>Fixes an issue where Reveal in Finder was not available for clips with modified audio settings.</li>
+<li>Fixes an issue where luminance levels could be incorrect when Job inspector color space and Output color space were set to Rec. 709.</li>
+<li>Fixes an issue where enabling additional Compressor instances would result in the elapsed time of a batch encode to not appear in the Completed tab.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad 1.2</strong> includes the following enhancements:</p>
+<ul>
+<li>Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.</li>
+<li>Enhance the look of footage shot on popular Fujifilm, DJI, and ARRI cameras using new log profiles.</li>
+<li>25 new soundtracks that dynamically adjust to fit the length of your project.</li>
+<li>Enable and disable clips to quickly compare your edit with and without them.</li>
+<li>Easily select and reposition keyframes using touch or Apple Pencil.</li>
+<li>Pinch to quickly resize clips in the browser.</li>
+<li>Adds support for Cinematic video recorded with iPhone on iOS 17.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Enable and disable clips: V</li>
+<li>Import media from Photos: Command-I</li>
+<li>Import media from Files: Shift-Command-I</li>
+<li>Export your project: Command-E</li>
+<li>Unrate browser clips: U</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Tapping a keyworded, favorited, or rejected range in the filmstrip with Apple Pencil selects the range.</li>
+<li>Replacing a clip in the timeline preserves the duration of the source clip.</li>
+<li>Fixes an issue with trimming clips during volume keyframing.</li>
+<li>Fixes an issue that caused the Social Platforms export preset to default to SDR.</li>
+<li>Fixes an issue that caused the browser filmstrip to not respect the Skimmer Playhead setting.</li>
+<li>Fixes an issue that caused dragging a browser clip to result in scrolling.</li>
+<li>Fixes an issue that caused items in the content browser and search results to not appear in alphabetical order.</li>
+<li>Fixes an issue with keyframing the volume of a multicam clip with a single audio channel.</li>
+<li>Fixes an issue with the fader position not being reset when a volume adjustment was undone.</li>
+<li>Fixes an issue that caused the Done button to not appear in Live Drawing when using Larger Text and Display Zoom.</li>
+<li>Fixes an issue that caused browser clip name changes to not be saved unless the Done button was tapped.</li>
+<li>Improves reliability when reseting manual focus points for videos shot in Cinematic mode.</li>
+<li>Improves reliability when importing iMovie for iOS projects.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#21st-september-2023</link>
+            <guid isPermaLink="false">21st September 2023</guid>
+            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st September 2023]]></title>
+            <link>https://fcp.cafe/#21st-september-2023</link>
+            <guid isPermaLink="false">21st September 2023</guid>
+            <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
