@@ -22,15 +22,6 @@ If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend stick
 
 **Final Cut Pro 10.6.8** resolved some issues with the Viewer going black and various crashes, but **Final Cut Pro 10.6.9** breaks all third party trackers using Title Templates.
 
-FxFactory writes:
-
-> In what is now an established pattern, Apple released an update to Final Cut Pro 10.6.9 that contains a rather horrible regression. As they fixed the “Opacity” slider bug affecting some Motion Templates, they broke something worse.
->
-> Many of our products rely on what they call the “Analysis API” to analyze sequences of frames. Most products do so within the context of a Title Template, because developers and users have come to prefer Title-layer effects above all else.
-> In Final Cut Pro 10.6.9, any Title-layer effect that attempts to perform analysis via an object tracker or face detector no longer works. As the status window will clearly show you, the host app is feeding the top-right 1/4 of the frame. This obviously makes the algorithm fail.
->
-> In the coming days we are going to face a disaster, as thousands of users with products based on analysis will fail."
->
 > We request that you file feedback [here](https://www.apple.com/feedback/finalcutpro.html).
 >
 > Next, submit a bug report [here](https://feedbackassistant.apple.com/).
