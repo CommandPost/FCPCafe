@@ -15,6 +15,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.6.9            | 19/09/2023   | 49                   | 13.5.2        | 4.0            |
 | 10.6.8            | 01/08/2023   | 14                   | 12.6          | 4.0            |
 | 10.6.7            | 18/07/2023   | 56                   | 12.6          | 4.0            |
 | 10.6.6            | 23/05/2023   | 211                  | 12.6          | 4.0            |
@@ -80,14 +81,14 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | 2020	| 4       |
 | 2021	| 5       |
 | 2022	| 4       |
-| 2023	| 3       |
+| 2023	| 4       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 8       |
 | Q2	  | 14      |
-| Q3	  | 10      |
+| Q3	  | 11      |
 | Q4	  | 16      |
 
 {.compact}
@@ -101,7 +102,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | Jun	| 4       |
 | Jul	| 3       |
 | Aug	| 4       |
-| Sept	| 3       |
+| Sept	| 4       |
 | Oct	| 5       |
 | Nov	| 6       |
 | Dec	| 5       |
@@ -109,6 +110,45 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 ---
 
 ## iPad
+
+### Final Cut Pro 1.2 (for iPad)
+
+**Released September 19, 2023**
+
+**Final Cut Pro for iPad 1.2** includes the following enhancements:
+
+- Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.
+- Enhance the look of footage shot on popular Fujifilm, DJI, and ARRI cameras using new log profiles.
+- 25 new soundtracks that dynamically adjust to fit the length of your project.
+- Enable and disable clips to quickly compare your edit with and without them.
+- Easily select and reposition keyframes using touch or Apple Pencil.
+- Pinch to quickly resize clips in the browser.
+- Adds support for Cinematic video recorded with iPhone on iOS 17.
+
+**New keyboard shortcuts:**
+- Enable and disable clips: V
+- Import media from Photos: Command-I
+- Import media from Files: Shift-Command-I
+- Export your project: Command-E
+- Unrate browser clips: U
+
+**Improvements and bug fixes:**
+- Tapping a keyworded, favorited, or rejected range in the filmstrip with Apple Pencil selects the range.
+- Replacing a clip in the timeline preserves the duration of the source clip.
+- Fixes an issue with trimming clips during volume keyframing.
+- Fixes an issue that caused the Social Platforms export preset to default to SDR.
+- Fixes an issue that caused the browser filmstrip to not respect the Skimmer Playhead setting.
+- Fixes an issue that caused dragging a browser clip to result in scrolling.
+- Fixes an issue that caused items in the content browser and search results to not appear in alphabetical order.
+- Fixes an issue with keyframing the volume of a multicam clip with a single audio channel.
+- Fixes an issue with the fader position not being reset when a volume adjustment was undone.
+- Fixes an issue that caused the Done button to not appear in Live Drawing when using Larger Text and Display Zoom.
+- Fixes an issue that caused browser clip name changes to not be saved unless the Done button was tapped.
+- Improves reliability when reseting manual focus points for videos shot in Cinematic mode.
+- Improves reliability when importing iMovie for iOS projects.
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro 1.1 (for iPad)
 
@@ -162,6 +202,32 @@ This is the first release of Final Cut Pro for iPad!
 
 ---
 
+## Mac
+
+### Final Cut Pro 10.6.9
+
+**Released September 19, 2023**
+
+#### Notes from FCP Cafe:
+
+- This release breaks the Analysis API used by plugins such as those by FxFactory. You can learn more here.
+
+#### New Features:
+
+- Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.
+- Use new third-party log profiles to enhance the look of footage shot on popular cameras from Fujifilm, DJI, and ARRI.
+- Adds support for Cinematic video recorded with iPhone on iOS 17.
+
+#### Improvements and bug fixes:
+
+- Fixes an issue that could cause Motion templates to not respond to Opacity parameter adjustments.
+- Fixes an issue that could cause duplicating a project to result in the original project opening in the timeline.
+- Fixes an issue that caused some Canon 4K 24fps media to not be recognized properly.
+- Fixes an issue that could cause the app to stop responding when the Share menu was opened.
+- Fixes an issue where a background render would sometimes not complete when stabilization or rolling shutter were selected in the inspector.
+
+---
+
 ### Final Cut Pro 10.6.8
 
 **Released August 1, 2023**
@@ -169,8 +235,6 @@ This is the first release of Final Cut Pro for iPad!
 - Fixes an issue where video could freeze in the viewer.
 
 ---
-
-## Mac
 
 ### Final Cut Pro 10.6.7
 

@@ -2,21 +2,7 @@
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
-!!!
-**Final Cut Pro 10.6.8** has been released on the Mac App Store!
-
-If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being.
-
-However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
-
-You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
-
-Additionally, **Final Cut Pro 10.6.7** and **Final Cut Pro 10.6.8** use a newer Library format than **Final Cut Pro 1.1 (for iPad)**.
-
-This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
-
-_**Last Updated:** 2nd August 2023_
-!!!
+You can read on recommendations on if you should update Final Cut Pro [here](/update-guide/).
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -76,9 +62,9 @@ Create a free GitHub account then [click here](https://github.com/CommandPost/FC
 
 ---
 
-### Final Cut Pro 10.6.8
+### Final Cut Pro 10.6.9
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports:
+Here's a list of the **30 most recently added** Final Cut Pro 10.6.9 bug reports:
 
 {{ include "bugtracker-latest" }}
 
@@ -86,11 +72,11 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 ---
 
-### Final Cut Pro 10.6.7
+### Final Cut Pro 10.6.8
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.6.7 bug reports.
+Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports.
 
-These bugs will eventually be migration to the 10.6.8 list once confirmed.
+Some of these bugs may eventually be migrated to the 10.6.9 list once confirmed.
 
 {{ include "bugtracker-previous" }}
 
