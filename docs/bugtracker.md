@@ -3,11 +3,12 @@
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
 !!!
-**Final Cut Pro 10.6.8** has been released on the Mac App Store!
+**Final Cut Pro 10.6.9** has been released on the Mac App Store!
 
 If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being.
 
-However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
+10.6.8 resolved some issues with the Viewer going black and various crashes, but 10.6.9 breaks all third party trackers using Title Templates.
+Read more about this bug [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
 You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
 
@@ -15,7 +16,7 @@ Additionally, **Final Cut Pro 10.6.7** and **Final Cut Pro 10.6.8** use a newer 
 
 This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
 
-_**Last Updated:** 2nd August 2023_
+_**Last Updated:** 20th September 2023_
 !!!
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
