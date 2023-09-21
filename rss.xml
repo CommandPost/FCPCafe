@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 20 Sep 2023 22:08:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Sep 2023 00:10:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 Sep 2023 22:08:19 GMT</pubDate>
+        <pubDate>Thu, 21 Sep 2023 00:10:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1689,15 +1689,14 @@ Sign up to be the first to know 👉🏻</p>
             <title><![CDATA[21st September 2023]]></title>
             <description><![CDATA[<p>Yesterday Apple released updates to Final Cut Pro, Final Cut Pro for iPad, Motion and Pro Video Formats.</p>
 <p>These updates drop support for macOS Monterey - only macOS Ventura and Sonoma are now supported, which is disappointing, but not surprising.</p>
-<p>Unfortunately we've already had reports from <a href="https://fxfactory.com">FxFactory</a> that the Final Cut Pro 10.6.9 update has at least one serious bug:</p>
+<p>Unfortunately we've already had reports from <a href="https://fxfactory.com">FxFactory</a> that the Final Cut Pro 10.6.9 update has at least one serious bug.</p>
+<p><strong>FxFactory</strong> writes:</p>
 <blockquote>
-<p>In what is now an established pattern, Apple released an update to Final Cut Pro 10.6.9 that contains a rather horrible regression. As they fixed the “Opacity” slider bug affecting some Motion Templates, they broke something worse.</p>
-<p>Many of our products rely on what they call the “Analysis API” to analyze sequences of frames. Most products do so within the context of a Title Template, because developers and users have come to prefer Title-layer effects above all else.
-In Final Cut Pro 10.6.9, any Title-layer effect that attempts to perform analysis via an object tracker or face detector no longer works. As the status window will clearly show you, the host app is feeding the top-right 1/4 of the frame. This obviously makes the algorithm fail.</p>
-<p>In the coming days we are going to face a disaster, as thousands of users with products based on analysis will fail.&quot;</p>
-<p>We request that you file feedback <a href="https://www.apple.com/feedback/finalcutpro.html">here</a>.</p>
-<p>Next, submit a bug report <a href="https://feedbackassistant.apple.com/">here</a>.</p>
+<p>Final Cut Pro 10.6.9 is now available on the Mac App Store. This version breaks all FxFactory products that perform object tracking or face recognition through the Title layer.</p>
+<p>Regrettably this constitutes the entirety of our catalog featuring object tracking or face detection, since developers and users alike have come to favor the Title layer for its flexibility.</p>
+<p>Because of the large number of products affected, we recommend that you do not apply this update.</p>
 </blockquote>
+<p>Read more about this bug <a href="https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/">here</a>.</p>
 <p>Sadly, Apple doesn't provide beta releases to most third party developers, so it's a mad scramble to test and review updates once they're made public.</p>
 <p>We're currently in the process of testing and reviewing all the updates, and will post more on FCP Cafe as new things come to light.</p>
 <p>You can find our <strong>Update Recommendations</strong> <a href="/update-guide">here</a>.</p>
