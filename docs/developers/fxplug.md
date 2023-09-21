@@ -1,10 +1,10 @@
 # FxPlug
 
-This section of the site is dedicated to FxPlug4.
+This section of the site is dedicated to **FxPlug**.
 
-You can find the official FxPlug4 documentation [here](https://developer.apple.com/documentation/professional_video_applications/fxplug).
+You can find the official FxPlug 4 documentation [here](https://developer.apple.com/documentation/professional_video_applications/fxplug).
 
-If you want a real-world example of a FxPlug4 application, you can look at [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/).
+If you want a real-world example of a FxPlug 4 application, you can look at [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/).
 
 ---
 
@@ -20,6 +20,32 @@ Here is a collection of useful third party frameworks.
 
 ## Release Notes
 
+### FxPlug 4.2.8
+
+**Released:** 19th September 2023
+
+- Removal of unsupported FxPlug 3 properties from the FxPlug framework
+- Support for GPU and backwards analysis in the FxBrightnessAnalysis example
+- Plug-ins built with newer SDKs now handle canceling of analysis without crashing in older hosts.
+- The template and example properties have been updated to conform to the removal of some FxPlug 3 properties. This includes the `kFxPropertyKey_UsesRationalTime` and `kFxPropertyKey_IsThreadSafe` properties.
+- Fixed an issue when an FxPlug 4 plug-in with custom UI displayed in the inspector crashed, or was terminated by the OS. It will now redraw its custom controls immediately rather than waiting until the next communication with the plug-in.
+- Fixed an issue with a potential crash when using the `FxColorGamutAPI`.
+- Analysis no longer returns frames with a 1-pixel border around them.
+
+**Known Issues:**
+
+**FxFactory** writes:
+
+> Final Cut Pro 10.6.9 is now available on the Mac App Store. This version breaks all FxFactory products that perform object tracking or face recognition through the Title layer.
+>
+> Regrettably this constitutes the entirety of our catalog featuring object tracking or face detection, since developers and users alike have come to favor the Title layer for its flexibility.
+>
+> Because of the large number of products affected, we recommend that you do not apply this update.
+
+Read more about this bug [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
+
+---
+
 ### FxPlug 4.2.7
 
 **Released:** 18th July 2023
@@ -29,7 +55,7 @@ Here is a collection of useful third party frameworks.
 
 ---
 
-### FxPlpug 4.2.6
+### FxPlug 4.2.6
 
 - Improved stability and reliability
 - Removal of unsupported FxPlug 3 APIs from the FxPlug framework
