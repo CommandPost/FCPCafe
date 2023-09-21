@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.748570466527">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.748587876734">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="static/favicon.ico" rel="icon">
-    <link href="resources/css/retype.css?v=3.5.0.748570466527" rel="stylesheet">
+    <link href="resources/css/retype.css?v=3.5.0.748587876734" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.5.0.748570466527" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=3.5.0.748587876734" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.5.0.748570466527" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.5.0.748587876734" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -486,6 +486,18 @@ Read our current recommendations <a href="update-guide/">here</a>.</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
+<p>For developers, Apple has also updated the FxPlug 4 SDK.</p>
+<p>At this stage, there&#x27;s been no update to the Workflow Extensions SDK (currently at v1.0.2, released in January).</p>
+<p>The <strong>FxPlug 4.2.8 SDK</strong> includes the following:</p>
+<ul>
+<li>Removal of unsupported FxPlug 3 properties from the FxPlug framework</li>
+<li>Support for GPU and backwards analysis in the <code v-pre>FxBrightnessAnalysis</code> example</li>
+<li>Plug-ins built with newer SDKs now handle canceling of analysis without crashing in older hosts.</li>
+<li>The template and example properties have been updated to conform to the removal of some FxPlug 3 properties. This includes the <code v-pre>kFxPropertyKey_UsesRationalTime</code> and <code v-pre>kFxPropertyKey_IsThreadSafe</code> properties.</li>
+<li>Fixed an issue when an FxPlug 4 plug-in with custom UI displayed in the inspector crashed, or was terminated by the OS. It will now redraw its custom controls immediately rather than waiting until the next communication with the plug-in.</li>
+<li>Fixed an issue with a potential crash when using the <code v-pre>FxColorGamutAPI</code>.</li>
+<li>Analysis no longer returns frames with a 1-pixel border around them.</li>
+</ul>
 <p><a href="news/20230921/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
     <span>Discuss this news item</span>
 </a></p>
