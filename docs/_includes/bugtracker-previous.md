@@ -1,3 +1,4 @@
+- [FCP & QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/250)
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
 - [Changing Background Rendering Time (August 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/245)
 - [Phantom Clip Skimming (August 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/241)
