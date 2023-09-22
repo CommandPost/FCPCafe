@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 21 Sep 2023 00:11:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Sep 2023 22:32:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 Sep 2023 00:11:37 GMT</pubDate>
+        <pubDate>Fri, 22 Sep 2023 22:32:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1772,6 +1772,19 @@ Sign up to be the first to know 👉🏻</p>
         </item>
         <item>
             <title><![CDATA[21st September 2023]]></title>
+            <description><![CDATA[<p>For developers, Apple has also updated the FxPlug 4 SDK.</p>
+<p>At this stage, there's been no update to the Workflow Extensions SDK (currently at v1.0.2, released in January).</p>
+<p>The <strong>FxPlug 4.2.8 SDK</strong> includes the following:</p>
+<ul>
+<li>Removal of unsupported FxPlug 3 properties from the FxPlug framework</li>
+<li>Support for GPU and backwards analysis in the <code>FxBrightnessAnalysis</code> example</li>
+<li>Plug-ins built with newer SDKs now handle canceling of analysis without crashing in older hosts.</li>
+<li>The template and example properties have been updated to conform to the removal of some FxPlug 3 properties. This includes the <code>kFxPropertyKey_UsesRationalTime</code> and <code>kFxPropertyKey_IsThreadSafe</code> properties.</li>
+<li>Fixed an issue when an FxPlug 4 plug-in with custom UI displayed in the inspector crashed, or was terminated by the OS. It will now redraw its custom controls immediately rather than waiting until the next communication with the plug-in.</li>
+<li>Fixed an issue with a potential crash when using the <code>FxColorGamutAPI</code>.</li>
+<li>Analysis no longer returns frames with a 1-pixel border around them.</li>
+</ul>
+]]></description>
             <link>https://fcp.cafe/#21st-september-2023</link>
             <guid isPermaLink="false">21st September 2023</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 GMT</pubDate>

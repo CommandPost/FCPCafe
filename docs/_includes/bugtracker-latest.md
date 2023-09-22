@@ -1,0 +1,1 @@
+- [FxPlug4 Analysis API broken with Titles (September 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/257)
