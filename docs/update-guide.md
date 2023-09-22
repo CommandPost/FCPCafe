@@ -4,7 +4,7 @@ All software has bugs, and new updates to software can sometimes have regression
 
 Unfortunately when it comes to apps on the Apple App Store, you can only ever download the latest software, and you don't have any access to older versions.
 
-This means, if you're a professional Final Cut Pro editor, you need to be very careful about keeping copies of older versions of Final Cut Pro, Compressor and Motion as backups incase there's bugs, but also incase you have to access older projects in the future that may not open in the latest version of Final Cut Pro.
+This means, if you're a professional Final Cut Pro editor, you need to be very careful about keeping copies of older versions of Final Cut Pro, Compressor and Motion as backups incase there's bugs, but also incase you have to access older Libraries in the future that may not open in the latest version of Final Cut Pro.
 
 You can learn more about backing up Final Cut Pro on Apple's site [here](https://support.apple.com/en-au/HT203010).
 
@@ -18,9 +18,7 @@ You can read our current recommendations below:
 
 This update drops support for macOS Monterey - only macOS Ventura and Sonoma are now supported.
 
-If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being.
-
-**Final Cut Pro 10.6.8** resolved some issues with the Viewer going black and various crashes, but **Final Cut Pro 10.6.9** breaks all third party trackers using Title Templates.
+This update unfortunately breaks any FxPlug4 effects that use the [Analysis API](https://developer.apple.com/documentation/professional_video_applications/fxanalysisapi_v2?language=objc) on Titles.
 
 **FxFactory** writes:
 
@@ -32,18 +30,53 @@ If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend stick
 
 Read more about this bug [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
+If you use FxFactory Trackers, we recommend sticking with an earlier version of Final Cut Pro for the time being.
+
+CoreMelt's Tracking Tools are not affected, as they don't use the Analysis API on their Title effects.
+
+If you're currently using **Final Cut Pro 10.6.8** on macOS Ventura or Sonoma, and don't use FxFactory's Trackers, then there are currently no major reported issues that would prevent you from updating.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| FxFactory                | [Tracking using Title Templates Broken](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/) |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+
 ---
 
 ## Final Cut Pro 10.6.8
 
-**Final Cut Pro 10.6.8** has been released on the Mac App Store on 1st August 2023.
+**Final Cut Pro 10.6.8** was released on the Mac App Store on 1st August 2023.
 
-If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being.
+If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend sticking with that for the time being, as this release has a [lot of unreproducible crashes](https://github.com/CommandPost/FCPCafe/issues/238).
 
 However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
 
 You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
 
-Additionally, **Final Cut Pro 10.6.7** and **Final Cut Pro 10.6.8** use a newer Library format than **Final Cut Pro 1.1 (for iPad)**.
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
 
-This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
+---
+
+## Final Cut Pro 1.2 (for iPad)
+
+**Final Cut Pro 10.6.7 (for Mac)** and **Final Cut Pro 10.6.8 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.<br />
+This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)** and **Final Cut Pro 1.1 (for iPad)**.
+
+We are currently actively investigating **Final Cut Pro 10.6.9 (for Mac)** and **Final Cut Pro 1.2 (for iPad)** support for Transfer Toolbox.
