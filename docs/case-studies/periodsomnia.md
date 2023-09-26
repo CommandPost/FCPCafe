@@ -46,6 +46,16 @@ We had 7 Hours of A-Cam from an Arri Alexa, which captured intimate moments with
 
 I always use a combination of Rejects, Favourites and Keywords to select, filter and then navigate my rushes. No shot is ever fully discounted and I use the quick navigation between these states to constantly re-evaluate the rushes and shots I’m using.
 
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/4adcb443352c0c93b0f5de392a5be242/iframe?loop=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F4adcb443352c0c93b0f5de392a5be242%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<br />
+
 ![](/static/tgc-timeline-03.jpg)
 
 ![](/static/tgc-timeline-04.jpg)
@@ -66,6 +76,7 @@ The third element we had to play with was the period itself progressing through 
     allowfullscreen="true"
   ></iframe>
 </div>
+<br />
 
 I drew on my formative years cutting music videos to create an edit that never let up, never gave the viewer a moment to get comfortable. The driving club beat and thump of the period keeps the viewer on edge, but also unifies the protagonists in a lonely yet collective experience.
 
