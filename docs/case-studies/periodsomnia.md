@@ -46,15 +46,15 @@ We had 7 Hours of A-Cam from an Arri Alexa, which captured intimate moments with
 
 I always use a combination of Rejects, Favourites and Keywords to select, filter and then navigate my rushes. No shot is ever fully discounted and I use the quick navigation between these states to constantly re-evaluate the rushes and shots I’m using.
 
-![](/static/tgc-timeline-03.png)
+![](/static/tgc-timeline-03.jpg)
 
-![](/static/tgc-timeline-04.png)
+![](/static/tgc-timeline-04.jpg)
 
-![](/static/tgc-timeline-05.png)
+![](/static/tgc-timeline-05.jpg)
 
-![](/static/tgc-timeline-06.png)
+![](/static/tgc-timeline-06.jpg)
 
-![](/static/tgc-timeline-07.png)
+![](/static/tgc-timeline-07.jpg)
 
 The third element we had to play with was the period itself progressing through the body. We initially edited with rough grayscale renders which I manipulated with retiming and effects within FCP to give them life and the feeling of progression we wanted to tell the story. The visual effects artists at Time Based Arts continued to develop the looks and feel of those visuals as we edited. Eventually arriving on the strangely beautiful forms in the final film.
 
