@@ -12,6 +12,12 @@ You can read our current recommendations below:
 
 ---
 
+## macOS Sonoma
+
+So far, all reports are that upgrading from macOS Ventura to macOS Sonoma are very smooth, and there's currently no major reported issues.
+
+---
+
 ## Final Cut Pro 10.6.9
 
 **Final Cut Pro 10.6.9** was released on the Mac App Store on 19th September 2023.
@@ -40,6 +46,7 @@ If you're currently using **Final Cut Pro 10.6.8** on macOS Ventura or Sonoma, a
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | [Requires Color Finale 2.7](https://colorfinale.com)                                                    |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | FxFactory                | [Tracking using Title Templates Broken](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/) |
@@ -64,6 +71,7 @@ You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://g
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | No Known issues                                                                                         |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
