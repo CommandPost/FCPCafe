@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 26 Sep 2023 06:28:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Sep 2023 10:11:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Sep 2023 06:28:52 GMT</pubDate>
+        <pubDate>Thu, 28 Sep 2023 10:11:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1824,6 +1824,17 @@ Sign up to be the first to know 👉🏻</p>
             <link>https://fcp.cafe/#26th-september-2023</link>
             <guid isPermaLink="false">26th September 2023</guid>
             <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th September 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale 2.7</strong> is out now, which fixes issues with the latest Final Cut Pro 10.6.9.</p>
+<p><img src="/static/color-finale.jpg" alt=""></p>
+<p>It is compatible with macOS Sonoma and Ventura.</p>
+<p>You can learn more <a href="https://colorfinale.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-september-2023</link>
+            <guid isPermaLink="false">28th September 2023</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
