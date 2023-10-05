@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Oct 2023 06:51:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Oct 2023 22:24:14 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Oct 2023 06:51:55 GMT</pubDate>
+        <pubDate>Thu, 05 Oct 2023 22:24:14 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1879,6 +1879,93 @@ Sign up to be the first to know 👉🏻</p>
 <p>However, as requested by Vigneswaran Rajkumar, we've added the ability to <strong>Generate</strong> a list of sequential numbers, for example, Scene 01, Scene 02, Scene 03, etc.</p>
 <p>This is very handy for long-form projects, so to make the application more accessible, we're also reduced the price to a one-time payment of <strong>USD$9.99</strong> on the <strong>Mac App Store</strong>.</p>
 <p>You can learn more <a href="https://latenitefilms.github.io/FastCollections/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-october-2023</link>
+            <guid isPermaLink="false">5th October 2023</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th October 2023]]></title>
+            <description><![CDATA[<p><strong>Intelligent Assistance</strong>, the geniuses behind <a href="/ecosystem/tools/#builder-nle">Builder NLE</a>, <a href="/ecosystem/tools/#change-list-x">Change List X</a>, <a href="/ecosystem/tools/#findrcat">FindrCat</a>, <a href="/ecosystem/tools/#sendtox">SendToX</a>, <a href="/ecosystem/tools/#sync-n-link-x">Sync-N-Link X</a> and <a href="https://intelligentassistance.com">many other</a> incredible Final Cut Pro tools has just released another application!</p>
+<p><strong>Picture This</strong> allows you to harnesses the power of Generative AI to create unlimited, copyright free images from a Final Cut Pro Project right on your Mac, using the latest version of Stable Diffusion.</p>
+<p><img src="/static/picture-this-01.jpeg" alt=""></p>
+<p><img src="/static/picture-this-02.jpeg" alt=""></p>
+<p><img src="/static/picture-this-03.jpeg" alt=""></p>
+<p>To quote the App Store:</p>
+<blockquote>
+<p>Create stunning AI text-to-image artwork from Markers in your Final Cut Pro Projects or Premiere Pro Sequences. Picture This… takes the text-to-image prompts from Markers in a Project or Sequence and generates image variations for each prompt, and returns these images to Final Cut Pro as a new Project with Auditions, or to higher tracks in a Premiere Pro Sequence, for easy comparison.</p>
+<p>Using the latest version of Stable Diffusion, Picture This… provides background batch processing of images and the convenience of Auditions in your Final Cut Pro Projects.</p>
+<p><strong>Convenient</strong>
+Create your prompts where you will use them: in red Markers in your timeline.</p>
+<p><strong>Processes as a Batch in the Background</strong>
+Batch processing allows to you use your time productively while Picture This… — your “art department” — does it’s AI magic.
+Important: Do not continue working on that timeline. Any work you do on your edit will not be included in the results returned from Picture This…</p>
+<p><strong>Aligned in your Edit</strong>
+New images display right where you need them in your timeline.</p>
+<p><strong>Other Features</strong>
+Use multiple passes to hone in on the image you need. Optionally, fine tune the prompt each time.
+Images are always free, whether you generate one or 1000.
+Processing happens on your local Mac, never in the cloud.</p>
+<p>Images cannot be copyright individually, but do not limit the copyright on the finished project.</p>
+<p><strong>How it Works</strong>
+In Final Cut Pro enter your image description (text-to-image prompt) in a To-Do Marker where you want the image to start. Or in Premiere Pro, add a red Sequence Marker with a prompt. Images continue to the next Marker or to the end of the underlying clip.
+Export and Import XML, or drag a Project (FCP only) to Picture This….
+Choose your settings and click Start to generate images.
+After processing the Project is returned to Final Cut Pro with Auditions, and each Audition contains the alternative images for each prompt. Or the Sequence is ready to import to Premiere Pro, with the generated images stacked on Video Tracks above your existing edit. There will be on track for each alternate image generated from the prompts.
+You can modify prompts and send the Project/Sequence to Picture This… again.</p>
+<p><strong>Requirements:</strong>
+An Apple Silicon Mac running macOS Sonoma
+At least 8GB of RAM, but 16GB or more is recommended
+English text-to-image prompts are currently supported
+It requires macOS Sonoma and an Apple Silicon Mac.</p>
+</blockquote>
+<p>You can learn more on their official website <a href="https://intelligentassistance.com/picture-this-fcp.html">here</a>.</p>
+<p>You can purchase on the Mac App Store <a href="https://apps.apple.com/us/app/picture-this/id6466822042">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-october-2023</link>
+            <guid isPermaLink="false">5th October 2023</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th October 2023]]></title>
+            <description><![CDATA[<p><strong>dxRevive</strong> on <strong>FxFactory</strong> is currently on sale!</p>
+<p><strong>AI-Powered Speech Restoration:</strong>
+dxRevive is a versatile speech restoration plugin, dedicated to enriching the quality of various dialogue recordings. Unlike many other restoration plugins, dxRevive doesn’t merely filter the signal. It goes beyond, identifying and reintegrating missing frequency components, yielding studio-like recordings from diverse source materials.</p>
+<p><strong>Highly Optimized Neural Network:</strong>
+dxRevive features highly optimized algorithms based on artificial neural networks. The whole processing happens locally without sending data to the cloud or requiring special hardware. No uploading time delays or sharing of protected audio material required!</p>
+<p><strong>Multilingual Support:</strong>
+Our algorithms have undergone training using an extensive array of languages. They have been exposed to a diverse range of linguistic nuances and accents from speakers around the world through our custom-recorded speech database. Regardless of the input speech type, dxRevive excels at accurately restoring the intricacies of various pronunciations.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Noise removal</li>
+<li>Reverb suppression</li>
+<li>Restoration of absent frequencies</li>
+<li>Elimination of Codec Artifacts (e.g., from Skype or Zoom recordings)</li>
+<li>Recovery of clipped audio</li>
+<li>Application of spectral corrections</li>
+<li>Restoration of band-limited audio like phone call recordings</li>
+</ul>
+<p>You can watch a demo here:</p>
+<p><a href="https://www.youtube.com/watch?v=SP_8Lr2WTns"><img src="/static/dxrevive.jpeg" alt=""></a></p>
+<p>You can learn more over at <a href="https://fxfactory.com/info/dxrevive/">FxFactory</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-october-2023</link>
+            <guid isPermaLink="false">5th October 2023</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th October 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro 10.6.10</strong> is out now, which includes the following fixes:</p>
+<ul>
+<li>Fixes an issue that could cause an FxPlug-based title that analyzed a clip to result in an incomplete analysis.</li>
+<li>Fixes an issue that could cause a Motion template with an applied Align To behavior to display an incorrect animation.</li>
+</ul>
+<p>This fixes FxFactory products that perform object tracking or face recognition through the Title layer.</p>
+<p>HUGE thank you to Apple to listening to companies like FxFactory and turning around a bug fix so quickly!</p>
+<p><strong>Final Cut Pro for iPad 1.2.1</strong> is also out now, which includes the following fix:</p>
+<ul>
+<li>Fixes an issue that caused some titles and transitions to have incorrect animations.</li>
+</ul>
 ]]></description>
             <link>https://fcp.cafe/#5th-october-2023</link>
             <guid isPermaLink="false">5th October 2023</guid>
