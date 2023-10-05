@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 28 Sep 2023 10:11:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Sep 2023 10:25:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 Sep 2023 10:11:26 GMT</pubDate>
+        <pubDate>Thu, 28 Sep 2023 10:25:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1831,6 +1831,18 @@ Sign up to be the first to know 👉🏻</p>
 <p><img src="/static/color-finale.jpg" alt=""></p>
 <p>It is compatible with macOS Sonoma and Ventura.</p>
 <p>You can learn more <a href="https://colorfinale.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-september-2023</link>
+            <guid isPermaLink="false">28th September 2023</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th September 2023]]></title>
+            <description><![CDATA[<p><strong>Automatic Duck</strong> is testing their first workflow extension for Final Cut Pro, <strong>Music Reporter</strong>.</p>
+<p>This simple workflow extension solves a problem the developers have every time they make a video for YouTube, collecting the names of all the music tracks they used so they can put them in the credits and in the description.</p>
+<p>Drag your project onto the Music Reporter window and the Workflow Extension will list all of the clip names of the clips who were set to the Music role.</p>
+<p>To join the Music Reporter beta email: <a href="mailto:wes@automaticduck.com">wes@automaticduck.com</a></p>
+<p><a href="https://www.youtube.com/watch?v=ar2etWkFbsw"><img src="/static/music-reporter.jpeg" alt=""></a></p>
 ]]></description>
             <link>https://fcp.cafe/#28th-september-2023</link>
             <guid isPermaLink="false">28th September 2023</guid>
