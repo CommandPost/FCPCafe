@@ -125,6 +125,12 @@ jobs:
       contents: write
 
     steps:
+      - name: Download updated docs
+        uses: actions/download-artifact@v3
+        with:
+          name: docs
+          path: docs/
+
       - name: Checkout code
         uses: actions/checkout@v3
 
