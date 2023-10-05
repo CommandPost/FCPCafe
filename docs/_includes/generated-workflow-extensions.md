@@ -46,6 +46,12 @@
 
 ---
 
+## P
+
+{{ include "workflow-extensions/picture-this" }}
+
+---
+
 ## R
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
