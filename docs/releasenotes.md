@@ -15,6 +15,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.6.10           | 05/10/2023   | 16                   | 13.5.2        | 4.0            |
 | 10.6.9            | 19/09/2023   | 49                   | 13.5.2        | 4.0            |
 | 10.6.8            | 01/08/2023   | 14                   | 12.6          | 4.0            |
 | 10.6.7            | 18/07/2023   | 56                   | 12.6          | 4.0            |
@@ -81,14 +82,14 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | 2020	| 4       |
 | 2021	| 5       |
 | 2022	| 4       |
-| 2023	| 4       |
+| 2023	| 5       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 8       |
 | Q2	  | 14      |
-| Q3	  | 11      |
+| Q3	  | 12      |
 | Q4	  | 16      |
 
 {.compact}
@@ -103,13 +104,23 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | Jul	| 3       |
 | Aug	| 4       |
 | Sept	| 4       |
-| Oct	| 5       |
+| Oct	| 6       |
 | Nov	| 6       |
 | Dec	| 5       |
 
 ---
 
 ## iPad
+
+### Final Cut Pro 1.2.1 (for iPad)
+
+**Released October 5, 2023**
+
+**Final Cut Pro for iPad 1.2.1** includes the following fixes:
+
+- Fixes an issue that caused some titles and transitions to have incorrect animations.
+
+---
 
 ### Final Cut Pro 1.2 (for iPad)
 
@@ -203,6 +214,17 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 10.6.10
+
+**Released October 5, 2023**
+
+** Final Cut Pro 10.6.10** includes the following fixes:
+
+- Fixes an issue that could cause an FxPlug-based title that analyzed a clip to result in an incomplete analysis.
+- Fixes an issue that could cause a Motion template with an applied Align To behavior to display an incorrect animation.
+
+---
 
 ### Final Cut Pro 10.6.9
 

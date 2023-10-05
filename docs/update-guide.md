@@ -16,6 +16,31 @@ You can read our current recommendations below:
 
 So far, all reports are that upgrading from macOS Ventura to macOS Sonoma are very smooth, and there's currently no major reported issues.
 
+However, it's worth reading Larry Jordan's post on [Don’t Hurry to Upgrade](https://larryjordan.com/articles/caution-dont-hurry-to-upgrade/).
+
+---
+
+## Final Cut Pro 10.6.10
+
+**Final Cut Pro 10.6.10** was released on the Mac App Store on 6th October 2023.
+
+FxFactory has confirmed that this fixes object tracking and face recognition for any FxFactory plug-ins working on the Title layer. Woohoo!
+
+If you're currently using **Final Cut Pro 10.6.9** on macOS Ventura or Sonoma, there are currently no major reported issues that would prevent you from updating.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | No Known issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+
 ---
 
 ## Final Cut Pro 10.6.9
@@ -82,9 +107,9 @@ You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://g
 
 ---
 
-## Final Cut Pro 1.2 (for iPad)
+## Final Cut Pro 1.2.1 (for iPad)
 
 **Final Cut Pro 10.6.7 (for Mac)** and **Final Cut Pro 10.6.8 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.<br />
 This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)** and **Final Cut Pro 1.1 (for iPad)**.
 
-We are currently actively investigating **Final Cut Pro 10.6.9 (for Mac)** and **Final Cut Pro 1.2 (for iPad)** support for Transfer Toolbox.
+We are currently actively investigating **Final Cut Pro 10.6.10 (for Mac)** and **Final Cut Pro 1.2.1 (for iPad)** support for Transfer Toolbox.
