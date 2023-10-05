@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Oct 2023 22:35:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Oct 2023 22:51:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Oct 2023 22:35:26 GMT</pubDate>
+        <pubDate>Thu, 05 Oct 2023 22:51:09 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1885,7 +1885,7 @@ Sign up to be the first to know 👉🏻</p>
             <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[5th October 2023]]></title>
+            <title><![CDATA[6th October 2023]]></title>
             <description><![CDATA[<p><strong>Intelligent Assistance</strong>, the geniuses behind <a href="/ecosystem/tools/#builder-nle">Builder NLE</a>, <a href="/ecosystem/tools/#change-list-x">Change List X</a>, <a href="/ecosystem/tools/#findrcat">FindrCat</a>, <a href="/ecosystem/tools/#sendtox">SendToX</a>, <a href="/ecosystem/tools/#sync-n-link-x">Sync-N-Link X</a> and <a href="https://intelligentassistance.com">many other</a> incredible Final Cut Pro tools has just released another application!</p>
 <p><strong>Picture This</strong> allows you to harnesses the power of Generative AI to create unlimited, copyright free images from a Final Cut Pro Project right on your Mac, using the latest version of Stable Diffusion.</p>
 <p><img src="/static/picture-this-01.jpeg" alt=""></p>
@@ -1922,12 +1922,12 @@ It requires macOS Sonoma and an Apple Silicon Mac.</p>
 <p>You can learn more on their official website <a href="https://intelligentassistance.com/picture-this-fcp.html">here</a>.</p>
 <p>You can purchase on the Mac App Store <a href="https://apps.apple.com/us/app/picture-this/id6466822042">here</a>.</p>
 ]]></description>
-            <link>https://fcp.cafe/#5th-october-2023</link>
-            <guid isPermaLink="false">5th October 2023</guid>
-            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <link>https://fcp.cafe/#6th-october-2023</link>
+            <guid isPermaLink="false">6th October 2023</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[5th October 2023]]></title>
+            <title><![CDATA[6th October 2023]]></title>
             <description><![CDATA[<p><strong>dxRevive</strong> on <strong>FxFactory</strong> is currently on sale!</p>
 <p><strong>AI-Powered Speech Restoration:</strong>
 dxRevive is a versatile speech restoration plugin, dedicated to enriching the quality of various dialogue recordings. Unlike many other restoration plugins, dxRevive doesn’t merely filter the signal. It goes beyond, identifying and reintegrating missing frequency components, yielding studio-like recordings from diverse source materials.</p>
@@ -1949,12 +1949,12 @@ Our algorithms have undergone training using an extensive array of languages. Th
 <p><a href="https://www.youtube.com/watch?v=SP_8Lr2WTns"><img src="/static/dxrevive.jpeg" alt=""></a></p>
 <p>You can learn more over at <a href="https://fxfactory.com/info/dxrevive/">FxFactory</a>.</p>
 ]]></description>
-            <link>https://fcp.cafe/#5th-october-2023</link>
-            <guid isPermaLink="false">5th October 2023</guid>
-            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <link>https://fcp.cafe/#6th-october-2023</link>
+            <guid isPermaLink="false">6th October 2023</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[5th October 2023]]></title>
+            <title><![CDATA[6th October 2023]]></title>
             <description><![CDATA[<p><strong>Final Cut Pro 10.6.10</strong> is out now, which includes the following fixes:</p>
 <ul>
 <li>Fixes an issue that could cause an FxPlug-based title that analyzed a clip to result in an incomplete analysis.</li>
@@ -1967,9 +1967,9 @@ Our algorithms have undergone training using an extensive array of languages. Th
 <li>Fixes an issue that caused some titles and transitions to have incorrect animations.</li>
 </ul>
 ]]></description>
-            <link>https://fcp.cafe/#5th-october-2023</link>
-            <guid isPermaLink="false">5th October 2023</guid>
-            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <link>https://fcp.cafe/#6th-october-2023</link>
+            <guid isPermaLink="false">6th October 2023</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
