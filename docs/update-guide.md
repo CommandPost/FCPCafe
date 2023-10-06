@@ -18,6 +18,8 @@ So far, all reports are that upgrading from macOS Ventura to macOS Sonoma are ve
 
 However, it's worth reading Larry Jordan's post on [Don’t Hurry to Upgrade](https://larryjordan.com/articles/caution-dont-hurry-to-upgrade/).
 
+There have been some reports that the current macOS Sonoma 14.1 beta also has issues with Final Cut Pro.
+
 ---
 
 ## Final Cut Pro 10.6.10
@@ -32,7 +34,7 @@ If you're currently using **Final Cut Pro 10.6.9** on macOS Ventura or Sonoma, t
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Color Finale             | No Known issues                                                                                         |
+| Color Finale             | [Requires Color Finale 2.7.0 Build 552](https://colorfinale.com)                                        |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
@@ -67,6 +69,8 @@ CoreMelt's Tracking Tools are not affected, as they don't use the Analysis API o
 
 If you're currently using **Final Cut Pro 10.6.8** on macOS Ventura or Sonoma, and don't use FxFactory's Trackers, then there are currently no major reported issues that would prevent you from updating.
 
+Motion templates with an applied **Align To** behavior also display an incorrect animation.
+
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
@@ -78,7 +82,7 @@ If you're currently using **Final Cut Pro 10.6.8** on macOS Ventura or Sonoma, a
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
-| MotionVFX                | No Known Issues                                                                                         |
+| MotionVFX                | [Tracking using Title Templates Broken](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/) |
 
 ---
 
