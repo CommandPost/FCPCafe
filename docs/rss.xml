@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Oct 2023 22:51:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Oct 2023 21:07:58 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Oct 2023 22:51:09 GMT</pubDate>
+        <pubDate>Fri, 06 Oct 2023 21:07:58 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1970,6 +1970,31 @@ Our algorithms have undergone training using an extensive array of languages. Th
             <link>https://fcp.cafe/#6th-october-2023</link>
             <guid isPermaLink="false">6th October 2023</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th October 2023]]></title>
+            <description><![CDATA[<p><strong>Luca Visual FX</strong> has released a new Motion Template package on <strong>FxFactory</strong>.</p>
+<p><strong>LED Display Screens</strong> is a set of 15 new templates for Final Cut Pro (12 effects and 3 titles) that enable users to recreate the unique look and feel of LED panels in 3D space.</p>
+<p><a href="https://www.youtube.com/watch?v=lvpkhAYlU_g"><img src="/static/ledscreens.jpeg" alt=""></a></p>
+<p>Once loaded with custom footage, the screens, which come in all sorts of shapes, can be animated and customized in many ways.</p>
+<p>This is a very useful tool for ads, music videos, promos, news, sports, titling, 3D simulation and compositing effects, and much more.</p>
+<p>It's currently on sale for <strong>USD$49</strong> (normally USD$59).</p>
+<p>Here’s the dedicated web page with Demo, Tutorial and samples to preview <a href="https://www.lucavisualfx.com/product/led-display-screens/">here</a>.</p>
+<p>You can buy now on FxFactory <a href="https://fxfactory.com/info/leddisplayscreens/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-october-2023</link>
+            <guid isPermaLink="false">7th October 2023</guid>
+            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th October 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale 2.7.0 Build 552</strong> is out now, which fixes compatibility issues with the latest Final Cut Pro 10.6.10 update.</p>
+<p>Existing users will be an email in their inbox with a link to the latest update.</p>
+<p>You can learn more <a href="https://colorfinale.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-october-2023</link>
+            <guid isPermaLink="false">7th October 2023</guid>
+            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
