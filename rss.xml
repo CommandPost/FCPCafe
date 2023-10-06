@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 06 Oct 2023 21:07:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Oct 2023 21:19:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 06 Oct 2023 21:07:58 GMT</pubDate>
+        <pubDate>Fri, 06 Oct 2023 21:19:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1970,6 +1970,21 @@ Our algorithms have undergone training using an extensive array of languages. Th
             <link>https://fcp.cafe/#6th-october-2023</link>
             <guid isPermaLink="false">6th October 2023</guid>
             <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th October 2023]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.3</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>General playback performance improvements.</li>
+<li>Updated from FxPlug 4.2.7 to FxPlug 4.2.8.</li>
+<li>The wrapper application now quits when you close the main window.</li>
+</ul>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-october-2023</link>
+            <guid isPermaLink="false">7th October 2023</guid>
+            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[7th October 2023]]></title>
