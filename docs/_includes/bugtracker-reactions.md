@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
 - [FxPlug4 Analysis API broken with Titles (September 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/257)
 - [FCP & QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/250)
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
@@ -27,4 +28,3 @@
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
 - [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190)
 - [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189)
-- [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133)
