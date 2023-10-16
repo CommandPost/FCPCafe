@@ -20,6 +20,8 @@ However, it's worth reading Larry Jordan's post on [Don’t Hurry to Upgrade](ht
 
 There have been some reports that the current macOS Sonoma 14.1 beta also has issues with Final Cut Pro.
 
+If you use **MotionVFX**, mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requires updates for macOS Sonoma.
+
 ---
 
 ## Final Cut Pro 10.6.10
@@ -41,7 +43,7 @@ If you're currently using **Final Cut Pro 10.6.9** on macOS Ventura or Sonoma, t
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
-| MotionVFX                | No Known Issues                                                                                         |
+| MotionVFX                | mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requires updates for macOS Sonoma                     |
 
 ---
 
