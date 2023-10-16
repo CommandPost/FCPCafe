@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 16 Oct 2023 09:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Oct 2023 22:00:50 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Oct 2023 09:39:42 GMT</pubDate>
+        <pubDate>Mon, 16 Oct 2023 22:00:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2077,6 +2077,33 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#16th-october-2023</link>
             <guid isPermaLink="false">16th October 2023</guid>
             <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th October 2023]]></title>
+            <description><![CDATA[<p>Last Chance for <strong>ShotANVIL Intro Price</strong>!</p>
+<p><strong>CoreMelt</strong> have extended the introductory special for CoreMelt ShotAnvil a few more days to give you a second chance to see just how powerful the all in one AI person keying, tracked paint, mask and insert graphic tools are.</p>
+<p><img src="/static/coremelt-shotanvil.jpg" alt=""></p>
+<p>If you own any previous CoreMelt product with Mocha tracking get 50% off the purchase price until 21st October.</p>
+<p>ShotANVIL combines PaintX , SliceX and TrackX into one combined editor interface allowing you to do everything in one plugin, with powerful new tools for AI masking, paint, keying and enhanced shape masks.</p>
+<p>Owners of the CoreMelt Detonators bundle will also get ShotAnvil for free - a license upgrade will get sent to you automatically.</p>
+<p>Features include:</p>
+<ul>
+<li>Powerful compositing in one plugin with multiple different tracks applied</li>
+<li>AI one click person masking</li>
+<li>Auto applying of effects only to people, eg night vision</li>
+<li>Beauty skin smoothing using AI person detection</li>
+<li>Integrated tracked paint including animated paint strokes</li>
+<li>Advanced edge feather controls for masking</li>
+<li>Combine paint, masks, tracking and graphic inserts in one plugin</li>
+<li>Tracked warping with multiple brushes</li>
+<li>AI Inpainting for removing wires, cables, touch-ups</li>
+</ul>
+<p>There is a <a href="https://coremelt.com/pages/downloads">free two week trial available</a>, <a href="https://coremelt.com/pages/shotanvil-tutorials">video tutorials</a> and <a href="https://coremelt.com/pages/shotanvil-documentation">online documentation</a>.</p>
+<p>You can learn more on the CoreMelt website <a href="https://coremelt.com/products/shotanvil-tracked-paint-masks-and-graphics-insert-with-one-click-ai-person-keying">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-october-2023</link>
+            <guid isPermaLink="false">17th October 2023</guid>
+            <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
