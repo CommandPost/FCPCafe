@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Oct 2023 09:12:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Oct 2023 09:30:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Oct 2023 09:12:32 GMT</pubDate>
+        <pubDate>Mon, 16 Oct 2023 09:30:19 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2038,6 +2038,45 @@ Our algorithms have undergone training using an extensive array of languages. Th
             <link>https://fcp.cafe/#10th-october-2023</link>
             <guid isPermaLink="false">10th October 2023</guid>
             <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2023]]></title>
+            <description><![CDATA[<p>Chris Roy has released <strong>PostWatch 3.0</strong> to the world for free, with macOS Sonoma and OffShoot support, along with a refreshed user interface.</p>
+<p><img src="/static/postwatch-3.jpeg" alt=""></p>
+<p>Get alerts from various post production applications and macOS sent to the Pushover smartphone app.</p>
+<p>You can download and learn more <a href="https://chrisroyfilms.com/postwatch/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2023</link>
+            <guid isPermaLink="false">16th October 2023</guid>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2023]]></title>
+            <description><![CDATA[<p><strong>Richard Taylor</strong> at <strong>FINAL CUT TV</strong> will be giving away two free passes to the FCP Creative Summit over the next week.</p>
+<p>Subscribe and watch his YouTube live streams this week for a chance to win!</p>
+<p><img src="/static/fcptv-free-passes.jpeg" alt=""></p>
+<p>He also has <strong>15% off</strong> promo code for the FCP Creative Summit: <strong>FCPRADIO</strong></p>
+<p>You can find him on YouTube <a href="https://www.youtube.com/richardtaylortv">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2023</link>
+            <guid isPermaLink="false">16th October 2023</guid>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released various updates to their software for macOS Sonoma compatibility.</p>
+<blockquote>
+<p>mLUT Plugin v3.0.4: Improved macOS Sonoma compatibility, minor bug and crash fixes
+mFlare v2 3.0.3: Improved macOS Sonoma compatibility, minor bug and crash fixes
+mFilmLook v2.0.5: Fixed memory leaks and visual artefacts, bug and crash fixes
+mPuppet v2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixes
+mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixes</p>
+</blockquote>
+<p>You can find the official MotionVFX website <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2023</link>
+            <guid isPermaLink="false">16th October 2023</guid>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
