@@ -1,8 +1,8 @@
-### MarkersExtractor CLI
+### MarkersExtractor (CLI & API)
 
-![](/static/MarkersExtractorCLI.gif)
+![](/static/markersextractor-social-card.png)
 
-MarkersExtractor CLI is Marker metadata extraction and conversion tool for Final Cut Pro. It is both a CLI Tool and an API Library.
+MarkersExtractor is Marker metadata extraction and conversion tool for Final Cut Pro. It is both a CLI Tool and an API Library.
 
 Some of the core features include :
 
