@@ -2,6 +2,10 @@
 
 The **Final Cut Pro Creative Summit** dates and locations have now been confirmed.
 
+!!!success
+Get **15% off** when you use the promo code **FCPCAFE**.
+!!!
+
 It will take place **November 6th to 8th** at Apple Park & [The Hyatt Regency Santa Clara](https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara).
 
 > Whether you are a trained professional or just starting your creative career, Apple has the software and tools you need to power your creative work. This unique event is where Apple power users and Final Cut Pro Professionals come together to learn and discuss their craft. We are excited to be back in Cupertino! The FCP Creative Summit features 2 full days of sessions in multiple tracks and a unique day at Apple!
@@ -15,6 +19,36 @@ You can find a list of **speakers** [here](http://fcpcreativesummits.com/speaker
 You can visit the **official website** [here](http://fcpcreativesummits.com).
 
 ![](/static/fcp-creative-summit-2023.jpg)
+
+---
+
+## Meet iJustine
+
+It's also been announced that the incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), will be the keynote speaker at the FCP Creative Summit!
+
+![](/static/fcp-cs-ijustine-keynote.jpg)
+
+---
+
+## Why should you go?
+
+_Written by [Iain Anderson](https://iain-anderson.com)_.
+
+If you’re an FCP editor, you might have considered going to the FCP Creative Summit at some point — and you probably should. This year, it’s cheaper than ever before (USD$299 - with an additional 15% off when you use the promo code **FCPCAFE**) and we’ll be visiting Apple Park.
+
+It’s on from 6-8th November 2023, and kicks off with Apple Day; a keynote, then a visit to Apple Park where we will be shown something, at least. In previous years (2015-2019) we visited the old Apple campus, but this time we get to go to the shiny new one. There have been Global Summits held online, but they’re absolutely not the same. Yes, you can learn new things, but if you can’t eat too much Korean barbecue with new friends, it’s just not the same.
+
+On the main two days of the conference, there will be many talks worth attending; some panels, a big, fun tip show, and plenty of talks in two separate tracks. I’m giving three talks (on 3D objects, 360° editing, hardware device) and I’ll be shamelessly bribing people to come to my talks with free koala giveaways. You can see a full list of almost all the speakers here and see a nearly-complete program here; you should find something for everyone. Chris Hocking, the kind and benevolent person behind this site and CommandPost, will also be there, as part of an expert panel on Digital Storytelling. And as at the last two in-person Summits, iJustine will be delivering the keynote address.
+
+Each year, I try to record enough video to document the Summit for future years, and although the white balance in the rooms at the Juniper Hotel (where we were in 2019) is simply awful, here’s a short video which will give you a bit more of a flavour of what to expect:
+
+[![](/static/iain-fcp-creative-summit-vimeo.jpeg)](https://vimeo.com/869415937)
+
+It’s no secret that I like the Summit, even better than NAB. It’s not because it’s the best in-person FCP event of the year, though it is. It’s not even because you get to visit Apple and talk to the FCP team. Nope, because it’s the best place to make connections in the Final Cut Pro world, and because we haven’t had one of these since 2019. Too many of us toil away alone in our bunkers, and this is a chance to step into the sunlight and say hi.
+
+See you there?
+
+Iain has also written a post on ProVideo Coalition [here](https://www.provideocoalition.com/the-final-cut-pro-creative-summit-2023/).
 
 ---
 

@@ -10,6 +10,11 @@
 
 ---
 
+!!!success FCP Creative Summit
+Get **15% off** when you use the promo code **FCPCAFE**.<br />
+Learn more about the conference [here](/fcp-creative-summit/).
+!!!
+
 !!!
 **Should I update Final Cut Pro?**<br />
 Read our current recommendations [here](/update-guide/).
