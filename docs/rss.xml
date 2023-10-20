@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Oct 2023 03:38:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Oct 2023 03:23:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Oct 2023 03:38:10 GMT</pubDate>
+        <pubDate>Fri, 20 Oct 2023 03:23:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2104,6 +2104,17 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#17th-october-2023</link>
             <guid isPermaLink="false">17th October 2023</guid>
             <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th October 2023]]></title>
+            <description><![CDATA[<p>We're very excited to announce that FCP Cafe now has a <strong>15% discount</strong> to offer for people wanting to attend the Final Cut Pro Creative Summit.</p>
+<p>Simply use the discount code <strong>FCPCAFE</strong> on checkout!</p>
+<p>The amazing <strong>Iain Anderson</strong> has also written an article on our FCP Creative Summit page about WHY you should attend this year!</p>
+<p>You can read this post <a href="/fcp-creative-summit">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-october-2023</link>
+            <guid isPermaLink="false">20th October 2023</guid>
+            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
