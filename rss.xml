@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 20 Oct 2023 06:30:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Oct 2023 23:39:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Oct 2023 06:30:59 GMT</pubDate>
+        <pubDate>Mon, 23 Oct 2023 23:39:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2115,6 +2115,26 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#20th-october-2023</link>
             <guid isPermaLink="false">20th October 2023</guid>
             <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th October 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has announced <strong>CineStudio</strong> will be released on <strong>25th October 2023 at 9AM ET</strong>.</p>
+<blockquote>
+<ul>
+<li>Brand new tools to change your editing forever</li>
+<li>Cutting-edge technology powered by AI</li>
+<li>A whole new reality for creators all over the world</li>
+</ul>
+<p>Break free of technical limitations and never again compromise your vision.</p>
+<p>We set out to change the game in Final Cut Pro with cutting-edge editing tools engineered to powerboost your creativity, and it’s almost time to share it with the world.</p>
+<p>Be at the forefront of the revolution. Dare to think bigger &amp; create further.</p>
+</blockquote>
+<p>You can learn more <a href="https://www.motionvfx.com/go-beyond-possible">here</a>.</p>
+<p><img src="/static/cine-studio-coming-soon.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#24th-october-2023</link>
+            <guid isPermaLink="false">24th October 2023</guid>
+            <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
