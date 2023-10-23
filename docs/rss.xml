@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 23 Oct 2023 23:39:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Oct 2023 23:50:11 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Oct 2023 23:39:02 GMT</pubDate>
+        <pubDate>Mon, 23 Oct 2023 23:50:11 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2131,6 +2131,15 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 </blockquote>
 <p>You can learn more <a href="https://www.motionvfx.com/go-beyond-possible">here</a>.</p>
 <p><img src="/static/cine-studio-coming-soon.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#24th-october-2023</link>
+            <guid isPermaLink="false">24th October 2023</guid>
+            <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th October 2023]]></title>
+            <description><![CDATA[<p>Larry Jordan has released a great blog post, <strong>Six Hidden Editing Keyboard Shortcuts in Apple Final Cut Pro</strong>.</p>
+<p>You can read it <a href="https://larryjordan.com/articles/six-hidden-editing-keyboard-shortcuts-in-apple-final-cut-pro/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24th-october-2023</link>
             <guid isPermaLink="false">24th October 2023</guid>
