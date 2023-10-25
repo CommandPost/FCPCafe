@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 23 Oct 2023 23:50:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Oct 2023 10:23:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Oct 2023 23:50:11 GMT</pubDate>
+        <pubDate>Wed, 25 Oct 2023 10:23:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2144,6 +2144,51 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#24th-october-2023</link>
             <guid isPermaLink="false">24th October 2023</guid>
             <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th October 2023]]></title>
+            <description><![CDATA[<p>We were very sad to learn today that <strong>fcp.co</strong> has officially disappeared from the Internet.</p>
+<p>The site now permanently redirects to Peter's <a href="https://idustrialrevolution.com">idustrialrevolution</a> website.</p>
+<p><img src="/static/fcpclose.jpeg" alt=""></p>
+<p>We've been a big fans of everything Peter has done with fcp.co over the years, especially the incredible case studies.</p>
+<p>I've personally been very fortunate to have articles about CommandPost, BRAW Toolbox, Gyroflow Toolbox and the Neighbours spin-off series, Erinsborough High featured on the site. HUGE thank you to Ronnie, Alex &amp; Iain for writing articles about our stuff!</p>
+<p>Running a website like fcp.co is a HUGE amount of work, especially when you're running a very active forum, so massive hats off to Peter for keeping it going for over a decade!</p>
+<p>Peter explains <a href="https://idustrialrevolution.com/blogs/news/whatever-happened-to-fcp-co">on his site</a>...</p>
+<blockquote>
+<p><strong>WHATEVER HAPPENED TO FCP.CO?</strong></p>
+<p>Good, question, hopefully this short blog will answer a few queries about the life and eventual closure of the best Final Cut Pro website.</p>
+<p>The site ran for over 12 years, it started before Final Cut Pro X was released and surfed the wave of creation, innovation and finally in the latter years, frustration.</p>
+<p>First of all, it is very hard to run a news site about a product when there isn't any news!  Although there are some very active individuals in the FCP ecosystem who make a lot of noise, there isn't much happening these days.</p>
+<p>That might be because there are hundreds of thousands of happy FCP editors out there that just get on and edit. It might be because everyone has bought every FCP product they need. Or have the majority of editors shifted over to Premiere and Resolve?</p>
+<p>Secondly, it is the old problem of the cost and effort of running a site compared to the return. Although we had a few great advertisers who worked with us for a long time, there were a lot of companies who wanted a lot for nothing. That doesn't pay the bills. We were in fact quite shocked by the rudeness of a few individuals when asked for help after promoting their products/services for free for a number of years.</p>
+<p>Over the last 18 months our hosting became a problem. What started off as a brilliant home for the site, lost all of its peripheral services and scheduled maintenance that made the site tick over. So it was either move the site to a new host that had better customer care, or close.</p>
+<p>So, why is the explanation of the closure on this website? Because, for the majority of its life, Idustrial Revolution's sales have underwritten the cost. We were in discussion with a few parties about taking over the site, but they all eventually fizzled out.</p>
+<p>It breaks my heart to close the site, I still believe FCP is the fastest and most creative NLE out there, but the industry doesn't share the same opinion. At one point Apple had a massive share of the NLE market with FCP7. FCPX never really recovered from the disastrous launch and Premiere (as bad as it was/still is) filled the vacuum.</p>
+<p>Finally, chapeu to a few of the people that made the site the success it was. Thank you to David R, Sam, Ronnie, Roger, Philip &amp; Gregg, Iain, Oliver and of course Karsten who without his daily help, the Forum would have died under a mountain of spam.</p>
+<p>All is not lost though, I will add content to the blog section on this site. So please come back, you might even like one of our plugins!</p>
+<p>Peter</p>
+</blockquote>
+<p>You can checkout Peter's awesome plugins and blog posts over at <a href="https://idustrialrevolution.com">idustrialrevolution</a>.</p>
+<p>We hope he continues to release new and exciting Final Cut Pro plugins, and interesting blog posts!</p>
+<p>We're also hopeful <strong>FCP Cafe</strong> can help fill the void fcp.co has left for Final Cut Pro professionals - especially in terms of Case Studies.</p>
+<p>The aim for FCP Cafe has always been for it to be open and community driven. You can learn more on our <a href="/contribute/">Contribute page</a>.</p>
+<p>It's all hosted and managed from GitHub, so people can always fork the site (like <a href="https://sequence.film/docs/">Sequence already has</a>!) - so hopefully it will never disappear from the Internet.</p>
+<p>Thanks again Peter for EVERYTHING you've done for the Final Cut Pro Community! Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-october-2023</link>
+            <guid isPermaLink="false">25th October 2023</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th October 2023]]></title>
+            <description><![CDATA[<p>There's an upcoming <strong>Apple Event</strong> on <strong>31st October</strong>.</p>
+<p>The &quot;Scary Fast&quot; presentation is anticipated to include Mac updates.</p>
+<p>You can add to your calendar via the official <a href="https://www.apple.com/au/apple-events/">Apple website</a>.</p>
+<p>You can read Apple Insider's predictions <a href="https://appleinsider.com/articles/23/10/24/apple-promises-scary-fast-mac-announcement-the-night-of-october-30">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-october-2023</link>
+            <guid isPermaLink="false">25th October 2023</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
