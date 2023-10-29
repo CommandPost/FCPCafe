@@ -28,7 +28,7 @@
 
 ## P
 
-{{ include "developer-tools-and-frameworks/pipeline" }}
+{{ include "developer-tools-and-frameworks/pipeline-neo" }}
 
 ---
 
