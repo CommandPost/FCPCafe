@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 30 Oct 2023 01:48:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Nov 2023 08:26:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 30 Oct 2023 01:48:33 GMT</pubDate>
+        <pubDate>Thu, 02 Nov 2023 08:26:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2189,6 +2189,50 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#25th-october-2023</link>
             <guid isPermaLink="false">25th October 2023</guid>
             <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2023]]></title>
+            <description><![CDATA[<p>This week, everyone in the Final Cut Pro community has been talking about Apple's <strong>Scary Fast</strong> keynote.</p>
+<p>Faster Mac's is always a great thing for Final Cut Pro users. The 16-inch MacBook Pro M3 Max looks like an absolute beast!</p>
+<p>The fact they shot everyone on an iPhone is insanely impressive. However even more exciting is finally seeing some behind-the-scenes footage from a keynote - camera aside!</p>
+<p>You can watch the full keynote on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=ctkW3V0Mh-k"><img src="/static/apple-oct-30-event.jpeg" alt=""></a></p>
+<p>You can watch the incredible behind the scenes video on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=V3dbG9pAi8I"><img src="/static/apple-oct-30-bts.jpeg" alt=""></a></p>
+<p>You can also read Apple's <strong>Behind the scenes at Scary Fast: Apple’s keynote event shot on iPhone and edited on Mac</strong> article <a href="https://www.apple.com/newsroom/2023/10/behind-the-scenes-at-scary-fast-apples-keynote-event-shot-on-iphone/">here</a>.</p>
+<p>Felipe Baez has also posted a video, titled <strong>Apple's Scary Fast event - Disappointing and mediocre?</strong>.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=0mAW3gWGqwM"><img src="/static/felipe-mediocre.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2023</link>
+            <guid isPermaLink="false">1st November 2023</guid>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2023]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates (The Final Cut Bro)</strong> recently did a live stream on YouTube called <strong>mRotoAI Vs. Rotobrush 3.0 Vs. Magic Mask LIVE!</strong>.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=CPEJbFSTvSA"><img src="/static/dylan-bates-mrotoai-live-stream.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2023</link>
+            <guid isPermaLink="false">1st November 2023</guid>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2023]]></title>
+            <description><![CDATA[<p>Blackmagic Design writes:</p>
+<blockquote>
+<p>Today we announced new lower prices for the Blackmagic Cloud Store family of high performance network storage. The Blackmagic Cloud Store Mini 8TB is now reduced by $710 to $1,645, Blackmagic Cloud Store 20TB is reduced by $1,950 to $5,645 and Blackmagic Cloud Store 80TB is reduced by $7,400 to $15,595. These new prices will help make high performance network storage affordable for anyone!</p>
+<p>Blackmagic Cloud Store and Blackmagic Cloud Store Mini are extremely fast high capacity network disks designed to handle the large media files used on Hollywood feature films. The design uses an advanced flash memory core so it easily handles lots of simultaneous users accessing media files at the same time. There is also an HDMI monitoring output so you can watch a live graphic view of the storage operating on a TV or monitor. Plus, with built in Dropbox and Google Drive sync, files can be distributed between multiple Blackmagic Cloud Stores globally so each site has very fast local file access, even though files can be distributed on lower cost internet connections.</p>
+<p>Blackmagic Cloud Store models are in stock and available from Blackmagic Design resellers worldwide.</p>
+</blockquote>
+<p>This is really interesting for Final Cut Pro users, as Blackmagic's network storage is now one of the most cost effective options around.</p>
+<p>You can learn more <a href="https://www.blackmagicdesign.com/products/blackmagiccloudstore">here</a>.</p>
+<p><img src="/static/bmd-cloud-store.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2023</link>
+            <guid isPermaLink="false">1st November 2023</guid>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
