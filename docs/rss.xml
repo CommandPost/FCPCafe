@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 03 Nov 2023 02:47:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Nov 2023 01:10:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Nov 2023 02:47:00 GMT</pubDate>
+        <pubDate>Sun, 05 Nov 2023 01:10:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2233,6 +2233,26 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#1st-november-2023</link>
             <guid isPermaLink="false">1st November 2023</guid>
             <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th November 2023]]></title>
+            <description><![CDATA[<p>If you can't use your camera or video output device (such as a Blackmagic or AJA IO card in Final Cut Pro) after updating to <strong>macOS Sonoma 14.1</strong>, Apple has released a workaround.</p>
+<p>Starting in <strong>macOS Sonoma 14.1</strong>, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings.</p>
+<p>You can learn more <a href="https://support.apple.com/en-us/HT213969">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-november-2023</link>
+            <guid isPermaLink="false">4th November 2023</guid>
+            <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th November 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale</strong> is offering <strong>20% off</strong> all individual products this week!</p>
+<p>Just use the offer code: <strong>CW20</strong></p>
+<p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-november-2023</link>
+            <guid isPermaLink="false">4th November 2023</guid>
+            <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
