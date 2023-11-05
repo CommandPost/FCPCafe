@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 05 Nov 2023 01:30:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Nov 2023 01:43:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Nov 2023 01:30:22 GMT</pubDate>
+        <pubDate>Sun, 05 Nov 2023 01:43:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2239,6 +2239,19 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <description><![CDATA[<p>If you can't use your camera or video output device (such as a Blackmagic or AJA IO card in Final Cut Pro) after updating to <strong>macOS Sonoma 14.1</strong>, Apple has released a workaround.</p>
 <p>Starting in <strong>macOS Sonoma 14.1</strong>, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings.</p>
 <p>You can learn more <a href="https://support.apple.com/en-us/HT213969">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-november-2023</link>
+            <guid isPermaLink="false">4th November 2023</guid>
+            <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th November 2023]]></title>
+            <description><![CDATA[<p><strong>CoreMelt</strong> is at the Final Cut Creative Summit in Cupertino this week, as a Platinum Sponsor.</p>
+<p>To celebrate they're offering <strong>30% off</strong> both <strong>ShotAnvil</strong> and <strong>PaintX</strong> until 10th November.</p>
+<p>Just use the offer code: <strong>FCPCS23XD</strong>*</p>
+<p>If you missed what ShotAnvil can do, take a look at the <a href="https://coremelt.com/pages/shotanvil-tutorials">range of tutorials</a>.</p>
+<p>If you don't need everything ShotAnvil does, <a href="https://coremelt.com/products/paintx-powered-by-mocha">PaintX</a> gives you powerful tracked paint as a more affordable option, but is still very flexible and useful.</p>
+<p>Both application are a <strong>one time purchase</strong>.</p>
 ]]></description>
             <link>https://fcp.cafe/#4th-november-2023</link>
             <guid isPermaLink="false">4th November 2023</guid>
