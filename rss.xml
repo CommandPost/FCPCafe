@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 05 Nov 2023 01:52:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Nov 2023 08:01:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Nov 2023 01:52:20 GMT</pubDate>
+        <pubDate>Mon, 06 Nov 2023 08:01:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2252,6 +2252,7 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 <p>If you missed what ShotAnvil can do, take a look at the <a href="https://coremelt.com/pages/shotanvil-tutorials">range of tutorials</a>.</p>
 <p>If you don't need everything ShotAnvil does, <a href="https://coremelt.com/products/paintx-powered-by-mocha">PaintX</a> gives you powerful tracked paint as a more affordable option, but is still very flexible and useful.</p>
 <p>Both application are a <strong>one time purchase</strong>.</p>
+<p>You can learn more <a href="https://coremelt.com/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#4th-november-2023</link>
             <guid isPermaLink="false">4th November 2023</guid>
@@ -2277,6 +2278,17 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#4th-november-2023</link>
             <guid isPermaLink="false">4th November 2023</guid>
             <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th November 2023]]></title>
+            <description><![CDATA[<p>On the eve of the big Final Cut Pro Creative Summit...</p>
+<p>Tim and Vincent from <strong>ArcticWhiteness</strong> are happy to celebrate FCP Creative Summit, by offering <strong>30% off</strong> on <strong>Final Cut Library Manager</strong> complete pack.</p>
+<p>You can learn more <a href="https://arcticwhiteness.com/finalcutlibrarymanager/">here</a>.</p>
+<p><img src="/static/fcplm-offer.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#5th-november-2023</link>
+            <guid isPermaLink="false">5th November 2023</guid>
+            <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
