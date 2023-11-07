@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 07 Nov 2023 08:15:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Nov 2023 08:23:47 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Nov 2023 08:15:54 GMT</pubDate>
+        <pubDate>Tue, 07 Nov 2023 08:23:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2327,6 +2327,15 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 <p>Personally, I'm really happy with these incremental updates to Final Cut Pro, and they'll make my life as an editor better.</p>
 <p>Tomorrow will be super interesting to see what PostLab has to demo!</p>
 <p><img src="/static/apple-park-view.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#6th-november-2023</link>
+            <guid isPermaLink="false">6th November 2023</guid>
+            <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th November 2023]]></title>
+            <description><![CDATA[<p><strong>Alteon</strong> now has an iPad app to help seamlessly connect Final Cut Pro workflows.</p>
+<p>You can learn more over at ProVideo Coalition <a href="https://www.provideocoalition.com/alteon-ipad-app-seamlessly-connect-final-cut-pro-workflows/">here</a></p>
 ]]></description>
             <link>https://fcp.cafe/#6th-november-2023</link>
             <guid isPermaLink="false">6th November 2023</guid>
