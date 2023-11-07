@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 06 Nov 2023 08:15:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Nov 2023 08:09:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 Nov 2023 08:15:49 GMT</pubDate>
+        <pubDate>Tue, 07 Nov 2023 08:09:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2289,6 +2289,48 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#5th-november-2023</link>
             <guid isPermaLink="false">5th November 2023</guid>
             <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th November 2023]]></title>
+            <description><![CDATA[<p>Today was day one of the <strong>Final Cut Pro Creative Summit</strong>.</p>
+<p>The day opened with an incredible talk with Nick Harauz interviewing the amazing <strong>Justine Ezarik</strong> (aka <a href="https://www.youtube.com/channel/UCey_c7U86mJGz1VJWH5CYPA">iJustine</a>).</p>
+<p>Nick was the perfect interviewer, helping create an engaging, entertaining, insightful and honest conversation that was a joy to listen to.</p>
+<p>Justine is so incredibly talented and insanely hard working. The talk provided a unique insight into how a person with <strong>7.1 million</strong> YouTube subscribers runs her business, stays healthy, deal with trolls and haters, collaborates with other like-minded YouTubers, and how her and her editor use Final Cut Pro, <a href="/ecosystem/tools/#postlab">PostLab</a> and [Frame.io] to create great content quickly and consistently.</p>
+<p>She's the real deal - open, honest, no bullshit, hard working, genuine.</p>
+<p>Next up <strong><a href="https://www.youtube.com/channel/UC8raOG7HXJoCUygx219fU4A">Chris Lawley</a></strong> talked about how he's gotten rid of his Mac all together, and moved completely to iPad and Final Cut Pro for iPad, in another very insightful, engaging and entertaining talk.</p>
+<p>Then after a rather tasty boxed lunch, we all jumped on three buses and headed to <strong>Apple Park</strong>.</p>
+<p>Sadly, there was no photos or videos allowed to be captured whilst in Apple Park - although <a href="https://twitter.com/parker_gibbons/status/1721696822299939088">there's always at least one troublemaker</a>:</p>
+<p><img src="/static/apple-park-photo.jpg" alt=""></p>
+<p>We all had special passes stored in our iPhone Wallets to gain access to the park, getting one of two coloured Apple lanyards (which we could keep) on entry:</p>
+<p><img src="/static/apple-park-invite.jpeg" alt=""></p>
+<p><img src="/static/apple-park-id.jpg" alt=""></p>
+<p>We then walked around the insanely impressive Apple Park building, with friendly Apple staff evenly spaced along the fairly long walk making sure everyone was going the right way, with no phones out.</p>
+<p><img src="/static/apple-park-sign.jpg" alt=""></p>
+<p>We then all entered an awesome little conference room inside the Apple Park circle, with one of the best LED screens and sound systems I've ever seen in that kind of smaller scale conference room.</p>
+<p>Apple gave an insanely slick and polished presentation showing off the upcoming Final Cut Pro 10.7 release. Seriously - perfect sound, perfect presentations - it was like watching a keynote talk.</p>
+<p>There was no NDA, and we were strongly encouraged to share things online (but again, no photos on Apple Park).</p>
+<p>You can find all the specific details about the announcements here:</p>
+<blockquote>
+<p>You can read the official Apple News Room Article titled <strong>Final Cut Pro takes video editing on Mac and iPad to the next level with powerful new features</strong> <a href="https://www.apple.com/newsroom/2023/11/final-cut-pro-for-mac-and-ipad-get-powerful-updates/">here</a>.</p>
+<p>You can read <strong>Iain Anderson's</strong> ProVideo Coalition article on <strong>More details: Final Cut Pro 10.7 at the FCP Creative Summit</strong> <a href="https://www.provideocoalition.com/more-details-final-cut-pro-10-7-at-the-fcp-creative-summit/">here</a>. Iain is at the conference.</p>
+<p>You can listen to <strong>Richard Taylor</strong> talk about the release on his YouTube Live Stream <a href="https://www.youtube.com/watch?v=ZrO7PxoKD4g">here</a>. Richard is at the conference.</p>
+<p>You can read <strong>Scott Simmons's</strong> ProVideo Coalition article on <strong>Final Cut Pro 10.7 announced, shipping later this month</strong> <a href="https://www.provideocoalition.com/final-cut-pro-10-7-announced-shipping-later-this-month/">here</a>. Scott is not at the conference.</p>
+<p>You can watch <strong>Matthew O'Brien</strong> talk about <strong>HUGE Final Cut Pro 10.7 Update Just Announced!</strong> on YouTube <a href="https://www.youtube.com/watch?v=56GklXX2YDE">here</a>. Matthew is not at the conference.</p>
+</blockquote>
+<p>There was nothing discussed in person that hasn't been publicly announced in the Apple News Room, however, one thing that was mentioned in passing in the demo room is that the Scene Removal Mask machine learning model has been dramatically improved on iPad and Mac, which is super interesting.</p>
+<p>One interesting point to note is that even though the <strong>Scary Fast</strong> event wasn't cut in Final Cut Pro (yes, it was cut in Premiere) - everything for <strong>Apple Fitness+</strong> is - over <strong>4,700 videos</strong>, 15 hours every week, all cut in Final Cut Pro using ProRes. Apple is eating their own dog food, at a major scale. Also, all the WWDC talks this year were cut in Final Cut Pro.</p>
+<p>After the Apple presentation we were then broken up into two groups. Whilst one group got a guided tour of further along the exterior of Apple Park, the other group went inside a demo room, where friendly Apple Staff showcased the latest Mac and iPad hardware, running the pre-release Final Cut Pro, and latest Logic Pro updates.</p>
+<p>Apple Park is incredible - it's such a beautiful complex. Everything is perfect, everything is clean, everything smells good, everything inside is the perfect temperature, everything tastes good.</p>
+<p>In the demo room we were able to play, hands-on with the new hardware. Yes, obviously I tried duplicating lots of audio clips to see how the scrolling timeline performed with a giant complex timeline, and I did get a spinning wheel of doom - but with the fairly complex demo timelines they had, it worked great.</p>
+<p><a href="https://www.vincentlaforet.com">Vincent Laforet</a> was there to answer any questions about the new iPhone's - which is pretty special in of itself.</p>
+<p>In terms of the Final Cut Pro announcements, it was basically exactly what I was expecting. After Apple finally gave us Dupe Detection, it was also fairly predictable that this would be the year that they'd finally give us a scrolling timeline - and it does look great.</p>
+<p>Personally, I'm really happy with these incremental updates to Final Cut Pro, and they'll make my life as an editor better.</p>
+<p>Tomorrow will be super interesting to see what PostLab has to demo!</p>
+<p><img src="/static/apple-park-view.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#6th-november-2023</link>
+            <guid isPermaLink="false">6th November 2023</guid>
+            <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
