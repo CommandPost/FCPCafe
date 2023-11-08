@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 07 Nov 2023 09:11:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Nov 2023 09:13:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Nov 2023 09:11:04 GMT</pubDate>
+        <pubDate>Wed, 08 Nov 2023 09:13:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2350,6 +2350,151 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#6th-november-2023</link>
             <guid isPermaLink="false">6th November 2023</guid>
             <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th November 2023]]></title>
+            <description><![CDATA[<p>Today was day two of the <strong>Final Cut Pro Creative Summit</strong>.</p>
+<p>Let's start with some super exciting news first...</p>
+<p>Another unexpected thing that came out of yesterday's demonstration room at Apple Park is there's another undocumented feature in Final Cut Pro 10.7 that wasn't talked about in the official Apple Presentation...</p>
+<p>Final Cut Pro 10.7 has enhanced the <strong>Reveal in Browser</strong> feature, so now if you’re in a Keyword Collection in the Browser, it will stay in that Collection if you reveal a clip from the timeline that’s in that Collection - meaning it no longer goes back to the &quot;base&quot; event, which is a HUGE workflow improvement!</p>
+<p>For example, lets imagine you have an Event with a whole heap of graphics, music and sound effects in it, sorted by Keyword Collections. If you have the sound effect Keyword Collection selected in the Browser, and you <strong>Reveal in Browser</strong> on a sound effect on the timeline, it will find that clip in the Browser, without changing the currently selected Keyword Collection.</p>
+<p>In Final Cut Pro 10.6.10 and earlier, pressing <strong>Reveal in Browser</strong> would always go back to the &quot;root&quot; Event, so this is a big change, and hopefully removes the need of CommandPost's <strong>Reveal in Keyword Collection</strong> action!</p>
+<p>This is one of those little things that seems like such a small minor improvement, but is a MAJOR time saver. The whole reason CommandPost exists in the first place is that it was originally designed to make finding the playhead easier for Scott Simmons after match framing clips!</p>
+<p>Apple is listening. Apple do care.</p>
+<p>Another very exciting piece of news that came away from the show floor is that comedy feature film, <strong>For When You Get Lost</strong> has won the <strong>Audience Award for Best Comedy Feature</strong> at the <strong>Austin Film Festival</strong>!</p>
+<p>This was cut in Final Cut Pro by <strong>Jeffrey Asher</strong>. Written by Jennifer Sorenson. Directed by Michelle Steffes.</p>
+<p><img src="/static/for-when-you-get-lost.jpeg" alt=""></p>
+<p>HUGE Congratulations Jeffrey and the team! We will be releasing a case study about this film in the future.</p>
+<p>Back to the Summit...</p>
+<p>The day opened with the <strong>Shaping the Future: Panel Discussion</strong>, hosted by Nick Harauz, and featuring Jenn Jager, Steve Martin, Andy To and myself (Chris Hocking).</p>
+<p>Whilst I'm normally always &quot;behind the camera&quot; rather than in-front - I definitely had a lot of fun, and really enjoyed both Nick's fantastic questions/moderating, but also all the intelligent and thoughtful answers from Jenn, Steve &amp; Andy, who are all so insanely talented, hardworking and super smart.</p>
+<p><img src="/static/future-panelists.jpg" alt=""></p>
+<p>Afterwards there was sessions with:</p>
+<ul>
+<li><strong>Warp Speed Editing Techniques in Final Cut Pro</strong> with Mark Spencer</li>
+<li><strong>Let's Grade Together</strong> with Jeff Greenberg</li>
+<li><strong>Sound Advice; How to Use Roles to Master Your Mix (Mac)</strong> with Steve Martin</li>
+<li><strong>Mastering Transitions in FCP and Motion</strong> with Jenn Jager</li>
+</ul>
+<p>I only personally attended Mark's first session - which was awesome, as you'd expect.</p>
+<p>We then broke for lunch, with some yummy lunch boxes - generally speaking, eating outside on large tables.</p>
+<p><img src="/static/fcpcs-lunch.jpg" alt=""></p>
+<p>After lunch there was some more sessions:</p>
+<ul>
+<li><strong>Compress to Impress</strong> with Jeff Greenberg</li>
+<li><strong>iPhone Workflows in Final Cut Pro</strong> with Abba Shapiro</li>
+<li><strong>Creating Stunning Graphics in Final Cut Pro and Motion</strong> with Robin Kurz</li>
+<li><strong>PostLab - The Event of the Year</strong> with Paul Matthijs Lombert, Jasper Siegers, and Isaac Terronez</li>
+<li><strong>Why Multicams are One of Final Cut Pro’s Most Powerful Features</strong> with Dylan Bates</li>
+<li><strong>360° Footage in Flat Timelines</strong> with Iain Anderson</li>
+</ul>
+<p>I only personally attended the PostLab session and Dylan's session - which was really great. Dylan is so enthusiastic, so lovely, so talented, but also there was some really fantastic audience engagement and discussion, and tips were definitely shared both ways, which is awesome! It was a really fun, educational and collaborative talk.</p>
+<p>But PostLab. Wow.</p>
+<p>For those that don't know about <a href="https://hedge.video/postlab/benefits">PostLab</a> already, it provides incredible cloud based and on-premise collaboration for Final Cut Pro, Avid Media Composer &amp; Adobe Premiere Pro.</p>
+<p>It's powerful, and used by a huge amount of professional Final Cut Pro editors around the world. It's subscription, or you can buy PostLab Local for your own on-premises server solution.</p>
+<p>Here's what the currently shipping public version looks like:</p>
+<p><img src="/static/old-postlab.png" alt=""></p>
+<p>However today, Hedge threw all that away, and has essentially announced they've started from scratch on a completely new version of PostLab, that uses the same perpetual licensing as their other Hedge products (like <a href="/ecosystem/tools/#offshoot-formally-hedge">OffShoot</a> and <a href="/ecosystem/tools/#editready">EditReady</a>).</p>
+<p>Unfortunately, because this new version is early days, soon to be released in &quot;Early Access Preview&quot; (i.e. beta), they've asked not to share any screenshots of the user interface shown, as things may change during development - so no screenshots here.</p>
+<p>They've completely changed things architecturally - rather then requiring any cloud infrastructure, it now runs on your local machine, which means it's fast, and there's no ongoing cost.</p>
+<p>There will be a standard version, and a pro version - similar to how OffShoot now works.</p>
+<p>PostLab will now also support ANY and every application - not just Final Cut Pro, Adobe Premiere and Avid Media Composer. You can manage Pages and Numbers documents, Logic Pro projects, etc.</p>
+<p>But the thing that blew my mind is <strong>Event Locking for Final Cut Pro</strong>.</p>
+<p>Essentially how it works is that you create a <strong>Team Bundle</strong> anywhere you like, which contains all your data. It's similar to a Final Cut Pro Library in that it's a package (i.e you can right-click and select <strong>Open Package Contents</strong> in Finder).</p>
+<p>The standard version will support a single Team Bundle, and the Pro version will offer unlimited Team Bundles.</p>
+<p>You can then create <strong>Collections</strong> within the PostLab interface however you want, like Final Cut Pro and iTunes/Music. These Collections can contain any <strong>Documents</strong> (i.e. files).</p>
+<p>However, where the magic lies is that if you create a Final Cut Pro library, PostLab now manages the individual events within that library.</p>
+<p>For example, you could create a Collection for &quot;Episode 1&quot; and &quot;Episode 2&quot;, which each contains it's own Final Cut Pro Library. However, shared between BOTH of those libraries, you could have a single Event for &quot;Sound Effects&quot; that is common between both libraries, in both collections.</p>
+<p>PostLab manages all these individual Final Cut Pro Events, so that only one person can claim ownership of them (i.e. check them out) at a time. So, for example, the &quot;Episode 1&quot; editor could be the owner/have checked-out the &quot;Sound Effects&quot; Event, which means that any other editors that try to open this Event will still be able to open it, however, PostLab will automagically inject a 🔒 emoji in the filename, so you can visually see in Final Cut Pro that the Event is essentially read-only, and no changes to that locked Event will be saved.</p>
+<p>This is... magic. I have no idea how it works, because unlike in Avid Media Composer, for example, you can't just copy and paste Events between Library bundles, like you can with Avid Bins.</p>
+<p>However, the geniuses at Hedge have somehow managed to make Final Cut Pro Events, behave exactly the same as Avid Bin's. It's magic, and amazing.</p>
+<p>Everyone at the Final Cut Pro Creative Summit has the opportunity to request access to the &quot;Early Access Preview&quot; that will go live at some point later this month.</p>
+<p>The new version of OffShoot will not only be massive for collaboration, but solo editors - because the new version of OffShoot brings simple git-like versioning to ANY document type. This is big!</p>
+<p>It also has an absolutely fantastic new icon!</p>
+<p>Next up we had <strong>The Ultimate FCP Tip Session</strong> with Jeff Greenberg hosting and Dylan Bates, Abba Shapiro, Steve Martin and Mark Spencer. There was lots of handy tips and tricks!</p>
+<p>Then the last session of the day was <strong>Making Media Inclusive For All: Accessible Creative Storytelling</strong> with Storm Smith, and Jenica Teregeyo.</p>
+<p><img src="/static/storm-session-1.jpg" alt=""></p>
+<p>This was an incredibly powerful, educational, informative and inspiring session talking about empowering <strong>every viewer</strong> through accessible media.</p>
+<p>It was a very slick presentation, with some great videos showcased.</p>
+<p>Here's the top five things to take away from the talk:</p>
+<p><img src="/static/storm-session-2.jpg" alt=""></p>
+<p>Then after this session it was <strong>Networking Expo Night</strong>, where you could talk to the Hedge Team, CoreMelt Team &amp; others.</p>
+<p>The Summit is all about connecting with like-minded people, and sharing knowledge, and the Expo Night was the perfect demonstration of just an insanely talented bunch of people all just hanging out together sharing tips and tricks.</p>
+<p>You can watch a recording of <strong>Richard Taylor's</strong> YouTube Live Stream of the Expo Night <a href="https://www.youtube.com/watch?v=yU3vX1QbaYc">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-november-2023</link>
+            <guid isPermaLink="false">7th November 2023</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th November 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> is currently offering <strong>30% off</strong> if you use the offer code: <strong>30BLACK</strong></p>
+<p>However, this discount does not apply to CineStudio, bundles &amp; already discounted items.</p>
+<p>You can learn more <a href="https://www.motionvfx.com/deals">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-november-2023</link>
+            <guid isPermaLink="false">7th November 2023</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th November 2023]]></title>
+            <description><![CDATA[<p><strong>ScopeBox 4.3</strong> is out now!</p>
+<p>It has an absolutely beautiful new icon, and a great new user interface.</p>
+<p><img src="/static/scopebox.jpg" alt=""></p>
+<p>You can learn more <a href="https://hedge.video/scopebox">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-november-2023</link>
+            <guid isPermaLink="false">7th November 2023</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th November 2023]]></title>
+            <description><![CDATA[<p><strong>Blackmagic Camera 1.2</strong> is out now!</p>
+<p>Get more precise positioning of control dials, support for 6 additional languages, better layout of onscreen controls while in zoom mode, support for flicker-free shutter presets and more.</p>
+<p>Here's the full feature list:</p>
+<blockquote>
+<ul>
+<li>Control dials now offer haptic feedback and higher accuracy.</li>
+<li>Support for 6 additional languages including Chinese, Japanese and Spanish.</li>
+<li>Improved layouts for iPhones with display zoom enabled.</li>
+<li>Improved animations for player and slate views in all iPhone models.</li>
+<li>Improved animations for stealth mode in smaller iPhone models.</li>
+<li>Improved organization and grouping of camera settings.</li>
+<li>Support for selecting a specific onboard microphone.</li>
+<li>Support to maintain zebra, peaking and false color during recording.</li>
+<li>Support for flipping the image for SLR lenses.</li>
+<li>Support for flicker free shutter presets for 50 and 60 Hz settings.</li>
+<li>Support for recording clip with LUT and tagging color space.</li>
+<li>Ability to export and import camera settings presets.</li>
+<li>Improved grid controls with horizon detection.</li>
+<li>Selectable time lapse duration in settings.</li>
+<li>Ability to drag clips between projects in the media panel.</li>
+<li>Support for iOS shortcut automation workflows.</li>
+<li>Multiple fixes for recording HUD.</li>
+<li>Apple Log to Rec.709 LUT is now included.</li>
+<li>Ability to turn off uploads when on data.</li>
+<li>General performance and stability improvements.</li>
+</ul>
+</blockquote>
+<p>You can learn more on the iPhone App Store <a href="https://apps.apple.com/us/app/blackmagic-camera/id6449580241">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-november-2023</link>
+            <guid isPermaLink="false">7th November 2023</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th November 2023]]></title>
+            <description><![CDATA[<p>There are some exciting updates from <strong>iodyne</strong>!</p>
+<p>Their new Firmware Boosts Blackmagic Disk Speed Writes up to <strong>2X faster</strong>!</p>
+<p>Pro Data is the world’s fastest Thunderbolt storage, but that doesn’t stop their world-class engineering team from trying to make it even better!</p>
+<p>Their new firmware release boosts BlackMagic Disk Speed Test write performance up to <strong>2.3GB/s</strong> (up to <strong>2X faster</strong> than before), further improving Pro Data's performance and out-of-box experience on widely-used industry tools.</p>
+<p>The new 1.4 firmware release will ship in November to all Pro Data customers, downloadable free from the iodyne Utility. And it will be pre-installed on new shipments after that date.</p>
+<p>They also added nifty UI improvements, and even more intelligence to their app: iodyne Utility can now detect and report a defective Thunderbolt cable, or invalid cabling configurations.</p>
+<p>You can learn more <a href="https://iodyne.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-november-2023</link>
+            <guid isPermaLink="false">7th November 2023</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
