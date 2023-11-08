@@ -10,14 +10,14 @@
 
 ---
 
-!!!success FCP Creative Summit
-Get **15% off** when you use the promo code **FCPCAFE**.<br />
-Learn more about the conference [here](/fcp-creative-summit/).
-!!!
-
 !!!
 **Should I update Final Cut Pro?**<br />
 Read our current recommendations [here](/update-guide/).
+!!!
+
+!!!warning Sponsored
+**CoreMelt ShotAnvil** combines tracked paint, masks and graphics inserts together with one-click AI person keying.<br />
+Learn more [here](https://coremelt.com/products/shotanvil-tracked-paint-masks-and-graphics-insert-with-one-click-ai-person-keying).
 !!!
 
 ---
