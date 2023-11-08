@@ -6,8 +6,6 @@
 
 {{ include "homepage" }}
 
-{{ include "rss-buttons" }}
-
 ---
 
 !!!
