@@ -6,8 +6,6 @@
 
 {{ include "homepage" }}
 
----
-
 !!!
 **Should I update Final Cut Pro?**<br />
 Read our current recommendations [here](/update-guide/).
