@@ -16,8 +16,8 @@ Read our current recommendations [here](/update-guide/).
 !!!
 
 !!!warning Sponsored
-**CoreMelt ShotAnvil** combines tracked paint, masks and graphics inserts together with one-click AI person keying.<br />
-Learn more [here](https://coremelt.com/products/shotanvil-tracked-paint-masks-and-graphics-insert-with-one-click-ai-person-keying).
+_One-Click AI Person Keying, Tracked Paint, Masks & Graphics Inserts!_<br />
+Get a free trial of **CoreMelt ShotAnvil** [here](https://coremelt.com/products/shotanvil-tracked-paint-masks-and-graphics-insert-with-one-click-ai-person-keying).
 !!!
 
 ---
