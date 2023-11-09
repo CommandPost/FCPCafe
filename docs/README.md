@@ -13,7 +13,7 @@ Read our current recommendations [here](/update-guide/).
 
 !!!warning Sponsored
 _One-Click AI Person Keying, Tracked Paint, Masks & Graphics Inserts!_<br />
-Get a free trial of **CoreMelt ShotAnvil** [here](https://coremelt.com/products/shotanvil-tracked-paint-masks-and-graphics-insert-with-one-click-ai-person-keying).
+Get a free trial of **CoreMelt ShotAnvil** [here](https://coremelt.com/blogs/news/special-deals-for-final-cut-creative-summit-23).
 !!!
 
 ---
