@@ -1,3 +1,4 @@
 !!!warning Sponsored
-[Recall Toolbox](https://recalltoolbox.io) is now available on TestFlight as an early beta!
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.io) today from the Mac App Store.
 !!!

@@ -86,10 +86,6 @@ Here's some of our free tools used by professional editors worldwide:
 
 ---
 
-{{ include "latenite/transfer-toolbox" }}
-
----
-
 ## App Store
 
 Here's some of our products currently for sale on the Mac App Store:
