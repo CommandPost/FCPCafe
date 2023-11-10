@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 10 Nov 2023 05:37:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Nov 2023 05:50:14 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Nov 2023 05:37:45 GMT</pubDate>
+        <pubDate>Fri, 10 Nov 2023 05:50:14 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2584,6 +2584,17 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#8th-november-2023</link>
             <guid isPermaLink="false">8th November 2023</guid>
             <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th November 2023]]></title>
+            <description><![CDATA[<p><strong>Jace Sparks</strong> took a roadtrip up to Cupertino for the Final Cut Pro Creative Summit and stopped to camp for the night in Big Sur along the way.</p>
+<p>He give his theories on the future direction of Final Cut Pro, and why he believes Apple is designing the most revolutionary creator stack in history.</p>
+<p>You can watch on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=IFsW4faN_Do"><img src="/static/jace-sparks-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-november-2023</link>
+            <guid isPermaLink="false">9th November 2023</guid>
+            <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
