@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 11 Nov 2023 07:39:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Nov 2023 09:54:10 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Nov 2023 07:39:55 GMT</pubDate>
+        <pubDate>Sat, 11 Nov 2023 09:54:10 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2629,6 +2629,18 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <title><![CDATA[11th November 2023]]></title>
             <description><![CDATA[<p><strong>Pablo Fernández</strong> talks about the Final Cut Pro Creative Summit on the Spanish <strong>El Minicast de laurindel</strong> podcast.</p>
 <p>You can listen on iTunes <a href="https://podcasts.apple.com/us/podcast/hablemos-de-cosas-de-v%C3%ADdeo/id603503557?i=1000634367077&amp;ign-itscg=30200S&amp;ign-itsct=podcast_box">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-november-2023</link>
+            <guid isPermaLink="false">11th November 2023</guid>
+            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th November 2023]]></title>
+            <description><![CDATA[<p>To celebrate the success of the Final Cut Pro Creative Summit, <a href="https://iain-anderson.com">Iain Anderson</a> &amp; Packt are offering <strong>25% off</strong> Iain's book, <strong>Final Cut Pro Efficient Editing</strong>.</p>
+<p>You can use the discount code: <strong>25FCPCON</strong></p>
+<p>When you purchase the book, you also get free electronic updates!</p>
+<p>You can learn more <a href="https://www.packtpub.com/product/final-cut-pro-efficient-editing-second-edition/9781837631674">here</a>.</p>
+<p><img src="/static/fcp-efficient-editing-2nd-edition.jpeg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#11th-november-2023</link>
             <guid isPermaLink="false">11th November 2023</guid>
