@@ -1,10 +1,10 @@
 # Contribute
 
-FCP Cafe is entirely open source and hosted on [GitHub](https://github.com).
+FCP Cafe is entirely **open source** and hosted on [GitHub](https://github.com) & [CloudFlare Pages](https://pages.cloudflare.com).
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-FCP Cafe uses [CloudFlare](https://www.cloudflare.com) for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
+FCP Cafe uses [CloudFlare](https://www.cloudflare.com) for DNS and [hosting](https://pages.cloudflare.com), and [VentraIP](https://ventraip.com.au) for domain registration.
 
 You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/FCPCafe).
 
@@ -82,8 +82,10 @@ We're open to promoting Final Cut Pro products and services on the front page wi
 
 For example, here's a sponsored post that could appear on the home page within the Latest News:
 
-!!!info Sponsored
-Use [Transfer Toolbox](https://transfertoolbox.io) to get from Final Cut Pro for Mac to iPad!
+!!!warning Sponsored
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 Sponsored posts can just be plain text, with a single link. We don't allow images, videos, or other embedded elements.
@@ -111,7 +113,6 @@ To create the fastest website possible, FCP Cafe is what's called a "static site
 However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions) to "do stuff" to our markdown files whenever we submit a pull request.
 
 For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/FCPCafe/blob/main/.github/workflows/retype-action.yml) does the following:
-
 
 - Looks at all the individual **Asset Management** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/asset-management), and generates an alphabetical list of them for the [Asset Management](/ecosystem/asset-management/) page.
 - Looks at all the individual **Camera Formats** in [this folder](https://github.com/CommandPost/FCPCafe/tree/main/docs/_includes/camera-formats), and generates an alphabetical list of them for the [Camera Formats](/camera-formats/) page.
@@ -236,7 +237,7 @@ You can then use a text editor like [BBEdit](https://www.barebones.com/products/
 
 ### Powered by Retype
 
-FCP Cafe is powered by [Retype](https://retype.com) and hosted on [GitHub Pages](https://pages.github.com).
+FCP Cafe is powered by [Retype](https://retype.com) and hosted on [CloudFlare](https://www.cloudflare.com) Pages.
 
 We've VERY thankful for [all the support](https://github.com/retypeapp/retype/issues/created_by/latenitefilms) Retype has given us!
 

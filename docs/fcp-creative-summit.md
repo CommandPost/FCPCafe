@@ -1,30 +1,34 @@
 # FCP Creative Summit
 
-The **Final Cut Pro Creative Summit** dates and locations have now been confirmed.
+The Final Cut Pro Creative Summit in 2023 took place between **6th to 8th November** at Apple Park & [The Hyatt Regency Santa Clara](https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara).
 
-!!!success
-Get **15% off** when you use the promo code **FCPCAFE**.
-!!!
-
-It will take place **November 6th to 8th** at Apple Park & [The Hyatt Regency Santa Clara](https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara).
+They also offered discounted accommodation from **Aloft Santa Clara**.
 
 > Whether you are a trained professional or just starting your creative career, Apple has the software and tools you need to power your creative work. This unique event is where Apple power users and Final Cut Pro Professionals come together to learn and discuss their craft. We are excited to be back in Cupertino! The FCP Creative Summit features 2 full days of sessions in multiple tracks and a unique day at Apple!
 
-You can get discounted accommodation from **Aloft Santa Clara** [here](https://www.marriott.com/events/start.mi?id=1694023520386&key=GRP).
+FCP Cafe was an official marketing sponsor for the 2023 Final Cut Pro Creative Summit.
 
-You can find the evolving **program** [here](http://fcpcreativesummits.com/program/).
+You were able to get **15% off** for the conference fee by using the promo code **FCPCAFE**.
 
-You can find a list of **speakers** [here](http://fcpcreativesummits.com/speakers/).
+You can read about the 2023 Final Cut Pro Creative Summit on FCP Cafe:
+
+- [Day 1](/news/20231106/)
+- [Day 2](/news/20231107/)
+- [Day 3](/news/20231108/)
 
 You can visit the **official website** [here](http://fcpcreativesummits.com).
+
+You can find the official **program** [here](http://fcpcreativesummits.com/program/).
+
+You can find a list of **speakers** [here](http://fcpcreativesummits.com/speakers/).
 
 ![](/static/fcp-creative-summit-2023.jpg)
 
 ---
 
-## Meet iJustine
+## Justine Ezarik
 
-It's also been announced that the incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), will be the keynote speaker at the FCP Creative Summit!
+The incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), was the keynote speaker at the 2023 Final Cut Pro Creative Summit:
 
 ![](/static/fcp-cs-ijustine-keynote.jpg)
 
@@ -54,7 +58,7 @@ Iain has also written a post on ProVideo Coalition [here](https://www.provideoco
 
 ## Official Press Release
 
-Here's FMC's official press release.
+Here's FMC's official press release for the 2023 event:
 
 > Cupertino, California (PRWEB) August 11, 2023 -- With immense anticipation and excitement, FMC, supported by Apple, proudly unveils the 2023 Final Cut Pro Creative Summit, which will take place on November 6, 7, and 8. The summit returns to Cupertino - a recognized hub of innovation - for the first time since 2019 and is set to be a momentous occasion. Building on the resounding success of last year's Final Cut Pro Summit roadshow, this eagerly-awaited event aims to foster collaboration and inspire boundless creativity in video editing.
 >
