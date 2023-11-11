@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 10 Nov 2023 05:57:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Nov 2023 04:26:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Nov 2023 05:57:15 GMT</pubDate>
+        <pubDate>Sat, 11 Nov 2023 04:26:41 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2300,6 +2300,7 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 <p>Next up <strong><a href="https://www.youtube.com/channel/UC8raOG7HXJoCUygx219fU4A">Chris Lawley</a></strong> talked about how he's gotten rid of his Mac all together, and moved completely to iPad and Final Cut Pro for iPad, in another very insightful, engaging and entertaining talk.</p>
 <p>Then after a rather tasty boxed lunch, we all jumped on three buses and headed to <strong>Apple Park</strong>.</p>
 <p>Sadly, there was no photos or videos allowed to be captured whilst in Apple Park.</p>
+<p>You can <a href="https://www.youtube.com/watch?v=VaApNeppjvg">watch this 2018 video on YouTube</a> which shows some amazing drone footage of Apple Park during construction.</p>
 <p>We all had special passes stored in our iPhone Wallets to gain access to the park, getting one of two coloured Apple lanyards (which we could keep) on entry:</p>
 <p><img src="/static/apple-park-invite.jpeg" alt=""></p>
 <p><img src="/static/apple-park-id.jpg" alt=""></p>
@@ -2595,6 +2596,33 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#9th-november-2023</link>
             <guid isPermaLink="false">9th November 2023</guid>
             <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th November 2023]]></title>
+            <description><![CDATA[<p>Today Apple has announced that Final Cut Pro will gain <strong>spatial video editing</strong> at some point <strong>next year</strong>.</p>
+<p>CNET <a href="https://www.cnet.com/tech/mobile/apple-iphone-spatial-video-arrives-in-beta-and-looks-amazing-on-vision-pro/">reports</a>:</p>
+<blockquote>
+<p>Final Cut Pro, Apple's video editing software, will get Spatial Video editing support, but not until sometime next year.</p>
+</blockquote>
+<p>9to5Mac <a href="https://9to5mac.com/2023/11/10/spatial-video-vision-pro-review/">reports</a>:</p>
+<blockquote>
+<p>Apple released iOS 17.2 developer beta 2 on Thursday, enabling iPhone 15 Pro hardware to capture spatial videos for the first time. The public beta version just dropped as well, and so have some early press reviews of personal spatial videos on Vision Pro.</p>
+<p>The company has also shared that Final Cut Pro will gain the ability to edit spatial videos sometime next year. iOS 17.2 beta 2 and macOS 14.2 beta 2 also introduce the “Spatial” media type in Photos for easy filtering.</p>
+</blockquote>
+<p>As announced at the Final Cut Pro Creative Summit, Final Cut Pro 10.7 will come out later this month, so it's most likely that <strong>spatial video editing</strong> won't appear until Final Cut Pro 10.8 - maybe another 12 months away.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-november-2023</link>
+            <guid isPermaLink="false">11th November 2023</guid>
+            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th November 2023]]></title>
+            <description><![CDATA[<p><strong>Pablo Fernández</strong> talks about the Final Cut Pro Creative Summit on the Spanish <strong>El Minicast de laurindel</strong> podcast.</p>
+<p>You can listen on iTunes <a href="https://podcasts.apple.com/us/podcast/hablemos-de-cosas-de-v%C3%ADdeo/id603503557?i=1000634367077&amp;ign-itscg=30200S&amp;ign-itsct=podcast_box">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-november-2023</link>
+            <guid isPermaLink="false">11th November 2023</guid>
+            <pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
