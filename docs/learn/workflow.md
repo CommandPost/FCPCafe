@@ -38,8 +38,6 @@ Feature film editor [Knut Hake](http://www.knuthake.de) has created an entire No
 
 ![](/static/shotdata.png)
 
-![](/static/shotdata.gif)
-
 [!button text="Open User Guide" target="blank" variant="info"](https://commandpost.io/toolbox/shot-data/)
 
 ---
