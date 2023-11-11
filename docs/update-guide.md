@@ -14,19 +14,19 @@ You can read our current recommendations below:
 
 ## macOS Sonoma
 
-So far, all reports are that upgrading from macOS Ventura to macOS Sonoma are very smooth, and there's currently no major reported issues.
+Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
 
 However, it's worth reading Larry Jordan's post on [Don’t Hurry to Upgrade](https://larryjordan.com/articles/caution-dont-hurry-to-upgrade/).
 
-There have been some reports that the current macOS Sonoma 14.1 beta also has issues with Final Cut Pro.
+If you're still on much older version of macOS and Final Cut Pro, such as **Final Cut Pro 10.6.5** - keep in mind that FxPlug3 was depreciated and removed in Final Cut Pro 10.6.6, so older plugins may stop working.
+
+Keep an eye on the [Final Cut Pro bug tracker](/bugtracker/) for more niche issues too before updating.
 
 If you use **MotionVFX**, mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requires updates for macOS Sonoma.
 
 If you can't use your camera or video output device after updating to **macOS Sonoma 14.1**, Apple has released a workaround.
 
-Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings.
-
-You can learn more [here](https://support.apple.com/en-us/HT213969).
+Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can learn more [here](https://support.apple.com/en-us/HT213969).
 
 ---
 
