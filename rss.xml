@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 12 Nov 2023 06:51:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Nov 2023 09:21:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Nov 2023 06:51:26 GMT</pubDate>
+        <pubDate>Mon, 13 Nov 2023 09:21:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2660,6 +2660,22 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#12th-november-2023</link>
             <guid isPermaLink="false">12th November 2023</guid>
             <pubDate>Sun, 12 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th November 2023]]></title>
+            <description><![CDATA[<p><strong>Neat Video v5.6.0</strong> for Final Cut Pro is out now with the following changes:</p>
+<ul>
+<li>Added support for new GPUs: Apple M3, M3 Pro / M3 Max, Apple M2 Ultra</li>
+<li>Improved processing of certain error messages</li>
+<li>Minor corrections in GUI of Preferences</li>
+<li>Minor improvements in the installer</li>
+<li>Fixed several minor issues</li>
+</ul>
+<p>You can learn more <a href="https://www.neatvideo.com/news/neat-video-56-is-here">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-november-2023</link>
+            <guid isPermaLink="false">13th November 2023</guid>
+            <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
