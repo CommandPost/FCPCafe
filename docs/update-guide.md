@@ -24,6 +24,10 @@ Keep an eye on the [Final Cut Pro bug tracker](/bugtracker/) for more niche issu
 
 If you use **MotionVFX**, mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requires updates for macOS Sonoma.
 
+**MotionVFX** also reports on [Twitter](https://twitter.com/motionVFX/status/1724434901804458426):
+
+> ⚠️ On another note, If you're having issues with our products on macOS Sonoma (mainly red screen in FCP), please make sure to update mInstaller (3.0.2 version) 🚀Only once that's done, uninstall the product and install it again (don't use the "repair" option this time) 😉
+
 If you can't use your camera or video output device after updating to **macOS Sonoma 14.1**, Apple has released a workaround.
 
 Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can learn more [here](https://support.apple.com/en-us/HT213969).
