@@ -116,12 +116,3 @@ You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://g
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
-
----
-
-## Final Cut Pro 1.2.1 (for iPad)
-
-**Final Cut Pro 10.6.7 (for Mac)** and **Final Cut Pro 10.6.8 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.<br />
-This means that if you want to use [Transfer Toolbox](https://transfertoolbox.io) to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)** and **Final Cut Pro 1.1 (for iPad)**.
-
-We are currently actively investigating **Final Cut Pro 10.6.10 (for Mac)** and **Final Cut Pro 1.2.1 (for iPad)** support for Transfer Toolbox.
