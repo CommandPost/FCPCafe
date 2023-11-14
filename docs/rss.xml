@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 14 Nov 2023 05:21:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Nov 2023 20:52:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Nov 2023 05:21:28 GMT</pubDate>
+        <pubDate>Tue, 14 Nov 2023 20:52:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2676,6 +2676,68 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
             <link>https://fcp.cafe/#13th-november-2023</link>
             <guid isPermaLink="false">13th November 2023</guid>
             <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> reports on <a href="https://twitter.com/motionVFX/status/1724434901804458426">Twitter</a>:</p>
+<blockquote>
+<p>⚠️ On another note, If you're having issues with our products on macOS Sonoma (mainly red screen in FCP), please make sure to update mInstaller (3.0.2 version) 🚀Only once that's done, uninstall the product and install it again (don't use the &quot;repair&quot; option this time) 😉</p>
+</blockquote>
+<p>You can learn more about MotionVFX <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.4 (62)</strong> is out now!</p>
+<p>This release includes the following bug fix:</p>
+<ul>
+<li>In the previous BRAW Toolbox v1.3.3 (59) release, we made some major under-the-hood changes to improve playback performance (such as only using one shared instance of the BRAW SDK Factory). Unfortunately however, those changes resulted in the BRAW SDK not releasing used threads correctly, and as the thread count grew, eventually the BRAW Toolbox Renderer would stop working correctly in Final Cut Pro. This would only really happen on older machines, and Libraries with hundreds of BRAW clips. We've now reverted back to how we were doing things in v1.3.2 (57) and earlier, with some additional checks and protections. We will continue to research and explore ways we can improve playback performance, so that the export times of timelines with BRAW clips in Final Cut Pro get closer to what you see in DaVinci Resolve.</li>
+</ul>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale</strong> is having a Black Friday sale with deals at over <strong>50% off</strong>.</p>
+<p>For example, get <strong>Color Finale 2 Pro</strong> for USD$99, instead of USD$149!</p>
+<p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>Sound Ideas</strong> is currently having a Black Friday sale with 50% off all Sound Ideas Proprietary Libraries &amp; Buy 2 Products and get the third free!</p>
+<p>Offer ends 30th November.</p>
+<p>You can learn more <a href="https://www.sound-ideas.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>Jamie Lejeune</strong> noticed on <a href="https://twitter.com/restlesspix/status/1724512953746276805">Twitter</a> that <strong>Blip</strong> allows you to upload Final Cut Pro project directly.</p>
+<p>The FAQ explains:</p>
+<blockquote>
+<p><strong>Can Blip send Final Cut Pro projects?</strong>
+Yes! Unlike many other services, Blip can send Final Cut Pro .fcpbundle files without needing to zip them first.
+.fcpbundle files are technically folders, and Blip fully preserves folder structures and any links within.
+And of course, Blip works regardless of the tool you use, be it Final Cut Pro, Adobe Premiere, or something else entirely.</p>
+</blockquote>
+<p>Blip is currently a free service that allows you to send files directly between two desktop or mobile devices. It doesn't store files on the cloud - it transfers directly between devices.</p>
+<p>You can learn more about Blip <a href="https://blip.net">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
