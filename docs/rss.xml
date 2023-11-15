@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 14 Nov 2023 22:41:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Nov 2023 00:30:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Nov 2023 22:41:10 GMT</pubDate>
+        <pubDate>Wed, 15 Nov 2023 00:30:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2683,6 +2683,15 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 <p>For example, Apple supplied this screenshot for how the <strong>Collapse to Connected Storyline</strong> feature works:</p>
 <p><img src="/static/collapse-to-connected-storyline.jpeg" alt=""></p>
 <p>You can read the updated blog post <a href="https://larryjordan.com/articles/timeline-scrolling-comes-to-final-cut-pro-plus-other-new-features/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2023</link>
+            <guid isPermaLink="false">15th November 2023</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2023]]></title>
+            <description><![CDATA[<p><strong>Isaac T.</strong> (Workflow Architect at Hedge) has posted a blog post with his <strong>2023 FCP Creative Summit Highlights</strong>.</p>
+<p>You can read <a href="https://isaact.micro.blog/2023/11/14/isaac-ts-post.html">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#15th-november-2023</link>
             <guid isPermaLink="false">15th November 2023</guid>
