@@ -26,6 +26,18 @@ You can find a list of **speakers** [here](http://fcpcreativesummits.com/speaker
 
 ---
 
+## Jenn Jager
+
+The amazing **Jenn Jager** has posted a video on YouTube recapping the Final Cut Pro Creative Summit.
+
+You can watch here:
+
+[![](/static/jenn-jager-fcpcs.jpeg)](https://www.youtube.com/watch?v=P1qDKWWmYV4)
+
+You can learn more about Jenn [here](https://jennjager.com). She's the best.
+
+---
+
 ## Justine Ezarik
 
 The incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), was the keynote speaker at the 2023 Final Cut Pro Creative Summit:
