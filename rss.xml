@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 15 Nov 2023 00:30:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Nov 2023 23:48:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Nov 2023 00:30:20 GMT</pubDate>
+        <pubDate>Thu, 16 Nov 2023 23:48:28 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2758,6 +2758,49 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#15th-november-2023</link>
             <guid isPermaLink="false">15th November 2023</guid>
             <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2023]]></title>
+            <description><![CDATA[<p><strong>BretFX</strong> has released <strong>Outliner FX</strong>, a comprehensive package of animated Outline Effects, Outline Styles and Custom Outline Shape Effects.</p>
+<p>You can download a free trial, and purchase for USD$19.99 (instead of the regular price of USD$29.99).</p>
+<p>You can learn more <a href="https://www.bretfx.com/product/outliner/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2023</link>
+            <guid isPermaLink="false">17th November 2023</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2023]]></title>
+            <description><![CDATA[<p>Get <strong>Photomator</strong> for USD$9.99 for the first year of an annual subscription and <strong>Pixelmator Pro</strong> for USD$24.99 for a lifetime!</p>
+<p><img src="/static/pixelmator-discount.jpeg" alt=""></p>
+<p>You can purchase on the Mac App Store <a href="https://apps.apple.com/mac/developer/pixelmator-team/407963107?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2023</link>
+            <guid isPermaLink="false">17th November 2023</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2023]]></title>
+            <description><![CDATA[<p>Upgrade and save on <strong>iZotope Post Production Suite 7.5</strong>, including brand-new <strong>Nectar 4</strong>, and let your vocals shine. Or, complete your toolkit with <strong>70% off</strong> all iZotope's flagship products in the <strong>Everything Bundle</strong>.</p>
+<p>You can learn more <a href="https://www.izotope.com/en/deals/loyalty-pps7.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2023</link>
+            <guid isPermaLink="false">17th November 2023</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2023]]></title>
+            <description><![CDATA[<p>Klevgrand also has a bunch of Black Friday deals:</p>
+<ul>
+<li>Up to $551 to be saved on single products!</li>
+<li>Two temporary special bundles, saving up to $264!</li>
+<li>Choose two Tomofon Extension packs (worth $30) for free with every purchase of our multi-layer wavetable synth Tomofon! Choose packs at checkout.</li>
+</ul>
+<p>You can learn more on <a href="https://klevgrand.com">their website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2023</link>
+            <guid isPermaLink="false">17th November 2023</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
