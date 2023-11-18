@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 17 Nov 2023 02:10:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Nov 2023 01:58:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 17 Nov 2023 02:10:26 GMT</pubDate>
+        <pubDate>Sat, 18 Nov 2023 01:58:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2812,6 +2812,24 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#17th-november-2023</link>
             <guid isPermaLink="false">17th November 2023</guid>
             <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th November 2023]]></title>
+            <description><![CDATA[<p><strong>Vigneswaran Rajkumar</strong> at <strong>The Acharya</strong> has just release <strong>Airlift</strong>!</p>
+<p><img src="/static/airlift-social-card.png" alt=""></p>
+<ul>
+<li>Automated uploading of <code>.csv</code> or <code>.json</code> data to Airtable</li>
+<li>Ability to update and auto-create new entries for single select field and multiple select field</li>
+<li>No subscription of third party platform required</li>
+<li>Ability to upload attachments via build-in Dropbox client</li>
+<li>Ability to upload attachments to multiple attachment columns</li>
+<li>Uses long-lived refresh token for Dropbox client</li>
+</ul>
+<p>You can learn more about the free and open-source tool <a href="https://github.com/TheAcharya/Airlift">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-november-2023</link>
+            <guid isPermaLink="false">18th November 2023</guid>
+            <pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
