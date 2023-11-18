@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 16 Nov 2023 23:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Nov 2023 02:10:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Nov 2023 23:48:28 GMT</pubDate>
+        <pubDate>Fri, 17 Nov 2023 02:10:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2758,6 +2758,17 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#15th-november-2023</link>
             <guid isPermaLink="false">15th November 2023</guid>
             <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2023]]></title>
+            <description><![CDATA[<p>The amazing <strong>Jenn Jager</strong> has posted a video on YouTube recapping the Final Cut Pro Creative Summit.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=P1qDKWWmYV4"><img src="/static/jenn-jager-fcpcs.jpeg" alt=""></a></p>
+<p>You can learn more about Jenn <a href="https://jennjager.com">here</a>. She's the best.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2023</link>
+            <guid isPermaLink="false">17th November 2023</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[17th November 2023]]></title>
