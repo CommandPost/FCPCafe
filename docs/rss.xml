@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 18 Nov 2023 03:11:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Nov 2023 22:43:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Nov 2023 03:11:13 GMT</pubDate>
+        <pubDate>Sun, 19 Nov 2023 22:43:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2815,7 +2815,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
         </item>
         <item>
             <title><![CDATA[18th November 2023]]></title>
-            <description><![CDATA[<p><strong>Vigneswaran Rajkumar</strong> at <strong>The Acharya</strong> has just release <strong>Airlift</strong>!</p>
+            <description><![CDATA[<p><strong>Vigneswaran Rajkumar</strong> at <strong>The Acharya</strong> has just released <strong>Airlift</strong>.</p>
 <p><img src="/static/airlift-social-card.png" alt=""></p>
 <ul>
 <li>Automated uploading of <code>.csv</code> or <code>.json</code> data to Airtable</li>
@@ -2830,6 +2830,25 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#18th-november-2023</link>
             <guid isPermaLink="false">18th November 2023</guid>
             <pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th November 2023]]></title>
+            <description><![CDATA[<p><strong>Ulti.Media</strong> is having a Black Friday Super Sale.</p>
+<p>Get up to <strong>50% off</strong> their products and bundles, like BeatMark Pro, FCP Diet 2, FCP Cut Finder, FCP STR Importer 2, BeatMark 2, Ulti.Media Converter 2, FCP Video Tag and PoweResize.</p>
+<p>You can learn more <a href="https://ulti.media/black-friday/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-november-2023</link>
+            <guid isPermaLink="false">20th November 2023</guid>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th November 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> is also having their biggest sale of the year, with up to <strong>50% off</strong> and free packs.</p>
+<p>You can learn more <a href="https://www.motionvfx.com/black-deals">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-november-2023</link>
+            <guid isPermaLink="false">20th November 2023</guid>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
