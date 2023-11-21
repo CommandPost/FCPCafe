@@ -16,6 +16,8 @@ You can read about the 2023 Final Cut Pro Creative Summit on FCP Cafe:
 - [Day 2](/news/20231107/)
 - [Day 3](/news/20231108/)
 
+**Paul Matthijs Lombert** from Hedge has also written about the FCP Creative Summit on his blog post titled, [Visiting Cupertino](https://blog.hedge.video/visiting-cupertino/).
+
 You can visit the **official website** [here](http://fcpcreativesummits.com).
 
 You can find the official **program** [here](http://fcpcreativesummits.com/program/).

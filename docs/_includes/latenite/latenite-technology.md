@@ -6,6 +6,58 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 
 ---
 
+## App Store
+
+Here's some of our products currently for sale on the Mac App Store:
+
+{{ include "latenite/braw-toolbox" }}
+
+---
+
+{{ include "latenite/gyroflow-toolbox" }}
+
+---
+
+{{ include "latenite/marker-toolbox" }}
+
+---
+
+{{ include "latenite/fast-collections" }}
+
+---
+
+## Free Apps
+
+Here's some of our free tools used by professional editors worldwide:
+
+{{ include "latenite/commandpost" }}
+
+---
+
+### Rename Avid MXF Files
+
+This simple Python script is used to rename MXF files generated from Avid Media Composer to match the **Package Name** in their metadata.
+
+The script can process a **single file** or a **folder** containing multiple MXF files.
+
+This is useful if you want to move native Avid MXF files from Avid Media Composer to Final Cut Pro.
+
+This script is very basic, and doesn't contain any special error handling or messaging. It may not work in all use cases.
+
+You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
+
+You can learn more [here](https://github.com/CommandPost/RenameAvidMXFFiles).
+
+---
+
+## TestFlight
+
+Here's some of our projects still in active development, awaiting Mac App Store approval:
+
+{{ include "latenite/recall-toolbox" }}
+
+---
+
 ## In Development
 
 Here's a **sneak peak** of some of the things we have in development.
@@ -67,39 +119,3 @@ You'll be able to add titles to the timeline, to trigger Machine Learning action
 Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key.
 
 ![](/static/magic-toolbox.jpg)
-
----
-
-## TestFlight
-
-Here's some of our projects still in active development, awaiting Mac App Store approval:
-
-{{ include "latenite/recall-toolbox" }}
-
----
-
-## Free Apps
-
-Here's some of our free tools used by professional editors worldwide:
-
-{{ include "latenite/commandpost" }}
-
----
-
-## App Store
-
-Here's some of our products currently for sale on the Mac App Store:
-
-{{ include "latenite/braw-toolbox" }}
-
----
-
-{{ include "latenite/gyroflow-toolbox" }}
-
----
-
-{{ include "latenite/marker-toolbox" }}
-
----
-
-{{ include "latenite/fast-collections" }}
