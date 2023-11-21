@@ -84,7 +84,7 @@ After organizing the files in the Final Cut Pro Library, we label the clips with
 
 ![Audio Roles Labelling](/static/goh-06.png)
 
-We take XML back every time as a backup database.
+We also export a FCPXML as a backup.
 
 ---
 
