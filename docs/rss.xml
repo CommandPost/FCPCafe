@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 19 Nov 2023 22:43:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Nov 2023 01:59:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Nov 2023 22:43:42 GMT</pubDate>
+        <pubDate>Tue, 21 Nov 2023 01:59:53 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2849,6 +2849,27 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#20th-november-2023</link>
             <guid isPermaLink="false">20th November 2023</guid>
             <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st November 2023]]></title>
+            <description><![CDATA[<p>We have an exciting new case study on FCP Cafe!</p>
+<p><a href="https://twitter.com/apcdgworks">Achu P. Chandra</a> writes about his project, <strong>Guardians of Himalayas</strong>.</p>
+<p>This is a very detailed and technical case study with lots of screenshots. Enjoy!</p>
+<p>You can read it <a href="/case-studies/guardians-of-himalayas/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-november-2023</link>
+            <guid isPermaLink="false">21st November 2023</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st November 2023]]></title>
+            <description><![CDATA[<p><strong>Paul Matthijs Lombert</strong> from <a href="https://hedge.video">Hedge</a> has written about the FCP Creative Summit on his blog post titled, <strong>Visiting Cupertino</strong>.</p>
+<p>You can read it <a href="https://blog.hedge.video/visiting-cupertino/">here</a>.</p>
+<p><img src="/static/hedge-team.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#21st-november-2023</link>
+            <guid isPermaLink="false">21st November 2023</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
