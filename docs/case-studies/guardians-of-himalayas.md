@@ -34,11 +34,11 @@ The team captured all footage in 1920 x 1080p at 50 fps; in addition, the team u
 | Gopro 10     | 1920 x 1080 P  50fps | 2 Stereo        | H265        |
 
 The audio engineer took a different approach; he recorded all the interviews, location audio, and ambience in Zoom H6 with 4 audio tracks.
- 
+
 1.99 TB of footage, including audio, was stored on two hard disks with proper backup.
 
 Post-production started on 4th July 2023 in Trivandrum, India, at the main office of Asianet News.
- 
+
 All rushes were transferred to local storage (Promise Pegasus) at the edit suite, and it took 4 days for data validation and sorted footage according to the name, date, location, event, and camera. We also renamed the clip with the event name along with the shot number and camera name; to help the editor find the visuals easily.
 
 ![](/static/goh-02.png)
@@ -61,11 +61,11 @@ First, we imported all the rushes to Final Cut Pro events and arranged all the f
 
 We set the sequence settings to 1920 x 1080p at 25 fps.
 
-**VIDEO RESOLUTION:** 1920 x 1080 P	 
-**FIELD ORDER:** PROGRESSIVE	 
-**FRAME RATE:** 25 P	 
-**AUDIO:** 48/24	 
-**AUDIO MODE:** STEREO 
+**VIDEO RESOLUTION:** 1920 x 1080 P
+**FIELD ORDER:** PROGRESSIVE
+**FRAME RATE:** 25 P
+**AUDIO:** 48/24
+**AUDIO MODE:** STEREO
 **RENDER CODEC:** APPLE PRORES 422
 
 ![Sequence Setting](/static/goh-05.png)
@@ -74,7 +74,7 @@ We set the sequence settings to 1920 x 1080p at 25 fps.
 
 ### Why XDCAM HD422?
 
-We are Asianet News India's first private satellite channel and the number one news channel in regional channels in India. As a media house, we have some Broadcast Standards for Optimum Quality and Storage, and we chose industry-standard codec XDCAM 422 as the house format.
+We are Asianet News India's first private satellite channel and the number one news channel in regional channels in India. As a media house, we have some Broadcast Standards for Optimum Quality and Storage, and we chose industry-standard codec XDCAM 422 as the house format.
 
 ---
 
@@ -90,7 +90,7 @@ We take XML back every time as a backup database.
 
 ### Edit
 
-Before starting the edit, we completed all multi-clip sync with audio, which was recorded with Zoom H6. All multi-clips are created with a setting of 1920x1080 at 50 fps. Some multi-clips need to sync audio video manually due to the location extremity and completed all syncing work in 4 days.
+Before starting the edit, we completed all multi-clip sync with audio, which was recorded with Zoom H6. All multi-clips are created with a setting of 1920x1080 at 50 fps. Some multi-clips need to sync audio video manually due to the location extremity and completed all syncing work in 4 days.
 
 Take additional stock footage, music, sound effects, and Apple Motion Temples from Storyblocks.
 
@@ -112,8 +112,8 @@ In the meantime, the English voice-over script was also generated.
 
 ### Audio
 
-The Audio Department started their work with original location sound replacement and sound design; it took two weeks to complete, and they recorded the English voiceover too. 
- 
+The Audio Department started their work with original location sound replacement and sound design; it took two weeks to complete, and they recorded the English voiceover too.
+
 Sajim Noushadh, the sound engineer, had to deal with 36 audio tracks and mix them with Broadcast Standard. All audio work was done on an Intel iMac running Avid Protools with industry-standard plugins and hardware. Two mixes (English and Malayalam) were delivered on Masted stereo AIFF audio files.
 
 ![Protools Session](/static/goh-09.jpg)
@@ -140,46 +140,46 @@ On the fourth day, we added mixed tracks to the sequence and exported the docume
 
 An Asianet News Production in association with Indian Army.
 
-**Design & Direction**
+**Design & Direction:**
 M. G. Aneesh
- 
-**Script**
+
+**Script:**
 Viju V. Nair
 M. G. Aneesh
 
-**Photography**
+**Photography:**
 Prashanth Albert
 Gibin Baby
 K. R. Mukund
 Vishnu Kalapeedom
 Praveen Kollakonam
 
-**Editing & Colouring**
+**Editing & Colouring:**
 Achu. P. Chandra
- 
-**Co-Direction**
+
+**Co-Direction:**
 Anish Kumar
 
-**Sync Sound**
+**Sync Sound:**
 Krishnaraj
 
-**Sound Mixing**
+**Sound Mixing:**
 Sajim Noushad
 
-**Narration**
+**Narration:**
 N. M. Babu (English)
 M. G. Aneesh (Malayalam)
 
-**Map Animation**
+**Map Animation:**
 Pramodh K. T
 
 ![](/static/goh-12.png)
 
 ---
 
-### Storytelling at its most powerful
+### Storytelling at its most powerful
 
-Throughout the project, I didn’t face any project errors or library errors, and the powerful Final Cut Pro delivered maximum performance with good stability and faster working which helped me to achieve the goal. The super cool features like Automatic speed (Video Conforming) and Optical Motion manage all things perfectly on a top model of intel 27 inch iMac
+Throughout the project, I didn't face any project errors or library errors, and the powerful Final Cut Pro delivered maximum performance with good stability and faster working which helped me to achieve the goal. The super cool features like Automatic speed (Video Conforming) and Optical Motion manage all things perfectlyon a top model of intel 27 inch iMac
 
 In Asianet News, we use Final Cut Pro X from Version 10.2 to 10.6.8. As a 24x7 news channel, we use the potential and speed of Final Cut at every moment. More than 24 video editors edit stories, explainers, programs, events, news headlines, and web content every day by exploring the creative world through the Final Cut Pro Eco System.
 
