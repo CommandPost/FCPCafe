@@ -116,7 +116,7 @@ The Audio Department started their work with original location sound replacement
  
 Sajim Noushadh, the sound engineer, had to deal with 36 audio tracks and mix them with Broadcast Standard. All audio work was done on an Intel iMac running Avid Protools with industry-standard plugins and hardware. Two mixes (English and Malayalam) were delivered on Masted stereo AIFF audio files.
 
-![Protools Session](/static/goh-09.png)
+![Protools Session](/static/goh-09.jpg)
 
 ---
 
