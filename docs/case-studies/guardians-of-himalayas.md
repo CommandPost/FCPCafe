@@ -141,21 +141,21 @@ On the fourth day, we added mixed tracks to the sequence and exported the docume
 An Asianet News Production in association with Indian Army.
 
 **Design & Direction:**
-M. G. Aneesh
+M\. G\. Aneesh
 
 **Script:**
 Viju V. Nair
-M. G. Aneesh
+M\. G\. Aneesh
 
 **Photography:**
 Prashanth Albert
 Gibin Baby
-K. R. Mukund
+K\. R\. Mukund
 Vishnu Kalapeedom
 Praveen Kollakonam
 
 **Editing & Colouring:**
-Achu. P. Chandra
+Achu\. P\. Chandra
 
 **Co-Direction:**
 Anish Kumar
@@ -167,11 +167,11 @@ Krishnaraj
 Sajim Noushad
 
 **Narration:**
-N. M. Babu (English)
-M. G. Aneesh (Malayalam)
+N\. M\. Babu (English)
+M\. G\. Aneesh (Malayalam)
 
 **Map Animation:**
-Pramodh K. T
+Pramodh K\. T
 
 ![](/static/goh-12.png)
 
