@@ -20,6 +20,7 @@ BretFX
 Color Finale
 FabFilter
 FilmConvert
+FxFactory
 iZotope
 Klevgrand
 MotionVFX
@@ -73,6 +74,14 @@ You can learn more [here](https://www.fabfilter.com).
 FilmConvert is currently doing a Black Friday Sale with up to **40% off**, as well as discount and upgrades for existing customers.
 
 You can learn more [here](https://www.filmconvert.com/purchase).
+
+---
+
+### FxFactory
+
+**FxFactory** is currently doing a Black Friday Sale with **20% off** if you use the code: **BLACKFRIDAY**
+
+You can learn more [here](https://fxfactory.com).
 
 ---
 
