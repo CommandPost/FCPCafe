@@ -1,4 +1,4 @@
-# LateNite Technology
+# Explore LateNite's Tools
 
 This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com/technology).
 
@@ -6,9 +6,9 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 
 ---
 
-## App Store
+## Mac App Store
 
-Here's some of our products currently for sale on the Mac App Store:
+Here's some of our products currently for sale on the **Mac App Store**:
 
 {{ include "latenite/braw-toolbox" }}
 
@@ -23,6 +23,10 @@ Here's some of our products currently for sale on the Mac App Store:
 ---
 
 {{ include "latenite/fast-collections" }}
+
+---
+
+{{ include "latenite/recall-toolbox" }}
 
 ---
 
@@ -50,19 +54,9 @@ You can learn more [here](https://github.com/CommandPost/RenameAvidMXFFiles).
 
 ---
 
-## TestFlight
-
-Here's some of our projects still in active development, awaiting Mac App Store approval:
-
-{{ include "latenite/recall-toolbox" }}
-
----
-
 ## In Development
 
-Here's a **sneak peak** of some of the things we have in development.
-
-Exact shipping dates may vary, as all these ideas are still in active development, and subject to things like TestFlight & App Store approval, etc.
+Here's a **sneak peak** of some of the things we have in development:
 
 ---
 
