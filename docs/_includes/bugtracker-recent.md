@@ -1,3 +1,4 @@
+- [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)
 - [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
 - [FCP & QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/250)
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
@@ -27,4 +28,3 @@
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133)
 - [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119)
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
-- [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
