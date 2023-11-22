@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 21 Nov 2023 21:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Nov 2023 02:24:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Nov 2023 21:48:16 GMT</pubDate>
+        <pubDate>Wed, 22 Nov 2023 02:24:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2870,6 +2870,26 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#21st-november-2023</link>
             <guid isPermaLink="false">21st November 2023</guid>
             <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd November 2023]]></title>
+            <description><![CDATA[<p><strong>Recall Toolbox</strong> is out now on the Mac App Store!</p>
+<p><img src="/static/recall-toolbox-banner.jpg" alt=""></p>
+<p>Recall Toolbox is a <strong>Final Cut Pro Workflow Extension</strong> that acts as a Shared Pasteboard.</p>
+<p><em><strong>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</strong></em></p>
+<p>You can even drag-and-drop clips and projects from the Final Cut Pro Browser, and link to files (such as logos on a shared drive).</p>
+<p>Recall Toolbox automagically syncs to all your Mac's on the same iCloud account.</p>
+<p>You can also share Folders with other iCloud users, and control permissions. For example, you could have a &quot;read only&quot; folder that contains client lower thirds for a current job.</p>
+<p>Whilst there are third party tools like the amazing <a href="https://apprywhere.com/ce-mac.html">Copy 'Em ​(for Mac)</a>, they're not quite as visual as Recall Toolbox, and they're not built from the ground up for Final Cut Pro users.</p>
+<p>Recall Toolbox works as a Final Cut Pro Workflow Extension, so it's window position gets saved with your custom Workspaces.</p>
+<p>Whilst <a href="https://commandpost.io">CommandPost</a> has had a Shared Pasteboard &amp; Pasteboard Buffers for years, it's really optimised for Control Surfaces. You can access the Shared Pasteboard from the CommandPost menubar, and it is super powerful, but it's not as visual - you just get text, not a fully customisable thumbnail.</p>
+<p>Recall Toolbox feels like a natural extension to Final Cut Pro, with a similar look and feel to Final Cut Pro's Effects Browser.</p>
+<p>It's <strong>29.99</strong> in your local currency (i.e. AUD29.99, USD29.99, CAD29.99).</p>
+<p>You can find out more <a href="https://recalltoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-november-2023</link>
+            <guid isPermaLink="false">22nd November 2023</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
