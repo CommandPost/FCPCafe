@@ -8,9 +8,11 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 ### Black Friday Deals
 
-Valentina Vee has a great [Twitter thread](https://twitter.com/valentinavee/status/1726386386004275590) with all the deals she's interested in.
+**Valentina Vee** has a great [Twitter thread](https://twitter.com/valentinavee/status/1726386386004275590) with all the deals she's interested in.
 
-Pro Video Coalition also has a blog post titled: [PVC’s BIG Black Friday list for 2023](https://www.provideocoalition.com/pvcs-big-black-friday-list-for-2023/)
+**Pro Video Coalition** has a blog post titled: [PVC’s BIG Black Friday list for 2023](https://www.provideocoalition.com/pvcs-big-black-friday-list-for-2023/)
+
+**Jordi Bruin** also has an incredible website called [Indie Friday](https://www.indiefriday.app) showcasing a whole bunch of independently developed apps.
 
 ---
 
