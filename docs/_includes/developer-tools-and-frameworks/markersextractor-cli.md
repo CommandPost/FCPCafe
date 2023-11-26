@@ -1,4 +1,4 @@
-### MarkersExtractor (CLI & API)
+### MarkersExtractor (CLI & Library)
 
 ![](/static/markersextractor-social-card.png)
 
