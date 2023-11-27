@@ -1,7 +1,5 @@
 ### DAWFileKit
 
-![](/static/timecodekit-banner.png)
-
 A Swift library for reading and writing common import/export file formats between popular DAW and video editing applications with the ability to convert between formats.
 
 |              Format               |     Read      |     Write     |
@@ -17,4 +15,4 @@ A Swift library for reading and writing common import/export file formats betwee
 
 *‡ Research is needed for Logic Pro X to determine what file formats are common and the viability of their implementation*
 
-[!button text="View on GitHub" target="blank" variant="info"](https://github.com/orchetect/TimecodeKit)
+[!button text="View on GitHub" target="blank" variant="info"](https://github.com/orchetect/DAWFileKit)
