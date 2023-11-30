@@ -1,3 +1,4 @@
+- [Parameters Synchronisation for Motion Template / Generator (November 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/281)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)

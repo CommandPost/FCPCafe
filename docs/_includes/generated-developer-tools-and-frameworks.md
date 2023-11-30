@@ -10,6 +10,12 @@
 
 ---
 
+## D
+
+{{ include "developer-tools-and-frameworks/dawfilekit" }}
+
+---
+
 ## F
 
 {{ include "developer-tools-and-frameworks/fxcore" }}
