@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Dec 2023 03:08:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Dec 2023 03:17:50 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Dec 2023 03:08:43 GMT</pubDate>
+        <pubDate>Fri, 01 Dec 2023 03:17:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2972,10 +2972,20 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <li>MPEG IMX</li>
 <li>Uncompressed 4:2:2</li>
 </ul>
-<p>For developers, <strong>FxPlug SDK 4.2.9</strong> is also out now with the following updates:</p>
+<p>For developers, <strong>FxPlug SDK 4.2.9</strong> is also out now with the following:</p>
 <ul>
 <li>A new <code>-projectAspectRatio:error:</code> method in <code>FxProjectAPI_v2</code>.</li>
 <li>The <code>FxBrightnessAnalysis</code> example has been updated to optionally perform backward analysis, image well analysis, and GPU analysis.</li>
+<li>Improved overall stability.</li>
+<li>Improved the speed of analysis cancellation.</li>
+<li>Fixed an issue in <code>-timelineTime:fromImageTime:forParameterID:</code> that had caused an incorrect time to be returned as timelineTime.</li>
+<li><code>FxColorGamutAPI</code> can now be instantiated from within <code>-parameterChanged:atTime:error:</code></li>
+<li><code>FxProjectAPI</code> can now be accessed during a push button callback.</li>
+<li>Fixed a leak in the <code>FxSimpleColorCorrector</code> example plug-in.</li>
+<li>Fixed an issue that would cause a hang in Motion when multiple instances of the same plug-in were applied to an object.</li>
+<li>Fixed an issue that would cause generated output to be composited on frames requested by the <code>FxAnalysisAPI</code> and <code>FxTimingAPI</code> when a plug-in was applied to a title template’s Title Background layer.</li>
+<li>Fixed an issue that could cause a crash when analyzing very large inputs in effect templates that had relatively small project dimensions.</li>
+<li>Xcode 15 is now required to build FxPlug plug-ins.</li>
 </ul>
 <p>As usual, <a href="https://www.rippletraining.com">Ripple Training</a> have released an awesome detailed video explaining all the new features:</p>
 <p><a href="https://www.youtube.com/watch?v=lC5qQWyTuZ0"><img src="/static/fcp10-7-ripple-youtube.jpeg" alt=""></a></p>
