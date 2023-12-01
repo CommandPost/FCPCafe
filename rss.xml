@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 30 Nov 2023 06:34:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Dec 2023 03:08:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Nov 2023 06:34:44 GMT</pubDate>
+        <pubDate>Fri, 01 Dec 2023 03:08:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -2890,6 +2890,116 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#22nd-november-2023</link>
             <guid isPermaLink="false">22nd November 2023</guid>
             <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st December 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro 10.7</strong> and <strong>Final Cut Pro for iPad 1.3</strong> are out now!</p>
+<p>This was the version demonstrated at the Final Cut Pro Creative Summit. Whilst there was no new feature surprises, it does have some very welcome bug fixes!</p>
+<p><strong>Final Cut Pro 10.7</strong> includes the following enhancements and fixes:</p>
+<ul>
+<li>Automatically scroll the timeline to keep your clips in view under the playhead during playback.</li>
+<li>Increase editing efficiency by combining a selected group of connected clips into a connected storyline.</li>
+<li>View both video and audio role colors to easily see the organization of the timeline at a glance.</li>
+<li>See improved results when using the Object Tracker’s all-new machine-learning model to analyze the movement of faces and other objects on Mac computers with Apple silicon.</li>
+<li>Use the enhanced Reveal in Browser feature to easily locate a clip in the browser without losing your selected Keyword Collection or Smart Collection.</li>
+<li>Export HEVC and H.264 files faster by simultaneously processing video segments across available media engines (requires macOS Sonoma or later and a Mac with Apple M1 Max, M1 Ultra, M2 Max, M2 Ultra, or M3 Max).</li>
+<li>Fixes an issue that caused an offline media badge to remain on an event after reconnecting.</li>
+<li>Fixes an issue that could cause video to be cropped in the multicam angle editor.</li>
+<li>Improves performance when upgrading a library that contains many markers.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad 1.3</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Record voiceover and live audio directly in the timeline using the built-in iPad microphones or external microphones.</li>
+<li>Dial in the perfect look with stunning new color-grading presets.</li>
+<li>Choose from a selection of new titles and generators.</li>
+<li>Increase editing efficiency by grouping connected clips into a connected storyline.</li>
+<li>Control stabilization in the pro camera mode.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Group clips into a connected storyline: Command-G</li>
+<li>Ungroup clips from a connected storyline: Shift-Command-G</li>
+<li>Show or hide the voiceover controls: Shift-V</li>
+<li>Start or stop recording audio from the voiceover controls: Shift-Option-R</li>
+<li>Play full screen: Shift-Command-F</li>
+<li>Enter or exit Picture in Picture: Command-3</li>
+</ul>
+<p><strong>Improvements and fixes:</strong></p>
+<ul>
+<li>Adds a skin tone indicator to the vectorscope.</li>
+<li>Adds color gradients to controls in the Color Adjustments effect and color-grading presets.</li>
+<li>Adds the Sharpen effect to the content browser and inspector.</li>
+<li>Increases the Volume Offset maximum to 20 dB.</li>
+<li>Allows dragging anywhere at the top of the timeline to resize it.</li>
+<li>Fixes an issue that caused resetting Format settings for a Live Drawing clip to remove its contents.</li>
+<li>Fixes an issue that caused Live Drawings in an HDR portrait project to show an unexpected border.</li>
+<li>Fixes an issue that prevented nudging of the last animation keyframe for clips in a connected storyline.</li>
+<li>Improves reliability when reimporting missing media files.</li>
+<li>Improves reliability when copying and pasting color conversion and rate conversion settings.</li>
+<li>Improves reliability when undoing a copy and paste of Audio settings.</li>
+<li>Improves reliability when importing iMovie for iOS projects.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Motion 5.7</strong> includes the following enhancements and fixes:</p>
+<ul>
+<li>See improved results when using the Object Tracker’s all-new machine-learning model to analyze the movement of faces and other objects on Mac computers with Apple silicon.</li>
+<li>Title template backgrounds are now disabled by default.</li>
+<li>Fixes an issue that caused FxPlug-based plug-ins to stop responding when you cancel an analysis.</li>
+</ul>
+<p><strong>Compressor 4.7</strong> includes the following enhancements and fixes:</p>
+<ul>
+<li>Export HEVC and H.264 files faster by simultaneously processing video segments across available media engines (requires macOS Sonoma or later and a Mac with Apple M1 Max, M1 Ultra, M2 Max, M2 Ultra, or M3 Max).</li>
+<li>Create, configure, and build stereoscopic packages for the iTunes Store.</li>
+<li>Preview Log encoded video with or without Log applied.</li>
+<li>HDR content now displays in the correct color space in the viewer.</li>
+<li>Improves performance when enabling or disabling audio tracks on long multi-channel ProRes clips.</li>
+<li>Adds support for JSON and XML output to batch submissions when using the command line.</li>
+<li>Fixes an issue where creating a Watch Folder would prevent the “Enable audio pass-through” setting from being selected.</li>
+</ul>
+<p><strong>Pro Video Formats 2.3</strong> is also out now. The Pro Video Formats package provides support for the following codecs that are used in professional video workflows:</p>
+<ul>
+<li>Apple ProRes RAW and ProRes RAW HQ*</li>
+<li>Apple Intermediate Codec</li>
+<li>Avid DNxHD® / Avid DNxHR® decoder</li>
+<li>AVC-Intra 50 / 100 / 200 / 4:4:4 / LT</li>
+<li>AVC-LongG</li>
+<li>XAVC</li>
+<li>XF-AVC</li>
+<li>XF-HEVC</li>
+<li>DVCPRO HD</li>
+<li>HDV</li>
+<li>XDCAM EX / HD / HD422</li>
+<li>MPEG IMX</li>
+<li>Uncompressed 4:2:2</li>
+</ul>
+<p>For developers, <strong>FxPlug SDK 4.2.9</strong> is also out now with the following updates:</p>
+<ul>
+<li>A new <code>-projectAspectRatio:error:</code> method in <code>FxProjectAPI_v2</code>.</li>
+<li>The <code>FxBrightnessAnalysis</code> example has been updated to optionally perform backward analysis, image well analysis, and GPU analysis.</li>
+</ul>
+<p>As usual, <a href="https://www.rippletraining.com">Ripple Training</a> have released an awesome detailed video explaining all the new features:</p>
+<p><a href="https://www.youtube.com/watch?v=lC5qQWyTuZ0"><img src="/static/fcp10-7-ripple-youtube.jpeg" alt=""></a></p>
+<p>The incredible <a href="https://jennjager.com">Jenn Jager</a> has also released an awesome video:</p>
+<p><a href="https://www.youtube.com/watch?v=bHYmIsJGCxY"><img src="/static/fcp10-7-jenn-youtube.jpeg" alt=""></a></p>
+<p>And of course, the The Final Cut Bro, Dylan Bates is also on the case:</p>
+<p><a href="https://www.youtube.com/watch?v=h8qDPtwKBQw"><img src="/static/fcpbro-10-7-youtube.jpeg" alt=""></a></p>
+<p>We'll be testing Final Cut Pro 10.7 and Final Cut Pro for iPad 1.3 in detail over the coming weeks, and we'll keep you posted if we discover any unexpected bugs or issues.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-december-2023</link>
+            <guid isPermaLink="false">1st December 2023</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st December 2023]]></title>
+            <description><![CDATA[<p><strong>New Case Study!</strong></p>
+<p><a href="https://www.sebastianleitner.com">Sebastian Leitner</a> has written an incredibly detailed and technical case study on the film <strong>Women of Resilience: Tales of Kurdish Identity</strong>, discussing Broadcast Versioning and Mastering.</p>
+<p>You can watch the trailer for his project here:</p>
+<p><a href="https://www.youtube.com/watch?v=_tHdyD9TGCA"><img src="/static/women-of-resilience-youtube.jpeg" alt=""></a></p>
+<p>You can read the case study <a href="/case-studies/women-of-resilience/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-december-2023</link>
+            <guid isPermaLink="false">1st December 2023</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
