@@ -10,15 +10,23 @@ _Written by [Sebastian Leitner](https://www.sebastianleitner.com) - Professional
 
 ## About the film
 
-**Plot:**
+**Plot:**<br/>
 Two former female Kurdish guerrilla fighters reconnect over their shared history and their decision to leave the movement to fight for Kurdish freedom in a different, non-violent way. A story of resistance against the suppression of one's own voice and culture.
 
-**Length:** 52/55 minutes (TV/cinema)
-**Genre:** Documentary (Coming-Of-Age, Current Affairs)
+**Length:**<br/>
+52/55 minutes (TV/cinema)
 
-**Produced by:** CrossGeneration Media, Berlin (c)2023
-**Directed by:** Andreas Rochholl
-**Edited by:** Sebastian Leitner
+**Genre:**<br/>
+Documentary (Coming-Of-Age, Current Affairs)
+
+**Producer:**<br/>
+CrossGeneration Media, Berlin (c)2023
+
+**Director:**<br/>
+Andreas Rochholl
+
+**Editor:**<br/>
+Sebastian Leitner
 
 Previous documentaries done in FCP by Sebastian Leitner:
 
@@ -42,22 +50,24 @@ You can watch the trailer on YouTube here:
 
 100% independently produced by a team of two on a very low-budget level, we had to work with a lot of limitations – but also had freedom. As a long-term fan of FCP, the only NLE where editing is really fun and creative, I spent 3 months in post production alone: Edit, grade and audio mix – all mastered twice for 1) cinema and 2) TV.
 
-**Source format:** 600 GB of Sony/DJI 4K HEVC 10bit 422 (cine2/flat, rec.709) at 23,98p
+**Source format:**<br/>
+600 GB of Sony/DJI 4K HEVC 10bit 422 (cine2/flat, rec.709) at 23,98p
 
-**Editing machine:** MBP 16” M1pro, 16GB RAM, 1TB SSD, Ventura & Sonoma
+**Editing machine:**<br/>
+MBP 16” M1pro, 16GB RAM, 1TB SSD, Ventura & Sonoma
 
-**Versions needed:**
+**Versions needed:**<br/>
 - Cinema version (English subtitles) in 2K flat 1998x1080, 24p, 5.1 Surround
 - TV version in HD 16:9, 25p, Stereo + M&E (ProRes HQ with 4 audio channels)
 - Fully subtitled in English and German
 - Clean-feed without any title inserts
 
-**Additional documents needed for broadcast:**
+**Additional documents needed for broadcast:**<br/>
 - Music Cue Sheet for royalty regulations
 - Title inserts list for localizations by TV channels
 - Full script of all dialogue/narration for dubbing/captioning in the form of CC (SDH)
 
-**Additional mastering requirements:**
+**Additional mastering requirements:**<br/>
 - Frame rate conversion from finished cinema 24p version to TV 25p
 - Audio normalization according to EBU R128 for broadcast
 - Video normalization according to EBU R103 for broadcast
@@ -69,10 +79,10 @@ _Due to the official release being set for early 2024, all screenshots only disp
 
 ## Workflow
 
-**Setup:**
+**Setup:**<br/>
 The SDR library is located on the internal SSD as well as all cache files, library backups, export renders and transcodes. Nothing gets stored inside the library so that it stays small and fast. For the amount of 600 GB source media, the library clocks in at under 500 MB stat way. All source media is fed from an external RAID (HDD) or portable LaCie SSD.
 
-**Organization:**
+**Organization:**<br/>
 As commonly done, I created events for corresponding steps in post-production. Through the use of ‘Folder Names as Keywords’ during import I could start editing right away because we took the time of naming folders when copying media to the source drive. I could easily find people, location and topics that way. My process now starts which is not using any typical media management methods besides favorite ranges or in/out points in the browser. I like to assemble groups of clips in the project with gaps in between to move parts around creatively.
 
 Firstly, I of course finished the Director’s Cut, also known as ‘cinema version’. The original 23,98p UHD (4K 16:9) material was edited in a 2K flat 1998x1080 native 24p project (audio set to stereo). FCP working its magic already, the frame rate conform happens automatically and without hick-ups in the background. the extra resolution gave more details when scaled down and noise was reduced. I also had more room for stabilization, framing and ‘ken-burnsing’ that way.
