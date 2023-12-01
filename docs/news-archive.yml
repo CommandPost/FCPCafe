@@ -1,5 +1,5 @@
-label: Latest News
+label: News Archive
 description: FCP Cafe is a technical community for professional Final Cut Pro editors.
-icon: broadcast
-order: 99999999
+icon: file-zip
+order: 9999999
 image: /static/thumbnail.jpg

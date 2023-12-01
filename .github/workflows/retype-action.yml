@@ -53,6 +53,9 @@ jobs:
       - name: Generate Latest News Markdown
         run: node .github/scripts/generate-latest-news.js
 
+      - name: Generate All News Markdown
+        run: node .github/scripts/generate-all-news.js
+
       - name: Generate Workflow Extensions Markdown
         env:
           PAGE_NAME: "workflow-extensions"

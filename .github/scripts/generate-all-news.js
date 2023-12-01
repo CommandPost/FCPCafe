@@ -3,15 +3,8 @@ const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
 const sponsorsPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-all-news.md');
 const newsOutputDirectory = path.join(process.env.GITHUB_WORKSPACE, 'docs/news');  // Directory for individual news files
-
-// Get the current date and calculate the start date of the 3-month period
-const currentDate = new Date();
-const threeMonthsAgo = new Date(currentDate);
-threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
-const startYear = threeMonthsAgo.getFullYear().toString();
-const startMonth = (threeMonthsAgo.getMonth() + 1).toString().padStart(2, '0');  // Months are 0-indexed, so we add 1
 
 try {
     // Read the sponsor files
@@ -27,11 +20,6 @@ try {
             .filter(file => path.extname(file) === '.md')
             .sort()
             .reverse();
-            .filter(file => {
-                const year = file.slice(0, 4);
-                const month = file.slice(4, 6);
-                return year > startYear || (year === startYear && month >= startMonth);
-            });
 
         let outputContent = '';
         let currentYear = '';
@@ -65,6 +53,34 @@ try {
                     sponsorIndex = (sponsorIndex % (sponsorFiles.length - 1)) + 1;
                     outputContent += `{{ include "sponsors/${sponsorFiles[sponsorIndex]}" }}\n\n---\n\n`;
                 }
+            }
+
+            // Generate individual news file
+            const newsOutputFile = path.join(newsOutputDirectory, `${date}.md`);
+
+            const newsYear = date.slice(0, 4);
+            const newsMonth = monthNames[parseInt(date.slice(4, 6), 10) - 1];
+
+            const newsDay = parseInt(date.slice(6, 8), 10); // Extract day from the filename
+
+            // Convert day to its ordinal form
+            let suffix = 'th';
+            if (newsDay % 10 === 1 && newsDay !== 11) suffix = 'st';
+            else if (newsDay % 10 === 2 && newsDay !== 12) suffix = 'nd';
+            else if (newsDay % 10 === 3 && newsDay !== 13) suffix = 'rd';
+
+            const formattedDateLabel = `${newsDay}${suffix} ${newsMonth} ${newsYear}`;
+
+
+            const metadata = `---\nlabel: ${formattedDateLabel}\nmeta:\n  title: "News - ${formattedDateLabel}"\nicon: broadcast\nimage: /static/thumbnail.jpg\n---\n\n`;
+
+            const newsContent = metadata + `# ${newsYear}\n## ${newsMonth}\n\n{{ include "news/${date}" }}`;
+
+            try {
+                fs.writeFileSync(newsOutputFile, newsContent);
+                console.log(`Successfully written to ${newsOutputFile}`);
+            } catch (err) {
+                throw new Error('Unable to write to news file: ' + err);
             }
         });
 
