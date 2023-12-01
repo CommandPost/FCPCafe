@@ -26,7 +26,7 @@ try {
         const mdFiles = files
             .filter(file => path.extname(file) === '.md')
             .sort()
-            .reverse();
+            .reverse()
             .filter(file => {
                 const year = file.slice(0, 4);
                 const month = file.slice(4, 6);
