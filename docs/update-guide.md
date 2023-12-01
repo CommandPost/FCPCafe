@@ -34,6 +34,27 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 ---
 
+## Final Cut Pro 10.7
+
+**Final Cut Pro 10.7** was released on the Mac App Store on 30th November 2023.
+
+If you're currently using **Final Cut Pro 10.6.10** on macOS Ventura or Sonoma, there are currently no major reported issues that would prevent you from updating.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+
+---
+
 ## Final Cut Pro 10.6.10
 
 **Final Cut Pro 10.6.10** was released on the Mac App Store on 6th October 2023.

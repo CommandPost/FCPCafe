@@ -51,7 +51,7 @@ const sumReactions = issue => {
 
 getIssues().then(issues => {
   const issuesFilteredByRecent = issues.filter(issue => issue.labels.length > 0 && !issue.labels.some(label => label.name === "Feature Request"));
-  const issuesFilteredByLatest = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.10"));
+  const issuesFilteredByLatest = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.7"));
   const issuesFilteredByPrevious = issuesFilteredByRecent.filter(issue => issue.labels.some(label => label.name === "FCPX 10.6.8"));
 
   generateMarkdown(issuesFilteredByRecent, 'docs/_includes/bugtracker-recent.md', (a, b) => new Date(b.created_at) - new Date(a.created_at));

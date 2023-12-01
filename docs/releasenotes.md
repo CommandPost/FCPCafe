@@ -10,11 +10,12 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ## Statistics
 
-The below information was consolidated by [finalcutgod](https://twitter.com/finalcutgod).
+The below information was originally consolidated by [finalcutgod](https://twitter.com/finalcutgod).
 
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.7.0            | 30/11/2023   | 56                   | 14.1.2        | 4.2.9          |
 | 10.6.10           | 05/10/2023   | 16                   | 13.5.2        | 4.0            |
 | 10.6.9            | 19/09/2023   | 49                   | 13.5.2        | 4.0            |
 | 10.6.8            | 01/08/2023   | 14                   | 12.6          | 4.0            |
@@ -82,7 +83,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | 2020	| 4       |
 | 2021	| 5       |
 | 2022	| 4       |
-| 2023	| 5       |
+| 2023	| 6       |
 
 {.compact}
 | Quarter |	Updates |
@@ -90,7 +91,7 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | Q1	  | 8       |
 | Q2	  | 14      |
 | Q3	  | 12      |
-| Q4	  | 16      |
+| Q4	  | 17      |
 
 {.compact}
 | Month | Updates |
@@ -105,12 +106,49 @@ The below information was consolidated by [finalcutgod](https://twitter.com/fina
 | Aug	| 4       |
 | Sept	| 4       |
 | Oct	| 6       |
-| Nov	| 6       |
+| Nov	| 7       |
 | Dec	| 5       |
 
 ---
 
 ## iPad
+
+### Final Cut Pro 1.3 (for iPad)
+
+**Released November 30, 2023**
+
+**Final Cut Pro for iPad 1.3** includes the following features and enhancements:
+
+- Record voiceover and live audio directly in the timeline using the built-in iPad microphones or external microphones.
+- Dial in the perfect look with stunning new color-grading presets.
+- Choose from a selection of new titles and generators.
+- Increase editing efficiency by grouping connected clips into a connected storyline.
+- Control stabilization in the pro camera mode.
+
+**New keyboard shortcuts:**
+- Group clips into a connected storyline: Command-G
+- Ungroup clips from a connected storyline: Shift-Command-G
+- Show or hide the voiceover controls: Shift-V
+- Start or stop recording audio from the voiceover controls: Shift-Option-R
+- Play full screen: Shift-Command-F
+- Enter or exit Picture in Picture: Command-3
+
+**Improvements and fixes:**
+- Adds a skin tone indicator to the vectorscope.
+- Adds color gradients to controls in the Color Adjustments effect and color-grading presets.
+- Adds the Sharpen effect to the content browser and inspector.
+- Increases the Volume Offset maximum to 20 dB.
+- Allows dragging anywhere at the top of the timeline to resize it.
+- Fixes an issue that caused resetting Format settings for a Live Drawing clip to remove its contents.
+- Fixes an issue that caused Live Drawings in an HDR portrait project to show an unexpected border.
+- Fixes an issue that prevented nudging of the last animation keyframe for clips in a connected storyline.
+- Improves reliability when reimporting missing media files.
+- Improves reliability when copying and pasting color conversion and rate conversion settings.
+- Improves reliability when undoing a copy and paste of Audio settings.
+- Improves reliability when importing iMovie for iOS projects.
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro 1.2.1 (for iPad)
 
@@ -214,6 +252,28 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 10.7
+
+**Released November 30, 2023**
+
+**Final Cut Pro 10.7** includes the following enhancements and fixes:
+
+- Automatically scroll the timeline to keep your clips in view under the playhead during playback.
+- Increase editing efficiency by combining a selected group of connected clips into a connected storyline.
+- View both video and audio role colors to easily see the organization of the timeline at a glance.
+- See improved results when using the Object Tracker’s all-new machine-learning model to analyze the movement of faces and other objects on Mac computers with Apple silicon.
+- Use the enhanced Reveal in Browser feature to easily locate a clip in the browser without losing your selected Keyword Collection or Smart Collection.
+- Export HEVC and H.264 files faster by simultaneously processing video segments across available media engines (requires macOS Sonoma or later and a Mac with Apple M1 Max, M1 Ultra, M2 Max, M2 Ultra, or M3 Max).
+- Fixes an issue that caused an offline media badge to remain on an event after reconnecting.
+- Fixes an issue that could cause video to be cropped in the multicam angle editor.
+- Improves performance when upgrading a library that contains many markers.
+
+#### Notes from FCP Cafe:
+
+- Pro Video Formats 2.3 and FxPlug 4.2.9 were also released at the same time.
+
+---
 
 ### Final Cut Pro 10.6.10
 

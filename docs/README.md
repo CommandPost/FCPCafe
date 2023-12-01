@@ -12,8 +12,8 @@ Read our current recommendations [here](/update-guide/).
 !!!
 
 !!!warning Sponsored
-_One-Click AI Person Keying, Tracked Paint, Masks & Graphics Inserts!_<br />
-Get a free trial of **CoreMelt ShotAnvil** [here](https://coremelt.com/blogs/news/special-deals-for-final-cut-creative-summit-23).
+_Native BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing!_<br >
+Get all of LateNite's Tools on the [Mac App Store](https://itunes.apple.com/us/app-bundle/id1717681153?mt=12) for only **USD$100**!
 !!!
 
 ---
