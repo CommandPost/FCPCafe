@@ -10,6 +10,7 @@ const newsOutputDirectory = path.join(process.env.GITHUB_WORKSPACE, 'docs/news')
 const currentDate = new Date();
 const threeMonthsAgo = new Date(currentDate);
 threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+threeMonthsAgo.setDate(threeMonthsAgo.getDate() - 1); // Subtract one day
 const startYear = threeMonthsAgo.getFullYear().toString();
 const startMonth = (threeMonthsAgo.getMonth() + 1).toString().padStart(2, '0');  // Months are 0-indexed, so we add 1
 
