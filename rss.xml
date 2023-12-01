@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Dec 2023 20:50:23 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Dec 2023 20:58:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Dec 2023 20:50:23 GMT</pubDate>
+        <pubDate>Fri, 01 Dec 2023 20:58:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1248,7 +1248,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>I've dramatically improved the user interface to make it much easier, faster and more powerful.</p>
 <p>You can now just drag &amp; drop clips from the Final Cut Pro Browser to the Effects Inspector, including <a href="https://brawtoolbox.io">BRAW Toolbox</a> clips!</p>
 <p>You can learn more and buy on the Mac App Store <a href="https://gyroflowtoolbox.io">here</a>.</p>
-<p><img src="/static/gyroflow-toolbox-1-1-0.png" alt=""></p>
+<p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#4th-august-2023</link>
             <guid isPermaLink="false">4th August 2023</guid>
@@ -1275,7 +1275,7 @@ Saturday June 17th @ 3:30pm</p>
 </ul>
 <p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
 <p>You can learn more and buy on the Mac App Store <a href="https://gyroflowtoolbox.io">here</a>.</p>
-<p><img src="/static/gyroflow-toolbox-1-1-0.png" alt=""></p>
+<p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#6th-august-2023</link>
             <guid isPermaLink="false">6th August 2023</guid>
@@ -1324,7 +1324,7 @@ Saturday June 17th @ 3:30pm</p>
 </ul>
 <p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
 <p>You can learn more and buy on the Mac App Store <a href="https://gyroflowtoolbox.io">here</a>.</p>
-<p><img src="/static/gyroflow-toolbox-1-1-0.png" alt=""></p>
+<p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#10th-august-2023</link>
             <guid isPermaLink="false">10th August 2023</guid>
