@@ -43,6 +43,7 @@ You can watch the trailer on YouTube here:
 100% independently produced by a team of two on a very low-budget level, we had to work with a lot of limitations – but also had freedom. As a long-term fan of FCP, the only NLE where editing is really fun and creative, I spent 3 months in post production alone: Edit, grade and audio mix – all mastered twice for 1) cinema and 2) TV.
 
 **Source format:** 600 GB of Sony/DJI 4K HEVC 10bit 422 (cine2/flat, rec.709) at 23,98p
+
 **Editing machine:** MBP 16” M1pro, 16GB RAM, 1TB SSD, Ventura & Sonoma
 
 **Versions needed:**
