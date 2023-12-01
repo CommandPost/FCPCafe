@@ -162,6 +162,10 @@ The same you can do for titles to receive a CSV for the titles inserts list as d
 
 Using the Timeline Index to get a list of music and titles cues as CSV via CommandPost. As you can see, the duration is missing, which would be helpful if requested.
 
+**UPDATE (1st Dec 2023):** Seems like there is an easier and a lot more straightforward solution for cue sheets (music and titles) by using the fantastic companion app [Producer’s Best Friend](/ecosystem/tools/#producers-best-friend) by Intelligent Assistance. Hurray!
+
+**UPDATE (1st Dec 2023):** You could also create a Smart Collection of Used Media, and export a CSV from the Browser using CommandPosts's **Save Browser Contents to CSV**.
+
 Now comes the last, most tedious, step, which you might not need: The frame rate conversion to 25p for ex-PAL TV stations (in HD 16:9 and Stereo R128). Yet another project created, making sure it is set to 25p. Dropping in the clean-feed in 24p and FCP works its magic. It has already been conformed and speed-changed by 4% and is reduced in length because of it. I exported the Titles role as a separate video (from the 24p project) before in ProRes 4444, which includes an Alpha channel, meaning: Transparency. Why? Because now also the titles get speed-changed and are in sync without me adjusting every single title manually. I can still export another clean-feed, this time in 25p, this way. This is represented by the purple role in Screenshot 7.
 
 For audio, I drop in the previously exported Stereo mixes (R128 and M&E) and manually speed-change them (FCP does not do this automatically for audio, which is a good thing!) by 4,1% (remember, the original FPS was 23,98 not native 24p, hence 0,1% more – yes, I know everything is super confusing). Audio should not be in complete sync and at the exact same length as video.
