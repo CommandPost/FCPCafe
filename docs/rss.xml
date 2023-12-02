@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 02 Dec 2023 05:59:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Dec 2023 13:04:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 Dec 2023 05:59:00 GMT</pubDate>
+        <pubDate>Sat, 02 Dec 2023 13:04:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3004,7 +3004,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <description><![CDATA[<p><strong>New Case Study!</strong></p>
 <p><a href="https://www.sebastianleitner.com">Sebastian Leitner</a> has written an incredibly detailed and technical case study on the film <strong>Women of Resilience: Tales of Kurdish Identity</strong>, discussing Broadcast Versioning and Mastering.</p>
 <p>You can watch the trailer for his project here:</p>
-<p><a href="https://www.youtube.com/watch?v=_tHdyD9TGCA"><img src="/static/women-of-resilience-youtube.jpeg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=IK84DbiUOwA"><img src="/static/women-of-resilience-youtube.jpeg" alt=""></a></p>
 <p>You can read the case study <a href="/case-studies/women-of-resilience/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#1st-december-2023</link>
