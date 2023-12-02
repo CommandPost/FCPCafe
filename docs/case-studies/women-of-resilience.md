@@ -42,7 +42,7 @@ Previous documentaries done in FCP by Sebastian Leitner:
 
 You can watch the trailer on YouTube here:
 
-[![](/static/women-of-resilience-youtube.jpeg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
+[![](/static/women-of-resilience-youtube.jpeg)](https://www.youtube.com/watch?v=IK84DbiUOwA)
 
 ---
 
