@@ -1,3 +1,4 @@
+- [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)
 - [Inspector Button Tooltips no longer show (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/286)
 - [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
@@ -27,4 +28,3 @@
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
 - [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190)
-- [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189)

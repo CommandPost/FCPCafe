@@ -1,3 +1,4 @@
+- [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)
 - [Inspector Button Tooltips no longer show (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/286)
 - [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
