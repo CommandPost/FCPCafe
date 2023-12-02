@@ -1,3 +1,4 @@
+- [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
 - [Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/284)
 - [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)
 - [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
@@ -27,4 +28,3 @@
 - [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189)
 - [.MP4 Audio Click/Pop Issue (June 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/133)
 - [10-bit H.264 black clips and timeline export failure with certain formats (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/119)
-- [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)

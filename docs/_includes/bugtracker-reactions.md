@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
 - [Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/284)
 - [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)
 - [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
@@ -27,4 +28,3 @@
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
 - [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190)
-- [Generator with Effect doesn't update correctly during playback (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/189)
