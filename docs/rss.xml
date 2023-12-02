@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 02 Dec 2023 13:17:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Dec 2023 13:38:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 Dec 2023 13:17:18 GMT</pubDate>
+        <pubDate>Sat, 02 Dec 2023 13:38:53 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3141,7 +3141,8 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>For example, random red lines in the Timeline for no apparent reason:</p>
 <p><img src="/static/random-red-lines.jpg" alt=""></p>
 <p>If you see something similar, please report it in <a href="https://github.com/CommandPost/FCPCafe/issues/285">FB13434993</a>.</p>
-<p><a href="https://twitter.com/Alex4D/status/1730929760962777529">Some users have reported</a> that Final Cut Pro thinks a QWERTY keyword is attached, when instead a AZERTY keyword is.</p>
+<p><a href="https://twitter.com/Alex4D/status/1730929760962777529">Some users have reported</a> that Final Cut Pro thinks a QWERTY keyboard is attached, when instead a AZERTY keyboard is.</p>
+<p>If you're using a AZERTY keyboard, we would suggest backing up your custom Command Sets prior to updating to Final Cut Pro 10.7, so that you can import them back in.</p>
 <p>I've been able to make it crash using third party Audio Units.</p>
 <p>Also, since at least Final Cut Pro 10.6.10, <strong>Send To Compressor</strong> doesn't correctly render any third-party audio effects.</p>
 <p>If you can reproduce, please report it in <a href="https://github.com/CommandPost/FCPCafe/issues/287">FB13435050</a>.</p>
