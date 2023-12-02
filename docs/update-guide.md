@@ -40,18 +40,22 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 If you're currently using **Final Cut Pro 10.6.10** on macOS Ventura or Sonoma, there are currently no major reported issues that would prevent you from updating.
 
+However, there are some **bugs** that [we reported in the news feed](/news/20231202/), so if you're on an earlier version (such as Final Cut Pro 10.6.5), it may be wise to just stay there for now.
+
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Color Finale             | No Known Issues                                                                                         |
+| Color Finale             | _Color Finale are currently testing things, and suggest holding off updating just yet._                 |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 
@@ -70,11 +74,13 @@ If you're currently using **Final Cut Pro 10.6.9** on macOS Ventura or Sonoma, t
 | Color Finale             | [Requires Color Finale 2.7.0 Build 552](https://colorfinale.com)                                        |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requires updates for macOS Sonoma                     |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 
