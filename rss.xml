@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 02 Dec 2023 13:38:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Dec 2023 13:56:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 Dec 2023 13:38:53 GMT</pubDate>
+        <pubDate>Sat, 02 Dec 2023 13:56:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3052,6 +3052,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>The most exciting change to Final Cut Pro 10.7 is the addition of a <strong>Scrolling Timeline</strong>.</p>
 <p><img src="/static/fcp10-7-scrolling-timeline.png" alt=""></p>
 <p>CommandPost has had a scrolling timeline in Final Cut Pro since 2016.</p>
+<p>FWIW - the CommandPost scrolling timeline still works in Final Cut Pro 10.7, so you can still keep using it if you prefer it to the official scrolling timeline.</p>
 <p>Funnily enough, in an very early version of CommandPost, we also had a feature called <strong>Timeline Playhead Lock</strong>, which locked the timeline playhead to the centre of the timeline - but this feature was removed at some point as very few people actually used it.</p>
 <p>You've also been able to turn on <strong>Enable Rendering During Playback</strong> so that Final Cut Pro keeps rendering, analysing, and generating thumbnails and waveforms even during playback - which works great in combination with CommandPost's scrolling timeline.</p>
 <p><img src="/static/commandpost-preferences.png" alt=""></p>
