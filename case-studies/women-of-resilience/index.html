@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754819776204">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754824981483">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.754819776204" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.754824981483" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.754819776204" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.754824981483" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.754819776204" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.754824981483" data-turbo-eval="false" defer></script>
 
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -435,32 +435,32 @@ The SDR library is located on the internal SSD as well as all cache files, libra
 As commonly done, I created events for corresponding steps in post-production. Through the use of ‘Folder Names as Keywords’ during import I could start editing right away because we took the time of naming folders when copying media to the source drive. I could easily find people, location and topics that way. My process now starts which is not using any typical media management methods besides favorite ranges or in/out points in the browser. I like to assemble groups of clips in the project with gaps in between to move parts around creatively.</p>
 <p>Firstly, I of course finished the Director’s Cut, also known as ‘cinema version’. The original 23,98p UHD (4K 16:9) material was edited in a 2K flat 1998x1080 native 24p project (audio set to stereo). FCP working its magic already, the frame rate conform happens automatically and without hick-ups in the background. the extra resolution gave more details when scaled down and noise was reduced. I also had more room for stabilization, framing and ‘ken-burnsing’ that way.</p>
 <p>Secondly, I knew in the end we need to conform to a 52 minutes TV version (Central-European broadcast standard length for docs) and to 25p (which happens by a 4% speed change - what has always been done since the invention of analogue TV), so I needed a 55 minutes for the cinema master in 24p (the FPS conform would take care of the length automatically due to speed up of 4%). To exactly hit 52 minutes I would just adjust the length of credits (scrolling speed) in the very end. For audio improvement I usually use Voice Isolation at 50% combined with the EQ set to ‘Tremble Boost’ – at least for our wireless Sony mics this gives crisp and clear speech.</p>
-<p>Thirdly, I made sure during editing that all roles get directly assigned to the right ones for audio and video alike, also all non-English dialogue (we had German and Kurdish besides the English narration) was translated on-the-go and out into a corresponding SRT captions track. From this point on, whatever I was doing and moving around would clearly be color-coded and ready to be filtered by the timeline index. Grading was done exclusively with the new native ‘Color Adjustment’ correction (plus some shape masks) which allow for easy highlight recovery. For sharpening I used the ‘High-pass Filter’ ported from Apple’s Motion*.</p>
+<p>Thirdly, I made sure during editing that all roles get directly assigned to the right ones for audio and video alike, also all non-English dialogue (we had German and Kurdish besides the English narration) was translated on-the-go and out into a corresponding SRT captions track. From this point on, whatever I was doing and moving around would clearly be color-coded and ready to be filtered by the timeline index. Grading was done exclusively with the new native ‘Color Adjustment’ correction (plus some shape masks) which allow for easy highlight recovery. For sharpening I used the ‘High-pass Filter’ ported from Apple’s Motion (see bottom for details).</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-1a.jpg" alt="Screenshot 1A">
     <figcaption class="caption">Screenshot 1A</figcaption>
 </figure>
 </p>
-<p>The original 24p cinema timeline. Note the clearly assigned roles: For video there are two different types of archive material (different sources) which do not have any other purpose other than source referencing (aka ‘clippings’). The ‘Titles’ role includes all on-screen text like lower thirds, fullscreen inserts, credits or titles. For audio all elements are grouped as well with red being English narration (voice-over). The SRT track includes subtitles for all non-English dialogue.</p>
-<p>Fast forward to the interesting part of delivery preparation: The simple roles setup is enough to immediately export different assets such as clean-feed or M&amp;E (music and effects) tracks.</p>
+<p><strong>Screenshot 1A:</strong> The original 24p cinema timeline. Note the clearly assigned roles: For video there are two different types of archive material (different sources) which do not have any other purpose other than source referencing (aka ‘clippings’). The ‘Titles’ role includes all on-screen text like lower thirds, fullscreen inserts, credits or titles. For audio all elements are grouped as well with red being English narration (voice-over). The SRT track includes subtitles for all non-English dialogue.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-1b.jpg" alt="Screenshot 1B">
     <figcaption class="caption">Screenshot 1B</figcaption>
 </figure>
 </p>
-<p>The original 24p cinema timeline as its own project with audio lanes enabled.</p>
+<p><em><strong>Screenshot 1B:</strong> The original 24p cinema timeline as its own project with audio lanes enabled.</em></p>
+<p>Fast forward to the interesting part of delivery preparation: The simple roles setup is enough to immediately export different assets such as clean-feed or M&amp;E (music and effects) tracks.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-2.jpg" alt="Screenshot 2">
     <figcaption class="caption">Screenshot 2</figcaption>
 </figure>
 </p>
-<p>Now with roles being set, the real power of FCP’s export (share) window comes into play. Switching to ‘Separate Files’ I exported the following: A ProRes HQ clean video file, aka ‘clean-feed’, which includes everything BUT titles (important for localizations of TV channels per on territory). Note that the ‘titles’ role is missing. And the most important part is audio tracks (or ‘stems’ in this case), which are created easily that way. I will end up with 4 files, 3 of which being audio, separated into: Speech (original dialogue and extra recorded narration/voice-over), Effects (all the ambience, atmospherics or SFX I placed manually or were recorded on location) and Music. Music &amp; Effects are stereo tracks, Speech is mono, so a total of 6 channels. It should be clear now which purpose this will server a little later on: A rough, home-made 5.1 Surround up-mix from pure stereo sources for a better cinematic experience. Last but not least: All subtitles/captions as separate SRT files per language (English and German in my case).</p>
+<p><strong>Screenshot 2:</strong> Now with roles being set, the real power of FCP’s export (share) window comes into play. Switching to ‘Separate Files’ I exported the following: A ProRes HQ clean video file, aka ‘clean-feed’, which includes everything BUT titles (important for localizations of TV channels per on territory). Note that the ‘titles’ role is missing. And the most important part is audio tracks (or ‘stems’ in this case), which are created easily that way. I will end up with 4 files, 3 of which being audio, separated into: Speech (original dialogue and extra recorded narration/voice-over), Effects (all the ambience, atmospherics or SFX I placed manually or were recorded on location) and Music. Music &amp; Effects are stereo tracks, Speech is mono, so a total of 6 channels. It should be clear now which purpose this will server a little later on: A rough, home-made 5.1 Surround up-mix from pure stereo sources for a better cinematic experience. Last but not least: All subtitles/captions as separate SRT files per language (English and German in my case).</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-3.jpg" alt="Screenshot 3">
     <figcaption class="caption">Screenshot 3</figcaption>
 </figure>
 </p>
-<p>In a new surround (!) project I assemble the just exported stereo audio files and use FCP’s unique and genius surround panner in the inspector (set to the respective purposes) as displayed in the next screenshots. Note: I also export a special M&amp;E stereo track now, which is a combination of all sound effects/atmospherics and music, hence the name ‘music and effects’. TV needs this for dubbing their own language version. They would re-mix audio after adding their own voice-over and synchro. Same for surround. Tedious, I know, but necessary.</p>
+<p><strong>Screenshot 3:</strong> In a new surround (!) project I assemble the just exported stereo audio files and use FCP’s unique and genius surround panner in the inspector (set to the respective purposes) as displayed in the next screenshots. Note: I also export a special M&amp;E stereo track now, which is a combination of all sound effects/atmospherics and music, hence the name ‘music and effects’. TV needs this for dubbing their own language version. They would re-mix audio after adding their own voice-over and synchro. Same for surround. Tedious, I know, but necessary.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-3a.jpg" alt="Screenshot 3A">
     <figcaption class="caption">Screenshot 3A</figcaption>
@@ -476,7 +476,7 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 3C</figcaption>
 </figure>
 </p>
-<p>The presets for Dialogue (tuned to 90), Ambience and Music delivery a solid, yet quick &amp; dirty, way to create a 5.1 surround mix by spreading audio signals over all channels but keeping speech mainly in front (center speaker behind the cinema screen). Note: You need a separate voice/dialogue track for this, hence the before mentioned preparation. I would not recommend this (although it is possible and works OK) for just a single stereo mix – if you want to up-mix one single stereo mix, you should choose ‘create space’ as the preset instead.</p>
+<p><strong>Screenshots 3A-C:</strong> The presets for Dialogue (tuned to 90), Ambience and Music delivery a solid, yet quick &amp; dirty, way to create a 5.1 surround mix by spreading audio signals over all channels but keeping speech mainly in front (center speaker behind the cinema screen). Note: You need a separate voice/dialogue track for this, hence the before mentioned preparation. I would not recommend this (although it is possible and works OK) for just a single stereo mix – if you want to up-mix one single stereo mix, you should choose ‘create space’ as the preset instead.</p>
 <p>As previously mentioned, for dubbing (localization) reasons, I also create a surround up-mix of just the music and effects files, meaning in short: disabling the speech track in the project. I now have all assets I need to proceed:</p>
 <ol>
 <li>Video clean-feed with titles to be added in yet another project</li>
@@ -489,7 +489,13 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 4</figcaption>
 </figure>
 </p>
-<p>In yet another project (still 2K flat 24p but set to surround) I copy&amp;paste all titles on top of the re-imported clean-feed, which I also added the ‘Broadcast Safe’ effect set to standard ‘0’ to. I also re-import the captions and prepared audio files. Now I have full control over ‘versioning’, which means cinema or broadcast/streaming in ‘clean’ or ‘fixed’ English.</p>
+<p><strong>Screenshot 4:</strong> In yet another project (still 2K flat 24p but set to surround) I copy&amp;paste all titles on top of the re-imported clean-feed, which I also added the ‘Broadcast Safe’ effect set to standard ‘0’ to. I also re-import the captions and prepared audio files. Now I have full control over ‘versioning’, which means cinema or broadcast/streaming in ‘clean’ or ‘fixed’ English.</p>
+<doc-anchor-target id="versioning">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#versioning">#</doc-anchor-trigger>
+        <span>Versioning</span>
+    </h2>
+</doc-anchor-target>
 <p>I can now deliver the following as listed in the very beginning:</p>
 <ol>
 <li>Cinema international version in 2K flat 1998x1080, 24p, 5.1 Surround as ProRes HQ master file with English titles and burnt-in English subtitles (captions).</li>
@@ -504,13 +510,13 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 5A</figcaption>
 </figure>
 </p>
-<p>Using the unique Multitrack option during sharing again, it is easy to deliver a ProRes master file with 12 audio tracks, where tracks 1-6 are the full surround mix in R128 for example (assigned to ‘Dialogue’ role but you could create your own) and tracks 7-12 are surround M&amp;E, meaning everything without speech for dubbing purposes and in full scale (not R128). Also, through removing or adding the ‘Titles’ role it is easy to create a clean-feed or localized English version. Again, cations are exported separately as sidecar SRT files, as shown at the bottom.</p>
+<p><strong>Screenshot 5A:</strong> Using the unique Multitrack option during sharing again, it is easy to deliver a ProRes master file with 12 audio tracks, where tracks 1-6 are the full surround mix in R128 for example (assigned to ‘Dialogue’ role but you could create your own) and tracks 7-12 are surround M&amp;E, meaning everything without speech for dubbing purposes and in full scale (not R128). Also, through removing or adding the ‘Titles’ role it is easy to create a clean-feed or localized English version. Again, cations are exported separately as sidecar SRT files, as shown at the bottom.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-5b.jpg" alt="Screenshot 5B">
     <figcaption class="caption">Screenshot 5B</figcaption>
 </figure>
 </p>
-<p>Same thing as 5a but now it is a project set to stereo with the corresponding mixes we created before hand from the original project and/or stems.</p>
+<p><em><strong>Screenshot 5B:</strong> Same thing as 5a but now it is a project set to stereo with the corresponding mixes we created before hand from the original project and/or stems.</em></p>
 <ol start="3">
 <li>TV and big VOD platforms also need some documentation and special reports to go with your delivered assets. Usually a music cue sheet (MCS), a titles inserts list (TIL) and a full script of every spoken word for dubbing or localization (captioning). The latter we already have (kind of) with the above mentioned CC (SDH) SRT file – which I created by running a separated narration VO file (exported this one role) through the genius ‘MacWhisper’ app and combined the resulting SRT with the other one within the FCP captions. For the other two report docs we need all the timings (timecode) of both, text inserts and music cues.</li>
 </ol>
@@ -518,6 +524,7 @@ As commonly done, I created events for corresponding steps in post-production. T
 <p>Now use <a href="https://commandpost.io/final-cut-pro/save-timeline-index-to-csv/" class="outbound" target="_blank"><span>Save Timeline Index to CSV</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> to receive a CSV file which you can use to create a MCS (music cue sheet) for royalty reports.</p>
 <p><strong>Note:</strong> You can either import CSV data into an Excel table (Google knows how to do it) or get the free ‘Table Tool’ on the Appstore to open CSV files easily.</p>
 <p>The same you can do for titles to receive a CSV for the titles inserts list as demonstrated in Screenshot 6b. It really helps, however a possible improvement would be to have the CSV also include the duration of the clips, not only their starting position.</p>
+<p><strong>UPDATE (1st Dec 2023):</strong> You could also create a Smart Collection of Used Media, and export a CSV from the Browser using CommandPosts&#x27;s <strong>Save Browser Contents to CSV</strong>.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-6a.jpg" alt="Screenshot 6A">
     <figcaption class="caption">Screenshot 6A</figcaption>
@@ -528,9 +535,8 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 6B</figcaption>
 </figure>
 </p>
-<p>Using the Timeline Index to get a list of music and titles cues as CSV via CommandPost. As you can see, the duration is missing, which would be helpful if requested.</p>
+<p><em><strong>Screenshots 6A-B:</strong> Using the Timeline Index to get a list of music and titles cues as CSV via CommandPost. As you can see, the duration is missing, which would be helpful if requested.</em></p>
 <p><strong>UPDATE (1st Dec 2023):</strong> Seems like there is an easier and a lot more straightforward solution for cue sheets (music and titles) by using the fantastic companion app <a href="../../ecosystem/tools/#producers-best-friend">Producer’s Best Friend</a> by Intelligent Assistance. Hurray!</p>
-<p><strong>UPDATE (1st Dec 2023):</strong> You could also create a Smart Collection of Used Media, and export a CSV from the Browser using CommandPosts&#x27;s <strong>Save Browser Contents to CSV</strong>.</p>
 <p>Now comes the last, most tedious, step, which you might not need: The frame rate conversion to 25p for ex-PAL TV stations (in HD 16:9 and Stereo R128). Yet another project created, making sure it is set to 25p. Dropping in the clean-feed in 24p and FCP works its magic. It has already been conformed and speed-changed by 4% and is reduced in length because of it. I exported the Titles role as a separate video (from the 24p project) before in ProRes 4444, which includes an Alpha channel, meaning: Transparency. Why? Because now also the titles get speed-changed and are in sync without me adjusting every single title manually. I can still export another clean-feed, this time in 25p, this way. This is represented by the purple role in Screenshot 7.</p>
 <p>For audio, I drop in the previously exported Stereo mixes (R128 and M&amp;E) and manually speed-change them (FCP does not do this automatically for audio, which is a good thing!) by 4,1% (remember, the original FPS was 23,98 not native 24p, hence 0,1% more – yes, I know everything is super confusing). Audio should not be in complete sync and at the exact same length as video.</p>
 <p>Remember the captions? The only thing not speed-changeable (why not, I ask, would be a neat feature) are the subtitles, so before we can import them here, we need them to be conformed to 25p too. Luckily there is a great free online tool for this purpose as shown in Screenshots 8a-b: <a href="https://editingtools.io/subtitles/" class="outbound" target="_blank"><span>https://editingtools.io/subtitles/</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> (expand the ‘advanced’ options).</p>
@@ -539,7 +545,7 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 7</figcaption>
 </figure>
 </p>
-<p>The clean-feed 24p assets (audio and video) in yet a new project, which is set to HD 25p for broadcast PAL conforming. Note: This requires a speed change of 4,1% and will make the film shorter (or longer if you go the other way). FCP takes care of most of the process automatically. If you have separate sound (and did not include it in the clean video), you need to change its speed manually: Right click, change duration, use 104,1% for 24p -&gt; 25p.</p>
+<p><strong>Screenshot 7:</strong> The clean-feed 24p assets (audio and video) in yet a new project, which is set to HD 25p for broadcast PAL conforming. Note: This requires a speed change of 4,1% and will make the film shorter (or longer if you go the other way). FCP takes care of most of the process automatically. If you have separate sound (and did not include it in the clean video), you need to change its speed manually: Right click, change duration, use 104,1% for 24p -&gt; 25p.</p>
 <p><figure class="content-center">
     <img src="../../static/wor-screenshot-8a.jpg" alt="Screenshot 8A">
     <figcaption class="caption">Screenshot 8A</figcaption>
@@ -550,7 +556,7 @@ As commonly done, I created events for corresponding steps in post-production. T
     <figcaption class="caption">Screenshot 8B</figcaption>
 </figure>
 </p>
-<p>This way I can speed change (adjust timings) all SRTs too for re-import.</p>
+<p><em><strong>Screenshots 8A-B:</strong> This way I can speed change (adjust timings) all SRTs too for re-import.</em></p>
 <p>Let’s not forget to, again, add the Broadcast Safe to the clean-feed to make it ‘legal’. We already know hot to proceed with exporting Multitrack Quicktime files. We are done and have exported several versions which usually takes a lot longer and additional people.</p>
 <hr>
 <doc-anchor-target id="conclusion">
