@@ -1,0 +1,1 @@
+- [Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/284)
