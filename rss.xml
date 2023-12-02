@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 02 Dec 2023 13:56:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Dec 2023 14:24:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 Dec 2023 13:56:51 GMT</pubDate>
+        <pubDate>Sat, 02 Dec 2023 14:24:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3130,6 +3130,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <title><![CDATA[2nd December 2023]]></title>
             <description><![CDATA[<p><strong>Undocumented Fixes:</strong></p>
 <p>The Command Set Import window now only accepts <code>.commandset</code> files! This was reported as <a href="https://github.com/CommandPost/FCPCafe/issues/236">FB12868396</a>. Thanks Apple!</p>
+<p>The relink progress bar now actually moves as it happens! Woohoo!</p>
 ]]></description>
             <link>https://fcp.cafe/#2nd-december-2023</link>
             <guid isPermaLink="false">2nd December 2023</guid>
