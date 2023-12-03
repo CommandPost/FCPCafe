@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 03 Dec 2023 05:07:50 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Dec 2023 06:25:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 03 Dec 2023 05:07:50 GMT</pubDate>
+        <pubDate>Sun, 03 Dec 2023 06:25:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -1433,7 +1433,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>When you're working on massive long-form projects, such as <strong>feature-length documentaries</strong> with <strong>hundreds of clips</strong> and <strong>thousands of keywords</strong>, the Final Cut Pro interface can grind to a halt when using the built-in Smart Collection panel.</p>
 <p>This simple Workflow Extension allows you to create a new <strong>Smart Collection</strong>, using a list of supplied keywords within seconds, rather than minutes.</p>
 <p>If you have <strong>thousands of keywords</strong> across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with <strong>Fast Collections</strong>, it can now take seconds.</p>
-<p><a href="https://latenitefilms.github.io/FastCollections/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<p><a href="https://fastcollections.io/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <p><strong>Iain Anderson</strong> has also written a great blog post over at ProVideo Coalition on <strong>How to make animated product mockups</strong> using Apple Motion.</p>
 <p>You can read it <a href="https://www.provideocoalition.com/how-to-make-animated-product-mockups/">here</a>.</p>
@@ -1878,7 +1878,7 @@ Sign up to be the first to know 👉🏻</p>
 <p>This was originally intended to be a very niche application, primarily used by long-form documentary editors.</p>
 <p>However, as requested by Vigneswaran Rajkumar, we've added the ability to <strong>Generate</strong> a list of sequential numbers, for example, Scene 01, Scene 02, Scene 03, etc.</p>
 <p>This is very handy for long-form projects, so to make the application more accessible, we're also reduced the price to a one-time payment of <strong>USD$9.99</strong> on the <strong>Mac App Store</strong>.</p>
-<p>You can learn more <a href="https://latenitefilms.github.io/FastCollections/">here</a>.</p>
+<p>You can learn more <a href="https://fastcollections.io/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#5th-october-2023</link>
             <guid isPermaLink="false">5th October 2023</guid>
@@ -3014,7 +3014,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
         <item>
             <title><![CDATA[2nd December 2023]]></title>
             <description><![CDATA[<p>Since its release yesterday, we've been busy testing and exploring Final Cut Pro 10.7.</p>
-<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> or <a href="https://latenitefilms.github.io/FastCollections/">Fast Collections</a>.</p>
+<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> or <a href="https://fastcollections.io/">Fast Collections</a>.</p>
 <p>If you haven't already, you can read all the release notes in <a href="/news/20231201">yesterday's post</a>.</p>
 <p>It's worth noting that <strong>Pro Video Formats</strong> &amp; <strong>FxPlug SDK</strong> also got an update. The <strong>Workflow Extensions</strong> SDK did not.</p>
 <p>There's lots of great videos out there talking about this update, such as:</p>
@@ -3081,11 +3081,12 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>Whilst Final Cut Pro does always do an automatic backup of libraries prior to updating them, we also <strong>strongly recommend</strong> manually creating a ZIP file of your library before updating too, so that you can roll back to an older version of Final Cut Pro if a major bug or regression is found.</p>
 <p>The <a href="/ecosystem/tools/#backups-for-final-cut-pro">Backups for Final Cut Pro</a> application is also highly regarded for automating library backups.</p>
 <p>Interestingly, Final Cut Pro for iPad v1.3 also uses the <code>1090</code> database format - so Final Cut Pro for Mac and iPad are once again in version parity.</p>
-<p>Unfortunately for us, Final Cut Pro for iPad has become less interesting after Apple prevented <strong>Transfer Toolbox</strong> from working - which was our solution to get from Mac to iPad.</p>
-<p>We've since stopped developing Transfer Toolbox for now - you can read more about this decision in more detail <a href="https://transfertoolbox.io">here</a>.</p>
+<p><s>Unfortunately for us, Final Cut Pro for iPad has become less interesting after Apple prevented <strong>Transfer Toolbox</strong> from working - which was our solution to get from Mac to iPad.</s></p>
+<p><s>We've since stopped developing Transfer Toolbox for now - you can read more about this decision in more detail <a href="https://transfertoolbox.io">here</a>.</s></p>
+<p><strong>UPDATE (3rd Dec 2023):</strong> After writing this news entry, we've since brought back Transfer Toolbox to life with Final Cut Pro 10.7 support. You can learn more <a href="https://transfertoolbox.io">here</a>.</p>
 <p>Our big hope/dream with Final Cut Pro for iPad was to use it for doing director/client/agency selects, and then send those selects to the Mac, but ideally we want to do all the prep work on Mac - i.e. syncing everything with Sync-N-Link, etc.</p>
 <p>You can easily get from Final Cut Pro on iPad to Mac, so we're now exploring ways to take the selects from iPad and translate them across to Multicam Clips created in Sync-N-Link (for example).</p>
-<p>The fact that you can now import <strong>iMovie for iOS</strong> projects into Final Cut Pro for iPad might be a hint that Mac to iPad is also on their radar/wish-list.</p>
+<p>The fact that you can now import <strong>iMovie for iOS</strong> projects into Final Cut Pro for iPad might be a hint that native Mac to iPad is also on their radar/wish-list.</p>
 <p>Apple still publicly advertise that Third-party Content is coming soon to Final Cut Pro for iPad - so we should see third party MotionVFX Motion Templates on iPad at some point in 2024:</p>
 <p><img src="/static/third-party-ipad-content-coming-soon.jpg" alt=""></p>
 ]]></description>
@@ -3143,9 +3144,10 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>For example, random red lines in the Timeline for no apparent reason:</p>
 <p><img src="/static/random-red-lines.jpg" alt=""></p>
 <p>If you see something similar, please report it in <a href="https://github.com/CommandPost/FCPCafe/issues/285">FB13434993</a>.</p>
+<p>The Scrolling Timeline sometimes misbehaves at certain Zoom Levels. This is discussed in <a href="https://github.com/CommandPost/FCPCafe/issues/294">FB13436367</a>.</p>
 <p><a href="https://twitter.com/Alex4D/status/1730929760962777529">Some users have reported</a> that Final Cut Pro thinks a QWERTY keyboard is attached, when instead a AZERTY keyboard is.</p>
 <p>If you're using a AZERTY keyboard, we would suggest backing up your custom Command Sets prior to updating to Final Cut Pro 10.7, so that you can import them back in.</p>
-<p>I've been able to make it crash using third party Audio Units.</p>
+<p>I've been able to make it crash using third party Audio Units, even after selecting <strong>Settings &gt; General &gt; Audio Units &gt; Validate on Next Launch</strong>.</p>
 <p>Also, since at least Final Cut Pro 10.6.10, <strong>Send To Compressor</strong> doesn't correctly render any third-party audio effects.</p>
 <p>If you can reproduce, please report it in <a href="https://github.com/CommandPost/FCPCafe/issues/287">FB13435050</a>.</p>
 <p>The Inspector button tooltips have disappeared - it now just says:</p>
