@@ -10,4 +10,4 @@ This simple Workflow Extension allows you to create a new **Smart Collection**, 
 
 If you have **thousands of keywords** across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with **Fast Collections**, it can now take seconds.
 
-[!button text="Visit Website" target="blank" variant="info"](https://latenitefilms.github.io/FastCollections/)
+[!button text="Visit Website" target="blank" variant="info"](https://fastcollections.io/)

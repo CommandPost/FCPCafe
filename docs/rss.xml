@@ -1433,7 +1433,7 @@ Saturday June 17th @ 3:30pm</p>
 <p>When you're working on massive long-form projects, such as <strong>feature-length documentaries</strong> with <strong>hundreds of clips</strong> and <strong>thousands of keywords</strong>, the Final Cut Pro interface can grind to a halt when using the built-in Smart Collection panel.</p>
 <p>This simple Workflow Extension allows you to create a new <strong>Smart Collection</strong>, using a list of supplied keywords within seconds, rather than minutes.</p>
 <p>If you have <strong>thousands of keywords</strong> across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with <strong>Fast Collections</strong>, it can now take seconds.</p>
-<p><a href="https://latenitefilms.github.io/FastCollections/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
+<p><a href="https://fastcollections.io/">!button text=&quot;Visit Website&quot; target=&quot;blank&quot; variant=&quot;info&quot;</a></p>
 <hr>
 <p><strong>Iain Anderson</strong> has also written a great blog post over at ProVideo Coalition on <strong>How to make animated product mockups</strong> using Apple Motion.</p>
 <p>You can read it <a href="https://www.provideocoalition.com/how-to-make-animated-product-mockups/">here</a>.</p>
@@ -1878,7 +1878,7 @@ Sign up to be the first to know 👉🏻</p>
 <p>This was originally intended to be a very niche application, primarily used by long-form documentary editors.</p>
 <p>However, as requested by Vigneswaran Rajkumar, we've added the ability to <strong>Generate</strong> a list of sequential numbers, for example, Scene 01, Scene 02, Scene 03, etc.</p>
 <p>This is very handy for long-form projects, so to make the application more accessible, we're also reduced the price to a one-time payment of <strong>USD$9.99</strong> on the <strong>Mac App Store</strong>.</p>
-<p>You can learn more <a href="https://latenitefilms.github.io/FastCollections/">here</a>.</p>
+<p>You can learn more <a href="https://fastcollections.io/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#5th-october-2023</link>
             <guid isPermaLink="false">5th October 2023</guid>
@@ -3014,7 +3014,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
         <item>
             <title><![CDATA[2nd December 2023]]></title>
             <description><![CDATA[<p>Since its release yesterday, we've been busy testing and exploring Final Cut Pro 10.7.</p>
-<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> or <a href="https://latenitefilms.github.io/FastCollections/">Fast Collections</a>.</p>
+<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> or <a href="https://fastcollections.io/">Fast Collections</a>.</p>
 <p>If you haven't already, you can read all the release notes in <a href="/news/20231201">yesterday's post</a>.</p>
 <p>It's worth noting that <strong>Pro Video Formats</strong> &amp; <strong>FxPlug SDK</strong> also got an update. The <strong>Workflow Extensions</strong> SDK did not.</p>
 <p>There's lots of great videos out there talking about this update, such as:</p>
