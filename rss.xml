@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 02 Dec 2023 22:38:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Dec 2023 04:52:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 Dec 2023 22:38:37 GMT</pubDate>
+        <pubDate>Sun, 03 Dec 2023 04:52:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3166,6 +3166,18 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#2nd-december-2023</link>
             <guid isPermaLink="false">2nd December 2023</guid>
             <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd December 2023]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.1.0</strong> is out now!</p>
+<p><img src="/static/transfer-toolbox-1-1-0.jpg" alt=""></p>
+<p>We've updated Transfer Toolbox so that it now works with <strong>Final Cut Pro 10.7</strong> and <strong>Final Cut Pro 1.3 (for iPad)</strong>.</p>
+<p>You can now transfer Final Cut Pro libraries from your Mac to your iPad for free!</p>
+<p>You can learn more and download <a href="https://transfertoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-december-2023</link>
+            <guid isPermaLink="false">3rd December 2023</guid>
+            <pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
