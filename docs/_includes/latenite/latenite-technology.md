@@ -46,6 +46,10 @@ Here's some of our free tools used by professional editors worldwide:
 
 ---
 
+{{ include "latenite/transfer-toolbox" }}
+
+---
+
 ### Rename Avid MXF Files
 
 This simple Python script is used to rename MXF files generated from Avid Media Composer to match the **Package Name** in their metadata.

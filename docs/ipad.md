@@ -16,6 +16,10 @@ You can find the official Apple Support site [here](https://support.apple.com/fi
 
 ---
 
+{{ include "latenite/transfer-toolbox" }}
+
+---
+
 ### Introducing Final Cut Pro for iPad
 
 The amazing [Iain Anderson](https://iain-anderson.com) has released a new **free** online training course for **Final Cut Pro for iPad**.
