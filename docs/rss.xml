@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 04 Dec 2023 02:39:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Dec 2023 02:44:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 04 Dec 2023 02:39:14 GMT</pubDate>
+        <pubDate>Mon, 04 Dec 2023 02:44:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3122,6 +3122,18 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>If you trigger <strong>Reveal in Keyword Collection</strong> on a clip in the timeline that has multiple keywords applied to it, it will prompt you for which one you want to reveal to:</p>
 <p><img src="/static/commandpost-reveal-in-collection-selection.jpg" alt=""></p>
 <p>This feature still works great on Final Cut Pro 10.7, and can be handy when you want to quickly match back to a Keyword Collection, rather than an Event.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-december-2023</link>
+            <guid isPermaLink="false">2nd December 2023</guid>
+            <pubDate>Sat, 02 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd December 2023]]></title>
+            <description><![CDATA[<p><strong>Faster HEVC &amp; H.264 Exports:</strong></p>
+<p>Faster HEVC and H.264 export will only happen if you're using macOS Sonoma and a Mac with Apple M1 Max, M1 Ultra, M2 Max, M2 Ultra, or M3 Max.</p>
+<p>It works by <strong>simultaneously</strong> processing video segments across available media engines, but it will only split up video to the different media engines if the content is long.</p>
+<p>For example, you won't get faster exports if you have a 30sec or 1min timeline, but a feature length film you'll see improvements.</p>
+<p>Because an export is essentially &quot;split up&quot; into multiple chunks for different media engines, there's also some time spent at the end of the process to &quot;combine&quot; the chunks again. Whilst this is all done in the hardware, there's still some overhead, which is why it won't split things up for shorter clips (as you'll waste time combining them at the end).</p>
 ]]></description>
             <link>https://fcp.cafe/#2nd-december-2023</link>
             <guid isPermaLink="false">2nd December 2023</guid>
