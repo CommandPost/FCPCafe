@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754973344653">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754985848052">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.754973344653" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.754985848052" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.754973344653" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.754985848052" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.754973344653" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.754985848052" data-turbo-eval="false" defer></script>
 
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -353,7 +353,16 @@
 </doc-anchor-target>
 <p>You can find previous crash logs in this folder:</p>
 <p><code v-pre>~/Library/Logs/DiagnosticReports/</code></p>
-<p>You can find your user library by holding down <code v-pre>OPTION</code> when you click the <code v-pre>Go</code> menubar item from Finder.</p>
+<p>You can paste the above path into Finder&#x27;s <strong>Go &gt; Go to Folder...</strong> menubar tool to reveal this hidden folder.</p>
+<p>Alternatively, you can find your <strong>User Library</strong> (as opposed to the System Library) by holding down <strong>OPTION</strong> when you click the <strong>Go</strong> menubar item from Finder.</p>
+<p>If the crash logs have already been uploaded to Apple, they will be in a folder called <code v-pre>Retired</code>.</p>
+<p>Crash logs will either have a <code v-pre>.ips</code> or <code v-pre>.diag</code> file extension.</p>
+<p>For example:</p>
+<p><figure class="content-center">
+    <img src="../static/crash-log-folder.jpg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <p>Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a <a href="https://gist.github.com" class="outbound" target="_blank"><span>GitHub Gist</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <doc-anchor-target id="third-party-software">
@@ -376,7 +385,7 @@
 </figure>
 </p>
 <p>If you manually try and force quit a process, you&#x27;ll see Final Cut Pro start it up again when needed.</p>
-<p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain.</p>
+<p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they&#x27;ll just have to relay this information to Apple anyway.</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
