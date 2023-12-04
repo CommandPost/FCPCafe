@@ -6,11 +6,7 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 
 ---
 
-## Pro Editor Bundle
-
-For only **USD$100**, you can now buy BRAW Toolbox, Gyroflow Toolbox, Marker Toolbox, Recall Toolbox & Fast Collections as a bundle!
-
-You can find the bundle on the Mac App Store [here](https://itunes.apple.com/us/app-bundle/id1717681153?mt=12).
+{{ include "latenite/pro-editor-bundle" }}
 
 ---
 
