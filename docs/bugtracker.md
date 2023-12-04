@@ -24,7 +24,17 @@ You can find previous crash logs in this folder:
 
 `~/Library/Logs/DiagnosticReports/`
 
-You can find your user library by holding down `OPTION` when you click the `Go` menubar item from Finder.
+You can paste the above path into Finder's **Go > Go to Folder...** menubar tool to reveal this hidden folder.
+
+Alternatively, you can find your **User Library** (as opposed to the System Library) by holding down **OPTION** when you click the **Go** menubar item from Finder.
+
+If the crash logs have already been uploaded to Apple, they will be in a folder called `Retired`.
+
+Crash logs will either have a `.ips` or `.diag` file extension.
+
+For example:
+
+![](/static/crash-log-folder.jpg)
 
 Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a [GitHub Gist](https://gist.github.com).
 
@@ -52,7 +62,7 @@ For example, you can see all the different processes in Activity Monitor:
 
 If you manually try and force quit a process, you'll see Final Cut Pro start it up again when needed.
 
-What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes, it's NOT a third party FxPlug4 effect or a Workflow Extension - it's something in Apple's own code, and there's nothing third party developers can do about it, so there's no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain.
+What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes, it's NOT a third party FxPlug4 effect or a Workflow Extension - it's something in Apple's own code, and there's nothing third party developers can do about it, so there's no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they'll just have to relay this information to Apple anyway.
 
 ---
 
