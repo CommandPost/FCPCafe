@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 05 Dec 2023 04:45:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Dec 2023 08:01:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 Dec 2023 04:45:24 GMT</pubDate>
+        <pubDate>Tue, 05 Dec 2023 08:01:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3195,8 +3195,8 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
         </item>
         <item>
             <title><![CDATA[5th December 2023]]></title>
-            <description><![CDATA[<p><strong>X2Pro5</strong> is out now on the Mac App Store at a discounted introductory rate!</p>
-<p><strong>X2Pro</strong> will remain on sale, as X2Pro5 only works on macOS Ventura &amp; Sonoma.</p>
+            <description><![CDATA[<p><strong>X2Pro5</strong> is out now on the Mac App Store at a discounted introductory rate (<strong>USD$50 off</strong>) for <strong>two weeks only</strong>!</p>
+<p>The original <strong>X2Pro</strong> will remain on sale, as X2Pro5 only works on macOS Ventura &amp; Sonoma.</p>
 <p>It's been completely re-written and redesigned with the following new features:</p>
 <ul>
 <li>Native Apple silicon support</li>
