@@ -62,29 +62,57 @@ You can learn more [here](https://github.com/CommandPost/RenameAvidMXFFiles).
 
 ---
 
+## Custom Tools
+
+If you have a specific post production workflow problem you need to solve or automate, we can help.
+
+We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
+
+For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](https://web.archive.org/web/20220629061650/https://fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
+
+The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
+
+[Email us](mailto:support@latenitefilms.com) to discuss your specific requirements.
+
+---
+
 ## In Development
 
 Here's a **sneak peak** of some of the things we have in development:
 
 ---
 
+### Metaburner Toolbox
+
+**Metaburner Toolbox** is an Final Cut Pro adjustment layer that allows you to "burn" metadata information from the timeline over to top of your existing video.
+
+We hope it will have the some power and flexibility as DaVinci Resolve's Data Burn-in Tool:
+
+![](/static/resolve-data-burn-in.jpg)
+
+This project has been started and we hope to release in early 2024.
+
+---
+
 ### Timecode Toolbox
 
-We're spinning out the Sony Timecode Repair Toolbox from CommandPost and making it a standalone app.
+We're spinning out the **Sony Timecode Repair Toolbox** from [CommandPost](https://commandpost.io)( and making it a standalone app.
 
 In addition to the current functionality, you'll also be able to modify the original camera files to add Final Cut Pro friendly timecode.
+
+Here's what the Toolbox currently looks like in CommandPost:
+
+![](/static/sony-timecode-repair.png)
+
+This project has been started, but we have no ETA on competition.
 
 ---
 
 ### RAW Toolbox
 
-Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add Nikon N-RAW support to Final Cut Pro.
+Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add **Nikon N-RAW** support to Final Cut Pro.
 
----
-
-### Metadata Toolbox
-
-**Metadata Toolbox** is a Workflow Extension that allows you to drag in a project, select burn-in metadata options, then drag a Compound Clip back to the timeline with all the metadata as titles.
+This project is currently at the exploration and experiment stage.
 
 ---
 
@@ -94,6 +122,8 @@ Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will in
 
 We will also be spinning out the **Watch Folders** from CommandPost and moving them into this app.
 
+This project is currently at the exploration and experiment stage.
+
 ---
 
 ### Assistant Toolbox
@@ -102,13 +132,20 @@ We will also be spinning out the **Watch Folders** from CommandPost and moving t
 
 It'll include various improvements and enhancements to make the job even easier for Assistant Editors working on long-form feature film projects.
 
+This project is currently at the exploration and experiment stage.
+
+Here's what the Toolbox's currently look like in CommandPost:
+
+![](/static/titles-to-keywords.png)T
+![](/static/auto-sequence.png)
+
 ---
 
 ### Magic Toolbox
 
 **Magic Toolbox** is our first Machine Learning experiment.
 
-You'll be able to add titles to the timeline, to trigger Machine Learning actions such as:
+You'll be able to add **Titles** to the timeline, to trigger Machine Learning actions such as:
 
 - **SUBTITLES** - Analyses the audio and adds subtitles
 - **NARRATION** - Turns text into speech in a narration tone
@@ -118,6 +155,8 @@ You'll be able to add titles to the timeline, to trigger Machine Learning action
 - **SFX** - Adds sound effects from places like FreeSound.org
 - **VIDEO** - Adds machine learning generated video based on your description
 
-Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key.
+Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key (subject to Apple's approval).
 
 ![](/static/magic-toolbox.jpg)
+
+This project is currently at the exploration and experiment stage.
