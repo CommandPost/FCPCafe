@@ -120,4 +120,4 @@ Here are a few tips for the editing part when working on a Netflix production:
 ### Additional Links
 
 - [Final Cut Pro Workflow for feature films](https://knuthake.notion.site/Final-Cut-Pro-Workflow-for-feature-films-8ba47cb0860049eebca48e4317ba2c09) by Knut Hake
-- [fcp.co - Script-focused feature film Workflow](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro) by Iain Anderson
+- [fcp.co - Script-focused feature film Workflow](https://web.archive.org/web/20230320121554/https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro) by Iain Anderson

@@ -8,8 +8,8 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Success Stories
 
-- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards?fbclid=IwAR01XwQsPtk5ZpXm4-UulTrInJD9-3nNm4NhrF6FJt2suwIS0vsZOVrKfDg) - **_8,181,158,261 views on YouTube_**
-- Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
+- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://web.archive.org/web/20230321022427/https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards) - **_8,181,158,261 views on YouTube_**
+- Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
 - O Shaolin do Sertão (2016) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5786508/) - **_First Brazilian feature edited on Final Cut Pro X_**
 
 ---
@@ -293,7 +293,7 @@ If there's something missing, [please let us know](/contribute/).
 
 - Bo Burnham: Inside (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14544192/)
 - The Legend of Burnout Barry (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11147376/) {{website}}(https://latenitefilms.com/originals/the-legend-of-burnout-barry/)
-- Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia)
+- Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia)
 
 ---
 
@@ -331,7 +331,7 @@ If there's something missing, [please let us know](/contribute/).
 - Mura Masa - Move Me (2019) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=Tbz6xQkewo4)
 - Vera Blue - Like I Remember You (2019) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=IkMqDLOrmXw) {{website}}(https://latenitefilms.com/collaborations/vera-blue-like-i-remember-you/)
 - Guy Pearce - What Makes You Think (2018) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=KcXrf-eHQeE) {{website}}(https://latenitefilms.com/collaborations/guy-pearce-what-makes-you-think/)
-- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards?fbclid=IwAR01XwQsPtk5ZpXm4-UulTrInJD9-3nNm4NhrF6FJt2suwIS0vsZOVrKfDg)
+- Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://web.archive.org/web/20230321022427/https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards) - **_8,181,158,261 views on YouTube_**
 - Gang Of Youths: The Deepest Sighs, the Frankest Shadows (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=9URhKk22xbM) {{website}}(https://latenitefilms.com/collaborations/gang-of-youths-the-deepest-sighs-the-frankest-shadows/)
 - Peking Duk: Let You Down (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=zUfVJ7c22r8) {{website}}(https://latenitefilms.com/collaborations/peking-duk-let-you-down/)
 - Rüfüs Du Sol - Be With You (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=DKH2t5d2Mj0) {{website}}(https://latenitefilms.com/collaborations/rufus-du-sol-be-with-you/)

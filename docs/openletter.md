@@ -33,7 +33,7 @@ Jeff Asher, editor of ‘Big Sky,’ a US TV series on ABC and Hulu, says “As 
 #### After:
 - [Apple responds to the open letter to Tim Cook about Final Cut Pro (ProVideo Coalition)](https://www.provideocoalition.com/apple-responds-to-the-open-letter-to-tim-cook-about-final-cut-pro/)
 - [Apple responds to open letter about improving usage and reputation of Final Cut Pro in filmmaking industry (9to5mac)](https://9to5mac.com/2022/05/19/apple-final-cut-open-letter/)
-- [Apple Response to “Final Cut Pro in TV and Film” Open Letter (fcp.co)](https://fcp.co/final-cut-pro/articles/2591-apple-response-to-final-cut-pro-in-tv-and-film-open-letter)
+- [Apple Response to “Final Cut Pro in TV and Film” Open Letter (fcp.co)](https://web.archive.org/web/20230610185230/https://fcp.co/final-cut-pro/articles/2591-apple-response-to-final-cut-pro-in-tv-and-film-open-letter)
 - [Apple Responds to Open Letter Demanding Improvement of Final Cut Pro (PetaPixel)](https://petapixel.com/2022/05/20/apple-responds-to-open-letter-demanding-improvement-of-final-cut-pro/)
 
 ---
