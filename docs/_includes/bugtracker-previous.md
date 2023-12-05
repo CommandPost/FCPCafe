@@ -5,5 +5,4 @@
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
 - [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
-- [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)

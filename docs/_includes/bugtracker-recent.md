@@ -16,7 +16,6 @@
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
-- [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
@@ -28,3 +27,4 @@
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
 - [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
+- [Changing Color Adjustments Sliders via Accessibility API do not update correctly (June 15, 2023)](https://github.com/CommandPost/FCPCafe/issues/190)

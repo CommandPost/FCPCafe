@@ -19,7 +19,6 @@
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
-- [Crash after adding Title to Project/Timeline & Black Viewer (July 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/231)
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
@@ -28,3 +27,4 @@
 - [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
 - [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220)
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
+- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
