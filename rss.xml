@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 05 Dec 2023 08:01:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Dec 2023 20:18:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 Dec 2023 08:01:54 GMT</pubDate>
+        <pubDate>Tue, 05 Dec 2023 20:18:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3238,6 +3238,52 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#5th-december-2023</link>
             <guid isPermaLink="false">5th December 2023</guid>
             <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th December 2023]]></title>
+            <description><![CDATA[<p>We've brought back Philip Hodgetts &amp; Dr Gregory Clarke's amazing blog post, <strong>Demystifying Final Cut Pro XMLs</strong> originally written back in 2017 for fcp.co (which has sadly since been retired).</p>
+<p>You can read it <a href="/developer-case-studies/fcpxml/">here</a>.</p>
+<p>Philip &amp; Gregory are the geniuses behind <a href="https://intelligentassistance.com">Intelligent Assistance</a> - please check out all their amazing tools!</p>
+<p>We will also be bringing back some of Ronny Courtens's amazing case studies over the coming weeks! Stay tuned.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-december-2023</link>
+            <guid isPermaLink="false">6th December 2023</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th December 2023]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.5 (63)</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Blackmagic Micro Studio Camera 4K G2.</li>
+<li>Added support for Panasonic Lumix G9II Blackmagic RAW clips.</li>
+<li>Updated from Blackmagic RAW SDK v3.4 to v3.6.</li>
+<li>Updated from FxPlug v4.2.8 to v4.2.9.</li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a potential crash when pressing the <strong>Remove Selected</strong> button in the Workflow Extension.</li>
+</ul>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-december-2023</link>
+            <guid isPermaLink="false">6th December 2023</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th December 2023]]></title>
+            <description><![CDATA[<p><strong>evrExpanse 4</strong> is out now with Offload functionality.</p>
+<p>It's now equipped with xxh64 hash, ensuring rock-solid data integrity during your media transfers.</p>
+<p>Streamlined and secure – because your files deserve the best!</p>
+<p>You can get 25% off using the promo code: <strong>MU8SNH9</strong></p>
+<p>This offer ends 24th December 2023.</p>
+<p>You can learn more <a href="http://evrapp.cloud/evrexpanse">here</a>.</p>
+<p><img src="/static/evrexpanse4-offload.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#6th-december-2023</link>
+            <guid isPermaLink="false">6th December 2023</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
