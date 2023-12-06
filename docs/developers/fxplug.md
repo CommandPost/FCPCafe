@@ -24,18 +24,26 @@ Here is a collection of useful third party frameworks.
 
 **Released:** 30th November 2023
 
+- **IMPORTANT:** Xcode 15 is now required to build FxPlug plug-ins.
 - A new `-projectAspectRatio:error:` method in `FxProjectAPI_v2`.
+
+> You can learn more [here](https://developer.apple.com/documentation/professional_video_applications/fxprojectapi_v2/4312351-projectaspectratio?language=objc).
+
 - The `FxBrightnessAnalysis` example has been updated to optionally perform backward analysis, image well analysis, and GPU analysis.
 - Improved overall stability.
 - Improved the speed of analysis cancellation.
-- Fixed an issue in `-timelineTime:fromImageTime:forParameterID:` that had caused an incorrect time to be returned as timelineTime.
+- Fixed an issue in `-timelineTime:fromImageTime:forParameterID:` that had caused an incorrect time to be returned as `timelineTime`.
 - `FxColorGamutAPI` can now be instantiated from within `-parameterChanged:atTime:error:`
 - `FxProjectAPI` can now be accessed during a push button callback.
 - Fixed a leak in the `FxSimpleColorCorrector` example plug-in.
+
+> This is the fix:
+>
+> ![](/static/fxplug-4-2-9.jpg)
+
 - Fixed an issue that would cause a hang in Motion when multiple instances of the same plug-in were applied to an object.
 - Fixed an issue that would cause generated output to be composited on frames requested by the `FxAnalysisAPI` and `FxTimingAPI` when a plug-in was applied to a title template’s Title Background layer.
 - Fixed an issue that could cause a crash when analyzing very large inputs in effect templates that had relatively small project dimensions.
-- Xcode 15 is now required to build FxPlug plug-ins.
 
 ---
 
