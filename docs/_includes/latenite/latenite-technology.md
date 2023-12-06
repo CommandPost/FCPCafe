@@ -86,7 +86,7 @@ Here's a **sneak peak** of some of the things we have in development:
 
 **Metaburner Toolbox** is an Final Cut Pro adjustment layer that allows you to "burn" metadata information from the timeline over to top of your existing video.
 
-We hope it will have the some power and flexibility as DaVinci Resolve's Data Burn-in Tool:
+We hope it will have the same power and flexibility as DaVinci Resolve's Data Burn-in Tool:
 
 ![](/static/resolve-data-burn-in.jpg)
 
