@@ -3,6 +3,7 @@
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
 - [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
 - [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
+- [Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/296)
 - [FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/295)
 - [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)
@@ -27,4 +28,3 @@
 - [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
 - [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220)
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
-- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
