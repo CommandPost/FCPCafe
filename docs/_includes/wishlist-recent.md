@@ -5,7 +5,6 @@
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
-- [[Final Cut Pro (for iPad) v1.0.1] Add support for Custom Fonts (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/200)
 - [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197)
 - [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196)
 - [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175)
@@ -28,3 +27,4 @@
 - [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
 - [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89)
 - [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85)
+- [Reveal in Browser with detached Audio/Video (May 19, 2022)](https://github.com/CommandPost/FCPCafe/issues/78)
