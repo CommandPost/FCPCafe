@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755302489165">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755304473663">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.755302489165" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.755304473663" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755302489165" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755304473663" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755302489165" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755304473663" data-turbo-eval="false" defer></script>
 
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -345,48 +345,6 @@
 <p>Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via <a href="https://feedbackassistant.apple.com" class="outbound" target="_blank"><span>Feedback Assistant</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>You can also send feedback directly to the Final Cut Pro team via their <a href="https://www.apple.com/feedback/finalcutpro/" class="outbound" target="_blank"><span>Feedback Form</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, however, unlike Feedback Assistant you can&#x27;t track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.</p>
 <hr>
-<doc-anchor-target id="finding-crash-logs">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#finding-crash-logs">#</doc-anchor-trigger>
-        <span>Finding Crash Logs</span>
-    </h3>
-</doc-anchor-target>
-<p>You can find previous crash logs in this folder:</p>
-<p><code v-pre>~/Library/Logs/DiagnosticReports/</code></p>
-<p>You can paste the above path into Finder&#x27;s <strong>Go &gt; Go to Folder...</strong> menubar tool to reveal this hidden folder.</p>
-<p>Alternatively, you can find your <strong>User Library</strong> (as opposed to the System Library) by holding down <strong>OPTION</strong> when you click the <strong>Go</strong> menubar item from Finder.</p>
-<p>If the crash logs have already been uploaded to Apple, they will be in a folder called <code v-pre>Retired</code>.</p>
-<p>Crash logs will either have a <code v-pre>.ips</code> or <code v-pre>.diag</code> file extension.</p>
-<p>For example:</p>
-<p><figure class="content-center">
-    <img src="../static/crash-log-folder.jpg" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p>Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a <a href="https://gist.github.com" class="outbound" target="_blank"><span>GitHub Gist</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<doc-anchor-target id="third-party-software">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#third-party-software">#</doc-anchor-trigger>
-        <span>Third Party Software</span>
-    </h3>
-</doc-anchor-target>
-<p>It&#x27;s important to note that since <strong>Final Cut Pro 10.6.6</strong> Apple has dropped <strong>FxPlug3</strong> support.</p>
-<p>When the effect or look you want to achieve can&#x27;t be created with the filters or generators provided with Final Cut Pro or Motion, the FxPlug software development kit (SDK) allows you to write your own custom visual effects.</p>
-<p>FxPlug is a compact, powerful image-processing plug-in architecture that lets you create unique, hardware-accelerated or CPU-based effects plug-ins with customized UI and onscreen controls.</p>
-<p>In <strong>Final Cut Pro 10.6.5</strong> and earlier, <strong>FxPlug3</strong> plugins ran &quot;inside&quot; Final Cut Pro, and a bad plugin could crash Final Cut Pro.</p>
-<p>However, since <strong>Final Cut Pro 10.6.6</strong>, only <strong>FxPlug4</strong> is supported, and all FxPlug4 plugins are run &quot;out of process&quot; - meaning they&#x27;re effectively their own application, and if they crash, Final Cut Pro doesn&#x27;t.</p>
-<p>Generally speaking if a FxPlug4 plugin crashes, then Final Cut Pro will just try restart it, and if it crashes 5 times or so, then it&#x27;ll display the &quot;this plugin is not responding&quot; message.</p>
-<p>All <strong>Workflow Extensions</strong> also run out of process.</p>
-<p>For example, you can see all the different processes in Activity Monitor:</p>
-<p><figure class="content-center">
-    <img src="../static/fcp-activity-monitor.png" alt="">
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p>If you manually try and force quit a process, you&#x27;ll see Final Cut Pro start it up again when needed.</p>
-<p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they&#x27;ll just have to relay this information to Apple anyway.</p>
-<hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -405,6 +363,88 @@
     </div>
 </div>
 <hr>
+<doc-anchor-target id="recently-added">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recently-added">#</doc-anchor-trigger>
+        <span>Recently Added</span>
+    </h3>
+</doc-anchor-target>
+<p>Here&#x27;s a list of the <strong>30 most recently added</strong> Final Cut Pro bug reports:</p>
+<ul>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/299">Crash when using Color Wheels (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/298">Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/296">Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/295">FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/294">Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/287">Send to Compressor does not use third-party Audio Units (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/286">Inspector Button Tooltips no longer show (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/285">Random Red Lines in Timeline Render Bar (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/284">Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/278">Titles with &quot;extra bold&quot; exported as &quot;regular&quot; (November 21, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/260">Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/250">FCP &amp; QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/246">Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/239">Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/238"><span class="docs-emoji">&#x1F9F5;</span> Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/237">Crash when right clicking on library (August 6, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/234">Crashed after creating transition (August 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/233">Retiming in secondary timeline borks the primary timeline (July 30, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/232">10.6.7 Runaway FCP Processes (July 28, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/230">10.6.7 Random Beach Balls After Working A While (July 26, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/228">In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/227">Impossible to change font variation (bold, italic...) (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/226">Crashed when pasted text in text field of Centered Title  (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/225">Final Cut Pro 10.6.7 crash on launch (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/223"><span class="docs-emoji">&#x1F9F5;</span> Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/220">Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/219">Custom Export Destinations missing after update (July 20, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/217">Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/211">FCP crash during XML import (June 27, 2023)</a></li>
+</ul>
+<p>The above list is pulled from our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
+<hr>
+<doc-anchor-target id="most-popular">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#most-popular">#</doc-anchor-trigger>
+        <span>Most Popular</span>
+    </h3>
+</doc-anchor-target>
+<p>Here&#x27;s a list of the <strong>30 most popular</strong> Final Cut Pro bug reports:</p>
+<ul>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/110">FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/109">FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/108">FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/299">Crash when using Color Wheels (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/298">Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/296">Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/295">FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/294">Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/287">Send to Compressor does not use third-party Audio Units (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/286">Inspector Button Tooltips no longer show (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/285">Random Red Lines in Timeline Render Bar (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/284">Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/278">Titles with &quot;extra bold&quot; exported as &quot;regular&quot; (November 21, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/260">Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/250">FCP &amp; QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/246">Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/239">Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/238"><span class="docs-emoji">&#x1F9F5;</span> Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/237">Crash when right clicking on library (August 6, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/234">Crashed after creating transition (August 4, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/233">Retiming in secondary timeline borks the primary timeline (July 30, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/232">10.6.7 Runaway FCP Processes (July 28, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/230">10.6.7 Random Beach Balls After Working A While (July 26, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/228">In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/227">Impossible to change font variation (bold, italic...) (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/226">Crashed when pasted text in text field of Centered Title  (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/225">Final Cut Pro 10.6.7 crash on launch (July 24, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/223"><span class="docs-emoji">&#x1F9F5;</span> Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/220">Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)</a></li>
+</ul>
+<p>The above list is pulled from our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
+<hr>
 <doc-anchor-target id="final-cut-pro-107">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-107">#</doc-anchor-trigger>
@@ -413,7 +453,7 @@
 </doc-anchor-target>
 <p>Here&#x27;s a list of the <strong>30 most recently added</strong> Final Cut Pro 10.7 bug reports:</p>
 <ul>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">FC Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
+<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
 <li><a href="https://github.com/CommandPost/FCPCafe/issues/299">Crash when using Color Wheels (December 7, 2023)</a></li>
 <li><a href="https://github.com/CommandPost/FCPCafe/issues/298">Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)</a></li>
 <li><a href="https://github.com/CommandPost/FCPCafe/issues/296">Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)</a></li>
@@ -447,87 +487,72 @@
 </ul>
 <p>The above list is pulled from our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
 <hr>
-<doc-anchor-target id="most-popular">
+<doc-anchor-target id="finding-crash-logs">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#most-popular">#</doc-anchor-trigger>
-        <span>Most Popular</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#finding-crash-logs">#</doc-anchor-trigger>
+        <span>Finding Crash Logs</span>
     </h3>
 </doc-anchor-target>
-<p>Here&#x27;s a list of the <strong>30 most popular</strong> Final Cut Pro bug reports:</p>
-<ul>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/110">FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/109">FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/108">FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">FC Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/299">Crash when using Color Wheels (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/298">Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/296">Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/295">FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/294">Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/287">Send to Compressor does not use third-party Audio Units (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/286">Inspector Button Tooltips no longer show (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/285">Random Red Lines in Timeline Render Bar (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/284">Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/278">Titles with &quot;extra bold&quot; exported as &quot;regular&quot; (November 21, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/260">Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/250">FCP &amp; QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/246">Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/239">Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/238"><span class="docs-emoji">&#x1F9F5;</span> Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/237">Crash when right clicking on library (August 6, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/234">Crashed after creating transition (August 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/233">Retiming in secondary timeline borks the primary timeline (July 30, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/232">10.6.7 Runaway FCP Processes (July 28, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/230">10.6.7 Random Beach Balls After Working A While (July 26, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/228">In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/227">Impossible to change font variation (bold, italic...) (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/226">Crashed when pasted text in text field of Centered Title  (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/225">Final Cut Pro 10.6.7 crash on launch (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/223"><span class="docs-emoji">&#x1F9F5;</span> Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/220">Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)</a></li>
-</ul>
-<p>The above list is pulled from our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
+<p>You can find previous crash logs in this folder:</p>
+<p><code v-pre>~/Library/Logs/DiagnosticReports/</code></p>
+<p>You can paste the above path into Finder&#x27;s <strong>Go &gt; Go to Folder...</strong> menubar tool to reveal this hidden folder.</p>
+<p>Alternatively, you can find your <strong>User Library</strong> (as opposed to the System Library) by holding down <strong>OPTION</strong> when you click the <strong>Go</strong> menubar item from Finder.</p>
+<p>If the crash logs have already been uploaded to Apple, they will be in a folder called <code v-pre>Retired</code>.</p>
+<p>Crash logs will either have a <code v-pre>.ips</code> or <code v-pre>.diag</code> file extension.</p>
+<p>For example:</p>
+<p><figure class="content-center">
+    <img src="../static/crash-log-folder.jpg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a <a href="https://gist.github.com" class="outbound" target="_blank"><span>GitHub Gist</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
-<doc-anchor-target id="recently-added">
+<doc-anchor-target id="final-cut-pro-diagnostics-bundle">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#recently-added">#</doc-anchor-trigger>
-        <span>Recently Added</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-diagnostics-bundle">#</doc-anchor-trigger>
+        <span>Final Cut Pro Diagnostics Bundle</span>
     </h3>
 </doc-anchor-target>
-<p>Here&#x27;s a list of the <strong>30 most recently added</strong> Final Cut Pro bug reports:</p>
+<p>If you hold down <strong>OPTION</strong> when clicking the <strong>Help</strong> menubar item in Final Cut Pro, you&#x27;ll see a new <strong>Gather App Diagnostics</strong> option magically appear:</p>
+<p><figure class="content-center">
+    <img src="../static/gather-app-diagnostics.jpeg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When you click this, wait a few minutes and eventually a Finder window will popup revealing a file with a filename like <code v-pre>VideoAppDiagnostics-FinalCut-2023-12-08-083149.tar.gz</code>.</p>
+<p>When you unzip this file, it contains:</p>
 <ul>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/300">FC Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/299">Crash when using Color Wheels (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/298">Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/296">Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/295">FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/294">Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/287">Send to Compressor does not use third-party Audio Units (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/286">Inspector Button Tooltips no longer show (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/285">Random Red Lines in Timeline Render Bar (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/284">Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/278">Titles with &quot;extra bold&quot; exported as &quot;regular&quot; (November 21, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/260">Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/250">FCP &amp; QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/246">Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/239">Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/238"><span class="docs-emoji">&#x1F9F5;</span> Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/237">Crash when right clicking on library (August 6, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/234">Crashed after creating transition (August 4, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/233">Retiming in secondary timeline borks the primary timeline (July 30, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/232">10.6.7 Runaway FCP Processes (July 28, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/230">10.6.7 Random Beach Balls After Working A While (July 26, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/228">In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/227">Impossible to change font variation (bold, italic...) (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/226">Crashed when pasted text in text field of Centered Title  (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/225">Final Cut Pro 10.6.7 crash on launch (July 24, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/223"><span class="docs-emoji">&#x1F9F5;</span> Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/220">Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/219">Custom Export Destinations missing after update (July 20, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/217">Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)</a></li>
-<li><a href="https://github.com/CommandPost/FCPCafe/issues/211">FCP crash during XML import (June 27, 2023)</a></li>
+<li><strong>AppInfo:</strong> The version information from Final Cut Pro.</li>
+<li><strong>Caches:</strong> Your cache files. They will be hidden - press COMMAND+SHIFT+DOT to show.</li>
+<li><strong>Preferences:</strong> Your Final Cut Pro Preferences.</li>
+<li><strong>Projects:</strong> Copies of your most recent Final Cut Pro libraries.</li>
+<li><strong>SystemLog:</strong> Any system logs.</li>
+<li><strong>SystemProfile:</strong> Your system profile.</li>
+<li><strong>WindowLayouts:</strong> Your Final Cut Pro Custom Workspaces.</li>
 </ul>
-<p>The above list is pulled from our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
+<p>You can share this file with Apple, a third party developer or FCP Cafe&#x27;s Bug Tracker, and it contains all the information someone would ever need to reproduce/fault-find a bug or crash.</p>
+<hr>
+<doc-anchor-target id="third-party-software">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#third-party-software">#</doc-anchor-trigger>
+        <span>Third Party Software</span>
+    </h3>
+</doc-anchor-target>
+<p>It&#x27;s important to note that since <strong>Final Cut Pro 10.6.6</strong> Apple has dropped <strong>FxPlug3</strong> support.</p>
+<p>When the effect or look you want to achieve can&#x27;t be created with the filters or generators provided with Final Cut Pro or Motion, the FxPlug software development kit (SDK) allows you to write your own custom visual effects.</p>
+<p>FxPlug is a compact, powerful image-processing plug-in architecture that lets you create unique, hardware-accelerated or CPU-based effects plug-ins with customized UI and onscreen controls.</p>
+<p>In <strong>Final Cut Pro 10.6.5</strong> and earlier, <strong>FxPlug3</strong> plugins ran &quot;inside&quot; Final Cut Pro, and a bad plugin could crash Final Cut Pro.</p>
+<p>However, since <strong>Final Cut Pro 10.6.6</strong>, only <strong>FxPlug4</strong> is supported, and all FxPlug4 plugins are run &quot;out of process&quot; - meaning they&#x27;re effectively their own application, and if they crash, Final Cut Pro doesn&#x27;t.</p>
+<p>Generally speaking if a FxPlug4 plugin crashes, then Final Cut Pro will just try restart it, and if it crashes 5 times or so, then it&#x27;ll display the &quot;this plugin is not responding&quot; message.</p>
+<p>All <strong>Workflow Extensions</strong> also run out of process.</p>
+<p>For example, you can see all the different processes in Activity Monitor:</p>
+<p><figure class="content-center">
+    <img src="../static/fcp-activity-monitor.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you manually try and force quit a process, you&#x27;ll see Final Cut Pro start it up again when needed.</p>
+<p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they&#x27;ll just have to relay this information to Apple anyway.</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
