@@ -18,6 +18,55 @@ You can also send feedback directly to the Final Cut Pro team via their [Feedbac
 
 ---
 
+!!!success Want to add something to the Bug Tracker?
+Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
+!!!
+
+---
+
+### Recently Added
+
+Here's a list of the **30 most recently added** Final Cut Pro bug reports:
+
+{{ include "bugtracker-recent" }}
+
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
+
+---
+
+### Most Popular
+
+Here's a list of the **30 most popular** Final Cut Pro bug reports:
+
+{{ include "bugtracker-reactions" }}
+
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
+
+---
+
+
+### Final Cut Pro 10.7
+
+Here's a list of the **30 most recently added** Final Cut Pro 10.7 bug reports:
+
+{{ include "bugtracker-latest" }}
+
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
+
+---
+
+### Final Cut Pro 10.6.8
+
+Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports.
+
+Some of these bugs may eventually be migrated to the 10.7 list once confirmed.
+
+{{ include "bugtracker-previous" }}
+
+The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
+
+---
+
 ### Finding Crash Logs
 
 You can find previous crash logs in this folder:
@@ -37,6 +86,28 @@ For example:
 ![](/static/crash-log-folder.jpg)
 
 Because crash logs are really large, the easiest way to share them on GitHub (and with Apple via feedback) is via a [GitHub Gist](https://gist.github.com).
+
+---
+
+### Final Cut Pro Diagnostics Bundle
+
+If you hold down **OPTION** when clicking the **Help** menubar item in Final Cut Pro, you'll see a new **Gather App Diagnostics** option magically appear:
+
+![](/static/gather-app-diagnostics.jpeg)
+
+When you click this, wait a few minutes and eventually a Finder window will popup revealing a file with a filename like `VideoAppDiagnostics-FinalCut-2023-12-08-083149.tar.gz`.
+
+When you unzip this file, it contains:
+
+- **AppInfo:** The version information from Final Cut Pro.
+- **Caches:** Your cache files. They will be hidden - press COMMAND+SHIFT+DOT to show.
+- **Preferences:** Your Final Cut Pro Preferences.
+- **Projects:** Copies of your most recent Final Cut Pro libraries.
+- **SystemLog:** Any system logs.
+- **SystemProfile:** Your system profile.
+- **WindowLayouts:** Your Final Cut Pro Custom Workspaces.
+
+You can share this file with Apple, a third party developer or FCP Cafe's Bug Tracker, and it contains all the information someone would ever need to reproduce/fault-find a bug or crash.
 
 ---
 
@@ -63,54 +134,6 @@ For example, you can see all the different processes in Activity Monitor:
 If you manually try and force quit a process, you'll see Final Cut Pro start it up again when needed.
 
 What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes, it's NOT a third party FxPlug4 effect or a Workflow Extension - it's something in Apple's own code, and there's nothing third party developers can do about it, so there's no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they'll just have to relay this information to Apple anyway.
-
----
-
-!!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
-!!!
-
----
-
-### Final Cut Pro 10.7
-
-Here's a list of the **30 most recently added** Final Cut Pro 10.7 bug reports:
-
-{{ include "bugtracker-latest" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
-
----
-
-### Final Cut Pro 10.6.8
-
-Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports.
-
-Some of these bugs may eventually be migrated to the 10.7 list once confirmed.
-
-{{ include "bugtracker-previous" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
-
----
-
-### Most Popular
-
-Here's a list of the **30 most popular** Final Cut Pro bug reports:
-
-{{ include "bugtracker-reactions" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
-
----
-
-### Recently Added
-
-Here's a list of the **30 most recently added** Final Cut Pro bug reports:
-
-{{ include "bugtracker-recent" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 ---
 
