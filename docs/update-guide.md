@@ -12,6 +12,18 @@ You can read our current recommendations below:
 
 ---
 
+## Short Answer
+
+If you're still on **Final Cut Pro 10.6.5** or earlier on **Intel** machines - just stay there until you buy an Apple Silicon Mac.
+
+If you're currently on **Final Cut Pro 10.6.10**, you can safely upgrade to **Final Cut Pro 10.7**.
+
+If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma**.
+
+You can read full answers below...
+
+---
+
 ## macOS Sonoma
 
 Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
@@ -50,11 +62,11 @@ However, there are some **bugs** that [we reported in the news feed](/news/20231
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
-| FxFactory                | No Known Issues                                                                                         |
+| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
-| MotionVFX                | No Known Issues                                                                                         |
+| MotionVFX                | _Some issues with mLUT crashing ("this plugin is not responding")._                                     |
 | Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
