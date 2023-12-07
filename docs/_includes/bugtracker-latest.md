@@ -1,3 +1,4 @@
+- [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/295)
 - [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)

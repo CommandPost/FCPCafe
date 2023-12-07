@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/295)
 - [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)
@@ -27,4 +28,3 @@
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
-- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
