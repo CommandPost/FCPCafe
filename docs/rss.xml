@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 Dec 2023 22:11:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Dec 2023 22:45:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 Dec 2023 22:11:45 GMT</pubDate>
+        <pubDate>Thu, 07 Dec 2023 22:45:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3318,6 +3318,18 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#7th-december-2023</link>
             <guid isPermaLink="false">7th December 2023</guid>
             <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th December 2023]]></title>
+            <description><![CDATA[<p>Deyson Ortiz has released a new service:</p>
+<p><strong>Final Cut Pro Mastery: Learn How To Create Templates, Titles, Transitions, Effects &amp; More</strong></p>
+<p>It's personalised 1-On-1 Training.</p>
+<p>Afraid of Apple Motion like I am? This is the training for you!</p>
+<p>You can learn more <a href="https://deyson.com/fcp-template-creation-training/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-december-2023</link>
+            <guid isPermaLink="false">8th December 2023</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[8th December 2023]]></title>
