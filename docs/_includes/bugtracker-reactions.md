@@ -1,7 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
-- [FC Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/300)
+- [Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/300)
 - [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
 - [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/296)
