@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 Dec 2023 15:13:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Dec 2023 22:11:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 Dec 2023 15:13:38 GMT</pubDate>
+        <pubDate>Thu, 07 Dec 2023 22:11:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3318,6 +3318,50 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#7th-december-2023</link>
             <guid isPermaLink="false">7th December 2023</guid>
             <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th December 2023]]></title>
+            <description><![CDATA[<p>Just a friendly reminder that third party FxPlug4 plugins can't crash Final Cut Pro - only Final Cut Pro can crash Final Cut Pro.</p>
+<p>This is explained in more detail on the <a href="/bugtracker/">Bug Tracker page</a>.</p>
+<p>For example, Threefold Films recently <a href="https://twitter.com/3fld/status/1732731336694140955">tweeted</a>:</p>
+<blockquote>
+<p>Simon Says Transcription is crashing #fcpx and making my day harder today….</p>
+</blockquote>
+<p>However, as explained on the Bug Tracker, this is a Final Cut Pro bug - nothing to do with Simon Says.</p>
+<p>There is also a workaround, as documented <a href="https://github.com/CommandPost/FCPCafe/issues/298">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-december-2023</link>
+            <guid isPermaLink="false">8th December 2023</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th December 2023]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.6 (64)</strong> is out now!</p>
+<p>This release contains the following bug fix:</p>
+<ul>
+<li>Fixed a potential crash that we've been trying to solve for ages. On SOME systems (specifically systems with <a href="https://developer.apple.com/metal/Metal-Feature-Set-Tables.pdf">Mac2 family GPUs</a>), Apple's Metal Framework would generate a Metal Texture that the Metal Performance Shader in the Mac couldn't actually work with, causing a crash deep within Apple's code. It was very hard to reproduce, as it only happened on certain systems - and none of ours. HUGE thank you to Apple Developer Technical Support, the Final Cut Pro Team, AdrianEddy and Warren Moore for all their constant and on-going help, assistance, guidance, patience and support!</li>
+</ul>
+<p>Gyroflow Toolbox also contains this same code/problem, which we've fixed - however, we're currently waiting for one more fix in Gyroflow Core before pushing publicly - hopefully soon.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-december-2023</link>
+            <guid isPermaLink="false">8th December 2023</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th December 2023]]></title>
+            <description><![CDATA[<p>Introducing <strong>IF Motion</strong>!</p>
+<p>I'd like to introduce you to a new plugin creator for Final Cut Pro.</p>
+<p>Itallo is a former employee of <a href="https://www.lenofx.com">LenoFX</a>, he's now behind <a href="https://ifmotioon.net">IF Motion</a>.</p>
+<p>He is launching his paid plugins and is offering a 20% discount when you use the code: <strong>LENOFX20</strong></p>
+<p>Leno says:</p>
+<blockquote>
+<p>You can also download the freebies to try them out, they are great. Especially the Basic Transitions.</p>
+</blockquote>
+<p>You can learn more <a href="https://ifmotioon.net">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-december-2023</link>
+            <guid isPermaLink="false">8th December 2023</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
