@@ -1,4 +1,3 @@
-- [Cannot Detect Blackmagic Video Monitoring Card for AV Output (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/300)
 - [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
 - [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/296)
@@ -28,3 +27,4 @@
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
 - [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
 - [FCP crash during XML import (June 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/211)
+- [Imported iMovie picture in picture border and drop shadow does not rotate with picture (June 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/202)
