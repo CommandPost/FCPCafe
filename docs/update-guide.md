@@ -22,6 +22,8 @@ If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma*
 
 You can read full answers below...
 
+_FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with Sonoma 14.1.2 and FCPX 10.7 through hell since the 10.7 release, and it's been rock solid. Zero crashes. Zero issues. Faster exports. More responsive. Rock solid. I was previously on Monterey & 10.6.8, but Sonoma + Final Cut Pro 10.7 seems way more solid and reliable._
+
 ---
 
 ## macOS Sonoma
