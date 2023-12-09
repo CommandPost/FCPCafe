@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 09 Dec 2023 05:27:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Dec 2023 05:36:11 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 09 Dec 2023 05:27:32 GMT</pubDate>
+        <pubDate>Sat, 09 Dec 2023 05:36:11 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3388,6 +3388,18 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p><img src="/static/metaburner-pro-alpha.jpeg" alt=""></p>
 <p>Thanks to everyone who's already offered ideas and suggestions!</p>
 <p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-december-2023</link>
+            <guid isPermaLink="false">9th December 2023</guid>
+            <pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th December 2023]]></title>
+            <description><![CDATA[<p>LateNite's <strong>The Future of Everything</strong> has been nominated for an <strong>Australian Academy of Cinema and Television Arts (AACTA)</strong> Award for <strong>Best Online Drama or Comedy</strong>!</p>
+<p>The series was animated in Adobe Animate, and edited in Final Cut Pro by <a href="https://kevin.screeneditor.net">Kevin Luk</a>.</p>
+<p>If you haven't already, you can read a Case Study about the series on FCP Cafe <a href="https://fcp.cafe/case-studies/the-future-of-everything/">here</a>.</p>
+<p>You can watch the series for free on YouTube here:</p>
+<p><a href="https://ltnt.tv/tfoe"><img src="/static/tfoe.jpeg" alt=""></a></p>
 ]]></description>
             <link>https://fcp.cafe/#9th-december-2023</link>
             <guid isPermaLink="false">9th December 2023</guid>
