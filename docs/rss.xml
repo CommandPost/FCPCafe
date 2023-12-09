@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 09 Dec 2023 00:39:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Dec 2023 05:27:32 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 09 Dec 2023 00:39:07 GMT</pubDate>
+        <pubDate>Sat, 09 Dec 2023 05:27:32 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3374,6 +3374,69 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#8th-december-2023</link>
             <guid isPermaLink="false">8th December 2023</guid>
             <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th December 2023]]></title>
+            <description><![CDATA[<p>Chris Hocking at <a href="https://latenitefilms.com">LateNite</a> has started developing his next product, <strong>Metaburner Pro</strong>.</p>
+<p>Metaburner Pro is a Motion Generator that accepts a FCPXML, and &quot;writes&quot; the FCPXML metadata over the top of your Final Cut Pro timeline.</p>
+<p>Think of it as basically the same as the <strong>Data Burn-In</strong> tool in DaVinci Resolve.</p>
+<p>It's incredibly early days - however we hope to have a <strong>early alpha</strong> on TestFlight in the coming weeks.</p>
+<p>We are working closely with the professional Final Cut Pro Community, to make sure it's useful for high-end productions - especially long-form projects with big VFX deliverables.</p>
+<p>It will be released on the Mac App Store for <strong>USD$100</strong>.</p>
+<p>If you have any ideas or suggestions, feel free to post them in the <a href="https://github.com/latenitefilms/MetaburnerPro/issues">GitHub Issues for Metaburner Pro</a>.</p>
+<p>Here's a sneak peak of the early development (with a placeholder icon):</p>
+<p><img src="/static/metaburner-pro-alpha.jpeg" alt=""></p>
+<p>Thanks to everyone who's already offered ideas and suggestions!</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-december-2023</link>
+            <guid isPermaLink="false">9th December 2023</guid>
+            <pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th December 2023]]></title>
+            <description><![CDATA[<p>Joshua Meyers writes:</p>
+<blockquote>
+<p>Hi all! We’ve finally been able to release our latest documentary “To My Father” on YouTube this week now that it’s completed its primary festival run.</p>
+<p>It’s a short biographical documentary about Academy Award winning actor Troy Kotsur which illustrates how he drew inspiration from his relationship with his father.</p>
+<p>We were inspired to make it based on his touching speech he gave as he won the Oscar in 2022 (the first for a deaf male actor) for his performance in the movie CODA (AppleTV).</p>
+<p>Our hope in making this film was to honor Troy and his father, but also to present the piece in a way that was accessible to a hearing and deaf audience at the same time.</p>
+<p>Troy’s story is told in American Sign Language (ASL) with open captions on for the duration of the movie.</p>
+<p>This was a truly challenging piece to edit and we had to consult with a lot of deaf experts to make sure we were accomplishing our accessibility goals. I think we did what we set out to do and I’m very proud of the finished work.</p>
+<p>I hope to do a longer case study in the future now that I can reflect on the project in its completion. I appreciate all the help and support I received from the FCP community in the editing process and will pass along what I’ve learned. Please watch if you get a chance. Thank you!</p>
+</blockquote>
+<p>You can watch on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=ddyt2UYisHI"><img src="/static/to-my-father-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-december-2023</link>
+            <guid isPermaLink="false">9th December 2023</guid>
+            <pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th December 2023]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates - The Final Cut Bro</strong>, has released an awesome update to his <strong>Picture in Picture</strong> plugin.</p>
+<p>It includes the following improvements:</p>
+<blockquote>
+<ol>
+<li>Increased amount you can scale video Inside of PIP from 200% to 800%</li>
+<li>Added 4 Animations for introducing your PIP. More to come!</li>
+<li>Added Long Shadow Effect</li>
+<li>Added Gradient colors to outline</li>
+<li>Added Glow Effect with Animation Capabilities</li>
+<li>Added Sharpening Option to PIP video</li>
+<li>Added Flip Option for PIP Video</li>
+<li>Added Gradient option for background</li>
+<li>Minor tweaks and fixes</li>
+<li>Improved thumbnails</li>
+<li>Overhauled the installation process, making updating even easier!</li>
+</ol>
+</blockquote>
+<p>You can watch a video explaining the new feature on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=YpDthmb4zUE"><img src="/static/picture-in-picture-update.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-december-2023</link>
+            <guid isPermaLink="false">9th December 2023</guid>
+            <pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
