@@ -1,26 +1,24 @@
 # Bug Tracker
 
+!!!success Want to add something to the Bug Tracker?
+Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
+!!!
+
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
-You can read on recommendations on if you should update Final Cut Pro [here](/update-guide/).
+You can read our recommendations on if you should update Final Cut Pro [here](/update-guide/).
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-To submit a new bug report, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
+To submit a new bug report, simply sign up for a **free GitHub account** and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
 
 If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 
 Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com).
 
 You can also send feedback directly to the Final Cut Pro team via their [Feedback Form](https://www.apple.com/feedback/finalcutpro/), however, unlike Feedback Assistant you can't track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.
-
----
-
-!!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
-!!!
 
 ---
 
