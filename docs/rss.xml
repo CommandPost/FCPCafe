@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 11 Dec 2023 02:20:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Dec 2023 04:18:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Dec 2023 02:20:32 GMT</pubDate>
+        <pubDate>Mon, 11 Dec 2023 04:18:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3449,6 +3449,16 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#9th-december-2023</link>
             <guid isPermaLink="false">9th December 2023</guid>
             <pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th December 2023]]></title>
+            <description><![CDATA[<p><a href="https://theacharya.co">Vigneswaran Rajkumar</a> spotted this cool video on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=IxNFYR_neIM"><img src="/static/game-sack-timelapse-youtube.jpeg" alt=""></a></p>
+<p>Thanks for sharing!</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-december-2023</link>
+            <guid isPermaLink="false">11th December 2023</guid>
+            <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
