@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 12 Dec 2023 03:54:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Dec 2023 05:17:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 Dec 2023 03:54:55 GMT</pubDate>
+        <pubDate>Tue, 12 Dec 2023 05:17:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3783,6 +3783,11 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 <p>I've never personally played too much with Audio Units, as it's a GIANT rabbit hole, as you can see from the <a href="https://developer.apple.com/documentation/audiounit/">documentation</a>.</p>
 <p>Finally going back to Alex's video...</p>
 <p>I totally think that <a href="https://ulti.media/transcriber/">Transcriber</a> and <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> could easily be ported to a Workflow Extension and improved to make it simpler and easier for Final Cut Pro editors.</p>
+<p>In terms of bringing <a href="https://ulti.media/fcpxautoduck/">FCPX AutoDuck</a> to a Workflow Extension, that's definitely possible too, but as Alex explains, you'd basically need to recreate Final Cut Pro's entire audio pipeline to mimic what Final Cut Pro does in FCPX AutoDuck.</p>
+<p>One potential workaround could be to create a Custom Share Destination, allowing you to export AIFFs of dialogue, music and effects separately, and then the Workflow Extension uses these mix downs for the processing, and then applies the audio adjustments to a Compound Clip of all the audio clips in that role.</p>
+<p>Because you can create a <strong>Custom Share Destination</strong> that can export roles as seperate audio files, the user would just need to export to a single Share Destination, then at the end of the export/render, you could programatically send these files to the Workflow Extension for processing. Once processing is complete, the user could drag a new project from the Workflow Extension to their Final Cut Pro Browser, which would have Compound Clips of the individual audio roles, and levels/effects applied to those compound clips.</p>
+<p>It's slightly complex - because you need to communicate between the Custom Share Destination and the Workflow Extension, but certainly achievable.</p>
+<p><img src="/static/export-roles.png" alt=""></p>
 <p>But I totally agree with Alex in that <a href="https://developer.apple.com/documentation/coremedia/cmtime-u58">CMTime</a> is really hard and FCPXML can get insanely confusing.</p>
 <p>For example, this is how we get the &quot;current frame number&quot; in Gyroflow Toolbox and BRAW Toolbox:</p>
 <pre><code class="language-objc">//---------------------------------------------------------
