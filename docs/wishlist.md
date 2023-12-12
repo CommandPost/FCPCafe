@@ -2,6 +2,8 @@
 
 This page is dedicated to keeping track of Final Cut Pro feature requests, via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
+**The only way Apple's management will put bug fixes and feature requests into their engineers work queue is if they have a Feedback Request about it.**
+
 To submit a new feature request, simply sign up for a free GitHub account and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=feature-request.md&title=).
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.

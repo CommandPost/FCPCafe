@@ -6,6 +6,8 @@ Create a free GitHub account then [click here](https://github.com/CommandPost/FC
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
+**The only way Apple's management will put bug fixes and feature requests into their engineers work queue is if they have a Feedback Request about it.**
+
 You can read our recommendations on if you should update Final Cut Pro [here](/update-guide/).
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
