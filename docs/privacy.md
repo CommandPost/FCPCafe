@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** Tuesday 13th June 2023
+**Last Updated:** Tuesday 12th December 2023
 
 FCP Cafe does not use cookies on its website.
 
@@ -8,9 +8,13 @@ We do not collect any personal identifiable information from you when you visit 
 
 We don't embed any videos - we only show a thumbnail which links to the video - to prevent third party cookies/trackers.
 
-We use [GitHub Pages](https://pages.github.com) to host and manage this website.
+We use [GitHub](https://github.com) to host the markdown files for this website.
 
-We use [CloudFlare](https://www.cloudflare.com) for DNS hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
+We use [CloudFlare](https://www.cloudflare.com) for DNS hosting, [CloudFlare Pages](https://pages.cloudflare.com) for hosting, and [VentraIP](https://ventraip.com.au) for domain hosting.
+
+We use [CloudFlare Website Analytics](https://www.cloudflare.com/en-au/web-analytics/).
+
+Cloudflare Web Analytics does not use any client-side state, such as cookies or `localStorage`, to collect usage metrics. It also doesn't “fingerprint” individuals via their IP address, User Agent string, or any other data for the purpose of displaying analytics.
 
 You can read CloudFlare's privacy policy [here](https://www.cloudflare.com/en-au/privacypolicy/).
 
