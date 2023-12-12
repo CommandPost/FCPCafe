@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 11 Dec 2023 04:47:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Dec 2023 01:35:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Dec 2023 04:47:33 GMT</pubDate>
+        <pubDate>Tue, 12 Dec 2023 01:35:36 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3459,6 +3459,336 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
             <link>https://fcp.cafe/#11th-december-2023</link>
             <guid isPermaLink="false">11th December 2023</guid>
             <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th December 2023]]></title>
+            <description><![CDATA[<p><strong>CoreMelt</strong> has released <strong>CoreMelt Manager v1.1.4</strong>.</p>
+<p>You can learn more <a href="https://coremelt.com/pages/downloads">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-december-2023</link>
+            <guid isPermaLink="false">12th December 2023</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th December 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released <strong>mFilmLook v2.0.6</strong> with the following fixes:</p>
+<ul>
+<li>Improved stability and robustness when using multiple instances of the plugin.</li>
+</ul>
+<p>You can learn more <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-december-2023</link>
+            <guid isPermaLink="false">12th December 2023</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th December 2023]]></title>
+            <description><![CDATA[<p><strong>Scott Simmons</strong> has updated his ProVideo Coalition article:</p>
+<ul>
+<li><a href="https://www.provideocoalition.com/final-cut-pro-10-7-has-shipped/">Final Cut Pro 10.7 has shipped (UPDATED 12/11/23) and export segmentation might speed things up for you</a></li>
+</ul>
+<p>It's worth a read to hear more details about how to speed up exports with simultaneous processing in Final Cut Pro for Mac.</p>
+<p>You can also read about it in the Final Cut Pro manual <a href="https://support.apple.com/en-au/guide/final-cut-pro/verd006aab15/10.7/mac/13.5">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-december-2023</link>
+            <guid isPermaLink="false">12th December 2023</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th December 2023]]></title>
+            <description><![CDATA[<p>One of the things I really LOVE about <strong>CommandPost</strong> is how quick and easy it is to build automation tools.</p>
+<p>For example, last night Nguyễn Quốc Hoàng contacted me asking the following:</p>
+<blockquote>
+<p>Hi Chris, wanna ask if you know any app that can transfer / copy tags-metadata from original clips to trimmed clip (based on filename).</p>
+<p>My problem is, after the project is finish and I trimmed all the project video files into a smaller segments to archive.</p>
+<p>My metadata, finder tags are lost.</p>
+</blockquote>
+<p>This is the perfect problem for something like CommandPost to solve, via it's powerful Lua scripting.</p>
+<p>Here's the solution I quickly came up with (which was posted <a href="https://github.com/CommandPost/CommandPost/discussions/3293">here</a> on the CommandPost GitHub Discussions):</p>
+<pre><code class="language-lua">-- Get a the Source Folder Path:
+local lastSourceFolder = cp.config.get(&quot;tagCopier.LastSourceFolder&quot;, &quot;&quot;)
+local sourceFolder = hs.dialog.chooseFileOrFolder(&quot;Source Folder:&quot;, lastSourceFolder, false, true, false)
+local sourceFolderPath = sourceFolder and sourceFolder[&quot;1&quot;]
+if not sourceFolderPath then return end
+cp.config.set(&quot;tagCopier.LastSourceFolder&quot;, sourceFolderPath)
+
+-- Get a the Destination Folder Path:
+local lastDestinationFolder = cp.config.get(&quot;tagCopier.LastDestinationFolder&quot;, &quot;&quot;)
+local destinationFolder = hs.dialog.chooseFileOrFolder(&quot;Destination Folder:&quot;, lastDestinationFolder, false, true, false)
+local destinationFolderPath = destinationFolder and destinationFolder[&quot;1&quot;]
+if not destinationFolderPath then return end
+cp.config.set(&quot;tagCopier.LastDestinationFolder&quot;, destinationFolderPath)
+
+-- Get a table of Source Files:
+local sourceFiles = cp.tools.dirFiles(sourceFolderPath)
+if not sourceFiles then
+    hs.dialog.blockAlert(&quot;Tag Copier Cancellled&quot;, &quot;No source files could be detected.&quot;, &quot;Cancel&quot;)
+    return
+end
+
+-- Get a table of Destination Files:
+local destinationFiles = cp.tools.dirFiles(destinationFolderPath)
+if not destinationFiles then
+    hs.dialog.blockAlert(&quot;Tag Copier Cancellled&quot;, &quot;No destination files could be detected.&quot;, &quot;Cancel&quot;)
+    return
+end
+
+-- We'll store our Source File Tags in here:
+local sourceTags = {}
+
+-- Save all our Source File Tags for future reference:
+for _, filename in pairs(sourceFiles) do
+    if filename ~= &quot;.&quot; and filename ~= &quot;..&quot; then
+        local currentFile = sourceFolderPath .. &quot;/&quot; .. filename
+        local currentTags = hs.fs.tagsGet(currentFile)
+        if currentTags then
+            sourceTags[filename] = currentTags
+        end
+    end
+end
+
+-- Count how many files we apply Tags too:
+local fileCount = 0
+
+-- Apply our Source File Tags to any matching Destination Files:
+for _, filename in pairs(destinationFiles) do
+    if filename ~= &quot;.&quot; and filename ~= &quot;..&quot; then
+        local currentFile = destinationFolderPath .. &quot;/&quot; .. filename
+        local currentTags = sourceTags[filename]
+        if currentTags and type(currentTags) == &quot;table&quot; then
+            hs.fs.tagsSet(currentFile, currentTags)
+            fileCount = fileCount + 1
+        end
+    end
+end
+
+-- Show Competition Alert:
+hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied to &quot; .. fileCount .. &quot; files.&quot;, &quot;OK&quot;)
+</code></pre>
+<p>You can literally just paste this into the CommandPost Debug Console, and away you go!</p>
+<p><img src="/static/commandpost-debug-console.png" alt=""></p>
+<p>You can learn more about CommandPost's Lua Scripting <a href="https://commandpost.io/developer/introduction/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-december-2023</link>
+            <guid isPermaLink="false">12th December 2023</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th December 2023]]></title>
+            <description><![CDATA[<p><strong>Alex Raccuglia</strong> is the genius behind <a href="https://ulti.media">Ulti.Media</a>, based in Italy. He's a commercial director and software developer.</p>
+<p>If you haven't already, you can read his INCREDIBLE Developers Case Study about Transcriber on FCP Cafe <a href="https://fcp.cafe/developer-case-studies/transcriber/">here</a>.</p>
+<p><em>Whilst you're there, you should also read <a href="https://fcp.cafe/developer-case-studies/fcpxml/">Demystifying Final Cut Pro XMLs</a> by Philip Hodgetts &amp; Dr Gregory Clarke from <a href="https://intelligentassistance.com/">Intelligent Assistance</a>.</em></p>
+<p>Alex makes some incredible tools such as:</p>
+<ul>
+<li><a href="https://ulti.media/transcriber/">Transcriber</a></li>
+<li><a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a></li>
+<li><a href="https://ulti.media/fcp-diet-2/">FCP Diet 2</a></li>
+<li><a href="https://ulti.media/converter/">Ulti.Media Converter 2</a></li>
+<li><a href="https://ulti.media/fcp-video-tag-automatic-keyword-generator-for-final-cut-pro/">FCP Video Tag</a></li>
+<li><a href="https://ulti.media/fcpx-cut-finder/">FCP Cut Finder</a></li>
+<li><a href="https://ulti.media/fcp-srt-importer-2/">FCP SRT Importer 2</a></li>
+<li><a href="https://ulti.media/fcpxautoduck/">FCPX AutoDuck</a></li>
+<li><a href="https://ulti.media/subtitles-extractor/">Subtitles Extractor</a></li>
+<li><a href="https://ulti.media/smart-video-splitter-for-instagram-facebook-whatsapp-and-snapchat-stories/">Smart Video Splitter</a></li>
+<li><a href="https://ulti.media/cleanterview/">Cleanterview</a></li>
+<li><em><a href="https://ulti.media">...and many more audio, After Effects, podcasting and utilities!</a></em></li>
+</ul>
+<p>If you haven't already subscribed, Alex has been doing an super fun and entertain YouTube series, called <strong>The Morning Rant</strong>.</p>
+<p>You can find all the previous episodes on his YouTube Channel <a href="https://www.youtube.com/@ulti_media/videos">here</a>.</p>
+<p>He recently just posted this great rant:</p>
+<p><a href="https://www.youtube.com/watch?v=8JTwOcQUtJA"><img src="/static/the-morning-rant.jpeg" alt=""></a></p>
+<p>The YouTube description says:</p>
+<blockquote>
+<p>The main focus of the video is on my exploration of integrating automatic ducking into Final Cut Pro. I reflect on my past app, FCPX AutoDuck, and express the desire to enhance its functionality by making it work within Final Cut Pro. I detail the complexities of the task, involving parsing FCP XML and dealing with intricate timelines, nested timelines, and various editing techniques. I acknowledge the difficulty of achieving automatic ducking within Final Cut Pro, emphasizing the absence of this feature even in the latest versions.</p>
+<p>I highlight my commitment to this project as a side venture while prioritizing the release of FCP Pause Cutter in 2024. Despite the challenges and doubts, I share my progress on Twitter, showcasing a potential icon for the app. I express skepticism about the feasibility of creating a seamless and efficient automatic ducking feature but remain dedicated to personal research in this area.</p>
+<p>The video concludes with a mention of a pre-production meeting in Milan and my reluctance to take on low-budget, demanding projects. I express concerns about the future of Final Cut Pro, hinting at a possible decline.</p>
+</blockquote>
+<p>Here's a full transcript of the video, created using <a href="https://ulti.media/transcriber/">Transcriber</a> (so if there's any typos - Alex can only blame himself, haha):</p>
+<blockquote>
+<p>Hi there, welcome to the morning rant.</p>
+<p>I know that I treat this show as a podcast because you know this should be a YouTube show but I talked to this strange camera on my car as I will talk to a microphone to a simple microphone doing a podcast and that's a problem because this is not a podcast but I treat it as a podcast because I'm a podcaster since 2011 and so after something like more than a thousand episodes I recorded sometimes even longer than one hour so this is my comfort zone.</p>
+<p>A podcast is my comfort zone.</p>
+<p>Doing video is something like I do to force myself to look into a camera and try to do something not so ugly.</p>
+<p>So today I want to talk about what happened yesterday and because it can be interesting for everybody who's trying to understand why something happens and something doesn't happen in the realm of a Final Cut Pro.</p>
+<p>Okay so yesterday was a very strange day because the night before yesterday I couldn't sleep because my son had a little problem trying to sleep and so it was a blank night.</p>
+<p>I don't know how to translate this into English but me and my wife didn't sleep almost anything and yesterday was a strange day because I couldn't go to the office.</p>
+<p>I took one day off because you have to do a lot of things related to my son.</p>
+<p>We had to do vaccination, having a meeting with the teachers of the kindergarten.</p>
+<p>So doing a lot of stuff and I didn't have much time to focus on anything.</p>
+<p>I spent something like one hour in the office with my wife in my wife's office trying to produce something but I couldn't focus on anything and so I started doing a little research and considered that I spent one hour but it was segmented in maybe three parts because twice we had to go to the bar and take some coffee.</p>
+<p>In Italy, Espresso is something like a religion and we like coffee.</p>
+<p>I like coffee and then we took a lot of coffee yesterday because we needed to stay awake.</p>
+<p>I tried to do some research because I created many apps that communicate with Final Cut Pro in the sense of passing data to Final Cut Pro.</p>
+<p>You know, you prepare something into my apps and then the apps prepare something and send the data to Final Cut Pro and then you can finish the work on Final Cut Pro.</p>
+<p>So the workflow works on my app and then after computation, decision making and something like this, the final work can be done, should be done and must be done in Final Cut Pro.</p>
+<p>There are a lot of apps that work inside of Final Cut Pro or using Final Cut Pro data and so they can take data from Final Cut Pro, computate them and then send them back to Final Cut.</p>
+<p>Okay, there are a lot of stuff like this.</p>
+<p>I think that Bitmark Pro can work like this.</p>
+<p>Choose one music, you choose a lot of clips and then you can send all the stuff to Bitmark Pro to create a new timeline with the beats in sync with the music and then edit it in sync with the music and send the final result back to Final Cut Pro.</p>
+<p>Now Bitmark works all in one direction.</p>
+<p>You create all the documents, you load the music, you load the assets into Bitmark Pro and then Bitmark Pro creates this timeline and then it sends it to Final Cut Pro.</p>
+<p>And I say to myself it would be nice to understand, to learn how to send data from Final Cut Pro to my app, to my apps and then send them back.</p>
+<p>And so I started doing a little research.</p>
+<p>Everything started because I needed to do an automatic docking.</p>
+<p>My first app was FCPX AutoDock.</p>
+<p>It does automatic docking outside Final Cut Pro because you load the speaker track and then the audio, the music track and then it produces a new timeline with the audio, with the music track, with keyframes that lower the music and raise it up to make automatic docking.</p>
+<p>So when there's someone speaking or talking, the music goes down and then after the speech, after the talking, the music returns up in a very elegant and seamless way.</p>
+<p>It's not an automatic docking that works in one direction because it goes backwards.</p>
+<p>It analyzes the clusters of the talking and then starts lowering the music before the talking.</p>
+<p>It's something like it goes backward in time.</p>
+<p>It can do this because it works on files and not in real time.</p>
+<p>And I needed to do something like this and then I said to myself &quot;Ok, this is an app that is out since 2017.</p>
+<p>I don't know.</p>
+<p>It's one of my first apps I ever developed.</p>
+<p>The interface is old, maybe ugly.</p>
+<p>It works.</p>
+<p>It still sells today because it's useful.</p>
+<p>But it will be super, super, super, super, super, super, super useful if it can work inside Final Cut Pro, take in a timeline with many dialogues, stuff and many musics and then do automatic docking on the complete timeline.</p>
+<p>And I said to myself &quot;Ok, let's try to research this as a side-side project because I'm very focused to put out on the market FCP Postcutter that will be my super big app of the 2024 because it's a super big app.</p>
+<p>It's super powerful.</p>
+<p>But I said to myself &quot;Ok, let's do this some kind of side-side project while I'm working in the office of my wife.&quot; Doing this kind of stuff is hard.</p>
+<p>It's very, very hard.</p>
+<p>I tried to understand if there's some library, some framework on GitHub to parse the FCP XML because Final Cut Pro communicates with other apps via an XML.</p>
+<p>A subset of an XML or an extension of XML, that is FCP XML.</p>
+<p>Something like a complete and total description of what happens in the timeline, in the event, in the library.</p>
+<p>Almost everything that you can think about can be described in this XML.</p>
+<p>It's a very huge and complex file.</p>
+<p>It's something like an old kind of file because today everything is done by a JSON.</p>
+<p>But once, a lot of time ago, before the introduction of JSON, we used XML.</p>
+<p>It's beautiful that today we have JSON because XML is a pain in the I know what and you know what.</p>
+<p>So I start trying to understand if there's someone who developed something like a parser for doing this.</p>
+<p>And then I said to myself, &quot;This thing is very complicated.&quot; Because think about a simple timeline, okay? You have a lot of dialogue.</p>
+<p>You're doing something like an interview and then you have 10, 20, 50 little clips or segments of dialogue.</p>
+<p>And then you have a background music.</p>
+<p>So the music starts and then after 10 seconds of music, after the introduction, you have the first dialogue.</p>
+<p>And then the music should go down and then should go up and that should go down to not interfere with the dialogue.</p>
+<p>Then the dialogue finishes and then the music goes on for other 10 seconds.</p>
+<p>The music goes up and then it fades out.</p>
+<p>This is a very simple timeline.</p>
+<p>To produce something like an automatic dacking, you have to do tons of stuff.</p>
+<p>You have to recreate inside your app.</p>
+<p>Inside my app I have to recreate the structure of the timeline with all the segments because you don't take a full clip without an in point or an out point.</p>
+<p>You have to take dozens, hundreds of segments, shift them in time, understand if there's dialogue in this segment and then doing the same for the music or the musics, parsing what is dialogue and what is music but this can be done by other roles.</p>
+<p>And then recreate a very complex structure of dialogues, segments of dialogues and music segments of music to produce this unique dialogue segment and a unique music segment, add keyframes and then send it back to Final Cut Pro.</p>
+<p>It's not complex, it's almost impossible.</p>
+<p>It's very, very hard and that's the reason nobody ever done an automatic dacking inside Final Cut Pro because it's hard.</p>
+<p>And this is one of the easiest way of having a timeline.</p>
+<p>What if you have a nested timeline, some compounds, secondary storylines, compounds with compounds of compounds, synchronized clip or if you do fade in and fade out of the music, crossfades.</p>
+<p>There's a ton, a ton, a super ton of way of doing a single simple timeline, a common timeline, a normal timeline that you will do in your project.</p>
+<p>And doing an automatic dacking for this is... it's a pain in the ass.</p>
+<p>I don't know how to do this.</p>
+<p>I'm trying to do this as a personal research, to do dacking with maybe one or two, let's keep it simple, one or two musics and a bunch of clips in the main timeline without compounds, without synchronized clips or without multicam.</p>
+<p>Trying to understand if this is feasible as a personal research.</p>
+<p>Yesterday I put on Twitter &quot;okay I'm researching this kind of stuff with a version 2 of FCP Autodack&quot; and I showed the ideal icon of the app, an icon that I developed for an episode of my podcast, TechnoPills.</p>
+<p>It's in Italian, sorry for everybody who doesn't understand Italian.</p>
+<p>And because I developed an autodacking feature for my app Ultimedia Converter and it works, it's cool, it's powerful, it's... yeah! Using artificial intelligence Firefly by Adobe I created this icon with a dack with a lot of speakers and it's beautiful.</p>
+<p>And so I said to myself if I'll ever do an automatic dack, a version 2 of autodacking, I will use this as an icon.</p>
+<p>So I think this is a some kind of a joke because I'm quite sure that I will never do an app that can do this in a seamless way, in an efficient way, in some way, because it's too hard to produce an automatic dacking.</p>
+<p>Think about it, even Apple didn't do an automatic dacking for Final Cut Pro because there's so much you have to understand, to learn, to figure out.</p>
+<p>It's almost impossible.</p>
+<p>But they should do this.</p>
+<p>I expect this is an upcoming version of Final Cut Pro but I'm working with an automatic dacking feature since 10.4 and now we have 10.7.</p>
+<p>A huge improvement with the scrolling timeline for you! And no automatic dacking.</p>
+<p>I don't know, sometimes I think that FCP is a die-hard platform but I keep it to myself because I base all my business on Final Cut Pro.</p>
+<p>Well, I think that's all for today.</p>
+<p>Now I have to run in the rain in my car towards Milan because I have a pre-production meeting for a very very very super strong low-budget product production that I don't want to do.</p>
+<p>And I said to myself, you know, never accept this kind of works anymore because working with so little margins and with clients is so demanding, with an arrogant way.</p>
+<p>It's something that hurts my stomach and then I need a lot of malox to survive.</p>
+<p>Ok, that's it, now I run to this meeting and cross your finger for me and I'll keep you updated with the things that I will discover in my research trying to understand how Final Cut Pro thinks using XML.</p>
+<p>It's 2023 and everybody should not use XML anymore.</p>
+<p>That's all for today and as always I say... Ciao! Oh, remember to comment this video, like this video, subscribe to the channel, blah blah blah, all the stuff that all the good YouTubers do.</p>
+<p>I don't do this because I'm not a YouTuber, I'm a podcaster.</p>
+<p>This is just a video podcast.</p>
+<p>I know that it will be more, more, more interesting doing this as an audiophile but you know what, I'm trying to experiment.</p>
+<p>Ciao!</p>
+</blockquote>
+<p>It's a great video, and it's inspired me to reply in more depth, here at FCP Cafe...</p>
+<p>I absolutely love all of Alex's tool - I have personally bought them all, and use them all the time - especially <a href="https://ulti.media/transcriber/">Transcriber</a>, <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> and <a href="https://ulti.media/fcp-srt-importer-2/">FCP SRT Importer 2</a>.</p>
+<p>However, one complaint I've always had is that Alex's tools don't use <strong>Workflow Extensions</strong>.</p>
+<p>A Final Cut Pro Workflow Extension is a feature in Apple's Final Cut Pro that allows <strong>third-party developers</strong> to integrate their tools and services directly into the Final Cut Pro interface, enhancing the functionality and efficiency of the editing process.</p>
+<p>They provide <strong>seamless integration</strong> as they appear as panels within the Final Cut Pro interface. This means editors can use third-party tools and services without leaving Final Cut Pro, maintaining a smooth and uninterrupted editing workflow. Their window position also gets saved in any saved Workspaces.</p>
+<p>There is a diverse range of applications, and can vary widely in function, including tools for media asset management, stock footage libraries, music services, transcription services, and more. This variety allows editors to tailor their workflow according to their specific needs.</p>
+<p>You can find Workflow Extensions on the <a href="https://apps.apple.com/au/story/id1439356777">Mac App Store</a>, but they can also be released outside of the Mac App Store.</p>
+<p>FCP Cafe keeps track of all the available Workflow Extensions <a href="https://fcp.cafe/ecosystem/workflowextensions/">here</a>.</p>
+<p>By having these additional tools integrated directly into the editing environment, editors can save time and effort. Tasks like searching for media, managing files, or transcribing audio can be done quickly and efficiently within Final Cut Pro.</p>
+<p>I personally have a LOT of Workflow Extensions installed:</p>
+<p><img src="/static/workflow-extensions.jpeg" alt=""></p>
+<p>From a developers perspective, a Workflow Extension is basically just a <strong>custom view</strong> that you can put whatever you like inside it.</p>
+<p>When you drag something from the Final Cut Pro Browser to any text box (i.e. TextEdit), what it's actually dragging is FCPXML data (try it yourself to see).</p>
+<p>Because of this, you can easily drag objects from the Final Cut Pro Browser to your Workflow Extension, and vice versa.</p>
+<p>For example, in <a href="https://markertoolbox.io">Marker Toolbox</a> you can drag your markers from the Workflow Extension back into your Final Cut Pro timeline as a Compound Clip (drag the green icon):</p>
+<p><img src="/static/marker-toolbox-workflow-extension.png" alt=""></p>
+<p>In <a href="https://brawtoolbox.io">BRAW Toolbox</a> once you've imported all your BRAW footage, you can drag an <strong>Event</strong> from the Workflow Extension back into your <strong>Library</strong>:</p>
+<p><img src="/static/braw-toolbox-workflow-extension.png" alt=""></p>
+<p>You can also drag <strong>Libraries</strong>, <strong>Events</strong> and <strong>Projects</strong> back into the Workflow Extension via the Toolbox at the bottom of the user interface, for doing things like exporting a FCPXML for DaVinci Resolve.</p>
+<p>You can also trigger a limited number of things via the Workflow Extension API.</p>
+<p>For example:</p>
+<ul>
+<li><a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions/interacting_with_the_final_cut_pro_timeline#3530647">Observe Changes in the Final Cut Pro Timeline</a></li>
+<li><a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions/interacting_with_the_final_cut_pro_timeline#3530640">Move the Playhead Position</a></li>
+</ul>
+<p>We use this API to allow CommandPost to programatically move the playhead via the CommandPost Workflow Extension:</p>
+<p><img src="/static/commandpost-workflow-extension.png" alt=""></p>
+<p>This Workflow Extension is super simple - it's just in Objective-C, and uses web-sockets to communicate back and forth between the Workflow Extension and CommandPost.</p>
+<p>You can check out the source code on GitHub <a href="https://github.com/CommandPost/CommandPost-App/tree/master/CommandPost%20Workflow%20Extension">here</a>.</p>
+<p>Controlling the playhead via the API is a lot smoother and reliable than pressing virtual shortcut keys, or triggering menubar items.</p>
+<p>But aside from that - that's really all Workflow Extensions can do. They're just a dumb window that a developer can control essentially.</p>
+<p>In fact, we decided NOT to use a Workflow Extension for the CommandPost HUD - because there was really no advantage:</p>
+<p><img src="/static/commandpost-hud.png" alt=""></p>
+<p>However, jumping back to Alex's video - I'd LOVE for <a href="https://ulti.media/transcriber/">Transcriber</a> and <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> to be quickly accessible from directly within Final Cut Pro.</p>
+<p>I'd love to be able to just drag in an music track from the <strong>Browser</strong> into a Workflow Extension, do the processing, then drag the clip back into my timeline with markers added.</p>
+<p>This is all possible, and somewhat easy to do.</p>
+<p>You can learn more about Workflow Extensions on FCP Cafe <a href="https://fcp.cafe/developers/workflowextensions/">here</a>.</p>
+<p>But Workflow Extensions are only one technology that third party Final Cut Pro developers get access to...</p>
+<p>There's also <strong>Custom Share Destinations</strong>, which is something I've been digging into deeply recently, to help out Vigneswaran Rajkumar for his exciting upcoming app, <a href="https://twitter.com/IAmVigneswaran/status/1723873174956171668">Marker Data</a>.</p>
+<p>Sadly, Custom Share Destinations are terribly documented.</p>
+<p>Essentially they're a way to &quot;trigger&quot; external apps once a render/export is complete - for example, this shows how <strong>Xsend Motion</strong> is triggered:</p>
+<p><img src="/static/xsend-motion.png" alt=""></p>
+<p>Final Cut Pro sends Apple Events to the third party application - and there's back and forth communication between Final Cut Pro and the third party app.</p>
+<p>Thankfully, I happened to have a very old Apple sample project saved in my backups that demonstrates how this works - which has since sadly disappeared from the Internet.</p>
+<p>I've uploaded the Objective-C example <a href="https://github.com/latenitefilms/ShareDestinationKit/tree/main/Examples/SimpleAssetManagerSample">here</a>.</p>
+<p>I've also started attempting to port this example to a more modern Swift - but it's early days. You can track my progress <a href="https://github.com/latenitefilms/ShareDestinationKit">here</a>.</p>
+<p>You can learn more about Custom Share Destinations on FCP Cafe <a href="https://fcp.cafe/developers/customsharedestination/">here</a>.</p>
+<p>And last, but not least, we have <strong>FxPlug</strong>.</p>
+<p>FxPlug is a powerful plugin architecture designed by Apple, specifically tailored for Final Cut Pro and Motion.</p>
+<p>At its core, FxPlug enables third-party developers to create advanced effects, such as custom filters, transitions, and generators, expanding the capabilities of Final Cut Pro beyond its native features.</p>
+<p>One of the key advantages of FxPlug is its support for high-bit-depth rendering, ensuring that the effects and transitions maintain the highest image quality without degradation. This is particularly important for professionals who require precision and high fidelity in their video projects. Additionally, FxPlug offers real-time performance, a crucial aspect for efficient workflow, allowing editors and motion graphic designers to preview effects without the need for time-consuming rendering.</p>
+<p>Another significant aspect of FxPlug is its compatibility with Apple's Metal framework. This integration leverages the full power of modern Mac hardware, delivering accelerated performance and smoother playback, even with complex effects and high-resolution footage. The use of Metal also means that FxPlug plugins can harness the capabilities of the latest graphic processors, further enhancing the efficiency and speed of video editing tasks.</p>
+<p>It provides a wide range of customizable parameters for each plugin, giving users complete control over the look and feel of the effects. This level of customization allows for greater creative freedom, enabling editors to achieve unique visual styles tailored to their specific project needs.</p>
+<p>FxPlug is a robust and versatile plugin architecture that significantly enhances the capabilities of Final Cut Pro and Motion. Its support for high-bit-depth rendering, real-time performance, integration with Apple's Metal, and customizable options make it an essential tool for video editing professionals seeking to create high-quality, creative, and visually stunning projects.</p>
+<p>Essentially though... FxPlug is basically just <strong>Filters</strong> &amp; <strong>Generators</strong> for Apple Motion:</p>
+<p><img src="/static/motion-filters-and-generators.jpeg" alt=""></p>
+<p>You can't <strong>directly</strong> use a FxPlug in Final Cut Pro - you need to make an Apple Motion template that uses it.</p>
+<p><a href="https://brawtoolbox.io">BRAW Toolbox</a> and <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> both use FxPlug under the hood.</p>
+<p>Here's a look at the BRAW Toolbox Motion Template:</p>
+<p><img src="/static/braw-toolbox-motion.png" alt=""></p>
+<p>Here's a look at the Gyroflow Toolbox Motion Template:</p>
+<p><img src="/static/gyroflow-toolbox-motion.png" alt=""></p>
+<p>Gyroflow Toolbox is open source, so you can view the source code on GitHub <a href="https://github.com/latenitefilms/GyroflowToolbox/tree/main/Source">here</a>.</p>
+<p>FxPlug is fairly flexible in that you can add your own custom parameters, and basically do whatever you want to the image.</p>
+<p>I'm currently building a new app called <strong>Metaburner Pro</strong> which is using FxPlug on Swift:</p>
+<p><img src="/static/metaburner-pro.png" alt=""></p>
+<p>You can learn more about FxPlug over at FCP Cafe <a href="https://fcp.cafe/developers/fxplug/">here</a>.</p>
+<p>You can find a list of third party Motion Templates (some of which use FxPlug) <a href="https://fcp.cafe/ecosystem/motiontemplates/">here</a>.</p>
+<p>Ok, so you have <strong>Workflow Extensions</strong>, <strong>Custom Share Destinations</strong>, <strong>FCPXML</strong> and <strong>FxPlug</strong>.</p>
+<p>There are third party frameworks for dealing with FCPXML too...</p>
+<p><strong>Pipeline Neo</strong> is a Swift framework for working with FCPXML files easily.</p>
+<p>Originally developed by Reuel Kim and it is no longer maintained. Pipeline Neo was created as a spin-off project to fix and update the library when necessary.</p>
+<p>You can learn more <a href="https://github.com/TheAcharya/pipeline-neo">here</a>. I've personally never really used it.</p>
+<p>There's also <strong>DAWFileKit</strong> - a Swift library for reading and writing common import/export file formats between popular DAW and video editing applications with the ability to convert between formats.</p>
+<p>DAWFileKit is made by <a href="https://github.com/orchetect">Steffan Andrews</a>, who is an absolute genius.</p>
+<p>I've never personally used DAWFileKit, but I intend to play soon.</p>
+<p>You can learn more <a href="https://github.com/orchetect/DAWFileKit">here</a>.</p>
+<p>You also have <strong>Audio Units</strong> - which are basically system wide audio plugins that work in ProTools, Adobe Audition, Logic Pro, etc. You can use Audio Units on both Mac and iPad/iOS, which is interesting.</p>
+<p>I've never personally played too much with Audio Units, as it's a GIANT rabbit hole, as you can see from the <a href="https://developer.apple.com/documentation/audiounit/">documentation</a>.</p>
+<p>Finally going back to Alex's video...</p>
+<p>I totally think that <a href="https://ulti.media/transcriber/">Transcriber</a> and <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> could easily be ported to a Workflow Extension and improved to make it simpler and easier for Final Cut Pro editors.</p>
+<p>But I totally agree with Alex in that <a href="https://developer.apple.com/documentation/coremedia/cmtime-u58">CMTime</a> is really hard and FCPXML can get insanely confusing. HUGE props to Dr Gregory Clarke for all the INSANE work he does with FCPXML - again, another absolute genius.</p>
+<p>Hope this extended &quot;rant&quot; is useful! Any questions, please leave them in the Discussion below. Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-december-2023</link>
+            <guid isPermaLink="false">12th December 2023</guid>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
