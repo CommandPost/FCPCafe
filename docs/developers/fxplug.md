@@ -22,6 +22,16 @@ It's also worth looking at [FxKit](https://github.com/jslinker/FxKit) for inspir
 
 ---
 
+### FxPlug Crashes
+
+Final Cut Pro will automatically restart any FxPlug that crashes.
+
+However, if a plugin crashes **3 times within 30 seconds**, Final Cut Pro will stop using that plugin all together and display a "Plugin has stopped responding" message.
+
+You can find crash logs in the usual `~/Library/Logs/DiagnosticReports` folder.
+
+---
+
 ## Wish List
 
 Here is a collection of things we'd LOVE to see Apple address in FxPlug:
