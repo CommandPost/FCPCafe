@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
 - [Dragging files in the Browser window to a Keyword Collection incorrectly switches projects (December 10, 2023)](https://github.com/CommandPost/FCPCafe/issues/302)
 - [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
 - [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
@@ -27,4 +28,3 @@
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225)
-- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)

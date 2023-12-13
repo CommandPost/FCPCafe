@@ -1,3 +1,4 @@
+- [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
 - [Dragging files in the Browser window to a Keyword Collection incorrectly switches projects (December 10, 2023)](https://github.com/CommandPost/FCPCafe/issues/302)
 - [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
 - [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
@@ -27,4 +28,3 @@
 - [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
 - [Some 4K H264 10bit 422 Footage is blurry when paused on M1 Ultra Mac Studios (July 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/220)
 - [Custom Export Destinations missing after update (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/219)
-- [Final Cut Pro ignores Opacity of 0% in Motion Template (July 20, 2023)](https://github.com/CommandPost/FCPCafe/issues/217)
