@@ -4,9 +4,23 @@
 
 ---
 
+{{ include "workflow-extensions/apm-music" }}
+
+---
+
+{{ include "workflow-extensions/audio-design-desk" }}
+
+---
+
 ## B
 
 {{ include "workflow-extensions/braw-toolbox" }}
+
+---
+
+## C
+
+{{ include "workflow-extensions/catdv" }}
 
 ---
 
@@ -36,6 +50,12 @@
 
 ---
 
+## K
+
+{{ include "workflow-extensions/keyflow-pro" }}
+
+---
+
 ## M
 
 {{ include "workflow-extensions/marker-toolbox" }}
@@ -52,6 +72,14 @@
 
 ---
 
+{{ include "workflow-extensions/postlab-merge" }}
+
+---
+
+{{ include "workflow-extensions/primestream" }}
+
+---
+
 ## R
 
 {{ include "workflow-extensions/reading-is-fundamental" }}
@@ -62,7 +90,15 @@
 
 ---
 
+{{ include "workflow-extensions/ripple-training" }}
+
+---
+
 ## S
+
+{{ include "workflow-extensions/evo-sharebrowser" }}
+
+---
 
 {{ include "workflow-extensions/shutterstock" }}
 
