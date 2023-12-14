@@ -1,6 +1,6 @@
 ## Pro Editor Bundle
 
-For only **USD$100**, you can now buy [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io), [Marker Toolbox](https://markertoolbox.io), [Recall Toolbox](https://recalltoolbox.io) & [Fast Collections](https://fastcollections.io) as a bundle!
+For only **USD$100** (save USD$49.95!), you can now buy [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io), [Marker Toolbox](https://markertoolbox.io), [Recall Toolbox](https://recalltoolbox.io) & [Fast Collections](https://fastcollections.io) as a bundle!
 
 The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
 
