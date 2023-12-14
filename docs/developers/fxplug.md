@@ -32,6 +32,32 @@ You can find crash logs in the usual `~/Library/Logs/DiagnosticReports` folder.
 
 ---
 
+### Terminal Commands
+
+You can use the `pluginkit` Terminal command to check for FxPlug's.
+
+To list all your FxPlug's by bundle identifier use:
+
+```
+pluginkit -m -p FxPlug
+```
+
+You can combine with `grep` to easily check if a plugin is installed:
+
+```
+pluginkit -m -p FxPlug | grep "BRAWToolbox"
+```
+
+If you need more information about a plugin:
+
+```
+pluginkit -mv -p FxPlug | grep "BRAWToolbox"
+```
+
+You can learn more about `pluginkit` [here](https://www.unix.com/man-page/osx/8/pluginkit).
+
+---
+
 ## Wish List
 
 Here is a collection of things we'd LOVE to see Apple address in FxPlug:
