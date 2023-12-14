@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 14 Dec 2023 18:13:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 18:34:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Dec 2023 18:13:32 GMT</pubDate>
+        <pubDate>Thu, 14 Dec 2023 18:34:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3869,6 +3869,30 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
             <link>https://fcp.cafe/#12th-december-2023</link>
             <guid isPermaLink="false">12th December 2023</guid>
             <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th December 2023]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates</strong> - aka <strong>The Final Cut Bro</strong> - now has <strong>50K subscribers</strong> on YouTube!</p>
+<p>On <strong>Friday 15th December @ 1100 PST</strong> he will be doing a giveaway with over <strong>USD$9,000</strong> worth of products and services!</p>
+<p>Make sure you like and subscribe over at YouTube <a href="https://twitter.com/thefinalcutbro">here</a>.</p>
+<p><img src="/static/dylan-50k.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#15th-december-2023</link>
+            <guid isPermaLink="false">15th December 2023</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th December 2023]]></title>
+            <description><![CDATA[<p><strong>Color Finale v2.7.3</strong> is out now!</p>
+<p>The release notes simply say:</p>
+<blockquote>
+<p>Updated to the Latest FxPlug4 SDK for FCP 10.7</p>
+</blockquote>
+<p>You can learn more <a href="https://colorfinale.com/#download">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-december-2023</link>
+            <guid isPermaLink="false">15th December 2023</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
