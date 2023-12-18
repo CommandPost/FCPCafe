@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 16 Dec 2023 22:09:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Dec 2023 10:28:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 16 Dec 2023 22:09:06 GMT</pubDate>
+        <pubDate>Mon, 18 Dec 2023 10:28:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3949,6 +3949,32 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
             <link>https://fcp.cafe/#16th-december-2023</link>
             <guid isPermaLink="false">16th December 2023</guid>
             <pubDate>Sat, 16 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th December 2023]]></title>
+            <description><![CDATA[<p><strong>Metaburner Pro</strong> is now up on Apple's TestFlight for early <strong>alpha testing</strong>!</p>
+<p>It's an advanced Metadata Generator for Final Cut Pro. You can access it via a <strong>Title</strong> in the Titles sidebar.</p>
+<p>It gives you <strong>25 text layers</strong> that you can populate with whatever metadata you want. You can full control over the text formatting.</p>
+<p>You can even stack multiple Metaburner Pro Titles on top of each other for UNLIMITED titles!</p>
+<p>You can import your Final Cut Pro project/timeline back into the Metaburner Pro Title via a drop zone, so Metaburner Pro has full access to everything that's in the FCPXML.</p>
+<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
+<p><img src="/static/metaburner-pro-screenshot.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#18th-december-2023</link>
+            <guid isPermaLink="false">18th December 2023</guid>
+            <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th December 2023]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.1.9</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for the Transcript player loading and playing certain types of multicam clips</li>
+</ul>
+<p>You can download the latest version on the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-december-2023</link>
+            <guid isPermaLink="false">18th December 2023</guid>
+            <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
