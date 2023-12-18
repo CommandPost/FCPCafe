@@ -1,7 +1,7 @@
+- [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
-- [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [MKV import support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/292)
 - [Import and export support for VP8 and VP9 (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/291)
 - [AV1 import and export support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/290)
