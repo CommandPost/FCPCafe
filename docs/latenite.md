@@ -1,1 +1,1 @@
-{{ include "latenite/latenite-technology" }}
+{{ include "latenite/explore-latenites-tools" }}

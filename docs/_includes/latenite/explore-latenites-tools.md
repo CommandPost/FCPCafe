@@ -48,19 +48,21 @@ Here's some of our free tools used by professional editors worldwide:
 
 ---
 
-### Rename Avid MXF Files
+{{ include "latenite/rename-avid-mxf-files" }}
 
-This simple Python script is used to rename MXF files generated from Avid Media Composer to match the **Package Name** in their metadata.
+---
 
-The script can process a **single file** or a **folder** containing multiple MXF files.
+## TestFlight
 
-This is useful if you want to move native Avid MXF files from Avid Media Composer to Final Cut Pro.
+Here's some of our apps currently on TestFlight prior to final release on the Mac App Store:
 
-This script is very basic, and doesn't contain any special error handling or messaging. It may not work in all use cases.
+---
 
-You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
+{{ include "latenite/metaburner-pro" }}
 
-You can learn more [here](https://github.com/CommandPost/RenameAvidMXFFiles).
+---
+
+{{ include "latenite/capacitor-pro" }}
 
 ---
 
@@ -84,15 +86,19 @@ Here's a **sneak peak** of some of the things we have in development:
 
 ---
 
-### Metaburner Toolbox
+### Library Duplicator
 
-**Metaburner Toolbox** is an Final Cut Pro adjustment layer that allows you to "burn" metadata information from the timeline over to top of your existing video.
+Ability to quickly create a shareable Final Cut Pro library, which also consolidates Motion Templates and Fonts.
 
-We hope it will have the same power and flexibility as DaVinci Resolve's Data Burn-in Tool:
+We hope to release this in early 2024.
 
-![](/static/resolve-data-burn-in.jpg)
+---
 
-This project has been started and we hope to release in early 2024.
+### FCP Preferences Cleaner
+
+Inspect and clean your Final Cut Pro Preferences, rather than "trashing" them.
+
+We hope to release this in early 2024.
 
 ---
 
@@ -106,7 +112,7 @@ Here's what the Toolbox currently looks like in CommandPost:
 
 ![](/static/sony-timecode-repair.png)
 
-This project has been started, but we have no ETA on competition.
+We hope to release this in early 2024.
 
 ---
 
@@ -115,6 +121,8 @@ This project has been started, but we have no ETA on competition.
 Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add **Nikon N-RAW** support to Final Cut Pro.
 
 This project is currently at the exploration and experiment stage.
+
+We hope to release this in mid-2024.
 
 ---
 
@@ -125,6 +133,8 @@ This project is currently at the exploration and experiment stage.
 We will also be spinning out the **Watch Folders** from CommandPost and moving them into this app.
 
 This project is currently at the exploration and experiment stage.
+
+We hope to release this before the end of 2024.
 
 ---
 
@@ -138,8 +148,10 @@ This project is currently at the exploration and experiment stage.
 
 Here's what the Toolbox's currently look like in CommandPost:
 
-![](/static/titles-to-keywords.png)T
+![](/static/titles-to-keywords.png)
 ![](/static/auto-sequence.png)
+
+We hope to release this before the end of 2024.
 
 ---
 
@@ -162,3 +174,5 @@ Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com)
 ![](/static/magic-toolbox.jpg)
 
 This project is currently at the exploration and experiment stage.
+
+We hope to release this before the end of 2024.

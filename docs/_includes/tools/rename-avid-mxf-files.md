@@ -1,0 +1,1 @@
+{{ include "latenite/rename-avid-mxf-files" }}
