@@ -28,6 +28,10 @@
 
 ---
 
+{{ include "tools/capacitor-pro" }}
+
+---
+
 {{ include "tools/caption-burner" }}
 
 ---
@@ -150,6 +154,10 @@
 
 ---
 
+{{ include "tools/metaburner-pro" }}
+
+---
+
 ## N
 
 {{ include "tools/neofinder" }}
@@ -195,6 +203,10 @@
 ## R
 
 {{ include "tools/reference-x" }}
+
+---
+
+{{ include "tools/rename-avid-mxf-files" }}
 
 ---
 
