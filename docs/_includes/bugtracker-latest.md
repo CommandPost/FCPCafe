@@ -1,3 +1,4 @@
+- [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)
 - [Crash when exporting a FCPXML via Menu and drag from Browser (December 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/307)
 - [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
 - [Dragging files in the Browser window to a Keyword Collection incorrectly switches projects (December 10, 2023)](https://github.com/CommandPost/FCPCafe/issues/302)
