@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 19 Dec 2023 08:57:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Dec 2023 09:33:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 Dec 2023 08:57:43 GMT</pubDate>
+        <pubDate>Tue, 19 Dec 2023 09:33:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3975,6 +3975,24 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
             <link>https://fcp.cafe/#18th-december-2023</link>
             <guid isPermaLink="false">18th December 2023</guid>
             <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th December 2023]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.7 (65)</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed white balance control for Panasonic GH5S and BGH1 Blackmagic RAW clips.</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated from Blackmagic RAW SDK <code>v3.6</code> to <code>v3.6.1</code>.</li>
+</ul>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-december-2023</link>
+            <guid isPermaLink="false">19th December 2023</guid>
+            <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
