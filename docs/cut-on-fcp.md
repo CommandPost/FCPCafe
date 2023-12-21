@@ -8,6 +8,12 @@ If there's something missing, [please let us know](/contribute/).
 
 ## Success Stories
 
+At the FCP Creative Summit in 2023, Apple announced that all their 180+ **WWDC Developer Videos** were cut in Final Cut Pro, along with the thousands of **Apple Fitness+ videos**.
+
+[Trim Editing](https://trimediting.com/) in London also uses Final Cut Pro for all its editors - they cut some of the top TVCs and music videos in the world. You can read more [here](/case-studies/periodsomnia/).
+
+Here's some other success stories:
+
 - Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://web.archive.org/web/20230321022427/https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards) - **_8,181,158,261 views on YouTube_**
 - Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
 - O Shaolin do Sertão (2016) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5786508/) - **_First Brazilian feature edited on Final Cut Pro X_**
