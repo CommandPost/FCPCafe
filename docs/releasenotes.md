@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.7.0            | 21/12/2023   | 21                   | 14.1.2        | 4.2.9          |
 | 10.7.0            | 30/11/2023   | 56                   | 14.1.2        | 4.2.9          |
 | 10.6.10           | 05/10/2023   | 16                   | 13.5.2        | 4.0            |
 | 10.6.9            | 19/09/2023   | 49                   | 13.5.2        | 4.0            |
@@ -83,7 +84,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2020	| 4       |
 | 2021	| 5       |
 | 2022	| 4       |
-| 2023	| 6       |
+| 2023	| 7       |
 
 {.compact}
 | Quarter |	Updates |
@@ -91,7 +92,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Q1	  | 8       |
 | Q2	  | 14      |
 | Q3	  | 12      |
-| Q4	  | 17      |
+| Q4	  | 18      |
 
 {.compact}
 | Month | Updates |
@@ -107,7 +108,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Sept	| 4       |
 | Oct	| 6       |
 | Nov	| 7       |
-| Dec	| 5       |
+| Dec	| 6       |
 
 ---
 
@@ -252,6 +253,15 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 10.7
+
+**Released December 21, 2023**
+
+- Improves stability on Intel-based Mac models when using Color Wheels or Color Curves on H.264 video clips.
+- Fixes an issue with some default keyboard shortcuts working incorrectly on non-English keyboards.
+
+---
 
 ### Final Cut Pro 10.7
 

@@ -18,6 +18,8 @@ If you're still on **Final Cut Pro 10.6.5** or earlier on **Intel** machines - j
 
 If you're currently on **Final Cut Pro 10.6.10**, you can safely upgrade to **Final Cut Pro 10.7**.
 
+If you're currently on **Final Cut Pro 10.7**, you can safely update to **Final Cut Pro 10.7.1**.
+
 If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma**.
 
 You can read full answers below...
@@ -48,6 +50,31 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 ---
 
+## Final Cut Pro 10.7.1
+
+**Final Cut Pro 10.7** was released on the Mac App Store on 30th November 2023.
+
+If you're currently using **Final Cut Pro 10.7** on macOS Ventura or Sonoma, there are currently no major reported issues that would prevent you from updating.
+
+However, there are some **bugs** that [we reported in the news feed](/news/20231202/), so if you're on an earlier version (such as Final Cut Pro 10.6.5), it may be wise to just stay there for now.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | Use Color Finale v2.7.3 or later                                                                        |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | Update to latest versions of plugins                                                                    |
+| Recall Toolbox           | No Known Issues                                                                                         |
+
+---
+
 ## Final Cut Pro 10.7
 
 **Final Cut Pro 10.7** was released on the Mac App Store on 30th November 2023.
@@ -60,7 +87,7 @@ However, there are some **bugs** that [we reported in the news feed](/news/20231
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Color Finale             | _Color Finale are currently testing things, and suggest holding off updating just yet._                 |
+| Color Finale             | Use Color Finale v2.7.3 or later                                                                        |
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
@@ -68,7 +95,7 @@ However, there are some **bugs** that [we reported in the news feed](/news/20231
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
-| MotionVFX                | _Some issues with mLUT crashing ("this plugin is not responding")._                                     |
+| MotionVFX                | Update to latest versions of plugins                                                                    |
 | Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
