@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 21 Dec 2023 19:55:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 19:57:40 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 Dec 2023 19:55:40 GMT</pubDate>
+        <pubDate>Thu, 21 Dec 2023 19:57:40 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4035,6 +4035,34 @@ These creators are always lending a hand in the Final Cut Pro facebook groups, s
             <link>https://fcp.cafe/#21st-december-2023</link>
             <guid isPermaLink="false">21st December 2023</guid>
             <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd December 2023]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro 10.7.1</strong> is out now!</p>
+<p>This release includes:</p>
+<ul>
+<li>Improves stability on Intel-based Mac models when using Color Wheels or Color Curves on H.264 video clips (reported on FCP Cafe <a href="https://github.com/CommandPost/FCPCafe/issues/299">here</a>).</li>
+<li>Fixes an issue with some default keyboard shortcuts working incorrectly on non-English keyboards.</li>
+</ul>
+<p>Thanks for the fast turnaround Apple!</p>
+<p>We'll test it over the coming days and weeks to see if there's any other undocumented changes/fixes.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-december-2023</link>
+            <guid isPermaLink="false">22nd December 2023</guid>
+            <pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd December 2023]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.1.10</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Bug fixes for syncing the preview player with the selected text block after spliting or merging paragraphs</li>
+<li>Bug fix for offline media warning dialog</li>
+</ul>
+<p>You can download the latest version on the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-december-2023</link>
+            <guid isPermaLink="false">22nd December 2023</guid>
+            <pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
