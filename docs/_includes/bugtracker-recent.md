@@ -4,7 +4,6 @@
 - [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
 - [Dragging files in the Browser window to a Keyword Collection incorrectly switches projects (December 10, 2023)](https://github.com/CommandPost/FCPCafe/issues/302)
 - [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
-- [Crash when using Color Wheels (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/299)
 - [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/296)
 - [FCP imports wrong asset when importing from Photos stored on an external drive (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/295)
@@ -28,3 +27,4 @@
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225)
+- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
