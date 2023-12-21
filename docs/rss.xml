@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 19 Dec 2023 09:33:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 11:09:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 Dec 2023 09:33:46 GMT</pubDate>
+        <pubDate>Thu, 21 Dec 2023 11:09:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -3993,6 +3993,33 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
             <link>https://fcp.cafe/#19th-december-2023</link>
             <guid isPermaLink="false">19th December 2023</guid>
             <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st December 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has pushed out some bug fixes for some of their products to make them work more reliably on Final CUt Pro 10.7:</p>
+<ul>
+<li><strong>mFlare 2 v3.0.5</strong>: Improved stability and robustness when using multiple instances of the plugin</li>
+<li><strong>mTracker 3D v2.0.5</strong>: Improved stability and robustness when using multiple instances of the plugin</li>
+<li><strong>mTracker 3D Area v1.0.6</strong>: Improved M3 support and stability when using multiple instances of the plugin</li>
+</ul>
+<p>You can learn more <a href="https://motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-december-2023</link>
+            <guid isPermaLink="false">21st December 2023</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st December 2023]]></title>
+            <description><![CDATA[<p><em><strong>It's finally here!</strong></em></p>
+<p><strong>Hedge PostLab</strong> is now out in public beta!</p>
+<p>If you're interested in joining the beta you can complete this form <a href="https://requestforms.typeform.com/to/YmNSK5bJ?typeform-source=lnkd.in">here</a>.</p>
+<p>You can learn more about the public beta <a href="https://docs.hedge.video/postlab/postlab-beta">here</a>.</p>
+<p>We're super, super excited to put it through it's paces!</p>
+<p><img src="/static/postlab-beta.png" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#21st-december-2023</link>
+            <guid isPermaLink="false">21st December 2023</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
