@@ -31,10 +31,11 @@ xxx
 ---
 
 **SPECS:**
-- MacBook Pro / iMac Pro / Mac Pro / Mac Studio
-- macOS Monterey 12.6.6 / macOS Ventura 13.4.1 / macOS Ventura 13.5
-- Final Cut Pro 10.6.x
+- 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD)
+- macOS Sonoma 14.1.2
+- Final Cut Pro 10.7.1
 
 ---
+
 **ADDITIONAL COMMENTS:**
 xxx
