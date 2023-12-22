@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 21 Dec 2023 20:35:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Dec 2023 10:14:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 Dec 2023 20:35:10 GMT</pubDate>
+        <pubDate>Fri, 22 Dec 2023 10:14:24 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4016,8 +4016,6 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
 <p>You can learn more about the public beta <a href="https://docs.hedge.video/postlab/postlab-beta">here</a>.</p>
 <p>We're super, super excited to put it through it's paces!</p>
 <p><img src="/static/postlab-beta.png" alt=""></p>
-<p>One thing we have noticed is that because PostLab essentially programatically generates the Library each time you open a Library (combining whatever Events you have in your PostLab Library), it doesn't actually save Library Smart Collections:</p>
-<p><img src="/static/postlab-beta-screenshot.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#21st-december-2023</link>
             <guid isPermaLink="false">21st December 2023</guid>
