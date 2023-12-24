@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 24 Dec 2023 22:46:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Dec 2023 22:58:12 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 24 Dec 2023 22:46:58 GMT</pubDate>
+        <pubDate>Sun, 24 Dec 2023 22:58:12 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4102,6 +4102,26 @@ These creators are always lending a hand in the Final Cut Pro facebook groups, s
             <title><![CDATA[25th December 2023]]></title>
             <description><![CDATA[<p><strong>Simon Says Transcription v3.9.5</strong> is out now with improved performance and bug fixes.</p>
 <p>You can download the latest version on the Mac App Store <a href="https://apps.apple.com/us/app/simon-says-transcription/id1441555493?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-december-2023</link>
+            <guid isPermaLink="false">25th December 2023</guid>
+            <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th December 2023]]></title>
+            <description><![CDATA[<p>*<strong>Color Intelligence</strong> writes:</p>
+<blockquote>
+<p>Season's Greetings, Colour Graders!</p>
+<p>Big news: Colourlab Ai V3 Creator for Windows and Mac has landed! It's not just an update – it's a game-changer, rebuilt from scratch with a new Ai Color Engine, offering 10x more precision than ever.</p>
+<p>Grab Your Gift! Download it free and enjoy a 15-day playtime. Current Colourlab users, you've got a free upgrade waiting in your account.</p>
+<p>Quick Notes:</p>
+<p>Syncs with DaVinci Resolve (more compatibility coming soon).
+January: Adding Premiere and FCP support.
+February: Pro Release with RAW support, SDI, and Tangent.
+Requirements: OS13+ or Windows 10.</p>
+<p>Happy Holidays and Happy Grading!</p>
+</blockquote>
+<p>You can learn more <a href="https://colourlab.ai/features/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#25th-december-2023</link>
             <guid isPermaLink="false">25th December 2023</guid>
