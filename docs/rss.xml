@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 24 Dec 2023 23:00:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Dec 2023 20:27:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 24 Dec 2023 23:00:09 GMT</pubDate>
+        <pubDate>Mon, 25 Dec 2023 20:27:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4177,6 +4177,24 @@ Requirements: OS13+ or Windows 10.</p>
             <link>https://fcp.cafe/#25th-december-2023</link>
             <guid isPermaLink="false">25th December 2023</guid>
             <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th December 2023]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> writes:</p>
+<blockquote>
+<p>✨35% OFF STOREWIDE✨, 6️⃣0️⃣ mCredits CASHBACK and a FREE mLUT Vibrant! 🤩
+Check out end-of-the-year deals👇
+🎉 25% OFF STOREWIDE for all users, and 35% OFF for the CineStudio crew! Use the code: GREAT2024
+👉 Don’t have it yet? Buy it now, and get a higher discount!
+🎉 $60 in-store credit for buying a yearly CineStudio plan
+🎉 FREE mLUT Vibrant for all who spend min. $100 in one order!</p>
+</blockquote>
+<p>You can learn more <a href="https://www.motionvfx.com/deals">here</a>.</p>
+<p><img src="/static/motionvfx-great2024.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#26th-december-2023</link>
+            <guid isPermaLink="false">26th December 2023</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
