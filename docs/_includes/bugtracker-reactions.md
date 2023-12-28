@@ -5,7 +5,6 @@
 - [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)
 - [Creating a new Motion Category is painfully slow (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/308)
 - [Crash when exporting a FCPXML via Menu and drag from Browser (December 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/307)
-- [Dragging files in the Browser window to a Keyword Collection incorrectly switches projects (December 10, 2023)](https://github.com/CommandPost/FCPCafe/issues/302)
 - [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
 - [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
 - [Plug-Ins from various developers stop working and crashing in FCP (December 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/296)
@@ -28,3 +27,4 @@
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
+- [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
