@@ -1,3 +1,4 @@
+- [Showstopper when creating a compound clip from two or more secondary storylines. (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)
 - [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
 - [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)
 - [Creating a new Motion Category is painfully slow (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/308)
@@ -27,4 +28,3 @@
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
 - [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
 - [Final Cut Pro 10.6.7 crash on launch (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/225)
-- [🧵 Final Cut Pro 10.6.7 generally unreliable and buggy (July 23, 2023)](https://github.com/CommandPost/FCPCafe/issues/223)
