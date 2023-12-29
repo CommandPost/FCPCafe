@@ -1,3 +1,4 @@
+- [Bad documentation for FxOnScreenControl keyDownAtPositionX (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/313)
 - [Can't change ParameterSubGroup Name in parameterChanged (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/312)
 - [Crash when creating a Compound Clip from two or more Secondary Storylines (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)
 - [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
@@ -27,4 +28,3 @@
 - [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
 - [In specific and reproductible case, font variation is not saved in the project (after quit/reopen) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/228)
 - [Impossible to change font variation (bold, italic...) (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/227)
-- [Crashed when pasted text in text field of Centered Title  (July 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/226)
