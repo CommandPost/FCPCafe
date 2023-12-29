@@ -22,6 +22,12 @@ It's also worth looking at [FxKit](https://github.com/jslinker/FxKit) for inspir
 
 ---
 
+### Can I change a `ParameterSubGroup` `Name` via code?
+
+No, currently it doesn't seem possible. See bug report [here](https://github.com/CommandPost/FCPCafe/issues/312).
+
+---
+
 ### FxPlug Crashes
 
 Final Cut Pro will automatically restart any FxPlug that crashes.
@@ -63,6 +69,7 @@ You can learn more about `pluginkit` [here](https://www.unix.com/man-page/osx/8/
 Here is a collection of things we'd LOVE to see Apple address in FxPlug:
 
 - Ideally, there should be some new methods added to FxTimingAPI_v4 so that we can access the current timecode of the source clip, but also a frame number for connivence. For example, if we have a ProRes File that starts at 01:00:00:00, if we apply our Effect/FxFilter to that ProRes File within Final Cut Pro, for the first frame of the video, we should be able to use FxPlug4 to return the CMTime equivalent of 01:00:00:00, but also frame 0. This would allow Gyroflow Toolbox to be applied like a normal effect, rather than having to contain it within a container clip, like a Compound Clip. Discussed [here](https://github.com/latenitefilms/GyroflowToolbox/issues/8).
+- Can't change ParameterSubGroup Name in parameterChanged. Discussed [here](https://github.com/CommandPost/FCPCafe/issues/312).
 
 ---
 
