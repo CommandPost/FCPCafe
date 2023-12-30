@@ -1,3 +1,4 @@
+- [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)
 - [Can't collapse or uncollapse Parameter SubGroup's programatically  (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/315)
 - [Multicam with individual Audio Role voice isolation breaks in FCPXML v1.11 (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/314)
 - [Crash when creating a Compound Clip from two or more Secondary Storylines (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)

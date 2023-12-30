@@ -1,3 +1,4 @@
+- [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)
 - [Can't collapse or uncollapse Parameter SubGroup's programatically  (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/315)
 - [Multicam with individual Audio Role voice isolation breaks in FCPXML v1.11 (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/314)
 - [Bad documentation for FxOnScreenControl keyDownAtPositionX (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/313)
@@ -27,4 +28,3 @@
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
 - [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
 - [10.6.7 Runaway FCP Processes (July 28, 2023)](https://github.com/CommandPost/FCPCafe/issues/232)
-- [10.6.7 Random Beach Balls After Working A While (July 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/230)
