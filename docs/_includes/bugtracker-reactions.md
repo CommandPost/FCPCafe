@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [File Storage Issue when Transferring Projects between Libaries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)
 - [Can't collapse or uncollapse Parameter SubGroup's programatically  (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/315)
 - [Multicam with individual Audio Role voice isolation breaks in FCPXML v1.11 (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/314)
@@ -27,4 +28,3 @@
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
 - [Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/239)
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
-- [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
