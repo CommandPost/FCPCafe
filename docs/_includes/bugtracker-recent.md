@@ -1,4 +1,5 @@
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
+- [Repeated crashing during export (January 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/317)
 - [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)
 - [Can't collapse or uncollapse Parameter SubGroup's programatically  (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/315)
 - [Multicam with individual Audio Role voice isolation breaks in FCPXML v1.11 (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/314)
@@ -27,4 +28,3 @@
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
 - [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
 - [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
-- [Retiming in secondary timeline borks the primary timeline (July 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/233)
