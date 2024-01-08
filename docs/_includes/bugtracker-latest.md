@@ -1,3 +1,4 @@
+- [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Repeated crashing during export (January 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/317)
 - [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)

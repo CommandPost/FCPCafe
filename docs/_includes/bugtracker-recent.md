@@ -1,3 +1,4 @@
+- [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Repeated crashing during export (January 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/317)
 - [Crash when trying to set a Font Menu string in FxPlug (December 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/316)
@@ -27,4 +28,3 @@
 - [Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/239)
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
 - [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
-- [Crashed after creating transition (August 4, 2023)](https://github.com/CommandPost/FCPCafe/issues/234)
