@@ -1,3 +1,4 @@
+- [Missing FxPlug API for setting Font (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/320)
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [MKV import support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/292)
 - [Import and export support for VP8 and VP9 (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/291)
@@ -27,4 +28,3 @@
 - [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103)
 - [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
 - [Improve AV Output (April 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/89)
-- [Being in Transformation/Crop/Distort mode shouldn't disable the skimmer (August 24, 2022)](https://github.com/CommandPost/FCPCafe/issues/85)
