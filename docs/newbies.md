@@ -57,4 +57,15 @@ Whether you're doing your own showreel or preparing the files to send to an edit
 
 ---
 
+### Israel Hyman (Izzy)
+
+One of our FCP Cafe visitors writes in the Comments below:
+
+> I highly recommend incorporating a tutorial by Israel Hyman (Izzy) into your resources. His YouTube tutorials are truly outstanding, featuring a well-paced and exceptionally explained approach. Don't miss out on them – there's three hours of free Final Cut training available!
+
+[![](/static/izzy-youtube.jpeg)](https://www.youtube.com/watch?v=_jvyrnQpR1E&list=PLp5SAgbM8S87n1qvv34-PAU2zMHLlXyfb)
+
+
+---
+
 {{ include "contribute-learn-more" }}

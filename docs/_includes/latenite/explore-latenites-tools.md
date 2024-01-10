@@ -36,6 +36,16 @@ Here's some of our products currently for sale on the **Mac App Store**:
 
 ---
 
+## FxFactory
+
+Here's some of our products currently for sale on the **FxFactory**:
+
+---
+
+{{ include "latenite/metaburner" }}
+
+---
+
 ## Free Apps
 
 Here's some of our free tools used by professional editors worldwide:
@@ -55,10 +65,6 @@ Here's some of our free tools used by professional editors worldwide:
 ## TestFlight
 
 Here's some of our apps currently on TestFlight prior to final release on the Mac App Store:
-
----
-
-{{ include "latenite/metaburner-pro" }}
 
 ---
 
