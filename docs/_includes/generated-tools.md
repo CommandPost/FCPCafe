@@ -154,7 +154,7 @@
 
 ---
 
-{{ include "tools/metaburner-pro" }}
+{{ include "tools/metaburner" }}
 
 ---
 
