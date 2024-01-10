@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Frame rate chart in Apple documentation isn't lining up with real-world results (January 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/323)
 - [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Repeated crashing during export (January 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/317)
@@ -27,4 +28,3 @@
 - [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)
 - [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
 - [FCP & QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/250)
-- [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)

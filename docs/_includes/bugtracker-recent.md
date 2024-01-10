@@ -1,3 +1,4 @@
+- [Frame rate chart in Apple documentation isn't lining up with real-world results (January 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/323)
 - [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Repeated crashing during export (January 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/317)
@@ -27,4 +28,3 @@
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
 - [Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/239)
 - [🧵 Non-reproducible Final Cut Pro 10.6.8 Crashes (August 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/238)
-- [Crash when right clicking on library (August 6, 2023)](https://github.com/CommandPost/FCPCafe/issues/237)
