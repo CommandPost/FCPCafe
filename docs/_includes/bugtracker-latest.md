@@ -1,3 +1,4 @@
+- [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
 - [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
