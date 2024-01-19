@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 18 Jan 2024 01:21:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 01:07:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 18 Jan 2024 01:21:27 GMT</pubDate>
+        <pubDate>Fri, 19 Jan 2024 01:07:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4195,6 +4195,149 @@ Check out end-of-the-year deals👇
             <link>https://fcp.cafe/#26th-december-2023</link>
             <guid isPermaLink="false">26th December 2023</guid>
             <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2024]]></title>
+            <description><![CDATA[<p>Welcome to the first news post on FCP Cafe for 2024! Woohoo!</p>
+<p>I know we're already 19 days into 2024, however rest assured, it's already been a very busy and exciting start to the year for the Final Cut Pro community!</p>
+<p>For starters, we've just added a <strong>new case study</strong> about the <a href="/case-studies/blood-and-gold-vfx/">Blood &amp; Gold VFX Workflow</a>.</p>
+<p>We've also already released <strong>32 beta builds</strong> of our latest app, <a href="https://metaburner.pro">Metaburner</a> on FxFactory.</p>
+<p>Why FxFactory? You can read more about our decision <a href="https://metaburner.pro/faq/#why-fxfactory">here</a>.</p>
+<p>For anyone who missed it, <strong>Metaburner</strong> is an Advanced Metadata Generator for Final Cut Pro.</p>
+<p>It's a serious high-end professional tool, used by high-end feature film and television editors on projects for Netflix, etc.</p>
+<p>!!!success Download Now!
+You can download Metaburner via FxFactory <a href="https://fxfactory.com/install/metaburner">here</a>.
+!!!</p>
+<p>You can access it via a <strong>Title</strong> in the Titles sidebar.</p>
+<p>Metaburner gives you <strong>25 text layers</strong> that you can populate with whatever metadata you want.</p>
+<p>You can even stack multiple Metaburner Titles on top of each other for <strong>unlimited</strong> metadata fields!</p>
+<p>To begin, simply drag your Final Cut Pro Project from the Browser into the Metaburner Title Inspector via a drop zone, and then Metaburner has full access to everything that's in the FCPXML.</p>
+<p>There's also a <strong>Lua scripting environment</strong> built-in, so you can even &quot;code&quot; your own text for unlimited possibilities.</p>
+<p>You can even share Lua variables between multiple Metaburner titles for some crazy cool workflows!</p>
+<p>Metaburner is currently in a public beta testing phase. You can download a free watermarked version from FxFactory, and you can also purchase to remove the watermark.</p>
+<p><img src="/static/metaburner-20240119.png" alt=""></p>
+<p>We've also started building another application called <strong>LUT Robot</strong>.</p>
+<p><img src="/static/lut-robot.jpg" alt=""></p>
+<p>The above icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p>Unlike Final Cut Pro's built-in Custom LUT and Camera LUT tools, LUT Robot allows you to &quot;link&quot; to a LUT stored in any folder.</p>
+<p>It also allows you to apply LUTs in bulk to clips - for example, if you have a unique LUT for each of your rushes files.</p>
+<p>LUT Robot is currently in active development. We hope to release a beta on FxFactory in the coming weeks.</p>
+<p>Looking back at 2023, it's pretty amazing to see what we've achieved...</p>
+<p>On <strong>26th May 2023</strong> we decided to repurpose our <strong>Final Cut Pro Bug Tracker</strong> into <strong>FCP Cafe</strong>.</p>
+<p>We launched the site with an awesome case study - <a href="/case-studies/turn-of-the-tide/">Turn of the Tide</a>.</p>
+<p>We've since added a HUGE amount of information to FCP Cafe, including awesome case studies, developer case studies and highly technical information that you can't find anywhere else.</p>
+<p>Our Bug Tracker has become the go-to resource for reporting and fault finding bugs in Final Cut Pro. We've been able to fix and solve several Final Cut Pro issues via this site, and have allowed Final Cut Pro users to connect with the Apple ProApps team - something that never really happened until now.</p>
+<p>On <strong>25th October 2023</strong> we were very sad to learn that fcp.co had <a href="https://fcp.cafe/news/20231025/">disappeared from the Internet</a>, making FCP Cafe the new home for professional Final Cut Pro Editors.</p>
+<p>Peter did such an incredible job with fcp.co, so it's quite a weight of responsibility for FCP Cafe. However, we're up for the challenge!</p>
+<p>We've started slowing bringing back some older fcp.co articles - for example, today we're bringing back the <a href="/case-studies/neighbours">Neighbours - Erinsborough High</a> case study written by the incredible Ronny Courtens.</p>
+<p>One of the best things about FCP Cafe, it's that's it's an open, community driven site. Anyone can <a href="https://fcp.cafe/contribute/">contribute</a>.</p>
+<p><a href="https://github.com/CommandPost/FCPCafe/graphs/contributors">11 other video editors</a> so far have taken up the challenge to learn GitHub and have contributed directly to FCP Cafe.</p>
+<p>I've personally made over <strong>801 commits</strong> to FCP Cafe so far.</p>
+<p>Powered by <a href="https://retype.com">Retype</a> on <a href="https://github.com/CommandPost/FCPCafe">GitHub</a>, all the &quot;back end&quot; stuff is also completely open - you can even &quot;fork&quot; the site, and take our design and GitHub scripts for your own purposes!</p>
+<p>For example, <a href="https://sequence.film/docs/">Sequence's Docs</a> website is a fork of FCP Cafe.</p>
+<p>In 2023 we attended the FCP Creative Summit and documented our adventures on FCP Cafe:</p>
+<ul>
+<li><a href="/news/20231106/">Day 1</a></li>
+<li><a href="/news/20231107/">Day 2</a></li>
+<li><a href="/news/20231108/">Day 3</a></li>
+</ul>
+<p>We're hopeful that the FCP Creative Summit will come back in 2024, and we'll be able to cover it again.</p>
+<p>In other exciting news <a href="https://commandpost.io">CommandPost</a> has now been downloaded over <strong>200K</strong> times!</p>
+<p>We've already pushed out two CommandPost updates in January 2024, and managed to do 8 updates in 2023. We'll continue to build-on and improve CommandPost this year.</p>
+<p>It's pretty amazing to think that 2023 was also the first year we took the plunge into developing paid applications.</p>
+<p>On <strong>30th January 2023</strong> we released <a href="https://brawtoolbox.io">BRAW Toolbox</a> onto the Mac App Store - our first paid application.</p>
+<p>There were LOTS of very smart people that told me that adding native BRAW support to Final Cut Pro would be impossible, but we made it happen, and BRAW Toolbox has now been downloaded over <strong>1.98K</strong> times.</p>
+<p>Next up, with the support of the incredible <a href="https://github.com/AdrianEddy">AdrianEddy</a>, we brought <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> to the world. It's now been downloaded over <strong>1.36K</strong> times.</p>
+<p>We then brought <a href="https://markertoolbox.io">Marker Toolbox</a> to the world. It's now been downloaded 112 times - which is a shame because it's so darn handy! If you haven't already tried it, please look into it.</p>
+<p><a href="https://recalltoolbox.io">Recall Toolbox</a> is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard. Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store. It's only been download 24 times, however those 24 users are extremely passionate about it, and seem to really love it.</p>
+<p><a href="https://fastcollections.io">Fast Collections</a> is a Final Cut Pro Workflow Extension that allows you to quickly create a Smart Collection from a list of Keywords.</p>
+<p>When you're working on massive long-form projects, such as feature-length documentaries with hundreds of clips and thousands of keywords, the Final Cut Pro interface can grind to a halt when using the built-in Smart Collection panel.</p>
+<p>This simple Workflow Extension allows you to create a new Smart Collection, using a list of supplied keywords within seconds, rather than minutes.</p>
+<p>If you have thousands of keywords across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with Fast Collections, it can now take seconds.</p>
+<p>You can also Generate a list of sequential numbers, for example, Scene 01, Scene 02, Scene 03, etc. This is very handy for long-form projects.</p>
+<p>To be honest, we originally only built this application, to help out a single documentary filmmaker, but it's since been downloaded 19 times.</p>
+<p>To make it cheaper and easier to purchase our Mac App Store Apps, we also introduced a bundle.</p>
+<p>For only <strong>USD$100</strong> (save USD$49.95!), you can now buy <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> &amp; <a href="https://fastcollections.io">Fast Collections</a> as a bundle!</p>
+<p>The Mac App Store also supports <strong>Complete My Bundle</strong> - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.</p>
+<p>You can find the bundle on the Mac App Store <a href="https://itunes.apple.com/us/app-bundle/id1717681153?mt=12">here</a>.</p>
+<p><img src="/static/pro-editor-bundle.jpg" alt=""></p>
+<p>In addition to our paid apps, we also updated <a href="https://transfertoolbox.io">Transfer Toolbox</a>.</p>
+<p>Transfer Toolbox allows you to convert <strong>Final Cut Pro 10.7.1 (for Mac) Libraries</strong> into <strong>Final Cut Pro 1.3 (for iPad) Projects</strong>.</p>
+<p>Transfer Toolbox has been downloaded over <strong>579</strong> times.</p>
+<p>We also made a free little helper tool to <a href="https://github.com/CommandPost/RenameAvidMXFFiles">Rename Avid MXF Files</a>.</p>
+<p>So what's in-store for the rest of 2024?</p>
+<p>We'll continue to grow FCP Cafe into the go-to resource for professional Final Cut Pro editors.</p>
+<p>We'll keep you up-to-date with all the latest Final Cut Pro related news.</p>
+<p>We'll continue to <a href="https://github.com/CommandPost/FCPCafe/discussions/322">teach and educate people</a> on how to use Final Cut Pro technologies such as FxPlug, and <a href="https://github.com/latenitefilms/ShareDestinationKit">Custom Share Destinations</a> - as there's no other resources out there really to learn this stuff.</p>
+<p>We'll continue to push Apple to fix and improve Final Cut Pro. We're in active discussions with them constantly over a range of things.</p>
+<p><img src="/static/feedback-assistant.png" alt=""></p>
+<p>We'll continue to make tools to make your professional editing work easier, such as Metaburner and LUT Robot. We also have <a href="/latenite/">plenty more apps on the roadmap</a>.</p>
+<p>Thanks for your continued help and support!</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2024</link>
+            <guid isPermaLink="false">19th January 2024</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2024]]></title>
+            <description><![CDATA[<p><strong>BretFX</strong> now allows you to try their <strong>Power Tools Pro</strong> for free.</p>
+<p>A watermarked trial of Power Tools PRO is now installed with the free Power Tools LITE.</p>
+<p>You can learn more <a href="https://www.bretfx.com/product/power-tools/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2024</link>
+            <guid isPermaLink="false">19th January 2024</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2024]]></title>
+            <description><![CDATA[<p><strong>LenoFX</strong> is currently offering a <strong>30% discount</strong> on all plugins until the <strong>21st January</strong>.</p>
+<p>Use the coupon code: <strong>WEEK30</strong></p>
+<p>You can learn more <a href="https://www.lenofx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2024</link>
+            <guid isPermaLink="false">19th January 2024</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v4.2.0</strong> is out now!</p>
+<p>Here's their press release:</p>
+<blockquote>
+<p>evrExpanse 4.2.0 Ushers in a New Era of Media Management with Enhanced Offload Engine
+Milan, January 9, 2024 – EVRapp, a leading innovator in metadata-centric applications for videomakers, proudly announces the release of evrExpanse 4.2.0, a groundbreaking update that transforms the landscape of media management.</p>
+<p><strong>What's New in evrExpanse 4.2.0:</strong>
+🚀 Enhanced Transfer Engine: Our Offload function is now turbocharged, delivering significantly faster file transfers compared to previous versions. Experience a speed boost that will revolutionise the way you manage your media and files.
+📊 Genuine Multicore Experience: Harness the full power of your Mac, whether it's Intel-based or Apple Silicon. The enhanced transfer engine intelligently utilises all available cores, ensuring optimal performance for a seamless workflow.</p>
+<p><strong>Key Features of evrExpanse 4.2.0:</strong></p>
+<ul>
+<li><strong>Efficient Offload Process with Secure Data Transfer:</strong> The introduction of the Offloading Data Process ensures a streamlined and secure transfer of media files. The Offload function, empowered by the xxh64 hash function, guarantees comprehensive checksum verification, providing users with confidence in data integrity during transfers.</li>
+<li><strong>Comprehensive Metadata Support:</strong> evrExpanse 4 boasts enhanced metadata workflow support for a wide range of cameras and file types, including MOV, MP4, MXF, and NEV. This compatibility ensures a seamless import of metadata into various NLEs, streamlining the post-production workflow.</li>
+<li><strong>Smart Transcoding and Metadata Integration:</strong> The Smart Transcoding mode analyses audio and video streams, deciding whether to apply transcoding or passthrough based on the codec type. This ensures optimal quality preservation, and metadata integration facilitates a smooth editing experience.</li>
+<li><strong>Process Plus© - Streamlined Workflow for NLEs:</strong> Process Plus© integrates transcoding, offloading, and metadata export into a single, cohesive operation. This streamlined workflow not only enhances efficiency but also ensures seamless integration with popular Non-Linear Editing systems (NLEs) like Final Cut Pro®, DaVinci Resolve®, and Assimilate SCRATCH®.</li>
+<li><strong>Seal Processed Folders with ASC MHL or MHL v1:</strong> Users can seal processed folders using either ASC MHL or the legacy MHL v1. This feature ensures the creation of Media Hash List (MHL) files, tracking the integrity of all media files and providing a reference for digital motion picture production.</li>
+</ul>
+<p><strong>Note:</strong> The demo version of evrExpanse 4.2.0 has no limitations on the Offload function, allowing users to experience its full power before making a purchase.</p>
+<p>Existing evrExpanse 4 users can upgrade to the latest version free of charge.</p>
+<p><strong>About the Developer:</strong>
+Antonio Marogna is one-man band in photography and multimedia production.
+Founder, antoinedelaroche - Photography and Multimedia Production.
+Founder, evrApp.cloud, an innovative software project dedicated to improving the accessibility and utility of metadata for media files within video editing platforms.</p>
+</blockquote>
+<p>You can learn more <a href="https://www.evrapp.cloud">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2024</link>
+            <guid isPermaLink="false">19th January 2024</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2024]]></title>
+            <description><![CDATA[<p><strong>CSV2Notion Neo v1.2.0</strong> now supports selection of different Notion workspaces and adding multiple image attachments!</p>
+<p>You can learn more <a href="https://github.com/TheAcharya/csv2notion-neo">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2024</link>
+            <guid isPermaLink="false">19th January 2024</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
