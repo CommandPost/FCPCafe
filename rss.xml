@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 19 Jan 2024 06:21:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 20:42:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 19 Jan 2024 06:21:32 GMT</pubDate>
+        <pubDate>Fri, 19 Jan 2024 20:42:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4338,6 +4338,31 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#19th-january-2024</link>
             <guid isPermaLink="false">19th January 2024</guid>
             <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th January 2024]]></title>
+            <description><![CDATA[<p><strong>Eric Lenz</strong> has released a video on YouTube called <strong>CUTTING EDGE, MOVING SLOW – The Final Cut Pro Conundrum | Documentary</strong>.</p>
+<p>The description reads:</p>
+<blockquote>
+<p>Everybody is switching to DaVinci Resolve, and a strange feeling is going through the Final Cut Pro Community. The lack of feature updates is the apparent cause – or is it? In this documentary, we will see that the underlying issue is something else entirely.</p>
+</blockquote>
+<p>It contains all your favourite Final Cut Pro</p>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCYlZLHOzom9-MryCEodaoXg">Dylan Bates</a></li>
+<li><a href="https://www.youtube.com/channel/UCIFdtLXB_6YDoiJoe1k5wOA">Jake Felzien</a></li>
+<li><a href="https://www.youtube.com/channel/UC_HzoVeEzCUsHJtHCemb9sg">Dylan John</a></li>
+<li><a href="https://www.youtube.com/channel/UCqdsVtEvUIU-0ebfhSFWOGw">Rafael Ludwig</a></li>
+<li><a href="https://www.youtube.com/channel/UC45W_AtKcDxSmWR1s1xsLEg">Matthew O'Brien</a></li>
+<li><a href="https://www.youtube.com/channel/UCxp6k6RQ2oP6EmP0W5_J7-g">Richard Taylor</a></li>
+<li><a href="https://www.youtube.com/channel/UCY2p6zqx9LcPZci4KNqkEBg">Brad West</a></li>
+</ul>
+<p>This was filmed <strong>before</strong> the Final Cut Pro Creative Summit in 2023.</p>
+<p>You can watch on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=XqHhpgHalzo"><img src="/static/eric-lenz-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#20th-january-2024</link>
+            <guid isPermaLink="false">20th January 2024</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
