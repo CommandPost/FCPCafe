@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 19 Jan 2024 20:55:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jan 2024 00:14:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 19 Jan 2024 20:55:40 GMT</pubDate>
+        <pubDate>Sat, 20 Jan 2024 00:14:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4359,6 +4359,34 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>This was filmed <strong>before</strong> the Final Cut Pro Creative Summit in 2023.</p>
 <p>You can watch on YouTube here:</p>
 <p><a href="https://www.youtube.com/watch?v=XqHhpgHalzo"><img src="/static/eric-lenz-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#20th-january-2024</link>
+            <guid isPermaLink="false">20th January 2024</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th January 2024]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.4.25</strong> is out now with the following improvements:</p>
+<ul>
+<li>Increased the default number of banks from 15 to 30. Thanks for suggesting Daniel Rejowski!</li>
+<li>Updated from csv2notion v0.3.9 to CSV2Notion Neo v1.2.1. Thanks Vigneswaran Rajkumar!</li>
+<li>Added a new &quot;Notion Workspace&quot; field in the Notion &amp; Shot Data Toolboxes. Thanks Vigneswaran Rajkumar!</li>
+</ul>
+<p>You can learn more <a href="https://commandpost.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-january-2024</link>
+            <guid isPermaLink="false">20th January 2024</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th January 2024]]></title>
+            <description><![CDATA[<p><strong>Metaburner v1.0.5 (33)</strong> is out now with the following improvements:</p>
+<ul>
+<li>Added a Global Setting for <strong>Empty Data</strong>. This allows you to customise what gets displayed when no metadata exists for that Content Field. Thanks for suggesting Sam Pluemacher!</li>
+<li>Added seperate content fields for Markers with Marker Type. Thanks for suggesting Sam Pluemacher!</li>
+<li>Added Stabilisation Content Fields. Thanks for suggesting Matthieu Laclau!</li>
+</ul>
+<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-january-2024</link>
             <guid isPermaLink="false">20th January 2024</guid>
