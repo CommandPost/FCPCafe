@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 20 Jan 2024 00:28:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jan 2024 21:41:16 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Jan 2024 00:28:41 GMT</pubDate>
+        <pubDate>Mon, 22 Jan 2024 21:41:16 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4391,6 +4391,41 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#20th-january-2024</link>
             <guid isPermaLink="false">20th January 2024</guid>
             <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2024]]></title>
+            <description><![CDATA[<p><strong>Robin S. Kurz</strong> has posted a new video on YouTube offering further insight into the Final Cut Pro Scrolling Timeline.</p>
+<p>You can watch on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=gu2wdII-yKk"><img src="/static/scrolling-timeline-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2024</link>
+            <guid isPermaLink="false">23rd January 2024</guid>
+            <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2024]]></title>
+            <description><![CDATA[<p><strong>Peter Wiggins</strong> is back and has just posted a blog post over at <strong>idustrialrevolution</strong>.</p>
+<p>Interestingly he hints:</p>
+<blockquote>
+<p>WE HAVE A NEW FAVOURITE NLE</p>
+</blockquote>
+<p>You can read it <a href="https://idustrialrevolution.com/blogs/news/diary-of-a-plugin-writer-3">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2024</link>
+            <guid isPermaLink="false">23rd January 2024</guid>
+            <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2024]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.4.25</strong> is out now with the following bug fix:</p>
+<ul>
+<li>In Final Cut Pro 10.6.6, Apple merged the <strong>Masks</strong> and <strong>Keying</strong> Effects Categories into a single <strong>Masks and Keying</strong> Effects Category, which we never accounted for. CommandPost now correctly applies the <strong>Masks and Keying</strong> effects in Final Cut Pro 10.6.6 and later. However, if you already have a shortcut key or control surface button for any of these actions (such as <strong>Draw Mask</strong>), you may have to select the <strong>Scan Motion Templates</strong> button in the <strong>Final Cut Pro</strong> panel in CommandPost Preferences to re-scan all your effects, then reapply the action to your keyboard shortcut or button. Thanks for reporting Димитър Маратилов!</li>
+</ul>
+<p>You can learn more <a href="https://commandpost.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2024</link>
+            <guid isPermaLink="false">23rd January 2024</guid>
+            <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
