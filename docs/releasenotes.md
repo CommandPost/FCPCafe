@@ -289,7 +289,7 @@ This is the first release of Final Cut Pro for iPad!
 
 **Released October 5, 2023**
 
-** Final Cut Pro 10.6.10** includes the following fixes:
+**Final Cut Pro 10.6.10** includes the following fixes:
 
 - Fixes an issue that could cause an FxPlug-based title that analyzed a clip to result in an incomplete analysis.
 - Fixes an issue that could cause a Motion template with an applied Align To behavior to display an incorrect animation.
@@ -302,7 +302,7 @@ This is the first release of Final Cut Pro for iPad!
 
 #### Notes from FCP Cafe:
 
-- This release breaks the Analysis API used by plugins such as those by FxFactory. You can learn more here.
+- This release breaks the Analysis API used by plugins such as those by FxFactory. You can learn more [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
 #### New Features:
 
