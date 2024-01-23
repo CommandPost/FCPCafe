@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 23 Jan 2024 03:01:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jan 2024 05:04:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 23 Jan 2024 03:01:57 GMT</pubDate>
+        <pubDate>Tue, 23 Jan 2024 05:04:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4422,6 +4422,23 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <li>In Final Cut Pro 10.6.6, Apple merged the <strong>Masks</strong> and <strong>Keying</strong> Effects Categories into a single <strong>Masks and Keying</strong> Effects Category, which we never accounted for. CommandPost now correctly applies the <strong>Masks and Keying</strong> effects in Final Cut Pro 10.6.6 and later. However, if you already have a shortcut key or control surface button for any of these actions (such as <strong>Draw Mask</strong>), you may have to select the <strong>Scan Motion Templates</strong> button in the <strong>Final Cut Pro</strong> panel in CommandPost Preferences to re-scan all your effects, then reapply the action to your keyboard shortcut or button. Thanks for reporting Димитър Маратилов!</li>
 </ul>
 <p>You can learn more <a href="https://commandpost.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2024</link>
+            <guid isPermaLink="false">23rd January 2024</guid>
+            <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2024]]></title>
+            <description><![CDATA[<p><strong>Frame.io</strong> has updated their Mac App Store App to version <code>v2.6.1</code> with the following improvements:</p>
+<ul>
+<li>Native support for Apple Silicon Macs</li>
+<li>Support for the latest version of Final Cut Pro</li>
+<li>Support for playing video and audio assets protected by DRM</li>
+<li>Updated Keychain permission prompt to only show when necessary</li>
+<li>Fixed a bug that prevented scrubbing asset thumbnails</li>
+<li>Bug fixes and performance improvements</li>
+</ul>
+<p>You can learn more about Frame.io <a href="https://frame.io">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#23rd-january-2024</link>
             <guid isPermaLink="false">23rd January 2024</guid>
