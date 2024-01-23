@@ -137,6 +137,64 @@ What this means is that since **Final Cut Pro 10.6.6**, if Final Cut Pro crashes
 
 ---
 
+### Analysing Crash Logs
+
+Joe Marler has [written some detailed information](https://github.com/CommandPost/FCPCafe/issues/327#issuecomment-1906883104) about how to analyse crash logs in one of the bug reports, which I've added here as it's such a good reference:
+
+> Was the export to a local APFS or HFS+ disk file on a volume with plenty of space? Was it exported to a NAS location?
+>
+> Immediately after one of these happens, it would be interesting to hold down the **OPTION** key then press **Help > Gather App Diagnostics** from the Final Cut Pro menubar and examine the logs.
+>
+> If that doesn't reveal anything, it's possible to export a more verbose FCP log using this command:
+>
+> `sudo log show --process "Final Cut Pro" > ~/Documents/LogShowFCP.txt`
+>
+> The text file can be large, so using BBEdit or similar is best. Look for items nearby the timestamp of the crash.
+>
+> If that doesn't reveal anything, it's possible to extract a range of the entire macOS log if done right after the crash. This can be very large, so should be handled with BBEdit or similar, and may require multiple filtering passes.
+>
+> Syntax to extract all events from prior 60 seconds of MacOS log to a text file.
+>
+> Assumes the event of interest (such as FCP crash) happened within that period:
+>
+> `sudo log show --last 60s > ~/Documents/LogShow60s.txt`
+>
+> Extract last 5 minutes of MacOS log (even larger):
+>
+> `sudo log show --last 5m > ~/Documents/LogShow5m.txt`
+>
+> If the event of interest happened before that, it's possible to give a start/end range for 'log show'.
+>
+> The below extracts to a text file all events in the MacOS log over a 5 minute period starting at 08:00.
+>
+> **Note:** the log is greatly pruned after a few hours from present time. So you can't see highly detailed data from the prior day.
+>
+> `log show --start '2024-01-22 14:00:00' --end '2024-01-22 14:05:00' > ~/Documents/LogShow1400_plus5m_yesterday.txt`
+>
+> If the log is too verbose to make sense of, it's possible in BBEdit to use **progressive exclusion**, whereby all lines matching an iterative series of search strings will be excluded...
+>
+> In BBEdit search dialog, enable `grep` and `show matches` text boxes.
+>
+> Enter this in Find box, where `exclusion_string1`, etc are strings contained in the lines you wish to discard. You can add more exclusion strings, separating each by a `|` (SHIFT+backslash key, which is a logical 'OR').
+>
+> `^(?![^\n]*(exclusion_string_1|exclusion_string_2)).+$`
+>
+> BBEdit will immediately color-code in orange the lines matching the exclusion list, IOW those you want to discard.
+>
+> Therefore to discard the matched lines (which preserves all unexcluded lines), press **Extract** button.
+>
+> Repeat above procedure, on each successive extract, adding new exclusion strings to omit those lines from subsequent extracts.
+>
+> BBEdit dynamically shows you in real time the matched vs unmatched lines as you type the grep command, therefore before pressing the "Exclude" button, you already know what to expect.
+>
+> You can copy/paste strings from the extract results to the Find dialog, to avoid making a typo.
+>
+> If you save the grep strings corresponding to common "noise" log messages, those can all be concatenated to a single larger compound exclusion term which you can copy/paste to a new BBEdit log filtering session.
+
+Thanks Joe!
+
+---
+
 !!!
 Want to contribute? [Learn more here!](/contribute/)
 !!!

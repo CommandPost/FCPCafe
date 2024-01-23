@@ -26,6 +26,20 @@ It's also worth looking at [FxKit](https://github.com/jslinker/FxKit) for inspir
 
 No, currently it doesn't seem possible. See bug report [here](https://github.com/CommandPost/FCPCafe/issues/312).
 
+Apple confirms:
+
+> The dynamic parameter API doesn’t do what you want in FCP. This is a known limitation. I thought we had documented this somewhere, but I’m not finding it.
+>
+> Basically, the problem is that using the dynamic parameter API changes the underlying Motion document data. In Motion, the user simply saves the project and it’s fine. But in FCP there’s no way for the user to save the Motion Template, nor would they want to, since it would change all instances of the plug-in in all projects.
+
+---
+
+### Does the UndoAPI work in Final Cut Pro?
+
+Yes, Apple confirms:
+
+> Yes, the Undo API should work in Final Cut Pro. (That comment in the header may be very old - from FCP 7, I think.) When are you trying to use it? It should work within a start/endAction: block, as well as during -parameterChanged::, and also during the selector for a push button and during OSC mousing and analyzing a frame. It will not work at other times.
+
 ---
 
 ### FxPlug Crashes
