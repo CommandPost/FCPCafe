@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759301886175">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759359295068">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.759301886175" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.759359295068" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.759301886175" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.759359295068" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.759301886175" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.759359295068" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -553,6 +553,42 @@
 </p>
 <p>If you manually try and force quit a process, you&#x27;ll see Final Cut Pro start it up again when needed.</p>
 <p>What this means is that since <strong>Final Cut Pro 10.6.6</strong>, if Final Cut Pro crashes, it&#x27;s NOT a third party FxPlug4 effect or a Workflow Extension - it&#x27;s something in Apple&#x27;s own code, and there&#x27;s nothing third party developers can do about it, so there&#x27;s no point emailing FxFactory, CoreMelt, MotionVFX, etc. to complain, as they&#x27;ll just have to relay this information to Apple anyway.</p>
+<hr>
+<doc-anchor-target id="analysing-crash-logs">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#analysing-crash-logs">#</doc-anchor-trigger>
+        <span>Analysing Crash Logs</span>
+    </h3>
+</doc-anchor-target>
+<p>Joe Marler has <a href="https://github.com/CommandPost/FCPCafe/issues/327#issuecomment-1906883104">written some detailed information</a> about how to analyse crash logs in one of the bug reports, which I&#x27;ve added here as it&#x27;s such a good reference:</p>
+<blockquote>
+<p>Was the export to a local APFS or HFS+ disk file on a volume with plenty of space? Was it exported to a NAS location?</p>
+<p>Immediately after one of these happens, it would be interesting to hold down the <strong>OPTION</strong> key then press <strong>Help &gt; Gather App Diagnostics</strong> from the Final Cut Pro menubar and examine the logs.</p>
+<p>If that doesn&#x27;t reveal anything, it&#x27;s possible to export a more verbose FCP log using this command:</p>
+<p><code v-pre>sudo log show --process &quot;Final Cut Pro&quot; &gt; ~/Documents/LogShowFCP.txt</code></p>
+<p>The text file can be large, so using BBEdit or similar is best. Look for items nearby the timestamp of the crash.</p>
+<p>If that doesn&#x27;t reveal anything, it&#x27;s possible to extract a range of the entire macOS log if done right after the crash. This can be very large, so should be handled with BBEdit or similar, and may require multiple filtering passes.</p>
+<p>Syntax to extract all events from prior 60 seconds of MacOS log to a text file.</p>
+<p>Assumes the event of interest (such as FCP crash) happened within that period:</p>
+<p><code v-pre>sudo log show --last 60s &gt; ~/Documents/LogShow60s.txt</code></p>
+<p>Extract last 5 minutes of MacOS log (even larger):</p>
+<p><code v-pre>sudo log show --last 5m &gt; ~/Documents/LogShow5m.txt</code></p>
+<p>If the event of interest happened before that, it&#x27;s possible to give a start/end range for &#x27;log show&#x27;.</p>
+<p>The below extracts to a text file all events in the MacOS log over a 5 minute period starting at 08:00.</p>
+<p><strong>Note:</strong> the log is greatly pruned after a few hours from present time. So you can&#x27;t see highly detailed data from the prior day.</p>
+<p><code v-pre>log show --start '2024-01-22 14:00:00' --end '2024-01-22 14:05:00' &gt; ~/Documents/LogShow1400_plus5m_yesterday.txt</code></p>
+<p>If the log is too verbose to make sense of, it&#x27;s possible in BBEdit to use <strong>progressive exclusion</strong>, whereby all lines matching an iterative series of search strings will be excluded...</p>
+<p>In BBEdit search dialog, enable <code v-pre>grep</code> and <code v-pre>show matches</code> text boxes.</p>
+<p>Enter this in Find box, where <code v-pre>exclusion_string1</code>, etc are strings contained in the lines you wish to discard. You can add more exclusion strings, separating each by a <code v-pre>|</code> (SHIFT+backslash key, which is a logical &#x27;OR&#x27;).</p>
+<p><code v-pre>^(?![^\n]*(exclusion_string_1|exclusion_string_2)).+$</code></p>
+<p>BBEdit will immediately color-code in orange the lines matching the exclusion list, IOW those you want to discard.</p>
+<p>Therefore to discard the matched lines (which preserves all unexcluded lines), press <strong>Extract</strong> button.</p>
+<p>Repeat above procedure, on each successive extract, adding new exclusion strings to omit those lines from subsequent extracts.</p>
+<p>BBEdit dynamically shows you in real time the matched vs unmatched lines as you type the grep command, therefore before pressing the &quot;Exclude&quot; button, you already know what to expect.</p>
+<p>You can copy/paste strings from the extract results to the Find dialog, to avoid making a typo.</p>
+<p>If you save the grep strings corresponding to common &quot;noise&quot; log messages, those can all be concatenated to a single larger compound exclusion term which you can copy/paste to a new BBEdit log filtering session.</p>
+</blockquote>
+<p>Thanks Joe!</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>

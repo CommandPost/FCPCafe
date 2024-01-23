@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759301886175">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759359295068">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759301886175" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759359295068" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759301886175" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759359295068" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759301886175" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759359295068" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=3.5.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.5.0" defer></script>
 
@@ -375,6 +375,22 @@
     </h3>
 </doc-anchor-target>
 <p>No, currently it doesn&#x27;t seem possible. See bug report <a href="https://github.com/CommandPost/FCPCafe/issues/312">here</a>.</p>
+<p>Apple confirms:</p>
+<blockquote>
+<p>The dynamic parameter API doesn’t do what you want in FCP. This is a known limitation. I thought we had documented this somewhere, but I’m not finding it.</p>
+<p>Basically, the problem is that using the dynamic parameter API changes the underlying Motion document data. In Motion, the user simply saves the project and it’s fine. But in FCP there’s no way for the user to save the Motion Template, nor would they want to, since it would change all instances of the plug-in in all projects.</p>
+</blockquote>
+<hr>
+<doc-anchor-target id="does-the-undoapi-work-in-final-cut-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#does-the-undoapi-work-in-final-cut-pro">#</doc-anchor-trigger>
+        <span>Does the UndoAPI work in Final Cut Pro?</span>
+    </h3>
+</doc-anchor-target>
+<p>Yes, Apple confirms:</p>
+<blockquote>
+<p>Yes, the Undo API should work in Final Cut Pro. (That comment in the header may be very old - from FCP 7, I think.) When are you trying to use it? It should work within a start/endAction: block, as well as during -parameterChanged::, and also during the selector for a push button and during OSC mousing and analyzing a frame. It will not work at other times.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="fxplug-crashes">
     <h3>
