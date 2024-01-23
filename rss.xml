@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 23 Jan 2024 05:04:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jan 2024 21:04:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 23 Jan 2024 05:04:17 GMT</pubDate>
+        <pubDate>Tue, 23 Jan 2024 21:04:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4443,6 +4443,47 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#23rd-january-2024</link>
             <guid isPermaLink="false">23rd January 2024</guid>
             <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24rd January 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released a new product, <strong>mStoryboard</strong>.</p>
+<p>You can watch a trailer on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=PTb8itoX2aM"><img src="/static/mstoryboard.jpeg" alt=""></a></p>
+<p>You can learn more <a href="https://www.motionvfx.com/store,mstoryboard,p4092.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24rd-january-2024</link>
+            <guid isPermaLink="false">24rd January 2024</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24rd January 2024]]></title>
+            <description><![CDATA[<p><strong>Metaburner v1.0.6 (34)</strong> has been released. It includes the following updates:</p>
+<p>🔨 <strong>Changes:</strong></p>
+<ul>
+<li>Metaburner Presets now have the file extension <code>metaburnerPreset</code> (instead of <code>mbpPreset</code>).</li>
+<li>The Metaburner Motion Template has been updated.</li>
+</ul>
+<p>🔨 <strong>Improvements:</strong></p>
+<ul>
+<li>Lots of big under-the-hood improvements. Metaburner now can handle very complicated and long feature film timelines without dropping frames. Thanks for reporting Sam Pluemacher!</li>
+<li>Added a new <strong>Open in Motion</strong> button to <strong>Controls</strong>. This allows you to easily create a new Apple Motion Template which you can customise however you want!</li>
+<li>We've moved the <strong>Open User Guide</strong> to the top of <strong>Controls</strong> so that it's more obvious.</li>
+<li>We no longer display &quot;Text Layer 1&quot;, &quot;Text Layer 2&quot;, etc in the Final Cut Pro Inspector to make it cleaner.</li>
+<li>We now save and restore <strong>Empty Data</strong>, <strong>Filter by Video Role</strong> and <strong>Filter by Audio Role</strong> in Presets.</li>
+<li>We've added a built-in <strong>Stabilisation</strong> Preset.</li>
+<li>Improved the error messaging when a FCPXML fails to load.</li>
+<li>Added a checkbox to <strong>Save FCPXML Internally</strong> within the <strong>Controls</strong> section. This is off by default. You'll only ever really need to turn it on if you want to access the FCPXML data via the Lua Scripting Engine.</li>
+</ul>
+<p>🐞 <strong>Bug Fixes:</strong></p>
+<ul>
+<li>Metaburner now correctly renders when in <strong>Half Resolution</strong> in Apple Motion and <strong>Better Performance</strong> in Final Cut Pro.</li>
+<li>Final Cut Pro now allows you to copy and paste the Metaburner Title. Thanks for reporting Sam Pluemacher!</li>
+</ul>
+<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24rd-january-2024</link>
+            <guid isPermaLink="false">24rd January 2024</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
