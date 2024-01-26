@@ -22,6 +22,12 @@ It's also worth looking at [FxKit](https://github.com/jslinker/FxKit) for inspir
 
 ---
 
+### Why does my Viewer turn red on Intel?
+
+If you're using OSC controls via FxPlug, even if you're not drawing something to the screen, you still need to provide a valid texture, otherwise you can get an red overlay across the entire Final Cut Pro Viewer, even if your effect/title/generator/transition is disabled.
+
+---
+
 ### Can I change a `ParameterSubGroup` `Name` via code?
 
 No, currently it doesn't seem possible. See bug report [here](https://github.com/CommandPost/FCPCafe/issues/312).
