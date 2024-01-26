@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 25 Jan 2024 18:07:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jan 2024 21:45:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jan 2024 18:07:50 GMT</pubDate>
+        <pubDate>Fri, 26 Jan 2024 21:45:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4484,6 +4484,35 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#24rd-january-2024</link>
             <guid isPermaLink="false">24rd January 2024</guid>
             <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27rd January 2024]]></title>
+            <description><![CDATA[<p><strong>RED Apple Workflow Installer v21.0.0</strong> is out now.</p>
+<p>Changes in this release:</p>
+<ul>
+<li>Added: V-RAPTOR [X] support</li>
+<li>Added: V-RAPTOR [X] Extended Highlights - BETA support</li>
+<li>Changed: improved IPP2 demosaic edge interpolation on strong color transitions</li>
+<li>Fixed: RED ONE clip UUIDs could be incorrect</li>
+<li>Fixed: unclosed R3D files could split a clip into multiple parts</li>
+<li>Fixed: HDRx clips could have undecodable frame at the end</li>
+<li>Fixed: Legacy decodes will now ignore RGB gains metadata if they are all set to 0</li>
+</ul>
+<p>You can download <a href="https://www.red.com/download/red-apple-workflow-installer">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27rd-january-2024</link>
+            <guid isPermaLink="false">27rd January 2024</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27rd January 2024]]></title>
+            <description><![CDATA[<p><strong>Ripple Training</strong> have released RT Markups. It's on sale for <strong>USD$19</strong> for one week only.</p>
+<p>RT Markups is a set of 26 title templates for Final Cut Pro that gives you the ability to add customizable annotations to on-screen text, titles, or other elements that appear in web pages, newspaper and magazine articles, signs, posters, products, drawings, schematics, sheet music etc. Add them to any video, photo or illustration that has text or visual elements that you want to emphasize or exclude.</p>
+<p>You can learn more <a href="https://www.rippletraining.com/products/plugins-ripplelive/rt-markups/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27rd-january-2024</link>
+            <guid isPermaLink="false">27rd January 2024</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
