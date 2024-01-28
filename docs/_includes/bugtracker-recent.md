@@ -1,3 +1,4 @@
+- [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
 - [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
 - [Internal Stabilisation issues and resulting crashes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/326)
@@ -27,4 +28,3 @@
 - [Custom Parameters Full Width set Hide/Show causes Inspector Parameter Collapse (October 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/260)
 - [FCP & QNAP SMB v3 corrupting libraries upon duplicating projects. (September 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/250)
 - [Final Cut Pro Bug Viewing Motion Templates (August 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/246)
-- [Motion 5.6.5 Text Sequencing Direction Bug (August 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/239)
