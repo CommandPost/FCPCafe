@@ -1,5 +1,5 @@
 - [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
-- [ Accentize plugins  (January 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/331)
+- [ Accentize Plugins do not pass Audio Unit Validation on Final Cut Pro 10.7.1 (January 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/331)
 - [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
 - [Internal Stabilisation issues and resulting crashes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/326)
