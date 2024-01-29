@@ -39,7 +39,7 @@ Simply type `xmllint --dtdvalid`, then drag in the `DTD` file from Finder, and t
 
 ---
 
-### FCPXML Example
+### Getting Source Timecode
 
 I have created a very simple Final Cut Project project.
 
@@ -167,11 +167,13 @@ This is the start timecode of the source clip (i.e. the first frame of the clip)
 
 Now let's say we wanted to find the source timecode of the Video clip at the timeline timecode of `01:02:07:06` (3727.24 seconds / 93181 frames).
 
-We can double click on the Syncronised Clip in Final Cut Pro to get the answer: `03:04:19:07` (11059.28 seconds / 276482 frames).
+We can double click on the Synchronised Clip in Final Cut Pro to get the answer: `03:04:19:07` (11059.28 seconds / 276482 frames).
 
 We know it's 4.08 seconds from the start:
 
 > 3727.24 - 3723.16 = 4.08 seconds
+
+We know that inside the Synchronised Clip, the timecode position we want is at `00:00:55:23` (55.92 seconds / 1398 frames).
 
 Let's now go back and have a look at the `sync-clip` again.
 
@@ -188,6 +190,8 @@ The `start` is:
 This value is the start of the visible range of the Compound Clip as used in the timeline:
 
 ![](/static/fcpxml-example-04.png)
+
+So how do we get the source timecode of the Video Clip at `01:02:07:06` (3727.24 seconds / 93181 frames)?
 
 _**...to be continued.**_
 
