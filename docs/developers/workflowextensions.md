@@ -6,7 +6,7 @@ You can find the official Workflow Extensions documentation [here](https://devel
 
 If you want a real-world example of a FxPlug4 application, you can look at [CommandPost](https://github.com/CommandPost/CommandPost-App/tree/master/CommandPost%20Workflow%20Extension).
 
---
+---
 
 ## Frequently Asked Questions
 
