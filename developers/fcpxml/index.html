@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759717981415">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759814590208">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759717981415" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759814590208" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759717981415" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759814590208" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759717981415" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759814590208" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.759814590208" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -408,6 +409,146 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
     </div>
 </div>
 <hr>
+<doc-anchor-target id="fcpxml-example">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fcpxml-example">#</doc-anchor-trigger>
+        <span>FCPXML Example</span>
+    </h3>
+</doc-anchor-target>
+<p>I have created a very simple Final Cut Project project.</p>
+<p>It&#x27;s <strong>1920x1080 @ 25fps</strong>, with a start timecode value of <code v-pre>01:02:03:04</code> (3723.16 seconds / 93079 frames):</p>
+<p><figure class="content-center">
+    <img src="../../static/fcpxml-example-01.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>It looks like this in Final Cut Pro:</p>
+<p><figure class="content-center">
+    <img src="../../static/fcpxml-example-02.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>There&#x27;s <strong>1 second</strong> of Gap at the start then a single Synchronised Clip.</p>
+<p>The Synchronised Clip starts at <code v-pre>01:02:04:04</code> (3724.16 seconds / 93104 frames).</p>
+<p>When you double click on it or <strong>Clip &gt; Open Clip</strong> from the menubar, it looks like this:</p>
+<p><figure class="content-center">
+    <img src="../../static/fcpxml-example-03.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>On the Primary Storyline we have a Gap, and then a <strong>1920x1080 @ 25fps</strong> ProRes clip with audio.</p>
+<p>Attached to the Gap is an audio clip underneath the Primary Storyline.</p>
+<p>The Synchronised Clip starts at a <code v-pre>00:00:00:00</code> timecode value.</p>
+<p>The Gap duration is <code v-pre>00:00:41:22</code> (41.88 seconds / 1047 frames).</p>
+<p>This means the Video Clips starts at <code v-pre>00:00:41:22</code> (28.77 seconds / 719 frames) as well.</p>
+<p>The duration of the Video clip is <code v-pre>00:01:00:00</code> (60.00 seconds / 1500 frames).</p>
+<p>The start source timecode of the Video Clip is <code v-pre>03:04:05:06</code> (11045.24 seconds / 276131 frames).</p>
+<p>The FCPXML of the timeline is (I&#x27;ve removed the bookmark data and metadata to simplify):</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+
+&lt;fcpxml version=&quot;1.11&quot;&gt;
+    &lt;resources&gt;
+        &lt;format id=&quot;r1&quot; name=&quot;FFVideoFormat1080p25&quot; frameDuration=&quot;100/2500s&quot; width=&quot;1920&quot; height=&quot;1080&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;asset id=&quot;r2&quot; name=&quot;Veaceslav Draganov - Cloud Drawings&quot; uid=&quot;6794EE6DAE868F4CC943039DC32A0875&quot; start=&quot;0s&quot; duration=&quot;7832386/44100s&quot; hasAudio=&quot;1&quot; audioSources=&quot;1&quot; audioChannels=&quot;2&quot; audioRate=&quot;44100&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;6794EE6DAE868F4CC943039DC32A0875&quot; src=&quot;file:///Folder/Veaceslav%20Draganov%20-%20Cloud%20Drawings.wav&quot;/&gt;
+        &lt;/asset&gt;
+        &lt;format id=&quot;r3&quot; name=&quot;FFVideoFormatRateUndefined&quot;/&gt;
+        &lt;asset id=&quot;r4&quot; name=&quot;Test Clip - 25fps - 03-04-05-06&quot; uid=&quot;F0E3A9BB00C452BBB3B3EA82BB6434E1&quot; start=&quot;27613100/2500s&quot; duration=&quot;60s&quot; hasVideo=&quot;1&quot; format=&quot;r1&quot; hasAudio=&quot;1&quot; videoSources=&quot;1&quot; audioSources=&quot;1&quot; audioChannels=&quot;2&quot; audioRate=&quot;48000&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;F0E3A9BB00C452BBB3B3EA82BB6434E1&quot; src=&quot;file:///Folder/Test%20Clip%20-%2025fps%20-%2003-04-05-06.mov&quot;/&gt;
+        &lt;/asset&gt;
+    &lt;/resources&gt;
+    &lt;project name=&quot;My Timeline&quot; uid=&quot;D2F469B3-51B8-4655-964D-BE6F7CF8C7E0&quot; modDate=&quot;2024-01-27 19:01:51 +1100&quot;&gt;
+        &lt;sequence format=&quot;r1&quot; duration=&quot;325200/10000s&quot; tcStart=&quot;7446320/2000s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;
+            &lt;spine&gt;
+                &lt;gap name=&quot;Gap&quot; offset=&quot;37231600/10000s&quot; start=&quot;3600s&quot; duration=&quot;1s&quot;/&gt;
+                &lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;
+                    &lt;spine&gt;
+                        &lt;gap name=&quot;Gap&quot; offset=&quot;0s&quot; start=&quot;3600s&quot; duration=&quot;104700/2500s&quot;&gt;
+                            &lt;asset-clip ref=&quot;r2&quot; lane=&quot;-1&quot; offset=&quot;3600s&quot; name=&quot;Veaceslav Draganov - Cloud Drawings&quot; duration=&quot;127875689/720000s&quot; format=&quot;r3&quot; audioRole=&quot;music&quot;/&gt;
+                        &lt;/gap&gt;
+                        &lt;asset-clip ref=&quot;r4&quot; offset=&quot;104700/2500s&quot; name=&quot;Test Clip - 25fps - 03-04-05-06&quot; start=&quot;27613100/2500s&quot; duration=&quot;60s&quot; tcFormat=&quot;NDF&quot; audioRole=&quot;dialogue&quot;/&gt;
+                    &lt;/spine&gt;
+                    &lt;sync-source sourceID=&quot;storyline&quot;&gt;
+                        &lt;audio-role-source role=&quot;dialogue.dialogue-1&quot; active=&quot;0&quot;/&gt;
+                    &lt;/sync-source&gt;
+                &lt;/sync-clip&gt;
+            &lt;/spine&gt;
+        &lt;/sequence&gt;
+    &lt;/project&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p>The FCPXML is really made up of two parts:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;fcpxml version=&quot;1.11&quot;&gt;
+    &lt;resources/&gt;
+    &lt;project/&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p>Looking at the <code v-pre>sequence</code> we can see:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;sequence format=&quot;r1&quot; duration=&quot;325200/10000s&quot; tcStart=&quot;7446320/2000s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;</code></pre>
+</doc-codeblock></div>
+<p>Looking at the <code v-pre>tcStart</code>, we can do the maths and confirm it matches the timecode we&#x27;re seeing in FCPX:</p>
+<blockquote>
+<p>7446320 / 2000 = 3723.16 seconds (<code v-pre>01:02:03:04</code> / 93079 frames)</p>
+</blockquote>
+<p>Within the <code v-pre>sequence</code> we have the <code v-pre>spine</code>. Within the <code v-pre>spine</code> he have our Gap and Synchronised Clip:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;spine&gt;
+    &lt;gap name=&quot;Gap&quot; offset=&quot;37231600/10000s&quot; start=&quot;3600s&quot; duration=&quot;1s&quot;/&gt;
+    &lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;
+        &lt;spine&gt;
+            &lt;gap name=&quot;Gap&quot; offset=&quot;0s&quot; start=&quot;3600s&quot; duration=&quot;104700/2500s&quot;&gt;
+                &lt;asset-clip ref=&quot;r2&quot; lane=&quot;-1&quot; offset=&quot;3600s&quot; name=&quot;Veaceslav Draganov - Cloud Drawings&quot; duration=&quot;127875689/720000s&quot; format=&quot;r3&quot; audioRole=&quot;music&quot;/&gt;
+            &lt;/gap&gt;
+            &lt;asset-clip ref=&quot;r4&quot; offset=&quot;104700/2500s&quot; name=&quot;Test Clip - 25fps - 03-04-05-06&quot; start=&quot;27613100/2500s&quot; duration=&quot;60s&quot; tcFormat=&quot;NDF&quot; audioRole=&quot;dialogue&quot;/&gt;
+        &lt;/spine&gt;
+        &lt;sync-source sourceID=&quot;storyline&quot;&gt;
+            &lt;audio-role-source role=&quot;dialogue.dialogue-1&quot; active=&quot;0&quot;/&gt;
+        &lt;/sync-source&gt;
+    &lt;/sync-clip&gt;
+&lt;/spine&gt;</code></pre>
+</doc-codeblock></div>
+<p>The Gap offset is the same as our <code v-pre>tcStart</code>:</p>
+<blockquote>
+<p>37231600 / 10000 = 3723.16 seconds (<code v-pre>01:02:03:04</code> / 93079 frames)</p>
+</blockquote>
+<p>The Video clip is actually an <code v-pre>asset-clip</code>.</p>
+<p>If we look at the <code v-pre>offset</code>, it&#x27;s the same as the Gap Duration:</p>
+<blockquote>
+<p>104700 / 2500 = 41.88 seconds (<code v-pre>00:00:41:22</code> / 1047 frames)</p>
+</blockquote>
+<p>If we look at the <code v-pre>start</code>, it&#x27;s the same as the timecode we calcuated earlier:</p>
+<blockquote>
+<p>27613100 / 2500 = 11045.24 seconds (<code v-pre>03:04:05:06</code> / 276131 frames)</p>
+</blockquote>
+<p>This is the start timecode of the source clip (i.e. the first frame of the clip).</p>
+<p>Now let&#x27;s say we wanted to find the source timecode of the Video clip at the timeline timecode of <code v-pre>01:02:07:06</code> (3727.24 seconds / 93181 frames).</p>
+<p>We can double click on the Syncronised Clip in Final Cut Pro to get the answer: <code v-pre>03:04:19:07</code> (11059.28 seconds / 276482 frames).</p>
+<p>We know it&#x27;s 4.08 seconds from the start:</p>
+<blockquote>
+<p>3727.24 - 3723.16 = 4.08 seconds</p>
+</blockquote>
+<p>Let&#x27;s now go back and have a look at the <code v-pre>sync-clip</code> again.</p>
+<p>The <code v-pre>offset</code> is:</p>
+<blockquote>
+<p>37241600 / 10000 = 3724.16 seconds (<code v-pre>01:02:04:04</code> / 93104 frames).</p>
+</blockquote>
+<p>This is the timeline timecode of where the <code v-pre>sync-clip</code> starts.</p>
+<p>The <code v-pre>start</code> is:</p>
+<blockquote>
+<p>132100 / 2500 = 52.84 seconds (<code v-pre>00:00:52:21</code> / 1321 frames)</p>
+</blockquote>
+<p>This value is the start of the visible range of the Compound Clip as used in the timeline:</p>
+<p><figure class="content-center">
+    <img src="../../static/fcpxml-example-04.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><em><strong>...to be continued.</strong></em></p>
+<hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -530,6 +671,6 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "FCPXML", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "FCPXML", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
