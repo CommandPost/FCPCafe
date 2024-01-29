@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759816169698">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759819187647">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759816169698" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759819187647" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759816169698" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759819187647" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759816169698" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.759816169698" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759819187647" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.759819187647" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -409,10 +409,10 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
     </div>
 </div>
 <hr>
-<doc-anchor-target id="fcpxml-example">
+<doc-anchor-target id="getting-source-timecode">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#fcpxml-example">#</doc-anchor-trigger>
-        <span>FCPXML Example</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getting-source-timecode">#</doc-anchor-trigger>
+        <span>Getting Source Timecode</span>
     </h3>
 </doc-anchor-target>
 <p>I have created a very simple Final Cut Project project.</p>
@@ -526,11 +526,12 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 </blockquote>
 <p>This is the start timecode of the source clip (i.e. the first frame of the clip).</p>
 <p>Now let&#x27;s say we wanted to find the source timecode of the Video clip at the timeline timecode of <code v-pre>01:02:07:06</code> (3727.24 seconds / 93181 frames).</p>
-<p>We can double click on the Syncronised Clip in Final Cut Pro to get the answer: <code v-pre>03:04:19:07</code> (11059.28 seconds / 276482 frames).</p>
+<p>We can double click on the Synchronised Clip in Final Cut Pro to get the answer: <code v-pre>03:04:19:07</code> (11059.28 seconds / 276482 frames).</p>
 <p>We know it&#x27;s 4.08 seconds from the start:</p>
 <blockquote>
 <p>3727.24 - 3723.16 = 4.08 seconds</p>
 </blockquote>
+<p>We know that inside the Synchronised Clip, the timecode position we want is at <code v-pre>00:00:55:23</code> (55.92 seconds / 1398 frames).</p>
 <p>Let&#x27;s now go back and have a look at the <code v-pre>sync-clip</code> again.</p>
 <p>The <code v-pre>offset</code> is:</p>
 <blockquote>
@@ -547,6 +548,7 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<p>So how do we get the source timecode of the Video Clip at <code v-pre>01:02:07:06</code> (3727.24 seconds / 93181 frames)?</p>
 <p><em><strong>...to be continued.</strong></em></p>
 <hr>
 <div class="flex mb-6">
