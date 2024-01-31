@@ -1,4 +1,16 @@
 # 2024
+## February
+
+{{ include "news/20240201" }}
+
+[!button text="Discuss this news item" variant="info"](news/20240201/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
 ## January
 
 {{ include "news/20240131" }}
@@ -7,7 +19,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -17,7 +29,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -27,7 +39,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -37,7 +49,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -47,7 +59,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -57,7 +69,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -70,7 +82,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -80,7 +92,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -90,7 +102,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -100,7 +112,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -110,7 +122,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -120,7 +132,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -130,7 +142,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -140,7 +152,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -150,7 +162,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -160,7 +172,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -170,7 +182,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -180,7 +192,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -190,7 +202,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -200,7 +212,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -210,7 +222,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -220,7 +232,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -230,7 +242,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -240,169 +252,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-## November
-
-{{ include "news/20231122" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231122/#discuss-this-page)
-
----
-
 {{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20231121" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231121/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20231120" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231120/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-{{ include "news/20231118" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231118/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20231117" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231117/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20231115" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231115/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20231113" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231113/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-{{ include "news/20231112" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231112/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20231111" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231111/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20231109" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231109/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20231108" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231108/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-{{ include "news/20231107" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231107/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20231106" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231106/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20231105" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231105/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20231104" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231104/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-{{ include "news/20231101" }}
-
-[!button text="Discuss this news item" variant="info"](news/20231101/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
 
 ---
 

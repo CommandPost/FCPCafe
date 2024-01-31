@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 31 Jan 2024 10:58:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 23:05:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 31 Jan 2024 10:58:56 GMT</pubDate>
+        <pubDate>Wed, 31 Jan 2024 23:05:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4560,6 +4560,37 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#31st-january-2024</link>
             <guid isPermaLink="false">31st January 2024</guid>
             <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st February 2024]]></title>
+            <description><![CDATA[<p><strong>EDL-X v2.12</strong> is out now with support for FCPXML <code>v1.11</code>.</p>
+<p>You can find on the Mac App Store <a href="https://apps.apple.com/au/app/edl-x/id539666579?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-february-2024</link>
+            <guid isPermaLink="false">1st February 2024</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st February 2024]]></title>
+            <description><![CDATA[<p><strong>Producers Best Friend v1.4.67</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Critical bug fix for a crash caused by making thumbnails on macOS Sonoma</li>
+<li>Bug fix for chapter markers on a transition</li>
+</ul>
+<p>You can find on the Mac App Store <a href="https://apps.apple.com/us/app/producers-best-friend/id688519794?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-february-2024</link>
+            <guid isPermaLink="false">1st February 2024</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st February 2024]]></title>
+            <description><![CDATA[<p><strong>Random-X v1.5</strong> is out now with support for FCPXML <code>v1.11</code>.</p>
+<p>You can find on the Mac App Store <a href="https://apps.apple.com/us/app/random-x/id1332067821?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-february-2024</link>
+            <guid isPermaLink="false">1st February 2024</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
