@@ -1,6 +1,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [FCP Crashes when copying Project to a different Library (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/334)
 - [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
 - [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
@@ -27,4 +28,3 @@
 - [Inspector Button Tooltips no longer show (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/286)
 - [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
 - [Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/284)
-- [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)
