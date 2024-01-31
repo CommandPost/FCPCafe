@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 31 Jan 2024 03:35:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 04:47:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 31 Jan 2024 03:35:21 GMT</pubDate>
+        <pubDate>Wed, 31 Jan 2024 04:47:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4513,6 +4513,29 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#27rd-january-2024</link>
             <guid isPermaLink="false">27rd January 2024</guid>
             <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2024]]></title>
+            <description><![CDATA[<p><strong>Noise Industries</strong> has released a new plugin called <strong>Background Remover</strong> on FxFactory!</p>
+<blockquote>
+<p>Quickly and easily lift subjects from the video background.</p>
+<p>Background Remover automatically detects people, animals and objects that are the main focus of your videos, allowing you to extract a clean key from footage shot without a greenscreen or bluescreen. Background Remover is a quick, easy choice for masking the backdrop to a scene.</p>
+</blockquote>
+<p>You can learn more <a href="https://fxfactory.com/info/backgroundremover/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2024</link>
+            <guid isPermaLink="false">31st January 2024</guid>
+            <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2024]]></title>
+            <description><![CDATA[<p><strong>iJustine</strong> has released <strong>Apple Vision Pro - Unboxing, Review and demos</strong> on YouTube.</p>
+<p>You can watch her using Final Cut Pro (on Mac) via the Vision Pro here:</p>
+<p><a href="https://youtu.be/CaWt6-xe29k?si=IdH6H-7Rrdi1Q7zs&amp;t=1499"><img src="/static/ijustine-vision-pro-youtube.png" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2024</link>
+            <guid isPermaLink="false">31st January 2024</guid>
+            <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
