@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 31 Jan 2024 23:44:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 00:54:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 31 Jan 2024 23:44:06 GMT</pubDate>
+        <pubDate>Fri, 02 Feb 2024 00:54:36 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4591,6 +4591,31 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#1st-february-2024</link>
             <guid isPermaLink="false">1st February 2024</guid>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd February 2024]]></title>
+            <description><![CDATA[<p>You can watch <strong>Strada's Private Beta Launch</strong> on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=4Dy2lgIYyJY"><img src="/static/strada-beta-launch-youtube.jpeg" alt=""></a></p>
+<p>This is of relevance to Final Cut Pro users, because Michael Cioni is a long-time hardcore Final Cut Pro user, with a huge amount of knowledge and experience.</p>
+<p>He's also the king of Apple's Keynote - and creates beautiful videos seamlessly mixing Keynote and Final Cut Pro.</p>
+<p>No doubt, Strada will be highly integrated with Final Cut Pro, as that's what Michael uses to edit all of Strada's video.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-february-2024</link>
+            <guid isPermaLink="false">2nd February 2024</guid>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd February 2024]]></title>
+            <description><![CDATA[<p><strong>Apple Insider</strong> reports:</p>
+<blockquote>
+<p>Cook 'incredibly excited' about generative AI coming to Apple gear later in 2024</p>
+</blockquote>
+<p>You can read the full article <a href="https://appleinsider.com/articles/24/02/01/cook-incredibly-excited-about-generative-ai-coming-to-apple-gear-later-in-2024">here</a>.</p>
+<p>Hopefully at WWDC we see lots of AI announcements, and we'll see some of those technologies added to Final Cut Pro towards October/November in the next major Final Cut Pro update!</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-february-2024</link>
+            <guid isPermaLink="false">2nd February 2024</guid>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
