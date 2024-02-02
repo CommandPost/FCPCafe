@@ -254,7 +254,7 @@ This is the first release of Final Cut Pro for iPad!
 
 ## Mac
 
-### Final Cut Pro 10.7
+### Final Cut Pro 10.7.1
 
 **Released December 21, 2023**
 
