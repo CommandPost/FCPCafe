@@ -53,7 +53,7 @@ It looks like this in Final Cut Pro:
 
 There's **1 second** of Gap at the start then a single Synchronised Clip.
 
-The Synchronised Clip starts at `01:02:04:04` (3724.16 seconds / 93104 frames).
+The Synchronised Clip starts at `01:02:04:04` (3724.16 seconds / 93104 frames) in timeline/project time.
 
 When you double click on it or **Clip > Open Clip** from the menubar, it looks like this:
 
@@ -63,13 +63,13 @@ On the Primary Storyline we have a Gap, and then a **1920x1080 @ 25fps** ProRes 
 
 Attached to the Gap is an audio clip underneath the Primary Storyline.
 
-The Synchronised Clip starts at a `00:00:00:00` timecode value.
+The Synchronised Clip starts at a `00:00:00:00` timecode value in timeline/project time.
 
 The Gap duration is `00:00:41:22` (41.88 seconds / 1047 frames).
 
-This means the Video Clips starts at `00:00:41:22` (28.77 seconds / 719 frames) as well.
+This means the Video Clips starts at `00:00:41:22` (41.88 seconds / 1047 frames) as well.
 
-The duration of the Video clip is `00:01:00:00` (60.00 seconds / 1500 frames).
+The duration of the Video clip is `00:01:00:00` (60 seconds / 1500 frames).
 
 The start source timecode of the Video Clip is `03:04:05:06` (11045.24 seconds / 276131 frames).
 
@@ -130,21 +130,13 @@ Looking at the `tcStart`, we can do the maths and confirm it matches the timecod
 
 > 7446320 / 2000 = 3723.16 seconds (`01:02:03:04` / 93079 frames)
 
-Within the `sequence` we have the `spine`. Within the `spine` he have our Gap and Synchronised Clip:
+Within the `sequence` we have the `spine`. Within the `spine` he have our Gap and Synchronised Clip (the `...` signals things that have been removed for simplicity):
 
 ```xml
 <spine>
     <gap name="Gap" offset="37231600/10000s" start="3600s" duration="1s"/>
     <sync-clip offset="37241600/10000s" name="Sync Clip" start="132100/2500s" duration="78800/2500s" tcFormat="NDF">
-        <spine>
-            <gap name="Gap" offset="0s" start="3600s" duration="104700/2500s">
-                <asset-clip ref="r2" lane="-1" offset="3600s" name="Veaceslav Draganov - Cloud Drawings" duration="127875689/720000s" format="r3" audioRole="music"/>
-            </gap>
-            <asset-clip ref="r4" offset="104700/2500s" name="Test Clip - 25fps - 03-04-05-06" start="27613100/2500s" duration="60s" tcFormat="NDF" audioRole="dialogue"/>
-        </spine>
-        <sync-source sourceID="storyline">
-            <audio-role-source role="dialogue.dialogue-1" active="0"/>
-        </sync-source>
+        ...
     </sync-clip>
 </spine>
 ```
@@ -153,7 +145,19 @@ The Gap offset is the same as our `tcStart`:
 
 > 37231600 / 10000 = 3723.16 seconds (`01:02:03:04` / 93079 frames)
 
-The Video clip is actually an `asset-clip`.
+If we look inside the `sync-clip`, the Video clip inside is actually an `asset-clip`.
+
+```xml
+<sync-clip offset="37241600/10000s" name="Sync Clip" start="132100/2500s" duration="78800/2500s" tcFormat="NDF">
+    <spine>
+        <gap name="Gap" offset="0s" start="3600s" duration="104700/2500s">
+            ...
+        </gap>
+        <asset-clip ref="r4" offset="104700/2500s" name="Test Clip - 25fps - 03-04-05-06" start="27613100/2500s" duration="60s" tcFormat="NDF" audioRole="dialogue"/>
+    </spine>
+    ...
+</sync-clip>
+```
 
 If we look at the `offset`, it's the same as the Gap Duration:
 
@@ -163,35 +167,69 @@ If we look at the `start`, it's the same as the timecode we calcuated earlier:
 
 > 27613100 / 2500 = 11045.24 seconds (`03:04:05:06` / 276131 frames)
 
-This is the start timecode of the source clip (i.e. the first frame of the clip).
+This is the start timecode of the source clip (i.e. the first frame of the clip) - `03:04:05:06`.
 
-Now let's say we wanted to find the source timecode of the Video clip at the timeline timecode of `01:02:07:06` (3727.24 seconds / 93181 frames).
+Now let's say we wanted to find the source timecode of the Video clip at the timeline/project timecode of `01:02:07:06` (3727.24 seconds / 93181 frames).
 
-We can double click on the Synchronised Clip in Final Cut Pro to get the answer: `03:04:19:07` (11059.28 seconds / 276482 frames).
+For now, we'll just cheat! We can double-click on the Synchronised Clip in Final Cut Pro, and use the **Source Timecode** window to get the answer:
 
-We know it's 4.08 seconds from the start:
+> `03:04:19:07` (11059.28 seconds / 276482 frames).
+
+We know that the point of interest (`01:02:07:06`) is 4.08 seconds from the start of the timeline/project because:
 
 > 3727.24 - 3723.16 = 4.08 seconds
 
-We know that inside the Synchronised Clip, the timecode position we want is at `00:00:55:23` (55.92 seconds / 1398 frames).
+We know that **inside** the Synchronised Clip, the timecode position we want is at `00:00:55:23` (55.92 seconds / 1398 frames) in timeline/project time.
 
-Let's now go back and have a look at the `sync-clip` again.
+Let's now go back and have a look at the `sync-clip` again:
 
-The `offset` is:
+```xml
+<sync-clip offset="37241600/10000s" name="Sync Clip" start="132100/2500s" duration="78800/2500s" tcFormat="NDF">
+```
+
+The `offset` value is:
 
 > 37241600 / 10000 = 3724.16 seconds (`01:02:04:04` / 93104 frames).
 
-This is the timeline timecode of where the `sync-clip` starts.
+This is the timeline/project timecode of where the `sync-clip` **starts**.
 
-The `start` is:
+The `start` value is:
 
 > 132100 / 2500 = 52.84 seconds (`00:00:52:21` / 1321 frames)
 
-This value is the start of the visible range of the Compound Clip as used in the timeline:
+This value is the start of the visible range of the Compound Clip as used in the timeline/project:
 
 ![](/static/fcpxml-example-04.png)
 
 So how do we get the source timecode of the Video Clip at `01:02:07:06` (3727.24 seconds / 93181 frames)?
+
+We know that the `sync-clip` starts at `00:00:01:00` because, `sync-clip.offset` minus `sequence.tcStart`:
+
+> `sync-clip.offset` - `sequence.tcStart` = (37241600/10000) - (7446320/2000) = 1 second
+
+We know that the timeline/project timecode value of where the `sync-clip` starts in the timeline/project is:
+
+> `sequence.tcStart` + (`sync-clip.offset` - `sequence.tcStart`) = (7446320/2000) + (37241600/10000) - (7446320/2000) = 3724.16 seconds
+
+If we minus the source timecode we want (i.e. `01:02:07:06` / 3727.24 seconds / 93181 frames) from that value we get:
+
+> 3727.24 - 3724.16 = 3.08 seconds (`00:00:03:02` / 77 frames)
+
+So we know that the frame we're after is 3.08 seconds AFTER the start of the `sync-clip` in the timeline.
+
+To recap:
+
+- `sequence.tcStart` is the start timecode of the project/timeline = 7446320/2000s / 3723.16 seconds / `01:02:03:04` / 93079 frames
+
+- `sync-clip.offset` is the timeline timecode of where the `sync-clip` starts = 37241600/10000s / 3724.16 seconds / `01:02:04:04` / 93104 frames
+- `sync-clip.start` is the start of the visible range of the Compound Clip as used in the timeline = 132100/2500s / 52.84 seconds `00:00:52:21` / 1321 frames
+
+- `asset-clip.offset` is the timeline timecode (inside the `sync-clip`) of where the `asset-clip` starts = 104700/2500s / 41.88 seconds / `00:00:41:22` / 1047 frames
+- `asset-clip.start` is the start timecode of the source clip = 27613100/2500s / 11045.24 seconds / `03:04:05:06` / 276131 frames
+
+There's 10.96 seconds (`00:00:10:24` / 1316 frames) at the start of the `asset-clip` that's not visible on the timeline (i.e. the start of the clip has been trimmed).
+
+To find the exact source timecode of the `asset-clip` at the timeline/project timecode of `01:02:07:06` (which we already know is `03:04:19:07` / 11059.28 seconds / 276482 frames), we need to...
 
 _**...to be continued.**_
 
