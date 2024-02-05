@@ -221,7 +221,7 @@ By going **inside** the Synchronised Clip in Final Cut Pro, we know that the tim
 
 We can confirm this with maths by doing:
 
-> `asset-clip.offset` - `asset-clip.start` = (104700/2500) - (27613100/2500) = -11003.36 seconds
+> `asset-clip.offset` - `asset-clip.start` = (104700/2500) - (27613100/2500) = -11003.36 seconds<br />
 > 11059.28 - 11003.36 = 55.92
 
 Let's now go back and have a look at the `sync-clip` again:
@@ -319,7 +319,7 @@ This time our frame of interest is: `01:02:14:06` / 3734.24 seconds / 93356 fram
 
 We we use the same formula, we get:
 
-> `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset`
+> `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset`<br />
 > (27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / `03:04:19:17` / 276492 frames
 
 ---
