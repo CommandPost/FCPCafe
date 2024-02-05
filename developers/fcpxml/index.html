@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760422842370">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760423138031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.760422842370" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760423138031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760422842370" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760423138031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760422842370" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760422842370" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760423138031" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760423138031" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -579,7 +579,7 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 <p>By going <strong>inside</strong> the Synchronised Clip in Final Cut Pro, we know that the timecode position we want is at <code v-pre>00:00:55:23</code> (55.92 seconds / 1398 frames) in timeline/container time.</p>
 <p>We can confirm this with maths by doing:</p>
 <blockquote>
-<p><code v-pre>asset-clip.offset</code> - <code v-pre>asset-clip.start</code> = (104700/2500) - (27613100/2500) = -11003.36 seconds
+<p><code v-pre>asset-clip.offset</code> - <code v-pre>asset-clip.start</code> = (104700/2500) - (27613100/2500) = -11003.36 seconds<br />
 11059.28 - 11003.36 = 55.92</p>
 </blockquote>
 <p>Let&#x27;s now go back and have a look at the <code v-pre>sync-clip</code> again:</p>
@@ -675,7 +675,7 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 </doc-codeblock></div>
 <p>We we use the same formula, we get:</p>
 <blockquote>
-<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code>
+<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code><br />
 (27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / <code v-pre>03:04:19:17</code> / 276492 frames</p>
 </blockquote>
 <hr>
