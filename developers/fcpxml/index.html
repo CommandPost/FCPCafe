@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760232558370">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760419328084">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.760232558370" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760419328084" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760232558370" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760419328084" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760232558370" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760232558370" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760419328084" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760419328084" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -347,8 +347,47 @@
     </h1>
 </doc-anchor-target>
 <p>This section of the site is dedicated to <strong>FCPXML</strong>.</p>
-<p>You can find the official Workflow Extensions documentation <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p>You can also read <a href="../../developer-case-studies/fcpxml/">Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Clarke</a> on FCP Cafe.</p>
+<p>FCPXML is insanely complicated and confusing. Because all its time units are in rational numbers, it also makes it hard to easily work things out without a spreadsheet, drawing or calculator.</p>
+<p>Sadly, even ChatGPT gets confused by it.</p>
+<p>The purpose of this page is to try and make FCPXML less scary with examples and breakdowns.</p>
+<p>If you have questions about FCPXML, <a href="../../contribute/">please let us know</a> so that we can update this page accordingly.</p>
+<hr>
+<doc-anchor-target id="official-documentation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#official-documentation">#</doc-anchor-trigger>
+        <span>Official Documentation</span>
+    </h3>
+</doc-anchor-target>
+<p>You can find the official FCPXML documentation <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<doc-anchor-target id="getting-started">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getting-started">#</doc-anchor-trigger>
+        <span>Getting Started</span>
+    </h3>
+</doc-anchor-target>
+<p>You can read <a href="../../developer-case-studies/fcpxml/">Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Clarke</a> on FCP Cafe, which gives a fantastic introduction to FCPXML.</p>
+<hr>
+<doc-anchor-target id="dawfilekit">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dawfilekit">#</doc-anchor-trigger>
+        <span>DAWFileKit</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://github.com/orchetect" class="outbound" target="_blank"><span>Steffan Andrews</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> has created an amazing Swift Framework called DAWFileKit, which can read and process FCPXML.</p>
+<p>You can learn more <a href="https://github.com/orchetect/DAWFileKit" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<doc-anchor-target id="pipeline-neo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pipeline-neo">#</doc-anchor-trigger>
+        <span>Pipeline Neo</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://github.com/reuelk/pipeline" class="outbound" target="_blank"><span>Pipeline</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> was originally developed by <a href="https://github.com/reuelk" class="outbound" target="_blank"><span>Reuel Kim</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> and it is no longer maintained. <strong>Pipeline Neo</strong> was created as a spin-off project to fix and update the library when necessary.</p>
+<p><strong>Pipeline Neo</strong> extends the <code v-pre>XMLDocument</code> and <code v-pre>XMLElement</code> classes in the Foundation framework. It adds properties and methods that simplify the creation and management of FCPXML document structure.</p>
+<p><strong>Pipeline Neo</strong> also includes supplemental classes and a <code v-pre>CMTime</code> extension to help in the processing of FCPXML data. For example, you can easily convert a timing value that looks like <code v-pre>59983924/30000s</code> in the XML to <code v-pre>00:33:19,464</code> for display in an app.</p>
+<p>In most cases, we&#x27;d recommend <a href="https://github.com/orchetect/DAWFileKit" class="outbound" target="_blank"><span>DAWFileKit</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> instead of Pipeline Neo, however we include it here as it does have some functionality that DAWFileKit is currently lacking.</p>
+<p>You can learn more <a href="https://github.com/TheAcharya/pipeline-neo" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <doc-anchor-target id="preferred-xml-editor">
     <h3>
@@ -537,7 +576,12 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 <blockquote>
 <p>3727.24 - 3723.16 = 4.08 seconds</p>
 </blockquote>
-<p>We know that <strong>inside</strong> the Synchronised Clip, the timecode position we want is at <code v-pre>00:00:55:23</code> (55.92 seconds / 1398 frames) in timeline/project time.</p>
+<p>By going <strong>inside</strong> the Synchronised Clip in Final Cut Pro, we know that the timecode position we want is at <code v-pre>00:00:55:23</code> (55.92 seconds / 1398 frames) in timeline/container time.</p>
+<p>We can confirm this with maths by doing:</p>
+<blockquote>
+<p><code v-pre>asset-clip.offset</code> - <code v-pre>asset-clip.start</code> = (104700/2500) - (27613100/2500) = -11003.36 seconds
+11059.28 - 11003.36 = 55.92</p>
+</blockquote>
 <p>Let&#x27;s now go back and have a look at the <code v-pre>sync-clip</code> again:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-markup"><code v-pre class="language-markup">&lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;</code></pre>
@@ -571,22 +615,69 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 <p>3727.24 - 3724.16 = 3.08 seconds (<code v-pre>00:00:03:02</code> / 77 frames)</p>
 </blockquote>
 <p>So we know that the frame we&#x27;re after is 3.08 seconds AFTER the start of the <code v-pre>sync-clip</code> in the timeline.</p>
+<p>There&#x27;s 10.96 seconds (<code v-pre>00:00:10:24</code> / 1316 frames) at the start of the <code v-pre>asset-clip</code> that&#x27;s not visible on the timeline (i.e. the start of the clip has been trimmed).</p>
 <p>To recap:</p>
 <ul>
+<li><p><code v-pre>frameOfInterest</code> is the project/timeline value of the frame we&#x27;re interested in = 3727.24 seconds / <code v-pre>01:02:07:06</code> / 93181 frames</p>
+</li>
 <li><p><code v-pre>sequence.tcStart</code> is the start timecode of the project/timeline = 7446320/2000s / 3723.16 seconds / <code v-pre>01:02:03:04</code> / 93079 frames</p>
 </li>
-<li><p><code v-pre>sync-clip.offset</code> is the timeline timecode of where the <code v-pre>sync-clip</code> starts = 37241600/10000s / 3724.16 seconds / <code v-pre>01:02:04:04</code> / 93104 frames</p>
+<li><p><code v-pre>sync-clip.offset</code> is the timeline/project timecode of where the <code v-pre>sync-clip</code> starts = 37241600/10000s / 3724.16 seconds / <code v-pre>01:02:04:04</code> / 93104 frames</p>
 </li>
-<li><p><code v-pre>sync-clip.start</code> is the start of the visible range of the Compound Clip as used in the timeline = 132100/2500s / 52.84 seconds <code v-pre>00:00:52:21</code> / 1321 frames</p>
+<li><p><code v-pre>sync-clip.start</code> is the timeline/container timecode of the start of the visible range of the Compound Clip as used in the timeline = 132100/2500s / 52.84 seconds <code v-pre>00:00:52:21</code> / 1321 frames</p>
 </li>
-<li><p><code v-pre>asset-clip.offset</code> is the timeline timecode (inside the <code v-pre>sync-clip</code>) of where the <code v-pre>asset-clip</code> starts = 104700/2500s / 41.88 seconds / <code v-pre>00:00:41:22</code> / 1047 frames</p>
+<li><p><code v-pre>asset-clip.offset</code> is the timeline/container timecode (inside the <code v-pre>sync-clip</code>) of where the <code v-pre>asset-clip</code> starts = 104700/2500s / 41.88 seconds / <code v-pre>00:00:41:22</code> / 1047 frames</p>
 </li>
 <li><p><code v-pre>asset-clip.start</code> is the start timecode of the source clip = 27613100/2500s / 11045.24 seconds / <code v-pre>03:04:05:06</code> / 276131 frames</p>
 </li>
 </ul>
-<p>There&#x27;s 10.96 seconds (<code v-pre>00:00:10:24</code> / 1316 frames) at the start of the <code v-pre>asset-clip</code> that&#x27;s not visible on the timeline (i.e. the start of the clip has been trimmed).</p>
-<p>To find the exact source timecode of the <code v-pre>asset-clip</code> at the timeline/project timecode of <code v-pre>01:02:07:06</code> (which we already know is <code v-pre>03:04:19:07</code> / 11059.28 seconds / 276482 frames), we need to...</p>
-<p><em><strong>...to be continued.</strong></em></p>
+<p>Here&#x27;s a hand-drawn image to visually explain:</p>
+<p><figure class="content-center">
+    <img src="../../static/fcpxml-drawing.jpg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To find the exact source timecode of the <code v-pre>asset-clip</code> at the timeline/project timecode of <code v-pre>01:02:07:06</code> (which we already know is <code v-pre>03:04:19:07</code> / 11059.28 seconds / 276482 frames), we can use the following formula:</p>
+<blockquote>
+<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code></p>
+</blockquote>
+<p>For example:</p>
+<blockquote>
+<p>(27613100/2500) + 3727.24 - (104700/2500) + (132100/2500) - (37241600/10000) = 11059.28</p>
+</blockquote>
+<p>Let&#x27;s try another example.</p>
+<p>This time our frame of interest is: <code v-pre>01:02:14:06</code> / 3734.24 seconds / 93356 frames</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+
+&lt;fcpxml version=&quot;1.11&quot;&gt;
+    &lt;resources&gt;
+        &lt;format id=&quot;r1&quot; name=&quot;FFVideoFormat1080p25&quot; frameDuration=&quot;100/2500s&quot; width=&quot;1920&quot; height=&quot;1080&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;asset id=&quot;r2&quot; name=&quot;Test Clip - 25fps - 03-04-05-06&quot; uid=&quot;F0E3A9BB00C452BBB3B3EA82BB6434E1&quot; start=&quot;27613100/2500s&quot; duration=&quot;60s&quot; hasVideo=&quot;1&quot; format=&quot;r1&quot; hasAudio=&quot;1&quot; videoSources=&quot;1&quot; audioSources=&quot;1&quot; audioChannels=&quot;2&quot; audioRate=&quot;48000&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;F0E3A9BB00C452BBB3B3EA82BB6434E1&quot; src=&quot;file:///Folder/Test%20Clip%20-%2025fps%20-%2003-04-05-06.mov&quot;/&gt;
+        &lt;/asset&gt;
+    &lt;/resources&gt;
+    &lt;project name=&quot;Test 2&quot; uid=&quot;0E5B7C32-FFFB-479E-91F2-7DFC50A1772B&quot; modDate=&quot;2024-02-05 14:07:10 +1100&quot;&gt;
+        &lt;sequence format=&quot;r1&quot; duration=&quot;290800/10000s&quot; tcStart=&quot;7446320/2000s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;
+            &lt;spine&gt;
+                &lt;gap name=&quot;Gap&quot; offset=&quot;37231600/10000s&quot; start=&quot;3600s&quot; duration=&quot;59600/10000s&quot;/&gt;
+                &lt;sync-clip offset=&quot;37291200/10000s&quot; name=&quot;Sync Clip One Clip&quot; start=&quot;23300/2500s&quot; duration=&quot;57800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;
+                    &lt;asset-clip ref=&quot;r2&quot; offset=&quot;0s&quot; name=&quot;Test Clip - 25fps - 03-04-05-06&quot; start=&quot;27613100/2500s&quot; duration=&quot;60s&quot; tcFormat=&quot;NDF&quot; audioRole=&quot;dialogue&quot;/&gt;
+                    &lt;sync-source sourceID=&quot;storyline&quot;&gt;
+                        &lt;audio-role-source role=&quot;dialogue.dialogue-1&quot; active=&quot;0&quot;/&gt;
+                    &lt;/sync-source&gt;
+                &lt;/sync-clip&gt;
+            &lt;/spine&gt;
+        &lt;/sequence&gt;
+    &lt;/project&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p>We we use the same formula, we get:</p>
+<blockquote>
+<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code>
+(27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / <code v-pre>03:04:19:17</code> / 276492 frames</p>
+</blockquote>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
