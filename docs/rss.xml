@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 06 Feb 2024 09:48:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Feb 2024 09:51:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 06 Feb 2024 09:48:20 GMT</pubDate>
+        <pubDate>Tue, 06 Feb 2024 09:51:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4652,6 +4652,18 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>Here's a YouTube video which explains the product:</p>
 <p><a href="https://www.youtube.com/watch?v=2DUlVqvxa_0"><img src="/static/seed-de-flicker.jpeg" alt=""></a></p>
 <p>You can learn more and buy <a href="https://www.yourseedmedia.com/seed-de-flicker/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-february-2024</link>
+            <guid isPermaLink="false">6th February 2024</guid>
+            <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th February 2024]]></title>
+            <description><![CDATA[<p><strong>Producers Best Friend v1.4.68</strong> is out now with the following fix:</p>
+<ul>
+<li>Critical bug fix for a potential crash caused by decoding media security-scoped bookmarks when making thumbnails on macOS Sonoma</li>
+</ul>
+<p>You can find on the Mac App Store <a href="https://apps.apple.com/us/app/producers-best-friend/id688519794?mt=12">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-february-2024</link>
             <guid isPermaLink="false">6th February 2024</guid>
