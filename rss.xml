@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 05 Feb 2024 04:30:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 04:33:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 05 Feb 2024 04:30:05 GMT</pubDate>
+        <pubDate>Mon, 05 Feb 2024 04:33:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4616,6 +4616,35 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#2nd-february-2024</link>
             <guid isPermaLink="false">2nd February 2024</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2024]]></title>
+            <description><![CDATA[<p>For those following Apple's Vision Pro, here's some videos and articles we found interesting:</p>
+<ul>
+<li><a href="https://www.vanityfair.com/news/tim-cook-apple-vision-pro">Why Tim Cook Is Going All In on the Apple Vision Pro</a></li>
+<li><a href="https://www.ifixit.com/News/90137/vision-pro-teardown-why-those-fake-eyes-look-so-weird">iFixIt: Vision Pro Teardown—Why Those Fake Eyes Look So Weird</a></li>
+<li><a href="https://www.youtube.com/watch?v=86Gy035z_KA">Marques Brownlee: Apple Vision Pro Review: Tomorrow's Ideas... Today's Tech!</a></li>
+<li><a href="https://www.youtube.com/watch?v=UvkgmyfMPks">Casey Neistat: The thing no one will say about Apple Vision Pro</a></li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2024</link>
+            <guid isPermaLink="false">5th February 2024</guid>
+            <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2024]]></title>
+            <description><![CDATA[<p><strong>X2Pro5 v5.0.31</strong> is out now with the following improvements:</p>
+<ul>
+<li>32-bit floating point audio is converted to 32-bit linear audio to allow Pro Tools to import generated AAFs</li>
+<li>Fixed missing audio data in AAF</li>
+<li>Correctly using proxy audio rather than try to find the original audio</li>
+<li>Corrected display of channel names within certain versions of ProTools</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/us/app/x2pro5/id6467014654">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2024</link>
+            <guid isPermaLink="false">5th February 2024</guid>
+            <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
