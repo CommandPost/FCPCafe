@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 05 Feb 2024 04:33:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Feb 2024 09:48:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 05 Feb 2024 04:33:06 GMT</pubDate>
+        <pubDate>Tue, 06 Feb 2024 09:48:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4645,6 +4645,17 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#5th-february-2024</link>
             <guid isPermaLink="false">5th February 2024</guid>
             <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th February 2024]]></title>
+            <description><![CDATA[<p><strong>George Edmondson</strong> from <strong>Seed Creative</strong> (and the guy from all the MotionVFX tutorials!) has discounted his <strong>Seed De-Flicker</strong> plugin to USD$10 for a limited time only.</p>
+<p>Here's a YouTube video which explains the product:</p>
+<p><a href="https://www.youtube.com/watch?v=2DUlVqvxa_0"><img src="/static/seed-de-flicker.jpeg" alt=""></a></p>
+<p>You can learn more and buy <a href="https://www.yourseedmedia.com/seed-de-flicker/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-february-2024</link>
+            <guid isPermaLink="false">6th February 2024</guid>
+            <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
