@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760528824164">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760591113666">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.760528824164" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760591113666" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760528824164" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760591113666" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760528824164" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760528824164" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760591113666" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760591113666" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -352,36 +352,55 @@
 <p>The purpose of this page is to try and make FCPXML less scary with examples and breakdowns.</p>
 <p>If you have questions about FCPXML, <a href="../../contribute/">please let us know</a> so that we can update this page accordingly.</p>
 <hr>
-<doc-anchor-target id="official-documentation">
+<doc-anchor-target id="frequently-asked-questions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frequently-asked-questions">#</doc-anchor-trigger>
+        <span>Frequently Asked Questions</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="why-does-fcpxml-use-rational-numbers">
     <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-does-fcpxml-use-rational-numbers">#</doc-anchor-trigger>
+        <span>Why does FCPXML use Rational Numbers?</span>
+    </h3>
+</doc-anchor-target>
+<p>Final Cut Pro expresses time values as a rational number of seconds with a 64-bit numerator and a 32-bit denominator.</p>
+<p>Frame rates for NTSC-compatible media, for example, use a frame duration of 1001/30000s (29.97 fps) or 1001/60000s (59.94 fps).</p>
+<p>If a time value is equal to a whole number of seconds, Final Cut Pro may reduce the fraction into whole seconds (for example, 5s).</p>
+<p>So... Why?</p>
+<p>Because one of Apple&#x27;s core frameworks/technologies, <a href="https://developer.apple.com/documentation/coremedia" class="outbound" target="_blank"><span>Core Media</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> also represents time as a rational value, with a time value as the numerator and timescale as the denominator.</p>
+<p>The structure can represent a specific numeric time in the media timeline, and can also represent nonnumeric values like invalid and indefinite times or positive and negative infinity.</p>
+<hr>
+<doc-anchor-target id="official-documentation">
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#official-documentation">#</doc-anchor-trigger>
         <span>Official Documentation</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p>You can find the official FCPXML documentation <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <doc-anchor-target id="getting-started">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#getting-started">#</doc-anchor-trigger>
         <span>Getting Started</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p>You can read <a href="../../developer-case-studies/fcpxml/">Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Clarke</a> on FCP Cafe, which gives a fantastic introduction to FCPXML.</p>
 <hr>
 <doc-anchor-target id="dawfilekit">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#dawfilekit">#</doc-anchor-trigger>
         <span>DAWFileKit</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p><a href="https://github.com/orchetect" class="outbound" target="_blank"><span>Steffan Andrews</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> has created an amazing Swift Framework called DAWFileKit, which can read and process FCPXML.</p>
 <p>You can learn more <a href="https://github.com/orchetect/DAWFileKit" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <doc-anchor-target id="pipeline-neo">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#pipeline-neo">#</doc-anchor-trigger>
         <span>Pipeline Neo</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p><a href="https://github.com/reuelk/pipeline" class="outbound" target="_blank"><span>Pipeline</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> was originally developed by <a href="https://github.com/reuelk" class="outbound" target="_blank"><span>Reuel Kim</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> and it is no longer maintained. <strong>Pipeline Neo</strong> was created as a spin-off project to fix and update the library when necessary.</p>
 <p><strong>Pipeline Neo</strong> extends the <code v-pre>XMLDocument</code> and <code v-pre>XMLElement</code> classes in the Foundation framework. It adds properties and methods that simplify the creation and management of FCPXML document structure.</p>
@@ -390,19 +409,19 @@
 <p>You can learn more <a href="https://github.com/TheAcharya/pipeline-neo" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <doc-anchor-target id="preferred-xml-editor">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#preferred-xml-editor">#</doc-anchor-trigger>
         <span>Preferred XML Editor</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p>I&#x27;m a massive fan of <a href="https://www.barebones.com/products/bbedit/" class="outbound" target="_blank"><span>BBEdit 14</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>It has a 30 day free trial, and is also available on the Mac App Store.</p>
 <hr>
 <doc-anchor-target id="dtd-validation">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#dtd-validation">#</doc-anchor-trigger>
         <span>DTD Validation</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p>macOS has a built in XML lint tool - allowing you to validate a <code v-pre>FCPXML</code> document against it&#x27;s <code v-pre>DTD</code> file.</p>
 <div class="flex mb-6">
@@ -449,10 +468,10 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
 </div>
 <hr>
 <doc-anchor-target id="getting-source-timecode">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#getting-source-timecode">#</doc-anchor-trigger>
         <span>Getting Source Timecode</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <p>I have created a very simple Final Cut Project project.</p>
 <p>It&#x27;s <strong>1920x1080 @ 25fps</strong>, with a start timecode value of <code v-pre>01:02:03:04</code> (3723.16 seconds / 93079 frames):</p>
@@ -673,11 +692,106 @@ Simply type <code v-pre>xmllint --dtdvalid</code>, then drag in the <code v-pre>
     &lt;/project&gt;
 &lt;/fcpxml&gt;</code></pre>
 </doc-codeblock></div>
-<p>We we use the same formula, we get:</p>
+<p>If we use the same formula, we get:</p>
 <blockquote>
 <p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code><br />
 (27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / <code v-pre>03:04:19:17</code> / 276492 frames</p>
 </blockquote>
+<p>Now to complicate things, let&#x27;s do the same idea with a <strong>Multicam Clip</strong>.</p>
+<p>Here&#x27;s our FCPXML:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+
+&lt;fcpxml version=&quot;1.11&quot;&gt;
+    &lt;resources&gt;
+        &lt;format id=&quot;r1&quot; name=&quot;FFVideoFormat1080p24&quot; frameDuration=&quot;100/2400s&quot; width=&quot;1920&quot; height=&quot;1080&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;media id=&quot;r2&quot; name=&quot;33-3-1&quot; uid=&quot;wZrV8FLjRn+s3t95Kzdlmg&quot; modDate=&quot;2024-02-07 12:23:51 +1100&quot;&gt;
+            &lt;multicam format=&quot;r3&quot; tcStart=&quot;20495/24s&quot; tcFormat=&quot;NDF&quot; renderFormat=&quot;FFRenderFormatProRes422LT&quot;&gt;
+                &lt;mc-angle name=&quot;Cam A&quot; angleID=&quot;angle1_236353&quot;&gt;
+                    &lt;gap name=&quot;Gap&quot; offset=&quot;0s&quot; start=&quot;3600s&quot; duration=&quot;4/24s&quot;/&gt;
+                    &lt;sync-clip offset=&quot;4/24s&quot; name=&quot;33-3-1 Cam A&quot; start=&quot;20495/24s&quot; duration=&quot;1332/24s&quot; format=&quot;r4&quot; tcFormat=&quot;NDF&quot;&gt;
+                        &lt;asset-clip ref=&quot;r5&quot; offset=&quot;20495/24s&quot; name=&quot;33-3-1&quot; start=&quot;20495/24s&quot; duration=&quot;1332/24s&quot; format=&quot;r1&quot; tcFormat=&quot;NDF&quot;&gt;
+                            &lt;clip lane=&quot;-1&quot; offset=&quot;846s&quot; name=&quot;33-3T01&quot; start=&quot;846s&quot; duration=&quot;1523/24s&quot; format=&quot;r6&quot; tcFormat=&quot;NDF&quot;&gt;
+                                &lt;audio ref=&quot;r7&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Mix&quot; srcCh=&quot;1&quot;&gt;
+                                    &lt;audio ref=&quot;r7&quot; lane=&quot;-2&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Alex&quot; srcCh=&quot;3&quot;/&gt;
+                                    &lt;audio ref=&quot;r7&quot; lane=&quot;-1&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Boom 1&quot; srcCh=&quot;2&quot;/&gt;
+                                &lt;/audio&gt;
+                                &lt;metadata&gt;
+                                    &lt;md key=&quot;com.apple.proapps.studio.reel&quot; value=&quot;SPAA004&quot;/&gt;
+                                    &lt;md key=&quot;com.apple.proapps.studio.scene&quot; value=&quot;33-3&quot;/&gt;
+                                    &lt;md key=&quot;com.apple.proapps.studio.shot&quot; value=&quot;01&quot;/&gt;
+                                &lt;/metadata&gt;
+                            &lt;/clip&gt;
+                        &lt;/asset-clip&gt;
+                    &lt;/sync-clip&gt;
+                &lt;/mc-angle&gt;
+                &lt;mc-angle name=&quot;Cam B&quot; angleID=&quot;angle2_5913&quot;&gt;
+                    &lt;gap name=&quot;Gap&quot; offset=&quot;0s&quot; start=&quot;20495/24s&quot; duration=&quot;79/24s&quot;/&gt;
+                    &lt;sync-clip offset=&quot;79/24s&quot; name=&quot;33-3-1 Cam B&quot; start=&quot;20573/24s&quot; duration=&quot;1217/24s&quot; format=&quot;r4&quot; tcFormat=&quot;NDF&quot;&gt;
+                        &lt;asset-clip ref=&quot;r8&quot; offset=&quot;20573/24s&quot; name=&quot;33-3-1&quot; start=&quot;20573/24s&quot; duration=&quot;1217/24s&quot; format=&quot;r1&quot; tcFormat=&quot;NDF&quot;&gt;
+                            &lt;clip lane=&quot;-1&quot; offset=&quot;846s&quot; name=&quot;33-3T01&quot; start=&quot;846s&quot; duration=&quot;743/12s&quot; format=&quot;r6&quot; tcFormat=&quot;NDF&quot;&gt;
+                                &lt;audio ref=&quot;r7&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Mix&quot; srcCh=&quot;1&quot;&gt;
+                                    &lt;audio ref=&quot;r7&quot; lane=&quot;-2&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Alex&quot; srcCh=&quot;3&quot;/&gt;
+                                    &lt;audio ref=&quot;r7&quot; lane=&quot;-1&quot; offset=&quot;609120015/720000s&quot; start=&quot;609120015/720000s&quot; duration=&quot;70s&quot; role=&quot;dialogue.Boom 1&quot; srcCh=&quot;2&quot;/&gt;
+                                &lt;/audio&gt;
+                            &lt;/clip&gt;
+                        &lt;/asset-clip&gt;
+                    &lt;/sync-clip&gt;
+                &lt;/mc-angle&gt;
+            &lt;/multicam&gt;
+        &lt;/media&gt;
+        &lt;format id=&quot;r3&quot; frameDuration=&quot;1/24s&quot; width=&quot;1920&quot; height=&quot;817&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;format id=&quot;r4&quot; frameDuration=&quot;1/24s&quot; width=&quot;1920&quot; height=&quot;817&quot;/&gt;
+        &lt;asset id=&quot;r5&quot; name=&quot;A_0006C026_230427_231258_p1CR1&quot; uid=&quot;EE96BCF7AA1CE838CF6A1C4F10082E15&quot; start=&quot;10493440/12288s&quot; duration=&quot;682496/12288s&quot; hasVideo=&quot;1&quot; format=&quot;r1&quot; videoSources=&quot;1&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;EE96BCF7AA1CE838CF6A1C4F10082E15&quot; src=&quot;file:///Folder/A_0006C026_230427_231258_p1CR1.mov&quot;/&gt;
+        &lt;/asset&gt;
+        &lt;format id=&quot;r6&quot; name=&quot;FFVideoFormat720p24&quot; frameDuration=&quot;100/2400s&quot; width=&quot;1280&quot; height=&quot;720&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;asset id=&quot;r7&quot; name=&quot;33-3T01&quot; uid=&quot;A3B2B4718BD2E1A076285939AB9A6210&quot; start=&quot;40608001/48000s&quot; duration=&quot;70s&quot; hasAudio=&quot;1&quot; audioSources=&quot;1&quot; audioChannels=&quot;3&quot; audioRate=&quot;48000&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;A3B2B4718BD2E1A076285939AB9A6210&quot; src=&quot;file:///Folder/33-3T01.wav&quot;/&gt;
+        &lt;/asset&gt;
+        &lt;asset id=&quot;r8&quot; name=&quot;B_0004C001_230428_001354_p1CU6&quot; uid=&quot;88A3210D69C7EC80E8B239693F940DFC&quot; start=&quot;10533376/12288s&quot; duration=&quot;623616/12288s&quot; hasVideo=&quot;1&quot; format=&quot;r1&quot; videoSources=&quot;1&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; sig=&quot;88A3210D69C7EC80E8B239693F940DFC&quot; src=&quot;file:///Folder/B_0004C001_230428_001354_p1CU6.mov&quot;/&gt;
+        &lt;/asset&gt;
+    &lt;/resources&gt;
+    &lt;project name=&quot;My Timeline&quot; uid=&quot;9EFD5FEE-0CBE-4BF6-9AA4-80702AE8B90B&quot; modDate=&quot;2024-02-07 13:41:21 +1100&quot;&gt;
+        &lt;sequence format=&quot;r1&quot; duration=&quot;2720/1920s&quot; tcStart=&quot;3600s&quot; tcFormat=&quot;NDF&quot; renderFormat=&quot;FFRenderFormatProRes422LT&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;
+            &lt;spine&gt;
+                &lt;mc-clip ref=&quot;r2&quot; offset=&quot;3600s&quot; name=&quot;33-3-1&quot; start=&quot;1679040/1920s&quot; duration=&quot;2720/1920s&quot;&gt;
+                    &lt;mc-source angleID=&quot;angle1_236353&quot; srcEnable=&quot;audio&quot;&gt;
+                        &lt;audio-role-source role=&quot;dialogue.Alex&quot; active=&quot;0&quot;/&gt;
+                        &lt;audio-role-source role=&quot;dialogue.Boom 1&quot; active=&quot;0&quot;/&gt;
+                        &lt;audio-role-source role=&quot;dialogue.Mix&quot;/&gt;
+                        &lt;adjust-colorConform enabled=&quot;1&quot; autoOrManual=&quot;manual&quot; conformType=&quot;conformNone&quot; peakNitsOfPQSource=&quot;1000&quot; peakNitsOfSDRToPQSource=&quot;203&quot;/&gt;
+                    &lt;/mc-source&gt;
+                    &lt;mc-source angleID=&quot;angle2_5913&quot; srcEnable=&quot;video&quot;/&gt;
+                &lt;/mc-clip&gt;
+            &lt;/spine&gt;
+        &lt;/sequence&gt;
+    &lt;/project&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p>This time our frame of interest is: <code v-pre>01:00:00:18</code> / 3600.75 seconds / 86418 frames</p>
+<p>Looking in Final Cut Pro&#x27;s Source Timecode display we know the answer is: 875.21 seconds</p>
+<p>We can use this same idea:</p>
+<blockquote>
+<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code></p>
+</blockquote>
+<p>However we need to go a few more layers deep:</p>
+<blockquote>
+<p><code v-pre>asset-clip</code> &gt; <code v-pre>sync-clip</code> &gt; <code v-pre>multicam</code> &gt; <code v-pre>mc-clip</code></p>
+</blockquote>
+<p>Confusingly, for the <code v-pre>multicam</code> node, instead of <code v-pre>offset</code> we use <code v-pre>tcStart</code>. Also, because there is no <code v-pre>start</code> value in the <code v-pre>multicam</code> node, we can just use 0.</p>
+<p>The forumula now looks like this:</p>
+<blockquote>
+<p><code v-pre>asset-clip.start</code> + <code v-pre>frameOfInterest</code> − <code v-pre>asset-clip.offset</code> + <code v-pre>sync-clip.start</code> − <code v-pre>sync-clip.offset</code> + 0 - <code v-pre>multicam.tcStart</code> + <code v-pre>mc-clip.start</code> - <code v-pre>mc-clip.offset</code></p>
+</blockquote>
+<p>When we put in the numbers we get:</p>
+<blockquote>
+<p>(20573/24) + 3600.75 - (20573/24) + (20573/24) - (79/24) + (1679040/1920) - (3600) + 0 - (20495/24) = 875.21 seconds</p>
+</blockquote>
+<p>Hopefully this now gives you a good deep understanding of how source timecode works in FCPXML.</p>
+<p>If you have any questions, please post them in <a href="https://github.com/CommandPost/FCPCafe/discussions/categories/developer-discussions">Discussions</a> and we&#x27;ll do our best to answer!</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
