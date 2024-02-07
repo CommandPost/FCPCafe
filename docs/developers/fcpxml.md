@@ -12,19 +12,37 @@ If you have questions about FCPXML, [please let us know](/contribute/) so that w
 
 ---
 
-### Official Documentation
+## Frequently Asked Questions
+
+### Why does FCPXML use Rational Numbers?
+
+Final Cut Pro expresses time values as a rational number of seconds with a 64-bit numerator and a 32-bit denominator.
+
+Frame rates for NTSC-compatible media, for example, use a frame duration of 1001/30000s (29.97 fps) or 1001/60000s (59.94 fps).
+
+If a time value is equal to a whole number of seconds, Final Cut Pro may reduce the fraction into whole seconds (for example, 5s).
+
+So... Why?
+
+Because one of Apple's core frameworks/technologies, [Core Media](https://developer.apple.com/documentation/coremedia) also represents time as a rational value, with a time value as the numerator and timescale as the denominator.
+
+The structure can represent a specific numeric time in the media timeline, and can also represent nonnumeric values like invalid and indefinite times or positive and negative infinity.
+
+---
+
+## Official Documentation
 
 You can find the official FCPXML documentation [here](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc).
 
 ---
 
-### Getting Started
+## Getting Started
 
 You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Clarke](/developer-case-studies/fcpxml/) on FCP Cafe, which gives a fantastic introduction to FCPXML.
 
 ---
 
-### DAWFileKit
+## DAWFileKit
 
 [Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called DAWFileKit, which can read and process FCPXML.
 
@@ -32,7 +50,7 @@ You can learn more [here](https://github.com/orchetect/DAWFileKit).
 
 ---
 
-### Pipeline Neo
+## Pipeline Neo
 
 [Pipeline](https://github.com/reuelk/pipeline) was originally developed by [Reuel Kim](https://github.com/reuelk) and it is no longer maintained. **Pipeline Neo** was created as a spin-off project to fix and update the library when necessary.
 
@@ -46,7 +64,7 @@ You can learn more [here](https://github.com/TheAcharya/pipeline-neo).
 
 ---
 
-### Preferred XML Editor
+## Preferred XML Editor
 
 I'm a massive fan of [BBEdit 14](https://www.barebones.com/products/bbedit/).
 
@@ -54,7 +72,7 @@ It has a 30 day free trial, and is also available on the Mac App Store.
 
 ---
 
-### DTD Validation
+## DTD Validation
 
 macOS has a built in XML lint tool - allowing you to validate a `FCPXML` document against it's `DTD` file.
 
@@ -77,7 +95,7 @@ Simply type `xmllint --dtdvalid`, then drag in the `DTD` file from Finder, and t
 
 ---
 
-### Getting Source Timecode
+## Getting Source Timecode
 
 I have created a very simple Final Cut Project project.
 
@@ -317,10 +335,113 @@ This time our frame of interest is: `01:02:14:06` / 3734.24 seconds / 93356 fram
 </fcpxml>
 ```
 
-We we use the same formula, we get:
+If we use the same formula, we get:
 
 > `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset`<br />
 > (27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / `03:04:19:17` / 276492 frames
+
+Now to complicate things, let's do the same idea with a **Multicam Clip**.
+
+Here's our FCPXML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.11">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <media id="r2" name="33-3-1" uid="wZrV8FLjRn+s3t95Kzdlmg" modDate="2024-02-07 12:23:51 +1100">
+            <multicam format="r3" tcStart="20495/24s" tcFormat="NDF" renderFormat="FFRenderFormatProRes422LT">
+                <mc-angle name="Cam A" angleID="angle1_236353">
+                    <gap name="Gap" offset="0s" start="3600s" duration="4/24s"/>
+                    <sync-clip offset="4/24s" name="33-3-1 Cam A" start="20495/24s" duration="1332/24s" format="r4" tcFormat="NDF">
+                        <asset-clip ref="r5" offset="20495/24s" name="33-3-1" start="20495/24s" duration="1332/24s" format="r1" tcFormat="NDF">
+                            <clip lane="-1" offset="846s" name="33-3T01" start="846s" duration="1523/24s" format="r6" tcFormat="NDF">
+                                <audio ref="r7" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Mix" srcCh="1">
+                                    <audio ref="r7" lane="-2" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Alex" srcCh="3"/>
+                                    <audio ref="r7" lane="-1" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Boom 1" srcCh="2"/>
+                                </audio>
+                                <metadata>
+                                    <md key="com.apple.proapps.studio.reel" value="SPAA004"/>
+                                    <md key="com.apple.proapps.studio.scene" value="33-3"/>
+                                    <md key="com.apple.proapps.studio.shot" value="01"/>
+                                </metadata>
+                            </clip>
+                        </asset-clip>
+                    </sync-clip>
+                </mc-angle>
+                <mc-angle name="Cam B" angleID="angle2_5913">
+                    <gap name="Gap" offset="0s" start="20495/24s" duration="79/24s"/>
+                    <sync-clip offset="79/24s" name="33-3-1 Cam B" start="20573/24s" duration="1217/24s" format="r4" tcFormat="NDF">
+                        <asset-clip ref="r8" offset="20573/24s" name="33-3-1" start="20573/24s" duration="1217/24s" format="r1" tcFormat="NDF">
+                            <clip lane="-1" offset="846s" name="33-3T01" start="846s" duration="743/12s" format="r6" tcFormat="NDF">
+                                <audio ref="r7" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Mix" srcCh="1">
+                                    <audio ref="r7" lane="-2" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Alex" srcCh="3"/>
+                                    <audio ref="r7" lane="-1" offset="609120015/720000s" start="609120015/720000s" duration="70s" role="dialogue.Boom 1" srcCh="2"/>
+                                </audio>
+                            </clip>
+                        </asset-clip>
+                    </sync-clip>
+                </mc-angle>
+            </multicam>
+        </media>
+        <format id="r3" frameDuration="1/24s" width="1920" height="817" colorSpace="1-1-1 (Rec. 709)"/>
+        <format id="r4" frameDuration="1/24s" width="1920" height="817"/>
+        <asset id="r5" name="A_0006C026_230427_231258_p1CR1" uid="EE96BCF7AA1CE838CF6A1C4F10082E15" start="10493440/12288s" duration="682496/12288s" hasVideo="1" format="r1" videoSources="1">
+            <media-rep kind="original-media" sig="EE96BCF7AA1CE838CF6A1C4F10082E15" src="file:///Folder/A_0006C026_230427_231258_p1CR1.mov"/>
+        </asset>
+        <format id="r6" name="FFVideoFormat720p24" frameDuration="100/2400s" width="1280" height="720" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r7" name="33-3T01" uid="A3B2B4718BD2E1A076285939AB9A6210" start="40608001/48000s" duration="70s" hasAudio="1" audioSources="1" audioChannels="3" audioRate="48000">
+            <media-rep kind="original-media" sig="A3B2B4718BD2E1A076285939AB9A6210" src="file:///Folder/33-3T01.wav"/>
+        </asset>
+        <asset id="r8" name="B_0004C001_230428_001354_p1CU6" uid="88A3210D69C7EC80E8B239693F940DFC" start="10533376/12288s" duration="623616/12288s" hasVideo="1" format="r1" videoSources="1">
+            <media-rep kind="original-media" sig="88A3210D69C7EC80E8B239693F940DFC" src="file:///Folder/B_0004C001_230428_001354_p1CU6.mov"/>
+        </asset>
+    </resources>
+    <project name="My Timeline" uid="9EFD5FEE-0CBE-4BF6-9AA4-80702AE8B90B" modDate="2024-02-07 13:41:21 +1100">
+        <sequence format="r1" duration="2720/1920s" tcStart="3600s" tcFormat="NDF" renderFormat="FFRenderFormatProRes422LT" audioLayout="stereo" audioRate="48k">
+            <spine>
+                <mc-clip ref="r2" offset="3600s" name="33-3-1" start="1679040/1920s" duration="2720/1920s">
+                    <mc-source angleID="angle1_236353" srcEnable="audio">
+                        <audio-role-source role="dialogue.Alex" active="0"/>
+                        <audio-role-source role="dialogue.Boom 1" active="0"/>
+                        <audio-role-source role="dialogue.Mix"/>
+                        <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203"/>
+                    </mc-source>
+                    <mc-source angleID="angle2_5913" srcEnable="video"/>
+                </mc-clip>
+            </spine>
+        </sequence>
+    </project>
+</fcpxml>
+```
+
+This time our frame of interest is: `01:00:00:18` / 3600.75 seconds / 86418 frames
+
+Looking in Final Cut Pro's Source Timecode display we know the answer is: 875.21 seconds
+
+We can use this same idea:
+
+> `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset`
+
+However we need to go a few more layers deep:
+
+> `asset-clip` > `sync-clip` > `multicam` > `mc-clip`
+
+Confusingly, for the `multicam` node, instead of `offset` we use `tcStart`. Also, because there is no `start` value in the `multicam` node, we can just use 0.
+
+The forumula now looks like this:
+
+> `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset` + 0 - `multicam.tcStart` + `mc-clip.start` - `mc-clip.offset`
+
+When we put in the numbers we get:
+
+> (20573/24) + 3600.75 - (20573/24) + (20573/24) - (79/24) + (1679040/1920) - (3600) + 0 - (20495/24) = 875.21 seconds
+
+Hopefully this now gives you a good deep understanding of how source timecode works in FCPXML.
+
+If you have any questions, please post them in [Discussions](https://github.com/CommandPost/FCPCafe/discussions/categories/developer-discussions) and we'll do our best to answer!
 
 ---
 
