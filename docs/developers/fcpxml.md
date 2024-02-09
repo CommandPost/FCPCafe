@@ -439,6 +439,72 @@ When we put in the numbers we get:
 
 > (20573/24) + 3600.75 - (20573/24) + (20573/24) - (79/24) + (1679040/1920) - (3600) + 0 - (20495/24) = 875.21 seconds
 
+Now to complicate things even further, let's try a **25fps clip** inside a **24fps timeline**:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.11">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="Test Clip - 25fps - 01-02-03-04" uid="F03C4D168FE7934996E6408D973FFB97" start="9307900/2500s" duration="60s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="F03C4D168FE7934996E6408D973FFB97" src="file:///Folder/Test%20Clip%20-%2025fps%20-%2001-02-03-04.mov"/>
+        </asset>
+        <format id="r3" name="FFVideoFormat1080p25" frameDuration="100/2500s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    </resources>
+    <project name="24fps Timeline" uid="99AB3F85-FDA0-49CD-83BB-B663A0F6FEA9" modDate="2024-02-10 06:02:11 +1100">
+        <sequence format="r1" duration="12000/1920s" tcStart="7148480/1920s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+            <spine>
+                <asset-clip ref="r2" offset="7148480/1920s" name="Test Clip - 25fps - 01-02-03-04" start="93079/25s" duration="12000/1920s" format="r3" tcFormat="NDF" audioRole="dialogue">
+                    <conform-rate srcFrameRate="25"/>
+                </asset-clip>
+            </spine>
+        </sequence>
+    </project>
+</fcpxml>
+```
+
+If we click on this clip in the timeline, in the Inspector we can see:
+
+![](/static/fcpx-rate-conform.png)
+
+Final Cut Pro is forcefully doing a rate conform from 25 converted to 24.
+
+This time our frame of interest is: `01:02:08:07` / 3728.29 seconds / 89479 frames.
+
+Looking in Final Cut Pro's Source Timecode display we know the answer is: `01:02:08:02` / 3728.08 seconds / 93202 frames
+
+We can use this same idea, however the maths isn't quite right:
+
+> `asset-clip.start` + `frameOfInterest` − `asset-clip.offset`<br />
+> (93079/25) + 3728.08 - (7148480/1920) = 3728.07333333333
+
+Based on the `conform-rate` within the `asset-clip` we know we need to convert 25fps to 24fps.
+
+According to the FCPXML [documentation](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/conform-rate):
+
+> When your media has specific combinations of timeline frame rate and media frame rate, Final Cut Pro automatically applies rate conforming by converting the media frame rate to match the timeline frame rate, as shown in the Final Cut Pro rate conforming chart below. As a result, Final Cut Pro also adjusts the duration. When this occurs, the Rate Conform section appears in Final Cut Pro Video Inspector. Use the conform-rate element to indicate rate conforming.
+>
+> ![](/static/fcpxml-conform-rate.png)
+
+To convert from 25fps to 24fps, we need to adjust the playback speed so that every second of 25fps footage plays back in the same duration as it would at 24fps. Essentially, you're slowing down the 25fps footage to match the duration of 24fps footage.
+
+!!!danger Under Construction
+The below information is incomplete and most likely incorrect.
+!!!
+
+The scaling factor can be calculated by dividing the target frame rate (24fps) by the original frame rate (25fps).
+
+However, none of these combinations add up exactly, so I'm clearly missing something.
+
+( (93079/25) * ((100/2400) / (100/2500)) ) + 3728.08 - ( (7148480/1920) * ((100/2400) / (100/2500)) ) = 3728.07
+( (93079/25) * ((24) / (25)) ) + 3728.08 - ( (7148480/1920) * ((24) / (25)) ) = 3728.07
+( (93079/25) * ((100/2500) / (100/2400)) ) + 3728.08 - ( (7148480/1920) * ((100/2500) / (100/2400)) ) = 3728.07
+( (93079/25) * ((25) / (24)) ) + 3728.08 - ( (7148480/1920) * ((25) / (24)) ) = 3728.07
+
+I will update this information once I get my head around it.
+
 Hopefully this now gives you a good deep understanding of how source timecode works in FCPXML.
 
 If you have any questions, please post them in [Discussions](https://github.com/CommandPost/FCPCafe/discussions/categories/developer-discussions) and we'll do our best to answer!
