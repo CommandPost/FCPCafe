@@ -304,6 +304,8 @@ For example:
 
 > (27613100/2500) + 3727.24 - (104700/2500) + (132100/2500) - (37241600/10000) = 11059.28
 
+---
+
 Let's try another example.
 
 This time our frame of interest is: `01:02:14:06` / 3734.24 seconds / 93356 frames
@@ -339,6 +341,8 @@ If we use the same formula, we get:
 
 > `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset`<br />
 > (27613100/2500) + 3734.24 - 0 + (23300/2500) - (37291200/10000) = 11059.68 seconds / `03:04:19:17` / 276492 frames
+
+---
 
 Now to complicate things, let's do the same idea with a **Multicam Clip**.
 
@@ -439,6 +443,13 @@ When we put in the numbers we get:
 
 > (20573/24) + 3600.75 - (20573/24) + (20573/24) - (79/24) + (1679040/1920) - (3600) + 0 - (20495/24) = 875.21 seconds
 
+---
+
+!!!danger Under Construction
+The below information is incomplete and most likely incorrect.<br />
+We will update the below once we get our heads around it better. Stay tuned.
+!!!
+
 Now to complicate things even further, let's try a **25fps clip** inside a **24fps timeline**:
 
 ```xml
@@ -488,22 +499,32 @@ According to the FCPXML [documentation](https://developer.apple.com/documentatio
 >
 > ![](/static/fcpxml-conform-rate.png)
 
-To convert from 25fps to 24fps, we need to adjust the playback speed so that every second of 25fps footage plays back in the same duration as it would at 24fps. Essentially, you're slowing down the 25fps footage to match the duration of 24fps footage.
+To convert from 25fps to 24fps, we need to adjust the playback speed so that every second of 25fps footage plays back in the same duration as it would at 24fps. Essentially, we're slowing down the 25fps footage to match the duration of 24fps footage.
 
-!!!danger Under Construction
-The below information is incomplete and most likely incorrect.
-!!!
+In this case, Final Cut Pro is using **time-stretching**, where the duration of each frame from the 25fps footage is slightly extended so that the total number of frames still fits within the timeline of the 24fps project.
 
-The scaling factor can be calculated by dividing the target frame rate (24fps) by the original frame rate (25fps).
+In this case, time-stretching doesn't mean that frames are being skipped or added - instead, the playback speed of each frame is slightly reduced so that all frames from the 25fps clip can be played back in a 24fps timeline without losing any frames. This is achieved by increasing the duration of each frame by a factor that corresponds to the ratio of the two frame rates.
 
-However, none of these combinations add up exactly, so I'm clearly missing something.
+To adjust the maths to reflect this time-stretching process and correctly calculate the "source" timecode of the clip in the 24fps project, we need to apply a conversion factor that reflects the slight extension in the duration of each frame.
 
-( (93079/25) * ((100/2400) / (100/2500)) ) + 3728.08 - ( (7148480/1920) * ((100/2400) / (100/2500)) ) = 3728.07
-( (93079/25) * ((24) / (25)) ) + 3728.08 - ( (7148480/1920) * ((24) / (25)) ) = 3728.07
-( (93079/25) * ((100/2500) / (100/2400)) ) + 3728.08 - ( (7148480/1920) * ((100/2500) / (100/2400)) ) = 3728.07
-( (93079/25) * ((25) / (24)) ) + 3728.08 - ( (7148480/1920) * ((25) / (24)) ) = 3728.07
+This factor can be calculated as the ratio of the original frame rate to the new frame rate:
+
+> Conversion Factor = (Original Frame Rate / New Frame Rate) = 25 / 24
+
+You would then apply this conversion factor to the timecodes involved in the calculation to reflect the time-stretched duration of the footage in the 24fps timeline.
+
+However, none of these combinations add up exactly:
+
+> ( (93079/25) * ((100/2400) / (100/2500)) ) + 3728.08 - ( (7148480/1920) * ((100/2400) / (100/2500)) ) = 3728.07<br />
+> ( (93079/25) * ((24) / (25)) ) + 3728.08 - ( (7148480/1920) * ((24) / (25)) ) = 3728.07<br />
+> ( (93079/25) * ((100/2500) / (100/2400)) ) + 3728.08 - ( (7148480/1920) * ((100/2500) / (100/2400)) ) = 3728.07<br />
+> ( (93079/25) * ((25) / (24)) ) + 3728.08 - ( (7148480/1920) * ((25) / (24)) ) = 3728.07
+
+This could be due to rounding errors, a logic error/misunderstanding of the above, or maybe Final Cut Pro is doing something entirely different internally.
 
 I will update this information once I get my head around it.
+
+---
 
 Hopefully this now gives you a good deep understanding of how source timecode works in FCPXML.
 
