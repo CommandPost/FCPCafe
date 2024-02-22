@@ -1,3 +1,4 @@
+- [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
 - [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
 - [Change Audio Role of Sync Clip (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/335)
 - [Crash when copying Project to a different Library (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/334)
@@ -27,4 +28,3 @@
 - [Inspector Button Tooltips no longer show (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/286)
 - [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
 - [Font Variation Popup Menu is not functional in Text Inspector (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/284)
-- [Titles with "extra bold" exported as "regular" (November 21, 2023)](https://github.com/CommandPost/FCPCafe/issues/278)

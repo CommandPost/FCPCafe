@@ -1,3 +1,4 @@
+- [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
 - [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
 - [Crash when copying Project to a different Library (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/334)
 - [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
