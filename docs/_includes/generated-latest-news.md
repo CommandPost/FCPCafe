@@ -1,13 +1,23 @@
 # 2024
 ## February
 
+{{ include "news/20240222" }}
+
+[!button text="Discuss this news item" variant="info"](news/20240222/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
 {{ include "news/20240206" }}
 
 [!button text="Discuss this news item" variant="info"](news/20240206/#discuss-this-page)
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -17,7 +27,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -27,7 +37,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -37,7 +47,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -49,7 +59,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -59,7 +69,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -69,7 +79,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -79,7 +89,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -89,7 +99,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -99,7 +109,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -112,7 +122,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -122,7 +132,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -132,7 +142,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -142,7 +152,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -152,7 +162,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -162,7 +172,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -172,7 +182,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -182,7 +192,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -192,7 +202,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -202,7 +212,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -212,7 +222,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -222,7 +232,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -232,7 +242,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -242,7 +252,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -252,7 +262,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -262,7 +272,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -272,7 +282,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -282,7 +292,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 

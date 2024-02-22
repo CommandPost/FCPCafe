@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 18 Feb 2024 16:34:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Feb 2024 09:16:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 18 Feb 2024 16:34:19 GMT</pubDate>
+        <pubDate>Thu, 22 Feb 2024 09:16:41 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4668,6 +4668,23 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#6th-february-2024</link>
             <guid isPermaLink="false">6th February 2024</guid>
             <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd February 2024]]></title>
+            <description><![CDATA[<p><strong>Color Intelligence</strong> has just announced that <strong>Colourlab Ai 3</strong> Final Cut Pro integration is now out in beta!</p>
+<p>The developers write:</p>
+<blockquote>
+<p>Unlock unparalleled speed and efficiency in your color grading workflow with the latest Colourlab Ai 3 integration for Final Cut Pro! This breakthrough update introduces the fastest grading capabilities yet, seamlessly blending Colourlab Ai’s powerful features with FCP’s intuitive interface.</p>
+<p>Eager to see it in action? Watch our quick tutorial video to learn how this integration can transform your editing process, and then download Beta 21 to experience the future of color grading for yourself.</p>
+<p>The future of fast, intuitive grading is here. Test it out now and make your projects shine like never before!</p>
+</blockquote>
+<p>You can watch a demo video on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=bxdMCvK5IaI"><img src="/static/colourlab-v3-youtube.jpeg" alt=""></a></p>
+<p>You can learn more <a href="https://colourlab.ai">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-february-2024</link>
+            <guid isPermaLink="false">22nd February 2024</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
