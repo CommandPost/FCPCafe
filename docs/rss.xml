@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 24 Feb 2024 08:41:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Feb 2024 02:15:35 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Feb 2024 08:41:45 GMT</pubDate>
+        <pubDate>Sun, 25 Feb 2024 02:15:35 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4701,6 +4701,32 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#24th-february-2024</link>
             <guid isPermaLink="false">24th February 2024</guid>
             <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th February 2024]]></title>
+            <description><![CDATA[<p><strong>X2Pro5 v5.0.34</strong> is out now with the following fix:</p>
+<ul>
+<li>Removed issue causing audio sync problems.</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/us/app/x2pro5/id6467014654">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-february-2024</link>
+            <guid isPermaLink="false">25th February 2024</guid>
+            <pubDate>Sun, 25 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th February 2024]]></title>
+            <description><![CDATA[<p><strong>Producer's Best Friend v1.4.69</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li><strong>New feature:</strong> Preferences checkbox to keep thumbnail images (instead of having them automatically deleted)</li>
+<li>Bug fix to alert for <code>fcpxmld</code> bundles exported incorrectly as a &quot;Final Cut Pro Document&quot; instead of &quot;Final Cut Pro XML Bundle&quot;</li>
+</ul>
+<p>You can find on the Mac App Store <a href="https://apps.apple.com/us/app/producers-best-friend/id688519794?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-february-2024</link>
+            <guid isPermaLink="false">25th February 2024</guid>
+            <pubDate>Sun, 25 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
