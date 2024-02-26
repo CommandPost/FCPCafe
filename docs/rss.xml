@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 25 Feb 2024 09:33:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Feb 2024 04:55:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 25 Feb 2024 09:33:18 GMT</pubDate>
+        <pubDate>Mon, 26 Feb 2024 04:55:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4727,6 +4727,25 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#25th-february-2024</link>
             <guid isPermaLink="false">25th February 2024</guid>
             <pubDate>Sun, 25 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th February 2024]]></title>
+            <description><![CDATA[<p><strong>Capacitor v1.0.0</strong> is out now on the Mac App Store for <strong>USD$19.99</strong>.</p>
+<p><img src="/static/capacitor-released.png" alt=""></p>
+<p><strong>Capacitor</strong> allows you to easily convert between FCPXML versions.</p>
+<p>For example, if you're working on <strong>Final Cut Pro 10.7</strong>, but you have an online artist on an older Autodesk Flame, you can convert from FCPXML <code>v1.11</code> to <code>v1.9</code>.</p>
+<p>Or if you have an old FCPXML in your archives, you can upgrade from <code>v1.8</code> to <code>v1.10</code>.</p>
+<p>If there are differences between FCPXML versions, Capacitor will offer a list of warnings that you can also export.</p>
+<p>Because Capacitor ensures it outputs FCPXML following Apple's strict DTD rules, you can also use Capacitor to &quot;clean&quot; FCPXMLs - for example, it corrects <a href="https://github.com/CommandPost/FCPCafe/issues/314">this bug</a> in Final Cut Pro's output.</p>
+<p>It support both <code>.fcpxml</code> files and FCPXML Bundles (<code>.fcpxmld</code>).</p>
+<p>Capacitor was coded and created by <a href="https://github.com/randomeizer">David Peterson</a>.</p>
+<p>The Capacitor icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p>The Capacitor icon animation was animated by <a href="http://www.mikegreaney.com">Mike Greaney</a>.</p>
+<p>You can learn more and download <a href="https://capacitor.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-february-2024</link>
+            <guid isPermaLink="false">26th February 2024</guid>
+            <pubDate>Mon, 26 Feb 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
