@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Mar 2024 08:52:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Mar 2024 22:51:56 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Mar 2024 08:52:52 GMT</pubDate>
+        <pubDate>Mon, 11 Mar 2024 22:51:56 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4746,6 +4746,46 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#26th-february-2024</link>
             <guid isPermaLink="false">26th February 2024</guid>
             <pubDate>Mon, 26 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th March 2024]]></title>
+            <description><![CDATA[<p><strong>Intelligent Assistance</strong> (aka Philip Hodgetts and Dr Gregory Clarke) have released their latest app, <strong>Embiggen</strong> on the Mac App Store!</p>
+<p>Until <strong>31st March</strong> it's <strong>USD$29.99</strong> (before it increases to <strong>USD$34.99</strong>).</p>
+<p>The official App Store description explains:</p>
+<blockquote>
+<p>Embiggen automatically uprezes still images from Final Cut Pro Events or Projects and returns them back to your Event or Project.</p>
+<p>The new higher resolution images will have the same scale, position and rotation animations as the originals and appear the same size in Final Cut Pro.</p>
+<p>Using AI to make higher resolution images, Embiggen creates in-between detail you can zoom right into.</p>
+<p>Simply drag your Event or Project from Final Cut Pro to Embiggen's floating interface and click Go!</p>
+<p>Original and Embiggened images will returned to Final Cut Pro in Auditions.</p>
+<p>Works with Apple silicon Macs running Final Cut Pro 10.5 or later.</p>
+<p>Supports a wide range of images including: TIFF, PNG, JPEG, flattened PSD, GIF, BMP.</p>
+<p>It does not support layered PSD files.</p>
+<p>For images with alpha channels the alpha channel is removed.</p>
+</blockquote>
+<p>You can read the official support documentation <a href="https://www.intelligentassistance.com/embiggen-help/">here</a>.</p>
+<p>They're already released <code>v1.0.2</code> which adds an additional AI model, to ensure an optimal choice in upscaled image, taking advantage of different optimisations in each model.</p>
+<p>It's a standalone application, not a Final Cut Pro Workflow Extension, however it has a handy <strong>Keep on Top</strong> toggle, to keep it above the Final Cut Pro interface.</p>
+<p><img src="/static/embiggen-01.jpeg" alt=""></p>
+<p>You could use CommandPost to trigger the opening of the application via a shortcut key or control surface panel.</p>
+<p>After you drag a Event or Project to Embiggen, it will prompt you for confirmation:</p>
+<p><img src="/static/embiggen-02.jpeg" alt=""></p>
+<p>...and then ask you where you want to save the high resolution images:</p>
+<p><img src="/static/embiggen-03.png" alt=""></p>
+<p>It will then process the images:</p>
+<p><img src="/static/embiggen-04.jpeg" alt=""></p>
+<p>...and you will be prompted as to which library you want to import the generated FCPXML file into.</p>
+<p>I would love to personally see a few of these steps removed - however it's tricky to do in a sandboxed App Store environment, because when drag an Project from the Browser, the FCPXML that gets dragged has no metadata about the Library it came from (time for another Final Cut Pro feature request!).</p>
+<p>If you dragged in a Project, you'll get a new Event back with a new project, which contains a Audition for every image that was Embiggen'd - so you can easily compare the new version to the original.</p>
+<p><img src="/static/embiggen-05.png" alt="Screenshot from Intelligent Assistance"></p>
+<p>Under the hood it uses <strong>Core ML</strong> to do it's magic - so it's all on device.</p>
+<p>Overall, it's a simple app that does one thing really well - it's certainly a very handy tool to have in your toolkit!</p>
+<p>You can find the official website <a href="https://www.intelligentassistance.com/embiggen/">here</a>.</p>
+<p>You can purchase on the Mac App Store <a href="https://apps.apple.com/app/embiggen/id6478552030">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-march-2024</link>
+            <guid isPermaLink="false">12th March 2024</guid>
+            <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
