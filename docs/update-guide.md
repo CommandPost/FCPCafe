@@ -30,6 +30,18 @@ _FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with So
 
 ## macOS Sonoma
 
+**iZotope** is currently warning against it's users upgrading to **macOS Sonoma 14.4**.
+
+They write:
+
+> Apple has recently released the macOS 14.4 Sonoma update, which has resulted in compatibility issues for plug-ins protected by PACE / iLok with Audio Units host DAWs, such as Logic Pro, on Apple silicon Macs. Users have reported encountering problems with these plug-ins following the installation of the update, including DAW crashes.
+>
+> If you are using Audio Units on an Apple silicon computer, it is advisable to postpone the macOS update until further information becomes available. We will keep you informed as soon as a resolution is found.
+
+You can learn more [here](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
+
+---
+
 Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
 
 However, it's worth reading Larry Jordan's post on [Don’t Hurry to Upgrade](https://larryjordan.com/articles/caution-dont-hurry-to-upgrade/).
