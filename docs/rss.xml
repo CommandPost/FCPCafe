@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 11 Mar 2024 22:59:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Mar 2024 23:32:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Mar 2024 22:59:01 GMT</pubDate>
+        <pubDate>Sun, 17 Mar 2024 23:32:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4786,6 +4786,72 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#12th-march-2024</link>
             <guid isPermaLink="false">12th March 2024</guid>
             <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2024]]></title>
+            <description><![CDATA[<p><strong>Iain Anderson</strong> has written a <strong>new case study</strong> here at FCP Cafe, talking about how Knut Hake &amp; Sam Pluemacher use Final Cut Pro and CommandPost on Netflix Feature Films!</p>
+<p>You can read it <a href="/case-studies/sixty-minutes/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2024</link>
+            <guid isPermaLink="false">18th March 2024</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2024]]></title>
+            <description><![CDATA[<p><strong>iZotope</strong> is currently warning against it's users upgrading to <strong>macOS Sonoma 14.4</strong>.</p>
+<p>They write:</p>
+<blockquote>
+<p>Apple has recently released the macOS 14.4 Sonoma update, which has resulted in compatibility issues for plug-ins protected by PACE / iLok with Audio Units host DAWs, such as Logic Pro, on Apple silicon Macs. Users have reported encountering problems with these plug-ins following the installation of the update, including DAW crashes.</p>
+<p>If you are using Audio Units on an Apple silicon computer, it is advisable to postpone the macOS update until further information becomes available. We will keep you informed as soon as a resolution is found.</p>
+</blockquote>
+<p>You can learn more <a href="https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2024</link>
+            <guid isPermaLink="false">18th March 2024</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2024]]></title>
+            <description><![CDATA[<p><strong>RED Apple Workflow Installer v22.0.0</strong> was updated earlier in the month with the following changes:</p>
+<ul>
+<li>Extended Highlight clips always decode in IPP2</li>
+<li>Improved IPP2 out of gamut color mapping</li>
+<li>Improved IPP2 high ISO black level consistency</li>
+<li>Fixed: Monochrome decodes</li>
+<li>Fixed: early firmware KOMODO footage being green</li>
+<li>Fixed: Metal Texture + Legacy decodes</li>
+</ul>
+<p>You can learn more and download <a href="https://www.red.com/download/red-apple-workflow-installer">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2024</link>
+            <guid isPermaLink="false">18th March 2024</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2024]]></title>
+            <description><![CDATA[<p><strong>Sync-N-Link X v1.1.9</strong> is out now with the following fix:</p>
+<ul>
+<li>Bug fix for missing <code>colorSpace</code> attribute when using the &quot;Alternate frame size&quot; option for Synchronised or Multicam clips.</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/sync-n-link-x/id517599985?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2024</link>
+            <guid isPermaLink="false">18th March 2024</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2024]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.2.4</strong> is out now with the following changes:</p>
+<ul>
+<li>New feature: Help button to access the online help</li>
+<li>Bug fix for markers on transitions in some cases</li>
+<li>Bug fix for calculating marker positions in cases where the clip's frame rate differs from the timeline's frame rate</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/creators-best-friend/id1524172135?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2024</link>
+            <guid isPermaLink="false">18th March 2024</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
