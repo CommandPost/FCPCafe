@@ -2,6 +2,7 @@
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
+- [Select roles in batch export (March 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/344)
 - [FCP and 3rd party plugins (January 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/325)
 - [Missing FxPlug API for setting Font (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/320)
 - [MKV import support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/292)
@@ -27,4 +28,3 @@
 - [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106)
 - [Project Playback/Scrubbing in Browser (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/104)
 - [Audio Mixer with Master Volume Control (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/103)
-- [Browser Playhead skimmer visibility (May 30, 2023)](https://github.com/CommandPost/FCPCafe/issues/101)
