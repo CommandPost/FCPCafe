@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 26 Mar 2024 05:45:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 23:06:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Mar 2024 05:45:31 GMT</pubDate>
+        <pubDate>Tue, 26 Mar 2024 23:06:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4852,6 +4852,47 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#18th-march-2024</link>
             <guid isPermaLink="false">18th March 2024</guid>
             <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th March 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.3</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Bug fix for drag-and-drop of clips from Final Cut Pro to Builder NLE</li>
+<li>Bug fix for text block highlighting in the Clip Logging view after merging text blocks</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-march-2024</link>
+            <guid isPermaLink="false">27th March 2024</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th March 2024]]></title>
+            <description><![CDATA[<p><strong>Pictures This... v1.0.5</strong> is out now with the following changes:</p>
+<ul>
+<li>New feature: Total progress is now shown in the Dock icon</li>
+<li>Revamp of the app's Help menu</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/picture-this/id6466822042?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-march-2024</link>
+            <guid isPermaLink="false">27th March 2024</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th March 2024]]></title>
+            <description><![CDATA[<p><strong>Alteon.io for Final Cut Pro v4.2</strong> is out now with the following changes:</p>
+<ul>
+<li>Select one or multiple clips or ranges and drag directly to an event in FCP</li>
+<li>Download an entire Project to FCP</li>
+<li>Addresses issues that could cause the workflow extension to crash</li>
+<li>Improved error handling while navigating files and media</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/alteon-io-for-final-cut-pro/id1641172792?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-march-2024</link>
+            <guid isPermaLink="false">27th March 2024</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
