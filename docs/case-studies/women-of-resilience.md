@@ -194,7 +194,7 @@ _**Phew... I think we all need a holiday, right?**_
 
 This is just a glimpse why I love working with Final Cut Pro and do not miss much for most of my work. Of course, you need to have general knowledge of the multimedia business to get a grip. I hope this was useful to you and it might very well be that there are mistakes or I forgot to mention a crucial step. Either way, also if you want to learn more about my workflows, you can get in touch with me via my website. Looking forward to FCP 10.7 and beyond! Native audio normalization would be great at some point, this is the only place where I needed to leave FCP (besides DCP wich is kind of special purpose anyway). Ah, yes: Roles audio mixer?
 
-If you are interested in using my special (ported from Motion) High-Pass Sharpening filter, which is A LOT better than the native unsharp mask sharpening (yuck!), you can download it [here](www.sebastianleitner.com/highpass-fcp.zip).
+If you are interested in using my special (ported from Motion) High-Pass Sharpening filter, which is better than the native unsharp mask sharpening (yuck!), you can download it [here](www.sebastianleitner.com/highpass-fcp.zip). **UPDATE March 20th, 2024:** It appears the native sharpening effect got a lot better with one of the latest FCP updates and behaves more like a smart sharpen frequency filter now. Cool! You can actually use that now.
 
 ---
 
