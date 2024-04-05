@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 26 Mar 2024 23:15:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Apr 2024 14:06:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Mar 2024 23:15:53 GMT</pubDate>
+        <pubDate>Thu, 04 Apr 2024 14:06:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4852,6 +4852,31 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#18th-march-2024</link>
             <guid isPermaLink="false">18th March 2024</guid>
             <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th March 2024]]></title>
+            <description><![CDATA[<p><strong>Sidus TC Sync</strong> is now available as a public beta!</p>
+<p>Sidus TC Sync works with all footage and files. It doesn’t matter if you’re camera supports external timecode or if you’ve had to record it as an audio track. Sidus TC Sync’s automation feature detects and decodes the timecode signal.</p>
+<ul>
+<li>Supports SMPTE saved to the file’s metadata</li>
+<li>Supports Audio LTC records on a camera’s audio track</li>
+<li>Supports High Frame TC</li>
+<li>Supports Audio LTC recorded in WAV file or PolyWave file</li>
+</ul>
+<p>Sidus TC Sync can export an XML for:</p>
+<ul>
+<li>Premiere Pro CC</li>
+<li>DaVinci Resolve 17 &amp; Newer</li>
+<li>Final Cut Pro 7</li>
+<li>Final Cut Pro X 10.4.x</li>
+<li>Final Cut Pro X 10.3.x</li>
+<li>Final Cut Pro X 10.2.x</li>
+</ul>
+<p>You can download the beta and learn more <a href="https://deitymic.com/products/sidus-tc-sync/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-march-2024</link>
+            <guid isPermaLink="false">27th March 2024</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[27th March 2024]]></title>
