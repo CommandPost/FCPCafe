@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 05 Apr 2024 05:56:40 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Apr 2024 22:46:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Apr 2024 05:56:40 GMT</pubDate>
+        <pubDate>Sun, 07 Apr 2024 22:46:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4948,6 +4948,38 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#5th-april-2024</link>
             <guid isPermaLink="false">5th April 2024</guid>
             <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2024]]></title>
+            <description><![CDATA[<p><strong>DAWBridge v1.0.5</strong> is out now with minor user interface improvements.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/dawbridge/id1620198313?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2024</link>
+            <guid isPermaLink="false">8th April 2024</guid>
+            <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has pushed out a range of updates to their products.</p>
+<p>Notably, they've removed the BorisFX Mocha planar tracking engine from their products, and have replaced it with their own proprietary tracking engine.</p>
+<ul>
+<li><strong>mCallouts Simple 3.0:</strong> Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mMessage 3.0:</strong> Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mCallouts Simple 2 3.0:</strong> Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mPointer 3.0:</strong> Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mFlare 2 3.1.1:</strong> Fixed a rare crash when refreshing the inspector interface</li>
+<li><strong>mFilmLook 2.1.2:</strong> Support for diacritics in preset names, fixed a rare crash that might prevent the plugin from launching</li>
+<li><strong>mMockup 1.2:</strong> Fixed display of 3D models on macOS Sonoma, various improvements and minor fixes</li>
+<li><strong>mMessage 2 3.0</strong>: Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mHUD 2 3.0</strong>: Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mHUD 3 3.0</strong>: Replaced Mocha with a proprietary tracking engine, various improvements and bug fixes</li>
+<li><strong>mTracker Surface 1.1</strong>: Improved planar tracking speed and accuracy</li>
+</ul>
+<p>You can learn more <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2024</link>
+            <guid isPermaLink="false">8th April 2024</guid>
+            <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
