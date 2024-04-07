@@ -1,3 +1,4 @@
+- [Library damaged when working on shared Storage (April 4, 2024)](https://github.com/CommandPost/FCPCafe/issues/349)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
 - [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
 - [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
@@ -27,4 +28,3 @@
 - [Scrolling Timeline Misbehaves at certain Zoom Levels (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/294)
 - [Send to Compressor does not use third-party Audio Units (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/287)
 - [Inspector Button Tooltips no longer show (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/286)
-- [Random Red Lines in Timeline Render Bar (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/285)
