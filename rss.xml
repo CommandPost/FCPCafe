@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 04 Apr 2024 14:06:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Apr 2024 05:56:40 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 04 Apr 2024 14:06:33 GMT</pubDate>
+        <pubDate>Fri, 05 Apr 2024 05:56:40 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4918,6 +4918,36 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#27th-march-2024</link>
             <guid isPermaLink="false">27th March 2024</guid>
             <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2024]]></title>
+            <description><![CDATA[<p>Arctic Whiteness' <strong>Final Cut Library Manager</strong> now has a new home at <strong>Hedge</strong>!</p>
+<p><img src="/static/arctic-banner.jpeg" alt=""></p>
+<p>After a decade of hard work and lots of updates (amazingly, they were up to version <code>v3.98</code>!) Vincent Zorzi &amp; Timothy Arms have decided to step away from their epic creation, and hand over development to Hedge to keep the application alive for the Final Cut Pro community.</p>
+<p>Hedge have renamed the application to <strong>Arctic</strong>, and it has an awesome new icon.</p>
+<p>You can read more about this in great detail on the <a href="https://blog.hedge.video/a-new-home-for-final-cut-library-manager/">Hedge blog</a>.</p>
+<p>If you already own Final Cut Library Manager, the application will continue to work indefinitely, but it will no longer be updated or supported.</p>
+<p>Final Cut Library Manager customers will have already received a discounted upgrade for Arctic in their email inbox. Please <a href="https://docs.hedge.video/arctic/upgrades">contact Hedge</a> if you didn't get it.</p>
+<p>Arctic and Final Cut Library Manager are completely seperate applications - each with their own unique licensing and updating systems - which means you can still run them side-by-side, or run Final Cut Pro Library Manager on your old machine, and Arctic on your new machine, etc.</p>
+<p>You can learn more, and download a free 10-day trial on the <a href="https://hedge.video/arctic">Hedge website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2024</link>
+            <guid isPermaLink="false">5th April 2024</guid>
+            <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2024]]></title>
+            <description><![CDATA[<p><strong>Iain Anderson</strong> has released a new set of Motion Templates for Final Cut Pro called <strong>Emojisplosion</strong> on FxFactory.</p>
+<blockquote>
+<p>Emojisplosion is the easiest way to add hundreds of emoji-based particles to your videos. You can make them sit behind a title, enhance a background or make a magic wand sparkle.</p>
+<p>Emojisplosion gives you all the flexibility you need, without the complexity of a full particle system. It's perfect for educational, social media and sports videos, and ready for portrait or landscape videos. Most of the particles here are packaged as titles, but emoji-based transitions are included too.</p>
+</blockquote>
+<p>It's currently on sale for <strong>USD$39</strong> for a limited time (before increasing to USD$59). There is also a free trial.</p>
+<p>You can learn more on FxFactory <a href="https://fxfactory.com/info/emojisplosion/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2024</link>
+            <guid isPermaLink="false">5th April 2024</guid>
+            <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
