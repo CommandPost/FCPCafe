@@ -4,6 +4,8 @@ This website has been thrown together by [Chris Hocking](https://twitter.com/chr
 
 Constantly looking for ways to innovate, LateNite is as passionate about production and post production as it is storytelling. Their pursuit of creative excellence has seen them work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
 
+Chris also helps out Hedge with **Arctic** (previously Final Cut Library Manager) - you can learn more about this [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
+
 ![](/static/latenite-apps.png)
 
 ---
@@ -36,6 +38,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 
 ---
 
+{{ include "latenite/capacitor" }}
+
+---
+
 ## FxFactory
 
 Here's some of our products currently for sale on the **FxFactory**:
@@ -59,16 +65,6 @@ Here's some of our free tools used by professional editors worldwide:
 ---
 
 {{ include "latenite/rename-avid-mxf-files" }}
-
----
-
-## TestFlight
-
-Here's some of our apps currently on TestFlight prior to final release on the Mac App Store:
-
----
-
-{{ include "latenite/capacitor-pro" }}
 
 ---
 
