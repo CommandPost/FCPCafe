@@ -28,7 +28,7 @@
 
 ---
 
-{{ include "tools/capacitor-pro" }}
+{{ include "tools/capacitor" }}
 
 ---
 
