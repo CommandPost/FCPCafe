@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 07 Apr 2024 22:48:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Apr 2024 02:07:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 07 Apr 2024 22:48:43 GMT</pubDate>
+        <pubDate>Mon, 08 Apr 2024 02:07:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -4773,7 +4773,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>...and then ask you where you want to save the high resolution images:</p>
 <p><img src="/static/embiggen-03.png" alt=""></p>
 <p>It will then process the images:</p>
-<p><img src="/static/embiggen-04.jpeg" alt=""></p>
+<p><img src="/static/embiggen-04.png" alt=""></p>
 <p>...and you will be prompted as to which library you want to import the generated FCPXML file into.</p>
 <p>I would love to personally see a few of these steps removed - however it's tricky to do in a sandboxed App Store environment, because when drag an Project from the Browser, the FCPXML that gets dragged has no metadata about the Library it came from (time for another Final Cut Pro feature request!).</p>
 <p>If you dragged in a Project, you'll get a new Event back with a new project, which contains a Audition for every image that was Embiggen'd - so you can easily compare the new version to the original.</p>
