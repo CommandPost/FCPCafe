@@ -10,7 +10,17 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 ---
 
-## Black Friday Deals
+## NAB 2024
+
+**timeinpixels** is currently offering 20% off **OmniScope**.
+
+You can use the discount code: `NAB2024`.
+
+You can learn more [here](https://timeinpixels.com).
+
+---
+
+## Black Friday Deals 2023
 
 **Valentina Vee** has a great [Twitter thread](https://twitter.com/valentinavee/status/1726386386004275590) with all the deals she's interested in.
 
@@ -34,6 +44,7 @@ Pixelmator
 Ripple Training
 Sound Ideas
 SynQR
+timeinpixels
 Ulti.Media
 -->
 
@@ -154,6 +165,16 @@ Are you struggling with out-of-sync video playback? Do you feel uncomfortable gu
 This app is currently **50% off** on the Mac App Store.
 
 You can learn more [here](https://apps.apple.com/de/app/synqr/id6448926987).
+
+---
+
+## timeinpixels
+
+**timeinpixels** is currently offering 20% off **OmniScope**.
+
+You can use the discount code: `NAB2024`.
+
+You can learn more [here](https://timeinpixels.com).
 
 ---
 
