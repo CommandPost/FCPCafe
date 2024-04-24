@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 10 Apr 2024 10:18:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Apr 2024 03:33:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Apr 2024 10:18:08 GMT</pubDate>
+        <pubDate>Wed, 24 Apr 2024 03:33:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5015,6 +5015,49 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#10th-april-2024</link>
             <guid isPermaLink="false">10th April 2024</guid>
             <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th April 2024]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.8</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Blackmagic URSA Cine 12K LF.</li>
+<li>Updated from Blackmagic RAW SDK v3.6.1 to v4.0.</li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>When clicking &quot;Prepare BRAW Files&quot;, you'll now get an error message if the Audio Folder is currently in the Trash. Thanks for reporting Mark Terry!</li>
+</ul>
+<p>You can learn more and download <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-april-2024</link>
+            <guid isPermaLink="false">24th April 2024</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th April 2024]]></title>
+            <description><![CDATA[<p><strong>NAB Show 2024</strong> (National Association of Broadcasters) has officially been and gone.</p>
+<p>Starting on Sunday 14th April, it took place at it's usual home in the Las Vegas Convention Center, and over the four days it had over <strong>61,000 attendees</strong>.</p>
+<p>Interestingly, it's been reported that 54% of the registered attendees were first-time visitors.</p>
+<p>Whilst there was no Final Cut Pro update, nor any news about Final Cut Pro directly from Apple, there was some interesting news for the Final Cut Pro community.</p>
+<p>The highlights being:</p>
+<ul>
+<li><a href="https://blog.hedge.video/postlab-2-0/">PostLab 2.0</a> was being demonstrated on the show floor to rave reviews</li>
+<li><a href="https://strada.tech">Strada</a> was also being demonstrated on the show floor to rave reviews</li>
+<li><a href="https://colourlab.ai/colourlab-3-yearly/">Colourlab Ai 3</a> is out now</li>
+<li><a href="https://frame.io/v4">Frame.io Version 4</a> is now out in beta</li>
+<li><a href="https://www.lucidlink.com/download-beta">LucidLink 3.0 Preview</a> is out now</li>
+</ul>
+<p>The <a href="https://www.atomos.com/explore/ninja-phone/">Atomos Ninja Phone</a> also looks quite interesting.</p>
+<p>As always, the <a href="https://www.youtube.com/watch?v=HCyp7lJYRlE">Blackmagic Design NAB 2024 Update video</a> is worth watching. Blackmagic had a HUGE amount of product announcements as usual.</p>
+<p>Steve &amp; Mark from Ripple Training recorded a <a href="https://www.youtube.com/watch?v=pe5Y06_kvl0">summary video</a>.</p>
+<p>Larry Jordan has a <a href="https://larryjordan.com/articles/nab-show-2024-exhibitor-interviews/">large collection of videos</a> from the show floor that's worth watching.</p>
+<p>ProVideo Coalition have also released <a href="https://www.youtube.com/playlist?list=PLnRmTHzpo3_K5Aa1Pj4Kmp7rW59iSlTS1">27 videos on YouTube</a>.</p>
+<p>Richard Taylor, as usual, was <a href="https://www.youtube.com/playlist?list=PLjHbWxuVh7Y8Uoe66sNZSWR1h_OhmFVCT">live streaming</a> from the event.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-april-2024</link>
+            <guid isPermaLink="false">24th April 2024</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
