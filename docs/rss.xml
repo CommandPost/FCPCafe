@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 24 Apr 2024 04:46:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Apr 2024 10:20:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Apr 2024 04:46:46 GMT</pubDate>
+        <pubDate>Wed, 24 Apr 2024 10:20:28 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5029,6 +5029,19 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <li>When clicking &quot;Prepare BRAW Files&quot;, you'll now get an error message if the Audio Folder is currently in the Trash. Thanks for reporting Mark Terry!</li>
 </ul>
 <p>You can learn more and download <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-april-2024</link>
+            <guid isPermaLink="false">24th April 2024</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th April 2024]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.3.8</strong> is out now with the following fix:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed support for the latest Vimeo CSV format. Thanks for reporting Dave &amp; YevantZ!</li>
+</ul>
+<p>You can learn more and download <a href="https://markertoolbox.io">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24th-april-2024</link>
             <guid isPermaLink="false">24th April 2024</guid>
