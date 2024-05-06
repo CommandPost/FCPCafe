@@ -1,3 +1,4 @@
+- [Apple  Music connection to FCP is atrocious  (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
 - [German keys incorrectly shown in Command Editor (April 9, 2024)](https://github.com/CommandPost/FCPCafe/issues/350)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
