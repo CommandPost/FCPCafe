@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 06 May 2024 00:56:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 May 2024 06:33:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 May 2024 00:56:57 GMT</pubDate>
+        <pubDate>Mon, 06 May 2024 06:33:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5071,6 +5071,61 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#24th-april-2024</link>
             <guid isPermaLink="false">24th April 2024</guid>
             <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th May 2024]]></title>
+            <description><![CDATA[<p>Apple has released a fun new commercial - cut by Tom Lindsay at <a href="http://trimediting.com">Trim Editing</a> in Final Cut Pro.</p>
+<p>Enjoy!</p>
+<p><a href="https://www.youtube.com/watch?v=yk6UVnMn9ts"><img src="/static/find-your-friends.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#4th-may-2024</link>
+            <guid isPermaLink="false">4th May 2024</guid>
+            <pubDate>Sat, 04 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th May 2024]]></title>
+            <description><![CDATA[<p><strong>Pictures This... v1.0.6</strong> is out now with the following changes:</p>
+<ul>
+<li>Improved generation speed by using a new batch scheduler</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/picture-this/id6466822042?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-may-2024</link>
+            <guid isPermaLink="false">6th May 2024</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th May 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.4</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Critical bug fix for cases where mixed DTD version numbers can create FCPXML that cannot be imported into Final Cut Pro</li>
+<li>Bug fix to support uppercased XML file extensions</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-may-2024</link>
+            <guid isPermaLink="false">6th May 2024</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th May 2024]]></title>
+            <description><![CDATA[<p><strong>Markers Extractor v0.3.6</strong> is out now with the following changes:</p>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Added Clip Keywords manifest field</li>
+<li>Added Reel, Scene, Take, Clip In, Clip Out manifest fields</li>
+<li>Added <code>--use-chapter-marker-thumbnails</code> CLI flag to enable chapter marker thumbnail pins</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Added better filename sanitation which can avoid failure to generate image files</li>
+<li>Fixed issue where log file may not be created on disk if its target parent path does not exist</li>
+</ul>
+<p>You can download <a href="https://github.com/TheAcharya/MarkersExtractor/releases/tag/0.3.6">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-may-2024</link>
+            <guid isPermaLink="false">6th May 2024</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

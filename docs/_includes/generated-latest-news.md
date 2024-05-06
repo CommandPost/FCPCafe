@@ -1,4 +1,26 @@
 # 2024
+## May
+
+{{ include "news/20240506" }}
+
+[!button text="Discuss this news item" variant="info"](news/20240506/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
+{{ include "news/20240504" }}
+
+[!button text="Discuss this news item" variant="info"](news/20240504/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
 ## April
 
 {{ include "news/20240424" }}
@@ -7,7 +29,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -17,7 +39,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -27,7 +49,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-05.md" }}
 
 ---
 
@@ -37,7 +59,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -49,7 +71,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-05.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -59,7 +81,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -69,89 +91,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-## February
-
-{{ include "news/20240226" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240226/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20240225" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240225/#discuss-this-page)
-
----
-
 {{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20240224" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240224/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20240222" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240222/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
-
----
-
-{{ include "news/20240206" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240206/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20240205" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240205/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-05.md" }}
-
----
-
-{{ include "news/20240202" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240202/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20240201" }}
-
-[!button text="Discuss this news item" variant="info"](news/20240201/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
