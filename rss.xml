@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 06 May 2024 06:40:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 10:58:05 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 May 2024 06:40:42 GMT</pubDate>
+        <pubDate>Wed, 08 May 2024 10:58:05 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5126,6 +5126,99 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#6th-may-2024</link>
             <guid isPermaLink="false">6th May 2024</guid>
             <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th May 2024]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.3.2</strong> is out now with <strong>Frame.io V4</strong> support!</p>
+<p>For those Final Cut Pro users using the awesome <a href="https://frame.io/v4">Frame.io V4 beta</a>, you have most likely noticed that the Frame.io Final Cut Pro Workflow Extension currently doesn't work properly with the beta, and if you try and export a <code>FIOJSON</code> file from the website, it doesn't always work correctly when imported into Final Cut Pro.</p>
+<p>For example, if you import a <code>FIOJSON</code> from the website and import it into Final Cut Pro via the Frame.io <code>v2.6.1</code> Mac App, sometimes Titles will be missing, and there's other inconsistencies between what you see within the Frame.io website, and what gets imported into Final Cut Pro.</p>
+<p>Emery Wells writes on <a href="https://www.provideocoalition.com/frame-io-version-4-beta-is-here/">ProVideo Coalition</a>:</p>
+<blockquote>
+<p>As a beta, some of the existing Frame.io features may not be initially available, but you can be certain that those features—along with NLE integrations and companion apps—are an element of our forward- looking roadmap.</p>
+</blockquote>
+<p>In the meantime however, Marker Toolbox fills that gap for Final Cut Pro users - as you can export a <code>FIOJSON</code> from the website and import it into Marker Toolbox.</p>
+<p>You can learn more about Marker Toolbox <a href="https://markertoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-may-2024</link>
+            <guid isPermaLink="false">7th May 2024</guid>
+            <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th May 2024]]></title>
+            <description><![CDATA[<p><strong>Arctic v24.1.2</strong> is out now with the following fixes:</p>
+<ul>
+<li>Opening settings now remembers the last panel selected</li>
+<li>Improved handling of offline usage</li>
+<li>Improved activating directly from the license email</li>
+</ul>
+<p>You can learn more and download Arctic <a href="https://hedge.video/arctic">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-may-2024</link>
+            <guid isPermaLink="false">7th May 2024</guid>
+            <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th May 2024]]></title>
+            <description><![CDATA[<p>Apple has announced <strong>Final Cut Pro for Mac 10.8</strong> and <strong>Final Cut Pro for iPad 2</strong>!</p>
+<p>There's also a new <strong>Final Cut Camera</strong> app coming to iPhone &amp; iPad.</p>
+<ul>
+<li>You can read the official press release <a href="https://www.apple.com/newsroom/2024/05/final-cut-pro-transforms-video-creation-with-live-multicam-on-ipad-and-new-ai-features-on-mac/">here</a>.</li>
+<li>You can watch the Apple Event on YouTube <a href="https://www.youtube.com/watch?v=f1J38FlDKxo">here</a>.</li>
+<li>You can read Iain Anderson's thoughts on ProVideo Coalition <a href="https://www.provideocoalition.com/final-cut-pro-10-8-for-mac-announced/">here</a>.</li>
+<li>You can watch Matthew O'Brien's reaction on YouTube <a href="https://www.youtube.com/watch?v=KpqQi6BBlYY">here</a>.</li>
+<li>You can watch Richard Taylor's Final Cut TV &amp; Coffee Live Stream <a href="https://www.youtube.com/watch?v=1J7zdaqlcl0">here</a>.</li>
+</ul>
+<p>The big ticket items for <strong>Mac</strong> are...</p>
+<p>A new <strong>Enhance Light and Color</strong> effect for the Color Inspector, offering the ability to improve color, color balance, contrast, and brightness in one simple step, and is optimized for SDR, HDR, RAW, and Log-encoded media.</p>
+<p>Whilst Final Cut Pro has had a <strong>Balance Color</strong> tool for a long time, and did a pretty good job at balancing things - it doesn't give you any controls (aside from a White Balance picker), so it's really just a one-click solution where it either works or it doesn't.</p>
+<p>It also never really worked well with Log-encoded media.</p>
+<p>For me personally, I'm NOT a colourist, I don't enjoy colour grading, and I generally do everything in the Color Board - so this new tool will be HUGELY helpful, and something I've been wanting for many years.</p>
+<p>I do a lot of fast-turnaround corporate/advertising edits where there's no time to send to a professional colourist - so this will be a very handy tool to have in the toolbox!</p>
+<p>It'll be very interesting to compare to <a href="https://colourlab.ai">Colourlab AI 3</a>.</p>
+<p><img src="/static/enhance-light-and-color.jpg" alt=""></p>
+<p><strong>Smooth Slo-Mo</strong> adds Machine Learning speed effects, which will be very interesting to try out, and see how it compares with <a href="https://www.topazlabs.com/topaz-video-ai">Topaz Video AI</a>.</p>
+<p><img src="/static/smooth-slow-mo.jpg" alt=""></p>
+<p>You can now <strong>Rename Effects in the Video &amp; Color Inspector</strong>! This has something that the Final Cut Pro community have wanted for years - so it's awesome that it's finally coming!</p>
+<p>You can also now drag &amp; drop effects from the Inspector to clips on the timeline and the browser! Hopefully this means you'll also be able to drag them into <a href="https://recalltoolbox.io">Recall Toolbox</a> or save them using <a href="https://commandpost.io">CommandPost's</a> Pasteboard Buffer!</p>
+<p><img src="/static/rename-inspector.jpg" alt=""></p>
+<p>The <strong>Timeline Index</strong> also got some love and attention, with added columns for Metadata Fields such as Reel, Scene, Camera Angle, etc.</p>
+<p>This could be incredibly handy when combined with <a href="https://commandpost.io">CommandPost's</a> Timeline Index CSV Export feature!</p>
+<p><img src="/static/timeline-index.jpg" alt=""></p>
+<p>It also looks like they've finally added a button to toggle the <strong>Scrolling Timeline</strong> on and off!</p>
+<p><img src="/static/scrolling-timeline.jpg" alt=""></p>
+<p>Personally, I think this is a really solid update, with some great professional features that I'll be using every day. I'm excited to give it a test run!</p>
+<p>The big ticket items for <strong>iPad</strong> are...</p>
+<p>Things are <strong>faster</strong> on M4:</p>
+<blockquote>
+<p>With M4 on the new iPad Pro, final rendering is up to 2x faster, and editors can take advantage of support for up to 4x more streams of ProRes RAW than with M1.</p>
+</blockquote>
+<p><strong>Live Multicam</strong> on Final Cut Pro for iPad 2 allows users to direct and control up to four cameras, providing a director’s view of each live video feed in real time.</p>
+<p><img src="/static/ipad-multicam.jpg" alt=""></p>
+<p>Final Cut Pro for iPad now officially supports <strong>External Storage</strong> - so you can save your Projects &amp; Media on external drives.</p>
+<p>There's no information on whether or not you can go from Mac to iPad yet though, so <a href="https://transfertoolbox.io">Transfer Toolbox</a> may still be necessary.</p>
+<p>There's lots <strong>more content</strong>:</p>
+<blockquote>
+<p>Final Cut Pro for iPad 2 brings more options to customize projects. Users can dial in their edits with 12 new color-grading presets, choose from eight basic text titles, score with 20 new soundtracks, and add additional dynamic backgrounds to create effect overlays and title sequences.</p>
+</blockquote>
+<p><img src="/static/dynamic-glitch-backgrounds.jpg" alt=""></p>
+<p><img src="/static/grading-presets.jpg" alt=""></p>
+<p><img src="/static/soundtracks.jpg" alt=""></p>
+<p><img src="/static/text-titles.jpg" alt=""></p>
+<p>Interestingly, despite 3rd Party Content being listed as &quot;coming soon&quot; when Final Cut Pro for iPad first launched, there was still no mention of 3rd Party Content coming in this release.</p>
+<p>It'll also be interesting to see if any &quot;quality of life&quot; improvements are made in this new version - such as the ability to copy and paste things between Projects.</p>
+<p>We're excited to check it out, when it ships later this year:</p>
+<blockquote>
+<p><strong>Pricing and Availability</strong></p>
+<ul>
+<li>Final Cut Pro for iPad 2 will be available later this spring as a free update for existing users, and available on the App Store for $4.99 (U.S.) per month or $49 (U.S.) per year, with a one-month free trial for new users.</li>
+<li>Final Cut Camera will be available for free later this spring as a standalone app.</li>
+<li>Final Cut Pro for Mac 10.8 will be available as a free update for existing users and for $299.99 (U.S.) for new users on the Mac App Store. All new users can download a free 90-day trial of Final Cut Pro.</li>
+</ul>
+</blockquote>
+]]></description>
+            <link>https://fcp.cafe/#8th-may-2024</link>
+            <guid isPermaLink="false">8th May 2024</guid>
+            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
