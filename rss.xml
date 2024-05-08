@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 08 May 2024 11:28:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 22:07:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 May 2024 11:28:26 GMT</pubDate>
+        <pubDate>Wed, 08 May 2024 22:07:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5219,6 +5219,22 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#8th-may-2024</link>
             <guid isPermaLink="false">8th May 2024</guid>
             <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th May 2024]]></title>
+            <description><![CDATA[<p><strong>Color Finale v2.8.1</strong> is out now with the following bug fix:</p>
+<ul>
+<li><strong>FIXED:</strong> Issue causing person mask crashes on older Intel-based Macs with multiple GPUs.</li>
+</ul>
+<p>For those that haven't yet updated to <code>v2.8</code>, the big new feature is a <strong>Person Masking Tool</strong>:</p>
+<blockquote>
+<p>We have introduced a new machine learning-based Person Masking functionality. This advanced tool automatically identifies and isolates human figures within your footage, enabling precise adjustments and effects to be applied directly to people within your scenes without manual roto-scoping. This feature enhances workflow efficiency and precision in post-production editing tasks.</p>
+</blockquote>
+<p>You can learn more <a href="https://colorfinale.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-may-2024</link>
+            <guid isPermaLink="false">9th May 2024</guid>
+            <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
