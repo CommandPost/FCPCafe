@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 12 May 2024 01:22:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 May 2024 03:44:08 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 May 2024 01:22:38 GMT</pubDate>
+        <pubDate>Wed, 15 May 2024 03:44:08 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5235,6 +5235,28 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#9th-may-2024</link>
             <guid isPermaLink="false">9th May 2024</guid>
             <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.5</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Critical bug fix for cases where certain media file paths can create FCPXML that cannot be imported into Final Cut Pro</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2024</link>
+            <guid isPermaLink="false">15th May 2024</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2024]]></title>
+            <description><![CDATA[<p><strong>Logic Pro 11.0</strong> is out now with a HUGE amount of bug fixes and new features.</p>
+<p>You can read the full release notes <a href="https://support.apple.com/en-euro/109503">here</a>.</p>
+<p>You can read Apple's Press Release <a href="https://www.apple.com/au/newsroom/2024/05/logic-pro-takes-music-making-to-the-next-level-with-new-ai-features/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2024</link>
+            <guid isPermaLink="false">15th May 2024</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
