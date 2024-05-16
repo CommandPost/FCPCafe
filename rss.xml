@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 15 May 2024 03:44:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 May 2024 06:26:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 May 2024 03:44:08 GMT</pubDate>
+        <pubDate>Thu, 16 May 2024 06:26:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5257,6 +5257,52 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#15th-may-2024</link>
             <guid isPermaLink="false">15th May 2024</guid>
             <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th May 2024]]></title>
+            <description><![CDATA[<p><strong>BretFX</strong> has released iMovie Maps for Final Cut Pro.</p>
+<blockquote>
+<p>The same animated maps from iMovie, right in Final Cut Pro! With iMovie Maps for Final Cut Pro. This sorely missed iMovie feature is now directly accessible in the titles browser in Final Cut Pro. Display a route across the country, across a continent or around the globe.</p>
+</blockquote>
+<p>You can watch a video explaining here:</p>
+<p><a href="https://www.youtube.com/watch?v=GbRtspgTF48"><img src="/static/bretfx-imaps.jpeg" alt=""></a></p>
+<p>You can download and learn more <a href="https://www.bretfx.com/product/imovie-maps-for-final-cut-pro/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-may-2024</link>
+            <guid isPermaLink="false">16th May 2024</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th May 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.0.1</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Login error is now handled where you have no name entered into your account. This was blocking the sign in previously. If that was the case for you, please enter your name in the account portal too. Most ADD 1.0 users were missing their name in the account migration to 2.0.</li>
+<li>Can now check for updates from the login window</li>
+<li>Adding stems with element markers to triggers from the right click menu can now offer to split into elements. This previously only worked by dragging in files into the triggers table.</li>
+<li>Trigger clips made from stems with multiple elements could have incorrect sync point when triggered</li>
+<li>Stems in triggers will now use their first sync marker as a trigger sync point rather than the start of the file</li>
+</ul>
+<p>You can download and learn more <a href="https://add.app/audio-design-desk-2-0/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-may-2024</link>
+            <guid isPermaLink="false">16th May 2024</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th May 2024]]></title>
+            <description><![CDATA[<p><strong>iZotope RX 11</strong> is out now.</p>
+<blockquote>
+<p>RX 11 takes audio repair and background noise removal to the next level. With cutting-edge machine learning algorithms, new Streaming Preview and Loudness Optimize tools, a completely revamped Dialogue Isolate and Music Rebalance, and an improved Repair Assistant as well as additional ARA support, cleaning up your audio with precision has never been easier.</p>
+</blockquote>
+<p>Unfortunately RX 11 isn't officially supported in Final Cut Pro (although the Audio Units will appear in Final Cut Pro) - however you can use their standalone RX Audio Editor application.</p>
+<p>RX 11 does however work in Logic Pro 10.7, Pro Tools 2024, Ableton Live 11-12, Cubase 13, Nuendo 13, Studio One 6, Reaper 7, FL Studio 21, Adobe Audition 2024, Adobe Premiere Pro 2024 and DaVinci Resolve 19.</p>
+<p>You can learn more about what's new in this YouTube video:</p>
+<p><a href="https://www.youtube.com/watch?v=MhUEmvneerc"><img src="/static/rx11.jpeg" alt=""></a></p>
+<p>You can learn more <a href="https://www.izotope.com/en/products/rx.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-may-2024</link>
+            <guid isPermaLink="false">16th May 2024</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
