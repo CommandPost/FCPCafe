@@ -1,3 +1,4 @@
+- [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
@@ -27,4 +28,3 @@
 - [Creating a new Motion Category is painfully slow (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/308)
 - [Crash when exporting a FCPXML via Menu and drag from Browser (December 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/307)
 - [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
-- [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
