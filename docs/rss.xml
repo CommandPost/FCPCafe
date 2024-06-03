@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 01 Jun 2024 02:22:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Jun 2024 00:34:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 01 Jun 2024 02:22:43 GMT</pubDate>
+        <pubDate>Mon, 03 Jun 2024 00:34:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5436,6 +5436,23 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#1st-june-2024</link>
             <guid isPermaLink="false">1st June 2024</guid>
             <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2024]]></title>
+            <description><![CDATA[<p><strong>CSV2Notion Neo v1.3.0</strong> is out now with the following improvements:</p>
+<ul>
+<li>Automatically analyse and generate captions for images using Hugging Face's open-source AI/ML models</li>
+<li>Added <code>--hugging-face-token</code>: Hugging Face token to use image captioning model online</li>
+<li>Added <code>--hf-model</code>: Provide the model used for generating caption <code>&lt;vit-gpt2 | blip-image | git-large&gt;</code> (defaults: <code>vit-gpt2</code>)</li>
+<li>Added <code>--caption-column</code>: Provide both image column and column where caption would be written</li>
+</ul>
+<p>CSV2Notion is an advance method to upload &amp; merge <code>*.csv</code> or <code>*.json</code> files with images to Notion database.</p>
+<p>It's used under-the-hood to power the <strong>Shot Data</strong> Toolbox in <a href="https://commandpost.io/toolbox/shot-data/">CommandPost</a>, and <a href="https://github.com/TheAcharya/MarkersExtractor">MarkersExtractor</a>.</p>
+<p>You can learn more <a href="https://github.com/TheAcharya/csv2notion-neo">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2024</link>
+            <guid isPermaLink="false">3rd June 2024</guid>
+            <pubDate>Mon, 03 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
