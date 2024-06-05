@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 03 Jun 2024 00:48:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jun 2024 01:25:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 03 Jun 2024 00:48:03 GMT</pubDate>
+        <pubDate>Wed, 05 Jun 2024 01:25:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5453,6 +5453,27 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#3rd-june-2024</link>
             <guid isPermaLink="false">3rd June 2024</guid>
             <pubDate>Mon, 03 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2024]]></title>
+            <description><![CDATA[<p>For those interested in <a href="https://frame.io">Frame.io</a> and their latest <a href="https://frame.io/v4">V4 update</a>, <strong>Alex Lindsay</strong> had an awesome chat with <strong>Emery Wells</strong> on the <a href="https://officehours.global">Office Hours Global</a> live stream.</p>
+<p>You can watch on YouTube <a href="https://www.youtube.com/live/FaUU5lsDP-o">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2024</link>
+            <guid isPermaLink="false">5th June 2024</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2024]]></title>
+            <description><![CDATA[<p><strong>Jace Sparks</strong> also had a great conversation with <strong>Alex Gollner</strong> (aka Alex4D) on his <strong>ELAV8 Podcast</strong>.</p>
+<blockquote>
+<p>The conversation delves into the challenges and opportunities surrounding the promotion and development of Final Cut Pro, as well as the broader strategic direction of Apple. It explores the issues of trust, marketing, and collaboration within the industry, and the potential impact of AI on editing workflows. The discussion also touches on the concept of a Worldwide Creator Conference and the role of Apple in shaping the future of media creation. The conversation covers a wide range of topics, including 3D animation, AI, technology, corporate ethics, and the impact of AI on human behavior. It delves into the role of AI in individual and corporate settings, as well as the ethical implications of AI usage. The discussion also explores the concept of pleasure and the influence of technology on human behavior and society.</p>
+</blockquote>
+<p>You can watch on YouTube <a href="https://www.youtube.com/watch?v=AXZ_CqGIGYQ">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2024</link>
+            <guid isPermaLink="false">5th June 2024</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
