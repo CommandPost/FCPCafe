@@ -42,6 +42,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 
 ---
 
+{{ include "latenite/lut-robot" }}
+
+---
+
 ## FxFactory
 
 Here's some of our products currently for sale on the **FxFactory**:
@@ -84,7 +88,7 @@ The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in Com
 
 ## In Development
 
-Here's a **sneak peak** of some of the things we have in development:
+Here's a **sneak peak** of some of the things we have in various stages of development:
 
 ---
 
@@ -92,21 +96,17 @@ Here's a **sneak peak** of some of the things we have in development:
 
 Ability to quickly create a shareable Final Cut Pro library, which also consolidates Motion Templates and Fonts.
 
-We hope to release this in early 2024.
-
 ---
 
 ### FCP Preferences Cleaner
 
 Inspect and clean your Final Cut Pro Preferences, rather than "trashing" them.
 
-We hope to release this in early 2024.
-
 ---
 
 ### Timecode Toolbox
 
-We're spinning out the **Sony Timecode Repair Toolbox** from [CommandPost](https://commandpost.io)( and making it a standalone app.
+We're spinning out the **Sony Timecode Repair Toolbox** from [CommandPost](https://commandpost.io) and making it a standalone app.
 
 In addition to the current functionality, you'll also be able to modify the original camera files to add Final Cut Pro friendly timecode.
 
@@ -114,17 +114,11 @@ Here's what the Toolbox currently looks like in CommandPost:
 
 ![](/static/sony-timecode-repair.png)
 
-We hope to release this in early 2024.
-
 ---
 
 ### RAW Toolbox
 
 Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add **Nikon N-RAW** support to Final Cut Pro.
-
-This project is currently at the exploration and experiment stage.
-
-We hope to release this in mid-2024.
 
 ---
 
@@ -133,10 +127,6 @@ We hope to release this in mid-2024.
 **Import Toolbox** will be a Workflow Extension that allows you to import files with better metadata and preset controls (i.e. clip volume).
 
 We will also be spinning out the **Watch Folders** from CommandPost and moving them into this app.
-
-This project is currently at the exploration and experiment stage.
-
-We hope to release this before the end of 2024.
 
 ---
 
@@ -152,8 +142,6 @@ Here's what the Toolbox's currently look like in CommandPost:
 
 ![](/static/titles-to-keywords.png)
 ![](/static/auto-sequence.png)
-
-We hope to release this before the end of 2024.
 
 ---
 
@@ -174,7 +162,3 @@ You'll be able to add **Titles** to the timeline, to trigger Machine Learning ac
 Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key (subject to Apple's approval).
 
 ![](/static/magic-toolbox.jpg)
-
-This project is currently at the exploration and experiment stage.
-
-We hope to release this before the end of 2024.
