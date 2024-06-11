@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 07 Jun 2024 08:25:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jun 2024 06:59:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Jun 2024 08:25:20 GMT</pubDate>
+        <pubDate>Tue, 11 Jun 2024 06:59:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5506,6 +5506,140 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#7th-june-2024</link>
             <guid isPermaLink="false">7th June 2024</guid>
             <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th June 2024]]></title>
+            <description><![CDATA[<p>Apple's <strong>Worldwide Developer Conference (WWDC)</strong> kicked off at Apple Park today.</p>
+<p><img src="/static/wwdc-24-apple-park.jpg" alt=""></p>
+<p>This is the biggest day in the calendar for Apple Developers, because Apple showcase the next versions of all their operating systems, and new frameworks and APIs that developers can take advantage of.</p>
+<ul>
+<li>You can watch the quick three minute <strong>18 things from WWDC24</strong> summary video <a href="https://www.youtube.com/watch?v=LtIWE4CCX5M">here</a>.</li>
+<li>You can watch the full <strong>Keynote</strong> <a href="https://www.youtube.com/watch?v=RXeOiIDNNek">here</a>.</li>
+<li>You can watch the <strong>Platforms State of the Union</strong> <a href="https://www.youtube.com/watch?v=YJZ5YcMsgD4">here</a>.</li>
+</ul>
+<p>As usual, the Keynote was insanely slick, with some stunning transitions and lots of fun and seamless visual effects.</p>
+<p>The top line items from the event were:</p>
+<blockquote>
+<p>Introducing Apple Intelligence, AI for the rest of us. And exciting updates coming with iOS 18, iPadOS 18, macOS Sequoia, watchOS 11, and visionOS 2.</p>
+</blockquote>
+<p>You can read all about the <strong>highlights</strong> over on the Apple Newsroom <a href="https://www.apple.com/newsroom/2024/06/wwdc24-highlights/">here</a>.</p>
+<p>You can read a detailed technical blog post about their new <strong>Private Cloud Compute</strong> <a href="https://security.apple.com/blog/private-cloud-compute/">here</a>.</p>
+<p>Following Apple's new trend, both the Keynote &amp; Platforms State of the Union were also <strong>shot on iPhone and edited on Mac</strong>.</p>
+<p><img src="/static/wwdc-24-shot-on-iphone.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-shot-on-iphone2.jpg" alt=""></p>
+<p>It's currently unknown if it was cut in Final Cut Pro, although we do know that their previous <strong>Scary Fast</strong> event was cut in Adobe Premiere.</p>
+<p>However, we also know that all of the WWDC developer session videos last year were cut in Final Cut Pro, and we understand that this is still the case this year.</p>
+<p>First up, a great new feature for <strong>Vision Pro</strong> owners is you'll be able to view your Mac screen in new <strong>Wide</strong> and <strong>Ultrawide</strong> windows - giving you more screen real-estate for cutting in Final Cut Pro:</p>
+<blockquote>
+<p><strong>Panoramic productivity with Mac Virtual Display</strong>
+Using Mac Virtual Display is like having an expandable, ultrawide screen that wraps around you. It’s the equivalent of having two 4K displays sitting side by side — everything looks astoundingly sharp and incredibly detailed.</p>
+</blockquote>
+<p><img src="/static/wwdc-24-vision-pro2.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-vision-pro.jpg" alt=""></p>
+<p>They also <a href="https://www.apple.com/visionos/visionos-2-preview/">announced</a>:</p>
+<blockquote>
+<p>Now you can connect your Magic Mouse or third‑party Bluetooth mouse to navigate while using Apple Vision Pro.</p>
+</blockquote>
+<p>In terms of Final Cut Pro news, it was confirmed in the Keynote that:</p>
+<blockquote>
+<p>Spatial Videos can then be edited in Final Cut Pro for Mac, and shared and viewed in the new Vimeo app for VisionOS. This new professional workflow will be available this fall.</p>
+</blockquote>
+<p><img src="/static/wwdc-24-spatial.png" alt=""></p>
+<p>Apple pre-announced that spatial video was coming back in <a href="/news/20231111/">November 2023</a> - so this wasn't exactly new news.</p>
+<p>For those outside of the USA, fall begins on September 22nd and ends on December 21st - so we'll most likely see a preview of this at the Final Cut Pro Creative Summit.</p>
+<p><img src="/static/wwdc-24-fcp.jpg" alt=""></p>
+<p>Apple writes in their Vision Pro <a href="https://www.apple.com/au/newsroom/2024/06/visionos-2-brings-new-spatial-computing-experiences-to-apple-vision-pro/">Press Release</a>:</p>
+<blockquote>
+<p>Capturing spatial videos on Apple Vision Pro and iPhone 15 Pro allows users to bring special moments to life and relive them as though they are back in the moment. Later this year, Canon will offer a brand-new spatial lens for its popular EOS R7 digital camera to capture gorgeous spatial video, even in challenging lighting conditions. An update to Final Cut Pro will enable creators to edit spatial videos on their Mac and add immersive titles and effects to their projects, and with the Vimeo app designed for Vision Pro, users will be able to upload and share spatial videos for others to discover and enjoy.</p>
+</blockquote>
+<p>More interestingly however is that Apple has teamed up with Blackmagic Design to tackle <strong>Immersive Video</strong> - with no mention or hint as to whether or not Immersive Video will come to Final Cut Pro later down the line.</p>
+<p><img src="/static/wwdc-24-blackmagic.jpg" alt=""></p>
+<p>Here's what Blackmagic <a href="https://www.blackmagicdesign.com/media/release/20240611-02">announced</a> after the Keynote:</p>
+<blockquote>
+<p><strong>BLACKMAGIC DESIGN ANNOUNCES THE WORLD’S FIRST COMMERCIAL CAMERA SYSTEM AND EDITING SOFTWARE FOR APPLE IMMERSIVE VIDEO ON APPLE VISION PRO</strong></p>
+<p>Blackmagic URSA Cine Immersive and DaVinci Resolve support 8K stereoscopic 3D capture and editing, empowering filmmakers to create Apple Immersive Video for Apple Vision Pro</p>
+<p>Cupertino, CA, USA, June 10th, 2024 - Blackmagic Design today announced an end to end workflow for producing cinematic Apple Immersive Video for Apple Vision Pro. Blackmagic URSA Cine Immersive is the world’s first commercial camera system designed to capture Apple Immersive Video. Apple Immersive Video is a brand-new storytelling format that leverages 8K, 3D video with a 180-degree field of view, and Spatial Audio to transport viewers to the center of the action. Blackmagic Design also announced updates to DaVinci Resolve, the industry-leading post-production software, that will give professional filmmakers the ability to edit Apple Immersive Video for the first time. Blackmagic URSA Cine Immersive and a new version of DaVinci Resolve that supports Apple Immersive Video for Apple Vision Pro will be released later this year.</p>
+<p>“We are thrilled to announce the first-ever commercial camera system and post-production software that supports Apple Immersive Video, giving professional filmmakers the tools to create remarkable stories with this powerful new format pioneered by Apple,” said Grant Petty, Blackmagic Design CEO. “Built on the new URSA Cine platform, URSA Cine Immersive features a fixed, custom, stereoscopic 3D lens system with dual 8K image sensors that can capture 16 stops of dynamic range. With this innovative system, filmmakers can record remarkable moments like action-packed scenes, unique perspectives, stunning landscapes, intimate performances, and more, all with incredible fidelity, offering viewers an unparalleled sense of realism and immersion.”</p>
+<p><strong>THE WORLD’S FIRST COMMERCIAL CAMERA SYSTEM FOR APPLE IMMERSIVE VIDEO:</strong>
+Blackmagic URSA Cine Immersive features a fixed, custom lens system pre-installed on the body, which is designed specifically for Apple Immersive Video. The sensor delivers 8160 x 7200 resolution per eye with pixel level synchronization and an incredible 16 stops of dynamic range, so cinematographers can shoot 90fps stereoscopic 3D immersive cinema content to a single file. The custom lens system is designed specifically for URSA Cine’s large format image sensor with extremely accurate positional data that’s read and stored at time of manufacturing. This immersive lens data — which is mapped, calibrated and stored per eye — then travels through post production in the Blackmagic RAW file itself.</p>
+<p><strong>THE WORLD’S FIRST EDITING SOFTWARE FOR APPLE IMMERSIVE VIDEO:</strong>
+An updated version of DaVinci Resolve will introduce powerful new features to create a comprehensive workflow for immersive video on Apple Vision Pro. Blackmagic customers will be able to edit Apple Immersive Video shot on the URSA Cine Immersive camera. A new immersive video viewer will let editors pan, tilt and roll clips for viewing on 2D monitors or on Apple Vision Pro for an even more immersive editing experience. Transitions rendered by Apple Vision Pro will also be able to be bypassed using FCP XML metadata, giving editors clean master files. Export presets will enable quick output into a package which can be viewed directly on Apple Vision Pro.</p>
+<p><strong>URSA CINE IMMERSIVE IS DESIGNED TO MEET THE DEMANDS OF ANY HIGH END PRODUCTION:</strong></p>
+<p>The evenly weighted camera body is built with a robust magnesium alloy chassis and lightweight carbon fiber polycarbonate composite skin to help filmmakers move quickly on set. Customers also get 12G‑SDI out, 10G Ethernet, USB-C, XLR audio, and more. The fold out monitor has a large 5″ HDR touchscreen on one side and an external color status LCD on the other. The right side of the camera features a dedicated assist station with a second 5″ HDR touchscreen that allows crew to work around the camera without needing external monitors.</p>
+<p>An 8-pin Lemo power connector at the back of the camera works with 24V and 12V power supplies, making it easy to use the camera with existing power supplies, batteries, and accessories. Blackmagic URSA Cine Immersive comes with a massive 250W power supply and B mount battery plate, so customers can use a wide range of high voltage batteries from manufacturers such as IDX, Blueshape, Core SWX, BEBOB, and more. Customers will also receive a top handle, antennas for high speed Wi-Fi, baseplate, 24V power supply and high voltage B mount battery plate for quick set up.</p>
+<p>Blackmagic URSA Cine Immersive comes with 8TB of high performance network storage built in, which records directly to the included Blackmagic Media Module, and can be synced to Blackmagic Cloud and DaVinci Resolve media bins in real time. This means customers can capture over 2 hours of Blackmagic RAW in 8K stereoscopic 3D immersive, and editors can work on shots from remote locations worldwide as the shoot is happening.</p>
+<p>The new Blackmagic RAW Immersive file format is designed to make it simple and easy to work with immersive video within the whole post production workflow, and includes support for Blackmagic global media sync. Blackmagic RAW files store camera metadata, lens data, white balance, digital slate information and custom LUTs to ensure consistency of image on set and through post production.</p>
+<p>Blackmagic URSA Cine Immersive is the first commercial, digital film camera with ultra fast high capability Cloud Store technology built in. The high speed storage lets customers record at the highest resolutions and frame rates for hours and access their files directly over high speed 10G Ethernet. The camera also supports creating a small H.264 proxy file, in addition to the camera original media when recording. This means the small proxy file can be uploaded to Blackmagic Cloud in seconds, so media is available back at the studio in real time.</p>
+<p>Blackmagic Media Dock accelerates post production workflow by making it faster and simpler to start editing and performing color correction. Customers can mount up to three Blackmagic Media Modules for high speed access to media from multiple URSA Cine Immersive cameras all at the same time. The four high speed 10G Ethernet ports allow up to four separate edit workstations to connect directly and is extremely fast, even when a lot of users are connected at the same time.</p>
+<p><strong>BLACKMAGIC URSA CINE IMMERSIVE FEATURES:</strong></p>
+<ul>
+<li>Dual custom lens system for shooting Apple Immersive Video for Apple Vision Pro.</li>
+<li>8K stereoscopic 3D immersive image capture.</li>
+<li>8160 x 7200 resolution per eye with pixel level synchronization.</li>
+<li>Massive 16 stops of dynamic range.</li>
+<li>Lightweight, robust camera body with industry standard connections.</li>
+<li>Generation 5 Color Science with new film curve.</li>
+<li>Dual 90 fps capture to a single Blackmagic RAW file.</li>
+<li>Includes high performance Blackmagic Media Module 8TB for recording.</li>
+<li>High speed Wi-Fi, 10G Ethernet or mobile data for network connections.</li>
+<li>Optional Blackmagic URSA Cine EVF.</li>
+<li>Includes DaVinci Resolve Studio for post production.</li>
+</ul>
+<p><strong>DAVINCI RESOLVE IMMERSIVE FEATURES:</strong></p>
+<ul>
+<li>Support for monitoring on Apple Vision Pro from the DaVinci Resolve timeline.</li>
+<li>Ability to edit Blackmagic RAW Immersive video shot on Blackmagic URSA Cine Immersive.</li>
+<li>Immersive video viewer for pan, tilt and roll.</li>
+<li>Automatic recognition of Apple Immersive Video (left and right eye) for dual file stereo immersive content.</li>
+<li>Option to bypass transitions rendered by Apple Vision Pro.</li>
+<li>Export and deliver native files for viewing on Apple Vision Pro.</li>
+</ul>
+<p><strong>AVAILABILITY AND PRICE:</strong>
+Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be available later this year from selected Blackmagic Design resellers worldwide.</p>
+</blockquote>
+<p><img src="/static/wwdc-24-blackmagic1.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-blackmagic2.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-blackmagic3.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-blackmagic4.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-blackmagic5.jpg" alt=""></p>
+<p><img src="/static/wwdc-24-blackmagic6.jpg" alt=""></p>
+<p>This is super interesting for Final Cut Pro professionals, as it shows that Blackmagic is really full steam ahead with Blackmagic RAW, with their new Blackmagic RAW Immersive format.</p>
+<p>Interestingly, in Apple's Keynote they did mention that Apple's Compressor will be part of the workflow, although Blackmagic's press release makes it sound like Compressor is not needed (i.e. &quot;Export and deliver native files for viewing on Apple Vision Pro&quot;).</p>
+<p><img src="/static/wwdc-24-compressor.jpg" alt=""></p>
+<p>Last year Apple announced a new framework called <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension</a>, that provides a means for developers to create format readers and video decoders for media that the system doesn’t natively support - such as Blackmagic RAW and Nikon NRAW.</p>
+<p>This was supposed to come in macOS Sonoma, but they silently killed it - but it looks like it's coming back for <strong>macOS Sequoia</strong>.</p>
+<p>This is super interestingly as it means that a third party can finally add codec support for third party codecs that will work system wide (if the host app allows third party codec support) - i.e. Final Cut Pro could potentially finally have native Blackmagic RAW support without the need for <a href="https://brawtoolbox.io">BRAW Toolbox</a>!</p>
+<blockquote>
+<p>Once a user installs and runs the host app, embedded format reader extensions become available to any app on the user’s system that opts in to using them by calling <code>MTRegisterProfessionalVideoWorkflowFormatReaders</code>.</p>
+</blockquote>
+<p><a href="https://developer.apple.com/documentation/mediaextension">MediaExtension</a> will require macOS Sequoia, and is labelled as &quot;beta&quot; - so it's unclear if this will actually come in the public release later this year or not.</p>
+<p>Currently the documentation just says:</p>
+<blockquote>
+<p>Building MediaExtension format readers using ExtensionKit requires an entitlement. Updates include information about the entitlement and a link to the entitlement request form.</p>
+</blockquote>
+<p>...so we'll have to see if Apple eventually adds the entitlement request form (as they never did last year).</p>
+<p>Currently a lot of the documentation also still says <code>macOS 14.0+</code>, so it's unclear how much attention Apple's put towards this Framework - and it might just be intended for camera manufacturers to use (i.e. for Blackmagic to build their own BRAW support, as opposed to ANY third party developer).</p>
+<p>In the <strong>Platforms State of the Union</strong> video, Final Cut Pro for iPad did get a little nod in the SwiftUI section:</p>
+<p><img src="/static/wwdc-24-swiftui.jpg" alt=""></p>
+<p>In terms of macOS news, macOS Sonoma has always had issues with various H.264 decoding, but it looks like there's some fixes coming to <strong>macOS Sequoia</strong>, such as:</p>
+<blockquote>
+<p>Fixed: On Apple Silicon, AVC (H.264) content at level 5.2 or lower can be handled by the hardware decoder. Content that otherwise conforms to level 5.2 but is high frame rate (e.g. 4k at 100 or 120 fps) and labelled level 6, 6.1 or 6.2 is also handled by hardware. However, if width or height is greater than 4096 columns or rows and content uses 4:2:0 chroma subsampling and 8 bit depth, the hardware decoder driver will reject it and a software decoder will be automatically selected to ensure artifact-free decoding. Now, if content is 10 bit, 4:2:2 or 4:4:4, the hardware decoder will be used. (127003443)</p>
+</blockquote>
+<p>For developers, there's a HEAP of exciting new technologies and frameworks - especially in terms of on-device machine learning, such as <a href="https://developer.apple.com/documentation/translation/translating-text-within-your-app">transcription</a>.</p>
+<p>Hopefully we eventually see some of these technologies and frameworks used on a future version of Final Cut Pro, but for now, we wait for <strong>Final Cut Pro for Mac 10.8</strong> - Apple previously announced:</p>
+<blockquote>
+<p><strong>Pricing and Availability</strong></p>
+<ul>
+<li>Final Cut Pro for iPad 2 will be available later this spring as a free update for existing users, and available on the App Store for $4.99 (U.S.) per month or $49 (U.S.) per year, with a one-month free trial for new users.</li>
+<li>Final Cut Camera will be available for free later this spring as a standalone app.</li>
+<li>Final Cut Pro for Mac 10.8 will be available as a free update for existing users and for $299.99 (U.S.) for new users on the Mac App Store. All new users can download a free 90-day trial of Final Cut Pro.</li>
+</ul>
+</blockquote>
+<p>So there's a good chance we'll see Final Cut Pro updated later this week or next.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-june-2024</link>
+            <guid isPermaLink="false">11th June 2024</guid>
+            <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
