@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 05 Jun 2024 01:59:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Jun 2024 08:25:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 05 Jun 2024 01:59:05 GMT</pubDate>
+        <pubDate>Fri, 07 Jun 2024 08:25:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5474,6 +5474,38 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
             <link>https://fcp.cafe/#5th-june-2024</link>
             <guid isPermaLink="false">5th June 2024</guid>
             <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th June 2024]]></title>
+            <description><![CDATA[<p><strong>PostLab 2.0 Early Access</strong> is out now for all PostLab Classic teams!</p>
+<p><img src="/static/postlab2.png" alt=""></p>
+<blockquote>
+<p>Meet the future: collaborate on any creative app, no more subscription, and bring your own storage - whether it's a NAS or a cloud drive!</p>
+</blockquote>
+<p>The successor to PostLab Classic is finally here, after Hedge's massive announcement at the Final Cut Pro Creative Summit last year (you can read my reaction from the Summit <a href="/news/20231107/">here</a>).</p>
+<p>You can read all about this groundbreaking software <a href="https://hedge.video/pl2/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-june-2024</link>
+            <guid isPermaLink="false">7th June 2024</guid>
+            <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th June 2024]]></title>
+            <description><![CDATA[<p><strong>LUT Robot</strong> is now available on the Mac App Store.</p>
+<p>It allows you to automatically apply Camera LUTs with matching filenames.</p>
+<p><img src="/static/lut-robot.png" alt=""></p>
+<p>When working on big long-form projects, such as feature films and television shows, DITs on-set create unique Camera LUTs for each shot.</p>
+<p>For example, the production might be shooting on an ARRI Alexa and when they hand over the rushes, they also hand over LUTs for each camera file.</p>
+<p>LUT Robot automatically applies Camera LUTs with matching filenames, saving hours of work for Assistant Editors, who until now, had to manually set the Camera LUT for each clip.</p>
+<p>You can select a specific sub-folder within your Camera LUTs folder to scan.</p>
+<p>This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.</p>
+<p>The <strong>LUT Robot</strong> icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p>The FCPXML Processing Engine used under-the-hood was created by <a href="https://github.com/randomeizer/">David Peterson</a>.</p>
+<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-june-2024</link>
+            <guid isPermaLink="false">7th June 2024</guid>
+            <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
