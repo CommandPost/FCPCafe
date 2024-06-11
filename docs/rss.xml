@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 11 Jun 2024 06:59:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jun 2024 07:06:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Jun 2024 06:59:47 GMT</pubDate>
+        <pubDate>Tue, 11 Jun 2024 07:06:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5540,6 +5540,12 @@ Using Mac Virtual Display is like having an expandable, ultrawide screen that wr
 <blockquote>
 <p>Now you can connect your Magic Mouse or third‑party Bluetooth mouse to navigate while using Apple Vision Pro.</p>
 </blockquote>
+<p>Another very useful feature for Final Cut Pro editors is <strong>Continuity</strong> in <strong>macOS Sequoia</strong>:</p>
+<blockquote>
+<p><strong>Use your iPhone from your Mac</strong>
+With iPhone Mirroring, you can view what’s on your iPhone and control it too, without having to reach for it.</p>
+</blockquote>
+<p>This will make getting files from your iPhone to your Mac a lot easier, than dealing with AirDrop.</p>
 <p>In terms of Final Cut Pro news, it was confirmed in the Keynote that:</p>
 <blockquote>
 <p>Spatial Videos can then be edited in Final Cut Pro for Mac, and shared and viewed in the new Vimeo app for VisionOS. This new professional workflow will be available this fall.</p>
