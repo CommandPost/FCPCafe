@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 11 Jun 2024 08:54:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Jun 2024 02:46:47 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Jun 2024 08:54:15 GMT</pubDate>
+        <pubDate>Wed, 12 Jun 2024 02:46:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5648,6 +5648,27 @@ Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be availab
             <link>https://fcp.cafe/#11th-june-2024</link>
             <guid isPermaLink="false">11th June 2024</guid>
             <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th June 2024]]></title>
+            <description><![CDATA[<p><strong>Rafael Ludwig</strong> has recently released a fun and interesting video on his YouTube channel titled, <strong>How Apple Could Dominate the Creative Market with Final Cut Pro</strong>.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=Ag96jZb-I1g"><img src="/static/rafael-ludwig-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#12th-june-2024</link>
+            <guid isPermaLink="false">12th June 2024</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th June 2024]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates</strong> (aka The Final Cut Bro), also just released a super fun video sponsored by <a href="https://www.motionvfx.com">MotionVFX</a>.</p>
+<p>It seems that MotionVFX paid for a bunch of Final Cut Pro gurus to fly to Poland to hang out - which is super cool!</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=0bBEEQdMqcA"><img src="/static/dylan-bates-youtube.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#12th-june-2024</link>
+            <guid isPermaLink="false">12th June 2024</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
