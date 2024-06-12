@@ -56,6 +56,12 @@
 
 ---
 
+## L
+
+{{ include "workflow-extensions/lut-robot" }}
+
+---
+
 ## M
 
 {{ include "workflow-extensions/marker-toolbox" }}
