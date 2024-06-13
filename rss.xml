@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 12 Jun 2024 02:46:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Jun 2024 03:00:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 12 Jun 2024 02:46:47 GMT</pubDate>
+        <pubDate>Wed, 12 Jun 2024 03:00:30 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5648,6 +5648,27 @@ Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be availab
             <link>https://fcp.cafe/#11th-june-2024</link>
             <guid isPermaLink="false">11th June 2024</guid>
             <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th June 2024]]></title>
+            <description><![CDATA[<p>The <strong>Pro Editor Bundle v2</strong> is out now for <strong>USD$150</strong> (save USD$119.93).</p>
+<p>This bundle on the Mac App Store gives you access to:</p>
+<ul>
+<li><a href="https://brawtoolbox.io">BRAW Toolbox</a></li>
+<li><a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a></li>
+<li><a href="https://markertoolbox.io">Marker Toolbox</a></li>
+<li><a href="https://recalltoolbox.io">Recall Toolbox</a></li>
+<li><a href="https://fastcollections.io">Fast Collections</a></li>
+<li><a href="https://lutrobot.pro">LUT Robot</a></li>
+<li><a href="https://capacitor.pro">Capacitor</a></li>
+</ul>
+<p>The Mac App Store also supports <strong>Complete My Bundle</strong> - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.</p>
+<p>You can find the <strong>Pro Editor Bundle v2</strong> on the Mac App Store <a href="https://itunes.apple.com/us/app-bundle/id1750813030?mt=12">here</a>.</p>
+<p>Alternatively, if you don't need LUT Robot or Capacitor, you can buy the original <strong>Pro Editor Bundle</strong> on the Mac App Store <a href="https://itunes.apple.com/us/app-bundle/id1717681153?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-june-2024</link>
+            <guid isPermaLink="false">12th June 2024</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[12th June 2024]]></title>
