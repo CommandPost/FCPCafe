@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 14 Jun 2024 07:45:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Jun 2024 03:43:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Jun 2024 07:45:22 GMT</pubDate>
+        <pubDate>Thu, 20 Jun 2024 03:43:19 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5732,6 +5732,24 @@ Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be availab
             <link>https://fcp.cafe/#13th-june-2024</link>
             <guid isPermaLink="false">13th June 2024</guid>
             <pubDate>Thu, 13 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th June 2024]]></title>
+            <description><![CDATA[<p><strong>Rotomatic v1.0.0</strong> is out now on FxFactory.</p>
+<p>It features:</p>
+<blockquote>
+<p><strong>Automatic object detection and tracking</strong>
+Rotomatic simplifies the tedious task of manual rotoscoping by automating it, offering significant control to achieve desired results with convenience and speed. Developed using a contemporary machine learning framework, Rotomatic employs multiple neural networks to enhance object detection and tracking.</p>
+<p><strong>Intuitive on-screen configuration</strong>
+Intuitive, on-screen configuration for efficient and practical rotoscoping application. Our &quot;Refine, not Redo&quot; philosophy means that labor-intensive steps like object definition and tracking are seldom repeated. The built-in timeline facilitates management of keyframes and selected objects, especially for extensive clips requiring rotoscoping.</p>
+<p><strong>Incremental refinement</strong>
+Keyframes, objects, and their elements can be adjusted and reprocessed without impacting previously computed outcomes. Rotomatic offers a more efficient and user-friendly way to achieve professional rotoscoping results.</p>
+</blockquote>
+<p>You can learn more on <a href="https://fxfactory.com/info/rotomatic/">FxFactory</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-june-2024</link>
+            <guid isPermaLink="false">20th June 2024</guid>
+            <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
