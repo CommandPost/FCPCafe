@@ -107,6 +107,24 @@ Here is a collection of useful third party frameworks.
 
 Here is the release notes for FxPlug. Where appropriate, we try and add additional information and context below.
 
+### FxPlug 4.3
+
+**Released:** 20th June 2024
+
+- Improved overall stability.
+- Removal of custom view pointer parameter from `FxSimpleColorCorrector` example code.
+
+> **NOTE:** It just removes this line of code: `customView = view;` in `FxSimpleColorCorrectorPlugIn.m`
+
+- Developers will no longer see console messages about the host trying to load 3rd party bundles.
+- When debugging plug-ins with a recent Xcode that use Metal rendering, turn off Metal API Validation. Otherwise, the debugger may stop your plug-in in the `-renderDestination:` method with a `SIGABRT`.
+- Fixed an issue that would cause the host to crash when attempting to set a value to an incorrect parameter type.
+- Fixed an issue where unpublishing an FxPlug parameter with a custom UI causes the inspector to glitch.
+- Fixed an incorrect pixel transform so `-getOutputWidth:Height::` returns the results in the correct space.
+- Fixed a hang that happens when attempting to get currentTime from `FxCustomParameterActionAPI` while querying it for the analysis range.
+
+---
+
 ### FxPlug 4.2.9
 
 **Released:** 30th November 2023

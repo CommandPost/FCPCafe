@@ -14,6 +14,8 @@ You can read our current recommendations below:
 
 ## Short Answer
 
+**Final Cut Pro 10.8** has only just been released, however the initial verdict is that it's very similar to 10.7.1. If you rush to update, make sure you have backups!
+
 If you're still on **Final Cut Pro 10.6.5** or earlier on **Intel** machines - just stay there until you buy an Apple Silicon Mac.
 
 If you're currently on **Final Cut Pro 10.6.10**, you can safely upgrade to **Final Cut Pro 10.7**.
@@ -62,6 +64,28 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 ---
 
+## Final Cut Pro 10.8.0
+
+**Final Cut Pro 10.8** was released on the Mac App Store on 20th June 2024.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| Hedge Arctic             | Use Arctic v24.2.0 or later                                                                             |
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
+
+---
+
 ## Final Cut Pro 10.7.1
 
 **Final Cut Pro 10.7** was released on the Mac App Store on 30th November 2023.
@@ -78,7 +102,7 @@ However, there are some **bugs** that [we reported in the news feed](/news/20231
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
-| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                                                                         |
+| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                     |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
@@ -103,7 +127,7 @@ However, there are some **bugs** that [we reported in the news feed](/news/20231
 | CommandPost              | No Known Issues                                                                                         |
 | CoreMelt                 | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
-| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                                                                         |
+| FxFactory                | _Some issues with Titles not respecting parameters when rendering._                                     |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |

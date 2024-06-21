@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.8.0            | 20/06/2024   | 182                  | 14.5          | 4.3            |
 | 10.7.0            | 21/12/2023   | 21                   | 14.1.2        | 4.2.9          |
 | 10.7.0            | 30/11/2023   | 56                   | 14.1.2        | 4.2.9          |
 | 10.6.10           | 05/10/2023   | 16                   | 13.5.2        | 4.0            |
@@ -85,12 +86,13 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2021	| 5       |
 | 2022	| 4       |
 | 2023	| 7       |
+| 2024  | 1       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 8       |
-| Q2	  | 14      |
+| Q2	  | 15      |
 | Q3	  | 12      |
 | Q4	  | 18      |
 
@@ -102,7 +104,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Mar	| 3       |
 | Apr	| 6       |
 | May	| 4       |
-| Jun	| 4       |
+| Jun	| 5       |
 | Jul	| 3       |
 | Aug	| 4       |
 | Sept	| 4       |
@@ -113,6 +115,41 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 ---
 
 ## iPad
+
+### Final Cut Pro 2.0 (for iPad)
+
+**Released June 20, 2024**
+
+**Final Cut Pro for iPad 2.0** includes the following features and enhancements:
+
+- Connect to Final Cut Camera on iPhone or iPad to record up to four camera angles at once using Live Multicam.
+- Easily create and edit projects on a connected external storage device.
+- Dial in your exposure with shutter speed and ISO controls in pro camera mode.
+- Enable focus peaking to ensure your footage is sharp while recording.
+- Polish your videos with 12 new color grading presets, 6 dynamic glitch backgrounds, 20 soundtracks, 8 basic text titles, and more.
+
+**Improvements and bug fixes:**
+- Clip duration in the inspector now appears as timecode.
+- Fixes an issue that prevented deleting gap clips in Position mode.
+- Fixes an issue that caused Zoom to Fit to stop working when the timeline position was changed.
+- Improves playback performance when editing with the Magic Keyboard.
+- Fixes an issue that caused the disabled skimmer to become active after a browser clip was dragged into the timeline with a trackpad or Apple Pencil.
+- Fixes an issue that caused filmstrip thumbnails to be drawn at incorrect intervals.
+- Fixes an issue that caused the volume offset value to remain at 0 when adjusting the volume of multiple clips.
+- Improves reliability when importing media into a project.
+- Improves reliability when a voiceover recording is interrupted by certain calls and timers.
+- Fixes an issue that caused disabling all multicam audio components to show a missing media state.
+- Fixes an issue that caused angle name changes made in the angle editor to not appear in the timeline or inspector.
+- Fixes an issue that caused the inspector to not update to the active multicam audio component.
+- Fixes an issue that caused audio configuration changes made in the angle editor to not appear accurately in the timeline.
+- Improves the reliability of Live Drawing in a portrait timeline.
+- Fixes an issue that caused adding a clip to the timeline using keyboard shortcuts to sometimes add objects from the content browser as well.
+- Fixes an issue that sometimes caused the viewer to dim when Final Cut Pro was reopened.
+- Fixes an issue that caused timeline clip thumbnails to not be updated immediately after media was reconnected or missing content was redownloaded.
+- Fixes an issue that caused retime video quality settings to be omitted when copying and pasting format settings.
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro 1.3 (for iPad)
 
@@ -253,6 +290,41 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 10.8
+
+**Released June 20, 2024**
+
+**Final Cut Pro 10.8 includes the following enhancements and bug fixes:**
+
+- Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color effect, powered by machine learning.
+- Enable Smooth Slo-Mo to create amazing slow-motion visuals with an AI-enhanced algorithm on Mac models with Apple silicon.
+- Stay organized by renaming color corrections and video effects in the inspector.
+- Drag effects right from the inspector to other clips in the timeline or viewer.
+- Use new filters in the timeline index to quickly identify clips with audio effects, video effects, retiming changes, missing media, or missing effects.
+- Search in the timeline index by reel, scene, camera angle, camera name, custom metadata, or effect name.
+- Search in the timeline index for user-created roles.
+- Search for clips in the browser using new “Starts With” and “Ends With” search criteria.
+- Enable or disable timeline scrolling using a new toolbar button.
+- Improves timeline scrolling behavior during reverse playback.
+- Fixes an issue where captions would sometimes flicker when timeline scrolling is enabled.
+- Fixes an issue where browser items would be appear to be renamed when naming a folder.
+- Fixes an issue that caused disabling the audio roles of a clip to make the video roles appear disabled.
+- Accurately tone-maps HDR video content in 360° view for 360° projects.
+- Fixes an issue that could cause ProRes RAW clips to be displayed incorrectly in the viewer on Intel-based Mac models.
+- Fixes an issue that caused a freeze frame from a log-encoded clip to appear too bright in an HLG timeline.
+- Fixes an issue that caused a disabled Color Board effect to be incorrectly enabled after exporting and reimporting an FCPXML of the timeline.
+- Fixes an issue that caused the Space Designer audio effect to show presets as missing.
+- Fixes an issue that could cause Final Cut Pro to stop responding when rendering with another app active.
+- Fixes an issue that caused switching between the angle viewer and the video scopes to change the angle viewer selection back to “Enable video and audio switching.”
+- Fixes an issue that caused Final Cut Pro to stop responding when both a folder and an enclosed item were selected in the browser.
+- Adds support for sharing 8K ProRes MXF files.
+- Improves support for Canon C2 AVC media.
+- Adds support for Canon XF-AVC 1920x1080 59.94i/50i H.264 25Mbps.
+- Removes support for disc burning.
+- Updates FCPXML to version 1.12.
+
+---
 
 ### Final Cut Pro 10.7.1
 
