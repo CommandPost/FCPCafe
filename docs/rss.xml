@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 20 Jun 2024 04:58:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jun 2024 06:50:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 20 Jun 2024 04:58:09 GMT</pubDate>
+        <pubDate>Fri, 21 Jun 2024 06:50:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5750,6 +5750,161 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <link>https://fcp.cafe/#20th-june-2024</link>
             <guid isPermaLink="false">20th June 2024</guid>
             <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st June 2024]]></title>
+            <description><![CDATA[<p>It's an exciting (and very busy) Friday here at FCP Cafe!</p>
+<p><strong>Final Cut Pro v10.8</strong>, <strong>Final Cut Pro for iPad v2.0</strong>, <strong>Final Cut Camera v1.0</strong>, <strong>Motion v5.8</strong>, <strong>Compressor v4.8</strong> are all out now!</p>
+<p><strong>iMovie v10.4.1</strong> is out with stability and performance improvements.</p>
+<p><strong>Pro Video Formats v2.3.1</strong> is out now.</p>
+<p>For developers, <strong>FxPlug v4.3</strong> is also out now, along with <strong>FCPXML v1.12</strong>.</p>
+<p>The new <strong>Color Adjustments</strong> feature in Final Cut Pro 10.8 is definitely our favourite new addition, although renaming Effects will be pretty handy too.</p>
+<p>Final Cut Pro v10.8 and Final Cut Pro for iPad v2.0 have a new library database version (now <code>1110</code> compared to <code>1090</code> in 10.7.1), so you'll need to update older libraries.</p>
+<p><img src="/static/new-library-version.png" alt=""></p>
+<p><em><strong>We strongly recommend making a backup of all Final Cut Pro Libraries before updating them!</strong></em></p>
+<p><strong>Transfer Toolbox v1.2.0</strong> is also out today, allowing you to move Libraries from Final Cut Pro v10.8 to Final Cut Pro 2.0 (for iPad).</p>
+<p>You can learn more and download for free <a href="https://transfertoolbox.io">here</a>.</p>
+<p><img src="/static/transfer-toolbox-1-2-0.png" alt=""></p>
+<p><strong>Arctic v24.2.0</strong> is also out today with Final Cut Pro 10.8 support.</p>
+<p>You can learn more <a href="https://hedge.video/arctic">here</a>.</p>
+<p><img src="/static/arctic-24-2-0.png" alt=""></p>
+<p>Sadly, unlike some Final Cut Pro YouTuber's and Trainers, we don't get early access to these Final Cut Pro updates, so we are currently carefully testing and reviewing all these changes, and how they affect our own apps and workflows.</p>
+<p>We will post our test results over on our <a href="/update-guide/">Should I Update?</a> page as we learn new things.</p>
+<p>So far we can confirm that <a href="https://commandpost.io">CommandPost</a> and <a href="https://brawtoolbox.io">BRAW Toolbox</a> both seem to be working great! If you spot any issues, please reach out.</p>
+<p>We will aim to add <strong>Color Adjustments</strong> support to CommandPost in the coming weeks, so that you can control all the parameters with your preferred control surface.</p>
+<p><a href="https://capacitor.pro">Capacitor</a> will also be updated soon to support FCPXML v1.12.</p>
+<p><strong>Matthew O'Brien</strong> has already reported some weirdness in Final Cut Pro 10.8 on <a href="https://x.com/matthewtobrien/status/1803950906494587247?s=46&amp;t=rAqnb4ykI8KSBTwguvX5fg">Twitter</a>, however we haven't been able to reproduce.</p>
+<p><img src="/static/matthew-obrien-fcp10-8-twitter-bug.png" alt=""></p>
+<p><em><strong>As always, before updating, please make sure you make a backup of the Final Cut Pro application, and your existing Final Cut Pro Libraries.</strong></em></p>
+<p>Final Cut Pro 10.8 removes support for DVD &amp; BluRay burning. However, you can always keep a copy of Final Cut Pro 10.7.1 handy or buy <strong>Toast 20 Pro</strong> at a discounted price for a limited time <a href="https://www.roxio.com/en/products/toast/pro/?promo=EUXG">here</a>.</p>
+<p>You can read Iain Anderson's detailed analysis of Final Cut Pro 10.8 over at <a href="https://www.provideocoalition.com/final-cut-pro-10-8-released-an-in-depth-look/">ProVideo Coalition</a>.</p>
+<p>He's also written about Final Cut Pro for iPad 2 on ProVideo Coalition <a href="https://www.provideocoalition.com/final-cut-camera-and-final-cut-pro-for-ipad-2/">here</a>.</p>
+<p>You can watch Steve &amp; Mark at Ripple Training give an in-depth look at Final Cut Pro 10.8 over on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=oiJlUPix7jM"><img src="/static/youtube-ripple-training-10-8.jpeg" alt=""></a></p>
+<p>You can watch Dylan Bates (a.k.a The Final Cut Bro) explain Final Cut Pro 10.8 over on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=2LSG5kaXnWA"><img src="/static/youtube-dylan-10-8.jpeg" alt=""></a></p>
+<p>You can watch Robin S. Kurz at POST-PROfessionals dig deep into Final Cut Pro 10.8 over a series of detailed videos on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=OX2YJ-gN_jA&amp;list=PL0t9PZ5-uwIDGvKXu6BAhNoxI8LnGlfEL&amp;index=1"><img src="/static/youtube-robin-kurz-10-8.jpeg" alt=""></a></p>
+<p><strong>Final Cut Pro v10.8</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color effect, powered by machine learning.</li>
+<li>Enable Smooth Slo-Mo to create amazing slow-motion visuals with an AI-enhanced algorithm on Mac models with Apple silicon.</li>
+<li>Stay organized by renaming color corrections and video effects in the inspector.</li>
+<li>Drag effects right from the inspector to other clips in the timeline or viewer.</li>
+<li>Use new filters in the timeline index to quickly identify clips with audio effects, video effects, retiming changes, missing media, or missing effects.</li>
+<li>Search in the timeline index by reel, scene, camera angle, camera name, custom metadata, or effect name.</li>
+<li>Search in the timeline index for user-created roles.</li>
+<li>Search for clips in the browser using new “Starts With” and “Ends With” search criteria.</li>
+<li>Enable or disable timeline scrolling using a new toolbar button.</li>
+<li>Improves timeline scrolling behavior during reverse playback.</li>
+<li>Fixes an issue where captions would sometimes flicker when timeline scrolling is enabled.</li>
+<li>Fixes an issue where browser items would be appear to be renamed when naming a folder.</li>
+<li>Fixes an issue that caused disabling the audio roles of a clip to make the video roles appear disabled.</li>
+<li>Accurately tone-maps HDR video content in 360° view for 360° projects.</li>
+<li>Fixes an issue that could cause ProRes RAW clips to be displayed incorrectly in the viewer on Intel-based Mac models.</li>
+<li>Fixes an issue that caused a freeze frame from a log-encoded clip to appear too bright in an HLG timeline.</li>
+<li>Fixes an issue that caused a disabled Color Board effect to be incorrectly enabled after exporting and reimporting an FCPXML of the timeline.</li>
+<li>Fixes an issue that caused the Space Designer audio effect to show presets as missing.</li>
+<li>Fixes an issue that could cause Final Cut Pro to stop responding when rendering with another app active.</li>
+<li>Fixes an issue that caused switching between the angle viewer and the video scopes to change the angle viewer selection back to “Enable video and audio switching.”</li>
+<li>Fixes an issue that caused Final Cut Pro to stop responding when both a folder and an enclosed item were selected in the browser.</li>
+<li>Adds support for sharing 8K ProRes MXF files.</li>
+<li>Improves support for Canon C2 AVC media.</li>
+<li>Adds support for Canon XF-AVC 1920x1080 59.94i/50i H.264 25Mbps.</li>
+<li>Removes support for disc burning.</li>
+<li>Updates FCPXML to version 1.12.</li>
+</ul>
+<p><img src="/static/whats-new-10-8.png" alt=""></p>
+<p><strong>Final Cut Pro for iPad v2.0</strong> includes the following features, enhancements and bug fixes:</p>
+<ul>
+<li>Connect to Final Cut Camera on iPhone or iPad to record up to four camera angles at once using Live Multicam.</li>
+<li>Easily create and edit projects on a connected external storage device.</li>
+<li>Dial in your exposure with shutter speed and ISO controls in pro camera mode.</li>
+<li>Enable focus peaking to ensure your footage is sharp while recording.</li>
+<li>Polish your videos with 12 new color grading presets, 6 dynamic glitch backgrounds, 20 soundtracks, 8 basic text titles, and more.</li>
+<li>Clip duration in the inspector now appears as timecode.</li>
+<li>Fixes an issue that prevented deleting gap clips in Position mode.</li>
+<li>Fixes an issue that caused Zoom to Fit to stop working when the timeline position was changed.</li>
+<li>Improves playback performance when editing with the Magic Keyboard.</li>
+<li>Fixes an issue that caused the disabled skimmer to become active after a browser clip was dragged into the timeline with a trackpad or Apple Pencil.</li>
+<li>Fixes an issue that caused filmstrip thumbnails to be drawn at incorrect intervals.</li>
+<li>Fixes an issue that caused the volume offset value to remain at 0 when adjusting the volume of multiple clips.</li>
+<li>Improves reliability when importing media into a project.</li>
+<li>Improves reliability when a voiceover recording is interrupted by certain calls and timers.</li>
+<li>Fixes an issue that caused disabling all multicam audio components to show a missing media state.</li>
+<li>Fixes an issue that caused angle name changes made in the angle editor to not appear in the timeline or inspector.</li>
+<li>Fixes an issue that caused the inspector to not update to the active multicam audio component.</li>
+<li>Fixes an issue that caused audio configuration changes made in the angle editor to not appear accurately in the timeline.</li>
+<li>Improves the reliability of Live Drawing in a portrait timeline.</li>
+<li>Fixes an issue that caused adding a clip to the timeline using keyboard shortcuts to sometimes add objects from the content browser as well.</li>
+<li>Fixes an issue that sometimes caused the viewer to dim when Final Cut Pro was reopened.</li>
+<li>Fixes an issue that caused timeline clip thumbnails to not be updated immediately after media was reconnected or missing content was redownloaded.</li>
+<li>Fixes an issue that caused retime video quality settings to be omitted when copying and pasting format settings.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><img src="/static/fcp-2-ipad.jpeg" alt=""></p>
+<p><strong>Motion v5.8</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color filter, powered by machine learning.</li>
+<li>Improves stability when exporting a movie with an applied Analyze Motion behavior.</li>
+<li>Improves stability when switching between the Filters and Properties Inspectors in a project with an applied Color Curves filter.</li>
+<li>Improves stability when analyzing in reverse using Point mode tracking in the Analyze Motion behavior.</li>
+<li>Fixes an issue in which Motion may become unresponsive when using a third-party FxPlug plug-in.</li>
+<li>Fixes an issue in which a Keyer filter may render incorrectly when Color Processing is set to Automatic in the Project Properties Inspector.</li>
+<li>Improves stability when creating a particle emitter or replicator from the Media list in a 360° project.</li>
+</ul>
+<p><img src="/static/motion-5-8.png" alt=""></p>
+<p><strong>Compressor v4.8</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Preview left or right eye angles of spatial video shot on Apple Vision Pro, iPhone 15 Pro, or iPhone 15 Pro Max</li>
+<li>Create video or image sequences from the left or right eye of spatial video for stereoscopic workflows in other applications.</li>
+<li>Fixes an issue where “This Computer” could not be deselected when setting up a group of shared computers to process Compressor batches.</li>
+<li>Fixes an issue where modifying the audio of a video clip shot in portrait mode would cause the image to rotate 90 degrees.</li>
+<li>Adds support for Canon XF-AVC 1920x1080 59.94i/50i H.264 25Mbps.</li>
+</ul>
+<p><img src="/static/compressor-4-8.png" alt=""></p>
+<p><strong>FxPlug v4.3</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Improved overall stability.</li>
+<li>Removal of custom view pointer parameter from <code>FxSimpleColorCorrector</code> example code.</li>
+<li>Developers will no longer see console messages about the host trying to load 3rd party bundles.</li>
+<li>When debugging plug-ins with a recent Xcode that use Metal rendering, turn off Metal API Validation. Otherwise, the debugger may stop your plug-in in the <code>-renderDestination:</code> method with a SIGABRT.</li>
+<li>Fixed an issue that would cause the host to crash when attempting to set a value to an incorrect parameter type.</li>
+<li>Fixed an issue where unpublishing an FxPlug parameter with a custom UI causes the inspector to glitch.</li>
+<li>Fixed an incorrect pixel transform so <code>-getOutputWidth:Height::</code> returns the results in the correct space.</li>
+<li>Fixed a hang that happens when attempting to get currentTime from <code>FxCustomParameterActionAPI</code> while querying it for the analysis range.</li>
+</ul>
+<p><strong>FCPXML v1.12</strong> only have a few new additions:</p>
+<ul>
+<li>Added <code>&lt;!ATTLIST filter-video nameOverride CDATA #IMPLIED&gt;</code></li>
+<li>Added <code>&lt;!ATTLIST filter-audio nameOverride CDATA #IMPLIED&gt;</code></li>
+<li>Updated <code>&lt;!ATTLIST conform-rate frameSampling (floor | nearest-neighbor | frame-blending | optical-flow-classic | optical-flow | optical-flow-frc) &quot;floor&quot;&gt;</code></li>
+<li>Updated <code>&lt;!ATTLIST timeMap frameSampling (floor | nearest-neighbor | frame-blending | optical-flow-classic | optical-flow | optical-flow-frc) &quot;floor&quot;&gt;</code></li>
+<li>Updated <code>&lt;!ATTLIST match-text rule (includes | doesNotInclude | is | isNot | startsWith | endsWith) &quot;includes&quot;&gt;</code></li>
+<li>Updated <code>&lt;!ATTLIST match-property rule (includes | doesNotInclude | is | isNot | isSet | isNotSet | startsWith | endsWith) &quot;includes&quot;&gt;</code></li>
+</ul>
+<p><strong>Pro Video Formats v2.3.1</strong> provides support for the following codecs that are used in professional video workflows:</p>
+<ul>
+<li>Apple ProRes RAW and ProRes RAW HQ</li>
+<li>Apple Intermediate Codec</li>
+<li>Avid DNxHD® / Avid DNxHR® decoder</li>
+<li>AVC-Intra 50 / 100 / 200 / 4:4:4 / LT</li>
+<li>AVC-LongG</li>
+<li>XAVC</li>
+<li>XF-AVC</li>
+<li>XF-HEVC</li>
+<li>DVCPRO HD</li>
+<li>HDV</li>
+<li>XDCAM EX / HD / HD422</li>
+<li>MPEG IMX</li>
+<li>Uncompressed 4:2:2</li>
+</ul>
+<p>If you run into issues with Final Cut Pro, make sure you post in our <a href="/bugtracker/">bug tracker</a>!</p>
+<p>Happy cutting!</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-june-2024</link>
+            <guid isPermaLink="false">21st June 2024</guid>
+            <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
