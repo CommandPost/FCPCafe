@@ -71,15 +71,16 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| Hedge Arctic             | Use Arctic v24.2.0 or later                                                                             |
-| BRAW Toolbox             | No Known Issues                                                                                         |
+| BRAW Toolbox             | Use BRAW Toolbox v1.3.8 or later                                                                        |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | No Known Issues                                                                                         |
+| CommandPost              | Use CommandPost v1.4.26 or later                                                                        |
 | CoreMelt                 | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | Use Arctic v24.2.0 or later                                                                             |
+| LUT Robot                | Use LUT Robot v1.0.1 or later                                                                           |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
