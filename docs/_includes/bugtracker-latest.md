@@ -1,7 +1,6 @@
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
-- [German keys incorrectly shown in Command Editor (April 9, 2024)](https://github.com/CommandPost/FCPCafe/issues/350)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
 - [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
 - [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
