@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 21 Jun 2024 17:22:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Jun 2024 02:39:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Jun 2024 17:22:28 GMT</pubDate>
+        <pubDate>Sat, 22 Jun 2024 02:39:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5905,6 +5905,48 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <link>https://fcp.cafe/#21st-june-2024</link>
             <guid isPermaLink="false">21st June 2024</guid>
             <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd June 2024]]></title>
+            <description><![CDATA[<p><strong>Matthew O'Brien</strong> has released his thoughts on Final Cut Pro 10.8 on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=kRIRlBQR3S0"><img src="/static/youtube-matthew-obrien-fcp10-8.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-june-2024</link>
+            <guid isPermaLink="false">22nd June 2024</guid>
+            <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd June 2024]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.4.26</strong> is out now with the following changes:</p>
+<ul>
+<li>Added support for FCPXML v1.12 used by Final Cut Pro 10.8. Thanks for reporting Sam Pluemacher!</li>
+<li>Updated from CSV2Notion v1.2.1 to v1.3.1.</li>
+</ul>
+<p>You can learn more <a href="https://commandpost.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-june-2024</link>
+            <guid isPermaLink="false">22nd June 2024</guid>
+            <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd June 2024]]></title>
+            <description><![CDATA[<p><strong>LUT Robot v1.0.1</strong> is out now!</p>
+<p>It adds support for Final Cut Pro 10.8 and FCPXML v1.12.</p>
+<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-june-2024</link>
+            <guid isPermaLink="false">22nd June 2024</guid>
+            <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd June 2024]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.8</strong> is out now!</p>
+<p>It updates from FxPlug v4.2.9 to FxPlug v4.3 to better support Final Cut Pro 10.8.</p>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-june-2024</link>
+            <guid isPermaLink="false">22nd June 2024</guid>
+            <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
