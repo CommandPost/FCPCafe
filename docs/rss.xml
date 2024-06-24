@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 22 Jun 2024 21:18:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jun 2024 11:34:16 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 22 Jun 2024 21:18:35 GMT</pubDate>
+        <pubDate>Mon, 24 Jun 2024 11:34:16 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5947,6 +5947,40 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <link>https://fcp.cafe/#22nd-june-2024</link>
             <guid isPermaLink="false">22nd June 2024</guid>
             <pubDate>Sat, 22 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th June 2024]]></title>
+            <description><![CDATA[<p>*<em>Capacitor v1.0.1</em> is out now!</p>
+<p>It adds support for Final Cut Pro 10.8 and FCPXML v1.12.</p>
+<p>You can learn more <a href="https://capacitor.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-june-2024</link>
+            <guid isPermaLink="false">24th June 2024</guid>
+            <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th June 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v4.3.8</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>Metadata Export:</strong></p>
+<ul>
+<li>Added support for exporting Final Cut Pro FCPXML v1.12.</li>
+</ul>
+<p><strong>Master Files Transcoding:</strong></p>
+<ul>
+<li>Added reporting of duplicate file names in the log file.</li>
+</ul>
+<p><strong>Offload:</strong></p>
+<ul>
+<li>Fixed an issue with renaming duplicate files without an extension in the destination when their checksums differ from the source file.</li>
+<li>Fixed an issue that prevented logging transfers sequentially in the report file.</li>
+<li>Fixed an issue introduced in evrExpanse 4.3.0 where no proper alert was raised when selecting empty folders to transfer.</li>
+</ul>
+<p>You can learn more <a href="https://www.evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-june-2024</link>
+            <guid isPermaLink="false">24th June 2024</guid>
+            <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
