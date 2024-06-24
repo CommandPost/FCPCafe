@@ -1,3 +1,4 @@
+- [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
 - [FCP 10.8 Stalls on M2 Ultra Studio With Blackmagic Decklink Mini 4K Monitor (June 21, 2024)](https://github.com/CommandPost/FCPCafe/issues/362)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
@@ -27,4 +28,3 @@
 - [Crash when exporting a FCPXML via Menu and drag from Browser (December 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/307)
 - [Hanging when updating Libraries from older versions (December 13, 2023)](https://github.com/CommandPost/FCPCafe/issues/305)
 - [Crash when creating a Snapshot (December 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/301)
-- [Crash when exporting a FCPXML due to TextStyleExport (December 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/298)
