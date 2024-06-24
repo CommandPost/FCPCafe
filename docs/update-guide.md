@@ -72,9 +72,11 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | Use BRAW Toolbox v1.3.8 or later                                                                        |
+| Capacitor                | Use Capacitor v1.0.1 or later                                                                           |
 | Color Finale             | No Known Issues                                                                                         |
 | CommandPost              | Use CommandPost v1.4.26 or later                                                                        |
 | CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | Use evrExpanse v4.3.8 or later                                                                          |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
