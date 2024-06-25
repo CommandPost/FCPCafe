@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 25 Jun 2024 06:14:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Jun 2024 14:04:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 25 Jun 2024 06:14:42 GMT</pubDate>
+        <pubDate>Tue, 25 Jun 2024 14:04:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5981,6 +5981,31 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <link>https://fcp.cafe/#24th-june-2024</link>
             <guid isPermaLink="false">24th June 2024</guid>
             <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th June 2024]]></title>
+            <description><![CDATA[<p><strong>News Import v1.0.1</strong> is now available for purchase on the Mac App Store!</p>
+<p><img src="/static/news-import.png" alt=""></p>
+<p>It's a <strong>Final Cut Pro Workflow Extension</strong> that allows you to import <strong>NewsML-G2</strong> and <strong>VPMS</strong> metadata into Final Cut Pro.</p>
+<p>If you have footage that contains a <code>.newsml.xml</code> and/or <code>.vpms.xml</code> sidecar file, this tools allows you to access this metadata from within a supplied Final Cut Pro Metadata View.</p>
+<p>This is useful if you're working with news outlets that use the NewsML-G2 standard or a VPMS system, and you need to reference this metadata for deliverables.</p>
+<p>News Import works well alongside other 3rd party applications such as <a href="/ecosystem/tools/#producers-best-friend">Producers Best Friend</a>.</p>
+<p>This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.</p>
+<p>You can learn more <a href="https://latenitefilms.github.io/NewsImport/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-june-2024</link>
+            <guid isPermaLink="false">25th June 2024</guid>
+            <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th June 2024]]></title>
+            <description><![CDATA[<p><strong>Dylan John</strong> has released a video on YouTube titled &quot;WHAT'S HOT and WHAT'S NOT in the NEW Final Cut Pro 10.8 UPDATE&quot;.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=VUx5D0-Lzrg"><img src="/static/youtube-10-8-whats-hot.jpeg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#25th-june-2024</link>
+            <guid isPermaLink="false">25th June 2024</guid>
+            <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
