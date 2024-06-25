@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 24 Jun 2024 11:38:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Jun 2024 06:14:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Jun 2024 11:38:01 GMT</pubDate>
+        <pubDate>Tue, 25 Jun 2024 06:14:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -5950,7 +5950,7 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
         </item>
         <item>
             <title><![CDATA[24th June 2024]]></title>
-            <description><![CDATA[<p>*<em>Capacitor v1.0.1</em> is out now!</p>
+            <description><![CDATA[<p><strong>Capacitor v1.0.1</strong> is out now!</p>
 <p>It adds support for Final Cut Pro 10.8 and FCPXML v1.12.</p>
 <p>You can learn more <a href="https://capacitor.pro">here</a>.</p>
 ]]></description>
