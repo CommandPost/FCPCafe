@@ -46,6 +46,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 
 ---
 
+{{ include "latenite/news-import" }}
+
+---
+
 ## FxFactory
 
 Here's some of our products currently for sale on the **FxFactory**:

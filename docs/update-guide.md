@@ -68,6 +68,10 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 **Final Cut Pro 10.8** was released on the Mac App Store on 20th June 2024.
 
+One potentially annoying bug that's been reported is:
+
+- [No audio when going frame-by-frame via arrow keys](https://github.com/CommandPost/FCPCafe/issues/363)
+
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
@@ -80,7 +84,7 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
-| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | Use Gyroflow Toolbox v1.1.5 or later                                                                    |
 | Hedge Arctic             | Use Arctic v24.2.0 or later                                                                             |
 | LUT Robot                | Use LUT Robot v1.0.1 or later                                                                           |
 | Marker Toolbox           | No Known Issues                                                                                         |
