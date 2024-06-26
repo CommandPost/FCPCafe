@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 26 Jun 2024 05:43:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 22:58:16 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Jun 2024 05:43:54 GMT</pubDate>
+        <pubDate>Wed, 26 Jun 2024 22:58:16 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6044,6 +6044,35 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#26th-june-2024</link>
             <guid isPermaLink="false">26th June 2024</guid>
             <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th June 2024]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.1.5</strong> is out now on the Mac App Store.</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>We've updated to the <a href="https://github.com/gyroflow/gyroflow/commit/cfe07140c0c922a2b188810fddc4a1638a6eb052">latest</a> Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>Updated from FxPlug <code>v4.2.9</code> to <code>v4.3</code>.</li>
+<li>2491 lens profiles have been added from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
+</ul>
+<p>You can learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-june-2024</link>
+            <guid isPermaLink="false">27th June 2024</guid>
+            <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th June 2024]]></title>
+            <description><![CDATA[<p><strong>Ripple Training</strong> have released a new video called <strong>Color Matching in Final Cut Pro 10.8</strong>.</p>
+<p>Mark Spencer demonstrates how to use Final Cut Pro's comparison viewer to match related shots in a project.</p>
+<p>You can watch on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=IFEMFb5K6Kc"><img src="/static/youtube-color-matching-10-8-ripple.jpeg" alt=""></a></p>
+<p>They have also released a new Color Grading in Final Cut Pro 10.8 Tutorial.</p>
+<p>It's USD$99, however you can use the discount code <code>START-COLOR</code> to get 30% off.</p>
+<p>You can learn more <a href="https://www.rippletraining.com/products/final-cut-pro/color-grading-in-final-cut-pro/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-june-2024</link>
+            <guid isPermaLink="false">27th June 2024</guid>
+            <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
