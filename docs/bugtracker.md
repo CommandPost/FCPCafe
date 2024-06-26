@@ -45,9 +45,9 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 ---
 
 
-### Final Cut Pro 10.7.1
+### Final Cut Pro 10.8
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.7.1 bug reports:
+Here's a list of the **30 most recently added** Final Cut Pro 10.8 bug reports:
 
 {{ include "bugtracker-latest" }}
 
@@ -55,11 +55,11 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 ---
 
-### Final Cut Pro 10.6.8
+### Final Cut Pro 10.7.1
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.6.8 bug reports.
+Here's a list of the **30 most recently added** Final Cut Pro 10.7.1 bug reports.
 
-Some of these bugs may eventually be migrated to the 10.7 list once confirmed.
+Some of these bugs may eventually be migrated to the 10.8 list once confirmed.
 
 {{ include "bugtracker-previous" }}
 
