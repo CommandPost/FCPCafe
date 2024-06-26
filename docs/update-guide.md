@@ -88,7 +88,7 @@ One potentially annoying bug that's been reported is:
 | Hedge Arctic             | Use Arctic v24.2.0 or later                                                                             |
 | LUT Robot                | Use LUT Robot v1.0.1 or later                                                                           |
 | Marker Toolbox           | No Known Issues                                                                                         |
-| MotionVFX                | No Known Issues                                                                                         |
+| MotionVFX                | Use mInstaller to update to the latest plugins                                                          |
 | Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
