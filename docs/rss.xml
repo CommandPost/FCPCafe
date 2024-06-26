@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 26 Jun 2024 05:27:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 05:43:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Jun 2024 05:27:41 GMT</pubDate>
+        <pubDate>Wed, 26 Jun 2024 05:43:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6006,6 +6006,44 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <link>https://fcp.cafe/#25th-june-2024</link>
             <guid isPermaLink="false">25th June 2024</guid>
             <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th June 2024]]></title>
+            <description><![CDATA[<p><strong>Matthew O'Brien</strong> has been putting on his detective hat to look at some weird bugs in Final Cut Pro 10.8.</p>
+<p>He writes in his first video:</p>
+<blockquote>
+<p>In this video I'm breaking down TWO bugs I've heard about with Final Cut Pro 10.8. One bug has to do with audio skimming and playing back audio one frame at a time using the left and right arrow keys. Some users are reporting that you can no longer hear audio when using the arrow keys.</p>
+<p>The second bug is one that I'm experiencing. Any time I try to interact with an element in the Viewer to transform it with scale or position or rotation, Final Cut Pro hangs. It doesn't quit, it doesn't crash, I don't get a spinning rainbow wheel... It just hangs. If I try to change my text with the title tool or use a mask effect it hangs. Any time I &quot;touch&quot; an element in the Viewer, Final Cut Pro hangs.</p>
+<p>This is happening on my M1 Max Mac Studio, my M1 Pro 14&quot; MacBook Pro, but it IS NOT happening with my M2 Pro Mac mini.</p>
+</blockquote>
+<p>You can watch it here:</p>
+<p><a href="https://www.youtube.com/watch?v=tV1h_ljWWOA"><img src="/static/youtube-matthew-fcp10-8-bugs.jpeg" alt=""></a></p>
+<p>However, regarding the first bug he mentions in the video Richard Taylor writes on <a href="https://x.com/RichardTaylorTV/status/1805600092839157762">Twitter</a>.</p>
+<blockquote>
+<p>For those experiencing the FCP 10.8 audio frame by frame, skimming bug, place your mouse, cursor over any window, but the timeline!</p>
+</blockquote>
+<p>Matthew followed up with another video, where he writes:</p>
+<blockquote>
+<p>In my last video I broke down a major Final Cut Pro 10.8 bug where trying to adjust elements in the viewer window was causing Final Cut Pro to hang or freeze. Editing text with a title tool, using the Transform Tool to adjust scale or position - these adjustments were freezing Final Cut.</p>
+<p>In this video I'm going over what seems to be causing this to happen while, unfortunately, not coming up with a root cause that allows us to resolve the issue. I think this is definitely going to need a software update to fix things since I've already tried every troubleshooting step that I can think of per Apple's support document linked <a href="https://support.apple.com/en-us/105044">here</a></p>
+</blockquote>
+<p>You can watch it here:</p>
+<p><a href="https://www.youtube.com/watch?v=aJGnu0Gn3iA"><img src="/static/youtube-matthew-fcp10-8-bugs-solved.jpeg" alt=""></a></p>
+<p>After posting this video, he's then discovered a workaround/solution:</p>
+<blockquote>
+<p>So it seems the issue is specific to the newer Magic Trackpad and the trackpad on Mac notebooks.</p>
+<p>If you disable <strong>Tap to click</strong> in <strong>Settings &gt; Trackpad</strong> you can interact with elements in the Viewer window without any issue.</p>
+<p>If you disable <strong>Use trackpad for dragging</strong> in <strong>Settings &gt; Accessibility &gt; Pointer Control &gt; Trackpad Options</strong> you can drag elements in the Viewer window.</p>
+<p>So, yeah. I'm guessing enabling the ability to drag and drop effects from the Inspector onto the Viewer window may have caused this bug?
+Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse or 3rd party mouse.</p>
+<p>This also doesn't affect FCP if you're using the older AA battery-powered Magic Trackpad</p>
+</blockquote>
+<p>Hopefully these are both fairly simple bugs that Apple can address in a point update within the next couple of weeks.</p>
+<p>You can keep track of all of Final Cut Pro's bugs and issues on the FCP Cafe <a href="/bugtracker/">Bug Tracker</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-june-2024</link>
+            <guid isPermaLink="false">26th June 2024</guid>
+            <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
