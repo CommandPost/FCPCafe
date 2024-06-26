@@ -2,6 +2,7 @@
 - [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [FCP video noise reduction produces incorrect frame cadence on retimed rate conformed clip (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/109)
 - [FCP incorrect frame order on playback or export if retimed compound clip contains trim or through edits (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/108)
+- [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
 - [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
 - [FCP 10.8 Stalls on M2 Ultra Studio With Blackmagic Decklink Mini 4K Monitor (June 21, 2024)](https://github.com/CommandPost/FCPCafe/issues/362)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
@@ -27,4 +28,3 @@
 - [Crash when creating a Compound Clip from two or more Secondary Storylines (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)
 - [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
 - [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)
-- [Creating a new Motion Category is painfully slow (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/308)
