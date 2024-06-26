@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 26 Jun 2024 22:58:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 23:03:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Jun 2024 22:58:16 GMT</pubDate>
+        <pubDate>Wed, 26 Jun 2024 23:03:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6069,6 +6069,40 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <p>They have also released a new Color Grading in Final Cut Pro 10.8 Tutorial.</p>
 <p>It's USD$99, however you can use the discount code <code>START-COLOR</code> to get 30% off.</p>
 <p>You can learn more <a href="https://www.rippletraining.com/products/final-cut-pro/color-grading-in-final-cut-pro/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-june-2024</link>
+            <guid isPermaLink="false">27th June 2024</guid>
+            <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th June 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released lots of bug fixes and improvements to their various products.</p>
+<p>For example:</p>
+<ul>
+<li><strong>mCallouts Simple v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mMessage v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mCallouts Simple 2 v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mPointer v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mTuber v1.1</strong>: Added X logo</li>
+<li><strong>mFlare 2 v3.1.3</strong>: Stability improvements</li>
+<li><strong>mStories v1.1</strong>: Added X logo</li>
+<li><strong>mFilmLook v2.1.3</strong>: Stability improvements</li>
+<li><strong>mTuber 2 v1.1</strong>: Added X logo</li>
+<li><strong>mPuppet v2.1.1</strong>: Fixed rendering issues in 3D space, Ul improvements, optimised render code for better performance with multiple instances</li>
+<li><strong>mFreezeFrame Movie v2.0.2</strong>: Stability update</li>
+<li><strong>mTracker 3D v2.1</strong>: Ul stability improvements</li>
+<li><strong>mMessage 2 v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mKBHD FCP v1.2</strong>: Added X logo</li>
+<li><strong>mKeynote FCP v1.1</strong>: Added X logo</li>
+<li><strong>mChannel Glitch v1.1</strong>: Added X logo</li>
+<li><strong>mHUD 2 v3.0.1</strong>: Fixed a rare crash that might prevent the plugin from launching</li>
+<li><strong>mHUD 3 v3.0.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mTracker 3D Social Media Icons Pack v1.1</strong>: Added X logo</li>
+<li><strong>mTracker 3D Area v1.1</strong>: Fixed a rare crash preventing the plugin from start</li>
+<li><strong>mTracker Surface v1.1.2</strong>: Stability improvements</li>
+</ul>
+<p>You can use their <strong>mInstaller</strong> to update all your MotionVFX plugins.</p>
+<p>You can learn more <a href="https://www.motionvfx.com">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#27th-june-2024</link>
             <guid isPermaLink="false">27th June 2024</guid>
