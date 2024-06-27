@@ -26,4 +26,3 @@
 - [Pasteboard Manager & Pasteboard History (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/112)
 - [Better Keyframe Options (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/111)
 - [Clip Logger (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/107)
-- [Motion Round-tripping (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/106)
