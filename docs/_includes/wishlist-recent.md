@@ -1,3 +1,4 @@
+- [+Alpha Curves Panels in Color Inspector (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/373)
 - [Audio Generators? (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/372)
 - [FCP noise and sine wave (test) Audio Unit, take Logic Test Unit and package in FCP (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/371)
 - [Master Audio Chain to apply audio Effects globally (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/370)
@@ -27,4 +28,3 @@
 - [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116)
 - [Customisable Match Color & Balance Color Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/115)
 - [Adjustable Storyline Parameters (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/114)
-- [Native Blackmagic RAW Support (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/113)
