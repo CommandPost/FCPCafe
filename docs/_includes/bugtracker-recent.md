@@ -1,3 +1,4 @@
+- [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
 - [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
 - [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
@@ -27,4 +28,3 @@
 - [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
 - [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)
 - [Creating a new Motion Category is painfully slow (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/308)
-- [Crash when exporting a FCPXML via Menu and drag from Browser (December 16, 2023)](https://github.com/CommandPost/FCPCafe/issues/307)

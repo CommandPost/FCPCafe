@@ -1,3 +1,4 @@
+- [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
 - [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
 - [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
