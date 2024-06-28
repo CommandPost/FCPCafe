@@ -2,6 +2,7 @@
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
+- [Spatial Conform needs Sub-pixel options, not just bilinear but nearest neighbor, catmull-rom, Mitchell, lanczos, and MetalFX (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/367)
 - [Request for color management and color grading functionality in Inspector (May 16, 2024)](https://github.com/CommandPost/FCPCafe/issues/360)
 - [Select roles in batch export (March 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/344)
 - [FCP and 3rd party plugins (January 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/325)
