@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 29 Jun 2024 03:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Jun 2024 23:41:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 29 Jun 2024 03:02:24 GMT</pubDate>
+        <pubDate>Sat, 29 Jun 2024 23:41:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6122,6 +6122,35 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#28th-june-2024</link>
             <guid isPermaLink="false">28th June 2024</guid>
             <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th June 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v4.4.0</strong> is out now!</p>
+<p>If you buy today, you can get <strong>30% off</strong> with the discount code <code>EVREANNIV24</code> on checkout.</p>
+<p>It includes the following changes:</p>
+<p><strong>Metadata Export:</strong></p>
+<ul>
+<li><strong>Support for Blackmagic Camera App:</strong> Added comprehensive metadata support for files generated from the Blackmagic Camera App for iOS and Android. This includes shooting, recording, camera settings, color settings (including any applied LUTs), and production (slate) settings. Metadata can be exported for importing into DaVinci Resolve, Final Cut Pro, Assimilate SCRATCH, and other NLEs.</li>
+<li><strong>Enhanced Metadata View for Final Cut Pro:</strong> Improved metadata integration with Final Cut Pro to support new settings such as Camera LUT and Color Space Override, ensuring seamless workflow and accurate metadata representation.</li>
+</ul>
+<p><strong>Master Files Transcoding:</strong></p>
+<ul>
+<li><strong>Support for Blackmagic Camera App:</strong> Added support to retain all metadata from the Blackmagic Camera App in transcoded files, ensuring that essential information is preserved throughout the workflow.</li>
+</ul>
+<p>You can learn more <a href="https://www.evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-june-2024</link>
+            <guid isPermaLink="false">30th June 2024</guid>
+            <pubDate>Sun, 30 Jun 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th June 2024]]></title>
+            <description><![CDATA[<p><strong>DAWBridge v1.0.6</strong> is out now with updated compatibility for Final Cut Pro 10.8.</p>
+<p>You can learn more <a href="https://add.app/workflows-daw-bridge/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-june-2024</link>
+            <guid isPermaLink="false">30th June 2024</guid>
+            <pubDate>Sun, 30 Jun 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
