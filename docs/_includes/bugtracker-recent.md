@@ -1,3 +1,4 @@
+- [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
@@ -27,4 +28,3 @@
 - [Can't change ParameterSubGroup Name in parameterChanged (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/312)
 - [Crash when creating a Compound Clip from two or more Secondary Storylines (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)
 - [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
-- [FxPlug Parameter with an parameterID of 300 incorrectly shows a slider (December 19, 2023)](https://github.com/CommandPost/FCPCafe/issues/309)

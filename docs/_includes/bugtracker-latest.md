@@ -1,3 +1,4 @@
+- [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
