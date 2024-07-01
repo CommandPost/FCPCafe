@@ -1,5 +1,4 @@
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
-- [FCP intermittent brightness fluctuation on Apple Silicon during playback of Sony SLog3 XAVC-L MXF (May 31, 2023)](https://github.com/CommandPost/FCPCafe/issues/110)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
@@ -28,3 +27,4 @@
 - [Bad documentation for FxOnScreenControl keyDownAtPositionX (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/313)
 - [Can't change ParameterSubGroup Name in parameterChanged (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/312)
 - [Crash when creating a Compound Clip from two or more Secondary Storylines (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/311)
+- [Incorrectly shows "Missing Plugin" Red Error Message when Media if Offline (December 22, 2023)](https://github.com/CommandPost/FCPCafe/issues/310)
