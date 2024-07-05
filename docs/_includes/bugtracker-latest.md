@@ -1,3 +1,4 @@
+- [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
