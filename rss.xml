@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 05 Jul 2024 03:15:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jul 2024 03:34:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Jul 2024 03:15:04 GMT</pubDate>
+        <pubDate>Fri, 05 Jul 2024 03:34:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6276,6 +6276,19 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <description><![CDATA[<p><strong>mLowers Universal</strong> is out now on MotionVFX!</p>
 <p>You can buy it for <strong>18% off</strong> until 7th July.</p>
 <p>You can learn more <a href="https://www.motionvfx.com/store,mlowers-universal-dvr,p4228.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-july-2024</link>
+            <guid isPermaLink="false">5th July 2024</guid>
+            <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th July 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.6</strong> is out now!</p>
+<p>It has a new feature:</p>
+<ul>
+<li>A slider in Settings to control the maximum line length of captions and subtitles</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#5th-july-2024</link>
             <guid isPermaLink="false">5th July 2024</guid>
