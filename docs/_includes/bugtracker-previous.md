@@ -1,3 +1,4 @@
+- [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
