@@ -24,6 +24,10 @@
 
 ---
 
+{{ include "workflow-extensions/chatfcp" }}
+
+---
+
 ## D
 
 {{ include "workflow-extensions/dawbridge" }}
