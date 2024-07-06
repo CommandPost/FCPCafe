@@ -4,6 +4,7 @@
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
+- [Output Volume Control 0% - 100% to 1000% [logarithmic?] (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/379)
 - [+Alpha Curves Panels in Color Inspector (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/373)
 - [Audio Generators? (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/372)
 - [FCP noise and sine wave (test) Audio Unit, take Logic Test Unit and package in FCP (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/371)
@@ -27,4 +28,3 @@
 - [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147)
 - [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146)
 - [Effects, Titles & Transitions Browser Improvements & In-App Purchases (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/117)
-- [Expand Compound Clips in Timeline (June 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/116)
