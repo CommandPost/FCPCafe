@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 15 Jul 2024 00:23:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jul 2024 00:50:47 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 15 Jul 2024 00:23:12 GMT</pubDate>
+        <pubDate>Mon, 15 Jul 2024 00:50:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6344,6 +6344,57 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#11th-july-2024</link>
             <guid isPermaLink="false">11th July 2024</guid>
             <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th July 2024]]></title>
+            <description><![CDATA[<p><strong>Backups for Final Cut Pro v2.1.3</strong> is out now.</p>
+<p>It is now verified to run under macOS Sonoma and work with Final Cut Pro 10.8 Libraries.</p>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/backups-for-final-cut-pro/id586594646?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-july-2024</link>
+            <guid isPermaLink="false">15th July 2024</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th July 2024]]></title>
+            <description><![CDATA[<p><strong>XtoCC v1.2.45</strong> is out now.</p>
+<p>It includes the following fixes:</p>
+<ul>
+<li>Critical bug fix to read and process &quot;Final Cut Pro Document&quot; binary files exported from Final Cut Pro</li>
+<li>Bug fix to support for Crop/Ken Burns effect</li>
+<li>Bug fix for Crop/Crop effect</li>
+</ul>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/xtocc/id487899517?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-july-2024</link>
+            <guid isPermaLink="false">15th July 2024</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th July 2024]]></title>
+            <description><![CDATA[<p><strong>Producer's Best Friend v1.4.71</strong> is out now.</p>
+<p>It includes:</p>
+<ul>
+<li>Critical bug fix to read and process &quot;Final Cut Pro Document&quot; binary files exported from Final Cut Pro</li>
+</ul>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/producers-best-friend/id688519794?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-july-2024</link>
+            <guid isPermaLink="false">15th July 2024</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th July 2024]]></title>
+            <description><![CDATA[<p><strong>Frame.io v2.6.2</strong> it out now, including the Final Cut Pro Workflow Extension.</p>
+<p>It includes:</p>
+<ul>
+<li>Bug fixes and performance improvements</li>
+</ul>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/frame-io-video-collaboration/id992958444?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-july-2024</link>
+            <guid isPermaLink="false">15th July 2024</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
