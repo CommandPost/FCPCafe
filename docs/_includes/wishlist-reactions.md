@@ -1,7 +1,6 @@
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
-- [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
 - [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
@@ -28,3 +27,4 @@
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149)
 - [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148)
 - [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147)
+- [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146)
