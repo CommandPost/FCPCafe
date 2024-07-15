@@ -1,3 +1,5 @@
+- [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
+- [Reversing Clip - Draw Mask Keyframe Control Points overwritten/clobbered by first keyframe (July 11, 2024)](https://github.com/CommandPost/FCPCafe/issues/384)
 - [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
 - [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
@@ -26,5 +28,3 @@
 - [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
 - [Can't collapse or uncollapse Parameter SubGroup's programatically  (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/315)
 - [Multicam with individual Audio Role voice isolation breaks in FCPXML v1.11 (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/314)
-- [Bad documentation for FxOnScreenControl keyDownAtPositionX (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/313)
-- [Can't change ParameterSubGroup Name in parameterChanged (December 29, 2023)](https://github.com/CommandPost/FCPCafe/issues/312)
