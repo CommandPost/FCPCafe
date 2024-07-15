@@ -2,6 +2,7 @@
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Transcription and Text-Based Editing (June 7, 2023)](https://github.com/CommandPost/FCPCafe/issues/138)
+- [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
 - [Output Volume Control 0% - 100% to 1000% [logarithmic?] (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/379)
