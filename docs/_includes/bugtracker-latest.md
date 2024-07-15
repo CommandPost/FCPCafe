@@ -1,3 +1,4 @@
+- [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
 - [Reversing Clip - Draw Mask Keyframe Control Points overwritten/clobbered by first keyframe (July 11, 2024)](https://github.com/CommandPost/FCPCafe/issues/384)
 - [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
