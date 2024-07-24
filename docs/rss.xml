@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 21 Jul 2024 23:55:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jul 2024 21:32:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 21 Jul 2024 23:55:31 GMT</pubDate>
+        <pubDate>Wed, 24 Jul 2024 21:32:34 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6434,6 +6434,30 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#22nd-july-2024</link>
             <guid isPermaLink="false">22nd July 2024</guid>
             <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th July 2024]]></title>
+            <description><![CDATA[<p><strong>Iain Anderson</strong> has written a new article over at ProVideo Coalition titled <strong>Apple Vision Pro — a new virtual space to explore</strong>.</p>
+<p>You can read it <a href="https://www.provideocoalition.com/apple-vision-pro-a-new-virtual-space-to-explore/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-july-2024</link>
+            <guid isPermaLink="false">25th July 2024</guid>
+            <pubDate>Thu, 25 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th July 2024]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.3.11 (69)</strong> is out now with the following improvements:</p>
+<ul>
+<li>Added support for Blackmagic PYXIS 6K.</li>
+<li>Added support for Fujifilm X-T50 Blackmagic RAW clips.</li>
+<li>Improves support for Blackmagic URSA Cine 12K LF.</li>
+<li>Updated from Blackmagic RAW SDK v4.1 to v4.2.</li>
+</ul>
+<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-july-2024</link>
+            <guid isPermaLink="false">25th July 2024</guid>
+            <pubDate>Thu, 25 Jul 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
