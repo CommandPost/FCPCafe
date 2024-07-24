@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 15 Jul 2024 22:08:46 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jul 2024 23:55:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 15 Jul 2024 22:08:45 GMT</pubDate>
+        <pubDate>Sun, 21 Jul 2024 23:55:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6395,6 +6395,45 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#15th-july-2024</link>
             <guid isPermaLink="false">15th July 2024</guid>
             <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd July 2024]]></title>
+            <description><![CDATA[<p>Final Cut Pro editor <a href="https://jonnylewisfilms.com">Jonny Lewis</a> recently won <strong>Filmmaker Of The Year Supreme Champion Award</strong> in the <strong>Pro Moviemaker International Awards</strong>, for a number of films he made with Jay Goldmark &amp; <a href="https://jonnylewisfilms.com/goldmarkfilms">Goldmark Films</a>.</p>
+<p>You can read more on Jonny's blog <a href="https://jonnylewisfilms.com/blog/2024/6/19/filmmaker-of-the-year-award-winner-jonnylewisfilmscom">here</a>.</p>
+<p>MASSIVE congratulations Jonny!</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-july-2024</link>
+            <guid isPermaLink="false">22nd July 2024</guid>
+            <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd July 2024]]></title>
+            <description><![CDATA[<p><strong>X2Pro5 v5.0.38</strong> is out now with support for the latest FCPXML v1.12.</p>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/x2pro5/id6467014654?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-july-2024</link>
+            <guid isPermaLink="false">22nd July 2024</guid>
+            <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd July 2024]]></title>
+            <description><![CDATA[<p><strong>BretFX's</strong> sizzling summer sale is still on until <strong>28th July</strong>.</p>
+<p>You can get <strong>25% off</strong> on Power Tools PRO and select Final Cut Pro Effects, Titles &amp; Transitions.</p>
+<p>You can learn more <a href="https://www.bretfx.com/product-category/on-sale/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-july-2024</link>
+            <guid isPermaLink="false">22nd July 2024</guid>
+            <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd July 2024]]></title>
+            <description><![CDATA[<p><strong>Color Finale's</strong> summer sale is also still on.</p>
+<p>Get up to <strong>70% off</strong> selected products, including their Starter Pack &amp; Ultimate Bundle.</p>
+<p>You can learn more <a href="https://colorfinale.com/store">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-july-2024</link>
+            <guid isPermaLink="false">22nd July 2024</guid>
+            <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
