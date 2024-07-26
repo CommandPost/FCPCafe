@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 25 Jul 2024 00:10:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jul 2024 11:04:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jul 2024 00:10:44 GMT</pubDate>
+        <pubDate>Fri, 26 Jul 2024 11:04:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6458,6 +6458,19 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#25th-july-2024</link>
             <guid isPermaLink="false">25th July 2024</guid>
             <pubDate>Thu, 25 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th July 2024]]></title>
+            <description><![CDATA[<p><strong>LUT Robot v1.0.2 (4)</strong> is out now with the following improvements:</p>
+<ul>
+<li>Added an overlay when FCPXML is being processed. Thanks for suggesting Sam Pluemacher!</li>
+<li>Updated FCPXMLKit from v1.1.1 to v1.2.3.</li>
+</ul>
+<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-july-2024</link>
+            <guid isPermaLink="false">26th July 2024</guid>
+            <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
