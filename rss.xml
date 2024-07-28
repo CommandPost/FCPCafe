@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 26 Jul 2024 22:01:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jul 2024 23:36:08 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 26 Jul 2024 22:01:13 GMT</pubDate>
+        <pubDate>Sun, 28 Jul 2024 23:36:08 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6471,6 +6471,40 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#26th-july-2024</link>
             <guid isPermaLink="false">26th July 2024</guid>
             <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th July 2024]]></title>
+            <description><![CDATA[<p><strong>Richard Taylor</strong> has announced that the <strong>Final Cut Pro Creative Summit</strong> will be happening <strong>13th to 15th November</strong> at <strong>Juniper Hotel Cupertino</strong>.</p>
+<p>You can learn more on Richard's Final Cut TV &amp; Coffee YouTube Channel <a href="https://www.youtube.com/watch?v=AhZNBV7vcpA">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-july-2024</link>
+            <guid isPermaLink="false">29th July 2024</guid>
+            <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th July 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.7</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix to add all Final Cut Pro keywords that are anywhere within a text block's time range to the text block</li>
+</ul>
+<p>You can download via the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-july-2024</link>
+            <guid isPermaLink="false">29th July 2024</guid>
+            <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th July 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released some updates to some of their plugins:</p>
+<ul>
+<li><strong>mFreezeFrame Movie 2.0.4:</strong> Fixed an error related to missing LUTs</li>
+<li><strong>mTracker Surface 1.1.3:</strong> Improved compatibility with FCP 10.8</li>
+</ul>
+<p>You can learn more <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-july-2024</link>
+            <guid isPermaLink="false">29th July 2024</guid>
+            <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
