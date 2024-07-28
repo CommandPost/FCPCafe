@@ -1,5 +1,17 @@
 # FCP Creative Summit
 
+## 2024
+
+**Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
+
+You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
+
+We will be posting more information to this page as it is announced.
+
+---
+
+## 2023
+
 The Final Cut Pro Creative Summit in 2023 took place between **6th to 8th November** at Apple Park & [The Hyatt Regency Santa Clara](https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_clara).
 
 They also offered discounted accommodation from **Aloft Santa Clara**.
@@ -28,7 +40,7 @@ You can find a list of **speakers** [here](http://fcpcreativesummits.com/speaker
 
 ---
 
-## Jenn Jager
+### Jenn Jager
 
 The amazing **Jenn Jager** has posted a video on YouTube recapping the Final Cut Pro Creative Summit.
 
@@ -40,7 +52,7 @@ You can learn more about Jenn [here](https://jennjager.com). She's the best.
 
 ---
 
-## Justine Ezarik
+### Justine Ezarik
 
 The incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), was the keynote speaker at the 2023 Final Cut Pro Creative Summit:
 
@@ -48,7 +60,7 @@ The incredible Justine Ezarik (aka [iJustine](https://ijustine.com)), was the ke
 
 ---
 
-## Why should you go?
+### Why should you go?
 
 _Written by [Iain Anderson](https://iain-anderson.com)_.
 
@@ -70,7 +82,7 @@ Iain has also written a post on ProVideo Coalition [here](https://www.provideoco
 
 ---
 
-## Official Press Release
+### Official Press Release
 
 Here's FMC's official press release for the 2023 event:
 
