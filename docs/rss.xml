@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 29 Jul 2024 00:05:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Aug 2024 02:08:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jul 2024 00:05:27 GMT</pubDate>
+        <pubDate>Thu, 01 Aug 2024 02:08:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6505,6 +6505,16 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#29th-july-2024</link>
             <guid isPermaLink="false">29th July 2024</guid>
             <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st August 2024]]></title>
+            <description><![CDATA[<p><em>Pinch and a punch for the first day of the month!</em></p>
+<p>The trailer for <strong>Don’t Turn Out the Lights</strong> is out now, a feature film cut in Final Cut Pro, edited by Michael Yanovich.</p>
+<p>Learn more <a href="https://bloody-disgusting.com/exclusives/3823009/dont-turn-out-the-lights-trailer/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-august-2024</link>
+            <guid isPermaLink="false">1st August 2024</guid>
+            <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
