@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 01 Aug 2024 02:08:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Aug 2024 21:18:57 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 01 Aug 2024 02:08:52 GMT</pubDate>
+        <pubDate>Thu, 01 Aug 2024 21:18:56 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6515,6 +6515,59 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#1st-august-2024</link>
             <guid isPermaLink="false">1st August 2024</guid>
             <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd August 2024]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.4.0 (18)</strong> is out now!</p>
+<p>It's a big update, with lots of improvements:</p>
+<ul>
+<li>Added support for Adobe Premiere CSVs. Thanks Michael Angelo!</li>
+<li>Wipster CSV support has been improved. We now display replies properly.</li>
+<li>Frame.io FIOJSON  support has been improved. The markers on 29.97fps projects should now more accurately match the Frame.io website. Thanks Shih-Cheng Yang!</li>
+<li>All of the timecode processing logic and maths has been completely redesigned and rewritten, so that we can better support all frame rates, and ensure everything is frame accurate. We now use TimecodeKit for timecode handling. HUGE thanks to Steffan Andrews for his incredible work!</li>
+<li>The default ChatGPT prompt has been updated to work in frames, rather than seconds for better accuracy. If you have a custom prompt, you should press the &quot;Reset Prompt&quot; button in the bottom settings to update the prompt to the new format.</li>
+<li>The latest OpenAI ChatGPT models are now supported.</li>
+</ul>
+<p>You can learn more <a href="https://markertoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-august-2024</link>
+            <guid isPermaLink="false">2nd August 2024</guid>
+            <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd August 2024]]></title>
+            <description><![CDATA[<p><strong>PostWatch 4</strong> is out now!</p>
+<p>PostWatch now connects directly to the Notifications database so it no longer needs to read the Notification Center through the UI. This has major impacts on PostWatch:</p>
+<ul>
+<li>Special Notification Center settings are no longer required.</li>
+<li>Applications no longer need to have Notification Center alerts enabled.</li>
+<li>Intel and Apple Silicon Macs work equally the same.</li>
+<li>The PostWatch Screensaver is no longer needed.</li>
+<li>You can use the macOS System Screensavers, Display Sleep and Screen Lock freely.</li>
+<li>The Optimizer has been re-worked with some sections now optional.</li>
+</ul>
+<p>It also includes the following changes:</p>
+<ul>
+<li><strong>Lite</strong> (free) and <strong>Pro</strong> (paid) editions. Many advanced features are now part of the Pro Edition. Pro is a one-time paid non-subscription model.</li>
+<li><strong>Improved:</strong> Supports interacting with macOS in any language.</li>
+<li><strong>Improved:</strong> Greatly expanded language support for post-production applications, including: Italian, Portuguese, Russian, Swedish, Dutch and more.</li>
+<li><strong>New:</strong> Guided setup walks users through the Pushover signup and Key/Token configuration with PostWatch.</li>
+<li><strong>Improved:</strong> Modernized the Settings window as well as many of the modal alerts.</li>
+<li><strong>New:</strong> Application Activity Watcher. Observe an applications’ background processes and send an alert when complete. (Pro) Good for applications that aren’t already integrated into PostWatch. (Premiere Pro, Topaz Video AI, etc.)</li>
+<li><strong>New:</strong> Toggling between Light and Dark modes.</li>
+<li><strong>New:</strong> Manual language selection for menu and interface.</li>
+<li><strong>New:</strong> Disable watching of specific applications.</li>
+<li><strong>Updated:</strong> Support for ff·Works 4.</li>
+<li><strong>Improved:</strong> Reworked code for EditReady. Alerts now contain the number of files completed as well as alerts for failed conversions.</li>
+<li><strong>Improved:</strong> Reworked code for Media Encoder. Fixes issues with the reliability of alerts.</li>
+<li><strong>New:</strong> Clicking the menu’s Watcher Status shows a list of currently watched applications. Also clicking Recent Problems gives a detailed list of issues.</li>
+<li>…and many other fixes and stability improvements.</li>
+</ul>
+<p>You can learn more <a href="https://chrisroyfilms.com/postwatch/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-august-2024</link>
+            <guid isPermaLink="false">2nd August 2024</guid>
+            <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
