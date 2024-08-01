@@ -53,6 +53,12 @@ Here's some other success stories:
 
 ## Feature Films
 
+### Horror
+
+- Don’t Turn Out the Lights (2024) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt29722945/)
+
+---
+
 ### Drama
 
 - The Author (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt20202686/)
