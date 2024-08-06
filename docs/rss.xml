@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 01 Aug 2024 21:24:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Aug 2024 12:22:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 01 Aug 2024 21:24:57 GMT</pubDate>
+        <pubDate>Tue, 06 Aug 2024 12:22:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6568,6 +6568,16 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#2nd-august-2024</link>
             <guid isPermaLink="false">2nd August 2024</guid>
             <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th August 2024]]></title>
+            <description><![CDATA[<p><strong>Color Finale v2.9.2</strong> is out now.</p>
+<p>It fixed a bug that prevented access to the Color Finale Presets Store.</p>
+<p>You can learn more <a href="https://colorfinale.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-august-2024</link>
+            <guid isPermaLink="false">6th August 2024</guid>
+            <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
