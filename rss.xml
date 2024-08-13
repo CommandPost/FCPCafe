@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 06 Aug 2024 13:11:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Aug 2024 21:34:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 06 Aug 2024 13:11:24 GMT</pubDate>
+        <pubDate>Tue, 13 Aug 2024 21:34:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6578,6 +6578,75 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#6th-august-2024</link>
             <guid isPermaLink="false">6th August 2024</guid>
             <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2024]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v10.8.1</strong> and <strong>iMovie v10.4.2</strong> is out now with the following bug files:</p>
+<ul>
+<li>Fixes an issue that prevented audio playback when stepping through timeline clips with the left and right arrow keys.</li>
+<li>Fixes an issue that could cause some MTS files to play back without audio.</li>
+<li>Fixes an issue that could cause Final Cut Pro to stop responding when three-finger gestures were used on a trackpad.</li>
+</ul>
+<p>You can download now on the <a href="https://apps.apple.com/au/app/final-cut-pro/id424389933?mt=12">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2024</link>
+            <guid isPermaLink="false">14th August 2024</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2024]]></title>
+            <description><![CDATA[<p>Registration for the <strong>Final Cut Pro Creative Summit</strong> is now open.</p>
+<p>Use the coupon code <code>FMCALUMNI</code> for 15% off at checkout.</p>
+<p>The cost is USD$599, which includes:</p>
+<ul>
+<li><strong>NEW</strong> (2) FMC AI Training Bootcamps, live and online, of their choice, valued at $299 each</li>
+<li>🍏 Apple Campus Visit (If registered before Nov. 10)</li>
+<li>🎓 FREE FCP exam voucher + prep recording</li>
+<li>📚 2 days of intensive training in Final Cut Pro with renowned experts</li>
+<li>🤝 Networking Opportunities</li>
+</ul>
+<p>You can register <a href="https://www.eventbrite.com/e/final-cut-pro-creative-summit-2024-tickets-965178022447">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2024</link>
+            <guid isPermaLink="false">14th August 2024</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2024]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.4.1 (19)</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Fixed a bug/regression introduced in the v1.4.0 update where we accidentally broke &quot;Process Comments Locally&quot;. Apologies! HUGE thanks to KenHell, Maksim Tarasenko, Gary Roll and Hamin Yoon for reporting!</li>
+</ul>
+<p>You can learn more <a href="https://markertoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2024</link>
+            <guid isPermaLink="false">14th August 2024</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2024]]></title>
+            <description><![CDATA[<p><strong>Creators Best Friend v1.3</strong> is out now with the following changes:</p>
+<ul>
+<li>New feature: support for DaVinci Resolve (version 18.5 or later) timelines containing Timeline Markers</li>
+<li>Critical bug fix to read and process &quot;Final Cut Pro Document&quot; binary files exported from Final Cut Pro</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/creators-best-friend/id1524172135?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2024</link>
+            <guid isPermaLink="false">14th August 2024</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2024]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.8</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for &quot;matchback&quot; to reveal a clip inside a closed Event in the clips list.</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2024</link>
+            <guid isPermaLink="false">14th August 2024</guid>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
