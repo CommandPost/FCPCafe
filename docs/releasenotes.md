@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 10.8.1            | 13/08/2024   | 54                   | 14.6.1        | 4.3            |
 | 10.8.0            | 20/06/2024   | 182                  | 14.5          | 4.3            |
 | 10.7.0            | 21/12/2023   | 21                   | 14.1.2        | 4.2.9          |
 | 10.7.0            | 30/11/2023   | 56                   | 14.1.2        | 4.2.9          |
@@ -86,14 +87,14 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2021	| 5       |
 | 2022	| 4       |
 | 2023	| 7       |
-| 2024  | 1       |
+| 2024  | 2       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 8       |
 | Q2	  | 15      |
-| Q3	  | 12      |
+| Q3	  | 13      |
 | Q4	  | 18      |
 
 {.compact}
@@ -106,7 +107,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | May	| 4       |
 | Jun	| 5       |
 | Jul	| 3       |
-| Aug	| 4       |
+| Aug	| 5       |
 | Sept	| 4       |
 | Oct	| 6       |
 | Nov	| 7       |
@@ -290,6 +291,18 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 10.8.1
+
+**Released August 13, 2024**
+
+Final Cut Pro 10.8.1 includes the following bug fixes:
+
+- Fixes an issue that prevented audio playback when stepping through timeline clips with the left and right arrow keys.
+- Fixes an issue that could cause some MTS files to play back without audio.
+- Fixes an issue that could cause Final Cut Pro to stop responding when three-finger gestures were used on a trackpad.
+
+---
 
 ### Final Cut Pro 10.8
 

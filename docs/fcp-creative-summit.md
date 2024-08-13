@@ -2,11 +2,25 @@
 
 ## 2024
 
+Registration for the **Final Cut Pro Creative Summit** is now open.
+
+The cost is USD$599, which includes:
+
+- **NEW** (2) FMC AI Training Bootcamps, live and online, of their choice, valued at $299 each
+- 🍏 Apple Campus Visit (If registered before Nov. 10)
+- 🎓 FREE FCP exam voucher + prep recording
+- 📚 2 days of intensive training in Final Cut Pro with renowned experts
+- 🤝 Networking Opportunities
+
+Use the coupon code `FMCALUMNI` for 15% off at checkout.
+
+You can register [here](https://www.eventbrite.com/e/final-cut-pro-creative-summit-2024-tickets-965178022447).
+
+---
+
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 
 You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
-
-We will be posting more information to this page as it is announced.
 
 ---
 

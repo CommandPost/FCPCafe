@@ -64,6 +64,35 @@ Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't u
 
 ---
 
+## Final Cut Pro 10.8.1
+
+**Final Cut Pro 10.8.1** was released on the Mac App Store on 13th August 2024.
+
+This is just a minor bug fix release, so if you're already on 10.8, it's worth updating.
+
+So far there's no reports of things breaking between 10.8 and 10.8.1.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | No Known Issues                                                                                         |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | No Known Issues                                                                                         |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
+
+---
+
 ## Final Cut Pro 10.8.0
 
 **Final Cut Pro 10.8** was released on the Mac App Store on 20th June 2024.
