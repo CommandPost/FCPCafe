@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 13 Aug 2024 21:48:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Aug 2024 06:49:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Aug 2024 21:48:35 GMT</pubDate>
+        <pubDate>Thu, 15 Aug 2024 06:49:05 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6647,6 +6647,38 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
             <link>https://fcp.cafe/#14th-august-2024</link>
             <guid isPermaLink="false">14th August 2024</guid>
             <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th August 2024]]></title>
+            <description><![CDATA[<p><strong>Mike Matzdorff</strong> is removing his incredible book titled <strong>Final Cut Pro X: Pro Workflow: Proven Techniques from the First Studio Film to Use FCP X</strong> from Apple Books and Amazon.</p>
+<p>We strongly recommend you purchase it RIGHT NOW.</p>
+<p>Mike explains:</p>
+<blockquote>
+<p>There are a couple reasons for taking it down...<br />
+I think there are better resources available, which may have built on what I did (see Iain Anderson's <a href="/learn/training/#final-cut-pro-efficient-editing-book">Final Cut Pro Efficient Editing</a>) - there are still some good techniques in there, but the ideas are nearly ten years old.<br />
+I think one of my hopes, at the time, was that FCP(X) would be something I could use in my main (paying) editing work, and due to the manufacturer's development choices, it wasn't something I could sell productions on.<br />
+Which is ok. It's great software, supported by a great community and Apple folks. The book is a bargain, even now.</p>
+</blockquote>
+<p>You can purchase from Amazon <a href="https://www.amazon.com/Final-Cut-Pro-Workflow-Techniques-ebook/dp/B00UO2NA8I/ref=cm_cr_arp_d_product_top?ie=UTF8">here</a> and Apple Books <a href="https://books.apple.com/au/book/final-cut-pro-x-pro-workflow/id980656984">here</a> for a short time only!</p>
+<p>Thanks Mike for EVERYTHING you've done for the Final Cut Pro community! Legend.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-august-2024</link>
+            <guid isPermaLink="false">15th August 2024</guid>
+            <pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th August 2024]]></title>
+            <description><![CDATA[<p><strong>SendToX v1.2.4</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Critical bug fix for failing to relink files to audio-only media in some cases</li>
+<li>Bug fix to ignore.vob files</li>
+<li>Bug fix for when file/timecode has no frame element</li>
+</ul>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/sendtox/id496926258?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-august-2024</link>
+            <guid isPermaLink="false">15th August 2024</guid>
+            <pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
