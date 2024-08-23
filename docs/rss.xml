@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 21 Aug 2024 12:20:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Aug 2024 07:17:39 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 21 Aug 2024 12:20:57 GMT</pubDate>
+        <pubDate>Thu, 22 Aug 2024 07:17:39 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6705,6 +6705,19 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#19th-august-2024</link>
             <guid isPermaLink="false">19th August 2024</guid>
             <pubDate>Mon, 19 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd August 2024]]></title>
+            <description><![CDATA[<p><strong>Arctic v24.2.3</strong> is out now with the following changes:</p>
+<ul>
+<li>Improved migration flow from FCLM to Arctic</li>
+<li>Fix for some background crashes lingering in FCLM's codebase</li>
+</ul>
+<p>You can learn more <a href="https://hedge.video/arctic">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-august-2024</link>
+            <guid isPermaLink="false">22nd August 2024</guid>
+            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
