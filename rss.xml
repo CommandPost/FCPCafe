@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 22 Aug 2024 07:17:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Aug 2024 02:34:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 22 Aug 2024 07:17:39 GMT</pubDate>
+        <pubDate>Fri, 23 Aug 2024 02:34:24 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6718,6 +6718,19 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#22nd-august-2024</link>
             <guid isPermaLink="false">22nd August 2024</guid>
             <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd August 2024]]></title>
+            <description><![CDATA[<p>Apple has released two new videos about Final Cut Pro for Mac and Final Cut Pro for iPad on their official YouTube Channel.</p>
+<p>Unconfirmed, but I'm fairly confident these were the videos that Apple opened with when we visited Apple Park last year for the Final Cut Pro Creative Summit.</p>
+<p>You can watch here:</p>
+<p><a href="https://www.youtube.com/watch?v=dy3k9M8kqu0"><img src="/static/youtube-fcp-for-mac-apple.jpeg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=5IshJoOuIJQ"><img src="/static/youtube-fcp-for-ipad-apple.jpeg" alt=""></a></p>
+<p>Either way, it's great to see the wider Apple finally promoting Final Cut Pro to the world!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-august-2024</link>
+            <guid isPermaLink="false">23rd August 2024</guid>
+            <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
