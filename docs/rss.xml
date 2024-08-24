@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 23 Aug 2024 04:06:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Aug 2024 06:22:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Aug 2024 04:06:31 GMT</pubDate>
+        <pubDate>Sat, 24 Aug 2024 06:22:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6754,6 +6754,31 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#23rd-august-2024</link>
             <guid isPermaLink="false">23rd August 2024</guid>
             <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th August 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v4.5.0</strong> is out now!</p>
+<p>The developers are offering a <strong>30% discount</strong> on all new licenses.</p>
+<p>Use the offer code <code>EVRE450INTRO</code> at checkout. Offer ends 8th September 2024.</p>
+<p>This update has the following changes:</p>
+<ul>
+<li><strong>NEW:</strong> Enhanced License Activation Check: Added a validation step to ensure the license key field is not left empty during the activation process.</li>
+<li><strong>NEW:</strong> New Buttons on Process Completion: Two new buttons have been added to the final pop-up window after process completion:</li>
+<li>For Export and Transcode processes: A button to open the Event Log and review all recorded events.</li>
+<li>For Offload processes: Two buttons are available�one to open the Event Log and another to access the Transfer Report, enabling users to review key information and all recorded events.</li>
+<li>The interaction with the final pop-up window has been updated to remain active after each button is clicked, allowing multiple selections (e.g., opening the destination folder, accessing the Event Log) before pressing the Cancel button to close the window.</li>
+<li><strong>NEW:</strong> Zero-Byte File Warning: The Zero-Byte File Warning has been expanded to include the Export Metadata and Transcode processes, in addition to the existing warning in the Offload process. This crucial feature helps identify potentially corrupted media files during the workflow. A new button in the zero-byte warning window now allows users to open and review the list of zero-byte files detected in each process .</li>
+<li><strong>UPDATE:</strong> Updated Process Stop Functionality: Enhanced the stop function for export, transcoding, and offloading tasks to ensure all remaining tasks are completed before safely shutting down the process.</li>
+<li><strong>UPDATE:</strong> Progress Bar Update for MHL Files: Updated the progress bar to accurately reflect the creation of ASC MHL and MHL v1 files.</li>
+<li><strong>FIXED:</strong> Resolved an issue where the check control did not properly handle cases where the source folder does not exist.</li>
+<li><strong>FIXED:</strong> Resolved an issue where the exporting metadata process was not properly terminated when stopped.</li>
+<li><strong>FIXED:</strong> Resolved an issue that prevented the correct storage of the last selected hash for ASC MHL files in the preferences panel, ensuring user settings are preserved across sessions.</li>
+</ul>
+<p>You can learn more <a href="https://evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-august-2024</link>
+            <guid isPermaLink="false">24th August 2024</guid>
+            <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
