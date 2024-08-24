@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 23 Aug 2024 03:03:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Aug 2024 04:06:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Aug 2024 03:03:46 GMT</pubDate>
+        <pubDate>Fri, 23 Aug 2024 04:06:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6727,6 +6727,29 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p><a href="https://www.youtube.com/watch?v=dy3k9M8kqu0"><img src="/static/youtube-fcp-for-mac-apple.jpeg" alt=""></a></p>
 <p><a href="https://www.youtube.com/watch?v=5IshJoOuIJQ"><img src="/static/youtube-fcp-for-ipad-apple.jpeg" alt=""></a></p>
 <p>Either way, it's great to see the wider Apple finally promoting Final Cut Pro to the world!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-august-2024</link>
+            <guid isPermaLink="false">23rd August 2024</guid>
+            <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd August 2024]]></title>
+            <description><![CDATA[<p><strong>PostSync v1.11</strong> is out now with the following changes:</p>
+<p><strong>NEW FEATURE:</strong></p>
+<ul>
+<li>Sync: Added the new application Marker Data. (by The Acharya)</li>
+</ul>
+<p><strong>IMPROVED:</strong></p>
+<ul>
+<li>Basic compatibility updates for After Effects 2025 and above.</li>
+<li>Small interface icon changes.</li>
+</ul>
+<p><strong>FIXED:</strong></p>
+<ul>
+<li>Sync: Premiere Pro timeline settings now sync properly.</li>
+<li>Sync: No longer counts hidden files, which might make it appear that some files were changed even though none were.</li>
+</ul>
+<p>You can learn more <a href="https://chrisroyfilms.com/postsync/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#23rd-august-2024</link>
             <guid isPermaLink="false">23rd August 2024</guid>
