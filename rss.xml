@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 24 Aug 2024 09:44:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Aug 2024 01:51:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Aug 2024 09:44:35 GMT</pubDate>
+        <pubDate>Mon, 26 Aug 2024 01:51:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6779,6 +6779,19 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#24th-august-2024</link>
             <guid isPermaLink="false">24th August 2024</guid>
             <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th August 2024]]></title>
+            <description><![CDATA[<p>MotionVFX has updated some of their plugins:</p>
+<ul>
+<li><strong>mFilmLook 2.1.5:</strong> Support for high resolutions - up to 16k</li>
+<li><strong>mTracker 3D 2.1.1:</strong> Support for high resolutions - up to 16k</li>
+</ul>
+<p>You can learn more <a href="https://www.motionvfx.com">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-august-2024</link>
+            <guid isPermaLink="false">26th August 2024</guid>
+            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
