@@ -18,6 +18,16 @@ You can register [here](https://www.eventbrite.com/e/final-cut-pro-creative-summ
 
 ---
 
+The official **FCP Creative Summit 2024** promotional video is out now, created by [Iain Anderson](https://iain-anderson.com).
+
+Spot the crazy person (yes, it's me)!
+
+You can watch on Vimeo here:
+
+[![](/static/vimeo-fcpcs-2024.jpg)](https://vimeo.com/1004195639)
+
+---
+
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 
 You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
