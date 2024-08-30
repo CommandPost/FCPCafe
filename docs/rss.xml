@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 28 Aug 2024 02:04:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Aug 2024 14:26:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 28 Aug 2024 02:04:07 GMT</pubDate>
+        <pubDate>Fri, 30 Aug 2024 14:26:30 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6803,6 +6803,32 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#28th-august-2024</link>
             <guid isPermaLink="false">28th August 2024</guid>
             <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th August 2024]]></title>
+            <description><![CDATA[<p>The official <strong>FCP Creative Summit 2024</strong> promotional video is out now, created by <a href="https://iain-anderson.com">Iain Anderson</a>.</p>
+<p>Spot the crazy person (yes, it's me)!</p>
+<p>You can watch on Vimeo here:</p>
+<p><a href="https://vimeo.com/1004195639"><img src="/static/vimeo-fcpcs-2024.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#30th-august-2024</link>
+            <guid isPermaLink="false">30th August 2024</guid>
+            <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th August 2024]]></title>
+            <description><![CDATA[<p><strong>SendToX v1.2.5</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Bug fix to ignore timecode in AIFF files from Final Cut Pro 7</li>
+<li>Bug fix for titles created in Premiere Pro</li>
+<li>Bug fix for an error raised by markers without a name element</li>
+</ul>
+<p>The FCP7 bug was one of our reports - HUGE thank you to Philip &amp; Gregory for all their on-going help and support!</p>
+<p>You can download from the Mac App Store <a href="https://apps.apple.com/au/app/sendtox/id496926258?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-august-2024</link>
+            <guid isPermaLink="false">30th August 2024</guid>
+            <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
