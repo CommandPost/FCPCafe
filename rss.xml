@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 26 Aug 2024 03:17:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Aug 2024 02:04:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 26 Aug 2024 03:17:41 GMT</pubDate>
+        <pubDate>Wed, 28 Aug 2024 02:04:07 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6792,6 +6792,17 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#26th-august-2024</link>
             <guid isPermaLink="false">26th August 2024</guid>
             <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th August 2024]]></title>
+            <description><![CDATA[<p><strong>PostSync</strong> and <strong>PostWatch</strong> are currently <strong>30% off</strong>!</p>
+<p>Offer ends <strong>30th September</strong>.</p>
+<p>You can use the promo code: <code>EndOfSummer24</code></p>
+<p>You can learn more <a href="https://chrisroyfilms.com/postsync/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-august-2024</link>
+            <guid isPermaLink="false">28th August 2024</guid>
+            <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
