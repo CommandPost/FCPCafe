@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Sep 2024 23:36:53 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Sep 2024 21:16:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Sep 2024 23:36:53 GMT</pubDate>
+        <pubDate>Fri, 06 Sep 2024 21:16:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6829,6 +6829,39 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#30th-august-2024</link>
             <guid isPermaLink="false">30th August 2024</guid>
             <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th September 2024]]></title>
+            <description><![CDATA[<p>The amazing <strong>Dylan Bates</strong> (aka The Final Cut Bro) has released an <strong>Apple Motion Masterclass</strong>.</p>
+<p>Use the promo code <code>MotionTime30</code> to get <strong>30% off</strong>.</p>
+<blockquote>
+<p>It's time to stop ignoring Apple Motion and make it a part of your daily editing life.</p>
+<p>This course will take you from knowing absolutely nothing about Motion, to knowing how to create advanced templates, graphics and VFX with over 7.5 hours of high quality videos. Plus there's even more on the way!</p>
+<p>This course is 100% satisfaction guaranteed! Not happy with it? Let me know and I will offer a full refund.</p>
+</blockquote>
+<p>You can buy now <a href="https://www.mastermotion5.com/the-final-cut-bro-s-apple-motion-masterclass">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-september-2024</link>
+            <guid isPermaLink="false">7th September 2024</guid>
+            <pubDate>Sat, 07 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th September 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v4.6.0</strong> is out now!</p>
+<p>Use the promo code <code>EVRE460INTRO</code> to get <strong>30% off</strong> until 22nd September.</p>
+<p>This release includes:</p>
+<ul>
+<li><strong>UPDATE:</strong> New Process Selection Interface: Users now select between the main processes: Metadata Export, Transcode, and Offload directly from the main process window, streamlining the workflow and reducing confusion.</li>
+<li><strong>UPDATE:</strong> Transcoding Mode Moved: The Transcoding Mode selection has been moved to the Transcode Settings, providing a cleaner and more intuitive user experience when setting transcoding preferences.</li>
+<li><strong>UPDATE:</strong> Renaming of Passthrough Mode: The &quot;Passthrough&quot; transcoding mode has been renamed to &quot;Rewrap&quot; for better clarity.</li>
+<li><strong>UPDATE:</strong> Minor UI/UX Enhancements: Various small improvements have been made to alert messages and pop-up windows for a more polished and user-friendly experience.</li>
+<li><strong>NEW:</strong> Demo License Activation: Starting with this release, the Demo license must be activated to use evrExpanse.</li>
+</ul>
+<p>You can learn more <a href="https://www.evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-september-2024</link>
+            <guid isPermaLink="false">7th September 2024</guid>
+            <pubDate>Sat, 07 Sep 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
