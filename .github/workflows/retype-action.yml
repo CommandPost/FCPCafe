@@ -135,7 +135,7 @@ jobs:
           path: docs/
 
       - name: Checkout code
-        uses: actions/checkout@latest
+        uses: actions/checkout@v4.1.7
 
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
