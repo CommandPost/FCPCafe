@@ -18,10 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@latest
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@latest
         with:
           node-version: 20
 
@@ -114,7 +114,7 @@ jobs:
           echo "Completed commit step."
 
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@latest
         with:
           name: docs
           path: docs/
@@ -129,13 +129,13 @@ jobs:
 
     steps:
       - name: Download updated docs
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@latest
         with:
           name: docs
           path: docs/
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@latest
 
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
