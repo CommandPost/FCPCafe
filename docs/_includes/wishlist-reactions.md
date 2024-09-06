@@ -27,3 +27,4 @@
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149)
 - [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148)
 - [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147)
+- [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146)
