@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 08 Sep 2024 12:04:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Sep 2024 00:12:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 08 Sep 2024 12:04:02 GMT</pubDate>
+        <pubDate>Tue, 17 Sep 2024 00:12:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6876,6 +6876,53 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#8th-september-2024</link>
             <guid isPermaLink="false">8th September 2024</guid>
             <pubDate>Sun, 08 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th September 2024]]></title>
+            <description><![CDATA[<p><strong>macOS Sequoia 15.0</strong> is out now!</p>
+<p>So far there's very little to no reports of any issues with Final Cut Pro, so we think it's safe to upgrade - but of course, make backups and tread with care!</p>
+<p>You can keep track of our latest recommendations on our <a href="https://fcp.cafe/update-guide/">Upgrade Guide</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-september-2024</link>
+            <guid isPermaLink="false">17th September 2024</guid>
+            <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th September 2024]]></title>
+            <description><![CDATA[<p><strong>BretFX</strong> has released <strong>Speech Bubble 2</strong> on the Mac App Store and on the BretFX website.</p>
+<p>You can learn more <a href="https://www.bretfx.com/product/speech-bubble/">here</a>.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/speech-bubbles-for-final-cut/id6667095093?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-september-2024</link>
+            <guid isPermaLink="false">17th September 2024</guid>
+            <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th September 2024]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.3.1</strong> is out now with a new app icon!</p>
+<p>It also now has a  &quot;Keep on Top&quot; checkbox to control floating of the app window.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/creators-best-friend/id1524172135?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-september-2024</link>
+            <guid isPermaLink="false">17th September 2024</guid>
+            <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th September 2024]]></title>
+            <description><![CDATA[<p><strong>Frame.io v2.7.1</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Support for uploading media to V4 accounts</li>
+<li>Watch Folders now work with V4 accounts</li>
+<li>Full support for Final Cut Pro 10.8</li>
+<li>Bug fixes and performance improvements</li>
+</ul>
+<p>We're big Frame.io users here, and we're also on the V4 beta, so HUGE thank you to the Frame.io team for all their Final Cut Pro improvements!!</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/frame-io-video-collaboration/id992958444?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-september-2024</link>
+            <guid isPermaLink="false">17th September 2024</guid>
+            <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
