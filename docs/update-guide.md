@@ -12,9 +12,13 @@ You can read our current recommendations below:
 
 ---
 
-## Short Answer
+## Summary
 
-**Final Cut Pro 10.8** has only just been released, however the initial verdict is that it's very similar to 10.7.1. If you rush to update, make sure you have backups!
+**Last Updated:** 17th September 2024
+
+For most users, on modern Apple Silicon Mac's **Final Cut Pro 10.8.1** is rock solid.
+
+**Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
 If you're still on **Final Cut Pro 10.6.5** or earlier on **Intel** machines - just stay there until you buy an Apple Silicon Mac.
 
@@ -24,13 +28,25 @@ If you're currently on **Final Cut Pro 10.7**, you can safely update to **Final 
 
 If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma**.
 
+If you're on **macOS Sonoma** - you should be fine to update to **macOS Sequoia**.
+
 You can read full answers below...
 
 _FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with Sonoma 14.1.2 and FCPX 10.7 through hell since the 10.7 release, and it's been rock solid. Zero crashes. Zero issues. Faster exports. More responsive. Rock solid. I was previously on Monterey & 10.6.8, but Sonoma + Final Cut Pro 10.7 seems way more solid and reliable._
 
 ---
 
-## macOS Sonoma
+## macOS Sequoia 15
+
+We know a lot of people that used Final Cut Pro right throughout the macOS Sequoia beta period without any major issues.
+
+If you're running macOS Sonoma, we expect macOS Sequoia to be very similar to Final Cut Pro users.
+
+However, as macOS Sequoia 15.0 is brand new - take care, and don't rush to update unless you need to. Make sure you have backups!
+
+---
+
+## macOS Sonoma 14
 
 **iZotope** is currently warning against it's users upgrading to **macOS Sonoma 14.4**.
 
@@ -41,8 +57,6 @@ They write:
 > If you are using Audio Units on an Apple silicon computer, it is advisable to postpone the macOS update until further information becomes available. We will keep you informed as soon as a resolution is found.
 
 You can learn more [here](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
-
----
 
 Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
 
