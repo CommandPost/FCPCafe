@@ -1,3 +1,4 @@
+- ["Graduated Mask" Effect - Needs "Offset"/"Anchor" parameter (July 15, 2024)](https://github.com/CommandPost/FCPCafe/issues/388)
 - [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
@@ -27,4 +28,3 @@
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149)
 - [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148)
 - [Native AAF Export (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/147)
-- [Robust Relinking Options (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/146)
