@@ -42,4 +42,32 @@ Given this, we strongly recommend you use a greyscale icon for Workflow Extensio
 
 ---
 
+### Unknown argument: '-e_ProExtensionMain'
+
+If you're a developer who works with Final Cut Pro **Workflow Extensions**, you may have noticed that things break when you upgrade to **macOS Sequoia 15.0** and **Xcode 16.0**. Doh!
+
+Thankfully the fix is fairly simple once you know the trick...
+
+If you're setting this:
+
+![](/static/workflow-extension-error-1.jpg)
+
+Simply change this:
+
+![](/static/workflow-extension-error-2.png)
+
+To this:
+
+![](/static/workflow-extension-error-3.png)
+
+This is because in Xcode 16.0, a clang fix was made that now requires a space after the entry linker option `-e` to disambiguate this option from other options that start with the letter `e`.
+
+To fix the error, you simply need to separate out the `-e` from `_ProExtensionMain` in the **Other Linker Flags** build setting.
+
+As of today, the [Workflow Extensions SDK](https://developer.apple.com/documentation/professional-video-applications/workflow-extensions?language=objc) hasn't been updated, but hopefully we'll see this fixed in the Xcode template soon.
+
+Thanks to Phil in the [CocoaHeads](http://cocoaheads.org/au/Melbourne/index.html) community for helping me work this out!
+
+---
+
 {{ include "contribute-learn-more" }}
