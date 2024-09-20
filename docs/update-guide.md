@@ -44,6 +44,8 @@ If you're running macOS Sonoma, we expect macOS Sequoia to be very similar to Fi
 
 However, as macOS Sequoia 15.0 is brand new - take care, and don't rush to update unless you need to. Make sure you have backups!
 
+Sweetwater also has an incredibly detailed [macOS Sequoia Compatibility Guide](https://www.sweetwater.com/sweetcare/articles/macos-sequoia-compatibility-guide/) for editors that also use DAWs like Logic Pro.
+
 ---
 
 ## macOS Sonoma 14
