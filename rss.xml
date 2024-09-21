@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Sep 2024 02:25:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Sep 2024 21:05:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Sep 2024 02:25:38 GMT</pubDate>
+        <pubDate>Fri, 20 Sep 2024 21:05:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6923,6 +6923,40 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#17th-september-2024</link>
             <guid isPermaLink="false">17th September 2024</guid>
             <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th September 2024]]></title>
+            <description><![CDATA[<p>If you're a developer who works with Final Cut Pro <strong>Workflow Extensions</strong>, you may have noticed that things break when you upgrade to <strong>macOS Sequoia 15.0</strong> and <strong>Xcode 16.0</strong>. Doh!</p>
+<p>Thankfully the fix is fairly simple once you know the trick...</p>
+<p>If you're setting this:</p>
+<p><img src="/static/workflow-extension-error-1.jpg" alt=""></p>
+<p>Simply change this:</p>
+<p><img src="/static/workflow-extension-error-2.png" alt=""></p>
+<p>To this:</p>
+<p><img src="/static/workflow-extension-error-3.png" alt=""></p>
+<p>This is because in Xcode 16.0, a clang fix was made that now requires a space after the entry linker option <code>-e</code> to disambiguate this option from other options that start with the letter <code>e</code>.</p>
+<p>To fix the error, you simply need to separate out the <code>-e</code> from <code>_ProExtensionMain</code> in the <strong>Other Linker Flags</strong> build setting.</p>
+<p>As of today, the <a href="https://developer.apple.com/documentation/professional-video-applications/workflow-extensions?language=objc">Workflow Extensions SDK</a> hasn't been updated, but hopefully we'll see this fixed in the Xcode template soon.</p>
+<p>Thanks to Phil in the <a href="http://cocoaheads.org/au/Melbourne/index.html">CocoaHeads</a> community for helping me work this out!</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-september-2024</link>
+            <guid isPermaLink="false">18th September 2024</guid>
+            <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th September 2024]]></title>
+            <description><![CDATA[<p>It's nearly your last chance to get <strong>30% off</strong> the amazing <strong>Apple Motion Masterclass</strong> by <strong>Dylan Bates</strong> (aka The Final Cut Bro)!</p>
+<p>Simply use the promo code <code>MotionTime30</code>. Offer end 20th September.</p>
+<blockquote>
+<p>It's time to stop ignoring Apple Motion and make it a part of your daily editing life.</p>
+<p>This course will take you from knowing absolutely nothing about Motion, to knowing how to create advanced templates, graphics and VFX with over 7.5 hours of high quality videos. Plus there's even more on the way!</p>
+<p>This course is 100% satisfaction guaranteed! Not happy with it? Let me know and I will offer a full refund.</p>
+</blockquote>
+<p>You can buy now <a href="https://www.mastermotion5.com/the-final-cut-bro-s-apple-motion-masterclass">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-september-2024</link>
+            <guid isPermaLink="false">18th September 2024</guid>
+            <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

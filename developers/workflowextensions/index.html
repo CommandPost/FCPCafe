@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779855252482">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.780278286442">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.5.0">
+    <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Workflow Extensions</title>
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.779855252482" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.780278286442" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779855252482" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779855252482" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.780278286442" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.780278286442" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -391,6 +391,37 @@
 </figure>
 </p>
 <p>Given this, we strongly recommend you use a greyscale icon for Workflow Extensions.</p>
+<hr>
+<doc-anchor-target id="unknown-argument--e_proextensionmain">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unknown-argument--e_proextensionmain">#</doc-anchor-trigger>
+        <span>Unknown argument: &#x27;-e_ProExtensionMain&#x27;</span>
+    </h3>
+</doc-anchor-target>
+<p>If you&#x27;re a developer who works with Final Cut Pro <strong>Workflow Extensions</strong>, you may have noticed that things break when you upgrade to <strong>macOS Sequoia 15.0</strong> and <strong>Xcode 16.0</strong>. Doh!</p>
+<p>Thankfully the fix is fairly simple once you know the trick...</p>
+<p>If you&#x27;re setting this:</p>
+<p><figure class="content-center">
+    <img src="/static/workflow-extension-error-1.jpg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Simply change this:</p>
+<p><figure class="content-center">
+    <img src="/static/workflow-extension-error-2.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To this:</p>
+<p><figure class="content-center">
+    <img src="/static/workflow-extension-error-3.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This is because in Xcode 16.0, a clang fix was made that now requires a space after the entry linker option <code v-pre>-e</code> to disambiguate this option from other options that start with the letter <code v-pre>e</code>.</p>
+<p>To fix the error, you simply need to separate out the <code v-pre>-e</code> from <code v-pre>_ProExtensionMain</code> in the <strong>Other Linker Flags</strong> build setting.</p>
+<p>As of today, the <a href="https://developer.apple.com/documentation/professional-video-applications/workflow-extensions?language=objc" class="outbound" target="_blank"><span>Workflow Extensions SDK</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> hasn&#x27;t been updated, but hopefully we&#x27;ll see this fixed in the Xcode template soon.</p>
+<p>Thanks to Phil in the <a href="http://cocoaheads.org/au/Melbourne/index.html" class="outbound" target="_blank"><span>CocoaHeads</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> community for helping me work this out!</p>
 <hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
