@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 22 Sep 2024 00:02:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Sep 2024 05:59:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 22 Sep 2024 00:02:05 GMT</pubDate>
+        <pubDate>Tue, 24 Sep 2024 05:59:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6928,7 +6928,7 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <title><![CDATA[18th September 2024]]></title>
             <description><![CDATA[<p>If you're a developer who works with Final Cut Pro <strong>Workflow Extensions</strong>, you may have noticed that things break when you upgrade to <strong>macOS Sequoia 15.0</strong> and <strong>Xcode 16.0</strong>. Doh!</p>
 <p>Thankfully the fix is fairly simple once you know the trick...</p>
-<p>If you're setting this:</p>
+<p>If you're seeing this:</p>
 <p><img src="/static/workflow-extension-error-1.jpg" alt=""></p>
 <p>Simply change this:</p>
 <p><img src="/static/workflow-extension-error-2.png" alt=""></p>
