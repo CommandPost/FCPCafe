@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 24 Sep 2024 05:59:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Sep 2024 23:10:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Sep 2024 05:59:00 GMT</pubDate>
+        <pubDate>Fri, 27 Sep 2024 23:10:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6957,6 +6957,22 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#18th-september-2024</link>
             <guid isPermaLink="false">18th September 2024</guid>
             <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th September 2024]]></title>
+            <description><![CDATA[<p>The draft program for the <strong>2024 Final Cut Pro Creative Summit</strong> is now live!</p>
+<p>You can view it <a href="https://fcpcreativesummits.com/program/">here</a>.</p>
+<p>There's some great speakers in the mix, but probably most exciting:</p>
+<blockquote>
+<p><strong>Fitness+ How We Use Final Cut Pro</strong>
+<strong>Speaker:</strong> Apple Fitness+ Team</p>
+</blockquote>
+<p>We can't wait! Hopefully see you there!</p>
+<p>You can learn more <a href="https://fcp.cafe/fcp-creative-summit/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-september-2024</link>
+            <guid isPermaLink="false">28th September 2024</guid>
+            <pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
