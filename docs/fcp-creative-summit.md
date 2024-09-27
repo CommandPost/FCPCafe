@@ -16,6 +16,8 @@ Use the coupon code `FMCALUMNI` for 15% off at checkout.
 
 You can register [here](https://www.eventbrite.com/e/final-cut-pro-creative-summit-2024-tickets-965178022447).
 
+You can view the program [here](https://fcpcreativesummits.com/program/).
+
 ---
 
 The official **FCP Creative Summit 2024** promotional video is out now, created by [Iain Anderson](https://iain-anderson.com).
