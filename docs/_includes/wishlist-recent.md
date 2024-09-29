@@ -1,5 +1,6 @@
 - [Mini markers for all the snap points in the timeline time marker box. (September 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/394)
 - ["Graduated Mask" Effect - Needs "Offset"/"Anchor" parameter (July 15, 2024)](https://github.com/CommandPost/FCPCafe/issues/388)
+- [Title "Drawer" - only effecting the clips in drawer (July 15, 2024)](https://github.com/CommandPost/FCPCafe/issues/387)
 - [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
@@ -27,4 +28,3 @@
 - [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196)
 - [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175)
 - [Native ARRIRAW Support (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/149)
-- [Robust Custom Categorisation and Management of Motion Templates (June 8, 2023)](https://github.com/CommandPost/FCPCafe/issues/148)
