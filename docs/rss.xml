@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 29 Sep 2024 03:49:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Sep 2024 10:40:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 29 Sep 2024 03:49:30 GMT</pubDate>
+        <pubDate>Sun, 29 Sep 2024 10:40:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6964,7 +6964,7 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p>You can view it <a href="https://fcpcreativesummits.com/program/">here</a>.</p>
 <p>There's some great speakers in the mix, but probably most exciting:</p>
 <blockquote>
-<p><strong>Fitness+ How We Use Final Cut Pro</strong>
+<p><strong>Fitness+ How We Use Final Cut Pro</strong><br />
 <strong>Speaker:</strong> Apple Fitness+ Team</p>
 </blockquote>
 <p>We can't wait! Hopefully see you there!</p>
@@ -6973,6 +6973,55 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#28th-september-2024</link>
             <guid isPermaLink="false">28th September 2024</guid>
             <pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th September 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> is working on something new, and something really cool, most likely called <strong>mExtension</strong>.</p>
+<p><img src="/static/motionvfx-workflow-extension.png" alt=""></p>
+<p><img src="/static/motionvfx_workflow_extension_05.jpg" alt=""></p>
+<p>We can only ASSUME that it's a new Workflow Extension based off their videos...</p>
+<p>It looks like it has:</p>
+<ul>
+<li>Addons</li>
+<li>Backgrounds</li>
+<li>Camera Movements</li>
+<li>Compositing Elements</li>
+<li>Effects</li>
+<li>Infographics</li>
+<li>Intros</li>
+<li>Overlay Effects</li>
+<li>Placeholders</li>
+<li>Social Media</li>
+<li>Transitions</li>
+</ul>
+<p>To be honest, we're surprised it's taken them this long to build a Workflow Extension, as normally MotionVFX are first to market when it comes to Final Cut Pro tech.</p>
+<p>Their <a href="https://www.youtube.com/shorts/TEnRzu-N02I">first hint</a> was:</p>
+<blockquote>
+<p>A new era of creativity is on the horizon... ✨</p>
+</blockquote>
+<p>Their <a href="https://www.youtube.com/shorts/H7_fXYfeXyI">second hint</a> was:</p>
+<blockquote>
+<p>Something big is coming... 👀</p>
+</blockquote>
+<p>Their <a href="https://www.youtube.com/shorts/7Z2HLHqyT2E">third hint</a> was:</p>
+<blockquote>
+<p>Final Cut Pro is about to get bigger! 💣</p>
+</blockquote>
+<p>And their <a href="https://www.youtube.com/shorts/LZdhdqYFc6A">latest hint</a> is:</p>
+<blockquote>
+<p>Open endless opportunities in Final Cut Pro ♾️ #videoediting</p>
+</blockquote>
+<p>You can see some screenshots of the above videos here:</p>
+<p><img src="/static/motionvfx_workflow_extension_01.jpg" alt=""></p>
+<p><img src="/static/motionvfx_workflow_extension_02.jpg" alt=""></p>
+<p><img src="/static/motionvfx_workflow_extension_03.jpg" alt=""></p>
+<p><img src="/static/motionvfx_workflow_extension_04.jpg" alt=""></p>
+<p>It's yet to be seen if this will be subscription or if it just has access to your existing MotionVFX purchases.</p>
+<p>We're excited.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-september-2024</link>
+            <guid isPermaLink="false">29th September 2024</guid>
+            <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
