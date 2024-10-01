@@ -8,6 +8,11 @@ _This website has been thrown together by [Chris Hocking](https://twitter.com/ch
 
 {{ include "homepage" }}
 
+!!!success FCP Creative Summit 2024
+We're going! You should too!</br>
+Learn more [here](/fcp-creative-summit/).
+!!!
+
 !!!
 **Should I update Final Cut Pro?**<br />
 Read our current recommendations [here](/update-guide/).
