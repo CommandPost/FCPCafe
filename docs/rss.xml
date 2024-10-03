@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 03 Oct 2024 02:00:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 02:08:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Oct 2024 02:00:24 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 02:08:55 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7106,8 +7106,8 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p><img src="/static/mextension-no-internet.png" alt=""></p>
 <p>When you download an item, it just gets added to your regular Motion Templates folder, so in future you can just access directly from Final Cut Pro:</p>
 <p><img src="/static/mextension-downloaded.png" alt=""></p>
-<p>So I GUESS there's nothing stopping you from just downloading everything and keeping it all locally?</p>
-<p><img src="/static/mextension-download.png" alt=""></p>
+<p>There is a daily limit on how many things you can download:</p>
+<p><img src="/static/mextension-limit.png" alt=""></p>
 <p>Overall, it seems like a really solid product, with lots of great templates - and having it directly in Final Cut Pro is amazing. I'm really surprised it took them this long to build a Workflow Extension to be honest!</p>
 <p>Next up... we have <strong>mCaptions</strong>.</p>
 <p><img src="/static/mcaptions.png" alt=""></p>
