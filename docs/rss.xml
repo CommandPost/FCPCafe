@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 03 Oct 2024 02:08:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 02:40:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Oct 2024 02:08:55 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 02:40:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7111,6 +7111,8 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p>Overall, it seems like a really solid product, with lots of great templates - and having it directly in Final Cut Pro is amazing. I'm really surprised it took them this long to build a Workflow Extension to be honest!</p>
 <p>Next up... we have <strong>mCaptions</strong>.</p>
 <p><img src="/static/mcaptions.png" alt=""></p>
+<p>Here's the official tutorial featuring the amazing <strong>George Edmondson</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=8DYbHcQD4bE"><img src="/static/mcaption-tutorial.jpg" alt=""></a></p>
 <p>Confusingly... <strong>mCaptions</strong> doesn't create <strong>Captions</strong> - it creates <strong>Titles</strong>.</p>
 <p>Ironically... whilst we're very confident that we'll see automatic captions support in Final Cut Pro 11 at the Final Cut Pro Creative Summit, we're less confident about automatic titles.</p>
 <p>My GUESS is that Apple and MotionVFX have probably already discussed this, and my GUESS it that mCaptions won't compete with Apple's native captions support.</p>
