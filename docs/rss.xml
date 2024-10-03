@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 03 Oct 2024 06:29:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 08:44:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Oct 2024 06:29:41 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 08:44:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7150,7 +7150,8 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
 <p>Next up we tried a 4 minute H264 - a pitch video that we did internally, which is mostly dialogue (all English) but with some subtle music underneath.</p>
 <p>That seemed to work MUCH better, and was pretty fast to process:</p>
 <p><img src="/static/mcaptions-success.png" alt=""></p>
-<p>Overall though, I'm not sure that mCaptions is any better than <a href="/developer-case-studies/transcriber/">Ulti.Media Transcriber</a>, and definitely has far less options and control.</p>
+<p>Overall though, I'm not sure that mCaptions is any better than <a href="/developer-case-studies/transcriber/">Ulti.Media Transcriber</a>, and definitely has far less options and control - although having it as a Workflow Extension in Final Cut Pro does save a lot of mouse clicks!</p>
+<p>Having said that... it does have a very unique feature not found in other tools (so far)... <strong>word-by-word animation</strong> is amazing, and something I've already used on an actual job. When it works (i.e. clean English), it works amazingly well.</p>
 <p>I'd be curious to hear your thoughts on MotionVFX's latest offerings!</p>
 <p>Thanks team!</p>
 ]]></description>
