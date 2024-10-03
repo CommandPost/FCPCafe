@@ -14,6 +14,19 @@ It's one of our prestigious projects which is being distributed in the entire ne
 
 ---
 
+
+### Release
+
+The documentary is coming to **Asianet News Malayalam** in **8 episodes**.
+
+It includes history, mystery, myth, and real stories, as well as exclusive footage of the Indian Army's training in Kashmir.
+
+You can watch a trailer here:
+
+[![](/static/guardians-of-himalayas.jpg)](https://www.youtube.com/watch?v=5HjQW86KIsg)
+
+---
+
 ### Pre Production
 
 With a team of camerapersons from our channel, K. R. Mukund, Gibin Baby, Prashanth Albert, Vishnu Kalapeedam, and Praveen Kollakonam, as well as a sound engineer, Krishna Raj, working under the direction of M. G. Aneesh, the shooting took place in Kashmir, India, on 15th June 2023.

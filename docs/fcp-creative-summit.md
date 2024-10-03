@@ -4,7 +4,9 @@
 
 Registration for the **Final Cut Pro Creative Summit** is now open.
 
-The cost is USD$599, which includes:
+[![](/static/fcpcs-2024-discount.png)](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE)
+
+The cost is USD$599 (minus the 15% discount above), which includes:
 
 - **NEW** (2) FMC AI Training Bootcamps, live and online, of their choice, valued at $299 each
 - 🍏 Apple Campus Visit (If registered before Nov. 10)
@@ -12,9 +14,8 @@ The cost is USD$599, which includes:
 - 📚 2 days of intensive training in Final Cut Pro with renowned experts
 - 🤝 Networking Opportunities
 
-Use the coupon code `FMCALUMNI` for 15% off at checkout.
 
-You can register [here](https://www.eventbrite.com/e/final-cut-pro-creative-summit-2024-tickets-965178022447).
+You can register [here](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
 
 You can view the program [here](https://fcpcreativesummits.com/program/).
 
@@ -33,6 +34,28 @@ You can watch on Vimeo here:
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 
 You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
+
+---
+
+### Why should you go?
+
+_Written by [Iain Anderson](https://iain-anderson.com)_.
+
+If you’re an FCP editor, you might have considered going to the FCP Creative Summit at some point — and you probably should go at least once. As in 2023, we’ll be visiting Apple Park as part of the 2024 conference.
+
+With the home base back at the Juniper Hotel, we once again have a bar in the same building as all the talks, and it’s also where most of us will be staying. With many restaurant options in easy walking distance, we should  have many more chances for casual and unplanned hangouts with speakers, attendees and special guests.
+
+Dates have shifted a little later this year, and it’s being held from 13-15 November 2024. As in 2023, we’ll kick off with Apple Day; a keynote, then a visit to Apple Park where we will be shown something. Since Spatial Video support has been promised this year, I’d expect there’s a fair chance we’ll see it in action at the Summit, presumably along with other new features, and the latest Macs and other gear in the demo room.
+
+(An aside: is Spatial a big deal? It will be, eventually. I’m a big fan of the Apple Vision Pro today, and if you’ve not tried it yet, definitely do try one out. Yes, it’s expensive, but the experience it brings is unlike anything else, and it will become cheaper eventually. Craving something new? This is it.)
+
+If you largely live online, or (like me) on the other side of the planet, it’s worth getting together with a bunch of like-minded editors every now and again. Online is OK, and yes, you can learn new things there, but food, drink, and proximity to actual people can’t be replaced. I won’t be the only Australian there either — Chris Hocking, the kind and benevolent person behind this site and CommandPost, is coming again this year. Be sure to say hi, and if you’re not already supporting CommandPost, buy him a drink!
+
+After Apple Day, we’ll still have two days of talks, plus panels, special guests, and a tip show. I’m giving two talks this year, teaching you how to **Make Useful Editing Tools with Motion** on Thursday, and then on Friday **3D, Spatial and Immersive Video**. The full program is here: https://fcpcreativesummits.com/program/ and there are some great talks scheduled. I’m personally very keen to learn how the Fitness+ team use FCP, to hear what Strada’s Michael Cioni has to say, and for the chat with Tyler Stalman before the closed-doors-no-recording-gloves-off Q&A with the FCP team.
+
+If you’re an FCP editor, and you travel for just one video event a year, I think this is more fun than NAB — and it’s all about the people. See you there!
+
+Tickets are USD$599 — but with 15% off when you use the promo code FCPCAFE.
 
 ---
 
