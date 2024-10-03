@@ -1,6 +1,6 @@
 # Credits
 
-FCP Cafe was thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite Films](https://latenitefilms.com/technology/).
+FCP Cafe was thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com).
 
 The FCP Cafe **icon** was designed by the amazing [Matthew Skiles](https://matthewskiles.com).
 
@@ -14,7 +14,7 @@ Since creating the site, [lots of people](https://github.com/CommandPost/FCPCafe
 
 ---
 
-### LateNite Films
+### LateNite
 
 LateNite is an independent production studio committed to investing in emerging creatives with strong, unique voices, helping tell their stories in a creatively supportive and collaborative environment. Our work uses humour to explore outsider stories that are unmistakably human and straddle the line between light and dark.
 
