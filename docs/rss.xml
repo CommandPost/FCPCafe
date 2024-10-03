@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 01 Oct 2024 04:30:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 01:18:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Oct 2024 04:30:06 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 01:18:30 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7033,6 +7033,112 @@ Which is ok. It's great software, supported by a great community and Apple folks
             <link>https://fcp.cafe/#1st-october-2024</link>
             <guid isPermaLink="false">1st October 2024</guid>
             <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd October 2024]]></title>
+            <description><![CDATA[<p>November is RAPIDLY approaching, and if you haven't already considered going to the <strong>FCP Creative Summit</strong> you DEFINITELY should.</p>
+<p>I'll be there!</p>
+<p>You can read why Iain Anderson thinks you should come <a href="/fcp-creative-summit/">here</a>.</p>
+<p>You can get <strong>15% off</strong> here:</p>
+<p><a href="http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE"><img src="/static/fcpcs-2024-discount.png" alt=""></a></p>
+<p>There's some great speakers in the mix, but probably most exciting:</p>
+<blockquote>
+<p><strong>Fitness+ How We Use Final Cut Pro</strong><br />
+<strong>Speaker:</strong> Apple Fitness+ Team</p>
+</blockquote>
+<p>Last year at the Summit Apple told us:</p>
+<blockquote>
+<p>One interesting point to note is that even though the Scary Fast event wasn't cut in Final Cut Pro (yes, it was cut in Premiere) - everything for Apple Fitness+ is - over 4,700 videos, 15 hours every week, all cut in Final Cut Pro using ProRes. Apple is eating their own dog food, at a major scale. Also, all the WWDC talks this year were cut in Final Cut Pro.</p>
+</blockquote>
+<p>They also hinted that they were doing some special/funky metadata stuff for Fitness+ but didn't go into any deep details - so HOPEFULLY we learn more this year.</p>
+<p>There will be LOTS of new tech discussed at the event.</p>
+<p><strong>MotionVFX</strong> has just released a tonne of new products, which I'm sure everyone will be talking about.</p>
+<p><strong>Wes Plate</strong> from <strong>Automatic Duck</strong> will be presenting - so we can all safely assume he'll announce something amazing (I wonder if you can guess what it is!).</p>
+<p>Of course, <strong>Michael Cioni</strong> from <strong>Strada</strong> will be doing a keynote talk, <strong>Bet on the Future, bet on Yourself</strong>. Michael is one of the best public speakers in our industry, so his talks are always amazing.</p>
+<p>I'm also currently helping <strong>Arthur Moore</strong> of <a href="https://arthurmoorefx.sellfy.store">BadAss FX</a> fame on a secret project, that will HOPEFULLY be out by the Summit too!</p>
+<p>So come along - it'll be awesome.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-october-2024</link>
+            <guid isPermaLink="false">3rd October 2024</guid>
+            <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd October 2024]]></title>
+            <description><![CDATA[<p>Yesterday <strong>MotionVFX</strong> released <strong>DesignStudio</strong>, <strong>mExtension</strong> and <strong>mCaptions</strong>.</p>
+<p>We're MASSIVE fans of MotionVFX. NOT including their subscriptions I've spent over <strong>AUD$7,596.53</strong> on MotionVFX products.</p>
+<p>The MotionVFX team are next-level talented, and create absolutely beautiful products that no other company can compete with.</p>
+<p>That said... for us at least, yesterday's launch really didn't go that well.</p>
+<p>We couldn't even pay the very expensive <strong>USD$682.82</strong> cost because &quot;something went wrong&quot;:</p>
+<p><img src="/static/motionvfx-launch-01.png" alt=""></p>
+<p>We tried multiple credit cards from multiple banks.</p>
+<p>With MotionVFX being based in Poland, and LateNite being based in Melbourne, Australia, getting through to live chat support took a while.</p>
+<p>Eventually they tweaked the error message, but alas, it still wasn't working for us:</p>
+<p><img src="/static/motionvfx-launch-02.png" alt=""></p>
+<p>To be fair... we think this was most likely an issue on <a href="https://www.paddle.com">Paddle</a>'s end - the payment provider that MotionVFX uses, however, as someone who knows the backend of Paddle quite well, I found it pretty disappointing that MotionVFX support couldn't just manually upgrade my subscription - as I was already paying for CineStudio 2D + 3D, so they already had my credit card details.</p>
+<p>MotionVFX's live chat support staff were super lovely and human, which is always nice. But there was no special treatment here - no offer of a discount, no offer to some how fast track things. I basically just had to keep trying until it worked.</p>
+<p>This kinda sucks - as MotionVFX have such a <a href="https://www.motionvfx.com/about">big team</a> - I would expect better support, where they just do whatever it takes to get me up and running.</p>
+<p>Eventually, after about the 100 time of trying to submit, I got a SMS from my bank about unusual activity on my credit card, which I accepted, and then, thankfully, I tried buying the <strong>Ultimate Plan</strong>, and it worked, woohoo! I have no idea why I didn't get this SMS on the first attempt, or the next 99 attempts, but it must have been a bug somewhere in the Paddle flow.</p>
+<p>In addition to the existing <strong>mInstaller</strong>, we now have <strong>mExtensionInstaller</strong>:</p>
+<p><img src="/static/mextension-installer.png" alt=""></p>
+<p>I'm not really sure why they didn't just put this in <strong>mInstaller</strong> - it kinda makes no sense, but anyway...</p>
+<p>First up I tried <strong>mExtension</strong>.</p>
+<p><img src="/static/mextension.png" alt=""></p>
+<p>It's a Workflow Extension that contains:</p>
+<ul>
+<li>Addons</li>
+<li>Backgrounds</li>
+<li>Camera Movements</li>
+<li>Compositing Elements</li>
+<li>Effects</li>
+<li>Infographics</li>
+<li>Intros</li>
+<li>Overlay Effects</li>
+<li>Placeholders</li>
+<li>Social Media</li>
+<li>Transitions</li>
+</ul>
+<p>Once you find something you like you can simply drag it to your timeline, and like magic, it just works.</p>
+<p>There's a HEAP of stuff - and as you'd expect with MotionVFX, the design work is AMAZING.</p>
+<p>My only complaint is that this Workflow Extension just seems to be a fancy webview - so it's loading off the Internet, and it's SLOW - at least in Australia.</p>
+<p>There doesn't seem to be any local caching or persistence - it requires an active Internet connection and doesn't really alert you to if you're offline - it just kinda... stalls.</p>
+<p><img src="/static/mextension-no-internet.png" alt=""></p>
+<p>When you download an item, it just gets added to your regular Motion Templates folder, so in future you can just access directly from Final Cut Pro:</p>
+<p><img src="/static/mextension-downloaded.png" alt=""></p>
+<p>So I GUESS there's nothing stopping you from just downloading everything and keeping it all locally?</p>
+<p><img src="/static/mextension-download.png" alt=""></p>
+<p>Overall, it seems like a really solid product, with lots of great templates - and having it directly in Final Cut Pro is amazing. I'm really surprised it took them this long to build a Workflow Extension to be honest!</p>
+<p>Next up... we have <strong>mCaptions</strong>.</p>
+<p><img src="/static/mcaptions.png" alt=""></p>
+<p>Confusingly... <strong>mCaptions</strong> doesn't create <strong>Captions</strong> - it creates <strong>Titles</strong>.</p>
+<p>Ironically... whilst we're very confident that we'll see automatic captions support in Final Cut Pro 11 at the Final Cut Pro Creative Summit, we're less confident about automatic titles.</p>
+<p>My GUESS is that Apple and MotionVFX have probably already discussed this, and my GUESS it that mCaptions won't compete with Apple's native captions support.</p>
+<p>HOWEVER, once we have native caption support in Final Cut Pro, we could use that metadata to generate our own titles, so that's only matter a time before a third party developer solves this once FCP11 is out in the wild - it could even potentially be a CommandPost Toolbox.</p>
+<p>But for now... we have mCaptions.</p>
+<p>Like <a href="/developer-case-studies/transcriber/">Ulti.Media Transcriber</a> and <a href="/ecosystem/tools/#builder-nle">Builder NLE</a> it's using OpenAI's Whisper under the hood.</p>
+<p>In this case mCaptions is using <a href="https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-large-v3.bin">Whisper.cpp's Large V3 model</a>.</p>
+<p>Our first test was with some <a href="https://strada.tech">Strada</a> test clips (that have been provided to Strada beta testers), in Mandarin, and it failed miserably.</p>
+<p><img src="/static/mcaptions-fail.png" alt=""></p>
+<p>Next we tried some other Strada test clips, but they had multiple audio channels, and mCaptions wouldn't even import them:</p>
+<p><img src="/static/mcaptions-fail-2.png" alt=""></p>
+<p>It would be great if mCaptions was smart enough to read the enabled channels from the FCPXML and only use the enabled channels for transcription. Maybe in a future update.</p>
+<p>It also can't import SOME video files, which is a shame. There's no error message though, so it's hard to know what works and what does without just trying.</p>
+<p>So basically, currently it seems mCaptions is basically limited to mono or stereo AIFFs or WAVs.</p>
+<p>Next up we tried a <code>02:27:46:40</code> long audio clip (a podcast ripped from YouTube).</p>
+<p><img src="/static/mcaptions-long-clip.png" alt=""></p>
+<p>Sadly, it doesn't seem to push CPUs and GPUs as much as you'd hope (compared to WhisperKit in <a href="https://goodsnooze.gumroad.com/l/macwhisper">MacWhisper</a> for example):</p>
+<p><img src="/static/mcaptions-processing.png" alt=""></p>
+<p>It writes verbose error logs in <code>/private/tmp/logError.txt</code> and <code>/private/tmp/log.txt</code> so you can see what it's kinda doing under-the-hood.</p>
+<p>After 10 minutes I was only up to 11%, so I basically gave up transcoding this 2.5 hour clip. For reference, MacWhisper can do the same clip in under 5 minutes.</p>
+<p>Next up we tried a 4 minute H264 - a pitch video that we did internally, which is mostly dialogue (all English) but with some subtle music underneath.</p>
+<p>That seemed to work MUCH better, and was pretty fast to process:</p>
+<p><img src="/static/mcaptions-success.png" alt=""></p>
+<p>Overall though, I'm not sure that mCaptions is any better than <a href="/developer-case-studies/transcriber/">Ulti.Media Transcriber</a>, and definitely has far less options and control.</p>
+<p>I'd be curious to hear your thoughts on MotionVFX's latest offerings!</p>
+<p>Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-october-2024</link>
+            <guid isPermaLink="false">3rd October 2024</guid>
+            <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
