@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 03 Oct 2024 02:56:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 06:29:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Oct 2024 02:56:25 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 06:29:41 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7126,6 +7126,12 @@ The amazing George Edmondson explained to me that as he discusses in his tutoria
 <p>In this case mCaptions is using <a href="https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-large-v3.bin">Whisper.cpp's Large V3 model</a>.</p>
 <p>Our first test was with some <a href="https://strada.tech">Strada</a> test clips (that have been provided to Strada beta testers), in Mandarin, and it failed miserably.</p>
 <p><img src="/static/mcaptions-fail.png" alt=""></p>
+<p>!!!danger UPDATE (20241003 1630)
+MotionVFX has since contacted me and have said:<br /></p>
+<blockquote>
+<p>As for the issue with analyzing Chinese - we're aware of it and an update should be ready within the next few days.
+!!!</p>
+</blockquote>
 <p>Next we tried some other Strada test clips, but they had multiple audio channels, and mCaptions wouldn't even import them:</p>
 <p><img src="/static/mcaptions-fail-2.png" alt=""></p>
 <p>It would be great if mCaptions was smart enough to read the enabled channels from the FCPXML and only use the enabled channels for transcription. Maybe in a future update.</p>
