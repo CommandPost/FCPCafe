@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 03 Oct 2024 02:40:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Oct 2024 02:56:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Oct 2024 02:40:52 GMT</pubDate>
+        <pubDate>Thu, 03 Oct 2024 02:56:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7113,6 +7113,10 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p><img src="/static/mcaptions.png" alt=""></p>
 <p>Here's the official tutorial featuring the amazing <strong>George Edmondson</strong>:</p>
 <p><a href="https://www.youtube.com/watch?v=8DYbHcQD4bE"><img src="/static/mcaption-tutorial.jpg" alt=""></a></p>
+<p>!!!danger UPDATE (20241003 1250)
+Opps! I was wrong about the below.<br />
+The amazing George Edmondson explained to me that as he discusses in his tutorial video above you can actually export SRT files from mCaptions as well!
+!!!</p>
 <p>Confusingly... <strong>mCaptions</strong> doesn't create <strong>Captions</strong> - it creates <strong>Titles</strong>.</p>
 <p>Ironically... whilst we're very confident that we'll see automatic captions support in Final Cut Pro 11 at the Final Cut Pro Creative Summit, we're less confident about automatic titles.</p>
 <p>My GUESS is that Apple and MotionVFX have probably already discussed this, and my GUESS it that mCaptions won't compete with Apple's native captions support.</p>
@@ -7125,6 +7129,10 @@ Which is ok. It's great software, supported by a great community and Apple folks
 <p>Next we tried some other Strada test clips, but they had multiple audio channels, and mCaptions wouldn't even import them:</p>
 <p><img src="/static/mcaptions-fail-2.png" alt=""></p>
 <p>It would be great if mCaptions was smart enough to read the enabled channels from the FCPXML and only use the enabled channels for transcription. Maybe in a future update.</p>
+<p>!!!danger UPDATE (20241003 1250)
+Opps! I was wrong about the below.<br />
+The amazing George Edmondson explained to me if QuickTime Player can read it - mCaptions can read it - they both use AV Foundations. You can also drag-and-drop from Finder, not just Final Cut Pro.
+!!!</p>
 <p>It also can't import SOME video files, which is a shame. There's no error message though, so it's hard to know what works and what does without just trying.</p>
 <p>So basically, currently it seems mCaptions is basically limited to mono or stereo AIFFs or WAVs.</p>
 <p>Next up we tried a <code>02:27:46:40</code> long audio clip (a podcast ripped from YouTube).</p>
