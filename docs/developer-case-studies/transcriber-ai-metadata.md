@@ -14,7 +14,7 @@ We have been talking, often even a bit inappropriately, about artificial intelli
 
 I'll make it clear: I can't draw anything that isn't a scribble, so platforms that allow you to create artwork by simply typing in text have been something very appealing to me from the beginning.
 
-![](/static/transcriber-ai-metadata-/Firefly.png)
+![](/static/transcriber-ai-metadata-Firefly.png)
 
 Then Goliath came along, ChatGPT, and it was a game changer for everybody, going on to create new needs and, literally, revolutionizing more than one industry.
 
@@ -54,7 +54,7 @@ For the past year in English, and for the past three years in Italian, I have be
 
 For the last two years I've been making use of this internal tool I wrote myself, called **SciattaGPT** (the literal translation would be “*dull*, *sloppy*, *scrappy GPT*”), which I use to create the episode summary and title suggestion, always making use of ChatGPT, first with the 3.5 model, then with GPT-4 and now with GPT-4o-mini.
 
-![](/static/transcriber-ai-metadata-/SciattaGPT.png)
+![](/static/transcriber-ai-metadata-SciattaGPT.png)
 
 In the case of this SciattaGPT, all prompts are predefined, rather statically.
 
@@ -68,13 +68,13 @@ At some point, though, all these ingredients, in my head, came together, and I s
 
 I started out developing a very simple application that would act as a front end to a relatively complex underlying system, which I called **NQR** (which stands for **Natural Query Responses**), the meaning of the acronym of which I found later because I liked the way the three letters sounded.
 
-![](/static/transcriber-ai-metadata-/NQR.png)
+![](/static/transcriber-ai-metadata-NQR.png)
 
 NQR is, in its conception, and also a bit in its implementation, relatively simple: a system for managing prompts that generate content from other content, in this case, given a rather long text, which could very well be the transcript of a video, I prepared several prompts that generate a summary of it, an ideal title, a list of bullet points, ... in short things like that.
 
 And to make the application of these prompts usable and fast, I have developed a grouping system that allows you to organize different prompts within sets, there is a set for **YouTube**, a set for **social media**, a set for **meta data**, ... In this way a user can apply and execute different prompts just by selecting the single set.
 
-![](/static/transcriber-ai-metadata-/NQR2.png)
+![](/static/transcriber-ai-metadata-NQR2.png)
 
 Perhaps this thing I wrote may sound a bit ... “*pompous*,” or “ *self-praising*,” however, I tried very hard to think from the end user's point of view: the organization of prompts into sets allows you to generate an immense amount of content by simply doing two clicks by first selecting the set and then running the analysis.
 
@@ -114,7 +114,7 @@ It can be said that the quality of the response is comparable to what would be o
 
 I released Transcriber, perhaps my most successful application, a little over a year ago.
 
-![](/static/transcriber-ai-metadata-/PakSideSite_Transcriber_00000.jpg)
+![](/static/transcriber-ai-metadata-PakSideSite_Transcriber_00000.jpg)
 
 I've talked about it **[here](/developer-case-studies/transcriber/)** but it's okay to repeat a little, right?
 
@@ -148,7 +148,7 @@ Ever since I started developing my applications, their main purpose was to autom
 
 When ChatGPT came along, as I'm sure you all did, I was dazzled by the potential of the tool. And we were still talking about GPT-3 a couple of years ago. I had seen with my very own eyes, finally, *a machine pass the Turing test* brilliantly.
 
-![](/static/transcriber-ai-metadata-/TuringTest.jpg)
+![](/static/transcriber-ai-metadata-TuringTest.jpg)
 
 But then, as with all things, I delved deeper, had my own experience, and realized which things LLMs do excellently and which, still, struggle to solve even with sufficiency.
 
@@ -172,11 +172,11 @@ Always starting from the content I create, particularly the wine podcast, I deve
 
 Initially I started with URLs: I wanted to know what links were being quoted in the broadcast, so I created this prompt:
 
-![](/static/transcriber-ai-metadata-/LinksPrompt.png)
+![](/static/transcriber-ai-metadata-LinksPrompt.png)
 
 A relatively simple thing that, however, when I ran it, made me discover that there were many more references in an episode than I remembered:
 
-![](/static/transcriber-ai-metadata-/LinksResult.png)
+![](/static/transcriber-ai-metadata-LinksResult.png)
 
 For me it was really a revelation: the clever “*stupidity*” of LLMs had made me discover something I had forgotten.
 
@@ -188,11 +188,11 @@ Simply put, they make us discover or, better yet, rediscover something about the
 
 I went ahead and developed other prompts, such as this one that identifies brands:
 
-![](/static/transcriber-ai-metadata-/BrandsResult.png)
+![](/static/transcriber-ai-metadata-BrandsResult.png)
 
 Or this one that tries to figure out who the participants are if they are mentioned:
 
-![](/static/transcriber-ai-metadata-/PeopleResult.png)
+![](/static/transcriber-ai-metadata-PeopleResult.png)
 
 I realize that I have only begun to scratch the surface of what can be done. In the coming weeks, either at the request of app users or out of personal push, I will be developing more such prompts.
 
@@ -204,7 +204,7 @@ For my experiments, for my podcast and YouTube show, since I am a subscriber, I 
 
 So I generated a prompt that generates a prompt... Basically, instead of me writing what I needed, as I always did, I asked the artificial intelligence, again via one of NQR's prompts, to write the prompt for generating the image, to be passed then, by copying and pasting it, into Firefly.
 
-![](/static/transcriber-ai-metadata-/ImagePrompt.png)
+![](/static/transcriber-ai-metadata-ImagePrompt.png)
 
 It is interesting this first level of recursiveness: one prompt generating another prompt...
 
@@ -212,11 +212,11 @@ But then, since OpenAI has the API to directly generate images with the DALL-E m
 
 That said, as of now images can be generated directly from within Transcriber!
 
-![](/static/transcriber-ai-metadata-/ImageGeneration.png)
+![](/static/transcriber-ai-metadata-ImageGeneration.png)
 
 You can choose the model, DALL-E 2 or DALL-E 3 (DALL-E 2 is absolutely unqualifiable in quality, I think they only keep it on because there are some applications that use it). For DALL-E 3 you can choose to generate a square or 16:9 image, either horizontally or vertically.
 
-![](/static/transcriber-ai-metadata-/ImageGeneratorSettings.png)
+![](/static/transcriber-ai-metadata-ImageGeneratorSettings.png)
 
 You can also choose to generate a standard image or one with a “vivid” pattern, which creates more aesthetically pleasing results that look more like stock photos instead of regular photos.
 
@@ -226,7 +226,7 @@ Generating a 16:9 image comes in at a cost of $0.12.
 
 ### Money, Money, Money!
 
-![](/static/transcriber-ai-metadata-/Costs.jpg)
+![](/static/transcriber-ai-metadata-Costs.jpg)
 
 But how much does this stuff cost?
 
@@ -276,7 +276,7 @@ If you have any questions, please leave a comment on this article!
 
 ### About Alex
 
-![](/static/transcriber-ai-metadata-/alexraccuglia.jpg)
+![](/static/transcriber-ai-metadata-alexraccuglia.jpg)
 
 Alex Raccuglia, 50, from Milan, Italy, studied computer engineering but, fortunately for him, ended up as a director of TV commercials and promotional videos, accumulating a fair amount of experience in the field of visual effects.
 
