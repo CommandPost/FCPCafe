@@ -21,6 +21,20 @@ You can view the program [here](https://fcpcreativesummits.com/program/).
 
 ---
 
+### Live Stream
+
+Let's talk the future of editing!
+
+Join the amazing [Jenn Jager](https://www.youtube.com/@JennJagerPro), Final Cut Pro Guru Mark Spencer from ‪[Ripple Training](https://www.rippletraining.com), Writer/Director and Squirrel Me Bad creator [Daniel Cohn](https://www.youtube.com/@squirrelmebad9684), Director of Product Marketing for Continuum at [Boris FX](https://borisfx.com) Nick Harauzand, and myself (Chris Hocking) chat about all things related to the upcoming Final Cut Pro Creative Summit!
+
+You can watch on YouTube Live here:
+
+[![](/static/fcp-creative-summit-youtube-preview.jpeg)](https://ltnt.tv/fcpcs-2024)
+
+---
+
+### Intro Video
+
 The official **FCP Creative Summit 2024** promotional video is out now, created by [Iain Anderson](https://iain-anderson.com).
 
 Spot the crazy person (yes, it's me)!
@@ -30,6 +44,8 @@ You can watch on Vimeo here:
 [![](/static/vimeo-fcpcs-2024.jpg)](https://vimeo.com/1004195639)
 
 ---
+
+### Final Cut Pro Radio
 
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 

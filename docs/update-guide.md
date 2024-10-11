@@ -46,6 +46,8 @@ However, as macOS Sequoia 15.0 is brand new - take care, and don't rush to updat
 
 Sweetwater also has an incredibly detailed [macOS Sequoia Compatibility Guide](https://www.sweetwater.com/sweetcare/articles/macos-sequoia-compatibility-guide/) for editors that also use DAWs like Logic Pro.
 
+We have had no issues with macOS Sequoia 15.0.0 or 15.0.1.
+
 ---
 
 ## macOS Sonoma 14
