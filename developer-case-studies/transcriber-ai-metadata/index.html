@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781999712313">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781999779099">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.781999712313" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.781999779099" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781999712313" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781999779099" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781999712313" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781999779099" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -358,7 +358,7 @@
 <p>We have been talking, often even a bit inappropriately, about artificial intelligence for a long time, but never before has it been more apparent than in recent times that it is also possible to do something creative with these tools that have more technology than soul.</p>
 <p>I&#x27;ll make it clear: I can&#x27;t draw anything that isn&#x27;t a scribble, so platforms that allow you to create artwork by simply typing in text have been something very appealing to me from the beginning.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/firefly.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-firefly.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -408,7 +408,7 @@
 <p>For the past year in English, and for the past three years in Italian, I have been producing a series of videos that I record in my car while driving from home to the office, called <strong><a href="https://www.youtube.com/playlist?list=PLrDR4S9nie2YG87vJe_AjZRloVOucr7zk" class="outbound" target="_blank"><span>The Morning Rant</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></strong>, in which, as if it were a podcast, I narrate what happens to me, both in my work as a filmmaker and in my work as a software developer, trying to have an effective and, especially in Italian, also entertaining narrative.</p>
 <p>For the last two years I&#x27;ve been making use of this internal tool I wrote myself, called <strong>SciattaGPT</strong> (the literal translation would be “<em>dull</em>, <em>sloppy</em>, <em>scrappy GPT</em>”), which I use to create the episode summary and title suggestion, always making use of ChatGPT, first with the 3.5 model, then with GPT-4 and now with GPT-4o-mini.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/sciattagpt.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-sciattagpt.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -424,14 +424,14 @@
 </doc-anchor-target>
 <p>I started out developing a very simple application that would act as a front end to a relatively complex underlying system, which I called <strong>NQR</strong> (which stands for <strong>Natural Query Responses</strong>), the meaning of the acronym of which I found later because I liked the way the three letters sounded.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/nqr.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-nqr.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>NQR is, in its conception, and also a bit in its implementation, relatively simple: a system for managing prompts that generate content from other content, in this case, given a rather long text, which could very well be the transcript of a video, I prepared several prompts that generate a summary of it, an ideal title, a list of bullet points, ... in short things like that.</p>
 <p>And to make the application of these prompts usable and fast, I have developed a grouping system that allows you to organize different prompts within sets, there is a set for <strong>YouTube</strong>, a set for <strong>social media</strong>, a set for <strong>meta data</strong>, ... In this way a user can apply and execute different prompts just by selecting the single set.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/nqr2.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-nqr2.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -469,7 +469,7 @@
 </doc-anchor-target>
 <p>I released Transcriber, perhaps my most successful application, a little over a year ago.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/paksidesite_transcriber_00000.jpg" alt="">
+    <img src="../../static/transcriber-ai-metadata-paksidesite_transcriber_00000.jpg" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -506,7 +506,7 @@
 <p>Ever since I started developing my applications, their main purpose was to automate repetitive tasks as much as possible, so that I would be free to focus on the creative component and on solving new problems.</p>
 <p>When ChatGPT came along, as I&#x27;m sure you all did, I was dazzled by the potential of the tool. And we were still talking about GPT-3 a couple of years ago. I had seen with my very own eyes, finally, <em>a machine pass the Turing test</em> brilliantly.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/turingtest.jpg" alt="">
+    <img src="../../static/transcriber-ai-metadata-turingtest.jpg" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -527,13 +527,13 @@
 <p>Always starting from the content I create, particularly the wine podcast, I developed some prompts that allowed me to have a fresh look at the content itself.</p>
 <p>Initially I started with URLs: I wanted to know what links were being quoted in the broadcast, so I created this prompt:</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/linksprompt.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-linksprompt.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>A relatively simple thing that, however, when I ran it, made me discover that there were many more references in an episode than I remembered:</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/linksresult.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-linksresult.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -543,13 +543,13 @@
 <p>Simply put, they make us discover or, better yet, rediscover something about the content, so that we can really have metadata that also has semantic meaning!</p>
 <p>I went ahead and developed other prompts, such as this one that identifies brands:</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/brandsresult.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-brandsresult.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Or this one that tries to figure out who the participants are if they are mentioned:</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/peopleresult.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-peopleresult.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -564,7 +564,7 @@
 <p>For my experiments, for my podcast and YouTube show, since I am a subscriber, I use <a href="https://firefly.adobe.com/" class="outbound" target="_blank"><span>Adobe&#x27;s Firefly</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for image generation, knowing full well that the level of quality is far below that of other systems, foremost among them <a href="https://www.midjourney.com/" class="outbound" target="_blank"><span>Midjourney</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>So I generated a prompt that generates a prompt... Basically, instead of me writing what I needed, as I always did, I asked the artificial intelligence, again via one of NQR&#x27;s prompts, to write the prompt for generating the image, to be passed then, by copying and pasting it, into Firefly.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/imageprompt.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-imageprompt.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -572,13 +572,13 @@
 <p>But then, since OpenAI has the API to directly generate images with the DALL-E model, I thought it would be nice to bypass this whole round. At a not insignificant cost-we&#x27;re speaking of a few cents, not a few thousandths-I decided to go ahead with direct generation.</p>
 <p>That said, as of now images can be generated directly from within Transcriber!</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/imagegeneration.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-imagegeneration.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can choose the model, DALL-E 2 or DALL-E 3 (DALL-E 2 is absolutely unqualifiable in quality, I think they only keep it on because there are some applications that use it). For DALL-E 3 you can choose to generate a square or 16:9 image, either horizontally or vertically.</p>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/imagegeneratorsettings.png" alt="">
+    <img src="../../static/transcriber-ai-metadata-imagegeneratorsettings.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -592,7 +592,7 @@
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/costs.jpg" alt="">
+    <img src="../../static/transcriber-ai-metadata-costs.jpg" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -636,7 +636,7 @@
     </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="/static/transcriber-ai-metadata-/alexraccuglia.jpg" alt="">
+    <img src="../../static/transcriber-ai-metadata-alexraccuglia.jpg" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
