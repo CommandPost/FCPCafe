@@ -4,24 +4,33 @@ This page is dedicated to Final Cut Pro communities on Social Media.
 
 ---
 
+### Twitter
+
+- [#fcpx](https://x.com/search?q=%23fcpx&src=typed_query&f=live)
+- [Chris Hocking](https://x.com/chrisatlatenite)
+- [Richard Taylor](https://x.com/RichardTaylorTV)
+- [pixelstitch.com](https://x.com/pixelstitch)
+- [Achu P. Chandra](https://x.com/apcdgworks)
+- [Final Cut Pro Support by Jared](https://x.com/FinalCutProHelp)
+
+---
+
+### LinkedIn
+
+- [Chris Hocking](https://www.linkedin.com/in/chrisatlatenite/)
+
+---
+
 ### Facebook
 
+- The [CommandPost Users](https://www.facebook.com/groups/commandpost) Facebook Group has **2.9K members**.
 - The [Final Cut Pro Users](https://www.facebook.com/groups/135647653213414) Facebook Group has **62.8K members**.
 - The [Final Cut Pro for iPad](https://www.facebook.com/groups/1009739173727156) Facebook Group has **191 members**.
+- The [FINAL CUT PRO EDITORS INTERNATIONAL](https://www.facebook.com/groups/108687235938893) Facebook Group has **35.2K members**.
 
 ---
 
-### postchat.io
-
-A place for all postproduction professionals, enthusiasts and anyone who wants to be part of Mastodon.
-
-Run by the amazing [Felipe Baez](https://cre8ivebeast.com).
-
-[postchat.io](https://postchat.io)
-
----
-
-### Creators
+### YouTube Creators
 
 - [Brad West](https://www.youtube.com/@brad_west) - Video Editing Tips
 - [Dylan Bates, The Final Cut Bro](https://www.youtube.com/@TheFinalCutBro) - Motion & Final Cut Tutorials, Effect Developer
@@ -41,4 +50,3 @@ Run by the amazing [Felipe Baez](https://cre8ivebeast.com).
 ---
 
 {{ include "contribute-learn-more" }}
-

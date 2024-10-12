@@ -428,4 +428,3 @@ And I had a short contact with the X2Pro people, Marquis Broadcast. They also he
 Follow Florian here:
 
 - [Twitter](https://twitter.com/FlowDefoe)
-- [Mastodon](https://postchat.io/@flow)
