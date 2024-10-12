@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 11 Oct 2024 22:08:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Oct 2024 22:35:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 11 Oct 2024 22:08:33 GMT</pubDate>
+        <pubDate>Fri, 11 Oct 2024 22:35:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7163,6 +7163,20 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <title><![CDATA[12th October 2024]]></title>
             <description><![CDATA[<p>We have another amazing developer case study online by the incredible Alex Raccuglia!</p>
 <p>You can read all about <strong>Transcriber AI Metadata</strong> <a href="/developer-case-studies/transcriber-ai-metadata">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-october-2024</link>
+            <guid isPermaLink="false">12th October 2024</guid>
+            <pubDate>Sat, 12 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th October 2024]]></title>
+            <description><![CDATA[<p><strong><a href="http://www.mikegreaney.com">Mike Greaney</a>'s</strong> short film <strong>Holy Nountain</strong> has taken out <strong>Best Tall Short</strong> at <strong>Nouns Fest</strong> in LA!</p>
+<p>MASSIVE congratulations Mike!</p>
+<p>The sound design was handled by <a href="https://latenitefilms.com">LateNite</a> - edited and mixed in <strong>Final Cut Pro</strong> by Kevin Luk &amp; myself (Chris Hocking).</p>
+<p>You can read more on <a href="https://www.animationmagazine.net/2024/10/nouns-fest-an-animation-festival-that-pays-you-to-be-in-it/">Animation Magazine</a>.</p>
+<p>You can watch a trailer for the short film here:</p>
+<p><a href="https://www.youtube.com/watch?v=_Nj9hwKBQsg"><img src="/static/holy-nountain-youtube.jpg" alt=""></a></p>
+<p>You can find out more about Nouns Fest <a href="https://nounsfest.tv/festival/">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#12th-october-2024</link>
             <guid isPermaLink="false">12th October 2024</guid>
