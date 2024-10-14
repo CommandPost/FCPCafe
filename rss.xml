@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 12 Oct 2024 02:48:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Oct 2024 01:27:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 12 Oct 2024 02:48:05 GMT</pubDate>
+        <pubDate>Mon, 14 Oct 2024 01:27:36 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7264,6 +7264,35 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <link>https://fcp.cafe/#12th-october-2024</link>
             <guid isPermaLink="false">12th October 2024</guid>
             <pubDate>Sat, 12 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th October 2024]]></title>
+            <description><![CDATA[<p>The <a href="https://www.youtube.com/user/marquesbrownlee">MKBHD</a> team (aka Marques Brownlee's YouTube team) gives a full masterclass on how they make high quality video.</p>
+<p>Why is this relevant? They cut in Final Cut Pro - woohoo!</p>
+<p>It's a really awesome video - and <a href="https://www.instagram.com/totallynotabusinessacc/">Mariah Zenk</a> gives some amazing insight into how and why she cuts things together. She's awesome.</p>
+<p>What I find most interesting is the lack of emoji's in the Library!</p>
+<p><img src="/static/mkbhd-youtube-03.jpg" alt=""></p>
+<p>All the event names and underscores just make me feel like a technician - not an artist.</p>
+<p>I'm personally a BIG fan of using emoji's - it makes Final Cut Pro more colourful and fun:</p>
+<p><img src="/static/tiktok-awards.png" alt=""></p>
+<p>You can watch the editing section on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=3dQ6yKSttEc&amp;t=1095s"><img src="/static/mkbhd-youtube.jpg" alt=""></a></p>
+<p>Thanks for sharing <a href="https://x.com/JonnyLewisFilms/status/1845516567565508613">JonnyLewisFilms</a>!</p>
+<p>I've just linked straight to the editing section above, but it's totally worth watching the whole thing - especially the audio section, which is super fun and interesting.</p>
+<p>Although I am very surprised they're using Sennheiser MKH 416 Shotgun Microphones for their interior shoots, as opposed to a hyper-cardioid microphone, like a Schoeps CMC641, Sennheiser MKH 8050 or a Audio Technica AT4053B (<a href="https://www.youtube.com/watch?v=RYWD5wI6B9k">this video</a> is worth a watch for anyone interesting in learning more!).</p>
+<p>I'm also surprised how far away they're positioned the microphone - generally you want the microphone to be as close as possible to the talent, ideally no more than a foot away.</p>
+<p><img src="/static/mkbhd-youtube-07.jpg" alt=""></p>
+<p>Here's some screenshots from the video:</p>
+<p><img src="/static/mkbhd-youtube-01.jpg" alt=""></p>
+<p><img src="/static/mkbhd-youtube-02.jpg" alt=""></p>
+<p><img src="/static/mkbhd-youtube-04.jpg" alt=""></p>
+<p><img src="/static/mkbhd-youtube-05.jpg" alt=""></p>
+<p><img src="/static/mkbhd-youtube-06.jpg" alt=""></p>
+<p>I LOVE that the MKBHD is so open and happy to share all this amazing insight! Great work team!</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-october-2024</link>
+            <guid isPermaLink="false">14th October 2024</guid>
+            <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
