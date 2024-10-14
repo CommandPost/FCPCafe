@@ -10,7 +10,9 @@ If there's something missing, [please let us know](/contribute/).
 
 At the FCP Creative Summit in 2023, Apple announced that all their 180+ **WWDC Developer Videos** were cut in Final Cut Pro, along with the thousands of **Apple Fitness+ videos**.
 
-[Trim Editing](https://trimediting.com/) in London also uses Final Cut Pro for all its editors - they cut some of the top TVCs and music videos in the world. You can read more [here](/case-studies/periodsomnia/).
+[Trim Editing](https://trimediting.com/) in London also uses Final Cut Pro for all its editors - they cut some of the top TVCs and music videos in the world, including some of the best Apple commercials. You can read more [here](/case-studies/periodsomnia/).
+
+Marques Brownlee's [MKBHD](https://www.youtube.com/user/marquesbrownlee) team (**19.6M subscribers** on YouTube) also cut in Final Cut Pro. You can watch their epic masterclass [here](https://www.youtube.com/watch?v=3dQ6yKSttEc&t=1095s).
 
 Here's some other success stories:
 
@@ -52,6 +54,12 @@ Here's some other success stories:
 ---
 
 ## Feature Films
+
+### Thriller
+
+- States of Mind (2024) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt23745590/)
+
+---
 
 ### Horror
 
