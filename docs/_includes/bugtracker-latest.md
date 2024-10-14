@@ -8,4 +8,3 @@
 - [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
 - [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
 - [FCP 10.8 Stalls on M2 Ultra Studio With Blackmagic Decklink Mini 4K Monitor (June 21, 2024)](https://github.com/CommandPost/FCPCafe/issues/362)
-- [German keys incorrectly shown in Command Editor (April 9, 2024)](https://github.com/CommandPost/FCPCafe/issues/350)
