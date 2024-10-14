@@ -101,6 +101,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Pull the latest changes from the remote
+          git fetch origin
+          git pull origin main
           echo "Checking for changes to commit..."
           git status
           echo "Adding changes..."
