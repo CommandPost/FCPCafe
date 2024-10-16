@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 15 Oct 2024 19:57:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Oct 2024 00:46:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 15 Oct 2024 19:57:35 GMT</pubDate>
+        <pubDate>Wed, 16 Oct 2024 00:46:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7293,6 +7293,43 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <link>https://fcp.cafe/#14th-october-2024</link>
             <guid isPermaLink="false">14th October 2024</guid>
             <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2024]]></title>
+            <description><![CDATA[<p>For those that missed it live, you can now watch <strong>Jenn Jager's</strong> live stream talking about the Final Cut Pro Creative Summit on YouTube below:</p>
+<p><a href="https://ltnt.tv/fcpcs-2024"><img src="/static/fcp-creative-summit-youtube-preview.jpeg" alt=""></a></p>
+<p><a href="https://www.youtube.com/@JennJagerPro">Jenn Jager</a>, Final Cut Pro Guru Mark Spencer from <a href="https://www.rippletraining.com">Ripple Training</a>, Writer/Director and Squirrel Me Bad creator <a href="https://www.youtube.com/@squirrelmebad9684">Daniel Cohn</a>, Director of Product Marketing for Continuum at <a href="https://borisfx.com">Boris FX</a> Nick Harauzand, and myself (Chris Hocking) chatted about all things related to the upcoming Final Cut Pro Creative Summit!</p>
+<p>Enjoy! If you have any questions that weren't answered, feel free to ask them in the comments below!</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2024</link>
+            <guid isPermaLink="false">16th October 2024</guid>
+            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse 5</strong> is out now!</p>
+<p>After months of development, this major release brings a host of new features, including:</p>
+<ul>
+<li><strong>3D LUT Application:</strong> Easily burn LUTs into transcoded files for enhanced color grading.</li>
+<li><strong>Enhanced Final Cut Pro Integration:</strong> Leverage metadata with Smart Collections, improved searchability, and automatic metadata porting.</li>
+<li>Plus, enjoy up to <strong>10% faster</strong> transcoding!</li>
+</ul>
+<p>You can find the full release notes <a href="https://www.evrapp.cloud/whatsnew/evrExpanse5_whatsnew.html">here</a>.</p>
+<p>You can download and learn more <a href="https://www.evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2024</link>
+            <guid isPermaLink="false">16th October 2024</guid>
+            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th October 2024]]></title>
+            <description><![CDATA[<p><strong>SendToX</strong> <code>v1.2.6</code> is out now!</p>
+<p>It contains a critical bug fix for translated XML that fails DTD validation in certain titles created in Premiere Pro.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/sendtox/id496926258?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-october-2024</link>
+            <guid isPermaLink="false">16th October 2024</guid>
+            <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
