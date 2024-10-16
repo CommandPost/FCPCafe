@@ -140,6 +140,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
 
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 7.0.x
+
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
         with:
