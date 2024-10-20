@@ -1,12 +1,64 @@
 # Explore LateNite's Tools
 
-This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com/technology).
+This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com).
 
 Constantly looking for ways to innovate, LateNite is as passionate about production and post production as it is storytelling. Their pursuit of creative excellence has seen them work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
 
-Chris also helps out Hedge with **Arctic** (previously Final Cut Library Manager) - you can learn more about this [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
-
 ![](/static/latenite-apps.png)
+
+---
+
+## Custom Tools
+
+If you have a specific post production workflow problem you need to solve or automate, we can help.
+
+We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
+
+For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](https://web.archive.org/web/20220629061650/https://fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
+
+The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
+
+[LUT Robot](https://lutrobot.pro) and [News Import](https://latenitefilms.github.io/NewsImport/) are other examples of tools we've built for specific productions, but have also released publicly.
+
+[Email us](mailto:support@latenitefilms.com) to discuss your specific requirements.
+
+---
+
+## Collaborations
+
+In addition to our own LateNite apps, we also work closely with other developers...
+
+---
+
+### Arctic
+
+Arctic (previously Final Cut Library Manager) is your single-view source of truth for all your Final Cut Pro libraries, whether they are connected or in a cupboard. Locate media, assets, caches, and clean up what you no longer need.
+
+Chris is the Lead Developer on Hedge's Arctic, and also helps out with other Hedge applications such as [EditReady](https://hedge.co/products/editready).
+
+You can learn more about how this happened [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
+
+You can learn more about Arctic [here](https://hedge.co/products/arctic).
+
+---
+
+### BretFX
+
+BretFX is a leading provider of plugins, effects, titles, transitions and templates for Final Cut Pro.
+
+Chris helped Bret throw together a Swift/SwiftUI installer, bringing BretFX to the Apple App Store.
+
+You can check out BretFX's apps on the Mac App Store [here](https://apps.apple.com/au/developer/poptop-production-llc/id1744600123).
+
+---
+
+### Marker Data
+
+The avant-garde Marker extraction application crafted for Final Cut Pro. It allows users to extract, convert and create databases from Final Cut Pro’s Marker metadata effortlessly.
+
+Chris helped Vigneswaran Rajkumar right throughout the Marker Data development process from the initial idea through to release, and threw together [ShareDestinationKit](https://github.com/latenitefilms/ShareDestinationKit) to help get Custom Share Destinations working.
+
+You can learn more about Marker Data [here](https://markerdata.theacharya.co).
 
 ---
 
@@ -17,6 +69,8 @@ Chris also helps out Hedge with **Arctic** (previously Final Cut Library Manager
 ## Mac App Store
 
 Here's some of our products currently for sale on the **Mac App Store**:
+
+---
 
 {{ include "latenite/braw-toolbox" }}
 
@@ -62,7 +116,9 @@ Here's some of our products currently for sale on the **FxFactory**:
 
 ## Free Apps
 
-Here's some of our free tools used by professional editors worldwide:
+Here's some of our free tools used by professional editors worldwide...
+
+---
 
 {{ include "latenite/commandpost" }}
 
@@ -73,20 +129,6 @@ Here's some of our free tools used by professional editors worldwide:
 ---
 
 {{ include "latenite/rename-avid-mxf-files" }}
-
----
-
-## Custom Tools
-
-If you have a specific post production workflow problem you need to solve or automate, we can help.
-
-We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
-
-For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](https://web.archive.org/web/20220629061650/https://fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
-
-The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
-
-[Email us](mailto:support@latenitefilms.com) to discuss your specific requirements.
 
 ---
 
