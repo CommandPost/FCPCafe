@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 18 Oct 2024 05:02:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Oct 2024 23:49:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 18 Oct 2024 05:02:12 GMT</pubDate>
+        <pubDate>Sat, 19 Oct 2024 23:49:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7373,6 +7373,47 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <link>https://fcp.cafe/#18th-october-2024</link>
             <guid isPermaLink="false">18th October 2024</guid>
             <pubDate>Fri, 18 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th October 2024]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.0 (70)</strong> is out now!</p>
+<p>It has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Fujifilm X-M5 Blackmagic RAW clips.</li>
+<li>Added support for Panasonic S5D Blackmagic RAW clips.</li>
+<li>Updated from Blackmagic RAW SDK v4.2 to v4.3.</li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug when using macOS Sequoia where the hero BRAW Toolbox application would fail to set the correct folders when trying to grant sandbox permissions when first setting up BRAW Toolbox. For example, it would default to the user's &quot;Documents&quot; folders, rather than the user's &quot;Movies&quot; folder and the user's &quot;ProApps&quot; folder. Thanks for reporting Karl Winegardner, Robbie Myers, Jens Pluimes &amp; Edwin van W!</li>
+<li>Re-designed how we render error messages in Final Cut Pro using Core Image and Metal. Hopefully this will fix random crashes some users are seeing on older versions of Final Cut Pro running on older Intel machines.</li>
+</ul>
+<p>You can download and learn more <a href="https://brawtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-october-2024</link>
+            <guid isPermaLink="false">20th October 2024</guid>
+            <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th October 2024]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.2.0 (21)</strong> is out now!</p>
+<p>It has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>We've updated to the <a href="https://github.com/gyroflow/gyroflow/commit/cfe07140c0c922a2b188810fddc4a1638a6eb052">latest</a> Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>4606 lens profiles have been added from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a bug when using macOS Sequoia where the hero Gyroflow Toolbox application would fail to set the correct folders when trying to grant sandbox permissions when first setting up Gyroflow Toolbox. For example, it would default to the user's &quot;Documents&quot; folders, rather than the user's &quot;Movies&quot; folder. Thanks for reporting Roman Gaufman!</li>
+<li>Re-designed how we render error messages in Final Cut Pro using Core Image and Metal. Hopefully this will fix random crashes some users are seeing on older versions of Final Cut Pro running on older Intel machines.</li>
+</ul>
+<p>You can download and learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-october-2024</link>
+            <guid isPermaLink="false">20th October 2024</guid>
+            <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
