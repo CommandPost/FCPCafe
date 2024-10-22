@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 22 Oct 2024 00:50:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Oct 2024 23:43:04 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 22 Oct 2024 00:50:35 GMT</pubDate>
+        <pubDate>Tue, 22 Oct 2024 23:43:04 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7447,6 +7447,101 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <link>https://fcp.cafe/#22nd-october-2024</link>
             <guid isPermaLink="false">22nd October 2024</guid>
             <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd October 2024]]></title>
+            <description><![CDATA[<p>An an unexpected nice surprise the new <strong>iPad Mini</strong> is actually compatible with <strong>Final Cut Pro for iPad</strong>!</p>
+<p>The App Store listing has been updated to note:</p>
+<ul>
+<li>Skim your footage without ever touching the screen with Apple Pencil hover - <em><strong>Requires iPad models with M2 chip or later</strong></em></li>
+<li>Create stunning videos with an HDR workflow on the Liquid Retina XDR or Ultra Retina XDR display <em><strong>Requires iPad Pro (M4 chip) or iPad Pro 12.9-inch (5th generation or later)</strong></em></li>
+<li>Easily record in a range of video resolutions, frame rates, and formats including ProRes - <em><strong>Requires iPad Pro (M4 chip), iPad Pro 12.9-inch (6th generation or later), or iPad Pro 11-inch (4th generation or later)</strong></em></li>
+<li>Send your project to Final Cut Pro for Mac for additional tools including Object Tracker, advanced color correction, and third-party content - <em><strong>Requires Final Cut Pro 10.8 or later</strong></em></li>
+<li>Import projects created in iMovie for iOS to take advantage of the advanced editing tools in Final Cut Pro for iPad - <em><strong>Requires iMovie for iOS 3.0 or later</strong></em></li>
+</ul>
+<p>You can download Final Cut Pro for iPad <a href="https://apps.apple.com/us/app/final-cut-pro-for-ipad/id1631624924">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-october-2024</link>
+            <guid isPermaLink="false">23rd October 2024</guid>
+            <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd October 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1</strong> it out now!</p>
+<p>This is a major update to Audio Design Desk with lots of improvements:</p>
+<ul>
+<li>Minimum required version is now macOS 11.</li>
+<li>New Epidemic extension to get audio suggestions for video stills or return similar audio.</li>
+<li>New timeline undo system</li>
+<li>Improved stability loading 3rd party Audio Units</li>
+<li>Improves dragging effects in Audio Unit list, responsive layout</li>
+<li>Timestretch rendering is much faster</li>
+<li>Many speed improvements for various multi-threaded processes</li>
+<li>Many performance optimizations when dealing with large amounts of files</li>
+<li>Better handling of canceling processes</li>
+<li>Improvements to ADD Tags batch processing</li>
+<li>Improved search speed</li>
+<li>Many UI updates and improvements</li>
+<li>Media Bridge: Allow web pages to upload files</li>
+<li>Most timeline actions like replace, project load, region creation, etc have been refactored to be faster.</li>
+<li>Much improved metadata guessing via audio analysis (in macOS 12+)</li>
+<li>New status notification system which now allows cancellation in important cases</li>
+<li>Optimize Trigger presets, doesn't block now on updates, will refresh presets menu dynamically on Home location change</li>
+<li>Return known values for loudness analysis</li>
+<li>System will better handle invalid files in sound packs</li>
+<li>Tables: search, sort and general performance improvements</li>
+<li>Updated Media Bridge with bug fixes and improvements</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Advanced search options for user triggers is persistent</li>
+<li>Allow send to trigger button to work in sound pack playlist view in user triggers manager</li>
+<li>Allow spot mode drag out of playlists</li>
+<li>Element detector send to trigger</li>
+<li>Hang on updating tables with large amounts of files</li>
+<li>Hang that occurred when opening the metadata editor</li>
+<li>Hide library panel is expanding metadata panel, but only timeline should resize on show/hide view events</li>
+<li>Improvements in Sound Pack indexing and parsing</li>
+<li>Key commands in some playlist views</li>
+<li>Loading missing regions in projects without audio</li>
+<li>Login fixes</li>
+<li>Many fixes to Stacks editor</li>
+<li>Master volume value in projects</li>
+<li>Potential crash that could happen on opening files with invalid markers in them * Rendering in timeline, and loading projects with renders in place</li>
+<li>Search is clearing current search criteria if there are no results</li>
+<li>Stacks/Editor key commands when in a detached window</li>
+<li>User Preferences being saved correctly</li>
+<li>Resolve and Premiere extensions (edited)</li>
+</ul>
+<p>You can download and learn more <a href="https://add.app">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-october-2024</link>
+            <guid isPermaLink="false">23rd October 2024</guid>
+            <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd October 2024]]></title>
+            <description><![CDATA[<p><strong>Colourlab Ai 3 Pro</strong> is out now!</p>
+<p>This is a major update!</p>
+<blockquote>
+<p><strong>Gen3.2 Color Matching Engine:</strong>
+Colourlab AI 3.2 Pro introduces the first neural engine to work natively in ACES. It’s a multi-modal engine, supporting multiple types of image analysis for optimal color matching results. Trained on over 10 million custom-developed images, it automates color management without relying on metadata—purely analyzing the content of your image. The new auto-balance feature is just the beginning.</p>
+<p><strong>Native Integration with DaVinci Resolve, Nuke, and Baselight:</strong>
+Colourlab AI Pro now works natively inside these platforms. No more sending sequences in and out—just drag and drop the plugin onto your clip to access the full functionality previously available only through the desktop application.</p>
+<p><strong>Floating License, Server-Based:</strong>
+With this release, Colourlab AI Pro can now operate as a server-based application. One system in your facility can handle all the color matching, allowing all other systems to connect and use the same smart color metadata for perfect results.</p>
+<p><strong>Real-Time Performance:</strong>
+Colourlab AI Pro works in real time, supporting 4K and even 8K workflows, depending on the power of your system. The AI processing happens entirely on your device—no cloud, no extra costs—ensuring faster and more efficient work.</p>
+<p><strong>Flexible Color Management:</strong>
+You’re no longer limited to ARRI Log C. Colourlab AI Pro works seamlessly in ACES, DaVinci Wide Gamut, and virtually any color space you prefer. The new Colourlab AI OFX plugin supports all imaginable color spaces, giving you maximum flexibility.</p>
+<p><strong>Reference Sharing:</strong>
+Just like its desktop counterpart, Colourlab AI Pro allows you to share reference looks and images across projects effortlessly.</p>
+</blockquote>
+<p>You can learn more <a href="https://colourlab.ai/pro/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-october-2024</link>
+            <guid isPermaLink="false">23rd October 2024</guid>
+            <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
