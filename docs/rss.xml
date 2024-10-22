@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 20 Oct 2024 01:22:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Oct 2024 00:50:35 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Oct 2024 01:22:37 GMT</pubDate>
+        <pubDate>Tue, 22 Oct 2024 00:50:35 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7414,6 +7414,39 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
             <link>https://fcp.cafe/#20th-october-2024</link>
             <guid isPermaLink="false">20th October 2024</guid>
             <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd October 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX mRotoAI v1.1</strong> is out now!</p>
+<p>It's now up to <strong>25% faster</strong>!</p>
+<p>You can watch a short video on YouTube demonstrating <a href="https://www.youtube.com/shorts/RFzAiQrmcRY">here</a>.</p>
+<p>You can learn more <a href="https://www.motionvfx.com/store,mrotoai,p3922.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-october-2024</link>
+            <guid isPermaLink="false">22nd October 2024</guid>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd October 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX mFlare 2 v3.1.5</strong> is out now!</p>
+<p>It now supports for high resolutions - up to 16k.</p>
+<p>You can learn more <a href="https://www.motionvfx.com/store,mflare-2,p2202.html">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-october-2024</link>
+            <guid isPermaLink="false">22nd October 2024</guid>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd October 2024]]></title>
+            <description><![CDATA[<p><strong>Alex Raccuglia</strong> has released a new video on YouTube titled:</p>
+<blockquote>
+<p>Unlocking &quot;Success&quot;: How My Apps BeatMark 2 &amp; Pro Transformed Editing for Filmmakers! (😳)</p>
+</blockquote>
+<p>You can watch on YouTube <a href="https://www.youtube.com/watch?v=V1DoHIxg5ig">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-october-2024</link>
+            <guid isPermaLink="false">22nd October 2024</guid>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
