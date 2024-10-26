@@ -27,4 +27,3 @@
 - [Parameters Synchronisation for Motion Template / Generator (November 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/281)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
 - [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197)
-- [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196)
