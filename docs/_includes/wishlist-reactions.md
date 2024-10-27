@@ -26,4 +26,3 @@
 - [AV1 import and export support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/290)
 - [Parameters Synchronisation for Motion Template / Generator (November 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/281)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
-- [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197)
