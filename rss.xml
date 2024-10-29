@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 27 Oct 2024 02:11:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 00:07:53 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 27 Oct 2024 02:11:43 GMT</pubDate>
+        <pubDate>Tue, 29 Oct 2024 00:07:53 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7553,6 +7553,36 @@ Just like its desktop counterpart, Colourlab AI Pro allows you to share referenc
             <link>https://fcp.cafe/#23rd-october-2024</link>
             <guid isPermaLink="false">23rd October 2024</guid>
             <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th October 2024]]></title>
+            <description><![CDATA[<p><strong>DAWBridge v1.0.7</strong> is out now with the following changes:</p>
+<ul>
+<li>Updates to the underlying MIDI Timecode system, various bug fixes</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/dawbridge/id1620198313?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-october-2024</link>
+            <guid isPermaLink="false">29th October 2024</guid>
+            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th October 2024]]></title>
+            <description><![CDATA[<p><strong>PostWatch v4.2</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li><strong>Important update for Apple Silicon Macs:</strong> An issue was discovered in the detection of the System Screensaver and Display Sleep that affects the PostWatch Screensaver. Now works correctly on Intel and Apple Silicon.</li>
+<li><strong>Fixed:</strong> The PostWatch Screensaver was running on older macOS’s (Catalina) when it shouldn’t and was actually blocking the watching of Notifications.</li>
+<li><strong>New:</strong> Optimization Utility has been completely redesigned with enhanced navigation and improved error reporting.</li>
+<li><strong>New:</strong> The optional Notification Sleep Test has also been redesigned with an easier to use interface.</li>
+<li><strong>Improved:</strong> Error logs now expanded with better information details.</li>
+<li>Includes many small fixes and stability improvements.</li>
+</ul>
+<p>You can download and learn more <a href="https://chrisroyfilms.com/postwatch/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-october-2024</link>
+            <guid isPermaLink="false">29th October 2024</guid>
+            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
