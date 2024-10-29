@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 29 Oct 2024 00:19:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 01:31:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Oct 2024 00:19:44 GMT</pubDate>
+        <pubDate>Tue, 29 Oct 2024 01:31:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7579,6 +7579,16 @@ Just like its desktop counterpart, Colourlab AI Pro allows you to share referenc
 <li>Includes many small fixes and stability improvements.</li>
 </ul>
 <p>You can download and learn more <a href="https://chrisroyfilms.com/postwatch/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-october-2024</link>
+            <guid isPermaLink="false">29th October 2024</guid>
+            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th October 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX mCaptionsAI v1.0.1</strong> is out now!</p>
+<p>There's no release notes as far as I can tell, but I do know it improves captions for Chinese!</p>
+<p>You can learn more <a href="https://www.motionvfx.com/store,mcaptionsai,p4338.html">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#29th-october-2024</link>
             <guid isPermaLink="false">29th October 2024</guid>
