@@ -1,3 +1,4 @@
+- [Add support for Multicam stabilisation (October 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/401)
 - [Extend audio clips with custom length silence buffer tails, even past the end of the clip (September 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/395)
 - [Mini markers for all the snap points in the timeline time marker box. (September 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/394)
 - ["Graduated Mask" Effect - Needs "Offset"/"Anchor" parameter (July 15, 2024)](https://github.com/CommandPost/FCPCafe/issues/388)
@@ -25,6 +26,3 @@
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
-- [Ability to Lock/Unlock a Project (Timeline) (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/197)
-- [[Final Cut Pro for iPad] Allow customisation of project start timecode (June 18, 2023)](https://github.com/CommandPost/FCPCafe/issues/196)
-- [Scene Cut Detect (June 12, 2023)](https://github.com/CommandPost/FCPCafe/issues/175)
