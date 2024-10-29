@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 29 Oct 2024 01:43:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 20:57:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Oct 2024 01:43:58 GMT</pubDate>
+        <pubDate>Tue, 29 Oct 2024 20:57:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7478,7 +7478,7 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
         </item>
         <item>
             <title><![CDATA[23rd October 2024]]></title>
-            <description><![CDATA[<p><strong>Audio Design Desk v2.1</strong> it out now!</p>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1</strong> is out now!</p>
 <p>This is a major update to Audio Design Desk with lots of improvements:</p>
 <ul>
 <li>Minimum required version is now macOS 11.</li>
@@ -7593,6 +7593,58 @@ Just like its desktop counterpart, Colourlab AI Pro allows you to share referenc
             <link>https://fcp.cafe/#29th-october-2024</link>
             <guid isPermaLink="false">29th October 2024</guid>
             <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th October 2024]]></title>
+            <description><![CDATA[<p>In their <a href="https://www.youtube.com/watch?v=TtFm9n3NVzE">Mac mini Announcement</a> Apple has leaked some features in the upcoming <strong>Final Cut Pro v11</strong> update!</p>
+<p>To be fair, I don't know for a FACT that it's Final Cut Pro v11 - but I think it's fairly safe to assume.</p>
+<p>We <a href="/news/20240611/">already knew from WWDC</a> that:</p>
+<blockquote>
+<p>Spatial Videos can then be edited in Final Cut Pro for Mac, and shared and viewed in the new Vimeo app for VisionOS. This new professional workflow will be available this fall.</p>
+</blockquote>
+<p>...so we knew that Spatial Video features were already on the cards, but we got some new surprises in the Mac mini video:</p>
+<p><img src="/static/mac-mini-annoucement.jpg" alt=""></p>
+<p>Specifically two new machine learning features:</p>
+<ul>
+<li><strong>Magnetic Mask</strong></li>
+<li><strong>Transcribe to Captions</strong></li>
+</ul>
+<p>These are both features that I've been predicting and hoping for, for a long time.</p>
+<p>In terms of <strong>Magnetic Mask</strong>, we can assume this is object-based masking - i.e. being able to easily &quot;cut out&quot; a person without the need for a green screen.</p>
+<p>Meta/Facebook has been doing amazing work in this area, with <a href="https://ai.meta.com/blog/segment-anything-2/">Segment Anything Model 2</a>.</p>
+<p>It would be super interesting if Apple's actually using SAM2!</p>
+<p>In terms of <strong>Transcribe to Captions</strong>, again this is something that's been lacking in Final Cut Pro, that other NLEs have.</p>
+<p>It'll be super interesting to see the implementation though.</p>
+<p>My initial thought is that people don't actually want captions on their timeline - they actually want titles.</p>
+<p>It's currently unknown if there's any way to easily convert these newly generated captions to titles without third party tools.</p>
+<p>Another thing that people want is ability to search their footage for dialogue - but if these transcriptions are only happening in the timeline, again, this doesn't seem like it'll be possible out of the box.</p>
+<p>However, by bringing Apple-level transcription to Final Cut Pro, even if it is limited to captions in the timeline, this opens up HUGE possibilities to third party developers like myself.</p>
+<p>In the next update, we'll be able to make tools that take the transcribed metadata from FCPXML and do awesome things with it - I'm specifically thinking about the <strong>Titles to Keywords</strong> Toolbox in CommandPost for example.</p>
+<p>Either way, this just makes the upcoming Final Cut Pro Creative Summit even more exciting, so if you haven't already booked - do it!</p>
+<p>You can get 15% off your Final Cut Pro Creative Summit ticket <a href="/fcp-creative-summit/">here</a>.</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-october-2024</link>
+            <guid isPermaLink="false">30th October 2024</guid>
+            <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th October 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1.2</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Dragging the region selection rect in the timeline might not select a regions under it as expected.</li>
+<li>Improves resizing regions in the timeline, especially when they are very small. Much easier to grab now.</li>
+<li>Issue where recently added regions would ignore mouse events in the timeline.</li>
+<li>Timeline zoom sliders might not respond to mouse movement or clicks immediatel.</li>
+<li>Region selection UI when dragging regions was positioned too high.</li>
+<li>More accurate track selection when dragging regions between tracks or beneath them.</li>
+</ul>
+<p>You can download and learn more <a href="https://add.app">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-october-2024</link>
+            <guid isPermaLink="false">30th October 2024</guid>
+            <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
