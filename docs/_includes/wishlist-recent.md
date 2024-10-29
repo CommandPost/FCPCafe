@@ -1,3 +1,4 @@
+- [Batch Export all (or select) Picks in an Audition (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/407)
 - [New Export Settings Option for H.264 10 bit (Re-label existing H.264 appending "8-bit") (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/406)
 - [Background Tasks - Sharing View - Pending exports should be re-arrangeable by drag-and-drop (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/404)
 - [Add support for Multicam stabilisation (October 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/401)
@@ -27,4 +28,3 @@
 - [Parameters Synchronisation for Motion Template / Generator (November 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/281)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
-- [Dynamic Keyword shortcuts  to change per project (June 24, 2023)](https://github.com/CommandPost/FCPCafe/issues/210)
