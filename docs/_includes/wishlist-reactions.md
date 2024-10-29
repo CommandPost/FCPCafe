@@ -1,6 +1,7 @@
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
+- [Background Tasks - Sharing View - Pending exports should be re-arrangeable by drag-and-drop (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/404)
 - [Add support for Multicam stabilisation (October 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/401)
 - [Extend audio clips with custom length silence buffer tails, even past the end of the clip (September 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/395)
 - [Mini markers for all the snap points in the timeline time marker box. (September 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/394)
