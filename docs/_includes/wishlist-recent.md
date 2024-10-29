@@ -1,3 +1,4 @@
+- [New Export Settings Option for H.264 10 bit (Re-label existing H.264 appending "8-bit") (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/406)
 - [Background Tasks - Sharing View - Pending exports should be re-arrangeable by drag-and-drop (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/404)
 - [Add support for Multicam stabilisation (October 25, 2024)](https://github.com/CommandPost/FCPCafe/issues/401)
 - [Extend audio clips with custom length silence buffer tails, even past the end of the clip (September 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/395)
