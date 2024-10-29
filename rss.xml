@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 29 Oct 2024 20:57:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 21:07:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Oct 2024 20:57:51 GMT</pubDate>
+        <pubDate>Tue, 29 Oct 2024 21:07:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7613,15 +7613,27 @@ Just like its desktop counterpart, Colourlab AI Pro allows you to share referenc
 <p>In terms of <strong>Magnetic Mask</strong>, we can assume this is object-based masking - i.e. being able to easily &quot;cut out&quot; a person without the need for a green screen.</p>
 <p>Meta/Facebook has been doing amazing work in this area, with <a href="https://ai.meta.com/blog/segment-anything-2/">Segment Anything Model 2</a>.</p>
 <p>It would be super interesting if Apple's actually using SAM2!</p>
+<p>Blackmagic and Adobe already have their own solutions for this.</p>
 <p>In terms of <strong>Transcribe to Captions</strong>, again this is something that's been lacking in Final Cut Pro, that other NLEs have.</p>
 <p>It'll be super interesting to see the implementation though.</p>
 <p>My initial thought is that people don't actually want captions on their timeline - they actually want titles.</p>
 <p>It's currently unknown if there's any way to easily convert these newly generated captions to titles without third party tools.</p>
-<p>Another thing that people want is ability to search their footage for dialogue - but if these transcriptions are only happening in the timeline, again, this doesn't seem like it'll be possible out of the box.</p>
 <p>However, by bringing Apple-level transcription to Final Cut Pro, even if it is limited to captions in the timeline, this opens up HUGE possibilities to third party developers like myself.</p>
+<p>Interestingly, Intelligent Assistance, who have a close working relationship with Apple, have just announced <strong>captionAnimator</strong>.</p>
+<blockquote>
+<p>captionAnimator converts Final Cut Pro Captions to &quot;burned in&quot; Titles, with Style
+captionAnimator uses one, or more, FCP Titles as a template to convert Closed Captions to open (regular) Titles.
+You can use any built-in Title (static or animated), or those from third party designers, or your own custom title created in Motion, as a template to convert, and optionally, animate your Captions into Titles.</p>
+</blockquote>
+<p>You can learn more <a href="https://www.intelligentassistance.com/captionanimator/">here</a>.</p>
+<p>You can watch a video explaining <strong>captionAnimator</strong> here:</p>
+<p><a href="https://youtube.com/watch?v=psrjMefxgUM"><img src="/static/captionanimator-youtube.jpg" alt=""></a></p>
+<p>It's safe to assume that Intelligent Assistance is on the Final Cut Pro beta (being close partners and collaborators with Apple), and maybe even Apple hinted at them to build this tool to solve workflow issues for this upcoming release.</p>
+<p>Unfortunately, we don't personally get access to any early betas or pre-releases, so it's always a bit of a mad rush to fix <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, etc when a new update comes out.</p>
+<p>Another thing that people want is ability to search their footage for dialogue - but if these transcriptions are only happening in the timeline, again, this doesn't seem like it'll be possible out of the box (although we do know of some people working on this issue, which I hope to share more about soon!).</p>
 <p>In the next update, we'll be able to make tools that take the transcribed metadata from FCPXML and do awesome things with it - I'm specifically thinking about the <strong>Titles to Keywords</strong> Toolbox in CommandPost for example.</p>
 <p>Either way, this just makes the upcoming Final Cut Pro Creative Summit even more exciting, so if you haven't already booked - do it!</p>
-<p>You can get 15% off your Final Cut Pro Creative Summit ticket <a href="/fcp-creative-summit/">here</a>.</p>
+<p>You can get <strong>15% off</strong> your Final Cut Pro Creative Summit ticket <a href="/fcp-creative-summit/">here</a>.</p>
 <p>Onwards &amp; Upwards!</p>
 ]]></description>
             <link>https://fcp.cafe/#30th-october-2024</link>
