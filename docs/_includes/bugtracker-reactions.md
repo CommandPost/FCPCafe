@@ -1,4 +1,5 @@
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Export and Real Time Performance Issues with Clips of Alpha=0, not optimized out of render pipeline (October 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/409)
 - [Pending Exports disappear if/when Final Cut Pro crashes or Force Quit required (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/405)
 - [Background Tasks - Sharing - Percentage Error with Multiple Export: Resets after each completes + lack of "completed" exports (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/403)
 - [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
@@ -27,4 +28,3 @@
 - [Internal Stabilisation issues and resulting crashes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/326)
 - [Frame rate chart in Apple documentation isn't lining up with real-world results (January 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/323)
 - [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
-- [File Storage Issue when Transferring Projects between Libraries (January 3, 2024)](https://github.com/CommandPost/FCPCafe/issues/318)
