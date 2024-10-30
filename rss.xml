@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 29 Oct 2024 21:11:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Oct 2024 23:05:16 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Oct 2024 21:11:57 GMT</pubDate>
+        <pubDate>Wed, 30 Oct 2024 23:05:16 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7657,6 +7657,75 @@ You can use any built-in Title (static or animated), or those from third party d
             <link>https://fcp.cafe/#30th-october-2024</link>
             <guid isPermaLink="false">30th October 2024</guid>
             <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st October 2024]]></title>
+            <description><![CDATA[<p><strong>Waltzing With Brando</strong> will premiere at the Torino Film Festival!</p>
+<p>Cut in Final Cut Pro X by the incredible and magical <strong>Michael Yanovich, ACE</strong>.</p>
+<p>You can read more <a href="https://www.msn.com/en-us/entertainment/news/billy-zane-set-to-premiere-waltzing-with-brando-at-torino-film-festival-exclusive/ar-AA1tbFS7?ocid=BingNewsVerp">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-october-2024</link>
+            <guid isPermaLink="false">31st October 2024</guid>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st October 2024]]></title>
+            <description><![CDATA[<p><strong>finalcutgod</strong> has released a new YouTube video talking about captions in Final Cut Pro:</p>
+<p><a href="https://www.youtube.com/watch?v=agSSLzyqFYE"><img src="/static/finalcutgod.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#31st-october-2024</link>
+            <guid isPermaLink="false">31st October 2024</guid>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st October 2024]]></title>
+            <description><![CDATA[<p><strong>Caption Pop AI</strong> by <a href="https://stupidraisins.com">StupidRaisins</a> is out now for <strong>USD$34 for a limited time</strong>!</p>
+<p>The website says:</p>
+<blockquote>
+<p>Introducing Caption Pop AI – the fastest way to make captions right inside Final Cut Pro! Forget about exporting to CapCut or waiting on other slow, clunky software. With Caption Pop AI, you can automatically create captions in just 3 easy steps: analyze your video’s audio, customize your captions, and drop them onto your video. Done!</p>
+<p>Whether you're editing YouTube content, social media clips, or Caption Pop AI demos, Caption Pop AI delivers professional results in record time. Customize the look, enjoy accurate AI transcriptions, and work in 17 languages – all without leaving Final Cut Pro.</p>
+<p>Get Caption Pop AI today and keep your workflow smooth and speedy!</p>
+</blockquote>
+<p>You can watch an intro video on YouTube here:</p>
+<p><a href="https://www.youtube.com/watch?v=w1ICLKwWwdY"><img src="/static/caption-pop-ai.jpg" alt=""></a></p>
+<p>You can download and learn more <a href="https://stupidraisins.com/titles/caption-pop-ai/">here</a>.</p>
+<p>What I didn't realise until now is that StupidRaisins has basically built their own versions of FxFactory - their own app, with their own marketplace - very impressive!</p>
+<p>I've already downloaded <strong>Caption Pop AI</strong> and taken it for a quick test drive...</p>
+<p>My first comment is I fricken LOVE the Stupid Raisins <code>DMG</code>!</p>
+<p><img src="/static/stupid-raisins-dmg.jpeg" alt=""></p>
+<p>My second comment, is their developers clearly haven't read <a href="/developers/workflowextensions/#why-do-developers-make-workflow-extension-icons-greyscale">my FCP Cafe documentation</a> about why you should use greyscale icons for Workflow Extensions!</p>
+<p><img src="/static/caption-pop-workflow-extension.jpeg" alt=""></p>
+<p>They also haven't set the <a href="https://developer.apple.com/documentation/bundleresources/information_property_list/nsextension/proextensionattributes">minimum sizes correctly</a> for their Workflow Extension:</p>
+<p><img src="/static/caption-pop-workflow-extension-sizing.png" alt=""></p>
+<p>Unlike <strong>MotionVFX's mCaptionsAI</strong> it seems like Caption Pop AI only support importing audio files:</p>
+<p><img src="/static/caption-pop-ai.png" alt=""></p>
+<p>After dragging in a <code>WAV</code> or <code>AIFF</code> you can select local or cloud processing and the model you want to use:</p>
+<p><img src="/static/caption-pop-01.png" alt=""></p>
+<p>If you selected local, it then downloads the model:</p>
+<p><img src="/static/caption-pop-02.png" alt=""></p>
+<p>It then processes the audio content:</p>
+<p><img src="/static/caption-pop-03.png" alt=""></p>
+<p>Once complete, you have a lot of controls to play with:</p>
+<p><img src="/static/caption-pop-04.png" alt=""></p>
+<p>To send back to Final Cut Pro, it's a bit more clunky than <strong>MotionVFX's mCaptionsAI</strong> - if you press <strong>Open in FCP</strong>, it will basically send a FCPXML across - prompting you to select a Library in which you want to import the FCPXML.</p>
+<p>It then brings in a new Project with just the titles, so you need to copy and paste back into your original project/timeline:</p>
+<p><img src="/static/caption-pop-05.png" alt=""></p>
+<p>Overall it does a pretty good job, using the recent <a href="https://www.youtube.com/watch?v=TtFm9n3NVzE">Mac mini Announcement</a> video as a test:</p>
+<p><img src="/static/caption-pop-06.png" alt=""></p>
+<p>There is some maths errors/funkiness with timings, for example:</p>
+<p><img src="/static/caption-pop-07.png" alt=""></p>
+<p>Overall though, it seems like a very useful tool to have in your toolbox, especially if you don't want to pay MotionVFX a subscription.</p>
+<p>It'll be super interesting to see how well Apple's new caption tool compares to OpenAI's Whisper, which is what all these tools use.</p>
+<p>It seems like Caption Pop AI is using <a href="https://github.com/ggerganov/whisper.cpp">whisper.cpp</a> under the hood.</p>
+<p>It stores all the models, temporary audio files, and FCPXML exports in <code>'~/Library/Containers/com.urlaunched.StupidRaisins.StupidRaisins/Data/Library/Application Support/com.urlaunched.StupidRaisins.StupidRaisins</code>:</p>
+<p><img src="/static/caption-pop-08.png" alt=""></p>
+<p>If the Apple speech-to-text model is better than Whisper (which is unlikely), then I'd imagine a lot of these developers will start offering a FCPXML import option.</p>
+<p>I think though, really the main benefit Apple has is that they can do the timing and handle timecode much better than Whisper can currently do - this might be the biggest selling point for Apple's tool.</p>
+<p>Overall, it's great to see another non-subscription tool on the market!</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-october-2024</link>
+            <guid isPermaLink="false">31st October 2024</guid>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
