@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Nov 2024 06:58:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2024 20:43:53 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Nov 2024 06:58:46 GMT</pubDate>
+        <pubDate>Fri, 01 Nov 2024 20:43:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7782,6 +7782,26 @@ You can use any built-in Title (static or animated), or those from third party d
             <link>https://fcp.cafe/#1st-november-2024</link>
             <guid isPermaLink="false">1st November 2024</guid>
             <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd November 2024]]></title>
+            <description><![CDATA[<p>Well, I didn't have this on my 2024 Bingo Card!</p>
+<p><strong>The Pixelmator Team plans to join Apple.</strong></p>
+<p><img src="/static/pixelmator.png" alt=""></p>
+<p>They write on their <a href="https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/">blog</a>:</p>
+<blockquote>
+<p>We’ve been inspired by Apple since day one, crafting our products with the same razor-sharp focus on design, ease of use, and performance. And looking back, it’s crazy what a small group of dedicated people have been able to achieve over the years from all the way in Vilnius, Lithuania. Now, we’ll have the ability to reach an even wider audience and make an even bigger impact on the lives of creative people around the world.</p>
+<p><strong>What to expect</strong>
+Pixelmator has signed an agreement to be acquired by Apple, subject to regulatory approval. There will be no material changes to the Pixelmator Pro, Pixelmator for iOS, and Photomator apps at this time. Stay tuned for exciting updates to come.</p>
+<p><strong>Thank you</strong>
+We want to give a big thanks to our amazing users for your support over the past 17 years. Your feedback has played a huge role in shaping our apps into what they are today. As we step into this exciting new chapter, we can’t wait to share what’s next.</p>
+</blockquote>
+<p>Well, this is big.</p>
+<p>My GUESS is they want the engineering talent to help improve Photos on Mac and more importantly iPhone &amp; iPad.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-november-2024</link>
+            <guid isPermaLink="false">2nd November 2024</guid>
+            <pubDate>Sat, 02 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
