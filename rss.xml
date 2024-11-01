@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Nov 2024 06:56:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2024 06:58:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Nov 2024 06:56:00 GMT</pubDate>
+        <pubDate>Fri, 01 Nov 2024 06:58:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7752,6 +7752,19 @@ You can use any built-in Title (static or animated), or those from third party d
 <p>Get <strong>31% off</strong> for the next 24 hours only!</p>
 <p>Use the discount code: <code>Boo31</code></p>
 <p>You can learn more <a href="https://www.mastermotion5.com/?coupon=BOO31">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2024</link>
+            <guid isPermaLink="false">1st November 2024</guid>
+            <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2024]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.0.2</strong> is out now with the following improvements:</p>
+<ul>
+<li><strong>New feature:</strong> for projects with captions in multiple languages, use the Language popup menu to choose which caption language is used to make titles</li>
+<li>Bug fix for detecting titles with custom roles applied</li>
+</ul>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/captionanimator/id6736841747?mt=12">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#1st-november-2024</link>
             <guid isPermaLink="false">1st November 2024</guid>
