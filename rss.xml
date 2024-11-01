@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 31 Oct 2024 01:26:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2024 06:39:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 31 Oct 2024 01:26:57 GMT</pubDate>
+        <pubDate>Fri, 01 Nov 2024 06:39:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7745,6 +7745,30 @@ You can use any built-in Title (static or animated), or those from third party d
             <link>https://fcp.cafe/#31st-october-2024</link>
             <guid isPermaLink="false">31st October 2024</guid>
             <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2024]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates (aka The Final Cut Bro)</strong> is having a <strong>24 hour sale</strong>!</p>
+<p>Get <strong>31% off</strong> for the next 24 hours only!</p>
+<p>Use the discount code: <code>Boo31</code></p>
+<p>You can learn more <a href="https://www.mastermotion5.com/?coupon=BOO31">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2024</link>
+            <guid isPermaLink="false">1st November 2024</guid>
+            <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st November 2024]]></title>
+            <description><![CDATA[<p>Pinch and a punch for the first day of the month! Woohoo!</p>
+<p><strong>EasyEase</strong> on <strong>FxFactory</strong> brings easing of keyframes directly into your editing workflow, allowing you to apply custom easing functions to the position, scale, and rotation of your clips and elements.</p>
+<p>Unlike other plugins, which animate simply from point A to B without keyframes and offer limited easing options, EasyEase supports full keyframing of its parameters. This means you can create complex animations with multiple keyframes, adjusting the speed by changing the distance between them.</p>
+<p>EasyEase provides a wide range of easing functions, including unique options like <strong>Back Ease In &amp; Out</strong>, <strong>Back Ease Out</strong>, <strong>Ease In</strong>, <strong>Ease Out</strong>, <strong>Quadratic Ease Out</strong> and more.</p>
+<p>By exposing and mimicking the Position, Scale, and Rotation parameters and applying these cool animation easing effects, it brings functionality to Final Cut Pro that hasn't been there before.</p>
+<p>You can learn more and download <a href="https://fxfactory.com/info/easyease/">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-november-2024</link>
+            <guid isPermaLink="false">1st November 2024</guid>
+            <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
