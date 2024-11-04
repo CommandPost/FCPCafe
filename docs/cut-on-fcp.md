@@ -6,6 +6,24 @@ If there's something missing, [please let us know](/contribute/).
 
 ---
 
+## Notion Database
+
+In addition to everything listed below, we now have an awesome Notion database of a huge collection of projects cut in Final Cut Pro X.
+
+It's easily searchable by:
+
+- Type of show
+- Region
+- Distributor
+- Country
+- Editor
+
+You can also submit your own projects to be included.
+
+You can check it out [here](https://fcp-cafe.notion.site).
+
+---
+
 ## Success Stories
 
 At the FCP Creative Summit in 2023, Apple announced that all their 180+ **WWDC Developer Videos** were cut in Final Cut Pro, along with the thousands of **Apple Fitness+ videos**.
