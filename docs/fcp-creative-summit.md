@@ -6,7 +6,7 @@ Registration for the **Final Cut Pro Creative Summit** is now open.
 
 [![](/static/fcpcs-2024-discount.png)](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE)
 
-The cost is USD$599 (minus the 15% discount above), which includes:
+The cost is **USD$599** (minus the 15% discount above), which includes:
 
 - **NEW** (2) FMC AI Training Bootcamps, live and online, of their choice, valued at $299 each
 - 🍏 Apple Campus Visit (If registered before Nov. 10)
@@ -18,6 +18,14 @@ The cost is USD$599 (minus the 15% discount above), which includes:
 You can register [here](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
 
 You can view the program [here](https://fcpcreativesummits.com/program/).
+
+---
+
+### Isaac T's Advice
+
+Isaac T. has written some great advice leading up to the FCP Creative Summit.
+
+Check it out [here](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html).
 
 ---
 
