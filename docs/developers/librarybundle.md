@@ -59,7 +59,7 @@ Interestingly, this model is used for both Final Cut Pro on Mac and Final Cut Pr
 
 ### Reading a DeepSkyLite file
 
-Whilst there are third party tools that can read Core Data database, such as [Core Data Lab](https://betamagic.nl/products/coredatalab.html) - unfortunately we can't use these tools for Final Cut Pro.
+Whilst there are third party tools that can read Core Data database, such as [Core Data Lab](https://betamagic.nl/products/coredatalab.html) - unfortunately we can't really use these tools for manipulating Final Cut Pro libraries.
 
 The Core Data Lab developer explains...
 
@@ -71,9 +71,15 @@ The Core Data Lab developer explains...
 >
 > Loading external libraries is theoretically possible but complicated. I don't know if it is possible in this case, apart from legal issues. Certainly not allowed for apps that you want to sell in the App Store.
 
-So basically, there's no easy way to read Core Data directly - but because DeepSkyLite is stored in a SQLite store, you can just use regular SQLite tools.
+So basically, there's no easy way to modify Core Data directly - but because DeepSkyLite is stored in a SQLite store, you can just use regular SQLite tools.
 
-For example, you can use [DB Browser for SQLite](https://sqlitebrowser.org) to open, read and even manipulate DeepSkyLite data.
+You can still however open them up in [Core Data Lab](https://betamagic.nl/products/coredatalab.html):
+
+![](/static/core-data-lab.png)
+
+You just don't have a lot of easy control to view and modify the binary blobs of data.
+
+However, you can use [DB Browser for SQLite](https://sqlitebrowser.org) to open, read and even manipulate DeepSkyLite data.
 
 However, tread VERY carefully, as it's very easy to make a mistake and corrupt a DeepSkyLite file.
 
