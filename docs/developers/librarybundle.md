@@ -54,3 +54,29 @@ Here's what Final Cut Pro's model looks like in Xcode:
 ![Patent Screenshot](/static/model.png)
 
 Interestingly, this model is used for both Final Cut Pro on Mac and Final Cut Pro for iPad.
+
+---
+
+### Reading a DeepSkyLite file
+
+Whilst there are third party tools that can read Core Data database, such as [Core Data Lab](https://betamagic.nl/products/coredatalab.html) - unfortunately we can't use these tools for Final Cut Pro.
+
+The Core Data Lab developer explains...
+
+> To archive and store the mutated data via Core Data, you'll need the same private Apple class.
+>
+> I'm afraid the only way to mutate the binary data is directly in a SQLite editor.
+>
+> When using Core Data, your data mutations are validated by the Core Data Object Model. With SQLite you're working low level with nearly no rules, but the end result must still comply to the  Core Data Object Model, otherwise the related app can't read the data or crashes.
+>
+> Loading external libraries is theoretically possible but complicated. I don't know if it is possible in this case, apart from legal issues. Certainly not allowed for apps that you want to sell in the App Store.
+
+So basically, there's no easy way to read Core Data directly - but because DeepSkyLite is stored in a SQLite store, you can just use regular SQLite tools.
+
+For example, you can use [DB Browser for SQLite](https://sqlitebrowser.org) to open, read and even manipulate DeepSkyLite data.
+
+However, tread VERY carefully, as it's very easy to make a mistake and corrupt a DeepSkyLite file.
+
+Simply open the `.flexolibrary` and `.fcpevent` files from within your from Final Cut Pro Library bundle in [DB Browser for SQLite](https://sqlitebrowser.org):
+
+![](/static/db-browser-for-sqlite.png)
