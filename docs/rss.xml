@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 06 Nov 2024 13:05:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Nov 2024 13:14:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 Nov 2024 13:05:10 GMT</pubDate>
+        <pubDate>Wed, 06 Nov 2024 13:14:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7806,8 +7806,8 @@ We want to give a big thanks to our amazing users for your support over the past
         <item>
             <title><![CDATA[6th November 2024]]></title>
             <description><![CDATA[<p>Introducing <strong>Jumper</strong> by Witchcraft Software in Sweden. 🇸🇪</p>
-<p><strong>A powerful AI search engine for your footage.</strong>
-<strong>No clouds. No uploads. All on device.</strong></p>
+<p><strong>A powerful AI search engine for your footage.</strong></p>
+<p><strong>No clouds. No uploads. All on device.</strong></p>
 <p>Please watch this launch video on YouTube:</p>
 <p><a href="http://ltnt.tv/jumper"><img src="/static/jumper.jpg" alt=""></a></p>
 <p>I’m very biased, but it’s amazing. I basically describe it as <strong>Spotlight for your NLE</strong>.</p>
@@ -7818,11 +7818,11 @@ We want to give a big thanks to our amazing users for your support over the past
 <p>But before I get into that, let’s jump back to <strong>1st February 2023</strong>.</p>
 <p>On Richard Taylor’s <a href="https://podcasts.apple.com/au/podcast/final-cut-pro-radio/id1061415673?i=1000597468348">FCPRadio Episode 134</a> podcast, <a href="https://iain-anderson.com">Iain Anderson</a> explained:</p>
 <blockquote>
-<p>I'm really excited by what's happening with the AI stuff, with stuff like Whisper...
-But the problem with captions in Final Cut is they only go on a project...
-I want them on clips as well, to make them searchable to a time so that you could search for a phrase you know somebody said and instantly find it in your rushes.
-You could do that today, I'm sure with Lumberjack... but I think there's room for Apple to add a whole lot more AI smarts...
-So the auto-tagging, you know, Apple should do that. Apple should be able to find where there's water in a shot, where there's a cat in a shot, where the shot is mostly red.
+<p>I'm really excited by what's happening with the AI stuff, with stuff like Whisper...<br />
+But the problem with captions in Final Cut is they only go on a project...<br />
+I want them on clips as well, to make them searchable to a time so that you could search for a phrase you know somebody said and instantly find it in your rushes.<br />
+You could do that today, I'm sure with Lumberjack... but I think there's room for Apple to add a whole lot more AI smarts...<br />
+So the auto-tagging, you know, Apple should do that. Apple should be able to find where there's water in a shot, where there's a cat in a shot, where the shot is mostly red.<br />
 It should be able to detect all of that and just do it for you on the fly.</p>
 </blockquote>
 <p>I was on that podcast, and what Iain asked for isn’t something new or groundbreaking - every video editor I know wants to be able to just search for &quot;guy wearing green t-shirt&quot; in their NLE and it gets found.</p>
