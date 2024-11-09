@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 06 Nov 2024 13:14:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Nov 2024 08:41:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 Nov 2024 13:14:48 GMT</pubDate>
+        <pubDate>Thu, 07 Nov 2024 08:41:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7810,6 +7810,7 @@ We want to give a big thanks to our amazing users for your support over the past
 <p><strong>No clouds. No uploads. All on device.</strong></p>
 <p>Please watch this launch video on YouTube:</p>
 <p><a href="http://ltnt.tv/jumper"><img src="/static/jumper.jpg" alt=""></a></p>
+<p>You can also watch a detailed tutorial video <a href="https://docs.getjumper.io/videos/">here</a>.</p>
 <p>I’m very biased, but it’s amazing. I basically describe it as <strong>Spotlight for your NLE</strong>.</p>
 <p>You should stop reading this and go download it now from <a href="https://getjumper.io">here</a>.</p>
 <p>Let me explain...</p>
