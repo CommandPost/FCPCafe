@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 Nov 2024 08:41:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Nov 2024 11:18:38 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 Nov 2024 08:41:33 GMT</pubDate>
+        <pubDate>Sat, 09 Nov 2024 11:18:38 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7861,6 +7861,90 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#6th-november-2024</link>
             <guid isPermaLink="false">6th November 2024</guid>
             <pubDate>Wed, 06 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th November 2024]]></title>
+            <description><![CDATA[<p>The incredible <strong>Knut Hake</strong> and <strong>Sam Pluemacher</strong> have put together a database of projects cut on Final Cut Pro!</p>
+<p>It's on Notion and it's easily searchable by:</p>
+<ul>
+<li>Type of show</li>
+<li>Region</li>
+<li>Distributor</li>
+<li>Country</li>
+<li>Editor</li>
+</ul>
+<p>You can also submit your own projects to be included.</p>
+<p>You can check it out <a href="https://fcp-cafe.notion.site">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-november-2024</link>
+            <guid isPermaLink="false">9th November 2024</guid>
+            <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th November 2024]]></title>
+            <description><![CDATA[<p><strong>captionTranslator</strong> by <strong>Intelligent Assistance</strong> is out now on the Mac App Store!</p>
+<p>The price is <strong>USD$29.99</strong> until 31st December where it'll increase to <strong>USD$34.99</strong>.</p>
+<p>Free translation on your Mac. No Internet required.</p>
+<p>It uses Apple's <a href="https://developer.apple.com/documentation/translation">Translation Framework</a>.</p>
+<p>Translate Captions to additional language captions in Final Cut Pro.</p>
+<p>It supports:</p>
+<ul>
+<li>Arabic</li>
+<li>Chinese (Mandarin - China mainland)</li>
+<li>Chinese (Mandarin - Taiwan)</li>
+<li>Dutch</li>
+<li>English (UK)</li>
+<li>English (US)</li>
+<li>French</li>
+<li>German</li>
+<li>Hindi</li>
+<li>Indonesian</li>
+<li>Italian</li>
+<li>Japanese</li>
+<li>Korean</li>
+<li>Polish</li>
+<li>Portuguese</li>
+<li>Russian</li>
+<li>Spanish</li>
+<li>Thai</li>
+<li>Turkish</li>
+<li>Ukrainian</li>
+<li>Vietnamese</li>
+</ul>
+<p>The interface is very basic:</p>
+<p><img src="/static/caption-translator-01.png" alt=""></p>
+<p>Simply drag and drop your project/timeline into the Workflow Extension window above and press <strong>Go</strong>.</p>
+<p>The first time you run it, you'll most likely need to download language files from Apple</p>
+<p><img src="/static/caption-translator-03.png" alt=""></p>
+<p>Our initial tests show that it's not always perfect in every language:</p>
+<p><img src="/static/caption-translator-02.png" alt=""></p>
+<p>It seems to default to English if it has trouble translating, which seems like a good workaround.</p>
+<p>You can read the manual <a href="https://www.intelligentassistance.com/captiontranslator-help/">here</a>.</p>
+<p>You can buy now on the Mac App Store <a href="https://apps.apple.com/au/app/captiontranslator/id6737919696?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-november-2024</link>
+            <guid isPermaLink="false">9th November 2024</guid>
+            <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th November 2024]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.0.3</strong> is out now!</p>
+<p>It now supports Compound Clips with Captions.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/captionanimator/id6736841747?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-november-2024</link>
+            <guid isPermaLink="false">9th November 2024</guid>
+            <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th November 2024]]></title>
+            <description><![CDATA[<p><strong>Frame.io v2.7.2</strong> is out now!</p>
+<p>It contains bug fixes and performance improvements.</p>
+<p>You can download on the Mac App Store <a href="https://apps.apple.com/au/app/frame-io-video-collaboration/id992958444?mt=12">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-november-2024</link>
+            <guid isPermaLink="false">9th November 2024</guid>
+            <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
