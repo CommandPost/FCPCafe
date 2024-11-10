@@ -289,7 +289,7 @@ In the meantime, we got to the beginning of June 2023, I kept asking to get the 
 
 They were certainly right, but the timing of these final cleanups and subsequent approval left me with an open project, and every time I used it, which happens pretty much every day, I would come up with little features to add.
 
-As a result, what should have been a **"Minumum Viable Product"** was becoming an increasingly complex application, and of course with the need to handle any bugs I would generate by adding new code.
+As a result, what should have been a **"Minimum Viable Product"** was becoming an increasingly complex application, and of course with the need to handle any bugs I would generate by adding new code.
 
 ---
 
