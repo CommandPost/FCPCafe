@@ -3522,14 +3522,14 @@ cp.config.set(&quot;tagCopier.LastDestinationFolder&quot;, destinationFolderPath
 -- Get a table of Source Files:
 local sourceFiles = cp.tools.dirFiles(sourceFolderPath)
 if not sourceFiles then
-    hs.dialog.blockAlert(&quot;Tag Copier Cancellled&quot;, &quot;No source files could be detected.&quot;, &quot;Cancel&quot;)
+    hs.dialog.blockAlert(&quot;Tag Copier Cancelled&quot;, &quot;No source files could be detected.&quot;, &quot;Cancel&quot;)
     return
 end
 
 -- Get a table of Destination Files:
 local destinationFiles = cp.tools.dirFiles(destinationFolderPath)
 if not destinationFiles then
-    hs.dialog.blockAlert(&quot;Tag Copier Cancellled&quot;, &quot;No destination files could be detected.&quot;, &quot;Cancel&quot;)
+    hs.dialog.blockAlert(&quot;Tag Copier Cancelled&quot;, &quot;No destination files could be detected.&quot;, &quot;Cancel&quot;)
     return
 end
 
