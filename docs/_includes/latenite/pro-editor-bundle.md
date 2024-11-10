@@ -6,7 +6,7 @@ Better yet, for an extra **USD$50**, you can also get [LUT Robot](https://lutrob
 
 The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
 
-You can find the **Pro Editor Bundle** on the Mac App Store [here](https://itunes.apple.com/us/app-bundle/id1717681153?mt=12).
+You can find the [**Pro Editor Bundle** on the Mac App Store](https://itunes.apple.com/us/app-bundle/id1717681153?mt=12).
 
 You can find the **Pro Editor Bundle v2** on the Mac App Store [here](https://itunes.apple.com/us/app-bundle/id1750813030?mt=12).
 
