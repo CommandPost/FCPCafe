@@ -24,6 +24,6 @@ Got ideas or questions? Post them on our [Discussions page](https://github.com/l
 
 Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
 
-You can learn more [here](https://metaburner.pro).
+You can learn [more about Metaburner](https://metaburner.pro).
 
 ![](/static/metaburner-pro-screenshot.jpeg)
