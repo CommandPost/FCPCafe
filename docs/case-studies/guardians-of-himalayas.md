@@ -194,7 +194,7 @@ Pramodh K\. T
 
 ### Storytelling at its most powerful
 
-Throughout the project, I didn't face any project errors or library errors, and the powerful Final Cut Pro delivered maximum performance with good stability and faster working which helped me to achieve the goal. The super cool features like Automatic speed (Video Conforming) and Optical Motion manage all things perfectlyon a top model of intel 27 inch iMac
+Throughout the project, I didn't face any project errors or library errors, and the powerful Final Cut Pro delivered maximum performance with good stability and faster working which helped me to achieve the goal. The super cool features like Automatic speed (Video Conforming) and Optical Motion manage all things perfectly on a top model of intel 27 inch iMac
 
 In Asianet News, we use Final Cut Pro X from Version 10.2 to 10.6.8. As a 24x7 news channel, we use the potential and speed of Final Cut at every moment. More than 24 video editors edit stories, explainers, programs, events, news headlines, and web content every day by exploring the creative world through the Final Cut Pro Eco System.
 
