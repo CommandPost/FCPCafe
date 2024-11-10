@@ -10,4 +10,4 @@ This script is very basic, and doesn't contain any special error handling or mes
 
 You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
 
-You can learn more [here](https://github.com/CommandPost/RenameAvidMXFFiles).
+Learn more [about Rename Avid MXF Files](https://github.com/CommandPost/RenameAvidMXFFiles).
