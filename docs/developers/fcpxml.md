@@ -435,7 +435,7 @@ However we need to go a few more layers deep:
 
 Confusingly, for the `multicam` node, instead of `offset` we use `tcStart`. Also, because there is no `start` value in the `multicam` node, we can just use 0.
 
-The forumula now looks like this:
+The formula now looks like this:
 
 > `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset` + 0 - `multicam.tcStart` + `mc-clip.start` - `mc-clip.offset`
 
