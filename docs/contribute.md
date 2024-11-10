@@ -58,7 +58,7 @@ There's a bunch of stuff we can add to the FAQ - these are real questions from t
 - ‘What have I done’ you’ve opened the precision editor, ESC will close it.
 - Help!!! It’s saying my storage is full and I’m only working on a five minute zoom call!!!!
 - (Turn off background rendering and select leave files in place…)
-- Why do we have to render over and over again a project with titles everytime we close the program
+- Why do we have to render over and over again a project with titles every time we close the program
 
 ---
 
