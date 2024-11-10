@@ -38,7 +38,7 @@ Chris is the Lead Developer on Hedge's Arctic, and also helps out with other Hed
 
 You can learn more about how this happened [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
 
-You can learn more about Arctic [here](https://hedge.co/products/arctic).
+You can learn more [about Arctic](https://hedge.co/products/arctic).
 
 ---
 
