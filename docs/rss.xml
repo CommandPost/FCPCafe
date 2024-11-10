@@ -3727,7 +3727,7 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 <li><a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions/interacting_with_the_final_cut_pro_timeline#3530647">Observe Changes in the Final Cut Pro Timeline</a></li>
 <li><a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions/interacting_with_the_final_cut_pro_timeline#3530640">Move the Playhead Position</a></li>
 </ul>
-<p>We use this API to allow CommandPost to programatically move the playhead via the CommandPost Workflow Extension:</p>
+<p>We use this API to allow CommandPost to programmatically move the playhead via the CommandPost Workflow Extension:</p>
 <p><img src="/static/commandpost-workflow-extension.png" alt=""></p>
 <p>This Workflow Extension is super simple - it's just in Objective-C, and uses web-sockets to communicate back and forth between the Workflow Extension and CommandPost.</p>
 <p>You can check out the source code on GitHub <a href="https://github.com/CommandPost/CommandPost-App/tree/master/CommandPost%20Workflow%20Extension">here</a>.</p>
@@ -3785,7 +3785,7 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 <p>I totally think that <a href="https://ulti.media/transcriber/">Transcriber</a> and <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> could easily be ported to a Workflow Extension and improved to make it simpler and easier for Final Cut Pro editors.</p>
 <p>In terms of bringing <a href="https://ulti.media/fcpxautoduck/">FCPX AutoDuck</a> to a Workflow Extension, that's definitely possible too, but as Alex explains, you'd basically need to recreate Final Cut Pro's entire audio pipeline to mimic what Final Cut Pro does in FCPX AutoDuck.</p>
 <p>One potential workaround could be to create a Custom Share Destination, allowing you to export AIFFs of dialogue, music and effects separately, and then the Workflow Extension uses these mix downs for the processing, and then applies the audio adjustments to a Compound Clip of all the audio clips in that role.</p>
-<p>Because you can create a <strong>Custom Share Destination</strong> that can export roles as seperate audio files, the user would just need to export to a single Share Destination, then at the end of the export/render, you could programatically send these files to the Workflow Extension for processing. Once processing is complete, the user could drag a new project from the Workflow Extension to their Final Cut Pro Browser, which would have Compound Clips of the individual audio roles, and levels/effects applied to those compound clips.</p>
+<p>Because you can create a <strong>Custom Share Destination</strong> that can export roles as seperate audio files, the user would just need to export to a single Share Destination, then at the end of the export/render, you could programmatically send these files to the Workflow Extension for processing. Once processing is complete, the user could drag a new project from the Workflow Extension to their Final Cut Pro Browser, which would have Compound Clips of the individual audio roles, and levels/effects applied to those compound clips.</p>
 <p>It's slightly complex - because you need to communicate between the Custom Share Destination and the Workflow Extension, but certainly achievable.</p>
 <p><img src="/static/export-roles.png" alt=""></p>
 <p>But I totally agree with Alex in that <a href="https://developer.apple.com/documentation/coremedia/cmtime-u58">CMTime</a> is really hard and FCPXML can get insanely confusing.</p>
@@ -4067,7 +4067,7 @@ These creators are always lending a hand in the Final Cut Pro facebook groups, s
         <item>
             <title><![CDATA[25th December 2023]]></title>
             <description><![CDATA[<p>The <strong>Metaburner Pro</strong> beta period continues the excitement with new awesome new features in each TestFlight release.</p>
-<p>Beta 14 introduced Lua scripting - allowing you to programatically generate whatever text you want!</p>
+<p>Beta 14 introduced Lua scripting - allowing you to programmatically generate whatever text you want!</p>
 <p>It's still very much a work-in-progress, with the aim to release on the Mac App Store by end of January.</p>
 <p>You can learn more and join the TestFlight beta <a href="https://metaburner.pro/how-to-use/">here</a>.</p>
 <p><img src="/static/metaburner-pro-20231225.jpeg" alt=""></p>
