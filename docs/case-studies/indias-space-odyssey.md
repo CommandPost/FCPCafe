@@ -28,7 +28,7 @@ In terms of editing, I was editing on a 2017 27-inch iMac with 24GB RAM and an e
 
 That said, there were still some genuine questions during the project, some answered and some had to be taken outside FCPX for help. Those addressed were like when exporting master the Discovery specification required a .mxf (OP1a) and I had to dig internet to learn and satisfy my director, that FCPX’s MXF export is by default wrapped in OP1a format. Others that did not find an answer were like the LKFS parameter, for which I could not find a solution within FCPX and I had to take my export file to Premiere Pro which had a LKFS meter.
 
-Beyond performance and stability, I also use FCPX because I find the interface design much less intimidating and chaotic as compared to its contemporaries. The only complain is that there’s much less confidence in the industry on FCPX. And since I do not edit on any other NLE, I am turned down on many many more gigs compared to the numbers I am accepted on. Apple too seem to not take it with much seriousness as they do to their other products. Lately I have been looking towards Resolve to switch, if that ever happens.
+Beyond performance and stability, I also use FCPX because I find the interface design much less intimidating and chaotic as compared to its contemporaries. The only complain is that there’s much less confidence in the industry on FCPX. And since I do not edit on any other NLE, I am turned down on many, many, more gigs compared to the numbers I am accepted on. Apple too seem to not take it with much seriousness as they do to their other products. Lately I have been looking towards Resolve to switch, if that ever happens.
 
 ---
 
