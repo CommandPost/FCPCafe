@@ -48,7 +48,7 @@ BretFX is a leading provider of plugins, effects, titles, transitions and templa
 
 Chris helped Bret throw together a Swift/SwiftUI installer, bringing BretFX to the Apple App Store.
 
-You can check out BretFX's apps on the Mac App Store [here](https://apps.apple.com/au/developer/poptop-production-llc/id1744600123).
+You can check out [BretFX's apps on the Mac App Store](https://apps.apple.com/au/developer/poptop-production-llc/id1744600123).
 
 ---
 
