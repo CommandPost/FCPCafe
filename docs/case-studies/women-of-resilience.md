@@ -184,7 +184,7 @@ Remember the captions? The only thing not speed-changeable (why not, I ask, woul
 
 _**Screenshots 8A-B:** This way I can speed change (adjust timings) all SRTs too for re-import._
 
-Let’s not forget to, again, add the Broadcast Safe to the clean-feed to make it ‘legal’. We already know hot to proceed with exporting Multitrack Quicktime files. We are done and have exported several versions which usually takes a lot longer and additional people.
+Let’s not forget to, again, add the Broadcast Safe to the clean-feed to make it ‘legal’. We already know hot to proceed with exporting Multitrack QuickTime files. We are done and have exported several versions which usually takes a lot longer and additional people.
 
 ---
 
