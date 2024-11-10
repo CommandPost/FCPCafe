@@ -141,7 +141,7 @@ But you can open a copy of the last safe at any time.
 ![Main user interface of PostLab](/static/the-shadow-7.jpg)
 
 All additional Media, like Music, VFX-mixdowns, SoundFX, etc., is synced via postlab.drive.
-Setting up PostLab.drive to sync the additional files on 4 workstations correctly takes a little bit of effort, comparable to other backup-structures. The goal here is to not duplicate files or overwright folders. (Thanks [Sam Plue](https://twitter.com/sam_plue?s=20) for the help!)
+Setting up PostLab.drive to sync the additional files on 4 workstations correctly takes a little bit of effort, comparable to other backup-structures. The goal here is to not duplicate files or overwrite folders. (Thanks [Sam Plue](https://twitter.com/sam_plue?s=20) for the help!)
 
 This was the Finder folder structure on every workstation:
 
