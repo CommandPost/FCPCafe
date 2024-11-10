@@ -46,7 +46,7 @@ _Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
 {{ include "five-stars" }}
 
 Amazing simple
-I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
+I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usually do, begin at the end of the edit and work backwards.
 
 _Blazy – Apr 6, 2023 (Apple App Store Review)_
 :::
