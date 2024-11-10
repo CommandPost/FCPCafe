@@ -114,7 +114,7 @@ Signed,
 42. Tanneguy O'Meara, Editor of ‘Gerard Depardieu : Mon Reve Ouzbek,’ Feature Documentary, France
 43. Helgi Thor, Editor of ‘Cine Holliúdy 2: A Chibata Sideral ,’ Feature Film, Brazil
 44. Riffaud Richard, Editor of ‘Cobweb,’ Feature Film, US
-45. Stephen Nahorniak, Editor of ‘Open Hous,’ TV Reality, TV Documentary, TV Non-Fiction, US
+45. Stephen Nahorniak, Editor of ‘Open House,’ TV Reality, TV Documentary, TV Non-Fiction, US
 46. Steven Sanders, editor in chief, Editor of ‘War of the Worlds S3,’ TV Drama Series, UK
 47. Kilian von Keyserlingk (BFS), Editor of ‘Kilian von Keyserlingk,’ TV Limited Series/Mini Series, Germany
 48. Maria Gans, Editor of ‘Bibi und Tina - Einfach Anders ,’ Feature Film, Germany
