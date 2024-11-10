@@ -223,7 +223,7 @@ Or you can simply have a nice gallery of your episode to get an impression of th
 Line-by-Lines, or parts, as I call it, is the process of splitting every take of one scene into little chunks, usually for one line of dialogue or one particular action. These little chunks are reordered so that you can watch every similar part of every take in succession. In this way you can quickly compare every angle and find the best shot or dialogue.
 !!!
 
-Shortly before our production started Chris Hocking had the **Titles to Keywords** feature for [CommandPost](/ecosystem/tools/#commandpost) ready (commissioned by Knut Hake) and it rendered my old workflow obsolet. Before, we would tag every Sync Clip in the Browser with keywords. Even with dedicated shortcuts and scripting it was not an easy task. If you made a mistake and had to go back one step you could loose orientation. Now, we can complete the entire process within a timeline and with titles and we can also adjust each step throughout the process.
+Shortly before our production started Chris Hocking had the **Titles to Keywords** feature for [CommandPost](/ecosystem/tools/#commandpost) ready (commissioned by Knut Hake) and it rendered my old workflow obsolete. Before, we would tag every Sync Clip in the Browser with keywords. Even with dedicated shortcuts and scripting it was not an easy task. If you made a mistake and had to go back one step you could loose orientation. Now, we can complete the entire process within a timeline and with titles and we can also adjust each step throughout the process.
 
 As you can see below its as easy as:
 
