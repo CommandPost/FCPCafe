@@ -13,7 +13,7 @@ Enter your text into fontAudition and instantly see it displayed in every font a
 - Easy access to every font’s extended characters such as accents and flourishes
 - Simply double-click any font to display it’s extended character set and then copy and paste them into your title
 - FontAudition is written as a Final Cut Pro Workflow Extension which allows it to run inside of Final Cut Pro while you are editing
-- Drag & drop your text from fontAudtion directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
+- Drag & drop your text from fontAudition directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
 - Runs natively on both Intel and Apple Silicon Macs
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/fontaudition-x/id1554676357?mt=12)
