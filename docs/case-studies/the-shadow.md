@@ -201,7 +201,7 @@ To complement the flood of footage and keep 4 Editors in the loop about the shoo
 
 Below you see the arrangement for every shooting day. We can look ahead what is coming the next days, what is shot, but not yet delivered to us and what is ready to edit.
 
-![View of a notion database, every shooting day is a collumn, every collumn shows cards for the scheduled scenes](/static/the-shadow-15.jpg)
+![View of a notion database, every shooting day is a column, every column shows cards for the scheduled scenes](/static/the-shadow-15.jpg)
 
 Each scene is represented by a card. It provides a summary of the state of shooting and syncing. Additionally there is a screenshot, special comments from director and Assistant Editor. We can write notes of our own about the state of editing in case someone else will pick up the scene later on, and even report back to the set, for example to the Script Supervisor.
 
