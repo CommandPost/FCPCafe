@@ -36,7 +36,7 @@ Arctic (previously Final Cut Library Manager) is your single-view source of trut
 
 Chris is the Lead Developer on Hedge's Arctic, and also helps out with other Hedge applications such as [EditReady](https://hedge.co/products/editready).
 
-You can learn more about how this happened [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
+You can learn more [about how this happened](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
 
 You can learn more [about Arctic](https://hedge.co/products/arctic).
 
