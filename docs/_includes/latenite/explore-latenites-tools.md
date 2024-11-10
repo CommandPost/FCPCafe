@@ -58,7 +58,7 @@ The avant-garde Marker extraction application crafted for Final Cut Pro. It allo
 
 Chris helped Vigneswaran Rajkumar right throughout the Marker Data development process from the initial idea through to release, and threw together [ShareDestinationKit](https://github.com/latenitefilms/ShareDestinationKit) to help get Custom Share Destinations working.
 
-You can learn more about Marker Data [here](https://markerdata.theacharya.co).
+You can learn more [about Marker Data](https://markerdata.theacharya.co).
 
 ---
 
