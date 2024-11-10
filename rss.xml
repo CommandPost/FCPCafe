@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 09 Nov 2024 11:23:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Nov 2024 11:57:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 09 Nov 2024 11:23:56 GMT</pubDate>
+        <pubDate>Sat, 09 Nov 2024 11:57:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7919,6 +7919,9 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>Our initial tests show that it's not always perfect in every language:</p>
 <p><img src="/static/caption-translator-02.png" alt=""></p>
 <p>It seems to default to English if it has trouble translating, which seems like a good workaround.</p>
+<p>However, I tried the exact timeline again a few minutes later and got better results:</p>
+<p><img src="/static/caption-translator-04.png" alt=""></p>
+<p>I think maybe the models hadn't completely downloaded in the background yet, so this is something to keep in mind.</p>
 <p>You can read the manual <a href="https://www.intelligentassistance.com/captiontranslator-help/">here</a>.</p>
 <p>You can buy now on the Mac App Store <a href="https://apps.apple.com/au/app/captiontranslator/id6737919696?mt=12">here</a>.</p>
 ]]></description>
