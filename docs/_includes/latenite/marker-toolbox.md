@@ -28,7 +28,7 @@ Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 
 :::review
 I’ve been absolutely flatout while working in Thailand.
-[Wipsters](https://www.wipster.io) has been been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io) can send Wipster notes straight into #fcpx
+[Wipsters](https://www.wipster.io) has been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io) can send Wipster notes straight into #fcpx
 
 _Alister Robbie via [Twitter](https://twitter.com/alisterrobbie/status/1664105856475238400)_
 :::
