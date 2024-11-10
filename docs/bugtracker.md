@@ -1,7 +1,7 @@
 # Bug Tracker
 
 !!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
+Create a free GitHub account then [create a ticket](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
 !!!
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
