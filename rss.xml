@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 09 Nov 2024 11:57:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Nov 2024 06:52:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 09 Nov 2024 11:57:54 GMT</pubDate>
+        <pubDate>Sun, 10 Nov 2024 06:52:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7948,6 +7948,42 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#9th-november-2024</link>
             <guid isPermaLink="false">9th November 2024</guid>
             <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th November 2024]]></title>
+            <description><![CDATA[<p><strong>Jumper v2024.11.09</strong> is out now!</p>
+<p>It has the following bug fixes:</p>
+<ul>
+<li>Fixed slow search responses when working with footage on shared storage, such as a NAS or SAN. Thanks for reporting Siim!</li>
+<li>Jumper now ignores non-media files from FCPXML.</li>
+<li>Reduced verbose error logging output for offline files.</li>
+</ul>
+<p>You can download and learn more <a href="https://getjumper.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-november-2024</link>
+            <guid isPermaLink="false">10th November 2024</guid>
+            <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th November 2024]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has released a bunch of updates to their products:</p>
+<ul>
+<li><strong>mCallouts Simple <code>v3.0.2</code>:</strong> Tracking engine update</li>
+<li><strong>mMessage <code>v3.0.2</code>:</strong> Tracking engine update</li>
+<li><strong>mCallouts Simple 2 <code>v3.0.2</code></strong>: Tracking engine update</li>
+<li><strong>mPointer <code>v3.0.2</code></strong>: Tracking engine update</li>
+<li><strong>mFreezeFrame Movie <code>v2.0.5</code></strong>: Stability update</li>
+<li><strong>mMessage 2 <code>v3.0.2</code></strong>: Tracking engine update</li>
+<li><strong>mHUD 3 <code>v3.0.2</code></strong>: Tracking engine</li>
+</ul>
+<p>You can download the latest updates using <a href="https://www.motionvfx.com/minstaller">mInstaller</a>.</p>
+<p>They are also offering <strong>30% off</strong> on their site using the promo code: <code>BW30</code></p>
+<p><img src="/static/motionvfx-promo.jpg" alt=""></p>
+<p>You can learn more <a href="https://www.motionvfx.com/black-weeks-2024">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-november-2024</link>
+            <guid isPermaLink="false">10th November 2024</guid>
+            <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
