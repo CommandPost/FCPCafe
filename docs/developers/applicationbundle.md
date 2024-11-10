@@ -219,7 +219,7 @@ It contains a bunch of `.car` (CoreUI Archives) files, which can be extracted us
 - **NOXViewer.car** UI graphics for Final Cut Pro's Viewer?
 - **WideSliderIconAppearance.car:** Not sure what these graphics are for?
 
-It contains a human-readible plist file called `Container.moduleLayout`.
+It contains a human-readable plist file called `Container.moduleLayout`.
 
 It contains a bunch of other interesting plain-text plist files:
 
