@@ -232,7 +232,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 - Fixes an issue with the fader position not being reset when a volume adjustment was undone.
 - Fixes an issue that caused the Done button to not appear in Live Drawing when using Larger Text and Display Zoom.
 - Fixes an issue that caused browser clip name changes to not be saved unless the Done button was tapped.
-- Improves reliability when reseting manual focus points for videos shot in Cinematic mode.
+- Improves reliability when resetting manual focus points for videos shot in Cinematic mode.
 - Improves reliability when importing iMovie for iOS projects.
 - Includes stability and performance improvements.
 
