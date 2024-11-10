@@ -113,7 +113,7 @@ Here's some other success stories:
 - Ripples Of Life (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13736078/)
 - The Business of Christmas 2 (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14662334/)
 - Why? (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10313806/)
-- The Portait of a Nightmare (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11853706/)
+- The Portrait of a Nightmare (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11853706/)
 - May the Devil Take You Two (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10776270/)
 - Isi & Ossi (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt9806322/)
 - La leyenda negra (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10313748/)
