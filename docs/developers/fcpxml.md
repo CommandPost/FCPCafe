@@ -219,7 +219,7 @@ If we look at the `offset`, it's the same as the Gap Duration:
 
 > 104700 / 2500 = 41.88 seconds (`00:00:41:22` / 1047 frames)
 
-If we look at the `start`, it's the same as the timecode we calcuated earlier:
+If we look at the `start`, it's the same as the timecode we calculated earlier:
 
 > 27613100 / 2500 = 11045.24 seconds (`03:04:05:06` / 276131 frames)
 
