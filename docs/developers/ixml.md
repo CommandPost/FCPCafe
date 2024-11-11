@@ -33,7 +33,7 @@ A very simplified iXML data chunk, in a mono file with only the most basic metad
 	</BWFXML>
 ```
 
-You can read a very detailed article about iXML [here](http://www.gallery.co.uk/ixml/iXML-LineUp.pdf).
+You can read a [very detailed article about iXML](http://www.gallery.co.uk/ixml/iXML-LineUp.pdf).
 
 ---
 
