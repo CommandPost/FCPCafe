@@ -16,7 +16,7 @@ We use [CloudFlare Website Analytics](https://www.cloudflare.com/en-au/web-analy
 
 Cloudflare Web Analytics does not use any client-side state, such as cookies or `localStorage`, to collect usage metrics. It also doesn't “fingerprint” individuals via their IP address, User Agent string, or any other data for the purpose of displaying analytics.
 
-You can read CloudFlare's privacy policy [here](https://www.cloudflare.com/en-au/privacypolicy/).
+You can read [CloudFlare's privacy policy](https://www.cloudflare.com/en-au/privacypolicy/).
 
 We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues) to manage our [Bug Tracker](/bugtracker/) & [Wish List](/wishlist/).
 
