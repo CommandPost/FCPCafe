@@ -78,7 +78,7 @@ If you use **MotionVFX**, mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requ
 
 If you can't use your camera or video output device after updating to **macOS Sonoma 14.1**, Apple has released a workaround.
 
-Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can learn more [here](https://support.apple.com/en-us/HT213969).
+Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can read [Apple's support article about Sonoma 14.1 and legacy video devices](https://support.apple.com/HT213969).
 
 ---
 
