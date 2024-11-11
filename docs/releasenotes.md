@@ -419,7 +419,7 @@ Final Cut Pro 10.8.1 includes the following bug fixes:
 
 #### Notes from FCP Cafe:
 
-- This release is incredibly buggy, and should be avoided. You can learn more [here](https://github.com/CommandPost/FCPCafe/issues/223).
+- This [release is incredibly buggy, and should be avoided](https://github.com/CommandPost/FCPCafe/issues/223).
 
 #### Release Notes:
 
