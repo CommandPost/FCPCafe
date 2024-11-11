@@ -32,7 +32,7 @@ The structure can represent a specific numeric time in the media timeline, and c
 
 ## Official Documentation
 
-You can find the official FCPXML documentation [here](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc).
+You can find the [official FCPXML documentation](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc).
 
 ---
 
