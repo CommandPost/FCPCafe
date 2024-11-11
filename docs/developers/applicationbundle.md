@@ -50,7 +50,7 @@ Contains `ACD.plugin` - a CoreMediaIO plugin that enables the "A/V Output" featu
 
 The CoreMediaIO Device Abstraction Layer (DAL) is analogous to CoreAudio’s Hardware Abstraction Layer (HAL). Just as the HAL deals with audio streams from audio hardware, the DAL handles video (and muxed) streams from video devices.
 
-You can download sample DAL code [here](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html).
+You can download [sample DAL code from Apple](https://developer.apple.com/library/content/samplecode/CoreMediaIO/Introduction/Intro.html).
 
 ---
 
