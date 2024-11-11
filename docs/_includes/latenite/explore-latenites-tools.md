@@ -30,6 +30,28 @@ In addition to our own LateNite apps, we also work closely with other developers
 
 ---
 
+### Jumper
+
+Introducing **Jumper** by Witchcraft Software in Sweden. 🇸🇪
+
+**A powerful AI search engine for your footage.**
+
+**No clouds. No uploads. All on device.**
+
+Please watch this launch video on YouTube:
+
+[![](/static/jumper.jpg)](http://ltnt.tv/jumper)
+
+You can also watch a detailed tutorial video [here](https://docs.getjumper.io/videos/).
+
+I’m very biased, but it’s amazing. I basically describe it as **Spotlight for your NLE**.
+
+You should stop reading this and go download it now from [here](https://getjumper.io).
+
+You can learn more about my involvement via [this FCP Cafe news article](https://fcp.cafe/news/20241106/).
+
+---
+
 ### Arctic
 
 Arctic (previously Final Cut Library Manager) is your single-view source of truth for all your Final Cut Pro libraries, whether they are connected or in a cupboard. Locate media, assets, caches, and clean up what you no longer need.
