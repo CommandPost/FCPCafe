@@ -16,7 +16,7 @@ Core Data is an object graph and persistence framework provided by Apple in the 
 
 You can watch the original 2004 WWDC session on Core Data [here](https://www.youtube.com/watch?v=RsmBrENRvig).
 
-You can read Apple's official developer documentation on Core Data [here](https://developer.apple.com/documentation/coredata?language=objc).
+You can read Apple's official [developer documentation on Core Data](https://developer.apple.com/documentation/coredata?language=objc).
 
 Core Data is a framework that you use to manage the model layer objects in an application. It provides generalised and automated solutions to common tasks associated with object life cycle and object graph management, including persistence (meaning that, for example, an iPhone App can remember its settings each time the phone is turned off and on again).
 
