@@ -151,7 +151,7 @@ You should make sure all external links open in a new tab/window (edit this page
 
 If you're modifying a list of Tools or Workflow Extensions, everything should be sorted in alphabetical order.
 
-You can learn more about basic formatting [here](https://retype.com/guides/formatting/).
+You can learn more about [basic formatting](https://retype.com/guides/formatting/).
 
 ![Edit this file](/static/editor.png)
 
