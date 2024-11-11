@@ -80,7 +80,7 @@ macOS has a built in XML lint tool - allowing you to validate a `FCPXML` documen
 A DTD (Document Type Definition) file is used in XML to define the structure and the legal elements and attributes of an XML document. It's a set of markup declarations that provide a rulebook for a specific type of XML document, describing what the document contains and how those elements and attributes are organised.
 !!!
 
-You can download all the `FCPXML` `DTD` files [here](https://github.com/CommandPost/CommandPost/tree/develop/src/extensions/cp/apple/fcpxml/dtd).
+You can download all the [`FCPXML` `DTD` files](https://github.com/CommandPost/CommandPost/tree/develop/src/extensions/cp/apple/fcpxml/dtd).
 
 You can then use this Terminal Command to validate things:
 
