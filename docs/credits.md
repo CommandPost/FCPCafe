@@ -4,7 +4,7 @@ FCP Cafe was thrown together by [Chris Hocking](https://twitter.com/chrisatlaten
 
 The FCP Cafe **icon** was designed by the amazing [Matthew Skiles](https://matthewskiles.com).
 
-You can download a **Desktop Wallpaper** version of it [here](https://fcp.cafe/static/FCP-Cafe-Wallpaper.png).
+You can download a [**Desktop Wallpaper**](https://fcp.cafe/static/FCP-Cafe-Wallpaper.png) version of it.
 
 The origin story comes back to [this tweet](https://twitter.com/chrisatlatenite/status/1661729178826477569), where [Alex Gollner](https://twitter.com/Alex4D) tweeted that "fcp.co is no longer the Final Cut Pro watercoooler place", and Chris replied with "Screw it… I just registered [finalcutpro.tech](https://finalcutpro.tech). Let’s do this thing!".
 
