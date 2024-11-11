@@ -30,7 +30,7 @@ If you're using OSC controls via FxPlug, even if you're not drawing something to
 
 ### Can I change a `ParameterSubGroup` `Name` via code?
 
-No, currently it doesn't seem possible. See bug report [here](https://github.com/CommandPost/FCPCafe/issues/312).
+No, currently it doesn't seem possible. See [bug report](https://github.com/CommandPost/FCPCafe/issues/312).
 
 Apple confirms:
 
