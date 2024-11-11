@@ -1,6 +1,6 @@
 # Patents
 
-[Alex4D](https://alex4d.com) has a great blog post on the Magnetic Timeline patent (Media-editing application with media clips grouping capabilities) [here](https://alex4d.com/notes/item/apple-magnetic-timeline-fcpx-patent).
+[Alex4D](https://alex4d.com) has a great [blog post on the Magnetic Timeline patent (Media-editing application with media clips grouping capabilities)](https://alex4d.com/notes/item/apple-magnetic-timeline-fcpx-patent).
 
 See the [actual patent](https://patents.google.com/patent/US8875025).
 
