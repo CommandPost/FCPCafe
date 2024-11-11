@@ -20,7 +20,7 @@ It's easily searchable by:
 
 You can also submit your own projects to be included.
 
-You can check it out [here](https://fcp-cafe.notion.site).
+You can check out the [FCP Cafe Notion Database](https://fcp-cafe.notion.site).
 
 ---
 
