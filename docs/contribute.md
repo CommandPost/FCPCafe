@@ -217,9 +217,7 @@ You can use [this website](https://youtube-thumbnail-grabber.com) for download Y
 
 ### Images
 
-All images should be stored within the `/docs/static/` folder on GitHub.
-
-You can find it [here](https://github.com/CommandPost/FCPCafe/tree/main/docs/static).
+All images should be stored within the [`/docs/static/` folder on GitHub](https://github.com/CommandPost/FCPCafe/tree/main/docs/static).
 
 ---
 
