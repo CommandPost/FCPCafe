@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 11 Nov 2024 00:29:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 23:29:10 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Nov 2024 00:29:56 GMT</pubDate>
+        <pubDate>Mon, 11 Nov 2024 23:29:10 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7984,6 +7984,49 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#10th-november-2024</link>
             <guid isPermaLink="false">10th November 2024</guid>
             <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th November 2024]]></title>
+            <description><![CDATA[<p><strong>Greetings from Cupertino!</strong></p>
+<p>After a very nice long plane flight from Melbourne, Australia I'm now in the USA ready to cover the <strong>Final Cut Pro Creative Summit</strong> this week!</p>
+<p><img src="/static/chris-apple-park-2024.jpeg" alt=""></p>
+<p>I'll be post daily wrap-ups from the three day conference, and covering any Apple and third party announcements.</p>
+<p>I'm fairly confident we'll see updates to Final Cut Pro for Mac, Compressor and Motion.</p>
+<p>I'm very confident we'll see some cool stuff from third parties, based on the speaker list.</p>
+<p>I have absolutely no idea what's coming for Final Cut Pro on iPad or if the Apple Vision Pro will make an appearance.</p>
+<p>Apple has been promising third party Motion Templates for Final Cut Pro on the iPad since launch - the website still says &quot;coming soon&quot;.</p>
+<p>We know that with <a href="https://transfertoolbox.io">Transfer Toolbox</a> you can bring Mac Motion Templates to iPad in MOST cases.</p>
+<p>I wonder if we'll see Motion for iPad released, along with a whole heap of Motion Templates from <a href="https://www.motionvfx.com">MotionVFX</a>?</p>
+<p>I do know there's quite a few people from MotionVFX coming to the conference this year.</p>
+<p>We also know that Spatial Video is coming to Final Cut Pro - does this mean we'll be able to hook up a Vision Pro to Final Cut Pro?</p>
+<p>Only a few days to go, and all will be revealed!</p>
+<p><img src="/static/chris-infinite-loop-2024.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#11th-november-2024</link>
+            <guid isPermaLink="false">11th November 2024</guid>
+            <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th November 2024]]></title>
+            <description><![CDATA[<p><strong>Marker Data <code>v1.1.0 (2)</code></strong> is out now!</p>
+<p>Marker Data is now exclusively build and optimised for Apple Silicon only.</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Application bundle size has been reduced</li>
+<li>User can now Assign Shortcut to Configurations</li>
+<li>Codebase updates for better compatibility with Xcode 16</li>
+<li>Updated Notion Module CSV2Notion Neo to <code>v1.3.3</code></li>
+<li>Updated Airtable Module Airlift to <code>v1.1.4</code></li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a critical bug in the Notion module that prevented Marker Data's Data Set uploads when Notion Database URL is not provided</li>
+</ul>
+<p>You can download and learn more <a href="https://markerdata.theacharya.co">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-november-2024</link>
+            <guid isPermaLink="false">11th November 2024</guid>
+            <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
