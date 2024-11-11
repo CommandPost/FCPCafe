@@ -231,7 +231,7 @@ This update unfortunately breaks any FxPlug4 effects that use the [Analysis API]
 >
 > Because of the large number of products affected, we recommend that you do not apply this update.
 
-Read more about this bug [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
+Read more [about this bug in FxFactory's alert](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
 If you use FxFactory Trackers, we recommend sticking with an earlier version of Final Cut Pro for the time being.
 
