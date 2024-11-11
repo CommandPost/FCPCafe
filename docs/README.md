@@ -15,7 +15,7 @@ Learn more [here](/fcp-creative-summit/).
 
 !!!
 **Should I update Final Cut Pro?**<br />
-Read our current recommendations [here](/update-guide/).
+Read our [current recommendations](/update-guide/).
 !!!
 
 {{ include "hero-sponsor" }}
