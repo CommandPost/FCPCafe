@@ -157,4 +157,4 @@ As a bit of an added bonus, here's a look at some more awesome work cut by the t
 
 You can follow Thomas Grove Carter on [Twitter](https://twitter.com/thomasgcarter), [Instagram](https://www.instagram.com/thomasgcarter) and [YouTube](https://www.youtube.com/@ThomasGroveCarter).
 
-You can learn more about Trim Editing [here](https://trimediting.com).
+You can learn more about [Trim Editing](https://trimediting.com).
