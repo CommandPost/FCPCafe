@@ -187,7 +187,7 @@ For example to edit this page you can use:
 https://github.dev/CommandPost/FCPCafe/blob/main/docs/contribute.md
 ```
 
-You can learn more [here](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
+You can learn about [the github.dev web-based editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
 
 ---
 
