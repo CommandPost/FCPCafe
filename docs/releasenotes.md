@@ -387,7 +387,7 @@ Final Cut Pro 10.8.1 includes the following bug fixes:
 
 #### Notes from FCP Cafe:
 
-- This release breaks the Analysis API used by plugins such as those by FxFactory. You can learn more [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
+- This [release breaks the Analysis API used by plugins such as those by FxFactory](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
 #### New Features:
 
