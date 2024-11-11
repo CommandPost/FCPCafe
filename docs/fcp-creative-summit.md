@@ -23,9 +23,7 @@ You can view the [program](https://fcpcreativesummits.com/program/).
 
 ### Isaac T's Advice
 
-Isaac T. has written some great advice leading up to the FCP Creative Summit.
-
-Check it out [here](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html).
+[Isaac T. has written some great advice](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html) leading up to the FCP Creative Summit.
 
 ---
 
