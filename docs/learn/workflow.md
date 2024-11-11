@@ -169,7 +169,7 @@ Each event in Final Cut Pro is its own Core Data database.
 
 ![](/static/inside-library.png)
 
-You can learn more about the library structure [here](/developers/librarybundle/).
+You can learn more about the [library structure](/developers/librarybundle/).
 
 Given this, we recommend splitting up your media into multiple events, rather than putting all your media in a single event powered by a single database.
 
