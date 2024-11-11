@@ -24,7 +24,7 @@ We use [GitHub Discussions](https://github.com/CommandPost/FCPCafe/discussions) 
 
 The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app), which also has no tracking or database.
 
-You can read GitHub's Privacy Statement [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+You can read [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 The source code and change log for this website can be found on [GitHub](https://github.com/CommandPost/FCPCafe).
 
