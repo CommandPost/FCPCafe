@@ -438,7 +438,7 @@ Final Cut Pro 10.8.1 includes the following bug fixes:
 
 #### Notes from FCP Cafe:
 
-- This release removes FxPlug2 and FxPlug3 support. Only FxPlug4 is now supported, and older plugins will no longer work. You can learn more [here](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update).
+- This [release removes FxPlug2 and FxPlug3 support](https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update). Only FxPlug4 is now supported, and older plugins will no longer work..
 
 #### New features:
 
