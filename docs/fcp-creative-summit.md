@@ -149,7 +149,7 @@ It’s no secret that I like the Summit, even better than NAB. It’s not becaus
 
 See you there?
 
-Iain has also written a post on ProVideo Coalition [here](https://www.provideocoalition.com/the-final-cut-pro-creative-summit-2023/).
+Iain has also written a [post on ProVideo Coalition](https://www.provideocoalition.com/the-final-cut-pro-creative-summit-2023/).
 
 ---
 
