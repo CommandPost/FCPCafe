@@ -119,7 +119,7 @@ You can watch here:
 
 [![](/static/jenn-jager-fcpcs.jpeg)](https://www.youtube.com/watch?v=P1qDKWWmYV4)
 
-You can learn more about Jenn [here](https://jennjager.com). She's the best.
+You can learn more about [Jenn](https://jennjager.com). She's the best.
 
 ---
 
