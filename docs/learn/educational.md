@@ -24,4 +24,4 @@ The bundle includes the following software, all optimised for macOS and the late
 - Compressor
 - MainStage
 
-You can learn more [here](https://www.apple.com/au-hed/shop/product/BMGE2Z/A/pro-apps-bundle-for-education).
+You can learn more about [Pro Apps Bundle for Education](https://www.apple.com/au-hed/shop/product/BMGE2Z/A/pro-apps-bundle-for-education).
