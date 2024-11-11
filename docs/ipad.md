@@ -56,7 +56,7 @@ You can find about how to setup Sidecar on [Apple's support site](https://suppor
 
 You can absolutely use your iPad as an A/V Output for Final Cut Pro, however it requires some extra setup.
 
-First you must install NDI Tools on your Mac by downloading [here](https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg).
+First you must install NDI Tools on your Mac by downloading the [NDI Tools Installer](https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg).
 
 Once you've installed and restarted your Mac, an NDI option will appear in your **A/V Output** settings in Final Cut Pro:
 
