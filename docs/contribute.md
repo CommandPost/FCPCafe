@@ -227,7 +227,7 @@ You can also use GitHub Desktop to essentially "clone" the entire FCP Cafe websi
 
 You can then make changes locally, and once done, submit a pull request back to the main GitHub repository.
 
-You can download GitHub Desktop [here](https://desktop.github.com).
+You can download [GitHub Desktop](https://desktop.github.com).
 
 You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/) to edit your Markdown files on your Mac.
 
