@@ -55,7 +55,7 @@ You can watch on Vimeo here:
 
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 
-You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
+You can learn more on [Richard's Final Cut TV & Coffee YouTube Channel](https://www.youtube.com/watch?v=AhZNBV7vcpA).
 
 ---
 
