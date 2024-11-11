@@ -15,9 +15,9 @@ The cost is **USD$599** (minus the 15% discount above), which includes:
 - 🤝 Networking Opportunities
 
 
-You can register [here](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
+You can [register](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
 
-You can view the program [here](https://fcpcreativesummits.com/program/).
+You can view the [program](https://fcpcreativesummits.com/program/).
 
 ---
 
