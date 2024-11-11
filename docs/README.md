@@ -10,7 +10,7 @@ _This website has been thrown together by [Chris Hocking](https://twitter.com/ch
 
 !!!success FCP Creative Summit 2024
 We're going! You should too! Get 15% off!</br>
-Learn more [here](/fcp-creative-summit/).
+Learn more [FCP Creative Summit](/fcp-creative-summit/).
 !!!
 
 !!!
