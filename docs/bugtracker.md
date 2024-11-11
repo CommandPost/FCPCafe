@@ -14,7 +14,7 @@ We keep track of these bugs via our [GitHub issues site](https://github.com/Comm
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-To submit a new bug report, simply sign up for a **free GitHub account** and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
+To submit a new bug report, simply sign up for a **free GitHub account** and [post an issue](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
 
 If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 
