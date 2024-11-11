@@ -6,7 +6,7 @@ Unfortunately when it comes to apps on the Apple App Store, you can only ever do
 
 This means, if you're a professional Final Cut Pro editor, you need to be very careful about keeping copies of older versions of Final Cut Pro, Compressor and Motion as backups incase there's bugs, but also incase you have to access older Libraries in the future that may not open in the latest version of Final Cut Pro.
 
-You can learn more about backing up Final Cut Pro on Apple's site [here](https://support.apple.com/en-au/HT203010).
+You can learn more about [backing up Final Cut Pro on Apple's site](https://support.apple.com/HT203010).
 
 You can read our current recommendations below:
 
