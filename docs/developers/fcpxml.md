@@ -44,9 +44,7 @@ You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Cla
 
 ## DAWFileKit
 
-[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called DAWFileKit, which can read and process FCPXML.
-
-You can learn more [here](https://github.com/orchetect/DAWFileKit).
+[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called [DAWFileKit](https://github.com/orchetect/DAWFileKit), which can read and process FCPXML.
 
 ---
 
