@@ -10,7 +10,7 @@ You can make changes to the site by [submitting pull requests on GitHub](https:/
 
 We welcome and encourage users submitting their own **case studies**, **articles**, **products** and **news items**.
 
-You can see all the current contributors [here](https://github.com/CommandPost/FCPCafe/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe).
+You can see all the [current contributors](https://github.com/CommandPost/FCPCafe/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe).
 
 The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
