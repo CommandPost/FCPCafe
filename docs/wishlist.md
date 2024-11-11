@@ -12,7 +12,7 @@ We also keep track of the most popular feature requests, based on the amount of 
 
 In general, whenever posting a new feature request to GitHub, we also submit feedback directly to Apple via [Feedback Assistant](https://feedbackassistant.apple.com), and make a note of the Feedback Assistant ID in the issue.
 
-You can also send feedback directly to the Final Cut Pro team [here](https://www.apple.com/feedback/finalcutpro/), although unlike Feedback Assistant you can't track your request or add additional information - so we generally recommend you use Feedback Assistant instead.
+You can also [send feedback directly to the Final Cut Pro team](https://www.apple.com/feedback/finalcutpro/), although unlike Feedback Assistant you can't track your request or add additional information - so we generally recommend you use Feedback Assistant instead.
 
 **Richard Taylor** also maintains a list of [101+ Requests for Final Cut Pro](https://fcpx.tv/top.html).
 
