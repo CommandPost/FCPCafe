@@ -21,7 +21,7 @@ The documentary is coming to **Asianet News Malayalam** in **8 episodes**.
 
 It includes history, mystery, myth, and real stories, as well as exclusive footage of the Indian Army's training in Kashmir.
 
-You can check out a YouTube Playlist of all the related videos [here](https://www.youtube.com/playlist?list=PLZ47UtqJR_EEF50ocqz5CsEc1ZKxH-edm).
+You can check out a [YouTube Playlist of all the related videos](https://www.youtube.com/playlist?list=PLZ47UtqJR_EEF50ocqz5CsEc1ZKxH-edm).
 
 You can watch a trailer here:
 
