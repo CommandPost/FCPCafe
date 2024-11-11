@@ -39,7 +39,7 @@ You can read a very detailed article about iXML [here](http://www.gallery.co.uk/
 
 ## Specification
 
-The iXML Specification can be found [here](http://www.ixml.info).
+See the [iXML Specification](http://www.ixml.info).
 
 ---
 
