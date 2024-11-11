@@ -264,7 +264,7 @@ If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend stick
 
 However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
 
-You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
+You can learn more about [the issues in **Final Cut Pro 10.6.7**](https://github.com/CommandPost/FCPCafe/issues/223).
 
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
