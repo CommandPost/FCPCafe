@@ -116,7 +116,7 @@ I released Transcriber, perhaps my most successful application, a little over a 
 
 ![](/static/transcriber-ai-metadata-PakSideSite_Transcriber_00000.jpg)
 
-I've talked about it **[here](/developer-case-studies/transcriber/)** but it's okay to repeat a little, right?
+I've [talked about it](/developer-case-studies/transcriber/) but it's okay to repeat a little, right?
 
 Transcriber is a tool that performs audio and video transcription, for creating subtitles with a strong skew toward direct export to Final Cut Pro.
 
