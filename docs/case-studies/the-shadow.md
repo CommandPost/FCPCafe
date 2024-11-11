@@ -14,7 +14,7 @@ This television series is an adaptation of the novel by **Melanie Raabe**.
 
 ![Still frames of Der Schatten. A woman in front of a painting of a wounded woman, a winding staircase, two people in a mortuary, a steep escalator](/static/the-shadow-1.jpg)
 
-You can watch the show [here](https://www.zdf.de/serien/der-schatten) (eventually geofenced, if you are not in Germany).
+You can [watch the show](https://www.zdf.de/serien/der-schatten) (eventually geofenced, if you are not in Germany).
 
 ---
 
