@@ -46,7 +46,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de) has created an entire No
 
 [CommandPost](/ecosystem/tools/#commandpost) has as insanely powerful Toolbox called **Titles to Keywords**.
 
-You can learn more [here](https://web.archive.org/web/20230320121554/https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
+You can learn more in a [Script-focused Feature Film Workflow for Final Cut Pro](https://web.archive.org/web/20230320121554/https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
 
 ![](/static/toolbox-titles-to-keywords.png)
 
