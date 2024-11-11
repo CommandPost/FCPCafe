@@ -14,7 +14,7 @@ Before we dig too deep into the Final Cut Pro library, it's important to underst
 
 Core Data is an object graph and persistence framework provided by Apple in the macOS and iOS operating systems. More than 13 years old now (at the time of writing), Core Data was introduced in Mac OS X 10.4 Tiger and iOS with iPhone SDK 3.0 and like many parts of macOS, Core Data owes much of its design to an earlier NeXT product, [Enterprise Objects Framework (EOF)](https://en.wikipedia.org/wiki/Enterprise_Objects_Framework).
 
-You can watch the original 2004 WWDC session on Core Data [here](https://www.youtube.com/watch?v=RsmBrENRvig).
+You can watch the [original 2004 WWDC session on Core Data](https://www.youtube.com/watch?v=RsmBrENRvig).
 
 You can read Apple's official [developer documentation on Core Data](https://developer.apple.com/documentation/coredata?language=objc).
 
