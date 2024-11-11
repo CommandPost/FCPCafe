@@ -58,7 +58,7 @@ You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Cla
 
 In most cases, we'd recommend [DAWFileKit](https://github.com/orchetect/DAWFileKit) instead of Pipeline Neo, however we include it here as it does have some functionality that DAWFileKit is currently lacking.
 
-You can learn more [here](https://github.com/TheAcharya/pipeline-neo).
+You can learn more about [Pipeline Neo](https://github.com/TheAcharya/pipeline-neo).
 
 ---
 
