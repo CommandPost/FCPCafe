@@ -10,4 +10,4 @@ It is especially very confusing if you're a Swift / Swift UI developer, with no 
 
 However, I've uploaded a old sample project from Apple to GitHub, along with an attempt to "wrap" the Objective-C code in a Swift application.
 
-You can find **ShareDestinationKit** on GitHub [here](https://github.com/latenitefilms/ShareDestinationKit).
+You can find [**ShareDestinationKit** on GitHub](https://github.com/latenitefilms/ShareDestinationKit).
