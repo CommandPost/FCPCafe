@@ -60,7 +60,7 @@ They write:
 >
 > If you are using Audio Units on an Apple silicon computer, it is advisable to postpone the macOS update until further information becomes available. We will keep you informed as soon as a resolution is found.
 
-You can learn more [here](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
+See [iZotope's support article about issues with macOS 14.4 Sonoma](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
 
 Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
 
