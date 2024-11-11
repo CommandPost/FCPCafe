@@ -12,7 +12,7 @@ See the [Final Cut Pro for iPad manual](https://support.apple.com/en-au/guide/fi
 
 ### Apple Support
 
-You can find the official Apple Support site [here](https://support.apple.com/final-cut-pro).
+See Apple's official [Final Cut Pro Support site](https://support.apple.com/final-cut-pro).
 
 ---
 
