@@ -15,9 +15,7 @@ Here's a collection of official Apple White Papers to help people transition fro
 
 ### Ripple Training
 
-Steve delivers a full **58 minute** FCP class for beginners that includes the media for following along with him in FCP.
-
-Download the media [here](https://bit.ly/fcp-ripple-media).
+Steve delivers a full **58 minute** FCP class for beginners that includes the [media for following along with him in FCP](https://bit.ly/fcp-ripple-media).
 
 [![](/static/ripple-learn.jpg)](https://www.youtube.com/watch?v=HqUP7Zgeuck)
 

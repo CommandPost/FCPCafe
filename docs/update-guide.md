@@ -6,7 +6,7 @@ Unfortunately when it comes to apps on the Apple App Store, you can only ever do
 
 This means, if you're a professional Final Cut Pro editor, you need to be very careful about keeping copies of older versions of Final Cut Pro, Compressor and Motion as backups incase there's bugs, but also incase you have to access older Libraries in the future that may not open in the latest version of Final Cut Pro.
 
-You can learn more about backing up Final Cut Pro on Apple's site [here](https://support.apple.com/en-au/HT203010).
+You can learn more about [backing up Final Cut Pro on Apple's site](https://support.apple.com/HT203010).
 
 You can read our current recommendations below:
 
@@ -60,7 +60,7 @@ They write:
 >
 > If you are using Audio Units on an Apple silicon computer, it is advisable to postpone the macOS update until further information becomes available. We will keep you informed as soon as a resolution is found.
 
-You can learn more [here](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
+See [iZotope's support article about issues with macOS 14.4 Sonoma](https://support.izotope.com/hc/en-us/articles/17519558551581-Issues-with-macOS-14-4-Sonoma).
 
 Generally speaking, upgrading from **macOS Ventura to macOS Sonoma** is fairly smooth sailing, with no major widespread issues reported.
 
@@ -78,7 +78,7 @@ If you use **MotionVFX**, mLUT, mFlare 2, mFilmLook, mMuppet & mTracker all requ
 
 If you can't use your camera or video output device after updating to **macOS Sonoma 14.1**, Apple has released a workaround.
 
-Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can learn more [here](https://support.apple.com/en-us/HT213969).
+Starting in **macOS Sonoma 14.1**, cameras and video output devices that don't use modern system extensions won't be available to use unless you restore the legacy settings. You can read [Apple's support article about Sonoma 14.1 and legacy video devices](https://support.apple.com/HT213969).
 
 ---
 
@@ -231,7 +231,7 @@ This update unfortunately breaks any FxPlug4 effects that use the [Analysis API]
 >
 > Because of the large number of products affected, we recommend that you do not apply this update.
 
-Read more about this bug [here](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
+Read more [about this bug in FxFactory's alert](https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/).
 
 If you use FxFactory Trackers, we recommend sticking with an earlier version of Final Cut Pro for the time being.
 
@@ -264,7 +264,7 @@ If you're currently using **Final Cut Pro 10.6.6 or earlier** we recommend stick
 
 However, if you're using **Final Cut Pro 10.6.7** we recommend updating, as it resolves some issues with the Viewer going black and various crashes.
 
-You can learn more about the issues in **Final Cut Pro 10.6.7** [here](https://github.com/CommandPost/FCPCafe/issues/223).
+You can learn more about [the issues in **Final Cut Pro 10.6.7**](https://github.com/CommandPost/FCPCafe/issues/223).
 
 {.compact}
 | Plugin                   | Known Issues                                                                                            |

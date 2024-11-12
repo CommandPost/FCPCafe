@@ -231,7 +231,7 @@ I then explained the reasons why this new app of mine could be something alterna
 
 In concomitance with NAB, where several apps that make use of artificial intelligence to aid production and post production were presented or announced, those in charge of FxFactory were convinced and switched on the green light.
 
-One thing needs to be emphasized: FxFactory is not only a store, a showcase, but those who run it put their faces first and consequently require a level of quality, communication, and even user experience that is far superior to what I had had up to that point.
+One thing needs to be emphasized: FxFactory is not only a store, a showcase, but those who run it put their faces first and consequently require a level of quality, communication, and even user experience that is far superior to what I had up to that point.
 
 If I had commercialized Transcriber all by myself, it would probably have come out in some form of its own in late April or early May 2023.
 
@@ -289,7 +289,7 @@ In the meantime, we got to the beginning of June 2023, I kept asking to get the 
 
 They were certainly right, but the timing of these final cleanups and subsequent approval left me with an open project, and every time I used it, which happens pretty much every day, I would come up with little features to add.
 
-As a result, what should have been a **"Minumum Viable Product"** was becoming an increasingly complex application, and of course with the need to handle any bugs I would generate by adding new code.
+As a result, what should have been a **"Minimum Viable Product"** was becoming an increasingly complex application, and of course with the need to handle any bugs I would generate by adding new code.
 
 ---
 

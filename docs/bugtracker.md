@@ -1,20 +1,20 @@
 # Bug Tracker
 
 !!!success Want to add something to the Bug Tracker?
-Create a free GitHub account then [click here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
+Create a free GitHub account then [create a ticket](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=)!
 !!!
 
 This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.
 
 **The only way Apple's management will put bug fixes and feature requests into their engineers work queue is if they have a Feedback Request about it.**
 
-You can read our recommendations on if you should update Final Cut Pro [here](/update-guide/).
+You can read our [recommendations on if you should update Final Cut Pro](/update-guide/).
 
 We keep track of these bugs via our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-To submit a new bug report, simply sign up for a **free GitHub account** and post an issue [here](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
+To submit a new bug report, simply sign up for a **free GitHub account** and [post an issue](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=bug-report.md&title=).
 
 If you'd prefer not to use GitHub, then you can always email us your bug report: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 

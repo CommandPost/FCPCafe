@@ -27,8 +27,8 @@ Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 #### User Reviews
 
 :::review
-I’ve been absolutely flatout while working in Thailand.
-[Wipsters](https://www.wipster.io) has been been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io) can send Wipster notes straight into #fcpx
+I’ve been absolutely flat out while working in Thailand.
+[Wipsters](https://www.wipster.io) has been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io) can send Wipster notes straight into #fcpx
 
 _Alister Robbie via [Twitter](https://twitter.com/alisterrobbie/status/1664105856475238400)_
 :::
@@ -46,7 +46,7 @@ _Robert heinlein's son – May 31, 2023 (Apple App Store Review)_
 {{ include "five-stars" }}
 
 Amazing simple
-I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usualy do, begin at the end of the edit and work backwards.
+I wanted an app like this since I started editing. Now for the first time I can process the comments I get via an e-mail on an edit from the start and not, as I usually do, begin at the end of the edit and work backwards.
 
 _Blazy – Apr 6, 2023 (Apple App Store Review)_
 :::

@@ -20,7 +20,7 @@ It's easily searchable by:
 
 You can also submit your own projects to be included.
 
-You can check it out [here](https://fcp-cafe.notion.site).
+You can check out the [FCP Cafe Notion Database](https://fcp-cafe.notion.site).
 
 ---
 
@@ -28,7 +28,7 @@ You can check it out [here](https://fcp-cafe.notion.site).
 
 At the FCP Creative Summit in 2023, Apple announced that all their 180+ **WWDC Developer Videos** were cut in Final Cut Pro, along with the thousands of **Apple Fitness+ videos**.
 
-[Trim Editing](https://trimediting.com/) in London also uses Final Cut Pro for all its editors - they cut some of the top TVCs and music videos in the world, including some of the best Apple commercials. You can read more [here](/case-studies/periodsomnia/).
+[Trim Editing](https://trimediting.com/) in London also uses Final Cut Pro for all its editors - they cut some of the top TVCs and music videos in the world, including some of the best Apple commercials. You can read the [Periodsomnia case study](/case-studies/periodsomnia/).
 
 Marques Brownlee's [MKBHD](https://www.youtube.com/user/marquesbrownlee) team (**19.6M subscribers** on YouTube) also cut in Final Cut Pro. You can watch their epic masterclass [here](https://www.youtube.com/watch?v=3dQ6yKSttEc&t=1095s).
 
@@ -38,7 +38,7 @@ Here's some other success stories:
 - Luis Fonsi - Despacito ft. Daddy Yankee (2017) {{fcpx}} {{watch}}(https://www.youtube.com/watch?v=kJQP7kiw5Fk) {{casestudy}}(https://web.archive.org/web/20230321022427/https://fcp.co/final-cut-pro/articles/2008-cut-with-fcp-x-despacito-gets-over-4-billion-views-on-youtube-and-is-nominated-for-best-music-video-in-the-2017-latin-grammy-awards) - **_8,181,158,261 views on YouTube_**
 - Neighbours: Erinsborough High (2019) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10925930/) {{casestudy}}(https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia) - **_Cut, Graded & Sound Mixed in FCPX_**
 - O Shaolin do Sertão (2016) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt5786508/) - **_First Brazilian feature edited on Final Cut Pro X_**
-- Final Cut Pro editor [Jonny Lewis](https://jonnylewisfilms.com) recently won **Filmmaker Of The Year Supreme Champion Award** in the **Pro Moviemaker International Awards**, for a number of films he made with Jay Goldmark & [Goldmark Films](https://jonnylewisfilms.com/goldmarkfilms). You can read more on Jonny's blog [here](https://jonnylewisfilms.com/blog/2024/6/19/filmmaker-of-the-year-award-winner-jonnylewisfilmscom).
+- Final Cut Pro editor [Jonny Lewis](https://jonnylewisfilms.com) recently won **Filmmaker Of The Year Supreme Champion Award** in the **Pro Moviemaker International Awards**, for a number of films he made with Jay Goldmark & [Goldmark Films](https://jonnylewisfilms.com/goldmarkfilms). You can read more on [Jonny's blog](https://jonnylewisfilms.com/blog/2024/6/19/filmmaker-of-the-year-award-winner-jonnylewisfilmscom).
 
 ---
 
@@ -113,7 +113,7 @@ Here's some other success stories:
 - Ripples Of Life (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt13736078/)
 - The Business of Christmas 2 (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt14662334/)
 - Why? (2021) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10313806/)
-- The Portait of a Nightmare (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11853706/)
+- The Portrait of a Nightmare (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt11853706/)
 - May the Devil Take You Two (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10776270/)
 - Isi & Ossi (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt9806322/)
 - La leyenda negra (2020) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt10313748/)

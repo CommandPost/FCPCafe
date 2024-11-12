@@ -12,4 +12,4 @@ News Import works well alongside other 3rd party applications such as [Producers
 
 This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.
 
-You can learn more [here](https://latenitefilms.github.io/NewsImport/).
+Learn more [about News Import](https://latenitefilms.github.io/NewsImport/).

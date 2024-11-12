@@ -58,9 +58,9 @@ Arctic (previously Final Cut Library Manager) is your single-view source of trut
 
 Chris is the Lead Developer on Hedge's Arctic, and also helps out with other Hedge applications such as [EditReady](https://hedge.co/products/editready).
 
-You can learn more about how this happened [here](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
+You can learn more [about how this happened](https://blog.hedge.video/a-new-home-for-final-cut-library-manager/).
 
-You can learn more about Arctic [here](https://hedge.co/products/arctic).
+You can learn more [about Arctic](https://hedge.co/products/arctic).
 
 ---
 
@@ -70,7 +70,7 @@ BretFX is a leading provider of plugins, effects, titles, transitions and templa
 
 Chris helped Bret throw together a Swift/SwiftUI installer, bringing BretFX to the Apple App Store.
 
-You can check out BretFX's apps on the Mac App Store [here](https://apps.apple.com/au/developer/poptop-production-llc/id1744600123).
+You can check out [BretFX's apps on the Mac App Store](https://apps.apple.com/au/developer/poptop-production-llc/id1744600123).
 
 ---
 
@@ -80,7 +80,7 @@ The avant-garde Marker extraction application crafted for Final Cut Pro. It allo
 
 Chris helped Vigneswaran Rajkumar right throughout the Marker Data development process from the initial idea through to release, and threw together [ShareDestinationKit](https://github.com/latenitefilms/ShareDestinationKit) to help get Custom Share Destinations working.
 
-You can learn more about Marker Data [here](https://markerdata.theacharya.co).
+You can learn more [about Marker Data](https://markerdata.theacharya.co).
 
 ---
 

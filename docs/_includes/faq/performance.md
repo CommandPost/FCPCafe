@@ -2,7 +2,7 @@
 
 **What is causing delay and laggy behaviour or even increased freezes?**
 
-FCP can lag with **timelines longer than 30 minutes**. Aside from slow drives, too less RAM or bad media management, it is the sheer amount of clips (Audio and Video) in a timeline that could hit on performance. It's hard to pin-point exactly, but it starts from around 500 assets (clips, titles, effects) in the timline.
+FCP can lag with **timelines longer than 30 minutes**. Aside from slow drives, too less RAM or bad media management, it is the sheer amount of clips (Audio and Video) in a timeline that could hit on performance. It's hard to pin-point exactly, but it starts from around 500 assets (clips, titles, effects) in the timeline.
 
 Apple Silicon Macs do perform significantly better than Intel Macs. With M1 Pro/Max+ timelines of 40-60 minutes should be no problem.
 

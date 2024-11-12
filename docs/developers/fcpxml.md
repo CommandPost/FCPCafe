@@ -32,7 +32,7 @@ The structure can represent a specific numeric time in the media timeline, and c
 
 ## Official Documentation
 
-You can find the official FCPXML documentation [here](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc).
+You can find the [official FCPXML documentation](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference?language=objc).
 
 ---
 
@@ -44,9 +44,7 @@ You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Cla
 
 ## DAWFileKit
 
-[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called DAWFileKit, which can read and process FCPXML.
-
-You can learn more [here](https://github.com/orchetect/DAWFileKit).
+[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called [DAWFileKit](https://github.com/orchetect/DAWFileKit), which can read and process FCPXML.
 
 ---
 
@@ -60,7 +58,7 @@ You can learn more [here](https://github.com/orchetect/DAWFileKit).
 
 In most cases, we'd recommend [DAWFileKit](https://github.com/orchetect/DAWFileKit) instead of Pipeline Neo, however we include it here as it does have some functionality that DAWFileKit is currently lacking.
 
-You can learn more [here](https://github.com/TheAcharya/pipeline-neo).
+You can learn more about [Pipeline Neo](https://github.com/TheAcharya/pipeline-neo).
 
 ---
 
@@ -80,7 +78,7 @@ macOS has a built in XML lint tool - allowing you to validate a `FCPXML` documen
 A DTD (Document Type Definition) file is used in XML to define the structure and the legal elements and attributes of an XML document. It's a set of markup declarations that provide a rulebook for a specific type of XML document, describing what the document contains and how those elements and attributes are organised.
 !!!
 
-You can download all the `FCPXML` `DTD` files [here](https://github.com/CommandPost/CommandPost/tree/develop/src/extensions/cp/apple/fcpxml/dtd).
+You can download all the [`FCPXML` `DTD` files](https://github.com/CommandPost/CommandPost/tree/develop/src/extensions/cp/apple/fcpxml/dtd).
 
 You can then use this Terminal Command to validate things:
 
@@ -219,7 +217,7 @@ If we look at the `offset`, it's the same as the Gap Duration:
 
 > 104700 / 2500 = 41.88 seconds (`00:00:41:22` / 1047 frames)
 
-If we look at the `start`, it's the same as the timecode we calcuated earlier:
+If we look at the `start`, it's the same as the timecode we calculated earlier:
 
 > 27613100 / 2500 = 11045.24 seconds (`03:04:05:06` / 276131 frames)
 
@@ -435,7 +433,7 @@ However we need to go a few more layers deep:
 
 Confusingly, for the `multicam` node, instead of `offset` we use `tcStart`. Also, because there is no `start` value in the `multicam` node, we can just use 0.
 
-The forumula now looks like this:
+The formula now looks like this:
 
 > `asset-clip.start` + `frameOfInterest` − `asset-clip.offset` + `sync-clip.start` − `sync-clip.offset` + 0 - `multicam.tcStart` + `mc-clip.start` - `mc-clip.offset`
 

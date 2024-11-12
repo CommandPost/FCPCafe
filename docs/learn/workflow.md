@@ -46,7 +46,7 @@ Feature film editor [Knut Hake](http://www.knuthake.de) has created an entire No
 
 [CommandPost](/ecosystem/tools/#commandpost) has as insanely powerful Toolbox called **Titles to Keywords**.
 
-You can learn more [here](https://web.archive.org/web/20230320121554/https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
+You can learn more in a [Script-focused Feature Film Workflow for Final Cut Pro](https://web.archive.org/web/20230320121554/https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
 
 ![](/static/toolbox-titles-to-keywords.png)
 
@@ -169,7 +169,7 @@ Each event in Final Cut Pro is its own Core Data database.
 
 ![](/static/inside-library.png)
 
-You can learn more about the library structure [here](/developers/librarybundle/).
+You can learn more about the [library structure](/developers/librarybundle/).
 
 Given this, we recommend splitting up your media into multiple events, rather than putting all your media in a single event powered by a single database.
 
@@ -179,7 +179,7 @@ For example, this is from a **5 x 30min** broadcast television special:
 
 ![](/static/list-of-events.jpeg)
 
-You can learn more about this workflow [here](https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia).
+You can learn more about [Chris Hocking's workflow](https://web.archive.org/web/20230402100349/https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia).
 
 Here's an example of a library for a job where all the user interface designs were build in Final Cut Pro for a game:
 

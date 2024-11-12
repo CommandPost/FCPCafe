@@ -15,17 +15,15 @@ The cost is **USD$599** (minus the 15% discount above), which includes:
 - 🤝 Networking Opportunities
 
 
-You can register [here](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
+You can [register](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
 
-You can view the program [here](https://fcpcreativesummits.com/program/).
+You can view the [program](https://fcpcreativesummits.com/program/).
 
 ---
 
 ### Isaac T's Advice
 
-Isaac T. has written some great advice leading up to the FCP Creative Summit.
-
-Check it out [here](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html).
+[Isaac T. has written some great advice](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html) leading up to the FCP Creative Summit.
 
 ---
 
@@ -57,7 +55,7 @@ You can watch on Vimeo here:
 
 **Richard Taylor** has announced that the **Final Cut Pro Creative Summit** will be happening **13th to 15th November** at **Juniper Hotel Cupertino**.
 
-You can learn more on Richard's Final Cut TV & Coffee YouTube Channel [here](https://www.youtube.com/watch?v=AhZNBV7vcpA).
+You can learn more on [Richard's Final Cut TV & Coffee YouTube Channel](https://www.youtube.com/watch?v=AhZNBV7vcpA).
 
 ---
 
@@ -75,7 +73,7 @@ Dates have shifted a little later this year, and it’s being held from 13-15 No
 
 If you largely live online, or (like me) on the other side of the planet, it’s worth getting together with a bunch of like-minded editors every now and again. Online is OK, and yes, you can learn new things there, but food, drink, and proximity to actual people can’t be replaced. I won’t be the only Australian there either — Chris Hocking, the kind and benevolent person behind this site and CommandPost, is coming again this year. Be sure to say hi, and if you’re not already supporting CommandPost, buy him a drink!
 
-After Apple Day, we’ll still have two days of talks, plus panels, special guests, and a tip show. I’m giving two talks this year, teaching you how to **Make Useful Editing Tools with Motion** on Thursday, and then on Friday **3D, Spatial and Immersive Video**. The full program is [here](https://fcpcreativesummits.com/program/) and there are some great talks scheduled. I’m personally very keen to learn how the Fitness+ team use FCP, to hear what Strada’s Michael Cioni has to say, and for the chat with Tyler Stalman before the closed-doors-no-recording-gloves-off Q&A with the FCP team.
+After Apple Day, we’ll still have two days of talks, plus panels, special guests, and a tip show. I’m giving two talks this year, teaching you how to **Make Useful Editing Tools with Motion** on Thursday, and then on Friday **3D, Spatial and Immersive Video**. The [full program](https://fcpcreativesummits.com/program/) has some great talks scheduled. I’m personally very keen to learn how the Fitness+ team use FCP, to hear what Strada’s Michael Cioni has to say, and for the chat with Tyler Stalman before the closed-doors-no-recording-gloves-off Q&A with the FCP team.
 
 If you’re an FCP editor, and you travel for just one video event a year, I think this is more fun than NAB — and it’s all about the people. See you there!
 
@@ -103,11 +101,11 @@ You can read about the 2023 Final Cut Pro Creative Summit on FCP Cafe:
 
 **Paul Matthijs Lombert** from Hedge has also written about the FCP Creative Summit on his blog post titled, [Visiting Cupertino](https://blog.hedge.video/visiting-cupertino/).
 
-You can visit the **official website** [here](http://fcpcreativesummits.com).
+You can visit the [**official website**](http://fcpcreativesummits.com).
 
-You can find the official **program** [here](http://fcpcreativesummits.com/program/).
+You can find the official [**program**](http://fcpcreativesummits.com/program/).
 
-You can find a list of **speakers** [here](http://fcpcreativesummits.com/speakers/).
+You can find a list of [**speakers**](http://fcpcreativesummits.com/speakers/).
 
 ![](/static/fcp-creative-summit-2023.jpg)
 
@@ -121,7 +119,7 @@ You can watch here:
 
 [![](/static/jenn-jager-fcpcs.jpeg)](https://www.youtube.com/watch?v=P1qDKWWmYV4)
 
-You can learn more about Jenn [here](https://jennjager.com). She's the best.
+You can learn more about [Jenn](https://jennjager.com). She's the best.
 
 ---
 
@@ -151,7 +149,7 @@ It’s no secret that I like the Summit, even better than NAB. It’s not becaus
 
 See you there?
 
-Iain has also written a post on ProVideo Coalition [here](https://www.provideocoalition.com/the-final-cut-pro-creative-summit-2023/).
+Iain has also written a [post on ProVideo Coalition](https://www.provideocoalition.com/the-final-cut-pro-creative-summit-2023/).
 
 ---
 
