@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 12 Nov 2024 00:20:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Nov 2024 18:52:39 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 Nov 2024 00:20:26 GMT</pubDate>
+        <pubDate>Tue, 12 Nov 2024 18:52:39 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8037,6 +8037,90 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#11th-november-2024</link>
             <guid isPermaLink="false">11th November 2024</guid>
             <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th November 2024]]></title>
+            <description><![CDATA[<p><strong>Metaburner v1.1.0</strong> is out now on FxFactory!</p>
+<p><img src="/static/metaburner-v1-1-0.png" alt=""></p>
+<p>For those that have been following along, Metaburner has proven to be one of the most challenging and complicated things I've ever built.</p>
+<p>The idea is simple - we just want to be able to &quot;burn in&quot; metadata from a Final Cut Pro project, simple, right?</p>
+<p>Whilst it didn't take me very long to throw together a proof-of-concept, getting it to work well proved to be incredibly complicated.</p>
+<p><strong>Metaburner v1.0.0 (Build 1)</strong> hit Apple's TestFlight on <strong>16th December 2023</strong>.</p>
+<p>Thanks to the feedback and support of some of the best minds in the Final Cut Pro community, we iterated fast and pushed out <a href="https://metaburner.pro/release-notes/">quite a few updates</a> improving things.</p>
+<p>By <strong>8th January 2024</strong>, <strong>Metaburner v1.0.0 (25)</strong> hit FxFactory, our first product to be sold outside the Mac App Store.</p>
+<p>All our initial paid apps, such as <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> and <a href="https://fastcolletions.io">Fast Collections</a> were all released on the Apple Mac Store.</p>
+<p>So, why FxFactory? FxFactory has a number of benefits for us:</p>
+<ul>
+<li>FxFactory is a highly curated store focussed on editing professionals with a huge catalog of amazing products</li>
+<li>FxFactory offers free trials and watermarked versions</li>
+<li>FxFactory doesn't require Apps to be sandboxed</li>
+<li>FxFactory offers developers advice and code-level technical support/guidance</li>
+<li>FxFactory helps with user technical support</li>
+<li>FxFactory helps with marketing and promotion</li>
+<li>FxFactory has a number of technologies built into their software platform to make sure Motion Templates are updated correctly</li>
+<li>The FxFactory team are super smart and super lovely - you have direct contact with their developers/engineers</li>
+</ul>
+<p>On <strong>24th January 2024</strong> we released <strong>Metaburner v1.0.7 (35)</strong> on FxFactory - but then there was radio silence... except if you're in the Final Cut Pro Discord group.</p>
+<p>After pushing out <code>v1.0.7</code> we decided to go back to the drawing board on a lot of things.</p>
+<p>Whilst Metaburner was working fine in a lot of cases - for example, if you just have standard clips on a timeline - it wasn't working in more complex cases, such as re-timed Multicam Clips containing Sync Clips.</p>
+<p>I enlisted the help of my long-time friend and collaborator <a href="https://github.com/randomeizer">David Peterson</a> to do some paid full-time work on <code>FCPXMLKit</code> - our own Swift-based FCPXML engine that's doing a lot of the magic behind-the-scenes.</p>
+<p>David also wrote <a href="https://capacitor.pro">Capacitor</a> (which allows you to easily convert between FCPXML versions) as a test case for <code>FCPXMLKit</code>.</p>
+<p>Things that we thought would be simple, turned out to be days and weeks of work.</p>
+<p>I knew that Metaburner was never going to make any money, and investing so much time and money into the project was kinda insane - but I also knew that this kind of tool was so important to editors working in long-form - it's just something that NEEDED to exist.</p>
+<p>FCPXML is insanely complex - and even though I work with it all the time, <a href="https://fcp.cafe/developers/fcpxml/#getting-source-timecode">even I have trouble explaining it</a> in some cases.</p>
+<p>After months of work, lots of maths (I'm terrible at maths), lots of experimentation, we FINALLY got FCPXMLKit to a point where it was working great in most cases.</p>
+<p>But we also hit some performance issues - Metaburner was working, but it was slow.</p>
+<p>Again, after months or work, emailing every Swift/FCPXML genius I know, and lots of swearing... EVENTUALLY I was able to get performance to a good state too.</p>
+<p>It's not the most zippy of applications - but at the same time, it actually performs pretty fast compared to Final Cut Pro's own exporting of FCPXML on large libraries!</p>
+<p>So whilst things have been fairly quiet publicly, we did 14 private beta builds of <strong>Metaburner <code>v1.1.0</code></strong> - and there was a lot of Discord discussion happening!</p>
+<p>I'm am HUGELY thankful to everyone who's been testing and putting Metaburner through it's paces.</p>
+<p>HUGE THANK YOU to Matthieu Laclau, Sam Pluemacher, Knut Hake, Robin Moran, Florian Duffe, Tyler Nelson, Marcos Castiel, Geoffrey Orthwein, Josh Beal, Alex '4D' Gollner and Vigneswaran Rajkumar!</p>
+<p>Also, an absolutely MASSIVE THANK YOU to the incredible <a href="https://github.com/orchetect">Steffan Andrews</a> - who is probably on-par with Intelligent Assistance's <a href="https://www.intelligentassistance.com/about-us/">Dr Gregory Clarke</a>, as the worlds best FCPXML expert.</p>
+<p>We've using Steffan's <a href="https://github.com/orchetect/TimecodeKit">TimecodeKit</a> under the hood, and have also had some fantastic video calls with him regarding his <a href="https://github.com/orchetect/DAWFileKit">DAWFileKit</a>, which is absolutely amazing if you're a Swift Developer working with FCPXML.</p>
+<p>So whilst I originally hoped to have Metaburner done and dusted by January 2024, it's taken until November to finally get it to a point where I'm mostly happy.</p>
+<p>Sadly, I'll never make back the money I invested in Metaburner and <code>FCPXMLKit</code> - however hopefully this tool will make it heaps easier for editors to cut long-form projects in Final Cut Pro.</p>
+<p>I learnt a HUGE amount for taking on this insane project, and we'll also be able to use <code>FCPXMLKit</code> for lots of other things in the future.</p>
+<p>You can download a free trial of Metaburner on <a href="https://fxfactory.com/info/metaburner/">FxFactory</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-november-2024</link>
+            <guid isPermaLink="false">12th November 2024</guid>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th November 2024]]></title>
+            <description><![CDATA[<p><strong>Jumper v2024.11.12</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<p><strong>🆕 Important Changes:</strong></p>
+<ul>
+<li>We've removed silence checks from the speech processing pipeline (for now, since it causes issues in some cases).</li>
+<li>If you have very long silent audio/video files, simply don't check the speech processing in the Media panel for these clips.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed issues with <code>.mxf</code> files having malformed timecode values.</li>
+<li>Error-safe parsing of <code>.caf</code> audio file metadata.</li>
+<li>We no longer ignore an audio file if there is some issue parsing the audio channel count.</li>
+</ul>
+<p>You can download and learn more <a href="https://getjumper.io">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-november-2024</link>
+            <guid isPermaLink="false">12th November 2024</guid>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th November 2024]]></title>
+            <description><![CDATA[<p><strong>evrExpanse <code>v5.1.0</code></strong> is out now!</p>
+<p>It has the following improvements:</p>
+<ul>
+<li>Significant performance boost when exporting metadata, up to 4x faster on Apple Silicon and 8x faster on Intel Macs, plus optimized Finder Tags extraction.</li>
+<li>Improved precision in extracting gamma curve metadata from Sony Alpha cameras.</li>
+<li>Fix Gamma Notes and Color Space metadata acquisition when Sony Alpha cameras get GPS coordinates from mobile device.</li>
+</ul>
+<p>You can learn more <a href="https://www.evrapp.cloud/evrexpanse">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-november-2024</link>
+            <guid isPermaLink="false">12th November 2024</guid>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
