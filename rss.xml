@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 14 Nov 2024 08:39:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 08:50:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Nov 2024 08:39:25 GMT</pubDate>
+        <pubDate>Thu, 14 Nov 2024 08:50:30 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8272,6 +8272,8 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p><a href="https://www.youtube.com/watch?v=4a2dIouFr70"><img src="/static/fcpcs24-ripple-training-youtube.jpg" alt=""></a></p>
 <p>As has the incredible <strong>Jenn Jager</strong> in her <strong>Final Cut Pro Update | THIS IS THE BIG ONE!</strong> video on <a href="https://www.youtube.com/watch?v=29Ry5b4XDa8">YouTube</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=29Ry5b4XDa8"><img src="/static/fcpcs24-jenn-youtube.jpg" alt=""></a></p>
+<p><strong>Dylan Bates (The Final Cut Bro)</strong> has also released a video on <a href="https://www.youtube.com/watch?v=HH1EpDJvT2s">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=HH1EpDJvT2s"><img src="/static/fcpcs24-dylan.jpeg" alt=""></a></p>
 <p>Again, quoting the <a href="https://support.apple.com/en-us/102825">release notes</a>...</p>
 <p><img src="/static/fcpcs24-whats-new.png" alt=""></p>
 <p><strong>Final Cut Pro 11.0</strong> includes the following enhancements:</p>
@@ -8389,6 +8391,16 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p><img src="/static/fcpcs24-apple-park-at-night.jpeg" alt=""></p>
 <p>And this is only <strong>day one</strong> of the conference. Tomorrow we get to hear the keynote talk from the one and only Michael Cioni from <a href="https://strada.tech">Strada</a>, which will be SUPER exciting!</p>
 <p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-november-2024</link>
+            <guid isPermaLink="false">13th November 2024</guid>
+            <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th November 2024]]></title>
+            <description><![CDATA[<p><strong>Arctic 24.3</strong> is out now!</p>
+<p>It includes support for Final Cut Pro 11, and has a spiffy new UI!</p>
+<p>You can download and learn more <a href="https://hedge.co/products/arctic">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#13th-november-2024</link>
             <guid isPermaLink="false">13th November 2024</guid>
