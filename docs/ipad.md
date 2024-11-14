@@ -6,13 +6,13 @@ This section is dedicated to Final Cut Pro for iPad.
 
 ### User Manual
 
-You can find the Final Cut Pro for iPad manual [here](https://support.apple.com/en-au/guide/final-cut-pro-ipad/welcome/ipados).
+See the [Final Cut Pro for iPad manual](https://support.apple.com/en-au/guide/final-cut-pro-ipad/welcome/ipados).
 
 ---
 
 ### Apple Support
 
-You can find the official Apple Support site [here](https://support.apple.com/final-cut-pro).
+See Apple's official [Final Cut Pro Support site](https://support.apple.com/final-cut-pro).
 
 ---
 
@@ -22,9 +22,7 @@ You can find the official Apple Support site [here](https://support.apple.com/fi
 
 ### Introducing Final Cut Pro for iPad
 
-The amazing [Iain Anderson](https://iain-anderson.com) has released a new **free** online training course for **Final Cut Pro for iPad**.
-
-You can learn more [here](https://macprovideo.com/course/introducing-final-cut-pro-for-ipad).
+The amazing [Iain Anderson](https://iain-anderson.com) has released a new **free** online [training course for **Final Cut Pro for iPad**](https://macprovideo.com/course/introducing-final-cut-pro-for-ipad).
 
 ---
 
@@ -56,7 +54,7 @@ You can find about how to setup Sidecar on [Apple's support site](https://suppor
 
 You can absolutely use your iPad as an A/V Output for Final Cut Pro, however it requires some extra setup.
 
-First you must install NDI Tools on your Mac by downloading [here](https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg).
+First you must install NDI Tools on your Mac by downloading the [NDI Tools Installer](https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg).
 
 Once you've installed and restarted your Mac, an NDI option will appear in your **A/V Output** settings in Final Cut Pro:
 

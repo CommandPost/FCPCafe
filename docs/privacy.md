@@ -16,7 +16,7 @@ We use [CloudFlare Website Analytics](https://www.cloudflare.com/en-au/web-analy
 
 Cloudflare Web Analytics does not use any client-side state, such as cookies or `localStorage`, to collect usage metrics. It also doesn't “fingerprint” individuals via their IP address, User Agent string, or any other data for the purpose of displaying analytics.
 
-You can read CloudFlare's privacy policy [here](https://www.cloudflare.com/en-au/privacypolicy/).
+You can read [CloudFlare's privacy policy](https://www.cloudflare.com/en-au/privacypolicy/).
 
 We use [GitHub Issues](https://github.com/CommandPost/FCPCafe/issues) to manage our [Bug Tracker](/bugtracker/) & [Wish List](/wishlist/).
 
@@ -24,7 +24,7 @@ We use [GitHub Discussions](https://github.com/CommandPost/FCPCafe/discussions) 
 
 The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app), which also has no tracking or database.
 
-You can read GitHub's Privacy Statement [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+You can read [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 The source code and change log for this website can be found on [GitHub](https://github.com/CommandPost/FCPCafe).
 
@@ -50,7 +50,7 @@ We have no control over, and assume no responsibility for the content, privacy p
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
 
-You can check the change history of this privacy policy [here](https://github.com/CommandPost/FCPCafe/commits/main/docs/privacy.md).
+You can check the change history of this [privacy policy](https://github.com/CommandPost/FCPCafe/commits/main/docs/privacy.md).
 
 ---
 

@@ -14,7 +14,7 @@ This television series is an adaptation of the novel by **Melanie Raabe**.
 
 ![Still frames of Der Schatten. A woman in front of a painting of a wounded woman, a winding staircase, two people in a mortuary, a steep escalator](/static/the-shadow-1.jpg)
 
-You can watch the show [here](https://www.zdf.de/serien/der-schatten) (eventually geofenced, if your not in Germany).
+You can [watch the show](https://www.zdf.de/serien/der-schatten) (eventually geofenced, if you are not in Germany).
 
 ---
 
@@ -141,7 +141,7 @@ But you can open a copy of the last safe at any time.
 ![Main user interface of PostLab](/static/the-shadow-7.jpg)
 
 All additional Media, like Music, VFX-mixdowns, SoundFX, etc., is synced via postlab.drive.
-Setting up PostLab.drive to sync the additional files on 4 workstations correctly takes a little bit of effort, comparable to other backup-structures. The goal here is to not duplicate files or overwright folders. (Thanks [Sam Plue](https://twitter.com/sam_plue?s=20) for the help!)
+Setting up PostLab.drive to sync the additional files on 4 workstations correctly takes a little bit of effort, comparable to other backup-structures. The goal here is to not duplicate files or overwrite folders. (Thanks [Sam Plue](https://twitter.com/sam_plue?s=20) for the help!)
 
 This was the Finder folder structure on every workstation:
 
@@ -201,7 +201,7 @@ To complement the flood of footage and keep 4 Editors in the loop about the shoo
 
 Below you see the arrangement for every shooting day. We can look ahead what is coming the next days, what is shot, but not yet delivered to us and what is ready to edit.
 
-![View of a notion database, every shooting day is a collumn, every collumn shows cards for the scheduled scenes](/static/the-shadow-15.jpg)
+![View of a notion database, every shooting day is a column, every column shows cards for the scheduled scenes](/static/the-shadow-15.jpg)
 
 Each scene is represented by a card. It provides a summary of the state of shooting and syncing. Additionally there is a screenshot, special comments from director and Assistant Editor. We can write notes of our own about the state of editing in case someone else will pick up the scene later on, and even report back to the set, for example to the Script Supervisor.
 
@@ -223,7 +223,7 @@ Or you can simply have a nice gallery of your episode to get an impression of th
 Line-by-Lines, or parts, as I call it, is the process of splitting every take of one scene into little chunks, usually for one line of dialogue or one particular action. These little chunks are reordered so that you can watch every similar part of every take in succession. In this way you can quickly compare every angle and find the best shot or dialogue.
 !!!
 
-Shortly before our production started Chris Hocking had the **Titles to Keywords** feature for [CommandPost](/ecosystem/tools/#commandpost) ready (commissioned by Knut Hake) and it rendered my old workflow obsolet. Before, we would tag every Sync Clip in the Browser with keywords. Even with dedicated shortcuts and scripting it was not an easy task. If you made a mistake and had to go back one step you could loose orientation. Now, we can complete the entire process within a timeline and with titles and we can also adjust each step throughout the process.
+Shortly before our production started Chris Hocking had the **Titles to Keywords** feature for [CommandPost](/ecosystem/tools/#commandpost) ready (commissioned by Knut Hake) and it rendered my old workflow obsolete. Before, we would tag every Sync Clip in the Browser with keywords. Even with dedicated shortcuts and scripting it was not an easy task. If you made a mistake and had to go back one step you could loose orientation. Now, we can complete the entire process within a timeline and with titles and we can also adjust each step throughout the process.
 
 As you can see below its as easy as:
 

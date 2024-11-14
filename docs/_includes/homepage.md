@@ -2,7 +2,7 @@
 +++ RSS Feed
 [!button variant="primary" target="blank" text="Get the Latest News via our RSS Feed"](/rss.xml)
 
-Learn more about RSS Feeds [here](/rss/).
+Learn more [about RSS Feeds](/rss/).
 +++ Safari
 1. In the top left corner of your screen, select **Safari** and then **Preferences** and then **General**.
 2. Next to **New windows open with** and **New tabs open with**, select **Homepage**.

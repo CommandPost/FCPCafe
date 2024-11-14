@@ -2,7 +2,7 @@
 
 This section of the site is dedicated to **FxPlug**.
 
-You can find the official FxPlug 4 documentation [here](https://developer.apple.com/documentation/professional_video_applications/fxplug).
+You can find the [official FxPlug 4 documentation](https://developer.apple.com/documentation/professional_video_applications/fxplug).
 
 If you want a real-world example of a FxPlug 4 application, you can look at [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/).
 
@@ -30,7 +30,7 @@ If you're using OSC controls via FxPlug, even if you're not drawing something to
 
 ### Can I change a `ParameterSubGroup` `Name` via code?
 
-No, currently it doesn't seem possible. See bug report [here](https://github.com/CommandPost/FCPCafe/issues/312).
+No, currently it doesn't seem possible. See [bug report](https://github.com/CommandPost/FCPCafe/issues/312).
 
 Apple confirms:
 

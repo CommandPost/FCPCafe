@@ -10,7 +10,7 @@ You can make changes to the site by [submitting pull requests on GitHub](https:/
 
 We welcome and encourage users submitting their own **case studies**, **articles**, **products** and **news items**.
 
-You can see all the current contributors [here](https://github.com/CommandPost/FCPCafe/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe).
+You can see all the [current contributors](https://github.com/CommandPost/FCPCafe/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/FCPCafe).
 
 The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
@@ -58,7 +58,7 @@ There's a bunch of stuff we can add to the FAQ - these are real questions from t
 - ‘What have I done’ you’ve opened the precision editor, ESC will close it.
 - Help!!! It’s saying my storage is full and I’m only working on a five minute zoom call!!!!
 - (Turn off background rendering and select leave files in place…)
-- Why do we have to render over and over again a project with titles everytime we close the program
+- Why do we have to render over and over again a project with titles every time we close the program
 
 ---
 
@@ -151,7 +151,7 @@ You should make sure all external links open in a new tab/window (edit this page
 
 If you're modifying a list of Tools or Workflow Extensions, everything should be sorted in alphabetical order.
 
-You can learn more about basic formatting [here](https://retype.com/guides/formatting/).
+You can learn more about [basic formatting](https://retype.com/guides/formatting/).
 
 ![Edit this file](/static/editor.png)
 
@@ -187,7 +187,7 @@ For example to edit this page you can use:
 https://github.dev/CommandPost/FCPCafe/blob/main/docs/contribute.md
 ```
 
-You can learn more [here](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
+You can learn about [the github.dev web-based editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
 
 ---
 
@@ -217,9 +217,7 @@ You can use [this website](https://youtube-thumbnail-grabber.com) for download Y
 
 ### Images
 
-All images should be stored within the `/docs/static/` folder on GitHub.
-
-You can find it [here](https://github.com/CommandPost/FCPCafe/tree/main/docs/static).
+All images should be stored within the [`/docs/static/` folder on GitHub](https://github.com/CommandPost/FCPCafe/tree/main/docs/static).
 
 ---
 
@@ -229,7 +227,7 @@ You can also use GitHub Desktop to essentially "clone" the entire FCP Cafe websi
 
 You can then make changes locally, and once done, submit a pull request back to the main GitHub repository.
 
-You can download GitHub Desktop [here](https://desktop.github.com).
+You can download [GitHub Desktop](https://desktop.github.com).
 
 You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/) to edit your Markdown files on your Mac.
 

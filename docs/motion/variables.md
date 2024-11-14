@@ -10,7 +10,7 @@ Special thanks to [F•X Mahoney](https://twitter.com/sightcreations) from [FCPx
 
 > One new thing I found out today— if you use `@#$sourceObject_sourceName`, it provides the name of the original project - that is - if you duplicated a project, `sourceName` actually provides the source project it was duplicated from. (Accidental find - totally surprised.)
 
-You can also download an example Motion Template effect [here](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip).
+You can also download an [example Motion Template effect](https://github.com/CommandPost/FCPCafe/raw/main/downloads/clip-info.zip).
 
 The output of the effect looks like this in Final Cut Pro 10.6.6 (created in Motion 5.6.4):
 

@@ -8,4 +8,4 @@ Or if you have an old FCPXML in your archives, you can upgrade from `v1.8` to `v
 
 Because Capacitor ensures it outputs FCPXML following Apple's strict DTD rules, you can also use Capacitor to "clean" FCPXMLs.
 
-You can learn more [here](https://capacitor.pro).
+Learn more [about Capacitor](https://capacitor.pro).
