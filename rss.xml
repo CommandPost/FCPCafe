@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 14 Nov 2024 22:59:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 Nov 2024 09:51:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Nov 2024 22:59:47 GMT</pubDate>
+        <pubDate>Fri, 15 Nov 2024 09:51:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8405,6 +8405,178 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#13th-november-2024</link>
             <guid isPermaLink="false">13th November 2024</guid>
             <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th November 2024]]></title>
+            <description><![CDATA[<p>Today was the second day of the <strong>2024 Final Cut Pro Creative Summit</strong>, and it was super fun and informative.</p>
+<p>But before we get into the news from today, just to touch on some things from yesterday...</p>
+<p>First up, Matthew O'Brien has released a <a href="https://www.youtube.com/watch?v=b0CmR9MK5WU">new video on YouTube</a> talking about Final Cut Pro 11:</p>
+<p><a href="https://www.youtube.com/watch?v=b0CmR9MK5WU"><img src="/static/fcpcs24-matthew-o-brien.jpeg" alt=""></a></p>
+<p>Yesterday, I mentioned that I saw something I wasn't allowed to talk about, but today it's out and I can finally talk about it!</p>
+<p>As part of my Apple Vision Pro Demo at Apple Park I was very lucky to watch a sneak peak of <strong>The Weeknd: Open Hearts</strong> on Apple Vision Pro.</p>
+<p>It's a new immersive music experience that features Canadian singer-songwriter The Weeknd, filmed in ultra-high resolution 180-degree Apple Immersive Video with Spatial Audio.</p>
+<p>You can watch a trailer here:</p>
+<p><a href="https://www.youtube.com/watch?v=AMGNe9_gD_0"><img src="/static/fcpcs24-the-weeknd.jpg" alt=""></a></p>
+<p>It's insane. It was such an amazing experience on Apple Vision Pro.</p>
+<p>The most amazing part is that there's a section in the music video, where there's a lot of smoke from smoke machines.</p>
+<p>As someone who worked in live productions and concert lighting for many years, I've worked with smoke machines a LOT.</p>
+<p>When watching this music video in Apple Vision Pro, I could literally TASTE the smoke machines.</p>
+<p>My brain was apparently so convinced that what I was seeing was real, that it somehow triggered some prior memories and made me taste and feel something, that wasn't actually real.</p>
+<p>This is super interesting, and it's really something you need to watch on Apple Vision Pro to experience.</p>
+<p>The music video is amazing - it has some incredible visual effects, and the fact you can look around the frame is pretty amazing - the 2D trailer above really doesn't do it justice.</p>
+<p>If you get a chance to experience this epic music video in Apple Vision Pro, please do. You can watch it for free through the Apple TV app on Apple Vision Pro.</p>
+<p>In other news, <strong>Metaburner v1.1.1</strong> is out now with support for Final Cut Pro 11. You can download it now on <a href="https://metaburner.pro">FxFactory</a>.</p>
+<p>If you don't know what Metaburner is, you can read about it on a <a href="/news/20241112/">previous FCP Cafe news post</a>.</p>
+<p>One interesting thing about the new <strong>Magnetic Mask</strong> in Final Cut Pro is that it saves all the analyse data in a folder called <code>VideoSegmentationFiles</code> within the Final Cut Pro Library bundle.</p>
+<p>You can't move it outside the bundle - it needs to live inside the Library bundle (unlike other cache files). This is super interesting, and may present some challenges with collaborative workflows (i.e. with Postlab).</p>
+<p><strong>Magnetic Mask</strong> data is also not transferred with FCPXML - so if you export a project/timeline containing a clip with a Magnetic Mask, then re-import the FCPXML, the mask won't correctly come across - in fact, you'll just get an empty effect:</p>
+<p><img src="/static/fcpcs24-magnetic-mask-no-fcpxml.png" alt=""></p>
+<p>This could also prove to be a pain if you use FCPXML round-tripping in your workflow.</p>
+<p>Ok, back to the Summit... here was the day two schedule:</p>
+<p><img src="/static/fcpcs-day-two-program.jpeg" alt=""></p>
+<p>First up, we all had the incredible <strong>Michael Cioni</strong> from <a href="https://strada.tech">Strada</a> perform his presentation, <strong>Bet on the Future, bet on Yourself</strong>.</p>
+<p>I've talked about Michael a lot on FCP Cafe over the years - I'm a MASSIVE fan. He's insanely smart, and such an incredible public speaker. I would, and have literally flown across the world to hear him speak.</p>
+<p>I've seen him give presentations at <strong>Light Iron</strong> in LA for the feature film <a href="https://postperspective.com/final-cut-pro-x-resurrected-focus-advanced-workflow-final-cut-pro-x/"><strong>Focus</strong> back in 2015</a>.</p>
+<p>I've seen him talk at the <a href="https://www.youtube.com/watch?v=0j0kur5VU90">Lumaforge Faster Together Stage at NAB</a> back in 2019. I've seen him talk at the Frame.io NAB booth.</p>
+<p>Michael is so eloquent, passionate and prepared. He knows everything he's talking about back to front. He's a true filmmaker, who walks the talk.</p>
+<p>The Strada crew had some serious cameras recording the presentation so hopefully we'll see it on the <a href="https://www.youtube.com/@Strada-Tech">Strada YouTube channel</a> soon!</p>
+<p><img src="/static/fcpcs24-film-crew.jpeg" alt=""></p>
+<p>In the meantime, here's some photos from the epic presentation:</p>
+<p><img src="/static/fcpcs24-strada1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada7.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada8.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada9.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada10.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada11.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada12.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada13.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada14.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada15.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada16.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada17.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada18.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada19.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada20.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada21.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada22.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada23.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada24.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada25.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada26.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada27.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada28.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada29.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada30.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada31.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-strada32.jpeg" alt=""></p>
+<p>Michael's presentation was really awesome, I think everyone walked out of the room, excited, energised, and ready for action.</p>
+<p>After Michael's session, unfortunately I missed the other sessions before lunch, as I was busy in the corridors and hotel foyer chatting with Final Cut Professionals.</p>
+<p>This is the real power and benefit of the Final Cut Pro Creative Summit - the sessions are great, but some of the best moments are the random conversations you have with people in-between sessions.</p>
+<p>Lunch was supplied by the conference and it was really great - a proper hot meal, that was delicious! Thanks FMC!</p>
+<p>After lunch everyone went back into the main conference room for <strong>Shamir Allibhai</strong> (of <a href="https://www.simonsaysai.com">Simon Says</a> fame), talking about his new startup, <a href="https://heyeddie.ai">Eddie AI</a>.</p>
+<p><img src="/static/fcpcs24-eddie-ai-2.jpeg" alt=""></p>
+<p>You can watch the video he opened with below on <a href="https://www.youtube.com/watch?v=Pvh6pm4MKeo">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Pvh6pm4MKeo"><img src="/static/fcpcs24-eddie-ai.jpg" alt=""></a></p>
+<p>Eddie AI is basically ChatGPT for your footage. You can literally upload media from multiple cameras, and seperate audio, and automagically in the cloud, it will sync the cameras and audio and prepare it from a large language model (LLM, like ChatGPT).</p>
+<p>You can then &quot;chat&quot; to your footage, and get Eddie AI to create edits and selects for you.</p>
+<p>You can watch these edits in your browser, but also export these edits as videos and exchange formats, such as FCPXML for Final Cut Pro.</p>
+<p><img src="/static/fcpcs24-eddie-ai-1.png" alt=""></p>
+<p>You can sign up to test it out <a href="https://heyeddie.ai">on their website</a>.</p>
+<p>Next up, I attended <strong>Jeff Greenberg's</strong> session on <strong>AI Tools to Enhance Your Workflow</strong>.</p>
+<p>Jeff is an industry legend, and was one of the original founders of the FCP Creative Summit with Sam Mestman.</p>
+<p>He opened with a AI-generated song about the Final Cut Pro Creative Summit - it took some people in the audience a few minutes to realise what they were actually listening to!</p>
+<p>Jeff will eventually post his presentation <a href="https://www.jgreenbergconsulting.com">on his website</a>, however in the mean time, here's a look at some of his slides:</p>
+<p><img src="/static/fcpcs24-jeff-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-7.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-8.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-9.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-10.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-11.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-12.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-13.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-14.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-jeff-15.jpeg" alt=""></p>
+<p>If you haven't already heard about Jumper, this is a project I've personally helped out with, and you can read more about it on a <a href="/news/20241106/">previous FCP Cafe news post</a>.</p>
+<p>It's pretty awesome, and I'll be talking about it more in my session tomorrow.</p>
+<p>After Jeff, I went into the amazing <strong>Jenn Jager's</strong> presentation talking about <strong>Masking and Tracking Secrets in Final Cut Pro</strong> - mainly focussing on the Magnetic Mask.</p>
+<p><img src="/static/fcpcs24-jenn-jager-1.jpeg" alt=""></p>
+<p>This was a fantastic session, with lots of audience interaction and questions.</p>
+<p>One cool tip that came from the session is you can hold down SHIFT and move your mouse to adjust the brush size when working with the Magnetic Mask in Final Cut Pro.</p>
+<p>You can watch one of Jenn's awesome <a href="https://www.youtube.com/watch?v=yfl5w0Q-SIU">YouTube videos</a> explaining the Magnetic Mask below:</p>
+<p><a href="https://www.youtube.com/watch?v=yfl5w0Q-SIU"><img src="/static/fcpcs24-jenn-jager.jpeg" alt=""></a></p>
+<p>After Jenn, I attended <strong>Daniel Cohn's</strong> epic presentation on <strong>Movie Magic in Motion</strong>.</p>
+<p><img src="/static/fcpcs24-daniel-1.jpeg" alt=""></p>
+<p>Daniel is a true indie filmmaker, and absolute Apple Motion guru - and can do some absolutely incredible things with that tool.</p>
+<p><img src="/static/fcpcs24-daniel-2.jpeg" alt=""></p>
+<p>He showed off some insanely complex Motion projects. You can check out some of his amazing work on <a href="https://www.namastepictures.com">his website</a>.</p>
+<p>Finally, we had a very special presentation from <strong>Apple's Fitness+</strong> team.</p>
+<p>This was incredibly special, as it wasn't under NDA, and whilst there was no Q&amp;A session, they shared a lot of stats and information.</p>
+<p>Here's some of the slides:</p>
+<p><img src="/static/fcpcs24-fitnessplus-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-7.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-8.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-9.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-10.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-11.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-12.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-13.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-14.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-15.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-16.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-17.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-18.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-19.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-20.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-21.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-22.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-23.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-24.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-25.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-26.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-27.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-28.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-29.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-30.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-31.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-32.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-33.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-34.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-35.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-36.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-37.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-38.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-fitnessplus-39.jpeg" alt=""></p>
+<p>The below photo only contains <strong>ten percent</strong> of the team that work on Apple Fitness+:</p>
+<p><img src="/static/fcpcs24-fitnessplus-40.jpeg" alt=""></p>
+<p>This was an INSANELY interesting session, and it's so nice to see Apple using, and promoting their own software at such an epic scale!</p>
+<p>It's also super interesting what they're doing with FCPXML and custom Motion Templates to get on-set metadata into Final Cut Pro and back out again.</p>
+<p>They didn't get into the technical details, but they did mention they use the stock-standard Mac App Store version of Final Cut Pro, so we can only assume they use custom <a href="https://github.com/latenitefilms/ShareDestinationKit">Share Destinations</a> to export their ProRes masters ALONG with FCPXML containing all the additional metadata.</p>
+<p>One interesting thing to ponder though is... does the Fitness app on iPhone, iPhone and Apple TV actually run the Motion Engine under the hood for doing the personalised animation, or are they generating something similar using Swift/SwiftUI?</p>
+<p>After the Apple presentation it was then the Networking Expo Night - which again, had absolutely awesome food and a free drink.</p>
+<p><img src="/static/fcpcs24-expo-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-expo-2.jpeg" alt=""></p>
+<p>Overall, day two of the Final Cut Pro Creative Summit has proven to be just as fun and exciting as day one. I can't wait to see what's in-store for the third and final day tomorrow!</p>
+<p>I'll be personally presenting at 2pm.</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-november-2024</link>
+            <guid isPermaLink="false">14th November 2024</guid>
+            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
