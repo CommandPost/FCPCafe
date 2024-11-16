@@ -14,9 +14,11 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 17th September 2024
+**Last Updated:** 16th November 2024
 
 For most users, on modern Apple Silicon Mac's **Final Cut Pro 10.8.1** is rock solid.
+
+**Final Cut Pro 11.0.0** is brand new - but from early reports, aside from some weirdness with Magnetic Mask and collaboration - everything else seems fairly solid.
 
 **Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
@@ -33,6 +35,41 @@ If you're on **macOS Sonoma** - you should be fine to update to **macOS Sequoia*
 You can read full answers below...
 
 _FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with Sonoma 14.1.2 and FCPX 10.7 through hell since the 10.7 release, and it's been rock solid. Zero crashes. Zero issues. Faster exports. More responsive. Rock solid. I was previously on Monterey & 10.6.8, but Sonoma + Final Cut Pro 10.7 seems way more solid and reliable._
+
+---
+
+## Final Cut Pro 11
+
+**Final Cut Pro 11** was released at the Final Cut Pro Creative Summit on 13th November 2024.
+
+One interesting thing about the new **Magnetic Mask** in Final Cut Pro is that it saves all the analyse data in a folder called `VideoSegmentationFiles` within the Final Cut Pro Library bundle.
+
+You can't move it outside the bundle - it needs to live inside the Library bundle (unlike other cache files). This is super interesting, and may present some challenges with collaborative workflows (i.e. with Postlab).
+
+**Magnetic Mask** data is also not transferred with FCPXML - so if you export a project/timeline containing a clip with a Magnetic Mask, then re-import the FCPXML, the mask won't correctly come across - in fact, you'll just get an empty effect.
+
+There are some early reports of issues with Custom Overlays and exporting PNGs - but these are not yet confirmed.
+
+We've updated to Final Cut Pro 11 and haven't had any major issues yet - but tread with care, as this is a major update, as Final Cut Pro is now sandboxed.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | Requires updating for FCPXML v1.13                                                                      |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | Requires updating for FCPXML v1.13                                                                      |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | Use Arctic v24.3                                                                                        |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 

@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 11.0.0            | 13/11/2024   | 92                   | 15.1          | 4.3.1          |
 | 10.8.1            | 13/08/2024   | 54                   | 14.6.1        | 4.3            |
 | 10.8.0            | 20/06/2024   | 182                  | 14.5          | 4.3            |
 | 10.7.0            | 21/12/2023   | 21                   | 14.1.2        | 4.2.9          |
@@ -87,7 +88,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2021	| 5       |
 | 2022	| 4       |
 | 2023	| 7       |
-| 2024  | 2       |
+| 2024  | 3       |
 
 {.compact}
 | Quarter |	Updates |
@@ -95,7 +96,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Q1	  | 8       |
 | Q2	  | 15      |
 | Q3	  | 13      |
-| Q4	  | 18      |
+| Q4	  | 19      |
 
 {.compact}
 | Month | Updates |
@@ -110,12 +111,60 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Aug	| 5       |
 | Sept	| 4       |
 | Oct	| 6       |
-| Nov	| 7       |
+| Nov	| 8       |
 | Dec	| 6       |
 
 ---
 
 ## iPad
+
+### Final Cut Pro 2.1 (for iPad)
+
+**Released November 13, 2024**
+
+**Final Cut Pro for iPad 2.1** includes the following features and enhancements:
+
+- Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color effect, powered by machine learning.
+- Add personalized Live Drawing animations to your video with new watercolor, crayon, fountain pen, and monoline inks.
+- Highlight visuals with new Reframe effects, add video overlays with Modular transitions, and polish your content with even more color grading presets and soundtracks.
+- Edit high-frame-rate media with timeline support for 90, 100, and 120 fps settings.
+- Experience instant haptic feedback as you edit and navigate your projects using Apple Pencil Pro.
+- Increase efficiency with new keyboard shortcuts for common tasks in the browser and timeline.
+- Dynamically adjust the size and position of the viewer in Picture in Picture mode.
+
+**Improvements and bug fixes:**
+- Expand or minimize clip height in the timeline with a vertical pinch to zoom gesture.
+- Double-tap to reset white balance, manual focus, and exposure settings to default values in pro camera mode.
+- Fixes an issue that caused the front-facing camera to sometimes display the incorrect lens selection in pro camera mode.
+- Fixes an issue that could cause a browser clip to temporarily disappear when tapped.
+- Improves reliability when opening and closing the Keywords list with Apple Pencil and Magic Keyboard.
+- Fixes an issue that prevented nudging audio clips at subframe levels with the jog wheel.
+- Improves reliability when nudging primary storyline clips with the jog wheel in Position mode.
+- Improves reliability when nudging and trimming timeline clips with keyboard shortcuts.
+- Fixes an issue that sometimes prevented selecting timeline clips after deleting a connected clip.
+- Fixes an issue where replacing one soundtrack with another in the timeline did not match the original’s duration.
+- Fixes an issue that caused a soundtrack trimmed during playback to not update to the correct duration.
+- Fixes an issue that caused certain log clips to not fully display their color profile information in the inspector.
+- Fixes an issue that caused the transition name to not appear or update in the inspector.
+- Improves reliability when enabling and disabling onscreen controls for shape masks.
+- Includes stability and performance improvements.
+
+**Live Multicam improvements and bug fixes:**
+- Improves Live Multicam device discovery, connection, media transfer, and stability.
+- Improves Live Multicam clip syncing.
+- Fixes an issue that caused Live Multicam device previews to sometimes shift color after the first recording.
+- Fixes an issue that caused low storage alerts to sometimes appear incorrectly during recording.
+- Fixes an issue that caused an incorrect ISO value to sometimes appear in a connected device’s exposure settings.
+- Fixes an issue that could cause Live Multicam settings to not update Final Cut Camera settings correctly.
+
+**New keyboard shortcuts:**
+- Render Timeline: Control-Shift-R
+- Select All (Browser): Command-A
+- Deselect All (Browser): Shift-Command-A
+- Zoom In (Browser): Command-Plus Sign (+)
+- Zoom Out (Browser): Command-Minus Sign (-)
+
+---
 
 ### Final Cut Pro 2.0 (for iPad)
 
@@ -291,6 +340,36 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 11.0.0
+
+**Released November 13, 2024**
+
+**Final Cut Pro 11.0** includes the following enhancements:
+
+- Expand your creative freedom with the revolutionary AI-powered Magnetic Mask, and isolate people, objects, and shapes in any footage without a green screen or time-consuming manual rotoscoping (a Mac with Apple silicon recommended).
+- Use Transcribe to Captions to automatically create captions from spoken audio in the timeline with a powerful AI language model built for speed and accuracy (Mac with Apple silicon and macOS Sequoia or later required).
+- Import and edit spatial video clips from Apple Vision Pro or iPhone 15 Pro or later; add titles, color correction, and effects; and share captivating spatial projects that can be viewed on Apple Vision Pro (Mac with Apple silicon required).
+- Edit in the timeline at 90, 100, and 120 fps.
+- Reduce clutter in the browser by automatically hiding original clips when creating synced clips or multicam clips.
+- Speed up your creative flow with new Picture in Picture and Callout effects.
+- Create interesting visual reveals with new Modular transitions.
+- Use Vertical Zoom to Fit to scale clip heights to fit in the timeline.
+- Change the order of vertically stacked clips with a new keyboard shortcut.
+- Quickly navigate clips in list view and edit clip text with a new keyboard shortcut.
+- Increase efficiency with additional new keyboard shortcuts including Rename Clip, Show/Hide Audio Lanes, Expand/Collapse Subroles, Play Half Speed Forward/Reverse, Consolidate Motion Content, Paste Timecode, and Show Horizon.
+- Install third-party Media Extensions to support playback and editing of more video formats (macOS Sequoia or later required).
+
+**Additional support and bug fixes:**
+- Improves performance in timelines that contain a high number of markers.
+- Fixes an issue that caused the alert badge on an event to not disappear after all missing media was relinked.
+- Fixes an issue that caused the Clouds generator to be partially transparent.
+- Fixes an issue that caused the Collapse to Connected Storyline command to trim audio if the audio was leading video.
+- Adds support for exporting uncompressed or ProRes MXF video with 32 kHz audio.
+- Adds support for exporting directly to the Photos library.
+- Updates FCPXML to version 1.13.
+
+---
 
 ### Final Cut Pro 10.8.1
 
