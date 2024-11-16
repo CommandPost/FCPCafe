@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 15 Nov 2024 10:11:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Nov 2024 10:12:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 Nov 2024 10:11:42 GMT</pubDate>
+        <pubDate>Sat, 16 Nov 2024 10:12:07 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8577,6 +8577,142 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#14th-november-2024</link>
             <guid isPermaLink="false">14th November 2024</guid>
             <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2024]]></title>
+            <description><![CDATA[<p>Today marks the third and final day of the <strong>Final Cut Pro Creative Summit</strong> - and what an incredible week it's been!</p>
+<p>One of the questions I've been asked a lot over the last few days is... &quot;is Final Cut Pro 11 actually a big release&quot;?</p>
+<p>And from my perspective, looking under the hood, I think it absolutely is.</p>
+<p>Whilst, <a href="/news/20241030/">as predicted</a>, the headline features were already pre-announced (i.e. Spatial Video, Magnetic Mask and Transcribe to Captions), and compared to DaVinci Resolve, the list of improvements and bug fixes was somewhat small, under the hood there's some big changes to Final Cut Pro 11.</p>
+<p>For the first time ever, Final Cut Pro is actually <strong>sandboxed</strong>... well, kinda.</p>
+<p>Sandboxing on a Mac is a security mechanism designed to restrict what software can access and do on the system.</p>
+<p>Essentially, it creates a controlled environment — a &quot;sandbox&quot; — where applications can run without affecting the broader system or accessing sensitive user data.</p>
+<p>This approach minimises the risk of malware, data leaks, and other security breaches by isolating applications and tightly controlling their permissions.</p>
+<p>Apple began enforcing sandboxing for all new apps and updates on the Mac App Store on 1st June 2012 - from this date forward any app submitted to the Mac App Store had to use sandboxing to comply with Apple’s security requirements.</p>
+<p>Apple sent <a href="https://www.macstories.net/news/apple-confirms-sandboxing-deadline-for-mac-app-store-apps-on-june-1/">an email to developers</a> explaining...</p>
+<blockquote>
+<p>If you have an existing app on the Mac App Store that is not sandboxed, you may still submit bug fix updates after June 1.</p>
+</blockquote>
+<p>But for whatever reason, Final Cut Pro never got sandboxing... until now:</p>
+<p><img src="/static/fcpcs24-sandbox.png" alt=""></p>
+<p>However, I say &quot;kinda&quot;, because they're kinda cheating as there's a special temporary exception (<code>com.apple.security.temporary-exception.files.absolute-path.read-write</code>) that allows them read/write access to the system drive - effectively breaking the sandbox.</p>
+<p>So, even though TECHNICALLY Final Cut Pro is now sandboxed, it can still read and write any files on your drive, so nothing really changes.</p>
+<p>But despite this, this marks a big change to the inner workings of Final Cut Pro.</p>
+<p>Another thing that seems to have changed is that more and more of the Final Cut Pro code now looks like it's written in Swift, compared to the older Objective-C.</p>
+<p>It seems to me that Apple is slowly modernising the code for the iPad, and then bringing across these shared Frameworks to the Mac.</p>
+<p>Despite looking very similar on the surface, I actually think there's a lot more differences under the hood between Final Cut Pro 10.8.1 and Final Cut Pro 11.</p>
+<p>Before I get into today's Summit news, I will also mention that the amazing <strong>Alex &quot;4D&quot; Gollner</strong> has released a new free plugin called <strong>Alex4D Transform</strong>.</p>
+<p>It's an effect that can move in 3D space, rotate in 3 dimensions and scale a clip with on-screen controls.</p>
+<p>You can download it on <a href="https://alex4d.com/final_cut_plugins/alex4d-free-2/item/19-alex4d-transform">Alex's website</a>.</p>
+<p>The first session today was called <strong>Making Media Accessible for All</strong>, featuring Accessibility Lead at Apple Studios <a href="https://www.linkedin.com/in/tatilee512/">Tatiana Lee</a> and director <a href="https://www.ashleyeakin.com">Ashley Eakin</a>.</p>
+<p><img src="/static/fcpcs24-mmafa.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-mmafa1.jpeg" alt=""></p>
+<p>It was a great session, and they talked about Ashley's work on Best Foot Forward on Apple+ - you can <a href="https://www.youtube.com/watch?v=ucT7S_vomZw">watch a trailer</a> below:</p>
+<p><a href="https://www.youtube.com/watch?v=ucT7S_vomZw"><img src="/static/fcpcs24-best-foot-forward.jpeg" alt=""></a></p>
+<p>I've previously produced a short film (for ABC TV) called <a href="https://www.imdb.com/title/tt11147376/">The Legend of Burnout Barry</a> with our director and two lead actors in wheelchairs, so I found this session extremely interesting and useful.</p>
+<p>Next up, I headed into the <strong>Cinema Therapy Case Study</strong> session.</p>
+<p>Now, I've know Bradley Olsen &amp; Alan Seawright for years - they once &quot;kidnapped&quot; me in their car in Las Vegas, many moons ago.</p>
+<p>Our company, LateNite, bought a <a href="https://www.lumaforge.com/jellyfish/mobile">Lumaforge Jellyfish</a> when Alan was still working at Lumaforge.</p>
+<p>We've caught up at NAB, LumaForge's Faster Together Event, and last years Final Cut Pro Creative Summit - they're great guys, that I communicate with online.</p>
+<p>But I had absolutely no idea that their web show, <strong>Cinema Therapy</strong> was so... well, massive!</p>
+<p>Cinema Therapy currently has <strong>1.72M subscribers</strong> and <strong>305 videos</strong> on YouTube.</p>
+<p>This was an incredible session, also featuring editor Trevor Horton and producer Corinne Demyanovich.</p>
+<p>The slide show was incredible slick and professional, and the content was so great - it was probably one of my favourite session at the Summit.</p>
+<p>You can watch a <a href="https://www.youtube.com/watch?v=9GPeFS1HXT8">trailer for their show</a> below:</p>
+<p><a href="https://www.youtube.com/watch?v=9GPeFS1HXT8"><img src="/static/fcpcs24-cinema-therapy.jpeg" alt=""></a></p>
+<p>Here's a look at some of their slides:</p>
+<p><img src="/static/fcpcs24-cinema-therapy-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-7.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-8.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-9.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-10.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-11.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-12.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-13.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-14.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-cinema-therapy-15.jpeg" alt=""></p>
+<p>I really loved this session, and I can't wait to catch up on all 305 episodes of their show!</p>
+<p>Next up, in typical <strong>Sam Mestman</strong> style, we had an absolutely epic presentation.</p>
+<p>Previously Sam founded FCPWORKS and <a href="https://www.lumaforge.com">Lumaforge</a> (who were acquired by OWC), runs <a href="https://www.wemakemovies.org">We Make Movies</a> and also works for <a href="https://hedge.co">Hedge</a> on <a href="https://hedge.co/products/postlab">PostLab</a>.</p>
+<p>He is now the Present of <a href="https://www.amove.io">Amove</a>, and in this demonstration, he explained how Amove's offerings create an entire post production ecosystem, along with <a href="https://hedge.co">Hedge's Tools</a>, <a href="https://getjumper.io">Jumper</a> and <a href="https://www.freque.io">Freque</a>.</p>
+<p>Sam demonstrated <a href="https://www.amove.io">Amove</a>'s functionality, Justin La Vallee demonstrated <a href="https://www.freque.io">Freque</a>, <a href="https://www.jgreenbergconsulting.com">Jeff Greenberg</a> demonstrated <a href="https://getjumper.io">Jumper</a>.</p>
+<p>There was also a demonstration of how this all ties together in a real world production environment.</p>
+<p>You can check out some of the slides here (apologies for the quality, I was quite far back in the room):</p>
+<p><img src="/static/fcpcs24-sam-session-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-7.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-8.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-sam-session-9.jpeg" alt=""></p>
+<p>If you haven't yet checked out <a href="https://www.amove.io">Amove</a>, <a href="https://www.freque.io">Freque</a> or <a href="https://getjumper.io">Jumper</a> - you absolutely should.</p>
+<p>Next up, it was lunch time - and again, lunch was super yummy!</p>
+<p>After lunch, <strong>Wes Plate</strong> was up.</p>
+<p>Whilst this is the first time I've actually met Wes in person, I've communicated with him online for years, so I feel like I know him really well - he's such a fantastic guy.</p>
+<p>I've been using <strong>Automatic Duck</strong> products (a company Wes and his father Harry runs) for decades - they've solved so many workflow problems across to many applications.</p>
+<p>Wes did a great demonstration of <a href="http://www.automaticduck.com">all his existing apps</a>:</p>
+<p><img src="/static/fcpcs24-wes-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-6.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wes-7.jpeg" alt=""></p>
+<p>Then he dropped a bombshell...</p>
+<p><a href="https://www.youtube.com/watch?v=Y2Ezd4F2clQ"><img src="/static/fcpcs24-multicam-flattener.jpeg" alt=""></a></p>
+<p>You can learn more about <strong>Multicam Flattener</strong> on the <a href="http://www.automaticduck.com/#multicam-flattener">Automatic Duck website</a>.</p>
+<p><img src="/static/fcpcs24-wes-8.jpeg" alt=""></p>
+<p>I've been very fortunate to be a very early beta tester of Multicam Flattener, and it does exactly what it says on the label - it works great.</p>
+<p>However, as discussed in <a href="/news/20241114/">yesterday's post</a>, there are now limitations with the new <strong>Magnetic Mask</strong>, as this information isn't contained within FCPXML, so that's just something to be aware of.</p>
+<p>Multicam Flattener will be released soon after some further/wider beta testing, so join the <a href="http://www.automaticduck.com/#multicam-flattener">Automatic Duck mailing list to stay updated</a>.</p>
+<p>And then... it was my turn. I was a very last minute addition to the running list - basically filling in for someone else, but I jumped at the opportunity.</p>
+<p><img src="/static/fcpcs24-chris-hocking-1.jpeg" alt=""></p>
+<p>My session was a Q&amp;A session hosted by the incredible <a href="https://nickharauz.com">Nick Harauz</a> from <a href="https://borisfx.com">Boris FX</a>.</p>
+<p><img src="/static/fcpcs24-chris-hocking-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-chris-hocking-3.jpeg" alt=""></p>
+<p>I talked about my production company, <a href="https://latenitefilms.com">LateNite</a>, <a href="/latenite/">my software</a>, <a href="https://getjumper.io">Jumper</a> and all kinds of other tangents.</p>
+<p>I had a lot of fun, and thanks to everyone for their questions and engagement! Feel free to leave comments below if you want to ask my anything else!</p>
+<p>Unfortunately I missed the next two sessions, <strong>Create Magic in Motion</strong> with Mark Spencer and <strong>3D, Spatial and Immersive Video</strong> with Iain Anderson - as I was chatting with people in the foyer after my talk.</p>
+<p>Again, it's those discussions you have in the hallways that make in-person events so valuable.</p>
+<p>Next up we had the amazing <strong>Tyler Stalman</strong> do a session discussing <strong>Shot on iPhone, Edited in Final Cut Pro</strong>.</p>
+<p>Tyler's <a href="https://www.youtube.com/channel/UC6OICk-ceplUJf4sCN3DMnQ">YouTube channel</a> has 483K subscribers and 276 videos.</p>
+<p>Tyler is such a lovely guy, but also a true professional and an exceptional public speaker.</p>
+<p><img src="/static/fcpcs24-tyler-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-tyler-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-tyler-3.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-tyler-4.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-tyler-5.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-tyler-6.jpeg" alt=""></p>
+<p>If you're not already following Tyler on <a href="https://www.youtube.com/channel/UC6OICk-ceplUJf4sCN3DMnQ">YouTube</a>, you absolutely should be.</p>
+<p>Then finally, the big session of the day... <strong>Dialogue with Apple: Q&amp;A</strong>.</p>
+<p><img src="/static/fcpcs24-apple.jpeg" alt=""></p>
+<p>There was a great energy in the room, and lots of excitement. It was fun, it was open, there were laughs. Nothing was under NDA.</p>
+<p>There was a lot of questions that were pre-submitted that the Apple team tried to best to answer, and there were also questions from the audience.</p>
+<p>I asked a question, that went something along the lines of...</p>
+<blockquote>
+<p>Thank you so much for allowing the Fitness+ team to come and showcase everything - it was seriously awesome to hear all the technical details of what they're doing - it was mind blowing of the scale and frequency that they're making things. One of the most interesting and curious things I noticed is that, despite the fact you showed us all their insanely cool camera robots, one of the key features the Fitness+ team highlighted in their presentation was the fact that they use Final Cut Pro's stabalisation. But they also told us that they do everything as a Multicam? So if they're constantly using stabalisation in Multicam clips, and they told us they're running the stock-standard version of Final Cut Pro, this means they're constantly going inside the Multicam clip, making cuts and stabalising inside the Multicam. If I was making that much content every day, it would drive me crazy! Given this, how much collaboration is there between the Fitness+ team and the FCP team.</p>
+</blockquote>
+<p>And the answer was basically that the Final Cut Pro team work insanely closely with the Fitness+ team across all manner of things - including many months of prep work to get the presentation prepared that we saw yesterday. There was no specific mention on synchronisation in their answers.</p>
+<p>Over all though, the general mode and vibe was a happy one. Apple is listening. The team behind the tools we love are human. Apparently one of the crew that helped setup the demo room at Apple Park is an insanely good music video creator. The Final Cut Pro team literally &quot;share a wall&quot; with the Logic Pro team.</p>
+<p>With the end of that session, we had a wrap on the Final Cut Pro Creative Summit 2024!</p>
+<p>Thanks to EVERYONE who reached out to me over the last week, chatted in the hallways, bought me a coffee or a beer and sent me DMs and messages!</p>
+<p>HUGE THANKS to EVERYONE who's downloaded a free trial or bought <a href="https://getjumper.io">Jumper</a>, or has <a href="/latenite/">purchased my applications</a> - this is what has allowed me to fly all the way from Melbourne, Australia to hang out with you all!</p>
+<p>I really hope these <strong>FCP Cafe</strong> articles have been interesting and helpful! If you liked this coverage, please let Apple and FMC know, so they might help me come back in future years!</p>
+<p>Onwards &amp; Upwards!</p>
+<p><img src="/static/fcpcs24-wrap-1.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wrap-2.jpeg" alt=""></p>
+<p><img src="/static/fcpcs24-wrap-3.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2024</link>
+            <guid isPermaLink="false">15th November 2024</guid>
+            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
