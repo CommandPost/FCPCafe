@@ -4,8 +4,6 @@ Get all of LateNite's Tools on the [Mac App Store](https://itunes.apple.com/us/a
 !!!
 
 !!!warning Sponsored
-Jump to the best parts of editing.</br>
-**A powerful AI search engine for your footage.**</br>
-No clouds. No uploads. All on device.</br>
-[Try Jumper now](https://getjumper.io).
+**Jump to the best parts of editing.** A powerful AI search engine for your footage.</br>
+No clouds. No uploads. All on device. [Download a free trial of Jumper](https://getjumper.io).
 !!!
