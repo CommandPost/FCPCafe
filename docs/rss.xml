@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 17 Nov 2024 07:32:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Nov 2024 07:37:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 Nov 2024 07:32:55 GMT</pubDate>
+        <pubDate>Sun, 17 Nov 2024 07:37:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8730,6 +8730,17 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>This has been reported to Apple.</p>
 <p>You can follow along via our <a href="https://github.com/CommandPost/FCPCafe/issues/419">FCP Cafe bug report</a>.</p>
 <p><img src="/static/magnetic-mask-fail.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2024</link>
+            <guid isPermaLink="false">16th November 2024</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2024]]></title>
+            <description><![CDATA[<p>In more positive news, <strong>German keys incorrectly shown in Command Editor</strong> is now fixed in Final Cut Pro 11! 🥳</p>
+<p><img src="/static/german-language-bug-fixed.png" alt=""></p>
+<p>Thanks Apple and the Final Cut Pro team!</p>
+<p>This was heavily documented in our <a href="https://github.com/CommandPost/FCPCafe/issues/350">FCP Cafe Bug Tracker</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#16th-november-2024</link>
             <guid isPermaLink="false">16th November 2024</guid>
