@@ -107,6 +107,22 @@ Here is a collection of useful third party frameworks.
 
 Here is the release notes for FxPlug. Where appropriate, we try and add additional information and context below.
 
+---
+
+### FxPlug 4.3.1
+
+**Released November 13, 2024**
+
+The FxPlug 4.3.1 SDK includes the following:
+
+- Improved overall stability.
+- Added support for Metal API validation.
+- Fixed an issue that caused multiple parameters to be created with the same ID (which I think is something I ran into with Metaburner!)
+- Updated the descriptions that the example plugins display in the inspector in Motion.
+- Metal API validation can be used when debugging plugins.
+
+---
+
 ### FxPlug 4.3
 
 **Released:** 20th June 2024

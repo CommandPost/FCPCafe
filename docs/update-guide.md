@@ -48,6 +48,14 @@ You can't move it outside the bundle - it needs to live inside the Library bundl
 
 **Magnetic Mask** data is also not transferred with FCPXML - so if you export a project/timeline containing a clip with a Magnetic Mask, then re-import the FCPXML, the mask won't correctly come across - in fact, you'll just get an empty effect.
 
+Unfortunately in Final Cut Pro 11, **Magnetic Masks** don't work with **Send to Compressor**.
+
+This has been reported to Apple.
+
+You can follow along via our [FCP Cafe bug report](https://github.com/CommandPost/FCPCafe/issues/419).
+
+![](/static/magnetic-mask-fail.jpeg)
+
 There are some early reports of issues with Custom Overlays and exporting PNGs - but these are not yet confirmed.
 
 We've updated to Final Cut Pro 11 and haven't had any major issues yet - but tread with care, as this is a major update, as Final Cut Pro is now sandboxed.
@@ -56,16 +64,16 @@ We've updated to Final Cut Pro 11 and haven't had any major issues yet - but tre
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | Requires updating for FCPXML v1.13                                                                      |
+| Capacitor                | **Requires an update to support FCPXML v1.13**                                                          |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | Requires updating for FCPXML v1.13                                                                      |
+| CommandPost              | **Requires an update to support FCPXML v1.13**                                                          |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | Use Arctic v24.3                                                                                        |
+| Hedge Arctic             | **Use Arctic v24.3**                                                                                    |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
