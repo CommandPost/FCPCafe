@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 17 Nov 2024 07:47:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Nov 2024 08:11:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 Nov 2024 07:47:06 GMT</pubDate>
+        <pubDate>Sun, 17 Nov 2024 08:11:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8717,6 +8717,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
         <item>
             <title><![CDATA[16th November 2024]]></title>
             <description><![CDATA[<p>We've just added an absolutely epic <strong>new case study</strong> to FCP Cafe!</p>
+<p><img src="/static/nike-case-study-021.jpeg" alt=""></p>
 <p>Our friends at <a href="https://www.orangestudios.cologne">Orange Studios</a> recently collaborated with <strong>Nike</strong> to do an incredible large format installation for the Olympic Games - all cut in Final Cut Pro.</p>
 <p>You can read all about it on our <a href="/case-studies/nike/">Nike Case Study page</a>.</p>
 ]]></description>
