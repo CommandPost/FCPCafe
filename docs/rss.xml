@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 17 Nov 2024 06:56:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Nov 2024 07:32:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 Nov 2024 06:56:44 GMT</pubDate>
+        <pubDate>Sun, 17 Nov 2024 07:32:55 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8713,6 +8713,50 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#15th-november-2024</link>
             <guid isPermaLink="false">15th November 2024</guid>
             <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2024]]></title>
+            <description><![CDATA[<p>We've just added an absolutely epic <strong>new case study</strong> to FCP Cafe!</p>
+<p>Our friends at <a href="https://www.orangestudios.cologne">Orange Studios</a> recently collaborated with <strong>Nike</strong> to do an incredible large format installation for the Olympic Games - all cut in Final Cut Pro.</p>
+<p>You can read all about it on our <a href="/case-studies/nike/">Nike Case Study page</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2024</link>
+            <guid isPermaLink="false">16th November 2024</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2024]]></title>
+            <description><![CDATA[<p>Unfortunately in Final Cut Pro 11, <strong>Magnetic Masks</strong> don't work with <strong>Send to Compressor</strong>.</p>
+<p>This has been reported to Apple.</p>
+<p>You can follow along via our <a href="https://github.com/CommandPost/FCPCafe/issues/419">FCP Cafe bug report</a>.</p>
+<p><img src="/static/magnetic-mask-fail.jpeg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2024</link>
+            <guid isPermaLink="false">16th November 2024</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2024]]></title>
+            <description><![CDATA[<p><strong>Dylan John</strong> has posted a video on YouTube titled, <strong>FCP 11! What's HOT and What’s NOT in the New Update</strong>.</p>
+<p>You can <a href="https://www.youtube.com/watch?v=NsqjhHD8TNY">watch it on YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=NsqjhHD8TNY"><img src="/static/dylan-john-fcp11.jpg" alt=""></a></p>
+<p>He also has another video title, <strong>3 Creative Ways to Use the New Magnetic Mask in Final Cut Pro</strong>.</p>
+<p>You can <a href="https://www.youtube.com/watch?v=qvVLDIztzK4">watch it on YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=qvVLDIztzK4"><img src="/static/dylan-john-magnetic-mask.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2024</link>
+            <guid isPermaLink="false">16th November 2024</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2024]]></title>
+            <description><![CDATA[<p><strong>Captionator for Final Cut v2.1.2</strong> is out now!</p>
+<p>It has a new more accurate Whisper Engine and fixes for Final Cut Pro 11 export.</p>
+<p>You can download on the <a href="https://apps.apple.com/app/captionator-for-final-cut/id1627843786?mt=12">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2024</link>
+            <guid isPermaLink="false">16th November 2024</guid>
+            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

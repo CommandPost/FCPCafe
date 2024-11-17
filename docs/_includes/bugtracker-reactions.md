@@ -16,7 +16,6 @@
 - [FCP 10.8 Stalls on M2 Ultra Studio With Blackmagic Decklink Mini 4K Monitor (June 21, 2024)](https://github.com/CommandPost/FCPCafe/issues/362)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
-- [German keys incorrectly shown in Command Editor (April 9, 2024)](https://github.com/CommandPost/FCPCafe/issues/350)
 - [Library damaged when working on shared Storage (April 4, 2024)](https://github.com/CommandPost/FCPCafe/issues/349)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
 - [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
@@ -28,3 +27,4 @@
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
 - [Internal Stabilisation issues and resulting crashes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/326)
 - [Frame rate chart in Apple documentation isn't lining up with real-world results (January 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/323)
+- [Missing smooth position keyframes in FCPXML (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/321)
