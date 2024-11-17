@@ -2,7 +2,7 @@
 
 # Latest News
 
-**FCP Cafe is an online community for professional Final Cut Pro editors.**
+**FCP Cafe is an online community for professional Final Cut Pro editors & developers.**
 
 _This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](/latenite/)._
 
