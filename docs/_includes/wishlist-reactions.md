@@ -1,6 +1,7 @@
 - [Request for color management and color grading functionality in Inspector (May 16, 2024)](https://github.com/CommandPost/FCPCafe/issues/360)
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
+- [Ability to set linear keyframes to default  (July 1, 2023)](https://github.com/CommandPost/FCPCafe/issues/212)
 - [Add ability to reorder auditions (November 2, 2024)](https://github.com/CommandPost/FCPCafe/issues/410)
 - [Maximum Performance Mode?  Using more than 2 cores...  What about others? Does Metal Matter? (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/408)
 - [Batch Export all (or select) Picks in an Audition (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/407)
@@ -27,4 +28,3 @@
 - [Missing FxPlug API for setting Font (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/320)
 - [MKV import support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/292)
 - [Import and export support for VP8 and VP9 (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/291)
-- [AV1 import and export support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/290)
