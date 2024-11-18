@@ -120,6 +120,8 @@
 
 ## U
 
+{{ include "faq/uninstall" }}
+
 {{ include "faq/upgrade" }}
 
 {{ include "faq/interface" }}
