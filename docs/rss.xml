@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 17 Nov 2024 09:55:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Nov 2024 09:07:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 Nov 2024 09:55:35 GMT</pubDate>
+        <pubDate>Mon, 18 Nov 2024 09:07:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8769,6 +8769,17 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <link>https://fcp.cafe/#16th-november-2024</link>
             <guid isPermaLink="false">16th November 2024</guid>
             <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th November 2024]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.3.0</strong> is out now for free!</p>
+<p>Transfer your <strong>Final Cut Pro 11.0 (for Mac)</strong> Libraries to <strong>Final Cut Pro 2.1 (for iPad)</strong> Projects!</p>
+<p><img src="/static/transfer-toolbox-1-3-0.jpeg" alt=""></p>
+<p>You can learn more on the <a href="https://transfertoolbox.io">Transfer Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-november-2024</link>
+            <guid isPermaLink="false">17th November 2024</guid>
+            <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
