@@ -18,7 +18,7 @@ You can read our current recommendations below:
 
 For most users, on modern Apple Silicon Mac's **Final Cut Pro 10.8.1** is rock solid.
 
-**Final Cut Pro 11.0.0** is brand new - but from early reports, aside from some weirdness with Magnetic Mask and collaboration - everything else seems fairly solid.
+**Final Cut Pro 11.0.0** is brand new - but from early reports, aside from some weirdness with Magnetic Mask, Custom Overlays and collaboration - everything else seems fairly solid. See below for more information.
 
 **Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
@@ -40,7 +40,7 @@ _FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with So
 
 ## Final Cut Pro 11
 
-**Final Cut Pro 11** was released at the Final Cut Pro Creative Summit on 13th November 2024.
+**Final Cut Pro 11** was released at the Final Cut Pro Creative Summit on **13th November 2024**.
 
 One interesting thing about the new **Magnetic Mask** in Final Cut Pro is that it saves all the analyse data in a folder called `VideoSegmentationFiles` within the Final Cut Pro Library bundle.
 
@@ -50,21 +50,32 @@ You can't move it outside the bundle - it needs to live inside the Library bundl
 
 Unfortunately in Final Cut Pro 11, **Magnetic Masks** don't work with **Send to Compressor**.
 
-This has been reported to Apple.
-
-You can follow along via our [FCP Cafe bug report](https://github.com/CommandPost/FCPCafe/issues/419).
+This has been reported to Apple. You can follow along via our [FCP Cafe bug report](https://github.com/CommandPost/FCPCafe/issues/419).
 
 ![](/static/magnetic-mask-fail.jpeg)
 
-There are some early reports of issues with Custom Overlays and exporting PNGs - but these are not yet confirmed.
+Custom Overlays are currently not working. You can follow along via our [FCP Cafe bug report](https://github.com/CommandPost/FCPCafe/issues/421).
+
+There are some early reports of issues with exporting PNGs - but these are not yet confirmed.
 
 We've updated to Final Cut Pro 11 and haven't had any major issues yet - but tread with care, as this is a major update, as Final Cut Pro is now sandboxed.
+
+The amazing Joe Marler reports on [Facebook](https://www.facebook.com/groups/108687235938893/posts/3067852310022356/?comment_id=3069346286539625&__cft__[0]=AZWyEl2uaCVPtRZrtHqHFSk4ruwuTBFxDbpX3yj8fza89D0RVxhLLIB_No8-5UEi7l8VqyUqZ-_duxZQBrv1UxtrXLOD6oBJapAYN0RcGardTYQWWF4n85H2oCjr7mxrtfSNJAN0NdryNPxLXN7cxZ8h&__tn__=R]-R):
+
+> There are two significant FCP 11 problems I'm working on:<br />
+> <br />
+> 1. A serious performance regression if combining certain built-in or third-party effects. E.g, if using a simple color wheels shape mask and built-in FCP video noise reduction on a clip, even if fully rendered to cache, playback will be sluggish.<br />
+> <br />
+> 2. If a `v10.8.1` library containing certain high-frame-rate clips is upgraded to 11.0, they will display as black. Reported and reproduced on a GH6 UHD 4k 100.0 fps 10-bit 4:2:0 HEVC clip. Reported on a Nikon Z9 clip (specifics yet unknown) but we don't have the clip to test. Does not happen with Sony 100.0 fps or 120 fps XAVC-I 10-bit 4:2:2 (H.264) or XAVC-HS 10-bit 4:2:2 (HEVC) clips.<br />
+> <br />
+> The affected clips can be imported from scratch to FCP 11 and they work. The problem happens during the library upgrade. It also happens if loading a ver. 1.12 library or project XML from FCP 10.8.1 to FCP 11.0.<br />
+> The reverse XML direction is possible. If high-frame-rate black clips are in the FCP 11 library, a ver. 1.12 library or project XML can be exported and imported OK to FCP 10.8.1 and they will all work.
 
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | **Requires an update to support FCPXML v1.13**                                                          |
+| Capacitor                | **Use Capacitor v1.1.0**                                                                                |
 | Color Finale             | No Known Issues                                                                                         |
 | CommandPost              | **Requires an update to support FCPXML v1.13**                                                          |
 | CoreMelt                 | No Known Issues                                                                                         |
