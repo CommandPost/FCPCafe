@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785390517995">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785453050187">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.6.0.785390517995" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.785453050187" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.785390517995" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.785453050187" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.785390517995" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.785453050187" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -351,7 +351,7 @@
 </doc-anchor-target>
 <p><strong>Last Updated:</strong> 16th November 2024</p>
 <p>For most users, on modern Apple Silicon Mac&#x27;s <strong>Final Cut Pro 10.8.1</strong> is rock solid.</p>
-<p><strong>Final Cut Pro 11.0.0</strong> is brand new - but from early reports, aside from some weirdness with Magnetic Mask and collaboration - everything else seems fairly solid.</p>
+<p><strong>Final Cut Pro 11.0.0</strong> is brand new - but from early reports, aside from some weirdness with Magnetic Mask, Custom Overlays and collaboration - everything else seems fairly solid. See below for more information.</p>
 <p><strong>Final Cut Pro 10.8</strong> is very similar to Final Cut Pro 10.7.1, so if you&#x27;re still on 10.7.1 on a major project, there&#x27;s no rush to update.</p>
 <p>If you&#x27;re still on <strong>Final Cut Pro 10.6.5</strong> or earlier on <strong>Intel</strong> machines - just stay there until you buy an Apple Silicon Mac.</p>
 <p>If you&#x27;re currently on <strong>Final Cut Pro 10.6.10</strong>, you can safely upgrade to <strong>Final Cut Pro 10.7</strong>.</p>
@@ -367,20 +367,33 @@
         <span>Final Cut Pro 11</span>
     </h2>
 </doc-anchor-target>
-<p><strong>Final Cut Pro 11</strong> was released at the Final Cut Pro Creative Summit on 13th November 2024.</p>
+<p><strong>Final Cut Pro 11</strong> was released at the Final Cut Pro Creative Summit on <strong>13th November 2024</strong>.</p>
 <p>One interesting thing about the new <strong>Magnetic Mask</strong> in Final Cut Pro is that it saves all the analyse data in a folder called <code v-pre>VideoSegmentationFiles</code> within the Final Cut Pro Library bundle.</p>
 <p>You can&#x27;t move it outside the bundle - it needs to live inside the Library bundle (unlike other cache files). This is super interesting, and may present some challenges with collaborative workflows (i.e. with Postlab).</p>
 <p><strong>Magnetic Mask</strong> data is also not transferred with FCPXML - so if you export a project/timeline containing a clip with a Magnetic Mask, then re-import the FCPXML, the mask won&#x27;t correctly come across - in fact, you&#x27;ll just get an empty effect.</p>
 <p>Unfortunately in Final Cut Pro 11, <strong>Magnetic Masks</strong> don&#x27;t work with <strong>Send to Compressor</strong>.</p>
-<p>This has been reported to Apple.</p>
-<p>You can follow along via our <a href="https://github.com/CommandPost/FCPCafe/issues/419">FCP Cafe bug report</a>.</p>
+<p>This has been reported to Apple. You can follow along via our <a href="https://github.com/CommandPost/FCPCafe/issues/419">FCP Cafe bug report</a>.</p>
 <p><figure class="content-center">
     <img src="../static/magnetic-mask-fail.jpeg" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>There are some early reports of issues with Custom Overlays and exporting PNGs - but these are not yet confirmed.</p>
+<p>Custom Overlays are currently not working. You can follow along via our <a href="https://github.com/CommandPost/FCPCafe/issues/421">FCP Cafe bug report</a>.</p>
+<p>There are some early reports of issues with exporting PNGs - but these are not yet confirmed.</p>
 <p>We&#x27;ve updated to Final Cut Pro 11 and haven&#x27;t had any major issues yet - but tread with care, as this is a major update, as Final Cut Pro is now sandboxed.</p>
+<p>The amazing Joe Marler reports on <a href="https://www.facebook.com/groups/108687235938893/posts/3067852310022356/?comment_id=3069346286539625&amp;__cft__%5B0%5D=AZWyEl2uaCVPtRZrtHqHFSk4ruwuTBFxDbpX3yj8fza89D0RVxhLLIB_No8-5UEi7l8VqyUqZ-_duxZQBrv1UxtrXLOD6oBJapAYN0RcGardTYQWWF4n85H2oCjr7mxrtfSNJAN0NdryNPxLXN7cxZ8h&amp;__tn__=R%5D-R" class="outbound" target="_blank"><span>Facebook</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
+<blockquote>
+<p>There are two significant FCP 11 problems I&#x27;m working on:<br />
+<br /></p>
+<ol>
+<li>A serious performance regression if combining certain built-in or third-party effects. E.g, if using a simple color wheels shape mask and built-in FCP video noise reduction on a clip, even if fully rendered to cache, playback will be sluggish.<br />
+<br /></li>
+<li>If a <code v-pre>v10.8.1</code> library containing certain high-frame-rate clips is upgraded to 11.0, they will display as black. Reported and reproduced on a GH6 UHD 4k 100.0 fps 10-bit 4:2:0 HEVC clip. Reported on a Nikon Z9 clip (specifics yet unknown) but we don&#x27;t have the clip to test. Does not happen with Sony 100.0 fps or 120 fps XAVC-I 10-bit 4:2:2 (H.264) or XAVC-HS 10-bit 4:2:2 (HEVC) clips.<br />
+<br />
+The affected clips can be imported from scratch to FCP 11 and they work. The problem happens during the library upgrade. It also happens if loading a ver. 1.12 library or project XML from FCP 10.8.1 to FCP 11.0.<br />
+The reverse XML direction is possible. If high-frame-rate black clips are in the FCP 11 library, a ver. 1.12 library or project XML can be exported and imported OK to FCP 10.8.1 and they will all work.</li>
+</ol>
+</blockquote>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -396,7 +409,7 @@
 </tr>
 <tr>
 <td>Capacitor</td>
-<td><strong>Requires an update to support FCPXML v1.13</strong></td>
+<td><strong>Use Capacitor v1.1.0</strong></td>
 </tr>
 <tr>
 <td>Color Finale</td>
