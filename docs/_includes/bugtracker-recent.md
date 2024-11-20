@@ -1,3 +1,4 @@
+- [Custom Overlays not working properly in Final Cut Pro 11 (November 20, 2024)](https://github.com/CommandPost/FCPCafe/issues/421)
 - [Magnetic Masks don't work with "Send to Compressor" (November 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/419)
 - [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
 - [Initial Audio Rendering missing samples.... (November 13, 2024)](https://github.com/CommandPost/FCPCafe/issues/414)
@@ -27,4 +28,3 @@
 - [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
 - [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
 - [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
-- [Internal Stabilisation issues and resulting crashes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/326)
