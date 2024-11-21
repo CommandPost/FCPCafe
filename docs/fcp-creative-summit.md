@@ -2,11 +2,17 @@
 
 ## 2024
 
-Registration for the **Final Cut Pro Creative Summit** is now open.
+The Final Cut Pro Creative Summit in 2024 took place between **13th to 15th November** at Apple Park and the Juniper Hotel in Cupertino.
+
+You can read all about it on FCP Cafe:
+
+- [Day 1](/news/20241113/)
+- [Day 2](/news/20241114/)
+- [Day 3](/news/20241115/)
 
 [![](/static/fcpcs-2024-discount.png)](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE)
 
-The cost is **USD$599** (minus the 15% discount above), which includes:
+The cost was **USD$599** (minus the 15% discount above), which included:
 
 - **NEW** (2) FMC AI Training Bootcamps, live and online, of their choice, valued at $299 each
 - 🍏 Apple Campus Visit (If registered before Nov. 10)
@@ -14,10 +20,15 @@ The cost is **USD$599** (minus the 15% discount above), which includes:
 - 📚 2 days of intensive training in Final Cut Pro with renowned experts
 - 🤝 Networking Opportunities
 
+---
 
-You can [register](http://www.eventbrite.com/e/965178022447/?discount=FCPCAFE).
+### Seed Creative Summary Video
 
-You can view the [program](https://fcpcreativesummits.com/program/).
+**Seed Creative** has posted an awesome video covering the Final Cut Pro Creative Summit.
+
+You can watch it on [YouTube](https://www.youtube.com/watch?v=jiryIwYfsdM):
+
+[![](/static/seed-creative-fcpcs-2024.jpg)](https://www.youtube.com/watch?v=jiryIwYfsdM)
 
 ---
 
