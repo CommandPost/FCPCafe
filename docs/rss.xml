@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 21 Nov 2024 12:50:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 23:18:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 Nov 2024 12:50:24 GMT</pubDate>
+        <pubDate>Thu, 21 Nov 2024 23:18:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8894,6 +8894,42 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#21st-november-2024</link>
             <guid isPermaLink="false">21st November 2024</guid>
             <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd November 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1.7</strong> is out now!</p>
+<ul>
+<li><strong>Hot Fix:</strong> <code>v2.1.6</code> had an experimental library indexing feature accidentially enabled. Removed.</li>
+<li><strong>Fix:</strong> The timeline area oriented the Arrow cursor to its center point rather than its tip. This made dragging sometimes confusing and unintuitive</li>
+<li>Improve audio track's automation point UI</li>
+<li>Allow drag and drop of videos into the video player</li>
+<li>Show more extension status' in the window title bar</li>
+</ul>
+<p>You can learn more and download on the <a href="https://add.app">Audio Design Desk website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-november-2024</link>
+            <guid isPermaLink="false">22nd November 2024</guid>
+            <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd November 2024]]></title>
+            <description><![CDATA[<p><strong>Color Finale</strong> is having their Black Friday Sale offering up to <strong>65% off</strong> post-production tools.</p>
+<p><img src="/static/colorfinale-black-friday-2024.jpeg" alt=""></p>
+<p>You can learn more on the <a href="https://colorfinale.com/sale">Color Finale website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-november-2024</link>
+            <guid isPermaLink="false">22nd November 2024</guid>
+            <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd November 2024]]></title>
+            <description><![CDATA[<p>Looking for other <strong>Black Friday</strong> deals?</p>
+<p><strong>Jonny Elwyn's</strong> site is probably the best place to find them!</p>
+<p>You can check out his detailed list of deals <a href="https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2024/">on his website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-november-2024</link>
+            <guid isPermaLink="false">22nd November 2024</guid>
+            <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
