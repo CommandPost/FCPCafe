@@ -12,6 +12,14 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 ## Black Friday Deals 2024
 
+Looking for **Black Friday** deals?
+
+**Jonny Elwyn's** site is probably the best place to find them!
+
+You can check out his detailed list of deals [on his website](https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2024/).
+
+---
+
 ### MotionVFX
 
 MotionVFX are offering **30% off** on their site using the promo code: `BW30`
@@ -19,6 +27,16 @@ MotionVFX are offering **30% off** on their site using the promo code: `BW30`
 ![](/static/motionvfx-promo.jpg)
 
 You can learn more [here](https://www.motionvfx.com/black-weeks-2024).
+
+---
+
+### Color Finale
+
+**Color Finale** is having their Black Friday Sale offering up to **65% off** post-production tools.
+
+![](/static/colorfinale-black-friday-2024.jpeg)
+
+You can learn more on the [Color Finale website](https://colorfinale.com/sale).
 
 ---
 
