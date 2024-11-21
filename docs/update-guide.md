@@ -77,7 +77,7 @@ The amazing Joe Marler reports on [Facebook](https://www.facebook.com/groups/108
 | BRAW Toolbox             | No Known Issues                                                                                         |
 | Capacitor                | **Use Capacitor v1.1.0**                                                                                |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | **Requires an update to support FCPXML v1.13**                                                          |
+| CommandPost              | **Use CommandPost v1.5.0**                                                                              |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
