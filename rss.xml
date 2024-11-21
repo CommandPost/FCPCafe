@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 20 Nov 2024 22:09:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 12:44:04 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 Nov 2024 22:09:14 GMT</pubDate>
+        <pubDate>Thu, 21 Nov 2024 12:44:04 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8855,6 +8855,31 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#20th-november-2024</link>
             <guid isPermaLink="false">20th November 2024</guid>
             <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st November 2024]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.5.0</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Updated to Lua v5.4.7.</li>
+<li>Added support for FCPXML v1.13 used by Final Cut Pro 11.</li>
+<li>Increased the number of banks from 30 to 50. Thanks for suggesting Todd Hallam!</li>
+<li>We now force the Sony Timecode Repair Toolbox to use FCPXML v1.11, so that it can be more easily imported into older versions of DaVinci Resolve.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Added support for Clear Key in Final Cut Pro Command Sets. Thanks for reporting Iain Anderson!</li>
+<li>Fixed an error on macOS Sequoia, where macOS would return no frontmost windows (which shouldn't technically be possible). Thanks for reporting Iain Anderson!</li>
+<li>Fixed a bug where <strong>Insert Action</strong> in the Scripting panel would fail to import some actions. Thanks for reporting Ermal Rexhepi!</li>
+<li>Fixed a bug in Final Cut Pro 11 and macOS Sequoia where CommandPost could fail to apply Effects, Transitions, Titles and Generators. Thanks for reporting Kurt Farr!</li>
+<li>We now correctly trigger <strong>Final Cut Pro Trial</strong> menubar items when running the trial version of Final Cut Pro.</li>
+</ul>
+<p>You can download for free via the <a href="https://commandpost.io">CommandPost website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-november-2024</link>
+            <guid isPermaLink="false">21st November 2024</guid>
+            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[21st November 2024]]></title>
