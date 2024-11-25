@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 22 Nov 2024 03:24:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 04:24:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 Nov 2024 03:24:46 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 04:24:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8940,6 +8940,54 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#22nd-november-2024</link>
             <guid isPermaLink="false">22nd November 2024</guid>
             <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th November 2024]]></title>
+            <description><![CDATA[<p><strong>Backups for Final Cut Pro v2.1.4</strong> is out now!</p>
+<p>This update includes the following changes:</p>
+<ul>
+<li>Verified to run under MacOS Sequoia and work with Final Cut Pro v11.0.</li>
+<li>Update the terminology used in various dialogs and help files.</li>
+</ul>
+<p>You can download <a href="https://apps.apple.com/app/backups-for-final-cut-pro/id586594646">Backups for Final Cut Pro on the Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-november-2024</link>
+            <guid isPermaLink="false">25th November 2024</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th November 2024]]></title>
+            <description><![CDATA[<p><strong>Hazy by FilmConvert</strong> for Final Cut Pro is out now!</p>
+<blockquote>
+<p>Filters are an important part of any filmmaker's toolkit, and now, you can get all the benefits of shooting with diffusion filters in post using Hazy. Soften any bright areas of your image, smooth any uneven skin tones, and add a nice bloom effect to strong light sources using our filter presets.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://www.filmconvert.com/plugin/hazy">Hazy website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-november-2024</link>
+            <guid isPermaLink="false">25th November 2024</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th November 2024]]></title>
+            <description><![CDATA[<p><strong>Halation by FilmConvert</strong> for Final Cut Pro is out now!</p>
+<blockquote>
+<p>Take your project to the next level by adding Halation to your footage. As a by-product of shooting film, Halation adds a red glow around the bright part of your image, adding to the romantic feeling of celluloid film.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://www.filmconvert.com/plugin/halation">Halation website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-november-2024</link>
+            <guid isPermaLink="false">25th November 2024</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th November 2024]]></title>
+            <description><![CDATA[<p><strong>Robin S. Kurz</strong> has released a new video on his YouTube channel titled, <strong>Final Cut Pro 11: New Transcribe to Captions Feature + Must-Have Tools for Faster Workflow!</strong></p>
+<p>You can <a href="https://www.youtube.com/watch?v=Au6X40knpYI">watch it on YouTube</a> below:</p>
+<p><a href="https://www.youtube.com/watch?v=Au6X40knpYI"><img src="/static/postprofessionals-youtube-captions.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#25th-november-2024</link>
+            <guid isPermaLink="false">25th November 2024</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
