@@ -32,6 +32,18 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=jiryIwYfsdM):
 
 ---
 
+### Strada Presentation
+
+**Strada & Michael Cioni** have just released the full video of Michael's presentation from the 2024 Final Cut Pro Creative Summit!
+
+I was there in the room - and it was an absolutely awesome and inspiring talk.
+
+It's called **Why Early Adopters Win: CEO Michael Cioni’s Strategies for Creators** and you can watch below on [YouTube](https://www.youtube.com/watch?v=eLIYelPctb8):
+
+[![](/static/strada-talk-at-fcp-creative-summit-youtube.jpg)](https://www.youtube.com/watch?v=eLIYelPctb8)
+
+---
+
 ### Isaac T's Advice
 
 [Isaac T. has written some great advice](https://isaact.micro.blog/2024/11/02/isaac-ts-pre.html) leading up to the FCP Creative Summit.
