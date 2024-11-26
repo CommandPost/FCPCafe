@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 04:54:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 23:31:04 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 25 Nov 2024 04:54:27 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 23:31:04 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -8988,6 +8988,51 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#25th-november-2024</link>
             <guid isPermaLink="false">25th November 2024</guid>
             <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th November 2024]]></title>
+            <description><![CDATA[<p><strong>Strada &amp; Michael Cioni</strong> have just released the full video of Michael's presentation from the 2024 Final Cut Pro Creative Summit!</p>
+<p>I was there in the room - and it was an absolutely awesome and inspiring talk.</p>
+<p>It's called <strong>Why Early Adopters Win: CEO Michael Cioni’s Strategies for Creators</strong> and you can watch below on <a href="https://www.youtube.com/watch?v=eLIYelPctb8">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=eLIYelPctb8"><img src="/static/strada-talk-at-fcp-creative-summit-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#26th-november-2024</link>
+            <guid isPermaLink="false">26th November 2024</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th November 2024]]></title>
+            <description><![CDATA[<p><strong>Julie Eckersley</strong> and <strong>Dr Austin Hayden</strong> have written a manifesto for creating high-quality, low cost television for the Digital Age, titled <strong>FREESTYLE TV</strong>.</p>
+<p>I had the honour of writing a couple of pages about my personal thoughts/opinions on what Producers should know about Post Production.</p>
+<p>You can <a href="https://www.expandingmedia.org/freestyletv">download the PDF and have a read via the FREESTYLE TV website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-november-2024</link>
+            <guid isPermaLink="false">26th November 2024</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th November 2024]]></title>
+            <description><![CDATA[<p><strong>Metaburner v1.1.2 (52)</strong> is out now!</p>
+<p>This release fixes a bug where Metaburner could crash when handling unsupported fonts. Thanks for reporting Joseph Nilo!</p>
+<p>You can download and learn more on the <a href="https://metaburner.pro">Metaburner website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-november-2024</link>
+            <guid isPermaLink="false">26th November 2024</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th November 2024]]></title>
+            <description><![CDATA[<p><strong>Media Sync Tool v1.2</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Added support for Final Cut Pro 11</li>
+<li>Implemented major bug fixes</li>
+</ul>
+<p>You can <a href="https://apps.apple.com/app/media-sync-tool/id1559556642">download Media Sync Tool on the Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-november-2024</link>
+            <guid isPermaLink="false">26th November 2024</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
