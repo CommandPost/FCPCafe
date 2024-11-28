@@ -20,6 +20,40 @@ You can check out his detailed list of deals [on his website](https://jonnyelwyn
 
 ---
 
+### Jumper
+
+**Jumper** is having a Black Friday sale!
+
+Get **50% off** yearly and lifetime licenses with the discount code: `BLACKFRIDAY50`.
+
+You can learn more on the [Jumper website](https://getjumper.io).
+
+---
+
+### CoreMelt
+
+**CoreMelt** is also having a massive Black Friday sale!
+
+Get **50% off** everything with the discount code: `CM2024BF`.
+
+Offer ends **4th December**.
+
+You can learn more on the [CoreMelt website](https://coremelt.com/blogs/news/black-friday-2024-our-bee-st-ever-sale).
+
+---
+
+### Hedge
+
+**Hedge** is also doing a Black Friday sale!
+
+Until **7th December**, all new licenses and upgrades to Pro are **20% off**. Yes, that includes bundles 🥳
+
+Use the discount code: `BLACKFRIDAY`.
+
+You can learn more on the [Hedge website](https://hedge.co).
+
+---
+
 ### MotionVFX
 
 MotionVFX are offering **30% off** on their site using the promo code: `BW30`
