@@ -1,3 +1,5 @@
+- [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
+- [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 - [Custom Overlays not working properly in Final Cut Pro 11 (November 20, 2024)](https://github.com/CommandPost/FCPCafe/issues/421)
 - [Magnetic Masks don't work with "Send to Compressor" (November 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/419)
 - [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
@@ -26,5 +28,3 @@
 - [Change Audio Role of Sync Clip (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/335)
 - [Crash when copying Project to a different Library (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/334)
 - [Final Cut Pro crashes when importing BRAW Toolbox FCPXML on macOS Sonoma 14.3 (January 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/333)
-- [When all Libraries are closed the Viewer doesn't go black/transparent (January 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/328)
-- [Crashed when exporting to ProRes (January 17, 2024)](https://github.com/CommandPost/FCPCafe/issues/327)
