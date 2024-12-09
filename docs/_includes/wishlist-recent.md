@@ -1,3 +1,4 @@
+- [FxDynamicParameterAPI_v4 Method Request: -(FxParameterType)parameterType:(UInt32)parameterID (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/424)
 - [Add ability to reorder auditions (November 2, 2024)](https://github.com/CommandPost/FCPCafe/issues/410)
 - [Maximum Performance Mode?  Using more than 2 cores...  What about others? Does Metal Matter? (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/408)
 - [Batch Export all (or select) Picks in an Audition (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/407)
@@ -27,4 +28,3 @@
 - [MKV import support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/292)
 - [Import and export support for VP8 and VP9 (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/291)
 - [AV1 import and export support  (December 2, 2023)](https://github.com/CommandPost/FCPCafe/issues/290)
-- [Parameters Synchronisation for Motion Template / Generator (November 27, 2023)](https://github.com/CommandPost/FCPCafe/issues/281)
