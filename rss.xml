@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 05:18:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 04:25:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 06 Dec 2024 05:18:13 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 04:25:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9074,6 +9074,80 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#28th-november-2024</link>
             <guid isPermaLink="false">28th November 2024</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th December 2024]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.5.1</strong> is out now!</p>
+<p>It includes the following bug fixes:</p>
+<ul>
+<li>Fixed a bug in the <strong>Modify Project</strong> action for Final Cut Pro. Thanks for reporting Adam Schoales!</li>
+<li>Fixed how CommandPost reads and writes Final Cut Pro 11's sandboxed preferences. This fixes features such as <strong>Enable Rendering During Playback</strong>.</li>
+<li>Fixed how CommandPost reads Final Cut Pro 11's sandboxed User Destinations.</li>
+<li>Fixed a bug which prevented CommandPost from sending FCPXMLs back to Final Cut Pro. Thanks for reporting Martin Turner!</li>
+</ul>
+<p>You can learn more and download for free on the <a href="https://commandpost.io">CommandPost website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-december-2024</link>
+            <guid isPermaLink="false">7th December 2024</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th December 2024]]></title>
+            <description><![CDATA[<p><strong>Jumper 2024.12.05 (1453)</strong> for Apple Silicon Mac's is out now!</p>
+<p>It includes the following updates:</p>
+<p><strong>🆕 Important Changes</strong></p>
+<ul>
+<li>We now finally support <strong>visual processing</strong> of <code>R3D</code> files! To enable this feature, you need to go to <a href="https://www.red.com/downloads">www.red.com/downloads</a> and download and install <strong>REDCINE-X PRO</strong>.</li>
+<li>We now save the transcriptions as plain text files in the audio analysis folder. The transcription can be found in the two <code>.txt</code> files if you right-click on a file in Jumper's media table and click <strong>Reveal Audio analysis</strong>.</li>
+</ul>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Improve frame capture quality when making reverse image searches via Final Cut Pro</li>
+</ul>
+<p><strong>🐞 Bug Fixes</strong></p>
+<ul>
+<li>Prevent automatic shutdown of Jumper Engine if the Final Cut Pro Trial version is running.</li>
+<li>Make sure the settings for target audio and video track in Premiere Pro doesn't reset on restart, thanks for reporting @citizensam!</li>
+<li>Make sure we are frame-accurate when doing reverse image searches from a Premiere Pro timeline, thanks for reporting @citizensam!</li>
+</ul>
+<p>You can learn more and download a free trial on the <a href="https://getjumper.io">Jumper website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-december-2024</link>
+            <guid isPermaLink="false">7th December 2024</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th December 2024]]></title>
+            <description><![CDATA[<p><strong>captionTranslation v1.0.1</strong> is out now!</p>
+<p>It includes the following new feature:</p>
+<ul>
+<li>Manage languages button to directly access the Translation Languages feature in System Settings</li>
+</ul>
+<p>You can download now on the <a href="https://apps.apple.com/app/captiontranslator/id6737919696">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-december-2024</link>
+            <guid isPermaLink="false">7th December 2024</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th December 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1.8</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li><strong>Fix:</strong> Replace and Metronome panels in timeline weren't appearing</li>
+<li><strong>Fix:</strong> Exit full screen video will return video to previous docked size</li>
+<li><strong>Fix:</strong> Slip editing in audio editor</li>
+<li>Improved metadata analysis/guessing for very short files. Added minimum confidence slider to UI.</li>
+<li>Improved loudness analysis for very short files</li>
+<li>Fixed Region Effects popup</li>
+<li>Fixed some region mouse responsiveness issues.</li>
+<li>Improved metadata windows</li>
+</ul>
+<p>You can learn more and download from the <a href="https://add.app">Audio Design Desk website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-december-2024</link>
+            <guid isPermaLink="false">7th December 2024</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
