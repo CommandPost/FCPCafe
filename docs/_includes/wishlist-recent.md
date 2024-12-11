@@ -1,3 +1,4 @@
+- [Be able to flatten Multicam Clips on timeline (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/431)
 - [Audio Effect Renaming (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/429)
 - [Storyline Effects (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/428)
 - [FxPlug API FxParameterFlags upgrade to 64 bits - high bits stored for application use. (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/425)
@@ -27,4 +28,3 @@
 - [Select roles in batch export (March 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/344)
 - [FCP and 3rd party plugins (January 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/325)
 - [Missing FxPlug API for setting Font (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/320)
-- [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
