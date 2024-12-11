@@ -1,3 +1,5 @@
+- [Batch export subrole audio as seperate audio files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/433)
+- [Support for native ARRIRAW and Blackmagic RAW files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/432)
 - [Be able to flatten Multicam Clips on timeline (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/431)
 - [Audio Effect Renaming (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/429)
 - [Storyline Effects (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/428)
@@ -26,5 +28,3 @@
 - [Spatial Conform needs Sub-pixel options, not just bilinear but nearest neighbor, catmull-rom, Mitchell, lanczos, and MetalFX (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/367)
 - [Request for color management and color grading functionality in Inspector (May 16, 2024)](https://github.com/CommandPost/FCPCafe/issues/360)
 - [Select roles in batch export (March 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/344)
-- [FCP and 3rd party plugins (January 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/325)
-- [Missing FxPlug API for setting Font (January 8, 2024)](https://github.com/CommandPost/FCPCafe/issues/320)
