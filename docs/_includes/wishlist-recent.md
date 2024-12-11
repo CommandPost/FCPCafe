@@ -1,3 +1,5 @@
+- [New FxPlug API FxParameterGroupingAPI_v1 for getting and setting Parameter Groupings (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/435)
+- [FxPlug - FxParameterFlags should include a flag for if the parameter is Published (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/434)
 - [Batch export subrole audio as seperate audio files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/433)
 - [Support for native ARRIRAW and Blackmagic RAW files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/432)
 - [Be able to flatten Multicam Clips on timeline (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/431)
@@ -26,5 +28,3 @@
 - [Master Audio Chain to apply audio Effects globally (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/370)
 - [FCP should have "Adjustment layer" as a built in Title rather than needing 3rd party Title/Effect (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/369)
 - [Spatial Conform needs Sub-pixel options, not just bilinear but nearest neighbor, catmull-rom, Mitchell, lanczos, and MetalFX (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/367)
-- [Request for color management and color grading functionality in Inspector (May 16, 2024)](https://github.com/CommandPost/FCPCafe/issues/360)
-- [Select roles in batch export (March 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/344)
