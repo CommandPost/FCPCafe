@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 11 Dec 2024 03:52:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Dec 2024 23:38:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Dec 2024 03:52:58 GMT</pubDate>
+        <pubDate>Sun, 15 Dec 2024 23:38:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9194,6 +9194,19 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#11th-december-2024</link>
             <guid isPermaLink="false">11th December 2024</guid>
             <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th December 2024]]></title>
+            <description><![CDATA[<p><strong>Sync-N-Link X v1.2.1</strong> is out now!</p>
+<p>It contains the following change:</p>
+<ul>
+<li>Bug fix for DTD validation</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-december-2024</link>
+            <guid isPermaLink="false">16th December 2024</guid>
+            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
