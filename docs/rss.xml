@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Dec 2024 09:35:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Dec 2024 03:52:58 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Dec 2024 09:35:16 GMT</pubDate>
+        <pubDate>Wed, 11 Dec 2024 03:52:58 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9148,6 +9148,52 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#7th-december-2024</link>
             <guid isPermaLink="false">7th December 2024</guid>
             <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th December 2024]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.2 (72)</strong> is out now!</p>
+<p>It contains the following bug fixes:</p>
+<ul>
+<li>Fixed a bug where the Toolbox drop zone failed to work properly in Final Cut Pro 11 due to depreciated FCPXML versions. Thanks for reporting Alex Sofonea!</li>
+<li>Fixed a bug where the <strong>Check All/Uncheck All</strong> button in the Workflow Extension didn't work correctly. Thanks for reporting Mathew Welsh!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-december-2024</link>
+            <guid isPermaLink="false">11th December 2024</guid>
+            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th December 2024]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates (The Final Cut Bro)</strong> has released a new product called <strong>Ultimate Glitch Transitions for Final Cut Pro | Vol. 1</strong></p>
+<p>You can use the discount code <code>Glitch20</code> to get <strong>20% off</strong> at checkout.</p>
+<p>Dylan writes:</p>
+<blockquote>
+<p>Hey fam, if you've been editing in Final Cut Pro for any length of time, there's a good chance you've run into an issue with transitions. When you apply a transition onto an overlying layer like a title or logo graphic, it almost always takes over the entire timeline, regardless of what you are applying it to.</p>
+<p>THIS DRIVES ME CRAZY.</p>
+<p>This week, I released a brand new glitch transition pack. But whenever I release a new plugin, I want it to solve problems that we have as everyday editors in Final Cut Pro.</p>
+<p>So my goal with this pack was to solve that exact problem. And I am happy to report, that it was a success!</p>
+<p>My new Glitch Transition pack allows you to enable / disable whether or not you want to apply it to the rest of the timeline.</p>
+<p>PLUS it comes with 20 variations of glitches, as well as an enormous amount of customization. So the possibilities truly are endless!</p>
+</blockquote>
+<p>You can learn more and purchase on <a href="https://thefinalcutbro.gumroad.com/l/Glitches">Dylan's Gumroad Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-december-2024</link>
+            <guid isPermaLink="false">11th December 2024</guid>
+            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th December 2024]]></title>
+            <description><![CDATA[<p><strong>SendToX v1.2.7</strong> is out now!</p>
+<p>It has the following change:</p>
+<ul>
+<li>Bug fix for falsely reporting that files are offline</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/sendtox/id496926258">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-december-2024</link>
+            <guid isPermaLink="false">11th December 2024</guid>
+            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
