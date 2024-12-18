@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 15 Dec 2024 23:38:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Dec 2024 01:43:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 15 Dec 2024 23:38:26 GMT</pubDate>
+        <pubDate>Wed, 18 Dec 2024 01:43:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9203,6 +9203,28 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <li>Bug fix for DTD validation</li>
 </ul>
 <p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-december-2024</link>
+            <guid isPermaLink="false">16th December 2024</guid>
+            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th December 2024]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1.9</strong> is out now!</p>
+<ul>
+<li>*<em>New:</em> Global Auto Transpose in timeline. This allows regions which contain key metadata to be transposed to the selected key of choice. By default full mix music isn't included in this control, but the option for that can be adjusted in effects preferences. This feature is most useful with shorter pitched regions such as loops.</li>
+<li>Moved sound pack manage panel to dedicated window. There is a new key command to show it in the main Library menu. Tab is removed but there is a button at the bottom of the sound pack manager for the window. The manage panel also has a number of fixes.</li>
+<li>
+<ul>
+<li>Button in home screen sound pack panels wasn't working correctly</li>
+</ul>
+</li>
+<li>Audio Editor's edit range controls weren't behaving correctly on render new file dialog</li>
+<li>More robust and performant rendering queue for pitch or time shifts in the Timeline</li>
+<li>Regions when dragged to the top of the timeline would often snap back to their source track</li>
+<li>Drag copy of regions, snap, pitch shift after copy, etc</li>
+</ul>
+<p>You can learn more and download from the <a href="https://add.app">Audio Design Desk website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#16th-december-2024</link>
             <guid isPermaLink="false">16th December 2024</guid>
