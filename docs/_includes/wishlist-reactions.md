@@ -1,5 +1,4 @@
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
-- [Auto Caption Transcription (August 26, 2023)](https://github.com/CommandPost/FCPCafe/issues/244)
 - [New FxPlug API FxParameterGroupingAPI_v1 for getting and setting Parameter Groupings (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/435)
 - [FxPlug - FxParameterFlags should include a flag for if the parameter is Published (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/434)
 - [Batch export subrole audio as seperate audio files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/433)
@@ -28,3 +27,4 @@
 - [Audio Generators? (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/372)
 - [FCP noise and sine wave (test) Audio Unit, take Logic Test Unit and package in FCP (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/371)
 - [Master Audio Chain to apply audio Effects globally (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/370)
+- [FCP should have "Adjustment layer" as a built in Title rather than needing 3rd party Title/Effect (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/369)
