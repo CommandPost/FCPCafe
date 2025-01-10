@@ -1,4 +1,5 @@
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
+- [FxPlug Push and Help Selector needs "Button parameter ID" parameterization (December 20, 2024)](https://github.com/CommandPost/FCPCafe/issues/438)
 - [Full Internal Storyline Timeline Functionality - Internal clips, titles, generators, and audio. (December 19, 2024)](https://github.com/CommandPost/FCPCafe/issues/437)
 - [New FxPlug API FxParameterGroupingAPI_v1 for getting and setting Parameter Groupings (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/435)
 - [FxPlug - FxParameterFlags should include a flag for if the parameter is Published (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/434)
@@ -27,4 +28,3 @@
 - [+Alpha Curves Panels in Color Inspector (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/373)
 - [Audio Generators? (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/372)
 - [FCP noise and sine wave (test) Audio Unit, take Logic Test Unit and package in FCP (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/371)
-- [Master Audio Chain to apply audio Effects globally (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/370)
