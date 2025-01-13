@@ -1,4 +1,5 @@
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
@@ -27,4 +28,3 @@
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
 - [Library damaged when working on shared Storage (April 4, 2024)](https://github.com/CommandPost/FCPCafe/issues/349)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
-- [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
