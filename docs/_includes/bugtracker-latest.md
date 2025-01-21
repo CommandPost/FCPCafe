@@ -1,3 +1,6 @@
+- [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
+- [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
+- [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 - [Custom Overlays not working properly in Final Cut Pro 11 (November 20, 2024)](https://github.com/CommandPost/FCPCafe/issues/421)

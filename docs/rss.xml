@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 09:45:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jan 2025 04:34:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Jan 2025 09:45:55 GMT</pubDate>
+        <pubDate>Mon, 13 Jan 2025 04:34:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9229,6 +9229,66 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#16th-december-2024</link>
             <guid isPermaLink="false">16th December 2024</guid>
             <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th January 2025]]></title>
+            <description><![CDATA[<p><strong>Sync-N-Link X v1.3</strong> is out now!</p>
+<p>It contains the following new feature:</p>
+<ul>
+<li>Ignores event clips hidden in Final Cut Pro 11</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-january-2025</link>
+            <guid isPermaLink="false">7th January 2025</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th January 2025]]></title>
+            <description><![CDATA[<p><strong>X2Pro5 v5.0.43</strong> is out now!</p>
+<p>It contains support for Final Cut Pro 11 and FCPXML v1.13.</p>
+<p>You can download on the <a href="https://apps.apple.com/app/x2pro5/id6467014654">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-january-2025</link>
+            <guid isPermaLink="false">7th January 2025</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th January 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v5.3.0</strong> is out now!</p>
+<p>In contains the following new feature:</p>
+<ul>
+<li>ARRI Camera Support for Smart LUT Finder</li>
+</ul>
+<p>Smart LUT Finder now supports ARRI camera files in <code>.mov</code> and <code>.mxf</code> formats (ProRes). For cameras using LogC3, the appropriate LUT can be extracted directly from the file's metadata, streamlining the color grading process.</p>
+<p>Supported ARRI Cameras:</p>
+<ul>
+<li>ALEXA Mini LF</li>
+<li>ALEXA LF</li>
+<li>AMIRA</li>
+<li>ALEXA Mini</li>
+<li>ALEXA SXT W</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-january-2025</link>
+            <guid isPermaLink="false">7th January 2025</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th January 2025]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.1.12</strong> is out now!</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Fixes add sound pack folder command</li>
+<li>Adds new drag target in the timeline to allow you to drag multiple sound pack folders and install them at once.</li>
+<li>Fixes various sound pack management issues in previous build</li>
+</ul>
+<p>You can learn more and download from the <a href="https://add.app">Audio Design Desk website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-january-2025</link>
+            <guid isPermaLink="false">7th January 2025</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
