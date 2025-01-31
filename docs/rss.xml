@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 21 Jan 2025 06:26:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Jan 2025 00:14:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jan 2025 06:26:30 GMT</pubDate>
+        <pubDate>Fri, 31 Jan 2025 00:14:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9386,6 +9386,76 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <link>https://fcp.cafe/#21st-january-2025</link>
             <guid isPermaLink="false">21st January 2025</guid>
             <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2025]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.3</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Panasonic UB10 Blackmagic RAW clips.</li>
+<li>Updated from Blackmagic RAW SDK v4.3.1 to v4.4.</li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a regression where the Toolbox drop zone failed to work properly in older versions of Final Cut Pro.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2025</link>
+            <guid isPermaLink="false">31st January 2025</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.5.0</strong> is out now!</p>
+<p>It includes the following new feature:</p>
+<ul>
+<li>Added support for MP4 Chapter Markers (such as Hybrid MP4 recordings from OBS). Thanks for suggesting Adam Olivero!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://markertoolbox.io">Marker Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2025</link>
+            <guid isPermaLink="false">31st January 2025</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2025]]></title>
+            <description><![CDATA[<p><strong>Producer's Best Friend v1.4.73</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for detecting disabled audio clips in a project</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/producers-best-friend/id688519794">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2025</link>
+            <guid isPermaLink="false">31st January 2025</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2025]]></title>
+            <description><![CDATA[<p><strong>Captionator for Final Cut v2.1.4</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Bugfix: Re-adds the Build In/Build Out option for Custom Titles (now found
+under the custom title panel)</li>
+<li>Bugfix from 2.1.3: Model panel would sometimes show &quot;Loading...&quot;, and should now be fixed.</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/au/captionator-for-final-cut/id1627843786">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2025</link>
+            <guid isPermaLink="false">31st January 2025</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2025]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.1.2</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for captions containing multiple fonts</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/captionanimator/id6736841747">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2025</link>
+            <guid isPermaLink="false">31st January 2025</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
