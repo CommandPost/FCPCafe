@@ -120,6 +120,14 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 
 ## iPad
 
+### Final Cut Pro 2.1.1 (for iPad)
+
+**Released February 3, 2025**
+
+- Fixes an issue that caused Final Cut Pro for iPad to display a black screen and close unexpectedly.
+
+---
+
 ### Final Cut Pro 2.1 (for iPad)
 
 **Released November 13, 2024**
