@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 04 Feb 2025 01:12:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Feb 2025 01:14:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 04 Feb 2025 01:12:20 GMT</pubDate>
+        <pubDate>Tue, 04 Feb 2025 01:14:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9456,6 +9456,35 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#31st-january-2025</link>
             <guid isPermaLink="false">31st January 2025</guid>
             <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2025]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v11.0.1</strong> is out now!</p>
+<p>It includes the following bug fixes:</p>
+<ul>
+<li>Addresses an issue that caused Custom Overlays not to be visible in the viewer.</li>
+<li>Fixes an issue that caused errors when using Send to Compressor from a timeline that included Magnetic Mask effects.</li>
+<li>Improves reliability of the Show Horizon command in the viewer.</li>
+<li>Improves performance when pressing and holding the H key to scroll the timeline manually.</li>
+</ul>
+<p>You can update now on the <a href="https://apps.apple.com/app/final-cut-pro/id424389933">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2025</link>
+            <guid isPermaLink="false">4th February 2025</guid>
+            <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2025]]></title>
+            <description><![CDATA[<p><strong>Sync-N-Link X v1.3.2</strong> is out now.</p>
+<p>It includes the following bug fix:</p>
+<ul>
+<li>Critical bug fix for an error message raised by failing to access media files via security-scoped bookmarks (in some cases)</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2025</link>
+            <guid isPermaLink="false">4th February 2025</guid>
+            <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
