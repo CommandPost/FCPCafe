@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 11.0.1            | 03/02/2025   | 82                   | 15.3          | 4.3.1          |
 | 11.0.0            | 13/11/2024   | 92                   | 15.1          | 4.3.1          |
 | 10.8.1            | 13/08/2024   | 54                   | 14.6.1        | 4.3            |
 | 10.8.0            | 20/06/2024   | 182                  | 14.5          | 4.3            |
@@ -89,11 +90,12 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2022	| 4       |
 | 2023	| 7       |
 | 2024  | 3       |
+| 2025  | 1       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
-| Q1	  | 8       |
+| Q1	  | 9       |
 | Q2	  | 15      |
 | Q3	  | 13      |
 | Q4	  | 19      |
@@ -102,7 +104,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Month | Updates |
 |-------|---------|
 | Jan	| 4       |
-| Feb	| 1       |
+| Feb	| 2       |
 | Mar	| 3       |
 | Apr	| 6       |
 | May	| 4       |
@@ -340,6 +342,19 @@ This is the first release of Final Cut Pro for iPad!
 ---
 
 ## Mac
+
+### Final Cut Pro 11.0.1
+
+**Released February 3, 2025**
+
+Final Cut Pro 11.0.1 includes these fixes:
+
+- Addresses an issue that caused Custom Overlays to not be visible in the viewer.
+- Fixes an issue that caused errors when using Send to Compressor from a timeline that included Magnetic Mask effects.
+- Improves reliability of the Show Horizon command in the viewer.
+- Improves performance when pressing and holding the H key to scroll the timeline manually.
+
+---
 
 ### Final Cut Pro 11.0.0
 
