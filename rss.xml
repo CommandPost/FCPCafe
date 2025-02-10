@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 04 Feb 2025 01:46:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Feb 2025 05:16:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 04 Feb 2025 01:46:08 GMT</pubDate>
+        <pubDate>Tue, 04 Feb 2025 05:16:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9468,6 +9468,10 @@ under the custom title panel)</li>
 <li>Improves performance when pressing and holding the H key to scroll the timeline manually.</li>
 </ul>
 <p>You can update now on the <a href="https://apps.apple.com/app/final-cut-pro/id424389933">Mac App Store</a>.</p>
+<p><strong>Final Cut Pro for iPad v2.1.1</strong> is also out now with the following bug fix:</p>
+<ul>
+<li>Fixes an issue that caused Final Cut Pro for iPad to display a black screen and close unexpectedly.</li>
+</ul>
 ]]></description>
             <link>https://fcp.cafe/#4th-february-2025</link>
             <guid isPermaLink="false">4th February 2025</guid>
