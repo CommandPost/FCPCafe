@@ -138,6 +138,12 @@
 
 ---
 
+## J
+
+{{ include "tools/jumper" }}
+
+---
+
 ## K
 
 {{ include "tools/keyclips" }}
