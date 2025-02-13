@@ -20,7 +20,6 @@
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
 - [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
 - [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
-- [FCP 10.8 Stalls on M2 Ultra Studio With Blackmagic Decklink Mini 4K Monitor (June 21, 2024)](https://github.com/CommandPost/FCPCafe/issues/362)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)
 - [Can't extend compound clip length in timeline (April 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/354)
@@ -28,3 +27,4 @@
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
 - [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
 - [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
+- [Change Audio Role of Sync Clip (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/335)
