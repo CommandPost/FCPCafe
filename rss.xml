@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 18 Mar 2025 15:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Mar 2025 02:29:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 18 Mar 2025 15:32:24 GMT</pubDate>
+        <pubDate>Fri, 28 Mar 2025 02:29:40 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9514,6 +9514,172 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#14th-february-2025</link>
             <guid isPermaLink="false">14th February 2025</guid>
             <pubDate>Fri, 14 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th March 2025]]></title>
+            <description><![CDATA[<p>Apple has just released updates to Final Cut Pro, Final Cut Pro for iPad, Final Cut Camera, Compressor, Motion and FxPlug.</p>
+<p><em><strong>As always, please make sure you backup your current version of Final Cut Pro, Motion and Compressor before updating.</strong></em></p>
+<p><img src="/static/fcp11-1-whats-new.png" alt=""></p>
+<p>As usual Ripple Training is straight out of the gate with a great summary video, which you can watch on YouTube below:</p>
+<p><a href="https://www.youtube.com/watch?v=J8tzfMSi9Rk"><img src="/static/fcp11-1-ripple-youtube.jpg" alt=""></a></p>
+<p>The amazing Jenn Jager has also released a video:</p>
+<p><a href="https://www.youtube.com/watch?v=DLf-iAIqdN8"><img src="/static/fcp11-1-jenn-youtube.jpg" alt=""></a></p>
+<p>...as has Dylan Bates (aka The Final Cut Bro):</p>
+<p><a href="https://www.youtube.com/watch?v=2rpY_XW47Qk"><img src="/static/fcp11-1-dylan-youtube.jpg" alt=""></a></p>
+<p>Final Cut Pro for Mac has a database update (<code>1133</code> in <code>v11.0.1</code>, and now <code>1150</code> in <code>v11.1</code>) - which means existing Libraries will need to be updated. We recommend manually making backups of your Final Cut Pro Libraries before updating.</p>
+<p>There was no update to FCPXML in this release - it's still on FCPXML <code>v1.13</code>.</p>
+<p>Interestingly, new <strong>Adjustment Clips</strong> in FCPXML are just standard <code>video</code> items with a new special <code>effect</code> applied - so existing FCPXML-based tools should continue to work without any updates:</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+
+&lt;fcpxml version=&quot;1.13&quot;&gt;
+    &lt;resources&gt;
+        &lt;format id=&quot;r1&quot; name=&quot;FFVideoFormat1080p25&quot; frameDuration=&quot;100/2500s&quot; width=&quot;1920&quot; height=&quot;1080&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;effect id=&quot;r2&quot; name=&quot;Adjustment Clip&quot; uid=&quot;FFAdjustmentEffect&quot;/&gt;
+    &lt;/resources&gt;
+    &lt;library location=&quot;file:///Example.fcpbundle/&quot;&gt;
+        &lt;event name=&quot; 🎬 EDITS&quot; uid=&quot;917D28EF-04EA-4A6B-A8B4-FAB14E5AA649&quot;&gt;
+            &lt;project name=&quot;Adjustment Clip&quot; uid=&quot;23781BD2-0E2A-4BF9-9ED0-6E1DA0844336&quot; modDate=&quot;2025-03-28 12:24:17 +1100&quot;&gt;
+                &lt;sequence format=&quot;r1&quot; duration=&quot;86400s&quot; tcStart=&quot;0s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;
+                    &lt;spine&gt;
+                        &lt;video ref=&quot;r2&quot; offset=&quot;0s&quot; name=&quot;Adjustment Clip&quot; start=&quot;3600s&quot; duration=&quot;86400s&quot; role=&quot;adjustments&quot;/&gt;
+                    &lt;/spine&gt;
+                &lt;/sequence&gt;
+            &lt;/project&gt;
+        &lt;/event&gt;
+    &lt;/library&gt;
+&lt;/fcpxml&gt;
+</code></pre>
+<p>Whilst this isn't a major update (compared to what Blackmagic will most likely announce next week before NAB), it does have a lot a very useful additions for professional editors.</p>
+<p><strong>Adjustment Clips</strong> is something the Final Cut Pro community has been asking for a very long time, so it's awesome to see that Apple's finally built this in.</p>
+<p>Whilst we've always been able to build empty Motion Titles to basically act as adjustment layers (I personally always used <a href="https://blog.alex4d.com/2012/03/19/adjustment-layer-fcpx-effect/">Alex4D's free adjustment layer</a>) - it became a bit annoying with collaboration, because different people would use different adjustment layer Motion Templates. I have about 10 different Adjustment Layers on my system for example.</p>
+<p>As you'll see in the above videos, Adjustments Clips are also an improvement upon the legacy Adjustment Layers, because they can be applied from the Effects Browser, and they also support transitions.</p>
+<p>The addition of the <strong>Quantec QRS (Quantec Room Simulator)</strong> is awesome too - although not really unexpected, given it was featured so heavily at last years FCP Creative Summit when talking about Logic Pro. I would GUESS that they originally wanted this in FCP 11, but ran out of time.</p>
+<p>Renaming audio effects in the Inspector is another super useful quality of life improvement, that was basically low-hanging fruit for the FCP team. Interestingly, this just uses the <code>nameOverride</code> parameter in FCPXML, which already was in FCPXML v1.13 for audio effects.</p>
+<p>Revealing the source of a multicam angle or synced clip in the Browser is also another great quality of life improvement for professional editors. Previously, editors would have to use CommandPost to achieve similar functionality.</p>
+<p><strong>Moveable Markers</strong> have also finally been officially enabled! This has been a secret/hidden feature in Final Cut Pro for years - it was <a href="http://alex4d.com/notes/item/fcpx-movable-markers">first discovered</a> by Alex Goldner back in June 2014, and added to <a href="https://commandpost.io/faq/#why-did-you-remove-moveable-markers">CommandPost</a>.</p>
+<p><strong>Image Playground</strong> is a bit of unsurprisingly, but &quot;meh&quot; feature, however if you don't enable Apple Intelligence at the macOS level, you won't even see the option anyway (so your <code>Import</code> button will just open the Import window)!</p>
+<p>There's also lots of documented (and some undocumented) bug fixes, which is always welcome. The improvements to FxPlug will hopefully mean third party plugins will become more stable and reliable.</p>
+<p>We'll continue to explore and test it in more detail over the coming weeks.</p>
+<p>In the meantime, here's the full release notes:</p>
+<p><strong>Final Cut Pro v11.1</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Add color corrections and effects to an adjustment clip above the timeline to apply them to a range of clips at once.</li>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*</li>
+<li>Speed up your Magnetic Mask workflows with important bug fixes, performance improvements, and a new keyboard shortcut to show or hide the Magnetic Mask Editor.</li>
+<li>Use the Quantec QRS (Quantec Room Simulator) effect to create natural and transparent audio reverbs that simulate real acoustic spaces.</li>
+<li>Stay organized by renaming audio effects in the inspector.</li>
+<li>Reveal the source of a multicam angle or synced clip in the browser.</li>
+<li>Move markers in the timeline by dragging them in a clip, or remove markers by dragging them out of a clip.</li>
+</ul>
+<p><strong>Additional support and bug fixes:</strong></p>
+<ul>
+<li>The Magnetic Mask Editor now closes automatically when the last Magnetic Mask is removed from a clip.</li>
+<li>Improves reliability when batch exporting compound clips that contain Magnetic Masks.</li>
+<li>Adds support for using Transcribe to Captions with a single audio role component.</li>
+<li>Improves stability when dragging a library item to a text editor to generate an FCPXML.</li>
+<li>Improves reliability when upgrading a library that contains 100 fps clips.</li>
+<li>Improves reliability when sharing a project that includes ARRI ProRes MXF media.</li>
+<li>Fixes an issue that prevented a LUT from being automatically applied when importing ARRIRAW MXF clips.</li>
+<li>Improves performance when applying Smooth Slo-Mo to ProRes 4444 files with an alpha channel on Mac models with M1.</li>
+<li>Fixes an issue that caused audio to go out of sync when adding 25 fps clips to a 23.98 fps timeline.</li>
+<li>Fixes an issue that could cause sound to slip out of sync when detaching audio from a clip with a J-cut and a through edit.</li>
+<li>Fixes an issue that caused an MP3 or AAC audio file to have a truncated audio waveform after export.</li>
+<li>Fixes an issue that caused black frames to be displayed when playing back HEVC clips from a RED camera.</li>
+<li>Fixes an issue that prevented the browser from automatically scrolling to an active cell in list view.</li>
+<li>Fixes an issue that caused the selected browser clip to change when Show Hidden Clips was enabled.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad 2.2</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Expand your editing workflows with support for portrait orientation on your iPad.</li>
+<li>Speed up your editing with keyboard shortcuts to nudge a selection, replace with gap, and lift or overwrite to the primary storyline.</li>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*</li>
+<li>Capture in 50 fps for additional editing flexibility and delivery options.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Double-tap in the timeline to quickly start and stop playback.</li>
+<li>Automatically scroll the timeline when moving the playhead, moving timeline clips, or editing, including trimming, retiming, and selecting multiple clips.</li>
+<li>Animation keyframes now default to the Transform All property.</li>
+<li>Fixes an issue that caused the inspector to sometimes apply effect changes to the previously selected clip.</li>
+<li>Addresses an issue that caused clips to sometimes appear black in the timeline.</li>
+<li>Improves reliability when editing focus points of Cinematic mode videos in a connected storyline.</li>
+<li>Improves reliability when using onscreen controls to resize clips in the viewer.</li>
+<li>Fixes an issue that interrupted audio playback when changing the audio configuration in the inspector.</li>
+<li>Addresses an issue that caused multicam syncing to fail with the inspector open.</li>
+<li>Improves reliability when using the Continuous Zoom slider with the front-facing camera.</li>
+<li>Fixes an issue that caused incorrect voiceover controls to appear after a Live Multicam session.</li>
+<li>Addresses an issue that caused the app to rotate unexpectedly when using Stage Manager and Live Multicam.</li>
+<li>Fixes an issue in Live Multicam that caused incorrect lens options to appear in the zoom slider for certain frame rate and resolution settings.</li>
+<li>Addresses an issue that caused the Live Multicam Record button to sometimes appear offscreen.</li>
+<li>Improves reliability when using the jog wheel on iPad mini.</li>
+<li>Fixes an issue that caused the Picture in Picture viewer to flash and not resize correctly on iPad mini.</li>
+<li>Addresses an issue that caused the voiceover controls to flash on iPad mini.</li>
+<li>Improves the reliability of the inspector color palette when VoiceOver accessibility mode is turned on.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Replace with Gap: <code>Shift-Delete</code></li>
+<li>Overwrite to Primary Storyline: <code>Option-Command-Down Arrow</code></li>
+<li>Lift from Primary Storyline: <code>Option-Command-Up Arrow</code></li>
+<li>Nudge Left Many: <code>Shift-Comma (,)</code></li>
+<li>Nudge Right Many: <code>Shift-Period (.)</code></li>
+<li>Import from Image Playground: <code>Shift-Option-P</code></li>
+</ul>
+<p><strong>Motion v5.10</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.</li>
+<li>Fixes an issue where disabling a soloed object in the Layers list would not clear its solo state.</li>
+<li>Improves stability when using the Timecode generator.</li>
+<li>Improves performance when playing back image sequences.</li>
+</ul>
+<p><strong>Compressor v4.10</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Get higher quality frame rate retiming powered by best-in-class machine learning, converting to higher frame rates, such as 60, 90, and 120 fps.</li>
+<li>Adds support for video pass-through of long GOP to MXF exports.</li>
+<li>Fixes an issue where the app would crash when applying an audio only preset to a video.</li>
+<li>Fixes an issue where custom frame size was constrained to a previously selected aspect ratio.</li>
+<li>Fixes an issue where multichannel audio layout was misinterpreted.</li>
+<li>Fixes an issue where log processing is retained when replacing a log-encoded video source file in an existing job.</li>
+</ul>
+<p><strong>FxPlug v4.3.2</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Improved overall stability.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed some memory leaks in the <code>FxPlug.Framework</code>.</li>
+<li>Fixed an issue where the FxCustomParameterAPI’s <code>-currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
+<p><strong>Final Cut Camera v1.2</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Quickly switch to the 48 mm telephoto lens to capture the perfect shot. (Requires iPhone 14 Pro or later.)</li>
+<li>Play back your Log videos in SDR or HDR with the vibrancy of the original scene by applying the Apple Log LUT. (Requires iPhone 15 Pro or later.)</li>
+<li>Record videos in Spatial Audio for even more realistic and immersive sound. (Requires iPhone 16.)</li>
+<li>Capture in 50 fps for additional editing flexibility and delivery options.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Improves reliability when recording in 4K 120 fps or 4K 100 fps.</li>
+<li>Fixes an issue that caused preview latency when recording in 4K 60 fps.</li>
+<li>Improves the reliability of HDR overexposure indicators.</li>
+<li>Addresses an issue that caused the thumbnail image to sometimes not appear or update when recording with an external drive.</li>
+<li>Fixes an issue that caused the Continuous Zoom slider to be hidden after switching to a different lens.</li>
+<li>Addresses an issue that caused focus peaking indicators to sometimes appear on the edge of the frame.</li>
+<li>Fixes an issue that prevented automatic exposure from resetting to zero after switching from manual exposure.</li>
+<li>Addresses an issue that caused the green dot indicator to sometimes appear incorrectly while in the media browser.</li>
+<li>Improves reliability with media transfers to Final Cut Pro for iPad.</li>
+<li>Improves reliability when changing device orientation.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#28th-march-2025</link>
+            <guid isPermaLink="false">28th March 2025</guid>
+            <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

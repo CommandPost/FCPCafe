@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.796444294887">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.796444937270">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,11 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="static/favicon.ico" rel="icon">
-    <link href="resources/css/retype.css?v=3.6.0.796444294887" rel="stylesheet">
+    <link href="resources/css/retype.css?v=3.6.0.796444937270" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.6.0.796444294887" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=3.6.0.796444937270" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.6.0.796444294887" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.6.0.796444937270" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=3.6.0.796444937270" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -436,6 +437,222 @@ Get all of LateNite&#x27;s Tools on the <a href="https://itunes.apple.com/us/app
         <span>2025</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="march">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#march">#</doc-anchor-trigger>
+        <span>March</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="28th-march-2025">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#28th-march-2025">#</doc-anchor-trigger>
+        <span><a href="news/20250328/">28th March 2025</a></span>
+    </h3>
+</doc-anchor-target>
+<p>Apple has just released updates to Final Cut Pro, Final Cut Pro for iPad, Final Cut Camera, Compressor, Motion and FxPlug.</p>
+<p><em><strong>As always, please make sure you backup your current version of Final Cut Pro, Motion and Compressor before updating.</strong></em></p>
+<p><figure class="content-center">
+    <img src="static/fcp11-1-whats-new.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>As usual Ripple Training is straight out of the gate with a great summary video, which you can watch on YouTube below:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=J8tzfMSi9Rk">
+        <img src="static/fcp11-1-ripple-youtube.jpg" alt="">
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The amazing Jenn Jager has also released a video:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=DLf-iAIqdN8">
+        <img src="static/fcp11-1-jenn-youtube.jpg" alt="">
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>...as has Dylan Bates (aka The Final Cut Bro):</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=2rpY_XW47Qk">
+        <img src="static/fcp11-1-dylan-youtube.jpg" alt="">
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Final Cut Pro for Mac has a database update (<code v-pre>1133</code> in <code v-pre>v11.0.1</code>, and now <code v-pre>1150</code> in <code v-pre>v11.1</code>) - which means existing Libraries will need to be updated. We recommend manually making backups of your Final Cut Pro Libraries before updating.</p>
+<p>There was no update to FCPXML in this release - it&#x27;s still on FCPXML <code v-pre>v1.13</code>.</p>
+<p>Interestingly, new <strong>Adjustment Clips</strong> in FCPXML are just standard <code v-pre>video</code> items with a new special <code v-pre>effect</code> applied - so existing FCPXML-based tools should continue to work without any updates:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+
+&lt;fcpxml version=&quot;1.13&quot;&gt;
+    &lt;resources&gt;
+        &lt;format id=&quot;r1&quot; name=&quot;FFVideoFormat1080p25&quot; frameDuration=&quot;100/2500s&quot; width=&quot;1920&quot; height=&quot;1080&quot; colorSpace=&quot;1-1-1 (Rec. 709)&quot;/&gt;
+        &lt;effect id=&quot;r2&quot; name=&quot;Adjustment Clip&quot; uid=&quot;FFAdjustmentEffect&quot;/&gt;
+    &lt;/resources&gt;
+    &lt;library location=&quot;file:///Example.fcpbundle/&quot;&gt;
+        &lt;event name=&quot; 🎬 EDITS&quot; uid=&quot;917D28EF-04EA-4A6B-A8B4-FAB14E5AA649&quot;&gt;
+            &lt;project name=&quot;Adjustment Clip&quot; uid=&quot;23781BD2-0E2A-4BF9-9ED0-6E1DA0844336&quot; modDate=&quot;2025-03-28 12:24:17 +1100&quot;&gt;
+                &lt;sequence format=&quot;r1&quot; duration=&quot;86400s&quot; tcStart=&quot;0s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;
+                    &lt;spine&gt;
+                        &lt;video ref=&quot;r2&quot; offset=&quot;0s&quot; name=&quot;Adjustment Clip&quot; start=&quot;3600s&quot; duration=&quot;86400s&quot; role=&quot;adjustments&quot;/&gt;
+                    &lt;/spine&gt;
+                &lt;/sequence&gt;
+            &lt;/project&gt;
+        &lt;/event&gt;
+    &lt;/library&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p>Whilst this isn&#x27;t a major update (compared to what Blackmagic will most likely announce next week before NAB), it does have a lot a very useful additions for professional editors.</p>
+<p><strong>Adjustment Clips</strong> is something the Final Cut Pro community has been asking for a very long time, so it&#x27;s awesome to see that Apple&#x27;s finally built this in.</p>
+<p>Whilst we&#x27;ve always been able to build empty Motion Titles to basically act as adjustment layers (I personally always used <a href="https://blog.alex4d.com/2012/03/19/adjustment-layer-fcpx-effect/" class="outbound" target="_blank"><span>Alex4D&#x27;s free adjustment layer</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>) - it became a bit annoying with collaboration, because different people would use different adjustment layer Motion Templates. I have about 10 different Adjustment Layers on my system for example.</p>
+<p>As you&#x27;ll see in the above videos, Adjustments Clips are also an improvement upon the legacy Adjustment Layers, because they can be applied from the Effects Browser, and they also support transitions.</p>
+<p>The addition of the <strong>Quantec QRS (Quantec Room Simulator)</strong> is awesome too - although not really unexpected, given it was featured so heavily at last years FCP Creative Summit when talking about Logic Pro. I would GUESS that they originally wanted this in FCP 11, but ran out of time.</p>
+<p>Renaming audio effects in the Inspector is another super useful quality of life improvement, that was basically low-hanging fruit for the FCP team. Interestingly, this just uses the <code v-pre>nameOverride</code> parameter in FCPXML, which already was in FCPXML v1.13 for audio effects.</p>
+<p>Revealing the source of a multicam angle or synced clip in the Browser is also another great quality of life improvement for professional editors. Previously, editors would have to use CommandPost to achieve similar functionality.</p>
+<p><strong>Moveable Markers</strong> have also finally been officially enabled! This has been a secret/hidden feature in Final Cut Pro for years - it was <a href="http://alex4d.com/notes/item/fcpx-movable-markers" class="outbound" target="_blank"><span>first discovered</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> by Alex Goldner back in June 2014, and added to <a href="https://commandpost.io/faq/#why-did-you-remove-moveable-markers" class="outbound" target="_blank"><span>CommandPost</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p><strong>Image Playground</strong> is a bit of unsurprisingly, but &quot;meh&quot; feature, however if you don&#x27;t enable Apple Intelligence at the macOS level, you won&#x27;t even see the option anyway (so your <code v-pre>Import</code> button will just open the Import window)!</p>
+<p>There&#x27;s also lots of documented (and some undocumented) bug fixes, which is always welcome. The improvements to FxPlug will hopefully mean third party plugins will become more stable and reliable.</p>
+<p>We&#x27;ll continue to explore and test it in more detail over the coming weeks.</p>
+<p>In the meantime, here&#x27;s the full release notes:</p>
+<p><strong>Final Cut Pro v11.1</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Add color corrections and effects to an adjustment clip above the timeline to apply them to a range of clips at once.</li>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*</li>
+<li>Speed up your Magnetic Mask workflows with important bug fixes, performance improvements, and a new keyboard shortcut to show or hide the Magnetic Mask Editor.</li>
+<li>Use the Quantec QRS (Quantec Room Simulator) effect to create natural and transparent audio reverbs that simulate real acoustic spaces.</li>
+<li>Stay organized by renaming audio effects in the inspector.</li>
+<li>Reveal the source of a multicam angle or synced clip in the browser.</li>
+<li>Move markers in the timeline by dragging them in a clip, or remove markers by dragging them out of a clip.</li>
+</ul>
+<p><strong>Additional support and bug fixes:</strong></p>
+<ul>
+<li>The Magnetic Mask Editor now closes automatically when the last Magnetic Mask is removed from a clip.</li>
+<li>Improves reliability when batch exporting compound clips that contain Magnetic Masks.</li>
+<li>Adds support for using Transcribe to Captions with a single audio role component.</li>
+<li>Improves stability when dragging a library item to a text editor to generate an FCPXML.</li>
+<li>Improves reliability when upgrading a library that contains 100 fps clips.</li>
+<li>Improves reliability when sharing a project that includes ARRI ProRes MXF media.</li>
+<li>Fixes an issue that prevented a LUT from being automatically applied when importing ARRIRAW MXF clips.</li>
+<li>Improves performance when applying Smooth Slo-Mo to ProRes 4444 files with an alpha channel on Mac models with M1.</li>
+<li>Fixes an issue that caused audio to go out of sync when adding 25 fps clips to a 23.98 fps timeline.</li>
+<li>Fixes an issue that could cause sound to slip out of sync when detaching audio from a clip with a J-cut and a through edit.</li>
+<li>Fixes an issue that caused an MP3 or AAC audio file to have a truncated audio waveform after export.</li>
+<li>Fixes an issue that caused black frames to be displayed when playing back HEVC clips from a RED camera.</li>
+<li>Fixes an issue that prevented the browser from automatically scrolling to an active cell in list view.</li>
+<li>Fixes an issue that caused the selected browser clip to change when Show Hidden Clips was enabled.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad 2.2</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Expand your editing workflows with support for portrait orientation on your iPad.</li>
+<li>Speed up your editing with keyboard shortcuts to nudge a selection, replace with gap, and lift or overwrite to the primary storyline.</li>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*</li>
+<li>Capture in 50 fps for additional editing flexibility and delivery options.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Double-tap in the timeline to quickly start and stop playback.</li>
+<li>Automatically scroll the timeline when moving the playhead, moving timeline clips, or editing, including trimming, retiming, and selecting multiple clips.</li>
+<li>Animation keyframes now default to the Transform All property.</li>
+<li>Fixes an issue that caused the inspector to sometimes apply effect changes to the previously selected clip.</li>
+<li>Addresses an issue that caused clips to sometimes appear black in the timeline.</li>
+<li>Improves reliability when editing focus points of Cinematic mode videos in a connected storyline.</li>
+<li>Improves reliability when using onscreen controls to resize clips in the viewer.</li>
+<li>Fixes an issue that interrupted audio playback when changing the audio configuration in the inspector.</li>
+<li>Addresses an issue that caused multicam syncing to fail with the inspector open.</li>
+<li>Improves reliability when using the Continuous Zoom slider with the front-facing camera.</li>
+<li>Fixes an issue that caused incorrect voiceover controls to appear after a Live Multicam session.</li>
+<li>Addresses an issue that caused the app to rotate unexpectedly when using Stage Manager and Live Multicam.</li>
+<li>Fixes an issue in Live Multicam that caused incorrect lens options to appear in the zoom slider for certain frame rate and resolution settings.</li>
+<li>Addresses an issue that caused the Live Multicam Record button to sometimes appear offscreen.</li>
+<li>Improves reliability when using the jog wheel on iPad mini.</li>
+<li>Fixes an issue that caused the Picture in Picture viewer to flash and not resize correctly on iPad mini.</li>
+<li>Addresses an issue that caused the voiceover controls to flash on iPad mini.</li>
+<li>Improves the reliability of the inspector color palette when VoiceOver accessibility mode is turned on.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Replace with Gap: <code v-pre>Shift-Delete</code></li>
+<li>Overwrite to Primary Storyline: <code v-pre>Option-Command-Down Arrow</code></li>
+<li>Lift from Primary Storyline: <code v-pre>Option-Command-Up Arrow</code></li>
+<li>Nudge Left Many: <code v-pre>Shift-Comma (,)</code></li>
+<li>Nudge Right Many: <code v-pre>Shift-Period (.)</code></li>
+<li>Import from Image Playground: <code v-pre>Shift-Option-P</code></li>
+</ul>
+<p><strong>Motion v5.10</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.</li>
+<li>Fixes an issue where disabling a soloed object in the Layers list would not clear its solo state.</li>
+<li>Improves stability when using the Timecode generator.</li>
+<li>Improves performance when playing back image sequences.</li>
+</ul>
+<p><strong>Compressor v4.10</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Get higher quality frame rate retiming powered by best-in-class machine learning, converting to higher frame rates, such as 60, 90, and 120 fps.</li>
+<li>Adds support for video pass-through of long GOP to MXF exports.</li>
+<li>Fixes an issue where the app would crash when applying an audio only preset to a video.</li>
+<li>Fixes an issue where custom frame size was constrained to a previously selected aspect ratio.</li>
+<li>Fixes an issue where multichannel audio layout was misinterpreted.</li>
+<li>Fixes an issue where log processing is retained when replacing a log-encoded video source file in an existing job.</li>
+</ul>
+<p><strong>FxPlug v4.3.2</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Improved overall stability.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed some memory leaks in the <code v-pre>FxPlug.Framework</code>.</li>
+<li>Fixed an issue where the FxCustomParameterAPI’s <code v-pre>-currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code v-pre>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
+<p><strong>Final Cut Camera v1.2</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Quickly switch to the 48 mm telephoto lens to capture the perfect shot. (Requires iPhone 14 Pro or later.)</li>
+<li>Play back your Log videos in SDR or HDR with the vibrancy of the original scene by applying the Apple Log LUT. (Requires iPhone 15 Pro or later.)</li>
+<li>Record videos in Spatial Audio for even more realistic and immersive sound. (Requires iPhone 16.)</li>
+<li>Capture in 50 fps for additional editing flexibility and delivery options.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Improves reliability when recording in 4K 120 fps or 4K 100 fps.</li>
+<li>Fixes an issue that caused preview latency when recording in 4K 60 fps.</li>
+<li>Improves the reliability of HDR overexposure indicators.</li>
+<li>Addresses an issue that caused the thumbnail image to sometimes not appear or update when recording with an external drive.</li>
+<li>Fixes an issue that caused the Continuous Zoom slider to be hidden after switching to a different lens.</li>
+<li>Addresses an issue that caused focus peaking indicators to sometimes appear on the edge of the frame.</li>
+<li>Fixes an issue that prevented automatic exposure from resetting to zero after switching from manual exposure.</li>
+<li>Addresses an issue that caused the green dot indicator to sometimes appear incorrectly while in the media browser.</li>
+<li>Improves reliability with media transfers to Final Cut Pro for iPad.</li>
+<li>Improves reliability when changing device orientation.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><a href="news/20250328/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
+    <span>Discuss this news item</span>
+</a></p>
+<hr>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Sponsored</h5>
+<p>See how to <a href="contribute/">contribute or advertise on <strong>FCP Cafe</strong></a>.</p>
+        </div>
+    </div>
+</div>
+<hr>
 <doc-anchor-target id="february">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#february">#</doc-anchor-trigger>
@@ -477,7 +694,9 @@ Get all of LateNite&#x27;s Tools on the <a href="https://itunes.apple.com/us/app
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>See how to <a href="contribute/">contribute or advertise on <strong>FCP Cafe</strong></a>.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -525,9 +744,8 @@ Get all of LateNite&#x27;s Tools on the <a href="https://itunes.apple.com/us/app
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -600,8 +818,8 @@ under the custom title panel)</li>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.io" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -657,8 +875,9 @@ under the custom title panel)</li>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.io" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -705,9 +924,8 @@ under the custom title panel)</li>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -770,206 +988,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
-        </div>
-    </div>
-</div>
-<hr>
-<doc-anchor-target id="2024">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2024">#</doc-anchor-trigger>
-        <span>2024</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="december">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#december">#</doc-anchor-trigger>
-        <span>December</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="16th-december-2024">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#16th-december-2024">#</doc-anchor-trigger>
-        <span><a href="news/20241216/">16th December 2024</a></span>
-    </h3>
-</doc-anchor-target>
-<p><strong>Sync-N-Link X v1.2.1</strong> is out now!</p>
-<p>It contains the following change:</p>
-<ul>
-<li>Bug fix for DTD validation</li>
-</ul>
-<p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985" class="outbound" target="_blank"><span>Mac App Store</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>Audio Design Desk v2.1.9</strong> is out now!</p>
-<ul>
-<li>*<em>New:</em> Global Auto Transpose in timeline. This allows regions which contain key metadata to be transposed to the selected key of choice. By default full mix music isn&#x27;t included in this control, but the option for that can be adjusted in effects preferences. This feature is most useful with shorter pitched regions such as loops.</li>
-<li>Moved sound pack manage panel to dedicated window. There is a new key command to show it in the main Library menu. Tab is removed but there is a button at the bottom of the sound pack manager for the window. The manage panel also has a number of fixes.</li>
-<li>
-<ul>
-<li>Button in home screen sound pack panels wasn&#x27;t working correctly</li>
-</ul>
-</li>
-<li>Audio Editor&#x27;s edit range controls weren&#x27;t behaving correctly on render new file dialog</li>
-<li>More robust and performant rendering queue for pitch or time shifts in the Timeline</li>
-<li>Regions when dragged to the top of the timeline would often snap back to their source track</li>
-<li>Drag copy of regions, snap, pitch shift after copy, etc</li>
-</ul>
-<p>You can learn more and download from the <a href="https://add.app" class="outbound" target="_blank"><span>Audio Design Desk website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p><a href="news/20241216/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
-    <span>Discuss this news item</span>
-</a></p>
-<hr>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Sponsored</h5>
 <p>Gyroscope Stabilisation in Final Cut Pro.<br />
 <a href="https://gyroflowtoolbox.io" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
-        </div>
-    </div>
-</div>
-<hr>
-<doc-anchor-target id="11th-december-2024">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#11th-december-2024">#</doc-anchor-trigger>
-        <span><a href="news/20241211/">11th December 2024</a></span>
-    </h3>
-</doc-anchor-target>
-<p><strong>BRAW Toolbox v1.4.2 (72)</strong> is out now!</p>
-<p>It contains the following bug fixes:</p>
-<ul>
-<li>Fixed a bug where the Toolbox drop zone failed to work properly in Final Cut Pro 11 due to depreciated FCPXML versions. Thanks for reporting Alex Sofonea!</li>
-<li>Fixed a bug where the <strong>Check All/Uncheck All</strong> button in the Workflow Extension didn&#x27;t work correctly. Thanks for reporting Mathew Welsh!</li>
-</ul>
-<p>You can download and learn more on the <a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>BRAW Toolbox website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>Dylan Bates (The Final Cut Bro)</strong> has released a new product called <strong>Ultimate Glitch Transitions for Final Cut Pro | Vol. 1</strong></p>
-<p>You can use the discount code <code v-pre>Glitch20</code> to get <strong>20% off</strong> at checkout.</p>
-<p>Dylan writes:</p>
-<blockquote>
-<p>Hey fam, if you&#x27;ve been editing in Final Cut Pro for any length of time, there&#x27;s a good chance you&#x27;ve run into an issue with transitions. When you apply a transition onto an overlying layer like a title or logo graphic, it almost always takes over the entire timeline, regardless of what you are applying it to.</p>
-<p>THIS DRIVES ME CRAZY.</p>
-<p>This week, I released a brand new glitch transition pack. But whenever I release a new plugin, I want it to solve problems that we have as everyday editors in Final Cut Pro.</p>
-<p>So my goal with this pack was to solve that exact problem. And I am happy to report, that it was a success!</p>
-<p>My new Glitch Transition pack allows you to enable / disable whether or not you want to apply it to the rest of the timeline.</p>
-<p>PLUS it comes with 20 variations of glitches, as well as an enormous amount of customization. So the possibilities truly are endless!</p>
-</blockquote>
-<p>You can learn more and purchase on <a href="https://thefinalcutbro.gumroad.com/l/Glitches" class="outbound" target="_blank"><span>Dylan&#x27;s Gumroad Store</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>SendToX v1.2.7</strong> is out now!</p>
-<p>It has the following change:</p>
-<ul>
-<li>Bug fix for falsely reporting that files are offline</li>
-</ul>
-<p>You can download on the <a href="https://apps.apple.com/app/sendtox/id496926258" class="outbound" target="_blank"><span>Mac App Store</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p><a href="news/20241211/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
-    <span>Discuss this news item</span>
-</a></p>
-<hr>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
-        </div>
-    </div>
-</div>
-<hr>
-<doc-anchor-target id="7th-december-2024">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#7th-december-2024">#</doc-anchor-trigger>
-        <span><a href="news/20241207/">7th December 2024</a></span>
-    </h3>
-</doc-anchor-target>
-<p><strong>CommandPost v1.5.1</strong> is out now!</p>
-<p>It includes the following bug fixes:</p>
-<ul>
-<li>Fixed a bug in the <strong>Modify Project</strong> action for Final Cut Pro. Thanks for reporting Adam Schoales!</li>
-<li>Fixed how CommandPost reads and writes Final Cut Pro 11&#x27;s sandboxed preferences. This fixes features such as <strong>Enable Rendering During Playback</strong>.</li>
-<li>Fixed how CommandPost reads Final Cut Pro 11&#x27;s sandboxed User Destinations.</li>
-<li>Fixed a bug which prevented CommandPost from sending FCPXMLs back to Final Cut Pro. Thanks for reporting Martin Turner!</li>
-</ul>
-<p>You can learn more and download for free on the <a href="https://commandpost.io" class="outbound" target="_blank"><span>CommandPost website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>Jumper 2024.12.05 (1453)</strong> for Apple Silicon Mac&#x27;s is out now!</p>
-<p>It includes the following updates:</p>
-<p><strong><span class="docs-emoji">&#x1F195;</span> Important Changes</strong></p>
-<ul>
-<li>We now finally support <strong>visual processing</strong> of <code v-pre>R3D</code> files! To enable this feature, you need to go to <a href="https://www.red.com/downloads" class="outbound" target="_blank"><span>www.red.com/downloads</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> and download and install <strong>REDCINE-X PRO</strong>.</li>
-<li>We now save the transcriptions as plain text files in the audio analysis folder. The transcription can be found in the two <code v-pre>.txt</code> files if you right-click on a file in Jumper&#x27;s media table and click <strong>Reveal Audio analysis</strong>.</li>
-</ul>
-<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements</strong></p>
-<ul>
-<li>Improve frame capture quality when making reverse image searches via Final Cut Pro</li>
-</ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</strong></p>
-<ul>
-<li>Prevent automatic shutdown of Jumper Engine if the Final Cut Pro Trial version is running.</li>
-<li>Make sure the settings for target audio and video track in Premiere Pro doesn&#x27;t reset on restart, thanks for reporting @citizensam!</li>
-<li>Make sure we are frame-accurate when doing reverse image searches from a Premiere Pro timeline, thanks for reporting @citizensam!</li>
-</ul>
-<p>You can learn more and download a free trial on the <a href="https://getjumper.io" class="outbound" target="_blank"><span>Jumper website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>captionTranslation v1.0.1</strong> is out now!</p>
-<p>It includes the following new feature:</p>
-<ul>
-<li>Manage languages button to directly access the Translation Languages feature in System Settings</li>
-</ul>
-<p>You can download now on the <a href="https://apps.apple.com/app/captiontranslator/id6737919696" class="outbound" target="_blank"><span>Mac App Store</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<hr>
-<p><strong>Audio Design Desk v2.1.8</strong> is out now!</p>
-<p>It includes the following changes:</p>
-<ul>
-<li><strong>Fix:</strong> Replace and Metronome panels in timeline weren&#x27;t appearing</li>
-<li><strong>Fix:</strong> Exit full screen video will return video to previous docked size</li>
-<li><strong>Fix:</strong> Slip editing in audio editor</li>
-<li>Improved metadata analysis/guessing for very short files. Added minimum confidence slider to UI.</li>
-<li>Improved loudness analysis for very short files</li>
-<li>Fixed Region Effects popup</li>
-<li>Fixed some region mouse responsiveness issues.</li>
-<li>Improved metadata windows</li>
-</ul>
-<p>You can learn more and download from the <a href="https://add.app" class="outbound" target="_blank"><span>Audio Design Desk website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p><a href="news/20241207/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 h-10 text-sm rounded-md">
-    <span>Discuss this news item</span>
-</a></p>
-<hr>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.io" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1089,6 +1109,6 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Latest News", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Latest News", isRoot: true, level: 0, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
