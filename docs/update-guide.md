@@ -14,11 +14,11 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 16th November 2024
+**Last Updated:** 4th April 2025
 
-For most users, on modern Apple Silicon Mac's **Final Cut Pro 10.8.1** is rock solid.
+For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.1** is rock solid.
 
-**Final Cut Pro 11.0.0** is brand new - but from early reports, aside from some weirdness with Magnetic Mask, Custom Overlays and collaboration - everything else seems fairly solid. See below for more information.
+If you're currently on **Final Cut Pro 11.0.1**, you can safely update to **Final Cut Pro 11.1**.
 
 **Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
@@ -34,11 +34,36 @@ If you're on **macOS Sonoma** - you should be fine to update to **macOS Sequoia*
 
 You can read full answers below...
 
-_FWIW - I've put my 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD) with Sonoma 14.1.2 and FCPX 10.7 through hell since the 10.7 release, and it's been rock solid. Zero crashes. Zero issues. Faster exports. More responsive. Rock solid. I was previously on Monterey & 10.6.8, but Sonoma + Final Cut Pro 10.7 seems way more solid and reliable._
+---
+
+## Final Cut Pro 11.1
+
+Final Cut Pro 11.1 was released on 27 March 2025.
+
+So far, the general feedback has been very positive. If you're currently on Final Cut Pro 11.0 or 11.0.1 then you should be safe to update.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | No Known Issues                                                                                         |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | **Use Arctic v24.3.2**                                                                                  |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 
-## Final Cut Pro 11
+## Final Cut Pro 11.0
 
 **Final Cut Pro 11** was released at the Final Cut Pro Creative Summit on **13th November 2024**.
 
