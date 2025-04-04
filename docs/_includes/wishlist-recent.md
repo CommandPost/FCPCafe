@@ -5,7 +5,6 @@
 - [Batch export subrole audio as seperate audio files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/433)
 - [Support for native ARRIRAW and Blackmagic RAW files (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/432)
 - [Be able to flatten Multicam Clips on timeline (December 10, 2024)](https://github.com/CommandPost/FCPCafe/issues/431)
-- [Audio Effect Renaming (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/429)
 - [Storyline Effects (December 6, 2024)](https://github.com/CommandPost/FCPCafe/issues/428)
 - [FxPlug API FxParameterFlags upgrade to 64 bits - high bits stored for application use. (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/425)
 - [FxDynamicParameterAPI_v4 Method Request: -(FxParameterType)parameterType:(UInt32)parameterID (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/424)
@@ -28,3 +27,4 @@
 - [Audio Generators? (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/372)
 - [FCP noise and sine wave (test) Audio Unit, take Logic Test Unit and package in FCP (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/371)
 - [Master Audio Chain to apply audio Effects globally (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/370)
+- [FCP should have "Adjustment layer" as a built in Title rather than needing 3rd party Title/Effect (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/369)

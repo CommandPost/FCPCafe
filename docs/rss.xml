@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 29 Mar 2025 00:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Apr 2025 00:45:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 29 Mar 2025 00:29:23 GMT</pubDate>
+        <pubDate>Fri, 04 Apr 2025 00:45:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9681,6 +9681,91 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#28th-march-2025</link>
             <guid isPermaLink="false">28th March 2025</guid>
             <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.4 (74)</strong> is out now!</p>
+<p>It contains the following improvements:</p>
+<ul>
+<li>Added support for Blackmagic URSA Cine 17K 65.</li>
+<li>Added support for updated Constant Quality record settings on URSA Cine.</li>
+<li>Added support for Panasonic UB-50 Blackmagic RAW clips.</li>
+<li>Updated from Blackmagic RAW SDK v4.4 to v4.5.</li>
+<li>Updated from FxPlug v4.3.1 to v4.3.2.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>Arctic v24.3.2</strong> it out now with support for Final Cut Pro 11.1.</p>
+<p>You can learn more and download on the <a href="https://hedge.co/products/arctic">Arctic website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has updated a bunch of their products, for example:</p>
+<ul>
+<li><strong>mFilmLook v3.0:</strong> New Motion Blur Al effect available in CineStudio. All effects added as separate handy presets</li>
+<li><strong>mRotoAl v1.1.5:</strong> Updated separator for templates</li>
+<li><strong>mFilmLook Elemental Presets v1.0.1:</strong> Support for the latest mFilmLook, featuring Motion Blur</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.motionvfx.com/store,mrotoai,p3922.html">MotionVFX website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.3.4</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for determining the visibility of a marker on a clip's out point</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/creators-best-friend/id1524172135">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>Simons Says Translation v3.9.6</strong> is out now with minor bug fixes.</p>
+<p>You can download on the <a href="https://apps.apple.com/app/simon-says-transcription/id1441555493">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>Sync-N-Link X v1.3.5</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Critical bug fix for crashes caused by garbage collection (introduced in version 1.3.3)</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/sync-n-link-x/id517599985">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2025]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.1.4</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for a crash caused by creating shortened titles from a caption (in some cases)</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/captionanimator/id6736841747">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2025</link>
+            <guid isPermaLink="false">4th April 2025</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
