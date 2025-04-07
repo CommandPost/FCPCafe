@@ -1,3 +1,5 @@
+- [4k 50p XAVC-L Footage imports as Black (April 7, 2025)](https://github.com/CommandPost/FCPCafe/issues/449)
+- [Hard Crash when opening a Project with a complex Audition (March 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/448)
 - [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
@@ -26,5 +28,3 @@
 - [Library damaged when working on shared Storage (April 4, 2024)](https://github.com/CommandPost/FCPCafe/issues/349)
 - [New MacStudio Ultra 60 core 128 GB Ram (March 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/348)
 - [S-Log3/S-Gamut3.cine wrong LUT is selected automatically (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/340)
-- [ProResRAW: S-Log3/S-Gamut3.cine LUT underexposing at 12800 ISO (February 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/339)
-- [Change Audio Role of Sync Clip (January 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/335)
