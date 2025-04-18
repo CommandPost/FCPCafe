@@ -275,7 +275,7 @@ In 2020 he was credited Associate Editor at the team of dystopian Sci-Fi-Thrille
 
 Follow Florian here:
 
-- [Twitter](https://twitter.com/FlowDefoe)
+- [bluesky](https://bsky.app/profile/flowdefoe.bsky.social)
 
 ---
 
