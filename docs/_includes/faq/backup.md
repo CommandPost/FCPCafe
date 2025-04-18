@@ -7,6 +7,12 @@ Backing up your Final Cut Pro project files is crucial to prevent losing your wo
 3. **External Drive:** You can also manually copy the library to an external hard drive or another secure location. Simply drag the library file in Finder to your backup location.
 4. **Time Machine:** If you're using Apple's Time Machine backup system, make sure that your Final Cut Pro library is in a location that Time Machine backs up. Time Machine backs up your entire computer at regular intervals, so this provides a kind of automatic backup.
 5. **Cloud Storage:** You can also use a cloud storage service like iCloud, Google Drive, or Dropbox for backups. Note that video files can be quite large, and you'll need enough storage space in your cloud service to accommodate them.
+6. **Use Third party tools** that provide different back-up features, for example:
+    - Postlab for advanced Library Management and remote collaboration
+    - Arctic to display and manage libraries on connected and disconnected drives
+    - PostSync for backing up your preferences
+   
+   Find these and more in our [Tools](https://fcp.cafe/ecosystem/tools/) section
 
 Remember to keep your backup drives or locations secure and check them regularly to make sure the backups are being performed correctly.
 
