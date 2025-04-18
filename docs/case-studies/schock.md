@@ -427,4 +427,4 @@ And I had a short contact with the X2Pro people, Marquis Broadcast. They also he
 
 Follow Florian here:
 
-- [Twitter](https://twitter.com/FlowDefoe)
+- [bluesky](https://bsky.app/profile/flowdefoe.bsky.social)
