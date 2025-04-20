@@ -4,6 +4,10 @@
 
 ---
 
+{{ include "tools/arctic" }}
+
+---
+
 {{ include "tools/audio-design-desk" }}
 
 ---
@@ -119,10 +123,6 @@
 ---
 
 {{ include "tools/fcs-remover" }}
-
----
-
-{{ include "tools/final-cut-pro-library-manager" }}
 
 ---
 
