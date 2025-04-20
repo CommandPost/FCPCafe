@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798445089102">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798445162787">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.7.0.798445089102" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.7.0.798445162787" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798445089102" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798445162787" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798445089102" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798445162787" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -394,7 +394,12 @@
         <span>Audio Levels - How to handle?</span>
     </h3>
 </doc-anchor-target>
-<p>Learn more <a href="https://support.apple.com/en-au/guide/final-cut-pro/verc1fabb77/mac#:%7E:text=Adjust%20volume%20automatically%20across%20a%20selected%20area&amp;text=In%20Final%20Cut%20Pro%2C%20select,want%20to%20adjust%20the%20volume." class="outbound" target="_blank"><span>about Final Cut Pro audio levels</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>There’s multiple methods of changing levels of single clips or a selection of clips.</p>
+<p>The fastest way would be using the shortcuts CNTRL + or - to in- or decrease levels in 1 dB increments. You can of course change levels of selected clips in the Audio Inspector via slider or numerical dB-Input and in the timeline via the horizontal volume control line (drag with mouse, for precise control press CMD while dragging). You also can level a portion of a clip by selecting a range (Range-Tool: press R) and then drag the line. This creates 4 keyframes around the region.</p>
+<p>If you got a Clip, Sync Clip or Multicam Clip with multichannel Audio you can also use these methods to level single channels, either in the Audio Inspector or via right mouse click “Expand Audio Components” or by pressing cntrl+cmd+S. If you put your edit into a Compound Clip you can also level out the different Roles you’ve got in your edit, separately.</p>
+<p>Theres also advanced built-in Audio Effects for cleaning and automatic levels your Audio in the Inspector, as well as additional Effects in the Effects Browser for these purposes, including Equalizers, Compressors, Limiters and broadcast-safe level meters (search for: Multi Meter).<br></p>
+<p>It’s even possible to mix in 5.1 Sorround, see: <a href="https://fcp.cafe/faq/#audio-editing---do-i-need-a-separate-app" class="outbound" target="_blank"><span>Audio Editing</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Learn more <a href="https://support.apple.com/en-au/guide/final-cut-pro/verc1fabb77/mac#:%7E:text=Adjust%20volume%20automatically%20across%20a%20selected%20area&amp;text=In%20Final%20Cut%20Pro%2C%20select,want%20to%20adjust%20the%20volume." class="outbound" target="_blank"><span>about Final Cut Pro audio levels</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> in the FCP user Guide.</p>
 <hr>
 <doc-anchor-target id="b">
     <h2>
@@ -410,11 +415,24 @@
 </doc-anchor-target>
 <p>Backing up your Final Cut Pro project files is crucial to prevent losing your work. Here are a few ways you can do this:</p>
 <ol>
-<li><strong>Library Backups:</strong> Final Cut Pro automatically creates backups of your libraries. These backups are stored in a folder named <strong>Final Cut Backups</strong> in your Movies folder. You can adjust how often these backups are made using <a href="../ecosystem/tools/#commandpost">CommandPost</a>.</li>
-<li><strong>Duplicate Libraries:</strong> To manually back up your work, you can duplicate your library in Finder and zip it. - as long as you store all Media outside the library.(see below)</li>
-<li><strong>External Drive:</strong> You can also manually copy the library to an external hard drive or another secure location. Simply drag the library file in Finder to your backup location.</li>
-<li><strong>Time Machine:</strong> If you&#x27;re using Apple&#x27;s Time Machine backup system, make sure that your Final Cut Pro library is in a location that Time Machine backs up. Time Machine backs up your entire computer at regular intervals, so this provides a kind of automatic backup.</li>
-<li><strong>Cloud Storage:</strong> You can also use a cloud storage service like iCloud, Google Drive, or Dropbox for backups. Note that video files can be quite large, and you&#x27;ll need enough storage space in your cloud service to accommodate them.</li>
+<li><p><strong>Library Backups:</strong> Final Cut Pro automatically creates backups of your libraries. These backups are stored in a folder named <strong>Final Cut Backups</strong> in your Movies folder. You can adjust how often these backups are made using <a href="../ecosystem/tools/#commandpost">CommandPost</a>.</p>
+</li>
+<li><p><strong>Duplicate Libraries:</strong> To manually back up your work, you can duplicate your library in Finder and zip it. - as long as you store all Media outside the library.(see below)</p>
+</li>
+<li><p><strong>External Drive:</strong> You can also manually copy the library to an external hard drive or another secure location. Simply drag the library file in Finder to your backup location.</p>
+</li>
+<li><p><strong>Time Machine:</strong> If you&#x27;re using Apple&#x27;s Time Machine backup system, make sure that your Final Cut Pro library is in a location that Time Machine backs up. Time Machine backs up your entire computer at regular intervals, so this provides a kind of automatic backup.</p>
+</li>
+<li><p><strong>Cloud Storage:</strong> You can also use a cloud storage service like iCloud, Google Drive, or Dropbox for backups. Note that video files can be quite large, and you&#x27;ll need enough storage space in your cloud service to accommodate them.</p>
+</li>
+<li><p><strong>Use Third party tools</strong> that provide different back-up features, for example:</p>
+<ul>
+<li>Postlab for advanced Library Management and remote collaboration</li>
+<li>Arctic to display and manage libraries on connected and disconnected drives</li>
+<li>PostSync for backing up your preferences</li>
+</ul>
+<p>Find these and more in our <a href="https://fcp.cafe/ecosystem/tools/" class="outbound" target="_blank"><span>Tools</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> section</p>
+</li>
 </ol>
 <p>Remember to keep your backup drives or locations secure and check them regularly to make sure the backups are being performed correctly.</p>
 <p>Before you perform any major edits or changes to a project, it&#x27;s a good idea to create a backup. That way, if something goes wrong, you can go back to the backup version.</p>
@@ -455,6 +473,13 @@
     </h3>
 </doc-anchor-target>
 <p>You can find every supported file format and codec <a href="https://support.apple.com/en-au/guide/final-cut-pro/ver2833f855/mac" class="outbound" target="_blank"><span>on Apple&#x27;s site</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>Final Cut is capable of displaying almost any standard codec, even DNxHD (Avid). If codecs aren&#x27;t optimized for editing it is transcoding them &quot;on the fly&quot;. Some, like mp3, are immediately transcoded into an optimized version.</p>
+<p>However, for best results regarding playback, rendering and export, we recommend using the Apple Pro Res family, since Apple Silicon has dedicated chips for encoding/decoding Pro Res. For bigger projects Pro Res LT seems to be the best option between data size and quality. If you got the storage capacity and speed you even can edit in Pro Res HQ or higher.</p>
+<p>There is even a point to be made for HEVC and even h.264 (both in .mov container!) as an editing codec in FCP. <strong>No recommendation here</strong>, but we are aware of h.264-workflows that are running smoothly since years. In this case the transcoding from original files has to be meticulously tested, to ensure that timecode sync and rendering quality is preserved. Using a Quicktime container would also be mandatory, to ensure metadata is preserved along the way.</p>
+<p>Also, for larger projects with a postproduction pipeline after editing (external Color Grading, Sound Design etc.) we recommend a strict procedure in using the same codecs all the time. It will save you a lot of headaches after the fact, regarding metadata export, relinking to original files and AAF export (via X2pro). All these workflows to Sound Design and Color Grading should be tested properly before the start of editing.</p>
+<p>We also highly recommend a pipeline that uses only one set of codecs going in to the edit, preferably Pro Res for Video and PCM (.wav or .aiff container) for Audio. That means to transcode any Video or Audio that is not in the correct codec <strong>before importing into FCP</strong>. <strong>We especially warn about using mp3-files</strong> in any edit that will be sent to Pro Tools! A single clip of mp3 can delay your export workflow for hours of troubleshooting. Stick with PCM aka WAV or AIFF.</p>
+<p>Once you’ve got your clips imported to FCP you can use the inbuilt Proxy Workflow to conveniently reduce file sizes, for example for travel, and to take off an edge of demanding editing or rendering tasks. There&#x27;s also a workflow for getting Proxies rendered outside of FCP, for example in Davinci Resolve (tbd).</p>
+<p>For so-called reference clips (also: ref-QT), exports you send to review or to postproduction with burned-in timecode so they can match your edit with original files, HEVC (h.265) is a no-brainer. It’s just the best quality to file size ratio and even export is very fast. Hint: with Apple Compressor you can build your own HEVC export-templates for FCP with your preferred data rate. If your sound designers are hesitant about HEVC just try to do a short clip of workflow-test. It should work if their workstation is decently up to date - they just don&#x27;t know it yet ;)</p>
 <doc-anchor-target id="collaboration---how-to-share-libraries">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#collaboration---how-to-share-libraries">#</doc-anchor-trigger>
