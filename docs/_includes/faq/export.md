@@ -1,3 +1,11 @@
 ### Export - How to share my work?
 
-You can learn more on [Apple's site](https://support.apple.com/en-au/guide/final-cut-pro/ver13664388c/mac).
+Though looking very simple on first site, the share (=export) options are highly versatile and customisable. FCP has a **built-in background export** workflow that just works. You even can work along in the same timeline since Final Cut gathers everything in a separate fcpxml prior to export. With Apple Silicon Macs **export speeds** of Pro Res, h.264 or HEVC match or exceed all competitors. Depending on the hard drive setup and amount of used effects we are talking 90 minutes of 1080p-timelines in under 10 minutes of export time. For more advanced export-workflows you can send your timelines directly to Compressor or use fcpxml as a metadata-carrier.
+    
+FCP comes with only a few bespoke presets, that can be modified in a limited way (codec, resolution, chapter markers, …). For more in-depth customisation (data rate, watermarking and so on) you can **create presets in Compressor** and import them into the FCP share destinations (Settings > Destinations). **Batch export** is realised by selecting multiple Timelines or Clips (or even sections of clips) in the browser and select the preferred share destination. You can also bundle different presets to export to multiple formats or destinations at once.
+    
+Regarding professional features, almost anything is possible - sometimes with a few workarounds. For example with **Audio**, you can natively **export different sets and combinations of Stems** (from Roles like Dialogue, Music, etc.) **in one go**. You can create **Multitrack Quicktime** Movies as well as multi-channel **broadcast MXF**. The same goes for separate and burnt-in [**Closed Captions**](https://fcp.cafe/faq/#captions--subtitles). **Alpha-Channels** are preserved in exports to capable codecs like Pro Res 4444.
+    
+Third Parties are able to provide advanced share destinations to modify or upload directly after export. For highly specialised workflows, like AAF- or metadata-exports, Final Cut uses its own [fcpxml-format](https://fcp.cafe/faq/#fcpxml---overview) to “talk” to other plugins and apps.
+
+Learn the basics and more on the [official user manual](https://support.apple.com/en-au/guide/final-cut-pro/ver13664388c/mac).
