@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 24 Apr 2025 00:52:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Apr 2025 08:54:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Apr 2025 00:52:47 GMT</pubDate>
+        <pubDate>Sun, 27 Apr 2025 08:54:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9766,6 +9766,68 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#4th-april-2025</link>
             <guid isPermaLink="false">4th April 2025</guid>
             <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th April 2025]]></title>
+            <description><![CDATA[<p><strong>CommandPost is now on Discord!</strong></p>
+<p>You can sign up for our new CommandPost Discord community on <a href="https://ltnt.tv/discord">Discord</a>.</p>
+<p>I haven't had Facebook on my phone for years, and at the start of the year I removed Twitter as well.</p>
+<p>Sadly, as a result, I was very slow to respond to Twitter DM's and questions on our <a href="https://www.facebook.com/groups/commandpost/">CommandPost Facebook Community</a>.</p>
+<p>I'm an active member of a few Discord Communities, so I figured, I might as well try move the CommandPost community to Discord! We'll see how it goes.</p>
+<p>Hope to see you there!</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-april-2025</link>
+            <guid isPermaLink="false">27th April 2025</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th April 2025]]></title>
+            <description><![CDATA[<p><strong>Jumper is coming to Avid Media Composer &amp; DaVinci Resolve!</strong></p>
+<p>Whilst this isn't <em>technically</em> Final Cut Pro news, it will bring some benefits, as Jumper's analysis files will be common between Final Cut Pro, DaVinci Resolve (Mac &amp; Windows), Adobe Premiere Pro (Mac &amp; Windows) and Avid Media Composer (Mac &amp; Windows)!</p>
+<p>A standalone/desktop version of Jumper is also in active development.</p>
+<p>You can learn more on the <a href="https://getjumper.io">Jumper website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-april-2025</link>
+            <guid isPermaLink="false">27th April 2025</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th April 2025]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has updated a bunch of their products, for example:</p>
+<ul>
+<li><strong>mFlare 2 v3.1.6:</strong> Crash fixes, added base template</li>
+<li><strong>mTracker 3D Area v1.1.2:</strong> Added base template, updated separator for templates</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.motionvfx.com">MotionVFX website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-april-2025</link>
+            <guid isPermaLink="false">27th April 2025</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th April 2025]]></title>
+            <description><![CDATA[<p><strong>X2Pro5 v5.0.44</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Support for <code>mov</code> files created on iPhones.</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/au/app/x2pro5/id6467014654?mt=12">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-april-2025</link>
+            <guid isPermaLink="false">27th April 2025</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th April 2025]]></title>
+            <description><![CDATA[<p><strong>Builder NLE v4.2.12</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Bug fix for dealing with stale security scoped bookmarks when accessing media files</li>
+<li>Bug fix for audio playback</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/au/app/builder-nle/id6450122801?mt=12">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-april-2025</link>
+            <guid isPermaLink="false">27th April 2025</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
