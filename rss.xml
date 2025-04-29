@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 27 Apr 2025 12:02:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Apr 2025 02:27:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 27 Apr 2025 12:02:33 GMT</pubDate>
+        <pubDate>Tue, 29 Apr 2025 02:27:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9828,6 +9828,19 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#27th-april-2025</link>
             <guid isPermaLink="false">27th April 2025</guid>
             <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th April 2025]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates (The Final Cut Bro)</strong> has released a new app called <strong>Motion Template Version Tool</strong>.</p>
+<p>I'm so incredibly proud of Dylan for jumping neck deep into development and programming - that's awesome!</p>
+<p>You can watch him explain the application on <a href="https://youtube.com/watch?v=QbWLIF2LGi8">YouTube</a>:</p>
+<p><a href="https://youtube.com/watch?v=QbWLIF2LGi8"><img src="/static/youtube-motion-template-version-tool.jpg" alt=""></a></p>
+<p>You can pay what you want - with a minimum of USD$5.</p>
+<p>You can download and learn more on <a href="https://fcbplugins.com/b/motiontemplatefixer">The Final Cut Pro store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-april-2025</link>
+            <guid isPermaLink="false">29th April 2025</guid>
+            <pubDate>Tue, 29 Apr 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
