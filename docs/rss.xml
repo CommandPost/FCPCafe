@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 02 May 2025 18:45:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2025 10:57:37 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 02 May 2025 18:45:07 GMT</pubDate>
+        <pubDate>Sat, 03 May 2025 10:57:36 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9841,6 +9841,23 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#29th-april-2025</link>
             <guid isPermaLink="false">29th April 2025</guid>
             <pubDate>Tue, 29 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd May 2025]]></title>
+            <description><![CDATA[<p><strong>Audio Design Desk v2.2</strong> is out now!</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>+Sounds Marketplace is here. The way that sound packs are browsed and downloaded has been changed to an online model based on the ability to individualize sounds.</li>
+<li>Stem Splitter</li>
+<li>Generate new sounds using the integrated SoundGen tools</li>
+<li>New triggers panel in the Timeline</li>
+<li>Bug fixes and UI refinements</li>
+</ul>
+<p>You can learn more and download from the <a href="https://add.app">Audio Design Desk website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-may-2025</link>
+            <guid isPermaLink="false">3rd May 2025</guid>
+            <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
