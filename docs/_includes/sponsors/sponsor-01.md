@@ -1,3 +1,4 @@
 !!!warning Sponsored
-See how to [contribute or advertise on **FCP Cafe**](/contribute/).
+**Jump to the best parts of editing.** A powerful AI search engine for your footage.</br>
+No clouds. No uploads. All on device. [Read more on FCP Cafe](/news/20241106/).
 !!!
