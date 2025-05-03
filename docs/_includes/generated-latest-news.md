@@ -1,4 +1,16 @@
 # 2025
+## May
+
+{{ include "news/20250503" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250503/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
 ## April
 
 {{ include "news/20250429" }}
@@ -7,7 +19,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -17,7 +29,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -27,7 +39,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -39,29 +51,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-## February
-
-{{ include "news/20250214" }}
-
-[!button text="Discuss this news item" variant="info"](news/20250214/#discuss-this-page)
-
----
-
 {{ include "sponsors/sponsor-02.md" }}
-
----
-
-{{ include "news/20250204" }}
-
-[!button text="Discuss this news item" variant="info"](news/20250204/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
