@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 03 May 2025 11:43:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 May 2025 21:22:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 03 May 2025 11:43:28 GMT</pubDate>
+        <pubDate>Fri, 09 May 2025 21:22:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9858,6 +9858,103 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#3rd-may-2025</link>
             <guid isPermaLink="false">3rd May 2025</guid>
             <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th May 2025]]></title>
+            <description><![CDATA[<p><strong>Jumper for Final Cut Pro</strong> will be on display at <strong>MPTS show</strong> at Olympia Grand Hall in <strong>London</strong> next week thanks to OWC! 🥳</p>
+<p>The amazing <strong>Ronny Courtens</strong> from OWC (Head of Enterprise solutions - Jellyfish/Jupiter/LTO) and <strong>Max Lund</strong> from Witchcraft Software (the lead developer of Jumper) will be on the stand demoing Jumper, running large shared media volumes and on-premises machine learning datasets off a Jellyfish NAS.</p>
+<p>Ronny will give live demos of their latest high-performance Jellyfish NAS systems, their powerful new Jellyfish Manager v3.0, and the very first release of their brand-new Jellyfish Media Management software.</p>
+<p>The Jellyfish systems will be connected to super-fast OWC Thunderbolt 5 hubs, docks, and drives, to demo high-speed edit-while-ingest collaboration workflows.</p>
+<p>If you want to see the fastest and most user-friendly storage solutions for creative teams, and the latest developments in on-premises machine learning, come and visit MPTS on the ccktech booth, <strong>Stand B42</strong>.</p>
+<p>The event runs:</p>
+<p><strong>Wednesday 14th May - 09:30 - 18:30</strong>
+<strong>Thursday 15th May - 09:30 - 17:00</strong></p>
+]]></description>
+            <link>https://fcp.cafe/#10th-may-2025</link>
+            <guid isPermaLink="false">10th May 2025</guid>
+            <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th May 2025]]></title>
+            <description><![CDATA[<p><strong>Caption Pop AI v1.1.5</strong> is out now!</p>
+<p>It now includes background text boxes, improved color pickers, new languages, and a DTD bug fix.</p>
+<p>The auto-update’s broken, so to install:</p>
+<ul>
+<li>Quit FCP &amp; SR app</li>
+<li>Delete the SR app</li>
+<li>Download and install new version</li>
+<li>Restart FCP and then relaunch Caption Pop AI</li>
+</ul>
+<p>After updating, both the SR app and Caption Pop AI should have 1.1.5 version numbers.</p>
+<p>You can learn more on the <a href="https://stupidraisins.com">Stupid Raisins website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-may-2025</link>
+            <guid isPermaLink="false">10th May 2025</guid>
+            <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th May 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v5.6.2</strong> is out now!</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>
+<p><strong>NEW:</strong> Canon XF Utility Integration</p>
+</li>
+<li>
+<p>Added integration with the Canon XF Utility application to enhance metadata workflows for Canon XF-AVC MXF media.</p>
+</li>
+<li>
+<p>Applicable to Canon EOS Cinema cameras prior to the C80 and C400 series, including: C300 / C500 / C200 / C700 / C70 / R5 C and others.</p>
+</li>
+<li>
+<p>Note: Canon C80 and C400 (2024) embed metadata directly in the MXF files. evrExpanse natively supports those without this integration.</p>
+</li>
+<li>
+<p><strong>ENHANCED:</strong> Canon EOS Cinema Metadata Support</p>
+</li>
+<li>
+<p>Added support (via Canon XF Utility Integration) for extracting: ISO, FNumber, Shutter Speed, White Balance, and Focal Point (mm).</p>
+</li>
+<li>
+<p>Added direct support for extracting Camera Index, Reel Number, and Clip Number from Canon EOS Cinema MXF files improving shot-level identification and asset management.</p>
+</li>
+<li>
+<p><strong>ENHANCED:</strong> Main Window Behavior Update</p>
+</li>
+<li>
+<p>The <strong>Cancel</strong> button in the main window has been relabeled as <strong>Quit</strong>.</p>
+</li>
+<li>
+<p>When clicked, the application now exits immediately instead of returning to the startup screen.</p>
+</li>
+<li>
+<p>On the next application launch, the startup screen now opens at its default size, rather than restoring the window size from the previous session.</p>
+</li>
+<li>
+<p><strong>FIXED:</strong> Color Space Extraction for Canon C200 (XF-AVC)</p>
+</li>
+<li>
+<p>Resolved an issue where the Color Space could not be correctly extracted from XF-AVC MXF files recorded with the Canon C200 camera.</p>
+</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-may-2025</link>
+            <guid isPermaLink="false">10th May 2025</guid>
+            <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th May 2025]]></title>
+            <description><![CDATA[<p><strong>EDL-X v2.14</strong> is out now!</p>
+<p>In includes the following improvement:</p>
+<ul>
+<li>New Choice for Clip Names: Top-Level Clip Names - Forced - grabs the first name found while drilling down in the timeline</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/edl-x/id539666579">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-may-2025</link>
+            <guid isPermaLink="false">10th May 2025</guid>
+            <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
