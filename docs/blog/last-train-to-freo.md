@@ -1,0 +1,11 @@
+---
+title: Last Train to Freo
+date: 2006-08-21
+author: Chris Hocking
+layout: blog
+---
+# Last Train to Freo
+
+**Written by Chris Hocking on 21st August 2006**
+
+I really liked this movie. It still amazes me that people can come up with such fantastic scripts, which only feature one location and a couple of actors. This is a film about two dodgy looking ex-criminals that are travelling on the last night train to Fremantle; basically your stereotypical loud drinking train bogans. One of the men is a real big and scary man, although clearly smart but also with obvious anger management issues. The other is more of a side kick; young, less intelligent, immature, but quite funny. When an attractive woman gets aboard the train, both men are instantly captured. To an outsider, it would look like a couple of drop beats are harassing a young attractive woman, which is basically correct. At the next station, an older woman boards as well as a quiet geeky young man. As the trip to Fremantle continues, the power balance takes a much unexpected twist. This is one of the best Australian thrillers I’ve ever seen. The whole movie is just so tight and unpredictable. Although you know that the characters aren’t what they seem, you can never quite work out what their real story is. The best part is everything only becomes clear at the very last moment, so you’re pretty much at the edge of your seat the whole movie. I really loved everything about this film. The acting was superb. All the characters felt very, very real. The dialog was absolutely spot on. I really liked the classical music that played right through out the film. It added a nice subtle ambiance and helped set a great mood. It also helped reinforce the feeling of danger in some of the more dramatic scenes. The sound effects and Foley were great. Audio wise, the film felt very natural and authentic. This is a really entertaining film that keeps you guessing none stop. It also shows that you don’t need a lot of money to make a fantastic film. All you really need is a good idea.

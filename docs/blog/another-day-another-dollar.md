@@ -1,0 +1,35 @@
+---
+title: Another day another dollar…
+date: 2008-05-17
+author: Chris Hocking
+layout: blog
+---
+# Another day another dollar…
+
+**Written by Chris Hocking on 17th May 2008**
+
+A lot has happening this week – and boy, oh boy do I mean a lot! When you’re only getting around two hours sleep a night (maximum) you sure do get a lot done. But regardless of how much coffee you drink to keep you awake, you still seem to just run out of time. In film making, time is your number one enemy. It’s always against you, and it’s always looking for ways to make your life a living hell. But enough bitching about time…
+
+Monday brought with it a whole heap of meetings. We met up with a whole collection of extremely talented costume design students, and other people interested in helping out with the Sakooz characters. You’ve really got to be careful when you do meetings all day, as you really do intake a massive amount of caffeine, simply because generally speaking we’ve been having crew meetings at the local coffee shop. After a very massive day, and exactly 318 e-mails later (for me alone that is!), after a quick two hours sleep, it was suddenly Tuesday! Once again, we had more meetings and discussions. This time with actual costume builders (more about this in the coming weeks!) and sound designers. I can’t really go into too much detail at this stage, but all the meetings went exceptionally well! Everyone seems genuinely excited about our concept, and they all really want to help us transform our idea into an actual feature film! It’s actually really inspiring to see people get inspired themselves, from an idea that we came up with. It really makes our day, when the eyes light up of the people we are pitching to – and start getting carried away thinking about how we can various bits and pieces to make the film happen. We’ve had so many great ideas and suggestions!
+
+Wednesday was audition day again! 9:00am till 6:00pm – one audition every half hour. It’s only just longer than your standard working day – but I’ll tell you what, sitting in the one place for 9 hours straight, having to repeat yourself over-and-over again, and having to really concentrate on what in front of you, really takes it out of you! It’s just so exhausting! Once again, we had a great mix of audition’s, and some more interstate travellers. Unfortunately though, by the end of the day, our fearless leader, Director Isaac’s body had finally given up – and he started getting really sick again. Unfortunately he was too ill to make it on Thursday, so Anli and myself had to do it alone. But, as we’ve been developing the script and story together, this wasn’t a big deal, as we all equally know the every aspect of the production and story back-to-front. Despite the fact that Isaac had to take a “sickie” – despite the doctors request – he still continued to work at home. I’m not sure if it’s just a complete and utter devotion to the project, or whether he’s just clinically insane. Probably a bit of both. And then, he did something even more crazy – he still went to work on Thursday night, despite nearly being on his death bed. Unstoppable!
+
+Today it was back to uni for a rarely attended class or two – and we also had to pick up gear, as we’re doing camera tests this weekend. We’re planning to do some tests using different stocks (Kodak 50D, 200T, 500T VISION3, etc.) on both a ARRI SRII 16:9 16mm and AATON A-Minima 16mm camera. We’re also going to have a Sony Z1P and Panasonic HVX202 set up for comparison. More on the camera tests in the coming days!
+
+There’s lots of exciting things coming up as well! Within the next few days, we’ll be introducing a new blog to the site! I don’t want to give away too much just yet, but I can tell you now, that a person called “Nigel” has joined the team, and will be following us around. So keep and eye out on our website, as Nigel will soon be here to entertain and inform all! We’re also running a fund-raiser night at Loop Bar in Melbourne on the 12th of June. We’ll post information about it on the website soon – but in the meantime, if you join our Facebook Group, you’ll see the event we’re talking about. It’s going to be a fantastic night, with a silent auction, DJ, raffles, and lots more! So please, if you live in Melbourne, come along and help support our film! We’re planning to raise around $15,000 to help make the best possible trailer we can.
+
+We’ve also been getting a lot of e-mails asking us various questions about the production, and why we’re doing certain things. Over the coming weeks I’ll explain all as to why exactly we are making a trailer, and not just a short film. I’ll also talk at some stage about our marketing strategies, and how we think we can actually achieve in making Sakooz a commercial success.
+
+Ok… That’s about all I’ve got time for tonight! I need to start getting ready for a weekend of extensive camera tests and potentially heated discussions about how we intend to film the trailer, etc. I leave you today, with some photos of the week that was. Have a great weekend readers! And thanks to everyone who has sent us e-mails of support and encouragement! Already this blog is getting a massive number of hits, so thank you! But also, please tell your friends about it – as the more the merrier!
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_01-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_01.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_02-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_02.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_03-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_03.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_04-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_04.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_05-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_05.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_06-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_06.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_07-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_07.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_08-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_08.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_09-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_09.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_10-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_10.jpg)
+
+[Auditions](./../tag/auditions/)[Meetings](./../tag/meetings/)[Photos](./../tag/photos/)

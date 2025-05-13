@@ -1,0 +1,11 @@
+---
+title: Day Watch
+date: 2007-08-21
+author: Chris Hocking
+layout: blog
+---
+# Day Watch
+
+**Written by Chris Hocking on 21st August 2007**
+
+I’ve never seen the first instalment of this Russian trilogy before, so maybe I’ve missed a lot of the back story to the Matrix-like film, Day Watch. Essentially, it’s a film about an age old battle between good vs. evil – light vs. dark. Anton (from the light side) wrestles with his loyalty to his dark-sided son and his loyalty to the Night Watch team (the good guys). Set in modern day Moscow, when vampires belonging to the Dark side start mysteriously being killed, and Anton is framed for their murders, he must forget about saving his son from the clutches of the baddies, and try and escape the Day Watch, which is looking for his blood. This is an ultra-modern film, with some amazing special effects. The computer generated landscapes are breathtaking, and the epic battles easily rival those of movies such as Lord of the Rings. Although the film is spoken in Russian, the subtitles are perhaps the highlight of the film. Unlike traditional subtitles, these ones interact with the action of the film, and help to propel the story along. The amazing use of type would make any typography teacher go bananas. There were some jokes throughout the film, that I think were “in jokes” – either referencing to previous films, or very specifically Russian jokes. However, there were plenty of moments for new-to-the-series viewers to enjoy. There was also perhaps the most amazing fast car sequence I’ve ever seen – although all visual effects, it was really impressive to see a car slide so unnaturally around corners, fly effortlessly through the air, drive around the walls of a building, smash through the window, and then hoon around the hallways. The look of the film was very unique, very modern, very bold and very prominent. It looked like a real action movie. The sound design was also really impressive – we great use of surround sound, especially when viewed in a big venue like The Regent. I must say, even without seeing the previous film, this is a really standout movie at the film festival – if only for the special effects alone.

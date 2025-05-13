@@ -1,0 +1,11 @@
+---
+title: Inland Empire
+date: 2007-08-28
+author: Chris Hocking
+layout: blog
+---
+# Inland Empire
+
+**Written by Chris Hocking on 28th August 2007**
+
+What a complete and utter load of shit. I remember watching an interview with David Lynch a couple of months back and thinking, “this guy is an idiot”. He completely ignored the intelligent Italian interviewer, claiming he couldn’t understand him, despite the fact that the TV host spoke better English than Lynch. This movie was horrible. The only problem is that I feel a little bit guilty bagging the crap out of it because I had to leave early and haven’t actually seen the end. But that’s Lynch’s fault as well! The film ran for way too long – so long that it went well past the departure time of the last train out of the city, much to my dismay. Then again, what I did see was dreadful, so there was no real way it could have recovered itself. This film was obviously just made to be different and challenge its viewers. It was certainly different – but not in a good way. The photography was uncomfortable with extreme close ups and badly framed images. The editing was sometimes predictable but mostly seemingly random and without real motive. A lot of the shots were out of focus for no particular reason. Everything about this film was random and completely over the top. From rabbits speaking gibberish to prostitutes singing and dancing – this film really had it all. But it was really boring to watch. It did have some funny moments and some good characters. I really loved the producer character as he tried to collect money from crew in charity. The lead lady was acted incredibly well – she must have gone through hell making this film. But the film itself, and admittedly I haven’t seen the end – was just a complete and utter waste of time. I’m sure some boring film geek could make up reasons for why every shot was there, but I honestly think this was just a lot stuff thrown on paper for just the hell of it. It’s more of an experimental film than anything else. Personally – I hated it. It drove me batty. But I still want to see the end…

@@ -1,0 +1,25 @@
+---
+title: MIFF 2007 Short & Local
+date: 2007-08-21
+author: Chris Hocking
+layout: blog
+---
+# MIFF 2007 Short & Local
+
+**Written by Chris Hocking on 21st August 2007**
+
+I was really impressed with the Short & Local films this year. It opened with Sian Davies film, Poetry, a beautiful, yet shadowy film about two teenage girls struggling with the complexities of the schoolyard, relationships and growing up. The acting in this film was spot on – you really felt for and believed these characters. The portrayal of the school was also extremely realistic. Unlike a lot of films, this really felt, looked and sounded like a high school environment. The bullying scattered right throughout the film is exactly the kind of stuff that happens in schools right throughout Australia every day – it’s captured with extreme accuracy. Nothing was sugar coated, everything was spot on. The cinematography, colour grading and set design of the film was very appropriate and helped compliment the dark mood of the film. I really loved the colour scheme of the film – nothing was bright and friendly, but instead dark and contrasty. The sound design was also subtle, yet extremely effective. It’s hard to re-create what a school yard sounds like, and yet this film pulled it off. Technically, I felt this film was a great achievement. However, the story for me seemed to lack any real depth. I didn’t really understand what the two girls were going through – but maybe that’s simply because I’m a boy, I’m not sure.
+
+Kindle was another very fascinating film. It told the story of a troubled young man and an equally distressed young lady who reside in a community share house. Both of them obviously have had very complicated and distressing lives, and neither of them are quite sure of who they are. However, they both have one thing in common at least – their amazement for one of the world’s natural wonders…fire. I really enjoyed this short film. It was simple – yet incredibly effective.
+
+Dance Like Your Old Man, was a incredibly cleaver concept, which had women of all ages, dancing like their fathers, whilst a voice over interview took place as they talked about their relationship with their father. It was a very cleaver combination of visual humour (it was great to see all these women doing all these very daggy Dad dancing moves) and very heart felt interviews. Visually, the film was very simple – people dancing in front of a white backdrop. The sound component was also uncomplicated; just people talking about their Dads. However, mix the two and you’ve got a very fascinating short film!
+
+The Postman, was what I would call a typical film school type short film. It had very high production values, and a good script. But it had that film school feel to it. It was a simple story about a lonely elderly postman, who finds a friend in his young next-door neighbour over games of chess. It has a very cute and appropriate ending. Visually, the film looks great. The sound design is also very subtle, yet powerful, as this is not a film driven by dialogue.
+
+I’m not sure what the film Dugong had to do with Dugong’s, but never-the-less it was a great film. All though, maybe I missed the point! Maybe it was about Dugong’s after all, and I just didn’t get it. Either way, I enjoyed it. It was about an older brother dropping in on his younger brother’s wedding after disappearing away from the family for several years prior. It had some great little visual jokes in it, as well as a really cool dog. Mixed with some great underwater photography of Dugongs – and you can’t go wrong!
+
+Punch, was a short film set in France, with English subtitles that followed around a clown as he walked around the city reminiscing of the good old days when everyone loved him. To be perfectly honest, I didn’t get what this film was really about. The look of the film was very nice – I loved the contrast between the locations and the red hair and boots of the clown.
+
+In Absentia was an experimental film that made absolutely no sense to me, and by the sounds of it, nor anyone else in the screening. As most experimental films are – this was just a whole lot of footage thrown together. They would have spent a fair bit of money on the sound design; however it didn’t help make the film any better. I have no idea what this film was about – if anything – nor do I have any idea why the director made it.
+
+Finally, Remember My Name was the highlight of the section. It was a documentary building up to a big public performance on Bourke Street mall. The film starts with a whole lot of interviews. All the people explain they are involved in something “big” and potentially controversial, however no one reveals the secret. This film had a whole lot of very funny and unrevealing interviews, until it leads up to the main event – the huge and very funny public performance. I really loved the structure of this film. It was really exciting to watch. The build up was very stirring, and the climax hilarious!

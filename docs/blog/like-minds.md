@@ -1,0 +1,19 @@
+---
+title: Like Minds
+date: 2006-08-22
+author: Chris Hocking
+layout: blog
+---
+# Like Minds
+
+**Written by Chris Hocking on 22nd August 2006**
+
+It truly is an amazingly uplifting sensation, when you leave a cinema knowing that you’ve just witnessed a cinematic masterpiece. It feels even better when the film has been produced by people from your own home country. *Like Minds* is a refreshingly new and unique Australian film (despite the fact that it is set in the UK), which is sure to make a huge impact in the box offices not only locally, but internationally as well.
+
+Alex is an extremely intelligent and particularly smug seventeen-year-old private school student, attending an elite catholic boarding school, of which his father is headmaster; a fact that he uses to his advantage at every opportunity. When Alex is arrested and accused of murdering school peer Nigel, his influential father is quick to come to his defence. When the police department holding him captive soon come to the realisation that there is no concrete evidence to back their claims, they call upon the services of forensic psychologist Sally Rowe to determine whether or not Alex is in fact the merciless killer they assume he is. Sally’s investigations force her into a disturbing world of complex mind games, murder, mystery, and age old secret societies. In a series of flashbacks into Alex’s past, the terrifying relationship between Alex and Nigel is exposed. Several more dead bodies rise to the surface, establishing even more multifarious dimensions to an already dense mystery. As the film progresses, the relationship between Sally and Alex intensifies, and the battle for superior intellect begins. It may well be very disconcerting seeing a teenager comfortably match the aptitude of an experienced professional, but it is also truly transfixing watching these two unlikely people battle for control of each others psyche.
+
+Although essentially a spine-chilling thriller, this movie pushes every boundary and explores the terrifying possibility that someone, who you would have preferred never to have met, can effectively invade your upmost private thoughts and feelings; breaking into and analysing your very soul. This film delves into the closeness between two curious and highly potential young men, who we discover are ultimately bound by mythology, history and blood via a series of incredible twists and turns.
+
+This is a visually beautiful and absolutely captivating film, with some of the most haunting and powerful acting to ever hit Australian screens. Both Alex and Nigel are such immensely complex characters; both radiating so much intelligence and darkness. They are very calculated in their actions and behaviours which help’s enhance the already creepy atmosphere, further unnerving the audience.
+
+It is so fantastic to see that the production team has gone to such great lengths to ensure that the film is of the highest of quality in all departments. From the sinister looking cinematography to the gloomy musical score, this film has achieved absolute perfection in all areas. It is the kind of film that drags you in and doesn’t spit you out until the screen turns black and the end titles roll. And even then you are left exhausted in your seat, contemplating and processing all the intricate sights and sound you just were exposed to. It is one thing to keep someone on the edge of their seat for 110 minutes; it’s something entirely different to be able to keep someone wondering for weeks after. But as you sit there reflecting, at least you can smile, knowing that your local film industry has done good once again.

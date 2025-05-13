@@ -1,0 +1,27 @@
+---
+title: Let’s start at the very beginning…
+date: 2008-04-26
+author: Chris Hocking
+layout: blog
+---
+# Let’s start at the very beginning…
+
+**Written by Chris Hocking on 26th April 2008**
+
+Aren’t there already enough blogs on the web? I’m mean seriously, if you type the word “blog” into Google, you get well over two BILLION results. Why on earth would we want to start another one? There’s already thousands of film making blogs scattered around the place… So what’s the deal?
+
+Well firstly, I must say that I’m a huge fan of them. Take for example [HD For Indies](http://www.hdforindies.com/ "HD For Indies"). Written by Mike Curtis, a film post production and workflow guru, this site dedicated to providing independent film-makers with all the latest information on affordable digital technology. He’s now moving a lot of his new content over to the [ProVideo Coalition](http://provideocoalition.com/ "ProVideo Coalition") – a fantastic new site which brings together the industry’s best writers, bloggers and video gurus under one website. Because technology changes so rapidly, and new products hit the market quicker than ever before, site’s like Mike’s help keep you in the loop. And because it’s written from his point of view – not just a whole heap of marketing crap – it helps answer a lot of questions and also helps make you question the way you think about new technology.
+
+And then there’s blog like Stu Maschwitz’s, [ProLost](http://prolost.blogspot.com/ "ProLost"). Writer of one of my all time favourite tech books, [The DV Rebel’s Guide](http://rebelsguide.com/ "The DV Rebel's Guide"). co-founder of [The Orphanage](http://www.theorphanage.com/ "The Orphanage") (one of the best visual effects and production companies in the world), ex-employee of George Lucas’ Industrial Light & Magic ([ILM](http://www.ilm.com/ "Industrial Light & Magic")), creator of the award-winning [Magic Bullet](http://www.redgiantsoftware.com/ "Magic Bullet") software and overall nice guy – Stu’s blog is jam packed with technical wonders. If you’re into After Effects, then you really have to take a walk around through his blog.
+
+But my favourite blog at the moment has got to be [Chris Jones’](http://livingspirit.typepad.com/ "Chris Jones Blog"). Founder of [Living Spirit](http://www.livingspirit.com/lsp.htm "Living Spirit"), and author of the Guerilla Film Makers Book series – this guy is an absolute low-budget film-making legend! His books are priceless (I have all of them sitting in front of me as I type), and his blog (which is currently following him while he puts together a short film called Gone Fishing), is so easy to read, so jam packed with useful hints and information, and so interesting, it’s amazing.
+
+So anyway, it’s pretty clear that I like blogs. But why start up one for latenite films? Well, mainly because film making is all about community and teamwork. It’s all about sharing information – and what better way to do that than by documenting everything we do, and publishing it free of charge on our website? Just like Chris Jones site, Peter Jackson’s various production diaries (such as [Kong Is King](http://www.kongisking.net/ "Kong Is King")), and Melbourne own [Gravediggers](http://www.gravediggersthemovie.com/ "Gravediggers Blog") Blog, we hope to have a site that people will occasionally have a read through, to not only see how we’re going, but to also learn about film-making through our experiences and mistakes. Although the best way to learn about movie making is by actually getting out there and making films, in your down time, it’s always nice to read up on how others have gone about things. And secondly, for more selfish reasons, we are putting up this blog so that we can actually keep track of what we’ve done in the past! Even now, there are so many times when we’ve been working non-stop without sleep for a couple of weeks, and we completely loose track of what happened and in which order. Film making is so intense and takes up so much of your life and time, that it’s so easy to just loose large chunks of time in the abyss. So hopefully, this blog will help us keep a diary of what we’ve done and when we did it so that when we’re grumpy (ok… even grumpier) old men and woman, we have some record of the past (because lets face it – whatever memory isn’t destroyed by drugs and alcohol, will no doubt be wrecked by our crazy no sleeping, no eating, hard working lifestyle).
+
+So what exactly are we going to put up on this blog? Well, good question! The aim is to just keep it updated with what we’re working on and how it’s all going. We’ll post lots photos and videos were relevant. Basically, we’re after a site that’s very similar to Chris Jones and the Gravediggers site – except we’re a lot more indie, a lot more low budget and a lot less experienced! So this site will probably contain a lot of information that’s REALLY useful to budding student film makers who also don’t have access to huge budgets and fancy gear.
+
+So welcome to the blog! We really hope you enjoy reading through it and learning about all our fun, tears and adventures. Let me rest assure you know – at least this site won’t be boring! With every shoot we do, the stories get more exciting and, let’s face it, scary, so who knows what amazing things will happen this year round!
+
+Stay tuned!
+
+Chris!

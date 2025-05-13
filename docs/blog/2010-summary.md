@@ -1,0 +1,30 @@
+---
+title: 2010 Summary
+date: 2011-01-01
+author: Chris Hocking
+layout: blog
+---
+# 2010 Summary
+
+**Written by Chris Hocking on 1st January 2011**
+
+What a crazy year 2010 was for everyone at LateNite Films! As we already start to get completely crazy busy in the new year, we thought we’d give you a quick summary of what’s been happening over the last several months:
+
+* Working with the talented team at [16th Street Acting Studios](http://www.16thstreet.com.au/ "16th Street Acting Studios"), we put together two teasers for the feature films, [Cloudland & Wrong Girl](./../past_projects/ "Past Projects") directed by screen legend [Nicholas Hammond](http://www.imdb.com/name/nm0358749/ "Nicholas Hammond").
+* Jacqui became a movie star in China! Whilst filming footage for her TOPtoTOP documentary in Switzerland, Jacqui actually became one of the subjects of another film called Green Extreme.You can watch some of the episodes [here](http://www.icshanghai.com/Special/GreenExtreme/ "Green Extreme").
+* Last year has been the year of the Digital SLR (for better and for worse!). We now own both Canon 5Ds and 7Ds, as well as all the little extra’s that go with them! We also shot Fallout on a Canon 1D. At the rate our inventory is growing, we’re going to need a factory very soon!
+* She had only been back down under a little while, but Jacqui was back on the road again, this time she travelled to Switzerland as part of her ongoing[TOPtoTOP](http://www.toptotop.org/ "TOPtoTOP") documentary. As part of the TOPtoTOP Global Climate Solution Contest for 2010, so was filming a team of talented winning participants from around the world with a mission to solve the issues of Climate Change! Trekking up mountains, battling glaciers, and meeting up with lots of talented filmmakers from all over the world - this whole trip was certainly a non-stop adventure!
+* Jacqui also climbed up [Mount Everest](http://en.wikipedia.org/wiki/Mount_Everest "Mount Everest") with the TOPtoTOP team, [shot a wedding](http://blog.jacquihocking.com/2010/10/03/lucinda-and-warrick-bali-2010/ "Wedding") in Bali, [dodged riots](http://blog.jacquihocking.com/2010/05/29/816/ "Nepal") in Nepal and also shot some [corporate jobs](http://blog.jacquihocking.com/2010/03/31/set-up-sell-out-and-wear-a-sari/ "Delhi") in Delhi. Yikes! Bring on the frequent flyer points!
+* We helped [Nicholas Carlton](http://www.nicholascarlton.com/ "Nicholas Carlton") with his [VCA](http://vcam.unimelb.edu.au/ "VCA") short film, [Transmission](./../past_projects/ "Past Projects"), and also[Sleight](http://www.facebook.com/pages/Sleight-A-film-by-Shaun-Crawford/144443922243880 "Sleight") directed by Shaun Crawford. We LOVE the new VCA Red Kits!
+* No sooner was Jacqui back in Melbourne, she was soon off again, this time to TIMOR LESTE to get coverage of the [TOUR DE TIMOR](http://www.tourdetimor.com/ "TOUR DE TIMOR")! This is an amazing event with over 350 cyclists from around the world. Jacqui was invited to come and film by a team from Singapore, who are raising money for an NGO called [TIMOR AID](http://www.timoraid.org/ "Timor Aid")!
+* We produced a spec commercial [Smitten Kitten](http://smittenkitten.com.au/ "Smitten Kitten") (a lingerie clothing line) titled ”Dangerously Sexy”, directed by [Nicholas Carlton](http://www.nicholascarlton.com/ "Nicholas Carlton"). We got hammered on[Campaign Brief](http://www.campaignbrief.com/2010/11/dangerously-sexy-new-media-pro/ "Campaign Brief") but [TubeFilter News](http://news.tubefilter.tv/2010/11/18/ozgirl-creators-dangerously-sexy-lingerie-ad/ "Dangerously Sexy on TubeFilter News") wrote a really nice article. We also live stream this whole shoot on the Internet for anyone to tune in and have a unique insight behind the scenes.
+* We helped friend of LateNite Films Michael Lutman [raise funds](http://www.kickstarter.com/projects/688994448/plastic-or-plastic-a-documentary-about-plastic-pol "Plastic or Plastic") for his documentary, “Plastic or Plastic”. He was amongst a crew of 9 people on a sail boat taking part on one of the very first voyages to scientifically document and study the plastic pollution in the South Atlantic Ocean. He was sea sick for the first ten days, but lived to tell the tale!
+* On Sunday 17th October from 6:00pm to 9:00pm (Australian Eastern Daylight Savings Time) we streamed the SHOTGUN! feature film script reading session on the Internet for anyone to access free of charge.
+* We have been flat out putting together the SHOTGUN [Website](http://www.shotgunmovie.com/ "SHOTGUN Movie") & [Blog](http://blog.shotgunmovie.com/ "SHOTGUN! Blog"). Both these sites are iPhone and iPad friendly.
+* We teamed up with director/editor David Cleeve and his talented team at True Ride Productions to produce a video clip for Melbourne band, Kingswood. The video clip for their hit song, “She’s My Baby” was shot at The Esplanade Hotel in St Kilda on a mixture of Canon 5D and 7Ds under the instruction of Director of Photography James Ballard.
+* We continued working with the amazingly talented Jaime Snyder and Joel Sharpe on their short film adaptation of the children’s well-loved book, [There’s a Hippopotamus on our Roof Eating Cake](./../past_projects/ "Past Projects"). The film is finally complete, and we are all very happy with the end result!
+* We shot a feature film in three days - Hannah & The Hasbian!
+* We tackled the [48 Hour Film Festival Competition](http://www.48melbourne.com.au/ "48 Hour Film Festival 2010") once again with the same talented team and picked up a whole pile of awards as explained above!
+* Jacqui popped over to Singapore for the Premiere Screening of her [Spinning Dreams](./../current_projects/ "Current Projects") documentary.
+* No sooner was she back, but she was off to the airport again this time heading back to Timor to film footage for a [World Vision](http://www.worldvision.com.au/ "World Vision") Campaign.
+* …and no doubt we did lots of other things that we’ve long since forgotten about!

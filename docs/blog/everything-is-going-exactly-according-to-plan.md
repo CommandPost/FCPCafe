@@ -1,0 +1,39 @@
+---
+title: Everything is going exactly according to plan…
+date: 2008-05-11
+author: Chris Hocking
+layout: blog
+---
+# Everything is going exactly according to plan…
+
+**Written by Chris Hocking on 11th May 2008**
+
+Ok, so there may be a slight hint of sarcasm in the title for today. Unfortunately everything is not going exactly according to plan – but it’s not a complete disaster either! Yet – anyway! Nah, I’m kidding. We’re seriously heading in the right direction – a lot slower than we hoped, but on course none-the-less.
+
+Boy, oh, boy! What a week it’s been! On Tuesday it was back to uni for our production class. We had a discussion on post production, which was actually really helpful for us. Of course, once class was over it was just back to work – replying to e-mails, working on the script, completing documentation, drawing up costume designs, researching, the list goes on! Looking back in my diary, the “to-do list” which came out of Tuesday completely filled the page from top to bottom, and there was even righting horizontal on the page. So many things to do – so little time!
+
+Then Wednesday it was all about meetings! I had to get up really early to pick up Anli, and Isaac (we all live on different corners of the globe!), and off we headed to having a meeting with [Frank Strangio](http://www.frankstrangio.com "Frank Strangio"), an extremely talented and well respected composer. Rather than write for hours about all the amazing stuff Frank has done in the past, it’s probably best if you just check out his website. Apparently it’s a bit out-of-date (as he’s done heaps more in recent times), but it still gives you a very good idea of just how talented and remarkable this bloke really is! We spent nearly two and a half hours in his beautiful studio just chatting about each others projects. He’s one of the most lovely people I’ve ever had the pleasure of meeting – and I mean this in all honesty. He has such a passion for film making, and the industry – it’s very inspiring! I’m sure we’ll be talking much more about Frank over the next few months on this blog!
+
+After meeting with Frank, it was off to [Digital Pictures](http://www.digitalpictures.com.au/ "Digital Pictures") to talk about all things post! At this stage, we are looking at shooting the Sakooz trailer on Super 16mm using an ARRI SRII film camera – so we need to somehow get the footage from film to our editing system. This is done through a process called [telecine](http://en.wikipedia.org/wiki/Telecine "Telecine"). For those that have never been to Digital Pictures – the facilities are incredible and very much world class. The staff are fantastic, and they all genuinely got excited about our project.
+
+Then it was off to [Soundfirm](http://www.soundfirm.com.au/ "Sound Firm") – another leader in their field. Once again, the staff are not only the very best at what they do, but extremely friendly, and excited about what we are trying to achieve.
+
+In an effort to jam as much as we possibly could in the one day, we then headed off to Federation Square to attend a special industry forum called MINDSHIFT, run by [Film Victoria](http://film.vic.gov.au "Film Victoria"). Although it was a very interesting discussion – and lots of good points were raised, the fact that there wasn’t any young up-and-coming film makers on the board, nor was there any full-time script writers, was kind of a disappointment as the purpose of the event was to talk about the future of the industry, and about the lack of good ideas and concepts coming out of Victoria.
+
+So, after a very busy day, it was time to head home for a couple of hours sleep and get ready for another day of auditions! Thursday brought with it another 18 auditions… Like previous days, there was an amazing array of different talents! There a few people that you knew straight away, when they walked in the room, that they could just play their chosen part. It’s a fantastic feeling to know that this up-and-coming actor could one day be the next Hollywood icon! After a very long day, and another night of very little sleep, it was Friday…
+
+After some great acting workshops at uni, we headed off to have a meeting with Chris and Tim – our animatronic gurus. After a lengthy discussion at a pub in Richmond (next to [Barnes](http://www.barnes.com.au "Barnes")), we finally got to a point were the duo are ready to actually start making something! Exciting times!
+
+Friday night was set aside to finally catch up again with our own family and friends. However, even when we decided to have a break from one another – for just a night – we still end up running into one another! Out of all the venues in all of Melbourne, amazingly I still ended up running into Isaac completely randomly. I guess after spending two weeks together stuck in the same hotel room in Hong Kong, we are just drawn together whenever the alcohol is flowing – weird! Eventually, Friday became Saturday. We continued work in the comfort of our own homes, and Saturday soon become today – Sunday!
+
+What was on today? Well, despite the fact that it was mothers day – we had auditions from 9:00am to 5:30pm! Sorry mums! As always, we had a great mix of different peoples, auditioning for different roles. For some reason, we also had a large amount of people travel from interstate today – some from Perth, others from Brisbane, and a couple from Sydney! It’s absolutely terrific that people get so excited about Sakooz, that they are willing to fly down to Melbourne, at their own expense, just to attend a half hour audition. I’ve been thinking a lot about why people actually do this – I mean, seriously, it’s only an unpaid student film after all! But, I guess, at the end of the day, you never know where one of these unpaid jobs may lead. In our case, we are confident that we’re going to get Sakooz “off the ground”, into a feature film and onto theatre screens world wide. In fact, we’re almost certain – it’s just a matter of when! So I guess, keeping this in mind, auditioning for a freebie gig could lead to something big and amazing. It’s probably worth the risk! So, a MASSIVE thank you to everyone that flew in today to audition! And I guess, at the end of the day, I’d personally be more than happy to fly to New Zealand to work for free on any Peter Jackson projects! But yeah, I guess we’re not exactly Peter Jackson… yet!
+
+So anyway, I must be off! Since I started writing, my computer has already beeped about fifteen times – signifying fifteen e-mails to read and reply to. The fun never ends! And I leave you with some snap shots, of the auditions from today… Enjoy!
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_03-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_03.jpg)  [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_01-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_01.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_02-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_02.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_04-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_04.jpg)
+
+[![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_05-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_05.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_11may2008_06-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_11may2008_06.jpg)
+
+[Auditions](./../tag/auditions/)[Meetings](./../tag/meetings/)[Photos](./../tag/photos/)[Post Production](./../tag/post-production/)

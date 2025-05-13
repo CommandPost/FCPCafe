@@ -1,0 +1,25 @@
+---
+title: Elite Squad 2: The Enemy Within
+date: 2011-03-11
+author: Chris Hocking
+layout: blog
+---
+# Elite Squad 2: The Enemy Within
+
+**Written by Chris Hocking on 11th March 2011**
+
+![](/static/blog/2011-03-elitesquad2_ticket-441x329.jpg "elitesquad2_ticket")
+
+We have seen a lot of documentaries and low-budget films so far at this years festival – however [Elite Squad 2: The Enemy Within](http://www.imdb.com/title/tt1555149/ "IMDB") is certainly at the other end of the spectrum. Having already enjoyed public and critical acclaim, Elite Squad 2 is the current all-time largest box office ticket seller and highest-grossing film in Brazil, ahead of massive Hollywood blockbusters such as Avatar. This film was epic – it had massive action sequences, a soundtrack that shook the walls of the theatre, and even an opening title sequence that makes Michael Bay look like a wimp!
+
+![](/static/blog/2011-03-elitesquad2_frame-441x294.jpg "elitesquad2_frame")
+
+Admittedly, I’ve never seen the first movie in the series – however, director [José Padilha](http://www.imdb.com/name/nm0655683/) explained prior to the screening that it was a movie designed to expose many of the hardships of life in Rio’s favelas in the late 90’s, where the streets were filled with violence and drug trafficking. This film however, set in the present day – takes a slightly different look at the same world, 13 years onwards.
+
+The film opens in the Bangu 1 High-Security Penitentiary, where the inmates have basically taken over the whole jail, with a little help from a bunch of corrupt police and government officials who have turned a blind eye at all the right times. There are three gangs in the prison, and one gang leader is on a mission to kill off all his competition. [BOPE](http://en.wikipedia.org/wiki/Bope "Wikipedia") – a government special forces unit of the Military Police is sent to take control of the situation, along with Human Right Aids member Diogo Fraga, who is charged with the task of making sure everything is done above board. However, things get really messy, when the BOPE team basically take out all the inmates. After Diogo Fraga tells the world what happened, Lieutenant-Colonel Roberto Nascimento and the second in command Captain André Matias are then accused of unethical execution of the prisoners. Matias is then transferred to the extremely corrupt Military Police, and Nascimento is kicked out of BOPE and forced to work in intelligence, alongside a corrupt Secretary of Security.
+
+To complicate things on paper (although it’s very clear in the movie), Nascimento’s former wife is now going out with Fraga, and Nascimento’s son Rafael is having real issues with his biological father. Meanwhile, on the streets, Nascimento and the BOPE expel the drug dealers from several slums – however, with all the gangsters now out of business – a new enemy evolves. The militia, led by Major Rocha and supported by the Governor, the Secretary of Security and politicians interested in votes, have basically decided to offer citizen’s “security” in exchange for money. Everything is basically illegally taxed – and if you don’t pay up, you get killed. Nascimento is basically manipulated to help this group – vanquishing the criminals in the slums and poor communities, only to have a corrupt group of police officers now with free range to exploit the poor population.
+
+This film is full on. It’s bold, powerful and ambitious – but what shocked me the most, is that when I was watching the film, I thought I was just watching a fictional big-time action movie. Apparently not! From what I’ve read and have since been told – this movie is incredibly realistic as to what it was like during this time, which is terrifying. There are so many deaths – so many people in the highest levels of government that are simply corrupt and just plain evil. But what scared me the most, is that in the theatre, whenever the “good guys” were put in a situation where they could actually kill off a “baddie” – the audience when crazy with cheering and clapping, regardless of how brutal the revenge was going to be. It’s a little scary to think that the only way to take on all the corruption and violence is to retaliate with the same actions.
+
+I liked this film. It looked fantastic. It sounded AMAZING. It had more bangs, explosions and twists and turns than anything else I’ve seen at the festival thus far. I also loved the fact that the whole film was basically driven by a [film noir](http://en.wikipedia.org/wiki/Film_noir "Wikipedia") style voice over. Although there were some really full-on action sequences, there was also some really powerful scenes that were just driven by dialogue. But what I liked most about this film, is that it inspired me to learn more about Brazil, and their troubled past. I honestly cannot believe that the BOPE logo was actually a skull and cross-bone – it seems completely inappropriate for a government organisation to be promoted like that! A seriously eye-opening film, that I highly recommend you check out!
