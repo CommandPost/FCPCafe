@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 12 May 2025 05:41:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2025 22:47:35 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 May 2025 05:41:34 GMT</pubDate>
+        <pubDate>Tue, 13 May 2025 22:47:35 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9944,6 +9944,17 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#12th-may-2025</link>
             <guid isPermaLink="false">12th May 2025</guid>
             <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th May 2025]]></title>
+            <description><![CDATA[<p><strong>New Case Study!</strong></p>
+<p>Dev Benegal has written an awesome new case study covering his film <strong>An Arrested Moment</strong>.</p>
+<p>You can read all about it on <a href="/case-studies/an-arrested-moment/">FCP Cafe</a>.</p>
+<p>Thanks heaps Dev for sharing with the Final Cut Pro Community! 🥳</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-may-2025</link>
+            <guid isPermaLink="false">14th May 2025</guid>
+            <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
