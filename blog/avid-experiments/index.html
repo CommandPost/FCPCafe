@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.800495261761">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.8.1">
+
+    <!-- Primary Meta Tags -->
+    <title>Avid Experiments</title>
+    <meta name="title" content="Avid Experiments">
+    <meta name="description" content="Written by Chris Hocking on 4th August 2009">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fcp.cafe/blog/avid-experiments/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcp.cafe/blog/avid-experiments/">
+    <meta property="og:title" content="Avid Experiments">
+    <meta property="og:description" content="Written by Chris Hocking on 4th August 2009">
+    <meta property="og:image" content="https://fcp.cafe/static/blog/2009-07-testchart_small.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fcp.cafe/blog/avid-experiments/">
+    <meta property="twitter:title" content="Avid Experiments">
+    <meta property="twitter:description" content="Written by Chris Hocking on 4th August 2009">
+    <meta property="twitter:image" content="https://fcp.cafe/static/blog/2009-07-testchart_small.jpg">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Blog >> Feed" href="https://fcp.cafe/blog/feed.xml">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.8.1.800495261761" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.800495261761" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.800495261761" data-turbo-eval="false" defer></script>
+
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
+    <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .review {
+            text-align: left;
+            color: #1956AF;
+            border-radius: 10px;
+            background-color: #E1EDFF;
+            border: 1px solid #1956AF;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+        html.dark .review {
+            background-color: rgb(39 39 39/var(--tw-bg-opacity));
+            color: rgb(189 189 189/var(--tw-text-opacity));
+        }
+        .review p {
+            font-size: 11px;
+        }
+        .review-rating {
+            margin-bottom: 5px;
+        }
+        .fa-star {
+            font-size: 20px;
+            color: #ccc;
+        }
+        .fa-star.checked {
+            color: orange;
+        }
+        @media (max-width: 959px) {
+            img.rightLogo {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fcpcafe.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fcpcafe.png">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://ltnt.tv/discord" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../contribute/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Contribute</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../wishlist/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Wish List</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../bugtracker/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Bug Tracker</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../latenite/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="relative flex mx-auto bg-white max-w-core">
+            <div class="md:hidden">
+                <!-- Sidebar Skeleton -->
+                <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-white border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+                
+                    <div class="flex items-center h-16 px-6">
+                        <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                    </div>
+                
+                    <div class="pl-6 mt-1 mb-4">
+                        <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                        <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                        <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                        <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                        <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                        <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    </div>
+                
+                </div>
+                
+                <!-- Sidebar component -->
+                <doc-sidebar v-cloak>
+                    <template #sidebar-footer>
+                        <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+                
+                            <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                                <nav>
+                                    <ul class="flex flex-wrap justify-center items-center">
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://ltnt.tv/discord" target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Discord</span>
+                                            </a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../contribute/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Contribute</span>
+                                            </a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../wishlist/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Wish List</span>
+                                            </a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../bugtracker/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Bug Tracker</span>
+                                            </a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Discussions</span>
+                                            </a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../latenite/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>LateNite</span>
+                                            </a>
+                                        </li>
+                
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </template>
+                </doc-sidebar>
+            </div>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render page content -->
+                <div class="grow min-w-0 px-6">
+                    <main class="relative pt-6 pb-16">
+                        <div class="docs-markdown" id="docs-content">
+                            <!-- Rendered if sidebar right is enabled -->
+                            <div id="docs-sidebar-right-toggle"></div>
+                            <nav class="breadcrumb" aria-label="Breadcrumb">
+                                <ol role="list">
+                                    <li class="pr-4">
+                                        <a href="../../" class="pr-4">
+                                            Latest News
+                                        </a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                        </svg>
+                                    </li>
+                                    <li class="pr-4">
+                                        <a href="../../blog/" class="pr-4">
+                                            Blog
+                                        </a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                        </svg>
+                                    </li>
+                                    <li class="pr-4">
+                                        <a href="../../blog/avid-experiments/" class="pr-4">
+                                            Avid Experiments
+                                        </a>
+                                    </li>
+                                </ol>
+                            </nav>
+                
+                            <!-- Page content  -->
+<doc-anchor-target id="avid-experiments" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#avid-experiments">#</doc-anchor-trigger>
+        <span>Avid Experiments</span>
+    </h1>
+</doc-anchor-target>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+    <div class="flex items-center">
+        <div>By</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" fill="white"><g><rect width="2rem" height="1.7rem" fill="#c5c5c5"/><circle r="0.44rem" cy="0.83rem" cx="1rem"/><ellipse ry="0.96rem" rx="0.77rem" cy="2.15rem" cx="1rem"/></g></svg>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350">Chris Hocking</div>
+        </div>
+    </div>
+    <div class="mx-2">&#9679;</div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2009-08-04</span></div>
+</div>
+
+<p><strong>Written by Chris Hocking on 4th August 2009</strong></p>
+<p>If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I have been working at an offline edit house (in addition to the time I spend doing <em>latenite</em> things!) that primarily uses Avid on Macs. As we solely do offline editing here and all of the grading and online is done at other more specialised post production facilities, generally speaking we don’t have to worry too much about gamma, colour spaces and getting files in and out of various programs. Most of our jobs are shot on 35mm, and get telecined to DVCAM which we then edit in DV-PAL, export an EDL + OMF and we’re done. For RED Projects we normally get dumped a hard drive full of R3Ds which we convert to DNxHD using RED Rushes and bring all these files in Avid via an ALE. Everything is fairly simple and straight forward.</p>
+<p>However, I tend to do a lot more things that fall outside of the offline banner. Sometime there might be some visual effects elements I’ll throw together in After Effects or Shake, other times I might want to do some hardcore grading in Color, or maybe I just want to export out a really high quality DVD.</p>
+<p>Unlike in Final Cut Pro, getting consistent images into and out of Avid seems to be kind of a black art. The RGB vs 601 terminology is at times confusing, and despite the wealth of information out there on the World Wide Web – there still seems to be a lot of misinformation and head scratching. Even creating a dead simple DVD via DVD Studio Pro using Avid footage seems to be a real challenge (the solution on forums normally tends to be use one of Avid’s Sonic products).</p>
+<p>Well, rather than spend even more time trying to find answers on the various Avid forums, I thought I’d do some tests and see how things actually work in the real world. This isn’t a formal experiment, nor is it anything like a technical white paper – all I’m really doing is having a bit of a muck-around and documenting what I do for future reference. It’s more for myself than anything else, to try and help get my head around everything. So apologies in advance if this blog entry is a bit of a mess!</p>
+<p>To start things off, here are my system specifications. Now, before you all drill me, yes I know I’m running an older version of Avid, and yes I know that technically speaking I’m running a newer version of Quicktime than I should be (as you can see by reviewing the <a href="http://avid.custkb.com/avid/app/selfservice/search.jsp?DocId=267087&amp;Hilite=version+matrix+Composer+Version+Matrix" class="outbound" title="Avid Version Matrix" target="_blank"><span>Avid Version Matrix</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>). But as more and more people tend to run Avid and Final Cut Pro on the same system, the more I see Avid running alongside newer versions of Quicktime that what the developers originally intended. As Avid is completely backwards compatible (which is both amazing and EXTREMELY handy!), the less often people tend to upgrade the Avid software. If it ain’t broke – why fix it?</p>
+<p>Here are the system specifications of the machine I will be using for these tests:</p>
+<p><strong>System Specs:<br />
+Processor:</strong> 2 x 2.8 GHz Quad-Core Intel Xeon<br />
+<strong>Memory:</strong> 2 GB 800 MHz DDR2 FB-DIMM<br />
+<strong>Mac OS X:</strong> 10.5.7<br />
+<strong>Quicktime:</strong> 7.6.2 (1327)<br />
+<strong>Avid:</strong> 3.0.5<br />
+<strong>Final Cut Pro:</strong> 7.0<br />
+<strong>Photoshop:</strong> 11.0</p>
+<p>For the purposes of these tests I will be using a <strong>720 x 576 PAL</strong> test chart from <a href="http://www.belle-nuit.com/testchart/" class="outbound" title="Belle Nuit Test Chart" target="_blank"><span>Belle Nuit</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p><figure class="content-center">
+    <a href="http://www.belle-nuit.com/download/testchartpal.tif" title="Test Chart">
+        <img src="../../static/blog/2009-07-testchart_small.jpg" alt="720 x 576 Test Chart" title="720 x 576 Test Chart">
+    </a>
+    <figcaption class="caption">720 x 576 Test Chart</figcaption>
+</figure>
+</p>
+<p>Once I had a test chart the next step was to convert it to a Quicktime file. To do this I opened up Final Cut Pro, and set up a new Sequence with the following settings:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-fcp_settings_qt_none.jpg" alt="FCP Sequence Settings" title="FCP Sequence Settings">
+    <figcaption class="caption">FCP Sequence Settings</figcaption>
+</figure>
+</p>
+<p>I also set the <strong>Motion Filtering Quality</strong> to <strong>Best</strong> for good measure (in the <strong>Video Processing</strong> tab).</p>
+<p>I then imported the test chart TIFF into the timeline and exported it as a <strong>Quicktime Movie</strong>.</p>
+<p>To make sure something weird wasn’t going on, I then opened up the original TIFF file and the Quicktime File in Photoshop. Using the eye dropper tool I then double checked that all of the value were correct. They were…!</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-qt_none_values.jpg" alt="Quicktime Value" title="Quicktime Value">
+    <figcaption class="caption">Quicktime Value</figcaption>
+</figure>
+</p>
+<p>OK… So now I had a Quicktime file that identically matched the TIFF test chart.</p>
+<p>The next step was to do some experiments with Avid. First up I created a new <strong>25p PAL</strong> project. I then imported the Quicktime Test Chart, as well as the straight TIFF Test Chart a few different ways:</p>
+<p><strong>Method 1</strong><br />
+<strong>Format:</strong> OMF<br />
+<strong>Video Resolution:</strong> 1:1 OMF<br />
+<strong>File Pixel to Video Mapping:</strong> Computer RGB (0-255)</p>
+<p><strong>Method 2</strong><br />
+<strong>Format:</strong> OMF<br />
+<strong>Video Resolution:</strong> 1:1 OMF<br />
+<strong>File Pixel to Video Mapping:</strong> Computer RGB (Dither Image Colours)</p>
+<p><strong>Method 3</strong><br />
+<strong>Format:</strong> OMF<br />
+<strong>Video Resolution:</strong> 1:1 OMF<br />
+<strong>File Pixel to Video Mapping:</strong> 601 SD or 709 HD (16-235)</p>
+<p><strong>Method 4</strong><br />
+<strong>Format:</strong> MXF<br />
+<strong>Video Resolution:</strong> 1:1 MXF<br />
+<strong>File Pixel to Video Mapping:</strong> Computer RGB (0-255)</p>
+<p><strong>Method 5</strong><br />
+<strong>Format:</strong> MXF<br />
+<strong>Video Resolution:</strong> 1:1 MXF<br />
+<strong>File Pixel to Video Mapping:</strong> Computer RGB (Dither Image Colours)</p>
+<p><strong>Method 6</strong><br />
+<strong>Format:</strong> MXF<br />
+<strong>Video Resolution:</strong> 1:1 MXF<br />
+<strong>File Pixel to Video Mapping:</strong> 601 SD or 709 HD (16-235)</p>
+<p>Now that the test charts were successfully in the Avid, it was already time to try and get them back out again!</p>
+<p>To export out of Avid I used these settings:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-avid_export_settings.jpg" alt="Avid Export Settings" title="Avid Export Settings">
+    <figcaption class="caption">Avid Export Settings</figcaption>
+</figure>
+</p>
+<p>For each method, I exported out a Quicktime movie using both the <strong>601</strong> and <strong>RGB</strong> Colour Levels.</p>
+<p>Here are the results in regards to bringing in the Quicktime Files (with the Compression type set to <em>None</em>) and exporting them out of Avid.</p>
+<p>Please be aware that to generate the images shown below I opened the exported Quicktimes in Photoshop, resized them to fit in with the blog design, and then saved them as a JPEG. They are only displayed here as a general guide.</p>
+<p><strong>Method 1</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_rgb_601.jpg" alt="qt_omf_1to1_rgb_601" title="qt_omf_1to1_rgb_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_rgb_rgb.jpg" alt="qt_omf_1to1_rgb_rgb" title="qt_omf_1to1_rgb_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_01.jpg" alt="Method 01" title="Method 01" /></strong></p>
+<p><strong>Method 2</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_rgb_dither_601.jpg" alt="qt_omf_1to1_rgb_dither_601" title="qt_omf_1to1_rgb_dither_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_rgb_dither_rgb.jpg" alt="qt_omf_1to1_rgb_dither_rgb" title="qt_omf_1to1_rgb_dither_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_02.jpg" alt="Method 2" title="Method 2" /></strong></p>
+<p><strong>Method 3</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_601_601.jpg" alt="qt_omf_1to1_601_601" title="qt_omf_1to1_601_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_omf_1to1_601_rgb.jpg" alt="qt_omf_1to1_601_rgb" title="qt_omf_1to1_601_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_03.jpg" alt="Method 3" title="Method 3" /></strong></p>
+<p><strong>Method 4</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_rgb_601.jpg" alt="qt_mxf_1to1_rgb_601" title="qt_mxf_1to1_rgb_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_rgb_rgb.jpg" alt="qt_mxf_1to1_rgb_rgb" title="qt_mxf_1to1_rgb_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_04.jpg" alt="Method 4" title="Method 4" /></strong></p>
+<p><strong>Method 5</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_rgb_dither_601.jpg" alt="qt_mxf_1to1_rgb_dither_601" title="qt_mxf_1to1_rgb_dither_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_rgb_dither_rgb.jpg" alt="qt_mxf_1to1_rgb_dither_rgb" title="qt_mxf_1to1_rgb_dither_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_05.jpg" alt="Method 5" title="Method 5" /></strong></p>
+<p><strong>Method 6</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_601_601.jpg" alt="qt_mxf_1to1_601_601" title="qt_mxf_1to1_601_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_mxf_1to1_601_rgb.jpg" alt="qt_mxf_1to1_601_rgb" title="qt_mxf_1to1_601_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-qt_method_06.jpg" alt="Method 6" title="Method 6" /></strong></p>
+<p>Here are the results in regards to bringing in the original TIFF file and exporting it out of Avid:</p>
+<p><strong>Method 1</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_rgb_601.jpg" alt="tiff_omf_1to1_rgb_601" title="tiff_omf_1to1_rgb_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_rgb_rgb.jpg" alt="tiff_omf_1to1_rgb_rgb" title="tiff_omf_1to1_rgb_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-tiff_method_01.jpg" alt="Method 1" title="Method 1" /></strong></p>
+<p><strong>Method 2</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_rgbdith_601.jpg" alt="tiff_omf_1to1_rgbdith_601" title="tiff_omf_1to1_rgbdith_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_rgbdith_rgb.jpg" alt="tiff_omf_1to1_rgbdith_rgb" title="tiff_omf_1to1_rgbdith_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-tiff_method_02.jpg" alt="Method 2" title="Method 2" /></strong></p>
+<p><strong>Method 3</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_601_601.jpg" alt="tiff_omf_1to1_601_601" title="tiff_omf_1to1_601_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_omf_1to1_601_rgb.jpg" alt="tiff_omf_1to1_601_rgb" title="tiff_omf_1to1_601_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-tiff_method_03.jpg" alt="Method 3" title="Method 3" /></strong></p>
+<p><strong>Method 4</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_rgb_601.jpg" alt="tiff_mxf_1to1_rgb_601" title="tiff_mxf_1to1_rgb_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_rgb_rgb.jpg" alt="tiff_mxf_1to1_rgb_rgb" title="tiff_mxf_1to1_rgb_rgb" /></strong></p>
+<p><strong><img src="../../static/blog/2009-07-tiff_method_04.jpg" alt="Method 4" title="Method 4" /></strong></p>
+<p><strong>Method 5</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_rgbdith_601.jpg" alt="tiff_mxf_1to1_rgbdith_601" title="tiff_mxf_1to1_rgbdith_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_rgbdith_rgb.jpg" alt="tiff_mxf_1to1_rgbdith_rgb" title="tiff_mxf_1to1_rgbdith_rgb" /></strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-tiff_method_05.jpg" alt="Method 5" title="Method 5">
+    <figcaption class="caption">Method 5</figcaption>
+</figure>
+</p>
+<p><strong>Method 6</strong></p>
+<p><strong>601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_601_601.jpg" alt="tiff_mxf_1to1_601_601" title="tiff_mxf_1to1_601_601" /></strong></p>
+<p><strong>RGB:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-tiff_mxf_1to1_601_rgb.jpg" alt="tiff_mxf_1to1_601_rgb" title="tiff_mxf_1to1_601_rgb" /></strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-tiff_method_06.jpg" alt="Method 6" title="Method 6">
+    <figcaption class="caption">Method 6</figcaption>
+</figure>
+</p>
+<p>OK… So now what? What’s the result of all of these tables and charts?</p>
+<p><strong>Hint #1:</strong> If you brought in your footage into Avid as RGB – then export as RGB. If you brought in your footage into Avid as 601, then export as 601.</p>
+<p>If you look at all the different methods – this certainly seems to be the case. When using the same file pixel to video mapping setting for both import and export the file coming in is very SIMILAR to the file coming out – not EXACTLY – but very similar.</p>
+<p><strong>Hint #2:</strong> I hate to state the obvious, but Computer RGB (Dither Image Colours) only applies when you import still images. If you import a Quicktime movie using this option, it will just export as regular Computer RGB.</p>
+<p>According to the Media Composer ReadMe file:</p>
+<blockquote>
+<p><strong>RGB (Computer RGB (0-255)):</strong> Select this option if the imported graphics file uses RGB graphics levels. Most computer-generated graphics use RGB graphics levels. The RGB color values are remapped to ITU-R 601 (formerly CCIR 601) or ITU-R709 video color values appropriate for the Avid system.</p>
+<p><strong>RGB, dithered (Computer RGB, dither image colors):</strong> Select this option if the imported graphics file uses complex color effects, such as a gradation, and you are importing at a high resolution (2:1). Do not use this option to reimport an image that has already been imported with dithering.</p>
+<p><strong>601/709 (601 SD or 709 HD (16-235))</strong>: Select this option if the imported graphics file uses video levels based on the ITU-R 601 (formerly CCIR 601) or ITU-R709 (HD) standard. These graphics include Avid color bars or images that include superblack (zero black) for keying purposes.</p>
+</blockquote>
+<p>Now with this new found knowledge, it was time to do some further, more detailed tests. First up let have a closer look at what happens to an image if we import it in as 601, and export it as 601.</p>
+<p><strong>Original Test Chart:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-testchart_small.jpg" alt="720 x 576 Test Chart" title="720 x 576 Test Chart">
+    <figcaption class="caption">720 x 576 Test Chart</figcaption>
+</figure>
+</p>
+<p><strong>601 to 601:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-07-qt_omf_1to1_601_601.jpg" alt="qt_omf_1to1_601_601" title="qt_omf_1to1_601_601">
+    <figcaption class="caption">qt_omf_1to1_601_601</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-detailed_601_to_601.jpg" alt="detailed_601_to_601" title="detailed_601_to_601">
+    <figcaption class="caption">detailed_601_to_601</figcaption>
+</figure>
+</p>
+<p>Apart from a few very minor differences where the values are off by one (highlighted in bold), the import is basically exactly the same as the output.</p>
+<p>Interestingly however, if you use the <a href="http://en.wikipedia.org/wiki/DigitalColor_Meter" class="outbound" title="DigitalColor Meter" target="_blank"><span>DigitalColor Meter</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> to measure the values directly from the preview monitors in Avid, the white (255) section reads exactly 255, despite the fact that the output file reads 254. Apart from that using the meter everything else matches the above table.</p>
+<p>The only different is the resolution.</p>
+<p><strong>Original Test Chart:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-resolution_original.jpg" alt="resolution_original" title="resolution_original">
+    <figcaption class="caption">resolution_original</figcaption>
+</figure>
+</p>
+<p><strong>601 to 601:</strong></p>
+<p><strong><img src="../../static/blog/2009-08-resolution_601to601.jpg" alt="resolution_601to601" title="resolution_601to601" /></strong></p>
+<p>As the test chart was originally 8bit in RGB space,</p>
+<p>So now we know that if you import footage as 601 and export as 601 the colours pretty much stay the same. But it’s one thing to do these kind of tests – it’s another thing to try it with real footage. So that’s what we’ll try next…</p>
+<p>In Final Cut Pro I created a new sequence with the following settings:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-fcp_sequence_settings.jpg" alt="fcp_sequence_settings" title="fcp_sequence_settings">
+    <figcaption class="caption">fcp_sequence_settings</figcaption>
+</figure>
+</p>
+<p>…and everything set to best quality:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-fcp_video_processing.jpg" alt="fcp_video_processing" title="fcp_video_processing">
+    <figcaption class="caption">fcp_video_processing</figcaption>
+</figure>
+</p>
+<p>I then dragged in a FCP Bars &amp; Tone generator for a second, then the test chart we’ve been using for another second, and then some 4K RED footage. I threw a quick 3-way Colour Correction filter on top of the footage to tweak it a bit and then exported out a <strong>Quicktime Movie</strong>. This Quicktime will become our test footage.</p>
+<p>After I exported out the Quicktime Movie I then opened it up in Photoshop to have a look at the values on the chart:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-footage_from_fcp.jpg" alt="footage_from_fcp" title="footage_from_fcp">
+    <figcaption class="caption">footage_from_fcp</figcaption>
+</figure>
+</p>
+<p>Obviously all of these values had some kind of gamma/luma shift applied to them. Just to double check I then exported out the same timeline but with the Compressor set to None to see what would happen:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-test_sequence_qt_none.jpg" alt="test_sequence_qt_none" title="test_sequence_qt_none">
+    <figcaption class="caption">test_sequence_qt_none</figcaption>
+</figure>
+</p>
+<p>OK… so obviously Quicktime is doing something funky behind the scenes. This is something we’ll have to look into later, but for now the purpose of this test is to try and get footage into and back out of Avid without any nasty changes. As long as we know what the values are of the chart before the footage gets into Avid, it doesn’t really matter if the values aren’t “correct” (i.e. Grey 71 on the chart doesn’t have to equal 71 using the eye dropper).</p>
+<p>I then brought the test footage into the Avid as OMF, 1:1, 601. Using the DigitalColor Meter, I then checked the values of the preview monitor:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-avid_colorpicker_footage_test.jpg" alt="avid_colorpicker_footage_test" title="avid_colorpicker_footage_test">
+    <figcaption class="caption">avid_colorpicker_footage_test</figcaption>
+</figure>
+</p>
+<p>Then I noticed that something wasn’t right. Turns out that for whatever reason the DigitalColor Meter tool and the Photoshop Eyedropper don’t match up!</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-photoshop_eyedropper_problems.jpg" alt="photoshop_eyedropper_problems" title="photoshop_eyedropper_problems">
+    <figcaption class="caption">photoshop_eyedropper_problems</figcaption>
+</figure>
+</p>
+<p>After a slight panic, and a bit of hair pulling, I opened up <strong>Color Settings</strong> in Photoshop and changed the RGB Working Space from <strong>sRGB IEC61966-2.1</strong> to my monitor working space. And with a quick click of the OK button, all of a sudden everything started working as per normal. It seems that I just completely forgot about display profiles for a second there! Thanks also to Cail Young at Inspiration Studios for his almost instant Twitter reply!</p>
+<p><strong>Hint #3:</strong> Don’t forget about display profiles!</p>
+<p>I then compared what was in the Avid to the original file as viewed in the Quicktime Player. When “Enable Final Cut Studio color compatibility” was selected in the Quicktime Preferences, using DigitalColor Meter I obtained the following results:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-qt_player_eyedrops.jpg" alt="qt_player_eyedrops" title="qt_player_eyedrops">
+    <figcaption class="caption">qt_player_eyedrops</figcaption>
+</figure>
+</p>
+<p>When you turn off Final Cut Studio colour compatibility you obtain these results:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-qt_player_eyedrops_fcs_off.jpg" alt="qt_player_eyedrops_fcs_off" title="qt_player_eyedrops_fcs_off">
+    <figcaption class="caption">qt_player_eyedrops_fcs_off</figcaption>
+</figure>
+</p>
+<p>I then went to a specific frame on both Avid and Quicktime Player. I took a screen shot, and compared the two images side by side in Photoshop. So far so good – the image in Quicktime Player looks visually identical to the video in Avid when Final Cut Studio colour compatibility is turned on. So the media looks good whilst IN the Avid – what about when it comes out again? To test this I exported a “Same as Source” 601 Quicktime file from Avid.</p>
+<p>I then opened up the newly exported Quicktime movie in Photoshop for review:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-avid_export_footage_601to601.jpg" alt="avid_export_footage_601to601" title="avid_export_footage_601to601">
+    <figcaption class="caption">avid_export_footage_601to601</figcaption>
+</figure>
+</p>
+<p>Interestingly, the Avid seems to have “corrected” the bars so that they more closely match where they’re supposed to be. At this stage I have no idea why this is or how it’s being done – but all I can assume for now is that the data out of Final Cut Pro was always correct – it just wasn’t being handled correctly in Photoshop or Quicktime Player.</p>
+<p>Visually comparing the original file to the file exported out of Avid, what I can say is that they are identical in terms of colour and tone. You cannot tell the difference between the two:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-side_by_side_comparison.jpg" alt="side_by_side_comparison" title="side_by_side_comparison">
+    <figcaption class="caption">side_by_side_comparison</figcaption>
+</figure>
+</p>
+<p>OK – so it seems that it is possible to get footage into and out of Avid without the image being degraded.</p>
+<p>Here’s an interesting bit of information I found on the Avid <a href="http://community.avid.com/forums/p/71873/402146.aspx" class="outbound" title="Avid Forums" target="_blank"><span>forum</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
+<blockquote>
+<p>I have done some fairly extensive testing (with an oscilloscope and vectorscope….)…. It seems impossible to get certain footage with certain codecs to go through transparently through Compressor (or be imported correctly into FCP). A good test to do is the following: Import a testcard such as the one here:</p>
+<p><a href="http://www.belle-nuit.com/testchart/" class="outbound" target="_blank"><span>http://www.belle-nuit.com/testchart/</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>into Avid with 601 levels.</p>
+<p>Export with your chosen codec then import the QT file into FCP. Observe the results in FCP’s waveform monitor, noting in particular the gray scale ramp which should be linear and have no curve. The patches marked 16 and 235 should be correctly positioned in the waveform.</p>
+<p>DV footage with the Avid codec consistently has gamma issues (even though with RGB levels the black and 235 white levels are correct).</p>
+<p>DV footage without the Avid codec works as from FCP 6.0 but had problems in 5.1.4 as Avid does not insert the image description extensions that describe the colorimetry (primaries, transfer fn and matrix). FCP 6.0 (and the version of compressor that comes with it) appears to deduce the correct primaries, xfer fn and matrix from the image size and codec (at least in the case of DV pal) if the ‘nclc’ QT extension is absent (which it always is from avid).</p>
+<p>I have had little luck with the other codecs (prores, and native avid codecs) which are not transparent with a Avid-&gt;Compressor (or FCP) workflow. I think something is up with how Avid presents the image samples to the quicktime compression session. I suspect that given the absence of the ‘nclc’ extension which describes the colorimetry in the output QT file, Media Composer gives the codec no information as to the colorimetry of the samples, so the codec makes a best guess. Of course with the Avid codecs this works (the problem is with decode on FCP and not in the encoding), but with third-party codecs such as Apple ProRes there is a problem. As a result gamma correction is incorrectly applied to the source samples when it should not be. It would be nice if this would be addressed for greater compatibility with other software…..</p>
+</blockquote>
+<p>This is also another interesting bit of information I found on the same <a href="http://community.avid.com/forums/p/21437/119606.aspx" class="outbound" title="Avid Forums" target="_blank"><span>forums</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
+<blockquote>
+<p>Well the main difference between RGB and 601 color space is the ability to have super white and negative black.</p>
+<p>If you were to create a black and white image in say Photoshop with the black being 0 and the white being 255 and then brought it into the Avid using RGB, the black part of the screen would be, in an analog world, 7.5IRE and the white would be 100IRE just what you’d expect. However if you brought it it in as 601, your levels would be about 0IRE and 107IRE.</p>
+<p>An image created in Photoshop with “black” being 16 and “white” being 235 and then brought into an Avid in the 601 color space would then have correct black and white levels. Obviously this is very handy if you want to key something.</p>
+<p>If you want to export a tiff sequence you can use either color space you want, just make note of which you use and make sure that whoever you give it to knows which you use. If you create it in 601 and bring it back into an Avid as RGB, it will look very washed out.</p>
+</blockquote>
+<p>Here is some other <a href="httphttp://www.elultimodeseo.com/archives/2008/04/correcting_blac/" class="outbound" title="Correcting BLAC" target="_blank"><span>information</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> I found which is really interesting:</p>
+<blockquote>
+<p>When I export your sample to Sheer Y’CbCr[A] 8bv 4:2:2:[4] with QuickTime Player, QuickTime Player feeds the images to the Sheer Y’CbCr[A] 8bv 4:2:2[:4] encoder in the RGB 8bf ‘ARGB’ pixel format. I find this odd, since the Avid Meridien Uncompressed (AVUI) codec purportedly stores the data in Y’CbCr[A] 8bv 4:2:2[:4] format. On inspecting the AvidAVUICodec, I see that ARGB is the only pixel format that the AVUI codec supports for input and output; it lacks the ‘cpix’ resource used to list other supported pixel formats.</p>
+<p>For the last few frames in the movie (Silicon Artists presenta El Último Deseo), the “black” ARGB pixels passed to the Sheer Y’CbCr[A] 8bv 4:2:2[:4] encoder have the value:</p>
+<p>ARGB = {0xFF,0x10,0x10,0x10} (hexadecimal)<br />
+ARGB = {255,16,16,16} (decimal)</p>
+<p>When encoding to the Avid Meridien Uncompressed (AVUI) codec the settings dialog (‘Avid Meridien Uncompressed Codec Configuration – v1.8.0’) lets you specify the input color range as either ITU-R 601 video-range [16..235] or full-range [0..255]. However, QuickTime does not provide any mechanism to specify settings for a decoder. QuickTime unequivocally defines the ARGB pixel format as having full-range components, so the fact that AVID’s AVUI decompressor outputs video-range ARGB is just wrong.</p>
+</blockquote>
+<p>OK… so now what I want to have a quick look at is the difference between the vector scopes in Avid and Final Cut Pro using the same source footage.</p>
+<p><strong>Avid 3.0.5:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-bars_in_avid.jpg" alt="bars_in_avid" title="bars_in_avid">
+    <figcaption class="caption">bars_in_avid</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-bars_in_avid_scopes.jpg" alt="bars_in_avid_scopes" title="bars_in_avid_scopes">
+    <figcaption class="caption">bars_in_avid_scopes</figcaption>
+</figure>
+</p>
+<p><strong>Final Cut Pro 7:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-bars_in_fcp.jpg" alt="bars_in_fcp" title="bars_in_fcp">
+    <figcaption class="caption">bars_in_fcp</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-bars_in_fcp_scopes.jpg" alt="bars_in_fcp_scopes" title="bars_in_fcp_scopes">
+    <figcaption class="caption">bars_in_fcp_scopes</figcaption>
+</figure>
+</p>
+<p>With this knowledge, it was now time to try and bring the test footage that was exported out of Avid back into Final Cut Pro. Just to re-cap, I originally created the Quicktime Movie in Final Cut Pro, exported as a 10-Bit Uncompressed QT, brought it into Avid as OMF 1:1, 601 and then exported out as 601.</p>
+<p>Amazingly, the export from Avid <em>almost</em> perfectly matched the original file that was sent from Final Cut Pro.</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-back_to_fcp_comparison.jpg" alt="back_to_fcp_comparison" title="back_to_fcp_comparison">
+    <figcaption class="caption">back_to_fcp_comparison</figcaption>
+</figure>
+</p>
+<p><strong>Original Footage (10-bit Uncompressed from Final Cut Pro):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-back_to_fcp_fcp_scopes.jpg" alt="back_to_fcp_fcp_scopes" title="back_to_fcp_fcp_scopes" /></strong></p>
+<p><strong>Avid Footage (Avid Same as Source imported into FCP):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-back_to_fcp_avid_scopes.jpg" alt="back_to_fcp_avid_scopes" title="back_to_fcp_avid_scopes" /></strong></p>
+<p>I then decided to have a look through the Avid documentation once again and found the following information in regards to how Avid handles Field Ordering:</p>
+<blockquote>
+<p>Allows you to select the field ordering (sometimes referred to as field dominance) of the media you are importing. For 23.976p, 24p, or 25p projects, these options do not appear; all fields are automatically exported as progressive (still) frames.</p>
+<p>When the field ordering (or spatial field position) of the imported media matches the field ordering of the project format, no special processing is required. For more information, see “Field Ordering in Graphic Imports and Exports” on page 499.</p>
+<p>This setting does not apply to OMFI imports when the import resolution matches the OMFI file.</p>
+<p>The following options are available:</p>
+<ul>
+<li>Non-interlaced (Properly ordered for current format): Use this option when the file to be imported has been correctly field ordered for the video format being used (ex: Even or lower ordered for NTSC, Odd or upper ordered for 1080i HD). This is the default option.</li>
+<li>Odd (Upper Field First) Odd (Upper Field First) ordered: Choose this option if the file was odd ordered and you are importing it into an even ordered format. For example, importing PAL DV into PAL.</li>
+<li>Even (Lower Field First) Even (Lower Field First) ordered: Choose this option when importing a file with even ordering into a video format with odd ordering. For example, importing NTSC into 1080i HD.</li>
+</ul>
+</blockquote>
+<p>OK, so now that brings us to the final test of the day. For this test I will capture some standard PAL DV footage into Avid and then export it and try to bring it into Final Cut Pro, hopefully without introducing any strange artefacts, field dominance issues or gamma/luma shifts.</p>
+<p>The Avid project is <strong>25p PAL</strong>.The Media Type is <strong>OMF</strong>. We will be using a <strong>DV 25P 420</strong> video resolution. I used the <strong>Software DV 25 Codec</strong> (which I later <a href="http://community.avid.com/forums/t/41464.aspx" class="outbound" title="Avid Forums" target="_blank"><span>discovered</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is not so good for PAL footage!).</p>
+<p>Here is a screenshot of the footage as it sits in the Avid preview monitor:</p>
+<p><figure class="content-center">
+    <img src="../../static/blog/2009-08-footage_in_avid.jpg" alt="footage_in_avid" title="footage_in_avid">
+    <figcaption class="caption">footage_in_avid</figcaption>
+</figure>
+</p>
+<p>Here are the screen shots of exported footage from the Avid brought into Final Cut Pro:</p>
+<p><strong>Same as Source (601):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_sameassource601.jpg" alt="dvtest_sameassource601" title="dvtest_sameassource601" /></strong></p>
+<p><strong>Same as Source (RGB):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_sameassourcergb.jpg" alt="dvtest_sameassourcergb" title="dvtest_sameassourcergb" /></strong></p>
+<p><strong>Same as Source (Avid DV / 601):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_sameassourceaviddv601.jpg" alt="dvtest_sameassourceaviddv601" title="dvtest_sameassourceaviddv601" /></strong></p>
+<p><strong>Same as Source (Avid DV / RGB):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_sameassourceaviddvrgb.jpg" alt="dvtest_sameassourceaviddvrgb" title="dvtest_sameassourceaviddvrgb" /></strong></p>
+<p><strong>Quicktime Animation (601):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_qtanimation601.jpg" alt="dvtest_qtanimation601" title="dvtest_qtanimation601" /></strong></p>
+<p><strong>Quicktime Animation (RGB):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_qtanimationrgb.jpg" alt="dvtest_qtanimationrgb" title="dvtest_qtanimationrgb" /></strong></p>
+<p>So it seems that if you want to get footage that looks right from Avid to Final Cut Pro, then <strong>Same as Source (Avid DV Codec / 601)</strong> or something like the <strong>Quicktime Animation Codec (601)</strong> seem like viable solutions. Given that, I did a couple more tests:</p>
+<p><strong>Avid DV (601):</strong></p>
+<p>Instead of exporting as “Same as Source” and selecting “Avid DV”, I exported as a standard Quicktime File, but used the Avid DV codec. It’s important to note that the Avid DV Codec has some additional options:</p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_aviddv_options.jpg" alt="dvtest_aviddv_options" title="dvtest_aviddv_options" /></strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_aviddv601.jpg" alt="dvtest_aviddv601" title="dvtest_aviddv601" /></strong></p>
+<p><strong>DV PAL (601):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_dvpal601.jpg" alt="dvtest_dvpal601" title="dvtest_dvpal601" /></strong></p>
+<p><strong>ProRes HQ (Automatic Gamma Correction / 601):</strong></p>
+<p>Just to see what happens, I exported the footage both using and not using gamma correction.</p>
+<p><strong><img src="../../static/blog/2009-08-prores_options.jpg" alt="prores_options" title="prores_options" /></strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_proreshq_auto_601.jpg" alt="dvtest_proreshq_auto_601" title="dvtest_proreshq_auto_601" /></strong></p>
+<p><strong>ProRes HQ (No Gamma Correction / 601):</strong></p>
+<p><strong><img src="../../static/blog/2009-08-dvtest_proreshq_none_601.jpg" alt="dvtest_proreshq_none_601" title="dvtest_proreshq_none_601" /></strong></p>
+<p>So, although no very scientific, and purely based on visual observation rather than mathematical fact, it seems that as long as you keep <strong>601</strong> checked, getting footage from Avid into Final Cut isn’t that big a deal after all.</p>
+<p>As I said at the start of this blog entry – this was always going to be a bit all over the place as I did random tests and tried out new things. Apologies if you got to the end of this an realised that I didn’t answer any real questions or teach you something you didn’t already know. I really hope it was some help! The more time I have to spend with Avid, and the more time I have to work out viable workflows of getting stuff into and out of it, the more things will hopefully become clear in my head. I will certainly post anything I think is useful here. One thing’s for certain… after looking through so many Avid forums, and reading hundreds of articles randomly scattered on the web, it’s clear that I’m not the only one that’s confused. Like a lot of things these days, it takes a lot of patience, hair-pulling and vigorous workflow testing to get things right. Everything is so complex – and it just takes one little glitch to throw everything off balance.</p>
+<p>Happy editing!</p>
+<p>Best Regards, <em>Chris!</em></p>
+<hr>
+<doc-anchor-target id="discuss-this-page">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#discuss-this-page">#</doc-anchor-trigger>
+        <span>Discuss this page</span>
+    </h2>
+</doc-anchor-target>
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                            
+                            <!-- Required only on API pages -->
+                            <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                        </div>
+                        <footer class="clear-both">
+                            <div class="flex flex-wrap items-center justify-between mt-14">
+                                <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/CommandPost/FCPCafe/blob/main/docs/blog/avid-experiments.md" target="_blank" rel="noopener">
+                                    <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                    <span>Edit this page on GitHub</span>
+                                </a>
+                            </div>
+                        
+                            <nav class="flex mt-14">
+                                <div class="w-1/2">
+                                    <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../blog/new-macpro-monitor-issues/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        <span>
+                                            <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Newer</span>
+                                            <span class="block mt-1">New Mac​Pro Monitor Issues</span>
+                                        </span>
+                                    </a>
+                                </div>
+                        
+                                <div class="w-1/2">
+                                    <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../blog/happy-sundaes-hits-imdb-and-sakooz-hits-youtube/">
+                                        <span>
+                                            <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Older</span>
+                                            <span class="block mt-1">Happy Sundaes hits IMDB and SAKOOZ hits You​Tube!</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                    </a>
+                                </div>
+                            </nav>
+                        </footer>
+                    </main>
+                </div>
+
+            </div>
+        </div>
+    
+        <div class="border-t dark:border-dark-650">
+            <div class="max-w-core mx-auto px-6 py-6">
+                <footer>
+                    <div class="flex flex-wrap items-center justify-between">
+                        <div class="pt-3">
+                            <ul class="flex flex-wrap items-center text-sm">
+                                <li>
+                                    <a class="inline-flex items-center mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="../../contribute/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                            <g fill="currentColor">
+                                                <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                            </g>
+                                        </svg>
+                                        <span>Contribute</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="docs-copyright pt-3 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2025 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Avid Experiments", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
