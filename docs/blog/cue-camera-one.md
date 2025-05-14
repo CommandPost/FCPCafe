@@ -1,7 +1,9 @@
 ---
 title: Cue Camera One!
 date: 2010-10-15
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Cue Camera One!

@@ -1,7 +1,9 @@
 ---
 title: No time, free cake and lots of hits!
 date: 2009-06-14
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # No time, free cake and lots of hits!

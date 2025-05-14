@@ -1,7 +1,9 @@
 ---
 title: The Curse of Black Bones
 date: 2009-11-20
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The Curse of Black Bones

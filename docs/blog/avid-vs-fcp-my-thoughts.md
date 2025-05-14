@@ -1,7 +1,9 @@
 ---
 title: Avid vs FCP – My thoughts…
 date: 2009-05-10
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Avid vs FCP – My thoughts…

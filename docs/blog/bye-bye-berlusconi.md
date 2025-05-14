@@ -1,7 +1,9 @@
 ---
 title: Bye Bye Berlusconi
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Bye Bye Berlusconi

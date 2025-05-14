@@ -1,7 +1,9 @@
 ---
 title: Stare Down
 date: 2014-10-16
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Stare Down

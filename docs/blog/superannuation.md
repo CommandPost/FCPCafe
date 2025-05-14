@@ -1,7 +1,9 @@
 ---
 title: Superannuation for Filmmakers
 date: 2018-06-06
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Superannuation for Filmmakers

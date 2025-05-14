@@ -1,7 +1,9 @@
 ---
 title: Mr Schwartz, Mr Hazen and Mr Horlocker
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Mr Schwartz, Mr Hazen and Mr Horlocker

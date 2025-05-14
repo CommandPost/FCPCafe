@@ -1,7 +1,9 @@
 ---
 title: Just keep digging… Just keep digging…
 date: 2008-07-10
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Just keep digging… Just keep digging…

@@ -1,7 +1,9 @@
 ---
 title: Another Day… Another Logo…
 date: 2010-08-29
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Another Day… Another Logo…

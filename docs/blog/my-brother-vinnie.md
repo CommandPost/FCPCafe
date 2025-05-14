@@ -1,7 +1,9 @@
 ---
 title: My Brother Vinnie
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # My Brother Vinnie

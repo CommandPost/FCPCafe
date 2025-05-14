@@ -1,7 +1,9 @@
 ---
 title: August 2010 Reel
 date: 2010-08-29
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # August 2010 Reel

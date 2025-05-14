@@ -1,7 +1,9 @@
 ---
 title: First Public Screenings!
 date: 2008-12-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # First Public Screenings!

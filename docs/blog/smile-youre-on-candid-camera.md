@@ -1,7 +1,9 @@
 ---
 title: Smile! You’re on candid camera!
 date: 2008-05-06
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Smile! You’re on candid camera!

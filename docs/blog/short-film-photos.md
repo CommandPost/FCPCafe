@@ -1,7 +1,9 @@
 ---
 title: Photos from the Short Film
 date: 2010-08-13
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Photos from the Short Film

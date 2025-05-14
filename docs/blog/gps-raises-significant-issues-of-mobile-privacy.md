@@ -1,7 +1,9 @@
 ---
 title: GPS raises significant issues of mobile privacy
 date: 2006-10-20
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # GPS raises significant issues of mobile privacy

@@ -1,7 +1,9 @@
 ---
 title: Stay Tuned!
 date: 2008-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Stay Tuned!

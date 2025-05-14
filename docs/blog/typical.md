@@ -1,7 +1,9 @@
 ---
 title: Typical…
 date: 2008-11-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Typical…

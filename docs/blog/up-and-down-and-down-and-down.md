@@ -1,7 +1,9 @@
 ---
 title: Up and down, and down, and down…
 date: 2008-06-25
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Up and down, and down, and down…

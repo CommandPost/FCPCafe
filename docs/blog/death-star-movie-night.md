@@ -1,7 +1,9 @@
 ---
 title: Death Star Movie Night
 date: 2016-12-23
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Death Star Movie Night

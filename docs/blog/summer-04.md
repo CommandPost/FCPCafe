@@ -1,7 +1,9 @@
 ---
 title: Summer 04
 date: 2006-08-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Summer 04

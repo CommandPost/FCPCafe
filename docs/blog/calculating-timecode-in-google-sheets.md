@@ -1,7 +1,9 @@
 ---
 title: Calculating Timecode in Google Sheets
 date: 2014-06-24
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Calculating Timecode in Google Sheets

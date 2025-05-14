@@ -1,7 +1,9 @@
 ---
 title: So many things to do!
 date: 2009-02-24
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # So many things to do!

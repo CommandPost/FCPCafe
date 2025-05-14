@@ -1,7 +1,9 @@
 ---
 title: Day Two Happy Snaps!
 date: 2008-09-29
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Day Two Happy Snaps!

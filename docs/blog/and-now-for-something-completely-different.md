@@ -1,7 +1,9 @@
 ---
 title: And now for something completely different…
 date: 2008-04-26
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # And now for something completely different…

@@ -1,7 +1,9 @@
 ---
 title: Documentary Interview Experiments
 date: 2006-09-09
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Documentary Interview Experiments

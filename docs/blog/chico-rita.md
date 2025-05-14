@@ -1,7 +1,9 @@
 ---
 title: Chico & Rita
 date: 2011-03-06
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Chico & Rita

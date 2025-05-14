@@ -1,7 +1,9 @@
 ---
 title: Michael Shanks on Star Wars Podcast
 date: 2014-12-16
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Michael Shanks on Star Wars Podcast

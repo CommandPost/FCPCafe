@@ -1,7 +1,9 @@
 ---
 title: Mac Hardware Predictions – Death to the Mouse
 date: 2009-06-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Mac Hardware Predictions – Death to the Mouse

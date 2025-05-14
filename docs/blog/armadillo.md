@@ -1,7 +1,9 @@
 ---
 title: Armadillo
 date: 2011-03-07
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Armadillo

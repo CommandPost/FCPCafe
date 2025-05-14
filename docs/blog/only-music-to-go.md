@@ -1,7 +1,9 @@
 ---
 title: Only Music To Go!
 date: 2008-11-11
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Only Music To Go!

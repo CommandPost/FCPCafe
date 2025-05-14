@@ -1,7 +1,9 @@
 ---
 title: FCPX Rant
 date: 2014-01-28
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # FCPX Rant

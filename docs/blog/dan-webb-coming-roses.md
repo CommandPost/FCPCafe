@@ -1,7 +1,9 @@
 ---
 title: Dan Webb – Coming Up Roses
 date: 2014-07-06
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Dan Webb – Coming Up Roses

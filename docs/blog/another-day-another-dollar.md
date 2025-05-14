@@ -1,7 +1,9 @@
 ---
 title: Another day another dollar…
 date: 2008-05-17
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Another day another dollar…

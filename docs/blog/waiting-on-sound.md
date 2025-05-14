@@ -1,7 +1,9 @@
 ---
 title: Waiting On Sound…
 date: 2012-09-16
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Waiting On Sound…

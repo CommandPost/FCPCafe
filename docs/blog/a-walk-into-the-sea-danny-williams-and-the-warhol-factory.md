@@ -1,7 +1,9 @@
 ---
 title: A Walk into the Sea - Danny Williams and the Warhol Factory
 date: 2007-08-28
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # A Walk into the Sea: Danny Williams and the Warhol Factory

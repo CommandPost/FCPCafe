@@ -1,7 +1,9 @@
 ---
 title: And so, the adventures begins…
 date: 2010-08-07
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # And so, the adventures begins…

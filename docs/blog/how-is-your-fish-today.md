@@ -1,7 +1,9 @@
 ---
 title: How Is Your Fish Today?
 date: 2007-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # How Is Your Fish Today?

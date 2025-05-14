@@ -1,7 +1,9 @@
 ---
 title: The Disappearance of Alice Creed
 date: 2010-07-26
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The Disappearance of Alice Creed

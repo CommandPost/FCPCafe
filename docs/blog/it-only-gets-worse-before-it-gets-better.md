@@ -1,7 +1,9 @@
 ---
 title: It only gets worse before it gets better…
 date: 2008-08-23
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # It only gets worse before it gets better…

@@ -1,7 +1,9 @@
 ---
 title: Fragile – All The Colours
 date: 2014-02-18
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Fragile – All The Colours

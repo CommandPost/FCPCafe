@@ -1,7 +1,9 @@
 ---
 title: Then what happened…?
 date: 2008-08-26
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Then what happened…?

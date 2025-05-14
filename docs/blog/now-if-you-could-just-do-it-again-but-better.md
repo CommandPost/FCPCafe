@@ -1,7 +1,9 @@
 ---
 title: Now, if you could just do it again, but better…
 date: 2008-05-02
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Now, if you could just do it again, but better…

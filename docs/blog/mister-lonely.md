@@ -1,7 +1,9 @@
 ---
 title: Mister Lonely
 date: 2007-08-28
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Mister Lonely

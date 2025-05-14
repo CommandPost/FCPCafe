@@ -1,7 +1,9 @@
 ---
 title: ASE Digital Workflows Event Summary
 date: 2012-07-31
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # ASE Digital Workflows Event Summary

@@ -1,7 +1,9 @@
 ---
 title: Not Long To Go Now…
 date: 2008-10-31
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Not Long To Go Now…

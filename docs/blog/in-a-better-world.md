@@ -1,7 +1,9 @@
 ---
 title: In A Better World
 date: 2011-03-08
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # In A Better World

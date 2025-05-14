@@ -1,7 +1,9 @@
 ---
 title: A Quiet Life
 date: 2011-03-09
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # A Quiet Life

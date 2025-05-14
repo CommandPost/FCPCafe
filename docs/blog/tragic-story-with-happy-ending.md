@@ -1,7 +1,9 @@
 ---
 title: Tragic Story with Happy Ending
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Tragic Story with Happy Ending

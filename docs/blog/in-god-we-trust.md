@@ -1,7 +1,9 @@
 ---
 title: In God We Trust
 date: 2006-08-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # In God We Trust

@@ -1,7 +1,9 @@
 ---
 title: Everything is going exactly according to plan…
 date: 2008-05-11
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Everything is going exactly according to plan…

@@ -1,7 +1,9 @@
 ---
 title: Project Nim
 date: 2011-03-11
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Project Nim

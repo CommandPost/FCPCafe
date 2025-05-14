@@ -1,7 +1,9 @@
 ---
 title: And fade out…
 date: 2010-10-18
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # And fade out…

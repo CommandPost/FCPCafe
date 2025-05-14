@@ -1,7 +1,9 @@
 ---
 title: MIFF 2007 Australian Short Stories
 date: 2007-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # MIFF 2007 Australian Short Stories

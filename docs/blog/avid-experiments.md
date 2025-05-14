@@ -1,7 +1,9 @@
 ---
 title: Avid Experiments
 date: 2009-08-04
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Avid Experiments

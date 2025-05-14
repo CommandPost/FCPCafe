@@ -1,7 +1,9 @@
 ---
 title: Here Be Dragons
 date: 2014-08-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Here Be Dragons

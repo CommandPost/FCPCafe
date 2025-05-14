@@ -1,7 +1,9 @@
 ---
 title: Final Cut Pro Hacks
 date: 2016-09-15
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Final Cut Pro Hacks

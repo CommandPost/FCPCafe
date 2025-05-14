@@ -1,7 +1,9 @@
 ---
 title: The Way I Spend the End of the World
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The Way I Spend the End of the World

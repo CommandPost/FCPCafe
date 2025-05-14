@@ -1,7 +1,9 @@
 ---
 title: Swinburne Lecture August 2012
 date: 2012-08-27
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Swinburne Lecture August 2012

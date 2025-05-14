@@ -1,7 +1,9 @@
 ---
 title: Knowing
 date: 2009-03-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Knowing

@@ -1,7 +1,9 @@
 ---
 title: Unreal Fest 2023 - Day 02
 date: 2023-06-22
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Unreal Fest 2023 - Day 02

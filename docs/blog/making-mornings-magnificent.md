@@ -1,7 +1,9 @@
 ---
 title: Making Mornings Magnificent
 date: 2013-11-12
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Making Mornings Magnificent

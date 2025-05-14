@@ -1,7 +1,9 @@
 ---
 title: Alien
 date: 2006-04-19
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Alien

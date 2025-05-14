@@ -1,7 +1,9 @@
 ---
 title: No Holds Barred - The Making of Misery Lane
 date: 2012-06-13
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # No Holds Barred: The Making of Misery Lane

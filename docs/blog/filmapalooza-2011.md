@@ -1,7 +1,9 @@
 ---
 title: Filmapalooza 2011
 date: 2012-03-08
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Filmapalooza 2011

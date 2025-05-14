@@ -1,7 +1,9 @@
 ---
 title: Page One - A Year Inside The New York Times
 date: 2011-03-09
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Page One: A Year Inside The New York Times

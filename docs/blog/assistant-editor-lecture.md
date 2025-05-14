@@ -1,7 +1,9 @@
 ---
 title: Assistant Editor Lecture
 date: 2010-10-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Assistant Editor Lecture

@@ -1,7 +1,9 @@
 ---
 title: The Underwater Realm
 date: 2012-12-26
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The Underwater Realm

@@ -1,7 +1,9 @@
 ---
 title: Oh, look… It’s 2009!
 date: 2009-01-28
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Oh, look… It’s 2009!

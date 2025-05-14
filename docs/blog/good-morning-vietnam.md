@@ -1,7 +1,9 @@
 ---
 title: Good Morning Vietnam!
 date: 2010-03-05
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Good Morning Vietnam!

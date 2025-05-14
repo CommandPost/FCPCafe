@@ -1,7 +1,9 @@
 ---
 title: Importing AVCHD Footage into Avid
 date: 2013-04-13
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Importing AVCHD Footage into Avid

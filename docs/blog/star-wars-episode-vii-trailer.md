@@ -1,7 +1,9 @@
 ---
 title: Star Wars - Episode VII Trailer
 date: 2014-11-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Star Wars: Episode VII Trailer

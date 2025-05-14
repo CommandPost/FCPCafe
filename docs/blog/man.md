@@ -1,7 +1,9 @@
 ---
 title: MAN
 date: 2014-08-03
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # MAN

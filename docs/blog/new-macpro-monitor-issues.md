@@ -1,7 +1,9 @@
 ---
 title: New MacPro Monitor Issues
 date: 2009-11-02
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # New MacPro Monitor Issues

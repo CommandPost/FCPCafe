@@ -1,7 +1,9 @@
 ---
 title: Philosophy of Open Source
 date: 2006-09-13
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Philosophy of Open Source

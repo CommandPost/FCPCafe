@@ -1,7 +1,9 @@
 ---
 title: Djokovic v Abrams Semi-Final
 date: 2015-01-29
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Djokovic v Abrams Semi-Final

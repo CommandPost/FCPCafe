@@ -1,7 +1,9 @@
 ---
 title: Realism & Representation
 date: 2006-03-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Realism & Representation

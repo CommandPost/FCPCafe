@@ -1,7 +1,9 @@
 ---
 title: The problem with full time work…
 date: 2009-03-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The problem with full time work…

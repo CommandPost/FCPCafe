@@ -1,7 +1,9 @@
 ---
 title: Fumi and the Bad Luck Foot
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Fumi and the Bad Luck Foot

@@ -1,7 +1,9 @@
 ---
 title: The Bourne Wipe
 date: 2016-07-29
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # The Bourne Wipe

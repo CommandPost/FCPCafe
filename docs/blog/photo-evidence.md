@@ -1,7 +1,9 @@
 ---
 title: Photo Evidence…
 date: 2008-08-27
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Photo Evidence…

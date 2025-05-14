@@ -1,7 +1,9 @@
 ---
 title: Ladri di biciclette
 date: 2007-10-04
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Ladri di biciclette

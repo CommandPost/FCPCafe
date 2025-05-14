@@ -1,7 +1,9 @@
 ---
 title: Ready… Steady… Go! Wait, no, stop!
 date: 2008-07-23
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Ready… Steady… Go! Wait, no, stop!

@@ -1,7 +1,9 @@
 ---
 title: Around, and around we go!
 date: 2008-05-25
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Around, and around we go!

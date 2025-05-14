@@ -1,7 +1,9 @@
 ---
 title: Lightworks – Day One
 date: 2010-12-01
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Lightworks – Day One

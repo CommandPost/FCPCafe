@@ -1,7 +1,9 @@
 ---
 title: Don’t worry… We’re not dead! Just busy!
 date: 2009-05-04
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Don’t worry… We’re not dead! Just busy!

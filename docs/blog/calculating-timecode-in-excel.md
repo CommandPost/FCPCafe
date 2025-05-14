@@ -1,7 +1,9 @@
 ---
 title: Calculating Timecode in Excel
 date: 2011-08-11
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Calculating Timecode in Excel

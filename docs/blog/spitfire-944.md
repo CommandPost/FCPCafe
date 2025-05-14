@@ -1,7 +1,9 @@
 ---
 title: Spitfire 944
 date: 2006-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Spitfire 944

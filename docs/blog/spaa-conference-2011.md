@@ -1,7 +1,9 @@
 ---
 title: SPAA Conference 2011
 date: 2011-11-18
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # SPAA Conference 2011

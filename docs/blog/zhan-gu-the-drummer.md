@@ -1,7 +1,9 @@
 ---
 title: Zhan. Gu / The Drummer
 date: 2008-05-08
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Zhan. Gu / The Drummer

@@ -1,7 +1,9 @@
 ---
 title: Elite Squad 2 - The Enemy Within
 date: 2011-03-11
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Elite Squad 2: The Enemy Within

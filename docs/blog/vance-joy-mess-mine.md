@@ -1,7 +1,9 @@
 ---
 title: Vance Joy – Mess is Mine
 date: 2014-07-13
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Vance Joy – Mess is Mine

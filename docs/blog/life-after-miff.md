@@ -1,7 +1,9 @@
 ---
 title: Life after MIFF…
 date: 2006-08-20
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Life after MIFF…

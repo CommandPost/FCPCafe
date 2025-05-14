@@ -1,7 +1,9 @@
 ---
 title: Snow Angels
 date: 2007-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Snow Angels

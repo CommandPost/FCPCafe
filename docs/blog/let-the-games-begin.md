@@ -1,7 +1,9 @@
 ---
 title: Let the games begin!
 date: 2010-10-14
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Let the games begin!

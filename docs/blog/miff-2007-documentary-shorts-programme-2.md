@@ -1,7 +1,9 @@
 ---
 title: MIFF 2007 Documentary Shorts Programme 2
 date: 2007-08-21
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # MIFF 2007 Documentary Shorts Programme 2

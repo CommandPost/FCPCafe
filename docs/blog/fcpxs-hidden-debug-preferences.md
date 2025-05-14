@@ -1,7 +1,9 @@
 ---
 title: FCPX’s Hidden Debug Preferences
 date: 2014-01-30
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # FCPX’s Hidden Debug Preferences

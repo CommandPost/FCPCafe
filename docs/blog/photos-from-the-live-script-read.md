@@ -1,7 +1,9 @@
 ---
 title: Photos from the Live Script Read
 date: 2010-10-18
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Photos from the Live Script Read

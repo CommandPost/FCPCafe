@@ -1,7 +1,9 @@
 ---
 title: Books… Books… Books…
 date: 2006-08-20
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # Books… Books… Books…

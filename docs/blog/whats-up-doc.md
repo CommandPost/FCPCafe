@@ -1,7 +1,9 @@
 ---
 title: What’s up Doc?
 date: 2008-09-20
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # What’s up Doc?
