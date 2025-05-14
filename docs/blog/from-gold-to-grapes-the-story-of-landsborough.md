@@ -1,5 +1,5 @@
 ---
-title: From Gold to Grapes: The Story of Landsborough
+title: From Gold to Grapes - The Story of Landsborough
 date: 2006-08-21
 author: Chris Hocking
 layout: blog

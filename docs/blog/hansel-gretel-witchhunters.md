@@ -1,5 +1,5 @@
 ---
-title: Hansel & Gretel: Witchhunters
+title: Hansel & Gretel - Witchhunters
 date: 2013-02-15
 author: Nicholas Colla
 layout: blog

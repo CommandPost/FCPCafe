@@ -1,5 +1,5 @@
 ---
-title: Page One: A Year Inside The New York Times
+title: Page One - A Year Inside The New York Times
 date: 2011-03-09
 author: Chris Hocking
 layout: blog

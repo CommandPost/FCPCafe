@@ -1,5 +1,5 @@
 ---
-title: Half-Life: Counting to 3
+title: Half-Life - Counting to 3
 date: 2013-06-09
 author: Michael Shanks
 layout: blog
@@ -10,9 +10,9 @@ layout: blog
 
 *Michael’s hope for E3 this, and every year.*
 
-**Directed, Edited and Visual Effects by:** Michael Shanks  
-**DOP:** Chris Hocking  
-**Production Assistant:** Nick Issell  
+**Directed, Edited and Visual Effects by:** Michael Shanks
+**DOP:** Chris Hocking
+**Production Assistant:** Nick Issell
 **Featuring:** Laura Lethlean
 
 **Special Thanks to:** Louie McNamara, Ryan Keenan

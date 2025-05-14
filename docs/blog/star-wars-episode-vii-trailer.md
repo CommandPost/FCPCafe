@@ -1,5 +1,5 @@
 ---
-title: Star Wars: Episode VII Trailer
+title: Star Wars - Episode VII Trailer
 date: 2014-11-30
 author: Chris Hocking
 layout: blog

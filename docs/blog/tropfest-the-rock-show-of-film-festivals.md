@@ -1,5 +1,5 @@
 ---
-title: Tropfest: The Rock Show of Film Festivals
+title: Tropfest - The Rock Show of Film Festivals
 date: 2013-02-20
 author: Nicholas Colla
 layout: blog

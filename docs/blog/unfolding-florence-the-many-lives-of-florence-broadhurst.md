@@ -1,5 +1,5 @@
 ---
-title: Unfolding Florence: The Many Lives of Florence Broadhurst
+title: Unfolding Florence - The Many Lives of Florence Broadhurst
 date: 2006-08-21
 author: Chris Hocking
 layout: blog

@@ -1,5 +1,5 @@
 ---
-title: Transformers: The Art of Circuit Bending
+title: Transformers - The Art of Circuit Bending
 date: 2006-08-21
 author: Chris Hocking
 layout: blog

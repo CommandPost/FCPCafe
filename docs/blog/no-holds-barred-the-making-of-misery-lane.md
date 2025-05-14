@@ -1,5 +1,5 @@
 ---
-title: No Holds Barred: The Making of Misery Lane
+title: No Holds Barred - The Making of Misery Lane
 date: 2012-06-13
 author: Chris Hocking
 layout: blog

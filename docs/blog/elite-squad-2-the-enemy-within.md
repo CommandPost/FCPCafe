@@ -1,5 +1,5 @@
 ---
-title: Elite Squad 2: The Enemy Within
+title: Elite Squad 2 - The Enemy Within
 date: 2011-03-11
 author: Chris Hocking
 layout: blog

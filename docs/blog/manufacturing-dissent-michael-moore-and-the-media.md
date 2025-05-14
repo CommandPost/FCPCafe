@@ -1,5 +1,5 @@
 ---
-title: Manufacturing Dissent: Michael Moore and the Media
+title: Manufacturing Dissent - Michael Moore and the Media
 date: 2007-08-21
 author: Chris Hocking
 layout: blog

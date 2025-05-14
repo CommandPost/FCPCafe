@@ -1,5 +1,5 @@
 ---
-title: Lovestruck: Wrestling’s No.1 Fan
+title: Lovestruck - Wrestling’s No.1 Fan
 date: 2006-08-21
 author: Chris Hocking
 layout: blog

@@ -1,5 +1,5 @@
 ---
-title: A Walk into the Sea: Danny Williams and the Warhol Factory
+title: A Walk into the Sea - Danny Williams and the Warhol Factory
 date: 2007-08-28
 author: Chris Hocking
 layout: blog
