@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.800576759098">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.800579387790">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.8.1">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Avid Experiments</title>
     <meta name="title" content="Avid Experiments">
-    <meta name="description" content="Written by Chris Hocking on 4th August 2009">
+    <meta name="description" content="If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://fcp.cafe/blog/avid-experiments/">
@@ -20,14 +20,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fcp.cafe/blog/avid-experiments/">
     <meta property="og:title" content="Avid Experiments">
-    <meta property="og:description" content="Written by Chris Hocking on 4th August 2009">
+    <meta property="og:description" content="If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I...">
     <meta property="og:image" content="https://fcp.cafe/static/blog/2009-07-testchart_small.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fcp.cafe/blog/avid-experiments/">
     <meta property="twitter:title" content="Avid Experiments">
-    <meta property="twitter:description" content="Written by Chris Hocking on 4th August 2009">
+    <meta property="twitter:description" content="If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I...">
     <meta property="twitter:image" content="https://fcp.cafe/static/blog/2009-07-testchart_small.jpg">
 
     <!-- RSS -->
@@ -36,11 +36,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.8.1.800576759098" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.8.1.800579387790" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.800576759098" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.800579387790" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.800576759098" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.800579387790" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -360,20 +360,19 @@
     <div class="flex items-center shrink-0">Published&nbsp;<span>2009-08-04</span></div>
 </div>
 
-<p><strong>Written by Chris Hocking on 4th August 2009</strong></p>
 <p>If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I have been working at an offline edit house (in addition to the time I spend doing <em>latenite</em> things!) that primarily uses Avid on Macs. As we solely do offline editing here and all of the grading and online is done at other more specialised post production facilities, generally speaking we don’t have to worry too much about gamma, colour spaces and getting files in and out of various programs. Most of our jobs are shot on 35mm, and get telecined to DVCAM which we then edit in DV-PAL, export an EDL + OMF and we’re done. For RED Projects we normally get dumped a hard drive full of R3Ds which we convert to DNxHD using RED Rushes and bring all these files in Avid via an ALE. Everything is fairly simple and straight forward.</p>
 <p>However, I tend to do a lot more things that fall outside of the offline banner. Sometime there might be some visual effects elements I’ll throw together in After Effects or Shake, other times I might want to do some hardcore grading in Color, or maybe I just want to export out a really high quality DVD.</p>
 <p>Unlike in Final Cut Pro, getting consistent images into and out of Avid seems to be kind of a black art. The RGB vs 601 terminology is at times confusing, and despite the wealth of information out there on the World Wide Web – there still seems to be a lot of misinformation and head scratching. Even creating a dead simple DVD via DVD Studio Pro using Avid footage seems to be a real challenge (the solution on forums normally tends to be use one of Avid’s Sonic products).</p>
 <p>Well, rather than spend even more time trying to find answers on the various Avid forums, I thought I’d do some tests and see how things actually work in the real world. This isn’t a formal experiment, nor is it anything like a technical white paper – all I’m really doing is having a bit of a muck-around and documenting what I do for future reference. It’s more for myself than anything else, to try and help get my head around everything. So apologies in advance if this blog entry is a bit of a mess!</p>
 <p>To start things off, here are my system specifications. Now, before you all drill me, yes I know I’m running an older version of Avid, and yes I know that technically speaking I’m running a newer version of Quicktime than I should be (as you can see by reviewing the <a href="http://avid.custkb.com/avid/app/selfservice/search.jsp?DocId=267087&amp;Hilite=version+matrix+Composer+Version+Matrix" class="outbound" title="Avid Version Matrix" target="_blank"><span>Avid Version Matrix</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>). But as more and more people tend to run Avid and Final Cut Pro on the same system, the more I see Avid running alongside newer versions of Quicktime that what the developers originally intended. As Avid is completely backwards compatible (which is both amazing and EXTREMELY handy!), the less often people tend to upgrade the Avid software. If it ain’t broke – why fix it?</p>
 <p>Here are the system specifications of the machine I will be using for these tests:</p>
-<p><strong>System Specs:<br />
-Processor:</strong> 2 x 2.8 GHz Quad-Core Intel Xeon<br />
-<strong>Memory:</strong> 2 GB 800 MHz DDR2 FB-DIMM<br />
-<strong>Mac OS X:</strong> 10.5.7<br />
-<strong>Quicktime:</strong> 7.6.2 (1327)<br />
-<strong>Avid:</strong> 3.0.5<br />
-<strong>Final Cut Pro:</strong> 7.0<br />
+<p><strong>System Specs:
+Processor:</strong> 2 x 2.8 GHz Quad-Core Intel Xeon
+<strong>Memory:</strong> 2 GB 800 MHz DDR2 FB-DIMM
+<strong>Mac OS X:</strong> 10.5.7
+<strong>Quicktime:</strong> 7.6.2 (1327)
+<strong>Avid:</strong> 3.0.5
+<strong>Final Cut Pro:</strong> 7.0
 <strong>Photoshop:</strong> 11.0</p>
 <p>For the purposes of these tests I will be using a <strong>720 x 576 PAL</strong> test chart from <a href="http://www.belle-nuit.com/testchart/" class="outbound" title="Belle Nuit Test Chart" target="_blank"><span>Belle Nuit</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p><figure class="content-center">
@@ -399,29 +398,29 @@ Processor:</strong> 2 x 2.8 GHz Quad-Core Intel Xeon<br />
 </p>
 <p>OK… So now I had a Quicktime file that identically matched the TIFF test chart.</p>
 <p>The next step was to do some experiments with Avid. First up I created a new <strong>25p PAL</strong> project. I then imported the Quicktime Test Chart, as well as the straight TIFF Test Chart a few different ways:</p>
-<p><strong>Method 1</strong><br />
-<strong>Format:</strong> OMF<br />
-<strong>Video Resolution:</strong> 1:1 OMF<br />
+<p><strong>Method 1</strong>
+<strong>Format:</strong> OMF
+<strong>Video Resolution:</strong> 1:1 OMF
 <strong>File Pixel to Video Mapping:</strong> Computer RGB (0-255)</p>
-<p><strong>Method 2</strong><br />
-<strong>Format:</strong> OMF<br />
-<strong>Video Resolution:</strong> 1:1 OMF<br />
+<p><strong>Method 2</strong>
+<strong>Format:</strong> OMF
+<strong>Video Resolution:</strong> 1:1 OMF
 <strong>File Pixel to Video Mapping:</strong> Computer RGB (Dither Image Colours)</p>
-<p><strong>Method 3</strong><br />
-<strong>Format:</strong> OMF<br />
-<strong>Video Resolution:</strong> 1:1 OMF<br />
+<p><strong>Method 3</strong>
+<strong>Format:</strong> OMF
+<strong>Video Resolution:</strong> 1:1 OMF
 <strong>File Pixel to Video Mapping:</strong> 601 SD or 709 HD (16-235)</p>
-<p><strong>Method 4</strong><br />
-<strong>Format:</strong> MXF<br />
-<strong>Video Resolution:</strong> 1:1 MXF<br />
+<p><strong>Method 4</strong>
+<strong>Format:</strong> MXF
+<strong>Video Resolution:</strong> 1:1 MXF
 <strong>File Pixel to Video Mapping:</strong> Computer RGB (0-255)</p>
-<p><strong>Method 5</strong><br />
-<strong>Format:</strong> MXF<br />
-<strong>Video Resolution:</strong> 1:1 MXF<br />
+<p><strong>Method 5</strong>
+<strong>Format:</strong> MXF
+<strong>Video Resolution:</strong> 1:1 MXF
 <strong>File Pixel to Video Mapping:</strong> Computer RGB (Dither Image Colours)</p>
-<p><strong>Method 6</strong><br />
-<strong>Format:</strong> MXF<br />
-<strong>Video Resolution:</strong> 1:1 MXF<br />
+<p><strong>Method 6</strong>
+<strong>Format:</strong> MXF
+<strong>Video Resolution:</strong> 1:1 MXF
 <strong>File Pixel to Video Mapping:</strong> 601 SD or 709 HD (16-235)</p>
 <p>Now that the test charts were successfully in the Avid, it was already time to try and get them back out again!</p>
 <p>To export out of Avid I used these settings:</p>
@@ -643,7 +642,7 @@ Processor:</strong> 2 x 2.8 GHz Quad-Core Intel Xeon<br />
 <blockquote>
 <p>When I export your sample to Sheer Y’CbCr[A] 8bv 4:2:2:[4] with QuickTime Player, QuickTime Player feeds the images to the Sheer Y’CbCr[A] 8bv 4:2:2[:4] encoder in the RGB 8bf ‘ARGB’ pixel format. I find this odd, since the Avid Meridien Uncompressed (AVUI) codec purportedly stores the data in Y’CbCr[A] 8bv 4:2:2[:4] format. On inspecting the AvidAVUICodec, I see that ARGB is the only pixel format that the AVUI codec supports for input and output; it lacks the ‘cpix’ resource used to list other supported pixel formats.</p>
 <p>For the last few frames in the movie (Silicon Artists presenta El Último Deseo), the “black” ARGB pixels passed to the Sheer Y’CbCr[A] 8bv 4:2:2[:4] encoder have the value:</p>
-<p>ARGB = {0xFF,0x10,0x10,0x10} (hexadecimal)<br />
+<p>ARGB = {0xFF,0x10,0x10,0x10} (hexadecimal)
 ARGB = {255,16,16,16} (decimal)</p>
 <p>When encoding to the Avid Meridien Uncompressed (AVUI) codec the settings dialog (‘Avid Meridien Uncompressed Codec Configuration – v1.8.0’) lets you specify the input color range as either ITU-R 601 video-range [16..235] or full-range [0..255]. However, QuickTime does not provide any mechanism to specify settings for a decoder. QuickTime unequivocally defines the ARGB pixel format as having full-range components, so the fact that AVID’s AVUI decompressor outputs video-range ARGB is just wrong.</p>
 </blockquote>
