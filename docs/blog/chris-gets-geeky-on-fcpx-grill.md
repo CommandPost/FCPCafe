@@ -3,7 +3,7 @@ title: Chris gets geeky on FCPX Grill
 date: 2014-04-05
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Chris gets geeky on FCPX Grill

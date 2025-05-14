@@ -3,7 +3,7 @@ title: White Christmas
 date: 2014-12-24
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # White Christmas

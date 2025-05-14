@@ -3,7 +3,7 @@ title: Chris featured on Kaltura Developers Site!
 date: 2009-05-07
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Chris featured on Kaltura Developers Site!

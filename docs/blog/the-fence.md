@@ -3,7 +3,7 @@ title: The Fence
 date: 2006-08-21
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # The Fence

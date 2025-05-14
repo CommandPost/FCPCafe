@@ -3,7 +3,7 @@ title: Assistant Editor Lecture
 date: 2010-10-30
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Assistant Editor Lecture

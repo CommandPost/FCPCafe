@@ -3,7 +3,7 @@ title: Let it snow, let it snow, let it snow!
 date: 2008-08-27
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Let it snow, let it snow, let it snow!

@@ -3,7 +3,7 @@ title: Horrorshow – Dead Star Shine
 date: 2013-12-17
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Horrorshow – Dead Star Shine

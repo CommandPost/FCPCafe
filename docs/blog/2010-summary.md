@@ -3,7 +3,7 @@ title: 2010 Summary
 date: 2011-01-01
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # 2010 Summary

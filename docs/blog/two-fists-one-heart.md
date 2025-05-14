@@ -3,7 +3,7 @@ title: Two Fists One Heart
 date: 2009-05-06
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Two Fists One Heart

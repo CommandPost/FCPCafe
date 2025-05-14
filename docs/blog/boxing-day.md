@@ -3,7 +3,7 @@ title: Boxing Day
 date: 2007-08-28
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Boxing Day

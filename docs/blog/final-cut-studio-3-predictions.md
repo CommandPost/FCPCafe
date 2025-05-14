@@ -3,7 +3,7 @@ title: Final Cut Studio 3 Predictions
 date: 2009-02-21
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Final Cut Studio 3 Predictions

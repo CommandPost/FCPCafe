@@ -3,7 +3,7 @@ title: Eternal Sunshine of the Spotless Mind
 date: 2006-10-24
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Eternal Sunshine of the Spotless Mind

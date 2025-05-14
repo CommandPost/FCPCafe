@@ -3,7 +3,7 @@ title: Swinburne Lecture August 2011
 date: 2011-09-07
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Swinburne Lecture August 2011

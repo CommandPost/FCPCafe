@@ -3,7 +3,7 @@ title: Reality TV has no redeeming features…
 date: 2006-06-05
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Reality TV has no redeeming features…

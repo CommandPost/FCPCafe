@@ -3,7 +3,7 @@ title: Sightseers
 date: 2012-08-16
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Sightseers

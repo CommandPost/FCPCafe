@@ -3,7 +3,7 @@ title: Blackmagic Cinema Camera
 date: 2012-09-05
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Blackmagic Cinema Camera

@@ -3,7 +3,7 @@ title: There’s a Hippopotamus on our Roof Eating Cake
 date: 2010-03-12
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # There’s a Hippopotamus on our Roof Eating Cake

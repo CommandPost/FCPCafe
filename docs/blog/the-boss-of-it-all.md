@@ -3,7 +3,7 @@ title: The Boss of it All
 date: 2007-08-21
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # The Boss of it All

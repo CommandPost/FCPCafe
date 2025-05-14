@@ -3,7 +3,7 @@ title: And now for something completely different…
 date: 2008-04-26
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # And now for something completely different…

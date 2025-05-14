@@ -3,7 +3,7 @@ title: The Hard Drive Challenge
 date: 2013-12-12
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # The Hard Drive Challenge

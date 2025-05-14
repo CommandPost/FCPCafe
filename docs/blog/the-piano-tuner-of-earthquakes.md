@@ -3,7 +3,7 @@ title: The Piano Tuner of Earthquakes
 date: 2006-08-22
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # The Piano Tuner of Earthquakes

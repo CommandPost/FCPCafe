@@ -3,7 +3,7 @@ title: Happy Festivus & Thanks for All the Fish!
 date: 2008-12-27
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # Happy Festivus & Thanks for All the Fish!

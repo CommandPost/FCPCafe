@@ -3,7 +3,7 @@ title: I see RED! I see RED! I see RED!
 date: 2008-06-09
 author:
   name: Chris Hocking
-  avatar: https://fcp.cafe/chrishocking.jpg
+  avatar: https://fcp.cafe/static/chrishocking.jpg
 layout: blog
 ---
 # I see RED! I see RED! I see RED!
