@@ -6,8 +6,6 @@ layout: blog
 ---
 # Let’s start at the very beginning…
 
-**Written by Chris Hocking on 26th April 2008**
-
 Aren’t there already enough blogs on the web? I’m mean seriously, if you type the word “blog” into Google, you get well over two BILLION results. Why on earth would we want to start another one? There’s already thousands of film making blogs scattered around the place… So what’s the deal?
 
 Well firstly, I must say that I’m a huge fan of them. Take for example [HD For Indies](http://www.hdforindies.com/ "HD For Indies"). Written by Mike Curtis, a film post production and workflow guru, this site dedicated to providing independent film-makers with all the latest information on affordable digital technology. He’s now moving a lot of his new content over to the [ProVideo Coalition](http://provideocoalition.com/ "ProVideo Coalition") – a fantastic new site which brings together the industry’s best writers, bloggers and video gurus under one website. Because technology changes so rapidly, and new products hit the market quicker than ever before, site’s like Mike’s help keep you in the loop. And because it’s written from his point of view – not just a whole heap of marketing crap – it helps answer a lot of questions and also helps make you question the way you think about new technology.

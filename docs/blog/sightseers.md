@@ -6,8 +6,6 @@ layout: blog
 ---
 # Sightseers
 
-**Written by Chris Hocking on 16th August 2012**
-
 ![](/static/blog/08-sightseers-movie-590x331.jpeg "sightseers-movie")
 
 Admittedly I didn’t really know anything about this film going in. I was told that one of my hero’s, the amazing [Edgar Wright](http://www.imdb.com/name/nm0942367/) executive produced it (which basically was the big selling point for me!) – but apart from that all I knew is that it was “bloody” and I assumed it was going to be a comedy. Well… It was definitely bloody – and it definitely had lots of funny moments. However, this is one really bizarre and screwed up film!

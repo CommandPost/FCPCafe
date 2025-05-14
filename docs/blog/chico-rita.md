@@ -6,8 +6,6 @@ layout: blog
 ---
 # Chico & Rita
 
-**Written by Chris Hocking on 6th March 2011**
-
 ![](/static/blog/2011-03-chicoandrita.jpg "Chico & Rita Ticket")
 
 Over the next few weeks I will be uploading as many brief reviews as I can manage, from films that I come across at the [Miami International Film Festival](http://www.miamifilmfestival.com/ "Miami International Film Festival"). I’m going to be writing them on an iPad, and uploading them whenever I come across free Wi-Fi, so please excuse any poor grammar and spelling mistakes! I’m also going to take photos of all the tickets on my iPhone just for fun. If you agree or disagree with anything I write, please let me know via the comments! Also, if you’re at the festival this year, [let us know](./../contact_us/ "Contact Us")!

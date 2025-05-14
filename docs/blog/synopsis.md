@@ -1,12 +1,10 @@
 ---
 title: Synopsis
 date: 2010-08-07
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Synopsis
-
-**Written by Guest Blogger on 7th August 2010**
 
 Sam Robinson wants to be taken seriously. After years of frustration, indifference and rejection, Sam’s had enough. Today’s the day that all of that changes. Today, he gets the job that makes something out of his pitiful existence.
 
@@ -23,5 +21,3 @@ Your life can change in one moment.
 Who will reign supreme in this tale of Betrayal, Bloodlust and a Briefcase?
 
 ***SHOTGUN!***
-
-[feature film](./../tag/feature-film/)[story](./../tag/story/)[synopsis](./../tag/synopsis/)

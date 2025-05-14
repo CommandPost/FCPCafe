@@ -6,11 +6,9 @@ layout: blog
 ---
 # The Day I Remembered My Childhood.
 
-**Written by Nicholas Colla on 8th August 2012**
-
 ![](/static/blog/08-wes-anderson.jpeg "Wes Anderson")
 
-### MIFF Day 6.
+**MIFF Day 6.**
 
 What can you say about Wes Anderson that hasn’t already been said. The man has made a career of making films that are, on viewing, unmistakably his own. Everything from his storybook like cinematography, to his bold production design, to his beautifully crafted soundtracks, to the performance style he enforces on his actors. Wes Anderson is indeed an Auteur in the truest sense of the word.
 

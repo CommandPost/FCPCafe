@@ -6,8 +6,6 @@ layout: blog
 ---
 # Mamma Gogo
 
-**Written by Chris Hocking on 15th March 2011**
-
 ![](/static/blog/2011-03-mammagogo_ticket-441x329.jpg "mammagogo_ticket")
 
 Unfortunately, due to horrible traffic in South Beach, Miami, I missed the start of this film – which is a real shame, as I’m sure I missed some really important set-ups and character development. I also ended up having to sit in the aisle of the theatre, as it was completely sold out, which wasn’t tremendously comfortable. However, regardless of what actually happened at the start of the film, or the fact that my seat was in fact the floor, as soon as I started watching, I was instantly hooked. This is a really sweet movie, and there was definitely a few people exiting the theatre with tears in their eyes.

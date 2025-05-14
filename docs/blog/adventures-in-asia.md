@@ -6,8 +6,6 @@ layout: blog
 ---
 # Adventures in Asia!
 
-**Written by Jacqui Hocking on 10th August 2012**
-
 In 2010, LateNite documentary film-maker Jacqui Hocking started working with social entrepreneur Ashwin Subramaniam, the young founder of the [GoneAdventurin’](http://www.goneadventurin.com) Social Enterprise. The partnership began when she filmed a documentary about his first project cycling in the [Tour De Timor](http://www.tourdetimor.com/) in Timor-Leste.
 
 ![](/static/blog/08-asia-01-590x442.jpeg "asia-01")

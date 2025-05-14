@@ -6,8 +6,6 @@ layout: blog
 ---
 # August 2010 Reel
 
-**Written by Chris Hocking on 29th August 2010**
-
 ![LateNite Films Reel 2010](/static/blog/2010-08-kissing.jpg "LateNite Films Reel 2010")
 
 We have decided to put our latest August 2010 Reel online for everybody to see! Normally, we only share the reel with potential clients and friends via DVDs, but this time round, we’re going the polar opposite and are releasing it for all to see on YouTube.

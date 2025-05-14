@@ -6,8 +6,6 @@ layout: blog
 ---
 # Mac Hardware Predictions – Death to the Mouse
 
-**Written by Chris Hocking on 22nd June 2009**
-
 As most of you will know, I recently wrote an article on this blog listing my [Final Cut Studio 3 Predictions](./../2009/02/21/final-cut-studio-3-predictions/ "Final Cut Studio 3 Predictions"). It has gotten a really great response so far, and has helped generate a lot of incredibly interesting discussions. Regardless of whether my predictions come true or not, I think the article has really helped throw some new ideas and concepts into the public domain and has sparked a lot of imagination in some extremely talented people, which is fantastic. I’ve gotten lots of messages, e-mails and comments recently with cool technology and features which should be added into Final Cut Pro – some of which I really hope make it into the next version. Personally I think the more people talk about these kinds of things in a public forum, the more chance Apple developers will get ideas from these discussions, and the more chance they will actually think about implementing them.
 
 But today I’m not going to talk about software. I’m going to talk about the other end of the spectrum… hardware.

@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Script Machine
 
-**Written by Chris Hocking on 13th November 2011**
-
 What an incredible weekend it’s been, and it’s only going to get more exciting as the days and months go on!
 
 For those that don’t know us – for the past three years we have entered into the [48 Hour Film Project](http://www.48melbourne.com.au/ "48 Hour Film Project Melbourne") competition in Melbourne. We absolutely love it – because it forces you to “bash out” a film over a weekend, with no excuses. You can’t delay things, you can’t reschedule, you just need to make it happen – which is what we’re really all about.

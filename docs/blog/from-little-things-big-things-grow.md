@@ -6,9 +6,7 @@ layout: blog
 ---
 # From Little Things. Big Things Grow.
 
-**Written by Nicholas Colla on 8th August 2012**
-
-### MIFF Weekend #1
+**MIFF Weekend #1**
 
 So after a cracking start to the festival it was time to indulge in my first weekend at MIFF which usually results in five to eight films spanned across two very long days. I was a little bit excited for this first weekend however as one of the films that I had at the very top of my wish list for this festival was the documentary Paul Kelly: Stories or Me which I had booked in on the Saturday night. But before I start getting all excited about that, first up was the Australian horror/comedy 100 Bloody Acres.
 

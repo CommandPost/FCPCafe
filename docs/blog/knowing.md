@@ -6,8 +6,6 @@ layout: blog
 ---
 # Knowing
 
-**Written by Chris Hocking on 30th March 2009**
-
 I’m inspired. I want to swear a lot. In a positive way. But I won’t. At least not at the moment. I’ve literally just got back from the cinema after watching Alex Proyas’ latest film, **Knowing**. All I can say is… Wow.
 
 I’ve been looking forward to watching this film for a long time. There are many reason for this. Firstly, I loved [I Robot](http://www.imdb.com/title/tt0343818/ "I, Robot"). The special effects were great – plus it was just a really fantastic film in general. Great score, great script, great acting… great, well everything. Well apart from the mass amounts of product placement – but we’ll let that slip. Secondly, Alex is an Australian. Like most Aussie’s, I like to support our own. Thirdly, most of the film was shot in Melbourne – my home town. And last, but not least – this film was shot on the [RED](http://www.red.com "RED") camera. Having work with the RED on the Sakooz trailer, I have a very fond spot in my heart for this unique piece of revolutionary technology. I always planned to see Knowing when it first opened at the cinemas (last Thursday), but I’ve been caught up with heaps of other things. But, tonight, I’ve finally seen it. And I’ll tell you what – the fact that I’m blogging about it late at night just goes to show how much this movie has affected me. As I said… Wow.

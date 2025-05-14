@@ -6,9 +6,8 @@ layout: blog
 ---
 # Calculating Timecode in Google Sheets
 
-**Written by Chris Hocking on 24th June 2014**
 
-One of the most popular blog posts we’ve ever done has been on [Calculating Timecode in Excel](./../calculating-timecode-in-excel/). Even though it’s now around 3 years old, it still gets a constant amount of views each week.
+One of the most popular blog posts we’ve ever done has been on [Calculating Timecode in Excel](/blog/calculating-timecode-in-excel/). Even though it’s now around 3 years old, it still gets a constant amount of views each week.
 
 Although the Excel article is still relevant and useful – personally, I don’t actually use Microsoft Excel very often any more, much preferring Apple’s [Numbers](https://www.apple.com/au/mac/numbers/) (which comes free with every [Mac](https://www.apple.com/au/creativity-apps/mac/); and iPad/iPhone for that matter). Unfortunately however, getting timecode to work successfully and reliably in Numbers has never been something I’ve been able to fully accomplish. Hopefully one day someone puts together some incredibly clever [AppleScripts](http://www.macworld.com/article/2090831/applescript-makes-a-comeback-in-numbers/) that add this functionality, however in the meantime…
 

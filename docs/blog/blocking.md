@@ -6,17 +6,15 @@ layout: blog
 ---
 # Blocking
 
-**Written by Daniel Daperis on 26th October 2015**
-
-### The most important (and neglected) aspect of directing…
+**The most important (and neglected) aspect of directing…**
 
 Firstly I want to preface everything hereafter by saying that I’m not a director with decades of experience and countless awards to my name. I’m not in super high demand and I can assure you I’m not earning the big bucks. I’m relatively new…. ‘emerging’ as we like to call it. I still have a lot to learn and a long way to go to be able to eventually make the things I want to. But I will share with you something that I feel quite strongly about through my experiences so far. Something that I have noticed is often neglected, but is without doubt the single most important tool in the director’s arsenal – blocking.
 
 So let’s very quickly go back to basics – what does a director actually do? To many outside the industry, the thought of a director instantly conjures up images of a Hollywood studio backlot in the 1930’s with a man smoking a cigar in a chair yelling orders through a megaphone. At a recent catch up with some very distant (and slightly intoxicated) friends, I had a conversation which seems to be a recurring dialogue with people I meet. I’d be surprised if many directors haven’t had this conversation at least once:
 
-**Friend:** *So what do you do these days?*  
-**Me:** *I’m a director.*  
-**Friend:** *That’s so exciting! Hey guys, come over here, this guy’s producing movies!” Me: Actually I’m a director. Producers are different.*  
+**Friend:** *So what do you do these days?*
+**Me:** *I’m a director.*
+**Friend:** *That’s so exciting! Hey guys, come over here, this guy’s producing movies!” Me: Actually I’m a director. Producers are different.*
 **Friend:** *Oh right, sorry I mean a director. Who’s higher – a director or a producer?*
 
 People seem fascinated with who is higher up the pecking order…and strangely enough it’s not such a simple question to answer. The reality is, not many people know too much about what a director actually does and after spending half the night explaining the roles, next time you see them, the question is generally the same, *“How’s the film producing thing going?”*.
@@ -37,8 +35,8 @@ Why is this so important? Well it effects EVERYTHING! Your coverage is totally d
 
 Let’s take a short 20 second scene that involves 2 characters giving some exposition. It’s not going to make or break your show. For the purpose of this example, let’s say there’s no dolly, it’s all handheld. The scene is written that they are walking down a corridor and then one stops and turns to face the other when something important is said. An obvious way to cover this, would be:
 
-• Wide master  
-• 2 shot as they walk  
+• Wide master
+• 2 shot as they walk
 • 2 x singles once they’ve stopped
 
 4 shots.
@@ -53,7 +51,7 @@ So the correlation between blocking and coverage is quite clear as it should be 
 
 Let’s make up another scene – a husband and wife argue in the kitchen. The wife sits at the table and the husband walks into the room, stands by the sink and then they begin to fight. The actors have rehearsed it over and over and it just doesn’t feel right to either of them. As a collective we have reviewed every piece of dialogue and changed words into what feels more fitting. But after a couple of rehearsals, we’re still not nailing it. Let’s review the blocking. How about if the husband is sitting at the table, and the wife walks in and goes over to the sink. YES! All of a sudden, something as simple as switching the positions has changed the whole dynamic of the scene. The actors now feel so much more comfortable and natural in the characters. It sounds so strange, but the positioning of the actors in the space can have such a HUGE effect on how the character comes through. Body language, movement, interaction – it’s all so important for the actor, and it’s all blocking.
 
-I think it’s also so important to have an open communication with your actors about it too. Using the same example above, I might ask the male actor if he feels like the husband should stand up when the conversation becomes heated and maybe walk over to the wife. The actors know their character motivation better than anyone and I think it’s great to ask and see how they feel. He might say no, because he feels that he has done wrong so is submissive at this point in the story and she finally has the upper hand on him so it feels more real that he stays seated and keeps his distance. Great!  
+I think it’s also so important to have an open communication with your actors about it too. Using the same example above, I might ask the male actor if he feels like the husband should stand up when the conversation becomes heated and maybe walk over to the wife. The actors know their character motivation better than anyone and I think it’s great to ask and see how they feel. He might say no, because he feels that he has done wrong so is submissive at this point in the story and she finally has the upper hand on him so it feels more real that he stays seated and keeps his distance. Great!
 I have found that a huge part of directing is empowering those around you. In addition to working with the actors, it’s also great to work with your dp on the blocking and most importantly – be flexible. Naturally, you will plan your blocking in pre and then go over it the night before to understand where the characters need to be and at what point, but I think it’s such a strength if you are able to give them parameters rather than rules. Time permitting, it’s so great to be able to step onto set with your actors and dp with only a couple of key pointers (ie. In the last scene the character arrives in the driveway, so therefore they must enter the front door) but letting your actors naturally move through the space and work out blocking for themselves. Then measuring that against how you imagined the blocking and see what’s stronger and how it feels. Workshopping like this may take a bit more time initially, but may save later on by not reaching the unnecessary point of “it doesn’t feel right”. It also gives your dp a chance to feel out the scene and make some very important suggestions.
 
 Clearly blocking plays a massive role and it’s nice to be able to share my two cents about something that I’ve recently learnt myself as a director. Now, I always try to pay special attention to every possible scenario of blocking, taking into account all of the things listed above. It’s certainly helped me immensely.

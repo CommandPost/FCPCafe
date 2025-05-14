@@ -6,8 +6,6 @@ layout: blog
 ---
 # Another day another dollar…
 
-**Written by Chris Hocking on 17th May 2008**
-
 A lot has happening this week – and boy, oh boy do I mean a lot! When you’re only getting around two hours sleep a night (maximum) you sure do get a lot done. But regardless of how much coffee you drink to keep you awake, you still seem to just run out of time. In film making, time is your number one enemy. It’s always against you, and it’s always looking for ways to make your life a living hell. But enough bitching about time…
 
 Monday brought with it a whole heap of meetings. We met up with a whole collection of extremely talented costume design students, and other people interested in helping out with the Sakooz characters. You’ve really got to be careful when you do meetings all day, as you really do intake a massive amount of caffeine, simply because generally speaking we’ve been having crew meetings at the local coffee shop. After a very massive day, and exactly 318 e-mails later (for me alone that is!), after a quick two hours sleep, it was suddenly Tuesday! Once again, we had more meetings and discussions. This time with actual costume builders (more about this in the coming weeks!) and sound designers. I can’t really go into too much detail at this stage, but all the meetings went exceptionally well! Everyone seems genuinely excited about our concept, and they all really want to help us transform our idea into an actual feature film! It’s actually really inspiring to see people get inspired themselves, from an idea that we came up with. It really makes our day, when the eyes light up of the people we are pitching to – and start getting carried away thinking about how we can various bits and pieces to make the film happen. We’ve had so many great ideas and suggestions!
@@ -31,5 +29,3 @@ Ok… That’s about all I’ve got time for tonight! I need to start getting re
 [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_07-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_07.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_08-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_08.jpg)
 
 [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_09-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_09.jpg) [![Sakooz Auditions](/static/blog/2008-05-sakooz_auditions_15may2008_10-150x150.jpg "Sakooz Auditions")](/static/blog/2008-05-sakooz_auditions_15may2008_10.jpg)
-
-[Auditions](./../tag/auditions/)[Meetings](./../tag/meetings/)[Photos](./../tag/photos/)

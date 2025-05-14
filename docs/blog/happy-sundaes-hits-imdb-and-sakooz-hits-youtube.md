@@ -6,17 +6,15 @@ layout: blog
 ---
 # Happy Sundaes hits IMDB and SAKOOZ hits YouTube!
 
-**Written by Chris Hocking on 29th June 2009**
-
 At long last, finally some of our hard work is hitting a little thing they call the world wide web! Due to various reasons, we have decided to release Happy Sundaes to the world, free of charge and have also put the SAKOOZ teaser/trailer up on YouTube.
 
 You can watch Happy Sundaes here:
 
-[http://tr.im/happysundaes](http://tr.im/happysundaes "Watch Happy Sundaes on IMDB")
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L6ZmsOPXB0E?si=4hEoYwT1Mj1mC88M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 You can watch the SAKOOZ Teaser/Trailer here:
 
-[http://tr.im/sakooz](http://tr.im/sakooz "Watch SAKOOZ Teaser/Trailer on YouTube")
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wfmk7tLZSw0?si=66Z4GyBH26yfezD2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 As Happy Sundaes has been around for a while now, and has gone past it’s festival life, we have been considering for a while the best place for it to live online. After reviewing a few different options we ended up settling on IMDB (at least for now). The reason? IMDB is a very professional site with a great reputation. It’s also got an amazing resume database. As Happy Sundaes is now just a showcase tool for us, by putting it up on IMDB after people watch it they can then follow links to the IMDB pages of all the cast and crew. The hope is that if people like Happy Sundaes, they’ll click the link to our actors, and then get in touch with their agents.
 

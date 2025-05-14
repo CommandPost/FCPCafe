@@ -6,8 +6,6 @@ layout: blog
 ---
 # Producing The Wizards of Aus
 
-**Written by Nicholas Colla on 11th January 2016**
-
 ![01_nick_on_phone](/static/blog/01-01_nick_on_phone.jpg)
 
 So an extremely talented director (Michael Shanks for those playing at home) that you’ve been working with for a very long time comes to you and says:

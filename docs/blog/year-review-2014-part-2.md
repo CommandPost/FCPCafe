@@ -6,11 +6,11 @@ layout: blog
 ---
 # Year in Review 2014 – Part 2
 
-**Written by Nicholas Colla on 1st January 2015**
-
 Sure the first half of the year seemed relatively quiet in comparison to previous years. But the second 6 months (ok 7 cause my mathematics when doing the last blog was way off) was when stuff got a little cray cray. Starting with a wee music video…
 
-#### JUNE
+---
+
+## JUNE
 
 June/July are traditionally known as blockbuster season in the states and thus we had the likes of [Transformers #462](http://www.imdb.com/title/tt2109248/), [How to Train Your Dragon](http://www.imdb.com/title/tt0892769/) and [22 Jump Street](http://www.imdb.com/title/tt2294449/) in June. For my money though the pick of the month was [Edge of Tomorrow](http://www.imdb.com/title/tt1631867/) which was a surprisingly original [Tom Cruise](http://www.imdb.com/name/nm0000129/) blockbuster that was, to be honest, a breath of fresh air into the sci-fi genre.
 
@@ -30,7 +30,9 @@ We battled high winds and a rotating crew but once again, thanks to the efforts 
 
 Oh and did I mention Hocking was back? At some point he came back. I can’t remember when or where or how but he flew in on a big jet plane and I assume came straight to set. Such is the dedication of the man. Unless he has a clone. In which case the guy in the picture above may be his clone…
 
-#### JULY
+---
+
+## JULY
 
 Dear Hollywood. Please stop making shit. Regards, Nick.
 
@@ -42,7 +44,9 @@ After Sportsbet was done and dusted Shanks lent his VFX skills to a couple of mu
 
 Of course this wasn’t enough to appease the young man so he also knocked over a music video himself for [Hudson & Troop](https://www.triplejunearthed.com/artist/hudson-and-troop). Twas a battle of the elements but I think you’ll agree the end product ain’t too shabby.
 
-#### AUGUST
+---
+
+## AUGUST
 
 I’m not going to lie to you, I’m a bit over the whole superhero movie thing. Marvel just keep churning out the same films over and over again and I’m bored now. Luckily for Marvel they gave [Guardians](http://www.imdb.com/title/tt2015381/) to [James Gunn](http://www.imdb.com/name/nm0348181/?ref_=tt_ov_dr) ([Super](http://www.imdb.com/title/tt1512235/?ref_=nm_flmg_wr_5)) who managed to make something a little different from your standard Superhero fare. Very entertaining film!
 
@@ -54,7 +58,9 @@ I gotta take a wee moment to thank everyone associated with that shoot too. My b
 
 And thus August was over with another short in the bag and only a few months left before the end of the year.
 
-#### SEPTEMBER
+---
+
+## SEPTEMBER
 
 So [Boyhood](http://www.imdb.com/title/tt1065073/) took 10 years to make. I tried racking my brains for something that took me 10 years to do and the best I could come up with was finish school. Although I think that was 13 years, so not really 10. Either way I guess what I’m trying to say is 10 years on and [Richard Linklater](http://www.imdb.com/name/nm0000500/) has made a cracking film.
 
@@ -64,7 +70,9 @@ As we haven’t been around for 10 years we decided instead to make two short fi
 
 ![48hfp](/static/blog/01-48hfp.jpg)
 
-#### OCTOBER
+---
+
+## OCTOBER
 
 So October bore two of my favourite movies of the year. One was from a seasoned pro and the other from a first time feature director. Fincher gave us the mind blowing [Gone Girl](http://www.imdb.com/title/tt2267998/) featuring a knock out performance from both [BAT-fleck](http://www.imdb.com/name/nm0000255/?ref_=tt_cl_t1) and [Rosamund Pike](http://www.imdb.com/name/nm0683253/) whilst [Whiplash](http://www.imdb.com/title/tt2582802/) from [Damien Chazelle](http://www.imdb.com/name/nm3227090/) had two of the best performances of the year in my opinion from the always brilliant [JK Simmons](http://www.imdb.com/name/nm0799777/) and [Miles Teller](http://www.imdb.com/name/nm1886602/).
 
@@ -82,7 +90,9 @@ Oh yeah – and because of that, even after I’d told Hocking there was no way 
 
 God damn it November.
 
-#### NOVEMBER
+---
+
+## NOVEMBER
 
 So I could’ve chosen [Interstellar](http://www.imdb.com/title/tt0816692/) or maybe [Hunger Games](http://www.imdb.com/title/tt1951265/), [Nightcrawler](http://www.imdb.com/title/tt2872718/) or perhaps even [Fury](http://www.imdb.com/title/tt2713180/) as they were all released in the month of November HOWEVER my heart belonged to this little French gem starring the incredible [Marion Cotillard](http://www.imdb.com/name/nm0182839/). Honestly I could watch her play Sudoku for 6 hours and I’d still be enthralled.
 
@@ -98,7 +108,9 @@ And out of a very impressive International field of 10, our film was judged to b
 
 So with that good news rounding out our month and the finishing touches being put on [HIT](./../portfolio/hit/), it was time for a Shanks sketch to properly explode the internet. And it did.
 
-#### DECEMBER
+---
+
+## DECEMBER
 
 Before I bang on about [St. Vincent](http://www.imdb.com/title/tt2170593/). How bloody terrible was the final [Hobbit](http://www.imdb.com/title/tt2310332/) instalment. No seriously. Why was [Billy Connolly](http://www.imdb.com/name/nm0175262/) CGI? Where did the goats come from? WHERE WAS THE FIFTH ARMY?
 

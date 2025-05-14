@@ -1,7 +1,7 @@
 ---
 title: The read from AL’s POV
 date: 2010-10-17
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # The read from AL’s POV
@@ -23,5 +23,3 @@ So… Here’s how it went down from my ppv.
 ![](/static/blog/2010-10-20101017-093320.jpg)
 
 ![](/static/blog/2010-10-20101017-093349.jpg)
-
-[live script read](./../tag/live-script-read/)[Photos](./../tag/photos/)

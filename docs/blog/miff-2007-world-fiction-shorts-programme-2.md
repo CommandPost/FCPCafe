@@ -6,8 +6,6 @@ layout: blog
 ---
 # MIFF 2007 World Fiction Shorts - Programme 2
 
-**Written by Chris Hocking on 21st August 2007**
-
 Once again, the short film sessions at MIFF this year have all been extremely impressive. Caught, is a short and simple one gag film about a man who sleeps over at a woman’s house, and is unfortunately greeted by a not-so-impressed boyfriend as he tries to leave. The film is beautifully acted and directed, and has a killer punch line. This is a really great little rollercoaster ride, despite only lasting three minutes. It has an absolutely fantastic ending.
 
 Jamaica, is the story of two lovers stuck in the middle of an unknown war zone, in an undefined era, who are trying to escape the realities of the outside world. In this truly beautiful Spanish film, the two lovers perform their own wedding ceremony, and relish their final moments together as the looming and anonymous threat of interruption and danger draws nearer. The cinematography in this film is fantastic. They use the lack of depth of field to great effect. The acting is superb, and despite only being a fifth teen minute film, you really feel attached to the two characters. There is a great deal of mystery and suspense in this film, as the enemy is faceless and unknown. In fact, the audience know very little about either of these peoples past or what lies ahead in the future. This is a great film that will make you laugh, make you cry, and gets your brain running as to why the situation is as it is.

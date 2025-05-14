@@ -6,8 +6,6 @@ layout: blog
 ---
 # Scheduling OR why my brain hurts…
 
-**Written by Nicholas Colla on 29th September 2010**
-
 I had two maths teachers when I was at high school. One was frighteningly similar to a certain Hannibal Lectar and used to hang a mirror on the black/white board so he could see people screwing around behind him and the other was a borderline alcoholic who once drew us a diagram on how to grow our own doob plant because we weren’t listening to what he was saying.
 
 My point here is a very simple one. For as long as I can remember I have always struggled with maths and numbers, often staring blankly at them for long, long periods of time. And unfortunately it didn’t matter that I was being threatened by a man reminiscent of a cannibal or being educated by a drunken pot enthusiast – I just never got it.
@@ -21,7 +19,3 @@ What I am about to post up is the first of many video blogs that will be followi
 So please keep checking out our blog for regular updates which will be happening from here on in – also we have a young film blogger (my cousin in fact) coming in to cover our behind the scenes stuff so I will keep you up to speed on that as we should be seeing that happening real soon!!
 
 Apart from that enjoy the photos and the videos and until next time in the words of a Mexican or Spanish person – adios!
-
-[nggallery id=15]
-
-[behind the scenes](./../tag/behind-the-scenes/)[budget](./../tag/budget/)[Photos](./../tag/photos/)[scheduling](./../tag/scheduling/)

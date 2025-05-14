@@ -6,8 +6,6 @@ layout: blog
 ---
 # Another Day… Another Logo…
 
-**Written by Chris Hocking on 29th August 2010**
-
 ![LateNite Films](/static/blog/2010-08-latenitefilms_2010_black.jpg "LateNite Films")
 
 It gives me great pleasure to announce that we officially have a new logo for LateNite Films (as we have also decided to write “LateNite Films” instead of “latenite films” as a tribute to Peter Jackson’s WingNet Films).

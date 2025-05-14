@@ -6,8 +6,6 @@ layout: blog
 ---
 # Filmapalooza 2010
 
-**Written by Chris Hocking on 14th March 2011**
-
 ![](/static/blog/2011-03-48hourfilmproject_ticket-441x329.jpg "48hourfilmproject_ticket")
 
 Last night was the official awards night for the [48 Hour Film Project International Competition](http://www.48hourfilm.com/filmapalooza/ "48 Hour Film Project") – strangely named *Filmapalooza –* in which our film, [Fallout](./../projects/fallout/ "Fallout") was competing. Although we didn’t exactly have the most enjoyable experience on the night, as both our film and ironically the Sydney team’s film experienced several technical hiccups and false starts (which was slightly nerve-racking as you can imagine!) – both films *eventually* screened perfectly in front of a very excited and packed audience at the final awards screening. It was great to be amongst so many talented like-minded film-makers! There were so many amazing films on display, from cities all over the world.

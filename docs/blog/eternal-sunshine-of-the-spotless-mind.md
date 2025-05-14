@@ -6,8 +6,6 @@ layout: blog
 ---
 # Eternal Sunshine of the Spotless Mind
 
-**Written by Chris Hocking on 24th October 2006**
-
 > *How happy is the blameless Vestal’s lot! The world forgetting, by the world forgot. Eternal sunshine of the spotless mind! Each pray’r accepted, and each wish resign’d.*
 >
 > **Alexander Pope**

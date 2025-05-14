@@ -6,8 +6,6 @@ layout: blog
 ---
 # Now, if you could just do it again, but better…
 
-**Written by Chris Hocking on 2nd May 2008**
-
 Well, I’m very sorry to say that already we’re struggling finding the time to update this blog, and it hasn’t even been that long since we started it up! Thing is, we are absolutely flat out! And to make matters worse, our whole team seems to be getting ill in one way, shape or form! Isaac has bronchitis. David has tonsillitis. Caithlin is having surgery on her back. And Anli has been sick now with some kind of bug for the past couple of weeks. I just haven’t been sleeping… pretty much at all, so although I may not be ill, yet, I still look a little worse for wear!
 
 So anyway, illness’ aside – what have we been doing since last Saturday? Why haven’t we been sleeping? Why are we so stressed? One simple answer – casting! We started advertising early in the week, and since then it’s really been “all hands on deck”! We had a MASSIVE response – I’m generally getting around 60+ e-mails a day from people all over Australia. To be perfectly honest, we’re really surprised! We knew our concept was pretty unique and exciting, but we had no idea people would be willing to fly interstate (at their OWN expensive) just to attend a half an hour audition! It’s all been really exciting! We had our first auditions yesterday (as it’s now after mid-night), and it all went very smooth considering Isaac’s lovely cough. We did plan to get some behind the scenes footage, but unfortunately, we just ran out of time. We really need to get someone on board to just take care of all our behind the scenes stuff! Anyone interested? Well, if you’re one of the few people who actually read this, and you are interested in documenting this – lets face it – AMAZING adventure, then get in touch!
@@ -27,5 +25,3 @@ Ok… I’ve now got 45 unread e-mails sitting in my inbox. I’d better get bac
 See you in the soup!
 
 Chris!
-
-[Auditions](./../tag/auditions/)[Film Project - SAKOOZ](./../tag/sakooz/)

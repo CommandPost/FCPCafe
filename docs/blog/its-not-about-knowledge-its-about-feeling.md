@@ -6,8 +6,6 @@ layout: blog
 ---
 # It’s not about knowledge – it’s about feeling…
 
-**Written by Jacqui Hocking on 22nd July 2012**
-
 ![](/static/blog/07-457413_2869533197906_1554580900_o-590x442.jpeg "457413_2869533197906_1554580900_o")
 
 LateNite Films is lucky enough to be situated in the heart of Australia’s upcoming acting scene – [16th Street Acting Studio](http://www.16thstreet.com.au/). As part of our support and collaboration with this inspiring collective, we often work with them on their films. In the last week, I have had the pleasure and challenge of editing more than 22 scenes from various feature films which the students have been studying, Directed by [Kim Farrent](http://www.imdb.com/name/nm2040537/), who also directed the award-winning documentary, [Naked on the Inside](http://www.imdb.com/title/tt0893355/).
@@ -32,7 +30,7 @@ The skill of being able to see the film as a whole, piece it together, but then 
 
 It’s impossible to think about 10 years and 200 hours of archival footage when crafting a documentary – but it’s certainly possible to instinctively feel the rhythm and pace of a story, even when it’s unfolding as you work.
 
-> Being an editor is my life… I never get bored…  
+> Being an editor is my life… I never get bored…
 > …with Editing, you have to get the satisfaction from the work…
 
 I think editors are a rare breed. Like most art-forms, you have to really, truly, ridiculously, LOVE what you do to be able to keep doing it. What’s really unique about editing as apposed to acting or directing, is that ***the pleasure comes from the process.*** Most people in America, Australia and the UK will not know who Michael Kahn is (no, not [Michael Cain](http://www.imdb.com/name/nm0000323/)). Although, I would dare say that a hell of a lot know [Indiana Jones](http://www.imdb.com/title/tt0082971/), [Jurrasic Park](http://www.imdb.com/title/tt0107290/), [Schindlers List](http://www.imdb.com/title/tt0108052/), [Hogans Heroes](http://www.imdb.com/title/tt0058812/)… hell even [The Adventures of Tin Tin](http://www.imdb.com/title/tt0983193/)! Yes, [Michael Kahn](http://www.imdb.com/name/nm0434883/filmotype) has a ridiculously expansive repertoire of films he has edited. But there’s no public prestige or fame for a film editor. Watching Michael’s interview really demonstrated the true humble spirit of a craftsman who loves his job.

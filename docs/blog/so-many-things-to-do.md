@@ -6,8 +6,6 @@ layout: blog
 ---
 # So many things to do!
 
-**Written by Chris Hocking on 24th February 2009**
-
 The last couple of weeks have been hectic, but unfortunately it’s been mainly projects outside of latenite. I’ve personally been interstate working on various live shows, and have also recently start working full time for a post house in Melbourne on top of lots of other ventures, so the Sakooz site has been put on another temporary hold, which is a bit of a pain. As much as I would love to have it all done by the end of this month (and to be honest, it’s VERY close to being finished), I just don’t think it’s going to happen – especially with the [bushfires](http://news.ninemsn.com.au/national/755947/fire-may-threaten-melbourne-homes-cfa "Bushfire destroys outer Melbourne home") that keep creping up on us! Therefore, we will be postponing the launch till April just to be on the safe side.
 
 The good news is that we have been working closely with the team from [Kaltura](http://www.kaltura.com "Kaltura"), and the online trailer remix function has turned out great! Thanks to everyone who has been helping us with that element of the site!

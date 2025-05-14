@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Disappearance of Alice Creed
 
-**Written by Chris Hocking on 26th July 2010**
-
 Well it’s that time of year again – [MIFF](http://www.melbournefilmfestival.com.au/ "Melbourne International Film Festival") time!
 
 Apologies for the lack of blog posts recently. For those of you that have been keeping an eye on the site, you’ll know that I’ve been overseas since February and have only just arrived back (you can see some photos of my travels [here](http://www.melbournetomoshi.com "Melbourne To Moshi")). But now I’m back, and things are seriously busy at the office! We are working full steam ahead on our first feature film, [SHOTGUN!](http://www.shotgunmovie.com "SHOTGUN!") – so things are certainly go, go, go! Stay tuned for details, but in the meantime…

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Tour de Timor 2012
 
-**Written by Jacqui Hocking on 19th September 2012**
-
 ![](/static/blog/09-00_Arrival-590x374.jpg "00_Arrival")
 
 It’s no doubt that filming almost 400 cyclists through an (albeit incredibly inspiring) developing nation is an arduous mission. When you also add a film crew that comes from 6 different countries (America, Indonesia, France, Australia, Canada and Timor-Leste) and collectively work in 3 different languages (Tetum, English and Bahasa Indonesia) it gets pretty interesting.

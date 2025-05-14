@@ -1,12 +1,10 @@
 ---
 title: Fran-tick-tick-tick-tick-tick-tick-toc… And so the count down begins.
 date: 2010-10-04
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Fran-tick-tick-tick-tick-tick-tick-toc… And so the count down begins.
-
-**Written by Guest Blogger on 4th October 2010**
 
 Greetings to all of our droogies (or SHOTGUNIES as we have now coined you all), closely following the every which move of the party here at LateNite. This past week has proved to be quite a busy one, and I’ve come here to show you the way of the future… IN the midst of all of our organization, shot listing, scheduling & the butchering of my baby (script… SCRIPT. Not an actual baby. You can’t take me to court), as you may well be aware, we have taken it upon our handsome selves to organise a LIVE SCRIPT READ.
 
@@ -21,5 +19,3 @@ In other news, I got a hair cut & shaved.
 Stay tuned… This is gonna get HOT!
 
 AL.
-
-[event](./../tag/event/)[live script read](./../tag/live-script-read/)

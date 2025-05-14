@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Impeccable Imaginings of the Incredible Ian Barry
 
-**Written by Nicholas Colla on 11th December 2013**
-
 ![drblake](/static/blog/12-drblake.jpg)
 
 **( Or… My time on The Doctor Blake Mysteries )**

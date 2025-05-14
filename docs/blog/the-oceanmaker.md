@@ -1,12 +1,10 @@
 ---
 title: The OceanMaker
 date: 2013-04-25
-author: Guest Blogger
+author: Lucas Martell
 layout: blog
 ---
 # The OceanMaker
-
-**Written by Guest Blogger on 25th April 2013**
 
 After working in this industry for many years now, one amazing and almost unexpected trend we constantly see is that most people, even if they’re Academy Award Winning, are more than happy to share their knowledge, experience and advice. This is one of the greatest things about the filmmaking world – generally speaking, the most talented people at the top of their chosen craft, are more than happy to chat about the lessons they’ve learnt along their long careers, share tips and trips, and just get people excited. We’re massive supporters and fan’s of people such [Stan Winston](https://www.stanwinstonschool.com/) (who has sadly passed away, however his legacy lives on!), [Stu Maschwitz](http://prolost.com/), [Andrew Kramer](http://www.videocopilot.net/), [Mike Seymour](http://www.fxphd.com/), [Kanen Flowers](http://www.scruffy.tv/), [Philip Bloom](http://philipbloom.net/)… the list is almost endless. All of these people are hugely well respected and highly regarded, are expects at what they do, have an amazing list of credits, but still go above and beyond to share their knowledge about the industry they all love. The person we’re chatting to today in this blog entry fits perfectly into this category. He’s stupidly talented, doing absolutely amazing work, but is also more than happy to share his knowledge with like-minded people.
 

@@ -1,12 +1,10 @@
 ---
 title: Sweatshop
 date: 2014-09-09
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Sweatshop
-
-**Written by Guest Blogger on 9th September 2014**
 
 Today we have a special guest blog entry from long-time friend and collaborator, [Alistair Marks](http://www.alistairmarks.com). Alistair has worked with MTV, Nickelodeon and recently spent a year following [Samuel Johnson](http://en.wikipedia.org/wiki/Samuel_Johnson_(actor)) around Australia as director of the Network 10 documentary [Love Your Sister](http://www.loveyoursister.org).
 

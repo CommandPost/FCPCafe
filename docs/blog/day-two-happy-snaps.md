@@ -6,8 +6,6 @@ layout: blog
 ---
 # Day Two Happy Snaps!
 
-**Written by Chris Hocking on 29th September 2008**
-
 As promised, here are some absolutely gorgeous photos taken by the incredible [Michelle Leong](http://www.micapixel.com "Michelle Leong") from Day Two of the Sakooz shoot. There will be lots more of these fantastic images to come in the weeks ahead, but until then, enjoy…
 
 ![](/static/blog/2008-09-sakooz_shoot_001.jpg "sakooz_shoot_001")
@@ -35,5 +33,3 @@ Also, just to give you a quick update, we are still madly cutting together the t
 I’m off to Sydney tomorrow for a few days for work (so that I can pay off some of my Sakooz debts!), but when I return it will be full steam ahead again in the edit suite. Also, still on the to-do list, we will eventually put up some more detailed posts on what happened during the shoot, and add some more videos and photos. We’ll also start putting an official Sakooz website together, in which you’ll be able to view and download higher resolution versions of the above photos (and lots more)! So stay tuned – lots of exciting things are certainly coming up! We’ll also EVENTUALLY put up all the camera test stuff we talked about months and months ago, plus some R3D files for people to mess around with.
 
 Until next time… Chris!
-
-[Photos](./../tag/photos/)

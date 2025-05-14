@@ -6,8 +6,6 @@ layout: blog
 ---
 # Reality TV has no redeeming features…
 
-**Written by Chris Hocking on 5th June 2006**
-
 When inventor *Paul Nipkow* completed his “electric telescope” in 1884, he could not have predicted the impact it would later make on the world. Nipkow’s device, which allowed the sending of images over wires, inspired others to build upon this exciting new technology (Wikipedia 2006). In 1900, the term “television” was coined by Russian *Constantin Perskyi*. Thirty years later, the first television commercial was transmitted, and the *British Broadcasting Commission* began regular broadcasting (Bellis 2005). “Television” was now a recognized term. By 1948 over one million homes in the United States alone had television sets, allowing them to tune into shows such as Allen Funt’s *Candid Camera,* a show where ordinary people were caught on film during embarrassing staged pranks (Murray & Ouellette 2004, p.3). The post-World War II Americans of the 1950s were content with this type of good humoured show. Funt suggested that its success was due to its presentation of “*people caught in the act of being themselves*” (Balkin 2003). Even though participants might have been briefly embarrassed, their privacy and dignity were ultimately protected, plus no one was actually hurt (Balkin 2003). With the advent of network television, a new genre of programming had arrived: reality TV.
 
 As society progressed, and television technology continued to develop, so did this fresh genre. The 1960s brought with it a rise in social revolution, human rights movements, civil rights movements, and anti-War movements (Wikipedia 2006). Although this decade affected all corners of the globe, in western societies particularly, more people started to protested, riot and reject their conformist lifestyle. By the time Neil Armstrong first set foot on the moon, society was more sexually open and violent in their actions. Television had no option but to follow suit.
@@ -32,7 +30,9 @@ It is not only new technology that has helped networks satisfy advertisers. Prod
 
 When shows such as *An American Family* were being aired in the 1970s, reality television was just another harmless form of entertainment. But as society progressed, and “making a profit” became more important, programs like MTV’s *Cops* emerged to keep networks afloat. By the new millennium reality television no longer had any redeeming features; it was all about making a profit. Television networks started to exploit a wide variety of social groups to help achieve this aim. They started to use new technology to increase their cash flow. Product placement techniques started to become common place, keeping advertisers happy. Reality television demonstrates that civilisation has put ethics and morals aside, so that corporations can make money. It will be interesting to see what networks will do next when people become bored of the current reality television format, forcing producers to formulate new ways of keeping advertisers satisfied.
 
-**Bibliography/References**:
+---
+
+## Bibliography/Reference
 
 * Balkin, K 2003, *Reality TV: introduction*, Greenhaven Press, viewed 22 May 2006, <http://www.enotes.com/reality-tv-article/39483>
 * Bellis, M 2005, *History of television timeline*, About, viewed 22 May 2006, <http://inventors.about.com/library/inventors/bl_television_timeline.htm>

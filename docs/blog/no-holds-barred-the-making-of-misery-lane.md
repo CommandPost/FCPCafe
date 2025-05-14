@@ -6,8 +6,6 @@ layout: blog
 ---
 # No Holds Barred: The Making of Misery Lane
 
-**Written by Chris Hocking on 13th June 2012**
-
 ![](/static/blog/06-miserylane-03-big-590x393.jpg "miserylane-03-big")
 
 Up until this year LateNite has never really dabbled in music videos.

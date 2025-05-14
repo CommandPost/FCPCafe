@@ -6,8 +6,6 @@ layout: blog
 ---
 # Zhan. Gu / The Drummer
 
-**Written by Chris Hocking on 8th May 2008**
-
 Not to be confused with Yang Chuan’s 1980 film, also set in Hong Kong and as of the same English translation, Kenneth Bi’s *“Zhan. Gu (The Drummer)”* is his third feature film (despite popular belief, as his first feature film, “A Small Miracle” only received a straight to video release). Nominated for the Sundance Grand Jury Prize, this film is the first from Hong Kong and Taiwan to be selected for competition in the festival, and is already gaining positives reviews all around the world, no doubt helped by Tony Leung Ka Fai receiving the “best supporting actor” award at Taiwan’s highly acclaimed Golden Horse Film Festival. However, the film is not without its critics – with many describing it as “ill-conceived” and “unconvincing”.
 
 The Drummer tells the story of Sid, a pompous drummer in a rock band by night, and an insufferable pain during the day, played by Jaycee Chan – the son of one of Hong Kong’s greatest talents, Jackie Chan.
@@ -32,11 +30,13 @@ Internationally speaking, this movie should do quite well for several reasons. F
 
 In conclusion, The Drummer is an amazingly beautiful film – with visuals that easily rival the very best BBC documentaries and Hollywood blockbusters such as Lord of the Rings. However, the highlight of this film is by far the music and the drumming. The soundscape that is created by the filmmakers is truly incredible. It’s also great to see Jackie Chan’s son up there on the big screen – as well as a host of other fantastic actors. Although the script may not be as tight and exciting as some might have liked – it really doesn’t matter. You have to sit down in the theatre, relax, and become at one with the drumming…
 
-**References:**
+---
 
-* Bi, K (2007), *Zhan. gu*, DVD, Kenbiroli Films, Hong Kong.
-* *Making Of*, DVD (Special Feature), Kenbiroli Films, Hong Kong.
-* *Zhan. Gu (2007)*, Internet Movie Database Inc., viewed 27th April 2008, <http://www.imdb.com/title/tt0831386/>.
-* *Kenneth Bi*, Internet Movie Database Inc., viewed 27th April 2008, <http://www.imdb.com/name/nm0080456/>.
-* Wikipedia contributors 2008, *Zhan. gu*, Wikipedia, viewed 27th April 2008, <http://en.wikipedia.org/wiki/The_Drummer_(2007_film)>
-* Wikipedia contributors 2008, *Kenneth Bi*, Wikipedia, viewed 27th April 2008, <http://en.wikipedia.org/wiki/Kenneth_Bi>
+## References
+
+- Bi, K (2007), *Zhan. gu*, DVD, Kenbiroli Films, Hong Kong.
+- *Making Of*, DVD (Special Feature), Kenbiroli Films, Hong Kong.
+- *Zhan. Gu (2007)*, Internet Movie Database Inc., viewed 27th April 2008, <http://www.imdb.com/title/tt0831386/>.
+- *Kenneth Bi*, Internet Movie Database Inc., viewed 27th April 2008, <http://www.imdb.com/name/nm0080456/>.
+- Wikipedia contributors 2008, *Zhan. gu*, Wikipedia, viewed 27th April 2008, <http://en.wikipedia.org/wiki/The_Drummer_(2007_film)>
+- Wikipedia contributors 2008, *Kenneth Bi*, Wikipedia, viewed 27th April 2008, <http://en.wikipedia.org/wiki/Kenneth_Bi>

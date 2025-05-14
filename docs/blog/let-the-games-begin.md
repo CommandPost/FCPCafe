@@ -6,8 +6,6 @@ layout: blog
 ---
 # Let the games begin!
 
-**Written by Chris Hocking on 14th October 2010**
-
 Like a lot of things we try and do, what started off a little script read with a few actors, a director and a kitchen table has all of a sudden blown up into a full scale event! I guess we’re just too excitable – we come up with ideas that we think “would be cool” to do, and then next thing you know, we’ve all agreed to go ahead with the harebrained scheme, and now it’s time to work out how we actually pull it off!
 
 As I’m sure you now know, instead of just having your usual script read with actors and director, we have decided to open up the session to a group of carefully selected individuals who will attend the read in person, but also, just to complicate things further, we have decided to stream the whole event live on the Internet for everyone to see!
@@ -27,7 +25,3 @@ So stay tuned until Sunday, as we post more information about the live streaming
 Onward & Upwards my friends!
 
 Chris!
-
-[nggallery id=9]
-
-[live script read](./../tag/live-script-read/)[Photos](./../tag/photos/)

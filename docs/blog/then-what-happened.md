@@ -6,8 +6,6 @@ layout: blog
 ---
 # Then what happened…?
 
-**Written by Chris Hocking on 26th August 2008**
-
 Firstly, for those that actually made it through the last blog entry – I’m amazed! It was a bit of an epic, so a massive thank you to those that took the time to go through it all! Sorry for all the spelling and grammar mistakes! Also, a big thank you to Mike Seymour who left a comment letting me know that he was quoting Ed Catmull, co-founder of Pixar. I’ve since updated the entry. I really hope that it was of some interest and help to other film-makers out there – as I’m sure there’s some lessons to be learnt from our mistakes. As ALWAYS feel free to e-mail me or leave a comment if you have any questions!
 
 Ok… so I decided that the trailer must go ahead on the Wednesday night. That meant I had six days until day one of principle photography. Had everyone still been on the project, that deadline would have been a challenge but not impossible. Given that I was now producing, directing and art directing, this was going to be one of the toughest tasks I’d ever undertaken, but hey, I was up for it!

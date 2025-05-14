@@ -6,8 +6,6 @@ layout: blog
 ---
 # Good Morning Vietnam!
 
-**Written by Chris Hocking on 5th March 2010**
-
 [![Chicken Village in Vietnam](/static/blog/2010-03-IMG_2698-Large-441x248.jpg "Chicken Village in Vietnam")](/static/blog/2010-03-IMG_2698-Large.jpg)
 
 I can’t believe that this is my first post for 2010! It seems as if I’ve been trying to put together this blog entry in my head for months now… and the fact of the matter is, I have! Lots of things have been happening, and I’ve got lots to tell… So from the offset – please let me warn you that this post may be a bit all over the place, with lots of random ideas, and no particular direction. But, hey! If you actually read this, then this is the kind of thing you’ve come to expect by now!

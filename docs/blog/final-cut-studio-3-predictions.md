@@ -6,8 +6,6 @@ layout: blog
 ---
 # Final Cut Studio 3 Predictions
 
-**Written by Chris Hocking on 21st February 2009**
-
 There has been a lot of discussion on the Internet the last few months in regards to what Apple is going to do with the seemingly out-dated Final Cut Studio package. Lots of people have written blog [articles](http://silveradosys.blogspot.com/2009/01/what-do-you-want-to-see-in-new-final/) about what [features](http://blog.lib.umn.edu/mcfa0086/discretecosine/151181/) they would like to see in the new versions of Final Cut Pro, Soundtrack Pro, Color, etc. The general consensus from the Internet community seems to be that Final Cut Studio is due for a very major update, or even a complete overhaul. Conversations about this are appearing wide-spread on [podcasts](http://thatpostshow.com/), twitter, [forums](http://www.dvinfo.net/conf/area-51/110854-final-cut-studio-3-a/) and through all the major social networks.
 
 Some people are predicating the [death](http://petersalvia.wordpress.com/2008/11/14/final-cut-studio-3-rumors-predictions/) of DVD Studio Pro, others are predicting that Blu-ray burning will finally become available. With Apple filing for new patents, some are predicting that Final Cut Studio will introduce some cool new [storyboarding](http://macsoda.com/2009/01/30/final-cut-studio-3-storyboard-app/) features.

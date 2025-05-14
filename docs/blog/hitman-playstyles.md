@@ -6,6 +6,8 @@ layout: blog
 ---
 # Hitman: Playstyles
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_dRxp8hpSk?si=gKM0_9MzgoFNxN8K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Written by Michael Shanks on 13th January 2013**
 
 47 different ways to play. Give or take 47.

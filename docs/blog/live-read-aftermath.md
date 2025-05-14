@@ -6,8 +6,6 @@ layout: blog
 ---
 # Live Read Aftermath!
 
-**Written by Chris Hocking on 23rd October 2010**
-
 Deary me! What a week it has been! Things have been non-stop for me personally – and today is the first day for a long while where I’ve actually been able to just sit down for five minutes and ponder things. From all reports the live stream and script read in general was extremely successful, and we received a lot of really helpful feedback that will help shape SHOTGUN! into a better movie. So at the end of the day, despite all the hard work and hair pulling – it was certainly worth it in the end. But rather than tell you how perfectly everything went – which isn’t really helpful if you’re trying to do something like this yourselves – I thought I’d tell you about some of the issue we had putting together this event, and how we go around them – and also list some things for you to think about if you’re trying to do a similar event.
 
 As we didn’t really have any substantial money for this event basically everything was begged, borrowed or stolen. At the end of the day, we did actually end up spending a lot more money than we hoped to – and in retrospect, we probably could have saved a lot of that money if we had more time or planned it a bit better – but that’s what happens when you’re under the pump – you are forced to just throw money to fix problems!
@@ -65,5 +63,3 @@ Overall, a job well done! Bring on the next challenge!
 Onwards & Upwards Everybody!
 
 Best Regards, *Chris!*
-
-[how to](./../tag/how-to/)[live script read](./../tag/live-script-read/)[technical](./../tag/technical/)

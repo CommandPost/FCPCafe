@@ -6,8 +6,6 @@ layout: blog
 ---
 # Itacoatiara
 
-**Written by Jacqui Hocking on 17th December 2013**
-
 Way back in March this year, I once again had the privilege of filming for the Swiss non-profit organisation [myclimate](http://www.myclimate.org). The more I work with this energetic team, the more respect and admiration I have for their projects.
 
 This time, the destination was [Itacoatiara](http://en.wikipedia.org/wiki/Itacoatiara), which resides by the famous Amazon River. I was being sent to film another carbon-offset project, this time a biomass energy plant. The plant, BK Energia, is situated in the heart of the Amazon Rainforest of Brazil.

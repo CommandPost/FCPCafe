@@ -6,8 +6,6 @@ layout: blog
 ---
 # Everything is going exactly according to plan…
 
-**Written by Chris Hocking on 11th May 2008**
-
 Ok, so there may be a slight hint of sarcasm in the title for today. Unfortunately everything is not going exactly according to plan – but it’s not a complete disaster either! Yet – anyway! Nah, I’m kidding. We’re seriously heading in the right direction – a lot slower than we hoped, but on course none-the-less.
 
 Boy, oh, boy! What a week it’s been! On Tuesday it was back to uni for our production class. We had a discussion on post production, which was actually really helpful for us. Of course, once class was over it was just back to work – replying to e-mails, working on the script, completing documentation, drawing up costume designs, researching, the list goes on! Looking back in my diary, the “to-do list” which came out of Tuesday completely filled the page from top to bottom, and there was even righting horizontal on the page. So many things to do – so little time!

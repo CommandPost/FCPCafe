@@ -6,8 +6,6 @@ layout: blog
 ---
 # And so, the adventures begins…
 
-**Written by Chris Hocking on 7th August 2010**
-
 It’s with great pleasure and excitement that I welcome you to the all new **SHOTGUN!** behind the scenes blog. For those of you that have been following some of the work we’ve done at [LateNite Films](./../index/ "LateNite Films") over the years, you’ll know that we’re all a bit geeky (in a good way!) and enjoy making the most of the power of the Internet and social networking, but more importantly, we just honestly love the whole filmmaking process and really want to share any new knowledge we pick up along the way with other like-minded people.
 
 Following the lead of other website’s such as Peter Jackson’s [Kong is King](http://www.kongisking.net/kong2005/proddiary/ "Kong is King") production diaries, the [One Ring](http://www.theonering.net/ "The One Ring") production diaries, everything that [Chris Jones](http://www.chrisjonesblog.com "Chris Jones Blog") does, and even the online production diaries of smaller Australian films such as Glendyn Ivin’s [Last Ride](http://www.lastridemovie.com/ "Last Ride"), we are attempting to document the whole production process from beginning to end, from day one. Well… almost day one. In actual fact SHOTGUN! has been in development for many years already, however [LateNite Films](./../index/ "LateNite Films") have only recently jumped on board, teaming up with [Alistair Marks](http://www.alistairmarks.com "Alistair Marks") to help ensure that this amazing script gets off the page and into cinemas!
@@ -35,5 +33,3 @@ Thanks for visiting! Make sure you bookmark this page, as the best it very much 
 *To infinity… and beyond!*
 
 Best Regards, *Chris!*
-
-[information](./../tag/information/)[story](./../tag/story/)

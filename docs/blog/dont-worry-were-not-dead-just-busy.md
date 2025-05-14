@@ -6,8 +6,6 @@ layout: blog
 ---
 # Don’t worry… We’re not dead! Just busy!
 
-**Written by Chris Hocking on 4th May 2009**
-
 Apologies for keeping you all out of the loop last month. It was certainly never my intention – we’ve just been flat out as always! However, those that have been following us on [twitter](http://www.twitter.com/latenitefilms "twitter") at least know we’re alive, as we’ve been regularly posting cool things we come across.
 
 I’m going to make this brief – as we’ve got lots happening at the moment. Here’s what’s been going on:

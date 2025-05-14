@@ -6,8 +6,6 @@ layout: blog
 ---
 # Post Production Workflow
 
-**Written by Chris Hocking on 23rd December 2008**
-
 When we first started thinking about the best way to put together the Sakooz trailer, we originally thought that Super 16mm and a film scan route would be the most appropriate option given our budget, and the “Hollywood trailer” look that we were after. However, after various camera tests (we’ll post some further information on these tests another time), and a bit of number crunching, it became clear pretty quickly that shooting on the RED ONE was going to achieve better results, cost less and make the post production just that little bit easier (at least in theory) by keeping everything digital. And so, after getting in touch with Cail & Pete from [Inspiration Studios](http://www.inspirationstudios.com.au "Inspiration Studios"), and doing some tests with their brand new toy camera – we decided to shoot the Sakooz trailer on RED.
 
 In terms of Principle Photography, everything pretty much ran exactly the same as if we were shooting on film. We lit it exactly the same way, and Ben (our DOP) still had his light meter by his side. Because we needed to shoot so much very quickly (time wasn’t on our side), I decided against setting up a “video village” and even a directors monitor – preferring to be there in the action, behind Ben, peaking over his shoulder to watch the on-camera LCD. This worked really well.

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Lightworks – Day One
 
-**Written by Chris Hocking on 1st December 2010**
-
 ![](/static/blog/2010-12-lightworks2.jpg "Lightworks Screenshot")
 
 At 3:30 in the morning today, I received an e-mail from [EditShare](http://www.editshare.com/ "Edit Share") announcing that the first public beta release of **Lightworks 10.0** was released into the wild. Unfortunately I’ve had quite a bit on today – however I have managed to do a couple of tests, and do a bit of mucking around. Over the next few months we will do a lot more detailed testing, and also cut together some actual projects on the system. However in the meantime, the amount of misinformation out there already is mind-blowing, so I thought I’d quickly run through some of the basic’s. Please be aware however, that I’m no expert – and this is really the first time I’ve ever had a good play with the Lightworks platform. I have known about them for years, and have read a lot about them – but never actually used one.

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Swinburne Lecture August 2012
 
-**Written by Chris Hocking on 27th August 2012**
-
 ![](/static/blog/08-swinburne_01-590x331.jpg "swinburne_01")
 
 For the last couple of years I’ve been very fortunate to be invited along to [Swinburne University](http://www.swinburne.edu.au/) to talk to the 3rd and 4th Year Students about the sleepless world of Post Production, and was lucky enough to be invited back again a few weeks ago. I always really enjoy chatting to the students at Swinburne, because having studied there, I can bring a lot of tips and tricks based around the gear they have access to at the University, and also offer advice from not only someone that works in high-end post production (as my “day job” is the Post Production Supervisor at [The Butchery](http://thebutchery.com.au/) & [The Refinery](http://therefinery.net.au/)), but also someone who works on projects where everything is done run-and-gun and indie-style. I think this is really important, because although it’s nice tell people about jobs with big budgets and fancy cameras – the reality is that a lot of people straight out of University will have to do things with less money, and have to come up with creative ways to achieve the look they’re after.

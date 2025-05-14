@@ -6,13 +6,13 @@ layout: blog
 ---
 # Year in Review 2014 – Part 1
 
-**Written by Nicholas Colla on 27th December 2014**
-
 Just the other day after purchasing a pork roll (no chirri) from my favourite Vietnamese pork roll emporium on Smith Street, I took a moment to think about the ridiculous year that 2014 had been. In a personal sense, a company sense and just a general world sense.
 
 With that in mind I hope you enjoy our traditional end of year blog which covers the highs and lows of what has been the Chinese Year of the Horse [#notadickjoke](https://twitter.com/hashtag/notadickjoke).
 
-#### JANUARY
+---
+
+## JANUARY
 
 As aways Jan is a bumper month for movies being the lead up to Oscar season so it’s hard to pick a favourite. People seemed to have a love/hate relationship with [Inside Llewyn Davis](http://www.imdb.com/title/tt2042568/), some people describing it to me as depressing. I was a huge fan on first viewing and an even bigger one on the second. Definitely places in my top 5 films of 2014!
 
@@ -26,7 +26,9 @@ Well, she spent most of the month just kinda hanging around.
 
 ![](/static/blog/12-jacqui.jpg)
 
-#### FEBRUARY
+---
+
+## FEBRUARY
 
 February at the cinema served up a similar quality to January with films like [Blue is the Warmest Colour](http://www.imdb.com/title/tt2278871/), [Dallas Buyers Club](http://www.imdb.com/title/tt0790636/), [The Past](http://www.imdb.com/title/tt2404461/) and [Labour Day](http://www.imdb.com/title/tt1967545/) (minus the sexy pie making scene) being released. My pick though was another film directed by a favourite of mine, [Nebraska](http://www.imdb.com/title/tt1821549/). I’d seen it in Cannes the year before and the beautiful simplicity of it really got to me. Helped that it had a string of knockout performances by [June Squibb](http://www.imdb.com/name/nm0820053/), [Will Forte](http://www.imdb.com/name/nm0287182/) and of course [Bruce Dern](http://www.imdb.com/name/nm0001136/).
 
@@ -50,7 +52,9 @@ The month was ended with this little gem from Michael Shanks featuring me in a w
 
 Fit like a glove.
 
-#### MARCH
+---
+
+## MARCH
 
 If you went to the cinemas in March, choosing a movie was like choosing your favourite member of One Direction at gun point. The list of terrible films that were released was as long as Michael Fassbender’s penis with films like [I, Frankenstein](http://www.imdb.com/title/tt1418377/), [Pompeii](http://www.imdb.com/title/tt1921064/), [The Monuments Men](http://www.imdb.com/title/tt2177771/), an unnecessary [300 sequel](http://www.imdb.com/title/tt1253863/) and [Cuban Fury](http://www.imdb.com/title/tt2390237/).
 
@@ -66,7 +70,9 @@ The rest of March included another Windsor Smith TVC, some casting for the Daper
 
 ![shanks](/static/blog/12-shanks.jpg)
 
-#### APRIL
+---
+
+## APRIL
 
 I’ve yet to include a trailer with whimsy. So although the month of April saw the release of some great films like [Captain America: The Winter Soldier](http://www.imdb.com/title/tt1843866/), [The Lego Movie](http://www.imdb.com/title/tt1490017/) and [Only Lovers Left Alive](http://www.imdb.com/title/tt1714915/), I opted for whimsy in glorious 4:3.
 
@@ -82,7 +88,9 @@ Not a bad way to end the month.
 
 ![rocketman](/static/blog/12-rocketman.jpg)
 
-#### MAY
+---
+
+## MAY
 
 May brought us a weird mish mash of blockbusters and low budget indies. A particular favourite of mine was [Chef](http://www.imdb.com/title/tt2883512/), directed by [John Favreau](http://www.imdb.com/name/nm0269463/). It was a big change for the director after spending the last few years in blockbuster land and a welcome one at that.
 

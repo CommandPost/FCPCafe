@@ -6,8 +6,6 @@ layout: blog
 ---
 # MIFF 2007 Documentary Shorts Programme 2
 
-**Written by Chris Hocking on 21st August 2007**
-
 I Want to Be a Pilot, is a depressing and eye-opening film about a 12-year-old boy who lives in the slums of East Africa, and only has one dream in life – to become a pilot, so that he can escape the world he’s grown up in, and fly away to see his parents. The narration right throughout the film, by the boy, is incredibly effective. The visuals, showing the wasteland that he lives in is dirty and grotty film that really fits in with the whole theme of the film. It’s a sad film, for obvious reasons, but is very powerful, and is a great film for highlighting the poverty problems in Africa.
 
 Human Performance and Limitations, is an odd film that has lots of observational footage of an aircraft, with a voice over from a supposedly very skilled and experienced neurologist who believed his pilot on a recent flight was either on drugs or mentally unstable. However, it reveals that this was not the case – the pilot was drug free and mentally healthy. Although it was interesting the watch, the conclusion pretty much destroyed the film. I think I missed the point of it. It apparently is supposed to reflect the anxiety surrounding plane travel after September the 11th, but it doesn’t make any reference to what year it was supposed to be, so that’s pretty useless.

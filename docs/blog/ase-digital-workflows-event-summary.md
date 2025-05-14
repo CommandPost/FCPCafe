@@ -6,8 +6,6 @@ layout: blog
 ---
 # ASE Digital Workflows Event Summary
 
-**Written by Chris Hocking on 31st July 2012**
-
 ![](/static/blog/07-digital-workflows-554x590.jpg "digital-workflows")
 
 Tonight I had the pleasure of talking to members of the [Australian Screen Editors](http://www.screeneditors.com/) guild about “Digital Workflows”. The event was recorded, so at some stage in the future, I’d imagine you’ll be able to see it online – but in the meantime, here are some quick notes from the discussions, just so that people can easily find things we were talking about.

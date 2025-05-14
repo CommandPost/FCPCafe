@@ -6,8 +6,6 @@ layout: blog
 ---
 # Sir Peter Jackson
 
-**Written by Nicholas Colla on 15th August 2010**
-
 I was in Bali over the last week and was reading Peter Jackson’s biography and one thing became evident to me. There is a single reason why that man succeeded, in not only becoming a brilliant film maker, but also making people stand up and take notice of his homeland.
 
 And that reason isn’t luck. He wasn’t in the right place at the right time or slept with the right person or even knew someone who was in the right place in the right time so that they could sleep with the right person.

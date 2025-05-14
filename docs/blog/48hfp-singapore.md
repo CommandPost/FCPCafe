@@ -6,8 +6,6 @@ layout: blog
 ---
 # 48HFP Singapore
 
-**Written by Jacqui Hocking on 10th December 2014**
-
 ![48-bts-00](/static/blog/12-48-bts-00.jpg)
 
 Every year, the LateNite Films team competes in the [48 Hour Film Project](https://www.48hourfilm.com). As a documentary filmmaker, **if** I’m in the country, I’ve always helped out in whatever way I can, as an editor, AD or simply carrying heavy boxes up stairs.

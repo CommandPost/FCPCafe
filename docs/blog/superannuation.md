@@ -6,13 +6,11 @@ layout: blog
 ---
 # Superannuation for Filmmakers
 
-**Written by Chris Hocking on 6th June 2018**
-
 This blog post was last updated on the **8th June 2018**.
 
 ---
 
-### Disclaimer
+## Disclaimer
 
 Ok – lets start with a massive disclaimer to get the ball rolling…
 
@@ -34,7 +32,7 @@ And with that out of the way, *let’s begin…*
 
 ---
 
-### What is Superannuation?
+## What is Superannuation?
 
 Superannuation – more commonly known as just “super” – is essentially money that’s put aside and saved whilst you’re working, so that you can have a regular income when you retire.
 
@@ -54,7 +52,7 @@ There are also some very limited circumstances when you can [access your super e
 
 ---
 
-### HOW DO YOU GET PAID SUPER?
+## How Do You Get Paid Super?
 
 For most people, super begins when you start work and your employer starts paying super for you.
 
@@ -92,7 +90,7 @@ Your super is your savings for retirement. It is important to be aware of what s
 
 ---
 
-### THE SUPER DILEMA
+## The Super Dilema
 
 In theory – superannuation should be really simple, but there’s still a lot of confusion surrounding it – especially in the Film & Television world (although it also happens in [hospitality](http://www.abc.net.au/news/2018-05-18/hospitality-workers-chase-millions-in-unpaid-superannuation/9772546) & [construction](https://www.dailytelegraph.com.au/news/nsw/superannuation-bad-bosses-pocket-3-billion-of-your-super/news-story/fbc58516c6edd9ace9037b59cf7abbfb) too!), where a lot of people in the industry are freelancers and contractors. It’s also slightly more complicated than you might initially think as there’s some additional rules and clauses you need to take into consideration when using standard SPA/MEAA agreements for both cast and crew (explained below).
 
@@ -110,7 +108,7 @@ So what’s the problem exactly?
 
 ---
 
-### EMPLOYEE VS CONTRACTOR
+## Employee Vs Contractor
 
 If you employ someone as [PAYG](https://www.ato.gov.au/Business/PAYG-withholding/) (i.e. they get a payslip each pay cycle), and they’re **over 18** and earning **more than $450 gross a month**, then it’s pretty much a no-brainer – they’re an employee and [you have to pay them superannuation](https://www.ato.gov.au/Business/Super-for-employers/Working-out-if-you-have-to-pay-super/) – there’s no discussion or confusion.
 
@@ -144,7 +142,7 @@ If you need superannuation advice from the ATO, I would suggest [completing this
 
 ---
 
-### PTY LTD CoMPANIES
+## PTY LTD Companies
 
 To [quote the ATO](https://www.ato.gov.au/Business/Employee-or-contractor/How-to-work-it-out--employee-or-contractor/):
 
@@ -277,7 +275,7 @@ There’s also nothing stopping a sound recordist from doing PAYG for the labour
 
 ---
 
-### SUPER FOR FILM CREW
+## Super For Film Crew
 
 Most crew working in Film & Television will be working within the [Motion Picture Production Collective Agreement (MPPCA)](https://www.meaa.org/download/mppa-summary-2018/) and/or the [Broadcasting and Recorded Entertainment Award 2010 (BREA)](https://www.fwc.gov.au/documents/documents/modern_awards/award/MA000091/default.htm).
 
@@ -287,11 +285,11 @@ The **MPPCA** states:
 >
 > (a) In this clause:
 >
-> (i) “the Act” means the Superannuation Guarantee (Administration) Act 1992;  
-> (ii) “remuneration” means the employee’s gross agreed remuneration as defined in this Agreement;  
-> (iii) “quarter” means a period of 3 months beginning on 1 January, 1 April, 1 July or 1 October. (iv) “contribution period” means the six-monthly period from 1 January to 30 June or 1 July to 31 December;  
-> (v) “maximum contribution assessment amount” shall be equal to the sum of twice the maximum contribution base calculated pursuant to the Act for any quarter;  
-> (vi) “the fund” means MEDIA Super, Australian Super, or any complying superannuation fund nominated by the employee and agreed by the Employer;  
+> (i) “the Act” means the Superannuation Guarantee (Administration) Act 1992;
+> (ii) “remuneration” means the employee’s gross agreed remuneration as defined in this Agreement;
+> (iii) “quarter” means a period of 3 months beginning on 1 January, 1 April, 1 July or 1 October. (iv) “contribution period” means the six-monthly period from 1 January to 30 June or 1 July to 31 December;
+> (v) “maximum contribution assessment amount” shall be equal to the sum of twice the maximum contribution base calculated pursuant to the Act for any quarter;
+> (vi) “the fund” means MEDIA Super, Australian Super, or any complying superannuation fund nominated by the employee and agreed by the Employer;
 > (vii) “superannuation contributions” means payments made by the Employer calculated pursuant to sub-clauses (b) and (c) below.
 >
 > (b) In respect of each employee engaged under the terms of the Agreement, in addition to all other amounts payable under this Agreement the Employer shall pay into the employee’s account with the fund an additional amount equal to **9% of the employee’s remuneration** up to the maximum contribution assessment amount for the contribution period. (The maximum quarterly contribution base amount for the financial year 2009/2010 is $40,170 therefore the maximum contribution assessment amount for any contribution period for the financial year 2009/2010 is $80,340.)
@@ -312,7 +310,7 @@ For further information on this agreement, please contact [Screen Producers Aust
 
 ---
 
-### SUPER FOR ACTORS
+## Super For Actors
 
 In addition to having [their own special tax rate](https://www.ato.gov.au/Rates/Schedule-3---Tax-table-for-actors,-variety-artists-and-other-entertainers/), if an actor is employed under the [Actors Television Programs Agreement (ATPA)](https://www.meaa.org/download/australian-television-programs-agreement-atpa-summary/), or the [Australian Feature Film Collective Agreement (AFFCA)](https://www.meaa.org/download/equ-agmt-affca-2012/), they also have different superannuation rates than your average worker (including film and television crew), in a similar way that people working in the public sector also [get a higher superannuation rate](https://www.finance.gov.au/superannuation/arrangements-for-australian-government-employees/pssap/).
 
@@ -328,8 +326,8 @@ The **AFFCA** states:
 >
 > (b) Juvenile Artists shall not be entitled to the benefits of this clause unless:
 >
-> (i) The Juvenile is engaged on a 12 week contract or longer; or  
-> (ii) The Juvenile has been employed in the Entertainment Industry for a minimum of six professional engagements; or  
+> (i) The Juvenile is engaged on a 12 week contract or longer; or
+> (ii) The Juvenile has been employed in the Entertainment Industry for a minimum of six professional engagements; or
 > (iii) The Juvenile has previously been employed in the entertainment industry for a minimum of 30 days.
 >
 > (c) The Producer shall **make contributions to any Artist over the age of 70**, who would not otherwise have received a contribution as a consequence of section 27(1)(a) of the Superannuation Guarantee (Administration) Act 1992. Therefore the provision of section 27(1)(a) of the Superannuation Guarantee (Administration) Act 1992 will not apply to this agreement. In the event that a Producer is not able to make contributions to a superannuation fund on the Artists behalf the Producer will make a payment, equal to the required superannuation contribution identified in clause 40(a), directly to the Artist and will identify the payment on the Artists statement of earnings as a “superannuation payment.”
@@ -342,8 +340,8 @@ The **ATPA** on the other hand states:
 >
 > (c) Juvenile Artists shall not be entitled to the benefits of this clause unless:
 >
-> (i) The Juvenile is engaged on a 12 week contract or longer; or  
-> (ii) The Juvenile has been employed in the Entertainment Industry for a minimum of six professional engagements; or  
+> (i) The Juvenile is engaged on a 12 week contract or longer; or
+> (ii) The Juvenile has been employed in the Entertainment Industry for a minimum of six professional engagements; or
 > (iii) The Juvenile has previously been employed in the entertainment industry for a minimum of 30 days.
 >
 > (c) The Producer shall **make contributions to any Artist over the age of 70**, who would not otherwise have received a contribution as a consequence of section 27(1)(a) of the Superannuation Guarantee (Administration) Act 1992. Therefore the provision of section 27(1)(a) of the Superannuation Guarantee (Administration) Act 1992 will not apply to this agreement. In the event that a Producer is not able to make contributions to a superannuation fund on the Artists behalf the Producer will make a payment, equal to the required superannuation contribution identified in clause 40(a), directly to the Artist and will identify the payment on the Artists statement of earnings as a “superannuation payment.”
@@ -354,25 +352,25 @@ For further information on these agreements, please contact [Screen Producers Au
 
 ---
 
-### SUPER FOR ARTISTS
+## Super For Artists
 
 [The National Association for the Visual Arts](https://visualarts.net.au) has a [Fees & Wages PDF](https://visualarts.net.au/media/uploads/files/CHAPTER_7_-_2017_5.pdf) which covers superannuation. It’s well worth a read.
 
 ---
 
-### SUPER FOR EDITORS
+## Super For Editors
 
 [The Australian Screen Editors](https://www.screeneditors.com.au) has both a [public](http://www.screeneditors.com.au/wp-content/uploads/2011/12/ASE-Rates-and-conditions_public_2017.pdf) and a [members only](http://www.screeneditors.com.au/resources/wages-condition/) rate card which also covers superannuation and the employer versus contractor discussion. This document is extremely detailed and well written, so well worth reading in detail.  Keep in mind however that the ASE is a guild and not a union, and they can not enforce rates and conditions.
 
 ---
 
-### MAKING LIFE EASIER FOR PRODUCTION COMPANIES
+## Making Life Easier For Production Companies
 
 It’s really annoying and time consuming to have to chase up superannuation details for contractors and freelancers. When you send your ABN Sole Trader invoice, please make sure you also send a completed [Super Choice form](https://www.ato.gov.au/uploadedFiles/Content/SPR/downloads/SPR56761NAT13080.pdf) along with a [Tax File Number declaration](https://www.ato.gov.au/Forms/TFN-declaration/) (as we need your Tax File Number & Date of Birth for Superannuation processing). It’s also a good idea to include your superannuation details on your Tax Invoice, if you have a Sole Trader ABN, as it will make the production companies book keeper very happy.
 
 ---
 
-### PENALTIES FOR NOT PAYING SUPER
+## Penalties For Not Paying Super
 
 If a company does not meet their [super guarantee obligations](https://www.ato.gov.au/business/super-for-employers/how-much-to-pay/), they may be liable for a range of penalties or charges **on top** of the super guarantee charge. Interest can be charged, as well an Administrative penalty, and fines for failing to keep records, failing to offer an employee a choice of super, failing to pass on a tax file number and failing to provide an SGC statement when required. This can add up REALLY quickly.
 
@@ -384,7 +382,7 @@ For further information refer to the ATO’s page on [Penalties, amendments and
 
 ---
 
-### WHAT DO I DO IF I’M OWED SUPER?
+## What Do I Do If I’m Owed Super?
 
 The first step is always to contact your employer, and explain the situation. Given how long this blog post already is, you can see just how complicated and confusing superannuation can be – so chances are your employer was just mis-informed, or made an honest mistake, and will happily help you resolve.
 
@@ -402,7 +400,7 @@ Subject to the passage of legislation, the Amnesty will be available from **24 
 
 ---
 
-### INSURANCE & WORKERS COMP
+## Insurance & Workers Comp
 
 If you’re working as a contractor or run your own PTY LTD, it’s also really important to know and understand the implications when it comes to insurance (including, but not limited to Public Liability & Professional Indemnity insurance) and also Workers Compensation (which varies from state to state in Australia – just to make the whole topic extra confusing). It’s vital that you know what policy you’re covered under, so that if something unfortunate and unexpected does happen, you don’t have to worry about the insurance side of things.
 
@@ -412,7 +410,7 @@ The Fair Work Ombudsman has links to all the [individual states and territories
 
 ---
 
-### SUGGESTIONS FOR THE ATO & WIDER INDUSTRY
+## Suggestions For The ATO & Wider Industry
 
 As you can see Superannuation is a fairly complex and complicated topic, especially for those of us in the Film & Television industries.
 
@@ -425,7 +423,7 @@ Here’s some things I’d LOVE to see implemented by the ATO & Industry Guilds 
 
 ---
 
-### WHERE DO I LEARN MORE?
+## Where Do I Learn More?
 
 There is a HEAP of information on the [ATO website](https://www.ato.gov.au/Super/).
 

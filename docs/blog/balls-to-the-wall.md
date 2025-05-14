@@ -1,12 +1,10 @@
 ---
 title: Balls To The Wall
 date: 2010-11-16
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Balls To The Wall
-
-**Written by Guest Blogger on 16th November 2010**
 
 I had been pretty fucked off after the script read. Not because of the feedback, not because the script was not where I thought it was. Because I felt like we lost our balls. Like I lost my balls a little bit. I got so fucking caught up in the whirlwind of trying to appease everyone, as we all did, that we lost sight of what we were trying to achieve – making the film WE wanted to see, with the help of the people around us. I didn’t even take the time to consider how exactly I wanted the script to be developed, I was too busy trying to accommodate those around me, close & far. And in the midst of all this, I thought I’d take a step back from my producing responsibilities and try to focus on the writing/directing side of things. Little did I realise that my chief responsibility as a producer had been to push the project along, be the heart & soul of the thing. Even having Chris point this out to me, I still thought it to be their responsibility to keep this train arolling. NO! NO FUCKING NO!
 

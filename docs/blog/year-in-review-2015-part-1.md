@@ -6,8 +6,6 @@ layout: blog
 ---
 # Year in Review 2015 - Part 1
 
-**Written by Nicholas Colla on 26th December 2015**
-
 So this is pretty weird.
 
 I’m writing to you from the end of the year.
@@ -18,7 +16,9 @@ Well that’s what it feels like anyway. I swear I just wrote one of these end o
 
 Bizarre.
 
-#### JANUARY
+---
+
+## JANUARY
 
 It’s funny to think that *Birdman* was released here in January considering the director’s next film *The Revenant* is gearing up to be unleashed onto the world this coming January. Regardless, *Birdman* is a filmmaking masterclass, a director right at the top of his game which is why it won Best Picture at the Academy Awards and also won this bloke about $50 bucks. Yup. I gamble on the Oscars – what a douche.
 
@@ -28,7 +28,9 @@ So January started with us getting the green light for what would become Michael
 
 Whilst that was going on we also had our short films [Palindromes](./../portfolio/palindromes/) & [Rocketman](./../portfolio/rocketman/) screening at the prestigious Flickerfest in Sydney and of course Shanks still found some time to knock out this wee little gem:
 
-#### FEBRUARY
+---
+
+## FEBRUARY
 
 So aside from the fact that the script was full of plot holes, Samuel L Jackson’s character having a really bizarre lisp and a weird anal joke at the end of the film – Kingsman kicked some serious arse. It was explosive, fun, beautifully executed and far from what anyone I think was expecting. It was also another tick in the very slick cannon of Matthew Vaughn films.
 
@@ -38,7 +40,9 @@ So whilst pre-production was still motoring along on Wizards, [Palindromes](./..
 
 And shortly after that Hocking, Shanks and myself jumped on different planes and headed over to the US of A…
 
-#### MARCH
+---
+
+## MARCH
 
 Now this wasn’t necessarily my favourite film of this month HOWEVER it was one of my favourite trailers (Hugh Jackman with a mullet – SHIT YES!) and it was also a film I got to see in LA with Shanks, Hocking and a host of other friends at the TCL Chinese Theatre in Hollywood. So it’s a little sentimental which is nice.
 
@@ -60,7 +64,9 @@ But that’s not for this blog – we’ll have more Wizards BTS than you can th
 
 ![05_eve](/static/blog/12-05_eve.jpg)
 
-#### APRIL
+---
+
+## APRIL
 
 Again not my favourite but April was one of those months where you’d be hard pressed to find another film that really blew my socks off. Avengers is like any other Marvel film these days. Sure it’s entertaining as hell but it’s a bit same same. We’ve seen all those battles before, the storyline feels vaguely familiar and it’s the same old faces playing the same old characters. But like I said – still entertaining as hell.
 
@@ -78,7 +84,9 @@ The Daperis boys were constructing an underwater bar… yep. You heard me.
 
 ![08_underwater](/static/blog/12-08_underwater.png)
 
-#### MAY
+---
+
+## MAY
 
 And so came May and with it the much anticipated Mad Max: Fury Road and boy did it not disappoint. Honestly, if George Miller doesn’t win a whole swag of Academy Awards for Production Design AT THE VERY LEAST, then something is seriously wrong with the world.
 
@@ -88,7 +96,9 @@ And so it came time to sink the huge underwater bar that the Daperis boys had pr
 
 And on top of editing Wizards, rotoscoping goblins and setting up an underwater communications system, Hocking managed to take the time out to talk on a Post Production panel at St Kilda Festival for the [ASE](http://www.screeneditors.com.au) (like he wasn’t busy enough already!).
 
-#### JUNE
+---
+
+## JUNE
 
 So there were some questionable big budget releases this month. I know Hocking will disagree with me but I was a little underwhelmed by Jurassic World, Terminator Genesis and Ted 2. There was a lot of expectation for all but for me they all missed the mark. Inside Out however was a surprise packet, making me feel all the feels when i went to see if with my mum. I know, I’m adorable.
 

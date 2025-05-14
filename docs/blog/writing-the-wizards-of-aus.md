@@ -1,12 +1,10 @@
 ---
 title: Writing The Wizards of Aus
 date: 2016-01-16
-author: Guest Blogger
+author: Nick Issell
 layout: blog
 ---
 # Writing The Wizards of Aus
-
-**Written by Guest Blogger on 16th January 2016**
 
 Hello there.
 

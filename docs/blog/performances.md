@@ -6,15 +6,13 @@ layout: blog
 ---
 # Performances
 
-**Written by Nicholas Colla on 7th January 2012**
-
 ![](/static/blog/01-we-need-to-talk-about-kevin-590x312.jpg "we-need-to-talk-about-kevin")
 
-#### **Great Story. Check.**
+**Great Story. Check.**
 
-#### **Solid Production Values. Check.**
+**Solid Production Values. Check.**
 
-#### **Performances………whoops.**
+**Performances………whoops.**
 
 Time and time again I see this problem with low budget filmmaking.
 

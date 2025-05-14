@@ -6,8 +6,6 @@ layout: blog
 ---
 # Marketing
 
-**Written by Nicholas Colla on 13th November 2010**
-
 So after what can only be described as a bizarre few weeks since the reading – the boys and I are back in the saddle and working our little asses off as per usual, and on a saturday no less.
 
 Anyway today Chris and I met up for what can only be described as a frustrating yet kinda fun afternoon. So often when things get hard you forget why you enter into something like film making because it gets so freakin hard your head wants to explode.
@@ -26,6 +24,6 @@ Eventually though, one of those cars that stopped happened to be another surpris
 
 The road may be long and I may get pissed off more and more at many different things (I have a tiny little fuse) along the way but as long as I can keep everything in perspective then I think we’re gonna be alright.
 
-……….and fuck it – if worst comes to worse at least I have some goldfish!
+...and fuck it – if worst comes to worse at least I have some goldfish!
 
 [![](/static/blog/2010-11-Marketing-Meeting.jpg "Marketing Meeting")](./../attachment_id320/)

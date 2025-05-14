@@ -6,8 +6,6 @@ layout: blog
 ---
 # Armadillo
 
-**Written by Chris Hocking on 7th March 2011**
-
 ![](/static/blog/2011-03-armadillo_ticket-441x329.jpg "armadillo_ticket")
 
 At film festivals, there are always a few war documentaries thrown into the mix. Normally they are either very anti-war, or very pro-solider. One of the reasons I really loved this film is that it wasn’t forcefully pushing an opinion either way – although there were definitely moments where it showed war in a very negative and horrible light, at other times, it really showcased the role of a soldier is being a vital role in the fight against terrorism. Although the film-maker would have definitely have had a bias one way or the other, they definitely treated the subject with a huge amount of respect, and left the audience with a lot of questions that they need to answer on their own.

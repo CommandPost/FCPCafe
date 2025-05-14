@@ -1,12 +1,10 @@
 ---
 title: ALL ABOARD!!
 date: 2010-10-15
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # ALL ABOARD!!
-
-**Written by Guest Blogger on 15th October 2010**
 
 There’s no turning back now!
 
@@ -16,9 +14,9 @@ The reality of my soul being on show to around about 40 people in the attendance
 
 All I can be certain of is this; that all of you watching, wherever that may be, however that may be (you can watch it on your iPhone if you don’t have a computer handy! Just download the “USTREAM Viewer” app & search for LateNite Films), that you are going to help me to make this the best damn film it can be!! Be constructive in your feedback & suggestion, but don’t censor yourself. If you think you’ve got a great idea after the read-through, fill out our little survey & tell me! I want to start a dialogue with whoever is out there paying attention – because that’s one fatal flaw in Australian filmmaking at the moment – these filmmakers are, for the most part, making films for themselves… Not for YOU, the people who pay the stupid money for the ticket (or the high-speed internet connection). So, if I can put my ego to one side…. Hold on.
 
-“Ego..”  
-“Why heeellllloooo, AL… And how are we feeling today?”  
-“Yeah, about that. I’m gonna need you to just check yourself into a nice hotel for the next few days.”  
+“Ego..”
+“Why heeellllloooo, AL… And how are we feeling today?”
+“Yeah, about that. I’m gonna need you to just check yourself into a nice hotel for the next few days.”
 “A hooooteeelllll? Why on earth would I want to do thaaaat? I don’t want to miss your LIIIIVEE SCRRIPT REEEAAAD!! STREAAAMING LIIIVE ACROSS THE WORLD- Hold on… What are you doing? No, you can’t… Put that DOWN!! No! NO!!!! NOOOOOO!!!!!!!!!!!!!!!!!!!-……….”
 
 Phew!! Well, now that that’s taken care of, let’s get this train-a-rolling!! I’M PUMPED!!
@@ -34,5 +32,3 @@ See you on the other side….
 AL.
 
 P.S. Be sure to tune in @ 6pm (<http://live.latenitefilms.com>) for a short Video introduction!
-
-[inspiration](./../tag/inspiration/)[live script read](./../tag/live-script-read/)[Photos](./../tag/photos/)

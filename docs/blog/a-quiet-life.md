@@ -6,8 +6,6 @@ layout: blog
 ---
 # A Quiet Life
 
-**Written by Chris Hocking on 9th March 2011**
-
 ![](/static/blog/2011-03-aquietlife_ticket-441x329.jpg "aquietlife_ticket")
 
 [A Quiet Life](http://www.imdb.com/title/tt1521090/ "IMDB") is the story of an Italian expatriate Rosario who runs a quiet, yet successful roadside restaurant and hotel with the help of his beautiful younger business driven wife, Renate. Rosario is the head chef in his kitchen, and pushes the boundaries of what’s normally on the German menu by dishing out wild boar and crabs in the same sitting (something that’s obviously not the norm in Germany given the reaction from the rest of the staff in the kitchen!). They live a quiet life, where running the business, looking after their young son Mathais, and trying to kill a whole bunch of trees with copper nails (as the council won’t allow them to cut them down unless they are dying), are their only joys, priorities and challenges.

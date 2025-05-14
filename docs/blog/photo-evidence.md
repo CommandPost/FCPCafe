@@ -6,8 +6,6 @@ layout: blog
 ---
 # Photo Evidence…
 
-**Written by Chris Hocking on 27th August 2008**
-
 As promised, here are a few snap shots of Pinky’s head and the spaceship construction in no particular order. Enjoy!
 
 ![David is working away on Pinky's head.](/static/blog/2008-08-sakooz_behind_the_scenes_001.jpg "David Working")
@@ -71,5 +69,3 @@ David is hard at work putting together the puppet components of Pinky's head.
 This is the Creature Laboratory, where Pinky is put together.
 
 And, don’t worry – there will be plenty of more photos and videos coming over the next couple of weeks! Until then… Chris!
-
-[Photos](./../tag/photos/)

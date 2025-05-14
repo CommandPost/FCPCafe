@@ -6,8 +6,6 @@ layout: blog
 ---
 # In A Better World
 
-**Written by Chris Hocking on 8th March 2011**
-
 ![](/static/blog/2011-03-inabetterworld_ticket-441x329.jpg "inabetterworld_ticket")
 
 At the Academy Awards this year, the beautiful and incredibly intelligent Susanne Bier picked up the Best Foreign-Language Film award, so the expectations for this film were obviously fairly high when we walked into the cinema. After an insightful question and answer session, we were straight into this extraordinary and exceptional work of art.

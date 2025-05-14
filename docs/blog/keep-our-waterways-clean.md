@@ -6,8 +6,6 @@ layout: blog
 ---
 # Keep Our Waterways Clean
 
-**Written by Jacqui Hocking on 18th December 2013**
-
 ![001](/static/blog/12-001.jpg)
 
 Since our Spinning Dreams (in Timor-Leste) Film in 2010 – Ashwin and I have worked together tirelessly together to create important Documentaries which inspire others. Four massive projects later in 4 countries around Asia, and over SG$100,000 raised for our causes, we created our first community message specifically directed to speak to the heart of local Singaporeans.

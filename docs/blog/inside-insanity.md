@@ -1,7 +1,7 @@
 ---
 title: Inside Insanity
 date: 2010-09-23
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Inside Insanity
@@ -13,7 +13,3 @@ Thank God for new technology, right? Now with the power of a phone in the palm o
 Anyway, here’s some proof. And some insight. In image form!
 
 From treating myself to a nicely printed & bound script (thanks OfficeWorks), to shot listing… Writing out scene by scene on flash cards… Scheduling… It’s all getting a bit mental!!
-
-[nggallery id=13]
-
-[behind the scenes](./../tag/behind-the-scenes/)[Photos](./../tag/photos/)

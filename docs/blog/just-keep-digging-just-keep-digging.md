@@ -6,8 +6,6 @@ layout: blog
 ---
 # Just keep digging… Just keep digging…
 
-**Written by Chris Hocking on 10th July 2008**
-
 It’s July already. How crazy is that. The last two weeks just flew by. It’s scary. Seriously.
 
 I’ve just looked through my diary, trying to remember what we’ve been doing since I last wrote on this blog, and to be honest – I have no idea. It’s been chaotic. I wish I had some exact stats – we’ve driven so many km’s, wrote thousands of e-mails, made hundreds of phone calls, seen hundreds of people, drank so much coffee, watched no TV, ate very little food, seen many fantastic locations, begged countless times, etc. over the last few weeks. I know I say this every single blog entry – but it’s true. Everything is getting rapidly more intense with every day.

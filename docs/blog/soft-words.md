@@ -6,6 +6,4 @@ layout: blog
 ---
 # Soft Words
 
-**Written by Chris Hocking on 21st August 2007**
-
 Soft Words is a very political film about how John Howard and the government misuse the English language for political gain. Mixing interviews with archive footage, as well as text overlay quotes; this is a very powerful short film that pushes its point incredibly well.

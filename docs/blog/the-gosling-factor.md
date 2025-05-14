@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Gosling Factor
 
-**Written by Nicholas Colla on 7th December 2011**
-
 Some of you might be wondering why Ryan Gosling is worth an entire blog post. Or perhaps why a young man in his mid 20’s (and not a horny girl/woman between the ages of 15 - 40) is writing about Ryan Gosling at all.
 
 ![](/static/blog/12-ryan-gosling-01-590x440.jpg "The Notebook - Production Still")

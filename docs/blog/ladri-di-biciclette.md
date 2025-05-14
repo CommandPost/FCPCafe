@@ -6,8 +6,6 @@ layout: blog
 ---
 # Ladri di biciclette
 
-**Written by Chris Hocking on 4th October 2007**
-
 Vittorio De Sica’s ninth film as director, *Ladri di biciclette*, has been widely cited as one of the finest films ever made and has helped cement the Italian-born actor/writer/director, as one of the world’s most influential and remarkable filmmakers of all time. Released in 1948, *The Bicycle Thief*, as it was titled in the US (or more accurately “Bicycle Thieves” if you go with the literal translation), is a seemingly simple film that has made and continues to achieve a massive impact on cinema viewers worldwide.
 
 Similar to his earlier work *Sciuscià* in many ways, Ladri di biciclette is also set in the ravages of post-war Italy, and features non-actors (De Sica cast Lamberto Maggiorani over Cary Grant and Henry Forda because of the way he walked – preferring realism over profile) to tell an unpretentious story about ordinary people struggling in an extremely challenging time where poverty was a dire reality. It’s the tale of *Antonio Ricci* – just an average man, trying to earn enough money to keep his family alive. Every day he waits outside a government employment agency in Rome alongside fellow unemployed labourers, hoping that there will be a job out there with his name on it. He gets lucky, and is selected for a duty that requires him to hang posters around the city. It’s nothing fancy, but it will earn him enough money for his family to get by. Unfortunately though, this position requires a bicycle – a possession he has previously submitted to a pawn shop to sustain his family’s meagre existence for just a couple more days. Trapped in a helpless situation where he needs a bicycle to get money, but needs money to get to his bicycle, Antonio returns to the pawn shop with his extremely supportive wife Maria by his side, and forfeits one of their family’s last remaining possessions, their matrimonial linen, in order to redeem the bicycle. Now with a bike and a job, things are looking up for Antonio. He’s truly happy for the first time in years – but as the title suggests, it’s going to be far from easy riding.
@@ -32,13 +30,14 @@ To fund most of his films, De Sica worked as an actor right throughout his 150+ 
 
 Long before life was beautiful, and only shortly after the city was open, Ladri di biciclette shows that there are no heroes, and that not all criminals are evil; that people are simply human – flawed and corruptible. But it’s not all negative – even in the direst of times, with the right person by your side, you can slog your way through anything…
 
-**References:**
+---
+## References:
 
-* De Sica, V (1948), *Ladri di biciclette*, DVD, Compass Film SRL, Italy.
-* *That’s Life!*, DVD (Special Feature), Compass Film SRL, Italy.
-* Thomas Samuels, C 1987, *Encountering Directors*, Da Capo Pr, New York.
-* Cheshire, G 2006, Bicycle Thieves, The Criterion Collection, viewed 1st October 2007, <http://www.criterion.com/asp/release.asp?id=374&eid=522&section=essay&page=3>
-* *Ladri di biciclette (1948)*, Internet Movie Database Inc., viewed 1st October 2007, <http://www.imdb.com/title/tt0040522/>.
-* *Vittorio De Sica*, Internet Movie Database Inc., viewed 1st October 2007, <http://www.imdb.com/name/nm0001120/>.
-* Wikipedia contributors 2007, *Bicycle Thieves*, Wikipedia, viewed 1st October 2007, <http://en.wikipedia.org/wiki/Bicycle_Thieves>
-* Wikipedia contributors 2007, *Vittorio De Sica*, Wikipedia, viewed 1st October 2007, <http://en.wikipedia.org/wiki/Vittorio_De_Sica>
+- De Sica, V (1948), *Ladri di biciclette*, DVD, Compass Film SRL, Italy.
+- *That’s Life!*, DVD (Special Feature), Compass Film SRL, Italy.
+- Thomas Samuels, C 1987, *Encountering Directors*, Da Capo Pr, New York.
+- Cheshire, G 2006, Bicycle Thieves, The Criterion Collection, viewed 1st October 2007, <http://www.criterion.com/asp/release.asp?id=374&eid=522&section=essay&page=3>
+- *Ladri di biciclette (1948)*, Internet Movie Database Inc., viewed 1st October 2007, <http://www.imdb.com/title/tt0040522/>.
+- *Vittorio De Sica*, Internet Movie Database Inc., viewed 1st October 2007, <http://www.imdb.com/name/nm0001120/>.
+- Wikipedia contributors 2007, *Bicycle Thieves*, Wikipedia, viewed 1st October 2007, <http://en.wikipedia.org/wiki/Bicycle_Thieves>
+- Wikipedia contributors 2007, *Vittorio De Sica*, Wikipedia, viewed 1st October 2007, <http://en.wikipedia.org/wiki/Vittorio_De_Sica>

@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Hard Drive Challenge
 
-**Written by Chris Hocking on 12th December 2013**
-
 ![drives](/static/blog/12-drives.jpg)
 
 I’ll be honest – I’m a bit of a hoarder and collector. I absolutely love film books, DVDs and all kinds of film gear. Our office, and my home (especially the garage!) is jam packed with all kinds of wonderful film related books, DVDs, BluRay’s, Lights, Grip Gear, Tripod’s, Magic Arm’s, etc.
@@ -20,7 +18,9 @@ There is always lots of discussion on the Internet about the shelf life of hard 
 
 To give you some idea of what limits a hard drives shelf life, the longevity of the data stored on any drive depends on the conditions where it is stored and for how long. For hard drives, there are three main factors: **magnetic field breakdown, environmental conditions, and mechanical failure.**
 
-#### Magnetic Field Breakdown
+---
+
+## Magnetic Field Breakdown
 
 Most sources state that permanent magnets lose their magnetic field strength at a rate of 1% per year. Assuming this is valid, after ~69 years, we can assume that half of the sectors in a hard drive would be corrupted (since they all lost half of their strength by this time). Obviously, this is quite a long time, but this risk is easily mitigated – simply re-write the data to the drive. How frequently you need to do this depends on the following two issues…
 
@@ -28,13 +28,17 @@ To periodically refresh the data on the drive, simply transfer it to another loc
 
 You can also help to avoid this issue by archiving your data with recovery data and error correction when you put the data onto the drive. Many archive formats support the inclusion of data recovery algorithms, so even if you have a few corrupted sectors, you can still re-build the lost data.
 
-#### Environmental Conditions
+---
+
+## Environmental Conditions
 
 Some government organizations “sanitise” hard drives by exposing them to a very powerful magnetic field, effectively (and literally) removing the data from the hard drive by “resetting” all of the sectors. It’s important to note that storing a hard drive in, or near the presence of magnetic fields (alternating *or* static) will severely impact the data stored on the drive.
 
 [Geomagnetic storms](http://en.wikipedia.org/wiki/Geomagnetic_storm) have also been so powerful in some areas that they have actually corrupted hard disks in the past. If you worry about this issue, consider storing your drives in a basement or somewhere heavily insulated from the environment.
 
-#### Mechanical Failure
+---
+
+## Mechanical Failure
 
 Some people believe that the actual physical motor in the hard drive will fail long before the data on the disk platters degrades significantly. While this is an issue for a hard disk that has been sitting around for a long time, if the disk is used once in a while (at least every 3-5 years), this should mitigate this problem.
 
@@ -52,67 +56,67 @@ But with all that said and done, let’s fire up some drives and see what happen
 
 ![drive01](/static/blog/12-drive01-216x300.jpg)
 
-**Size:** 40GB**Result:** Success! Booted fine and was able to move data across to another drive.  
+**Size:** 40GB**Result:** Success! Booted fine and was able to move data across to another drive.
 **Contents:** Backup’s of my Brother’s Files from High School.
 
 ![drive02](/static/blog/12-drive02-223x300.jpg)
 
-**Size:** 160GB  
-**Result:** Required formatting, but seemed to work fine afterwards.  
+**Size:** 160GB
+**Result:** Required formatting, but seemed to work fine afterwards.
 **Contents:** Mystery!
 
 ![drive03](/static/blog/12-drive03-225x300.jpg)
 
-**Size:** 40GB  
-**Result:** Spins up, and recognised by computer, but won’t mount or format. Assuming hardware malfunction.  
+**Size:** 40GB
+**Result:** Spins up, and recognised by computer, but won’t mount or format. Assuming hardware malfunction.
 **Contents:** Mystery!
 
 ![drive04](/static/blog/12-drive04-220x300.jpg)
 
-**Size:** 250GB  
-**Result:** Success! Booted fine and was able to move data across to another drive.  
+**Size:** 250GB
+**Result:** Success! Booted fine and was able to move data across to another drive.
 **Contents:** Old Film Projects.
 
 ![drive05](/static/blog/12-drive05-222x300.jpg)
 
-**Size:** 85.3 MB  
-**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).  
+**Size:** 85.3 MB
+**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).
 **Contents:** Mystery!
 
 ![drive06](/static/blog/12-drive06-226x300.jpg)
 
-**Size:** 500MB  
-**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).  
+**Size:** 500MB
+**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).
 **Contents:** Mystery!
 
 ![drive07](/static/blog/12-drive07-224x300.jpg)
 
-**Size:** 42.7MB  
-**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).  
+**Size:** 42.7MB
+**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).
 **Contents:** Mystery!
 
 ![drive08](/static/blog/12-drive08-225x300.jpg)
 
-**Size:** 122MB  
-**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).  
+**Size:** 122MB
+**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).
 **Contents:** Mystery!
 
 ![drive09](/static/blog/12-drive09-226x300.jpg)
 
-**Size:** 40MB  
-**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).  
+**Size:** 40MB
+**Result:** Sounded very loud. The system detected the drive fine, but won’t mount due to a LBA (logical block addressing) issue caused by to the newer enclosure (i.e. thinks it’s a 2.2TB drive).
 **Contents:** Mystery!
 
 ![drive10](/static/blog/12-drive10-221x300.jpg)
 
-**Size:** 270MB  
-**Result:** Success!  
+**Size:** 270MB
+**Result:** Success!
 **Contents:** An installation of Microsoft Windows NT Server 4.0.
 
 ![drive11](/static/blog/12-drive11-224x300.jpg)
 
-**Size:** 10GB  
-**Result:** Success!  
+**Size:** 10GB
+**Result:** Success!
 **Contents:** A whole pile of awesome old stop frame animations and MIDI music. For example…
 
 ![drive12](/static/blog/12-drive12-224x300.jpg)
@@ -129,8 +133,8 @@ But with all that said and done, let’s fire up some drives and see what happen
 
 ![drive15](/static/blog/12-drive15-225x300.jpg)
 
-**Size:** 1055.9MB  
-**Result:** Success – although it sounded like death!  
+**Size:** 1055.9MB
+**Result:** Success – although it sounded like death!
 **Contents:** Windows 98SE installation with Premiere 6.5 & Sony Vegas installed for Video Editing.
 
 ![drive16](/static/blog/12-drive16-226x300.jpg)
@@ -167,8 +171,8 @@ But with all that said and done, let’s fire up some drives and see what happen
 
 ![drive24](/static/blog/12-drive24-222x300.jpg)
 
-**Size:** 80GB  
-**Result:** Success!  
+**Size:** 80GB
+**Result:** Success!
 **Contents:** 80GB of various sound effects.
 
 [![lacie](/static/blog/12-lacie.jpg)](/static/blog/12-lacie.jpg)

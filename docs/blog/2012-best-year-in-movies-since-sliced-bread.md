@@ -6,8 +6,6 @@ layout: blog
 ---
 # 2012. Best Year In Movies since… sliced bread?
 
-**Written by Nicholas Colla on 9th June 2012**
-
 ![](/static/blog/06-image1-590x397.jpg "The Dark Knight")
 
 Ok so it’s been a while since I’ve written a blog entry.

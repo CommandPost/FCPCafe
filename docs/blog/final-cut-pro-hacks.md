@@ -6,15 +6,13 @@ layout: blog
 ---
 # Final Cut Pro Hacks
 
-**Written by Chris Hocking on 15th September 2016**
-
 ![blog-banner](/static/blog/09-blog-banner.jpg)
 
-#### Updated (20TH APRIL 2017):
+**Updated (20TH APRIL 2017)**
 
 ---
 
-##### IMPORTANT UPDATE:
+## IMPORTANT UPDATE
 
 **FCPX Hacks** has now been superseded with a standalone application called **CommandPost**, which offers all the same functionality of FCPX Hacks, plus a whole lot more – including Text to Speech & Watch Folders. It remains free and open source.
 
@@ -24,7 +22,7 @@ layout: blog
 
 ---
 
-##### INTRODUCTION:
+## INTRODUCTION
 
 **FCPX Hacks** is a **free** and **open source** [Hammerspoon](http://www.hammerspoon.org) script that adds a mountain-load of new features to **Final Cut Pro**. It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv) (read the [original blog post](./../final-cut-pro-hacks/#original) below) – but has since grown into a huge collection of handy workflow hacks, shortcuts, tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
@@ -32,7 +30,7 @@ Video inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDu
 
 ---
 
-##### SYSTEM REQUIREMENTS:
+## SYSTEM REQUIREMENTS
 
 **FCPX Hacks** requires **Final Cut Pro** **10.3 to 10.3.2** and **Hammerspoon 0.9.52** (or above).
 
@@ -48,7 +46,7 @@ We recommend changing the Hammerspoon Notification alert style to **Alerts**. Th
 
 ---
 
-##### DONATE:
+## DONATE
 
 Coding crazy stuff like this takes a **LOT** of time (especially for a non-programmer), so if you find FCPX Hacks useful, PLEASE consider making a voluntary PayPal donation below (no matter how big or small) or buy a cool [Wizards T-shirt](https://lateniteshop.com) so that I can continue to justify to my wife and the rest of the team at LateNite, that coding into the middle of the night is worthwhile!
 
@@ -56,13 +54,11 @@ Don’t have any spare cash? Then consider just sharing the news of FCPX Hacks o
 
 Also, if there’s a feature that you or your company desperately need, please [get in touch](./../contact/) to discuss contracting me to throw it together as a priority.
 
-  
-  
 ![](/static/blog/scr-pixel.gif)![](/static/blog/scr-pixel.gif)
 
 ---
 
-##### DOWNLOAD:
+## DOWNLOAD
 
 Please be aware that I’m a *filmmaker*, **not** a *programmer*, so ***use at your own risk!***
 
@@ -76,7 +72,7 @@ After downloading and installing the latest version of [Hammerspoon](https://git
 
 ---
 
-##### SPECIAL THANKS:
+## SPECIAL THANKS
 
 MASSIVE thank you to [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with [Hammerspoon](http://www.hammerspoon.org) – they’re both truly awesome people. And a **HUMONGOUS** thank you to the amazing [David Peterson](https://github.com/randomeizer) for his programming genius and [Github Training](https://github.com/fcpxhacks)! David is slowly turning all of my rubbish code into something really awesome!
 
@@ -90,7 +86,7 @@ The FCPX Hacks **logo** was designed by the very generous and talented [Sam Wood
 
 ---
 
-##### HOW TO USE:
+## HOW TO USE
 
 **FCPX Hacks** adds a menu to the top right corner of the screen in the macOS menubar. This gives you quick and easy access to a range of shortcuts, automation tools, hacks and both the FCPX Hacks and Hammerspoon settings.
 
@@ -110,7 +106,7 @@ Another handy feature is the **Display Proxy/Original Icon**. This inserts a blu
 
 ---
 
-**FCPX Hacks Console *(Default Shortcut: CONTROL+SPACEBAR)***  
+**FCPX Hacks Console *(Default Shortcut: CONTROL+SPACEBAR)***
 Inspired by [Andrew Kramer’s INCREDIBLE FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) free plugin for After Effects, we’ve also added a “console” to FCPX Hacks. It allows you to activate a bunch of the different shortcuts and automation features directly from the search tool. However, what’s really handy is that if you, for example, click **Update Effects List** from the **Assign Effects Shortcuts** menu, ALL of your effects will appear in the console for easy access – allowing you to very quickly add effects with only your keyboard! You can do this for **Effects**, **Transitions**, **Titles** and **Generators**. You can also right click on the Console to control what items are displayed (i.e. you may only want to see Effects).
 
 Sometimes you might also want to remove certain things from the console too – such as the Blur Title, because what you REALLY want is the Blur Video Effect. To do this, simply right click on an item and select **Remove from List**. We also offer a **Remove From List Mode** that allows you to remove multiple items in bulk. You can also **Favourite** items to make sure they always appear on the top of the list.
@@ -129,7 +125,7 @@ The four buttons at the bottom of the HUD, are completely customisable via the *
 
 ---
 
-##### SHORTCUTS:
+## SHORTCUTS
 
 **Open Final Cut Pro *(Default Shortcut: CONTROL+OPTION+COMMAND+L)***With FCPX Hacks open, you can now open Final Cut Pro at any time, system wide.
 
@@ -145,7 +141,7 @@ The four buttons at the bottom of the HUD, are completely customisable via the *
 
 ---
 
-##### AUTOMATION:
+## AUTOMATION
 
 **Highlight Browser Playhead *(Default Shortcut: CONTROL+OPTION+COMMAND+H)***By default this feature puts a big red rectangle around the Final Cut Pro browser playhead to make it really easy to instantly spot. You can change the colour to Blue, Green or Yellow and the shape to a circle or diamond within the FCPX Hacks preferences.
 
@@ -171,7 +167,7 @@ The four buttons at the bottom of the HUD, are completely customisable via the *
 
 ![select-lane](/static/blog/09-select-lane.jpg)
 
-**Restore Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+1 TO 9)*  
+**Restore Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+1 TO 9)*
 Save Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+SHIFT+1 TO 9)***One of the coolest features of FCPX Hacks is the ability to save and restore up to nine keyword presets. What this means is that if you type in up to nine keywords in the Keyword Editor, you can save all of these these keyword shortcuts to a preset, and restore it at a later time – and even on a completely different library. This is great if you’re constantly using the same keywords between libraries, or you want to have more than the default nine keyword shortcuts.
 
 ![fcpx-keywords](/static/blog/09-fcpx-keywords.jpg)
@@ -182,19 +178,19 @@ Save Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+SHIFT+1 TO 9)***O
 
 ![](/static/blog/09-batchexport-1.jpg)
 
-**Scrolling Timeline *(Default Shortcut: CONTROL+OPTION+COMMAND+W)***  
+**Scrolling Timeline *(Default Shortcut: CONTROL+OPTION+COMMAND+W)***
 As its been the number one request on [Richard Taylor’s Final Cut Pro X Top Requests Master List](http://fcpx.tv/top/) since day one, we’ve finally added a **Scrolling Timeline** option to Final Cut Pro. To activate and deactivate Scrolling Timeline Mode, by default you press **CONTROL+OPTION+COMMAND+W**, or select **Enable Scrolling Timeline** from the FCPX Hacks menu. Once activated, you will see a little notification on your screen saying “**Scrolling Timeline Activated”**. Now, if you have your **mouse in the timeline area** and press **spacebar**, the timeline will automatically scroll for you! However, if you press spacebar with the mouse outside of the timeline area – the timeline will playback as normal, allowing you to easily switch between the two modes. You can also deactivate the scrolling timeline during playback by pressing the Scrolling Timeline Mode shortcut key again (**CONTROL+OPTION+COMMAND+W**). Of course, this shortcut key can always be customised as explained above! If your playhead is not visible when you press play, FCPX Hacks will automatically move your playhead to the middle of the timeline. You can continue to use all your usual shortcuts (i.e. ‘Add Marker’ and ‘Blade’) whilst playing back and the playhead will remain static.
 
 ![](/static/blog/09-scrollingtimeline-1.jpg)
 
 **Timeline Playhead Lock *(No Default Shortcut)***Similar to the Scrolling Timeline, we also offer a Timeline Playhead Lock, which when enabled, locks the timeline playhead to the centre of the timeline. This feature is off by default and you must assign it a shortcut key in the Command Editor to activate it.
 
-**Select Color Board Puck *(Default Shortcuts: CONTROL+OPTION+COMMAND+M , . / )***Until now there’s been no shortcut key to individual select Color Board pucks – however thanks to FCPX Hacks, you can now not only select individual pucks with a single mouse click, but also to make colour grading within Final Cut Pro a lot easier with a control surface, we’ve added lots of additional **Color Board Shortcuts** to the Command Editor – such as “Color Board: Color Puck 1 & Down” – which selects the Global puck within the Color panel and then moves the puck in a downward direction. If you hold one of these shortcuts down, the puck will continue to move until you release the shortcut. None of these shortcuts have defaults, so you’ll need to assign them in the Command Editor to use them.  
+**Select Color Board Puck *(Default Shortcuts: CONTROL+OPTION+COMMAND+M , . / )***Until now there’s been no shortcut key to individual select Color Board pucks – however thanks to FCPX Hacks, you can now not only select individual pucks with a single mouse click, but also to make colour grading within Final Cut Pro a lot easier with a control surface, we’ve added lots of additional **Color Board Shortcuts** to the Command Editor – such as “Color Board: Color Puck 1 & Down” – which selects the Global puck within the Color panel and then moves the puck in a downward direction. If you hold one of these shortcuts down, the puck will continue to move until you release the shortcut. None of these shortcuts have defaults, so you’ll need to assign them in the Command Editor to use them.
 ![](/static/blog/09-fcpx-40-commandeditor.png)
 
 **Mouse Control of Color Board Pucks *(No Default Shortcut)***These shortcuts are unassigned by default, so you’ll need to activate **Enable Hacks Shortcuts in Final Cut Pro** to use them. Once assigned via the Final Cut Pro Command Editor, these shortcuts allow you to control the Color Board pucks with your mouse. For example, if you assign **Mouse Control Color Puck 1** to OPTION+Z, when you hold down the OPTION+Z and move your mouse – the puck will move with the mouse. This video demonstrates:
 
-**Enable Shortcuts During Fullscreen Playback *(No Default Shortcut)***  
+**Enable Shortcuts During Fullscreen Playback *(No Default Shortcut)***
 FCPX Hacks also adds the ability to perform **Set Range Start**, **Set Range Out**, **Connect to Primary Storyline**, **Connect to Primary Storyline Backtimed,** **Insert** and **Append to Storyline**, whilst in fullscreen playback mode. This feature is off by default, and can be enabled via the FCPX Hacks Menubar. These shortcuts will still work, even if you customise your shortcuts for these commands (i.e. if you change the **Set Range Start** to a key other than **I**).
 
 ![](/static/blog/09-fullscreenplayback.jpg)
@@ -205,7 +201,7 @@ You can now **Assign Individual Effects, Transitions, Titles & Generators to Key
 
 ---
 
-##### TOOLS:
+## TOOLS
 
 **Touch Bar *(Default Shortcut: CONTROL+OPTION+COMMAND+Z)***For those that don’t have access to the fancy brand new MacBook Pro, inspired by the [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp), we’re brought the Touch Bar to the desktop as an on-screen display! The Touch Bar offers some really handy features, such as the ability to view a “mini-timeline” allowing you to very quickly navigate your project. Via the FCPX Hacks menubar you can choose to have the Touch Bar appear wherever your mouse pointer is, to have it appear at the top centre of your timeline, for a more consistent experience. The Touch Bar will “disappear” when you close FCPX, and reposition itself if you resize the window. If you hold down the left **OPTION** key and click on the Touch Bar you can drag it to another location regardless of which mode you’re in.
 
@@ -235,7 +231,7 @@ Once activated, every time Final Cut Pro successfully or unsuccessfully complete
 
 ---
 
-##### HACKS:
+## HACKS
 
 **Enable Timecode Overlay *(Default Shortcut: CONTROL+OPTION+COMMAND+T)***This feature turns on a hidden Final Cut Pro preference that enables timecode overlays in the Viewer. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
 
@@ -249,133 +245,74 @@ Once activated, every time Final Cut Pro successfully or unsuccessfully complete
 
 ---
 
-##### WHAT’S NEXT?
+## WHAT’S NEXT?
 
 I’m also currently working on a bunch of other features based on things I’d love to see in Final Cut Pro, and also feedback from the Final Cut Pro community. If there’s something you’d love to see added to FCPX Hacks, let me know via the below poll.
 
-#### What features would you like to see in FCPX Hacks?
+---
 
-A shortcut to activate all audio tracks on all currently selected multi-cam clips in the timeline (issue #5)
+## What features would you like to see in FCPX Hacks?
 
-Move Storyline Up & Down Shortcut (issue #2)
-
-Add Audio Fade Handles Shortcut (issue #3)
-
-Select clip on Secondary Storyline Shortcut (added in FCPX Hacks 0.46)
-
-Transitions, Titles, Generators & Themes Shortcuts (added in FCPX Hacks)
-
-Remember Last Project & Layout when restarting FCPX (fixed in FCPX 10.3.3)
-
-Timeline Index HUD on Mouseover (issue #9)
-
-Watch Folders for Compressor (added in CommandPost)
-
-Favourites folder for Effects, Transitions, Titles, Generators & Themes (issue #11)
-
-Mouse Rewind History (issue #12)
-
-Clip Height in Timeline Shortcut (added in FCPX Hacks 0.43)
-
-Customisable User Interface (added in Final Cut Pro 10.3)
-
-Move clip(s) Head/Tail to playhead like [ and ] in Motion - moving the clip, not just the edit (issue #114)
-
-A shortcut for disable/enable Audio in the channel configuration (issue #601)
-
-Dupe Detection in Timeline (issue #186)
-
-Text notification when a render or export is complete (added in FCPX Hacks 0.46)
-
-Collapse a multicam clip so stabilisation can be added (issue #602)
-
-Do not create smart folders on Library creation (issue #603)
-
-Overwrite clip whilst retaining original attributes (issue #112)
-
-Remove all effects (added in Final Cut Pro 10.3)
-
-Finalise all Auditions in selected clips/whole timeline (issue #21)
-
-Continuous play in the browser (added in Final Cut Pro 10.3)
-
-Copy & Paste Timecode (added in Final Cut Pro 10.3)
-
-Shortcut to select a point in timeline to end, beginning, or to another point (issue #604)
-
-Keyboard shortcut to update thumbnails (issue #605)
-
-Trim synchronised/compound/multicam clips to the useful video length (issue #606)
-
-Timeline zooming with scroll wheel like Sony Vegas (issue #113)
-
-Gang Sync (issue #607)
-
-Shortcut to highlight all used Clips in the Library (issue #608)
-
-Marking In/Out on Connected Clips (issue #609)
-
-Audio only Crossfade/Transition (issue #610)
-
-White/Black Eye Dropper (issue #611)
-
-Keyframe recording for audio level control (now possible with Touch Bar)
-
-Semicolon Shortcut from Final Cut Pro 7 (issue #612)
-
-Cancel all background tasks (issue #1)
-
-Replace Edit command that aligns based on playhead position (issue #613)
-
-Export AAF (already possible with X2Pro)
-
-Shortcuts for Workspaces (already possible in System Preferences)
-
-Renamed File Name to Match Clip Name (issue #614)
-
-Timeline Opacity Adjustment (issue #615)
-
-Trimming HUD (issue #616)
-
-Match Frame to Keyword Collection (issue #617)
-
-Bulk export of projects from FCPX to Compressor (added in CommandPost)
-
-Personalised Default Roles (issue #618)
-
-Bring Console HUD to Motion (issue #619)
-
-Video Opacity Shortcuts (issue #620)
-
-Attach Export to iMessage (issue #621)
-
-Shortcuts for Individual Inspector Panes (issue #622)
-
-Colour Coding in Libraries Panel (issue #623)
-
-Horizontal Scrolling of Timeline (already implemented with SHIFT+SCROLL)
-
-Shortcut for A/V Output (already possible with System Preferences)
-
-Select Color/Sat/Exposure Wheels (added in FCPX Hacks)
-
-Reveal Multicam in Angle Editor & Highlight... then Blade (issue #624)
-
-When working off a SAN or network space add the ability to lock opened events so that multiple users could could open and work in the same library without creating a conflict (not possible)
-
-Globally deactivate all audio waveforms (issue #625)
-
-Option to close specific timeline projects (not possible)
-
-force relink missing clips, even if fcp x thinks they don't match
-
-Transform position of Clip via shortcut so that you can map it to a surface controller
-
-select all single clips of one role directly in the timeline for adjusting (not just on/off) without making an compound
-
-re-calculate optical flow for everything in the timeline
-
-ResultsVote
+- A shortcut to activate all audio tracks on all currently selected multi-cam clips in the timeline (issue #5)
+- Move Storyline Up & Down Shortcut (issue #2)
+- Add Audio Fade Handles Shortcut (issue #3)
+- Select clip on Secondary Storyline Shortcut (added in FCPX Hacks 0.46)
+- Transitions, Titles, Generators & Themes Shortcuts (added in FCPX Hacks)
+- Remember Last Project & Layout when restarting FCPX (fixed in FCPX 10.3.3)
+- Timeline Index HUD on Mouseover (issue #9)
+- Watch Folders for Compressor (added in CommandPost)
+- Favourites folder for Effects, Transitions, Titles, Generators & Themes (issue #11)
+- Mouse Rewind History (issue #12)
+- Clip Height in Timeline Shortcut (added in FCPX Hacks 0.43)
+- Customisable User Interface (added in Final Cut Pro 10.3)
+- Move clip(s) Head/Tail to playhead like [ and ] in Motion - moving the clip, not just the edit (issue #114)
+- A shortcut for disable/enable Audio in the channel configuration (issue #601)
+- Dupe Detection in Timeline (issue #186)
+- Text notification when a render or export is complete (added in FCPX Hacks 0.46)
+- Collapse a multicam clip so stabilisation can be added (issue #602)
+- Do not create smart folders on Library creation (issue #603)
+- Overwrite clip whilst retaining original attributes (issue #112)
+- Remove all effects (added in Final Cut Pro 10.3)
+- Finalise all Auditions in selected clips/whole timeline (issue #21)
+- Continuous play in the browser (added in Final Cut Pro 10.3)
+- Copy & Paste Timecode (added in Final Cut Pro 10.3)
+- Shortcut to select a point in timeline to end, beginning, or to another point (issue #604)
+- Keyboard shortcut to update thumbnails (issue #605)
+- Trim synchronised/compound/multicam clips to the useful video length (issue #606)
+- Timeline zooming with scroll wheel like Sony Vegas (issue #113)
+- Gang Sync (issue #607)
+- Shortcut to highlight all used Clips in the Library (issue #608)
+- Marking In/Out on Connected Clips (issue #609)
+- Audio only Crossfade/Transition (issue #610)
+- White/Black Eye Dropper (issue #611)
+- Keyframe recording for audio level control (now possible with Touch Bar)
+- Semicolon Shortcut from Final Cut Pro 7 (issue #612)
+- Cancel all background tasks (issue #1)
+- Replace Edit command that aligns based on playhead position (issue #613)
+- Export AAF (already possible with X2Pro)
+- Shortcuts for Workspaces (already possible in System Preferences)
+- Renamed File Name to Match Clip Name (issue #614)
+- Timeline Opacity Adjustment (issue #615)
+- Trimming HUD (issue #616)
+- Match Frame to Keyword Collection (issue #617)
+- Bulk export of projects from FCPX to Compressor (added in CommandPost)
+- Personalised Default Roles (issue #618)
+- Bring Console HUD to Motion (issue #619)
+- Video Opacity Shortcuts (issue #620)
+- Attach Export to iMessage (issue #621)
+- Shortcuts for Individual Inspector Panes (issue #622)
+- Colour Coding in Libraries Panel (issue #623)
+- Horizontal Scrolling of Timeline (already implemented with SHIFT+SCROLL)
+- Shortcut for A/V Output (already possible with System Preferences)
+- Select Color/Sat/Exposure Wheels (added in FCPX Hacks)
+- Reveal Multicam in Angle Editor & Highlight... then Blade (issue #624)
+- When working off a SAN or network space add the ability to lock opened events so that multiple users could could open and work in the same library without creating a conflict (not possible)
+- Globally deactivate all audio waveforms (issue #625)
+- Option to close specific timeline projects (not possible)
+- Force relink missing clips, even if fcp x thinks they don't match
+- Transform position of Clip via shortcut so that you can map it to a surface controller
+- Select all single clips of one role directly in the timeline for adjusting (not just on/off) without making an compound
+- Re-calculate optical flow for everything in the timeline
 
 Also, feel free to leave more detailed feature suggestions in the comments below, or shoot me through an [email](./../contact/).
 
@@ -383,7 +320,7 @@ Also, feel free to leave more detailed feature suggestions in the comments below
 
 ---
 
-#### ORIGINAL BLOG POST (15TH SEPTEMBER 2016):
+## ORIGINAL BLOG POST (15TH SEPTEMBER 2016):
 
 ![](/static/blog/09-fcpx-hammerspoon.jpg)
 

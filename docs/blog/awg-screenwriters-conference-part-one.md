@@ -6,11 +6,9 @@ layout: blog
 ---
 # AWG Screenwriters Conference – Part One
 
-**Written by Nicholas Colla on 23rd February 2013**
-
 ![AWG Conference Image 1](/static/blog/02-AWG-Conference-Image-1-590x331.png)
 
-> Write what you know about the world emotionally. Just because you’re a canteen lady doesn’t mean you need to write about canteen ladies. Unless they’re fucking serial killers – be imaginative.  
+> Write what you know about the world emotionally. Just because you’re a canteen lady doesn’t mean you need to write about canteen ladies. Unless they’re fucking serial killers – be imaginative.
 > **Paul Abbott, 2013.**
 
 On the drive up to the Mornington Peninsula to my first ever [National Screenwriters Conference](http://www.awg.com.au/nsc/), I thought about what I wanted to get out of the next three days. Somebody had asked me previously why I was going and I couldn’t clearly express exactly why. Sometimes I think about exactly what the hell I’m doing in Film & Television, especially when people ask who I am, what I do and what my profession is. Am I an actor, a writer, a producer, a director, a filmmaker? Is it too bold and egotistical to say all of the above, am I under selling if I only say one? Believe me when I say, it’s a constant confusion.
@@ -19,7 +17,9 @@ I think what I enjoy about coming to these conferences (this is my third after a
 
 ![Shameless](/static/blog/02-Shameless-590x331.jpg)
 
-### Paul Abbott in Conversation
+---
+
+## Paul Abbott in Conversation
 
 [Paul Abbott](http://www.imdb.com/name/nm0008036/) is a UK writer who has had a ridiculously successful career in film & television, with his original series [Shameless](http://www.imdb.com/title/tt1586680/) running for ten years in the UK before being bought up and produced in the states by Showtime. He has also written the film [State of Play](http://www.imdb.com/title/tt0473705/) with [Russell Crowe](http://www.imdb.com/name/nm0000128/), [Ben Affleck](http://www.imdb.com/name/nm0000255/) and [Rachel McAdams](http://www.imdb.com/name/nm1046097/), the critically acclaimed UK show [Hit & Miss](http://www.imdb.com/title/tt2232345/) starring [Chloe Sevigny](http://www.imdb.com/name/nm0001721/), has been nominated for a shitload of BAFTA’s and won a Prime Time Emmy. Not bad if you ask me.
 
@@ -42,7 +42,9 @@ Paul was a pleasure to listen to and I really think captured the imagination of 
 
 ![439956-the-sapphires](/static/blog/02-439956-the-sapphires-590x332.jpg)
 
-### Sapphires: A Case Study
+---
+
+## Sapphires: A Case Study
 
 Next up was a case study on the enormously successful Australian film from 2012, [The Sapphires](http://www.imdb.com/title/tt1673697/), written by [Keith Thompson](http://www.imdb.com/name/nm0860375/) and [Tony Briggs](http://www.imdb.com/name/nm0109092/) and based on the stage play also written by Briggs.
 

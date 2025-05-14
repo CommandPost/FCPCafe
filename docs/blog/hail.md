@@ -6,8 +6,6 @@ layout: blog
 ---
 # HAIL
 
-**Written by Chris Hocking on 12th August 2012**
-
 ![](/static/blog/08-hail-011-590x393.jpg "hail-01")
 
 I’ve been waiting to see this film for a very, very, very long time. Admittedly, it’s not the kind of film I would normally seek out to see – as I’m not the biggest fan of drug use and graphic violence up there on the big screen – in fact watching people injecting themselves really freaks me out. But this is a film that I’ve had the privilege of “following” for a very long time because it was edited at [The Butchery](http://www.thebutchery.com.au) (where I work three days a week, when I’m not doing LateNite things), by one of my favourite editors and people in the world, the incredible [Peter Sciberras](http://www.imdb.com/name/nm3038680/) (who now works for [Method Studios](http://www.methodstudios.com.au/)). Because of this, I got to see the glimpses of rushes as they came in, rough cuts every now and again, and also witness just how hard the director, [Amiel Courtin-Wilson](http://www.imdb.com/name/nm0183849/) and producer [Michael Cody](http://www.imdb.com/name/nm2438575/) worked to get this film up and finished. I really didn’t have much to do with the film apart from fixing things in the edit suite when they broke, and making sure that Pete could get on and do what he does best, but I’m so glad I played a small part, because this is one very special film.

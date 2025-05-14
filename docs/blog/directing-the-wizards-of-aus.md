@@ -6,8 +6,6 @@ layout: blog
 ---
 # Directing The Wizards of Aus
 
-**Written by Michael Shanks on 20th December 2015**
-
 I shot the very first footage for *The Wizards of Aus* at age nineteen with a couple of my friends acting in it. Upon reviewing said footage, I thought ‘Oh, this is kinda shitty,’ and continued living my life.
 
 However, I never could quite shake the idea out of my head. The sheer lunacy of the concept rattled around in my brain, and then five years later I found myself pitching it to an alarmingly enthusiastic Screen Australia.
@@ -64,4 +62,6 @@ It’s an insane show, and it’s certainly not for everyone. You could almost s
 
 Good sentence, Michael.
 
-![Michael Shanks on the set of The Wizards of Aus.](/static/blog/12-twoa_09.jpg) Pictured: Douche
+![Michael Shanks on the set of The Wizards of Aus.](/static/blog/12-twoa_09.jpg)
+
+Pictured: Douche

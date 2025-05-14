@@ -6,8 +6,6 @@ layout: blog
 ---
 # Africa
 
-**Written by Jacqui Hocking on 13th November 2012**
-
 ![](/static/blog/11-01_kids-590x393.jpg "01_kids")
 
 Essentially, my work as a documentary filmmaker specialises in branded content for non-profit, social and environmental development organisations.
@@ -64,7 +62,7 @@ The tenacity and enthusiasm of the youths working in Kakamega was inspiring. Sil
 
 It is.
 
-![](/static/blog/11-06_francis_silvia-590x393.jpg "06_francis_silvia")  
+![](/static/blog/11-06_francis_silvia-590x393.jpg "06_francis_silvia")
 ![](/static/blog/11-07_francis_silvia_p2-590x393.jpg "07_francis_silvia_p2")
 
 Carbon offsetting, although it might seem small on a local level, is actually one of the most exciting concepts that I have worked on so far. The idea that we can offset our unavoidable impact on the environment through supporting young inspiring people like Francis and Silvia in another part of the world, means everyone now has the opportunity to be an [eco-warrior](http://anactionmovie.com/about-the-film) without complete disruption of lifestyle.
@@ -111,7 +109,7 @@ At that moment, with this family, I think I fell a little bit for Africa.
 
 I think the hardest thing about filmmaking is that you are not a tourist, nor a traveller, but a labourer with a purpose and a task to fulfil. If I wasn’t this, I could have easily stayed in that headspace soaking up an entirely new culture, language and way of life for my own fulfilment.
 
-![](/static/blog/11-12_friends-590x440.jpg "12_friends")  
+![](/static/blog/11-12_friends-590x440.jpg "12_friends")
 ![](/static/blog/11-13_maasai-590x378.jpg "13_maasai")
 
 But as beautiful and proud as these people were, one thing passing travellers don’t see, is that they need help.
@@ -124,7 +122,7 @@ They have a few water holes in the area, however they are all dependant on an ug
 
 The local women and children have to line up, sometimes for a few days, just to fetch one canister of water for their family.
 
-![](/static/blog/11-15_the_line-590x440.jpg "15_the_line")  
+![](/static/blog/11-15_the_line-590x440.jpg "15_the_line")
 ![](/static/blog/11-14_the_line_2-590x440.jpg "14_the_line_2")
 
 Luckily we had bicycles, so travelling to the water pumps wasn’t too difficult, but most women walk for hours.

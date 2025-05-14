@@ -6,6 +6,4 @@ layout: blog
 ---
 # Funny Pets - Black Hole/Photography
 
-**Written by Chris Hocking on 21st August 2006**
-
 These are funny little Japanese 3D computer animations about a cute girl and her two crazy pets. Although I’m not a fan of this kind of thing, it was quite refreshing to see something funny after watching a couple of emotionally draining films.

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Late Nights and Big Swells
 
-**Written by Jacqui Hocking on 21st August 2014**
-
 *It’s midnight on the last night of shooting what was an incredible documentary project in the Gulf Province of Papua New Guinea. I’m exhausted beyond belief – but I’m going to write this blog post. Even if it kills me. BOOM.*
 
 I read an article a long while ago, that really stuck with me, about how artists and creative people often feel like “fakes” even once they are incredibly successful.
@@ -103,7 +101,7 @@ But TB is not the only issue facing the nation – with 1 in 13 children dying b
 
 That’s why YWAM Medical Ships Australia is such a beacon of hope for so many of these communities.
 
-![08](/static/blog/08-08.jpg)  
+![08](/static/blog/08-08.jpg)
 [YWAM Medical Ships Australia](http://ywamships.org.au) (YWAM MSA) is a charity that aims to *“care, connect, serve, build with individuals and communities”.* The Medical Ship is made possible by their army of volunteers, philanthropists and companies— no-one out of the 120 full time staff based in Townsville & PNG gets paid a cent. PNG based company InterOil funds their fuel and was the organisation that got us involved in the first place, after their CEO serendipitously dropped by our co-working space in Singapore. The idea was to volunteer his staff – Anthony and Andrew – to join the outreach, and make a film to help document the journey – to help fundraise 6.5 million dollars for a new medical ship.
 
 ![09](/static/blog/08-09.jpg)
@@ -124,12 +122,12 @@ The best part for me though, was seeing the local volunteers. Papua New Guinea N
 
 [#INSPIRED](https://twitter.com/hashtag/inspired)
 
-![12](/static/blog/08-12.jpg) ![12-hannah](/static/blog/08-12-hannah.jpg)  
+![12](/static/blog/08-12.jpg) ![12-hannah](/static/blog/08-12-hannah.jpg)
 Each night after shooting on the C100 and some days collecting a spattering of b.roll from Matt – I would connect the SD card directly into my Mac, connect my Thunderbolt LaCie, open up FCPX, create a new event, and import footage direct from the card. I then used [ChronoSync](http://www.econtechnologies.com/chronosync/overview/) – enabling [Dissect Packages](https://twitter.com/latenitefilms/status/456565849327812609) – to dupe the Library onto a cheaper USB3 rugged backup. Every second day I would back up again onto a third drive and so on.
 
 I didn’t do too much editing on the trip – however did do a daily log of any clips with interviews or dialog into a “Script” keyword and in every event, and dragged over from each event 2 smart collections to divide my current edits & my “assistant editing” (AE) assembles:
 
-![14b](/static/blog/08-14b.jpg) ![14a](/static/blog/08-14a.jpg)  
+![14b](/static/blog/08-14b.jpg) ![14a](/static/blog/08-14a.jpg)
 ![13](/static/blog/08-13.jpg)
 
 Now – I’m back in Singapore with thousands of hours of footage – ready to be made into one stellar documentary. My goal is to raise 2 million dollars through screenings of the film – but more importantly – the other ambition is to take the film we create BACK into the communities, holding screenings throughout the villages we visited. A rare opportunity that might just happen later this year.

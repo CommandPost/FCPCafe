@@ -6,8 +6,6 @@ layout: blog
 ---
 # Hansel & Gretel: Witchhunters
 
-**Written by Nicholas Colla on 15th February 2013**
-
 ![HANSEL & GRETEL: WITCH HUNTERS](/static/blog/02-hansel-gretel-590x392.jpg)
 
 Now let’s not beat around the bush here. When you go and see a movie titled [Hansel & Gretel: Witchhunters](http://www.imdb.com/title/tt1428538/), you clearly aren’t expecting a film that is going to have a clean sweep come awards season. What you are expecting though is a great, bad movie. A movie with such a ridiculous concept (and title for that matter) that you are expecting to spend an hour and a half laughing at a bunch of characters in a ridiculous circumstance, perhaps some kick ass action sequences and of course the odd one liner of two (see [The Expendables 2](http://www.imdb.com/title/tt1764651/) for another great example of this!)

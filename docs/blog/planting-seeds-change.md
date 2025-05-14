@@ -6,8 +6,6 @@ layout: blog
 ---
 # Planting the Seeds of Change
 
-**Written by Jacqui Hocking on 11th March 2014**
-
 I sat in the bumpy back seat of the car gazing out the window, surrounded by rugged cliffs, leaning palms and paddy fields, wondering what my Christmas day would be like this year.
 
 As we got closer to our destination, the low clouds began to reveal the volcano of Gunung Gede and the thought struck once again (as it often does in this region) that [Indonesia really is a breathtaking country.](http://www.youtube.com/watch?v=T7wp-KOORbc)
@@ -28,10 +26,10 @@ By 5am everyone is busy. I can’t imagine how difficult it must be for all thes
 
 The Kampung (garden) is full of fruits and vegetables, and everyone is working hard to keep the garden beds in perfect condition. Pak De teaches everyone about the process of organic farming with a great love and sense of humour, and the students take pride in their work. One boy enchants me with his tender care as he lifts a new seedling from the greenhouse soil, while a young girl from Pulau Alor serenades us all with her beautiful voice as we kneel on the earth and listen:
 
-> Leaving Father and Mother Behind,  
-> Let us fight, under the banner of Karang Widya..  
-> Forward… let us go forward…  
-> Come on, come on, let’s go forward,  
+> Leaving Father and Mother Behind,
+> Let us fight, under the banner of Karang Widya..
+> Forward… let us go forward…
+> Come on, come on, let’s go forward,
 > Take away that, remove all poverty and ignorance…
 
 One by one, I spend some time with each student, listening to their stories with a translator by my side to help express their words. One by one, I am brought to tears by the raw sadness of their young life. Many were caught up with drugs and alcohol, but some were simply from families too poor to send them to school.
@@ -52,11 +50,11 @@ John was by far the most entertaining; 20 years old glowing with confidence and 
 
 The Learning Farm has an 80% success rate, measured from 6 values:
 
-**1. Honesty  
-2. Teamwork  
-3. Responsibility  
-4. Care  
-5. Discipline  
+**1. Honesty
+2. Teamwork
+3. Responsibility
+4. Care
+5. Discipline
 6. Showing Initiative**
 
 We wanted to see what this success looked like, and meet some alumni to ask what an impact the Learning Farm has on their life.

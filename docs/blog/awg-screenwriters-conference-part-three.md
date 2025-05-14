@@ -6,15 +6,15 @@ layout: blog
 ---
 # AWG Screenwriters Conference - Part Three
 
-**Written by Nicholas Colla on 9th March 2013**
-
 ![priscilla](/static/blog/03-priscilla-590x331.jpg)
 
-> I made a film with ping pong balls flying out of an Asian stripper which was a huge success, then one with a dude fisting a sheep which was a complete disaster – no one knows nothing!  
->  **Stephan Elliot, 2013**  
+> I made a film with ping pong balls flying out of an Asian stripper which was a huge success, then one with a dude fisting a sheep which was a complete disaster – no one knows nothing!
+>  **Stephan Elliot, 2013**
 >  **Writer/Director, The Adventures of Priscilla, Queen of the Desert**
 
-### In Conversation with Tom Schulman
+---
+
+## In Conversation with Tom Schulman
 
 Day 3 kicked off with another “In Conversation With” session with one of the international guests, a man that I’d already heard talk a number of times over the conference, [Tom Schulman](http://www.imdb.com/name/nm0776114/). What I loved about listening to Tom Schulman and [Paul Abbott](http://www.imdb.com/name/nm0008036/) (the two international guests) were that they weren’t afraid to be completely open and honest with their failures as well as their success. Tom spoke at great length about the difficulty of being a writer in Hollywood and his love affair with movies.
 
@@ -43,7 +43,9 @@ He finished with this quote which I found rather cool:
 
 **![malcolm](/static/blog/03-malcolm.jpg)**
 
-### Recipe for Success: The Ingredients of a Smash Hit Comedy Feature
+---
+
+## Recipe for Success: The Ingredients of a Smash Hit Comedy Feature
 
 The last official session for the conference for me was about writing comedy features, something that I was a little bit dubious about going in (due to the lack of these in Australia for some time) but I felt instantly better when I discovered the panel consisted of Tom Schulman (you know the drill), [Stephan Elliot](http://www.imdb.com/name/nm0254632/) (writer, [Priscilla](http://www.imdb.com/title/tt0109045/)) and [David Parker](http://www.imdb.com/name/nm0662186/) (writer, [Malcolm](http://www.imdb.com/title/tt0091464/)).
 

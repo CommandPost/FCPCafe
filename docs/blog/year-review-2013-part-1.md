@@ -6,15 +6,15 @@ layout: blog
 ---
 # Year in Review 2013 – Part 1
 
-**Written by Nicholas Colla on 26th December 2013**
-
 For the past couple of years, Chris and I have had the same conversation when the end of the year rolls around. It starts with me pacing back and forth, stressing that we haven’t done anything and that we’ve wasted our year, and it ends with Chris shaking his head, somehow sending me an email mid conversation whilst bouncing happily on a gym ball before reassuring me that we were in fact, pretty bloody busy.
 
 This year was a very hard but particularly special year. Hard because Chris and I both quit our jobs to go full time LateNite and also moved into a brand new office and special because we were lucky enough to add some extraordinarily talented people to the LateNite family and we got to shoot some of our most ambitious projects to date.
 
 So, as always, let’s start at the very beginning with a trailer for my favourite movie released in Jan…
 
-#### JANUARY
+---
+
+## JANUARY
 
 I’m sure this will be a shock to most as [Django](http://www.imdb.com/title/tt1853728/) was also released in January but [Silver Linings](http://www.imdb.com/title/tt1045658/) was my pick for the month. The thing I love about [David O. Russell’s](http://www.imdb.com/name/nm0751102/) films (even if they do occasionally miss the mark) is that he manages to elicit incredible performances from all of his actors. [Bradley Cooper](http://www.imdb.com/name/nm0177896/) and [Jennifer Lawrence](http://www.imdb.com/name/nm2225369/) were amazing but I personally was blown away by [De Niro](http://www.imdb.com/name/nm0000134/) and strangely enough [Chris Tucker](http://www.imdb.com/name/nm0000676/). I felt it was De Niro’s best performance in a long long time and I’ve never really rated Tucker at all but in this he is brilliant!
 
@@ -26,7 +26,9 @@ Meanwhile, director Michael Shanks was at it again with another brilliant YouTub
 
 I was busy on the acting side of things shooting with the boys at [Dark Heart Productions](http://darkheartproductions.com/) on their crowd funded TV series **The Weatherman**. The show has since gone into post production for a release in 2014.
 
-#### FEBRUARY
+---
+
+## FEBRUARY
 
 There was a whole lotta hate for [Cloud Atlas](http://www.imdb.com/title/tt1371111/) and a whole lotta Academy Award snubs but I have to be honest with you, I really dug this movie. The worlds the Wachowskis continue to create in their movies are outstanding and the production design really blew me away. How they didn’t even get a nod for makeup or VFX is beyond me!
 
@@ -42,7 +44,9 @@ Other shoots to occur this month were a promo video with trucks as far as the ey
 
 ![03](/static/blog/12-031.jpg)
 
-#### MARCH
+---
+
+## MARCH
 
 [![04](/static/blog/12-041.jpg)](http://www.youtube.com/watch?v=8j1TmHhVedU)
 
@@ -56,7 +60,9 @@ Jacqui, meanwhile, was flying to the Amazon in Brazil to film once again for the
 
 The end of the month saw Chris take off to shoot with our good friend Dave Christison on his Flickerfest selected short film [MAN](https://www.facebook.com/manthemovie).
 
-#### APRIL
+---
+
+## APRIL
 
 I have to admit, again this wasn’t my favourite movie in the whole wide world but I did really like the concept, even if it was a little sickly sweet!
 

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Books… Books… Books…
 
-**Written by Chris Hocking on 20th August 2006**
-
 Over the course of the film festival, I spent a lot of time travelling on trains, which although I hated, did give me a lot of time to spend reading books. I’ve spend so much money over the years on film-related books. I basically got a collection that rivals the ACMI bookshop! I’ve got everything from scripts, magazines, lighting books, production books, post production books, user manuals, audio books, movie books, acting books – pretty much something for every department. During MIFF, I’ve been reading some of my more recent purchases.
 
 One I’m still in the process of reading is “Documentary: The Margins of Reality”, which is a book exploring the definition and understanding of the documentary form, as well as the relationship between documentary and drama. I’m finding this book really hard to read, because it’s written in a very academic and formal language. It reminds me too much like reading the stuff I need to read for the media studies class at Hawthorn. However, the content is very useful, and I will make myself get through it.

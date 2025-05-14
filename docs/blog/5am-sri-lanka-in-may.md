@@ -1,12 +1,10 @@
 ---
 title: 5am, Sri Lanka in May…
 date: 2012-07-01
-author: Guest Blogger
+author: Michael Lutman
 layout: blog
 ---
 # 5am, Sri Lanka in May…
-
-**Written by Guest Blogger on 1st July 2012**
 
 **The Making of the tentatively titled documentary, Cycle on Ceylon.**
 *Written by Guest Blogger and our very good friend, the amazing [Michael Lutman](http://lutmanfilms.com).*

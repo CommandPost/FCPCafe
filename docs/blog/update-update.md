@@ -6,8 +6,6 @@ layout: blog
 ---
 # Update! Update!
 
-**Written by Chris Hocking on 19th November 2009**
-
 It seems like ages since I last gave you all a progress report on the blog – and guess what, it has been! The last time I gave you a proper update was in June, and it’s now already November. How times flies!
 
 Well, as per usual, we’ve been busy. Very busy!

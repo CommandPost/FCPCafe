@@ -6,11 +6,11 @@ layout: blog
 ---
 # 2011 Summary (Part One)
 
-**Written by Nicholas Colla on 24th December 2011**
-
 ![](/static/blog/12-48hour-team-leaders-590x393.jpg "48hour-team-leaders")
 
 And what a bloody busy year it has been at LateNite HQ! As the year comes to a close, we here at LateNite feel like it’s important to reflect on an incredibly tough but ultimately rewarding 2011. To complement our stories of sex, drugs and rock ‘n’ roll (hardly) I have decided to throw in some of the great films that were released over the last 12 months. All of which have my personal seal of approval – which is all you need really!
+
+---
 
 ## January
 
@@ -26,6 +26,8 @@ The prep was in full swing too for our Feb March to Miami party with bands being
 
 ![](/static/blog/12-march-to-miami-590x391.jpg "march-to-miami")
 
+---
+
 ## February
 
 We did all but cut our own arm off to get this warehouse screening/party off the ground and boy did it go off like a frog in a sock. A big thank you must go out to all the bands that played, the talented artists that donated their amazing art work to be sold and of course all the people whose hard work made these two events what they were. It was very humbling to know that there are people out there who were willing to take a punt on us and who truly believe in what we’re doing. The venue was jam packed both nights, the bar was fully stocked with all kinds of wonderful drinks (although the home brew didn’t quite make it after a minor explosive accident), the slightly-too-big-for-the-venue PA was pumping with some incredible local bands, DJs and comedians – it truly was a EPIC and amazing weekend, with plenty of sore heads on Sunday morning!
@@ -39,6 +41,8 @@ But of course not everything was fun and games with our very own Jacqui Hocking 
 Jacqui had a very busy month as not only did she have her screening to organise, she went to East Timor to film footage for the [World Vision 48 Hour Famine](http://www.worldvision.com.au/40hourfamine.aspx) campaign, filmed at the [Sustainable Living Festival](http://festival.slf.org.au/festival-main-event-program), started working with the incredibly talented team at [Inspire9](http://www.inspire9.com.au/), attended the [Australian International Documentary Conference](http://aidc.com.au/), was a guest at the [Audi German Film Festival](http://www.goethe.de/ins/au/lp/prj/fia/ffg/enindex.htm), helped out on the warehouse party AND had an exhibition set up at Federation Square during the weekend of the Tropfest screening in Melbourne. As with everything that Jacqui does, all went off incredibly successfully and the world had its first glimpse of the Spinning Dreams series.
 
 But of course it’s not only our shenanigans that we like to keep track of and plug. We love a good community and there is no better company that we love working with than [Inspiration Studios](http://www.inspirationstudios.com.au) who used the month of February to launch their very own unique web series Sensible Digital Cinema.
+
+---
 
 ## March
 
@@ -59,6 +63,8 @@ The winner of the International 48 Hr Film Festival:
 
 After such an epic month we thought we might get some downtime over April until…
 
+---
+
 ## April
 
 …we found out our feature Hannah and the Hasbian had been accepted into a massive Film Fest in San Francisco called [Frameline](http://www.frameline.org/index.aspx) for it’s big World Premiere.
@@ -71,6 +77,8 @@ We were lucky enough to have the support of [The Butchery](http://www.thebutcher
 
 April wasn’t all fun and games though as we were all very sad to hear of the passing of [John Bowring](http://www.tvtonight.com.au/2011/04/vale-john-bowring/) ACS, the founder of [LEMAC](http://lemac.com.au/). John did a hell of a lot for the Australian film industry and his passing was a sad day for film in Australia.
 
+---
+
 ## May
 
 What better way to kick off our May summary than with a solid Australian film from 2011. Snowtown was as brutal as it was tense, obviously not a film for the light hearted, it was really made for me by the solid, often frightening performances of its lead actors [Daniel Henshall](http://www.imdb.com/name/nm2989873/) and [Lucas Pittaway](http://www.imdb.com/name/nm4235904/).
@@ -80,6 +88,8 @@ Anyway it was another crazy busy month with lots of exciting announcements and m
 Jacqui was busy preparing for the next month, whilst at the same time filming events such as the [Mindful Conference](http://thisismindful.com/).
 
 We continued to push through with post on [Hannah](./../portfolio/hannah-and-the-hasbian/), spending more and more time with Craig and Eugene - trying to get the sound and grade locked down before the end of May. It was go go go for most of the month but we pulled through with shining colours. Despite Craig’s unfortunate altercation with a roof, [Hannah](./../portfolio/hannah-and-the-hasbian/) was in the mail and off to San Francisco…
+
+---
 
 ## June
 

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Potiche
 
-**Written by Chris Hocking on 7th March 2011**
-
 ![](/static/blog/2011-03-potiche_ticket-441x329.jpg "potiche_ticket")
 
 [Potiche](http://www.imdb.com/title/tt1521848/ "IMDB") (slang for “trophy wife”) is one of the funniest films that I have seen in a long time! From the opening Disney-like scene where the Madame Pujol is prancing around the woods in a tracksuit and hair curlers, listening to cheerful birds, and surrounded by friendly deer and a playful squirrel, only to come across two bunny’s going for it, I instantly knew that this was going to be a film on my wave length.

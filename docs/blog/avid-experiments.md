@@ -6,8 +6,6 @@ layout: blog
 ---
 # Avid Experiments
 
-**Written by Chris Hocking on 4th August 2009**
-
 If you have read any of my previous blog entries here you would know that I am a long time Final Cut Pro user, but since the beginning of this year I have been working at an offline edit house (in addition to the time I spend doing *latenite* things!) that primarily uses Avid on Macs. As we solely do offline editing here and all of the grading and online is done at other more specialised post production facilities, generally speaking we don’t have to worry too much about gamma, colour spaces and getting files in and out of various programs. Most of our jobs are shot on 35mm, and get telecined to DVCAM which we then edit in DV-PAL, export an EDL + OMF and we’re done. For RED Projects we normally get dumped a hard drive full of R3Ds which we convert to DNxHD using RED Rushes and bring all these files in Avid via an ALE. Everything is fairly simple and straight forward.
 
 However, I tend to do a lot more things that fall outside of the offline banner. Sometime there might be some visual effects elements I’ll throw together in After Effects or Shake, other times I might want to do some hardcore grading in Color, or maybe I just want to export out a really high quality DVD.
@@ -20,13 +18,13 @@ To start things off, here are my system specifications. Now, before you all dril
 
 Here are the system specifications of the machine I will be using for these tests:
 
-**System Specs:  
-Processor:** 2 x 2.8 GHz Quad-Core Intel Xeon  
-**Memory:** 2 GB 800 MHz DDR2 FB-DIMM  
-**Mac OS X:** 10.5.7  
-**Quicktime:** 7.6.2 (1327)  
-**Avid:** 3.0.5  
-**Final Cut Pro:** 7.0  
+**System Specs:
+Processor:** 2 x 2.8 GHz Quad-Core Intel Xeon
+**Memory:** 2 GB 800 MHz DDR2 FB-DIMM
+**Mac OS X:** 10.5.7
+**Quicktime:** 7.6.2 (1327)
+**Avid:** 3.0.5
+**Final Cut Pro:** 7.0
 **Photoshop:** 11.0
 
 For the purposes of these tests I will be using a **720 x 576 PAL** test chart from [Belle Nuit](http://www.belle-nuit.com/testchart/ "Belle Nuit Test Chart").
@@ -49,34 +47,34 @@ OK… So now I had a Quicktime file that identically matched the TIFF test chart
 
 The next step was to do some experiments with Avid. First up I created a new **25p PAL** project. I then imported the Quicktime Test Chart, as well as the straight TIFF Test Chart a few different ways:
 
-**Method 1**  
-**Format:** OMF  
-**Video Resolution:** 1:1 OMF  
+**Method 1**
+**Format:** OMF
+**Video Resolution:** 1:1 OMF
 **File Pixel to Video Mapping:** Computer RGB (0-255)
 
-**Method 2**  
-**Format:** OMF  
-**Video Resolution:** 1:1 OMF  
+**Method 2**
+**Format:** OMF
+**Video Resolution:** 1:1 OMF
 **File Pixel to Video Mapping:** Computer RGB (Dither Image Colours)
 
-**Method 3**  
-**Format:** OMF  
-**Video Resolution:** 1:1 OMF  
+**Method 3**
+**Format:** OMF
+**Video Resolution:** 1:1 OMF
 **File Pixel to Video Mapping:** 601 SD or 709 HD (16-235)
 
-**Method 4**  
-**Format:** MXF  
-**Video Resolution:** 1:1 MXF  
+**Method 4**
+**Format:** MXF
+**Video Resolution:** 1:1 MXF
 **File Pixel to Video Mapping:** Computer RGB (0-255)
 
-**Method 5**  
-**Format:** MXF  
-**Video Resolution:** 1:1 MXF  
+**Method 5**
+**Format:** MXF
+**Video Resolution:** 1:1 MXF
 **File Pixel to Video Mapping:** Computer RGB (Dither Image Colours)
 
-**Method 6**  
-**Format:** MXF  
-**Video Resolution:** 1:1 MXF  
+**Method 6**
+**Format:** MXF
+**Video Resolution:** 1:1 MXF
 **File Pixel to Video Mapping:** 601 SD or 709 HD (16-235)
 
 Now that the test charts were successfully in the Avid, it was already time to try and get them back out again!
@@ -369,7 +367,7 @@ Here is some other [information](httphttp://www.elultimodeseo.com/archives/2008/
 >
 > For the last few frames in the movie (Silicon Artists presenta El Último Deseo), the “black” ARGB pixels passed to the Sheer Y’CbCr[A] 8bv 4:2:2[:4] encoder have the value:
 >
-> ARGB = {0xFF,0x10,0x10,0x10} (hexadecimal)  
+> ARGB = {0xFF,0x10,0x10,0x10} (hexadecimal)
 > ARGB = {255,16,16,16} (decimal)
 >
 > When encoding to the Avid Meridien Uncompressed (AVUI) codec the settings dialog (‘Avid Meridien Uncompressed Codec Configuration – v1.8.0’) lets you specify the input color range as either ITU-R 601 video-range [16..235] or full-range [0..255]. However, QuickTime does not provide any mechanism to specify settings for a decoder. QuickTime unequivocally defines the ARGB pixel format as having full-range components, so the fact that AVID’s AVUI decompressor outputs video-range ARGB is just wrong.

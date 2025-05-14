@@ -6,7 +6,7 @@ layout: blog
 ---
 # On The Borderline
 
-**Written by Michael Shanks on 24th May 2012**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F_-wWJITam4?si=hVOubK5acKDi1lhh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Here is an exciting video clip Directed, Edited and Performed by Michael Shanks, for his own band, [Roadgeek](https://www.facebook.com/roadgeekmusic).
 
@@ -18,8 +18,8 @@ Cinematography by the extremely talented Sam McCabe.
 
 Special thanks to the Ryton Kids for letting Mike kill their dog!
 
-You can listen to the band on The Triple J Unearthed website [here](http://www.triplejunearthed.com/roadgeek).  
-You can buy the album on iTunes [here](http://ltnt.tv/roadgeekitunes).  
-You can follow Mike on Twitter [here](http://www.twitter.com/timtimfed).  
-You can follow Mike on Facebook [here](http://www.facebook.com/timtimfed).  
+You can listen to the band on The Triple J Unearthed website [here](http://www.triplejunearthed.com/roadgeek).
+You can buy the album on iTunes [here](http://ltnt.tv/roadgeekitunes).
+You can follow Mike on Twitter [here](http://www.twitter.com/timtimfed).
+You can follow Mike on Facebook [here](http://www.facebook.com/timtimfed).
 You can follow Roadgeek on Facebook [here](https://www.facebook.com/roadgeekmusic).

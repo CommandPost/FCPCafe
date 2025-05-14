@@ -1,12 +1,10 @@
 ---
 title: The End of the Beginning
 date: 2010-10-22
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # The End of the Beginning
-
-**Written by Guest Blogger on 22nd October 2010**
 
 This is a saying that I love to use (because it makes me sound smart, is apt & is a throw away to the expected), because in life, nothing ever really ends (aside from life itself & even then, it’s a new beginning), things only ever begin. The end of a day is really the beginning of the night, the end of the week is really the beginning of the weekend/the new week, the end of a job is really the start of the next adventure & so it goes.
 

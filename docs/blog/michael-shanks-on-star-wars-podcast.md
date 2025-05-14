@@ -6,8 +6,6 @@ layout: blog
 ---
 # Michael Shanks on Star Wars Podcast
 
-**Written by Chris Hocking on 16th December 2014**
-
 Earlier this week Michael Shanks was a guest on [Steele Saunders](http://www.steelesaunders.com/) podcast, ‘[This Isn’t The Podcast You’re Looking For](http://starwarspodcast.net/ep22/)‘ talking about his recent [George Lucas The Force Awakens teaser parody](./../star-wars-episode-vii-trailer/).
 
 You can listen here:

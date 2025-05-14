@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Hollywood Complex
 
-**Written by Nicholas Colla on 26th July 2011**
-
 ![](/static/blog/2011-07-the_hollywood_complex-441x247.jpg "the_hollywood_complex")
 
 What would be a more fitting way for a former child actor to officially start his festival than with a documentary about child actors trying to break through in the states. *The Hollywood Complex* follows a dozen or so child actors and their families who are staying at a complex called Oakwood during the 3-4 month pilot season in the states. To be honest I went to see this because I thought it would be a bit of a laugh, children and their pushy stage parents trying to find fame and fortune in Hollywood. I was right to some degree with these vibrant young children spouting off some dialogue that only a child could, however between these moments of sheer hilarity were moments that made my skin crawl. From one set of parents showing their 7 year old YouTube clips of sick and dying children to prepare her for her audition as a sick child on Grey’s Anatomy, to the mother who became a Scientologist to help improve her daughters chances of becoming famous (she got cast in something almost immediately after her mother joined), there were some really stomach churning moments.

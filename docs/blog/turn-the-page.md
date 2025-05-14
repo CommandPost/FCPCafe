@@ -1,12 +1,10 @@
 ---
 title: Turn The Page
 date: 2010-12-01
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # Turn The Page
-
-**Written by Guest Blogger on 1st December 2010**
 
 Well I’ve just come off one of the more intense weekends I’ve had in a long while, stretching from Friday afternoon to Monday night (quite a contrast to the intense weekend before, an marathon of MetallicA). Where to start? At the beginning. Yes. That seems suitable.
 

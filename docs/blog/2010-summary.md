@@ -6,8 +6,6 @@ layout: blog
 ---
 # 2010 Summary
 
-**Written by Chris Hocking on 1st January 2011**
-
 What a crazy year 2010 was for everyone at LateNite Films! As we already start to get completely crazy busy in the new year, we thought we’d give you a quick summary of what’s been happening over the last several months:
 
 * Working with the talented team at [16th Street Acting Studios](http://www.16thstreet.com.au/ "16th Street Acting Studios"), we put together two teasers for the feature films, [Cloudland & Wrong Girl](./../past_projects/ "Past Projects") directed by screen legend [Nicholas Hammond](http://www.imdb.com/name/nm0358749/ "Nicholas Hammond").

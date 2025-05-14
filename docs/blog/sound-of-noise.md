@@ -6,8 +6,6 @@ layout: blog
 ---
 # Sound of Noise
 
-**Written by Chris Hocking on 15th March 2011**
-
 ![](/static/blog/2011-03-soundofnoise_ticket-441x329.jpg "soundofnoise_ticket")
 
 We didn’t really plan to go and see this film – we were supposed to head to another film on the other side of Miami, however the large taxi ride didn’t really seem that appealing. So instead, we decided to stay at the same theatre, and just see whatever was up next. I misread the program, and was expecting to see a depressing, but critically acclaimed South African movie. However, what we ended up seeing was a crazy musical masterpiece! This is probably one of the best films I’ve seen at the festival. The only problem was – within the first 20 minutes of the film, the movie stopped, the lights went up, the fire alarm went off, and we were forced to evacuate the building! Boy, oh boy! We haven’t had much luck this week with theatres! Luckily though, after the fire department did what they do, we got to go back in the theatre and watch the rest of the film. The only issue – we missed about 5 or 10 minutes! What a pain! Never-the-less, even taking to consideration the unexpected intermission, this was a very clever, and aurally epic film!

@@ -6,8 +6,6 @@ layout: blog
 ---
 # And now for something completely different…
 
-**Written by Chris Hocking on 26th April 2008**
-
 So what exactly are we up to and the moment? What kind of crazy nut-case film are we trying to bring to life? Well, a quite a big one actually. At the end of last year we were worked on a documentary called “Superb Menura”. It was a major step up from our previous 16mm short, “Happy Sundaes”. And whilst we were busy filming doco footage, and getting surround sound recordings at absolutely crazy hours of the night, we were always plotting and planning for what we would do this year.
 
 One thing that I’ve always wanted to do, ever since working on the BBC Kids show “[Tweenies](./../and-now-for-something-completely-different/www.bbc.co.uk/cbeebies/tweenies/ "Tweenies")“, is create a movie about a bunch of kids show characters that are actually aliens. And so we started work on “TV Tubsters” – a full length feature film concept. However, due to the fact that our doco took over our lives for a lengthy period of time, the first story outline wasn’t completed until the start of November. It was also hopeless and massively incomplete. Then throughout November and December we continued, as a team to build upon the general outline. It grew and evolved. Characters were introduced, and then destroyed. Plot outlines grew in size. What started out as a 1000 word outline became a 2000 word outline, and then 4000 word outline. Ideas were accepted, and rejected. Christmas and New Years came and went. Then in the new year, despite our better judgement, we decided to stop trying to develop the story as a team, and sent Isaac to work solo on a first draft of the script. While he went absolutely crazy writing like a mad man, the rest of the time started organising all the pre-production elements – despite the fact that we didn’t have a completed script. After a few weeks or writing it became very clear that we were never going to pull off a feature film script in the time that we had. As heart breaking as this reality was, we decided to press on writing the script, and actually produce a teaser/trailer this year to use as a promotional tool to get the funding required to get the feature film script off the ground the following year. Everything continued along slowly but smoothly. The script grew in size and complexity.
@@ -31,5 +29,3 @@ So that’s the current situation! It hasn’t been an easy ride so far. Ignorin
 As Chris Jones always says, *Onward & Upward* !
 
 Chris!
-
-[Our Plans](./../tag/our-plans/)

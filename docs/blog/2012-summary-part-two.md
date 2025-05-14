@@ -6,8 +6,6 @@ layout: blog
 ---
 # 2012 Summary – Part Two
 
-**Written by Nicholas Colla on 26th December 2012**
-
 ## MAY
 
 The month of May started off fairly disappointing in the theatres, with films such as [The Dictator](http://www.imdb.com/title/tt1645170/), [Men In Black 3](http://www.imdb.com/title/tt1409024/), [Get The Gringo](http://www.imdb.com/title/tt1567609/) and my most hated film of 2012, [Dark Shadows](http://www.imdb.com/title/tt1077368/) hitting the big screen. However, hope in the film industry was quickly recovered, with two fantastic yet very different films emerging, that truly stood out amongst the crowd – the first being the very sweet, and truly authentic documentary, [Jiro Dreams of Sushi](http://www.imdb.com/title/tt1772925/) (one of Jacqui’s favourite films of the year) and the other being the bizarre and epic crowd funded [Iron Sky](http://www.imdb.com/title/tt1034314/) (one of Chris’ faourite films of the year).

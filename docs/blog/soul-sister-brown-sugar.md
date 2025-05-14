@@ -6,11 +6,7 @@ layout: blog
 ---
 # Soul Sister, Brown Sugar.
 
-**Written by Nicholas Colla on 5th August 2012**
-
-## 
-
-### MIFF Opening Night. Best in Years.
+**MIFF Opening Night. Best in Years.**
 
 So it’s probably no surprise for you to all hear that I love the [Melbourne International Film Festival](http://miff.com.au/). Every year I get super excited when the festival comes around cause it literally allows me to go nuts and watch 50 odd movies in just 19 short days. Some might call it crazy, I think it’s bloody brilliant.
 

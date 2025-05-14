@@ -6,8 +6,6 @@ layout: blog
 ---
 # Assistant Editor Lecture
 
-**Written by Chris Hocking on 30th October 2010**
-
 [![](/static/blog/2010-10-post_lecture_keynote_001-441x248.jpg "post_lecture_keynote_001")](/static/blog/2010-10-post_lecture_keynote_001.jpg)
 
 Last week I had the pleasure of being invited to [Swinburne University](http://www.swin.edu.au "Swinburne University") to speak to 3rd and 4th year students studying towards their [Bachelor of Film & Television](http://www.swinburne.edu.au/design/filmtv/ "Film & Television") in Prahran. I’ve had a couple of requests already to share some of the slides from the presentation, so I thought I might as well put together some useful resources to sum up what I discussed, and share them with world via this blog! So instead of just sitting in front of your computer or mobile device reading this – imagine that you’re a student in a university class room. The only difference is that instead of being able to just yell out questions (of which we had some really great questions when I did the talk!), you’ll have to just submit a comment at the bottom of this page and I will get back to you. Please keep in mind that this was only a short introduction to the world of post production, so I won’t be going into so much detail in regards to all the technical things – consider it a quick overview. I have however included a stack of really useful links at the end of the post, so you can continue your learning… Enjoy!
@@ -110,10 +108,10 @@ At the end of the offline edit process, we provide post production houses (such 
 
 **Types of EDLs:**
 
-**Scan EDL**  
+**Scan EDL**
 This EDL contains all the shots that are used in a job. If there are multiple versions of a commercial (i.e. a 60sec cut, 30sec cut, 15sec cut and 10sec billboards), then this EDL should contain EVERY clip that is included in all of the cuts, but should not include duplicates. Any visual effects background plates, extra passes, green screen shots, etc. should also be included in this EDL. They don’t have to be in any particular order. The online house will use this EDL as a reference of what shots need to be rescanned at high resolution for the final colour grade and conform. The EDLs timecode should start at 01:01:30:00 and there should not be any black gaps between clips. This EDL should not contain any effects, graphics or transitions. This EDL should be sorted by C-Mode (also referred to as “Source” in Final Cut Pro).
 
-**Grade EDL**  
+**Grade EDL**
 This EDL contains all the shots that are used in a job, in order of the various edits, and can include duplicates. For example, if you have a big impressive dolly shot that opens at the start of the 60sec cut and then again in the 90sec cut, it will appear twice in the EDL. The EDL should start 01:01:30:00. Each new cut should also start on a 30sec mark (i.e. 01:02:30:00). At the end of the EDL, also on a 30sec mark should be any visual effects elements that were included in the Scan EDL. This EDL should not contain any effects, graphics or transitions. This EDL should be sorted by A-Mode (also referred to as “Master” in Final Cut Pro). This EDL is used to grade all of the footage. It is laid out in this particular way so that the colour grade can be viewed in context to the edit.
 
 **Conform EDL**For each cut you do (i.e. 60sec, 90sec, 30sec), you will need to export an individual EDL for each track/layer. For example, if you have three different edits - you will need three different “sets” of EDLs. If each EDL has two layers/tracks, then you will end up with nine EDLs in total. The conform EDL should contain all effects, graphics, speed changes and transitions. Each EDL should start at the same timecode point as per the grade EDL (i.e. the first cut will start on 01:01:30:00, the second might start on 01:02:30:00, etc.). This EDL should be sorted by A-Mode (also referred to as “Master” in Final Cut Pro). This EDL will be used by the online artist to essentially “recreate” the edits as they appeared in the offline edit, however they will now link to the newly graded footage and any updated effects shots. Any speed effects and transitions will also be reapplied at full resolution.
@@ -157,45 +155,45 @@ This concludes my little talk about the world of post production. Unfortunately,
 
 Luckily for you there are heaps of fantastic resources out there to help you with Final Cut Studio!
 
-First off, there’s always **Apple**.  
+First off, there’s always **Apple**.
 [http://www.apple.com/support/finalcutpro/](http://www.apple.com/support/finalcutpro/ "Apple")
 
-Secondly, one of the very best places to get support for anything technical is **The Digital Video Information Network**. It’s an incredibly professional forum, full of industry professionals and young up-and-coming gurus. In most cases, a quick search of the site and you’ll found your answer. However, if a search returns nothing, you can always post your question and within no-time you’ll receive a quick and helpful response. We can’t recommend this site enough!  
+Secondly, one of the very best places to get support for anything technical is **The Digital Video Information Network**. It’s an incredibly professional forum, full of industry professionals and young up-and-coming gurus. In most cases, a quick search of the site and you’ll found your answer. However, if a search returns nothing, you can always post your question and within no-time you’ll receive a quick and helpful response. We can’t recommend this site enough!
 <http://www.dvinfo.net/conf/login.php>
 
 But, if you’re not a fan of forums, here are some other great alternatives:
 
-**Ken Stone’s Final Cut Pro Tutorials** website is one of the best sites out there for Final Cut Studio information. It really contains a wealth of information from a range of fantastic authors on all kinds of things!  
+**Ken Stone’s Final Cut Pro Tutorials** website is one of the best sites out there for Final Cut Studio information. It really contains a wealth of information from a range of fantastic authors on all kinds of things!
 <http://kenstone.net/fcp_homepage/fcp_homepage_index/>
 
-**Moviola Digital Education Center** is committed to providing useful information, both in the classroom and out. Here you’ll find a lot of useful information related to Final Cut Pro, and other Final Cut Studio applications. In addition to custom tips and tutorials, you’ll find downloads relevant to Final Cut Studio, troubleshooting resources, and we’ve also scoured the Internet for other helpful information.  
+**Moviola Digital Education Center** is committed to providing useful information, both in the classroom and out. Here you’ll find a lot of useful information related to Final Cut Pro, and other Final Cut Studio applications. In addition to custom tips and tutorials, you’ll find downloads relevant to Final Cut Studio, troubleshooting resources, and we’ve also scoured the Internet for other helpful information.
 <http://edu.moviola.com/rc_final_cut_studio_main>
 
-**DMN Final Cut Pro Channel** has some really useful tutorials.  
+**DMN Final Cut Pro Channel** has some really useful tutorials.
 <http://finalcutpro.digitalmedianet.com/>
 
-**FCP Hot Tips Podcast:** Every month, Apple certified trainer Martin Baker shows a hot tip for Final Cut Pro to save time and make your editing life easier.  
+**FCP Hot Tips Podcast:** Every month, Apple certified trainer Martin Baker shows a hot tip for Final Cut Pro to save time and make your editing life easier.
 <http://www.digital-heaven.co.uk/podcast/>
 
-**LAFCPUG:** Offers extensive resources, articles and information for Final Cut Pro.  
+**LAFCPUG:** Offers extensive resources, articles and information for Final Cut Pro.
 <http://www.lafcpug.org/>
 
-**LarryJordan.biz:** Final Cut Pro articles and info.  
+**LarryJordan.biz:** Final Cut Pro articles and info.
 <http://www.larryjordan.biz/>
 
-**Proapptips.com:** Pro App Tips are short tips about for the Apple PRO series of video production programs.  
+**Proapptips.com:** Pro App Tips are short tips about for the Apple PRO series of video production programs.
 <http://www.proapptips.com/>
 
-**SFCutters.org:** The world’s first FCP User Group in San Francisco.  
+**SFCutters.org:** The world’s first FCP User Group in San Francisco.
 <http://www.sfcutters.org/pages/articles.htm>
 
-**Yahoo! Groups:** Final Cut Pro discussion groups.  
+**Yahoo! Groups:** Final Cut Pro discussion groups.
 <http://dir.groups.yahoo.com/dir/1603568771>
 
-**Final Cut Studio Planet:** Tips and News Blog.  
+**Final Cut Studio Planet:** Tips and News Blog.
 <http://dvcreators.net/finalcutstudioplanet/>
 
-**Creative COW:** Final Cut Pro discussion, articles and tutorials.  
+**Creative COW:** Final Cut Pro discussion, articles and tutorials.
 <http://forums.creativecow.net/index/>
 
 **Avid Resources:**

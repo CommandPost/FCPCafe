@@ -6,12 +6,14 @@ layout: blog
 ---
 # Stare Down
 
-**Written by Chris Hocking on 16th October 2014**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lRSQqR2Xy4I?si=MSTCoCaVAZBIXttf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *The final duel…*
 
-#### CREDITS
+---
 
-**Directed by:** Michael Shanks  
-**Created by:** Nicholas Issell, Damien Bodie, Chris Hocking and Louie McNamara  
+## CREDITS
+
+**Directed by:** Michael Shanks
+**Created by:** Nicholas Issell, Damien Bodie, Chris Hocking and Louie McNamara
 **Thanks to:** Olliver Brown and Kony

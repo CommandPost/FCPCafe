@@ -6,8 +6,6 @@ layout: blog
 ---
 # Filmapalooza 2011
 
-**Written by Chris Hocking on 8th March 2012**
-
 ![](/static/blog/03-filmapalooza-01-590x440.jpg "filmapalooza-01")
 
 First up… some people are a tad confused as to why I’ve called this blog post Filmapalooza **2011**, and not 2012. No, I haven’t forgotten what year it is (surprisingly!) – it’s just that the competition is for films we all did LAST YEAR. Given that our film was shot and competed in the 2011 national competition, it made sense to label the blog post 2011. Hope that makes sense! Now… on to the blog…
@@ -51,19 +49,19 @@ There were a **100 films** from all over the world attending at this years compe
 
 Before I list any of the winners – and list our own picks, here’s some geeky film stats of what the city winners used in terms of cameras and post software.
 
-**Cameras Used:**56 x Canon DSLR  
-12 x Panasonic  
-9 x Sony  
-2 x Red camera (FYI: we shot on a RED ONE, as did *Little Rock*)  
-1 x Nikon DSLR  
+**Cameras Used:**56 x Canon DSLR
+12 x Panasonic
+9 x Sony
+2 x Red camera (FYI: we shot on a RED ONE, as did *Little Rock*)
+1 x Nikon DSLR
 1 x Go Pro
 
-**Edited With:**63 x Final Cut Pro  
-10 x Adobe Premiere  
-4 x Sony Vegas  
-4 x Avid  
-1 x iMovie  
-1 x Final Cut Express  
+**Edited With:**63 x Final Cut Pro
+10 x Adobe Premiere
+4 x Sony Vegas
+4 x Avid
+1 x iMovie
+1 x Final Cut Express
 1 x Final Cut Pro X
 
 It’s pretty clear that most people, regardless of where they are in the world are using Canon DSLRs and FCP!
@@ -72,40 +70,40 @@ It’s pretty clear that most people, regardless of where they are in the world 
 
 And, with the geek facts aside, here are the official winners from this years Filmapalooza Competition.
 
-**The Judges Criteria:**  
-45% – Artistic Merit (e.g., Story, Creativity, Entertainment Value)  
-30% – Technical Merit  
+**The Judges Criteria:**
+45% – Artistic Merit (e.g., Story, Creativity, Entertainment Value)
+30% – Technical Merit
 25% – Adherence to the Assignment
 
 …and the winners are:
 
-**Best Film**  
-**Honorable Mention for Directing**  
-**Best Editing**  
-**Best Special Effects**  
+**Best Film**
+**Honorable Mention for Directing**
+**Best Editing**
+**Best Special Effects**
 “In Captivity” by [Jpixx Films](http://jpixx.com/) from Hampton Roads (VA)
 
-**Runner Up for Best Film**  
-**Best Directing**  
-**Best Writing**  
-**Best Use of Line**  
+**Runner Up for Best Film**
+**Best Directing**
+**Best Writing**
+**Best Use of Line**
  [“My Darling, I’m So Sorry”](http://www.youtube.com/watch?v=nS2uSVJEzJw&feature=youtu.be) by [so36portraits](http://www.so36portraits.de/) from Berlin
 
-**Best Cinematography**  
-**Best Graphics**  
+**Best Cinematography**
+**Best Graphics**
 “Page 23” by Arts, Houben & Van Den Boogaard from Utrecht
 
-**Second Runner Up for Best Film**  
-**Honorable Mention for Writing**  
+**Second Runner Up for Best Film**
+**Honorable Mention for Writing**
 “Canh Ba Ba” by Yeti from Ho Chi Minh City
 
-**Best Acting – Ensemble**  
+**Best Acting – Ensemble**
 “Casse geule” by Collectif 109 from Paris
 
-**Best Acting – Individual**  
+**Best Acting – Individual**
  [Jason Perini](http://vimeo.com/user6401967) in “A Little Bit Behind” by The Magnificent from New South Wales (Australia)
 
-**Best Song**  
+**Best Song**
 “Oh Drama” by White Poison Industries from Des Moines
 
 ![](/static/blog/03-filmapalooza-17-590x440.jpg "filmapalooza-17")
@@ -203,34 +201,34 @@ You can find all the other films that screened on the [official website](http://
 
 **UPDATE March 2012:** Also, here is a list of all the films that are fortunate enough to make it to NAB and Cannes! Congratulations everyone!
 
-**Cannes Film Festival – Short Film Corner – May 2012**Atlanta “The Prince’s Perfect Party”  
-Berlin “My Darling, I’m So Sorry”  
-Boston “One Step Forward”  
-Hampton Roads “In Captivity”  
-Ho Chi Minh City “Canh Ba Ba”  
-Houston “Cold War”  
-Johannesburg “Child”  
-Las Vegas “The Last Taco Shop”  
-New South Wales “A Little Bit Behind”  
-Paris “Casse Gueule”  
-San Francisco “How the Spot Was Won”  
-Richmond “Summer League”  
-Utrecht “Page 23”  
+**Cannes Film Festival – Short Film Corner – May 2012**Atlanta “The Prince’s Perfect Party”
+Berlin “My Darling, I’m So Sorry”
+Boston “One Step Forward”
+Hampton Roads “In Captivity”
+Ho Chi Minh City “Canh Ba Ba”
+Houston “Cold War”
+Johannesburg “Child”
+Las Vegas “The Last Taco Shop”
+New South Wales “A Little Bit Behind”
+Paris “Casse Gueule”
+San Francisco “How the Spot Was Won”
+Richmond “Summer League”
+Utrecht “Page 23”
 “Bliss” Australia 2011 48 Green Hours Winning Film
 
-**NABShow in Las Vegas – Thursday, April 19**Berlin “My Darling, I’m So Sorry”  
-Des Moines “Oh Drama”  
-Denver “Unfurnished”  
-Hampton Roads “In Captivity”  
-Ho Chi Minh City “Canh Ba Ba”  
-Louisville “Storytime Time”  
-Madison “Baden Krunk”  
-Paris “Casse Gueule”  
-Portland, OR “271”  
-Prague “No Country For Young Men”  
-Shanghai “The Model”  
-Tel Aviv “True to Life”  
-Utrecht “Page 23”  
+**NABShow in Las Vegas – Thursday, April 19**Berlin “My Darling, I’m So Sorry”
+Des Moines “Oh Drama”
+Denver “Unfurnished”
+Hampton Roads “In Captivity”
+Ho Chi Minh City “Canh Ba Ba”
+Louisville “Storytime Time”
+Madison “Baden Krunk”
+Paris “Casse Gueule”
+Portland, OR “271”
+Prague “No Country For Young Men”
+Shanghai “The Model”
+Tel Aviv “True to Life”
+Utrecht “Page 23”
 Washington, DC “Relative”
 
 ![](/static/blog/03-filmapalooza-15-590x440.jpg "filmapalooza-15")

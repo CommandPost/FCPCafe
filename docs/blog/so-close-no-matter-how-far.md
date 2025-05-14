@@ -1,12 +1,10 @@
 ---
 title: So Close, No Matter How Far
 date: 2011-04-12
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # So Close, No Matter How Far
-
-**Written by Guest Blogger on 12th April 2011**
 
 SO. How are you? Good golly, miss molly, it has been some time since I posted any kind of update. Thanks for sticking by, and having a glance every now and then to see what’s going on. And although all may have seemed to come to somewhat of a stand still at SHOTGUN! HQ, we have been busy, busy, working away at developing the script, meeting with people (some of the LateNite team were over in the USA with their short film FALLOUT!!).
 

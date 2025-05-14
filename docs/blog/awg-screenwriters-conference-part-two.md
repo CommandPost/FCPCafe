@@ -10,15 +10,17 @@ layout: blog
 
 ![tomschulman](/static/blog/03-tomschulman.jpg)
 
-> Having failed at everything as a writer, that’s how I got to where I am.  
-> **Tom Schulman.**  
+> Having failed at everything as a writer, that’s how I got to where I am.
+> **Tom Schulman.**
 > **Academy Award winning writer of Dead Poets Society, 2013.**
 
 So day two rolled around and unfortunately due to the commute back and forth from Melbourne I managed to miss what I was told was a brilliant networking breakfast. Although to be honest every time I hear that word networking I cringe a little. I just feel like the word makes me feel like I’m supposed to be friendly with people because I may need them at some stage. I’d rather think of it as an opportunity to meet like minded people in film who i’ll hopefully have long lasting relationships with. Either way I missed it, so onto the first session for the day.
 
 ![thekingsspeech](/static/blog/03-thekingsspeech.jpg)
 
-### Moneyball: The High Stakes World of Development for the International Market.
+---
+
+## Moneyball: The High Stakes World of Development for the International Market.
 
 I was looking forward to this session more than most as it was about developing content that works on an international scale rather than just a local scale and it also had one of the best panels of the weekend. It was chaired by [Jan Sardi](http://www.imdb.com/name/nm0764982/) (writer, [Shine](http://www.imdb.com/title/tt0117631/)) and featured [Penny Chapman](http://www.imdb.com/name/nm0152491/) (Producer, [Matchbox Pictures](http://www.matchboxpictures.com/)), [Seph McKenna](http://www.imdb.com/name/nm3518246/) (Head Australian Production, Village Roadshow) and [Emile Sherman](http://www.imdb.com/name/nm0792431/) (Producer, [The King’s Speech](http://www.imdb.com/title/tt1504320/), [Shame](http://www.imdb.com/title/tt1723811/)). Looking forward to where Chris and I would like LateNite to head, this was a very important session as we want to think big in terms of the film and television that we want to produce.
 
@@ -73,7 +75,9 @@ They finished off with a story about a writer called Graeme Simsion, a man who I
 
 ![madmax](/static/blog/03-madmax-590x337.png)
 
-### Warp Factor None: Writing Sci Fi Film & TV in Australia
+---
+
+## Warp Factor None: Writing Sci Fi Film & TV in Australia
 
 I went to sit in on this talk due to a couple of projects that Chris and I have been working on in the last few years that have a bit of a Sci Fi twist to them. I was thoroughly disappointed with the talk which didn’t really seem to go anywhere. The panel seemed to talk mainly about the fact that Sci Fi could definitely and should be made in Australia, but really it isn’t that much. It was a real shame because the session was packed with writers who I think were expecting a bit more of an insight into Sci Fi writing and the deconstruction of what makes it work in Hollywood but perhaps currently not here.
 
@@ -90,7 +94,9 @@ Check them out if you get the chance.
 
 ![undead](/static/blog/03-undead.jpg)
 
-### Horror, The Horror
+---
+
+## Horror, The Horror
 
 This talk involved writers [Shane Krause](http://www.imdb.com/name/nm1324960/), [Shayne Armstrong](http://www.imdb.com/name/nm2453858/) and legendary genre producer [Anthony Ginane](http://www.imdb.com/name/nm0320060/) and was about the issues that producers often find with first time screen writers. The two Shane’s had literally just come off judging the Terror Australis Competition and so got an insight as writers as what producers must have to put up with when reading a huge volume of scripts (they had to read 130 and pick 12 for the competition). They broke the talk up into 13 “rules” which I’ve attempted to summarise below.
 
@@ -177,7 +183,9 @@ A couple of interesting points in there but the discussion ended up descending i
 
 ![littlefish](/static/blog/03-littlefish-590x391.jpg)
 
-### The Eclectic Writer: Pleasures and Pains of working in multiple genres
+---
+
+## The Eclectic Writer: Pleasures and Pains of working in multiple genres
 
 A great session to finish the day with as again it featured a rip roaring panel which included [Tom Schulman](http://www.imdb.com/name/nm0776114/) (writer, [Dead Poet’s Society](http://www.imdb.com/title/tt0097165/), [Honey I Shrunk the Kids](http://www.imdb.com/title/tt0097523/)), [Andrew Knight](http://www.imdb.com/name/nm0460795/) (one of Australia’s greats, writer of [SeaChange](http://www.imdb.com/title/tt0138785/), [Rake](http://www.imdb.com/title/tt1587000/), [Jack Irish](http://www.imdb.com/title/tt2087820/)), [Jacquelin Perske](http://www.imdb.com/name/nm0675476/) (writer [Love My Way](http://www.imdb.com/title/tt0426741/), [Little Fish](http://www.imdb.com/title/tt0382810/)) and [Keith Thompson](http://www.imdb.com/name/nm0860375/) (writer, [The Sapphires](http://www.imdb.com/title/tt1673697/), [Clubland](http://www.imdb.com/title/tt0432264/)).
 

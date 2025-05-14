@@ -6,8 +6,6 @@ layout: blog
 ---
 # Severance
 
-**Written by Chris Hocking on 15th August 2007**
-
 *Another Bloody Office Outing.*
 
 *The Company Is Making Cutbacks.*
@@ -24,7 +22,9 @@ This is a very enjoyable and unpredictable film, with some tremendous high produ
 
 You will be either clutching the person next to you or weeping with laughter as Smith takes you on an increasingly insane roller-coaster ride with everything you want in this kind of film – it even has a bear!
 
-**References:**
+---
 
-* *Severance (2006)*, Internet Movie Database Inc., viewed 15 August 2007, <http://www.imdb.com/title/tt0464196/>.
-* *Severance (2006)*, Melbourne International Film Festival, viewed 15 August 2007, <http://www.melbournefilmfestival.com.au/2007/film?film_id=7394>
+## References
+
+- *Severance (2006)*, Internet Movie Database Inc., viewed 15 August 2007, <http://www.imdb.com/title/tt0464196/>.
+- *Severance (2006)*, Melbourne International Film Festival, viewed 15 August 2007, <http://www.melbournefilmfestival.com.au/2007/film?film_id=7394>

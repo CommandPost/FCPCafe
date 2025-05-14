@@ -6,8 +6,6 @@ layout: blog
 ---
 # GPS raises significant issues of mobile privacy
 
-**Written by Chris Hocking on 20th October 2006**
-
 > The government’s been in bed with the entire telecommunications industry since the forties. They’ve infected everything. They get into your bank statements, computer files, e-mail, listen to your phone calls…. Every wire, every airwave. The more technology used, the easier it is for them to keep tabs on you. It’s a brave new world out there. At least it better be…Brill from the film 'Enemy of the State' (Touchstone Pictures 1998)
 
 In Tony Scott’s 1998 blockbuster, *“Enemy of the State”*, a successful Washington DC lawyer is hunted down by a government intelligence group, after he is inadvertently given a video tape revealing the murder of a congressman. As he attempts to gather the facts with the intention to release them to the public’s eye, the full weight of the government’s surveillance equipment is swung into action – everything from coin size bugging devices and telephone location tracing to real-time satellite surveillance. The lawyer’s bank details, phone records and other extremely personal details are brought up and manipulated with ease by the government using their extensive computer networks (Touchstone Pictures 1998). Although at the time of the movies release the majority of the technology displayed in this film appeared far fetched and extremely unlikely. Step forward seven years and most, if not all of the equipment, suddenly seems all the more plausible.
@@ -26,7 +24,9 @@ But it is not just the *Federal Bureau of Investigation* that is making use of G
 
 But it’s not just the government and law enforcements that have their eye on GPS: companies are using it to spy on their workers; wives are using it to keep tabs of their husbands, mothers of their children. GPS devices are being built into more and more automobiles and are being embedded into mobile phones (Bray 2005). At the end of the day however, the more people that utilise GPS technology, the easy it is for authorities to keep track of everyone. In theory a database could be set up maintaining a list of where everyone is or was at any given time. *Enemy of the State* could become reality. And as long as those cars or phones are on public roads, the users have no right to object (Bray 2005). However, what the courts failed to consider in the US, is that tracking people via GPS is very different from keeping tabs of them on foot or by vehicle. Before GPS existed, the limited budgets and the lack of man power restricted officers from following anyone they please. But with a cheap and widespread technology like GPS the temptation to engage in casual surveillance may become irresistible (Bray 2005). Although there are obviously benefits to GPS technology the potential for unethical surveillance and monitoring are too great to ignore. With information comes power – and with GPS devices widely spread throughout society, anyone that has access to this data holds the upper hand. Allowing the FBI (or their international equivalent) to have access to this information is scary enough – but what if there systems become compromised and a criminal gains access? Or what if the government officials are corrupt? Sure there are monitors in place, but as Carla Dean states in *Enemy of the State*, “who’s gonna monitor the monitors of the monitors” (Touchstone Pictures 1998)…
 
-#### References:
+---
+
+## References
 
 * A.I.C 2006, *Sworn police officers in Australia*, Australian Institute of Criminology, viewed 20 September 2006, <http://www.aic.gov.au/publications/cfi/cfi116/>
 * ACMA 2006, *Mobile Originating Location Information*, Australian Communications and Media Authority, viewed 20 September 2006, <http://www.acma.gov.au/ACMAINTER.131352:STANDARD:1884699275:pc=PC_7251>

@@ -6,11 +6,7 @@ layout: blog
 ---
 # Australia’s Ron Howard
 
-**Written by Nicholas Colla on 5th August 2012**
-
-### 
-
-### …or Why Our Safety Is Not Guaranteed.
+**…or Why Our Safety Is Not Guaranteed.**
 
 The great thing about growing up in the world in which you want to work is that as you get older you start to see friends and people you have worked with in your past start to break through. It’s such a warm feeling to have as in an industry fueled by ego and people that are looking for a cheap shot at fame and fortune, it is always the driven, talented ones without that sense of entitlement who are humbled by what we do that start to excel. Because at the end of the day whether you be involved in music, fine art, theatre, film or any other creative endeavor, it is about telling stories.
 

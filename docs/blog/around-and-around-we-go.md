@@ -6,8 +6,6 @@ layout: blog
 ---
 # Around, and around we go!
 
-**Written by Chris Hocking on 25th May 2008**
-
 OK… I’ll be honest. I haven’t absolutely no idea how anyone can maintain a daily blog – especially film makers. I just don’t understand how they can possibly find the time! We’ve been absolutely positively flat out since my last post – it’s really been a bit silly! Chris Jones I salute you! I have no idea how you not only find the time, but also write stuff that actually makes sense, and has good spelling and grammar! OK, so now I have to find back to what has actually happened over the last week…
 
 Well, as I said previously, Saturday was camera test day. We piled up James and Doris (the names of my 4WD and Isaac’s van), and headed to a football grandstand in Melbourne to test some Super 16 stock. We shot several different things (colour charts, grey scale charts, city skyline, people running, etc.) using the different stocks (specifically Kodak 50D VISION2, 200T VISION2 and 500T VISION3) at different exposures, and using different filters. We also shot the exact same material using a Panasonic HVX202 and Sony Z1P (using the fixed lenses) to use as a comparison. Originally we intended to use a P+S adapter on both the digital cameras, however we couldn’t get one that weekend. The day went pretty much as planned – although the weather was horrible and freezing! Here are some photos of the day for your viewing pleasure:
@@ -39,5 +37,3 @@ So what’s in store for this coming week? A lot! A hell of a lot! On Friday we 
 Anyway, I must be off! As always, if you have any questions or queries, feel free to either post a comment on this blog, or send us an e-mail! We’re ALWAYS more than happy to answer any questions you have about us, our work or about movie making in general. Until next time…
 
 Chris!
-
-[Camera Tests](./../tag/camera-tests/)[Photos](./../tag/photos/)

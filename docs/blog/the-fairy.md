@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Fairy
 
-**Written by Nicholas Colla on 26th July 2011**
-
 ![](/static/blog/2011-07-the_fairy_680x380-441x246.jpg "The Fairy")
 
 With last year’s tragic *The Wedding Party* opening last years festival, I think that it’s fair to say that my bar had been significantly lowered in terms of what I was expecting. Luckily I was pleasantly surprised with Belgian/French film *The Fairy*, a film that was also written and directed by its three lead actors. The film is a slapstick romance which revolves around a man working the night shift at a hotel who is visited by a woman claiming to be a Fairy. With strong links to the likes of Buster Keaton, Charlie Chaplin and Jacques Tati’s work, the film itself feels like a series of sketches that have been worked around a really rough storyline. Unfortunately with this being the case, the longer the movie went, the more the audience became restless - possibly getting antsy to get to the Town Hall for their free booze and canapés. That said, I still thoroughly enjoyed *The Fairy* with it’s surreal “Boosh-like” moments which included a strange under-the-sea dance and also the very clever use of rear projection in a chase sequence.

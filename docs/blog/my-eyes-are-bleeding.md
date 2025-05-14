@@ -6,8 +6,6 @@ layout: blog
 ---
 # My eyes are bleeding…
 
-**Written by Nicholas Colla on 15th October 2010**
-
 I just read Chris and Al’s last posts and sat for a minute in silence.
 
 Let me paint the picture for you. It’s almost 2am, it was my birthday yesterday, it is the last night of my bar job tomorrow night as my bar is closing, it’s the script read on sunday night, then I have 2 days of night shoots on a short film that I agreed to do, all the while pushing on with SHOTGUN! producing duties.
@@ -23,5 +21,3 @@ I think the most exciting thing about this whole experience for me is that we ar
 So do me a big favour kids – share the love…..
 
 and prepare to have your socks knocked THE FUCK OFF!!
-
-[inspiration](./../tag/inspiration/)[live script read](./../tag/live-script-read/)

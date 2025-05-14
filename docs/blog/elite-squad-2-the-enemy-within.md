@@ -6,8 +6,6 @@ layout: blog
 ---
 # Elite Squad 2: The Enemy Within
 
-**Written by Chris Hocking on 11th March 2011**
-
 ![](/static/blog/2011-03-elitesquad2_ticket-441x329.jpg "elitesquad2_ticket")
 
 We have seen a lot of documentaries and low-budget films so far at this years festival – however [Elite Squad 2: The Enemy Within](http://www.imdb.com/title/tt1555149/ "IMDB") is certainly at the other end of the spectrum. Having already enjoyed public and critical acclaim, Elite Squad 2 is the current all-time largest box office ticket seller and highest-grossing film in Brazil, ahead of massive Hollywood blockbusters such as Avatar. This film was epic – it had massive action sequences, a soundtrack that shook the walls of the theatre, and even an opening title sequence that makes Michael Bay look like a wimp!

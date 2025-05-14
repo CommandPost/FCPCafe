@@ -6,8 +6,6 @@ layout: blog
 ---
 # Waiting On Sound…
 
-**Written by Chris Hocking on 16th September 2012**
-
 ![](/static/blog/09-35189_450166244401_4257829_n-590x393.jpeg "Sound 01")
 
 After a solid [1,274](http://prolost.com/og/) blog posts, one of my heros, [Stu Maschwitz](http://prolost.com/about/) has finally taken the time to write a detailed article about the pain of getting good audio, titled [Production Audio is Ripe for Revolution](http://prolost.com/audio). Apart from a [really tiny blog post](http://prolost.com/blog/2007/2/17/designing-a-movie-for-sound/) that links to an [external article](http://www.filmsound.org/articles/designing_for_sound.htm) this is the first time that Stu has really even mentioned sound in any great detail – which is telling in itself. What’s really interesting though is the amount of [feedback](http://prolost.com/blog/2012/9/10/production-audio-is-ripe-for-revolution/#comments) his post has gotten…

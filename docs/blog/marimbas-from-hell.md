@@ -6,8 +6,6 @@ layout: blog
 ---
 # Marimbas From Hell
 
-**Written by Chris Hocking on 8th March 2011**
-
 ![](/static/blog/2011-03-marimbasfromhell-441x329.jpg "marimbasfromhell")
 
 I am currently travelling with two other LateNite Films people at MIFF, and we all went and saw this film, titled [Marimbas From Hell](http://www.imdb.com/title/tt1674713/ "IMDB"). One person thought it was a complete and utter waste of his time, another thought it was seriously funny – so hilarious that he kept on giggling like a school girl all the way to dinner (and no, it’s not hard to guess which member of our team I’m talking about). Personally, although I liked elements of the film – and yes, I did laugh at a few of the jokes – it was also one of those festival films where you just can’t wait for the closing credits. It was painful to watch, because it was slow, predictable, and just plain dull. It was also projected in the wrong aspect ratio – which never helps things!

@@ -6,8 +6,6 @@ layout: blog
 ---
 # Wah Wah
 
-**Written by Nicholas Colla on 18th November 2010**
-
 Have been away for a few days with my lovely lady and managed to take a load off for the first time in god knows how long. The great thing about this trip being that I got the opportunity to read the Wah Wah diaries by Richard E. Grant which is basically his diary from his first film as a writer/director and jesus was it an eye opener.
 
 Made me realise just how fucking difficult the whole film making process can be, and this was for a man who has been around for years and years. I think the one thing that became apparent though was the struggle that Richard had the with producers (French ones) on the film which is funnily enough i think what sets Chris and I aside from regular producers.

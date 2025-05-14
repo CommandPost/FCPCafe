@@ -6,16 +6,18 @@ layout: blog
 ---
 # Making Mornings Magnificent
 
-**Written by Chris Hocking on 12th November 2013**
-
 Here are some 15sec videos we produced recently for DMG Radio Australia and Hungry Jack’s. Enjoy!
 
-**Directed by:** Nicholas Colla  
-**Produced by:** Chris Hocking  
+---
+
+## Credits
+
+**Directed by:** Nicholas Colla
+**Produced by:** Chris Hocking
 **Cinematography by:** Benjamin Hidalgo De la Barrera
 
-**DMG Radio Australia Team:**  
-Kerry Nicholls  
-Dave Zwolenski  
-Felicity Kane  
+**DMG Radio Australia Team:**
+Kerry Nicholls
+Dave Zwolenski
+Felicity Kane
 Kasmir Simpson

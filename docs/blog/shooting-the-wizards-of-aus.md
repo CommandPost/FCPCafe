@@ -1,12 +1,10 @@
 ---
 title: Shooting The Wizards of Aus
 date: 2016-01-18
-author: Guest Blogger
+author: Benjamin Hidalgo De la Barrera
 layout: blog
 ---
 # Shooting The Wizards of Aus
-
-**Written by Guest Blogger on 18th January 2016**
 
 ***In this blog post we have two very special guests – first up is longtime collaborator and close friend, our amazing Director of Photography on The Wizards of Aus, the awesome Benjamin Hidalgo De la Barrera, followed by his trusty 1st Camera Assistant, the incredibly hardworking Jonathan Haynes. Enjoy!***
 
@@ -44,12 +42,12 @@ My name is **Jonathan Haynes** and I worked as the **1st Assistant Camera** on *
 
 On the series the following equipment was used:
 
-* *Red Dragon*
-* *Zeiss Compact Primes (set of 5 lenses)*
-* *Zeiss Compact Zoom 70-200m*
-* *Gremsy H14 Stabilizer with an Easyrig*
-* *RT Motion wireless follow focus*
-* *Teradek Bolt transmitter and receiver*
+- *Red Dragon*
+- *Zeiss Compact Primes (set of 5 lenses)*
+- *Zeiss Compact Zoom 70-200m*
+- *Gremsy H14 Stabilizer with an Easyrig*
+- *RT Motion wireless follow focus*
+- *Teradek Bolt transmitter and receiver*
 
 As you will see in the series there is a lot of camera movement so it was important to have the Red Dragon as light and slim as possible. This limited us on what we could have on the camera to keep weight down.
 

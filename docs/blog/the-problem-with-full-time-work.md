@@ -6,8 +6,6 @@ layout: blog
 ---
 # The problem with full time work…
 
-**Written by Chris Hocking on 30th March 2009**
-
 I’m extremely lucky to have landed a fantastic job a few weeks ago as an assistant editor full time this year at a amazing boutique edit house in Melbourne. At a time where job security is certainly not ensured, unemployment is high and the economy is in the toilet, it’s great to have a job, let alone a challenging, exciting and fun job working alongside an award winning group of just really great people. But like with everything in life, there’s always some negatives. For me, the simple fact that I’m working five days a week means that I have less and less time to concentrate on my own film projects. After a big day at work, plus a few hours of commuting home, there’s not much time left to get fired up again about all the others things on your to-do list. As always, time in against me. But at least I’m doing something I really enjoy.
 
 But having said all this – despite my ongoing lack of time, I’ve got a huge amount of INCREDIBLE projects in the works. The Sakooz website has been put on a temporary hold yet again – I just need a few days free to get it up and running. This will DEFINITELY be done as soon as possible. I have also just recently come up with a completely new and improved angle for the story, so I will start going back to the drawing boards in terms of the Sakooz script shortly. I’m still on the hunt for a talented script writer to jump on board this one. But all things Sakooz aside for a second, I’ve recently been in discussing with two other writing/directing teams about to very different, yet both incredibly exciting projects.

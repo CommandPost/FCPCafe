@@ -6,9 +6,7 @@ layout: blog
 ---
 # Year In Review 2013 – Part 2
 
-**Written by Nicholas Colla on 29th December 2013**
-
-#### May
+## May
 
 There is no better place to learn about building a sustainable film and television industry than Denmark. Those clever Danish folk have continued to build and shape their industry over many years to a point where 30% of the box office share is coming from homegrown Danish cinema and their number #1 film for 2013 in terms of box office takings was a Danish film. Compare that to the Australian box office share which hasn’t hit above 10% in the last 25 years and you could say there is a thing or two we could learn from the Danish. Anyhoo, that aside, The Hunt is without a doubt one of the best films of 2013. Directed by Thomas Vinterberg, The Hunt is a beautifully crafted film which will have you shaking from anger by the end of it. It had a similar effect on me as last year’s Academy Award winning film In A Better World (also Danish) which was directed by Susanne Bier. Go and see it if you haven’t, it’s a very important film!
 
@@ -46,7 +44,9 @@ And what about that handsome Shanks devil? Well he had a pretty quiet month by h
 
 Like I said…not a big month for him!
 
-#### June
+---
+
+## June
 
 It was a pretty lacklustre US Summer Season this year with a bunch of non event blockbusters released. I know Shanks will disagree but I actually didn’t mind World War Z in comparison to a lot of the other releases. The ending was a bit bullshit and the product placement was a touch absurd (the scene with the Pepsi machine well worth a mention) but otherwise it was a good fun popcorn movie.
 
@@ -60,11 +60,13 @@ The result of Shanks’ genius can be seen below:
 
 With myself returning from overseas it was time to say goodbye to our office in at [16th Street Actors Studio](http://www.16thstreet.com.au) where it all started. We’d like to say a big thank you to Jamie Zamudio and Kim Krejus for allowing us to use their old kitchen as our first ever office! Here are some photos of us moving into our sexy new space in Collingwood! Huge thanks to [Mara Kapsis](http://www.marakapsis.com) for helping pick all our furniture and design our office space and to Karen Mead for building our main edit desk!
 
-![05](/static/blog/12-052.jpg)  
-![07](/static/blog/12-071.jpg)  
+![05](/static/blog/12-052.jpg)
+![07](/static/blog/12-071.jpg)
 ![06](/static/blog/12-06.jpg)
 
-#### July
+---
+
+## July
 
 This is the End was a funny movie for a couple of reasons. Number one it was a cleverly written, cameo filled comedy from the minds of Seth Rogen and Evan Goldberg and number two, it bore a striking resemblance to our 2012 48 Hour Film Festival short To The Heavens.
 
@@ -76,7 +78,9 @@ July was a slightly quieter month at LateNite with the team working towards some
 
 July was also the very beginning of my favourite time of year…
 
-#### AUGUST
+---
+
+## AUGUST
 
 As always when MIFF rolls around I can’t choose just the one film for the month as I saw a shitload. Of the 40 odd films I racked up in the two weeks my favourites were:
 

@@ -6,8 +6,6 @@ layout: blog
 ---
 # No time, free cake and lots of hits!
 
-**Written by Chris Hocking on 14th June 2009**
-
 Hello everyone! Well, it really feels like it’s been a long time since I last posted any updates, and guess what… it has been! As always we’ve been incredibly busy behind the scenes with so many different things. As some of you may have noticed we launched a [new blog](http://nick.latenitefilms.com "Nick Colla") run by Nick Colla, which has been attracting lots of hits. I’m still unsure whether it was a wise move to give Nick his own blog, but I haven’t received any court orders as of yet, so that’s always a bonus.
 
 Jacqui Hocking has also started [selling](http://blog.jacquihocking.com/toptotop-dvd/ "TOPtoTOP") her short film on TOPtoTOP via the latenite films site which has also been quite exciting. Incidentally, she also just left last Wednesday to continue her adventure travelling around the world on a beautiful yacht filming her travels for part two of the TOPtoTOP documentary series, but also for Swiss TV. Make sure you keep an eye out on her [production blog](http://blog.jacquihocking.com/ "Jacqui Hocking's Production Blog") as I’m sure she’ll be posted lots of interesting things every now and again.

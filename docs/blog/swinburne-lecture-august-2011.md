@@ -6,8 +6,6 @@ layout: blog
 ---
 # Swinburne Lecture August 2011
 
-**Written by Chris Hocking on 7th September 2011**
-
 ![](/static/blog/2011-08-011-441x248.jpg "01")
 
 Back in October last year, I was invited to speak to the 3rd and 4th year students at [Swinburne University](http://www.swinburne.edu.au/design/filmtv/) about Post Production Workflows (if you haven’t already, you can read about everything I discussed last time [here](./../2010/10/30/assistant-editor-lecture/)). A couple of weeks ago I was invited back again to cover the same sort of thing with a whole new bunch of 3rd year students.
@@ -30,9 +28,9 @@ An blank LTO5 tape will cost you around AUD$115.00, which has a [native](http://
 
 If you were to buy an LTO deck for use on a MacPro it will cost you around:
 
-> ExpressSAS Card = $594.00  
-> HP Ultrium 3000 SAS External Tape Drive LTO5 = $2,594.90  
-> BRU PE Producers Edition for Mac OS X = $649.00  
+> ExpressSAS Card = $594.00
+> HP Ultrium 3000 SAS External Tape Drive LTO5 = $2,594.90
+> BRU PE Producers Edition for Mac OS X = $649.00
 > **TOTAL:** AUD$3837.00
 
 Although not cheap – long term, it makes a lot of sense to archive to LTO as opposed to hard drives, so if you produce a lot of media, then it’s really worth the investment.
@@ -94,9 +92,9 @@ And of course, Canon DLSR’s have taken over film schools like the plague!
 
 The Canon is great for low-budget filmmakers and students, because the gear is cheap enough that you can actually own it, the cameras are small so that you can put them in all kinds of wonderful places that a RED or Alexa could never reach, the image quality is incredible (considering the price and the compression used), plus you can make use of all the incredible stills lenses out there. But of course, there are gotchas – the camera records to H264, it doesn’t record timecode, amongst many other things (i.e. when recording for long periods, especially in warmer climates, increased video noise may occur due to CMOS overheating – but let’s just focus on post for now). If you’re just planning to edit and FINISH in Final Cut Pro, then you don’t need to worry too much – just transcode all your footage to ProRes and way you go. However, if you plan to do an offline/online workflow – then you are going to need reel names and timecode. Although there are a few different ways you can do this, the method we recommend is as follows:
 
-1. Duplicate all your camera originals as a safety (although you should already have three backups anyway!)  
-2. Use something like [Name Mangler](http://manytricks.com/namemangler/) (US$10 on the App Store) to batch rename all your rushes to something a bit easier to keep track of (i.e. MVI\_0021 becomes AD1R1S01 – A camera, day one, reel one, shot 1). This become really important if you’re shooting with multiple cameras over many days (i.e. documentaries), as you don’t really want duplicate file names, as it will just complicate things later down the line.  
-3. Once everything is named correctly, you can apply timecode to the clips. We use a program called [QTChange](http://www.videotoolshed.com/product/42/qtchange) (US$24.95) to add new timecode and a reel name to each clip. Although there are a few different ways to tackle timecode (i.e. you could just use Time of Day – based off the date information from the camera) – but we just normally set the hour mark, to the shoot day (i.e. day one begins at 01:00:00:00, day two begins at 02:00:00:00, etc.).  
+1. Duplicate all your camera originals as a safety (although you should already have three backups anyway!)
+2. Use something like [Name Mangler](http://manytricks.com/namemangler/) (US$10 on the App Store) to batch rename all your rushes to something a bit easier to keep track of (i.e. MVI\_0021 becomes AD1R1S01 – A camera, day one, reel one, shot 1). This become really important if you’re shooting with multiple cameras over many days (i.e. documentaries), as you don’t really want duplicate file names, as it will just complicate things later down the line.
+3. Once everything is named correctly, you can apply timecode to the clips. We use a program called [QTChange](http://www.videotoolshed.com/product/42/qtchange) (US$24.95) to add new timecode and a reel name to each clip. Although there are a few different ways to tackle timecode (i.e. you could just use Time of Day – based off the date information from the camera) – but we just normally set the hour mark, to the shoot day (i.e. day one begins at 01:00:00:00, day two begins at 02:00:00:00, etc.).
 4. Now that you have nicely named, timecoded masters, you can now create ProRes files! There are many different tools out there that allow you to do this, but just make sure you use a tool (i.e. Apple’s Compressor) that RETAINS all the timecode and reel information. However, if you do accidentally use a tool that doesn’t bring the timecode and reel information across, you can always use QTChange again.
 
 It’s also worth checking out 3rd party tools like [Magic Bullet Grinder](http://www.redgiantsoftware.com/products/all/magic-bullet-grinder/) – although with Grinder, although it’s great for jobs where you are just finishing everything in Final Cut Pro, as it doesn’t add reel-names automatically to clips – so if you think you’ll need to export EDLs, then you would have to manually enter all the reel names within FCP, which can be a bit of a nightmare – or use QTChange. As with everything – make sure you do some workflow tests before you commit to a piece of software, as Grinder is constantly being updated and revised.

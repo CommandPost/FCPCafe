@@ -1,12 +1,10 @@
 ---
 title: A Good Place To Start
 date: 2010-09-23
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # A Good Place To Start
-
-**Written by Guest Blogger on 23rd September 2010**
 
 A question I often get asked about script writing, film making, acting is – Where do I start? How do I start? What’s a good place to start? My answer is always invariably… at the beginning. Now that doesn’t have to be a conventional beginning. Your beginning could be someone else’s end. Your end, someone’s mid point. And so on & so forth until I have confused you so much, you forget what the question was.
 
@@ -25,5 +23,3 @@ There are many exciting things coming up, the script read being one of them. Bas
 We’re also hope to kick off a behind the scenes story, we’re just trying to find the right person to undertake such a mammoth project (but fingers crossed we can find someone with enough balls & guile to make something really special).
 
 Anyway, I think I’ve blabbered on & on enough for one post.
-
-[inspiration](./../tag/inspiration/)[script writing](./../tag/script-writing/)[story](./../tag/story/)

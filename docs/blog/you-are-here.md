@@ -6,8 +6,6 @@ layout: blog
 ---
 # You Are Here
 
-**Written by Chris Hocking on 7th March 2011**
-
 ![](/static/blog/2011-03-youarehere1.jpg "youarehere")
 
 Daniel Cockburn’s debut feature film, [You Are Here](http://www.imdb.com/title/tt1288411/ "IMDB") is a bizarre and mindstraining experimental film (despite what the director claimed in the Q&A session) that follows a woman investigating several documents and seemingly random objects that continue to reappear as she keeps filing and archiving them away.

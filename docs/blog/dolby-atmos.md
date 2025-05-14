@@ -6,8 +6,6 @@ layout: blog
 ---
 # Dolby Atmos
 
-**Written by Chris Hocking on 29th January 2014**
-
 Last night, thanks to the fantastic people at the [Australian Screen Sound Guild](http://www.assg.org.au), I had the opportunity to check out the latest ground-breaking Dolby Atmos technology at [Soundfirm’s](http://www.soundfirm.com) amazing new Port Melbourne facility – the first and only post production theatre in Australia to deploy this truly awesome technology.
 
 Soundfirm joins an elite list of approxmiately 30 facilities globally that are able to offer this technology. Their very slick and comfortable “Theatre 1” is perfectly set up for Atmos mixes (and of course realtime 5.1/7.1 down-mixes – thanks to Dolby’s fancy Rendering and Mastering Unit), and has been specifically built to provide the Feature Film and Cinema Commercials markets with the finest mixing and delivery environment in the country. It was a massive investment, but it’s so exciting and makes me so proud to see a Melbourne company getting in early and experimenting with this exciting tech, and offering such a high-end and compelling service to the local and international market. I really hope it takes off!

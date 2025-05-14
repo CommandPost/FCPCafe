@@ -6,8 +6,6 @@ layout: blog
 ---
 # SPAA Conference 2011
 
-**Written by Chris Hocking on 18th November 2011**
-
 ![](/static/blog/11-spaa-590x590.jpg "SPAA")
 
 What an absolutely exciting and intense few days it’s been!
@@ -24,35 +22,35 @@ John is an award winning creative producer with over twenty five years’ experi
 
 There were thirty one emerging producers in total – from the ACT, NSW, South Australia, Victoria, WA and one International Guest from China:
 
-* Yve Laffey (ACT)
-* [Brianna O’Donohue (ACT)](http://www.cinemaiden.com/)
-* Justene Taylor-Cannon (ACT)
-* [Daniel Aponte Prypchan (NSW)](http://www.daponte.com.au/)
-* [Che Baker (NSW)](http://www.dvaustralia.com)
-* [Jimmy Carr (NSW)](http://www.sequence-films.com)
-* [Aaran Creece (NSW)](https://www.facebook.com/pages/Musclecar-The-Movie/145414272227063)
-* [Bec Cubitt (NSW)](http://www.cuttingedge.com.au/bec-cubitt)
-* [Rami Fischler (NSW)](http://www.mediafarm.com.au)
-* [Julian Galea (NSW)](http://www.juliangalea.net/)
-* [Michelle Hardy (NSW)](http://www.imdb.com/name/nm2405447/)
-* [Angelique Papadelias (NSW)](http://littlescreenbigscreen.com/)
-* [Chloe Rickard (NSW)](http://www.jungleboys.com.au/)
-* [Susan Schmidt (NSW)](http://www.redzand.com/)
-* [Courtney Wise (NSW)](http://www.imdb.com/name/nm3028319/)
-* [Megan Huitema (SA)](http://www.shortfocusfilms.com)
-* [Daniel Joyce (SA)](http://www.projectorfilms.com.au/)
-* [Brendon Skinner (SA)](http://www.shortfocusfilms.com)
-* [Tim Standing (SA)](http://www.daylightbreaks.com.au/)
-* [Kirsty Stark (SA)](http://www.epicfilms.com.au/)
-* [Simon Williams (SA)](http://www.shortfocusfilms.com)
-* Juliette Buxton (VIC)
-* [Beverley Callow (VIC)](https://www.facebook.com/thesaltmaiden)
-* [Wes Greene (VIC)](http://www.naluproductions.com/)
-* Jess Leslie (VIC)
-* [Lee Mathews (VIC)](http://www.matthewswood.com)
-* [Clare McGrath (VIC)](http://4nanasinacarproductions.com)
-* [Nic McRobbie (WA)](http://www.imdb.com/name/nm2685232/)
-* [Kelrick Martin (WA)](http://corefilms.com.au/)
+- Yve Laffey (ACT)
+- [Brianna O’Donohue (ACT)](http://www.cinemaiden.com/)
+- Justene Taylor-Cannon (ACT)
+- [Daniel Aponte Prypchan (NSW)](http://www.daponte.com.au/)
+- [Che Baker (NSW)](http://www.dvaustralia.com)
+- [Jimmy Carr (NSW)](http://www.sequence-films.com)
+- [Aaran Creece (NSW)](https://www.facebook.com/pages/Musclecar-The-Movie/145414272227063)
+- [Bec Cubitt (NSW)](http://www.cuttingedge.com.au/bec-cubitt)
+- [Rami Fischler (NSW)](http://www.mediafarm.com.au)
+- [Julian Galea (NSW)](http://www.juliangalea.net/)
+- [Michelle Hardy (NSW)](http://www.imdb.com/name/nm2405447/)
+- [Angelique Papadelias (NSW)](http://littlescreenbigscreen.com/)
+- [Chloe Rickard (NSW)](http://www.jungleboys.com.au/)
+- [Susan Schmidt (NSW)](http://www.redzand.com/)
+- [Courtney Wise (NSW)](http://www.imdb.com/name/nm3028319/)
+- [Megan Huitema (SA)](http://www.shortfocusfilms.com)
+- [Daniel Joyce (SA)](http://www.projectorfilms.com.au/)
+- [Brendon Skinner (SA)](http://www.shortfocusfilms.com)
+- [Tim Standing (SA)](http://www.daylightbreaks.com.au/)
+- [Kirsty Stark (SA)](http://www.epicfilms.com.au/)
+- [Simon Williams (SA)](http://www.shortfocusfilms.com)
+- Juliette Buxton (VIC)
+- [Beverley Callow (VIC)](https://www.facebook.com/thesaltmaiden)
+- [Wes Greene (VIC)](http://www.naluproductions.com/)
+- Jess Leslie (VIC)
+- [Lee Mathews (VIC)](http://www.matthewswood.com)
+- [Clare McGrath (VIC)](http://4nanasinacarproductions.com)
+- [Nic McRobbie (WA)](http://www.imdb.com/name/nm2685232/)
+- [Kelrick Martin (WA)](http://corefilms.com.au/)
 
 So what does being an emerging producer actually involve? Well, let’s start at the very beginning, a very good place to start.
 
@@ -79,12 +77,12 @@ After a coffee, cookie and party pie – it was time to head to the first Breako
 
 But first, to give you a rough idea of how the conference is organised, there are basically a few different elements:
 
-* There are several **Breakout Sessions** throughout the day, split into different rooms for 360 (i.e. New Media), Television, Feature Films, and Kids.
-* There are **Roundtables** throughout the day, which give delegates an interactive opportunity to meet informally with speakers, industry decisions makers and financiers in a relaxed environment amongst a small group (a maximum of nine people) of their peers. Bookings are made on a first come, first serve basis and is a great way to just have a chat with experts in the industry.
-* There are a few **Heavyweights Half Hour** sessions – which are basically just industry leaders giving a much more focussed session explaining who they are, what they do, the commitment level of their company, how they partner with Australia, and what they are looking for.
-* **SPAAmart** is a market place full of projects chosen by the quality of submission. Project teams meet with local and international investors (co-producers, financiers, sales agents and distributors) appropriate to their financing needs in pre-arranged mettings with the aim of establishing relationships, building upon past relationships and deal-making for the benefit of their project.
-* **Scriptworks Feature Scriptclinic** is one-to-one sessions that allow you to discuss your feature film project with a team of experienced script editors, writers, directors, agency readers and general project trouble shooters.
-* There are also a number of **Pitching Opportunities**, such as a closed-door pitch with Disney, the Holding Redlich Pitching Competition, 360 Market (an opportunity to meet executives who are active in the digital space) and Ready Steady Pitch (which allows you to pitch your project to a network executive in 5 minutes with feedback given afterwards).
+- There are several **Breakout Sessions** throughout the day, split into different rooms for 360 (i.e. New Media), Television, Feature Films, and Kids.
+- There are **Roundtables** throughout the day, which give delegates an interactive opportunity to meet informally with speakers, industry decisions makers and financiers in a relaxed environment amongst a small group (a maximum of nine people) of their peers. Bookings are made on a first come, first serve basis and is a great way to just have a chat with experts in the industry.
+- There are a few **Heavyweights Half Hour** sessions – which are basically just industry leaders giving a much more focussed session explaining who they are, what they do, the commitment level of their company, how they partner with Australia, and what they are looking for.
+- **SPAAmart** is a market place full of projects chosen by the quality of submission. Project teams meet with local and international investors (co-producers, financiers, sales agents and distributors) appropriate to their financing needs in pre-arranged mettings with the aim of establishing relationships, building upon past relationships and deal-making for the benefit of their project.
+- **Scriptworks Feature Scriptclinic** is one-to-one sessions that allow you to discuss your feature film project with a team of experienced script editors, writers, directors, agency readers and general project trouble shooters.
+- There are also a number of **Pitching Opportunities**, such as a closed-door pitch with Disney, the Holding Redlich Pitching Competition, 360 Market (an opportunity to meet executives who are active in the digital space) and Ready Steady Pitch (which allows you to pitch your project to a network executive in 5 minutes with feedback given afterwards).
 
 My first Breakout Session was **Rockstars of the Internet**. Basically it was a “meet the filmmakers” sessions with three inspiring filmmakers who have made their mark on the Internet.
 
@@ -94,11 +92,11 @@ As of March 2011, Tran has 273 videos available on her YouTube channel and is th
 
 After giving us a summary of what she does, and what she’s all about she did give some words of wisdom:
 
-* Having a loyal audience is incredibly important, because it means if you start a new venture, you don’t have to start from scratch – the audience will follow you.
-* You can accumulate views over time. Don’t worry too much if you don’t start with a bang, as consistency is much more important.
-* Respect your audience! Don’t treat them like idiots, don’t try to trick them.
-* You must build a relationship with your audience – but it needs to be a legitimate and honest relationship. Just having a Facebook page and Twitter feed is not enough. You need to start a conversation with your fans – but don’t start that conversation for no reason. Noise is bad.
-* Familiarity is the most important thing for people like Natalie. What she does is basically the same as FM radio. Despite the fact that there are several drive time radio shows that all basically have the same format – they each have their own style, which attracts different audience members. In the online world – this is exactly the same. You need to be unique, and create a platform that people want to connect with.
+- Having a loyal audience is incredibly important, because it means if you start a new venture, you don’t have to start from scratch – the audience will follow you.
+- You can accumulate views over time. Don’t worry too much if you don’t start with a bang, as consistency is much more important.
+- Respect your audience! Don’t treat them like idiots, don’t try to trick them.
+- You must build a relationship with your audience – but it needs to be a legitimate and honest relationship. Just having a Facebook page and Twitter feed is not enough. You need to start a conversation with your fans – but don’t start that conversation for no reason. Noise is bad.
+- Familiarity is the most important thing for people like Natalie. What she does is basically the same as FM radio. Despite the fact that there are several drive time radio shows that all basically have the same format – they each have their own style, which attracts different audience members. In the online world – this is exactly the same. You need to be unique, and create a platform that people want to connect with.
 
 Natalie was a great speaker, with a really great sense of humour. She’s a dork – but she loves what she does, and has made a really great place for herself. Given that her videos don’t cost a cent to make – the fact that she’s pulling in way over $100,000 a year in advertising revenue really says something.
 
@@ -126,14 +124,14 @@ What advice does Joe have? You need to have a hook – something that instantly 
 
 The final speaker of the day was Richard North from YouTube. Everyone knows what YouTube is, how popular it is, and most people understand the [partnership](http://www.youtube.com/partners) arrangement. However, here are some tips he shared that may be of some interest:
 
-* Understand your audience and where they hang out.
-* Beware of online habits.
-* Connect with your community – make them feel empowered.
-* Understand all the different ways to monetise. Don’t just rely on YouTube – there are plenty of other services out there that may compliment YouTube’s offerings.
-* Don’t be naive! Work hard!
-* The first 15sec of your video is absolutely vital to get right. Get straight into your content – don’t have a boring introductory video or anything.
-* Make your content discoverable. Use sensible naming and tagging.
-* Work hard to give users what they want.
+- Understand your audience and where they hang out.
+- Beware of online habits.
+- Connect with your community – make them feel empowered.
+- Understand all the different ways to monetise. Don’t just rely on YouTube – there are plenty of other services out there that may compliment YouTube’s offerings.
+- Don’t be naive! Work hard!
+- The first 15sec of your video is absolutely vital to get right. Get straight into your content – don’t have a boring introductory video or anything.
+- Make your content discoverable. Use sensible naming and tagging.
+- Work hard to give users what they want.
 
 By this time, I was getting hungry – so luckily it was time to eat! Over lunch was the Holding Redlich Pitching competition held by [Rhys Muldoon](http://www.imdb.com/name/nm0611761/). The three finalists were:
 
@@ -295,5 +293,3 @@ The SPAA experience was wonderful. I can’t wait to do it all again next year �
 Onwards & Upwards!
 
 Best Regards, Chris!
-
-[SPAA](./../tag/spaa/)

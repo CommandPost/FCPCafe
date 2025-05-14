@@ -1,7 +1,7 @@
 ---
 title: International Team of Mystery… (aka The 444 Club)
 date: 2010-10-11
-author: Guest Blogger
+author: Alistair Marks
 layout: blog
 ---
 # International Team of Mystery… (aka The 444 Club)
@@ -22,8 +22,6 @@ But enough about me. How are you?
 
 [AL](http://www.alistairmarks.com).
 
-PS. See you on Sunday @ 6pm…. DON’T FORGET!!  
-<http://live.latenitefilms.com>  
+PS. See you on Sunday @ 6pm…. DON’T FORGET!!
+<http://live.latenitefilms.com>
 Click [HERE](http://www.facebook.com/shotgunmovie?ref=ts#!/event.php?eid=143928942319196) to RSVP on Facebook
-
-[facebook](./../tag/facebook/)[inspiration](./../tag/inspiration/)[live script read](./../tag/live-script-read/)

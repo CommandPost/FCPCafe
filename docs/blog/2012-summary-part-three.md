@@ -6,8 +6,6 @@ layout: blog
 ---
 # 2012 Summary – Part Three
 
-**Written by Nicholas Colla on 2nd January 2013**
-
 ## SEPTEMBER
 
 And so we got into the final stretch of the year with the much-anticipated follow up to his debut film [Brick](http://www.imdb.com/title/tt0393109/) from writer/director [Rian Johnson](http://www.imdb.com/name/nm0426059/) with [Looper](http://www.imdb.com/title/tt1276104/). The film starred [Bruce Willis](http://www.imdb.com/name/nm0000246/) and a heavily made up (to look like a younger [Bruce Willis](http://www.imdb.com/name/nm0000246/)) [Joseph Gordon-Levitt](http://www.imdb.com/name/nm0330687/). Very impressive Sci Fi effort you should definitely check out if you didn’t get a chance to catch it at the movies!

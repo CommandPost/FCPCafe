@@ -10,10 +10,10 @@ layout: blog
 
 We recently teamed up with [Sportsbet](https://www.youtube.com/user/sportsbetcomau) to produce three little funny online videos based around the World Cup. Enjoy!
 
-#### CREDITS
-
-**Writer, Director & Editor:** Michael Shanks  
-**Producers:** Chris Hocking & Nick Colla  
-**Commentators:** Michael Shanks & Nicholas Issell
-
 ---
+
+## CREDITS
+
+**Writer, Director & Editor:** Michael Shanks
+**Producers:** Chris Hocking & Nick Colla
+**Commentators:** Michael Shanks & Nicholas Issell

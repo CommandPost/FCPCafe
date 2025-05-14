@@ -6,9 +6,7 @@ layout: blog
 ---
 # Year In Review 2013 – Part 3
 
-**Written by Nicholas Colla on 31st December 2013**
-
-#### September
+## September
 
 [Woody Allen’s](http://www.imdb.com/name/nm0000095/) possible “loose retelling” of A Streetcar Named Desire starring a perfect cast consisting of award worthy performances by [Sally Hawkins](http://www.imdb.com/name/nm1020089) and [Cate Blanchett](http://www.imdb.com/name/nm0000949/) and featuring a strong support cast with the likes of [Bobby Cannavale](http://www.imdb.com/name/nm0134072/), [Alec Baldwin](http://www.imdb.com/name/nm0000285/) and [Louis CK](http://www.imdb.com/name/nm0127373/)? Yes please. Arguably one of Allen’s best of recent years – check it out if you haven’t had the chance, if only for the performances from Hawkins & Blanchett.
 
@@ -30,7 +28,9 @@ All in all the shoot couldn’t have gone any better if we tried. The production
 
 And so with a rapidly closing deadline for both Time Trap and Rocketman, we all began busting our balls to get them finished. Hocking, working simultaneously between the two as Shanks continued with the enormous amount of visual effects on Time Trap and me working with Mike Lutman to lock an edit on Rocketman.
 
-#### October
+---
+
+## October
 
 I think if I had’ve put up anything other than Gravity for this month I would have been ripped to shreds by most people and why the hell not I say, Gravity was without fail one of the best films of 2013. The cinematography, sound design and spectacle are all reasons for a hell of a lot of nominations come award season. If you haven’t seen this film on the biggest damn screen you can then you are quite simply a maniac!
 
@@ -48,7 +48,9 @@ I gotta say this was my favourite of the films that we’ve done for the 48 hour
 
 As usual, half way across the globe, Jacqui was busy working with [Gone Adventurin’](http://www.goneadventurin.com), covering a bike ride from Ankor Wat in Cambodia, through Thailand and ending in Vientiane in Laos. It was a project that managed to raise over 102,000 USD to end avoidable blindness through the initiative Seeing Is Believing. Amazing girl that Jacqui!
 
-#### November
+---
+
+## November
 
 How does one take a famous tween novel and not completely screw it up like those lovely fellow’s behind the abomination that is Twilight. It seems you take a great series of novels, trust the drama, add brilliant actors including one very strong female hero in Jennifer Lawrence, add a touch of violence, shake and serve. The first Hunger Games film very much impressed me and this one was no different. A really fantastic tale littered with good performances, some amazing set pieces and a riveting story. Fantastic thinkers popcorn movie!
 
@@ -60,7 +62,9 @@ What happened next surprised us all quite a bit. We took out the awards for Best
 
 ![09](/static/blog/12-092.jpg)
 
-#### December
+---
+
+## December
 
 I’m not going to lie to you. I was a wee bit “meh” about David O Russell’s latest offering. The performances (like in all of his films) were absolutely stunning but I felt the story for such a simple premise was a little convoluted. I have picked this one though cause the month of December has been slim pickings for my movie going so it’s the best I got!
 

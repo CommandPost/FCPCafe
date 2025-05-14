@@ -6,8 +6,6 @@ layout: blog
 ---
 # Melbourne International Film Festival 2011
 
-**Written by Nicholas Colla on 26th July 2011**
-
 I would like to firstly apologise to all our teamsters out there who have been disappointed with our lack of blogging in recent times. It has been a busy one for the whole team so we have unfortunately been snowed under with work. Also, for those of you have been long time followers of this blog, this is the first time Chris has let me (Nick) actually write something – so that’s exciting in itself!
 
 All that aside I would like to welcome you to what will be our official MIFF blog for 2011. With our entry for the MIFF blogging competition being unfortunately rejected, and our film *Hannah and the Hasbian* being rejected then accepted then rejected again we thought we might just push on through with our very own blog.

@@ -6,13 +6,11 @@ layout: blog
 ---
 # New MacPro Monitor Issues
 
-**Written by Chris Hocking on 2nd November 2009**
-
 The company I work for (when I’m not busy doing latenite films related work) recently purchased a brand new MacPro. Nothing too fancy, just something that can easily handle offline editing in Avid Media Composer and Final Cut Pro. Here are the specs:
 
-> One 2.66GHz Quad-Core Intel Xeon  
-> 4GB RAM (4 x 1GB)  
-> 640GB 7200-rpm Serial ATA 3Gb/s  
+> One 2.66GHz Quad-Core Intel Xeon
+> 4GB RAM (4 x 1GB)
+> 640GB 7200-rpm Serial ATA 3Gb/s
 > ATI Radeon HD 4870 512MB Graphics Card
 
 ![New MacPro Box](/static/blog/2009-11-MacPro.jpg "New MacPro Box")
@@ -37,18 +35,18 @@ Here is a list of monitors I tried:
 
 **Works over DVI, Mini DisplayPort & VGA:**
 
-Samsung 205BW 16:9 LCD  
+Samsung 205BW 16:9 LCD
 Benq G2420 HD (Model: ET-0027-B) 16:9 LCD
 
-**Works over VGA:**  
-Kogan X19WB 16:9 LCD  
-Sony LMD-2030W 16:9 LCD  
-Sony KLV-325200A 16:9 LCD  
+**Works over VGA:**
+Kogan X19WB 16:9 LCD
+Sony LMD-2030W 16:9 LCD
+Sony KLV-325200A 16:9 LCD
 Sony KDL-2054000 16:9 LCD
 
-**Doesn’t Work over DVI or Mini DisplayPort:**  
-Samsung 940B 4:3 LCD  
-Benq T2200HD (Model: W2108) 16:9 LCD  
+**Doesn’t Work over DVI or Mini DisplayPort:**
+Samsung 940B 4:3 LCD
+Benq T2200HD (Model: W2108) 16:9 LCD
 Benq G2200W (Model: ET-0016-N) 16:9 LCD
 
 When I get the time, I’ll also try a few other monitors we’ve got lying around including some big old CRTs!

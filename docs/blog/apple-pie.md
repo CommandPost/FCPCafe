@@ -6,6 +6,4 @@ layout: blog
 ---
 # Apple Pie
 
-**Written by Chris Hocking on 21st August 2006**
-
 A tale of a butcher, a baker, a hunter, a dog, a cat, an apple pie and a series of misunderstandings and unfortunate events! This is a funny little animation that doesn’t have any dialog. The colours and look of the film are great – very bold and modern. Although the story is a bit hard to follow straight away, it proves to be a great little screenplay!

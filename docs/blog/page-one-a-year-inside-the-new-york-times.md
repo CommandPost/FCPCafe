@@ -6,8 +6,6 @@ layout: blog
 ---
 # Page One: A Year Inside The New York Times
 
-**Written by Chris Hocking on 9th March 2011**
-
 ![](/static/blog/2011-03-pageone_ticket1-441x329.jpg "pageone_ticket")
 
 Despite the occasional dodgy film, we have been so lucky to see so many quality films so far at the festival. [Page One: A Year Inside The New Work Times](http://www.imdb.com/title/tt1787777/ "IMDB"), for me now however has definitely been a highlight. This is a serious slick, fun, enthralling and inspiring documentary that has been skilfully been put together with an incredible attention to detail.

@@ -6,8 +6,6 @@ layout: blog
 ---
 # The Greatest Movie Ever Sold
 
-**Written by Chris Hocking on 10th March 2011**
-
 ![](/static/blog/2011-03-greatestmovie_ticket-441x329.jpg "greatestmovie_ticket")
 
 One thing that has really surprised me thus far at the festival is just how many fantastic documentaries have been on show! Boundary-pushing Oscar-nominated [Morgan Spurlock](http://en.wikipedia.org/wiki/Morgan_Spurlock "Wikipedia") is a true expert in his field. With profitable and Internationally successful films like [Super Size Me](http://www.imdb.com/title/tt0390521/ "IMDB") and [Where in the World is Osama Bin Laden?](http://www.imdb.com/title/tt0963208/ "IMDB") under his belt, I had quite high expectations for [The Greatest Movie Ever Sold](http://www.imdb.com/title/tt1743720/ "IMDB"), but Morgan delivered. This is a hilarious, educational and seriously well crafted documentary that is based around such a simple, yet such a clever concept.

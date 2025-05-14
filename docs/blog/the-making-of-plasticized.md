@@ -1,12 +1,10 @@
 ---
 title: The Making of PLASTICIZED
 date: 2013-07-29
-author: Guest Blogger
+author: Michael Lutman
 layout: blog
 ---
 # The Making of PLASTICIZED
-
-**Written by Guest Blogger on 29th July 2013**
 
 *Mike Lutman is a great friend and collaborator, who we’ve worked closely since 2010 when he washed up on our shores from San Francisco. He’s currently working full time as a commercial editor at Melbourne’s award-winning boutique editorial company [The Butchery](http://thebutchery.com.au/?page=about), however as an extremely talented filmmaker in his own right, and a passionate advocate of lessening our footprint on the environment – Mike’s real passion is in creating films that inspire change and highlight environment and social issues that aren’t actively discussed nearly enough. In this blog entry we give Mike the stage to chat about his latest project, PLASTICIZED. Enjoy!*
 
@@ -50,11 +48,11 @@ It is strange. Making the film has been an obsession, destroying as well as educ
 
 ![08](/static/blog/07-08-590x391.jpg)
 
-**Special Thanks to:**  
-Ben Halkin @ [Bush Ranger Productions](http://bushrangerproductions.com.au/)  
-Chris Stone, Holly Downes, Graham McCloud @ [The String Contingent](http://www.thestringcontingent.com)  
-[Roslyn Di Sisto](https://vimeo.com/38759846) @ [Method Studios](http://www.methodstudios.com.au)  
-Eugene Richards @ [The Refinery](http://therefinery.net.au)  
+**Special Thanks to:**
+Ben Halkin @ [Bush Ranger Productions](http://bushrangerproductions.com.au/)
+Chris Stone, Holly Downes, Graham McCloud @ [The String Contingent](http://www.thestringcontingent.com)
+[Roslyn Di Sisto](https://vimeo.com/38759846) @ [Method Studios](http://www.methodstudios.com.au)
+Eugene Richards @ [The Refinery](http://therefinery.net.au)
 Chris Hocking @ LateNite Films
 
 ![09](/static/blog/07-09-590x392.jpg)

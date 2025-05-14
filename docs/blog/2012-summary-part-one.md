@@ -6,8 +6,6 @@ layout: blog
 ---
 # 2012 Summary – Part One
 
-**Written by Nicholas Colla on 19th December 2012**
-
 ![01](/static/blog/12-01-590x393.jpg)
 
 A little something that we started last year here at **LateNite** was to take a moment to reflect on the year that was. The projects, the people, the joy, the tears, the wins, the losses and of course the movies that made 2012. Instead of two enormous blogs though, this year we will be breaking it up into thirds for your reading pleasure and releasing one a week right up until 2013 ticks over, at which point we’ll be revealing some of our exciting new projects in the works.

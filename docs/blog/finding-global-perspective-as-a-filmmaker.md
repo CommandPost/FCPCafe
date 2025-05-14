@@ -6,8 +6,6 @@ layout: blog
 ---
 # Finding Global Perspective as a Filmmaker
 
-**Written by Jacqui Hocking on 7th June 2012**
-
 ![](/static/blog/06-festival-590x387.jpg "festival")
 
 Last April I flew from Rio (where my [TOPtoTOP footage](http://www.toptotop.org/) will be shown at the [Rio20+ World Earth Summit](http://www.uncsd2012.org/rio20/index/)) - to Sao Paulo to meet, film & play with [World X Cycle.](http://worldbycycle.info/) It was an amazing weekend.

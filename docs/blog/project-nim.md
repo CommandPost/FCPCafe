@@ -6,8 +6,6 @@ layout: blog
 ---
 # Project Nim
 
-**Written by Chris Hocking on 11th March 2011**
-
 ![](/static/blog/2011-03-projectnim_ticket-441x329.jpg "projectnim_ticket")
 
 After seeing the movie poster and promotional stills for this film – who wouldn’t want to go and see it? Nim is just so darn cute! Project Nim was the name of a Columbia University experiment led by psychologist Herbert Terrace seeking to discover how much chimpanzees and humans could communicate through sign language.

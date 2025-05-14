@@ -6,8 +6,6 @@ layout: blog
 ---
 # Alien
 
-**Written by Chris Hocking on 19th April 2006**
-
 You can tell a lot about a film by its opening titles. The first minutes of Alien gives a very accurate forecast of what you’re in for: dark, spine chilling and ominous. As seemingly random lines appear on the screen, building up to reveal the title of the movie, you can also predict it’s going to be slow and precise. The star-dotted background gives you the distinct sense of the isolation and vulnerability that comes with intergalactic travel. This and the addition of the soft and eerie soundtrack get your heart rate pumping.
 
 Alien is like watching a NASA launch, yet knowing that it’s all going to end in disaster. The pacing is so slow, and the working class characters appear so realistic, it’s unnerving. There’s a strong sense of hierarchy, with the boys vs. Ripley and the cockpit crew vs. the engineers.

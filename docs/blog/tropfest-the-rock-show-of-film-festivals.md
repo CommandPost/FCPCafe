@@ -6,8 +6,6 @@ layout: blog
 ---
 # Tropfest: The Rock Show of Film Festivals
 
-**Written by Nicholas Colla on 20th February 2013**
-
 ![tropfest](/static/blog/02-tropfest-590x392.jpg)
 
 A couple of days after spending a few glorious hours in the sunshine at the Sidney Myer Music Bowl watching short films and drinking glorious cider, I read an article in the paper that referred to Tropfest (the World’s largest short film competition as we are often told) as the ‘rock show’ of short film festivals. To be fair, i’d say that was pretty accurate.
@@ -23,7 +21,9 @@ What I do want to do though is give my thoughts on the films this year. Same as 
 
 ![GREAT-DAY-Still-2-670x376](/static/blog/02-GREAT-DAY-Still-2-670x376-590x331.jpg)
 
-### Great Day
+---
+
+## Great Day
 
 The festival kicked off with Great Day, a film by a young female filmmaker named Hannah May Reilly. To be perfectly honest I didn’t love the film but what I did love is that it was a young filmmaker having a crack (note: not trying to be patronising here). The film had some genuinely funny moments and the performance of the young star was solid. Unfortunately compared with some of the other, higher end films, this little one didn’t really match up in terms of production quality, story or performance (the dudes in the car gave me the shits). Not an epic fail by any stretch and like I said, a really solid effort from a young 20 year old aspiring filmmaker.
 
@@ -31,7 +31,9 @@ The festival kicked off with Great Day, a film by a young female filmmaker named
 
 ![LET-IT-RAIN-K-670x376](/static/blog/02-LET-IT-RAIN-K-670x376-590x331.jpg)
 
-### Let It Rain
+---
+
+## Let It Rain
 
 This one created a little bit of tension in my camp as most people that I was with really loved it. Straight up I thought it was pretty shit. To be fair it was a funny little sketch that you’d have a giggle at and give a decent mark for in a second year uni class but again it suffered from similar things that **Great Day** suffered from. I think it was a good idea (even if it was more sketch comedy than short film) marred by a badly written script (the unnecessary use of the word fuck thirty times by the female actress at the end) and average performances. Again not an epic fail but compared to the good ones it didn’t really rate.
 
@@ -39,7 +41,9 @@ This one created a little bit of tension in my camp as most people that I was wi
 
 ![TIME-Still06-670x376](/static/blog/02-TIME-Still06-670x376-590x331.jpg)
 
-### Time
+---
+
+## Time
 
 ~~This film created a little bit of controversy as a few people claimed they saw the Screen NSW & Screen Aus logo/name flash up in the credits which I could imagine would’ve pissed a few people off.~~ If they did have a touch of funding it certainly showed with a very impressive looking film which featured some pretty expensive elements including a beautiful sweeping helicopter shot and a car crashing into a lake. Certainly not something you could do on a couple of hundred bucks. That said I really enjoyed the film with great performances from the kids and a really smart story. You could see the ending from a mile away but that didn’t really distract too much from the film. Not a bad entry and my favourite so far – things were looking up.
 
@@ -49,7 +53,9 @@ This one created a little bit of tension in my camp as most people that I was wi
 
 ![emma-booth-scene-16-still-670x377](/static/blog/02-emma-booth-scene-16-still-670x377-590x331.jpg)
 
-### Scene 16
+---
+
+## Scene 16
 
 This is a bit of a hard one to judge as I think as an actor I could relate to this and found it funny but as a regular joe, I think a lot of this would’ve been lost. The film looked impressive once again and starred the always brilliant [Emma Booth](http://www.imdb.com/name/nm1134439/) and [Ewen Leslie](http://www.imdb.com/name/nm1191900/) who seems to be actor of the moment ever since his turn in Richard III for the MTC a couple of years back (he was last seen on screen in the impressive Dead Europe). The film is about an actress going through a tough time with her boyfriend whilst trying to prepare for a difficult scene she has coming up on the soapie she is shooting. I thought it was a great idea with a really lovely set up but nothing that really blew me out of the water as being mind blowingly original. I do love Ewen Leslie and Emma Booth though so extra points cause they were both great.
 
@@ -57,7 +63,9 @@ This is a bit of a hard one to judge as I think as an actor I could relate to th
 
 ![2_Monobrow_Production-Still-2-670x376](/static/blog/02-2_Monobrow_Production-Still-2-670x376-590x331.jpg)
 
-### Monobrow
+---
+
+## Monobrow
 
 Very weird and felt like something you’d see on Funny or Die that’s been submitted by a user rather than one of the folks that makes the videos for the website (if that makes sense). Had it’s moments and the instructional video/advert thing in the short was hilarious but the rest of it was pretty crappy. Down to the bottom of the pile it went.
 
@@ -65,7 +73,9 @@ Very weird and felt like something you’d see on Funny or Die that’s been sub
 
 ![INSIDE_still_1-670x284](/static/blog/02-INSIDE_still_1-670x284-590x250.jpg)
 
-### Inside
+---
+
+## Inside
 
 I don’t wanna say much about this but in short, I hated it. The performance by the woman in the short was incredible but literally wanted to stab my eyes out. Guy behind me who said it looked like an advert for a colour printer company summed it up best. Bottom of the pile it goes for now.
 
@@ -73,7 +83,9 @@ I don’t wanna say much about this but in short, I hated it. The performance by
 
 ![Bunny-Still-02-670x286](/static/blog/02-Bunny-Still-02-670x286-590x251.jpg)
 
-### The Pledge for Mr Bunny
+---
+
+## The Pledge for Mr Bunny
 
 A film I liked but many didn’t. I think what I did like about this film was it was different and carried with it a dark humour which I loved. It had a twist that caught you by surprise and you weren’t really sure whether to laugh or be disgusted. **Time** had my dramatic vote, but this went to the top of the comedy list for me. Favourite moment was the bike falling apart before being engulfed in flames at the end.
 
@@ -81,7 +93,9 @@ A film I liked but many didn’t. I think what I did like about this film was it
 
 ![CASH-COW-pic-02-670x376](/static/blog/02-CASH-COW-pic-02-670x376-590x331.jpg)
 
-### Cash Cow – a 63% True Story
+---
+
+## Cash Cow – a 63% True Story
 
 Funnily enough it was also a 63% shit film. Every year there seems to be those bullshit entry’s which wow the general public cause they managed to get a minor Australian celebrity into their film. Proof is in the pudding as a different guy behind me thought this would win cause “it’s just so amazing that they got Mel and Koshie in their film”. Head shakes and disappointed forehead slaps all round. Anyway this lame attempt at a comedy was clearly just a bullshit PR entry as it featured both the hosts of the Today show AND Sunrise. I’d mention their names but the fact I’ve written anything about this film means i’ve given them way too much of a plug already. So in short – bullshit film and my new bottom of the list.
 
@@ -89,7 +103,9 @@ Funnily enough it was also a 63% shit film. Every year there seems to be those b
 
 ![ProdStill01-670x287](/static/blog/02-ProdStill01-670x287-590x252.jpg)
 
-### Cargo
+---
+
+## Cargo
 
 I really dug this little take on a Zombie film. It had a great, simplistic concept and was executed really well. The cinematography and sound design were impressive and all the actors turned in really solid performances. For some reason I think it was lacking a little bit of the wow factor that made **Time** such a solid entry but still a really great little short.
 
@@ -97,7 +113,9 @@ I really dug this little take on a Zombie film. It had a great, simplistic conce
 
 ![TASER-Production-Still-1-preferred-670x376](/static/blog/02-TASER-Production-Still-1-preferred-670x376-590x331.jpg)
 
-### Taser
+---
+
+## Taser
 
 This is a difficult one because I seem to be in the minority of people that thought this was the worst short on the night by far. I commend the filmmakers for dealing with such a difficult and daring subject matter but feel like the importance of what they were trying to say was undermined by lazy writing and not solid enough performances despite having brilliant actors like [Firass Dirani](http://www.imdb.com/name/nm0228163/) on board. I could pick the story to pieces and give you a hundred reasons why the short doesn’t make sense is just plain silly but I’ll sum it up by saying this. If you witness a shooting, see a guy bleeding out in the gutter, and your wife calls to tell you her water has broken perhaps a) call the police and explain the situation before attending to your wife b) when the police turn up don’t run away, stop and explain the situation and c) when the cops yell stop and you’ve just witnessed a shooting, maybe stop? Special mention goes to the bikkie who looks like he is putting his gun in his beard.
 
@@ -105,7 +123,9 @@ This is a difficult one because I seem to be in the minority of people that thou
 
 ![Punctured-670x357](/static/blog/02-Punctured-670x357-590x314.jpg)
 
-### Punctured
+---
+
+## Punctured
 
 A really cute little animation made by a couple of young Sydney-siders. Really enjoyed this film as it made great use of the TSI which normally goes by the way side and told a really beautiful, sweet little story. Animation and sound design tied together beautifully to boost this somewhere near the top of the pile.
 
@@ -113,7 +133,9 @@ A really cute little animation made by a couple of young Sydney-siders. Really e
 
 ![PRODUCTION-STILL-2-670x376](/static/blog/02-PRODUCTION-STILL-2-670x376-590x331.png)
 
-### Better Than Sinatra
+---
+
+## Better Than Sinatra
 
 I know this was another film that split people but I really enjoyed it. Much like **Summer de Roche & Andrea Distefano’s** documentary [The Globe Collectior](http://theglobecollector.com/), which took out St Kilda Film Fest, Better than Sinatra was a beautifully made short film about a lovable, quirky character that refuses to let life get him down. It followed Raymond Borzelli, a 80-year-old man with very little money to his name who loves to dance and who believes he is better than Sinatra. It had a lot to say about life and doing what you love and I think it was a simple yet well told story with a fascinating character to focus on. Not the most original doco in the world but a well told one none the less.
 
@@ -121,7 +143,9 @@ I know this was another film that split people but I really enjoyed it. Much lik
 
 ![Remote-Still-2a-670x390](/static/blog/02-Remote-Still-2a-670x390-590x343.jpg)
 
-### Remote
+---
+
+## Remote
 
 There really isn’t much to say about this one. I laughed out loud at the punchline but it really was just a sketch. One rather similar to a previous Tropfest winner which starred Clayton Jacobson and ended with him having to dig up his car keys after burying a dead body with his keys.
 
@@ -129,7 +153,9 @@ There really isn’t much to say about this one. I laughed out loud at the punch
 
 ![The-Hustle-Still-02-ID955-670x353](/static/blog/02-The-Hustle-Still-02-ID955-670x353-590x310.jpg)
 
-### The Hustle
+---
+
+## The Hustle
 
 A little biased with this one cause it starred a few mates of mine. I thought this was a cool little premise, certainly not an original one, but which was executed soundly. Performances were great from all the actors (especially [Ben Ridgwell](http://www.imdb.com/name/nm2899893/) & [Nickolai Nikolaeff](http://www.imdb.com/name/nm0631788/)) and the cinematography wasn’t too shabby either. Don’t think it was up there with the top couple in my books but certainly a solid entry from Victoria.
 
@@ -137,7 +163,9 @@ A little biased with this one cause it starred a few mates of mine. I thought th
 
 ![A-MAN-WALKS-INTO-A-BAR-Still-1-670x376](/static/blog/02-A-MAN-WALKS-INTO-A-BAR-Still-1-670x376-590x331.png)
 
-### A Man Walk’s Into A Bar…
+---
+
+## A Man Walk’s Into A Bar…
 
 Much like Cash Cow, I imagine this entry got into the finals based on the strengths of [Sophie Lowe](http://www.imdb.com/name/nm2998321/) and [Rhys Wakefield](http://www.imdb.com/name/nm1973422/). Both household names who starred, wrote and directed the short. The problem I have with this film is if it was made by anyone else I could guarantee you it wouldn’t have gotten in. The gag is a tired one, it was shot terribly and really wasn’t great. Again it wasn’t horrible or offensive but just well below par of what you would expect from supposedly hundred and hundreds of entrys. I imagine films with names always float to the top of the pile, being a rock star festival and all, but this has worn out it’s welcome cause these films are ALWAYS below par.
 
@@ -145,7 +173,9 @@ Much like Cash Cow, I imagine this entry got into the finals based on the streng
 
 ![WABT-JOAN-and-JESS-670x446](/static/blog/02-WABT-JOAN-and-JESS-670x446-590x392.jpg)
 
-### We’ve All Been There
+---
+
+## We’ve All Been There
 
 And finally to the winner. A film made by a Victorian (the second year in a row that a Vic film has won) and my favourite of the night. Sure the premise was simple but what I enjoyed about the film was it wasn’t just a gag, a comedy sketch, a pisstake or a parody. It was a film which had a clear arc, a beginning/middle/end and had a message to convey to it’s audience. You could see that time, effort and love went into this film with the production design, score, sound design, performances and cinematography all playing a huge part in the telling of this sweet, simple story. The steadicam shot early on is one of the best shots I’ve seen in a Tropfest film in a long time. I think it absolutely deserved to win, so to the judges I thank you for giving the top prize to a filmmaker clearly with some talent and with some vision and not just to some schmo who made a Tropfest film to win a free car.
 

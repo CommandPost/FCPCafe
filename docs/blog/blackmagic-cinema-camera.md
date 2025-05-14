@@ -6,8 +6,6 @@ layout: blog
 ---
 # Blackmagic Cinema Camera
 
-**Written by Chris Hocking on 5th September 2012**
-
 ![](/static/blog/09-IMG_01321-590x393.jpg "IMG_0132")
 
 This is probably going to be a fairly long blog post, so let’s just start with my personal conclusion in regards to the [Blackmagic Cinema Camera](http://www.blackmagicdesign.com/products/blackmagiccinemacamera/):
@@ -134,16 +132,18 @@ Best Regards, Chris!
 
 **CAST:**
 
-**Nicole –** [Emily O’Brien Brown](http://www.imdb.com/name/nm1950534/)  
-**Craig –** [Lee Beckhurst](http://www.imdb.com/name/nm3768780/)  
-**Fiona –** [Lelda Kapsis](http://www.imdb.com/name/nm3101820/)  
-**Andy –** [Charlie Cousins](http://www.imdb.com/name/nm0184083/)
+**Nicole:** [Emily O’Brien Brown](http://www.imdb.com/name/nm1950534/)
+**Craig:** [Lee Beckhurst](http://www.imdb.com/name/nm3768780/)
+**Fiona:** [Lelda Kapsis](http://www.imdb.com/name/nm3101820/)
+**Andy:** [Charlie Cousins](http://www.imdb.com/name/nm0184083/)
 
 **CREW:**
 
-**Director –** Peter Blackburn **Producer –** [Nicholas Colla](./../about-us/)  
-**Cinematographer –** [Benjamin Hidalgo De la Barrera](http://www.benjaminhidalgob.com/) **Camera Guru –** [Cail Young](http://www.inspirationstudios.com.au/)  
-**Camera Assistant –** Elvis Pramod  
-**Sound Recordist –** [Chris Hocking](./../about-us/)  
-**Art Department –** Sharon Davis  
-**Production Assistant –** Kirstie Amarant
+**Director:** Peter Blackburn
+**Producer:** Nicholas Colla
+**Cinematographer:** [Benjamin Hidalgo De la Barrera](http://www.benjaminhidalgob.com/)
+**Camera Guru:** [Cail Young](http://www.inspirationstudios.com.au/)
+**Camera Assistant:** Elvis Pramod
+**Sound Recordist:** Chris Hocking
+**Art Department:** Sharon Davis
+**Production Assistant:** Kirstie Amarant
