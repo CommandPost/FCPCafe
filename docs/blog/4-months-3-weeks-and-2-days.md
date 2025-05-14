@@ -1,7 +1,9 @@
 ---
 title: 4 Months, 3 Weeks and 2 Days
 date: 2007-08-28
-author: Chris Hocking
+author:
+  name: Chris Hocking
+  avatar: https://fcp.cafe/chrishocking.jpg
 layout: blog
 ---
 # 4 Months, 3 Weeks and 2 Days
