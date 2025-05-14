@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 14 May 2025 22:23:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2025 23:07:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 14 May 2025 22:23:41 GMT</pubDate>
+        <pubDate>Wed, 14 May 2025 23:07:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -9955,6 +9955,54 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#14th-may-2025</link>
             <guid isPermaLink="false">14th May 2025</guid>
             <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2025]]></title>
+            <description><![CDATA[<p>Introducing <strong>Off-topic Rants</strong>! 🥳</p>
+<p>Over the years, I've written hundreds of blog posts on various personal and <a href="https://latenitefilms.com">LateNite</a> websites, as have some of my friends, collaborators and co-workers at <a href="https://latenitefilms.com">LateNite</a>.</p>
+<p>When we re-designed the <a href="https://latenitefilms.com">LateNite</a> website a few years ago, we simplified it, and removed links to the very old blog - the pages were still online, but kinda hidden, only to be found if you Googled them.</p>
+<p>However, rather than letting all that content die, I've decided to keep it alive here on FCP Cafe in the *<em>Off-topic Rants</em> section.</p>
+<p>Yes, I'm a digital hoarder. We have <strong>267 hard drives</strong> in NeoFinder and <strong>353 LTO tapes</strong>. 🫠</p>
+<p>I also created <strong>Unreal Cafe</strong> and <strong>Resolve Cafe</strong> very shortly after setting up <strong>FCP Cafe</strong>, but they never really took off, so I've moved my Unreal Cafe blog posts here, and have taken down both these sites, so I can just concentrate on Final Cut Pro. 👋</p>
+<p>So basically... Off-topic Rants is a random collection of blog posts that contain technical information, creative information, film reviews (apologies if I wrote something bad about your film!), and who knows what else.</p>
+<p>Some interesting posts from over the years include:</p>
+<ul>
+<li><a href="/blog/philosophy-of-open-source/">Philosophy of Open Source (13th September 2006)</a></li>
+<li><a href="/blog/post-production-workflow/">Post Production Workflow (23rd December 2008)</a></li>
+<li><a href="/blog/final-cut-studio-3-predictions/">Final Cut Studio 3 Predictions (21st February 2009)</a></li>
+<li><a href="/blog/avid-vs-fcp-my-thoughts/">Avid vs FCP – My thoughts… (10th May 2009)</a></li>
+<li><a href="/blog/mac-hardware-predictions-death-to-the-mouse/">Mac Hardware Predictions – Death to the Mouse (22nd June 2009)</a></li>
+<li><a href="/blog/assistant-editor-lecture/">Assistant Editor Lecture (30th October 2010)</a></li>
+<li><a href="/blog/waiting-on-sound/">Waiting on Sound (16th September 2012)</a></li>
+<li><a href="/blog/hard-drive-challenge/">The Hard Drive Challenge (12th December 2013)</a></li>
+<li><a href="/blog/fcpx-rant/">FCPX Rant (28th January 2014)</a></li>
+<li><a href="/blog/directing-the-wizards-of-aus/">Directing The Wizards of Aus (20th December 2015)</a></li>
+<li><a href="/blog/superannuation/">Superannuation for Filmmakers (6th June 2018)</a></li>
+</ul>
+<p>Some of the old blogs have formatting issues, broken links, and missing content, so feel free to <a href="/contribute/">submit a pull request</a> if you come across anything, or just let me know on the Discord or GitHub.</p>
+<p>Also the main <strong>Off-topic Rants</strong> page currently doesn't list everything, so you can only find a lot of the old blogs by searching, or stepping through the blog posts page-by-page (which will take a while, as there's currently 349 posts!).</p>
+<p>If nothing else... all these decades of old blog posts will probably explain why I'm so crazy... 🤷</p>
+<p>Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2025</link>
+            <guid isPermaLink="false">15th May 2025</guid>
+            <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2025]]></title>
+            <description><![CDATA[<p><strong>Jumper for Final Cut Pro</strong> has been on display at <strong>MPTS show</strong> at Olympia Grand Hall in <strong>London</strong> today, and will be back again tomorrow! 🥳</p>
+<p>The amazing <strong>Ronny Courtens</strong> from OWC (Head of Enterprise solutions - Jellyfish/Jupiter/LTO) and <strong>Max Lund</strong> from Witchcraft Software (the lead developer of Jumper) will be on the stand demoing Jumper, running large shared media volumes and on-premises machine learning datasets off a Jellyfish NAS.</p>
+<p><img src="/static/jumper-at-mpts-01.jpg" alt="Max Lund (far left) &amp; Ronny Courtens (third from left) at OWC Booth"></p>
+<p>Ronny is giving live demos of their latest high-performance Jellyfish NAS systems, their powerful new Jellyfish Manager v3.0, and the very first release of their brand-new Jellyfish Media Management software.</p>
+<p>The Jellyfish systems is connected to super-fast OWC Thunderbolt 5 hubs, docks, and drives, to demo high-speed edit-while-ingest collaboration workflows.</p>
+<p>If you want to see the fastest and most user-friendly storage solutions for creative teams, and the latest developments in on-premises machine learning, go and visit MPTS on the ccktech booth, <strong>Stand B42</strong>.</p>
+<p>The event runs:</p>
+<p><strong>Thursday 15th May - 09:30 - 17:00</strong></p>
+<p><img src="/static/jumper-at-mpts-02.jpg" alt="MPTS show"></p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2025</link>
+            <guid isPermaLink="false">15th May 2025</guid>
+            <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
