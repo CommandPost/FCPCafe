@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 15 May 2025 12:42:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2025 21:12:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 May 2025 12:42:41 GMT</pubDate>
+        <pubDate>Thu, 15 May 2025 21:12:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10003,6 +10003,50 @@ under the custom title panel)</li>
             <link>https://fcp.cafe/#15th-may-2025</link>
             <guid isPermaLink="false">15th May 2025</guid>
             <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th May 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.5.1 (Build 22)</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Add supported for Vimeo's new CSV format. Thanks for reporting Matt!</li>
+<li>Updated TimecodeKit from <code>v2.0.11</code> to <code>v2.3.3</code>. Thanks Steffan Andrews!</li>
+</ul>
+<p>Marker Toolbox allows you to import a <strong>Adobe Premiere</strong> <code>CSV</code>, <strong>Vimeo</strong> <code>CSV</code>, <strong>Wipster</strong> <code>CSV</code>, <strong>Dropbox Replay</strong> <code>JSON</code>, <strong>Frame.io</strong> <code>FIOJSON</code> (including from the <a href="https://frame.io/v4">V4 Beta</a>), <strong>Timecode+</strong> <code>TSV</code> &amp; <strong>Text Comments</strong> into Apple's <a href="https://www.apple.com/final-cut-pro/">Final Cut Pro</a>, Blackmagic's <a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a> and <a href="https://www.avid.com/media-composer">Avid Media Composer</a>.</p>
+<p>You can even get OpenAI's <strong>ChatGPT</strong> to help interpret your Text Comments - which is perfect for handling emails from clients!</p>
+<p>You can download and learn more on the <a href="https://markertoolbox.io">Marker Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-may-2025</link>
+            <guid isPermaLink="false">16th May 2025</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th May 2025]]></title>
+            <description><![CDATA[<p><strong>Eddie AI</strong> is now available in Final Cut Pro! 🥳</p>
+<p><strong>Shamir Allibhai</strong> writes:</p>
+<blockquote>
+<p>Imagine if you could just &quot;prompt&quot; your clips in Final Cut Pro to create a great story.
+Scratch that. You don’t need to imagine: &quot;ChatGPT&quot; capabilities have arrived for FCP.</p>
+<p>And the big week for Eddie AI just got even bigger.
+(🎥 Launch video part 3, below...watch to the end 😉)</p>
+<p>First Premiere Pro.
+Then DaVinci Resolve.
+And now... Final Cut Pro. 🍎✂️</p>
+<p>Eddie — the AI assistant video editor for pros — is now integrated with all three major video editing applications. That means wherever you cut, whatever your workflow, Eddie and its advanced AI models are there to make you more efficient.</p>
+<p>And quite frankly, to liberate you.</p>
+<p>📥 Import footage (multicam, sync, compound, and all)
+🧠 Find the story
+🗂️ Log b-rolls
+✂️ Cut roughs
+✨ Export projects/timelines, ready to polish</p>
+<p>⏳ Hours, if not days → now minutes ⚡</p>
+<p>Try Eddie for free — 2 full projects/month, no credit card required</p>
+</blockquote>
+<p>You can learn more on the <a href="https://heyeddie.ai">Eddie AI website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-may-2025</link>
+            <guid isPermaLink="false">16th May 2025</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
