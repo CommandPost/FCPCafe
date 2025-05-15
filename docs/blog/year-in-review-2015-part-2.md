@@ -6,7 +6,7 @@ layout: blog
 ---
 # Year in Review 2015 - Part 2
 
-**If you haven’t already, check out Part 1 [here](/blog/year-in-review-2015-part-1/).**
+If you haven’t already, check out Part 1 [here](/blog/year-in-review-2015-part-1/).
 
 ---
 
