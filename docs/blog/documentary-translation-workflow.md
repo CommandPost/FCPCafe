@@ -6,7 +6,7 @@ layout: blog
 ---
 # Documentary Translation Workflow
 
-**This Guest Blog has been written by our good friend, [Joel Sharpe](http://joelsharpe.com). Enjoy!**
+This Guest Blog has been written by our good friend, [Joel Sharpe](http://joelsharpe.com). Enjoy!
 
 ---
 
