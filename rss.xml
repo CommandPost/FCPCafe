@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 15 May 2025 21:45:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2025 22:12:50 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 May 2025 21:45:20 GMT</pubDate>
+        <pubDate>Thu, 15 May 2025 22:12:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10025,24 +10025,25 @@ under the custom title panel)</li>
             <description><![CDATA[<p><strong>Eddie AI</strong> is now available in Final Cut Pro! 🥳</p>
 <p><strong>Shamir Allibhai</strong> writes:</p>
 <blockquote>
-<p>Imagine if you could just &quot;prompt&quot; your clips in Final Cut Pro to create a great story.
+<p>Imagine if you could just &quot;prompt&quot; your clips in Final Cut Pro to create a great story.<br />
 Scratch that. You don’t need to imagine: &quot;ChatGPT&quot; capabilities have arrived for FCP.</p>
-<p>And the big week for Eddie AI just got even bigger.
+<p>And the big week for Eddie AI just got even bigger.<br />
 (🎥 Launch video part 3, below...watch to the end 😉)</p>
-<p>First Premiere Pro.
-Then DaVinci Resolve.
+<p>First Premiere Pro.<br />
+Then DaVinci Resolve.<br />
 And now... Final Cut Pro. 🍎✂️</p>
 <p>Eddie — the AI assistant video editor for pros — is now integrated with all three major video editing applications. That means wherever you cut, whatever your workflow, Eddie and its advanced AI models are there to make you more efficient.</p>
 <p>And quite frankly, to liberate you.</p>
-<p>📥 Import footage (multicam, sync, compound, and all)
-🧠 Find the story
-🗂️ Log b-rolls
-✂️ Cut roughs
+<p>📥 Import footage (multicam, sync, compound, and all)<br />
+🧠 Find the story<br />
+🗂️ Log b-rolls<br />
+✂️ Cut roughs<br />
 ✨ Export projects/timelines, ready to polish</p>
 <p>⏳ Hours, if not days → now minutes ⚡</p>
 <p>Try Eddie for free — 2 full projects/month, no credit card required</p>
 </blockquote>
 <p>You can learn more on the <a href="https://heyeddie.ai">Eddie AI website</a>.</p>
+<p>You can also read about this new integration on <a href="https://www.redsharknews.com/eddie-ai-scores-hat-trick-of-nle-integrations">RedShark News</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#16th-may-2025</link>
             <guid isPermaLink="false">16th May 2025</guid>
