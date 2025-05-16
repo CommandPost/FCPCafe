@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 15 May 2025 22:36:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2025 00:36:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 May 2025 22:36:02 GMT</pubDate>
+        <pubDate>Fri, 16 May 2025 00:36:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -7800,7 +7800,7 @@ We want to give a big thanks to our amazing users for your support over the past
 <p><a href="http://ltnt.tv/jumper"><img src="/static/jumper.jpg" alt=""></a></p>
 <p>You can also watch a detailed tutorial video <a href="https://docs.getjumper.io/videos/">here</a>.</p>
 <p>I’m very biased, but it’s amazing. I basically describe it as <strong>Spotlight for your NLE</strong>.</p>
-<p>You should stop reading this and go download it now from <a href="https://getjumper.io">here</a>.</p>
+<p>You should stop reading this and go download it now from <a href="https://getjumper.io/?ref=fcpcafe">here</a>.</p>
 <p>Let me explain...</p>
 <p>Now, firstly, this isn’t a <a href="/latenite/">LateNite</a> project - this isn’t my (Chris Hocking’s) baby.</p>
 <p>Jumper is the brainchild of <a href="https://www.youtube.com/@ArthurMoore">YouTube</a> and <a href="https://arthurmoorefx.sellfy.store">BadAss FX creator</a> Arthur Moore.</p>
@@ -7843,7 +7843,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>Whilst there’ll be some video editors that use Jumper all the time (i.e. documentary, nature, sports, etc), for others in the scripted world (i.e. scripted film &amp; television), it may be less frequently used, because assistant editors will have already logged and organised the footage by scene, for example. However, just being able to open the Jumper Workflow Extension and instantly find ANYTHING in your Library is pretty insane. It’s a very handy tool to have in your toolbox - and I say this as someone who has built a lot of toolboxes over the years!</p>
 <p>Whilst I have no ownership in Witchcraft (the newly formed company behind Jumper), and it’s not my baby - I’m super proud of Jumper, and all the work that myself and Team Sweden has put into it. It’s entirely possible that Apple, Blackmagic or Adobe will Sherlock it at some point in the future - but for now, it’s the only tool on the market that can do what it does... all locally, all on device.</p>
 <p>I’m very glad Arthur took me along for the ride!</p>
-<p>You can buy and learn more <a href="https://getjumper.io">here</a>.</p>
+<p>You can buy and learn more <a href="https://getjumper.io/?ref=fcpcafe">here</a>.</p>
 <p>Onwards &amp; Upwards!</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-november-2024</link>
@@ -7946,7 +7946,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <li>Jumper now ignores non-media files from FCPXML.</li>
 <li>Reduced verbose error logging output for offline files.</li>
 </ul>
-<p>You can download and learn more <a href="https://getjumper.io">here</a>.</p>
+<p>You can download and learn more <a href="https://getjumper.io/?ref=fcpcafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#10th-november-2024</link>
             <guid isPermaLink="false">10th November 2024</guid>
@@ -8089,7 +8089,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <li>Error-safe parsing of <code>.caf</code> audio file metadata.</li>
 <li>We no longer ignore an audio file if there is some issue parsing the audio channel count.</li>
 </ul>
-<p>You can download and learn more <a href="https://getjumper.io">here</a>.</p>
+<p>You can download and learn more <a href="https://getjumper.io/?ref=fcpcafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#12th-november-2024</link>
             <guid isPermaLink="false">12th November 2024</guid>
@@ -8373,7 +8373,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 &lt;!ELEMENT hidden-clip-marker EMPTY&gt;
 </code></pre>
 <p>The awesome <a href="https://github.com/orchetect">Steffan Andrews</a> has already added 90fps support to <a href="https://github.com/orchetect/TimecodeKit/releases/tag/2.3.3">TimecodeKit</a>!</p>
-<p>Good news for <strong>Jumper</strong> users - Final Cut Pro 11 already works great with <a href="https://getjumper.io">Jumper</a>!</p>
+<p>Good news for <strong>Jumper</strong> users - Final Cut Pro 11 already works great with <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>!</p>
 <p>If you're not already aware of Jumper, please read our <a href="/news/20241106/">previous news post</a>.</p>
 <p>CommandPost however will most likely need some tweaks to support FCPXML v1.13, which I'll try and get to ASAP.</p>
 <p>After the Apple presentations, it was time to leave the Apple Developer Center and head over to Apple Park.</p>
@@ -8639,8 +8639,8 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>I really loved this session, and I can't wait to catch up on all 305 episodes of their show!</p>
 <p>Next up, in typical <strong>Sam Mestman</strong> style, we had an absolutely epic presentation.</p>
 <p>Previously Sam founded FCPWORKS and <a href="https://www.lumaforge.com">Lumaforge</a> (who were acquired by OWC), runs <a href="https://www.wemakemovies.org">We Make Movies</a> and also works for <a href="https://hedge.co">Hedge</a> on <a href="https://hedge.co/products/postlab">PostLab</a>.</p>
-<p>He is now the Present of <a href="https://www.amove.io">Amove</a>, and in this demonstration, he explained how Amove's offerings create an entire post production ecosystem, along with <a href="https://hedge.co">Hedge's Tools</a>, <a href="https://getjumper.io">Jumper</a> and <a href="https://www.freque.io">Freque</a>.</p>
-<p>Sam demonstrated <a href="https://www.amove.io">Amove</a>'s functionality, Justin La Vallee demonstrated <a href="https://www.freque.io">Freque</a>, <a href="https://www.jgreenbergconsulting.com">Jeff Greenberg</a> demonstrated <a href="https://getjumper.io">Jumper</a>.</p>
+<p>He is now the Present of <a href="https://www.amove.io">Amove</a>, and in this demonstration, he explained how Amove's offerings create an entire post production ecosystem, along with <a href="https://hedge.co">Hedge's Tools</a>, <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> and <a href="https://www.freque.io">Freque</a>.</p>
+<p>Sam demonstrated <a href="https://www.amove.io">Amove</a>'s functionality, Justin La Vallee demonstrated <a href="https://www.freque.io">Freque</a>, <a href="https://www.jgreenbergconsulting.com">Jeff Greenberg</a> demonstrated <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>.</p>
 <p>There was also a demonstration of how this all ties together in a real world production environment.</p>
 <p>You can check out some of the slides here (apologies for the quality, I was quite far back in the room):</p>
 <p><img src="/static/fcpcs24-sam-session-1.jpeg" alt=""></p>
@@ -8652,7 +8652,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p><img src="/static/fcpcs24-sam-session-7.jpeg" alt=""></p>
 <p><img src="/static/fcpcs24-sam-session-8.jpeg" alt=""></p>
 <p><img src="/static/fcpcs24-sam-session-9.jpeg" alt=""></p>
-<p>If you haven't yet checked out <a href="https://www.amove.io">Amove</a>, <a href="https://www.freque.io">Freque</a> or <a href="https://getjumper.io">Jumper</a> - you absolutely should.</p>
+<p>If you haven't yet checked out <a href="https://www.amove.io">Amove</a>, <a href="https://www.freque.io">Freque</a> or <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> - you absolutely should.</p>
 <p>Next up, it was lunch time - and again, lunch was super yummy!</p>
 <p>After lunch, <strong>Wes Plate</strong> was up.</p>
 <p>Whilst this is the first time I've actually met Wes in person, I've communicated with him online for years, so I feel like I know him really well - he's such a fantastic guy.</p>
@@ -8677,7 +8677,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>My session was a Q&amp;A session hosted by the incredible <a href="https://nickharauz.com">Nick Harauz</a> from <a href="https://borisfx.com">Boris FX</a>.</p>
 <p><img src="/static/fcpcs24-chris-hocking-2.jpeg" alt=""></p>
 <p><img src="/static/fcpcs24-chris-hocking-3.jpeg" alt=""></p>
-<p>I talked about my production company, <a href="https://latenitefilms.com">LateNite</a>, <a href="/latenite/">my software</a>, <a href="https://getjumper.io">Jumper</a> and all kinds of other tangents.</p>
+<p>I talked about my production company, <a href="https://latenitefilms.com">LateNite</a>, <a href="/latenite/">my software</a>, <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> and all kinds of other tangents.</p>
 <p>I had a lot of fun, and thanks to everyone for their questions and engagement! Feel free to leave comments below if you want to ask my anything else!</p>
 <p>Unfortunately I missed the next two sessions, <strong>Create Magic in Motion</strong> with Mark Spencer and <strong>3D, Spatial and Immersive Video</strong> with Iain Anderson - as I was chatting with people in the foyer after my talk.</p>
 <p>Again, it's those discussions you have in the hallways that make in-person events so valuable.</p>
@@ -8703,7 +8703,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>Over all though, the general mode and vibe was a happy one. Apple is listening. The team behind the tools we love are human. Apparently one of the crew that helped setup the demo room at Apple Park is an insanely good music video creator. The Final Cut Pro team literally &quot;share a wall&quot; with the Logic Pro team.</p>
 <p>With the end of that session, we had a wrap on the Final Cut Pro Creative Summit 2024!</p>
 <p>Thanks to EVERYONE who reached out to me over the last week, chatted in the hallways, bought me a coffee or a beer and sent me DMs and messages!</p>
-<p>HUGE THANKS to EVERYONE who's downloaded a free trial or bought <a href="https://getjumper.io">Jumper</a>, or has <a href="/latenite/">purchased my applications</a> - this is what has allowed me to fly all the way from Melbourne, Australia to hang out with you all!</p>
+<p>HUGE THANKS to EVERYONE who's downloaded a free trial or bought <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>, or has <a href="/latenite/">purchased my applications</a> - this is what has allowed me to fly all the way from Melbourne, Australia to hang out with you all!</p>
 <p>I really hope these <strong>FCP Cafe</strong> articles have been interesting and helpful! If you liked this coverage, please let Apple and FMC know, so they might help me come back in future years!</p>
 <p>Onwards &amp; Upwards!</p>
 <p><img src="/static/fcpcs24-wrap-1.jpeg" alt=""></p>
@@ -9038,7 +9038,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <title><![CDATA[28th November 2024]]></title>
             <description><![CDATA[<p><strong>Jumper</strong> is having a Black Friday sale!</p>
 <p>Get <strong>50% off</strong> yearly and lifetime licenses with the discount code: <code>BLACKFRIDAY50</code>.</p>
-<p>You can learn more on the <a href="https://getjumper.io">Jumper website</a>.</p>
+<p>You can learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#28th-november-2024</link>
             <guid isPermaLink="false">28th November 2024</guid>
@@ -9110,7 +9110,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <li>Make sure the settings for target audio and video track in Premiere Pro doesn't reset on restart, thanks for reporting @citizensam!</li>
 <li>Make sure we are frame-accurate when doing reverse image searches from a Premiere Pro timeline, thanks for reporting @citizensam!</li>
 </ul>
-<p>You can learn more and download a free trial on the <a href="https://getjumper.io">Jumper website</a>.</p>
+<p>You can learn more and download a free trial on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-december-2024</link>
             <guid isPermaLink="false">7th December 2024</guid>
@@ -9785,7 +9785,7 @@ under the custom title panel)</li>
             <description><![CDATA[<p><strong>Jumper is coming to Avid Media Composer &amp; DaVinci Resolve!</strong></p>
 <p>Whilst this isn't <em>technically</em> Final Cut Pro news, it will bring some benefits, as Jumper's analysis files will be common between Final Cut Pro, DaVinci Resolve (Mac &amp; Windows), Adobe Premiere Pro (Mac &amp; Windows) and Avid Media Composer (Mac &amp; Windows)!</p>
 <p>A standalone/desktop version of Jumper is also in active development.</p>
-<p>You can learn more on the <a href="https://getjumper.io">Jumper website</a>.</p>
+<p>You can learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#27th-april-2025</link>
             <guid isPermaLink="false">27th April 2025</guid>
