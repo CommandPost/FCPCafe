@@ -46,7 +46,7 @@ You can also watch a detailed tutorial video [here](https://docs.getjumper.io/vi
 
 I’m very biased, but it’s amazing. I basically describe it as **Spotlight for your NLE**.
 
-You should stop reading this and go download it now from [here](https://getjumper.io).
+You should stop reading this and go download it now from [here](https://getjumper.io/?ref=fcpcafe).
 
 You can learn more about my involvement via [this FCP Cafe news article](https://fcp.cafe/news/20241106/).
 

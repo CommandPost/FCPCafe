@@ -26,7 +26,7 @@ You can check out his detailed list of deals [on his website](https://jonnyelwyn
 
 Get **50% off** yearly and lifetime licenses with the discount code: `BLACKFRIDAY50`.
 
-You can learn more on the [Jumper website](https://getjumper.io).
+You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
 
 ---
 

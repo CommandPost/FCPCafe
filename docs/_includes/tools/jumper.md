@@ -11,4 +11,4 @@ Jumper helps you find the footage you need in seconds, so you can focus on the a
 
 You can read a detailed article about Jumper on [FCP Cafe](/news/20241106/).
 
-[!button text="Visit Website" target="blank" variant="info"](https://getjumper.io)
+[!button text="Visit Website" target="blank" variant="info"](https://getjumper.io/?ref=fcpcafe)
