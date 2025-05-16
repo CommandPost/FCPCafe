@@ -37,3 +37,9 @@
         }
     }
 </style>
+<script>
+    if (!window.localStorage.getItem('doc_theme')) {
+        window.localStorage.setItem('doc_theme', 'dark');
+        location.reload();
+    }
+</script>
