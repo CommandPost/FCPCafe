@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 16 May 2025 05:15:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2025 19:35:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 May 2025 05:15:35 GMT</pubDate>
+        <pubDate>Fri, 16 May 2025 19:35:49 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10059,6 +10059,48 @@ And now... Final Cut Pro. 🍎✂️</p>
             <link>https://fcp.cafe/#16th-may-2025</link>
             <guid isPermaLink="false">16th May 2025</guid>
             <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th May 2025]]></title>
+            <description><![CDATA[<p><strong>Metaburner</strong> is now available on the Mac App Store at a discount rate (for a limited time)! 🥳</p>
+<p>Previously it was only available on <a href="https://fxfactory.com/install/metaburner">FxFactory</a> - however, there were a few users (<strong>cough</strong>, Vigneswaran Rajkumar), that really wanted it on the Mac App Store too, so we've finally put it there too!</p>
+<p>The versions should be mostly identical (although the Mac App Store version is sandboxed) - and we'll try keep them in-sync.</p>
+<p><strong>You can buy it today for USD$79.99 (previously USD$149 on FxFactory).</strong></p>
+<p>Metaburner is an Advanced Metadata Generator for Final Cut Pro.</p>
+<p>You can access it via a <strong>Title</strong> in the Titles sidebar.</p>
+<p>Metaburner gives you <strong>25 text layers</strong> that you can populate with whatever metadata you want.</p>
+<p>You can even stack multiple Metaburner Titles on top of each other for <strong>unlimited</strong> metadata fields!</p>
+<p>To begin, simply drag your Final Cut Pro Project from the Browser into the Metaburner Title Inspector via a drop zone, and then Metaburner has full access to everything that's in the FCPXML.</p>
+<p>There's also a <strong>Lua scripting environment</strong> built-in, so you can even &quot;code&quot; your own text for unlimited possibilities.</p>
+<p>You can even share Lua variables between multiple Metaburner titles for some crazy cool workflows!</p>
+<p><img src="/static/metaburner-v1-1-0.png" alt=""></p>
+<p>You can learn more on the <a href="https://metaburner.pro">Metaburner website</a> and buy on the <a href="https://apps.apple.com/app/metaburner/id6475315396">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-may-2025</link>
+            <guid isPermaLink="false">17th May 2025</guid>
+            <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th May 2025]]></title>
+            <description><![CDATA[<p>The charming <strong>Shamir Allibhai</strong> from <a href="https://heyeddie.ai">Eddie AI</a> has released an awesome little blog post.</p>
+<p>He explains:</p>
+<blockquote>
+<p>I remember April 2011. It was when Apple launched Final Cut Pro X and ended FCP 7. FCP X’s magnetic timeline looked amazing but too much of radical departure for me back then. It was too hard to use after having learned and depended on FCP 7. I migrated to Adobe Premiere.</p>
+<p>The launch didn’t just divide the editing world — it shattered it.<br />
+Editors walked out. Forums caught fire. Careers shifted overnight.</p>
+<p>But what if we got the story wrong?</p>
+<p>What if that launch wasn’t a failure… but a fault line?<br />
+One that quietly reshaped the next decade of content creation?</p>
+<p>We wrote about this pivotal moment in our latest long form article...</p>
+<p>The Final Cut That Wasn’t — A deep dive into the launch that broke the industry before building it again. For editors, creators, and anyone who loves a good comeback story.</p>
+</blockquote>
+<p>You can read it on the <a href="https://roughcut.heyeddie.ai/p/an-untold-look-at-the-debacle-of">Eddie AI blog</a>.</p>
+<p>You can also step back in time, and read my ORIGINAL FCPX thoughts from 2014 on the <a href="https://fcp.cafe/blog/fcpx-rant/">FCP Cafe Blog</a>.</p>
+<p>Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-may-2025</link>
+            <guid isPermaLink="false">17th May 2025</guid>
+            <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
