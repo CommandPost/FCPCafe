@@ -52,6 +52,26 @@ You can learn more about my involvement via [this FCP Cafe news article](https:/
 
 ---
 
+### Motion Template Version Fixer
+
+The most common reason for the ugly red screen of death on a plugin in Final Cut Pro is due to a versioning issue.
+
+The Motion Template Version Fixer solves that.
+
+The technical name for these versions are OZML and Display Versions... But all you need to know is that this app fixes it... fast!
+
+Features:
+- Elegant Easy to use interface.
+- Fully integrated backup system, with easy recovery.
+- Incredibly fast processing.
+- No subscriptions. All updates will be free... forever!
+
+Chris helped Dylan migrate his original Python code-base to Swift/SwiftUI.
+
+You can buy Motion Template Version Fixer on [Dylan's online store](https://fcbplugins.com/b/motiontemplatefixer).
+
+---
+
 ### Arctic
 
 Arctic (previously Final Cut Library Manager) is your single-view source of truth for all your Final Cut Pro libraries, whether they are connected or in a cupboard. Locate media, assets, caches, and clean up what you no longer need.
@@ -123,6 +143,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 ---
 
 {{ include "latenite/news-import" }}
+
+---
+
+{{ include "latenite/metaburner" }}
 
 ---
 
