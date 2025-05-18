@@ -6,12 +6,12 @@
 
 _This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](/latenite/)._
 
-{{ include "hero-sponsor" }}
-
 !!!
 **Should I update Final Cut Pro?**<br />
 Read our [current recommendations](/update-guide/).
 !!!
+
+{{ include "hero-sponsor" }}
 
 ---
 

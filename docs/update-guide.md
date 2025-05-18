@@ -14,9 +14,11 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 4th April 2025
+**Last Updated:** 18th May 2025
 
 For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.1** is rock solid.
+
+We've been using **Final Cut Pro 11.1** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
 
 If you're currently on **Final Cut Pro 11.0.1**, you can safely update to **Final Cut Pro 11.1**.
 
