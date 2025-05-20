@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 18 May 2025 00:52:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 May 2025 00:58:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 18 May 2025 00:52:32 GMT</pubDate>
+        <pubDate>Tue, 20 May 2025 00:58:24 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10125,6 +10125,21 @@ One that quietly reshaped the next decade of content creation?</p>
             <link>https://fcp.cafe/#18th-may-2025</link>
             <guid isPermaLink="false">18th May 2025</guid>
             <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th May 2025]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.3.0 (Build 22)</strong> is out now!</p>
+<p>This release includes the following improvements:</p>
+<ul>
+<li>We've updated to the <a href="https://github.com/gyroflow/gyroflow/tree/35c5315a8e5baa20c6be53176ffe80c353c15fe1">latest</a> Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>We've improved how we render error messages in Gyroflow Toolbox. HUGE thank you to Darrin Cardani at Apple and Gabriele de Simone at FxFactory for all your ongoing help, assistance, genius and support (and for putting up with my crazy questions)!</li>
+<li>Updated from FxPlug <code>v4.3</code> to <code>v4.3.2</code>.</li>
+</ul>
+<p>You can learn more and download Gyroflow Toolbox on the <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-may-2025</link>
+            <guid isPermaLink="false">19th May 2025</guid>
+            <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
