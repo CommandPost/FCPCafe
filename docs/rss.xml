@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 20 May 2025 00:58:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 16:10:13 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 20 May 2025 00:58:24 GMT</pubDate>
+        <pubDate>Fri, 23 May 2025 16:10:13 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10140,6 +10140,30 @@ One that quietly reshaped the next decade of content creation?</p>
             <link>https://fcp.cafe/#19th-may-2025</link>
             <guid isPermaLink="false">19th May 2025</guid>
             <pubDate>Mon, 19 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd May 2025]]></title>
+            <description><![CDATA[<p><strong>Final Cut Pro v11.1.1</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Addresses an issue that could cause MXF media to play back incorrectly.</li>
+<li>Improves reliability when adding video to drop zones in the inspector.</li>
+<li>Fixes an issue when sharing with the “Allow export segmentation” setting that caused inconsistent frame rates.</li>
+</ul>
+<p><strong>Compressor v4.10.1</strong> is out now with the following bug fixes:</p>
+<ul>
+<li>Improves reliability when exporting ProRes 422 clips in MXF format.</li>
+<li>Fixes an issue when sharing with the &quot;Allow export segmentation&quot; setting that caused inconsistent frame rates.</li>
+</ul>
+<p>There has been no changes to Motion, FxPlug, or Workflow Extensions... yet.</p>
+<p>For those that might have missed it <strong>Final Cut Pro for iPad v2.2.1</strong> was realised on 8th May with the following bug fix:</p>
+<ul>
+<li>Fixes an issue that caused user-installed fonts to not appear.</li>
+</ul>
+<p>We'll test out, and keep you posted on our findings. Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-may-2025</link>
+            <guid isPermaLink="false">23rd May 2025</guid>
+            <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
