@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 23 May 2025 16:22:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 23:07:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 May 2025 16:22:55 GMT</pubDate>
+        <pubDate>Fri, 23 May 2025 23:07:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10160,6 +10160,40 @@ One that quietly reshaped the next decade of content creation?</p>
 <li>Fixes an issue that caused user-installed fonts to not appear.</li>
 </ul>
 <p>We'll test out, and keep you posted on our findings. Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-may-2025</link>
+            <guid isPermaLink="false">23rd May 2025</guid>
+            <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd May 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v5.6.3</strong> is out now!</p>
+<p><strong>New Features:</strong>
+Expanded Metadata Field Coverage</p>
+<p>Metadata is now more consistent across all export types, improving cross-platform workflows and post-production integration.</p>
+<p>Newly added fields by export type:</p>
+<ul>
+<li>
+<p>DaVinci Resolve (<code>.CSV</code>): <code>Date Recorded</code></p>
+</li>
+<li>
+<p>Final Cut Pro (<code>.FCPXML</code>): <code>Focus Distance</code></p>
+</li>
+<li>
+<p>evrExpanse (<code>.CSV</code>): <code>Reel Number</code>, <code>Scene</code>, <code>Take</code>, <code>Camera Number</code>, <code>Focus Distance</code></p>
+</li>
+<li>
+<p>Silverstack (<code>.CSV</code>): <code>Camera Letter</code>, <code>Reel Number</code>, <code>Scene</code>, <code>Clip Number</code>, <code>Take</code></p>
+</li>
+<li>
+<p>ASSIMILATE SCRATCH Integration (<code>.XML</code>): <code>Clip Number</code>, <code>Reel Number</code>, <code>Scene</code>, <code>Take</code>, <code>Camera Number</code>, <code>Focus Distance</code></p>
+</li>
+<li>
+<p>Avid Media Composer (<code>.ALE</code>): <code>Clip Number</code>, <code>Reel Number</code>, <code>Scene</code>, <code>Take</code>, <code>Camera Number</code>, <code>Finder Tags</code>, <code>Finder Flag</code>, <code>Focus Distance</code></p>
+</li>
+</ul>
+<p>📊 For full field comparison, see the updated <a href="https://www.evrapp.cloud/camera-compatibility#metadata-fields-by-export">metadata coverage chart</a>.</p>
+<p>You can download and learn more on the <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse website</a></p>
 ]]></description>
             <link>https://fcp.cafe/#23rd-may-2025</link>
             <guid isPermaLink="false">23rd May 2025</guid>
