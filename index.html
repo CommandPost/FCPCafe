@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.801657880964">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.801659070666">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.8.1">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="static/favicon.ico" rel="icon">
-    <link href="resources/css/retype.css?v=3.8.1.801657880964" rel="stylesheet">
+    <link href="resources/css/retype.css?v=3.8.1.801659070666" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.8.1.801657880964" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=3.8.1.801659070666" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.8.1.801657880964" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=3.8.1.801657880964" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.8.1.801659070666" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=3.8.1.801659070666" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -386,10 +386,15 @@ Get all of LateNite&#x27;s Tools on the <a href="latenite/#pro-editor-bundles">M
 <p>The amazing Joe Marler reports on our <a href="https://ltnt.tv/discord" class="outbound" target="_blank"><span>Discord</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
 <blockquote>
 <p>The v11.1.1 fix involving &quot;MXF media to plays back incorrectly&quot; (only XAVC-L) had been filed as <a href="https://github.com/CommandPost/FCPCafe/issues/449">issue 449 in the FCP Cafe bug database</a><br />
+<br />
 There was also an unannounced fix in <a href="https://support.apple.com/en-us/106396" class="outbound" target="_blank"><span>Pro Video Formats v2.4.1</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> the day after the Final Cut Pro v11.1.1 release.<br />
+<br />
 That Pro Video Formats v2.4.1 fix addressed sluggish Quicktime XAVC-L playback on Apple Silicon.<br />
+<br />
 I tested the Final Cut Pro v11.1.1 fix on bug #449 before installing Pro Video Formats v2.4.1, and it none-the-less fixed the specific XAVC-L bug involving black frames when using the Final Cut Pro Import dialog on Apple Silicon.
+<br />
 However the QTP bug was suspicious. It might have been in <code v-pre>/Library/Video/Professional Video Workflow\Plug-Ins/AppleAVCLGCodec.bundle</code> or in <code v-pre>/Library/Video/Professional Video Workflow Plug-Ins/AppleMXFImport.bundle</code>, but I did binary diffs on those and diffs of the decompiled pseudocode and I don&#x27;t see where it was.<br />
+<br />
 The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe in <code v-pre>MXF::FileReader</code>.</p>
 </blockquote>
 <p>This is what I absolutely LOVE about the Final Cut Pro community - we have such insanely smart people just openly sharing very technical information. Awesome.</p>
