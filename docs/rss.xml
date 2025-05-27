@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 23 May 2025 23:07:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 10:42:32 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 May 2025 23:07:48 GMT</pubDate>
+        <pubDate>Tue, 27 May 2025 10:42:32 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10198,6 +10198,25 @@ Expanded Metadata Field Coverage</p>
             <link>https://fcp.cafe/#23rd-may-2025</link>
             <guid isPermaLink="false">23rd May 2025</guid>
             <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th May 2025]]></title>
+            <description><![CDATA[<p>The amazing Joe Marler reports on our <a href="https://ltnt.tv/discord">Discord</a>:</p>
+<blockquote>
+<p>The v11.1.1 fix involving &quot;MXF media to plays back incorrectly&quot; (only XAVC-L) had been filed as <a href="https://github.com/CommandPost/FCPCafe/issues/449">issue 449 in the FCP Cafe bug database</a><br />
+There was also an unannounced fix in <a href="https://support.apple.com/en-us/106396">Pro Video Formats v2.4.1</a> the day after the Final Cut Pro v11.1.1 release.<br />
+That Pro Video Formats v2.4.1 fix addressed sluggish Quicktime XAVC-L playback on Apple Silicon.<br />
+I tested the Final Cut Pro v11.1.1 fix on bug #449 before installing Pro Video Formats v2.4.1, and it none-the-less fixed the specific XAVC-L bug involving black frames when using the Final Cut Pro Import dialog on Apple Silicon.
+However the QTP bug was suspicious. It might have been in <code>/Library/Video/Professional Video Workflow\Plug-Ins/AppleAVCLGCodec.bundle</code> or in <code>/Library/Video/Professional Video Workflow Plug-Ins/AppleMXFImport.bundle</code>, but I did binary diffs on those and diffs of the decompiled pseudocode and I don't see where it was.<br />
+The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe in <code>MXF::FileReader</code>.</p>
+</blockquote>
+<p>This is what I absolutely LOVE about the Final Cut Pro community - we have such insanely smart people just openly sharing very technical information. Awesome.</p>
+<p>Thanks Joe for all your on-going help, support and genius in both the wider post production community, and ESPECIALLY here at FCP Cafe in the GitHub Issues!</p>
+<p>The <strong>Pro Video Formats v2.4.1</strong> update was released on 23rd May 2025, so if you haven't already updated, please do via <strong>System Settings</strong> or downloading manually on the <a href="https://support.apple.com/en-us/106396">Apple website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-may-2025</link>
+            <guid isPermaLink="false">27th May 2025</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
