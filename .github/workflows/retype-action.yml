@@ -128,23 +128,19 @@ jobs:
 
   publish:
     name: Publish to retype branch
-    needs: [generate_markdown_and_rss]
+    needs: generate_markdown_and_rss
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Download updated docs
         uses: actions/download-artifact@v4
         with:
           name: docs
           path: docs/
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-dotnet@v1
         with:
