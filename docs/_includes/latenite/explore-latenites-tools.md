@@ -62,6 +62,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 
 ---
 
+{{ include "latenite/transfer-toolbox" }}
+
+---
+
 ## FxFactory
 
 Here's some of our products currently for sale on the **FxFactory**:
@@ -79,10 +83,6 @@ Here's some of our free tools used by professional editors worldwide...
 ---
 
 {{ include "latenite/commandpost" }}
-
----
-
-{{ include "latenite/transfer-toolbox" }}
 
 ---
 
