@@ -89,6 +89,7 @@ Here's some other success stories:
 
 ### Drama
 
+- Padakkuthira (2025) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt33183885/)
 - Thiru.Manickam (2024) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt27744719/)
 - The Author (2023) {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt20202686/)
 - Blood & Gold (2023) {{netflix}} {{fcpx}} {{imdb}}(https://www.imdb.com/title/tt18073328/)
