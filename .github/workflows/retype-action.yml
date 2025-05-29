@@ -1,11 +1,14 @@
 name: Update FCP Cafe Website & Publish to GitHub Pages
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'docs/**'
     tags:
       - '*'
   pull_request:
