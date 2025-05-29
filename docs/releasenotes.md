@@ -10,11 +10,13 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ## Statistics
 
-The below information was originally consolidated by [finalcutgod](https://twitter.com/finalcutgod).
+The below information was originally consolidated by [finalcutgod](https://twitter.com/finalcutgod) and is now updated by Chris Hocking.
 
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 11.1.1            | 22/05/2025   | 57                   | 15.5          | 4.3.1          |
+| 11.1.0            | 27/03/2025   | 52                   | 15.3          | 4.3.1          |
 | 11.0.1            | 03/02/2025   | 82                   | 15.3          | 4.3.1          |
 | 11.0.0            | 13/11/2024   | 92                   | 15.1          | 4.3.1          |
 | 10.8.1            | 13/08/2024   | 54                   | 14.6.1        | 4.3            |
@@ -90,12 +92,12 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2022	| 4       |
 | 2023	| 7       |
 | 2024  | 3       |
-| 2025  | 1       |
+| 2025  | 3       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
-| Q1	  | 9       |
+| Q1	  | 11      |
 | Q2	  | 15      |
 | Q3	  | 13      |
 | Q4	  | 19      |
@@ -105,9 +107,9 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 |-------|---------|
 | Jan	| 4       |
 | Feb	| 2       |
-| Mar	| 3       |
+| Mar	| 4       |
 | Apr	| 6       |
-| May	| 4       |
+| May	| 5       |
 | Jun	| 5       |
 | Jul	| 3       |
 | Aug	| 5       |
@@ -118,238 +120,48 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 
 ---
 
-## iPad
-
-### Final Cut Pro 2.1.1 (for iPad)
-
-**Released February 3, 2025**
-
-- Fixes an issue that caused Final Cut Pro for iPad to display a black screen and close unexpectedly.
-
----
-
-### Final Cut Pro 2.1 (for iPad)
-
-**Released November 13, 2024**
-
-**Final Cut Pro for iPad 2.1** includes the following features and enhancements:
-
-- Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color effect, powered by machine learning.
-- Add personalized Live Drawing animations to your video with new watercolor, crayon, fountain pen, and monoline inks.
-- Highlight visuals with new Reframe effects, add video overlays with Modular transitions, and polish your content with even more color grading presets and soundtracks.
-- Edit high-frame-rate media with timeline support for 90, 100, and 120 fps settings.
-- Experience instant haptic feedback as you edit and navigate your projects using Apple Pencil Pro.
-- Increase efficiency with new keyboard shortcuts for common tasks in the browser and timeline.
-- Dynamically adjust the size and position of the viewer in Picture in Picture mode.
-
-**Improvements and bug fixes:**
-- Expand or minimize clip height in the timeline with a vertical pinch to zoom gesture.
-- Double-tap to reset white balance, manual focus, and exposure settings to default values in pro camera mode.
-- Fixes an issue that caused the front-facing camera to sometimes display the incorrect lens selection in pro camera mode.
-- Fixes an issue that could cause a browser clip to temporarily disappear when tapped.
-- Improves reliability when opening and closing the Keywords list with Apple Pencil and Magic Keyboard.
-- Fixes an issue that prevented nudging audio clips at subframe levels with the jog wheel.
-- Improves reliability when nudging primary storyline clips with the jog wheel in Position mode.
-- Improves reliability when nudging and trimming timeline clips with keyboard shortcuts.
-- Fixes an issue that sometimes prevented selecting timeline clips after deleting a connected clip.
-- Fixes an issue where replacing one soundtrack with another in the timeline did not match the original’s duration.
-- Fixes an issue that caused a soundtrack trimmed during playback to not update to the correct duration.
-- Fixes an issue that caused certain log clips to not fully display their color profile information in the inspector.
-- Fixes an issue that caused the transition name to not appear or update in the inspector.
-- Improves reliability when enabling and disabling onscreen controls for shape masks.
-- Includes stability and performance improvements.
-
-**Live Multicam improvements and bug fixes:**
-- Improves Live Multicam device discovery, connection, media transfer, and stability.
-- Improves Live Multicam clip syncing.
-- Fixes an issue that caused Live Multicam device previews to sometimes shift color after the first recording.
-- Fixes an issue that caused low storage alerts to sometimes appear incorrectly during recording.
-- Fixes an issue that caused an incorrect ISO value to sometimes appear in a connected device’s exposure settings.
-- Fixes an issue that could cause Live Multicam settings to not update Final Cut Camera settings correctly.
-
-**New keyboard shortcuts:**
-- Render Timeline: Control-Shift-R
-- Select All (Browser): Command-A
-- Deselect All (Browser): Shift-Command-A
-- Zoom In (Browser): Command-Plus Sign (+)
-- Zoom Out (Browser): Command-Minus Sign (-)
-
----
-
-### Final Cut Pro 2.0 (for iPad)
-
-**Released June 20, 2024**
-
-**Final Cut Pro for iPad 2.0** includes the following features and enhancements:
-
-- Connect to Final Cut Camera on iPhone or iPad to record up to four camera angles at once using Live Multicam.
-- Easily create and edit projects on a connected external storage device.
-- Dial in your exposure with shutter speed and ISO controls in pro camera mode.
-- Enable focus peaking to ensure your footage is sharp while recording.
-- Polish your videos with 12 new color grading presets, 6 dynamic glitch backgrounds, 20 soundtracks, 8 basic text titles, and more.
-
-**Improvements and bug fixes:**
-- Clip duration in the inspector now appears as timecode.
-- Fixes an issue that prevented deleting gap clips in Position mode.
-- Fixes an issue that caused Zoom to Fit to stop working when the timeline position was changed.
-- Improves playback performance when editing with the Magic Keyboard.
-- Fixes an issue that caused the disabled skimmer to become active after a browser clip was dragged into the timeline with a trackpad or Apple Pencil.
-- Fixes an issue that caused filmstrip thumbnails to be drawn at incorrect intervals.
-- Fixes an issue that caused the volume offset value to remain at 0 when adjusting the volume of multiple clips.
-- Improves reliability when importing media into a project.
-- Improves reliability when a voiceover recording is interrupted by certain calls and timers.
-- Fixes an issue that caused disabling all multicam audio components to show a missing media state.
-- Fixes an issue that caused angle name changes made in the angle editor to not appear in the timeline or inspector.
-- Fixes an issue that caused the inspector to not update to the active multicam audio component.
-- Fixes an issue that caused audio configuration changes made in the angle editor to not appear accurately in the timeline.
-- Improves the reliability of Live Drawing in a portrait timeline.
-- Fixes an issue that caused adding a clip to the timeline using keyboard shortcuts to sometimes add objects from the content browser as well.
-- Fixes an issue that sometimes caused the viewer to dim when Final Cut Pro was reopened.
-- Fixes an issue that caused timeline clip thumbnails to not be updated immediately after media was reconnected or missing content was redownloaded.
-- Fixes an issue that caused retime video quality settings to be omitted when copying and pasting format settings.
-- Includes stability and performance improvements.
-
----
-
-### Final Cut Pro 1.3 (for iPad)
-
-**Released November 30, 2023**
-
-**Final Cut Pro for iPad 1.3** includes the following features and enhancements:
-
-- Record voiceover and live audio directly in the timeline using the built-in iPad microphones or external microphones.
-- Dial in the perfect look with stunning new color-grading presets.
-- Choose from a selection of new titles and generators.
-- Increase editing efficiency by grouping connected clips into a connected storyline.
-- Control stabilization in the pro camera mode.
-
-**New keyboard shortcuts:**
-- Group clips into a connected storyline: Command-G
-- Ungroup clips from a connected storyline: Shift-Command-G
-- Show or hide the voiceover controls: Shift-V
-- Start or stop recording audio from the voiceover controls: Shift-Option-R
-- Play full screen: Shift-Command-F
-- Enter or exit Picture in Picture: Command-3
-
-**Improvements and fixes:**
-- Adds a skin tone indicator to the vectorscope.
-- Adds color gradients to controls in the Color Adjustments effect and color-grading presets.
-- Adds the Sharpen effect to the content browser and inspector.
-- Increases the Volume Offset maximum to 20 dB.
-- Allows dragging anywhere at the top of the timeline to resize it.
-- Fixes an issue that caused resetting Format settings for a Live Drawing clip to remove its contents.
-- Fixes an issue that caused Live Drawings in an HDR portrait project to show an unexpected border.
-- Fixes an issue that prevented nudging of the last animation keyframe for clips in a connected storyline.
-- Improves reliability when reimporting missing media files.
-- Improves reliability when copying and pasting color conversion and rate conversion settings.
-- Improves reliability when undoing a copy and paste of Audio settings.
-- Improves reliability when importing iMovie for iOS projects.
-- Includes stability and performance improvements.
-
----
-
-### Final Cut Pro 1.2.1 (for iPad)
-
-**Released October 5, 2023**
-
-**Final Cut Pro for iPad 1.2.1** includes the following fixes:
-
-- Fixes an issue that caused some titles and transitions to have incorrect animations.
-
----
-
-### Final Cut Pro 1.2 (for iPad)
-
-**Released September 19, 2023**
-
-**Final Cut Pro for iPad 1.2** includes the following enhancements:
-
-- Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.
-- Enhance the look of footage shot on popular Fujifilm, DJI, and ARRI cameras using new log profiles.
-- 25 new soundtracks that dynamically adjust to fit the length of your project.
-- Enable and disable clips to quickly compare your edit with and without them.
-- Easily select and reposition keyframes using touch or Apple Pencil.
-- Pinch to quickly resize clips in the browser.
-- Adds support for Cinematic video recorded with iPhone on iOS 17.
-
-**New keyboard shortcuts:**
-- Enable and disable clips: V
-- Import media from Photos: Command-I
-- Import media from Files: Shift-Command-I
-- Export your project: Command-E
-- Unrate browser clips: U
-
-**Improvements and bug fixes:**
-- Tapping a keyworded, favorited, or rejected range in the filmstrip with Apple Pencil selects the range.
-- Replacing a clip in the timeline preserves the duration of the source clip.
-- Fixes an issue with trimming clips during volume keyframing.
-- Fixes an issue that caused the Social Platforms export preset to default to SDR.
-- Fixes an issue that caused the browser filmstrip to not respect the Skimmer Playhead setting.
-- Fixes an issue that caused dragging a browser clip to result in scrolling.
-- Fixes an issue that caused items in the content browser and search results to not appear in alphabetical order.
-- Fixes an issue with keyframing the volume of a multicam clip with a single audio channel.
-- Fixes an issue with the fader position not being reset when a volume adjustment was undone.
-- Fixes an issue that caused the Done button to not appear in Live Drawing when using Larger Text and Display Zoom.
-- Fixes an issue that caused browser clip name changes to not be saved unless the Done button was tapped.
-- Improves reliability when resetting manual focus points for videos shot in Cinematic mode.
-- Improves reliability when importing iMovie for iOS projects.
-- Includes stability and performance improvements.
-
----
-
-### Final Cut Pro 1.1 (for iPad)
-
-**Released July 18, 2023**
-
-**Build:** 451.1.61
-
-Final Cut Pro for iPad 1.1 includes the following bug fixes and enhancements:
-
-- Turn snapping on or off using the keyboard shortcut N.
-- Move the playhead backward or forward 10 frames using the keyboard shortcuts Shift-Left Arrow and Shift-Right Arrow.
-- Show info for browser clips using the keyboard shortcut Control-I.
-- Turn skimming on or off using the keyboard shortcut S.
-- Turn audio skimming on or off using the keyboard shortcut Shift-S.
-- Split and switch multicam clip angles using the keyboard shortcuts 1, 2, 3, and 4.
-- Show or hide the jog wheel using the keyboard shortcut Control-Shift-W; expand or collapse it using Control-W.
-- Switch the jog wheel between playhead mode and nudge mode using the keyboard shortcut Shift-W.
-- Resolves an issue with custom fonts not appearing in the inspector.
-- Improves reliability and performance when dragging a clip from the browser to the timeline.
-- Addresses an issue with keyboard shortcuts not working as expected in the content browser.
-- Improves visual feedback when adding effects and transitions to timeline clips in Position mode.
-- Fixes an issue where importing media on a device with no remaining storage would cause Final Cut Pro for iPad to quit unexpectedly.
-- Improves reliability when retiming a clip with Scene Removal Mask applied.
-- Resolves an issue where importing clips with the same name would generate blank clip thumbnails.
-- Improves reliability and performance when using soundtracks and dynamic titles.
-- Addresses an issue where copying and pasting transform settings would unexpectedly paste clip speed.
-- Improves visual feedback and reliability when rating and adding keywords to clips while filtering clips in the browser.
-- Fixes an issue where resetting audio settings would unexpectedly reset clip speed.
-- Resolves an issue with the appearance of onscreen controls for cropping and shape masks.
-- Addresses an issue where clip height adjustments would not update audio-only clips in connected storylines.
-- Fixes an issue where the Keywords window would open offscreen with the timeline minimized.
-- Resolves an issue where disabled multicam audio angles would appear in the audio component list in the inspector.
-
-#### Notes from FCP Cafe:
-
-- Final Cut Pro 10.6.7 on Mac uses a newer Library format than Final Cut Pro 1.1 on iPad. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using Final Cut Pro 10.6.6.
-
----
-
-### Final Cut Pro 1.0.1 (for iPad)
-
-**Released June 1, 2023**
-
-- Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.
-
----
-
-### Final Cut Pro 1.0.0 (for iPad)
-
-This is the first release of Final Cut Pro for iPad!
-
----
-
 ## Mac
+
+### Final Cut Pro 11.1.1
+
+**Released May 22, 2025**
+
+- Addresses an issue that could cause MXF media to play back incorrectly.
+- Improves reliability when adding video to drop zones in the inspector.
+- Fixes an issue when sharing with the “Allow export segmentation” setting that caused inconsistent frame rates.
+
+---
+
+### Final Cut Pro 11.1
+
+**Released March 27, 2025**
+
+**Final Cut Pro 11.1** includes the following enhancements:
+- Add color corrections and effects to an adjustment clip above the timeline to apply them to a range of clips at once.
+- Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*
+- Speed up your Magnetic Mask workflows with important bug fixes, performance improvements, and a new keyboard shortcut to show or hide the Magnetic Mask Editor.
+- Use the Quantec QRS (Quantec Room Simulator) effect to create natural and transparent audio reverbs that simulate real acoustic spaces.
+- Stay organized by renaming audio effects in the inspector.
+- Reveal the source of a multicam angle or synced clip in the browser.
+- Move markers in the timeline by dragging them in a clip, or remove markers by dragging them out of a clip.
+
+**Additional support and bug fixes:**
+- The Magnetic Mask Editor now closes automatically when the last Magnetic Mask is removed from a clip.
+- Improves reliability when batch exporting compound clips that contain Magnetic Masks.
+- Adds support for using Transcribe to Captions with a single audio role component.
+- Improves stability when dragging a library item to a text editor to generate an FCPXML.
+- Improves reliability when upgrading a library that contains 100 fps clips.
+- Improves reliability when sharing a project that includes ARRI ProRes MXF media.
+- Fixes an issue that prevented a LUT from being automatically applied when importing ARRIRAW MXF clips.
+- Improves performance when applying Smooth Slo-Mo to ProRes 4444 files with an alpha channel on Mac models with M1.
+- Fixes an issue that caused audio to go out of sync when adding 25 fps clips to a 23.98 fps timeline.
+- Fixes an issue that could cause sound to slip out of sync when detaching audio from a clip with a J-cut and a through edit.
+- Fixes an issue that caused an MP3 or AAC audio file to have a truncated audio waveform after export.
+- Fixes an issue that caused black frames to be displayed when playing back HEVC clips from a RED camera.
+- Fixes an issue that prevented the browser from automatically scrolling to an active cell in list view.
+- Fixes an issue that caused the selected browser clip to change when Show Hidden Clips was enabled.
+
+---
 
 ### Final Cut Pro 11.0.1
 
@@ -1794,3 +1606,284 @@ Export AVC-Intra files
 - Improves the quality of video retiming when applying slow motion or when working with interlaced video.
 - Fixes an issue in which custom ICC colour profiles affected the image in the Viewer.
 - Improves the performance and reliability of automatic saving.
+
+---
+
+## iPad
+
+### Final Cut Pro for iPad 2.2.1
+
+**Released May 8, 2025**
+
+- Fixes an issue that caused user-installed fonts to not appear.
+
+---
+
+### Final Cut Pro for iPad 2.2
+
+**Released March 27, 2025**
+
+**Final Cut Pro for iPad 2.2** includes the following features and enhancements:
+
+- Expand your editing workflows with support for portrait orientation on your iPad.
+- Speed up your editing with keyboard shortcuts to nudge a selection, replace with gap, and lift or overwrite to the primary storyline.
+- Get inspired with Image Playground and use Apple Intelligence to quickly create stylized images based on a description, suggested concepts, or people from your Photos library.*
+- Capture in 50 fps for additional editing flexibility and delivery options.
+
+**Improvements and bug fixes:**
+- Double-tap in the timeline to quickly start and stop playback.
+- Automatically scroll the timeline when moving the playhead, moving timeline clips, or editing, including trimming, retiming, and selecting multiple clips.
+- Animation keyframes now default to the Transform All property.
+- Fixes an issue that caused the inspector to sometimes apply effect changes to the previously selected clip.
+- Addresses an issue that caused clips to sometimes appear black in the timeline.
+- Improves reliability when editing focus points of Cinematic mode videos in a connected storyline.
+- Improves reliability when using onscreen controls to resize clips in the viewer.
+- Fixes an issue that interrupted audio playback when changing the audio configuration in the inspector.
+- Addresses an issue that caused multicam syncing to fail with the inspector open.
+- Improves reliability when using the Continuous Zoom slider with the front-facing camera.
+- Fixes an issue that caused incorrect voiceover controls to appear after a Live Multicam session.
+- Addresses an issue that caused the app to rotate unexpectedly when using Stage Manager and Live Multicam.
+- Fixes an issue in Live Multicam that caused incorrect lens options to appear in the zoom slider for certain frame rate and resolution settings.
+- Addresses an issue that caused the Live Multicam Record button to sometimes appear offscreen.
+- Improves reliability when using the jog wheel on iPad mini.
+- Fixes an issue that caused the Picture in Picture viewer to flash and not resize correctly on iPad mini.
+- Addresses an issue that caused the voiceover controls to flash on iPad mini.
+- Improves the reliability of the inspector color palette when VoiceOver accessibility mode is turned on.
+- Includes stability and performance improvements.
+
+**New keyboard shortcuts:**
+- Replace with Gap: Shift-Delete
+- Overwrite to Primary Storyline: Option-Command-Down Arrow
+- Lift from Primary Storyline: Option-Command-Up Arrow
+- Nudge Left Many: Shift-Comma (,)
+- Nudge Right Many: Shift-Period (.)
+- Import from Image Playground: Shift-Option-P
+
+---
+
+### Final Cut Pro 2.1.1 (for iPad)
+
+**Released February 3, 2025**
+
+- Fixes an issue that caused Final Cut Pro for iPad to display a black screen and close unexpectedly.
+
+---
+
+### Final Cut Pro 2.1 (for iPad)
+
+**Released November 13, 2024**
+
+**Final Cut Pro for iPad 2.1** includes the following features and enhancements:
+
+- Automatically improve the color, color balance, contrast, and brightness of video or still images using the new Enhance Light and Color effect, powered by machine learning.
+- Add personalized Live Drawing animations to your video with new watercolor, crayon, fountain pen, and monoline inks.
+- Highlight visuals with new Reframe effects, add video overlays with Modular transitions, and polish your content with even more color grading presets and soundtracks.
+- Edit high-frame-rate media with timeline support for 90, 100, and 120 fps settings.
+- Experience instant haptic feedback as you edit and navigate your projects using Apple Pencil Pro.
+- Increase efficiency with new keyboard shortcuts for common tasks in the browser and timeline.
+- Dynamically adjust the size and position of the viewer in Picture in Picture mode.
+
+**Improvements and bug fixes:**
+- Expand or minimize clip height in the timeline with a vertical pinch to zoom gesture.
+- Double-tap to reset white balance, manual focus, and exposure settings to default values in pro camera mode.
+- Fixes an issue that caused the front-facing camera to sometimes display the incorrect lens selection in pro camera mode.
+- Fixes an issue that could cause a browser clip to temporarily disappear when tapped.
+- Improves reliability when opening and closing the Keywords list with Apple Pencil and Magic Keyboard.
+- Fixes an issue that prevented nudging audio clips at subframe levels with the jog wheel.
+- Improves reliability when nudging primary storyline clips with the jog wheel in Position mode.
+- Improves reliability when nudging and trimming timeline clips with keyboard shortcuts.
+- Fixes an issue that sometimes prevented selecting timeline clips after deleting a connected clip.
+- Fixes an issue where replacing one soundtrack with another in the timeline did not match the original’s duration.
+- Fixes an issue that caused a soundtrack trimmed during playback to not update to the correct duration.
+- Fixes an issue that caused certain log clips to not fully display their color profile information in the inspector.
+- Fixes an issue that caused the transition name to not appear or update in the inspector.
+- Improves reliability when enabling and disabling onscreen controls for shape masks.
+- Includes stability and performance improvements.
+
+**Live Multicam improvements and bug fixes:**
+- Improves Live Multicam device discovery, connection, media transfer, and stability.
+- Improves Live Multicam clip syncing.
+- Fixes an issue that caused Live Multicam device previews to sometimes shift color after the first recording.
+- Fixes an issue that caused low storage alerts to sometimes appear incorrectly during recording.
+- Fixes an issue that caused an incorrect ISO value to sometimes appear in a connected device’s exposure settings.
+- Fixes an issue that could cause Live Multicam settings to not update Final Cut Camera settings correctly.
+
+**New keyboard shortcuts:**
+- Render Timeline: Control-Shift-R
+- Select All (Browser): Command-A
+- Deselect All (Browser): Shift-Command-A
+- Zoom In (Browser): Command-Plus Sign (+)
+- Zoom Out (Browser): Command-Minus Sign (-)
+
+---
+
+### Final Cut Pro 2.0 (for iPad)
+
+**Released June 20, 2024**
+
+**Final Cut Pro for iPad 2.0** includes the following features and enhancements:
+
+- Connect to Final Cut Camera on iPhone or iPad to record up to four camera angles at once using Live Multicam.
+- Easily create and edit projects on a connected external storage device.
+- Dial in your exposure with shutter speed and ISO controls in pro camera mode.
+- Enable focus peaking to ensure your footage is sharp while recording.
+- Polish your videos with 12 new color grading presets, 6 dynamic glitch backgrounds, 20 soundtracks, 8 basic text titles, and more.
+
+**Improvements and bug fixes:**
+- Clip duration in the inspector now appears as timecode.
+- Fixes an issue that prevented deleting gap clips in Position mode.
+- Fixes an issue that caused Zoom to Fit to stop working when the timeline position was changed.
+- Improves playback performance when editing with the Magic Keyboard.
+- Fixes an issue that caused the disabled skimmer to become active after a browser clip was dragged into the timeline with a trackpad or Apple Pencil.
+- Fixes an issue that caused filmstrip thumbnails to be drawn at incorrect intervals.
+- Fixes an issue that caused the volume offset value to remain at 0 when adjusting the volume of multiple clips.
+- Improves reliability when importing media into a project.
+- Improves reliability when a voiceover recording is interrupted by certain calls and timers.
+- Fixes an issue that caused disabling all multicam audio components to show a missing media state.
+- Fixes an issue that caused angle name changes made in the angle editor to not appear in the timeline or inspector.
+- Fixes an issue that caused the inspector to not update to the active multicam audio component.
+- Fixes an issue that caused audio configuration changes made in the angle editor to not appear accurately in the timeline.
+- Improves the reliability of Live Drawing in a portrait timeline.
+- Fixes an issue that caused adding a clip to the timeline using keyboard shortcuts to sometimes add objects from the content browser as well.
+- Fixes an issue that sometimes caused the viewer to dim when Final Cut Pro was reopened.
+- Fixes an issue that caused timeline clip thumbnails to not be updated immediately after media was reconnected or missing content was redownloaded.
+- Fixes an issue that caused retime video quality settings to be omitted when copying and pasting format settings.
+- Includes stability and performance improvements.
+
+---
+
+### Final Cut Pro 1.3 (for iPad)
+
+**Released November 30, 2023**
+
+**Final Cut Pro for iPad 1.3** includes the following features and enhancements:
+
+- Record voiceover and live audio directly in the timeline using the built-in iPad microphones or external microphones.
+- Dial in the perfect look with stunning new color-grading presets.
+- Choose from a selection of new titles and generators.
+- Increase editing efficiency by grouping connected clips into a connected storyline.
+- Control stabilization in the pro camera mode.
+
+**New keyboard shortcuts:**
+- Group clips into a connected storyline: Command-G
+- Ungroup clips from a connected storyline: Shift-Command-G
+- Show or hide the voiceover controls: Shift-V
+- Start or stop recording audio from the voiceover controls: Shift-Option-R
+- Play full screen: Shift-Command-F
+- Enter or exit Picture in Picture: Command-3
+
+**Improvements and fixes:**
+- Adds a skin tone indicator to the vectorscope.
+- Adds color gradients to controls in the Color Adjustments effect and color-grading presets.
+- Adds the Sharpen effect to the content browser and inspector.
+- Increases the Volume Offset maximum to 20 dB.
+- Allows dragging anywhere at the top of the timeline to resize it.
+- Fixes an issue that caused resetting Format settings for a Live Drawing clip to remove its contents.
+- Fixes an issue that caused Live Drawings in an HDR portrait project to show an unexpected border.
+- Fixes an issue that prevented nudging of the last animation keyframe for clips in a connected storyline.
+- Improves reliability when reimporting missing media files.
+- Improves reliability when copying and pasting color conversion and rate conversion settings.
+- Improves reliability when undoing a copy and paste of Audio settings.
+- Improves reliability when importing iMovie for iOS projects.
+- Includes stability and performance improvements.
+
+---
+
+### Final Cut Pro 1.2.1 (for iPad)
+
+**Released October 5, 2023**
+
+**Final Cut Pro for iPad 1.2.1** includes the following fixes:
+
+- Fixes an issue that caused some titles and transitions to have incorrect animations.
+
+---
+
+### Final Cut Pro 1.2 (for iPad)
+
+**Released September 19, 2023**
+
+**Final Cut Pro for iPad 1.2** includes the following enhancements:
+
+- Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.
+- Enhance the look of footage shot on popular Fujifilm, DJI, and ARRI cameras using new log profiles.
+- 25 new soundtracks that dynamically adjust to fit the length of your project.
+- Enable and disable clips to quickly compare your edit with and without them.
+- Easily select and reposition keyframes using touch or Apple Pencil.
+- Pinch to quickly resize clips in the browser.
+- Adds support for Cinematic video recorded with iPhone on iOS 17.
+
+**New keyboard shortcuts:**
+- Enable and disable clips: V
+- Import media from Photos: Command-I
+- Import media from Files: Shift-Command-I
+- Export your project: Command-E
+- Unrate browser clips: U
+
+**Improvements and bug fixes:**
+- Tapping a keyworded, favorited, or rejected range in the filmstrip with Apple Pencil selects the range.
+- Replacing a clip in the timeline preserves the duration of the source clip.
+- Fixes an issue with trimming clips during volume keyframing.
+- Fixes an issue that caused the Social Platforms export preset to default to SDR.
+- Fixes an issue that caused the browser filmstrip to not respect the Skimmer Playhead setting.
+- Fixes an issue that caused dragging a browser clip to result in scrolling.
+- Fixes an issue that caused items in the content browser and search results to not appear in alphabetical order.
+- Fixes an issue with keyframing the volume of a multicam clip with a single audio channel.
+- Fixes an issue with the fader position not being reset when a volume adjustment was undone.
+- Fixes an issue that caused the Done button to not appear in Live Drawing when using Larger Text and Display Zoom.
+- Fixes an issue that caused browser clip name changes to not be saved unless the Done button was tapped.
+- Improves reliability when resetting manual focus points for videos shot in Cinematic mode.
+- Improves reliability when importing iMovie for iOS projects.
+- Includes stability and performance improvements.
+
+---
+
+### Final Cut Pro 1.1 (for iPad)
+
+**Released July 18, 2023**
+
+**Build:** 451.1.61
+
+Final Cut Pro for iPad 1.1 includes the following bug fixes and enhancements:
+
+- Turn snapping on or off using the keyboard shortcut N.
+- Move the playhead backward or forward 10 frames using the keyboard shortcuts Shift-Left Arrow and Shift-Right Arrow.
+- Show info for browser clips using the keyboard shortcut Control-I.
+- Turn skimming on or off using the keyboard shortcut S.
+- Turn audio skimming on or off using the keyboard shortcut Shift-S.
+- Split and switch multicam clip angles using the keyboard shortcuts 1, 2, 3, and 4.
+- Show or hide the jog wheel using the keyboard shortcut Control-Shift-W; expand or collapse it using Control-W.
+- Switch the jog wheel between playhead mode and nudge mode using the keyboard shortcut Shift-W.
+- Resolves an issue with custom fonts not appearing in the inspector.
+- Improves reliability and performance when dragging a clip from the browser to the timeline.
+- Addresses an issue with keyboard shortcuts not working as expected in the content browser.
+- Improves visual feedback when adding effects and transitions to timeline clips in Position mode.
+- Fixes an issue where importing media on a device with no remaining storage would cause Final Cut Pro for iPad to quit unexpectedly.
+- Improves reliability when retiming a clip with Scene Removal Mask applied.
+- Resolves an issue where importing clips with the same name would generate blank clip thumbnails.
+- Improves reliability and performance when using soundtracks and dynamic titles.
+- Addresses an issue where copying and pasting transform settings would unexpectedly paste clip speed.
+- Improves visual feedback and reliability when rating and adding keywords to clips while filtering clips in the browser.
+- Fixes an issue where resetting audio settings would unexpectedly reset clip speed.
+- Resolves an issue with the appearance of onscreen controls for cropping and shape masks.
+- Addresses an issue where clip height adjustments would not update audio-only clips in connected storylines.
+- Fixes an issue where the Keywords window would open offscreen with the timeline minimized.
+- Resolves an issue where disabled multicam audio angles would appear in the audio component list in the inspector.
+
+#### Notes from FCP Cafe:
+
+- Final Cut Pro 10.6.7 on Mac uses a newer Library format than Final Cut Pro 1.1 on iPad. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using Final Cut Pro 10.6.6.
+
+---
+
+### Final Cut Pro 1.0.1 (for iPad)
+
+**Released June 1, 2023**
+
+- Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.
+
+---
+
+### Final Cut Pro 1.0.0 (for iPad)
+
+This is the first release of Final Cut Pro for iPad!
