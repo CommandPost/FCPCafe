@@ -22,7 +22,7 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 
 ## Mac App Store
 
-Here's some of our products currently for sale on the **Mac App Store**:
+Here's some of our products currently for sale on the official Apple **Mac App Store**:
 
 ---
 
@@ -63,6 +63,10 @@ Here's some of our products currently for sale on the **Mac App Store**:
 ---
 
 {{ include "latenite/transfer-toolbox" }}
+
+---
+
+{{ include "latenite/atem-exporter" }}
 
 ---
 
