@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 27 May 2025 11:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 20:32:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 27 May 2025 11:02:11 GMT</pubDate>
+        <pubDate>Thu, 29 May 2025 20:32:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10222,6 +10222,51 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#27th-may-2025</link>
             <guid isPermaLink="false">27th May 2025</guid>
             <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th May 2025]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter v1.0.1</strong> is out now on the Mac App Store! 🥳</p>
+<p><strong>ATEM Exporter</strong> is a native Swift + Swift UI Mac Application that listens to a <a href="https://www.blackmagicdesign.com/products/atem">Blackmagic ATEM switcher</a>, and logs all the camera changes.</p>
+<blockquote>
+<p><a href="https://atemexporter.fcp.cafe/buy/">:icon-desktop-download: Click here to <strong>buy</strong> on the <strong>Mac App Store</strong></a></p>
+</blockquote>
+<p><img src="/static/atem-exporter-demo-data.png" alt=""></p>
+<p>You can export the camera changes as a Final Cut Pro <code>FCPXML</code>, to use in Final Cut Pro or Blackmagic DaVinci Resolve.</p>
+<p>You can export a <strong>Program Cut</strong>, which allows you to use your program feed from an external recorder (such as a <a href="https://www.blackmagicdesign.com/products/hyperdeck">Blackmagic HyperDeck</a>), and add cut points each time there's a camera change.</p>
+<p><img src="/static/atem-exporter-program-cut.png" alt=""></p>
+<p>You can also export a <strong>Multicam</strong>, which allows you to use your program feed as well as any ISO (i.e. independent camera) recordings, and export a Multicam clip for Final Cut Pro or DaVinci Resolve.</p>
+<p><img src="/static/atem-exporter-multicam.png" alt=""></p>
+<p>ATEM Exporter was built in a few hours during a live event, and has <strong>only</strong> currently been tested in a real-world live production using an <strong>Blackmagic ATEM Constellation 8K</strong>, Blackmagic HyperDeck's and AJA recorders for ISOs - so we welcome any user feedback for other ATEM's!</p>
+<p>We're currently just using a placeholder icon (from <a href="https://fcp.cafe/latenite/#timecode-toolbox">Timecode Toolbox</a>) whilst a new one is being designed - stay tuned!</p>
+<p>You can learn more on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-may-2025</link>
+            <guid isPermaLink="false">29th May 2025</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th May 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse 5.6.3 &amp; 5.6.4</strong> Bring Accurate Camera Capture Time to FCP Workflows</p>
+<p>The latest updates to <strong>evrExpanse</strong>, versions <strong>5.6.3</strong> and <strong>5.6.4</strong>, deliver a major improvement for editors who rely on accurate timestamp metadata — especially when working in <strong>Final Cut Pro</strong>, <strong>DaVinci Resolve</strong>, and other NLEs or metadata tools.</p>
+<p>📸 <strong>Camera-Embedded <code>CreateDate</code> Support</strong></p>
+<p><code>CreateDate</code> is the actual moment the camera records each clip — embedded directly in the file’s metadata. Until now, many workflows relied on the <strong>filesystem creation date</strong>, which can become inaccurate after file transfers or cloud uploads/downloads.</p>
+<p>With <strong>evrExpanse 5.6.3</strong>, this camera-authored <code>CreateDate</code> is now embedded in <strong>DaVinci Resolve metadata export</strong>, joining the existing support for Final Cut Pro and other supported NLEs. The <strong>“Content Created”</strong> field in metadata now reflects the true capture time, enabling better organization, filtering, and Smart Collection creation — even after transfers or rewraps.</p>
+<p>🕞 <strong>Accurate Timestamps in Transcoded Files</strong></p>
+<p>Version <strong>5.6.4</strong> takes it even further. When the <strong>“Include Source Metadata”</strong> option is enabled, evrExpanse sets the <strong>transcoded file’s creation date</strong> to match the original <code>CreateDate</code> from the camera — not the OS-generated date.</p>
+<p>The result? When transcoded media is imported into <strong>Final Cut Pro</strong>, <strong>DaVinci Resolve</strong>, or other NLEs, the <strong>“Content Created”</strong> field shown in the browser reflects the true capture time — not a timestamp corrupted by transfer or OS-level changes.</p>
+<p>✅ <strong>Key Benefits</strong></p>
+<ul>
+<li>True <strong>Content Created</strong> timestamps preserved in transcoded files</li>
+<li>Improved accuracy for <strong>Smart Collections</strong> and media organization workflows</li>
+<li>Full compatibility with <strong>FCP</strong>, <strong>DaVinci Resolve</strong>, and metadata tools like <strong>FoolCat</strong></li>
+<li>Smart fallback to filesystem creation date when metadata is unavailable</li>
+</ul>
+<p>These updates are available now in <strong>evrExpanse 5.6.4</strong>.
+👉 Learn more at <a href="https://www.evrapp.cloud/evrexpanse">evrapp.cloud</a></p>
+]]></description>
+            <link>https://fcp.cafe/#29th-may-2025</link>
+            <guid isPermaLink="false">29th May 2025</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
