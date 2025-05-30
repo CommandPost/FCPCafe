@@ -148,7 +148,7 @@ jobs:
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
         env:
-          RETYPE_KEY: ${{ secrets.RETYPE_KEY }}
+          RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
