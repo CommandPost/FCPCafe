@@ -146,7 +146,7 @@ jobs:
           path: docs/
 
       - name: Build and publish using Retype
-        uses: retypeapp/action-build@v3.8.0
+        uses: retypeapp/action-build@latest
         env:
           RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
