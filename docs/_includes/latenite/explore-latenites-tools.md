@@ -1,6 +1,8 @@
 # Explore LateNite's Tools
 
-This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com).
+## Introduction
+
+This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) from [LateNite](https://latenitefilms.com).
 
 **LateNite** is an independent production studio committed to investing in emerging creatives with strong, unique voices, helping tell their stories in a creatively supportive and collaborative environment. Our work uses humour to explore outsider stories that are unmistakably human and straddle the line between light and dark.
 
