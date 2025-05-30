@@ -145,14 +145,10 @@ jobs:
           name: docs
           path: docs/
 
-      - uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: 7.0.x
-
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
-        with:
-          license: ${{ secrets.RETYPE_SECRET }}
+        env:
+          RETYPE_KEY: ${{ secrets.RETYPE_KEY }}
 
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
