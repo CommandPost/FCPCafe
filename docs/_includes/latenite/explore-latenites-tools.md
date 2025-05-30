@@ -20,6 +20,12 @@ Constantly looking for ways to innovate, at LateNite we're as passionate about p
 
 Our pursuit of creative excellence has seen us work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
 
+For example, our debut free and open-source application **CommandPost**, has been downloaded over **[258 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**.
+
+It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
+
+All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+
 This page showcases all the stuff we've build, throw together and collaborated on. Enjoy!
 
 ![](/static/latenite-apps.png)
