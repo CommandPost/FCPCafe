@@ -4,9 +4,25 @@ Here's a **sneak peak** of some of the things we have in various stages of devel
 
 ---
 
-### Pro Capture
+### SplitTake
 
 A simple Swift/Swift UI application for capturing your screen, webcam and external microphone to ProRes for editing in Final Cut Pro.
+
+---
+
+### SyncScript Pro
+
+**SyncScript Pro** (previously referred to as **Assistant Toolbox**) will be a Workflow Extension that spins out **Titles to Keywords** and **Auto Sequence** from CommandPost.
+
+It'll include various improvements and enhancements to make the job even easier for Assistant Editors working on long-form feature film projects.
+
+This project is currently at the exploration and experiment stage.
+
+Here's what the Toolbox's currently look like in CommandPost:
+
+![](/static/titles-to-keywords.png)
+
+![](/static/auto-sequence.png)
 
 ---
 
@@ -19,21 +35,6 @@ In addition to the current functionality, you'll also be able to modify the orig
 Here's what the Toolbox currently looks like in CommandPost:
 
 ![](/static/sony-timecode-repair.png)
-
----
-
-### Assistant Toolbox
-
-**Assistant Toolbox** will be a Workflow Extension that spins out **Titles to Keywords** and **Auto Sequence** from CommandPost.
-
-It'll include various improvements and enhancements to make the job even easier for Assistant Editors working on long-form feature film projects.
-
-This project is currently at the exploration and experiment stage.
-
-Here's what the Toolbox's currently look like in CommandPost:
-
-![](/static/titles-to-keywords.png)
-![](/static/auto-sequence.png)
 
 ---
 
@@ -52,6 +53,8 @@ Inspect and clean your Final Cut Pro Preferences, rather than "trashing" them.
 ### RAW Toolbox
 
 Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add **Nikon N-RAW** support to Final Cut Pro.
+
+This is probably less relevant now that we have MediaExtension's built into the operating system, but we'll see what happens with Blackmagic's BRAW MediaExtension ships.
 
 ---
 
