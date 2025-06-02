@@ -133,6 +133,8 @@ jobs:
     name: Publish to retype branch
     needs: generate_markdown_and_rss
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -145,8 +147,15 @@ jobs:
           name: docs
           path: docs/
 
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
+        with:
+          verbose: true
+          key: ${{ secrets.RETYPE_KEY }}
         env:
           RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
