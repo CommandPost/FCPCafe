@@ -20,7 +20,7 @@ This can be a MASSIVE time saver, as you can simply copy and paste a long list o
 
 Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 
-[!button text="Visit Website" target="blank" variant="info"](https://markertoolbox.io)
+[!button text="Visit Website" target="blank" variant="info"](https://markertoolbox.fcp.cafe)
 
 ---
 
@@ -28,7 +28,7 @@ Marker Toolbox requires Final Cut Pro 10.6.5 or later.
 
 :::review
 I’ve been absolutely flat out while working in Thailand.
-[Wipsters](https://www.wipster.io) has been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.io) can send Wipster notes straight into #fcpx
+[Wipsters](https://www.wipster.io) has been great, helping me manage projects and reviewers across four countries. Stoked [Marker Toolbox](https://markertoolbox.fcp.cafe) can send Wipster notes straight into #fcpx
 
 _Alister Robbie via [Twitter](https://twitter.com/alisterrobbie/status/1664105856475238400)_
 :::

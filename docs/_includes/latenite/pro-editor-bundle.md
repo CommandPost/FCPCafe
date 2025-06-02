@@ -1,8 +1,8 @@
 ## Pro Editor Bundles
 
-For only **USD$100** (save USD$49.95!), you can now buy [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io), [Marker Toolbox](https://markertoolbox.io), [Recall Toolbox](https://recalltoolbox.io) & [Fast Collections](https://fastcollections.io) as a bundle!
+For only **USD$100** (save USD$49.95!), you can now buy [BRAW Toolbox](https://brawtoolbox.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [Marker Toolbox](https://markertoolbox.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) & [Fast Collections](https://fastcollections.fcp.cafe) as a bundle!
 
-Better yet, for an **extra USD$50**, you can also get [LUT Robot](https://lutrobot.pro) and [Capacitor](https://capacitor.pro) (save USD$119.93)!
+Better yet, for an **extra USD$50**, you can also get [LUT Robot](https://lutrobot.fcp.cafe) and [Capacitor](https://capacitor.fcp.cafe) (save USD$119.93)!
 
 However, if you want **EVERYTHING**, the **Pro Editor Bundle v3** is only **USD$500** and includes:
 

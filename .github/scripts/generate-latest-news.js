@@ -2,12 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
-const sponsorsPath = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
-const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
-const newsOutputDirectory = path.join(process.env.GITHUB_WORKSPACE, 'docs/news');  // Directory for individual news files in YYYYMMDD.md format
+const sponsorsPath   = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
+const outputFile     = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-latest-news.md');
 
 try {
-    // Read the news files and find the latest date
+    // Read all news files, sort descending (latest first)
     const newsFiles = fs.readdirSync(directoryPath)
         .filter(file => path.extname(file) === '.md')
         .sort()
@@ -17,63 +16,64 @@ try {
         throw new Error('No news articles found.');
     }
 
-    const latestNewsDate = newsFiles[0].replace('.md', '');
-    const latestYear = parseInt(latestNewsDate.slice(0, 4), 10);
-    const latestMonth = parseInt(latestNewsDate.slice(4, 6), 10) - 1; // Months are 0-indexed
-    const latestDate = new Date(latestYear, latestMonth);
+    // Only keep the first 50 news items
+    const itemsToShow = newsFiles.slice(0, 50);
 
-    // Calculate the start date of the 3-month period
-    const threeMonthsAgo = new Date(latestDate);
-    threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 2); // 3 months including the current month
-    const startYear = threeMonthsAgo.getFullYear().toString();
-    const startMonth = (threeMonthsAgo.getMonth() + 1).toString().padStart(2, '0');  // Months are 0-indexed, so we add 1
-
-    // Read the sponsor files
+    // Read sponsor files
     const sponsorFiles = fs.readdirSync(sponsorsPath)
         .filter(file => path.extname(file) === '.md')
         .sort();
 
     let outputContent = '';
-    let currentYear = '';
+    let currentYear  = '';
     let currentMonth = '';
-    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const monthNames = [
+        'January', 'February', 'March', 'April',
+        'May', 'June', 'July', 'August',
+        'September', 'October', 'November', 'December'
+    ];
     let sponsorIndex = 0;
 
-    newsFiles.forEach((file, index) => {
-        const date = file.replace('.md', '');
-        const year = date.slice(0, 4);
-        const month = date.slice(4, 6);
-        if (year < startYear || (year === startYear && month < startMonth)) {
-            return;
-        }
-
+    itemsToShow.forEach((file, index) => {
+        // file looks like "YYYYMMDD.md", so strip extension
+        const dateStr = file.replace('.md', '');
+        const year    = dateStr.slice(0, 4);
+        const month   = dateStr.slice(4, 6);
         const monthName = monthNames[parseInt(month, 10) - 1];
 
-        // Update the year and month headers if needed
+        // Insert a new year header if we've moved into a different year
         if (year !== currentYear) {
             outputContent += `# ${year}\n`;
             currentYear = year;
+            // Reset month tracking any time the year changes
+            currentMonth = '';
         }
+
+        // Insert a new month header if we've moved into a different month
         if (monthName !== currentMonth) {
             outputContent += `## ${monthName}\n\n`;
             currentMonth = monthName;
         }
 
-        outputContent += `{{ include "news/${date}" }}\n\n[!button text=\"Discuss this news item\" variant=\"info\"](news/${date}/#discuss-this-page)\n\n---\n\n`;
+        // Include the actual news snippet
+        outputContent += `{{ include "news/${dateStr}" }}\n\n`;
+        outputContent += `[!button text="Discuss this news item" variant="info"](news/${dateStr}/#discuss-this-page)\n\n`;
+        outputContent += `---\n\n`;
 
-        // Add sponsor
+        // Insert a sponsor block after each news entry
         if (sponsorFiles.length > 0) {
-            // Always show sponsor-01.md as the first sponsor item, but only once.
             if (index === 0) {
+                // Always show the first sponsor (sponsorFiles[0]) only once at the top
                 outputContent += `{{ include "sponsors/${sponsorFiles[0]}" }}\n\n---\n\n`;
             } else {
+                // Cycle through the remaining sponsors
                 sponsorIndex = (sponsorIndex % (sponsorFiles.length - 1)) + 1;
                 outputContent += `{{ include "sponsors/${sponsorFiles[sponsorIndex]}" }}\n\n---\n\n`;
             }
         }
     });
 
-    // Write to the output file
+    // Write the generated Markdown to the output file
     try {
         fs.writeFileSync(outputFile, outputContent);
         console.log(`Successfully written to ${outputFile}`);

@@ -14,4 +14,4 @@ All Motion Content and Media should be contained within the Library.
 
 If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
 
-[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.io)
+[!button text="Visit Website" target="blank" variant="info"](https://transfertoolbox.fcp.cafe)

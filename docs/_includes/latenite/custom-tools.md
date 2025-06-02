@@ -8,6 +8,6 @@ For example, we developed a transcription plugin for [Apollo: Missions to the Mo
 
 The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
 
-[LUT Robot](https://lutrobot.pro) and [News Import](https://latenitefilms.github.io/NewsImport/) are other examples of tools we've built for specific productions, but have also released publicly.
+[LUT Robot](https://lutrobot.fcp.cafe) and [News Import](https://latenitefilms.github.io/NewsImport/) are other examples of tools we've built for specific productions, but have also released publicly.
 
 [Email us](mailto:support@latenitefilms.com) to discuss your specific requirements.
