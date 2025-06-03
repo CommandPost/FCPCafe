@@ -1,13 +1,23 @@
 # 2025
 ## June
 
+{{ include "news/20250603" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250603/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
 {{ include "news/20250602" }}
 
 [!button text="Discuss this news item" variant="info"](news/20250602/#discuss-this-page)
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -19,7 +29,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -29,7 +39,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -39,7 +49,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -49,7 +59,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -59,7 +69,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -69,7 +79,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -79,7 +89,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -89,7 +99,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -99,7 +109,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -109,7 +119,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -119,7 +129,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -129,7 +139,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -139,7 +149,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -151,7 +161,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -161,7 +171,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -171,7 +181,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -183,7 +193,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -195,7 +205,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -205,7 +215,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -217,7 +227,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -227,7 +237,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -237,7 +247,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -247,7 +257,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -260,7 +270,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -270,7 +280,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -280,7 +290,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -292,7 +302,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -302,7 +312,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -312,7 +322,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -322,7 +332,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -332,7 +342,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -342,7 +352,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -352,7 +362,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -362,7 +372,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -372,7 +382,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -382,7 +392,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -392,7 +402,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -402,7 +412,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -412,7 +422,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -422,7 +432,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -432,7 +442,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -442,7 +452,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -452,7 +462,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -462,7 +472,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
@@ -474,7 +484,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-04.md" }}
+{{ include "sponsors/sponsor-02.md" }}
 
 ---
 
@@ -484,7 +494,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-02.md" }}
+{{ include "sponsors/sponsor-03.md" }}
 
 ---
 
@@ -494,23 +504,13 @@
 
 ---
 
-{{ include "sponsors/sponsor-03.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 
 {{ include "news/20241023" }}
 
 [!button text="Discuss this news item" variant="info"](news/20241023/#discuss-this-page)
-
----
-
-{{ include "sponsors/sponsor-04.md" }}
-
----
-
-{{ include "news/20241022" }}
-
-[!button text="Discuss this news item" variant="info"](news/20241022/#discuss-this-page)
 
 ---
 
