@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802268402805">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802309852599">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.9.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.9.0.802268402805" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.802309852599" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802268402805" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802309852599" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802268402805" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802309852599" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=3.9.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.9.0" defer></script>
 
@@ -468,6 +468,44 @@
     </h2>
 </doc-anchor-target>
 <p>Here is the release notes for FxPlug. Where appropriate, we try and add additional information and context below.</p>
+<hr>
+<doc-anchor-target id="fxplug-433">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-433">#</doc-anchor-trigger>
+        <span>FxPlug 4.3.3</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Released June 3, 2025</strong></p>
+<ul>
+<li>FxPlug SDK is now supported on machines running macOS 11.0 and above.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>Added compatibility with older versions of Final Cut Pro, Motion and Compressor and support for macOS 11.0 and above.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed an issue where the <code v-pre>FxCustomParameterAPI’s -currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code v-pre>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
+<hr>
+<p><strong>Released March 27, 2025</strong></p>
+<doc-anchor-target id="fxplug-432">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-432">#</doc-anchor-trigger>
+        <span>FxPlug 4.3.2</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Improved overall stability.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed some memory leaks in the <code v-pre>FxPlug.Framework</code>.</li>
+<li>Fixed an issue where the FxCustomParameterAPI’s <code v-pre>-currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code v-pre>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
 <hr>
 <doc-anchor-target id="fxplug-431">
     <h3>
