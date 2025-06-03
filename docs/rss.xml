@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 02 Jun 2025 00:52:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 12:17:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Jun 2025 00:52:34 GMT</pubDate>
+        <pubDate>Tue, 03 Jun 2025 12:17:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10356,6 +10356,18 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#2nd-june-2025</link>
             <guid isPermaLink="false">2nd June 2025</guid>
             <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2025]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.4.0</strong> is out now on the <strong>Mac App Store</strong>! 🥳</p>
+<p>This release adds support for <strong>Final Cut Pro 11.1.1 (for Mac)</strong> and <strong>Final Cut Pro 2.2.1 (for iPad)</strong>.</p>
+<p>Transfer Toolbox allows you to convert <strong>Final Cut Pro (for Mac) Libraries</strong> into <strong>Final Cut Pro (for iPad) Projects</strong>.</p>
+<p><img src="/static/transfer-toolbox-1-4-0.png" alt=""></p>
+<p>You can learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2025</link>
+            <guid isPermaLink="false">3rd June 2025</guid>
+            <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
