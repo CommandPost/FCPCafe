@@ -109,6 +109,38 @@ Here is the release notes for FxPlug. Where appropriate, we try and add addition
 
 ---
 
+### FxPlug 4.3.3
+
+**Released June 3, 2025**
+
+- FxPlug SDK is now supported on machines running macOS 11.0 and above.
+- Added ability for plug-ins to close a remote window.
+- Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.
+- Added compatibility with older versions of Final Cut Pro, Motion and Compressor and support for macOS 11.0 and above.
+- OpenGL is deprecated. Please update your plugins to work with Metal.
+- Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.
+- Fixed an issue where anamorphic footage was improperly cropped during analysis.
+- Fixed an issue where the `FxCustomParameterAPI’s -currentTime` method could return an invalid time.
+- Deprecated the `-[FxImageTile openGLTextureForContext:]` method.
+
+---
+
+**Released March 27, 2025**
+
+### FxPlug 4.3.2
+
+- Improved overall stability.
+- Added ability for plug-ins to close a remote window.
+- Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.
+- OpenGL is deprecated. Please update your plugins to work with Metal.
+- Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.
+- Fixed an issue where anamorphic footage was improperly cropped during analysis.
+- Fixed some memory leaks in the `FxPlug.Framework`.
+- Fixed an issue where the FxCustomParameterAPI’s `-currentTime` method could return an invalid time.
+- Deprecated the `-[FxImageTile openGLTextureForContext:]` method.
+
+---
+
 ### FxPlug 4.3.1
 
 **Released November 13, 2024**
