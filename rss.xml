@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 03 Jun 2025 23:48:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Jun 2025 01:24:14 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Jun 2025 23:48:08 GMT</pubDate>
+        <pubDate>Thu, 05 Jun 2025 01:24:13 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10391,6 +10391,37 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#4th-june-2025</link>
             <guid isPermaLink="false">4th June 2025</guid>
             <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2025]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.3.1 (Build 23)</strong> is out now! 🥳</p>
+<p>This includes the following improvements:</p>
+<ul>
+<li>We've updated to the <a href="https://github.com/gyroflow/gyroflow/tree/83356d01207b78dc6755740eaebbe93b3c3ec62d">latest</a> Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>Updated from FxPlug <code>v4.3.2</code> to <code>v4.3.3</code>.</li>
+<li>175 lens profiles have been updated from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
+</ul>
+<p>There is still an <a href="https://github.com/latenitefilms/gyroflowtoolbox/issues/40">outstanding bug/regression</a> related to <strong>vertical videos</strong>.</p>
+<p>Originally, vertical videos worked great in Gyroflow Toolbox, but at some point changes in Gyroflow broke something, and we haven't been able to work out what.</p>
+<p>I think, thanks to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a>, we now have a possible solution - we'll try and solve this and get out a new bug fix ASAP.</p>
+<p>You can learn more about Gyroflow Toolbox on the <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2025</link>
+            <guid isPermaLink="false">5th June 2025</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2025]]></title>
+            <description><![CDATA[<p>I'm also busily working away on my next app for the Mac App Store, <strong>SplitTake</strong>.</p>
+<p>SplitTake is a Swift/Swift UI application for capturing your screen, webcam and external microphone to ProRes for editing in Final Cut Pro.</p>
+<p>There's a lot of great screen recording apps out there, but a lot of them (like ScreenFlow) expect you to do all the editing WITHIN their app - I just want something that easily records the highest quality possible, then gives me everything in Final Cut Pro.</p>
+<p>I'm still trying to get the under-the-hood stuff working well first, before tackling the user interface, but here's a sneak peak:</p>
+<p><img src="/static/split-take.png" alt=""></p>
+<p>I'll hopefully get it up on TestFlight next week. Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2025</link>
+            <guid isPermaLink="false">5th June 2025</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
