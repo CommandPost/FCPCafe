@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 03 Jun 2025 12:17:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 23:48:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Jun 2025 12:17:52 GMT</pubDate>
+        <pubDate>Tue, 03 Jun 2025 23:48:08 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10368,6 +10368,29 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#3rd-june-2025</link>
             <guid isPermaLink="false">3rd June 2025</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th June 2025]]></title>
+            <description><![CDATA[<p><strong>FxPlug v4.3.3</strong> is out now! 🥳</p>
+<p>FxPlug is the effects engine for Apple's Motion and Final Cut Pro.</p>
+<p>It includes the following improvements and bug fixes:</p>
+<ul>
+<li>FxPlug SDK is now supported on machines running macOS 11.0 and above.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>Added compatibility with older versions of Final Cut Pro, Motion and Compressor and support for macOS 11.0 and above.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed an issue where the <code>FxCustomParameterAPI’s -currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
+<p>You can download FxPlug on the <a href="https://developer.apple.com/download/all/?q=FxPlug">Apple Developer Downloads website</a>.</p>
+<p>We'll look into updating BRAW Toolbox and Gyroflow Toolbox ASAP.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-june-2025</link>
+            <guid isPermaLink="false">4th June 2025</guid>
+            <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
