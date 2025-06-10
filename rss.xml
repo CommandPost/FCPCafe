@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 10:56:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Jun 2025 11:12:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Jun 2025 10:56:35 GMT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 11:12:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10439,6 +10439,7 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
 <p>Metal 4 also extends the MTLDevice that you already use today. You can incrementally adopt features that will help your app or game the most, in the order you need them.</p>
 </blockquote>
 <p><strong>Background Tasks</strong> are coming to iPad, so you'll finally be able to export from Final Cut Pro on iPad in the background, without Final Cut Pro aborting the export if you change app focus. 🥳</p>
+<p><img src="/static/wwdc25-06.jpg" alt=""></p>
 <p>Here's some example Swift code:</p>
 <pre><code class="language-swift">import BackgroundTasks
 import SwiftUI
@@ -10455,6 +10456,7 @@ struct ColorFeed: App {
     }
 }
 </code></pre>
+<p><img src="/static/wwdc25-07.jpg" alt=""></p>
 <p><strong>Image Playground</strong> gets an update, with support for ChatGPT - but really, who is ACTUALLY using Image Playground in Final Cut Pro today?</p>
 <p>...and so far, that's pretty much it as far as I can tell.</p>
 <p><img src="/static/wwdc25-04.jpg" alt=""></p>
