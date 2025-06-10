@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Jun 2025 01:24:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Jun 2025 09:04:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Jun 2025 01:24:13 GMT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 09:04:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10422,6 +10422,75 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#5th-june-2025</link>
             <guid isPermaLink="false">5th June 2025</guid>
             <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th June 2025]]></title>
+            <description><![CDATA[<p><strong>WWDC 2025</strong> has launched! 🥳</p>
+<p>However, unlike previous years, I didn't have the interest and excitement to get up at 3am to watch the <a href="https://www.youtube.com/watch?v=0_DjDdfqtUE">Keynote</a> or <a href="https://www.youtube.com/watch?v=51iONeETSng">Platforms State of the Union</a>.</p>
+<p>In fact, I haven't even finished the Keynote yet. 😬</p>
+<p>However, for Final Cut Pro editors there's not a huge amount of exciting news.</p>
+<p><strong>Metal 4</strong> is coming to Mac &amp; iPad, so that'll bring some improvements.</p>
+<blockquote>
+<p>The latest version of Metal is built to scale to the needs of modern apps. The streamlined API makes it easy for you to achieve optimal performance on Apple silicon with lower overhead command encoding and scalable resource management. Compilation is more explicit and faster than ever with all new ways to reduce run-time compilation.</p>
+<p>Metal 4 introduces first-class support for machine learning, starting with native support for tensors in both the API and shading language. Integrate machine learning directly into your Metal app using the command line to execute large networks, or within your shaders to inline inference operations alongside the rest of your shader code.</p>
+<p>Metal 4 also extends the MTLDevice that you already use today. You can incrementally adopt features that will help your app or game the most, in the order you need them.</p>
+</blockquote>
+<p><strong>Background Tasks</strong> are coming to iPad, so you'll finally be able to export from Final Cut Pro on iPad in the background, without Final Cut Pro aborting the export if you change app focus. 🥳</p>
+<p>Here's some example Swift code:</p>
+<pre><code class="language-swift">import BackgroundTasks
+import SwiftUI
+
+@main
+struct ColorFeed: App {
+    var body: some Scene {
+        WindowGroup {
+            // ...
+        }
+        .backgroundTask(.appRefresh(&quot;com.colorfeed.wwdc25.appRefresh&quot;)) {
+            await self.handleAppRefreshTask()
+        }
+    }
+}
+</code></pre>
+<p><strong>Image Playground</strong> gets an update, with support for ChatGPT - but really, who is ACTUALLY using Image Playground in Final Cut Pro today?</p>
+<p>...and so far, that's pretty much it as far as I can tell.</p>
+<p>I still need to finish the <a href="https://www.youtube.com/watch?v=0_DjDdfqtUE">Keynote</a> and <a href="https://www.youtube.com/watch?v=51iONeETSng">Platforms State of the Union</a>, so I'll post more tomorrow if anything jumps out.</p>
+<p>There's normally lots of cool new tech, as the WWDC videos are released each day.</p>
+<p>Fun fact... All of the 2024 Apple WWDC videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. I wonder if they did the same this year? 🤔</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-june-2025</link>
+            <guid isPermaLink="false">10th June 2025</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th June 2025]]></title>
+            <description><![CDATA[<p>But I didn't want to end the day on a downer, so...</p>
+<p>People often ask me <strong>&quot;what makes Jumper so special&quot;</strong> and <strong>&quot;why would I use Jumper when Premiere has Media Intelligence now built-in&quot;</strong>?</p>
+<p>Well, if you're a Final Cut Pro editor, you should <strong>ABSOLUTELY</strong> be using Jumper - it's a no-brainer.</p>
+<p>But even for <strong>Avid Media Composer</strong>, <strong>DaVinci Resolve</strong>, and <strong>Adobe Premiere Pro</strong> users, Jumper is <strong>insanely useful</strong> - especially in high-end collaborative workflows.</p>
+<p>You can even access <strong>Jumper Standalone</strong> from your Mac menubar. Remote users will be possible in the not-so-distant-future too! 🤯</p>
+<p>It's basically <strong>&quot;Spotlight for your NLE&quot;</strong> - and it's SUCH a handy tool to have in your toolbox.</p>
+<p>It hasn't changed the way I edit - I still organise Events with lots of emoji's, in the Final Cut Pro Browser, and I still do selects in the Browser's collections - for example:</p>
+<p><img src="/static/tiktok-awards-2024.png" alt=""></p>
+<p>However, I basically use Jumper as my &quot;search engine&quot; for times when a client asks &quot;find me the shot of the old man with the red hat&quot;, etc.</p>
+<p>When I'm doing fast-turnaround edits, unless I have two machines, I don't really have the computer power to analyse things whilst I'm editing (as Jumper makes use of every bit of CPU, GPU and RAM you throw at it!), so I generally just let Jumper analyse everything overnight once I've finished for the day, so when it comes to revisions, I can find things super quickly.</p>
+<p>You can download a <strong>free trial</strong> and learn more about Jumper on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+<p>You can read about <strong>my involvement with Jumper</strong> on this FCP Cafe news post from <a href="https://fcp.cafe/news/20241106/">6th November 2024</a>.</p>
+<p>To demonstrate it's power - I've just recorded a very quick and dirty screen recording.</p>
+<p>This video is unscripted, real-time, no edits, warts and all, using beta software... so... well... enjoy!</p>
+<p>If you have any questions, reach out on the <a href="https://ltnt.tv/discord">CommandPost Discord</a> or <a href="https://discord.gg/3JFNYAfwSb">Jumper Discord</a>!</p>
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/be0f5f8782420aee87930d94f643d472/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2Fbe0f5f8782420aee87930d94f643d472%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D2s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>]]></description>
+            <link>https://fcp.cafe/#10th-june-2025</link>
+            <guid isPermaLink="false">10th June 2025</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
