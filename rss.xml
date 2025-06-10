@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 13:19:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Jun 2025 13:24:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Jun 2025 13:19:02 GMT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 13:24:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10466,6 +10466,8 @@ struct ColorFeed: App {
 <p>There's normally lots of cool new tech, as the WWDC videos are released each day.</p>
 <p>Fun fact... All of the 2024 Apple WWDC videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. I wonder if they did the same this year? 🤔</p>
 <p><img src="/static/wwdc25-05.jpg" alt=""></p>
+<p>Oh, and one interesting side note... Intel Mac's won't be supported in <strong>macOS 27</strong> next year.</p>
+<p><img src="/static/wwdc25-10.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#10th-june-2025</link>
             <guid isPermaLink="false">10th June 2025</guid>
