@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Jun 2025 13:29:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Jun 2025 01:51:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Jun 2025 13:29:11 GMT</pubDate>
+        <pubDate>Sat, 14 Jun 2025 01:51:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10503,6 +10503,16 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#10th-june-2025</link>
             <guid isPermaLink="false">10th June 2025</guid>
             <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th June 2025]]></title>
+            <description><![CDATA[<p><strong>WWDC 2025</strong> has been and gone.</p>
+<p>I've been flat out this week, so I haven't caught up on all the latest WWDC news yet, however, luckily we have <strong>Iain Anderson</strong> in the community!</p>
+<p>You can read his <strong>Video news from Apple’s WWDC</strong> article over at <a href="https://www.provideocoalition.com/video-news-from-apples-wwdc/">ProVideo Coalition</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-june-2025</link>
+            <guid isPermaLink="false">14th June 2025</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
