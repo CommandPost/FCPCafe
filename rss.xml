@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 14 Jun 2025 21:35:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Jun 2025 10:26:05 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Jun 2025 21:35:02 GMT</pubDate>
+        <pubDate>Sun, 15 Jun 2025 10:26:05 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10538,6 +10538,20 @@ struct ColorFeed: App {
 <li>Updated from FxPlug <code>v4.3.2</code> to <code>v4.3.3</code>.</li>
 </ul>
 <p>You can buy and learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-june-2025</link>
+            <guid isPermaLink="false">15th June 2025</guid>
+            <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th June 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Data v1.2.1</strong> is out now!</p>
+<p>This release includes the following improvements:</p>
+<ul>
+<li>Updated Pagemaker Module to version <code>1.0.7</code></li>
+<li>Pagemaker module now maintains aspect ratios for vertical images in PDF exports, ensuring parity with gallery preview</li>
+</ul>
+<p>You can learn more on the <a href="https://markerdata.theacharya.co">Marker Data website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#15th-june-2025</link>
             <guid isPermaLink="false">15th June 2025</guid>
