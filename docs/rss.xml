@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 14 Jun 2025 01:51:27 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Jun 2025 21:35:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Jun 2025 01:51:27 GMT</pubDate>
+        <pubDate>Sat, 14 Jun 2025 21:35:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10513,6 +10513,35 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#14th-june-2025</link>
             <guid isPermaLink="false">14th June 2025</guid>
             <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th June 2025]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.5 (Build 75)</strong> is out now! 🥳</p>
+<p><img src="/static/braw-toolbox-1-4-5.png" alt=""></p>
+<p>Whilst Blackmagic will be releasing their Blackmagic RAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a> at SOME POINT in the coming weeks/months, as of today BRAW Toolbox is still the best way to get BRAW into Apple's Final Cut Pro.</p>
+<p>It's also currently unclear if the Blackmagic MediaExtension will actually have decent RAW controls within Final Cut Pro.</p>
+<p>Given Blackmagic really just wants you to use DaVinci Resolve - it's unlikely that Blackmagic's developers are spending too much time on making BRAW great in Final Cut Pro.</p>
+<p>BRAW Toolbox is INSANELY powerful - you can even keyframe RAW parameters that you can't control in DaVinci Resolve.</p>
+<p>Whilst there are now other competitors that copied the same techniques as BRAW Toolbox to get BRAW into Final Cut Pro, BRAW Toolbox is the only solution that's <a href="https://brawtoolbox.fcp.cafe/release-notes/">updated regularly</a>, always includes the latest FxPlug and BRAW SDK updates, and is tried and tested on real-world productions.</p>
+<p>BRAW Toolbox was built for my production company, <a href="https://latenitefilms.com">LateNite</a>, because I got frustrated when clients would hand over SSDs with 2-4TB's worth of BRAW footage, that we'd need to convert to ProRes to start editing with it in Final Cut Pro.</p>
+<p>BRAW Toolbox is now used by over <strong>3.45K users</strong> across the world. It's been used on feature films, televisions series and high-end television commercials.</p>
+<p>gwphotographe writes on the <a href="https://discord.com/channels/1365861122720137276/1365961904681517116/1376793427785814016">CommandPost Discord</a>:</p>
+<blockquote>
+<p>I swear if you get me talking about how much I love this plugin you’ll never get me to shut up. Using it currently to work with 6TB of BRAW footage for a documentary. 🙌🏼</p>
+</blockquote>
+<p>The latest update contains the following improvements:</p>
+<ul>
+<li>We've improved how we render error messages in BRAW Toolbox. HUGE thank you to Darrin Cardani at Apple and Gabriele de Simone at FxFactory for all your ongoing help, assistance, genius and support (and for putting up with my crazy questions)!</li>
+<li>Added support for Panasonic LUMIX S1II and S1IIE Blackmagic RAW clips.</li>
+<li>Improved performance for URSA Cine 12K LF and URSA Cine 17K 65 clips.</li>
+<li>Updated from Blackmagic RAW SDK <code>v4.5</code> to <code>v4.6</code>.</li>
+<li>Updated from FxPlug <code>v4.3.2</code> to <code>v4.3.3</code>.</li>
+</ul>
+<p>You can buy and learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-june-2025</link>
+            <guid isPermaLink="false">15th June 2025</guid>
+            <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
