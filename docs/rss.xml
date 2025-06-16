@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 15 Jun 2025 10:26:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Jun 2025 10:38:11 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 15 Jun 2025 10:26:05 GMT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 10:38:11 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10556,6 +10556,60 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#15th-june-2025</link>
             <guid isPermaLink="false">15th June 2025</guid>
             <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th June 2025]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter</strong> has been reduced from <strong>USD$150</strong> to a one-time payment of <strong>USD$79.99</strong> on the Mac App Store. 🥳</p>
+<p>After posting about ATEM Exporter on the Facebook <a href="https://www.facebook.com/groups/666156180950487">Blackmagic ATEM Mini User-group</a>, which has over 60K members, I started to receive a lot of DM's and emails with interest in the software.</p>
+<p>For those that don't know, <strong>ATEM Exporter</strong> is a native Swift + Swift UI Mac Application that listens to a <a href="https://www.blackmagicdesign.com/products/atem">Blackmagic ATEM switcher</a>, and logs all the camera changes.</p>
+<p><img src="/static/atem-exporter-demo-data-build4.png" alt=""></p>
+<p>You can export the camera changes as a Final Cut Pro <code>FCPXML</code>, to use in Final Cut Pro or Blackmagic DaVinci Resolve.</p>
+<p>You can export a <strong>Program Cut</strong>, which allows you to use your program feed from an external recorder (such as a <a href="https://www.blackmagicdesign.com/products/hyperdeck">Blackmagic HyperDeck</a>), and add cut points each time there's a camera change.</p>
+<p><img src="/static/atem-exporter-program-cut-build4.png" alt=""></p>
+<p>You can also export a <strong>Multicam</strong>, which allows you to use your program feed as well as any ISO (i.e. independent camera) recordings, and export a Multicam clip for Final Cut Pro or DaVinci Resolve.</p>
+<p><img src="/static/atem-exporter-multicam-build4.png" alt=""></p>
+<p>ATEM Exporter was built in a few hours during a live event, and at release it had <strong>only</strong> been tested in a real-world live production using an <strong>Blackmagic ATEM Constellation 8K</strong>, Blackmagic HyperDeck's and AJA recorders for ISOs.</p>
+<p>Since release, we've had quite a few users test it on all kinds of ATEM's.</p>
+<p>Originally I was thinking that this would be a very niche, high-end tool - i.e. for people with expensive Blackmagic ATEM Constellation 8K's.</p>
+<p>However, after posting to the Facebook group I realised just how many people have and use ATEMs for all kinds of things - especially at the lower budget in schools, universities, places of faith, etc.</p>
+<p>As a result, I decided to reduce the price, and also release a quick and dirty demo video that I originally threw together late at night for Apple's Mac App Store Review.</p>
+<p>You can watch it here:</p>
+<div style="position: relative; padding-top: 56.25%; padding-bottom:15px;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/738b0bbb9727c6fafff0f4ea306fb923/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F738b0bbb9727c6fafff0f4ea306fb923%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D5m22s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<p>Hope this helps!</p>
+<p>You can learn more on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+<p>Whilst I've got you... here's a sneak peak at our upcoming <strong>SplitTake</strong> icon by the AMAZING <a href="http://matthewskiles.com">Matthew Skiles</a>:</p>
+<p><img src="/static/splittake-icon.jpg" alt=""></p>
+<p>He's also put together a &quot;placeholder&quot; icon for LateNite apps we still have in development:</p>
+<p><img src="/static/latenite-app-coming-soon.jpg" alt=""></p>
+<p>How cool are these!</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-june-2025</link>
+            <guid isPermaLink="false">16th June 2025</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th June 2025]]></title>
+            <description><![CDATA[<p><strong>Media Sync Tool v8.9</strong> is out now on the Mac App Store.</p>
+<p>It has the following improvements:</p>
+<ul>
+<li>The proxy media workflow has been drastically simplified.</li>
+<li>Media Sync Tool now syncs your proxy media the same way as the originals, eliminating the previous necessity to use the complex workaround.</li>
+<li>You no longer have to use the 'Force Sync' keyword - this option has been removed completely.</li>
+<li>The option to add a source metadata FCPXML is now removed too, as it is became unnecessary.</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/media-sync-tool/id1559556642">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-june-2025</link>
+            <guid isPermaLink="false">16th June 2025</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
