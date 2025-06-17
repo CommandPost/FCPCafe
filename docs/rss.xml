@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 16 Jun 2025 10:38:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 03:44:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Jun 2025 10:38:11 GMT</pubDate>
+        <pubDate>Tue, 17 Jun 2025 03:44:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10610,6 +10610,19 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#16th-june-2025</link>
             <guid isPermaLink="false">16th June 2025</guid>
             <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th June 2025]]></title>
+            <description><![CDATA[<p>To help support the editing community through these uncertain and crazy times, the amazing <a href="https://zackarnold.com">Zack Arnold</a> (ACE—editor/producer for Netflix’s Cobra Kai &amp; founder of The Arnold Academy For Creatives) has put together an exciting event called <strong>Navigating the Future of Entertainment</strong>.</p>
+<p>It includes an insane lineup of speakers including Walter Murch, Jay Clouse, Annie Duke, Matt Nix and many more.</p>
+<p><img src="/static/zach-arnold-event.png" alt=""></p>
+<p>It's a <strong>free</strong> 5-day event to help creatives of all kinds understand what the hell is going on now, forecast what's coming next, navigate industry uncertainty, and survive the AI apocalypse (without selling your creative soul).</p>
+<p>It runs <strong>23rd to 27th of June 2025</strong>.</p>
+<p>You can learn more on the <a href="https://members.thearnoldacademy.com/navigating-the-future-of-creative-work-live-summit">Navigating the Future of Entertainment website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-june-2025</link>
+            <guid isPermaLink="false">17th June 2025</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
