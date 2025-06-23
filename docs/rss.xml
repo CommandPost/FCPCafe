@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Jun 2025 03:44:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 04:31:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Jun 2025 03:44:33 GMT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 04:31:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10623,6 +10623,43 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#17th-june-2025</link>
             <guid isPermaLink="false">17th June 2025</guid>
             <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd June 2025]]></title>
+            <description><![CDATA[<p>Earlier this week <strong>Final Cut Pro</strong> turned 14! 🥳</p>
+<p>I'll let Mr Richard Taylor do the honours...</p>
+<p><a href="https://www.youtube.com/watch?v=PohWnq2u2Oo"><img src="/static/fcp-14th-birthday.jpg" alt=""></a></p>
+<p>Also, in very positive news, <a href="https://mashable.com/article/vidcon-2025-tech-products-we-loved">Mashable reports</a> from <strong>VidCon 2025</strong>:</p>
+<blockquote>
+<p><strong>The editing software of choice? Final Cut Pro</strong></p>
+<p>TikTokkers can keep CapCut. At VidCon 2025, it's all about Final Cut Pro. For Apple users who shoot and edit their own content, this Mac video editing software is indispensable. So far, it's the single most-recommended product we've encountered in conversations with creators. A subscription will set you back $299.99, but there is a free trial to test it out.</p>
+</blockquote>
+<p>That's awesome news, and to be honest, very surprising given all the help, support and sponsorship Adobe gives VidCon!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-june-2025</link>
+            <guid isPermaLink="false">23rd June 2025</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd June 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze</strong> has been announced over at <a href="https://www.reddit.com/r/finalcutpro/comments/1lfin6y/built_a_native_final_cut_pro_plugin_for_realtime/">Reddit</a>, in a post titled <strong>Built a native Final Cut Pro plugin for real-time upscaling – 1080p, 4K, even 8K directly in the timeline</strong>.</p>
+<p>The developer <strong>Sebastian Krogull</strong> has already had HUGE interest in the product, which is currently at release candidate stage, in final beta testing.</p>
+<p>I've had a chance to download and play - and it's very impressive.</p>
+<p>Sebastian will post a developers case study over at FCP Cafe after launch!</p>
+<p>You can learn more here:</p>
+<ul>
+<li><a href="https://stage.fidelityfuze.com/">Product page</a></li>
+<li><a href="https://stage.fidelityfuze.com/user-guide">User guide</a></li>
+</ul>
+<p>Noting that Sebastian says:</p>
+<blockquote>
+<p>Note: These are preview versions of the final website. FidelityFuze hasn’t launched yet – it’s still in early access. I’m building it solo and working to make sure everything is solid. DM me or reply here if you’d like to try it – or just share your thoughts.</p>
+</blockquote>
+<p>We'll post more in the coming weeks!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-june-2025</link>
+            <guid isPermaLink="false">23rd June 2025</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
