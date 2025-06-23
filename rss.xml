@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 23 Jun 2025 04:31:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 22:03:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Jun 2025 04:31:00 GMT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 22:03:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10660,6 +10660,54 @@ struct ColorFeed: App {
             <link>https://fcp.cafe/#23rd-june-2025</link>
             <guid isPermaLink="false">23rd June 2025</guid>
             <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th June 2025]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter v1.0.3 (Build 5)</strong> is out now!</p>
+<p>It includes the following bug fix:</p>
+<ul>
+<li>Fixed a regression which prevented connecting to an ATEM device. HUGE THANK YOU to Hans Linssen for all his help, support and testing! Thank you to all our TestFlight users!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-june-2025</link>
+            <guid isPermaLink="false">24th June 2025</guid>
+            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th June 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v6</strong> is out! 🚀</p>
+<p>We’re excited to introduce <strong>📌 Apply Finder Tag</strong>—a powerful new feature in v6 that allows you to apply Finder Tags to your files using metadata.</p>
+<p>The Apply Finder Tags feature in evrExpanse lets you quickly batch-apply Finder tags—including both color tags and custom tags (labels)—to your files. This makes your media instantly easier to find, group, and organize using Finder’s built-in tags system.</p>
+<p>The initial release supports <strong>DaVinci Resolve</strong>:
+You can now automatically assign Finder Tags to your media based on the <code>Keywords</code> metadata exported from Resolve. Future updates will expand this workflow to support metadata from other leading NLEs as well.</p>
+<p><img src="/static/evrE6_PreprocessTag.png" alt="">
+<strong>Fig. 1 – Pre-processing overview</strong></p>
+<p>You can also choose how tags are managed:</p>
+<ul>
+<li>
+<p><strong><code>Add</code></strong>: Add new tags from your metadata file to each file’s existing tags. This preserves all current color tags and custom tags, simply adding any new ones for richer organization.</p>
+</li>
+<li>
+<p><strong><code>Overwrite</code></strong>: Remove all existing Finder tags from your files and apply only the tags specified in your metadata. This is ideal when you want your Finder tags to exactly match your exported metadata.</p>
+</li>
+<li>
+<p><strong><code>Remove</code></strong>: Delete only the tags listed in your metadata from your files, leaving all other tags in place. Use this for quick cleanup or to undo previous tagging actions.</p>
+</li>
+</ul>
+<p>With <strong>Apply Finder Tag</strong>, we complete the round trip by bringing organizational metadata from your NLEs back into Finder Tags—closing the cycle and enabling seamless metadata interchange between your Mac and your editing software. 🔄</p>
+<p>This gives you complete control to fit your workflow needs.</p>
+<p><img src="/static/evrE6_progressTag.png" alt="">
+<strong>Fig. 2 – Progress</strong></p>
+<p><strong>Detailed Reporting &amp; Full Transparency</strong></p>
+<p>After tagging, evrExpanse creates a dedicated report folder next to your metadata file. Inside, you’ll find color-coded logs for all processed files, missing files, and any duplicates that were skipped—making it easy to review your tagging results right in Finder.</p>
+<p><img src="/static/evrE6_FinalReportTag.png" alt="">
+<strong>Fig. 3 – Final Report</strong></p>
+<p>You can download and learn more on the <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse website</a></p>
+]]></description>
+            <link>https://fcp.cafe/#24th-june-2025</link>
+            <guid isPermaLink="false">24th June 2025</guid>
+            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
