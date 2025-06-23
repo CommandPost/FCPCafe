@@ -24,4 +24,4 @@ Recall Toolbox automatically syncs to ALL your devices on the same iCloud accoun
 
 You can share folders with other iCloud users, and control permissions. For example, you could have a "read only" folder that contains client logos for a current job!
 
-[!button text="Visit Website" target="blank" variant="info"](https://recalltoolbox.io)
+[!button text="Visit Website" target="blank" variant="info"](https://recalltoolbox.fcp.cafe)

@@ -73,3 +73,6 @@ outbound:
 
 include:
   - "rss.xml"
+
+scheme:
+  mode: dark

@@ -1,3 +1,6 @@
+- [Final Cut Pro Fails to Copy All Project Media to a New Location After a Previously Cancelled or Failed Copy Operation (June 17, 2025)](https://github.com/CommandPost/FCPCafe/issues/476)
+- [Blade Speed Hold frame bug (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/475)
+- [I can’t save custom presets (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/473)
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [4k 50p XAVC-L Footage imports as Black (April 7, 2025)](https://github.com/CommandPost/FCPCafe/issues/449)
 - [Hard Crash when opening a Project with a complex Audition (March 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/448)
@@ -25,6 +28,3 @@
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
 - [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
-- [No audio when going frame-by-frame via arrow keys (June 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/363)
-- [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
-- [Improve Music.app & Final Cut Pro Integration (May 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/355)

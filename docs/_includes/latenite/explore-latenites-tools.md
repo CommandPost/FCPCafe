@@ -1,8 +1,32 @@
 # Explore LateNite's Tools
 
-This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com).
+## Introduction
 
-Constantly looking for ways to innovate, LateNite is as passionate about production and post production as it is storytelling. Their pursuit of creative excellence has seen them work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
+This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) from [LateNite](https://latenitefilms.com).
+
+**LateNite** is an independent production studio committed to investing in emerging creatives with strong, unique voices, helping tell their stories in a creatively supportive and collaborative environment. Our work uses humour to explore outsider stories that are unmistakably human and straddle the line between light and dark.
+
+<div style="position: relative; padding-top: 56.25%; padding-bottom: 10px;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/35d40c133a4642b4feea857377fa953a/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F35d40c133a4642b4feea857377fa953a%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D15s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+
+Constantly looking for ways to innovate, at LateNite we're as passionate about production and post production as we are about storytelling.
+
+Our pursuit of creative excellence has seen us work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
+
+For example, our debut free and open-source application **CommandPost**, has been downloaded over **[258 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**.
+
+It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
+
+All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+
+This page showcases all the stuff we've build, throw together and collaborated on. Enjoy!
 
 ![](/static/latenite-apps.png)
 
@@ -16,157 +40,24 @@ Constantly looking for ways to innovate, LateNite is as passionate about product
 
 ---
 
+{{ include "latenite/free-tools" }}
+
+---
+
+{{ include "latenite/mac-app-store" }}
+
+---
+
+{{ include "latenite/fxfactory" }}
+
+---
+
 {{ include "latenite/collaborations" }}
 
 ---
 
-## Mac App Store
-
-Here's some of our products currently for sale on the official Apple **Mac App Store**:
+{{ include "latenite/handy-utilities" }}
 
 ---
 
-{{ include "latenite/braw-toolbox" }}
-
----
-
-{{ include "latenite/gyroflow-toolbox" }}
-
----
-
-{{ include "latenite/marker-toolbox" }}
-
----
-
-{{ include "latenite/fast-collections" }}
-
----
-
-{{ include "latenite/recall-toolbox" }}
-
----
-
-{{ include "latenite/capacitor" }}
-
----
-
-{{ include "latenite/lut-robot" }}
-
----
-
-{{ include "latenite/news-import" }}
-
----
-
-{{ include "latenite/metaburner" }}
-
----
-
-{{ include "latenite/transfer-toolbox" }}
-
----
-
-{{ include "latenite/atem-exporter" }}
-
----
-
-## FxFactory
-
-Here's some of our products currently for sale on the **FxFactory**:
-
----
-
-{{ include "latenite/metaburner" }}
-
----
-
-## Free Apps
-
-Here's some of our free tools used by professional editors worldwide...
-
----
-
-{{ include "latenite/commandpost" }}
-
----
-
-{{ include "latenite/rename-avid-mxf-files" }}
-
----
-
-## In Development
-
-Here's a **sneak peak** of some of the things we have in various stages of development:
-
----
-
-### Library Duplicator
-
-Ability to quickly create a shareable Final Cut Pro library, which also consolidates Motion Templates and Fonts.
-
----
-
-### FCP Preferences Cleaner
-
-Inspect and clean your Final Cut Pro Preferences, rather than "trashing" them.
-
----
-
-### Timecode Toolbox
-
-We're spinning out the **Sony Timecode Repair Toolbox** from [CommandPost](https://commandpost.io) and making it a standalone app.
-
-In addition to the current functionality, you'll also be able to modify the original camera files to add Final Cut Pro friendly timecode.
-
-Here's what the Toolbox currently looks like in CommandPost:
-
-![](/static/sony-timecode-repair.png)
-
----
-
-### RAW Toolbox
-
-Following in the footsteps of [BRAW Toolbox](#braw-toolbox), RAW Toolbox will initially add **Nikon N-RAW** support to Final Cut Pro.
-
----
-
-### Import Toolbox
-
-**Import Toolbox** will be a Workflow Extension that allows you to import files with better metadata and preset controls (i.e. clip volume).
-
-We will also be spinning out the **Watch Folders** from CommandPost and moving them into this app.
-
----
-
-### Assistant Toolbox
-
-**Assistant Toolbox** will be a Workflow Extension that spins out **Titles to Keywords** and **Auto Sequence** from CommandPost.
-
-It'll include various improvements and enhancements to make the job even easier for Assistant Editors working on long-form feature film projects.
-
-This project is currently at the exploration and experiment stage.
-
-Here's what the Toolbox's currently look like in CommandPost:
-
-![](/static/titles-to-keywords.png)
-![](/static/auto-sequence.png)
-
----
-
-### Magic Toolbox
-
-**Magic Toolbox** is our first Machine Learning experiment.
-
-You'll be able to add **Titles** to the timeline, to trigger Machine Learning actions such as:
-
-- **SUBTITLES** - Analyses the audio and adds subtitles
-- **NARRATION** - Turns text into speech in a narration tone
-- **VOICE** - Turns text into speech based on your description
-- **GRADE** - Adds Color Effects based on your description
-- **MUSIC** - Adds stock music or machine learning generated music based on your description
-- **SFX** - Adds sound effects from places like FreeSound.org
-- **VIDEO** - Adds machine learning generated video based on your description
-
-Magic Toolbox will use existing services like [ChatGPT](https://chat.openai.com) and [ElevenLabs](https://beta.elevenlabs.io) - and it'll be BYO API Key (subject to Apple's approval).
-
-![](/static/magic-toolbox.jpg)
+{{ include "latenite/in-development" }}

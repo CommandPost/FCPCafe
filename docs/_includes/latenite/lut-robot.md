@@ -14,4 +14,4 @@ You can select a specific sub-folder within your Camera LUTs folder to scan.
 
 This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.
 
-[!button text="Visit Website" target="blank" variant="info"](https://lutrobot.pro)
+[!button text="Visit Website" target="blank" variant="info"](https://lutrobot.fcp.cafe)

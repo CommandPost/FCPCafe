@@ -1,5 +1,127 @@
 # 2025
+## June
+
+{{ include "news/20250623" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250623/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-01.md" }}
+
+---
+
+{{ include "news/20250617" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250617/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
+{{ include "news/20250616" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250616/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
+{{ include "news/20250615" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250615/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
+
+---
+
+{{ include "news/20250614" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250614/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
+{{ include "news/20250610" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250610/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
+{{ include "news/20250605" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250605/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
+
+---
+
+{{ include "news/20250604" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250604/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
+{{ include "news/20250603" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250603/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-03.md" }}
+
+---
+
+{{ include "news/20250602" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250602/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-04.md" }}
+
+---
+
 ## May
+
+{{ include "news/20250530" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250530/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-02.md" }}
+
+---
+
+{{ include "news/20250529" }}
+
+[!button text="Discuss this news item" variant="info"](news/20250529/#discuss-this-page)
+
+---
+
+{{ include "sponsors/sponsor-03.md" }}
+
+---
 
 {{ include "news/20250527" }}
 
@@ -7,7 +129,7 @@
 
 ---
 
-{{ include "sponsors/sponsor-01.md" }}
+{{ include "sponsors/sponsor-04.md" }}
 
 ---
 

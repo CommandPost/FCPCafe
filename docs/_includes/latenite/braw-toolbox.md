@@ -22,7 +22,7 @@ You can also use the Workflow Extension to send your project/timeline to DaVinci
 
 BRAW Toolbox requires Final Cut Pro 10.6.5 or later.
 
-[!button text="Visit Website" target="blank" variant="info"](https://brawtoolbox.io)
+[!button text="Visit Website" target="blank" variant="info"](https://brawtoolbox.fcp.cafe)
 
 ---
 

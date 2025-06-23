@@ -1,11 +1,14 @@
 name: Update FCP Cafe Website & Publish to GitHub Pages
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'docs/**'
     tags:
       - '*'
   pull_request:
@@ -130,6 +133,8 @@ jobs:
     name: Publish to retype branch
     needs: generate_markdown_and_rss
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -142,27 +147,18 @@ jobs:
           name: docs
           path: docs/
 
-      - uses: actions/setup-dotnet@v1
+      - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 7.0.x
+          dotnet-version: 9.0.x
 
       - name: Build and publish using Retype
         uses: retypeapp/action-build@latest
         with:
-          license: ${{ secrets.RETYPE_SECRET }}
+          verbose: true
+        env:
+          RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
-
-      - name: Purge Cloudflare Pages build cache
-        env:
-          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CF_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
-          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          curl -X POST \
-            "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/pages/projects/${CF_PROJECT_NAME}/purge_build_cache" \
-            -H "Authorization: Bearer ${CF_API_TOKEN}" \
-            -H "Content-Type: application/json"

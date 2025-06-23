@@ -14,13 +14,13 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 18th May 2025
+**Last Updated:** 30th May 2025
 
-For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.1** is rock solid.
+For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.1.1** is rock solid.
 
-We've been using **Final Cut Pro 11.1** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
+We've been using **Final Cut Pro 11.1.1** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
 
-If you're currently on **Final Cut Pro 11.0.1**, you can safely update to **Final Cut Pro 11.1**.
+If you're currently on **Final Cut Pro 11.0.1** or **Final Cut Pro 11.1**, you can safely update to **Final Cut Pro 11.1.1**.
 
 **Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
@@ -35,6 +35,33 @@ If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma*
 If you're on **macOS Sonoma** - you should be fine to update to **macOS Sequoia**.
 
 You can read full answers below...
+
+---
+
+## Final Cut Pro 11.1.1
+
+Final Cut Pro 11.1.1 was released on 22nd May 2025.
+
+So far, the general feedback has been very positive. If you're currently on Final Cut Pro 11.0 or later then you should be safe to update.
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | No Known Issues                                                                                         |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | No Known Issues                                                                                         |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | No Known Issues                                                                                         |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 

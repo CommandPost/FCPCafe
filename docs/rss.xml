@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 27 May 2025 11:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 04:31:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 27 May 2025 11:02:11 GMT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 04:31:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -59,7 +59,7 @@
 <li><a href="https://www.youtube.com/watch?v=VpwUN5o_3mo">Six Colors - Hands on with Final Cut Pro for iPad (32mins)</a></li>
 <li><a href="https://www.youtube.com/watch?v=r4QCQ7qGsL4">The Verge - Final Cut Pro for iPad review: still rendering (10mins)</a></li>
 </ul>
-<p>Chris at <a href="https://latenitefilms.com">LateNite</a> has also announced <a href="https://transfertoolbox.io">Transfer Toolbox</a> on <a href="https://twitter.com/chrisatlatenite/status/1661610054292758529">Twitter</a>, allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.</p>
+<p>Chris at <a href="https://latenitefilms.com">LateNite</a> has also announced <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a> on <a href="https://twitter.com/chrisatlatenite/status/1661610054292758529">Twitter</a>, allowing you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects.</p>
 <p>He also discovered that Final Cut Pro (for iPad) <a href="https://twitter.com/chrisatlatenite/status/1661697912202743809">can actually read files from an external SSD</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#26th-may-2023</link>
@@ -101,16 +101,16 @@
         </item>
         <item>
             <title><![CDATA[29th May 2023]]></title>
-            <description><![CDATA[<p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has updated the pricing for <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> &amp; <a href="https://markertoolbox.io">Marker Toolbox</a>.</p>
+            <description><![CDATA[<p>Chris at <a href="https://latenitefilms.com/technology/">LateNite</a> has updated the pricing for <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a> &amp; <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a>.</p>
 <ul>
-<li><strong><a href="https://brawtoolbox.io">BRAW Toolbox</a></strong> is now <strong>79.99</strong> in your local currency (i.e. <strong>AUD79.99</strong>, <strong>USD79.99</strong>, <strong>CAD79.99</strong>).</li>
-<li><strong><a href="https://markertoolbox.io">Marker Toolbox</a></strong> is now <strong>19.99</strong> in your local currency (i.e. <strong>AUD19.99</strong>, <strong>USD19.99</strong>, <strong>CAD19.99</strong>).</li>
-<li><strong><a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
+<li><strong><a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a></strong> is now <strong>79.99</strong> in your local currency (i.e. <strong>AUD79.99</strong>, <strong>USD79.99</strong>, <strong>CAD79.99</strong>).</li>
+<li><strong><a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a></strong> is now <strong>19.99</strong> in your local currency (i.e. <strong>AUD19.99</strong>, <strong>USD19.99</strong>, <strong>CAD19.99</strong>).</li>
+<li><strong><a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
 </ul>
 <p>Their upcoming apps will have the same pricing model:</p>
 <ul>
-<li><strong><a href="https://recalltoolbox.io">Recall Toolbox</a></strong> is now <strong>29.99</strong> in your local currency (i.e. <strong>AUD29.99</strong>, <strong>USD29.99</strong>, <strong>CAD29.99</strong>).</li>
-<li><strong><a href="https://transfertoolbox.io">Transfer Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
+<li><strong><a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a></strong> is now <strong>29.99</strong> in your local currency (i.e. <strong>AUD29.99</strong>, <strong>USD29.99</strong>, <strong>CAD29.99</strong>).</li>
+<li><strong><a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a></strong> is now <strong>4.99</strong> in your local currency (i.e. <strong>AUD4.99</strong>, <strong>USD4.99</strong>, <strong>CAD4.99</strong>).</li>
 </ul>
 <p>However, for example, if your country doesn't have an equivalent of 4.99 (i.e. Rp89,000 in Indonesia), it will default to a USD$4.99 equivalent.</p>
 <p>Transfer Toolbox is currently waiting for approval on the Mac App Store, but you can download from TestFlight.</p>
@@ -131,7 +131,7 @@
         </item>
         <item>
             <title><![CDATA[30th May 2023]]></title>
-            <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.io">TestFlight</a>.</p>
+            <description><![CDATA[<p><strong>Recall Toolbox</strong> is now available for early beta testing on <a href="https://recalltoolbox.fcp.cafe">TestFlight</a>.</p>
 <p>Recall Toolbox is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.</p>
 <p>Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.</p>
 ]]></description>
@@ -337,7 +337,7 @@ I will follow up with a decent case study on this site in a few days. Stay tuned
             <title><![CDATA[6th June 2023]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox v1.1.3</strong> is out now with a re-designed <strong>Relink BRAW Clips within an LIBRARY / EVENT / PROJECT</strong> Toolbox!</p>
 <p>Learn more <a href="https://brawtoolbox.io/toolbox/#relink-braw-clips-within-an-library--event--project">about Relink BRAW Clips</a>.</p>
-<p>You can buy <a href="https://brawtoolbox.io">BRAW Toolbox</a>.</p>
+<p>You can buy <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-june-2023</link>
             <guid isPermaLink="false">6th June 2023</guid>
@@ -594,7 +594,7 @@ Saturday June 17th @ 3:30pm</p>
         </item>
         <item>
             <title><![CDATA[14th June 2023]]></title>
-            <description><![CDATA[<p><strong>BRAW Toolbox</strong> v1.1.4 (51) is <a href="https://brawtoolbox.io">now available</a> on the Mac App Store.</p>
+            <description><![CDATA[<p><strong>BRAW Toolbox</strong> v1.1.4 (51) is <a href="https://brawtoolbox.fcp.cafe">now available</a> on the Mac App Store.</p>
 <p>Thanks to the help and support of the awesome Final Cut Pro team, we finally have a workaround to the Synchronised Clips bug.</p>
 <p>Previously, Synchronised Clips could cause random glitches during playback, and produce unexpected results in some, but not all, cases.</p>
 <p>As a result, in BRAW Toolbox v1.1.1 we made <strong>Create Multicam Clips</strong> the default option as a workaround to this issue.</p>
@@ -678,7 +678,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[16th June 2023]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox 1.2.0 (52)</strong> is out now!</p>
 <p>It has added support for Fujifilm X-S20 Blackmagic RAW clips, and the Blackmagic RAW SDK has been updated from v3.1 to v3.2.</p>
-<p>You can download and learn more from <a href="https://brawtoolbox.io">BRAW Toolbox</a>.</p>
+<p>You can download and learn more from <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 <p><img src="/static/braw-toolbox.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#16th-june-2023</link>
@@ -719,7 +719,7 @@ Saturday June 17th @ 3:30pm</p>
             <description><![CDATA[<p><strong>Transfer Toolbox v1.0.2</strong> has been released for <strong>free</strong> on GitHub!</p>
 <p>Transfer Toolbox allows you to convert <strong>Final Cut Pro (for Mac) Libraries</strong> into <strong>Final Cut Pro (for iPad) Projects</strong>.</p>
 <p>You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.</p>
-<p>Learn more and <a href="https://transfertoolbox.io"><strong>download Transfer Toolbox for free</strong></a>.</p>
+<p>Learn more and <a href="https://transfertoolbox.fcp.cafe"><strong>download Transfer Toolbox for free</strong></a>.</p>
 <p>The Transfer Toolbox icon was designed by <a href="https://matthewskiles.com">Matthew Skiles</a>.</p>
 <p><img src="/static/transfer-toolbox-about.png" alt=""></p>
 ]]></description>
@@ -771,7 +771,7 @@ Saturday June 17th @ 3:30pm</p>
 <ul>
 <li>The Workflow Extension now gracefully aborts (instead of crashing), and shows an error message if a BRAW clip is corrupt, and the metadata can't be read. Thanks for reporting Dominik Radecki!</li>
 </ul>
-<p>You can learn more from <a href="https://brawtoolbox.io">BRAW Toolbox</a>.</p>
+<p>You can learn more from <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-june-2023</link>
             <guid isPermaLink="false">22nd June 2023</guid>
@@ -784,7 +784,7 @@ Saturday June 17th @ 3:30pm</p>
 <ul>
 <li>We've added a bunch of additional checks to the FxPlug4 Renderer, to ensure that all objects received from the Blackmagic RAW SDK are valid and correct to avoid any potential crashes due to referencing null pointers. Thanks for reporting Dominik Radecki! Big thanks to the Blackmagic RAW team and Final Cut Pro team for all their help and support!</li>
 </ul>
-<p>You can learn more from <a href="https://brawtoolbox.io">BRAW Toolbox</a>.</p>
+<p>You can learn more from <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-june-2023</link>
             <guid isPermaLink="false">22nd June 2023</guid>
@@ -818,7 +818,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>Adds Resolve EDL Export</li>
 <li>Adds support for Frame.io's <code>FIOJSON</code> files</li>
 </ul>
-<p>Learn more <a href="https://markertoolbox.io">about Marker Toolbox</a>.</p>
+<p>Learn more <a href="https://markertoolbox.fcp.cafe">about Marker Toolbox</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-june-2023</link>
             <guid isPermaLink="false">22nd June 2023</guid>
@@ -860,7 +860,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>We moved the OpenAI API key into the Settings panel, and added a &quot;Validate&quot; button so that you can check that the API key is valid.</li>
 <li>All settings are now saved between the main application and the Final Cut Pro Workflow Extension, meaning that if you change a setting in the Workflow Extension, it will also change in the main application and vice versa.</li>
 </ul>
-<p>Learn more <a href="https://markertoolbox.io">about Marker Toolbox</a>.</p>
+<p>Learn more <a href="https://markertoolbox.fcp.cafe">about Marker Toolbox</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#30th-june-2023</link>
             <guid isPermaLink="false">30th June 2023</guid>
@@ -949,7 +949,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[12th July 2023]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox v1.3.0</strong> is out now!</p>
 <p>It has added support for <strong>Panasonic Lumix GH6</strong> Blackmagic RAW clips.</p>
-<p>You can learn more from <a href="https://brawtoolbox.io">BRAW Toolbox</a>.</p>
+<p>You can learn more from <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 <p><img src="/static/brawtoolbox-1-3-0.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#12th-july-2023</link>
@@ -1079,7 +1079,7 @@ Saturday June 17th @ 3:30pm</p>
 <p><img src="/static/fcpx-10-6-7-bug.png" alt=""></p>
 <p>This could be a deal breaker if you're using a Motion Template that uses this technique to hide things. Luckily none of the Motion Templates I used today had any issues.</p>
 <p>It's also worth nothing that <strong>Final Cut Pro 10.6.7 (for Mac)</strong> uses a newer Library format than <strong>Final Cut Pro 1.1 (for iPad)</strong>.</p>
-<p>This means that if you want to use <a href="https://transfertoolbox.io">Transfer Toolbox</a> to go from Mac to iPad, you should keep using <strong>Final Cut Pro 10.6.6 (for Mac)</strong>.</p>
+<p>This means that if you want to use <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a> to go from Mac to iPad, you should keep using <strong>Final Cut Pro 10.6.6 (for Mac)</strong>.</p>
 <p>My suggestion would be to stick with Final Cut Pro 10.6.6 for now, and wait for another bug fix in a few weeks time.</p>
 <p>Chris @ LateNite</p>
 ]]></description>
@@ -1234,8 +1234,8 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[4th August 2023]]></title>
             <description><![CDATA[<p><strong>Gyroflow Toolbox v1.1.0</strong> is out now!</p>
 <p>I've dramatically improved the user interface to make it much easier, faster and more powerful.</p>
-<p>You can now just drag &amp; drop clips from the Final Cut Pro Browser to the Effects Inspector, including <a href="https://brawtoolbox.io">BRAW Toolbox</a> clips!</p>
-<p>Learn more and <a href="https://gyroflowtoolbox.io">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
+<p>You can now just drag &amp; drop clips from the Final Cut Pro Browser to the Effects Inspector, including <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> clips!</p>
+<p>Learn more and <a href="https://gyroflowtoolbox.fcp.cafe">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
 <p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#4th-august-2023</link>
@@ -1262,7 +1262,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>Fixed an issue where a Gyroflow Project could fail to reload correctly after restarting Final Cut Pro due to FxPlug4 incorrectly HTML decoding the string value. We solve this by now base64 encoding the Gyroflow Project in FxPlug4.</li>
 </ul>
 <p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
-<p>Learn more and <a href="https://gyroflowtoolbox.io">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
+<p>Learn more and <a href="https://gyroflowtoolbox.fcp.cafe">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
 <p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#6th-august-2023</link>
@@ -1311,7 +1311,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>Fixed a bug that could cause a memory leak. Thanks for reporting Денис Глушков!</li>
 </ul>
 <p>Thanks to everyone who has purchased, downloaded and tested the latest Gyroflow Toolbox updates! The response has been awesome!</p>
-<p>Learn more and <a href="https://gyroflowtoolbox.io">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
+<p>Learn more and <a href="https://gyroflowtoolbox.fcp.cafe">buy Gyroflow Toolbox on the Mac App Store</a>.</p>
 <p><img src="/static/gyroflow-toolbox-1-1-0.jpg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#10th-august-2023</link>
@@ -1532,7 +1532,7 @@ Saturday June 17th @ 3:30pm</p>
 <li>Fixed a bug where the stabilisation wouldn't load correctly after importing a clip or Gyroflow Project into Final Cut Pro until after you modified a parameter or toggled the Stabilisation Overview. Thanks for reporting JoneyMacaroney and JLPG!</li>
 <li>Fixed a bug where the Gyroflow Toolbox version information at the top of the Final Cut Pro Inspector was incorrect. Thanks for reporting JoneyMacaroney and JLPG!</li>
 </ul>
-<p>You can learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://gyroflowtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-september-2023</link>
             <guid isPermaLink="false">7th September 2023</guid>
@@ -1564,7 +1564,7 @@ Saturday June 17th @ 3:30pm</p>
             <title><![CDATA[9th September 2023]]></title>
             <description><![CDATA[<p>Development of <strong>Recall Toolbox</strong> has ramped up again. We hope to have it ready to ship on the Mac App Store by the end of the month.</p>
 <p><img src="/static/recall-toolbox-sep-2023.jpg" alt=""></p>
-<p>You can learn more and download a TestFlight build <a href="https://recalltoolbox.io">here</a>.</p>
+<p>You can learn more and download a TestFlight build <a href="https://recalltoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#9th-september-2023</link>
             <guid isPermaLink="false">9th September 2023</guid>
@@ -1666,7 +1666,7 @@ Sign up to be the first to know 👉🏻</p>
 <li>Added support for Fujifilm GFX100 II Blackmagic RAW clips.</li>
 <li>Updated from Blackmagic RAW SDK v3.3 to v3.4.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 <p><img src="/static/braw-toolbox-v1-3-1.png" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#15th-september-2023</link>
@@ -1968,7 +1968,7 @@ Our algorithms have undergone training using an extensive array of languages. Th
 <li>Updated from FxPlug 4.2.7 to FxPlug 4.2.8.</li>
 <li>The wrapper application now quits when you close the main window.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-october-2023</link>
             <guid isPermaLink="false">7th October 2023</guid>
@@ -2704,7 +2704,7 @@ mTracker 3D 2.0.2: Improved macOS Sonoma compatibility, minor bug and crash fixe
 <ul>
 <li>In the previous BRAW Toolbox v1.3.3 (59) release, we made some major under-the-hood changes to improve playback performance (such as only using one shared instance of the BRAW SDK Factory). Unfortunately however, those changes resulted in the BRAW SDK not releasing used threads correctly, and as the thread count grew, eventually the BRAW Toolbox Renderer would stop working correctly in Final Cut Pro. This would only really happen on older machines, and Libraries with hundreds of BRAW clips. We've now reverted back to how we were doing things in v1.3.2 (57) and earlier, with some additional checks and protections. We will continue to research and explore ways we can improve playback performance, so that the export times of timelines with BRAW clips in Final Cut Pro get closer to what you see in DaVinci Resolve.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#15th-november-2023</link>
             <guid isPermaLink="false">15th November 2023</guid>
@@ -2873,7 +2873,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>Whilst <a href="https://commandpost.io">CommandPost</a> has had a Shared Pasteboard &amp; Pasteboard Buffers for years, it's really optimised for Control Surfaces. You can access the Shared Pasteboard from the CommandPost menubar, and it is super powerful, but it's not as visual - you just get text, not a fully customisable thumbnail.</p>
 <p>Recall Toolbox feels like a natural extension to Final Cut Pro, with a similar look and feel to Final Cut Pro's Effects Browser.</p>
 <p>It's <strong>29.99</strong> in your local currency (i.e. AUD29.99, USD29.99, CAD29.99).</p>
-<p>You can find out more <a href="https://recalltoolbox.io">here</a>.</p>
+<p>You can find out more <a href="https://recalltoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-november-2023</link>
             <guid isPermaLink="false">22nd November 2023</guid>
@@ -3002,7 +3002,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
         <item>
             <title><![CDATA[2nd December 2023]]></title>
             <description><![CDATA[<p>Since its release yesterday, we've been busy testing and exploring Final Cut Pro 10.7.</p>
-<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> or <a href="https://fastcollections.io/">Fast Collections</a>.</p>
+<p>So far we haven't found any issues or problems with Final Cut Pro 10.7 and <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a>, <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a>, <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> or <a href="https://fastcollections.io/">Fast Collections</a>.</p>
 <p>If you haven't already, you can read all the release notes in <a href="/news/20231201">yesterday's post</a>.</p>
 <p>It's worth noting that <strong>Pro Video Formats</strong> &amp; <strong>FxPlug SDK</strong> also got an update. The <strong>Workflow Extensions</strong> SDK did not.</p>
 <p>There's lots of great videos out there talking about this update, such as:</p>
@@ -3070,8 +3070,8 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p>The <a href="/ecosystem/tools/#backups-for-final-cut-pro">Backups for Final Cut Pro</a> application is also highly regarded for automating library backups.</p>
 <p>Interestingly, Final Cut Pro for iPad v1.3 also uses the <code>1090</code> database format - so Final Cut Pro for Mac and iPad are once again in version parity.</p>
 <p><s>Unfortunately for us, Final Cut Pro for iPad has become less interesting after Apple prevented <strong>Transfer Toolbox</strong> from working - which was our solution to get from Mac to iPad.</s></p>
-<p><s>We've since stopped developing Transfer Toolbox for now - you can read more about this decision in more detail <a href="https://transfertoolbox.io">here</a>.</s></p>
-<p><strong>UPDATE (3rd Dec 2023):</strong> After writing this news entry, we've since brought back Transfer Toolbox to life with Final Cut Pro 10.7 support. You can learn more <a href="https://transfertoolbox.io">here</a>.</p>
+<p><s>We've since stopped developing Transfer Toolbox for now - you can read more about this decision in more detail <a href="https://transfertoolbox.fcp.cafe">here</a>.</s></p>
+<p><strong>UPDATE (3rd Dec 2023):</strong> After writing this news entry, we've since brought back Transfer Toolbox to life with Final Cut Pro 10.7 support. You can learn more <a href="https://transfertoolbox.fcp.cafe">here</a>.</p>
 <p>Our big hope/dream with Final Cut Pro for iPad was to use it for doing director/client/agency selects, and then send those selects to the Mac, but ideally we want to do all the prep work on Mac - i.e. syncing everything with Sync-N-Link, etc.</p>
 <p>You can easily get from Final Cut Pro on iPad to Mac, so we're now exploring ways to take the selects from iPad and translate them across to Multicam Clips created in Sync-N-Link (for example).</p>
 <p>The fact that you can now import <strong>iMovie for iOS</strong> projects into Final Cut Pro for iPad might be a hint that native Mac to iPad is also on their radar/wish-list.</p>
@@ -3176,7 +3176,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <p><img src="/static/transfer-toolbox-1-1-0.jpg" alt=""></p>
 <p>We've updated Transfer Toolbox so that it now works with <strong>Final Cut Pro 10.7</strong> and <strong>Final Cut Pro 1.3 (for iPad)</strong>.</p>
 <p>You can now transfer Final Cut Pro libraries from your Mac to your iPad for free!</p>
-<p>You can learn more and download <a href="https://transfertoolbox.io">here</a>.</p>
+<p>You can learn more and download <a href="https://transfertoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#3rd-december-2023</link>
             <guid isPermaLink="false">3rd December 2023</guid>
@@ -3254,7 +3254,7 @@ And of course, Blip works regardless of the tool you use, be it Final Cut Pro, A
 <ul>
 <li>Fixed a potential crash when pressing the <strong>Remove Selected</strong> button in the Workflow Extension.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#6th-december-2023</link>
             <guid isPermaLink="false">6th December 2023</guid>
@@ -3704,9 +3704,9 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 <p>From a developers perspective, a Workflow Extension is basically just a <strong>custom view</strong> that you can put whatever you like inside it.</p>
 <p>When you drag something from the Final Cut Pro Browser to any text box (i.e. TextEdit), what it's actually dragging is FCPXML data (try it yourself to see).</p>
 <p>Because of this, you can easily drag objects from the Final Cut Pro Browser to your Workflow Extension, and vice versa.</p>
-<p>For example, in <a href="https://markertoolbox.io">Marker Toolbox</a> you can drag your markers from the Workflow Extension back into your Final Cut Pro timeline as a Compound Clip (drag the green icon):</p>
+<p>For example, in <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a> you can drag your markers from the Workflow Extension back into your Final Cut Pro timeline as a Compound Clip (drag the green icon):</p>
 <p><img src="/static/marker-toolbox-workflow-extension.png" alt=""></p>
-<p>In <a href="https://brawtoolbox.io">BRAW Toolbox</a> once you've imported all your BRAW footage, you can drag an <strong>Event</strong> from the Workflow Extension back into your <strong>Library</strong>:</p>
+<p>In <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> once you've imported all your BRAW footage, you can drag an <strong>Event</strong> from the Workflow Extension back into your <strong>Library</strong>:</p>
 <p><img src="/static/braw-toolbox-workflow-extension.png" alt=""></p>
 <p>You can also drag <strong>Libraries</strong>, <strong>Events</strong> and <strong>Projects</strong> back into the Workflow Extension via the Toolbox at the bottom of the user interface, for doing things like exporting a FCPXML for DaVinci Resolve.</p>
 <p>You can also trigger a limited number of things via the Workflow Extension API.</p>
@@ -3747,7 +3747,7 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 <p>Essentially though... FxPlug is basically just <strong>Filters</strong> &amp; <strong>Generators</strong> for Apple Motion:</p>
 <p><img src="/static/motion-filters-and-generators.jpeg" alt=""></p>
 <p>You can't <strong>directly</strong> use a FxPlug in Final Cut Pro - you need to make an Apple Motion template that uses it.</p>
-<p><a href="https://brawtoolbox.io">BRAW Toolbox</a> and <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> both use FxPlug under the hood.</p>
+<p><a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> and <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a> both use FxPlug under the hood.</p>
 <p>Here's a look at the BRAW Toolbox Motion Template:</p>
 <p><img src="/static/braw-toolbox-motion.png" alt=""></p>
 <p>Here's a look at the Gyroflow Toolbox Motion Template:</p>
@@ -3899,7 +3899,7 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
 <ul>
 <li>Fixed a potential crash that we've been trying to solve for ages. On SOME systems (specifically systems with Mac2 family GPUs), Apple's Metal Framework would generate a Metal Texture that the Metal Performance Shader in the Mac couldn't actually work with, causing a crash deep within Apple's code. It was very hard to reproduce, as it only happened on certain systems - and none of ours. HUGE thank you to Apple Developer Technical Support, the Final Cut Pro Team, AdrianEddy and Warren Moore for all their constant and on-going help, assistance, guidance, patience and support!</li>
 </ul>
-<p>You can learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://gyroflowtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#16th-december-2023</link>
             <guid isPermaLink="false">16th December 2023</guid>
@@ -3945,7 +3945,7 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
 <p>It gives you <strong>25 text layers</strong> that you can populate with whatever metadata you want. You can full control over the text formatting.</p>
 <p>You can even stack multiple Metaburner Pro Titles on top of each other for UNLIMITED titles!</p>
 <p>You can import your Final Cut Pro project/timeline back into the Metaburner Pro Title via a drop zone, so Metaburner Pro has full access to everything that's in the FCPXML.</p>
-<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
+<p>You can learn more <a href="https://metaburner.fcp.cafe">here</a>.</p>
 <p><img src="/static/metaburner-pro-screenshot.jpeg" alt=""></p>
 ]]></description>
             <link>https://fcp.cafe/#18th-december-2023</link>
@@ -3976,7 +3976,7 @@ params.timestamp                = [[[NSNumber alloc] initWithFloat:timestamp] au
 <ul>
 <li>Updated from Blackmagic RAW SDK <code>v3.6</code> to <code>v3.6.1</code>.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#19th-december-2023</link>
             <guid isPermaLink="false">19th December 2023</guid>
@@ -4189,7 +4189,7 @@ Check out end-of-the-year deals👇
             <description><![CDATA[<p>Welcome to the first news post on FCP Cafe for 2024! Woohoo!</p>
 <p>I know we're already 19 days into 2024, however rest assured, it's already been a very busy and exciting start to the year for the Final Cut Pro community!</p>
 <p>For starters, we've just added a <strong>new case study</strong> about the <a href="/case-studies/blood-and-gold-vfx/">Blood &amp; Gold VFX Workflow</a>.</p>
-<p>We've also already released <strong>32 beta builds</strong> of our latest app, <a href="https://metaburner.pro">Metaburner</a> on FxFactory.</p>
+<p>We've also already released <strong>32 beta builds</strong> of our latest app, <a href="https://metaburner.fcp.cafe">Metaburner</a> on FxFactory.</p>
 <p>Why FxFactory? You can read more about our decision <a href="https://metaburner.pro/faq/#why-fxfactory">here</a>.</p>
 <p>For anyone who missed it, <strong>Metaburner</strong> is an Advanced Metadata Generator for Final Cut Pro.</p>
 <p>It's a serious high-end professional tool, used by high-end feature film and television editors on projects for Netflix, etc.</p>
@@ -4233,23 +4233,23 @@ You can download Metaburner via FxFactory <a href="https://fxfactory.com/install
 <p>In other exciting news <a href="https://commandpost.io">CommandPost</a> has now been downloaded over <strong>200K</strong> times!</p>
 <p>We've already pushed out two CommandPost updates in January 2024, and managed to do 8 updates in 2023. We'll continue to build-on and improve CommandPost this year.</p>
 <p>It's pretty amazing to think that 2023 was also the first year we took the plunge into developing paid applications.</p>
-<p>On <strong>30th January 2023</strong> we released <a href="https://brawtoolbox.io">BRAW Toolbox</a> onto the Mac App Store - our first paid application.</p>
+<p>On <strong>30th January 2023</strong> we released <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> onto the Mac App Store - our first paid application.</p>
 <p>There were LOTS of very smart people that told me that adding native BRAW support to Final Cut Pro would be impossible, but we made it happen, and BRAW Toolbox has now been downloaded over <strong>1.98K</strong> times.</p>
-<p>Next up, with the support of the incredible <a href="https://github.com/AdrianEddy">AdrianEddy</a>, we brought <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a> to the world. It's now been downloaded over <strong>1.36K</strong> times.</p>
-<p>We then brought <a href="https://markertoolbox.io">Marker Toolbox</a> to the world. It's now been downloaded 112 times - which is a shame because it's so darn handy! If you haven't already tried it, please look into it.</p>
-<p><a href="https://recalltoolbox.io">Recall Toolbox</a> is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard. Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store. It's only been download 24 times, however those 24 users are extremely passionate about it, and seem to really love it.</p>
-<p><a href="https://fastcollections.io">Fast Collections</a> is a Final Cut Pro Workflow Extension that allows you to quickly create a Smart Collection from a list of Keywords.</p>
+<p>Next up, with the support of the incredible <a href="https://github.com/AdrianEddy">AdrianEddy</a>, we brought <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a> to the world. It's now been downloaded over <strong>1.36K</strong> times.</p>
+<p>We then brought <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a> to the world. It's now been downloaded 112 times - which is a shame because it's so darn handy! If you haven't already tried it, please look into it.</p>
+<p><a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard. Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store. It's only been download 24 times, however those 24 users are extremely passionate about it, and seem to really love it.</p>
+<p><a href="https://fastcollections.fcp.cafe">Fast Collections</a> is a Final Cut Pro Workflow Extension that allows you to quickly create a Smart Collection from a list of Keywords.</p>
 <p>When you're working on massive long-form projects, such as feature-length documentaries with hundreds of clips and thousands of keywords, the Final Cut Pro interface can grind to a halt when using the built-in Smart Collection panel.</p>
 <p>This simple Workflow Extension allows you to create a new Smart Collection, using a list of supplied keywords within seconds, rather than minutes.</p>
 <p>If you have thousands of keywords across many events, it can take a long time to create a new Smart Collection with your preferred keywords directly within Final Cut Pro - but with Fast Collections, it can now take seconds.</p>
 <p>You can also Generate a list of sequential numbers, for example, Scene 01, Scene 02, Scene 03, etc. This is very handy for long-form projects.</p>
 <p>To be honest, we originally only built this application, to help out a single documentary filmmaker, but it's since been downloaded 19 times.</p>
 <p>To make it cheaper and easier to purchase our Mac App Store Apps, we also introduced a bundle.</p>
-<p>For only <strong>USD$100</strong> (save USD$49.95!), you can now buy <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> &amp; <a href="https://fastcollections.io">Fast Collections</a> as a bundle!</p>
+<p>For only <strong>USD$100</strong> (save USD$49.95!), you can now buy <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a>, <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a>, <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> &amp; <a href="https://fastcollections.fcp.cafe">Fast Collections</a> as a bundle!</p>
 <p>The Mac App Store also supports <strong>Complete My Bundle</strong> - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.</p>
 <p>You can find the bundle on the Mac App Store <a href="https://itunes.apple.com/us/app-bundle/id1717681153?mt=12">here</a>.</p>
 <p><img src="/static/pro-editor-bundle.jpg" alt=""></p>
-<p>In addition to our paid apps, we also updated <a href="https://transfertoolbox.io">Transfer Toolbox</a>.</p>
+<p>In addition to our paid apps, we also updated <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a>.</p>
 <p>Transfer Toolbox allows you to convert <strong>Final Cut Pro 10.7.1 (for Mac) Libraries</strong> into <strong>Final Cut Pro 1.3 (for iPad) Projects</strong>.</p>
 <p>Transfer Toolbox has been downloaded over <strong>579</strong> times.</p>
 <p>We also made a free little helper tool to <a href="https://github.com/CommandPost/RenameAvidMXFFiles">Rename Avid MXF Files</a>.</p>
@@ -4374,7 +4374,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <li>Added separate content fields for Markers with Marker Type. Thanks for suggesting Sam Pluemacher!</li>
 <li>Added Stabilisation Content Fields. Thanks for suggesting Matthieu Laclau!</li>
 </ul>
-<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
+<p>You can learn more <a href="https://metaburner.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-january-2024</link>
             <guid isPermaLink="false">20th January 2024</guid>
@@ -4467,7 +4467,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <li>Metaburner now correctly renders when in <strong>Half Resolution</strong> in Apple Motion and <strong>Better Performance</strong> in Final Cut Pro.</li>
 <li>Final Cut Pro now allows you to copy and paste the Metaburner Title. Thanks for reporting Sam Pluemacher!</li>
 </ul>
-<p>You can learn more <a href="https://metaburner.pro">here</a>.</p>
+<p>You can learn more <a href="https://metaburner.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24rd-january-2024</link>
             <guid isPermaLink="false">24rd January 2024</guid>
@@ -4543,7 +4543,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>For example, if you're working on <strong>Final Cut Pro 10.7</strong>, but you have an online artist on an older Autodesk Flame, you can convert from FCPXML <code>v1.11</code> to <code>v1.9</code>.</p>
 <p>Or if you have an old FCPXML in your archives, you can upgrade from <code>v1.8</code> to <code>v1.10</code>.</p>
 <p>Because Capacitor ensures it outputs FCPXML following Apple's strict DTD rules, you can also use Capacitor to &quot;clean&quot; FCPXMLs.</p>
-<p>You can learn more <a href="https://capacitor.pro">here</a>.</p>
+<p>You can learn more <a href="https://capacitor.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#31st-january-2024</link>
             <guid isPermaLink="false">31st January 2024</guid>
@@ -4729,7 +4729,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>Capacitor was coded and created by <a href="https://github.com/randomeizer">David Peterson</a>.</p>
 <p>The Capacitor icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
 <p>The Capacitor icon animation was animated by <a href="http://www.mikegreaney.com">Mike Greaney</a>.</p>
-<p>You can learn more and download <a href="https://capacitor.pro">here</a>.</p>
+<p>You can learn more and download <a href="https://capacitor.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#26th-february-2024</link>
             <guid isPermaLink="false">26th February 2024</guid>
@@ -5016,7 +5016,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <ul>
 <li>When clicking &quot;Prepare BRAW Files&quot;, you'll now get an error message if the Audio Folder is currently in the Trash. Thanks for reporting Mark Terry!</li>
 </ul>
-<p>You can learn more and download <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more and download <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24th-april-2024</link>
             <guid isPermaLink="false">24th April 2024</guid>
@@ -5029,7 +5029,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <ul>
 <li>Fixed support for the latest Vimeo CSV format. Thanks for reporting Dave &amp; YevantZ!</li>
 </ul>
-<p>You can learn more and download <a href="https://markertoolbox.io">here</a>.</p>
+<p>You can learn more and download <a href="https://markertoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24th-april-2024</link>
             <guid isPermaLink="false">24th April 2024</guid>
@@ -5125,7 +5125,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>As a beta, some of the existing Frame.io features may not be initially available, but you can be certain that those features—along with NLE integrations and companion apps—are an element of our forward- looking roadmap.</p>
 </blockquote>
 <p>In the meantime however, Marker Toolbox fills that gap for Final Cut Pro users - as you can export a <code>FIOJSON</code> from the website and import it into Marker Toolbox.</p>
-<p>You can learn more about Marker Toolbox <a href="https://markertoolbox.io">here</a>.</p>
+<p>You can learn more about Marker Toolbox <a href="https://markertoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-may-2024</link>
             <guid isPermaLink="false">7th May 2024</guid>
@@ -5167,7 +5167,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p><strong>Smooth Slo-Mo</strong> adds Machine Learning speed effects, which will be very interesting to try out, and see how it compares with <a href="https://www.topazlabs.com/topaz-video-ai">Topaz Video AI</a>.</p>
 <p><img src="/static/smooth-slow-mo.jpg" alt=""></p>
 <p>You can now <strong>Rename Effects in the Video &amp; Color Inspector</strong>! This has something that the Final Cut Pro community have wanted for years - so it's awesome that it's finally coming!</p>
-<p>You can also now drag &amp; drop effects from the Inspector to clips on the timeline and the browser! Hopefully this means you'll also be able to drag them into <a href="https://recalltoolbox.io">Recall Toolbox</a> or save them using <a href="https://commandpost.io">CommandPost's</a> Pasteboard Buffer!</p>
+<p>You can also now drag &amp; drop effects from the Inspector to clips on the timeline and the browser! Hopefully this means you'll also be able to drag them into <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> or save them using <a href="https://commandpost.io">CommandPost's</a> Pasteboard Buffer!</p>
 <p><img src="/static/rename-inspector.jpg" alt=""></p>
 <p>The <strong>Timeline Index</strong> also got some love and attention, with added columns for Metadata Fields such as Reel, Scene, Camera Angle, etc.</p>
 <p>This could be incredibly handy when combined with <a href="https://commandpost.io">CommandPost's</a> Timeline Index CSV Export feature!</p>
@@ -5183,7 +5183,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p><strong>Live Multicam</strong> on Final Cut Pro for iPad 2 allows users to direct and control up to four cameras, providing a director’s view of each live video feed in real time.</p>
 <p><img src="/static/ipad-multicam.jpg" alt=""></p>
 <p>Final Cut Pro for iPad now officially supports <strong>External Storage</strong> - so you can save your Projects &amp; Media on external drives.</p>
-<p>There's no information on whether or not you can go from Mac to iPad yet though, so <a href="https://transfertoolbox.io">Transfer Toolbox</a> may still be necessary.</p>
+<p>There's no information on whether or not you can go from Mac to iPad yet though, so <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a> may still be necessary.</p>
 <p>There's lots <strong>more content</strong>:</p>
 <blockquote>
 <p>Final Cut Pro for iPad 2 brings more options to customize projects. Users can dial in their edits with 12 new color-grading presets, choose from eight basic text titles, score with 20 new soundtracks, and add additional dynamic backgrounds to create effect overlays and title sequences.</p>
@@ -5489,7 +5489,7 @@ Founder, evrApp.cloud, an innovative software project dedicated to improving the
 <p>This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.</p>
 <p>The <strong>LUT Robot</strong> icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
 <p>The FCPXML Processing Engine used under-the-hood was created by <a href="https://github.com/randomeizer/">David Peterson</a>.</p>
-<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+<p>You can learn more <a href="https://lutrobot.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-june-2024</link>
             <guid isPermaLink="false">7th June 2024</guid>
@@ -5604,7 +5604,7 @@ Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be availab
 <p><img src="/static/wwdc-24-compressor.jpg" alt=""></p>
 <p>Last year Apple announced a new framework called <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension</a>, that provides a means for developers to create format readers and video decoders for media that the system doesn’t natively support - such as Blackmagic RAW and Nikon NRAW.</p>
 <p>This was supposed to come in macOS Sonoma, but they silently killed it - but it looks like it's coming back for <strong>macOS Sequoia</strong>.</p>
-<p>This is super interestingly as it means that a third party can finally add codec support for third party codecs that will work system wide (if the host app allows third party codec support) - i.e. Final Cut Pro could potentially finally have native Blackmagic RAW support without the need for <a href="https://brawtoolbox.io">BRAW Toolbox</a>!</p>
+<p>This is super interestingly as it means that a third party can finally add codec support for third party codecs that will work system wide (if the host app allows third party codec support) - i.e. Final Cut Pro could potentially finally have native Blackmagic RAW support without the need for <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>!</p>
 <blockquote>
 <p>Once a user installs and runs the host app, embedded format reader extensions become available to any app on the user’s system that opts in to using them by calling <code>MTRegisterProfessionalVideoWorkflowFormatReaders</code>.</p>
 </blockquote>
@@ -5642,13 +5642,13 @@ Blackmagic URSA Cine Immersive and the update to DaVinci Resolve will be availab
             <description><![CDATA[<p>The <strong>Pro Editor Bundle v2</strong> is out now for <strong>USD$150</strong> (save USD$119.93).</p>
 <p>This bundle on the Mac App Store gives you access to:</p>
 <ul>
-<li><a href="https://brawtoolbox.io">BRAW Toolbox</a></li>
-<li><a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a></li>
-<li><a href="https://markertoolbox.io">Marker Toolbox</a></li>
-<li><a href="https://recalltoolbox.io">Recall Toolbox</a></li>
-<li><a href="https://fastcollections.io">Fast Collections</a></li>
-<li><a href="https://lutrobot.pro">LUT Robot</a></li>
-<li><a href="https://capacitor.pro">Capacitor</a></li>
+<li><a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a></li>
+<li><a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a></li>
+<li><a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a></li>
+<li><a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a></li>
+<li><a href="https://fastcollections.fcp.cafe">Fast Collections</a></li>
+<li><a href="https://lutrobot.fcp.cafe">LUT Robot</a></li>
+<li><a href="https://capacitor.fcp.cafe">Capacitor</a></li>
 </ul>
 <p>The Mac App Store also supports <strong>Complete My Bundle</strong> - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.</p>
 <p>You can find the <strong>Pro Editor Bundle v2</strong> on the Mac App Store <a href="https://itunes.apple.com/us/app-bundle/id1750813030?mt=12">here</a>.</p>
@@ -5751,16 +5751,16 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
 <p><img src="/static/new-library-version.png" alt=""></p>
 <p><em><strong>We strongly recommend making a backup of all Final Cut Pro Libraries before updating them!</strong></em></p>
 <p><strong>Transfer Toolbox v1.2.0</strong> is also out today, allowing you to move Libraries from Final Cut Pro v10.8 to Final Cut Pro 2.0 (for iPad).</p>
-<p>You can learn more and download for free <a href="https://transfertoolbox.io">here</a>.</p>
+<p>You can learn more and download for free <a href="https://transfertoolbox.fcp.cafe">here</a>.</p>
 <p><img src="/static/transfer-toolbox-1-2-0.png" alt=""></p>
 <p><strong>Arctic v24.2.0</strong> is also out today with Final Cut Pro 10.8 support.</p>
 <p>You can learn more <a href="https://hedge.video/arctic">here</a>.</p>
 <p><img src="/static/arctic-24-2-0.png" alt=""></p>
 <p>Sadly, unlike some Final Cut Pro YouTuber's and Trainers, we don't get early access to these Final Cut Pro updates, so we are currently carefully testing and reviewing all these changes, and how they affect our own apps and workflows.</p>
 <p>We will post our test results over on our <a href="/update-guide/">Should I Update?</a> page as we learn new things.</p>
-<p>So far we can confirm that <a href="https://commandpost.io">CommandPost</a> and <a href="https://brawtoolbox.io">BRAW Toolbox</a> both seem to be working great! If you spot any issues, please reach out.</p>
+<p>So far we can confirm that <a href="https://commandpost.io">CommandPost</a> and <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> both seem to be working great! If you spot any issues, please reach out.</p>
 <p>We will aim to add <strong>Color Adjustments</strong> support to CommandPost in the coming weeks, so that you can control all the parameters with your preferred control surface.</p>
-<p><a href="https://capacitor.pro">Capacitor</a> will also be updated soon to support FCPXML v1.12.</p>
+<p><a href="https://capacitor.fcp.cafe">Capacitor</a> will also be updated soon to support FCPXML v1.12.</p>
 <p><strong>Matthew O'Brien</strong> has already reported some weirdness in Final Cut Pro 10.8 on <a href="https://x.com/matthewtobrien/status/1803950906494587247?s=46&amp;t=rAqnb4ykI8KSBTwguvX5fg">Twitter</a>, however we haven't been able to reproduce.</p>
 <p><img src="/static/matthew-obrien-fcp10-8-twitter-bug.png" alt=""></p>
 <p><em><strong>As always, before updating, please make sure you make a backup of the Final Cut Pro application, and your existing Final Cut Pro Libraries.</strong></em></p>
@@ -5920,7 +5920,7 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <title><![CDATA[22nd June 2024]]></title>
             <description><![CDATA[<p><strong>LUT Robot v1.0.1</strong> is out now!</p>
 <p>It adds support for Final Cut Pro 10.8 and FCPXML v1.12.</p>
-<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+<p>You can learn more <a href="https://lutrobot.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-june-2024</link>
             <guid isPermaLink="false">22nd June 2024</guid>
@@ -5930,7 +5930,7 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <title><![CDATA[22nd June 2024]]></title>
             <description><![CDATA[<p><strong>BRAW Toolbox v1.3.8</strong> is out now!</p>
 <p>It updates from FxPlug v4.2.9 to FxPlug v4.3 to better support Final Cut Pro 10.8.</p>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#22nd-june-2024</link>
             <guid isPermaLink="false">22nd June 2024</guid>
@@ -5940,7 +5940,7 @@ Keyframes, objects, and their elements can be adjusted and reprocessed without i
             <title><![CDATA[24th June 2024]]></title>
             <description><![CDATA[<p><strong>Capacitor v1.0.1</strong> is out now!</p>
 <p>It adds support for Final Cut Pro 10.8 and FCPXML v1.12.</p>
-<p>You can learn more <a href="https://capacitor.pro">here</a>.</p>
+<p>You can learn more <a href="https://capacitor.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#24th-june-2024</link>
             <guid isPermaLink="false">24th June 2024</guid>
@@ -6042,7 +6042,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <li>Updated from FxPlug <code>v4.2.9</code> to <code>v4.3</code>.</li>
 <li>2491 lens profiles have been added from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
 </ul>
-<p>You can learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://gyroflowtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#27th-june-2024</link>
             <guid isPermaLink="false">27th June 2024</guid>
@@ -6105,7 +6105,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <li>Added support for Panasonic GH7 Blackmagic RAW clips.</li>
 <li>Updated from Blackmagic RAW SDK v4.0 to v4.1.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#28th-june-2024</link>
             <guid isPermaLink="false">28th June 2024</guid>
@@ -6441,7 +6441,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <li>Improves support for Blackmagic URSA Cine 12K LF.</li>
 <li>Updated from Blackmagic RAW SDK v4.1 to v4.2.</li>
 </ul>
-<p>You can learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#25th-july-2024</link>
             <guid isPermaLink="false">25th July 2024</guid>
@@ -6454,7 +6454,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <li>Added an overlay when FCPXML is being processed. Thanks for suggesting Sam Pluemacher!</li>
 <li>Updated FCPXMLKit from v1.1.1 to v1.2.3.</li>
 </ul>
-<p>You can learn more <a href="https://lutrobot.pro">here</a>.</p>
+<p>You can learn more <a href="https://lutrobot.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#26th-july-2024</link>
             <guid isPermaLink="false">26th July 2024</guid>
@@ -6516,7 +6516,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <li>The default ChatGPT prompt has been updated to work in frames, rather than seconds for better accuracy. If you have a custom prompt, you should press the &quot;Reset Prompt&quot; button in the bottom settings to update the prompt to the new format.</li>
 <li>The latest OpenAI ChatGPT models are now supported.</li>
 </ul>
-<p>You can learn more <a href="https://markertoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://markertoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#2nd-august-2024</link>
             <guid isPermaLink="false">2nd August 2024</guid>
@@ -6605,7 +6605,7 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <ul>
 <li>Fixed a bug/regression introduced in the v1.4.0 update where we accidentally broke &quot;Process Comments Locally&quot;. Apologies! HUGE thanks to KenHell, Maksim Tarasenko, Gary Roll and Hamin Yoon for reporting!</li>
 </ul>
-<p>You can learn more <a href="https://markertoolbox.io">here</a>.</p>
+<p>You can learn more <a href="https://markertoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-august-2024</link>
             <guid isPermaLink="false">14th August 2024</guid>
@@ -7377,7 +7377,7 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
 <li>Fixed a bug when using macOS Sequoia where the hero BRAW Toolbox application would fail to set the correct folders when trying to grant sandbox permissions when first setting up BRAW Toolbox. For example, it would default to the user's &quot;Documents&quot; folders, rather than the user's &quot;Movies&quot; folder and the user's &quot;ProApps&quot; folder. Thanks for reporting Karl Winegardner, Robbie Myers, Jens Pluimes &amp; Edwin van W!</li>
 <li>Re-designed how we render error messages in Final Cut Pro using Core Image and Metal. Hopefully this will fix random crashes some users are seeing on older versions of Final Cut Pro running on older Intel machines.</li>
 </ul>
-<p>You can download and learn more <a href="https://brawtoolbox.io">here</a>.</p>
+<p>You can download and learn more <a href="https://brawtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-october-2024</link>
             <guid isPermaLink="false">20th October 2024</guid>
@@ -7397,7 +7397,7 @@ The amazing George Edmondson explained to me if QuickTime Player can read it - m
 <li>Fixed a bug when using macOS Sequoia where the hero Gyroflow Toolbox application would fail to set the correct folders when trying to grant sandbox permissions when first setting up Gyroflow Toolbox. For example, it would default to the user's &quot;Documents&quot; folders, rather than the user's &quot;Movies&quot; folder. Thanks for reporting Roman Gaufman!</li>
 <li>Re-designed how we render error messages in Final Cut Pro using Core Image and Metal. Hopefully this will fix random crashes some users are seeing on older versions of Final Cut Pro running on older Intel machines.</li>
 </ul>
-<p>You can download and learn more <a href="https://gyroflowtoolbox.io">here</a>.</p>
+<p>You can download and learn more <a href="https://gyroflowtoolbox.fcp.cafe">here</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-october-2024</link>
             <guid isPermaLink="false">20th October 2024</guid>
@@ -7617,7 +7617,7 @@ You can use any built-in Title (static or animated), or those from third party d
 <p>You can watch a video explaining <strong>captionAnimator</strong> here:</p>
 <p><a href="https://youtube.com/watch?v=psrjMefxgUM"><img src="/static/captionanimator-youtube.jpg" alt=""></a></p>
 <p>It's safe to assume that Intelligent Assistance is on the Final Cut Pro beta (being close partners and collaborators with Apple), and maybe even Apple hinted at them to build this tool to solve workflow issues for this upcoming release.</p>
-<p>Unfortunately, we don't personally get access to any early betas or pre-releases, so it's always a bit of a mad rush to fix <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, etc when a new update comes out.</p>
+<p>Unfortunately, we don't personally get access to any early betas or pre-releases, so it's always a bit of a mad rush to fix <a href="https://commandpost.io">CommandPost</a>, <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a>, etc when a new update comes out.</p>
 <p>Another thing that people want is ability to search their footage for dialogue - but if these transcriptions are only happening in the timeline, again, this doesn't seem like it'll be possible out of the box (although we do know of some people working on this issue, which I hope to share more about soon!).</p>
 <p>In the next update, we'll be able to make tools that take the transcribed metadata from FCPXML and do awesome things with it - I'm specifically thinking about the <strong>Titles to Keywords</strong> Toolbox in CommandPost for example.</p>
 <p>Either way, this just makes the upcoming Final Cut Pro Creative Summit even more exciting, so if you haven't already booked - do it!</p>
@@ -7983,7 +7983,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>I'm very confident we'll see some cool stuff from third parties, based on the speaker list.</p>
 <p>I have absolutely no idea what's coming for Final Cut Pro on iPad or if the Apple Vision Pro will make an appearance.</p>
 <p>Apple has been promising third party Motion Templates for Final Cut Pro on the iPad since launch - the website still says &quot;coming soon&quot;.</p>
-<p>We know that with <a href="https://transfertoolbox.io">Transfer Toolbox</a> you can bring Mac Motion Templates to iPad in MOST cases.</p>
+<p>We know that with <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a> you can bring Mac Motion Templates to iPad in MOST cases.</p>
 <p>I wonder if we'll see Motion for iPad released, along with a whole heap of Motion Templates from <a href="https://www.motionvfx.com">MotionVFX</a>?</p>
 <p>I do know there's quite a few people from MotionVFX coming to the conference this year.</p>
 <p>We also know that Spatial Video is coming to Final Cut Pro - does this mean we'll be able to hook up a Vision Pro to Final Cut Pro?</p>
@@ -8036,7 +8036,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p><strong>Metaburner v1.0.0 (Build 1)</strong> hit Apple's TestFlight on <strong>16th December 2023</strong>.</p>
 <p>Thanks to the feedback and support of some of the best minds in the Final Cut Pro community, we iterated fast and pushed out <a href="https://metaburner.pro/release-notes/">quite a few updates</a> improving things.</p>
 <p>By <strong>8th January 2024</strong>, <strong>Metaburner v1.0.0 (25)</strong> hit FxFactory, our first product to be sold outside the Mac App Store.</p>
-<p>All our initial paid apps, such as <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a>, <a href="https://recalltoolbox.io">Recall Toolbox</a> and <a href="https://fastcolletions.io">Fast Collections</a> were all released on the Apple Mac Store.</p>
+<p>All our initial paid apps, such as <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a>, <a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a>, <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> and <a href="https://fastcolletions.io">Fast Collections</a> were all released on the Apple Mac Store.</p>
 <p>So, why FxFactory? FxFactory has a number of benefits for us:</p>
 <ul>
 <li>FxFactory is a highly curated store focussed on editing professionals with a huge catalog of amazing products</li>
@@ -8052,7 +8052,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>After pushing out <code>v1.0.7</code> we decided to go back to the drawing board on a lot of things.</p>
 <p>Whilst Metaburner was working fine in a lot of cases - for example, if you just have standard clips on a timeline - it wasn't working in more complex cases, such as re-timed Multicam Clips containing Sync Clips.</p>
 <p>I enlisted the help of my long-time friend and collaborator <a href="https://github.com/randomeizer">David Peterson</a> to do some paid full-time work on <code>FCPXMLKit</code> - our own Swift-based FCPXML engine that's doing a lot of the magic behind-the-scenes.</p>
-<p>David also wrote <a href="https://capacitor.pro">Capacitor</a> (which allows you to easily convert between FCPXML versions) as a test case for <code>FCPXMLKit</code>.</p>
+<p>David also wrote <a href="https://capacitor.fcp.cafe">Capacitor</a> (which allows you to easily convert between FCPXML versions) as a test case for <code>FCPXMLKit</code>.</p>
 <p>Things that we thought would be simple, turned out to be days and weeks of work.</p>
 <p>I knew that Metaburner was never going to make any money, and investing so much time and money into the project was kinda insane - but I also knew that this kind of tool was so important to editors working in long-form - it's just something that NEEDED to exist.</p>
 <p>FCPXML is insanely complex - and even though I work with it all the time, <a href="https://fcp.cafe/developers/fcpxml/#getting-source-timecode">even I have trouble explaining it</a> in some cases.</p>
@@ -8329,7 +8329,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>This was supposed to come in <strong>macOS Sonoma</strong>, but they silently killed it - only for it to reappear in this years WWDC for <strong>macOS Sequoia</strong>.</p>
 <p>Whilst it's been out for a while, the documentation is insanely complicated and limited and the only person I know who's done ANYTHING with it so far is the incredible <a href="https://x.com/_vade">Anton Marini</a>, who's been building an <strong>ffmpeg</strong> Media Extension over on GitHub <a href="https://github.com/vade/FFMPEGMediaExtension">here</a>.</p>
 <p>However today Apple confirmed that Blackmagic RAW will come to Final Cut Pro via Media Extensions... at some point in the future. We're currently not sure if this is days, weeks or months.</p>
-<p>Now of course... this means that the shelf life of my own <a href="https://brawtoolbox.io">BRAW Toolbox</a> is very limited, haha. However, I always knew this was coming.</p>
+<p>Now of course... this means that the shelf life of my own <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> is very limited, haha. However, I always knew this was coming.</p>
 <p>I originally only created BRAW Toolbox, because I had clients that would hand over 2-4TB of BRAW footage, and I didn't want to waste time/hard drive space converting them to ProRes, or even worse, have to jump into DaVinci Resolve or Premiere - so I built BRAW Toolbox.</p>
 <p>Over <strong>three thousand</strong> people have used BRAW Toolbox on all kinds of jobs - it's been used successfully on feature films, television shows and high-end television commercials!</p>
 <p>This was my first ever paid Mac application, so I'm insanely proud of it. It was also the first ever FxPlug4 extension to ever make it to the Mac App Store - pretty crazy for someone who considers themselves a filmmaker, not a developer!</p>
@@ -8425,7 +8425,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
 <p>This is super interesting, and it's really something you need to watch on Apple Vision Pro to experience.</p>
 <p>The music video is amazing - it has some incredible visual effects, and the fact you can look around the frame is pretty amazing - the 2D trailer above really doesn't do it justice.</p>
 <p>If you get a chance to experience this epic music video in Apple Vision Pro, please do. You can watch it for free through the Apple TV app on Apple Vision Pro.</p>
-<p>In other news, <strong>Metaburner v1.1.1</strong> is out now with support for Final Cut Pro 11. You can download it now on <a href="https://metaburner.pro">FxFactory</a>.</p>
+<p>In other news, <strong>Metaburner v1.1.1</strong> is out now with support for Final Cut Pro 11. You can download it now on <a href="https://metaburner.fcp.cafe">FxFactory</a>.</p>
 <p>If you don't know what Metaburner is, you can read about it on a <a href="/news/20241112/">previous FCP Cafe news post</a>.</p>
 <p>One interesting thing about the new <strong>Magnetic Mask</strong> in Final Cut Pro is that it saves all the analyse data in a folder called <code>VideoSegmentationFiles</code> within the Final Cut Pro Library bundle.</p>
 <p>You can't move it outside the bundle - it needs to live inside the Library bundle (unlike other cache files). This is super interesting, and may present some challenges with collaborative workflows (i.e. with Postlab).</p>
@@ -8775,7 +8775,7 @@ It should be able to detect all of that and just do it for you on the fly.</p>
             <description><![CDATA[<p><strong>Transfer Toolbox v1.3.0</strong> is out now for free!</p>
 <p>Transfer your <strong>Final Cut Pro 11.0 (for Mac)</strong> Libraries to <strong>Final Cut Pro 2.1 (for iPad)</strong> Projects!</p>
 <p><img src="/static/transfer-toolbox-1-3-0.jpeg" alt=""></p>
-<p>You can learn more on the <a href="https://transfertoolbox.io">Transfer Toolbox website</a>.</p>
+<p>You can learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#17th-november-2024</link>
             <guid isPermaLink="false">17th November 2024</guid>
@@ -8815,7 +8815,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <p>However, given there's no certainty as to when Blackmagic will release a Blackmagic RAW Media Extension, we're going to go back and see if we can bring a Blackmagic RAW Media Extension to market sooner rather than later.</p>
 <p>Apple announced 3rd party Motion Templates were &quot;coming soon&quot; to iPad at launch, and that functionality is still not out - so we don't really want to waste time waiting for something that could be a year away.</p>
 <p>We'll continue to keep you posted on our progress on FCP Cafe.</p>
-<p>You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+<p>You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-november-2024</link>
             <guid isPermaLink="false">20th November 2024</guid>
@@ -8825,7 +8825,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <title><![CDATA[20th November 2024]]></title>
             <description><![CDATA[<p><strong>Capacitor v1.1.0 (5)</strong> is out now.</p>
 <p>It includes added support for <strong>Final Cut Pro 11</strong> and <strong>FCPXML v1.13</strong>.</p>
-<p>You can learn more and download Capacitor on the <a href="https://capacitor.pro">Capacitor website</a>.</p>
+<p>You can learn more and download Capacitor on the <a href="https://capacitor.fcp.cafe">Capacitor website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#20th-november-2024</link>
             <guid isPermaLink="false">20th November 2024</guid>
@@ -9014,7 +9014,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
             <title><![CDATA[26th November 2024]]></title>
             <description><![CDATA[<p><strong>Metaburner v1.1.2 (52)</strong> is out now!</p>
 <p>This release fixes a bug where Metaburner could crash when handling unsupported fonts. Thanks for reporting Joseph Nilo!</p>
-<p>You can download and learn more on the <a href="https://metaburner.pro">Metaburner website</a>.</p>
+<p>You can download and learn more on the <a href="https://metaburner.fcp.cafe">Metaburner website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#26th-november-2024</link>
             <guid isPermaLink="false">26th November 2024</guid>
@@ -9157,7 +9157,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <li>Fixed a bug where the Toolbox drop zone failed to work properly in Final Cut Pro 11 due to depreciated FCPXML versions. Thanks for reporting Alex Sofonea!</li>
 <li>Fixed a bug where the <strong>Check All/Uncheck All</strong> button in the Workflow Extension didn't work correctly. Thanks for reporting Mathew Welsh!</li>
 </ul>
-<p>You can download and learn more on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+<p>You can download and learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#11th-december-2024</link>
             <guid isPermaLink="false">11th December 2024</guid>
@@ -9296,7 +9296,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <ul>
 <li>The <strong>Apply Markers to Existing Final Cut Pro Clip</strong> drop zone now works correctly with FCPXML v1.13 and Final Cut Pro 11. Thanks for reporting Jeff Roy!</li>
 </ul>
-<p>You can learn more and download on the <a href="https://markertoolbox.io">Marker Toolbox website</a>.</p>
+<p>You can learn more and download on the <a href="https://markertoolbox.fcp.cafe">Marker Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#13th-january-2025</link>
             <guid isPermaLink="false">13th January 2025</guid>
@@ -9400,7 +9400,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <ul>
 <li>Fixed a regression where the Toolbox drop zone failed to work properly in older versions of Final Cut Pro.</li>
 </ul>
-<p>You can learn more and download on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+<p>You can learn more and download on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#31st-january-2025</link>
             <guid isPermaLink="false">31st January 2025</guid>
@@ -9413,7 +9413,7 @@ Please keep Rohan's family and friends in your thoughts and prayers. Rest in pea
 <ul>
 <li>Added support for MP4 Chapter Markers (such as Hybrid MP4 recordings from OBS). Thanks for suggesting Adam Olivero!</li>
 </ul>
-<p>You can learn more and download on the <a href="https://markertoolbox.io">Marker Toolbox website</a>.</p>
+<p>You can learn more and download on the <a href="https://markertoolbox.fcp.cafe">Marker Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#31st-january-2025</link>
             <guid isPermaLink="false">31st January 2025</guid>
@@ -9693,7 +9693,7 @@ under the custom title panel)</li>
 <li>Updated from Blackmagic RAW SDK v4.4 to v4.5.</li>
 <li>Updated from FxPlug v4.3.1 to v4.3.2.</li>
 </ul>
-<p>You can learn more and download on the <a href="https://brawtoolbox.io">BRAW Toolbox website</a>.</p>
+<p>You can learn more and download on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#4th-april-2025</link>
             <guid isPermaLink="false">4th April 2025</guid>
@@ -10025,7 +10025,7 @@ under the custom title panel)</li>
 </ul>
 <p>Marker Toolbox allows you to import a <strong>Adobe Premiere</strong> <code>CSV</code>, <strong>Vimeo</strong> <code>CSV</code>, <strong>Wipster</strong> <code>CSV</code>, <strong>Dropbox Replay</strong> <code>JSON</code>, <strong>Frame.io</strong> <code>FIOJSON</code> (including from the <a href="https://frame.io/v4">V4 Beta</a>), <strong>Timecode+</strong> <code>TSV</code> &amp; <strong>Text Comments</strong> into Apple's <a href="https://www.apple.com/final-cut-pro/">Final Cut Pro</a>, Blackmagic's <a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a> and <a href="https://www.avid.com/media-composer">Avid Media Composer</a>.</p>
 <p>You can even get OpenAI's <strong>ChatGPT</strong> to help interpret your Text Comments - which is perfect for handling emails from clients!</p>
-<p>You can download and learn more on the <a href="https://markertoolbox.io">Marker Toolbox website</a>.</p>
+<p>You can download and learn more on the <a href="https://markertoolbox.fcp.cafe">Marker Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#16th-may-2025</link>
             <guid isPermaLink="false">16th May 2025</guid>
@@ -10074,7 +10074,7 @@ And now... Final Cut Pro. 🍎✂️</p>
 <p>There's also a <strong>Lua scripting environment</strong> built-in, so you can even &quot;code&quot; your own text for unlimited possibilities.</p>
 <p>You can even share Lua variables between multiple Metaburner titles for some crazy cool workflows!</p>
 <p><img src="/static/metaburner-v1-1-0.png" alt=""></p>
-<p>You can learn more on the <a href="https://metaburner.pro">Metaburner website</a> and buy on the <a href="https://apps.apple.com/app/metaburner/id6475315396">Mac App Store</a>.</p>
+<p>You can learn more on the <a href="https://metaburner.fcp.cafe">Metaburner website</a> and buy on the <a href="https://apps.apple.com/app/metaburner/id6475315396">Mac App Store</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#17th-may-2025</link>
             <guid isPermaLink="false">17th May 2025</guid>
@@ -10135,7 +10135,7 @@ One that quietly reshaped the next decade of content creation?</p>
 <li>We've improved how we render error messages in Gyroflow Toolbox. HUGE thank you to Darrin Cardani at Apple and Gabriele de Simone at FxFactory for all your ongoing help, assistance, genius and support (and for putting up with my crazy questions)!</li>
 <li>Updated from FxPlug <code>v4.3</code> to <code>v4.3.2</code>.</li>
 </ul>
-<p>You can learn more and download Gyroflow Toolbox on the <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox website</a>.</p>
+<p>You can learn more and download Gyroflow Toolbox on the <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#19th-may-2025</link>
             <guid isPermaLink="false">19th May 2025</guid>
@@ -10222,6 +10222,444 @@ The Final Cut Pro v11.1.1 fix was possibly in the Flexo private framework, maybe
             <link>https://fcp.cafe/#27th-may-2025</link>
             <guid isPermaLink="false">27th May 2025</guid>
             <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th May 2025]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter v1.0.1</strong> is out now on the Mac App Store! 🥳</p>
+<p><strong>ATEM Exporter</strong> is a native Swift + Swift UI Mac Application that listens to a <a href="https://www.blackmagicdesign.com/products/atem">Blackmagic ATEM switcher</a>, and logs all the camera changes.</p>
+<blockquote>
+<p><a href="https://atemexporter.fcp.cafe/buy/">:icon-desktop-download: Click here to <strong>buy</strong> on the <strong>Mac App Store</strong></a></p>
+</blockquote>
+<p><img src="/static/atem-exporter-demo-data.png" alt=""></p>
+<p>You can export the camera changes as a Final Cut Pro <code>FCPXML</code>, to use in Final Cut Pro or Blackmagic DaVinci Resolve.</p>
+<p>You can export a <strong>Program Cut</strong>, which allows you to use your program feed from an external recorder (such as a <a href="https://www.blackmagicdesign.com/products/hyperdeck">Blackmagic HyperDeck</a>), and add cut points each time there's a camera change.</p>
+<p><img src="/static/atem-exporter-program-cut.png" alt=""></p>
+<p>You can also export a <strong>Multicam</strong>, which allows you to use your program feed as well as any ISO (i.e. independent camera) recordings, and export a Multicam clip for Final Cut Pro or DaVinci Resolve.</p>
+<p><img src="/static/atem-exporter-multicam.png" alt=""></p>
+<p>ATEM Exporter was built in a few hours during a live event, and has <strong>only</strong> currently been tested in a real-world live production using an <strong>Blackmagic ATEM Constellation 8K</strong>, Blackmagic HyperDeck's and AJA recorders for ISOs - so we welcome any user feedback for other ATEM's!</p>
+<p>We're currently just using a placeholder icon (from <a href="https://fcp.cafe/latenite/#timecode-toolbox">Timecode Toolbox</a>) whilst a new one is being designed - stay tuned!</p>
+<p>You can learn more on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-may-2025</link>
+            <guid isPermaLink="false">29th May 2025</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th May 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse 5.6.3 &amp; 5.6.4</strong> Bring Accurate Camera Capture Time to FCP Workflows</p>
+<p>The latest updates to <strong>evrExpanse</strong>, versions <strong>5.6.3</strong> and <strong>5.6.4</strong>, deliver a major improvement for editors who rely on accurate timestamp metadata — especially when working in <strong>Final Cut Pro</strong>, <strong>DaVinci Resolve</strong>, and other NLEs or metadata tools.</p>
+<p>📸 <strong>Camera-Embedded <code>CreateDate</code> Support</strong></p>
+<p><code>CreateDate</code> is the actual moment the camera records each clip — embedded directly in the file’s metadata. Until now, many workflows relied on the <strong>filesystem creation date</strong>, which can become inaccurate after file transfers or cloud uploads/downloads.</p>
+<p>With <strong>evrExpanse 5.6.3</strong>, this camera-authored <code>CreateDate</code> is now embedded in <strong>DaVinci Resolve metadata export</strong>, joining the existing support for Final Cut Pro and other supported NLEs. The <strong>“Content Created”</strong> field in metadata now reflects the true capture time, enabling better organization, filtering, and Smart Collection creation — even after transfers or rewraps.</p>
+<p>🕞 <strong>Accurate Timestamps in Transcoded Files</strong></p>
+<p>Version <strong>5.6.4</strong> takes it even further. When the <strong>“Include Source Metadata”</strong> option is enabled, evrExpanse sets the <strong>transcoded file’s creation date</strong> to match the original <code>CreateDate</code> from the camera — not the OS-generated date.</p>
+<p>The result? When transcoded media is imported into <strong>Final Cut Pro</strong>, <strong>DaVinci Resolve</strong>, or other NLEs, the <strong>“Content Created”</strong> field shown in the browser reflects the true capture time — not a timestamp corrupted by transfer or OS-level changes.</p>
+<p>✅ <strong>Key Benefits</strong></p>
+<ul>
+<li>True <strong>Content Created</strong> timestamps preserved in transcoded files</li>
+<li>Improved accuracy for <strong>Smart Collections</strong> and media organization workflows</li>
+<li>Full compatibility with <strong>FCP</strong>, <strong>DaVinci Resolve</strong>, and metadata tools like <strong>FoolCat</strong></li>
+<li>Smart fallback to filesystem creation date when metadata is unavailable</li>
+</ul>
+<p>These updates are available now in <strong>evrExpanse 5.6.4</strong>.
+👉 Learn more at <a href="https://www.evrapp.cloud/evrexpanse">evrapp.cloud</a></p>
+]]></description>
+            <link>https://fcp.cafe/#29th-may-2025</link>
+            <guid isPermaLink="false">29th May 2025</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th May 2025]]></title>
+            <description><![CDATA[<p>If you've been in the post production community for a minute, you've most certainly come across the name <strong>Monica Daniel</strong>.</p>
+<p><img src="/static/monica-daniels.jpg" alt=""></p>
+<p>She's been featured on the <a href="https://blog.borisfx.com/ask-the-artist-monica-daniel-editor">BorisFX Artist Profile</a>.</p>
+<p>She's been on Zack Arnold's various <a href="https://zackarnold.com/monica-daniel-podcast-interview/">websites and podcasts for years</a>.</p>
+<p>She's been <a href="https://www.tumblr.com/monicaedits">Sh*tting Sparkles</a>.</p>
+<p>She has an insanely impressive list of <a href="https://www.imdb.com/name/nm2758396/">IMDB credits</a>.</p>
+<p>Whilst I don't believe we've ever met in person, I've probably listened to hundreds of hours of her talking over the years on various podcasts.</p>
+<p>She now needs <strong>our help</strong>.</p>
+<p>She writes on <a href="https://www.gofundme.com/f/support-a-mother-and-her-teens-in-crisis">GoFundMe</a>:</p>
+<blockquote>
+<p>This is very difficult for me to do. I pride myself on being self-sufficient and independent. I have been a professional editor with a successful career in film and television for 20 years. I am a single mother of two teenagers who do well in school and are loving young humans. My son is special needs, and that provides its own unique challenges as I try to be the best mother I can for them. I have given back to the post-production community through volunteering for non-profit organizations like Los Angeles Creative Pro User Group and Blue Collar Post Collective. I have moderated and been a speaker on panels, taught seminars, mentored many up-and-coming editors, and produced a filmmaking edu-tainment podcast for the filmmaking community.</p>
+<p>When the strikes hit a couple of years ago, I had just finished working on the finale of a television show. And I have not worked since then. I needed to continue to provide for my children while I tried to find work. I have drained my savings and have managed to extend it as long as I can by accumulating extremely high credit card debt. I have had to pay thousands for water damage to my home in that time and have delayed repairs in my home because I cannot afford it. There have been medical bills and car repairs. I've gone to food banks and ran out of food stamp benefits.</p>
+<p>I need help as I am trying to find sources of income and get back on my feet and figure out my career path. I am too young to retire and too old to be considered for many other types of jobs. Thank you for reading.</p>
+</blockquote>
+<p>When you look at the people who have already donated, you know this is important - for example:</p>
+<ul>
+<li>Marianna Montague</li>
+<li>Michael Kammes</li>
+<li>Philip Hodgetts</li>
+<li>Trevor Horton</li>
+<li>Kes Akalaonu</li>
+</ul>
+<p>These are industry heavyweights.</p>
+<p>I know it's bloody hard to be a post production professional anywhere in the world today, but if you can spare some money and help out Monica, that would be amazing.</p>
+<p>Thanks team! xx</p>
+<p>You can learn more on her <a href="https://www.gofundme.com/f/support-a-mother-and-her-teens-in-crisis">GoFundMe</a> post.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-may-2025</link>
+            <guid isPermaLink="false">30th May 2025</guid>
+            <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd June 2025]]></title>
+            <description><![CDATA[<p>Wow - it's June already. That went quick.</p>
+<p><strong>ATEM Exporter v1.0.2 (Build 4)</strong> is out now!</p>
+<p>This release has <strong>zero</strong> improvements or bug fixes - sorry!</p>
+<p>However, it does have an INCREDIBLY cool new icon but the insanely AWESOME <a href="http://matthewskiles.com/">Matthew Skiles</a>. 🥳</p>
+<p><img src="/static/atem-exporter-icon.jpg" alt=""></p>
+<p>Matthew has made some KILLER icons for me over the years...</p>
+<p><img src="/static/latenite-apps.png" alt=""></p>
+<p>...but I think this one may be near the best!</p>
+<p>You can buy and learn more about ATEM Exporter on <a href="https://atemexporter.fcp.cafe">its website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-june-2025</link>
+            <guid isPermaLink="false">2nd June 2025</guid>
+            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd June 2025]]></title>
+            <description><![CDATA[<p>A few days ago, I posted the following on our <a href="https://ltnt.tv/discord">CommandPost Discord</a>:</p>
+<blockquote>
+<p>Back in <strong>2016</strong>, I introduced <strong>FCPX Hacks</strong> <a href="https://fcp.cafe/blog/final-cut-pro-hacks/">into the world</a>. It originally started off as a little proof of concept project to make finding the browser playhead easier for <a href="http://www.scottsimmons.tv/">Scott Simmons</a>. Once I solved that annoying problem... LOTS of other Final Cut Pro editors had other ideas and suggestions, myself included. FCPX Hacks grew and expanded. Eventually, a random Queenslander called <a href="http://randombits.org/">David Peterson</a> emailed me, and said my code was basically rubbish (he since disputes this accusation, haha) and I desperately needed help. He introduced me to <a href="https://github.com/CommandPost/CommandPost/">GitHub</a>, and my single Lua file, eventually become hundreds. David and I are now great friends, who catch up in person whenever we're in the same state. FCPX Hacks evolved into <a href="https://commandpost.fcp.cafe">CommandPost</a>.</p>
+<p>In the last 9 years, there's been well over <strong>244 releases</strong> of CommandPost/FCPX Hacks. It's been downloaded over <strong>258 thousand times</strong>. It's been used for projects at <strong>Netflix</strong>, <strong>Pixar</strong> and the <strong>BBC</strong>. People at companies such as <strong>Apple</strong>, <strong>Avid</strong> and <strong>Adobe</strong> use it daily. All of the <strong>2024 Apple WWDC videos</strong> were graded using <a href="https://www.tangentwave.co.uk">Tangent panels</a> in Final Cut Pro controlled by CommandPost.</p>
+<p>CommandPost has always been <strong>free</strong> and <strong>open-source</strong>. We've had some awesome financial contributors via <a href="https://github.com/sponsors/CommandPost">GitHub Sponsors</a> and PayPal. Over the last 9 years, CommandPost has brought in <strong>AUD$26,374.12</strong> of revenue - basically <strong>AUD$2,930.46</strong> per year. A lot of that money has been spent on buying new control surfaces (such as the <a href="https://www.blackmagicdesign.com/products/davinciresolve/keyboard">DaVinci Resolve Editors Keyboard</a>) so that we can add and maintain support in CommandPost.</p>
+<p>As you <a href="https://github.com/CommandPost/CommandPost/graphs/code-frequency">will have seen</a>... I haven't been able to spend as much time on CommandPost as I used to. I now have kids to feed, mortgage to pay, a Film &amp; Television production company with staff (that also have kids and mortgages) to keep afloat. As many have experienced, in the last couple of years, our bread and butter of corporate/advertising jobs have dramatically decreased, and budgets have shrunk. I'd LOVE to spend more time on CommandPost, but it's super hard when it doesn't bring in a lot of revenue.</p>
+<p>So I'm proposing a change... I would like to ATTEMPT to try and <strong>bring CommandPost to the Mac App Store</strong>. I have zero idea if Apple will ever allow it - but I'd like to give it a shot.</p>
+<p>In a perfect world, I'd like to just make it a one-off cost (i.e. lifetime/perpetual only) - but I know that times are tough, and some people actually prefer the smaller monthly/yearly costs than a more expensive one-off cost - so I'm open to your ideas and suggestions.</p>
+<p>There's currently <a href="https://github.com/CommandPost/CommandPost/issues">471 things on the CommandPost todo list on GitHub</a>, that I would LOVE to action. If CommandPost actually paid my wage, I could spend my time ticking off all of those items - but to do that, I need decent income from CommandPost.</p>
+<p>CommandPost would <strong>remain open-source</strong> (although to be honest, there's only been a <a href="https://github.com/CommandPost/CommandPost/graphs/contributors">tiny handful of contributors to the code</a>), so you could always build it yourself. Old versions would still work. But if you wanted to use the latest and greatest, you'd need to pay, to basically maintain the support. It's actually a LOT of work to keep up with Apple's Final Cut Pro and macOS changes - we're not on the Final Cut Pro beta program - so each time they do an update it's a mad rush to fix things. I would give <strong>free licenses</strong> to EVERYONE who was a <a href="https://github.com/sponsors/CommandPost">GitHub/PayPal Sponsor</a> prior to today.</p>
+<p>I'm not sure about prices. I'm still not sold on a subscription option. I still have no idea if Apple will even allow it. But if we want CommandPost to keep being updated, SOMETHING needs to happen.</p>
+<p>Anyway... here's food for thought. What do YOU think?</p>
+</blockquote>
+<p>After posting this on Discord, and sharing the link to the post on Facebook, Twitter, etc. I've been FLOODED with DM's, messages, emails, voice mails, etc.</p>
+<p>The feedback has been INSANELY overwhelmingly positive and excited. People seem to genuinely love CommandPost, and want to see it updated and improved.</p>
+<p>Whilst there's lots of differing opinions and views, the GENERAL consensus seems to be that people would <strong>prefer perpetual/lifetime licenses</strong> (as opposed to subscription), and would be ok with around <strong>USD$50</strong>.</p>
+<p>So... that's what we're going to do. Over the coming days and weeks, we'll attempt to <strong>bring CommandPost to the Mac App Store for a single fee of USD$50</strong>.</p>
+<p>The core CommandPost Lua code will remain <strong>open-source</strong> with an MIT license. We'll continue to merge any <a href="https://github.com/commandpost/commandpost-app">CommandPost-App</a> changes back into the <a href="https://www.hammerspoon.org">Hammerspoon</a> repository.</p>
+<p>Given <strong>CommandPost v1.5.2</strong> has over <a href="https://hanadigital.github.io/grev/?user=commandpost&amp;repo=commandpost">14,312 downloads</a> (noting that a lot of users are still running very old versions of CommandPost for a variety of reasons - I still get bug reports from users on version CommandPost v1.0.6!) - there's certainly potential that it could generate enough income to keep me fully on CommandPost for a year!</p>
+<p>There will also be other changes/improvements/additions...</p>
+<p>After building <a href="https://getjumper.io/?ref=fcpcafe">Jumper for Avid Media Composer</a>, I fell in love with the Avid PanelSDK - it's so good. The documentation is great, the API is great, the team behind it are great.</p>
+<p>Compared to DaVinci Resolve's Python/Lua API, Premiere's Extensions API, and Final Cut Pro's very basic and lacking Workflow Extensions - the Avid PanelSDK is fricken awesome.</p>
+<p>As a result, over the coming weeks/months, I plan to release a <strong>CommandPost Panel for Avid Media Composer</strong> on the Mac App Store for <strong>USD$50</strong>. This purchase would just be for the Avid panel - you'll still need CommandPost installed - so it'll be <strong>USD$100</strong> for Avid users.</p>
+<p>There's almost infinite possibilities of what we can do here - so it's super exciting! Your <a href="https://commandpost.fcp.cafe/wishlist/">ideas are certainly welcome</a>!</p>
+<p>We will also continue to &quot;spin out&quot; toolboxes from CommandPost and make them standalone apps.</p>
+<p>The <strong>Sony Timecode Repair Toolbox</strong> will eventually become the <strong>Timecode Toolbox</strong> on the Mac App Store - we already have an epic icon for this:</p>
+<p><img src="/static/timecode-toolbox-icon.png" alt=""></p>
+<p>I started building this not long after BRAW Toolbox was shipped, and I even employed someone to try and build it for me at one point, but it's never been finished. It's on the todo list!</p>
+<p>The <strong>Titles to Keywords/AutoSequence Toolbox</strong> will eventually be &quot;spun out&quot; as a standalone paid called <strong>SyncScript Pro</strong> (previously referred to as <strong>Assistants Toolbox</strong> on FCP Cafe).</p>
+<p>I'm also currently building another app called <strong>SplitTake</strong> - a simple Swift/Swift UI application for capturing your screen, webcam and external microphone to ProRes for editing in Final Cut Pro.</p>
+<p>So, as always, there's a LOT to do, and not enough hours in the day. But hopefully the more people that eventually buy CommandPost, the more time I can spend on it.</p>
+<p>And if enough people buy it, maybe, just maybe, I'll be able to drag <a href="http://randombits.org/">David Peterson</a> away from his &quot;real job&quot; so he can work on CommandPost full time!</p>
+<p>Onwards &amp; Upwards! xx</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-june-2025</link>
+            <guid isPermaLink="false">2nd June 2025</guid>
+            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd June 2025]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.4.0</strong> is out now on the <strong>Mac App Store</strong>! 🥳</p>
+<p>This release adds support for <strong>Final Cut Pro 11.1.1 (for Mac)</strong> and <strong>Final Cut Pro 2.2.1 (for iPad)</strong>.</p>
+<p>Transfer Toolbox allows you to convert <strong>Final Cut Pro (for Mac) Libraries</strong> into <strong>Final Cut Pro (for iPad) Projects</strong>.</p>
+<p><img src="/static/transfer-toolbox-1-4-0.png" alt=""></p>
+<p>You can learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-june-2025</link>
+            <guid isPermaLink="false">3rd June 2025</guid>
+            <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th June 2025]]></title>
+            <description><![CDATA[<p><strong>FxPlug v4.3.3</strong> is out now! 🥳</p>
+<p>FxPlug is the effects engine for Apple's Motion and Final Cut Pro.</p>
+<p>It includes the following improvements and bug fixes:</p>
+<ul>
+<li>FxPlug SDK is now supported on machines running macOS 11.0 and above.</li>
+<li>Added ability for plug-ins to close a remote window.</li>
+<li>Added tagged pop-up menus so that plug-ins can rearrange the items or add new items between existing items without having to change their parameter handling code.</li>
+<li>Added compatibility with older versions of Final Cut Pro, Motion and Compressor and support for macOS 11.0 and above.</li>
+<li>OpenGL is deprecated. Please update your plugins to work with Metal.</li>
+<li>Fixed an issue that would cause dynamically registered FxPlugs to not load during a “Send To Compressor” event.</li>
+<li>Fixed an issue where anamorphic footage was improperly cropped during analysis.</li>
+<li>Fixed an issue where the <code>FxCustomParameterAPI’s -currentTime</code> method could return an invalid time.</li>
+<li>Deprecated the <code>-[FxImageTile openGLTextureForContext:]</code> method.</li>
+</ul>
+<p>You can download FxPlug on the <a href="https://developer.apple.com/download/all/?q=FxPlug">Apple Developer Downloads website</a>.</p>
+<p>We'll look into updating BRAW Toolbox and Gyroflow Toolbox ASAP.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-june-2025</link>
+            <guid isPermaLink="false">4th June 2025</guid>
+            <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2025]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.3.1 (Build 23)</strong> is out now! 🥳</p>
+<p>This includes the following improvements:</p>
+<ul>
+<li>We've updated to the <a href="https://github.com/gyroflow/gyroflow/tree/83356d01207b78dc6755740eaebbe93b3c3ec62d">latest</a> Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>Updated from FxPlug <code>v4.3.2</code> to <code>v4.3.3</code>.</li>
+<li>175 lens profiles have been updated from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
+</ul>
+<p>There is still an <a href="https://github.com/latenitefilms/gyroflowtoolbox/issues/40">outstanding bug/regression</a> related to <strong>vertical videos</strong>.</p>
+<p>Originally, vertical videos worked great in Gyroflow Toolbox, but at some point changes in Gyroflow broke something, and we haven't been able to work out what.</p>
+<p>I think, thanks to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a>, we now have a possible solution - we'll try and solve this and get out a new bug fix ASAP.</p>
+<p>You can learn more about Gyroflow Toolbox on the <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2025</link>
+            <guid isPermaLink="false">5th June 2025</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th June 2025]]></title>
+            <description><![CDATA[<p>I'm also busily working away on my next app for the Mac App Store, <strong>SplitTake</strong>.</p>
+<p>SplitTake is a Swift/Swift UI application for capturing your screen, webcam and external microphone to ProRes for editing in Final Cut Pro.</p>
+<p>There's a lot of great screen recording apps out there, but a lot of them (like ScreenFlow) expect you to do all the editing WITHIN their app - I just want something that easily records the highest quality possible, then gives me everything in Final Cut Pro.</p>
+<p>I'm still trying to get the under-the-hood stuff working well first, before tackling the user interface, but here's a sneak peak:</p>
+<p><img src="/static/split-take.png" alt=""></p>
+<p>I'll hopefully get it up on TestFlight next week. Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-june-2025</link>
+            <guid isPermaLink="false">5th June 2025</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th June 2025]]></title>
+            <description><![CDATA[<p><strong>WWDC 2025</strong> has launched! 🥳</p>
+<p>However, unlike previous years, I didn't have the interest and excitement to get up at 3am to watch the <a href="https://www.youtube.com/watch?v=0_DjDdfqtUE">Keynote</a> or <a href="https://www.youtube.com/watch?v=51iONeETSng">Platforms State of the Union</a>.</p>
+<p>In fact, I haven't even finished the Keynote yet. 😬</p>
+<p>However, for Final Cut Pro editors there's not a huge amount of exciting news.</p>
+<p><img src="/static/wwdc25-01.jpg" alt=""></p>
+<p><img src="/static/wwdc25-02.jpg" alt=""></p>
+<p><strong>Metal 4</strong> is coming to Mac &amp; iPad, so that'll bring some improvements.</p>
+<p><img src="/static/wwdc25-03.jpg" alt=""></p>
+<blockquote>
+<p>The latest version of Metal is built to scale to the needs of modern apps. The streamlined API makes it easy for you to achieve optimal performance on Apple silicon with lower overhead command encoding and scalable resource management. Compilation is more explicit and faster than ever with all new ways to reduce run-time compilation.</p>
+<p>Metal 4 introduces first-class support for machine learning, starting with native support for tensors in both the API and shading language. Integrate machine learning directly into your Metal app using the command line to execute large networks, or within your shaders to inline inference operations alongside the rest of your shader code.</p>
+<p>Metal 4 also extends the MTLDevice that you already use today. You can incrementally adopt features that will help your app or game the most, in the order you need them.</p>
+</blockquote>
+<p><img src="/static/wwdc25-08.jpg" alt=""></p>
+<p><img src="/static/wwdc25-09.jpg" alt=""></p>
+<p><strong>Background Tasks</strong> are coming to iPad, so you'll finally be able to export from Final Cut Pro on iPad in the background, without Final Cut Pro aborting the export if you change app focus. 🥳</p>
+<p><img src="/static/wwdc25-06.jpg" alt=""></p>
+<p>Here's some example Swift code:</p>
+<pre><code class="language-swift">import BackgroundTasks
+import SwiftUI
+
+@main
+struct ColorFeed: App {
+    var body: some Scene {
+        WindowGroup {
+            // ...
+        }
+        .backgroundTask(.appRefresh(&quot;com.colorfeed.wwdc25.appRefresh&quot;)) {
+            await self.handleAppRefreshTask()
+        }
+    }
+}
+</code></pre>
+<p><img src="/static/wwdc25-07.jpg" alt=""></p>
+<p><strong>Image Playground</strong> gets an update, with support for ChatGPT - but really, who is ACTUALLY using Image Playground in Final Cut Pro today?</p>
+<p>...and so far, that's pretty much it as far as I can tell.</p>
+<p><img src="/static/wwdc25-04.jpg" alt=""></p>
+<p>I still need to finish the <a href="https://www.youtube.com/watch?v=0_DjDdfqtUE">Keynote</a> and <a href="https://www.youtube.com/watch?v=51iONeETSng">Platforms State of the Union</a>, so I'll post more tomorrow if anything jumps out.</p>
+<p>There's normally lots of cool new tech, as the WWDC videos are released each day.</p>
+<p><img src="/static/wwdc25-11.jpg" alt=""></p>
+<p>Fun fact... All of the 2024 Apple WWDC videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. I wonder if they did the same this year? 🤔</p>
+<p><img src="/static/wwdc25-05.jpg" alt=""></p>
+<p>Oh, and one interesting side note... Intel Mac's won't be supported in <strong>macOS 27</strong> next year.</p>
+<p><img src="/static/wwdc25-10.jpg" alt=""></p>
+]]></description>
+            <link>https://fcp.cafe/#10th-june-2025</link>
+            <guid isPermaLink="false">10th June 2025</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th June 2025]]></title>
+            <description><![CDATA[<p>But I didn't want to end the day on a downer, so...</p>
+<p>People often ask me <strong>&quot;what makes Jumper so special&quot;</strong> and <strong>&quot;why would I use Jumper when Premiere has Media Intelligence now built-in&quot;</strong>?</p>
+<p>Well, if you're a Final Cut Pro editor, you should <strong>ABSOLUTELY</strong> be using Jumper - it's a no-brainer.</p>
+<p>But even for <strong>Avid Media Composer</strong>, <strong>DaVinci Resolve</strong>, and <strong>Adobe Premiere Pro</strong> users, Jumper is <strong>insanely useful</strong> - especially in high-end collaborative workflows.</p>
+<p>You can even access <strong>Jumper Standalone</strong> from your Mac menubar. Remote users will be possible in the not-so-distant-future too! 🤯</p>
+<p>It's basically <strong>&quot;Spotlight for your NLE&quot;</strong> - and it's SUCH a handy tool to have in your toolbox.</p>
+<p>It hasn't changed the way I edit - I still organise Events with lots of emoji's, in the Final Cut Pro Browser, and I still do selects in the Browser's collections - for example:</p>
+<p><img src="/static/tiktok-awards-2024.png" alt=""></p>
+<p>However, I basically use Jumper as my &quot;search engine&quot; for times when a client asks &quot;find me the shot of the old man with the red hat&quot;, etc.</p>
+<p>When I'm doing fast-turnaround edits, unless I have two machines, I don't really have the computer power to analyse things whilst I'm editing (as Jumper makes use of every bit of CPU, GPU and RAM you throw at it!), so I generally just let Jumper analyse everything overnight once I've finished for the day, so when it comes to revisions, I can find things super quickly.</p>
+<p>You can download a <strong>free trial</strong> and learn more about Jumper on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+<p>You can read about <strong>my involvement with Jumper</strong> on this FCP Cafe news post from <a href="https://fcp.cafe/news/20241106/">6th November 2024</a>.</p>
+<p>To demonstrate it's power - I've just recorded a very quick and dirty screen recording.</p>
+<p>This video is unscripted, real-time, no edits, warts and all, using beta software... so... well... enjoy!</p>
+<p>If you have any questions, reach out on the <a href="https://ltnt.tv/discord">CommandPost Discord</a> or <a href="https://discord.gg/3JFNYAfwSb">Jumper Discord</a>!</p>
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/be0f5f8782420aee87930d94f643d472/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2Fbe0f5f8782420aee87930d94f643d472%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D2s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>]]></description>
+            <link>https://fcp.cafe/#10th-june-2025</link>
+            <guid isPermaLink="false">10th June 2025</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th June 2025]]></title>
+            <description><![CDATA[<p><strong>WWDC 2025</strong> has been and gone.</p>
+<p>I've been flat out this week, so I haven't caught up on all the latest WWDC news yet, however, luckily we have <strong>Iain Anderson</strong> in the community!</p>
+<p>You can read his <strong>Video news from Apple’s WWDC</strong> article over at <a href="https://www.provideocoalition.com/video-news-from-apples-wwdc/">ProVideo Coalition</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-june-2025</link>
+            <guid isPermaLink="false">14th June 2025</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th June 2025]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.5 (Build 75)</strong> is out now! 🥳</p>
+<p><img src="/static/braw-toolbox-1-4-5.png" alt=""></p>
+<p>Whilst Blackmagic will be releasing their Blackmagic RAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a> at SOME POINT in the coming weeks/months, as of today BRAW Toolbox is still the best way to get BRAW into Apple's Final Cut Pro.</p>
+<p>It's also currently unclear if the Blackmagic MediaExtension will actually have decent RAW controls within Final Cut Pro.</p>
+<p>Given Blackmagic really just wants you to use DaVinci Resolve - it's unlikely that Blackmagic's developers are spending too much time on making BRAW great in Final Cut Pro.</p>
+<p>BRAW Toolbox is INSANELY powerful - you can even keyframe RAW parameters that you can't control in DaVinci Resolve.</p>
+<p>Whilst there are now other competitors that copied the same techniques as BRAW Toolbox to get BRAW into Final Cut Pro, BRAW Toolbox is the only solution that's <a href="https://brawtoolbox.fcp.cafe/release-notes/">updated regularly</a>, always includes the latest FxPlug and BRAW SDK updates, and is tried and tested on real-world productions.</p>
+<p>BRAW Toolbox was built for my production company, <a href="https://latenitefilms.com">LateNite</a>, because I got frustrated when clients would hand over SSDs with 2-4TB's worth of BRAW footage, that we'd need to convert to ProRes to start editing with it in Final Cut Pro.</p>
+<p>BRAW Toolbox is now used by over <strong>3.45K users</strong> across the world. It's been used on feature films, televisions series and high-end television commercials.</p>
+<p>gwphotographe writes on the <a href="https://discord.com/channels/1365861122720137276/1365961904681517116/1376793427785814016">CommandPost Discord</a>:</p>
+<blockquote>
+<p>I swear if you get me talking about how much I love this plugin you’ll never get me to shut up. Using it currently to work with 6TB of BRAW footage for a documentary. 🙌🏼</p>
+</blockquote>
+<p>The latest update contains the following improvements:</p>
+<ul>
+<li>We've improved how we render error messages in BRAW Toolbox. HUGE thank you to Darrin Cardani at Apple and Gabriele de Simone at FxFactory for all your ongoing help, assistance, genius and support (and for putting up with my crazy questions)!</li>
+<li>Added support for Panasonic LUMIX S1II and S1IIE Blackmagic RAW clips.</li>
+<li>Improved performance for URSA Cine 12K LF and URSA Cine 17K 65 clips.</li>
+<li>Updated from Blackmagic RAW SDK <code>v4.5</code> to <code>v4.6</code>.</li>
+<li>Updated from FxPlug <code>v4.3.2</code> to <code>v4.3.3</code>.</li>
+</ul>
+<p>You can buy and learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-june-2025</link>
+            <guid isPermaLink="false">15th June 2025</guid>
+            <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th June 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Data v1.2.1</strong> is out now!</p>
+<p>This release includes the following improvements:</p>
+<ul>
+<li>Updated Pagemaker Module to version <code>1.0.7</code></li>
+<li>Pagemaker module now maintains aspect ratios for vertical images in PDF exports, ensuring parity with gallery preview</li>
+</ul>
+<p>You can learn more on the <a href="https://markerdata.theacharya.co">Marker Data website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-june-2025</link>
+            <guid isPermaLink="false">15th June 2025</guid>
+            <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th June 2025]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter</strong> has been reduced from <strong>USD$150</strong> to a one-time payment of <strong>USD$79.99</strong> on the Mac App Store. 🥳</p>
+<p>After posting about ATEM Exporter on the Facebook <a href="https://www.facebook.com/groups/666156180950487">Blackmagic ATEM Mini User-group</a>, which has over 60K members, I started to receive a lot of DM's and emails with interest in the software.</p>
+<p>For those that don't know, <strong>ATEM Exporter</strong> is a native Swift + Swift UI Mac Application that listens to a <a href="https://www.blackmagicdesign.com/products/atem">Blackmagic ATEM switcher</a>, and logs all the camera changes.</p>
+<p><img src="/static/atem-exporter-demo-data-build4.png" alt=""></p>
+<p>You can export the camera changes as a Final Cut Pro <code>FCPXML</code>, to use in Final Cut Pro or Blackmagic DaVinci Resolve.</p>
+<p>You can export a <strong>Program Cut</strong>, which allows you to use your program feed from an external recorder (such as a <a href="https://www.blackmagicdesign.com/products/hyperdeck">Blackmagic HyperDeck</a>), and add cut points each time there's a camera change.</p>
+<p><img src="/static/atem-exporter-program-cut-build4.png" alt=""></p>
+<p>You can also export a <strong>Multicam</strong>, which allows you to use your program feed as well as any ISO (i.e. independent camera) recordings, and export a Multicam clip for Final Cut Pro or DaVinci Resolve.</p>
+<p><img src="/static/atem-exporter-multicam-build4.png" alt=""></p>
+<p>ATEM Exporter was built in a few hours during a live event, and at release it had <strong>only</strong> been tested in a real-world live production using an <strong>Blackmagic ATEM Constellation 8K</strong>, Blackmagic HyperDeck's and AJA recorders for ISOs.</p>
+<p>Since release, we've had quite a few users test it on all kinds of ATEM's.</p>
+<p>Originally I was thinking that this would be a very niche, high-end tool - i.e. for people with expensive Blackmagic ATEM Constellation 8K's.</p>
+<p>However, after posting to the Facebook group I realised just how many people have and use ATEMs for all kinds of things - especially at the lower budget in schools, universities, places of faith, etc.</p>
+<p>As a result, I decided to reduce the price, and also release a quick and dirty demo video that I originally threw together late at night for Apple's Mac App Store Review.</p>
+<p>You can watch it here:</p>
+<div style="position: relative; padding-top: 56.25%; padding-bottom:15px;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/738b0bbb9727c6fafff0f4ea306fb923/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F738b0bbb9727c6fafff0f4ea306fb923%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D5m22s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<p>Hope this helps!</p>
+<p>You can learn more on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+<p>Whilst I've got you... here's a sneak peak at our upcoming <strong>SplitTake</strong> icon by the AMAZING <a href="http://matthewskiles.com">Matthew Skiles</a>:</p>
+<p><img src="/static/splittake-icon.jpg" alt=""></p>
+<p>He's also put together a &quot;placeholder&quot; icon for LateNite apps we still have in development:</p>
+<p><img src="/static/latenite-app-coming-soon.jpg" alt=""></p>
+<p>How cool are these!</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-june-2025</link>
+            <guid isPermaLink="false">16th June 2025</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th June 2025]]></title>
+            <description><![CDATA[<p><strong>Media Sync Tool v8.9</strong> is out now on the Mac App Store.</p>
+<p>It has the following improvements:</p>
+<ul>
+<li>The proxy media workflow has been drastically simplified.</li>
+<li>Media Sync Tool now syncs your proxy media the same way as the originals, eliminating the previous necessity to use the complex workaround.</li>
+<li>You no longer have to use the 'Force Sync' keyword - this option has been removed completely.</li>
+<li>The option to add a source metadata FCPXML is now removed too, as it is became unnecessary.</li>
+</ul>
+<p>You can download on the <a href="https://apps.apple.com/app/media-sync-tool/id1559556642">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-june-2025</link>
+            <guid isPermaLink="false">16th June 2025</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th June 2025]]></title>
+            <description><![CDATA[<p>To help support the editing community through these uncertain and crazy times, the amazing <a href="https://zackarnold.com">Zack Arnold</a> (ACE—editor/producer for Netflix’s Cobra Kai &amp; founder of The Arnold Academy For Creatives) has put together an exciting event called <strong>Navigating the Future of Entertainment</strong>.</p>
+<p>It includes an insane lineup of speakers including Walter Murch, Jay Clouse, Annie Duke, Matt Nix and many more.</p>
+<p><img src="/static/zach-arnold-event.png" alt=""></p>
+<p>It's a <strong>free</strong> 5-day event to help creatives of all kinds understand what the hell is going on now, forecast what's coming next, navigate industry uncertainty, and survive the AI apocalypse (without selling your creative soul).</p>
+<p>It runs <strong>23rd to 27th of June 2025</strong>.</p>
+<p>You can learn more on the <a href="https://members.thearnoldacademy.com/navigating-the-future-of-creative-work-live-summit">Navigating the Future of Entertainment website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#17th-june-2025</link>
+            <guid isPermaLink="false">17th June 2025</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd June 2025]]></title>
+            <description><![CDATA[<p>Earlier this week <strong>Final Cut Pro</strong> turned 14! 🥳</p>
+<p>I'll let Mr Richard Taylor do the honours...</p>
+<p><a href="https://www.youtube.com/watch?v=PohWnq2u2Oo"><img src="/static/fcp-14th-birthday.jpg" alt=""></a></p>
+<p>Also, in very positive news, <a href="https://mashable.com/article/vidcon-2025-tech-products-we-loved">Mashable reports</a> from <strong>VidCon 2025</strong>:</p>
+<blockquote>
+<p><strong>The editing software of choice? Final Cut Pro</strong></p>
+<p>TikTokkers can keep CapCut. At VidCon 2025, it's all about Final Cut Pro. For Apple users who shoot and edit their own content, this Mac video editing software is indispensable. So far, it's the single most-recommended product we've encountered in conversations with creators. A subscription will set you back $299.99, but there is a free trial to test it out.</p>
+</blockquote>
+<p>That's awesome news, and to be honest, very surprising given all the help, support and sponsorship Adobe gives VidCon!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-june-2025</link>
+            <guid isPermaLink="false">23rd June 2025</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd June 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze</strong> has been announced over at <a href="https://www.reddit.com/r/finalcutpro/comments/1lfin6y/built_a_native_final_cut_pro_plugin_for_realtime/">Reddit</a>, in a post titled <strong>Built a native Final Cut Pro plugin for real-time upscaling – 1080p, 4K, even 8K directly in the timeline</strong>.</p>
+<p>The developer <strong>Sebastian Krogull</strong> has already had HUGE interest in the product, which is currently at release candidate stage, in final beta testing.</p>
+<p>I've had a chance to download and play - and it's very impressive.</p>
+<p>Sebastian will post a developers case study over at FCP Cafe after launch!</p>
+<p>You can learn more here:</p>
+<ul>
+<li><a href="https://stage.fidelityfuze.com/">Product page</a></li>
+<li><a href="https://stage.fidelityfuze.com/user-guide">User guide</a></li>
+</ul>
+<p>Noting that Sebastian says:</p>
+<blockquote>
+<p>Note: These are preview versions of the final website. FidelityFuze hasn’t launched yet – it’s still in early access. I’m building it solo and working to make sure everything is solid. DM me or reply here if you’d like to try it – or just share your thoughts.</p>
+</blockquote>
+<p>We'll post more in the coming weeks!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-june-2025</link>
+            <guid isPermaLink="false">23rd June 2025</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

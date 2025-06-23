@@ -89,6 +89,34 @@ for (const file of files) {
 }
 
 let newXMLContent = feed.xml({indent: true});
-newXMLContent = newXMLContent.replace(/{target=&quot;_blank&quot;}/g, '');
-newXMLContent = newXMLContent.replace(/\.\.\/static\//g, '${SITE_URL}/static/');
-fs.writeFileSync('docs/rss.xml', newXMLContent);
+// strip out any literal templating and unwanted attributes
+newXMLContent = newXMLContent
+    .replace(/{target=&quot;_blank&quot;}/g, '')
+    .replace(/\.\.\/static\//g, `${SITE_URL}/static/`);
+
+// path to the generated RSS file
+const rssPath = path.join('docs', 'rss.xml');
+
+// helper to normalize away the two changing dates
+function normalize(xml) {
+    return xml
+        // remove lastBuildDate and pubDate lines
+        .replace(/<lastBuildDate>.*?<\/lastBuildDate>\s*/g, '')
+        .replace(/<pubDate>.*?<\/pubDate>\s*/g, '')
+        // collapse any excess whitespace
+        .trim();
+}
+
+let shouldWrite = true;
+if (fs.existsSync(rssPath)) {
+    const oldXML = fs.readFileSync(rssPath, 'utf8');
+    if (normalize(oldXML) === normalize(newXMLContent)) {
+        console.log('🔍 RSS unchanged (ignoring dates), skipping write.');
+        shouldWrite = false;
+    }
+}
+
+if (shouldWrite) {
+    fs.writeFileSync(rssPath, newXMLContent);
+    console.log('✅ RSS updated.');
+}
