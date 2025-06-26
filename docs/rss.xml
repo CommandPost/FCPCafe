@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 26 Jun 2025 04:02:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2025 20:46:56 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Jun 2025 04:02:15 GMT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 20:46:56 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10746,6 +10746,42 @@ stories that can spark conversation outside the walls of the cinema.</p>
             <link>https://fcp.cafe/#26th-june-2025</link>
             <guid isPermaLink="false">26th June 2025</guid>
             <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th June 2025]]></title>
+            <description><![CDATA[<p><strong>Andrew Arrow</strong> writes:</p>
+<blockquote>
+<p>Hello FCPCafe! I've been working on an open source golang fcpxml program called &quot;cutlass&quot;:</p>
+<p>I've really gone deep into each XML element and how to properly generate working xml you can import.</p>
+<p>I'm a developer and Final Cut Pro user. My history with FCP goes back years and year, I tried to be a video editor as a career but ended up beging a software developer instead. But, I purchased the full version of the software a long time ago. And, to Apple's credit, every single time I go to the App Store on any mac I still have access to download it. I must have been through 20, 30? I don't know but a lot of macs over the years. Just recently I downloaded it again and notice the XML Export feature.</p>
+<p>Wow. There's a lot of stuff there. I mean a lot. I started playing around with generating the xml and that has lead to this project. I spend most of my time just telling Claude Code the video I want to create, and he uses the cutlass library to achieve it. I'm hooking up FCP directly to Claude. A different kind of AI Video generation!</p>
+<p>Would love feedback,
+-aa</p>
+</blockquote>
+<p>You can check out a tutorial video he's made on YouTube titled <a href="https://www.youtube.com/watch?v=V9r_Ihl0Tyc">Final Cut Pro plus golang: Using cutlass with FCPXML Templates</a>.</p>
+<p>You can download and learn more on his <a href="https://github.com/andrewarrow/cutlass/wiki">GitHub repository</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-june-2025</link>
+            <guid isPermaLink="false">27th June 2025</guid>
+            <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th June 2025]]></title>
+            <description><![CDATA[<p><strong>ZaRealWeb</strong> has created a new website and tool called <strong>AutoSubtiler</strong> specifically for Final Cut Pro.</p>
+<p>The tagline is:</p>
+<blockquote>
+<ul>
+<li>Feed Your Audio</li>
+<li>Craft Your Subtitle</li>
+<li>Produce For Free</li>
+</ul>
+</blockquote>
+<p>You can check out a tutorial video on YouTube titled <a href="https://www.youtube.com/watch?v=9QpBLBesqsA">I built a FREE AUTO-SUBTITLER for FINAL CUT PRO (Customizable)</a>.</p>
+<p>You can check it out on the <a href="https://www.finalcutsubtitle.com">AutoSubtiler website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-june-2025</link>
+            <guid isPermaLink="false">27th June 2025</guid>
+            <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
