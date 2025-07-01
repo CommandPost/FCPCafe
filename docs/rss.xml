@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 01 Jul 2025 05:16:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 05:26:58 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Jul 2025 05:16:00 GMT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 05:26:58 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10791,7 +10791,7 @@ stories that can spark conversation outside the walls of the cinema.</p>
 <p>Whilst <strong>Jumper for Final Cut Pro</strong> and <strong>Jumper for Adobe Premiere Pro</strong> has supported Multicam Clips (and Synchronised Clips in the case of Final Cut Pro) for a while, on Avid it's a bit more tricky.</p>
 <p>However, now, as long as you have matching timecode ranges, Group clips now work in Avid too!</p>
 <p>You can watch a quick and dirty realtime demonstration of the functionality here:</p>
-<div style="position: relative; padding-top: 56.25%;">
+<div style="position: relative; padding-top: 56.25%; padding-bottom: 10px;">
   <iframe
     src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/c5fd1f53a45533febe72831d89ed2f5e/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2Fc5fd1f53a45533febe72831d89ed2f5e%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D3m57s%26height%3D600"
     loading="lazy"
