@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 26 Jun 2025 20:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 01:13:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Jun 2025 20:46:56 GMT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 01:13:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10782,6 +10782,22 @@ stories that can spark conversation outside the walls of the cinema.</p>
             <link>https://fcp.cafe/#27th-june-2025</link>
             <guid isPermaLink="false">27th June 2025</guid>
             <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st July 2025]]></title>
+            <description><![CDATA[<p><strong>Pinch and a punch for the first day of the month!</strong></p>
+<p><strong>Krock.io</strong> now has a Final Cut Pro Workflow Extension available on the Mac App Store.</p>
+<p><img src="/static/krockio-fcp-01.png" alt=""></p>
+<blockquote>
+<p>The Krock.io plugin for Final Cut Pro brings feedback, review, and collaboration right into your editing timeline —so you can stay creative and in control, without switching tabs.</p>
+</blockquote>
+<p>For those that don't know Krock.io is basically <a href="https://krock.io/blog/frame-io-alternative-2025/">very similar to Frame.io</a>.</p>
+<p><img src="/static/krockio-fcp.png" alt=""></p>
+<p>You can learn more about the integration on the <a href="https://krock.io/finalcut-integration/">Krock.io website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-july-2025</link>
+            <guid isPermaLink="false">1st July 2025</guid>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
