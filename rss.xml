@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 01 Jul 2025 01:13:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 01:20:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Jul 2025 01:13:20 GMT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 01:20:19 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10788,6 +10788,7 @@ stories that can spark conversation outside the walls of the cinema.</p>
             <description><![CDATA[<p><strong>Pinch and a punch for the first day of the month!</strong></p>
 <p><strong>Krock.io</strong> now has a Final Cut Pro Workflow Extension available on the Mac App Store.</p>
 <p><img src="/static/krockio-fcp-01.png" alt=""></p>
+<p><img src="/static/krockio-fcp-02.png" alt=""></p>
 <blockquote>
 <p>The Krock.io plugin for Final Cut Pro brings feedback, review, and collaboration right into your editing timeline —so you can stay creative and in control, without switching tabs.</p>
 </blockquote>
