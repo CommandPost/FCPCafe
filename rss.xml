@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 01 Jul 2025 01:20:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 05:16:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Jul 2025 01:20:19 GMT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 05:16:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10786,7 +10786,31 @@ stories that can spark conversation outside the walls of the cinema.</p>
         <item>
             <title><![CDATA[1st July 2025]]></title>
             <description><![CDATA[<p><strong>Pinch and a punch for the first day of the month!</strong></p>
-<p><strong>Krock.io</strong> now has a Final Cut Pro Workflow Extension available on the Mac App Store.</p>
+<p>Ok, so this is pushing the boundaries of a Final Cut Pro related post, HOWEVER I did edit it in Final Cut Pro, so... there's that...</p>
+<p>Regardless... <strong>Jumper for Avid Media Composer</strong> now has Group Clip support (i.e. Multicam support). 🥳</p>
+<p>Whilst <strong>Jumper for Final Cut Pro</strong> and <strong>Jumper for Adobe Premiere Pro</strong> has supported Multicam Clips (and Synchronised Clips in the case of Final Cut Pro) for a while, on Avid it's a bit more tricky.</p>
+<p>However, now, as long as you have matching timecode ranges, Group clips now work in Avid too!</p>
+<p>You can watch a quick and dirty realtime demonstration of the functionality here:</p>
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/c5fd1f53a45533febe72831d89ed2f5e/iframe?preload=true&poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2Fc5fd1f53a45533febe72831d89ed2f5e%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D3m57s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<p>You can watch a much longer and deeper dive into Jumper this FCP Cafe news entry from <a href="/news/20250610-02/">10th June 2025</a>.</p>
+<p>You can also learn the origin story of how I got involved with Jumper on this FCP Cafe news entry from <a href="/news/20241106/">6th November 2024</a>.</p>
+<p>You can download and learn more about Jumper on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-july-2025</link>
+            <guid isPermaLink="false">1st July 2025</guid>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st July 2025]]></title>
+            <description><![CDATA[<p><strong>Krock.io</strong> now has a Final Cut Pro Workflow Extension available on the Mac App Store.</p>
 <p><img src="/static/krockio-fcp-01.png" alt=""></p>
 <p><img src="/static/krockio-fcp-02.png" alt=""></p>
 <blockquote>
