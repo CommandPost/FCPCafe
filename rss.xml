@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 01 Jul 2025 05:26:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Jul 2025 00:51:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Jul 2025 05:26:58 GMT</pubDate>
+        <pubDate>Wed, 02 Jul 2025 00:51:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10823,6 +10823,19 @@ stories that can spark conversation outside the walls of the cinema.</p>
             <link>https://fcp.cafe/#1st-july-2025</link>
             <guid isPermaLink="false">1st July 2025</guid>
             <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd July 2025]]></title>
+            <description><![CDATA[<p><strong>Color Finale Transcoder 2</strong> now supports <strong>Canon RAW video</strong> (<code>CRM</code> files). 🥳</p>
+<blockquote>
+<p>This popular format joins BRAW and N-RAW as formats you can edit directly on the Final Cut Pro timeline with full control over exposure, white balance, and color temperature.</p>
+<p>Still using Transcoder 1? Don’t worry — an exclusive discounted upgrade to Version 2 is available for all Transcoder 1 users, now with powerful new Canon RAW support.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://colorfinale.com/transcoder">Color Finale Transcoder 2 website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-july-2025</link>
+            <guid isPermaLink="false">2nd July 2025</guid>
+            <pubDate>Wed, 02 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
