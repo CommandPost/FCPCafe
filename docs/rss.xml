@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 02 Jul 2025 03:45:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Jul 2025 06:48:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 02 Jul 2025 03:45:42 GMT</pubDate>
+        <pubDate>Thu, 03 Jul 2025 06:48:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10839,6 +10839,19 @@ stories that can spark conversation outside the walls of the cinema.</p>
             <link>https://fcp.cafe/#2nd-july-2025</link>
             <guid isPermaLink="false">2nd July 2025</guid>
             <pubDate>Wed, 02 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd July 2025]]></title>
+            <description><![CDATA[<p><strong>Soundly</strong> now has Final Cut Pro Integration! 🥳</p>
+<p>The developers write:</p>
+<blockquote>
+<p>Our new integration with Final Cut Pro, currently in beta, lets Soundly send sounds directly to the timeline. Know someone who wants to test it? We’re offering six months of Soundly for free to beta testers. Just reply to this email to show your interest.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://getsoundly.com">Soundly website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-july-2025</link>
+            <guid isPermaLink="false">3rd July 2025</guid>
+            <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
