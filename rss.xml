@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 10 Jul 2025 12:25:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Jul 2025 21:57:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 10 Jul 2025 12:25:19 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 21:57:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10952,6 +10952,25 @@ Just beautifully crisp footage that's ready when you are.</p>
             <link>https://fcp.cafe/#10th-july-2025</link>
             <guid isPermaLink="false">10th July 2025</guid>
             <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th July 2025]]></title>
+            <description><![CDATA[<p><strong>Color Finale v2.12</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Six Vectors Just Became Seven. The popular Six Vectors tool now includes a seventh vector dedicated to skin tones, offering even more precise and flexible control over this critical color range — all while preserving the intuitive feel of the original tool.</li>
+<li>Introducing Texture EQ. A brand-new filter, Texture EQ, brings advanced control over image texture and detail. Use it to subtly enhance or suppress fine details, shape tone and texture, or create custom looks with surgical precision.</li>
+</ul>
+<p>It includes the following bug fixes:</p>
+<ul>
+<li>Improved Compatibility with Final Cut Pro’s Transform Tool. We’ve resolved a compatibility issue between the Color Atlas filter and Final Cut Pro’s native Transform tool. Transforms now work as expected — without visual glitches or erratic behavior.</li>
+<li>Full Support for Legacy Projects. Even in the latest version, projects created with Color Finale 1.x open seamlessly in Color Finale 2.12. We continue to ensure full compatibility, so your older work remains intact and accessible.</li>
+</ul>
+<p>You can learn more on the <a href="https://colorfinale.com">Color Finale website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-july-2025</link>
+            <guid isPermaLink="false">11th July 2025</guid>
+            <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
