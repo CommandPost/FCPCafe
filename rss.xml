@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 06 Jul 2025 21:41:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Jul 2025 00:54:37 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 06 Jul 2025 21:41:45 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 00:54:37 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10886,6 +10886,56 @@ Just beautifully crisp footage that's ready when you are.</p>
             <link>https://fcp.cafe/#4th-july-2025</link>
             <guid isPermaLink="false">4th July 2025</guid>
             <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th July 2025]]></title>
+            <description><![CDATA[<p>Our latest 2D animated series <strong>Deadbeat Ends Meet</strong> is now live on YouTube!</p>
+<blockquote>
+<p>Deadbeat Ends Meet follows housemates Milo (a frill neck lizard) and Indy (a dingo) as they navigate their ambitions and identities whilst reckoning with the cost of living and the pitfalls of the gig economy.</p>
+</blockquote>
+<p>Storyboarded in Toon Boom Storyboard Pro. Animated in Toon Boom Harmony Premium. Edited in Final Cut Pro by Kevin Luk.</p>
+<p><img src="/static/dbem-thumbnail-1.jpg" alt=""></p>
+<p><img src="/static/dbem-thumbnail-2.jpg" alt=""></p>
+<p><img src="/static/dbem-thumbnail-3.jpg" alt=""></p>
+<p><img src="/static/dbem-thumbnail-4.jpg" alt=""></p>
+<p>You can watch the four episodes for free on <a href="https://ltnt.tv/dbem">YouTube</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-july-2025</link>
+            <guid isPermaLink="false">10th July 2025</guid>
+            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th July 2025]]></title>
+            <description><![CDATA[<p>We've updated our LateNite icons! How cool are these:</p>
+<p><img src="/static/latenite-apps.jpg" alt=""></p>
+<p>All created by the insanely talented <a href="https://matthewskiles.com">Matthew Skiles</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-july-2025</link>
+            <guid isPermaLink="false">10th July 2025</guid>
+            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th July 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze</strong> has posted a detailed post on Reddit explaining how their software works.</p>
+<p>You can read more on <a href="https://www.reddit.com/r/finalcutpro/comments/1luu66u/introducing_fidelityfuze_realtime_timelinenative/">Reddit</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-july-2025</link>
+            <guid isPermaLink="false">10th July 2025</guid>
+            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th July 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Data v1.3.0</strong> is out now!</p>
+<p>It contains the following improvements:</p>
+<ul>
+<li>Added new Compressor Chapters Profile</li>
+<li>Added new Markdown List Profile</li>
+</ul>
+<p>You can learn more on the <a href="https://markerdata.theacharya.co">Marker Data website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-july-2025</link>
+            <guid isPermaLink="false">10th July 2025</guid>
+            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
