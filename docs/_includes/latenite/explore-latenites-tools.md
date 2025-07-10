@@ -28,7 +28,7 @@ All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final 
 
 This page showcases all the stuff we've build, throw together and collaborated on. Enjoy!
 
-![](/static/latenite-apps.png)
+![](/static/latenite-apps.jpg)
 
 ---
 
