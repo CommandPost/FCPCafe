@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 10 Jul 2025 21:57:25 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Jul 2025 22:23:04 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 10 Jul 2025 21:57:25 GMT</pubDate>
+        <pubDate>Sun, 13 Jul 2025 22:23:04 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10894,11 +10894,11 @@ Just beautifully crisp footage that's ready when you are.</p>
 <p>Deadbeat Ends Meet follows housemates Milo (a frill neck lizard) and Indy (a dingo) as they navigate their ambitions and identities whilst reckoning with the cost of living and the pitfalls of the gig economy.</p>
 </blockquote>
 <p>Storyboarded in Toon Boom Storyboard Pro. Animated in Toon Boom Harmony Premium. Edited in Final Cut Pro by Kevin Luk.</p>
-<p><img src="/static/dbem-thumbnail-1.jpg" alt=""></p>
-<p><img src="/static/dbem-thumbnail-2.jpg" alt=""></p>
-<p><img src="/static/dbem-thumbnail-3.jpg" alt=""></p>
-<p><img src="/static/dbem-thumbnail-4.jpg" alt=""></p>
 <p>You can watch the four episodes for free on <a href="https://ltnt.tv/dbem">YouTube</a>.</p>
+<p><a href="https://ltnt.tv/dbem"><img src="/static/dbem-thumbnail-1.jpg" alt=""></a></p>
+<p><a href="https://ltnt.tv/dbem"><img src="/static/dbem-thumbnail-2.jpg" alt=""></a></p>
+<p><a href="https://ltnt.tv/dbem"><img src="/static/dbem-thumbnail-3.jpg" alt=""></a></p>
+<p><a href="https://ltnt.tv/dbem"><img src="/static/dbem-thumbnail-4.jpg" alt=""></a></p>
 ]]></description>
             <link>https://fcp.cafe/#10th-july-2025</link>
             <guid isPermaLink="false">10th July 2025</guid>
@@ -10971,6 +10971,18 @@ Just beautifully crisp footage that's ready when you are.</p>
             <link>https://fcp.cafe/#11th-july-2025</link>
             <guid isPermaLink="false">11th July 2025</guid>
             <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th July 2025]]></title>
+            <description><![CDATA[<p><strong>Fast Collections v1.2.0 (Build 4)</strong> is out now!</p>
+<p>It has a fancy new icon by the amazing <a href="https://matthewskiles.com">Matthew Skiles</a>!</p>
+<p><img src="/static/fast-collections-v2.png" alt=""></p>
+<p>We'll be adding more exciting features to Fast Collections over the coming weeks and months. Stay tuned!</p>
+<p>You can learn more on the <a href="https://fastcollections.fcp.cafe">Fast Collections website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-july-2025</link>
+            <guid isPermaLink="false">14th July 2025</guid>
+            <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
