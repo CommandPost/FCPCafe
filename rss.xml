@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 16 Jul 2025 09:33:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 03:19:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Jul 2025 09:33:34 GMT</pubDate>
+        <pubDate>Thu, 24 Jul 2025 03:19:34 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10997,6 +10997,28 @@ Just beautifully crisp footage that's ready when you are.</p>
             <link>https://fcp.cafe/#16th-july-2025</link>
             <guid isPermaLink="false">16th July 2025</guid>
             <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th July 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze <code>v1.2.0</code></strong> is out now.</p>
+<p>The creator, Sebastian writes:</p>
+<blockquote>
+<p>It’s a native Final Cut Pro plugin: built for real-time upscaling, and version 1.2.0 introduces a major new capability — fully integrated Noise Reduction, powered by our custom render pipeline.</p>
+<h2>Noise Reduction, Without Compromise</h2>
+<p>This isn’t a blur pass or a temporal trick — it’s a dedicated solution that removes sensor noise and compression artifacts while preserving edge sharpness and texture. It runs entirely on the GPU, directly inside the Final Cut timeline. No caching, no roundtrips, no delay.</p>
+<p>Choose between Gentle, Balanced, and Aggressive modes to adapt to your footage. Whether you’re dealing with soft grain, macroblocking, or noisy highlights, FidelityFuze gives you clean output with minimal effort — and zero structural smearing.</p>
+<hr>
+<h2>Reworked Detail Recovery</h2>
+<p>We’ve completely rebuilt the Detail Recovery pass from the ground up. The new version delivers cleaner, more natural results — sharper structure, less aliasing, reduced haloing, and no more noise amplification. It enhances where it helps and stays invisible where it doesn’t.</p>
+<p>As part of this revamp, we’ve introduced a new <em>Detail Sensitivity</em> parameter. It gives you control over how aggressively fine texture is preserved or suppressed, making it easier to balance clarity with noise handling — especially in scenes with low contrast or heavy compression.</p>
+<p>We’ve also added a <em>Post-Upscale Detailing</em> control. This pass sharpens upscaled output if additional clarity is desired. It’s simple to dial in and can help add crispness where needed — especially in cases where footage benefits from a subtle digital edge.</p>
+</blockquote>
+<p>You can read about FidelityFuze in more detail in this <a href="https://www.reddit.com/r/finalcutpro/comments/1m7dy48/fidelityfuze_120_is_here_featuring_noise/">Reddit post</a>. There's also a <strong>15% off discount</strong> inside!</p>
+<p>You can learn more on the <a href="https://fidelityfuze.com">FidelityFuze website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#24th-july-2025</link>
+            <guid isPermaLink="false">24th July 2025</guid>
+            <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
