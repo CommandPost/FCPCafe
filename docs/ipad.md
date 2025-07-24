@@ -38,7 +38,7 @@ Richard Taylor has an EPIC list of all the latest iPad videos and articles on [F
 
 Bascomb Productions has a YouTube series covering Final Cut Pro for iPad.
 
-[![](/static/ill-show-you-ipad.jpg)](https://www.youtube.com/playlist?list=PL-SbkI16sMhT1bGW5j9LDtU77bf7cBEXq)
+[![](/static/fcp-for-ipad-tutorials.jpg)](https://www.youtube.com/playlist?list=PL-SbkI16sMhT1bGW5j9LDtU77bf7cBEXq)
 
 ---
 
