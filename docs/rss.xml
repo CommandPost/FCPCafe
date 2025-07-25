@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 24 Jul 2025 09:35:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Jul 2025 01:06:27 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Jul 2025 09:35:14 GMT</pubDate>
+        <pubDate>Fri, 25 Jul 2025 01:06:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11021,6 +11021,26 @@ Just beautifully crisp footage that's ready when you are.</p>
             <link>https://fcp.cafe/#24th-july-2025</link>
             <guid isPermaLink="false">24th July 2025</guid>
             <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th July 2025]]></title>
+            <description><![CDATA[<p><strong>Pomfort</strong> has announced a really interesting Final Cut Pro Integration with their <strong>Reeltime Pro</strong> application.</p>
+<p><img src="/static/pomfort-fcp.jpg" alt=""></p>
+<p>They write:</p>
+<blockquote>
+<p>Sometimes watching isolated takes just isn’t enough. So let’s edit some previews!<br>
+<br>
+We built Reeltime Pro to reimagine video assist software and deliver an innovative, user-friendly solution. But for on-set editing, the smartest move wasn’t to reinvent but to integrate. That’s why Reeltime Pro works seamlessly with Final Cut Pro, combining powerful video assist with professional editing tools in one smooth, full-circle workflow:<br>
+Export clips from Reeltime Pro with metadata for fast, organized editing with multicam and multi-track timelines in Final Cut Pro.<br>
+Preview edits instantly on set by routing your Final Cut Pro timeline to the video village via NDI and Reeltime Pro’s intuitive slot interface.<br>
+Reimport your edits into Reeltime Pro to keep a reference version accessible throughout production.<br>
+Head to the blog for a step-by-step walkthrough, including three short demo videos that show just how smooth and production-ready the workflow is.</p>
+</blockquote>
+<p>You can read more on their <a href="https://pomfort.com/article/a-full-circle-on-set-editing-workflow-with-reeltime-pro-and-final-cut-pro/">blog post</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-july-2025</link>
+            <guid isPermaLink="false">25th July 2025</guid>
+            <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
