@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 01 Aug 2025 04:19:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 05:52:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Aug 2025 04:19:09 GMT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 05:52:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11123,6 +11123,23 @@ Head to the blog for a step-by-step walkthrough, including three short demo vide
             <link>https://fcp.cafe/#1st-august-2025</link>
             <guid isPermaLink="false">1st August 2025</guid>
             <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th August 2025]]></title>
+            <description><![CDATA[<p><strong>FinalCap Ultimate</strong> is out now on the Mac App Store.</p>
+<p>The developer writes:</p>
+<blockquote>
+<p>Hi FCP Cafe! I want to share FinalCap Ultimate, an extremely flexible captioning workflow extension/plugin built for Final Cut Pro!<br>
+It runs 100% offline and gives you full control over how subtitles are split, styled, and formatted. You can choose between fixed word counts or natural speech segments, and with options like breaking at punctuation or merging short subtitles (three words or fewer), you can quite literally shape any subtitle flow you want. You can also set custom character limits for line wrapping, translate subtitles to English, and even filter profanity automatically!<br>
+It is available on the App Store right now!</p>
+</blockquote>
+<p>To see how it all works, you can watch this fun <a href="https://www.youtube.com/watch?v=2hAzfA7kh4c">YouTube video</a>.</p>
+<p>You can download today on the <a href="https://apps.apple.com/app/finalcap-ultimate/id6748661641">Mac App Store</a>.</p>
+<p>You can learn more on the <a href="https://finalcapultimate.com">FinalCap Ultimate website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-august-2025</link>
+            <guid isPermaLink="false">5th August 2025</guid>
+            <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
