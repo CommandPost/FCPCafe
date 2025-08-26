@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 14 Aug 2025 06:39:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 11:05:26 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Aug 2025 06:39:13 GMT</pubDate>
+        <pubDate>Tue, 26 Aug 2025 11:05:26 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11155,6 +11155,18 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#14th-august-2025</link>
             <guid isPermaLink="false">14th August 2025</guid>
             <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th August 2025]]></title>
+            <description><![CDATA[<p><strong>Arthur Moore</strong> has just released <strong>BadAss Fx 6</strong> into the wild!</p>
+<p>You can watch his absolutely epic introduction video on <a href="https://www.youtube.com/watch?v=VFiw1QJKCXM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=VFiw1QJKCXM"><img src="/static/baddassfx6.jpg" alt=""></a></p>
+<p>It's an incredibly well put together video - visually stunning, and some beautiful editing and motion graphics techniques - so absolutely worth watching in full.</p>
+<p>You can download the free and paid packs from <a href="https://arthurmoorefx.sellfy.store">Arthur's online store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-august-2025</link>
+            <guid isPermaLink="false">26th August 2025</guid>
+            <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
