@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 05 Aug 2025 05:52:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 06:39:13 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 Aug 2025 05:52:29 GMT</pubDate>
+        <pubDate>Thu, 14 Aug 2025 06:39:13 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11140,6 +11140,21 @@ It is available on the App Store right now!</p>
             <link>https://fcp.cafe/#5th-august-2025</link>
             <guid isPermaLink="false">5th August 2025</guid>
             <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th August 2025]]></title>
+            <description><![CDATA[<p>Marcel Carlberg has just released <strong>LibraryViewer</strong> on the Mac App Store!</p>
+<blockquote>
+<p>A fast, native Final Cut library viewer.<br>
+Browse events, media, and thumbnails without ever opening Final Cut.<br>
+Built for macOS, made for editors.</p>
+</blockquote>
+<p>You can learn more on <a href="https://marcelcarlberg.com/libraryviewer.html">Marcel's website</a>.</p>
+<p>You can download on the <a href="https://apps.apple.com/app/libraryviewer/id6745802034">Apple Mac Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-august-2025</link>
+            <guid isPermaLink="false">14th August 2025</guid>
+            <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
