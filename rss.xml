@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 26 Aug 2025 11:05:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 14:43:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Aug 2025 11:05:26 GMT</pubDate>
+        <pubDate>Wed, 27 Aug 2025 14:43:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11167,6 +11167,27 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#26th-august-2025</link>
             <guid isPermaLink="false">26th August 2025</guid>
             <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th August 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze <code>v1.3.1</code></strong> is now available, and for the first time it includes a <strong>fully featured trial license</strong>.</p>
+<p>From day one, the most common request was: <em>“Can I try it first?”</em></p>
+<p>Now you can. The trial gives you the complete plugin for 7 days, with every feature active: real-time upscaling, GPU noise reduction, and detail recovery. The only limitation is a small watermark. No cut-down mode, no hidden limits. Just the real plugin, ready to test on your own footage.</p>
+<h2>What Is FidelityFuze?</h2>
+<p>FidelityFuze is a native Final Cut Pro plugin for real-time upscaling. It doubles resolution (1080p → 4K, 4K → 8K) directly in the timeline, avoiding round-trips or exports to other apps. Alongside upscaling, it includes GPU-based noise reduction and a detail recovery stage designed to preserve structure and texture without boosting artifacts. Controls like <strong>Detail Sensitivity</strong> and <strong>Post-Upscale Detailing</strong> make it easy to balance clarity and noise handling.</p>
+<p>Unlike generative AI tools, FidelityFuze uses fast, predictable algorithms engineered for stability and responsiveness. Written in Swift and Metal for Apple Silicon, it takes advantage of Unified Memory, Media Engines, and real-time hardware rendering. The result is smooth playback while editing and clean results at export.</p>
+<h2>Try It Today</h2>
+<p>You can download the new trial right now at <a href="https://fidelityfuze.com">fidelityfuze.com</a>.</p>
+<p>— Sebastian (Author of FidelityFuze)</p>
+<h2>Comparisons</h2>
+<p><img src="/static/fidelityfuze-comparison-01.webp" alt=""><br>
+<em>Left: 720p (Original), Right 1440p Upscaled</em></p>
+<p><img src="/static/fidelityfuze-comparison-02.webp" alt=""><br>
+<em>Left: 720p (Original), Right 1440p Upscaled</em></p>
+]]></description>
+            <link>https://fcp.cafe/#27th-august-2025</link>
+            <guid isPermaLink="false">27th August 2025</guid>
+            <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
