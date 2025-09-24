@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 11.2              | 19/09/2025   | 120                  | 26.0          | 4.3.3          |
 | 11.1.1            | 22/05/2025   | 57                   | 15.5          | 4.3.1          |
 | 11.1.0            | 27/03/2025   | 52                   | 15.3          | 4.3.1          |
 | 11.0.1            | 03/02/2025   | 82                   | 15.3          | 4.3.1          |
@@ -92,14 +93,14 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2022	| 4       |
 | 2023	| 7       |
 | 2024  | 3       |
-| 2025  | 3       |
+| 2025  | 4       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
 | Q1	  | 11      |
 | Q2	  | 15      |
-| Q3	  | 13      |
+| Q3	  | 14      |
 | Q4	  | 19      |
 
 {.compact}
@@ -113,7 +114,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | Jun	| 5       |
 | Jul	| 3       |
 | Aug	| 5       |
-| Sept	| 4       |
+| Sept	| 5       |
 | Oct	| 6       |
 | Nov	| 8       |
 | Dec	| 6       |
@@ -121,6 +122,22 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 ---
 
 ## Mac
+
+### Final Cut Pro 11.2
+
+**Released September 19, 2025**
+
+**Final Cut Pro v11.2** includes the following enhancements, changes, and bug fixes:
+
+- Unlock even more controls for ProRes RAW video shot on iPhone, so you can adjust exposure, color temperature, tint, and demosaicing. (ProRes RAW capture requires supported iPhone models.)
+- Edit and play back your Apple Log 2 footage with the vibrancy of the original scene by applying the Apple Log 2 LUT.
+- Fixes an issue that caused recordings made with the Voiceover tool to not be saved when media storage was set to a location outside the library.
+- Improves stability when adjusting sliders in the ProRes RAW Settings window.
+- Fixes an issue that caused Final Cut Pro to quit when RED RAW clips were selected in the timeline while the RED RAW Settings window was open.
+- Removes support for FireWire-connected devices on macOS Tahoe. (On macOS Sequoia, FireWire capture is supported, but the playback controls for FireWire-connected devices are no longer available.)
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro 11.1.1
 
@@ -1503,7 +1520,7 @@ Export AVC-Intra files
 - Ability to add chapter markers in the timeline for export to video files, DVD and Blu-ray disc, with an option for setting custom poster frames.
 - Range selection now preserves start and end points on clips in the Event Browser. Use the Command key to create multiple range selections, even on a single clip.
 - Paste attributes window lets you choose specific effects to copy between clips.
-- Flexible Clip Connections allow you to keep Connected Clips in place by pressing the ` key when slipping, sliding or moving clips in the Primary Storyline.
+- Flexible Clip Connections allow you to keep Connected Clips in place by pressing the \` key when slipping, sliding or moving clips in the Primary Storyline.
 - Add a freeze frame to your timeline with a single keystroke (Option-F).
 - Apply a drop shadow effect with intuitive on-screen controls to adjust position, edge falloff, angle and more.
 - Combine audio from different angles within a Multicam Clip (Command-Option-click in the Angle Viewer).
@@ -1610,6 +1627,19 @@ Export AVC-Intra files
 ---
 
 ## iPad
+
+### Final Cut Pro for iPad 2.3
+
+**Final Cut Pro for iPad v2.3** includes the following features and enhancements:
+
+- Unlock even more controls for ProRes RAW video shot on iPhone, so you can adjust exposure, color temperature, tint, and demosaicing. (ProRes RAW capture requires supported iPhone models.)
+- Edit and play back your Apple Log 2 footage with the vibrancy of the original scene by applying the Apple Log 2 LUT.
+- Easily access app commands and shortcuts from the new menu bar by swiping down from the top edge of iPad or moving your pointer to the top when using a trackpad. (Requires iPadOS 26.)
+- Improves reliability when using a multichannel audio source in pro camera mode or with Live Multicam.
+- Improves reliability when using VoiceOver while adjusting volume keyframes.
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro for iPad 2.2.1
 
