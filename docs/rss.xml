@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 27 Aug 2025 14:43:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 02:21:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 Aug 2025 14:43:48 GMT</pubDate>
+        <pubDate>Wed, 24 Sep 2025 02:21:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11188,6 +11188,43 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#27th-august-2025</link>
             <guid isPermaLink="false">27th August 2025</guid>
             <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[17th September 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse <code>v6.1.0</code></strong> Adds Finder Tag Support for Final Cut Pro.</p>
+<p>The metadata-focused workflow app <strong>evrExpanse</strong> has just released <strong>version 6.1.0</strong>, expanding its <em>Apply Finder Tags</em> feature with full <strong>Final Cut Pro</strong> integration.</p>
+<p>With this update, editors can now automatically apply Finder Tags directly from <strong>Final Cut Pro Keywords</strong> using FCPXML Library or Event exports. This builds on the existing DaVinci Resolve integration, completing a seamless round trip between NLE metadata and macOS Finder organization.</p>
+<p><img src="/static/evrE610_Preprocess_Tag_FCP.png" alt=""></p>
+<h2>What’s New</h2>
+<ul>
+<li><strong>Final Cut Pro Integration</strong> — Apply Finder Tags from FCP Keywords via FCPXML exports.</li>
+<li><strong>Duplicate Handling</strong> — A new “Include Duplicate Files” option in Preferences gives editors control to skip or include duplicates.</li>
+<li><strong>Detailed Progress Window</strong> — Now includes missing file detection and clear reporting.
+<img src="/static/evrE610_progressTag.png" alt="">
+<img src="/static/evrE610_Final_Report_Tag_FCP.png" alt=""></li>
+</ul>
+<h2>Why Use evrExpanse to Tag Files in macOS?</h2>
+<p>Unlike simpler tagging utilities that only append tags, evrExpanse gives editors full flexibility:</p>
+<ul>
+<li>Batch-add, replace, or remove Finder Tags (including macOS color labels)</li>
+<li>Skip or include duplicates depending on workflow needs</li>
+<li>Detect missing files with clear progress reports</li>
+<li>Remove tags applied from metadata exports without wiping all tags</li>
+<li>Seamlessly bridge metadata between <strong>Final Cut Pro, DaVinci Resolve,</strong> and macOS Finder</li>
+</ul>
+<h2>More Than Finder Tags</h2>
+<p>evrExpanse remains a complete workflow suite for media professionals:</p>
+<ul>
+<li>🏷️ Extract and import video metadata into NLEs</li>
+<li>🔄 Transcode and embed rich metadata</li>
+<li>📤 Automate secure backups and transfers</li>
+<li>📌 And now: Organize everything with Finder Tags across both <strong>Resolve and Final Cut Pro</strong></li>
+</ul>
+<p><strong>evrExpanse 6.1.0</strong> is available now at <a href="https://www.evrapp.cloud/evrexpanse">evrapp.cloud/evrexpanse</a></p>
+]]></description>
+            <link>https://fcp.cafe/#17th-september-2025</link>
+            <guid isPermaLink="false">17th September 2025</guid>
+            <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
