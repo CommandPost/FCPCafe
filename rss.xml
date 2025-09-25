@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 24 Sep 2025 11:30:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Sep 2025 10:18:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Sep 2025 11:30:56 GMT</pubDate>
+        <pubDate>Thu, 25 Sep 2025 10:18:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11195,15 +11195,15 @@ Built for macOS, made for editors.</p>
 <p>The metadata-focused workflow app <strong>evrExpanse</strong> has just released <strong>version 6.1.0</strong>, expanding its <em>Apply Finder Tags</em> feature with full <strong>Final Cut Pro</strong> integration.</p>
 <p>With this update, editors can now automatically apply Finder Tags directly from <strong>Final Cut Pro Keywords</strong> using FCPXML Library or Event exports. This builds on the existing DaVinci Resolve integration, completing a seamless round trip between NLE metadata and macOS Finder organization.</p>
 <p><img src="/static/evrE610_Preprocess_Tag_FCP.png" alt=""></p>
-<h2>What’s New</h2>
+<p><strong>What’s New</strong></p>
 <ul>
 <li><strong>Final Cut Pro Integration</strong> — Apply Finder Tags from FCP Keywords via FCPXML exports.</li>
 <li><strong>Duplicate Handling</strong> — A new “Include Duplicate Files” option in Preferences gives editors control to skip or include duplicates.</li>
-<li><strong>Detailed Progress Window</strong> — Now includes missing file detection and clear reporting.
-<img src="/static/evrE610_progressTag.png" alt="">
-<img src="/static/evrE610_Final_Report_Tag_FCP.png" alt=""></li>
+<li><strong>Detailed Progress Window</strong> — Now includes missing file detection and clear reporting.</li>
 </ul>
-<h2>Why Use evrExpanse to Tag Files in macOS?</h2>
+<p><img src="/static/evrE610_progressTag.png" alt=""></p>
+<p><img src="/static/evrE610_Final_Report_Tag_FCP.png" alt=""></p>
+<p><strong>Why Use evrExpanse to Tag Files in macOS?</strong></p>
 <p>Unlike simpler tagging utilities that only append tags, evrExpanse gives editors full flexibility:</p>
 <ul>
 <li>Batch-add, replace, or remove Finder Tags (including macOS color labels)</li>
@@ -11212,7 +11212,7 @@ Built for macOS, made for editors.</p>
 <li>Remove tags applied from metadata exports without wiping all tags</li>
 <li>Seamlessly bridge metadata between <strong>Final Cut Pro, DaVinci Resolve,</strong> and macOS Finder</li>
 </ul>
-<h2>More Than Finder Tags</h2>
+<p><strong>More Than Finder Tags</strong></p>
 <p>evrExpanse remains a complete workflow suite for media professionals:</p>
 <ul>
 <li>🏷️ Extract and import video metadata into NLEs</li>
