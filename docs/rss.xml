@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 24 Sep 2025 02:21:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 11:30:57 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Sep 2025 02:21:06 GMT</pubDate>
+        <pubDate>Wed, 24 Sep 2025 11:30:56 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11004,11 +11004,11 @@ Just beautifully crisp footage that's ready when you are.</p>
 <p>The creator, Sebastian, writes:</p>
 <blockquote>
 <p>It’s a native Final Cut Pro plugin built for real-time upscaling, and version 1.2.0 introduces a major new capability — fully integrated Noise Reduction, powered by our custom render pipeline.</p>
-<h2>Noise Reduction, Right at Your Fingertips</h2>
+<p><strong>Noise Reduction, Right at Your Fingertips</strong></p>
 <p>This isn’t a blur pass or a temporal trick — it’s a dedicated solution that removes sensor noise and compression artifacts while preserving edge sharpness and texture. It runs entirely on the GPU, directly inside the Final Cut timeline. No caching, no roundtrips, no delay.</p>
 <p>Choose between Gentle, Balanced, and Aggressive modes to adapt to your footage. Whether you’re dealing with soft grain, macroblocking, or noisy highlights, FidelityFuze gives you clean output with minimal effort — and zero structural smearing.</p>
 <hr>
-<h2>Reworked Detail Recovery</h2>
+<p><strong>Reworked Detail Recovery</strong></p>
 <p>We’ve completely rebuilt the Detail Recovery pass from the ground up. The new version delivers cleaner, more natural results — sharper structure, less aliasing, reduced haloing, and no more noise amplification. It enhances where it helps and stays invisible where it doesn’t.</p>
 <p>As part of this revamp, we’ve introduced a new <em>Detail Sensitivity</em> parameter. It gives you control over how aggressively fine texture is preserved or suppressed, making it easier to balance clarity with noise handling — especially in scenes with low contrast or heavy compression.</p>
 <p>We’ve also added a <em>Post-Upscale Detailing</em> control. This pass sharpens upscaled output if additional clarity is desired. It’s simple to dial in and can help add crispness where needed — especially in cases where footage benefits from a subtle digital edge.</p>
@@ -11173,16 +11173,16 @@ Built for macOS, made for editors.</p>
             <description><![CDATA[<p><strong>FidelityFuze <code>v1.3.1</code></strong> is now available, and for the first time it includes a <strong>fully featured trial license</strong>.</p>
 <p>From day one, the most common request was: <em>“Can I try it first?”</em></p>
 <p>Now you can. The trial gives you the complete plugin for 7 days, with every feature active: real-time upscaling, GPU noise reduction, and detail recovery. The only limitation is a small watermark. No cut-down mode, no hidden limits. Just the real plugin, ready to test on your own footage.</p>
-<h2>What Is FidelityFuze?</h2>
+<p><strong>What Is FidelityFuze?</strong></p>
 <p>FidelityFuze is a native Final Cut Pro plugin for real-time upscaling. It doubles resolution (1080p → 4K, 4K → 8K) directly in the timeline, avoiding round-trips or exports to other apps. Alongside upscaling, it includes GPU-based noise reduction and a detail recovery stage designed to preserve structure and texture without boosting artifacts. Controls like <strong>Detail Sensitivity</strong> and <strong>Post-Upscale Detailing</strong> make it easy to balance clarity and noise handling.</p>
 <p>Unlike generative AI tools, FidelityFuze uses fast, predictable algorithms engineered for stability and responsiveness. Written in Swift and Metal for Apple Silicon, it takes advantage of Unified Memory, Media Engines, and real-time hardware rendering. The result is smooth playback while editing and clean results at export.</p>
-<h2>Try It Today</h2>
+<p><strong>Try It Today</strong></p>
 <p>You can download the new trial right now at <a href="https://fidelityfuze.com">fidelityfuze.com</a>.</p>
 <p>— Sebastian (Author of FidelityFuze)</p>
-<h2>Comparisons</h2>
-<p><img src="/static/fidelityfuze-comparison-01.webp" alt=""><br>
+<p><strong>Comparisons</strong></p>
+<p><img src="/static/fidelityfuze-comparison-01.webp" alt="">
 <em>Left: 720p (Original), Right 1440p Upscaled</em></p>
-<p><img src="/static/fidelityfuze-comparison-02.webp" alt=""><br>
+<p><img src="/static/fidelityfuze-comparison-02.webp" alt="">
 <em>Left: 720p (Original), Right 1440p Upscaled</em></p>
 ]]></description>
             <link>https://fcp.cafe/#27th-august-2025</link>
@@ -11225,6 +11225,80 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#17th-september-2025</link>
             <guid isPermaLink="false">17th September 2025</guid>
             <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[24th September 2025]]></title>
+            <description><![CDATA[<p>This is slightly old news now (apologies - it's been a crazy month), however last week Apple updated all of the ProApps! 🥳</p>
+<p><img src="/static/whats-new-fcp-11-2.png" alt=""></p>
+<p>For developers, <strong>FCPXML</strong> remains on <code>v1.13</code>, <strong>FxPlug</strong> remains on <code>v4.3.3</code>, <strong>Workflow Extensions</strong> remains on <code>v1.0.3</code>.</p>
+<p>Interestingly, Compressor now includes a <strong>Apple ProRes RAW Processor</strong> Media Extension plugin.</p>
+<p><img src="/static/media-extensions.png" alt=""></p>
+<p>As far as I'm aware, this is the first shipping <strong>Media Extension</strong> on the Mac App Store.</p>
+<p>The <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension Framework</a> provides a means for developers to create format readers, video decoders, and RAW processors for media that the system doesn’t natively support.</p>
+<p>Now that Apple has a Media Extension in the wild of their own - it's really only a matter of time until Blackmagic finally releases their Media Extension for Blackmagic RAW - as announced at last year's Final Cut Pro Creative Summit.</p>
+<p>Until then though, <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> still remains the best way to access BRAW directly/natively in Final Cut Pro.</p>
+<p>These ProApp's updates were mainly focussed on macOS Tahoe and ProRes RAW on iPhone support - with a few bug fixes thrown in.</p>
+<p>The official release notes are as follows:</p>
+<p><strong>Final Cut Pro v11.2</strong> includes the following enhancements, changes, and bug fixes:</p>
+<ul>
+<li>Unlock even more controls for ProRes RAW video shot on iPhone, so you can adjust exposure, color temperature, tint, and demosaicing. (ProRes RAW capture requires supported iPhone models.)</li>
+<li>Edit and play back your Apple Log 2 footage with the vibrancy of the original scene by applying the Apple Log 2 LUT.</li>
+<li>Fixes an issue that caused recordings made with the Voiceover tool to not be saved when media storage was set to a location outside the library.</li>
+<li>Improves stability when adjusting sliders in the ProRes RAW Settings window.</li>
+<li>Fixes an issue that caused Final Cut Pro to quit when RED RAW clips were selected in the timeline while the RED RAW Settings window was open.</li>
+<li>Removes support for FireWire-connected devices on macOS Tahoe. (On macOS Sequoia, FireWire capture is supported, but the playback controls for FireWire-connected devices are no longer available.)</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad v2.3</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Unlock even more controls for ProRes RAW video shot on iPhone, so you can adjust exposure, color temperature, tint, and demosaicing. (ProRes RAW capture requires supported iPhone models.)</li>
+<li>Edit and play back your Apple Log 2 footage with the vibrancy of the original scene by applying the Apple Log 2 LUT.</li>
+<li>Easily access app commands and shortcuts from the new menu bar by swiping down from the top edge of iPad or moving your pointer to the top when using a trackpad. (Requires iPadOS 26.)</li>
+<li>Improves reliability when using a multichannel audio source in pro camera mode or with Live Multicam.</li>
+<li>Improves reliability when using VoiceOver while adjusting volume keyframes.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Compressor v4.11</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Use the new RAW inspector for easy access to RAW video settings such as ISO, exposure bias, and color temperature for ProRes RAW and other RAW formats.</li>
+<li>Take advantage of the flexibility and even wider color gamut of Apple Log 2 video.</li>
+<li>Improve ProRes RAW video captured on iPhone with denoising powered by machine learning with Apple silicon.</li>
+<li>Customize third-party RAW video Media Extensions with the new RAW Processing inspector.</li>
+<li>Fixes an issue where selecting additional Compressor instances in Settings would not enable additional instances.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Motion v5.11</strong> includes the following enhancements and bug fixes:</p>
+<ul>
+<li>Take advantage of the dynamic range and even wider color gamut of Apple Log 2 video.</li>
+<li>Fixes an issue that caused Motion to sometimes quit when the HUD was displayed.</li>
+<li>Improves stability and performance improvements.</li>
+</ul>
+<p><strong>Final Cut Camera v2.0</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Capture ProRes RAW in open gate for full-frame resolution and incredible editing performance.</li>
+<li>Record in high dynamic range and an even wider color gamut with Apple Log 2 in ProRes or HEVC.</li>
+<li>Easily enable timecode options including Time of Day, Record Run, or external timecode for precise identification of your footage. (Requires iOS 26.)</li>
+<li>Genlock multiple video sources with precise frame alignment using a compatible sync generator.</li>
+<li>Quickly switch to the 200mm (8x) telephoto lens to capture the perfect shot.</li>
+<li>Dynamically adjust the video orientation to vertical or horizontal with the front-facing camera, regardless of how you hold your iPhone.</li>
+<li>Adds support for 29.97 fps recording.</li>
+<li>Adds support for constant frame rates at 24 fps, 25 fps, 29.97 fps, 30 fps, 50 fps, and 60 fps on supported iPhone models.</li>
+<li>Adds stabilization support for recording 4K at 120 fps and 100 fps on supported iPhone models.</li>
+<li>Adds Dolby Vision support for recording 4K at 120 fps and 100 fps on supported iPhone models.</li>
+<li>Enable or disable the LUT Preview directly from the format settings menu.</li>
+<li>Fixes an issue that caused video recordings with stabilization enabled to sometimes stutter.</li>
+<li>Improves reliability when recording with Spatial Audio and stabilization enabled.</li>
+<li>Improves reliability when using a multichannel audio source.</li>
+<li>Addresses an issue that sometimes caused the thumbnail image to not appear when an external SSD was connected.</li>
+<li>Fixes an issue that sometimes caused videos saved to an external SSD to not appear in the media browser.</li>
+<li>Addresses an issue that sometimes caused the LUT Preview menu to appear unexpectedly in the media browser.</li>
+<li>Fixes an issue that sometimes caused the Record button to appear dimmed after a Live Multicam session ended.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#24th-september-2025</link>
+            <guid isPermaLink="false">24th September 2025</guid>
+            <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
