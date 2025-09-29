@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 25 Sep 2025 10:18:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Sep 2025 23:16:22 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Sep 2025 10:18:18 GMT</pubDate>
+        <pubDate>Mon, 29 Sep 2025 23:16:22 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11299,6 +11299,30 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#24th-september-2025</link>
             <guid isPermaLink="false">24th September 2025</guid>
             <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th September 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse <code>v6.2.0</code></strong> Expands Metadata-to-Finder Tag Workflows</p>
+<p>The metadata-focused workflow app <strong>evrExpanse</strong> just got even better! With <strong>version 6.2.0</strong>, Finder Tags go far beyond simple labels — transforming macOS Finder into a true Media Asset Manager (MAM) and a powerful metadata bridge between <strong>DaVinci Resolve</strong> and <strong>Final Cut Pro</strong>.</p>
+<p>This update brings a whole new level of flexibility: more fields, smarter options, and a cleaner interface that makes it a joy to keep your media perfectly organized.</p>
+<p><img src="/static/evrE620_main_tag_fields.png" alt=""><br>
+<em>Metadata-to-Tag fields available in evrExpanse.</em></p>
+<p><img src="/static/evrE620_main_transcode.png" alt=""><br>
+<em>Process Options section of the main window.</em></p>
+<p><strong>What’s Fresh in 6.2 🚀</strong></p>
+<ul>
+<li><strong>More Metadata from Resolve</strong> — Go way beyond <code>Keywords</code>: now tag with <code>Description</code>, <code>Comments</code>, <code>People</code>, <code>Scene</code>, <code>Shot</code>, <code>Take</code>, <code>Good Take</code>, <code>Camera #</code>, <code>Reel Number</code>, <code>Roll Card #</code>, <code>Camera Type</code>, <code>Lens Type</code>, and <code>Location</code>.</li>
+<li><strong>Notes from Final Cut Pro</strong> — FCP Library and Event exports (<code>.fcpxml / .fcpxmld</code>) now bring across both <code>Keywords</code> <em>and</em> <code>Notes</code>.</li>
+<li><strong>Pick Your Fields</strong> — The brand-new <strong>Apply Finder Tags Options</strong> panel lets you choose exactly which fields should become Finder Tags.</li>
+<li><strong>Metadata Exchange Made Easy</strong> — Export from Resolve, tag in Finder, and re-import into Final Cut Pro as <code>Keywords</code> — smooth and consistent.</li>
+<li><strong>Cleaner Process Options</strong> — A redesigned layout makes choosing the right operation quicker and easier.</li>
+</ul>
+<p>Ready to try it?
+👉 <strong>evrExpanse <code>6.2.0</code></strong> is available now at: <a href="https://www.evrapp.cloud/evrexpanse">evrapp.cloud/evrexpanse</a></p>
+]]></description>
+            <link>https://fcp.cafe/#29th-september-2025</link>
+            <guid isPermaLink="false">29th September 2025</guid>
+            <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
