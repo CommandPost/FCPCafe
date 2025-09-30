@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 29 Sep 2025 23:16:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Sep 2025 00:57:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Sep 2025 23:16:22 GMT</pubDate>
+        <pubDate>Tue, 30 Sep 2025 00:57:03 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11323,6 +11323,52 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#29th-september-2025</link>
             <guid isPermaLink="false">29th September 2025</guid>
             <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th September 2025]]></title>
+            <description><![CDATA[<p><strong>nablet X-OCN Media Extension v1.0.0</strong> is out now for free!</p>
+<p>In what appears to be the first third-party Media Extension, nablet has released a free X-OCN Media Extension plug-in for macOS into the wild.</p>
+<p><img src="/static/nablet-x-ocn-media-extension.png" alt=""></p>
+<p>It adds support of X-OCN footage in a MXF container - so that you can use X-OCN footage shot with the popular Sony VENICE 2 and Sony BURANO cameras as well as with Sony PMW-F55, F5 and other models that record X-OCN video internally or onto an external unit.</p>
+<p>Support for legacy Sony RAW format like from F65 camera will be added in a future version.</p>
+<p>This Media Extension allows you to access X-OCN footage with Final Cut Pro 11.1 (or later), Finder, QuickTime Player, and any other macOS application that supports Media Extensions.</p>
+<p>Media Extensions work on macOS Sequoia 15.6 and later.</p>
+<p>In Final Cut Pro, you get access to clip-level metadata controls:</p>
+<p><img src="/static/nablet-x-ocn-inspector.png" alt=""></p>
+<p>You can read more about how it all works in this <a href="https://support.nablet.com/hc/en-us/articles/40846890462356-nablet-X-OCN-Media-Extension-for-Apple-macOS">support article</a>.</p>
+<p>You can download and learn more on the <a href="https://nablet.com/media-extension-plugins">nablet website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-september-2025</link>
+            <guid isPermaLink="false">30th September 2025</guid>
+            <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th September 2025]]></title>
+            <description><![CDATA[<p><strong>Marker Toolbox v1.5.2</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Add supported for Wipster's new CSV format. Thanks for reporting Alister Robbie!</li>
+<li>Updated TimecodeKit from v2.3.3 to v2.3.4. Thanks Steffan Andrews!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://markertoolbox.fcp.cafe">Marker Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-september-2025</link>
+            <guid isPermaLink="false">30th September 2025</guid>
+            <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th September 2025]]></title>
+            <description><![CDATA[<p><strong>Arctic v25.2</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Support for Final Cut Pro 11.2</li>
+<li>Fixes for some crashes already present in FCLM</li>
+</ul>
+<p>You can download and learn more on the <a href="https://hedge.co/products/arctic">Hedge Arctic website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-september-2025</link>
+            <guid isPermaLink="false">30th September 2025</guid>
+            <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
