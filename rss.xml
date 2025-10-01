@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 30 Sep 2025 00:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Oct 2025 08:22:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 30 Sep 2025 00:57:03 GMT</pubDate>
+        <pubDate>Wed, 01 Oct 2025 08:22:09 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11369,6 +11369,27 @@ Built for macOS, made for editors.</p>
             <link>https://fcp.cafe/#30th-september-2025</link>
             <guid isPermaLink="false">30th September 2025</guid>
             <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st October 2025]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze 1.4.0</strong> is now available with a new <strong>Quick Setup Check</strong>.<br>
+At the same time, <a href="https://www.youtube.com/@Brad_West">Brad West</a> has released a full <strong>walkthrough</strong> of FidelityFuze in a real Final Cut Pro workflow. <a href="https://youtu.be/Oop41jfVUKI">Watch it here</a> to see how the plugin fits into editing and what the results look like.  While you watch, <strong>grab the discount code and join the giveaway he is running</strong>. If you decide to buy, using his link supports the effort he put into creating the video.</p>
+<p><a href="https://youtu.be/Oop41jfVUKI"><img src="/static/fidelityfuze-1.4.0-bradwest.jpg" alt=""></a></p>
+<p><strong>FidelityFuze 1.4.0</strong> quietly shipped earlier this month.<br>
+It is a smaller update focused on making the first run smoother for new users and trial testers.</p>
+<p><strong>Quick Setup Check</strong></p>
+<p>Opening the app for the first time now shows a <strong>welcome and setup screen</strong>. It provides a short overview of the plugin and guides you through the <strong>initial project configuration</strong>.</p>
+<p>The goal is to help new users avoid common early mistakes such as incorrect clip setup or confusion about <strong>compound</strong> and <strong>adjustment layers</strong>.</p>
+<p><img src="/static/fidelityfuze-1.4.0-quicksetupcheck.png" alt=""></p>
+<p><strong>About FidelityFuze</strong></p>
+<p><strong>FidelityFuze</strong> is a <strong>native Final Cut Pro plugin</strong> for <strong>real-time video upscaling</strong>.  It doubles resolution directly in the timeline from <strong>1080p to 4K</strong> or from <strong>4K to 8K</strong>. There are no proxies, no exports and no round-tripping.</p>
+<p>It uses fast, predictable algorithms rather than generative AI. It includes <strong>noise reduction</strong> and <strong>detail recovery</strong>. It is built for <strong>Apple Silicon</strong> and <strong>Metal-accelerated</strong> for smooth playback and clean output.</p>
+<p>You can <strong>download the update or start the 7-day trial</strong> at <a href="https://fidelityfuze.com">https://fidelityfuze.com</a>.</p>
+<p>— Sebastian (Author of FidelityFuze)</p>
+]]></description>
+            <link>https://fcp.cafe/#1st-october-2025</link>
+            <guid isPermaLink="false">1st October 2025</guid>
+            <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
