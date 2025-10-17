@@ -1,3 +1,4 @@
+- [FCP 11.0 - 11.2 Magnetic Mask vertical line artifacts starting with Apple Silicon macOS Tahoe 26.0 (October 14, 2025)](https://github.com/CommandPost/FCPCafe/issues/496)
 - [FCP 11.0 – 11.1.1: Crash with model‑locking assertion if RED RAW Inspector changes are applied during certain background tasks (August 20, 2025)](https://github.com/CommandPost/FCPCafe/issues/487)
 - [Final Cut Pro Fails to Copy All Project Media to a New Location After a Previously Cancelled or Failed Copy Operation (June 17, 2025)](https://github.com/CommandPost/FCPCafe/issues/476)
 - [Blade Speed Hold frame bug (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/475)
@@ -27,4 +28,3 @@
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
-- [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
