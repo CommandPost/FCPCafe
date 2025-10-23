@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 01 Oct 2025 08:22:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2025 00:21:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Oct 2025 08:22:09 GMT</pubDate>
+        <pubDate>Thu, 23 Oct 2025 00:21:55 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11390,6 +11390,45 @@ It is a smaller update focused on making the first run smoother for new users an
             <link>https://fcp.cafe/#1st-october-2025</link>
             <guid isPermaLink="false">1st October 2025</guid>
             <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st October 2025]]></title>
+            <description><![CDATA[<p><strong>evrExpanse v6.3.0</strong> is out now — <strong>free for existing v6 users!</strong>.</p>
+<p>Hi, Antonio here — developer of <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse</a>.</p>
+<p>Version 6.3 is focused on one thing: connecting all your metadata in a simple, reliable way.</p>
+<p>You can now <strong>tag both videos and photos</strong> using metadata from <strong>DaVinci Resolve</strong>, <strong>Final Cut Pro</strong>, or embedded <strong>XMP, EXIF, and Production</strong> data — all directly inside Finder.</p>
+<p><img src="/static/evrE630_FinderTags.png" alt=""></p>
+<p>Photo format support has also been added to the <strong>Export Metadata</strong> process, so stills and video metadata now work together across your NLEs.</p>
+<h3>What’s New</h3>
+<ul>
+<li><strong>Photo + Video Support</strong> — JPG, HEIC, DNG, AVIF, TIF, and PNG are now fully supported by both the <strong>Apply Finder Tags</strong> and <strong>Export Metadata</strong> processes.</li>
+<li><strong>Lightroom Integration</strong> — Automatically reads XMP Keywords from Lightroom and Photoshop and applies them as Finder Tags.</li>
+<li><strong>Creative, Camera &amp; Clip Metadata</strong> — Tag files using fields like Scene, Shot, Take, Title, and Description, or pull camera details directly from EXIF metadata.</li>
+<li><strong>Smarter Batch Workflow</strong> — Drop a folder, and evrExpanse extracts metadata and tags all supported files automatically.</li>
+<li><strong>Metadata Tags Preferences</strong> — Choose exactly which metadata fields are read and how each maps to Finder Tags.</li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#21st-october-2025</link>
+            <guid isPermaLink="false">21st October 2025</guid>
+            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st October 2025]]></title>
+            <description><![CDATA[<p>With photo and video metadata now unified, <strong>Finder becomes a practical media browser — searchable, organized, and ready for Final Cut Pro, DaVinci Resolve, or other supported NLEs.</strong></p>
+<p>👉 Update in the app via <strong>evrExpanse &gt; Check for Updates…</strong>, or download <a href="%5Bhttps://www.evrapp.cloud/evrexpanse%5D(https://www.evrapp.cloud/evrexpanse#buy)">here</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-october-2025</link>
+            <guid isPermaLink="false">21st October 2025</guid>
+            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st October 2025]]></title>
+            <description><![CDATA[<p><strong>Antonio Marogna</strong><br>
+Developer, <a href="https://www.evrapp.cloud">evrApps</a></p>
+]]></description>
+            <link>https://fcp.cafe/#21st-october-2025</link>
+            <guid isPermaLink="false">21st October 2025</guid>
+            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
