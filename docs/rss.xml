@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 27 Oct 2025 04:18:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Oct 2025 00:16:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Oct 2025 04:18:52 GMT</pubDate>
+        <pubDate>Tue, 28 Oct 2025 00:16:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11394,28 +11394,14 @@ It is a smaller update focused on making the first run smoother for new users an
         <item>
             <title><![CDATA[21st October 2025]]></title>
             <description><![CDATA[<p><strong>evrExpanse v6.3.0</strong> is out now — <strong>free for existing v6 users!</strong>.</p>
-]]></description>
-            <link>https://fcp.cafe/#21st-october-2025</link>
-            <guid isPermaLink="false">21st October 2025</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[21st October 2025]]></title>
-            <description><![CDATA[<p><strong>Update — 🎁 evrExpanse 6.3 Launch Promo:</strong> Up to <strong>60 % OFF</strong> for 15 days with code <strong>EVRE63INTRO</strong> → <a href="https://evrapp.gumroad.com/l/evrExpanse6/evre63intro">Get it now</a><br>
+<p><strong>Update — 🎁 evrExpanse 6.3 Launch Promo:</strong> Up to <strong>60 % OFF</strong> for 15 days with code <strong>EVRE63INTRO</strong> → <a href="https://evrapp.gumroad.com/l/evrExpanse6/evre63intro">Get it now</a>
 Experience the full power of evrExpanse with a <strong>15-day trial</strong> — no limitations, just complete access to all features.</p>
-]]></description>
-            <link>https://fcp.cafe/#21st-october-2025</link>
-            <guid isPermaLink="false">21st October 2025</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[21st October 2025]]></title>
-            <description><![CDATA[<p>Hi, Antonio here — developer of <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse</a>.</p>
+<p>Hi, Antonio here — developer of <a href="https://www.evrapp.cloud/evrexpanse">evrExpanse</a>.</p>
 <p>Version 6.3 is focused on one thing: connecting all your metadata in a simple, reliable way.</p>
 <p>You can now <strong>tag both videos and photos</strong> using metadata from <strong>DaVinci Resolve</strong>, <strong>Final Cut Pro</strong>, or embedded <strong>XMP, EXIF, and Production</strong> data — all directly inside Finder.</p>
 <p><img src="/static/evrE630_FinderTags.png" alt=""></p>
 <p>Photo format support has also been added to the <strong>Export Metadata</strong> process, so stills and video metadata now work together across your NLEs.</p>
-<h3>What’s New</h3>
+<p><strong>What’s New:</strong></p>
 <ul>
 <li><strong>Photo + Video Support</strong> — JPG, HEIC, DNG, AVIF, TIF, and PNG are now fully supported by both the <strong>Apply Finder Tags</strong> and <strong>Export Metadata</strong> processes.</li>
 <li><strong>Lightroom Integration</strong> — Automatically reads XMP Keywords from Lightroom and Photoshop and applies them as Finder Tags.</li>
@@ -11423,23 +11409,9 @@ Experience the full power of evrExpanse with a <strong>15-day trial</strong> —
 <li><strong>Smarter Batch Workflow</strong> — Drop a folder, and evrExpanse extracts metadata and tags all supported files automatically.</li>
 <li><strong>Metadata Tags Preferences</strong> — Choose exactly which metadata fields are read and how each maps to Finder Tags.</li>
 </ul>
-]]></description>
-            <link>https://fcp.cafe/#21st-october-2025</link>
-            <guid isPermaLink="false">21st October 2025</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[21st October 2025]]></title>
-            <description><![CDATA[<p>With photo and video metadata now unified, <strong>Finder becomes a practical media browser — searchable, organized, and ready for Final Cut Pro, DaVinci Resolve, or other supported NLEs.</strong></p>
+<p>With photo and video metadata now unified, <strong>Finder becomes a practical media browser — searchable, organized, and ready for Final Cut Pro, DaVinci Resolve, or other supported NLEs.</strong></p>
 <p>👉 Update in the app via <strong>evrExpanse &gt; Check for Updates…</strong>, or download <a href="%5Bhttps://www.evrapp.cloud/evrexpanse%5D(https://www.evrapp.cloud/evrexpanse#buy)">here</a>.</p>
-]]></description>
-            <link>https://fcp.cafe/#21st-october-2025</link>
-            <guid isPermaLink="false">21st October 2025</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[21st October 2025]]></title>
-            <description><![CDATA[<p><strong>Antonio Marogna</strong><br>
+<p><strong>Antonio Marogna</strong>
 Developer, <a href="https://www.evrapp.cloud">evrApps</a></p>
 ]]></description>
             <link>https://fcp.cafe/#21st-october-2025</link>
