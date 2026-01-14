@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 14 Nov 2025 22:54:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2026 13:04:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Nov 2025 22:54:21 GMT</pubDate>
+        <pubDate>Wed, 14 Jan 2026 13:04:49 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11470,7 +11470,7 @@ Developer, <a href="https://www.evrapp.cloud">evrApps</a></p>
 <li>Better collaboration between Final Cut Pro on Mac and Final Cut Pro on iPad (bye-bye <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a>).</li>
 <li>Blackmagic will finally release their BRAW MediaExtension they announced at last years FCP Creative Summit (bye-bye <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>).</li>
 </ul>
-<p>Then, once macOS 27 is out (dropping Intel support), we might finally see some big major machine learning improvements added to Final Cut Pro - i.e. machine learning image and audio search (to compete with <a href="https://getjumper.io">Jumper</a>.</p>
+<p>Then, once macOS 27 is out (dropping Intel support), we might finally see some big major machine learning improvements added to Final Cut Pro - i.e. machine learning image and audio search to compete with <a href="https://getjumper.io">Jumper</a>.</p>
 <p>It's certainly going to be an interesting few years!</p>
 ]]></description>
             <link>https://fcp.cafe/#15th-november-2025</link>
@@ -11597,6 +11597,266 @@ Developer, <a href="https://www.evrapp.cloud">evrApps</a></p>
             <link>https://fcp.cafe/#15th-november-2025</link>
             <guid isPermaLink="false">15th November 2025</guid>
             <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p>Happy New Year! Hope you all had a fun and relaxing holiday break!</p>
+<p>2025 proved to be a bit of a rollercoaster for pretty much everyone I know (especially in the Film &amp; TV world) - so fingers and toes crossed 2026 can be a bit more behaved!</p>
+<p>Keeping FCP Cafe up-to-date the last few months has proven to be tricky, however, I hope to be a bit more active this year if I can.</p>
+<p>The big news today is that Apple has announced <strong>Apple Creator Studio</strong>, which launches <strong>28th January</strong>.</p>
+<p>You can read the official Apple Press Release <a href="https://www.apple.com/newsroom/2026/01/introducing-apple-creator-studio-an-inspiring-collection-of-creative-apps/">in their newsroom</a>.</p>
+<p>Interestingly, this news didn't make it to the front page of the Apple site - clearly the wider Apple doesn't think this is big enough news to go mainstream, which is interesting.</p>
+<p>The initial launch of Apple Creator Studio <a href="https://support.apple.com/en-us/125029">includes</a>:</p>
+<ul>
+<li>Final Cut Pro for Mac 12.0</li>
+<li>Final Cut Pro for iPad 3.0</li>
+<li>Logic Pro for Mac 12.0</li>
+<li>Logic Pro for iPad 3.0</li>
+<li>Pixelmator Pro for Mac 4.0</li>
+<li>Pixelmator Pro for iPad 4.0</li>
+<li>Motion 6.0 (Mac)</li>
+<li>Compressor 5.0 (Mac)</li>
+<li>MainStage 4.0 (Mac)</li>
+<li>Pages 15.1 (Mac, iPad, and iPhone)</li>
+<li>Numbers 15.1 (Mac, iPad, and iPhone)</li>
+<li>Keynote 15.1 (Mac, iPad, and iPhone)</li>
+</ul>
+<p>You can watch the slick trailer on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=ISYIEmQxs2M"><img src="/static/creator-studio-trailer.jpg" alt=""></a></p>
+<p>It would be AMAZING if the above trailer was actually created in Final Cut Pro and Motion - but the fact they don't mention it was, makes me think it sadly wasn't.</p>
+<p>In a perfect world, Apple would be creating all these kinds of slick animations in Apple Motion, and showcasing how they're built - but alas, not this time at least.</p>
+<p>For those that aren't already up-to-speed:</p>
+<blockquote>
+<p>Apple Creator Studio gives subscribers access to a suite of creative apps designed for video, music, and image editing and creation. You can make videos in Final Cut Pro, Motion, and Compressor, produce music in Logic Pro and MainStage, and edit photos or graphics in Pixelmator Pro. And while Keynote, Pages, Numbers, and Freeform remain free for everyone, an Apple Creator Studio subscription offers premium templates, a library of high-quality, royalty-free photos and graphics, and powerful intelligence features.</p>
+</blockquote>
+<p>Iain Anderson has written up a great little summary up on <a href="https://www.provideocoalition.com/apple-creator-studio-collects-all-apples-creative-apps-in-an-optional-subscription/">ProVideo Coalition</a>.</p>
+<p>Matthew O'Brien has already posted a <a href="https://www.youtube.com/watch?v=lw44CQjIUqE">new video on his YouTube</a> discussing Creator Studio.</p>
+<p>Apple Creator Studio will be subscription - however, the existing lifetime/perpetual versions of the app's will still be alive - i.e. the Final Cut Pro 11.2 you have today will continue to be updated.</p>
+<blockquote>
+<p>A one-time purchase will still be available, but access to some of the premium content is available only to Apple Creator Studio subscribers. If you already own Final Cut Pro, it will continue to be updated.</p>
+</blockquote>
+<p>My GUESS is that the &quot;premium content&quot; will be music, sound effects, motion graphics - basically the kind of thing you currently can find in Final Cut Pro for iPad - which doesn't exist on the Mac version.</p>
+<blockquote>
+<p>Final Cut Pro is included in your subscription to Apple Creator Studio, which also includes Logic Pro, Pixelmator Pro, Motion, Compressor, and MainStage. In addition, Apple Creator Studio comes with enhanced versions of Keynote, Pages, Numbers, and Freeform that include premium templates, a library of high-quality, royalty-free photos and graphics, and powerful intelligence features.<br>
+<br>
+You can try Apple Creator Studio free for 30 days. After your free trial, new subscribers pay $12.99 per month or $129 per year. Educator and student subscriptions are $2.99 per month or $29.99 per year. Final Cut Pro is also available as a one-time purchase for $299.99.</p>
+</blockquote>
+<p>The cheaper educator and student subscriptions is quite a big deal - <code>USD$2.99/month</code> and <code>USD$29.99/year</code> is CRAZY cheap for what you get. I can imagine lots of universities and film schools around the world being very excited by this.</p>
+<p>It will be super interesting to see how this works, and if this means Apple will be making policy changes to the App Store to enable this, because as far as I know, there's currently no mechanism in the App Store to do this specific educational pricing - at least not for third party developers like myself.</p>
+<p>Also interesting is that:</p>
+<blockquote>
+<p>...with the purchase of a new Mac or qualifying iPad, customers can receive three months of Apple Creator Studio for free</p>
+</blockquote>
+<p>It's also worth noting:</p>
+<blockquote>
+<p>Apple Creator Studio is available to download on the App Store as a universal purchase.</p>
+</blockquote>
+<p>...meaning that if you purchase on iPad, it will work on Mac, etc. and:</p>
+<blockquote>
+<p>Up to six family members can share all of the apps and content included in Apple Creator Studio with Family Sharing.</p>
+</blockquote>
+<p>...which means you can buy once, and the whole family can use it - which is pretty awesome.</p>
+<p>The other current unknown is how exactly the &quot;legacy&quot; version and the new version will ship.</p>
+<p>My GUESS is that the current &quot;legacy&quot; version of Final Cut Pro will continue to ship &quot;as-is&quot; with it's existing bundle identifier (i.e. <code>com.apple.FinalCut</code> on Mac), and they'll use the Final Cut Pro for iPad bundle identifier (i.e. <code>com.apple.FinalCutApp</code>) for the Creator Studio version of the Mac App - so that existing users can continue to work away and update Final Cut Pro as they normally would.</p>
+<p>However, less is clear about how exactly the Apple Creator Studio will appear in the App Store.</p>
+<p>It's possible that Apple Creator Studio might just appear as a single application - and Apple does some trickery (that third parties aren't allowed to do currently due to sandbox requirements) that installs the other applications.</p>
+<p>Or it's possible that Apple might just treat it as an App Bundle, and add some kind of mechanism to support subscriptions in App Bundles (which I don't believe is currently possible?).</p>
+<p>If I had to make a prediction, maybe the reason Apple just announced the Apple Creator Studio today, rather than ship it, is because they need to make some changes to the App Store policy, and they didn't want to do that first, as the rumour mill would pick up on what's in-store. I wouldn't be surprised if we see some App Store policy changes in the coming weeks. We'll see.</p>
+<p>So what's new in Final Cut Pro?</p>
+<blockquote>
+<p><strong>Video Creation Gets Smarter and Faster</strong><br>
+Final Cut Pro for Mac and iPad empowers content creators, video editors, and filmmakers to elevate their projects with intuitive features. One-time-purchase Mac users and Apple Creator Studio subscribers can experience blazing-fast performance with Apple silicon for the most demanding workflows, and get into the creative flow faster than ever with new on-device intelligent features that make video creation effortless and easy.</p>
+</blockquote>
+<p>For better or for worse, the wider Apple seems to have very much stopped using the term &quot;machine learning&quot; and is now pushing &quot;AI&quot; as much as they can. Apple Creator Studio really seems to be a way to help convince Apple Shareholders that they're still in the AI game.</p>
+<p>First up, we have <strong>Transcript &amp; Visual Search</strong> on Mac and iPad.</p>
+<blockquote>
+<p>With Transcript Search on Mac and iPad, users can now easily find the perfect soundbite in hours of footage by simply typing phrases into the search bar to see exact or related results. Video podcasts and interviews can be assembled quickly, eliminating extensive time spent skimming through footage. Looking for a specific video clip also gets an intelligence assist with Visual Search. Now, users can quickly pinpoint exact moments across all footage by searching for an object or action, and then add that visual to their timeline in seconds.<br>
+<br>
+Transcript Search in Final Cut Pro requires a Mac with Apple silicon and macOS 15.6 or later, or an iPad with the Apple M1 chip or later, iPad (A16), or iPad mini (A17 Pro) and iPadOS 26 or later. Available only in U.S. English.<br>
+<br>
+Visual Search requires a Mac with Apple silicon and macOS 15.6 or later, or an iPad with the Apple M1 chip or later, iPad (A16), or iPad mini (A17 Pro) and iPadOS 26 or later. Available only in U.S. English.</p>
+</blockquote>
+<p><img src="/static/creator-studio-transcript.jpg" alt=""></p>
+<p><img src="/static/creator-studio-visual-search.jpg" alt=""></p>
+<p>Essentially... this is bringing <a href="https://fcp.cafe/news/20241106/">Jumper</a> natively to Final Cut Pro.</p>
+<p>With Transcript Search, you'll be able to search through all your dialogue in your Library and find specific words and phrases by entering a description using natural language - i.e. in the example below, they're searching all the transcripts that have ranges that are related to the history of racing (as opposed to finding the words &quot;history of racing&quot;). You'll also obviously be able to search for exact words/phrases too.</p>
+<p>You'll be able to make Smart Collections with these search criteria, so as you ingest more footage, the Smart Collections will be populated with more stuff.</p>
+<p>You'll also be able to filter by <code>Relevance</code>.</p>
+<p><img src="/static/creator-studio-transcript-2.jpg" alt=""></p>
+<p>In this first release, this will only work in <strong>U.S. English</strong> - but I'm sure it will come to other languages over time.</p>
+<p>Visual Search will be much the same - you'll be able to use natural language to search for actions (i.e. &quot;climbing stairs&quot;) and objects (i.e. &quot;red ball&quot;).</p>
+<p><img src="/static/creator-studio-visual-search-2.jpg" alt=""></p>
+<p>We would ASSUME that both Transcript &amp; Visual Search will be on by default in the <code>Import Settings</code>.</p>
+<p>As someone who directly helped bring <a href="https://fcp.cafe/news/20241106/">Jumper</a> to Final Cut Pro, it'll be super interesting to compare Jumper and Apple's offering in terms of speed, quality and ease-of-use.</p>
+<p>I'm ASSUMING that Apple's machine learning models will be super fast - especially as they're supporting all Apple Silicon devices.</p>
+<p>The quality - who knows until it ships. We do know that lots of people are using Jumper in Adobe Premiere, even though Media Intelligence is built in natively, simply because Jumper's search results are better - i.e. Jumper understands what a <code>Millennium Falcon</code> is.</p>
+<p>My GUESS is that Apple will have to tread very carefully with their machine learning models - and like with Adobe, Apple's models also won't know what a Millennium Falcon is (for example).</p>
+<p>Personally, I think Apple's Transcript &amp; Visual Search will work awesome for most users. It'll be fast, native, and super handy.</p>
+<p>Even today, when it comes to searching transcriptions, I sometimes find it faster and easier to just throw all my footage into a timeline, generate captions and search the Timeline Index to find specific things - as opposed to firing up Jumper.</p>
+<p>However Jumper's advantage is that the same analysis files can be shared between Mac &amp; PC, and between Final Cut Pro, DaVinci Resolve, Adobe Premiere Pro and Avid Media Composer. It also works in multiple languages - which Final Cut Pro won't do on launch.</p>
+<p>Next up, we have something that I'm SUPER excited about... <strong>Beat Detection</strong>.</p>
+<blockquote>
+<p>Final Cut Pro for Mac and iPad also makes editing video to the rhythm of music fast and fun with Beat Detection, an amazing new way to see musical beats, bars, and song parts right in the project timeline. Beat Detection uses an AI model from Logic Pro to instantly analyze any music track and display the Beat Grid, so users creating fast-paced videos can quickly and visually align their cuts to the music. Re-editing music tracks to different lengths is also easier than ever.</p>
+</blockquote>
+<p>At the previous Final Cut Pro Creative Summit, the Final Cut Pro team <a href="https://fcp.cafe/news/20241115/">told us</a> that they were basically &quot;sharing a wall&quot; with the Logic Pro team - so it's awesome to FINALLY see a truly great collaboration between the teams!</p>
+<p><img src="/static/creator-studio-beat-detection.jpg" alt=""></p>
+<p>Even though 3rd party tools like the awesome <a href="https://ulti.media/beatmark-pro-automatic-music-driven-video-editing-for-final-cut-pro/">BeatMark Pro</a> exist - personally, I still spend a lot of time manually adding markers to music tracks - so I think this will be a massive time saver.</p>
+<p>The fact it uses a beat grid, rather than markers, is a really nice design. It looks like you'll be able to toggle it from both the toolbar and shortcut keys, so it'll be super handy.</p>
+<p><img src="/static/creator-studio-beat-detection-2.jpg" alt=""></p>
+<p>Weirdly, Apple continues to add features to iPad that haven't made it to the Mac, such as the new <strong>Montage Maker</strong>.</p>
+<blockquote>
+<p>The new Montage Maker in Final Cut Pro for iPad lets users kick-start their edit in just seconds. Using the power of AI, Montage Maker will analyze and edit together a dynamic video based on the best visual moments within the footage, with the ability to change the pacing, cut to a music track, and intelligently reframe horizontal videos to vertical with Auto Crop to simplify sharing across social platforms.</p>
+</blockquote>
+<p><img src="/static/creator-studio-montage-maker.jpg" alt=""></p>
+<p>I'm going to ASSUME this is basically use the same technology/frameworks as Apple Photos.</p>
+<p>It'll be super interesting to see how these montages translate from iPad back to Mac.</p>
+<p>Not very exciting, but handy for new users, it looks like there's also a new toolbar button for creating Libraries, Events &amp; Projects:</p>
+<p><img src="/static/creator-studio-new.jpg" alt=""></p>
+<p>And that basically concludes all the new Final Cut Pro features.</p>
+<p>We'll definitely see some bug fixes and general improvements.</p>
+<p>To quote my previous blog post:</p>
+<blockquote>
+<p>One major bug that's been in Final Cut Pro for a while, but is a major pain, is if you have UltraHD (3840x2160) footage in a HD (1920x1080) timeline, it doesn't actually fill the entire frame - there's a 1 pixel boundary at the edges.<br>
+<br>
+If you have your Viewer background set to Black then this is very hard to notice - you really only notice it if your Viewer background is transparent, or if you have something colourful underneath the UltraHD footage.<br>
+<br>
+Whilst this is annoying for every Final Cut Pro user working with UltraHD footage in a HD timeline - this is a major pain for anyone working in broadcast, as it will fail QC.<br>
+<br>
+I know that Apple is aware of this bug - so I'm HOPEFUL that we'll see a fix sooner rather than later.<br>
+<br>
+There's a lot of other bugs on the <a href="/bugtracker/">FCP Cafe Bug Tracker</a> - but I feel like this one is really a priority.</p>
+</blockquote>
+<p>We'll definitely see <code>FCPXML v1.14</code>. We'll also definitely see a (hopefully big) update to FxPlug. Hopefully we'll also see an update to Workflow Extensions.</p>
+<p>It's VERY unlikely, but one day we might also eventually see a Control Surface SDK - so that control surface manufactures can interact directly with Final Cut Pro without CommandPost.</p>
+<p>In other news... The <strong>Magnetic Mask</strong> finally comes to Apple Motion on Mac.</p>
+<blockquote>
+<p>The powerful and intuitive Magnetic Mask comes to Motion, allowing users to isolate people and objects in their footage to customize backgrounds and environments without a green screen.</p>
+</blockquote>
+<p><img src="/static/creator-studio-magnetic-mask-motion.jpg" alt=""></p>
+<p>At the <a href="https://medium.com/@portemantho/notes-from-apples-create-immersive-media-experiences-for-visionos-8c289e44039e">Create immersive media experiences for visionOS</a> event Apple announced that <strong>Compressor</strong> will be able to export <strong>Apple Immersive Video</strong> packages - so we'll most likely see that ship too.</p>
+<blockquote>
+<p>Apple Creator Studio subscribers also have full access to Compressor to customize output settings, and Motion for creating 2D and 3D effects.</p>
+</blockquote>
+<p><img src="/static/creator-studio-compressor.jpg" alt=""></p>
+<p>For those that haven't been following along, FMC recently posted:</p>
+<blockquote>
+<p>While we’re finalizing our plans for 2026, we’ve got something new we’re excited to share now: Apple is partnering with FMC on an exclusive Final Cut Pro track at Post|Production World during NAB.<br>
+<br>
+The top experts in the industry will be leading sessions packed with advanced techniques, workflow breakthroughs, and insider knowledge that’ll change how you work with Apple pro apps.<br>
+<br>
+See you in April.</p>
+</blockquote>
+<p>Given this, I think that the Final Cut Pro track at Post|Production World during NAB will mostly be focussing on this new update - i.e. Transcript &amp; Visual Search.</p>
+<p>My GUESS is that they'll either cancel the FCP Creative Summit all together (probably in favour of a smaller, but more mainstream one day &quot;Creator Studio&quot; even at the Apple Developer Centre) - or postpone it until later in the year (similar timing to what they normally do).</p>
+<p>I think we'll hear much more about Apple Creator Studio at WWDC this year - they'll use it to announce more AI features.</p>
+<p>Apple's predicted to release a HEAP of hardware this year too - so we'll most likely continue to hear about Apple Creator Studio with each hardware update as well.</p>
+<p>Before I wrap things up, we have to talk about these:</p>
+<p><img src="/static/creator-studio-icons.jpg" alt=""></p>
+<p>Interestingly...</p>
+<blockquote>
+<p>Final Cut Pro, Motion, Compressor, Logic Pro, MainStage, and Pixelmator Pro are also available as one-time purchases for Mac on the App Store. If you previously purchased one of these apps and you also have an Apple Creator Studio subscription, you can use either version of the apps. You can have both versions of these apps installed on your Mac. To make it easier to distinguish versions, the apps in Apple Creator Studio have unique icons.</p>
+</blockquote>
+<p>Personally, I really HATE the direction Apple has gone with their Mac icon designs. I really LOVE traditional Mac icons.</p>
+<p>I really LOVE all my app icons, designed by the insanely talented <a href="http://matthewskiles.com/">Matthew Skiles</a>.</p>
+<p><img src="/static/latenite-apps.jpg" alt=""></p>
+<p>I'm still currently running macOS Sequoia for the simple reason that people constantly send me screenshots of all the visual atrocities that are occurring in macOS Tahoe.</p>
+<p>So my sincerest apologies to all the hundreds of CommandPost users who email me daily about CommandPost's Timeline Batch Export not working in Tahoe - I haven't fixed it for the simple reason, that I just don't want to upgrade any of our machines to Tahoe because it's so ugly. I promise I'll get to it eventually.</p>
+<p>Overall, I think this Final Cut Pro update is a great one - I'll use Transcript Search, Visual Search, and Beat Detection almost daily.</p>
+<p>Because I maintain <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a> (allowing you to get from Final Cut Pro on iPad to Mac), I'll basically have to subscribe to Apple Creator Studio to keep using the iPad version.</p>
+<p>So now that we know what the next Final Cut Pro looks like - what's next?</p>
+<p>Well, we still haven't gotten a Final Cut Pro for iPad update with 3rd Party Motion Templates (it's been &quot;coming soon&quot; for years now).</p>
+<p>MacRumors <a href="https://www.macrumors.com/2025/10/27/apple-may-release-pixelmator-pro-for-ipad/">reported</a>:</p>
+<blockquote>
+<p>Apple might be preparing iPad apps for Pixelmator Pro, Compressor, Motion, and MainStage, according to new App Store IDs uncovered by MacRumors contributor Aaron Perris. All four of the apps are currently available on the Mac only.</p>
+</blockquote>
+<p>...so my GUESS is that at some point this year we'll see Compressor and Motion for iPad, and we'll finally see 3rd party Motion Templates for Final Cut Pro on iPad.</p>
+<p>Long term, I think Apple will try and move everyone across to an Apple Creator Studio subscription, by using collaboration as the draw card - seamless sharing between Mac &amp; iPad. But I think this is probably 5 years away still.</p>
+<p>The other interesting thing that's come up recently in <a href="https://www.youtube.com/watch?v=dObZL71VRYI">Richard Taylor's YouTube Channel</a> and on various Facebook groups is that fact that Blackmagic still hasn't shipped their Blackmagic RAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a>.</p>
+<p><a href="https://fcp.cafe/news/20241113/">Apple announced</a> that Blackmagic would be releasing a BRAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a> at last years FCP Creative Summit - but whilst <a href="https://fcp.cafe/news/20250930/">nablet has released</a> some MediaExtensions - we still haven't seen anything from Blackmagic.</p>
+<p>As the creator of <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>, I'm obviously in touch with the BRAW team at Blackmagic quite a bit, and I know they've been working on the MediaExtension for a long time now - so it's curious that they still haven't shipped anything.</p>
+<p>My GUESS is that there's some technical issue/limitation that's preventing Blackmagic from releasing it - i.e. maybe the MediaExtension performance is worse for BRAW than in Blackmagic DaVinci Resolve or using the official BRAW SDK - who knows.</p>
+<p>However, for now - <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> still works awesome - and there's over 3.80K BRAW Toolbox users using it on all kinds of projects, from television shows, to feature films to music videos. I'm constantly blown away by some of the projects that people use BRAW Toolbox on.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p>Slightly old news now (4th January), but <strong>Gyroflow Toolbox v1.3.3 (Build 25)</strong> is out now on the Mac App Store!</p>
+<p>It contains the following improvements:</p>
+<ul>
+<li>Gyroflow Toolbox can now handle video files greater than 8192 pixels (as long as your GPU supports it). Thanks for reporting mhbsavant!</li>
+<li>We've updated to the latest Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>28 lens profiles have been updated from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to AdrianEddy for all the work that goes into managing them.</li>
+</ul>
+<p>We also missed the <strong>Gyroflow Toolbox v1.3.2 (Build 24)</strong> released on FCP Cafe (18th Nov) which contained:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug where vertical (9x16) clips would not stabilise correctly in Final Cut Pro. If you now set the <strong>Input Rotation</strong> and <strong>Video Rotation</strong> to <code>90</code> in Gyroflow Toolbox, things should now render correctly.</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>We've updated to the latest Gyroflow Core Renderer. HUGE thank you to the amazing <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all his ongoing help, assistance, genius and support!</li>
+<li>6 lens profiles have been updated from the hero Gyroflow project. Thanks to EVERYONE who has submitted lens profiles and another HUGE thank you to <a href="https://github.com/AdrianEddy">AdrianEddy</a> for all the work that goes into managing them.</li>
+</ul>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>Jumper v2026.01.12 (Build 2740)</strong> is out now!</p>
+<p>This release includes facial recognition support.</p>
+<p>You can learn more on the <a href="https://getjumper.io">Jumper website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>Marker to Reminder v1.1</strong> by Automatic Duck is out now for FREE on the Mac App Store!</p>
+<p>Convert your Final Cut Pro timeline markers into Apple Reminders instantly. Track editing tasks with timecodes, right from the app you already use.</p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/marker-to-reminder/id6757208568">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>Simon Says Transcription v3.9.8</strong> is out now with performance improvements and bug fixes.</p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/simon-says-transcription/id1441555493">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>fontAudition-X v1.0.8</strong> is out now with bug fixes.</p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/fontaudition-x/id1554676357">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.1.5</strong> is out now on the Mac App Store.</p>
+<p>It includes:</p>
+<ul>
+<li>New app icon</li>
+<li>Bug fix to replace a deprecated call to open the new <code>fcpxml</code> file</li>
+<li>Bug fix for switching between multiple titles when shortening the captions</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/captionanimator/id6736841747">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
