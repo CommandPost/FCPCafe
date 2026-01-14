@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 14 Jan 2026 13:04:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2026 14:24:47 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 14 Jan 2026 13:04:49 GMT</pubDate>
+        <pubDate>Wed, 14 Jan 2026 14:24:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11853,6 +11853,17 @@ See you in April.</p>
 <li>Bug fix for switching between multiple titles when shortening the captions</li>
 </ul>
 <p>You can learn more and download on the <a href="https://apps.apple.com/app/captionanimator/id6736841747">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-january-2026</link>
+            <guid isPermaLink="false">14th January 2026</guid>
+            <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th January 2026]]></title>
+            <description><![CDATA[<p><strong>Production Clip Reporter</strong> has just been announced!</p>
+<p>Frame accurate Sequence Reporting: Track all Clips, Effects, Transitions, Clip and Sequence Markers.</p>
+<p>Generate professional production reports from Avid Media Composer, Adobe Premiere or DaVinci Resolve via OpenTimelineIO.</p>
+<p>You can learn more on the <a href="https://www.intelligentassistance.com/production-clip-reporter/">Intelligent Assistance website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-january-2026</link>
             <guid isPermaLink="false">14th January 2026</guid>
