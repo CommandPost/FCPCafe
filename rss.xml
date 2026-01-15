@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 15 Jan 2026 05:17:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2026 05:29:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 Jan 2026 05:17:52 GMT</pubDate>
+        <pubDate>Thu, 15 Jan 2026 05:29:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11914,6 +11914,7 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
 <p><a href="https://fcp.cafe/news/20241113/">Apple then announced</a> that Blackmagic WOULD be releasing a BRAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a> at the last FCP Creative Summit - but whilst <a href="https://fcp.cafe/news/20250930/">nablet has released</a> some MediaExtensions - we still haven't seen anything from Blackmagic.</p>
 <p>Over the years I've continued to look into and experiment with MediaExtension's - but with the Blackmagic RAW SDK in it's current form, it's insanely hard (or maybe impossible) for a third party to build a BRAW Media Extension - mainly because MediaExtension's are sandboxed, and they don't get access to the entire BRAW file - they just get &quot;chunks&quot; of data per frame.</p>
 <p>I'll continue to update and improve <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> for now - and we'll just see what Blackmagic does.</p>
+<p>Also, thinking about how Apple might actually handle the licensing for Apple Creator Studio - <a href="https://developer.apple.com/documentation/security/sharing-access-to-keychain-items-among-a-collection-of-apps">Sharing access to keychain items among a collection of apps</a> is probably one way to solve that issue.</p>
 <p><a href="https://www.cined.com/apple-creator-studio-cined-exclusive-interview-reveals-the-future-of-pro-apps-licensing/">CineD posted an article</a> where they spoke to Apple about Apple Creator Studio.</p>
 <p>Some highlights:</p>
 <blockquote>
