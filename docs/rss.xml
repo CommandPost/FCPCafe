@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 14 Jan 2026 14:24:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2026 05:17:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 14 Jan 2026 14:24:47 GMT</pubDate>
+        <pubDate>Thu, 15 Jan 2026 05:17:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11868,6 +11868,168 @@ See you in April.</p>
             <link>https://fcp.cafe/#14th-january-2026</link>
             <guid isPermaLink="false">14th January 2026</guid>
             <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th January 2026]]></title>
+            <description><![CDATA[<p>Thanks for all the messages and feedback from yesterday's blog post!</p>
+<p>Apple Creator Studio has definitely caused a heap of discussion in the Final Cut Pro community, which is awesome.</p>
+<p>Jeff Roy responded to the blog post on <a href="https://www.facebook.com/groups/applecreatorstudio/posts/762193859646736/?comment_id=762250132974442">Facebook</a> with:</p>
+<blockquote>
+<p>Great write up as always, but I’m surprised nobody is talking about 𝗣𝗵𝗼𝘁𝗼𝗺𝗮𝘁𝗼𝗿. I use it more often than 𝗣𝗶𝘅𝗲𝗹𝗺𝗮𝘁𝗼𝗿 𝗣𝗿𝗼. Based on past product cycles I’m guessing the team just didn’t have the bandwidth to overhaul both apps, sort of like the situation with 𝗙𝗶𝗻𝗮𝗹 𝗖𝘂𝘁 𝗣𝗿𝗼 𝗳𝗼𝗿 𝗶𝗣𝗮𝗱. It’s conceivable that they could be somehow rolling it into 𝗣𝗵𝗼𝘁𝗼𝘀 in the various 𝗢𝗦 𝟮𝟳 releases as part of their AI story at WWDC. 𝗣𝗵𝗼𝘁𝗼𝗺𝗮𝘁𝗼𝗿 was born as a universal iPhone/iPad/Mac app and awarded App of the year by Apple. It has both a subscription or “lifetime” license available as in-app purchase.<br>
+<br>
+We are also losing classic 𝗣𝗶𝘅𝗲𝗹𝗺𝗮𝘁𝗼𝗿 for iPhone, which is a real shame if they don’t replace it with something. It was already compatible with 𝗣𝗶𝘅𝗲𝗹𝗺𝗮𝘁𝗼𝗿 𝗣𝗿𝗼 so maybe they just haven’t finished developing the universal version. I don’t know of any non-Adobe iPhone apps that do what 𝗣𝗶𝘅𝗲𝗹𝗺𝗮𝘁𝗼𝗿 can with layering.<br>
+<br>
+𝗠𝗼𝘁𝗶𝗼𝗻 𝗳𝗼𝗿 𝗶𝗣𝗮𝗱 was also rumored previously, so maybe that’s still part of the “coming soon” promise that they are not ready to reveal.<br>
+<br>
+I’m overjoyed to see Transcription Search and Visual Search coming to 𝗙𝗶𝗻𝗮𝗹 𝗖𝘂𝘁 𝗣𝗿𝗼, but the screenshot gives me pause. It depicts a search field with results on the left, but I don’t see any visible transcription. That’s not very useful to me if I can’t see the text. What I need is a way to see the transcript for my ranges in the Browser at a glance, so I don’t have to play through them to know which is which. Currently I use 𝗠𝗮𝗰𝗪𝗵𝗶𝘀𝗽𝗲𝗿 to get a transcript and then replace the word “Favorite” with the text for that range, and it’s incredibly useful when building interview edits.]
+<br>
+This is all great news, though. Regarding education customers, it still does not address the barrier for institutions using MDM. That could be one reason for maintaining the single-purchase applications, but nobody would deploy them at full price. The way it works with Adobe is that they have an annual contract for seats, and the 𝗖𝗖 gets pushed to the managed devices as a portal to the other apps and no in-app purchases are ever involved. I could see that working with 𝗖𝗦 on the Mac where the App Store isn’t gospel. Or maybe they aren’t interested in that play at all.<br>
+<br>
+I don’t think they cancel the Summit. I think it’s coming in Spring as the site says. Hopefully not during our busiest week in education.</p>
+</blockquote>
+<p>Jeff makes some great points. Whilst I own Pixelmator &amp; Photomator - I don't really ever use them, so I'm definitely not an expert in this area, hence why I mainly focussed on Final Cut Pro news.</p>
+<p>I also had quite a few messages about my comments on Blackmagic RAW.</p>
+<p><a href="https://developer.apple.com/documentation/MediaExtension">Apple's MediaExtension SDK</a> was actually announced back at WWDC 2023 - so it's not new - it's been out for a while. We posted about it on <a href="https://fcp.cafe/news/20230609-02/">FCP Cafe at the time</a>.</p>
+<p>We also posted about it back at <a href="https://fcp.cafe/news/20240611/">WWDC 2024</a>, and later in <a href="https://fcp.cafe/news/20241120-02/">November 2024</a>.</p>
+<p>To quote the old blog post:</p>
+<blockquote>
+<p>Whilst Apple did announce at the 2024 Final Cut Pro Creative Summit that <strong>Final Cut Pro 11</strong> now supports the new macOS system-wide <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension Framework</a>, and that Blackmagic will at some point release a Blackmagic RAW Media Extension - there is currently no time frame, so we have no idea if this is coming in days, weeks, or months.<br>
+<br>
+In <a href="https://x.com/chrisatlatenite/status/1667015417175625734">2023</a> Apple announced a new framework called <strong>MediaExtension</strong>, that provides a means for developers to create format readers and video decoders for media that the system doesn’t natively support - such as <strong>Blackmagic RAW</strong> and <strong>Nikon NRAW</strong>.<br>
+<br>
+This was supposed to come in <strong>macOS Sonoma</strong>, but they silently killed it - only for it to reappear in this years WWDC for <strong>macOS Sequoia</strong>.<br>
+<br>
+Whilst it's been out for a while, the documentation is insanely complicated and limited and the only person I know who's done ANYTHING with it so far is the incredible <a href="https://x.com/_vade">Anton Marini</a>, who's been building an <strong>ffmpeg</strong> Media Extension over on GitHub <a href="https://github.com/vade/FFMPEGMediaExtension">here</a>.<br>
+<br>
+I originally started playing with and testing MediaExtension's both back in 2023, and during the macOS Sequoia beta's, but never made much progress, as Final Cut Pro 10.8.1 didn't support Media Extensions anyway.<br>
+<br>
+However, given there's no certainty as to when Blackmagic will release a Blackmagic RAW Media Extension, we're going to go back and see if we can bring a Blackmagic RAW Media Extension to market sooner rather than later.<br>
+<br>
+Apple announced 3rd party Motion Templates were &quot;coming soon&quot; to iPad at launch, and that functionality is still not out - so we don't really want to waste time waiting for something that could be a year away.<br>
+<br>
+We'll continue to keep you posted on our progress on FCP Cafe.<br>
+<br>
+You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+</blockquote>
+<p><a href="https://fcp.cafe/news/20241113/">Apple then announced</a> that Blackmagic WOULD be releasing a BRAW <a href="https://developer.apple.com/documentation/mediaextension?language=objc">MediaExtension</a> at the last FCP Creative Summit - but whilst <a href="https://fcp.cafe/news/20250930/">nablet has released</a> some MediaExtensions - we still haven't seen anything from Blackmagic.</p>
+<p>Over the years I've continued to look into and experiment with MediaExtension's - but with the Blackmagic RAW SDK in it's current form, it's insanely hard (or maybe impossible) for a third party to build a BRAW Media Extension - mainly because MediaExtension's are sandboxed, and they don't get access to the entire BRAW file - they just get &quot;chunks&quot; of data per frame.</p>
+<p>I'll continue to update and improve <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> for now - and we'll just see what Blackmagic does.</p>
+<p><a href="https://www.cined.com/apple-creator-studio-cined-exclusive-interview-reveals-the-future-of-pro-apps-licensing/">CineD posted an article</a> where they spoke to Apple about Apple Creator Studio.</p>
+<p>Some highlights:</p>
+<blockquote>
+<p>In our interview, Apple went on the record to debunk this. When asked directly if the standalone Mac version of Final Cut Pro would include the new AI-driven tools, Bryan O’Neil Hughes was definitive:<br>
+<br>
+“The same features and functionality – Visual Search, Transcript Search, Beat Detection – will be on the one-time purchase version that you have today. It’ll update, and it’ll all just work as you expect it to.”</p>
+</blockquote>
+<p>However, I don't think there was any question of this. Apple announced yesterday:</p>
+<blockquote>
+<p>A one-time purchase will still be available, but access to some of the premium content is available only to Apple Creator Studio subscribers. If you already own Final Cut Pro, it will continue to be updated.</p>
+</blockquote>
+<p>Again, my GUESS is that the &quot;premium content&quot; will be music, sound effects, motion graphics - basically the kind of thing you currently can find in Final Cut Pro for iPad - which doesn't exist on the Mac version.</p>
+<blockquote>
+<p>Apple clarified that the “M5” mention was about peak speed, not minimum requirements. The new features will work fully on all Apple Silicon devices, including the original M1 generation. John Danty, Product Marketing, reassured us that older hardware won’t be left behind:<br>
+<br>
+“The difference you’ll see in the latest hardware is enhanced performance… but if you’re on original Apple Silicon devices, no problem whatsoever.”</p>
+</blockquote>
+<p>This is Apple's super power - Apple Silicon is just so darn good. I'm still on a MacBook Pro (16-inch, 2021, M1 Max, 64GB RAM, 8TB SSD) - at it flies. It would cost me a LOT to upgrade to a new MacBook Pro with the same specs, so there's very little incentive to do so.</p>
+<blockquote>
+<p>Finally, Background Export is also coming on Final Cut Pro for iPad. Apple stated they have “aggressively tested” this with heavy memory loads. Danty confirmed that switching to memory-intensive apps like Lightroom or Safari will not pause or kill the render process:<br>
+<br>
+“We’ve been aggressively testing it with really heavy loads… and have not bumped into any problems.”</p>
+</blockquote>
+<p>DaVinci Resolve for iPadOS v20.3, added support for background rendering last year - so it's nice to see Apple catch up in this department.</p>
+<p>Whilst I've still got you...</p>
+<p><a href="https://x.com/BasicAppleGuy">Basic Apple Guy</a> on Twitter has posted some fun images:</p>
+<p><a href="https://x.com/BasicAppleGuy/status/2011171065624412582"><img src="/static/basic-apple-guy-01.jpeg" alt=""></a></p>
+<p><a href="https://x.com/BasicAppleGuy/status/2011125072149528960"><img src="/static/basic-apple-guy-02.jpeg" alt=""></a></p>
+<p>I also enjoyed <a href="https://www.threads.com/@asallen">Andy Allen's</a> post on Threads:</p>
+<blockquote>
+<p>The Boringification of Software<br>
+<br>
+<a href="https://www.threads.com/@asallen/post/DTdg6ehgVhi"><img src="/static/andy-allen-01.jpg" alt=""></a></p>
+</blockquote>
+<p>...and <a href="https://www.threads.com/@heliographe.studio">Héliographe's</a> post on Threads:</p>
+<blockquote>
+<p>If you put the Apple icons in reverse it looks like the portfolio of someone getting really really good at icon design<br>
+<br>
+<a href="https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1?xmt=AQF0bLJR0STBQ8YG--F-OZiKglKPKHgeh6MhwoyGTt75qQ"><img src="/static/heliographe-studio-01.jpg" alt=""></a></p>
+</blockquote>
+<p>Yes... I'm still in denial about Apple's icon direction.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-january-2026</link>
+            <guid isPermaLink="false">15th January 2026</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th January 2026]]></title>
+            <description><![CDATA[<p><strong>Strada Agent v2026.1.14 (88)</strong> is out now!</p>
+<p>It contains the following improvements:</p>
+<blockquote>
+<p>Some fun updates for you all:<br>
+\</p>
+<ul>
+<li>You can now create a folder! Need to transfer to a location that doesn't exist? Make it!\</li>
+<li>New users and collaborators now have a step-by-step onboarding experience to get started easier\</li>
+<li>Jobs details MODAL. You can now open up an expanded view of a job and see every file, how big it is, a thumbnail, and its transfer status.<br>
+<br>
+<strong>Bug Fixes:</strong>\</li>
+<li>Breadcrumbs now stay after a refresh\</li>
+<li>UNC path on windows\</li>
+<li>Agents now load individually in the left nav and show an error state when they can't be reached due to a network error\</li>
+<li>Agents going offline and not trying to restart themselves\</li>
+<li>Auto-Updates ( NOTE: If you are on an older agent you will need to manually update to this version and then auto-updates should work here on out )\</li>
+<li>Some jobs were not showing as complete until refreshing the page, they looked stuck but they were done\</li>
+<li>Cleaned up states for folder not existing or you no longer having access so you know exactly what is going on with a certain folder\</li>
+<li>thumbnails on mobile\</li>
+<li>many many many more!<br>
+<br>
+<strong>SNEAK PEAK of the coming month:</strong>\</li>
+<li>We are working on launching our new license server which will allow you to buy and manage licenses on behalf of others or your team!\</li>
+<li>We have a Alpha version of our new Virtual File Editing technology. We will post more here about how to get involved in the coming weeks.\</li>
+<li>Raw playback support. Starting with Blackmagic Raw we will support remote viewing of raw files in our video player on web and mobile WITHOUT having to create a proxy or upload anything to a cloud.<br>
+<br>
+Happy new year everyone! We are starting a new initiative called the feature of the week so look here soon for our next little feature: Sorting!</li>
+</ul>
+</blockquote>
+<p>You can learn more about <a href="https://strada.tech">Strada on their website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-january-2026</link>
+            <guid isPermaLink="false">15th January 2026</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th January 2026]]></title>
+            <description><![CDATA[<p><strong>Simon Says Transcription v3.9.9</strong> is out now with performance improvements and bug fixes.</p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/simon-says-transcription/id1441555493">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-january-2026</link>
+            <guid isPermaLink="false">15th January 2026</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th January 2026]]></title>
+            <description><![CDATA[<p><strong>Frame.io v2.7.6</strong> is out now with the following bug fix:</p>
+<blockquote>
+<p>Fixed a bug where the app could fail to detect if FCP is installed when installing Share Destinations.</p>
+</blockquote>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/frame-io-video-collaboration/id992958444">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-january-2026</link>
+            <guid isPermaLink="false">15th January 2026</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th January 2026]]></title>
+            <description><![CDATA[<p><strong>SpeedScriber v3.0.4</strong> is out now with the following improvements:</p>
+<ul>
+<li>Searching for words with Any Speaker selected, now works correctly after opening multiple files.</li>
+<li>Quitting the app after logging out when a file has been opened will no longer cause a crash.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/speedscriber/id1101502006">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-january-2026</link>
+            <guid isPermaLink="false">15th January 2026</guid>
+            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
