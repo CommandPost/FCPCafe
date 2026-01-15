@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 15 Jan 2026 05:29:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2026 06:02:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 Jan 2026 05:29:52 GMT</pubDate>
+        <pubDate>Thu, 15 Jan 2026 06:02:48 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11966,31 +11966,31 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
             <description><![CDATA[<p><strong>Strada Agent v2026.1.14 (88)</strong> is out now!</p>
 <p>It contains the following improvements:</p>
 <blockquote>
-<p>Some fun updates for you all:<br>
-\</p>
+<p>Some fun updates for you all:</p>
 <ul>
-<li>You can now create a folder! Need to transfer to a location that doesn't exist? Make it!\</li>
-<li>New users and collaborators now have a step-by-step onboarding experience to get started easier\</li>
-<li>Jobs details MODAL. You can now open up an expanded view of a job and see every file, how big it is, a thumbnail, and its transfer status.<br>
-<br>
-<strong>Bug Fixes:</strong>\</li>
-<li>Breadcrumbs now stay after a refresh\</li>
-<li>UNC path on windows\</li>
-<li>Agents now load individually in the left nav and show an error state when they can't be reached due to a network error\</li>
-<li>Agents going offline and not trying to restart themselves\</li>
-<li>Auto-Updates ( NOTE: If you are on an older agent you will need to manually update to this version and then auto-updates should work here on out )\</li>
-<li>Some jobs were not showing as complete until refreshing the page, they looked stuck but they were done\</li>
-<li>Cleaned up states for folder not existing or you no longer having access so you know exactly what is going on with a certain folder\</li>
-<li>thumbnails on mobile\</li>
-<li>many many many more!<br>
-<br>
-<strong>SNEAK PEAK of the coming month:</strong>\</li>
-<li>We are working on launching our new license server which will allow you to buy and manage licenses on behalf of others or your team!\</li>
-<li>We have a Alpha version of our new Virtual File Editing technology. We will post more here about how to get involved in the coming weeks.\</li>
-<li>Raw playback support. Starting with Blackmagic Raw we will support remote viewing of raw files in our video player on web and mobile WITHOUT having to create a proxy or upload anything to a cloud.<br>
-<br>
-Happy new year everyone! We are starting a new initiative called the feature of the week so look here soon for our next little feature: Sorting!</li>
+<li>You can now create a folder! Need to transfer to a location that doesn't exist? Make it!</li>
+<li>New users and collaborators now have a step-by-step onboarding experience to get started easier</li>
+<li>Jobs details MODAL. You can now open up an expanded view of a job and see every file, how big it is, a thumbnail, and its transfer status.</li>
 </ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Breadcrumbs now stay after a refresh</li>
+<li>UNC path on windows</li>
+<li>Agents now load individually in the left nav and show an error state when they can't be reached due to a network error</li>
+<li>Agents going offline and not trying to restart themselves</li>
+<li>Auto-Updates ( NOTE: If you are on an older agent you will need to manually update to this version and then auto-updates should work here on out )</li>
+<li>Some jobs were not showing as complete until refreshing the page, they looked stuck but they were done</li>
+<li>Cleaned up states for folder not existing or you no longer having access so you know exactly what is going on with a certain folder</li>
+<li>thumbnails on mobile</li>
+<li>many many many more!</li>
+</ul>
+<p><strong>SNEAK PEAK of the coming month:</strong></p>
+<ul>
+<li>We are working on launching our new license server which will allow you to buy and manage licenses on behalf of others or your team!</li>
+<li>We have a Alpha version of our new Virtual File Editing technology. We will post more here about how to get involved in the coming weeks.</li>
+<li>Raw playback support. Starting with Blackmagic Raw we will support remote viewing of raw files in our video player on web and mobile WITHOUT having to create a proxy or upload anything to a cloud.</li>
+</ul>
+<p>Happy new year everyone! We are starting a new initiative called the feature of the week so look here soon for our next little feature: Sorting!</p>
 </blockquote>
 <p>You can learn more about <a href="https://strada.tech">Strada on their website</a>.</p>
 ]]></description>
