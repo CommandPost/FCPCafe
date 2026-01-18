@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 16 Jan 2026 12:33:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2026 09:21:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 Jan 2026 12:33:52 GMT</pubDate>
+        <pubDate>Sun, 18 Jan 2026 09:21:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12060,6 +12060,15 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
             <link>https://fcp.cafe/#16th-january-2026</link>
             <guid isPermaLink="false">16th January 2026</guid>
             <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th January 2026]]></title>
+            <description><![CDATA[<p><strong>fontAudition-X v1.0.9</strong> is out now with &quot;minor UI changes and code optimisation&quot;.</p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/fontaudition-x/id1554676357">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-january-2026</link>
+            <guid isPermaLink="false">18th January 2026</guid>
+            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
