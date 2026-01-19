@@ -14,19 +14,19 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 24th September 2025
+**Last Updated:** 19th January 2026
 
-If you're on a new Mac, with macOS Tahoe pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
+If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
 
-If you haven't updated to macOS Tahoe yet - maybe hold off until some of the reported issues are resolved (such as audio cracking/popping).
+However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [ugly](https://tonsky.me/blog/tahoe-icons/).
 
-We will update this page when more information is gathered...
+There was also previously reported issues of audio cracking/popping, but this is now resolved.
 
-For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.1.1** is rock solid.
+For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.2** is rock solid.
 
-We've been using **Final Cut Pro 11.1.1** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
+We've been using **Final Cut Pro 11.2** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
 
-If you're currently on **Final Cut Pro 11.0.1** or **Final Cut Pro 11.1**, you can safely update to **Final Cut Pro 11.1.1**.
+If you're currently on **Final Cut Pro 11.0.1**, **Final Cut Pro 11.1**, or **Final Cut Pro 11.1.1** you can safely update to **Final Cut Pro 11.2**.
 
 **Final Cut Pro 10.8** is very similar to Final Cut Pro 10.7.1, so if you're still on 10.7.1 on a major project, there's no rush to update.
 
@@ -36,11 +36,33 @@ If you're currently on **Final Cut Pro 10.6.10**, you can safely upgrade to **Fi
 
 If you're currently on **Final Cut Pro 10.7**, you can safely update to **Final Cut Pro 10.7.1**.
 
-If you're on **macOS Ventura** - you should be fine to update to **macOS Sonoma**.
+If you're on **macOS 13 Ventura** - you should be fine to update to **macOS 14 Sonoma**.
 
-If you're on **macOS Sonoma** - you should be fine to update to **macOS Sequoia**.
+If you're on **macOS 14 Sonoma** - you should be fine to update to **macOS 15 Sequoia**.
+
+If you're on **macOS 15 Sequoia** - I'd personally just hold off updating to **macOS 26 Tahoe**, unless you REALLY need it.
 
 You can read full answers below...
+
+---
+
+## macOS 26 Tahoe
+
+There were originally [reported issues](https://www.reddit.com/r/MacOSBeta/comments/1l7wg5z/cracking_popping_sound_during_audio_playback_on/) with cracking/popping sounds during audio playback, however those issues have now been resolved.
+
+Whilst **macOS 26 Tahoe** seems quite stable - generally speaking as stable as **macOS 15 Sequoia** - it does have a lot of [horrible user interface design choices](https://tonsky.me/blog/tahoe-icons/).
+
+Our suggestion...
+
+If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
+
+However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [ugly](https://tonsky.me/blog/tahoe-icons/).
+
+---
+
+## Apple Creator Studio
+
+We will post more once Apple Creator Studio ships.
 
 ---
 
@@ -50,34 +72,24 @@ Final Cut Pro 11.2 was released on 19th September 2025.
 
 So far, the general feedback has been very positive - it seems to have fixed a few long-standing bugs people have been having.
 
-We will update this page when more information is gathered...
-
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
 | Capacitor                | No Known Issues                                                                                         |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | No Known Issues                                                                                         |
+| CommandPost              | Requires CommandPost v1.6.0 on macOS Tahoe.                                                             |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | Not yet supported                                                                                       |
+| Hedge Arctic             | Requires Arctic v25.2                                                                                   |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
-
----
-
-## macOS Tahoe
-
-There are [reported issues](https://www.reddit.com/r/MacOSBeta/comments/1l7wg5z/cracking_popping_sound_during_audio_playback_on/) with cracking/popping sounds during audio playback, so best to hold off updating until these issues are addressed.
-
-We will update this page when more information is gathered...
 
 ---
 
