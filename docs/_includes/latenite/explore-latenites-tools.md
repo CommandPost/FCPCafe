@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) from [LateNite](https://latenitefilms.com).
+This website has been thrown together by [Chris Hocking](https://github.com/latenitefilms) from [LateNite](https://latenitefilms.com).
 
 **LateNite** is an independent production studio committed to investing in emerging creatives with strong, unique voices, helping tell their stories in a creatively supportive and collaborative environment. Our work uses humour to explore outsider stories that are unmistakably human and straddle the line between light and dark.
 
@@ -24,11 +24,19 @@ For example, our debut free and open-source application **CommandPost**, has bee
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+All of the 2024 and 2025 **Apple WWDC** videos were graded using [Tangent panels](https://www.tangentwave.co.uk) in Final Cut Pro controlled by [CommandPost](https://commandpost.fcp.cafe). 🥳
 
 This page showcases all the stuff we've build, throw together and collaborated on. Enjoy!
 
 ![](/static/latenite-apps.jpg)
+
+---
+
+## Chris Hocking
+
+If you want to learn more about Chris' backstory, you can watch him on [Ascent Media's podcast](https://ascentmedia.com.au/ascendyourstory):
+
+[![](/static/chris-hocking-podcast-youtube.jpg)](https://www.youtube.com/watch?v=Ik4_jlKK_Tg)
 
 ---
 
