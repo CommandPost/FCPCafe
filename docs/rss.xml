@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 18 Jan 2026 09:21:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 02:42:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 18 Jan 2026 09:21:06 GMT</pubDate>
+        <pubDate>Mon, 19 Jan 2026 02:42:40 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12069,6 +12069,36 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
             <link>https://fcp.cafe/#18th-january-2026</link>
             <guid isPermaLink="false">18th January 2026</guid>
             <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th January 2026]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.6.0</strong> is out now!</p>
+<p>Apologies for the delay - I've been holding off updating to macOS Tahoe, simply because I really hate the decisions Apple have made in terms of App Icons, and <a href="https://tonsky.me/blog/tahoe-icons/">their user interface design in general</a>.</p>
+<p>However, each day I was getting 10+ emails from people really wanting to use CommandPost's <strong>Timeline Batch Export</strong> on Tahoe, so I've finally updated, and pushed out a new CommandPost update.</p>
+<p>This release includes the following changes:</p>
+<p><strong>🎉 New Features:</strong></p>
+<ul>
+<li>JKWTCN has added a new WebSocket Control Surfaces Panel, so you can easily trigger CommandPost actions via WebSocket messages. Thanks heaps for your contribution JKWTCN!</li>
+</ul>
+<p><strong>💪 Changes:</strong></p>
+<ul>
+<li>Updated the CommandPost application icon for macOS Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+<li>Removed Notion Toolbox and Shot Data Toolbox.</li>
+<li>Removed the in-app Feedback form. We now just link to the website.</li>
+<li>Updated various website URLs.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a bug which caused Timeline Batch Export to generate a &quot;Failed to get the original Filename&quot; error on macOS Tahoe. Thanks for reporting karelkasik-droid, ok-kenji, fiona-gray, savvas215, godloveeric and many others!</li>
+<li>Fixed a bug in the Sony Timecode Repair Toolbox that would show a DTD validation error on Final Cut Pro 11.0.1 and later. Thanks for reporting rileyendicott, asohawramii and many others!</li>
+<li>Fixed a bug which prevented the Stream Deck Mini Button 1 from working. Thanks for reporting SungChul Kang!</li>
+<li>Renée Köcher fixed a bug that prevented menubar's from updating correctly on macOS 15 Sequoia and later. Thanks Renée!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-january-2026</link>
+            <guid isPermaLink="false">19th January 2026</guid>
+            <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
