@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 20 Jan 2026 01:17:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 21:45:57 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 20 Jan 2026 01:17:09 GMT</pubDate>
+        <pubDate>Tue, 20 Jan 2026 21:45:57 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12156,6 +12156,32 @@ I stopped using custom layouts as I need these features to work.</li>
             <link>https://fcp.cafe/#20th-january-2026</link>
             <guid isPermaLink="false">20th January 2026</guid>
             <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st January 2026]]></title>
+            <description><![CDATA[<p>At the start of last year I was invited to be a guest on <a href="https://ascentmedia.com.au/ascendyourstory">Ascent Media's podcast</a>.</p>
+<p>To be honest, last year was a bit of a rollercoaster for a million different reasons, so when the podcast was publicly released last September, I completely forgot to share it publicly!</p>
+<p>If you want to see me ranting for an hour about all things nerdy, you can watch my Ascend Your Story podcast episode on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=Ik4_jlKK_Tg"><img src="/static/chris-hocking-podcast-youtube.jpg" alt=""></a></p>
+<p>You can also find it on <a href="https://open.spotify.com/show/25ZzfVgQbwAO6CQpcCA2nJ?si=e3644f8772614b9e">Spotify</a> and <a href="https://podcasts.apple.com/au/podcast/ascend-your-story/id1814501879?i=1000708524202">Apple Podcasts</a></p>
+<p>Thanks heaps Sam for having me on the show!</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-january-2026</link>
+            <guid isPermaLink="false">21st January 2026</guid>
+            <pubDate>Wed, 21 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st January 2026]]></title>
+            <description><![CDATA[<p>Following on from our Custom Workspaces discussions, Daniel Szimuly <a href="https://x.com/danielszimuly/status/2013591978294841710">writes</a>:</p>
+<blockquote>
+<p>I still have a really annoying bug with the normal way of using workspaces. When I use a 3-monitor setup, 2 horizontal and 1 vertical, FCP constantly signs the second monitor to the horizontal one, even though I want it to be vertical.</p>
+<p>The only solution is to turn off the A/V output temporarily so that the browser can view the vertical screen.</p>
+</blockquote>
+<p>I know a few people have used CommandPost to work around these kinds of complex 3+ monitor setups - so if you have any ideas or suggestions for Daniel please share them in the comments! Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-january-2026</link>
+            <guid isPermaLink="false">21st January 2026</guid>
+            <pubDate>Wed, 21 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
