@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 19 Jan 2026 02:42:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 01:17:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 19 Jan 2026 02:42:40 GMT</pubDate>
+        <pubDate>Tue, 20 Jan 2026 01:17:09 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12099,6 +12099,63 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
             <link>https://fcp.cafe/#19th-january-2026</link>
             <guid isPermaLink="false">19th January 2026</guid>
             <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th January 2026]]></title>
+            <description><![CDATA[<p>First up, thanks to the <strong>1901 people</strong> who have already downloaded <strong>CommandPost v1.6.0</strong>!</p>
+<p>For those considering using the <a href="https://www.fcpxbooster.com/workspace-remapper/">Final Cut Pro X Workspace Remapper</a>, we've seen the following comments from social media in terms of Final Cut Pro's stability:</p>
+<p>Dylan Bates (The Final Cut Bro) <a href="https://x.com/thefinalcutbro/status/2012920333926314183">writes</a>:</p>
+<blockquote>
+<p>I’ve had zero issues when doing just a typical vertical layout. But stuff definitely can get funky with multiple browsers. Mostly visual artifacts for me like text being in the wrong spot.</p>
+</blockquote>
+<p>Richard Taylor <a href="https://x.com/RichardTaylorTV/status/2012895720647295001">writes</a>:</p>
+<blockquote>
+<p>I've had problems.\</p>
+<ol>
+<li>Browser clips sometimes don't live scrub.\</li>
+<li>Viewer doesn't update when trimming between two clips.<br>
+<br>
+I stopped using custom layouts as I need these features to work.</li>
+</ol>
+</blockquote>
+<p>Achu P. Chandra <a href="https://x.com/apcdgworks/status/2012922611051978810">writes</a>:</p>
+<blockquote>
+<p>It was a great option to customise the window layout. I created a layout for vertical video editing and a custom window layout. I also found bugs in the inactive audio meter and resizing of windows.</p>
+</blockquote>
+<p>Sandeep Saini <a href="https://x.com/journeyvialens/status/2012985157150499188">writes</a>:</p>
+<blockquote>
+<p>I’ve been using them and loving them. The only issue have some sometimes that some of the audio scopes don’t show anything they just stationary.</p>
+</blockquote>
+<p>Daniel Szimuly <a href="https://x.com/danielszimuly/status/2013017457858904128">writes</a>:</p>
+<blockquote>
+<p>No issue so far</p>
+</blockquote>
+<p>Have you tried them out? Are they working ok for you? Please share in the comments or <a href="https://ltnt.tv/discord">Discord</a>! Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-january-2026</link>
+            <guid isPermaLink="false">20th January 2026</guid>
+            <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th January 2026]]></title>
+            <description><![CDATA[<p>For those Final Cut Pro developers following along, <strong>swift-daw-file-tools v0.8.0</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Added package traits to opt-in to each data model: <code>Cubase</code>, <code>FCP</code>, <code>MIDIFile</code>, <code>ProTools</code>, <code>SRT</code></li>
+<li>By default, all traits are enabled unless specified</li>
+<li>FCPXML: Added FCPXML 1.14 compatibility</li>
+</ul>
+<p><strong>Maintenance:</strong></p>
+<ul>
+<li>Migrated unit tests to Swift Testing</li>
+<li>Converted TODO compiler warnings to comments</li>
+</ul>
+<p>You can learn more and download on <a href="https://github.com/orchetect/swift-daw-file-tools">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-january-2026</link>
+            <guid isPermaLink="false">20th January 2026</guid>
+            <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
