@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 20 Jan 2026 21:45:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 22:22:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 20 Jan 2026 21:45:57 GMT</pubDate>
+        <pubDate>Wed, 21 Jan 2026 22:22:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12182,6 +12182,37 @@ I stopped using custom layouts as I need these features to work.</li>
             <link>https://fcp.cafe/#21st-january-2026</link>
             <guid isPermaLink="false">21st January 2026</guid>
             <pubDate>Wed, 21 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd January 2026]]></title>
+            <description><![CDATA[<p><strong>Color Finale</strong> is currently running a promo where all individual software products, plugins and LUTs are availble at a discounted rate with the code: <code>15OFF</code></p>
+<p>This includes Color Finale Transcoder 2, LUT Manager and Color Finale 2.</p>
+<p>You can learn more on the <a href="https://colorfinale.com/store">Color Finale website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-january-2026</link>
+            <guid isPermaLink="false">22nd January 2026</guid>
+            <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd January 2026]]></title>
+            <description><![CDATA[<p><strong>LumaFusion v5.4.1</strong> is out now with some FCPXML fixes:</p>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>The last selected category for each effect editor is maintained while the Clip Editor is open.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Background Export was hanging for some users. We've now made Background Export an option in Advanced Settings so customers can turn it on and off.</li>
+<li>Error exporting FCPXML to Finder on macOS.</li>
+<li>External display for HDR projects was incorrect.</li>
+<li>Crash when using many large images in a timeline.</li>
+<li>Audio Duck End Duration could not be set properly</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/lumafusion/id1062022008">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-january-2026</link>
+            <guid isPermaLink="false">22nd January 2026</guid>
+            <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
