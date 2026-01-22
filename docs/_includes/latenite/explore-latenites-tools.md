@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This website has been thrown together by [Chris Hocking](https://github.com/latenitefilms) from [LateNite](https://latenitefilms.com).
+This website has been thrown together by [Chris Hocking](#chris-hocking) from [LateNite](https://latenitefilms.com).
 
 **LateNite** is an independent production studio committed to investing in emerging creatives with strong, unique voices, helping tell their stories in a creatively supportive and collaborative environment. Our work uses humour to explore outsider stories that are unmistakably human and straddle the line between light and dark.
 

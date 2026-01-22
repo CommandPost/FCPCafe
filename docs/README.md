@@ -4,7 +4,7 @@
 
 **FCP Cafe is a community for professional Final Cut Pro editors and developers.**
 
-_This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](/latenite/)._
+_This website has been thrown together by [Chris Hocking](/latenite/#chris-hocking) at [LateNite](/latenite/)._
 
 !!!
 **Should I update Final Cut Pro?**<br />

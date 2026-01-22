@@ -1,6 +1,6 @@
 # Credits
 
-FCP Cafe was thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite) at [LateNite](https://latenitefilms.com).
+FCP Cafe was thrown together by [Chris Hocking](/latenite/#chris-hocking) at [LateNite](https://latenitefilms.com).
 
 The FCP Cafe **icon** was designed by the amazing [Matthew Skiles](https://matthewskiles.com).
 
