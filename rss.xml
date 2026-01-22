@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 21 Jan 2026 22:22:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 20:59:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 21 Jan 2026 22:22:31 GMT</pubDate>
+        <pubDate>Thu, 22 Jan 2026 20:59:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12213,6 +12213,201 @@ I stopped using custom layouts as I need these features to work.</li>
             <link>https://fcp.cafe/#22nd-january-2026</link>
             <guid isPermaLink="false">22nd January 2026</guid>
             <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p>As 2026 starts to really kick into gear, we thought we'd review all our application prices, and continue to update all our applications for <strong>macOS 26 Tahoe</strong>.</p>
+<p>As you might have noticed on this blog, I'm not the biggest fan of the change to macOS icons in macOS 26 Tahoe, however, <a href="https://matthewskiles.com">Matthew Skiles</a> has done an incredible job, as always, updating them without destroying their original magic and charm.</p>
+<p>We'll also continue to use the &quot;classic&quot; icons on the website, in marketing/press and in the user interface, so it's really only the macOS Dock icons we're sadly changing.</p>
+<p>Quite a few of our apps have now <strong>dropped</strong> in price (some substantially) - although we have increased the price of <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a>, based on the time needed to keep it updated. Who knows what adventure await when Apple Creator Studio ships!</p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Old Price</th>
+<th>New Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ATEM Exporter</td>
+<td>USD$79.99</td>
+<td><strong>USD$49.99</strong></td>
+</tr>
+<tr>
+<td>BRAW Toolbox</td>
+<td>USD$79.99</td>
+<td>USD$79.99</td>
+</tr>
+<tr>
+<td>Capacitor</td>
+<td>USD$19.99</td>
+<td>USD$19.99</td>
+</tr>
+<tr>
+<td>CommandPost</td>
+<td>Free</td>
+<td>Still Free</td>
+</tr>
+<tr>
+<td>Fast Collections</td>
+<td>USD$9.99</td>
+<td>USD$9.99</td>
+</tr>
+<tr>
+<td>Gyroflow Toolbox</td>
+<td>USD$9.99</td>
+<td>USD$9.99</td>
+</tr>
+<tr>
+<td>LUT Robot</td>
+<td>USD$99.99</td>
+<td><strong>USD$9.99</strong></td>
+</tr>
+<tr>
+<td>Marker Toolbox</td>
+<td>USD$49.99</td>
+<td><strong>USD$19.99</strong></td>
+</tr>
+<tr>
+<td>Metaburner</td>
+<td>USD$79.99</td>
+<td><strong>USD$19.99</strong></td>
+</tr>
+<tr>
+<td>News Import</td>
+<td>USD$500.00</td>
+<td><strong>USD$9.99</strong></td>
+</tr>
+<tr>
+<td>Recall Toolbox</td>
+<td>USD$29.99</td>
+<td><strong>USD$9.99</strong></td>
+</tr>
+<tr>
+<td>Transfer Toolbox</td>
+<td>USD$4.99</td>
+<td><strong>USD$9.99</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Noticeably, <a href="https://newsimport.fcp.cafe">News Import</a> (which is an incredibly niche application, designed for a very specific workflow) allows you to import NewsML-G2 and VPMS metadata into Final Cut Pro. We've dropped the price from <strong>USD$500.00</strong> to only <strong>USD$9.99</strong>. 🥳</p>
+<p>We've also dropped the price of <a href="https://lutrobot.fcp.cafe">LUT Robot</a> to <strong>USD$9.99</strong>. It's a very niche application to automatically apply Camera LUTs to video files with matching filenames.</p>
+<p>As we continue to add more applications to the Mac App Store, we'll try use this more consistent pricing as a base.</p>
+<p>I expect we'll basically need to update all these applications again very soon with the release of Apple Creator Studio.</p>
+<p>In terms of my collaborations, <a href="https://getjumper.io">Jumper</a> &amp; <a href="https://hedge.co/products/arctic">Hedge Arctic</a> were already looking good on <strong>macOS 26 Tahoe</strong>, so no need for an update there!</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v1.4.8 (Build 78)</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated the BRAW Toolbox application icon for macOS 26 Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>Gyroflow Toolbox v1.3.4 (Build 26)</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated the Gyroflow Toolbox application icon for macOS Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+<li>We've simplified the code under-the-hood for improved performance and better memory management.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.4.2 (Build 10)</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated the Transfer Toolbox application icon for macOS 26 Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>Metaburner v1.2.1 (Build 56)</strong> is out now with the following changes:</p>
+<p>🔨 <strong>Improvements:</strong></p>
+<ul>
+<li>Updated the Metaburner application icon for macOS 26 Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+<li>Updated the Metaburner website URL in the application and on the Mac App Store.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://metaburner.fcp.cafe">Metaburner website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>Recall Toolbox v1.0.1 (Build 8)</strong> is out now with the following changes:</p>
+<p>🔨 <strong>Improvements:</strong></p>
+<ul>
+<li>Updated the Recall Toolbox application icon for macOS 26 Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>LUT Robot v1.0.3 (Build 5)</strong> is out now with the following changes:</p>
+<p>🔨 <strong>Improvements:</strong></p>
+<ul>
+<li>Updated to support FCPXML v1.13.</li>
+<li>Updated the LUT Robot application icon for macOS 26 Tahoe. Thanks Matthew Skiles!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://lutrobot.fcp.cafe">LUT Robot website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>Fast Collections v1.2.1 (Build 5)</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated the Fast Collections application icon for macOS 26 Tahoe. Thanks <a href="https://matthewskiles.com">Matthew Skiles</a>!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://fastcollections.fcp.cafe">Fast Collections website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>News Import v1.0.3 (Build 4)</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Updated the News Import application icon for macOS 26 Tahoe. Thanks Matthew Skiles!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://newsimport.fcp.cafe">News Import website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
