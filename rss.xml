@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 22 Jan 2026 20:59:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2026 07:28:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 22 Jan 2026 20:59:06 GMT</pubDate>
+        <pubDate>Fri, 23 Jan 2026 07:28:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12404,6 +12404,22 @@ I stopped using custom layouts as I need these features to work.</li>
 <li>Updated the News Import application icon for macOS 26 Tahoe. Thanks Matthew Skiles!</li>
 </ul>
 <p>You can learn more and download on the <a href="https://newsimport.fcp.cafe">News Import website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-january-2026</link>
+            <guid isPermaLink="false">23rd January 2026</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd January 2026]]></title>
+            <description><![CDATA[<p><strong>CommandPost v1.6.1</strong> is out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for TourBox Elite and TourBox Elite Plus. Thanks for suggesting CloudK!</li>
+<li>Added haptic controls for TourBox Elite and TourBox Elite Plus.</li>
+<li>Removed some verbose logging from the new WebSocket Control Surfaces Panel.</li>
+<li>Added &quot;Join Discord&quot; menu item.</li>
+</ul>
+<p>You can learn more and download on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#23rd-january-2026</link>
             <guid isPermaLink="false">23rd January 2026</guid>
