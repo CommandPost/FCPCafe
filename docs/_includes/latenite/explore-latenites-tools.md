@@ -44,6 +44,26 @@ If you want to learn more about Chris' backstory, you can watch him on [Ascent M
 
 ---
 
+## Developer Tools
+
+Below are some of our developer tools:
+
+### FCPXMLKit
+
+![](/static/fcpxmlkit.png)
+
+FCPXMLKit is a private framework we developed for [Metaburner](#metaburner) & [Capacitor](#capacitor), created by David Peterson.
+
+It's also currently used in several of our other applications.
+
+FCPXMLKit provides support for parsing, manipulating and exporting FCPXML files.
+
+It currently fully supports FCPXML `v1.6` to `v1.13` (although we are working on older FCPXML versions).
+
+It can be licensed for third party use. If you're interested please get in touch.
+
+---
+
 {{ include "latenite/pro-editor-bundle" }}
 
 ---
