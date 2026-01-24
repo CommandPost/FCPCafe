@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 23 Jan 2026 20:41:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 23:08:22 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Jan 2026 20:41:47 GMT</pubDate>
+        <pubDate>Sat, 24 Jan 2026 23:08:22 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12470,6 +12470,24 @@ I stopped using custom layouts as I need these features to work.</li>
             <link>https://fcp.cafe/#24th-january-2026</link>
             <guid isPermaLink="false">24th January 2026</guid>
             <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th January 2026]]></title>
+            <description><![CDATA[<p>For some lazy Sunday viewing...</p>
+<p><strong>Richard Taylor</strong> continues to do his regular <strong>Final Cut TV Live</strong> shows.</p>
+<p>You can watch the latest one below on YouTube:</p>
+<p><a href="https://www.youtube.com/live/UjARQIj7iMc"><img src="/static/fcp-tv-live-jan.jpg" alt=""></a></p>
+<p><strong>Rafael Ludwig</strong> posts on YouTube, <strong>Apple, Don’t Screw This Up</strong>:</p>
+<p><a href="https://www.youtube.com/live/Upkb1vFMyy4"><img src="/static/clock-is-ticking-youtube.jpg" alt=""></a></p>
+<p><strong>Matthew O'Brien</strong> posts on YouTube, <strong>&quot;Creator Studio KILLED Final Cut Pro!&quot;</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=lIU5ids4m_k"><img src="/static/im-done.jpg" alt=""></a></p>
+<p><strong>Dylan Bates (The Final Cut Bro)</strong> posts on YouTube, <strong>Final Cut Pro Goes Subscription Based? (Apple Creator Studio)</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=Eo1gSICaV-0"><img src="/static/fcp-bro-youtube-jan.jpg" alt=""></a></p>
+<p>Have you come across any interesting Final Cut Pro related videos this week? If so, share in the comments!</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-january-2026</link>
+            <guid isPermaLink="false">25th January 2026</guid>
+            <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
