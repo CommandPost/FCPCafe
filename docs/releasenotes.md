@@ -15,6 +15,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Final Cut Version | Release Date | Days Between Release | macOS Version | FxPlug Version |
 |-------------------|--------------|----------------------|---------------|----------------|
+| 12.0              | 28/01/2026   | 131                  | 26.2          | 4.3.4          |
 | 11.2              | 19/09/2025   | 120                  | 26.0          | 4.3.3          |
 | 11.1.1            | 22/05/2025   | 57                   | 15.5          | 4.3.1          |
 | 11.1.0            | 27/03/2025   | 52                   | 15.3          | 4.3.1          |
@@ -94,11 +95,12 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 | 2023	| 7       |
 | 2024  | 3       |
 | 2025  | 4       |
+| 2026  | 1       |
 
 {.compact}
 | Quarter |	Updates |
 |---------|---------|
-| Q1	  | 11      |
+| Q1	  | 12      |
 | Q2	  | 15      |
 | Q3	  | 14      |
 | Q4	  | 19      |
@@ -106,7 +108,7 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 {.compact}
 | Month | Updates |
 |-------|---------|
-| Jan	| 4       |
+| Jan	| 5       |
 | Feb	| 2       |
 | Mar	| 4       |
 | Apr	| 6       |
@@ -122,6 +124,33 @@ The below information was originally consolidated by [finalcutgod](https://twitt
 ---
 
 ## Mac
+
+### Final Cut Pro 12.0
+
+**Released January 28, 2026**
+
+**Final Cut Pro v12.0** includes the following [features, enhancements, and fixes](https://support.apple.com/en-us/102825):
+
+- Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires a Mac with Apple silicon.)
+- Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires a Mac with Apple silicon.)
+- Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.
+- Accelerate your next edit with in-app guides on how to create a new library, import media, and add clips to a new timeline.
+- Use the new toolbar menu to quickly create new projects, events, and libraries.
+- Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.
+- Fixes an issue that could cause an adjustment clip to disappear when using Overwrite to Primary Storyline to move a connected clip to the primary storyline.
+- Resolves an issue that could cause role colors to change when upgrading a library from a previous version.
+- Addresses an issue that could cause Paste Attributes to not allow pasting spatial conform on a single clip.
+- Updates FCPXML to version 1.14.
+
+In terms of undocumented bug fixes, whilst it's still early days, we have some early observations:
+
+- **[Downscaling within FCPX leaves edge bleed from clips below top one #443](https://github.com/CommandPost/FCPCafe/issues/443)** - I THINK this has finally been solved! Hopefully the days of having 1 pixel borders around downscaled clips is finally fixed!
+- **[Renders being lost/missing after restart #44](https://github.com/CommandPost/FCPCafe/issues/44)** - Early days, but I THINK this has also been fixed, or at least improved.
+- We think there's been fixes related to **Send to Compressor** - as it's been pretty unreliable the last few updates.
+
+Of course, it's very early days, so please comment on the above issues if you have any insight!
+
+---
 
 ### Final Cut Pro 11.2
 
@@ -1627,6 +1656,45 @@ Export AVC-Intra files
 ---
 
 ## iPad
+
+### Final Cut Pro for iPad 3.0
+
+**Released January 28, 2026**
+
+**Final Cut Pro for iPad v3.0** includes the following [features and enhancements](https://support.apple.com/en-us/102731):
+
+- Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires iPadOS 26.)
+- Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires iPadOS 26.)
+- Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.
+- Effortlessly create visual highlights videos set to your music with Montage Maker, ready to share or use as a creative starting point for your edits. (Requires iPadOS 26.)
+- Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.
+- Elevate your videos with dynamic titles, add a personal flair with customizable graphic elements, and set the perfect pace with countdowns and timers.
+- Streamline your workflow with multiple selection support in the inspector, allowing you to make batch adjustments and changes to several clips at once.
+- Keep your projects moving with background exports and track their progress in Live Activities, perfect for multitasking across apps. (Requires iPad models with M3 or later and iPadOS 26.)
+- Extend your workspace by connecting an external monitor to view and play back your edits with ease.
+
+...and improvements and bug fixes:
+
+- Clips under the timeline playhead and skimmer are automatically selected.
+- Improves reliability when resizing Final Cut Pro for iPad with Stage Manager and Windowed Apps.
+- Adds additional animation options for the Ken Burns effect.
+- Addresses an issue that caused snapping indicators to sometimes not appear.
+- Improves reliability when dragging to select multiple clips in the timeline.
+- Addresses an issue that caused unexpected scrolling in the timeline and browser when opening or closing the content browser.
+- Fixes an issue that prevented the multicam angle switcher from updating when the video or audio angle was changed in the inspector.
+- Addresses a Live Multicam issue that sometimes caused the stabilization setting to change unexpectedly on a connected camera angle.
+- Fixes a Live Multicam issue that caused clearing the transfer history to clear active transfers as well.
+- Addresses an issue that caused the audio meter to appear incorrectly in pro camera mode.
+- Improves reliability when recording voiceover with a third-party audio interface.
+- Fixes an issue that prevented the Select All keyboard shortcut from selecting all expanded audio components.
+- Addresses an issue that sometimes prevented the import of external projects with soundtracks.
+- Improves reliability when exporting media from the browser or Projects screen.
+- Improves reliability when importing a project using AirDrop.
+- Improves accessibility labels for the color picker in the inspector.
+- Fixes an issue that caused some inspector settings to not update when selecting different timeline titles.
+- Includes stability and performance improvements.
+
+---
 
 ### Final Cut Pro for iPad 2.3
 

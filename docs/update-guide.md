@@ -14,7 +14,9 @@ You can read our current recommendations below:
 
 ## Summary
 
-**Last Updated:** 19th January 2026
+**Last Updated:** 29th January 2026
+
+Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure yo backup Final Cut Pro and your Library first!
 
 If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
 
@@ -60,15 +62,38 @@ However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to
 
 ---
 
-## Apple Creator Studio
+## Final Cut Pro 12.0
 
-We will post more once Apple Creator Studio ships.
+**Final Cut Pro 12.0** and **Final Cut Pro Creator Studio v12.0** was released on 28th January 2026.
+
+So far, **Final Cut Pro Creator Studio v12.0** seems more stable and less crashy than **Final Cut Pro 12.0**.
+
+You can read our more detailed thoughts on this version of Final Cut Pro on the [news feed](/news/20260129).
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | Requires an update.                                                                                     |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | Requires an update.                                                                                     |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | Requires Arctic v26.1                                                                                   |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
 
 ---
 
 ## Final Cut Pro 11.2
 
-Final Cut Pro 11.2 was released on 19th September 2025.
+**Final Cut Pro v11.2** was released on 19th September 2025.
 
 So far, the general feedback has been very positive - it seems to have fixed a few long-standing bugs people have been having.
 

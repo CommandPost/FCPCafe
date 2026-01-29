@@ -109,6 +109,27 @@ Here is the release notes for FxPlug. Where appropriate, we try and add addition
 
 ---
 
+### FxPlug 4.3.4
+
+**Released January 28, 2026**
+
+- Improved stability and reliability.
+- FxPlug SDK now requires macOS 13.0 (Ventura) or later.
+- Improved performance in FxPlugs that use custom data parameters.
+- Fixed an issue where 3rd party FxPlugs that use the project API might get an invalid URL for the media folder of their effect.
+- Improved performance by fixing a number of small memory leaks that can occur when using the `FxAnalysisAPI`.
+- Fixed a potential crash when scheduling frames in an interlaced project using the `FxTiming` API.
+- Fixed an issue where a plugin could leak instances.
+- Fixed an issue where a plugin using the `FxAnalysisAPI` may receive incorrect inputs during analysis.
+- Fixed a potential crash in Motion when an FxMatrix is initialized with `-[FxMatrix44 initWithFxMatrix:]`
+- Fixed an issue where the host app could crash when a plug-in calls the `-setVersionAtCreation:` method of the versioning API.
+- Fixed an issue where dragging the OnScreen Controls could cause the render to jitter.
+- Building with Swift 6 is known to cause compilation issues with example plug-ins. The fix is fairly straightforward. The `@NSApplicationMain` line in the wrapper application can be replaced with `@main`. An `NSLock` can be added to the `MTLDeviceCache` and locked at the start of the methods of `MTLDeviceCache` that use `deviceCaches` property, and unlocked before returning from the method. The `MTLDeviceCache` class can then be marked as `@unchecked Sendable`.
+- Analysis plugins built with older SDK versions (XPC version 10 or earlier) may see some performance degradation when processing higher-resolution clips (e.g. 8K) in Motion. Update your plugins to use the latest FxPlug SDK to ensure they utilize XPC version 11.
+
+
+---
+
 ### FxPlug 4.3.3
 
 **Released June 3, 2025**
