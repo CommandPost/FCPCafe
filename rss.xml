@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 29 Jan 2026 12:18:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2026 13:04:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 29 Jan 2026 12:18:06 GMT</pubDate>
+        <pubDate>Thu, 29 Jan 2026 13:04:58 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12637,6 +12637,7 @@ I stopped using custom layouts as I need these features to work.</li>
 <li>We think there's been fixes related to <strong>Send to Compressor</strong> - as it's been pretty unreliable the last few updates.</li>
 </ul>
 <p>Of course, it's very early days, so please comment on the above issues if you have any insight!</p>
+<p>The only new keyboard shortcut additions are <strong>Enable Beat Detection</strong> and <strong>Beat Detection Grid</strong>.</p>
 <p><strong>Final Cut Pro for iPad v3.0</strong> includes the following <a href="https://support.apple.com/en-us/102731">features and enhancements</a>:</p>
 <ul>
 <li>Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires iPadOS 26.)</li>
@@ -12812,7 +12813,7 @@ I stopped using custom layouts as I need these features to work.</li>
 <p>Feature set wise, they're identical. Under the hood there's subtle changes - here's the percentage of differences:</p>
 <p><img src="/static/fcp12-compare-insides.png" alt=""></p>
 <p>But really... the different frameworks are mostly related to things like subscription handling, on-boarding and different artwork.</p>
-<p>For all intensive purposes - <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> are the same.</p>
+<p>For all intents and purposes - <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> are the same.</p>
 <p>However, if we compare <strong>Final Cut Pro on Mac</strong> and <strong>Final Cut Pro on iPad</strong>, we see that they are very different.</p>
 <p><strong>Final Cut Pro on Mac</strong> has 54 frameworks, whereas <strong>Final Cut Pro on iPad</strong> has a whopping 102 frameworks.</p>
 <p>Now, if we get into some REALLY nerdy details... thanks to an awesome little script by Joe Marler, we can see the split between Objective-C, C++ and Swift:</p>
