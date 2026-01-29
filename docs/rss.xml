@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 29 Jan 2026 13:04:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2026 13:26:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 29 Jan 2026 13:04:58 GMT</pubDate>
+        <pubDate>Thu, 29 Jan 2026 13:26:24 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15140,7 +15140,7 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
 <p>I kinda wish it had a &quot;focus&quot; mode and it only revealed the markers at an area close to the playhead, and an opacity setting, so you could make it super subtle.</p>
 <p>In my head I'm imagining if it has a &quot;focus&quot; mode, wherever my mouse or playhead is, I can see a those beat markers highlighted, but the lines slowly &quot;fade out&quot; in a circle, so your eye is directed JUST to the beat markers you NEED to see at the time.</p>
 <p>So I definitely disagree with <code>Chance_Noise_1702</code> - I think the Beat Markers are AWESOME! Thank you Final Cut Pro team!</p>
-<p>In regards to the visual search - I have to agree - the quality of the search results kinda sucks. Although that's not really to be expected, given how quickly it analyses things.</p>
+<p>In regards to the visual search - I have to agree - the quality of the search results kinda sucks. Although that's not really unexpected, given how quickly it analyses things.</p>
 <p>The problem with this Final Cut Pro update is that for a year now, we've already had <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> in the world, so you have a direct comparison in terms of search quality - and Jumper just kills Final Cut Pro in terms of visual search quality.</p>
 <p>Back on <a href="/news/20260114">14th January 2026</a> I wrote:</p>
 <blockquote>
