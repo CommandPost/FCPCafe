@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 28 Jan 2026 02:09:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2026 12:01:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 28 Jan 2026 02:09:17 GMT</pubDate>
+        <pubDate>Thu, 29 Jan 2026 12:01:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12492,6 +12492,7 @@ I stopped using custom layouts as I need these features to work.</li>
         <item>
             <title><![CDATA[28th January 2026]]></title>
             <description><![CDATA[<p><strong>Jumper v2026.01.27 (Build 2816)</strong> for Mac is out now! 🥳</p>
+<p><img src="/static/jumper-2026.01.27-build-2816.png" alt=""></p>
 <p>This is a <strong>BIG</strong> update with lots of improvements, new features, bug fixes and addressing things that have been requested by all the amazing people in the Jumper Discord.</p>
 <p>Thanks so much for your continued love, help and support - HUGELY appreciated!</p>
 <p>People are finally starting to take notice of Jumper in bigger facilities and post houses (especially in the Avid NEXIS world) - and this wouldn't have been possible without your amazing help, support and patience.</p>
@@ -12553,6 +12554,2635 @@ I stopped using custom layouts as I need these features to work.</li>
             <link>https://fcp.cafe/#28th-january-2026</link>
             <guid isPermaLink="false">28th January 2026</guid>
             <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th January 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday! 👋</p>
+<p><img src="/static/fcp-creator-studio-welcome.png" alt=""></p>
+<p>First up, MASSIVE congratulations to <strong>Achu P. Chandra</strong> for receiving a Kerala Government State Award for Best Video Editor for his documentary, <strong>Guardians of Himalayas</strong>. 🥳</p>
+<p>This documentary was cut on Final Cut Pro, and you can read a <a href="/case-studies/guardians-of-himalayas/">detailed case study on FCP Cafe</a>. Amazing work Achu!</p>
+<p>Also, before we jump into the news of the day, I also wanted to let you know about something I started playing with last night...</p>
+<p>I sent this message to the amazing <a href="https://iain-anderson.com">Iain Anderson</a>:</p>
+<blockquote>
+<p>Oh, while I've got you... BRAW Immersive... reckon that would be useful to add to BRAW Toolbox somehow? Split screen the two cameras?</p>
+</blockquote>
+<p>What followed was many messages back and forth about 360 degrees video and Immersive video, and a few hours later, I've added a <strong>Video Track</strong> parameter to BRAW Toolbox:</p>
+<p><img src="/static/braw-toolbox-video-track.png" alt=""></p>
+<p>If you're shooting on a <strong>Blackmagic URSA Cine Immersive</strong> camera, this means you can now switch between the two video tracks in BRAW Toolbox.</p>
+<p>Interestingly, the BRAW format actually supports MORE than two video tracks - I wonder if we'll see even crazier 360 degrees cameras from Blackmagic in the future?</p>
+<p>You can then put two of the exact same clip on top of each other in a Final Cut Pro timeline, offset them, and edit with side-by-side video:</p>
+<p><img src="/static/braw-toolbox-immersive.png" alt=""></p>
+<p>You'll notice that the timeline is an INSANE <strong>16320x7200 @ 90fps</strong>, so unless you have a fully spec'd out Mac Studio, you'll most likely want to debayer at <strong>Eighth Decode Quality</strong>, which you can easily <a href="https://brawtoolbox.fcp.cafe/workflow-extension/#inspector">force</a> for all clips in BRAW Toolbox.</p>
+<p><img src="/static/braw-toolbox-force.png" alt=""></p>
+<p><strong>BRAW Toolbox v1.5.0</strong> is now available on the Mac App Store, with the only change being this new parameter. Enjoy!</p>
+<p>To be honest, I have no idea where this might go, as I don't own a Apple Vision Pro - but if you have any ideas, comments or suggestions, please reach out!</p>
+<p>I'm hoping to add some big performance improvements to BRAW Toolbox over the coming weeks if all goes to plan too!</p>
+<p><img src="/static/creator-studio-release.png" alt=""></p>
+<p>Today's the day - <strong>Apple Creator Studio</strong> is out now!</p>
+<p><img src="/static/fcp-creator-studio-start-free-trial.png" alt=""></p>
+<p>Unfortunately I was stuck in an edit suite all day, which is why this blog post hasn't come out earlier - however, it did mean that I've now played with Final Cut Pro v12.0 for an entire day on a real-world job.</p>
+<p><img src="/static/fcp-creator-studio-aud-pricing.png" alt=""></p>
+<p>You can read Iain Anderson's great and detailed article <strong>What’s New in Final Cut Pro 12 and more</strong> on <a href="https://www.provideocoalition.com/whats-new-in-final-cut-pro-12-and-more/">ProVideo Coalition</a>.</p>
+<p>It's awesome that Iain was able to include some kind works about <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>:</p>
+<blockquote>
+<p>I’ve wanted this for a very long time, even publicly wishing for it on a podcast and seeing Ulti.media create the FCP Video Tag app in response. Today, the third-party app Jumper probably leads this space, but we’ve seen similar features in the library management app Peakto, in previous versions of Strada (though not in the current release) and in Premiere’s Media Intelligence feature.</p>
+</blockquote>
+<blockquote>
+<p>In comparative tests with Jumper and Premiere’s Media Intelligence, I think Jumper does the best job overall. Media Intelligence’s analysis is quickest, but it doesn’t always locate the part of a clip your search terms have matched, and a search for “apple” didn’t find all the Apple logos that FCP could. It’s a mixed bag, though — Final Cut Pro’s visual search didn’t find all the instances of “wheelchair” that the other two did.</p>
+</blockquote>
+<p>...and <strong>BRAW Toolbox</strong>:</p>
+<blockquote>
+<p>UPDATE: although BRAW support was promised in FCP at the last FCP Creative Summit in 2024, it’s still to arrive. For now at least, you can use BRAW Toolbox to access BRAW footage in FCP, and the recent update to v1.5 allows previewing of Immersive footage from the URSA Cine Immersive — even letting you choose which lens to view. Without at least 3D 180° support in FCP it’ll be hard to deliver the footage in a proper immersive format, but for previewing and potential spatial (non-immersive) uses, it could be very handy.</p>
+</blockquote>
+<p>Bonus points if you can spot me in some of the screenshots in the article, haha.</p>
+<p>You can watch <strong>Dylan Bates (The Final Cut Bro)'s</strong> video titled, <strong>Final Cut Pro 12.0 Update Has Arrived. Here's everything you need to know</strong> on <a href="https://www.youtube.com/watch?v=D0IXVzvFbDc">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=D0IXVzvFbDc"><img src="/static/dylan-fcp12-youtube.jpg" alt=""></a></p>
+<p><strong>Jenn Jager</strong> has posted this video titled <strong>FCP SUBSCRIPTION!? What I really think about Creator Studio</strong> on <a href="https://www.youtube.com/watch?v=Q1kbAbkDqJA">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Q1kbAbkDqJA"><img src="/static/jenn-fcp12-youtube.jpg" alt=""></a></p>
+<p><strong>Mark Ellis Reviews</strong> has posted this video, titled <strong>The Apple Interview: Why Creator Studio Exists</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=oXm7RMFyNzQ"><img src="/static/why-creator-studio-exists.jpg" alt=""></a></p>
+<p>Good old <strong>Ripple Training</strong> is, as always, ready at launch with their <strong>Final Cut Pro 12 Deep Dive</strong> on <a href="https://www.youtube.com/watch?v=soIqczyU02w">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=soIqczyU02w"><img src="/static/ripple-fcp12-deep-dive.jpg" alt=""></a></p>
+<p>And of course, the unstoppable <strong>Richard Taylor</strong> has been discussing things live on <a href="https://www.youtube.com/watch?v=936wZW4Rmgk">YouTube</a> with his passionate community of followers:</p>
+<p><a href="https://www.youtube.com/watch?v=936wZW4Rmgk"><img src="/static/richard-fcp12-launch-youtube.jpg" alt=""></a></p>
+<p>It's worth having a read and a watch of the above to get a broad surface level look at these new updates.</p>
+<p>But FCP Cafe isn't going for broad and mainstream...</p>
+<blockquote>
+<p>FCP Cafe is a community for professional Final Cut Pro editors and developers.</p>
+</blockquote>
+<p>So let's get geeky!</p>
+<p><img src="/static/fcp-creator-studio-all-set.png" alt=""></p>
+<p>Here's the official release notes, along with some of our observations:</p>
+<p><strong>Final Cut Pro v12.0</strong> includes the following <a href="https://support.apple.com/en-us/102825">features, enhancements, and fixes</a>:</p>
+<ul>
+<li>Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires a Mac with Apple silicon.)</li>
+<li>Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires a Mac with Apple silicon.)</li>
+<li>Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.</li>
+<li>Accelerate your next edit with in-app guides on how to create a new library, import media, and add clips to a new timeline.</li>
+<li>Use the new toolbar menu to quickly create new projects, events, and libraries.</li>
+<li>Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.</li>
+<li>Fixes an issue that could cause an adjustment clip to disappear when using Overwrite to Primary Storyline to move a connected clip to the primary storyline.</li>
+<li>Resolves an issue that could cause role colors to change when upgrading a library from a previous version.</li>
+<li>Addresses an issue that could cause Paste Attributes to not allow pasting spatial conform on a single clip.</li>
+<li>Updates FCPXML to version 1.14.</li>
+</ul>
+<p>In terms of undocumented bug fixes, whilst it's still early days, we have some early observations:</p>
+<ul>
+<li><strong><a href="https://github.com/CommandPost/FCPCafe/issues/443">Downscaling within FCPX leaves edge bleed from clips below top one #443</a></strong> - I THINK this has finally been solved! Hopefully the days of having 1 pixel borders around downscaled clips is finally fixed!</li>
+<li><strong><a href="https://github.com/CommandPost/FCPCafe/issues/44">Renders being lost/missing after restart #44</a></strong> - Early days, but I THINK this has also been fixed, or at least improved.</li>
+<li>We think there's been fixes related to <strong>Send to Compressor</strong> - as it's been pretty unreliable the last few updates.</li>
+</ul>
+<p>Of course, it's very early days, so please comment on the above issues if you have any insight!</p>
+<p><strong>Final Cut Pro for iPad v3.0</strong> includes the following <a href="https://support.apple.com/en-us/102731">features and enhancements</a>:</p>
+<ul>
+<li>Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires iPadOS 26.)</li>
+<li>Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires iPadOS 26.)</li>
+<li>Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.</li>
+<li>Effortlessly create visual highlights videos set to your music with Montage Maker, ready to share or use as a creative starting point for your edits. (Requires iPadOS 26.)</li>
+<li>Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.</li>
+<li>Elevate your videos with dynamic titles, add a personal flair with customizable graphic elements, and set the perfect pace with countdowns and timers.</li>
+<li>Streamline your workflow with multiple selection support in the inspector, allowing you to make batch adjustments and changes to several clips at once.</li>
+<li>Keep your projects moving with background exports and track their progress in Live Activities, perfect for multitasking across apps. (Requires iPad models with M3 or later and iPadOS 26.)</li>
+<li>Extend your workspace by connecting an external monitor to view and play back your edits with ease.</li>
+</ul>
+<p>...and improvements and bug fixes:</p>
+<ul>
+<li>Clips under the timeline playhead and skimmer are automatically selected.</li>
+<li>Improves reliability when resizing Final Cut Pro for iPad with Stage Manager and Windowed Apps.</li>
+<li>Adds additional animation options for the Ken Burns effect.</li>
+<li>Addresses an issue that caused snapping indicators to sometimes not appear.</li>
+<li>Improves reliability when dragging to select multiple clips in the timeline.</li>
+<li>Addresses an issue that caused unexpected scrolling in the timeline and browser when opening or closing the content browser.</li>
+<li>Fixes an issue that prevented the multicam angle switcher from updating when the video or audio angle was changed in the inspector.</li>
+<li>Addresses a Live Multicam issue that sometimes caused the stabilization setting to change unexpectedly on a connected camera angle.</li>
+<li>Fixes a Live Multicam issue that caused clearing the transfer history to clear active transfers as well.</li>
+<li>Addresses an issue that caused the audio meter to appear incorrectly in pro camera mode.</li>
+<li>Improves reliability when recording voiceover with a third-party audio interface.</li>
+<li>Fixes an issue that prevented the Select All keyboard shortcut from selecting all expanded audio components.</li>
+<li>Addresses an issue that sometimes prevented the import of external projects with soundtracks.</li>
+<li>Improves reliability when exporting media from the browser or Projects screen.</li>
+<li>Improves reliability when importing a project using AirDrop.</li>
+<li>Improves accessibility labels for the color picker in the inspector.</li>
+<li>Fixes an issue that caused some inspector settings to not update when selecting different timeline titles.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p>To be honest, I don't really know ANYONE who's actually cutting things seriously in Final Cut Pro (for iPad), so I have no idea about undocumented bug fixes. 🤷‍♂️</p>
+<p><img src="/static/fcp-creator-studio-motion.png" alt=""></p>
+<p><strong>Motion v6.0</strong> includes the following <a href="https://support.apple.com/en-us/102746">features, enhancements, and fixes</a>:</p>
+<ul>
+<li>Expand your creative freedom with the AI-powered Magnetic Mask, isolating people, objects and shapes in any footage without a green screen or time-consuming manual rotoscoping.</li>
+<li>3D text is now dramatically faster on Apple silicon, with Metal-powered improvements to playback and rendering.</li>
+<li>Improves performance with FxPlug plug-ins that store large amounts of data.</li>
+<li>Resolves an issue in the Keyframe Editor that caused Bezier handles to become misaligned when Command-dragging multiple selected keyframes.</li>
+<li>Fixes an issue that could cause Motion to become unresponsive when using text scroll behaviors.</li>
+<li>Resolves an issue in which the Library browser did not consistently respect the &quot;Show scroll bars&quot; setting in System Settings.</li>
+<li>Resolves an issue in which the text ruler background did not appear for vertical text using the 'Scroll' layout method.</li>
+<li>Fixes a rendering issue with the Concentric Polka Dots generator that occurred on some Mac models.</li>
+<li>Addresses an issue that caused some controls and labels in the HUD to appear too dark.</li>
+</ul>
+<p>Again, I don't really spend much/any time in Apple Motion, so I don't really have any insight on undocumented bug fixes.</p>
+<p><img src="/static/fcp-creator-studio-compressor.png" alt=""></p>
+<p><strong>Compressor v5.0</strong> includes the following <a href="https://support.apple.com/en-us/102745">improvements</a>:</p>
+<ul>
+<li>Create files for an Apple Immersive Video package for playback and HTTP live streaming on Apple Vision Pro.</li>
+<li>Stability and performance improvements.</li>
+</ul>
+<p>Poor old Compressor - doesn't really seem like a major update.</p>
+<p><img src="/static/logic-pro-12.png" alt=""></p>
+<p>As usual, <strong>Logic Pro v12.0</strong> has so many fixes and changes, that you can just read about them on the <a href="https://support.apple.com/en-us/109503">release notes page</a>.</p>
+<p>To be honest, there's nothing really announced that we didn't already know from when they announced Apple Creator Studio back on <a href="/news/20260114/">14th January</a>, so I won't go too deep into the new features - you can read Iain's article and watch the videos above to recap what's new.</p>
+<p>What we do now know is that <strong>Final Cut Pro v12.0 (lifetime/perpetual)</strong> retains it's icon and bundle identifier - <code>com.apple.FinalCut</code>.</p>
+<p>The new <strong>Final Cut Pro v12.0 (subscription)</strong> has a new bundle identifier - <code>com.apple.FinalCutApp</code>.</p>
+<p>Interestingly, the subscription version is actually called <code>Final Cut Pro Creator Studio.app</code>, and they use localisation to make it APPEAR as <code>Final Cut Pro</code> in Finder.</p>
+<p><img src="/static/fcp12-compare.png" alt=""></p>
+<p>From a branding and communication perspective for FCP Cafe, this is probably a better way to talk about the two different products - <strong>Final Cut Pro</strong>, and <strong>Final Cut Pro Creator Studio</strong>.</p>
+<p>The Final Cut Pro library database format has been updated - meaning any old Final Cut Pro library will need to be updated (make sure you create a ZIP'ed backup first!).</p>
+<p>Here's the version information:</p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Catalog Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final Cut Pro (Mac)</td>
+<td>1171; 12.0 (445223)</td>
+</tr>
+<tr>
+<td>Final Cut Pro Creator Studio (Mac)</td>
+<td>1171; 12.0 (445223)</td>
+</tr>
+<tr>
+<td>Final Cut Pro Creator Studio (iPad)</td>
+<td>1171; 3.0 (453.4.260)</td>
+</tr>
+</tbody>
+</table>
+<p>If you need to get from <strong>Final Cut Pro (Mac)</strong> or <strong>Final Cut Pro Creator Studio (Mac)</strong> to <strong>Final Cut Pro Creator Studio (iPad)</strong>, the good news is that <strong>Transfer Toolbox v1.5.0</strong> has been submitted to the Mac App Store for review, so hopefully by the time you read this it will already be out.</p>
+<p><img src="/static/transfer-toolbox-v1-5-0-01.png" alt=""></p>
+<p><img src="/static/transfer-toolbox-v1-5-0-02.png" alt=""></p>
+<p><img src="/static/transfer-toolbox-v1-5-0-03.png" alt=""></p>
+<p><img src="/static/transfer-toolbox-v1-5-0-04.png" alt=""></p>
+<p>You can learn more about Transfer Toolbox on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+<p>FCPXML has been updated to <strong>FCPXML v1.14</strong> with some minor additions:</p>
+<pre><code class="language-xml">&lt;!ELEMENT smart-collection ((match-text | match-ratings | match-media | match-clip | match-stabilization | match-keywords | match-shot | match-property | match-time | match-timeRange | match-roles | match-usage | match-representation | match-markers | match-analysis-type)*)&gt;
+
+&lt;!ATTLIST match-text rule (includes | doesNotInclude | is | isNot | startsWith | endsWith | isRelatedTo) &quot;includes&quot;&gt;
+
+&lt;!ATTLIST match-text scope (all | notes | names | markers | transcript | visual | all-text) &quot;all&quot;&gt;
+
+&lt;!ELEMENT match-analysis-type EMPTY&gt;
+&lt;!ATTLIST match-analysis-type enabled (0 | 1) &quot;1&quot;&gt;
+&lt;!ATTLIST match-analysis-type rule (isAvailable | isMissing) &quot;isAvailable&quot;&gt;
+&lt;!ATTLIST match-analysis-type value (any | transcript | visual) &quot;any&quot;&gt;
+</code></pre>
+<p>For a lot of applications working with FCPXML, these changes will be irrelevant, and not break anything.</p>
+<p><strong>FxPlug v4.3.4</strong> has been <a href="https://developer.apple.com/download/all/?q=FxPlug">updated</a> and includes the following:</p>
+<ul>
+<li>Improved stability and reliability.</li>
+<li>FxPlug SDK now requires macOS 13.0 (Ventura) or later.</li>
+<li>Improved performance in FxPlugs that use custom data parameters.</li>
+<li>Fixed an issue where 3rd party FxPlugs that use the project API might get an invalid URL for the media folder of their effect.</li>
+<li>Improved performance by fixing a number of small memory leaks that can occur when using the <code>FxAnalysisAPI</code>.</li>
+<li>Fixed a potential crash when scheduling frames in an interlaced project using the <code>FxTiming</code> API.</li>
+<li>Fixed an issue where a plugin could leak instances.</li>
+<li>Fixed an issue where a plugin using the <code>FxAnalysisAPI</code> may receive incorrect inputs during analysis.</li>
+<li>Fixed a potential crash in Motion when an FxMatrix is initialized with <code>-[FxMatrix44 initWithFxMatrix:]</code></li>
+<li>Fixed an issue where the host app could crash when a plug-in calls the <code>-setVersionAtCreation:</code> method of the versioning API.</li>
+<li>Fixed an issue where dragging the OnScreen Controls could cause the render to jitter.</li>
+<li>Building with Swift 6 is known to cause compilation issues with example plug-ins. The fix is fairly straightforward. The <code>@NSApplicationMain</code> line in the wrapper application can be replaced with <code>@main</code>. An <code>NSLock</code> can be added to the <code>MTLDeviceCache</code> and locked at the start of the methods of <code>MTLDeviceCache</code> that use <code>deviceCaches</code> property, and unlocked before returning from the method. The <code>MTLDeviceCache</code> class can then be marked as <code>@unchecked Sendable</code>.</li>
+<li>Analysis plugins built with older SDK versions (XPC version 10 or earlier) may see some performance degradation when processing higher-resolution clips (e.g. 8K) in Motion. Update your plugins to use the latest FxPlug SDK to ensure they utilize XPC version 11.</li>
+</ul>
+<p>Whilst it's great to have an FxPlug update, it's kinda sad that they didn't have the time/interest/resources to actually update their sample plugins.</p>
+<p>If you compare Blackmagic's RAW SDK to Apple's FxPlug4, it's INSANE and sad at how good Blackmagic is at supporting 3rd party developers compared to Apple.</p>
+<p>However, documentation and samples aside, it's AWESOME that Apple continues to update and improve FxPlug.</p>
+<p>Some of my plugins, such as <a href="https://metaburner.fcp.cafe">Metaburner</a> and <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> make extensive use of FxPlug, so hopefully this will make them even more stable and performant in Final Cut Pro v12.</p>
+<p><strong>Workflow Extensions SDK v1.0.3</strong> as been <a href="https://developer.apple.com/download/all/?q=WorkflowExtensions">updated</a>, and the release notes are as follows:</p>
+<ul>
+<li>A Workflow Extension built with this version of SDK is compatible with Final Cut Pro 10.4.9 or later running on macOS 11 or later on Intel hardware. It will be compatible with Final Cut Pro 10.5 or later running on macOS 11 or later on Apple Silicon systems.</li>
+<li>Refer to Workflow Extensions documentation for general topics in developing a workflow extension.</li>
+</ul>
+<p>Known Issues and Limitations:</p>
+<ul>
+<li>Workflow Extensions SDK v1.0.3 may not be compatible with the Swift 6 Runtime due to initialization of the principal <code>ViewController</code> class from a background thread. Complete the initialization of this object by dispatching its inherited initialization synchronously to the main thread, or use an earlier toolchain.</li>
+<li>Workflow Extensions SDK is not fully compatible with Hardened Runtime. In particular, the extension doesn’t work if it is built with Library Validation. If you are building your extension with Hardened Runtime, check the <strong>Disable Library Validation</strong> checkbox in the <strong>Runtime Exceptions</strong> section of the Hardened Runtime settings group of the Signing &amp; Capabilities tab in Xcode.</li>
+<li>In addition to the above, check the <strong>Apple Events</strong> checkbox in the <strong>Resource Access</strong> section of the same Hardened Runtime settings group.</li>
+<li>There may be issues in window Z ordering in relation to other types of floating windows and popovers Final Cut Pro uses, for example the marker popover.</li>
+<li>The OS service Final Cut Pro uses to discover workflow extensions also finds workflow extensions inside apps installed in non-standard locations. It may be necessary to remove those in addition to the one installed in the Applications folder when you wish to uninstall a workflow extension.</li>
+<li>In relation to the above, when there are multiple workflow extension instances installed in different locations with the same extension bundle version, which one the OS service will choose is undetermined. It is recommended to maintain a single copy of a particular workflow extension along with its container app in the standard installed location as much as possible.</li>
+<li>Part of the implementation of the <code>ProExtensionHost</code> framework currently uses Apple Events as the messaging transport with the host. The extension, being sandboxed, requires the security entitlement below to send Apple Events to Final Cut Pro and its variants such as Final Cut Pro Trial. Beginning in Winter 2026, an additional new variant (<code>com.apple.FinalCutApp</code>) should be included:</li>
+</ul>
+<pre><code>&lt;key&gt;com.apple.security.scripting-targets&lt;/key&gt;
+&lt;dict&gt;
+    &lt;key&gt;com.apple.FinalCut&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;com.apple.FinalCut.library.inspection&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;com.apple.FinalCutApp&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;com.apple.FinalCut.library.inspection&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;com.apple.FinalCutTrial&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;com.apple.FinalCut.library.inspection&lt;/string&gt;
+    &lt;/array&gt;
+&lt;/dict&gt;
+</code></pre>
+<ul>
+<li>See <a href="https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW25">Enabling Scripting of Other Apps</a> for additional information.</li>
+<li>In addition to the entitlement above, the container application requires the following <code>Info.plist</code> entry:</li>
+</ul>
+<pre><code>&lt;key&gt;NSAppleEventsUsageDescription&lt;/key&gt;
+&lt;string&gt;Extensions can interact with Final Cut Pro.&lt;/string&gt;
+</code></pre>
+<ul>
+<li>The text string is used as a message that tells the user why the extension is sending AppleEvents to Final Cut Pro. See <code>NSAppleEventsUsageDescription</code> for additional information. A future version of the ProExtensionHost framework may use a different implementation.</li>
+<li>A workflow extension is not expected to link against the <code>ProExtensionHost</code> framework. The SDK has its headers only and does not include the framework binary. As a result, the extension does not have direct access to proxy object class symbols or their class methods, particularly the <strong>class</strong> method used in conjunction with the <code>-isKindOfClass</code> method. The extension can use the property that returns the object type as an enum value to determine the object’s type.</li>
+</ul>
+<p>As far as I can tell, there's no real code or header changes - the only thing that's change is you need to add the new <code>com.apple.FinalCutApp</code> bundle identifier so that things work with <strong>Final Cut Pro Creator Studio</strong>.</p>
+<p>So, what's the difference between <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong>?</p>
+<p>Feature set wise, they're identical. Under the hood there's subtle changes - here's the percentage of differences:</p>
+<p><img src="/static/fcp12-compare-insides.png" alt=""></p>
+<p>But really... the different frameworks are mostly related to things like subscription handling, on-boarding and different artwork.</p>
+<p>For all intensive purposes - <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> are the same.</p>
+<p>However, if we compare <strong>Final Cut Pro on Mac</strong> and <strong>Final Cut Pro on iPad</strong>, we see that they are very different.</p>
+<p><strong>Final Cut Pro on Mac</strong> has 54 frameworks, whereas <strong>Final Cut Pro on iPad</strong> has a whopping 102 frameworks.</p>
+<p>Now, if we get into some REALLY nerdy details... thanks to an awesome little script by Joe Marler, we can see the split between Objective-C, C++ and Swift:</p>
+<p>First up we have <strong>Final Cut Pro (on Mac):</strong></p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Obj-C</th>
+<th>C++</th>
+<th>Swift</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AppAnalytics</td>
+<td>361</td>
+<td>0</td>
+<td>2931</td>
+</tr>
+<tr>
+<td>AppleAVCIntraCodec</td>
+<td>0</td>
+<td>18</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAVCIntraEncoder</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAVCLGCodecEmbedded</td>
+<td>0</td>
+<td>161</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_dec_avc</td>
+<td>0</td>
+<td>40</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_enc_avc</td>
+<td>0</td>
+<td>103</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAnimationCodec</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleCanonRAWDecoder</td>
+<td>0</td>
+<td>124</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleCanonRAWImport</td>
+<td>0</td>
+<td>214</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleDVCPROHDCodec</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleHEVCProCodec</td>
+<td>0</td>
+<td>70</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_dec_hevc</td>
+<td>0</td>
+<td>53</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleIMXCodec</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleImageCodec</td>
+<td>0</td>
+<td>33</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleIntermediateCodec</td>
+<td>0</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMPEG2Codec</td>
+<td>0</td>
+<td>45</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMXFImport</td>
+<td>0</td>
+<td>61</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMediaServicesKit</td>
+<td>58</td>
+<td>161</td>
+<td>1598</td>
+</tr>
+<tr>
+<td>AppleProResCodecEmbedded</td>
+<td>0</td>
+<td>24</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleProResRAWCodecEmbedded</td>
+<td>0</td>
+<td>28</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleREDRAWDecoder</td>
+<td>0</td>
+<td>129</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleREDRAWImport</td>
+<td>0</td>
+<td>217</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleUncompressedCodec</td>
+<td>0</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AudioEffects</td>
+<td>0</td>
+<td>952</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CloudContent</td>
+<td>682</td>
+<td>0</td>
+<td>6814</td>
+</tr>
+<tr>
+<td>CompressorKit</td>
+<td>7682</td>
+<td>33140</td>
+<td>289</td>
+</tr>
+<tr>
+<td>AECore</td>
+<td>173</td>
+<td>3247</td>
+<td>0</td>
+</tr>
+<tr>
+<td>BatchActions</td>
+<td>81</td>
+<td>622</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ClusterManager</td>
+<td>0</td>
+<td>246</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Compressor</td>
+<td>6178</td>
+<td>16325</td>
+<td>289</td>
+</tr>
+<tr>
+<td>CompressorKit</td>
+<td>1289</td>
+<td>401</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ContentControl</td>
+<td>0</td>
+<td>1414</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DistributedObjects</td>
+<td>777</td>
+<td>2159</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ImageProcessing</td>
+<td>38</td>
+<td>663</td>
+<td>0</td>
+</tr>
+<tr>
+<td>JobControl</td>
+<td>20</td>
+<td>2970</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MediaServerAPI</td>
+<td>0</td>
+<td>304</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Qmaster</td>
+<td>1331</td>
+<td>13264</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RequestProcessing</td>
+<td>0</td>
+<td>399</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ServiceControl</td>
+<td>0</td>
+<td>569</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>0</td>
+<td>420</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompTypes</td>
+<td>57</td>
+<td>5402</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompUI</td>
+<td>4471</td>
+<td>1571</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompUtil</td>
+<td>28</td>
+<td>142</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampCore</td>
+<td>42</td>
+<td>1335</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampService</td>
+<td>0</td>
+<td>348</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampTypes</td>
+<td>282</td>
+<td>2901</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampUI</td>
+<td>209</td>
+<td>194</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampUtil</td>
+<td>1</td>
+<td>309</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Transcoding</td>
+<td>214</td>
+<td>7524</td>
+<td>289</td>
+</tr>
+<tr>
+<td>CoreAudioSDK</td>
+<td>0</td>
+<td>573</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DNXDecoder</td>
+<td>0</td>
+<td>726</td>
+<td>0</td>
+</tr>
+<tr>
+<td>EDEL</td>
+<td>20732</td>
+<td>46127</td>
+<td>13248</td>
+</tr>
+<tr>
+<td>ChordsKit</td>
+<td>0</td>
+<td>0</td>
+<td>7670</td>
+</tr>
+<tr>
+<td>MAAccessibility</td>
+<td>60</td>
+<td>0</td>
+<td>451</td>
+</tr>
+<tr>
+<td>MACore</td>
+<td>1889</td>
+<td>4135</td>
+<td>380</td>
+</tr>
+<tr>
+<td>MADSP</td>
+<td>0</td>
+<td>27630</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MADSPPlugInPublic</td>
+<td>0</td>
+<td>54</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MAFiles</td>
+<td>835</td>
+<td>472</td>
+<td>186</td>
+</tr>
+<tr>
+<td>MAHarmony</td>
+<td>537</td>
+<td>1560</td>
+<td>27</td>
+</tr>
+<tr>
+<td>MAMachineLearning</td>
+<td>159</td>
+<td>75</td>
+<td>44</td>
+</tr>
+<tr>
+<td>MAPlugInGUISwift</td>
+<td>53</td>
+<td>2</td>
+<td>429</td>
+</tr>
+<tr>
+<td>MAPlugInGUI_EDEL</td>
+<td>0</td>
+<td>11692</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MASwiftUIControls</td>
+<td>6</td>
+<td>0</td>
+<td>2498</td>
+</tr>
+<tr>
+<td>MASwiftUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>542</td>
+</tr>
+<tr>
+<td>MAToolKit</td>
+<td>17193</td>
+<td>139</td>
+<td>1021</td>
+</tr>
+<tr>
+<td>MAVectorUIKit</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>EmbeddedRemoteConfiguration</td>
+<td>1004</td>
+<td>0</td>
+<td>44</td>
+</tr>
+<tr>
+<td>Filters</td>
+<td>3155</td>
+<td>7454</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Flexo</td>
+<td>66234</td>
+<td>12945</td>
+<td>1229</td>
+</tr>
+<tr>
+<td>AnalysisKit</td>
+<td>36</td>
+<td>0</td>
+<td>697</td>
+</tr>
+<tr>
+<td>AudioAnalysis</td>
+<td>90</td>
+<td>0</td>
+<td>348</td>
+</tr>
+<tr>
+<td>DeepSkyLite</td>
+<td>487</td>
+<td>126</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProResRAWConversion</td>
+<td>0</td>
+<td>767</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FxPlug</td>
+<td>1299</td>
+<td>264</td>
+<td>0</td>
+</tr>
+<tr>
+<td>H264Encoder</td>
+<td>0</td>
+<td>260</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_enc_avc</td>
+<td>0</td>
+<td>111</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>3</td>
+<td>14925</td>
+<td>0</td>
+</tr>
+<tr>
+<td>HeliumSenso</td>
+<td>216</td>
+<td>7739</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Interchange</td>
+<td>2401</td>
+<td>0</td>
+<td>10769</td>
+</tr>
+<tr>
+<td>Lithium</td>
+<td>20</td>
+<td>10082</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaFoundation</td>
+<td>624</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaKit</td>
+<td>7162</td>
+<td>705</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MDPKit</td>
+<td>774</td>
+<td>429</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MIO</td>
+<td>2145</td>
+<td>823</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MXFExportSDK</td>
+<td>175</td>
+<td>4852</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MusicUnderstandingEmbedded</td>
+<td>12</td>
+<td>0</td>
+<td>1917</td>
+</tr>
+<tr>
+<td>Ozone</td>
+<td>10967</td>
+<td>38575</td>
+<td>6550</td>
+</tr>
+<tr>
+<td>AudioMixEngine</td>
+<td>0</td>
+<td>1591</td>
+<td>0</td>
+</tr>
+<tr>
+<td>PMLCloudContent</td>
+<td>9</td>
+<td>0</td>
+<td>566</td>
+</tr>
+<tr>
+<td>PMLUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>236</td>
+</tr>
+<tr>
+<td>PluginManager</td>
+<td>258</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProAppSupport</td>
+<td>111</td>
+<td>0</td>
+<td>428</td>
+</tr>
+<tr>
+<td>ProAppsFxSupport</td>
+<td>1621</td>
+<td>3700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProChannel</td>
+<td>704</td>
+<td>7075</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCore</td>
+<td>820</td>
+<td>5259</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCurveEditor</td>
+<td>1010</td>
+<td>291</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtension</td>
+<td>772</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtensionHost</td>
+<td>176</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtensionSupport</td>
+<td>336</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGL</td>
+<td>0</td>
+<td>1427</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGraphics</td>
+<td>3</td>
+<td>1112</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspector</td>
+<td>1528</td>
+<td>554</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspectorFoundation</td>
+<td>22</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMedia</td>
+<td>3</td>
+<td>2957</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMediaLibrary</td>
+<td>1</td>
+<td>0</td>
+<td>962</td>
+</tr>
+<tr>
+<td>ProOSC</td>
+<td>1048</td>
+<td>1642</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProOnboardingFlowModelOne</td>
+<td>95</td>
+<td>0</td>
+<td>1173</td>
+</tr>
+<tr>
+<td>ProService</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProShapes</td>
+<td>79</td>
+<td>1870</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProTracker</td>
+<td>633</td>
+<td>3049</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ANSTKitVideoApps</td>
+<td>232</td>
+<td>30</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleNeuralTracker</td>
+<td>0</td>
+<td>56</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProViewServiceSupport</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RetimingMath</td>
+<td>0</td>
+<td>454</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stalgo</td>
+<td>0</td>
+<td>854</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StudioSharedResources</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwiftASN1</td>
+<td>0</td>
+<td>0</td>
+<td>913</td>
+</tr>
+<tr>
+<td>TextFramework</td>
+<td>1409</td>
+<td>7682</td>
+<td>0</td>
+</tr>
+<tr>
+<td>TimelineKit</td>
+<td>6989</td>
+<td>121</td>
+<td>0</td>
+</tr>
+<tr>
+<td>USearch</td>
+<td>25</td>
+<td>594</td>
+<td>41</td>
+</tr>
+<tr>
+<td>VAML</td>
+<td>697</td>
+<td>34</td>
+<td>351</td>
+</tr>
+<tr>
+<td>VAMLSentencePiece</td>
+<td>2</td>
+<td>3329</td>
+<td>0</td>
+</tr>
+<tr>
+<td>XMLCodable</td>
+<td>93</td>
+<td>0</td>
+<td>494</td>
+</tr>
+</tbody>
+</table>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Symbols</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objective-C</td>
+<td>149409</td>
+<td>34.75%</td>
+</tr>
+<tr>
+<td>C++</td>
+<td>225095</td>
+<td>52.36%</td>
+</tr>
+<tr>
+<td>Swift</td>
+<td>55389</td>
+<td>12.89%</td>
+</tr>
+</tbody>
+</table>
+<p>Next up we have <strong>Final Cut Pro Creator Studio (on Mac)</strong>:</p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Obj-C</th>
+<th>C++</th>
+<th>Swift</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AppAnalytics</td>
+<td>361</td>
+<td>0</td>
+<td>2931</td>
+</tr>
+<tr>
+<td>AppSubscriptions</td>
+<td>9</td>
+<td>0</td>
+<td>1941</td>
+</tr>
+<tr>
+<td>AppleAVCIntraCodec</td>
+<td>0</td>
+<td>18</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAVCIntraEncoder</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAVCLGCodecEmbedded</td>
+<td>0</td>
+<td>161</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_dec_avc</td>
+<td>0</td>
+<td>40</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_enc_avc</td>
+<td>0</td>
+<td>103</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleAnimationCodec</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleCanonRAWDecoder</td>
+<td>0</td>
+<td>124</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleCanonRAWImport</td>
+<td>0</td>
+<td>214</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleDVCPROHDCodec</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleHEVCProCodec</td>
+<td>0</td>
+<td>70</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_dec_hevc</td>
+<td>0</td>
+<td>53</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleIMXCodec</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleImageCodec</td>
+<td>0</td>
+<td>33</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleIntermediateCodec</td>
+<td>0</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMPEG2Codec</td>
+<td>0</td>
+<td>45</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMXFImport</td>
+<td>0</td>
+<td>61</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleMediaServicesKit</td>
+<td>92</td>
+<td>163</td>
+<td>1699</td>
+</tr>
+<tr>
+<td>AppleProResCodecEmbedded</td>
+<td>0</td>
+<td>24</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleProResRAWCodecEmbedded</td>
+<td>0</td>
+<td>28</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleREDRAWDecoder</td>
+<td>0</td>
+<td>129</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleREDRAWImport</td>
+<td>0</td>
+<td>217</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleUncompressedCodec</td>
+<td>0</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AudioEffects</td>
+<td>0</td>
+<td>952</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CloudContent</td>
+<td>682</td>
+<td>0</td>
+<td>6814</td>
+</tr>
+<tr>
+<td>CompressorKit</td>
+<td>7682</td>
+<td>33140</td>
+<td>289</td>
+</tr>
+<tr>
+<td>AECore</td>
+<td>173</td>
+<td>3247</td>
+<td>0</td>
+</tr>
+<tr>
+<td>BatchActions</td>
+<td>81</td>
+<td>622</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ClusterManager</td>
+<td>0</td>
+<td>246</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Compressor</td>
+<td>6178</td>
+<td>16325</td>
+<td>289</td>
+</tr>
+<tr>
+<td>CompressorKit</td>
+<td>1289</td>
+<td>401</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ContentControl</td>
+<td>0</td>
+<td>1414</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DistributedObjects</td>
+<td>777</td>
+<td>2159</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ImageProcessing</td>
+<td>38</td>
+<td>663</td>
+<td>0</td>
+</tr>
+<tr>
+<td>JobControl</td>
+<td>20</td>
+<td>2970</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MediaServerAPI</td>
+<td>0</td>
+<td>304</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Qmaster</td>
+<td>1331</td>
+<td>13264</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RequestProcessing</td>
+<td>0</td>
+<td>399</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ServiceControl</td>
+<td>0</td>
+<td>569</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>0</td>
+<td>420</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompTypes</td>
+<td>57</td>
+<td>5402</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompUI</td>
+<td>4471</td>
+<td>1571</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StompUtil</td>
+<td>28</td>
+<td>142</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampCore</td>
+<td>42</td>
+<td>1335</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampService</td>
+<td>0</td>
+<td>348</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampTypes</td>
+<td>282</td>
+<td>2901</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampUI</td>
+<td>209</td>
+<td>194</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwampUtil</td>
+<td>1</td>
+<td>309</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Transcoding</td>
+<td>214</td>
+<td>7524</td>
+<td>289</td>
+</tr>
+<tr>
+<td>CoreAudioSDK</td>
+<td>0</td>
+<td>573</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DNXDecoder</td>
+<td>0</td>
+<td>726</td>
+<td>0</td>
+</tr>
+<tr>
+<td>EDEL</td>
+<td>20732</td>
+<td>46127</td>
+<td>13248</td>
+</tr>
+<tr>
+<td>ChordsKit</td>
+<td>0</td>
+<td>0</td>
+<td>7670</td>
+</tr>
+<tr>
+<td>MAAccessibility</td>
+<td>60</td>
+<td>0</td>
+<td>451</td>
+</tr>
+<tr>
+<td>MACore</td>
+<td>1889</td>
+<td>4135</td>
+<td>380</td>
+</tr>
+<tr>
+<td>MADSP</td>
+<td>0</td>
+<td>27630</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MADSPPlugInPublic</td>
+<td>0</td>
+<td>54</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MAFiles</td>
+<td>835</td>
+<td>472</td>
+<td>186</td>
+</tr>
+<tr>
+<td>MAHarmony</td>
+<td>537</td>
+<td>1560</td>
+<td>27</td>
+</tr>
+<tr>
+<td>MAMachineLearning</td>
+<td>159</td>
+<td>75</td>
+<td>44</td>
+</tr>
+<tr>
+<td>MAPlugInGUISwift</td>
+<td>53</td>
+<td>2</td>
+<td>429</td>
+</tr>
+<tr>
+<td>MAPlugInGUI_EDEL</td>
+<td>0</td>
+<td>11692</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MASwiftUIControls</td>
+<td>6</td>
+<td>0</td>
+<td>2498</td>
+</tr>
+<tr>
+<td>MASwiftUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>542</td>
+</tr>
+<tr>
+<td>MAToolKit</td>
+<td>17193</td>
+<td>139</td>
+<td>1021</td>
+</tr>
+<tr>
+<td>MAVectorUIKit</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>EmbeddedRemoteConfiguration</td>
+<td>1004</td>
+<td>0</td>
+<td>44</td>
+</tr>
+<tr>
+<td>Filters</td>
+<td>3155</td>
+<td>7454</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Flexo</td>
+<td>66234</td>
+<td>12945</td>
+<td>1229</td>
+</tr>
+<tr>
+<td>AnalysisKit</td>
+<td>36</td>
+<td>0</td>
+<td>697</td>
+</tr>
+<tr>
+<td>AudioAnalysis</td>
+<td>90</td>
+<td>0</td>
+<td>348</td>
+</tr>
+<tr>
+<td>DeepSkyLite</td>
+<td>487</td>
+<td>126</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProResRAWConversion</td>
+<td>0</td>
+<td>767</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FxPlug</td>
+<td>1299</td>
+<td>264</td>
+<td>0</td>
+</tr>
+<tr>
+<td>H264Encoder</td>
+<td>0</td>
+<td>260</td>
+<td>0</td>
+</tr>
+<tr>
+<td>mc_enc_avc</td>
+<td>0</td>
+<td>111</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>3</td>
+<td>14925</td>
+<td>0</td>
+</tr>
+<tr>
+<td>HeliumSenso</td>
+<td>216</td>
+<td>7739</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Interchange</td>
+<td>2401</td>
+<td>0</td>
+<td>10769</td>
+</tr>
+<tr>
+<td>Jet2P</td>
+<td>199</td>
+<td>794</td>
+<td>8961</td>
+</tr>
+<tr>
+<td>Lithium</td>
+<td>20</td>
+<td>10082</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaFoundation</td>
+<td>624</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaKit</td>
+<td>7162</td>
+<td>705</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MDPKit</td>
+<td>774</td>
+<td>429</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MIO</td>
+<td>2145</td>
+<td>823</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MXFExportSDK</td>
+<td>175</td>
+<td>4852</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MusicUnderstandingEmbedded</td>
+<td>12</td>
+<td>0</td>
+<td>1917</td>
+</tr>
+<tr>
+<td>Ozone</td>
+<td>10967</td>
+<td>38575</td>
+<td>6550</td>
+</tr>
+<tr>
+<td>AudioMixEngine</td>
+<td>0</td>
+<td>1591</td>
+<td>0</td>
+</tr>
+<tr>
+<td>PMLCloudContent</td>
+<td>9</td>
+<td>0</td>
+<td>566</td>
+</tr>
+<tr>
+<td>PMLUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>236</td>
+</tr>
+<tr>
+<td>PluginManager</td>
+<td>258</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProAppSupport</td>
+<td>111</td>
+<td>0</td>
+<td>428</td>
+</tr>
+<tr>
+<td>ProAppsFxSupport</td>
+<td>1621</td>
+<td>3700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProChannel</td>
+<td>704</td>
+<td>7075</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCore</td>
+<td>820</td>
+<td>5259</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCurveEditor</td>
+<td>1010</td>
+<td>291</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtension</td>
+<td>772</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtensionHost</td>
+<td>176</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProExtensionSupport</td>
+<td>336</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGL</td>
+<td>0</td>
+<td>1427</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGraphics</td>
+<td>3</td>
+<td>1112</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspector</td>
+<td>1528</td>
+<td>554</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspectorFoundation</td>
+<td>22</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMedia</td>
+<td>3</td>
+<td>2957</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMediaLibrary</td>
+<td>1</td>
+<td>0</td>
+<td>962</td>
+</tr>
+<tr>
+<td>ProOSC</td>
+<td>1048</td>
+<td>1642</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProOnboardingFlow</td>
+<td>97</td>
+<td>0</td>
+<td>1433</td>
+</tr>
+<tr>
+<td>ProService</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProShapes</td>
+<td>79</td>
+<td>1870</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProTracker</td>
+<td>633</td>
+<td>3049</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ANSTKitVideoApps</td>
+<td>232</td>
+<td>30</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AppleNeuralTracker</td>
+<td>0</td>
+<td>56</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProViewServiceSupport</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RetimingMath</td>
+<td>0</td>
+<td>454</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stalgo</td>
+<td>0</td>
+<td>854</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StudioSharedResources</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SwiftASN1</td>
+<td>0</td>
+<td>0</td>
+<td>913</td>
+</tr>
+<tr>
+<td>TextFramework</td>
+<td>1409</td>
+<td>7682</td>
+<td>0</td>
+</tr>
+<tr>
+<td>TimelineKit</td>
+<td>6989</td>
+<td>121</td>
+<td>0</td>
+</tr>
+<tr>
+<td>USearch</td>
+<td>25</td>
+<td>594</td>
+<td>41</td>
+</tr>
+<tr>
+<td>UnifiedMessagingKit2P</td>
+<td>178</td>
+<td>15</td>
+<td>3152</td>
+</tr>
+<tr>
+<td>VAAppAnalytics</td>
+<td>274</td>
+<td>0</td>
+<td>6145</td>
+</tr>
+<tr>
+<td>VAML</td>
+<td>697</td>
+<td>34</td>
+<td>351</td>
+</tr>
+<tr>
+<td>VAMLSentencePiece</td>
+<td>2</td>
+<td>3329</td>
+<td>0</td>
+</tr>
+<tr>
+<td>XMLCodable</td>
+<td>93</td>
+<td>0</td>
+<td>494</td>
+</tr>
+</tbody>
+</table>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Symbols</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objective-C</td>
+<td>150115</td>
+<td>33.21%</td>
+</tr>
+<tr>
+<td>C++</td>
+<td>225906</td>
+<td>49.98%</td>
+</tr>
+<tr>
+<td>Swift</td>
+<td>75949</td>
+<td>16.80%</td>
+</tr>
+</tbody>
+</table>
+<p>...and last, but not least, <strong>Final Cut Pro Creator Studio (for iPad)</strong>:</p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Obj-C</th>
+<th>C++</th>
+<th>Swift</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AnalysisKit</td>
+<td>0</td>
+<td>0</td>
+<td>41</td>
+</tr>
+<tr>
+<td>AnalysisService</td>
+<td>0</td>
+<td>0</td>
+<td>21794</td>
+</tr>
+<tr>
+<td>AppAnalytics</td>
+<td>0</td>
+<td>0</td>
+<td>167</td>
+</tr>
+<tr>
+<td>AppSubscriptions</td>
+<td>0</td>
+<td>0</td>
+<td>224</td>
+</tr>
+<tr>
+<td>AppleMediaServicesKit</td>
+<td>0</td>
+<td>0</td>
+<td>29</td>
+</tr>
+<tr>
+<td>AssistiveWorkflowKit</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>AudioAnalysis</td>
+<td>0</td>
+<td>0</td>
+<td>50</td>
+</tr>
+<tr>
+<td>AudioEffects</td>
+<td>0</td>
+<td>668</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>0</td>
+<td>0</td>
+<td>331</td>
+</tr>
+<tr>
+<td>BrowserUI</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Camalot</td>
+<td>0</td>
+<td>0</td>
+<td>154</td>
+</tr>
+<tr>
+<td>CameraKit</td>
+<td>0</td>
+<td>0</td>
+<td>176</td>
+</tr>
+<tr>
+<td>CameraKitUI</td>
+<td>0</td>
+<td>0</td>
+<td>170</td>
+</tr>
+<tr>
+<td>CameraProfiler</td>
+<td>0</td>
+<td>0</td>
+<td>880</td>
+</tr>
+<tr>
+<td>ChordsKit</td>
+<td>0</td>
+<td>0</td>
+<td>819</td>
+</tr>
+<tr>
+<td>CloudContent</td>
+<td>0</td>
+<td>0</td>
+<td>147</td>
+</tr>
+<tr>
+<td>Communication</td>
+<td>0</td>
+<td>0</td>
+<td>39</td>
+</tr>
+<tr>
+<td>CoreAudioSDK</td>
+<td>0</td>
+<td>566</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CoreDataCache</td>
+<td>0</td>
+<td>0</td>
+<td>2083</td>
+</tr>
+<tr>
+<td>DeepSkyLite</td>
+<td>480</td>
+<td>110</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DirectorKit</td>
+<td>0</td>
+<td>0</td>
+<td>137</td>
+</tr>
+<tr>
+<td>DirectorKitUI</td>
+<td>0</td>
+<td>0</td>
+<td>94</td>
+</tr>
+<tr>
+<td>EDEL</td>
+<td>0</td>
+<td>358</td>
+<td>0</td>
+</tr>
+<tr>
+<td>EmbeddedRemoteConfiguration</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Filmstrip</td>
+<td>0</td>
+<td>0</td>
+<td>443</td>
+</tr>
+<tr>
+<td>Filters</td>
+<td>2277</td>
+<td>6342</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FlexMusicKit</td>
+<td>720</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Flexo</td>
+<td>72467</td>
+<td>19116</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FlexoCover</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>FxPlug</td>
+<td>133</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FxPlugEffects</td>
+<td>154</td>
+<td>64</td>
+<td>0</td>
+</tr>
+<tr>
+<td>HLAppShareExtension</td>
+<td>0</td>
+<td>0</td>
+<td>27</td>
+</tr>
+<tr>
+<td>HLAppSupport</td>
+<td>0</td>
+<td>0</td>
+<td>274</td>
+</tr>
+<tr>
+<td>HLTimeline</td>
+<td>1692</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Helium</td>
+<td>3</td>
+<td>13639</td>
+<td>0</td>
+</tr>
+<tr>
+<td>HeliumSenso</td>
+<td>223</td>
+<td>5431</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Inspector</td>
+<td>0</td>
+<td>0</td>
+<td>341</td>
+</tr>
+<tr>
+<td>InspectorUI</td>
+<td>0</td>
+<td>0</td>
+<td>372</td>
+</tr>
+<tr>
+<td>Interchange</td>
+<td>0</td>
+<td>0</td>
+<td>57</td>
+</tr>
+<tr>
+<td>Jet2P</td>
+<td>0</td>
+<td>0</td>
+<td>226</td>
+</tr>
+<tr>
+<td>KonaModel</td>
+<td>0</td>
+<td>0</td>
+<td>10</td>
+</tr>
+<tr>
+<td>LegacyOnboarding</td>
+<td>0</td>
+<td>0</td>
+<td>69</td>
+</tr>
+<tr>
+<td>Lens</td>
+<td>0</td>
+<td>0</td>
+<td>138</td>
+</tr>
+<tr>
+<td>Lithium</td>
+<td>25</td>
+<td>9977</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaFoundation</td>
+<td>624</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>LunaKit</td>
+<td>2005</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MAAccessibility</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>MACore</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>MADSP</td>
+<td>0</td>
+<td>25154</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MADSPPlugInPublic</td>
+<td>0</td>
+<td>54</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MAFiles</td>
+<td>0</td>
+<td>0</td>
+<td>35</td>
+</tr>
+<tr>
+<td>MAHarmony</td>
+<td>0</td>
+<td>0</td>
+<td>9</td>
+</tr>
+<tr>
+<td>MAMachineLearning</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>MASwiftUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>541</td>
+</tr>
+<tr>
+<td>MDPKit</td>
+<td>719</td>
+<td>428</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MotionEffect</td>
+<td>864</td>
+<td>719</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MovieKit</td>
+<td>5248</td>
+<td>150</td>
+<td>17464</td>
+</tr>
+<tr>
+<td>MusicUnderstandingEmbedded</td>
+<td>0</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Ozone</td>
+<td>1147</td>
+<td>28709</td>
+<td>0</td>
+</tr>
+<tr>
+<td>PMLCloudContent</td>
+<td>0</td>
+<td>0</td>
+<td>14</td>
+</tr>
+<tr>
+<td>PMLEffects</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>PMLFileSystem</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>PMLHLApp</td>
+<td>0</td>
+<td>0</td>
+<td>94</td>
+</tr>
+<tr>
+<td>PMLUtilities</td>
+<td>0</td>
+<td>0</td>
+<td>234</td>
+</tr>
+<tr>
+<td>PeerCam</td>
+<td>2887</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Player</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>PluginManager</td>
+<td>252</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProARCam</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>ProAppSupport</td>
+<td>0</td>
+<td>0</td>
+<td>9</td>
+</tr>
+<tr>
+<td>ProAppsFxSupport</td>
+<td>730</td>
+<td>3035</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCamera</td>
+<td>0</td>
+<td>0</td>
+<td>22</td>
+</tr>
+<tr>
+<td>ProCameraDataModels</td>
+<td>160</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProChannel</td>
+<td>704</td>
+<td>7065</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProCore</td>
+<td>811</td>
+<td>4435</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGL</td>
+<td>0</td>
+<td>1201</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProGraphics</td>
+<td>0</td>
+<td>1022</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspector</td>
+<td>238</td>
+<td>82</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProInspectorFoundation</td>
+<td>22</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMedia</td>
+<td>35</td>
+<td>1011</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProMediaLibrary</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>ProOSC</td>
+<td>1008</td>
+<td>1487</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProOnboardingFlow</td>
+<td>0</td>
+<td>0</td>
+<td>146</td>
+</tr>
+<tr>
+<td>ProResRAWConversion</td>
+<td>7</td>
+<td>846</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProShapes</td>
+<td>3</td>
+<td>1807</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ProTracker</td>
+<td>227</td>
+<td>2263</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RetimingMath</td>
+<td>0</td>
+<td>454</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Share</td>
+<td>0</td>
+<td>0</td>
+<td>53</td>
+</tr>
+<tr>
+<td>SharedWidgets</td>
+<td>0</td>
+<td>0</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Stalgo</td>
+<td>0</td>
+<td>854</td>
+<td>0</td>
+</tr>
+<tr>
+<td>StudioSharedResources</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>TextFramework</td>
+<td>133</td>
+<td>8301</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Timber</td>
+<td>0</td>
+<td>0</td>
+<td>562</td>
+</tr>
+<tr>
+<td>TimelineKit</td>
+<td>5588</td>
+<td>122</td>
+<td>0</td>
+</tr>
+<tr>
+<td>USearch</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>UnifiedMessagingKit2P</td>
+<td>0</td>
+<td>0</td>
+<td>184</td>
+</tr>
+<tr>
+<td>VAAppAnalytics</td>
+<td>0</td>
+<td>0</td>
+<td>125</td>
+</tr>
+<tr>
+<td>VACore</td>
+<td>0</td>
+<td>0</td>
+<td>16</td>
+</tr>
+<tr>
+<td>VAKit</td>
+<td>901</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr>
+<td>VAML</td>
+<td>0</td>
+<td>0</td>
+<td>71</td>
+</tr>
+<tr>
+<td>VAMLSentencePiece</td>
+<td>2</td>
+<td>3333</td>
+<td>0</td>
+</tr>
+<tr>
+<td>VideoCassette</td>
+<td>0</td>
+<td>0</td>
+<td>21</td>
+</tr>
+<tr>
+<td>XMLCodable</td>
+<td>0</td>
+<td>0</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Symbols</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objective-C</td>
+<td>102500</td>
+<td>33.17%</td>
+</tr>
+<tr>
+<td>C++</td>
+<td>148823</td>
+<td>48.16%</td>
+</tr>
+<tr>
+<td>Swift</td>
+<td>57675</td>
+<td>18.67%</td>
+</tr>
+</tbody>
+</table>
+<p>So now if we compare the above:</p>
+<p>{.compact}</p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Language</th>
+<th>Symbols</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final Cut Pro (Mac)</td>
+<td>Objective-C</td>
+<td>149409</td>
+<td>34.75%</td>
+</tr>
+<tr>
+<td>Final Cut Pro Creator Studio (on Mac)</td>
+<td>Objective-C</td>
+<td>150115</td>
+<td>33.21%</td>
+</tr>
+<tr>
+<td>Final Cut Pro Creator Studio (for iPad)</td>
+<td>Objective-C</td>
+<td>102500</td>
+<td>33.17%</td>
+</tr>
+</tbody>
+</table>
+<pre><code>                                     |             |            |
+</code></pre>
+<p>Final Cut Pro (Mac)                      | C++         |     225095 |     52.36%
+Final Cut Pro Creator Studio (on Mac)    | C++         |     225906 |     49.98%
+Final Cut Pro Creator Studio (for iPad)  | C++         |     148823 |     48.16%
+|             |            |
+Final Cut Pro (Mac)                      | Swift       |      55389 |     12.89%
+Final Cut Pro Creator Studio (on Mac)    | Swift       |      75949 |     16.80%
+Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%</p>
+<p>We can see that Final Cut Pro is still mostly C++, and very little Swift - even on iPad - which is SUPER interesting.</p>
+<p>If we look back to our <a href="/news/20251115/">15th November 2025</a> blog post, we wrote:</p>
+<blockquote>
+<p>For those that are interested, it looks like Apple is currently hiring lots of people for it's Creativity Apps and ProApps teams:</p>
+<ul>
+<li><a href="https://jobs.apple.com/en-us/details/200627525-0836/pro-apps-acquisition-business-lead?team=MKTG">Pro Apps Acquisition Business Lead</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200627013-0240/sr-software-engineer-video-apps">Sr. Software Engineer-Video Apps</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200625892/software-engineering-manager-shared-ui-ux-creativity-apps">Software Engineering Manager, Shared UI / UX - Creativity Apps</a></li>
+<li><a href="https://jobs.apple.com/en-ca/details/200626006-3350/senior-ui-software-engineer-creativity-apps?team=SFTWR">Senior UI Software Engineer, Creativity Apps</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200625247-3350/software-engineer-creativity-apps?team=SFTWR">Software Engineer, Creativity Apps</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200626008-0836/senior-software-engineer-creativity-apps?team=SFTWR">Senior Software Engineer, Creativity Apps</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200614972-0836/software-engineering-manager-creativity-apps-frameworks?team=SFTWR">Software Engineering Manager, Creativity Apps &amp; Frameworks</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200627052-1242/senior-software-engineer-creativity-apps-frameworks">Senior Software Engineer, Creativity Apps &amp; Frameworks</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200627357/software-engineer-llm-workflows-apps?team=MLAI">Software Engineer - LLM Workflows - Apps</a></li>
+<li><a href="https://jobs.apple.com/en-us/details/200625102/sr-ios-engineer-photography-editing-creativity-tools">Sr iOS Engineer, Photography Editing &amp; Creativity Tools</a></li>
+</ul>
+<p>Some interesting tidbits from these job ads include:</p>
+<ul>
+<li>The scope of this role is broad and the opportunity to drive customer impact is high. In this role, you will chart the strategic direction of our Pro Apps (including but not limited to Final Cut Pro and Logic Pro) across all Growth &amp; Acquisition initiatives. As the Pro Apps Acquisition Business Lead, you will be responsible for driving the growth of the Pro Apps subscriber base through initiatives that achieve meaningful business results. The ideal candidate is able to set a clear vision for a multi-year growth plan, is adept at simplifying the complex, and influencing across a highly matrix organization. The role requires an experienced leader who will partner directly with product, engineering, marketing, design and finance working cross-functionally to deliver results.</li>
+<li>As a Senior Software Engineer, you’ll help drive the modernization of persistence systems that must handle multi-gigabyte projects with real-time responsiveness. You will be a technical contributor within the team while collaborating across Apple’s creative applications ecosystem.</li>
+<li>The Creativity Apps team is seeking a highly skilled Software Engineer with hands-on experience with media management, collaboration, persistence, or syncing. As a Software Engineer, you will play a key role in designing, implementing, and maintaining robust cloud syncing, media management, efficient on-device storage, and collaboration solutions to enhance our products and services.</li>
+<li>The Creativity Apps team is looking for a senior engineer with expertise in Apple platforms to help architect and build media management and collaboration features for creative tools. You’ll be working with the world-class teams behind Final Cut Pro, Logic Pro, and iWork to create next-generation tools for creators.</li>
+<li>Develop and enhance the data model, persistence infrastructure and shared frameworks used across Final Cut Pro applications.</li>
+<li>Contribute to the migration of legacy Objective-C systems to modern Swift applying best practices for maintainability and testability.</li>
+<li>Develop new capabilities using Swift structured concurrency and Grand Central Dispatch, ensuring thread safety and optimal performance.</li>
+<li>Collaborate closely with product and platform teams to deliver foundational improvements that enable seamless workflows across applications.</li>
+<li>Identify and resolve complex bottlenecks in multi-threaded, latency-sensitive environments processing large media files.</li>
+</ul>
+<p>It certainly seems like behind the scenes, a lot is happening at Apple in the ProApps departments.</p>
+<p>It looks like a big effort is being placed on updating a lot of Final Cut Pro's legacy Objective-C code to modern Swift is happening - although it's a massive long-term project.</p>
+</blockquote>
+<p>It seems like the major Swift rewrite is an on-going project with a LONG way to go.</p>
+<p>As expected the reaction from social media has been mixed.</p>
+<p>For example, <a href="https://www.reddit.com/r/finalcutpro/comments/1qpd085/comment/o2de585/">Chance_Noise_1702 on Reddit writes</a>:</p>
+<blockquote>
+<p>Extremely disappointed. Was expecting useful AI tools to be integrated. The &quot;beat detection&quot; feels so redundant. I've been editing for decades, and I don't really need vertical lines to visually indicate when the tempo of a song changes— I can already determine this through an audio clip's waveforms (as I'm sure 99% of editors can do easily as well). Maybe the so-called 'AI beat detection' is good if you're a beginner trying to learn how to mix sound? But for the &quot;pros&quot; using Final Cut &quot;Pro&quot;, I don't see it.</p>
+<p>Also, the beat lines showing 'where to splice and make track sound continuous'. This is pretty easy to do naturally by simply listening to a track and determining, no?</p>
+<p>The &quot;visual search&quot; also underwhelms. I'm a filmmaker by profession. When I finish shooting for the day, the first thing I'll do is import that day's footage, and organize it into folders accordingly, based on scene(s) we filmed that day. So, I can't imagine ever having a use to an &quot;AI visual search&quot; for objects/elements, text, types of shots, etc. to help locate footage. I already have shot lists, shooting schedules, and organized folders to go off of for that.</p>
+<p>Really underwhelmed, and frankly disappointed. FCP is falling dangerously behind competitors. I've been finding myself using Adobe more and more. In fact, even the new 'Capcut' desktop editing app is MILES ahead of FCP in terms of features/effects. Embarrassing and pointless update imo.</p>
+</blockquote>
+<p>I've been editing with Final Cut Pro all day, and I have to say I LOVE the beat detection - it's really awesome.</p>
+<p>The project I was cutting today was started in Final Cut Pro v11.2, so I already had manually added markers on my music tracks to help me cut to the beat - and interestingly, my markers pretty much already perfectly lined up with Apple's.</p>
+<p>My only real complaint is that I find the interface to be completely visually overwhelming and annoying - there's simply too many green lines on the screen!</p>
+<p><img src="/static/green-bar-overload.png" alt=""></p>
+<p>I kinda wish it had a &quot;focus&quot; mode and it only revealed the markers at an area close to the playhead, and an opacity setting, so you could make it super subtle.</p>
+<p>In my head I'm imagining if it has a &quot;focus&quot; mode, wherever my mouse or playhead is, I can see a those beat markers highlighted, but the lines slowly &quot;fade out&quot; in a circle, so your eye is directed JUST to the beat markers you NEED to see at the time.</p>
+<p>So I definitely disagree with <code>Chance_Noise_1702</code> - I think the Beat Markers are AWESOME! Thank you Final Cut Pro team!</p>
+<p>In regards to the visual search - I have to agree - the quality of the search results kinda sucks. Although that's not really to be expected, given how quickly it analyses things.</p>
+<p>The problem with this Final Cut Pro update is that for a year now, we've already had <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> in the world, so you have a direct comparison in terms of search quality - and Jumper just kills Final Cut Pro in terms of visual search quality.</p>
+<p>Back on <a href="/news/20260114">14th January 2026</a> I wrote:</p>
+<blockquote>
+<p>We would ASSUME that both Transcript &amp; Visual Search will be on by default in the <code>Import Settings</code>.</p>
+<p>As someone who directly helped bring <a href="https://fcp.cafe/news/20241106/">Jumper</a> to Final Cut Pro, it'll be super interesting to compare Jumper and Apple's offering in terms of speed, quality and ease-of-use.</p>
+<p>I'm ASSUMING that Apple's machine learning models will be super fast - especially as they're supporting all Apple Silicon devices.</p>
+<p>The quality - who knows until it ships. We do know that lots of people are using Jumper in Adobe Premiere, even though Media Intelligence is built in natively, simply because Jumper's search results are better - i.e. Jumper understands what a <code>Millennium Falcon</code> is.</p>
+<p>My GUESS is that Apple will have to tread very carefully with their machine learning models - and like with Adobe, Apple's models also won't know what a Millennium Falcon is (for example).</p>
+<p>Personally, I think Apple's Transcript &amp; Visual Search will work awesome for most users. It'll be fast, native, and super handy.</p>
+<p>Even today, when it comes to searching transcriptions, I sometimes find it faster and easier to just throw all my footage into a timeline, generate captions and search the Timeline Index to find specific things - as opposed to firing up Jumper.</p>
+<p>However Jumper's advantage is that the same analysis files can be shared between Mac &amp; PC, and between Final Cut Pro, DaVinci Resolve, Adobe Premiere Pro and Avid Media Composer. It also works in multiple languages - which Final Cut Pro won't do on launch.</p>
+</blockquote>
+<p>...and I think I was basically spot on.</p>
+<p>Interestingly, after spending a day switching between <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> on Mac - I've found the subscription version to be a lot more unstable, and crashy.</p>
+<p><img src="/static/fcp-creator-studio-crash.png" alt=""></p>
+<p>There seems to be bugs and issues with the on-boarding flow, subscription management and migrating preferences.</p>
+<p>My GUESS is that Apple was never able to do any deep real-world testing with users having both <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> installed on the same machine - as I'm pretty sure all the top-secret-don't-exist beta builds were just a single application (i.e. <code>Final Cut Pro Beta.app</code>) - so there's probably a lot of unexpected flows and user setups that they simply didn't test or consider.</p>
+<p>However, generally speaking <strong>Final Cut Pro v12.0</strong> worked pretty well today - and did what it needed to do.</p>
+<p>Unfortunately you can't open <strong>Final Cut Pro</strong> and <strong>Final Cut Pro Creator Studio</strong> at the same time out-of-the-box:</p>
+<p><img src="/static/fcp-cant-run-both.png" alt=""></p>
+<p><img src="/static/fcp-cant-run-both-2.png" alt=""></p>
+<p>...which is not surprising. However, you can just launch one from Terminal to get around this block.</p>
+<p>So, what about third party apps?</p>
+<ul>
+<li>As mentioned above <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox v1.5.0</a> is already on it's way to the Mac App Store.</li>
+<li><a href="https://capacitor.fcp.cafe">Capacitor</a> will require an update for <code>FCPXML v1.14</code> support. This has been submitted to the Mac App Store, so we're just waiting on Apple to review.</li>
+<li><a href="https://metaburner.fcp.cafe">Metaburner</a> will require an update for <code>FCPXML v1.14</code> support. We'll get to this for FxFactory and the Mac App Store ASAP.</li>
+<li><a href="https://hedge.co/products/arctic">Hedge Arctic v26.1</a> is out now with <strong>Final Cut Pro v12.0</strong> support!</li>
+<li><a href="https://commandpost.fcp.cafe">CommandPost</a> will definitely need an update for <strong>Final Cut Pro Creator Studio</strong>. It currently works with <strong>Final Cut Pro</strong>, but there will no-doubt be bugs. I'll try and jump on CommandPost fixes ASAP.</li>
+<li><a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a> is working great, but we'll update to the latest FxPlug4 SDK ASAP.</li>
+<li><a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> is working great, but we'll update to the latest FxPlug4 SDK ASAP.</li>
+<li><a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> is working great, but we'll update to the latest Workflow Extension SDK ASAP.</li>
+<li><a href="https://lutrobot.fcp.cafe">LUT Robot</a> is working great, but we'll update to the latest Workflow Extension SDK ASAP.</li>
+<li><a href="https://markertoolbox.fcp.cafe">Marker Toolbox</a> is working great, but we'll update to the latest Workflow Extension SDK ASAP.</li>
+<li><a href="https://fastcollections.fcp.cafe">Fast Collections</a> is working great, but we'll update to the latest Workflow Extension SDK ASAP.</li>
+<li><a href="https://newsimport.fcp.cafe">News Import</a> is working great, but we'll update to the latest Workflow Extension SDK ASAP.</li>
+</ul>
+<p>Yes... I make far too many apps, haha (with more to come!).</p>
+<p>Here's a sneak peak at something I'm working on in collaboration with the amazing Knut Hake and Sam Pluemacher:</p>
+<p><img src="/static/logicsplitter.png" alt=""></p>
+<p>This will also require some tweaks for the latest Logic Pro update - so stay tuned for it's eventual release!</p>
+<p>And that basically sums up everything I can think of after a day of cutting!</p>
+<p>If you run into any bugs or crashes, please report them to <a href="/bugtracker/">FCP Cafe</a>. If you have any comments or questions, fire away in the comments section below.</p>
+<p>Thanks team! Happy editing!</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-january-2026</link>
+            <guid isPermaLink="false">29th January 2026</guid>
+            <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
