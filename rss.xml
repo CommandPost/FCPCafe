@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 29 Jan 2026 12:13:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2026 12:18:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 29 Jan 2026 12:13:02 GMT</pubDate>
+        <pubDate>Thu, 29 Jan 2026 12:18:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12725,6 +12725,7 @@ I stopped using custom layouts as I need these features to work.</li>
 </tr>
 </tbody>
 </table>
+<p>You can learn more about the Final Cut Pro Library Database file on <a href="/developers/librarybundle/">FCP Cafe's Developer Section</a>.</p>
 <p>If you need to get from <strong>Final Cut Pro (Mac)</strong> or <strong>Final Cut Pro Creator Studio (Mac)</strong> to <strong>Final Cut Pro Creator Studio (iPad)</strong>, the good news is that <strong>Transfer Toolbox v1.5.0</strong> has been submitted to the Mac App Store for review, so hopefully by the time you read this it will already be out.</p>
 <p><img src="/static/transfer-toolbox-v1-5-0-01.png" alt=""></p>
 <p><img src="/static/transfer-toolbox-v1-5-0-02.png" alt=""></p>
