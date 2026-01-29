@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.822997559755">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823003455628">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.11.0.822997559755" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.823003455628" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.822997559755" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823003455628" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.822997559755" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823003455628" data-turbo-eval="false" defer></script>
     <link href="../../resources/css/katex.css?v=3.11.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="../../resources/js/katex.js?v=3.11.0" defer></script>
 
@@ -469,6 +469,29 @@
     </h2>
 </doc-anchor-target>
 <p>Here is the release notes for FxPlug. Where appropriate, we try and add additional information and context below.</p>
+<hr>
+<doc-anchor-target id="fxplug-434">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fxplug-434">#</doc-anchor-trigger>
+        <span>FxPlug 4.3.4</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Released January 28, 2026</strong></p>
+<ul>
+<li>Improved stability and reliability.</li>
+<li>FxPlug SDK now requires macOS 13.0 (Ventura) or later.</li>
+<li>Improved performance in FxPlugs that use custom data parameters.</li>
+<li>Fixed an issue where 3rd party FxPlugs that use the project API might get an invalid URL for the media folder of their effect.</li>
+<li>Improved performance by fixing a number of small memory leaks that can occur when using the <code v-pre>FxAnalysisAPI</code>.</li>
+<li>Fixed a potential crash when scheduling frames in an interlaced project using the <code v-pre>FxTiming</code> API.</li>
+<li>Fixed an issue where a plugin could leak instances.</li>
+<li>Fixed an issue where a plugin using the <code v-pre>FxAnalysisAPI</code> may receive incorrect inputs during analysis.</li>
+<li>Fixed a potential crash in Motion when an FxMatrix is initialized with <code v-pre>-[FxMatrix44 initWithFxMatrix:]</code></li>
+<li>Fixed an issue where the host app could crash when a plug-in calls the <code v-pre>-setVersionAtCreation:</code> method of the versioning API.</li>
+<li>Fixed an issue where dragging the OnScreen Controls could cause the render to jitter.</li>
+<li>Building with Swift 6 is known to cause compilation issues with example plug-ins. The fix is fairly straightforward. The <code v-pre>@NSApplicationMain</code> line in the wrapper application can be replaced with <code v-pre>@main</code>. An <code v-pre>NSLock</code> can be added to the <code v-pre>MTLDeviceCache</code> and locked at the start of the methods of <code v-pre>MTLDeviceCache</code> that use <code v-pre>deviceCaches</code> property, and unlocked before returning from the method. The <code v-pre>MTLDeviceCache</code> class can then be marked as <code v-pre>@unchecked Sendable</code>.</li>
+<li>Analysis plugins built with older SDK versions (XPC version 10 or earlier) may see some performance degradation when processing higher-resolution clips (e.g. 8K) in Motion. Update your plugins to use the latest FxPlug SDK to ensure they utilize XPC version 11.</li>
+</ul>
 <hr>
 <doc-anchor-target id="fxplug-433">
     <h3>
