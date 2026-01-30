@@ -10,15 +10,21 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
+**Last Updated:** 30th January 2026
+
 ---
 
 ## Summary
 
-**Last Updated:** 29th January 2026
+Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure you backup Final Cut Pro and your Library first!
 
-Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure yo backup Final Cut Pro and your Library first!
+My suggestion would be to wait until **Final Cut Pro 12.0.1** until you update unless you REALLY need a feature that the new version has. Trend with care.
 
-If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
+FWIW - [Jumper](https://getjumper.io/?ref=fcpcafe) does a far better job with machine learning search anyway.
+
+I've already seen reports of corrupted projects, crashes, and general sluggishness.
+
+If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** works great.
 
 However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [ugly](https://tonsky.me/blog/tahoe-icons/).
 
@@ -70,11 +76,15 @@ So far, **Final Cut Pro Creator Studio v12.0** seems more stable and less crashy
 
 You can read our more detailed thoughts on this version of Final Cut Pro on the [news feed](/news/20260129).
 
+My suggestion would be to wait until **Final Cut Pro 12.0.1** until you update unless you REALLY need a feature that the new version has. Trend with care.
+
+I've already seen reports of corrupted projects, crashes, and general sluggishness.
+
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | Requires an update.                                                                                     |
+| Capacitor                | Update to Capacitor v1.2.0 for FCPXML v1.14 support.                                                    |
 | Color Finale             | No Known Issues                                                                                         |
 | CommandPost              | Requires an update.                                                                                     |
 | CoreMelt                 | No Known Issues                                                                                         |
@@ -88,6 +98,7 @@ You can read our more detailed thoughts on this version of Final Cut Pro on the 
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
+| Transfer Toolbox         | Update to Transfer Toolbox v1.5.0 for Final Cut Pro v12 support.                                        |
 
 ---
 
