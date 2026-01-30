@@ -1,6 +1,6 @@
 - [Include state of Roles in FCPXML (December 11, 2023)](https://github.com/CommandPost/FCPCafe/issues/303)
 - [Add Focus Mode to Beat Detection Grid (January 30, 2026)](https://github.com/CommandPost/FCPCafe/issues/504)
-- [Unexpected behavior for blade cuts and markers. (October 4, 2025)](https://github.com/CommandPost/FCPCafe/issues/495)
+- [Unexpected behavior for blade cuts and markers (October 4, 2025)](https://github.com/CommandPost/FCPCafe/issues/495)
 - [Regular Markers should have different colors and "tag color" integrated into "Index - Tags" (June 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/472)
 - [FxPlug Push and Help Selector needs "Button parameter ID" parameterization (December 20, 2024)](https://github.com/CommandPost/FCPCafe/issues/438)
 - [Full Internal Storyline Timeline Functionality - Internal clips, titles, generators, and audio. (December 19, 2024)](https://github.com/CommandPost/FCPCafe/issues/437)
