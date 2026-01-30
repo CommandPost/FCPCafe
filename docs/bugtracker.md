@@ -45,9 +45,9 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 ---
 
 
-### Final Cut Pro 11
+### Final Cut Pro 12
 
-Here's a list of the **30 most recently added** Final Cut Pro 11 bug reports:
+Here's a list of the **30 most recently added** Final Cut Pro 12 bug reports:
 
 {{ include "bugtracker-latest" }}
 
@@ -55,11 +55,9 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 ---
 
-### Final Cut Pro 10.8.1
+### Final Cut Pro 11.2
 
-Here's a list of the **30 most recently added** Final Cut Pro 10.8.1 bug reports.
-
-Some of these bugs may eventually be migrated to the Final Cut Pro 11 list once confirmed.
+Here's a list of the **30 most recently added** Final Cut Pro 11.2 bug reports:
 
 {{ include "bugtracker-previous" }}
 
