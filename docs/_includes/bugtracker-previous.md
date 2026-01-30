@@ -1,3 +1,0 @@
-- [Export and Real Time Performance Issues with Clips of Alpha=0, not optimized out of render pipeline (October 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/409)
-- [Pending Exports disappear if/when Final Cut Pro crashes or Force Quit required (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/405)
-- [Background Tasks - Sharing - Percentage Error with Multiple Export: Resets after each completes + lack of "completed" exports (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/403)
