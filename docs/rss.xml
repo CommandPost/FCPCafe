@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 29 Jan 2026 13:26:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 02:17:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 29 Jan 2026 13:26:24 GMT</pubDate>
+        <pubDate>Fri, 30 Jan 2026 02:17:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12579,6 +12579,7 @@ I stopped using custom layouts as I need these features to work.</li>
 <p>I'm hoping to add some big performance improvements to BRAW Toolbox over the coming weeks if all goes to plan too!</p>
 <p><img src="/static/creator-studio-release.png" alt=""></p>
 <p>Today's the day - <strong>Apple Creator Studio</strong> is out now!</p>
+<p>You can read <strong>Behind Kyle Hanagami's viral dance creations edited with Final Cut Pro</strong> on the <a href="https://www.apple.com/newsroom/2026/01/behind-kyle-hanagamis-viral-dance-creations-edited-with-final-cut-pro/">Apple Newsroom</a>.</p>
 <p><img src="/static/fcp-creator-studio-start-free-trial.png" alt=""></p>
 <p>Unfortunately I was stuck in an edit suite all day, which is why this blog post hasn't come out earlier - however, it did mean that I've now played with Final Cut Pro v12.0 for an entire day on a real-world job.</p>
 <p>Also, we did try reaching out to the Final Cut Pro Team and Apple Marketing to try get someone on the ground for the Apple Creator Studio launch - but all we got was radio silence. 🤷‍♂</p>
