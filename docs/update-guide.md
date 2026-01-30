@@ -10,7 +10,7 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
-**Last Updated:** 30th January 2026
+**Last Updated:** 31st January 2026
 
 ---
 
@@ -77,6 +77,8 @@ So far, **Final Cut Pro Creator Studio v12.0** seems more stable and less crashy
 You can read our more detailed thoughts on this version of Final Cut Pro on the [news feed](/news/20260129).
 
 My suggestion would be to wait until **Final Cut Pro 12.0.1** until you update unless you REALLY need a feature that the new version has. Trend with care.
+
+You should make sure you update to **Pro Video Formats v3.1** when using **Final Cut Pro v12.0**.
 
 I've already seen reports of corrupted projects, crashes, and general sluggishness.
 
