@@ -1,5 +1,6 @@
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Library Corruption & Preference Reset Issues (September 30, 2025)](https://github.com/CommandPost/FCPCafe/issues/493)
 - [Final Cut Pro Fails to Copy All Project Media to a New Location After a Previously Cancelled or Failed Copy Operation (June 17, 2025)](https://github.com/CommandPost/FCPCafe/issues/476)
 - [Blade Speed Hold frame bug (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/475)
 - [I can’t save custom presets (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/473)
@@ -27,4 +28,3 @@
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
-- [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)

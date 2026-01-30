@@ -1,3 +1,4 @@
+- [Library Corruption & Preference Reset Issues (September 30, 2025)](https://github.com/CommandPost/FCPCafe/issues/493)
 - [Final Cut Pro Fails to Copy All Project Media to a New Location After a Previously Cancelled or Failed Copy Operation (June 17, 2025)](https://github.com/CommandPost/FCPCafe/issues/476)
 - [Blade Speed Hold frame bug (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/475)
 - [I can’t save custom presets (June 11, 2025)](https://github.com/CommandPost/FCPCafe/issues/473)
@@ -27,4 +28,3 @@
 - [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
 - [Laser Generator not rotating correctly (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/368)
 - [Tracker OSC Rotation not adding in video rotation during click-edit, off by video rotation (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/366)
-- [Freeze when making adjustments in Viewer using Transform Tool (June 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/364)
