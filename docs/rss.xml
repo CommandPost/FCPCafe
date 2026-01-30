@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 30 Jan 2026 05:23:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 06:37:45 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Jan 2026 05:23:18 GMT</pubDate>
+        <pubDate>Fri, 30 Jan 2026 06:37:45 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15204,6 +15204,8 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
 <p>The Company posted quarterly revenue of $143.8 billion, up 16 percent year over year. Diluted earnings per share was $2.84, up 19 percent year over year.</p>
 </blockquote>
 <p>Yikes. Apple have a LOT of money.</p>
+<p>Apple also <a href="https://www.reuters.com/business/apple-acquires-audio-ai-startup-qai-2026-01-29/">confirmed to Reuters</a> that it has acquired <strong>Q.ai</strong> - an Israeli startup that is working on machine learning technology for audio.</p>
+<p>According to the <a href="https://www.ft.com/content/49f4e2e4-3a68-4842-be67-879409d06aa1">Financial Times</a>, Apple paid close to <strong>$2 billion</strong> for Q.ai. 🤯</p>
 <p>As reported yesterday, <strong>CommandPost</strong> currently works in <strong>Final Cut Pro v12</strong> (lifetime/perpetual), but doesn't yet support <strong>Final Cut Pro Creator Studio v12</strong> (subscription).</p>
 <p>However, if you're DESPERATE to get CommandPost up-and-running with the subscription version of Final Cut Pro, you can check out <a href="https://github.com/CommandPost/CommandPost/commit/fc64b78521141cbd85550eaabccd981c5babb38f">these required Lua changes</a>.</p>
 <p>I'll try and push out a CommandPost update ASAP - there's a few weird performance issues with Final Cut Pro v12 that I still want to try and improve. Stay tuned!</p>
