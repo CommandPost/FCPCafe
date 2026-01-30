@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 30 Jan 2026 04:17:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 05:23:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Jan 2026 04:17:40 GMT</pubDate>
+        <pubDate>Fri, 30 Jan 2026 05:23:18 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15192,6 +15192,65 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
             <link>https://fcp.cafe/#29th-january-2026</link>
             <guid isPermaLink="false">29th January 2026</guid>
             <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th January 2026]]></title>
+            <description><![CDATA[<p>Happy Friday!</p>
+<p>Apple today <a href="https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/">announced</a> financial results for the first fiscal quarter of 2026, which corresponds to the fourth calendar quarter of 2025.</p>
+<blockquote>
+<p>All-time records for total company revenue and EPS iPhone and Services revenue reach new all-time highs</p>
+</blockquote>
+<blockquote>
+<p>The Company posted quarterly revenue of $143.8 billion, up 16 percent year over year. Diluted earnings per share was $2.84, up 19 percent year over year.</p>
+</blockquote>
+<p>Yikes. Apple have a LOT of money.</p>
+<p>As reported yesterday, <strong>CommandPost</strong> currently works in <strong>Final Cut Pro v12</strong> (lifetime/perpetual), but doesn't yet support <strong>Final Cut Pro Creator Studio v12</strong> (subscription).</p>
+<p>However, if you're DESPERATE to get CommandPost up-and-running with the subscription version of Final Cut Pro, you can check out <a href="https://github.com/CommandPost/CommandPost/commit/fc64b78521141cbd85550eaabccd981c5babb38f">these required Lua changes</a>.</p>
+<p>I'll try and push out a CommandPost update ASAP - there's a few weird performance issues with Final Cut Pro v12 that I still want to try and improve. Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-january-2026</link>
+            <guid isPermaLink="false">30th January 2026</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th January 2026]]></title>
+            <description><![CDATA[<p><strong>Final Cut Camera v2.0.1</strong> is out now with the following improvements:</p>
+<ul>
+<li>Includes support for 30 additional languages.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p>The additional languages is a great sign that maybe we'll see addition languages in Final Cut Pro for Mac &amp; iPad in the not-so-distant future!</p>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/final-cut-camera/id6469552837">iPhone App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-january-2026</link>
+            <guid isPermaLink="false">30th January 2026</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th January 2026]]></title>
+            <description><![CDATA[<p><strong>Transfer Toolbox v1.5.0</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Added support for Final Cut Pro v12.0 (for Mac), Final Cut Pro Creator Studio v12.0 (for Mac) and Final Cut Pro Creator Studio v3.0 (for iPad).</li>
+</ul>
+<p>You can download and learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-january-2026</link>
+            <guid isPermaLink="false">30th January 2026</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th January 2026]]></title>
+            <description><![CDATA[<p><strong>Capacitor v1.2.0</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Added support for Final Cut Pro v12.0, Final Cut Pro Creator Studio v12.0 and FCPXML v1.14.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://capacitor.fcp.cafe">Capacitor website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-january-2026</link>
+            <guid isPermaLink="false">30th January 2026</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
