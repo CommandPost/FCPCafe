@@ -8,6 +8,28 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 {{ include "latenite/pro-editor-bundle" }}
 
+## 2026 Deals
+
+Here's some of the deals we know about in 2026:
+
+---
+
+### Jumper
+
+You can get **25% off** Jumper with the Discount code: `25OFF`.
+
+You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
+
+---
+
+## Black Friday Deals 2025
+
+Looking for **Black Friday** deals?
+
+**Jonny Elwyn's** site is probably the best place to find them!
+
+You can check out his detailed list of deals [on his website](https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2025/).
+
 ---
 
 ## Black Friday Deals 2024

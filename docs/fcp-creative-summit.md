@@ -1,5 +1,21 @@
 # FCP Creative Summit
 
+## 2026
+
+So far there's no news on the Final Cut Pro Creative Summit for 2026.
+
+However, FMC will have an exclusive Final Cut Pro track at Post|Production World during NAB.
+
+![](/static/fcp-creative-summit-2026-delayed.png)
+
+---
+
+## 2025
+
+Sadly, there was no Final Cut Pro Creative Summit in 2025. It was delayed until 2026.
+
+---
+
 ## 2024
 
 The Final Cut Pro Creative Summit in 2024 took place between **13th to 15th November** at Apple Park and the Juniper Hotel in Cupertino.
