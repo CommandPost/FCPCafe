@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 30 Jan 2026 22:26:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 23:22:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Jan 2026 22:26:25 GMT</pubDate>
+        <pubDate>Sat, 31 Jan 2026 23:22:19 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15290,6 +15290,27 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
             <link>https://fcp.cafe/#31st-january-2026</link>
             <guid isPermaLink="false">31st January 2026</guid>
             <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1st February 2026]]></title>
+            <description><![CDATA[<p>Pinch and a punch for the first day of the month!</p>
+<p>For your lazy Sunday, here's some Final Cut Pro related videos from around the world!</p>
+<p>I'm still flat out updating all my apps for Final Cut Pro v12 - so I haven't watched them all in full - so if you hear something interesting in the videos, let me know in the comments below!</p>
+<p><strong>Verownika</strong> has posted a video on YouTube titled <strong>Apple Creator Studio in Spanish: Full Review and Price 🔥</strong>.</p>
+<p>It has been auto-dubbed it into English, which you can watch on <a href="https://www.youtube.com/watch?v=U8HGfhkhGsI">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=U8HGfhkhGsI"><img src="/static/verownika-youtube.jpg" alt=""></a></p>
+<p><strong>Richard Taylor</strong> has gone live again with <a href="https://www.youtube.com/watch?v=hfMT47K1GKg">The Apple Creator Studio Aftermath - Final Cut TV</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=hfMT47K1GKg"><img src="/static/richard-taylor-aftermath-youtube.jpg" alt=""></a></p>
+<p><strong>Christopher Lawley</strong> posts on YouTube, <a href="https://www.youtube.com/watch?v=bADlMY_tKeM">The Secrets of the Apple Creator Studio</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=bADlMY_tKeM"><img src="/static/christopher-lawley-youtube.jpg" alt=""></a></p>
+<p><strong>Stephen Robles</strong> posts on YouTube, <a href="https://www.youtube.com/watch?v=-Ov81x97u3g">I Tested Apple’s New Creator Studio for 2 Weeks</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=-Ov81x97u3g"><img src="/static/stephen-robles-youtube.jpg" alt=""></a></p>
+<p>AppleInsider posts on YouTube <a href="https://www.youtube.com/watch?v=DJKrrGaQ9hc">TWO Weeks with Apple Creator Studio! Honest Review!</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=DJKrrGaQ9hc"><img src="/static/appleinsider-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#1st-february-2026</link>
+            <guid isPermaLink="false">1st February 2026</guid>
+            <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
