@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 30 Jan 2026 06:37:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 22:26:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Jan 2026 06:37:45 GMT</pubDate>
+        <pubDate>Fri, 30 Jan 2026 22:26:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -12584,6 +12584,7 @@ I stopped using custom layouts as I need these features to work.</li>
 <p>Unfortunately I was stuck in an edit suite all day, which is why this blog post hasn't come out earlier - however, it did mean that I've now played with Final Cut Pro v12.0 for an entire day on a real-world job.</p>
 <p>Also, we did try reaching out to the Final Cut Pro Team and Apple Marketing to try get someone on the ground for the Apple Creator Studio launch - but all we got was radio silence. 🤷‍♂</p>
 <p>Sadly, it doesn't seem like FCP Cafe is a priority for the Final Cut Pro team - they're really going after influencers and YouTuber's rather than traditional Film &amp; Television editors.</p>
+<p>The below is pricing in Australia:</p>
 <p><img src="/static/fcp-creator-studio-aud-pricing.png" alt=""></p>
 <p>You can read Iain Anderson's great and detailed article <strong>What’s New in Final Cut Pro 12 and more</strong> on <a href="https://www.provideocoalition.com/whats-new-in-final-cut-pro-12-and-more/">ProVideo Coalition</a>.</p>
 <p>It's awesome that Iain was able to include some kind works about <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>:</p>
@@ -15253,6 +15254,42 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
             <link>https://fcp.cafe/#30th-january-2026</link>
             <guid isPermaLink="false">30th January 2026</guid>
             <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2026]]></title>
+            <description><![CDATA[<p><strong>Pro Video Formats v3.1</strong> is out now!</p>
+<p>The Pro Video Formats package includes the iPhone ProRes RAW plug-in, allowing supporting applications to provide more controls for ProRes RAW video shot on iPhone.</p>
+<p>It also provides support for the following codecs used in professional video workflows:</p>
+<ul>
+<li>Apple ProRes RAW and ProRes RAW HQ³</li>
+<li>Apple Intermediate Codec</li>
+<li>Avid DNxHD® / Avid DNxHR® decoder</li>
+<li>AVC-Intra 50 / 100 / 200 / 4:4:4 / LT</li>
+<li>AVC-LongG</li>
+<li>XAVC</li>
+<li>XF-AVC</li>
+<li>XF-HEVC</li>
+<li>DVCPRO HD</li>
+<li>HDV</li>
+<li>XDCAM EX / HD / HD422</li>
+<li>MPEG IMX</li>
+<li>Uncompressed 4:2:2</li>
+</ul>
+<p>If you have Final Cut Pro installed, it should come up as a macOS System Update, however you can download manually from the <a href="https://support.apple.com/106396">Apple website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2026</link>
+            <guid isPermaLink="false">31st January 2026</guid>
+            <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[31st January 2026]]></title>
+            <description><![CDATA[<p>KARRA and Reid Stefan have posted a new video titled, <strong>The future of Logic Pro &amp; Final Cut 🎧 Apple Creator Studio Interview</strong>.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=cqxgfY0zzac">YouTube</a>:</p>
+<p><a href="https://youtube.com/watch?v=cqxgfY0zzac"><img src="/static/future-of-logic.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#31st-january-2026</link>
+            <guid isPermaLink="false">31st January 2026</guid>
+            <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
