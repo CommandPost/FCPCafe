@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823258840828">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Immersive</title>
+    <meta name="title" content="Immersive">
+    <meta name="description" content="This page is dedicated to stuff that Chris finds interesting about Immersive workflows related to Final Cut Pro workflows.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fcp.cafe/learn/immersive/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fcp.cafe/learn/immersive/">
+    <meta property="og:title" content="Immersive">
+    <meta property="og:description" content="This page is dedicated to stuff that Chris finds interesting about Immersive workflows related to Final Cut Pro workflows.">
+    <meta property="og:image" content="https://fcp.cafe/static/thumbnail.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fcp.cafe/learn/immersive/">
+    <meta property="twitter:title" content="Immersive">
+    <meta property="twitter:description" content="This page is dedicated to stuff that Chris finds interesting about Immersive workflows related to Final Cut Pro workflows.">
+    <meta property="twitter:image" content="https://fcp.cafe/static/thumbnail.jpg">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.823258840828" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823258840828" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823258840828" data-turbo-eval="false" defer></script>
+
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
+    <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .review {
+            text-align: left;
+            color: #1956AF;
+            border-radius: 10px;
+            background-color: #E1EDFF;
+            border: 1px solid #1956AF;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+        html.dark .review {
+            background-color: rgb(39 39 39/var(--tw-bg-opacity));
+            color: rgb(189 189 189/var(--tw-text-opacity));
+        }
+        .review p {
+            font-size: 11px;
+        }
+        .review-rating {
+            margin-bottom: 5px;
+        }
+        .fa-star {
+            font-size: 20px;
+            color: #ccc;
+        }
+        .fa-star.checked {
+            color: orange;
+        }
+        @media (max-width: 959px) {
+            img.rightLogo {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fcpcafe.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fcpcafe.png">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../contribute/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Contribute</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../wishlist/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Wish List</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../bugtracker/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Bug Tracker</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../latenite/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../contribute/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Contribute</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../wishlist/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Wish List</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../bugtracker/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Bug Tracker</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../latenite/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                                    <ol role="list">
+                                        <li class="pr-4">
+                                            <a href="../../" class="pr-4">
+                                                Latest News
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <span class="pr-4">
+                                                Learn
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../../learn/immersive/" class="pr-4">
+                                                Immersive
+                                            </a>
+                                        </li>
+                                    </ol>
+                                </nav>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="immersive" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#immersive">#</doc-anchor-trigger>
+        <span>Immersive</span>
+    </h1>
+</doc-anchor-target>
+<p>This page is dedicated to stuff that Chris finds interesting about Immersive workflows related to Final Cut Pro workflows.</p>
+<p>This is very much an evolving space - so if you find something interesting online, please share!</p>
+<p>This is NOT an area I&#x27;m an expert in, so please reach out if there&#x27;s any mistakes!</p>
+<hr>
+<doc-anchor-target id="terminology">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#terminology">#</doc-anchor-trigger>
+        <span>Terminology</span>
+    </h2>
+</doc-anchor-target>
+<p>Here&#x27;s some of the terms that might pop up whilst you&#x27;re researching Apple Immersive Videos:</p>
+<p><strong>AIV (Apple Immersive Video)</strong>
+A premium immersive-video format from Apple for Apple Vision Pro playback. In Apple’s own wording, it’s &quot;the highest quality immersive experience for video playback&quot; with immersive audio.  ￼</p>
+<p>Viewer-facing shorthand: Apple Support also describes Apple Immersive Video titles as &quot;180-degree 8K recordings, captured with Spatial Audio&quot;.  ￼</p>
+<p><strong>AIME (Apple Immersive Media Embedded)</strong>
+The static metadata that enables correct playback—especially camera/lens calibration and other &quot;presentation metadata&quot;. Depending on the workflow, you’ll encounter <code v-pre>AIME</code> either as a separate metadata file (i.e. from set) or embedded as a metadata track.</p>
+<p><strong>AIVU (Apple Immersive Video Universal)</strong>
+A packaged container used for review/testing and delivery workflows. <a href="https://apps.apple.com/app/apple-immersive-video-utility/id6477489398" class="outbound" target="_blank"><span>Apple Immersive Video Utility</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> can package a folder of components into a single <code v-pre>AIVU</code> — typically including high-bit-rate <code v-pre>MV-HEVC</code> video, <code v-pre>AIME</code> metadata, audio, and an optional presentation track.</p>
+<p>The only thing you need to make a ⁨<code v-pre>AIVU</code>⁩ is:</p>
+<ul>
+<li>Apple Immersive Video <code v-pre>MV-HEVC</code> video file without any necessary metadata.</li>
+<li>An <code v-pre>⁨AIME</code>⁩ file with the correct camera calibrations <strong>OR</strong> an <code v-pre>⁨USDZ</code>⁩ file to use for camera calibration (instead of an ⁨AIME)⁩ file <strong>AND</strong> a dynamic mask <code v-pre>JSON</code> data file to use for camera calibration.</li>
+</ul>
+<p>This file is a binary file (so can&#x27;t be opened in a text editor, etc).</p>
+<p><strong>Apple Immersive Video Utility (often shortened to &quot;AIVU Utility&quot; or &quot;AIVU app&quot;)</strong>
+A Mac + Vision Pro companion toolset for importing, organizing, packaging (<code v-pre>AIVU</code>), and reviewing Apple Immersive Video—Mac provides a 2D management UI, while Vision Pro is used for immersive review.  ￼</p>
+<p><strong>MV-HEVC (Multi-View HEVC)</strong>
+The video coding format commonly referenced in Apple’s <code v-pre>AIVU</code> packaging flow — for example, when you import a folder of &quot;high-bit-rate <code v-pre>MV-HEVC</code> video files&quot; to package as <code v-pre>AIVU</code>.  ￼</p>
+<p><strong>HLS (.m3u8) — HTTP Live Streaming</strong>
+The streaming delivery mechanism used in these workflows. <a href="https://apps.apple.com/app/apple-immersive-video-utility/id6477489398" class="outbound" target="_blank"><span>Apple Immersive Video Utility</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> can ingest an HTTPS HLS <code v-pre>.m3u8</code> playlist that points at an <code v-pre>AIVU</code> with complete video/audio/metadata.  ￼</p>
+<p><strong>APMP (Apple Projected Media Profile)</strong>
+A projected-media profile that supports immersive formats like 180, 360, and Wide-FOV video. It differentiates formats via &quot;projection kind&quot; (rectilinear vs half-equirectangular vs equirectangular vs parametric).  ￼</p>
+<p><strong>Parametric projection / ProjectionKind</strong>
+A projection mode associated with Apple Immersive Video that relies on lens calibration metadata (part of what <code v-pre>AIME</code> provides) to map pixels correctly at playback time.  ￼</p>
+<p><strong>Presentation track</strong>
+An optional track/file included in an <code v-pre>AIVU</code> package (alongside <code v-pre>MV-HEVC</code>, <code v-pre>AIME</code>, and audio) to carry additional presentation data.  ￼</p>
+<p><strong>ASAF (Apple Spatial Audio Format)</strong>
+Apple’s production format for immersive audio in these workflows.  ￼</p>
+<p><strong>APAC (Apple Positional Audio Codec)</strong>
+The codec Apple calls out for encoding positional/immersive audio for delivery.  ￼</p>
+<p><strong>ILPD + motion comfort data (AIV-specific metadata)</strong></p>
+<p>Examples of <code v-pre>AIV</code>-specific metadata Apple highlights for creating/playing back compelling AIV experiences.  ￼</p>
+<p><strong>Static foveation</strong>
+An Apple Immersive Video feature discussed as part of the format/tooling story—described as a unique capability for final encodes in Apple’s immersive media sessions.  ￼</p>
+<p><strong>Edge blend curve</strong>
+Per-shot metadata that can feather/transition edges at playback time (described as dynamic rather than a baked mask).  ￼</p>
+<hr>
+<doc-anchor-target id="davinci-resolve-quick-start">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#davinci-resolve-quick-start">#</doc-anchor-trigger>
+        <span>DaVinci Resolve Quick Start</span>
+    </h2>
+</doc-anchor-target>
+<p>This is just some notes to quickly get up and running in DaVinci Resolve.</p>
+<p>For a much more detailed tutorial watch the <a href="https://www.youtube.com/watch?v=0dm_zYf09rQ" class="outbound" target="_blank"><span>Beginner’s Guide</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> video below.</p>
+<p>In <strong>Preferences</strong>, in the <strong>Video and Audio I/O</strong> panel make sure you tick <strong>Enable Ambisonics</strong> and <strong>Enable Apple Spatial Audio Format</strong>.</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-audio.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>In <strong>Project Settings</strong> in the <strong>Master Settings</strong>, tick <strong>Enable Apple Immersive workflow</strong> and change the <strong>Timeline resolution</strong> to <strong>8160x7200 Immersive</strong>.</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-master-settings.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>In the <strong>Color Management</strong> panel set to:</p>
+<ul>
+<li><strong>Color science:</strong> DaVinci YRGB</li>
+<li><strong>Use seperate color space and gamma:</strong> Ticked</li>
+<li><strong>Timeline color space:</strong> DaVinci WG / DaVinci Intermediate</li>
+<li><strong>Output color space:</strong> P3-D65 / Rec.2100 ST2084</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-color-settings.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you&#x27;re working with Blackmagic RAW, you can reduce the BRAW decode quality if needed for performance for editing (then put back to full resolution for export).</p>
+<p>Import some <strong>Blackmagic URSA Cine Immersive</strong> clips into your timeline.</p>
+<p>In the viewer dropdown, you can select <strong>Immersive</strong>.</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-view.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Once you&#x27;ve done that you can change the view:</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-view-mode.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>In <strong>Viewport</strong> mode, you can drag around the viewer to &quot;look around&quot;.</p>
+<p>When editing, only use the <strong>Cross Dissolve</strong> and <strong>Dip to Color Dissolve</strong> (setting it to black) transitions to avoid making your viewer vomit. Click the <strong>Render Bypass</strong> checkbox, so that the transition isn&#x27;t &quot;baked in&quot; when exporting - and will be included as metadata instead.</p>
+<p>When exporting, at the end of the export presets is the Vision Pro options.</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-export.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><strong>Vision Pro Review</strong> is useful for quick exports for testing.</p>
+<p><strong>Vision Pro Bundle</strong> exports a ProRes master.</p>
+<p>In <strong>Advanced Settings</strong> there&#x27;s an option for <strong>visionOS Bypass</strong>. Set it to <strong>Always</strong> will make it always use the metadata (as opposed to &quot;baking in&quot; transitions and effects).</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-export-advanced.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When you export, DaVinci Resolve gives you:</p>
+<ul>
+<li>An <code v-pre>AIME</code> file.</li>
+<li>A <code v-pre>FCPXML</code> file with special metadata inside.</li>
+</ul>
+<hr>
+<doc-anchor-target id="example-fcpxml-metadata">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-fcpxml-metadata">#</doc-anchor-trigger>
+        <span>Example FCPXML Metadata</span>
+    </h2>
+</doc-anchor-target>
+<p>When you export an Immersive file from DaVinci Resolve, it gives you a <code v-pre>FCPXML</code>. This <code v-pre>FCPXML</code> has some special/unique metadata that you wouldn&#x27;t see coming out of Final Cut Pro.</p>
+<p>For example, I have a simple timeline with three clips and some transitions between them:</p>
+<p><figure class="content-center">
+    <img src="../../static/resolve-immersive-export-timeline.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><code v-pre>Info.fcpxml</code>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+&lt;fcpxml version=&quot;1.11&quot;&gt;
+    &lt;resources&gt;
+        &lt;format frameDuration=&quot;1/90s&quot; width=&quot;8160&quot; name=&quot;FFVideoFormatRateUndefined&quot; id=&quot;r0&quot; height=&quot;7200&quot;/&gt;
+        &lt;effect name=&quot;Fade To Color&quot; id=&quot;r2&quot; uid=&quot;FxPlug:F779C565-486D-4633-8035-0374B4DB8F5C&quot;/&gt;
+        &lt;effect name=&quot;Cross Dissolve&quot; id=&quot;r4&quot; uid=&quot;FxPlug:4731E73A-8DAC-4113-9A30-AE85B1761265&quot;/&gt;
+        &lt;asset format=&quot;r0&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091448_C046.braw&quot; id=&quot;r1&quot; duration=&quot;1289/90s&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Outside%20Stables/A002_02091448_C046.braw&quot;/&gt;
+        &lt;/asset&gt;
+        &lt;asset format=&quot;r0&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091554_C053.braw&quot; id=&quot;r3&quot; duration=&quot;779/45s&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Inside%20Stables/A002_02091554_C053.braw&quot;/&gt;
+        &lt;/asset&gt;
+        &lt;asset format=&quot;r0&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091625_C065.braw&quot; id=&quot;r5&quot; duration=&quot;1429/90s&quot;&gt;
+            &lt;media-rep kind=&quot;original-media&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Cowboy%20at%20Sunset/A002_02091625_C065.braw&quot;/&gt;
+        &lt;/asset&gt;
+    &lt;/resources&gt;
+    &lt;library&gt;
+        &lt;event name=&quot;Timeline 1 (Resolve)&quot;&gt;
+            &lt;project name=&quot;Timeline 1 (Resolve)&quot;&gt;
+                &lt;sequence format=&quot;r0&quot; tcStart=&quot;0/1s&quot; tcFormat=&quot;NDF&quot; duration=&quot;3139/90s&quot;&gt;
+                    &lt;spine&gt;
+                        &lt;clip offset=&quot;0/1s&quot; format=&quot;r0&quot; start=&quot;0/1s&quot; name=&quot;A002_02091448_C046.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;11/1s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;/&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r1&quot; start=&quot;0/1s&quot; duration=&quot;1289/90s&quot;/&gt;
+                        &lt;/clip&gt;
+                        &lt;transition offset=&quot;19/2s&quot; name=&quot;Dip To Color Dissolve&quot; duration=&quot;3/1s&quot;&gt;
+                            &lt;filter-video ref=&quot;r2&quot; name=&quot;Transition&quot;&gt;
+                                &lt;param value=&quot;0 0 1 1&quot; name=&quot;color&quot; key=&quot;3&quot;/&gt;
+                            &lt;/filter-video&gt;
+                        &lt;/transition&gt;
+                        &lt;clip offset=&quot;11/1s&quot; format=&quot;r0&quot; start=&quot;206/45s&quot; name=&quot;A002_02091554_C053.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;464/45s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;/&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r3&quot; start=&quot;0/1s&quot; duration=&quot;779/45s&quot;/&gt;
+                        &lt;/clip&gt;
+                        &lt;transition offset=&quot;1783/90s&quot; name=&quot;Cross Dissolve&quot; duration=&quot;3/1s&quot;&gt;
+                            &lt;filter-video ref=&quot;r4&quot; name=&quot;Transition&quot;&gt;
+                                &lt;param value=&quot;-1&quot; name=&quot;ease&quot; key=&quot;50&quot;/&gt;
+                            &lt;/filter-video&gt;
+                        &lt;/transition&gt;
+                        &lt;clip offset=&quot;959/45s&quot; format=&quot;r0&quot; start=&quot;104/45s&quot; name=&quot;A002_02091625_C065.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;407/30s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;/&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r5&quot; start=&quot;0/1s&quot; duration=&quot;1429/90s&quot;/&gt;
+                        &lt;/clip&gt;
+                    &lt;/spine&gt;
+                &lt;/sequence&gt;
+            &lt;/project&gt;
+        &lt;/event&gt;
+    &lt;/library&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<p><code v-pre>c1343890-bc6d-4ec3-b806-5263d67febd1.97ade50d-72d8-4fb4-909d-85a9d95bf547.ilpd</code>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">{
+    &quot;ambientCalTemp&quot;: 20,
+    &quot;cameraID&quot;: &quot;c1343890-bc6d-4ec3-b806-5263d67febd1&quot;,
+    &quot;captureDevice&quot;: {
+        &quot;calStationName&quot;: &quot;ProIM_Cal_System_0001&quot;,
+        &quot;views&quot;: [
+            {
+                &quot;extrinsics&quot;: [
+                    {
+                        &quot;model&quot;: &quot;dualRectification&quot;,
+                        &quot;quat&quot;: [
+                            -0.0024538450796112695,
+                            -0.012449969828113671,
+                            0.0006633760096594467,
+                            0.9999192651548794
+                        ],
+                        &quot;translation&quot;: [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ],
+                &quot;imageSize&quot;: [
+                    8160,
+                    7200
+                ],
+                &quot;intrinsics&quot;: {
+                    &quot;calibrationLimitRadialAngle&quot;: 106.16143798828125,
+                    &quot;centerX&quot;: 4054.931364282999,
+                    &quot;centerY&quot;: 3667.917443659607,
+                    &quot;distortions&quot;: [
+                        -0.1007642340781791,
+                        1.1033018298727706,
+                        2.273970282696699,
+                        -0.006847250033154957,
+                        0.0053315597381829736
+                    ],
+                    &quot;fx&quot;: 8390.914638921937,
+                    &quot;fy&quot;: 8369.732466964053,
+                    &quot;model&quot;: &quot;radial2ProjectionOffsetTangential2&quot;,
+                    &quot;skew&quot;: -9.625132293636453
+                },
+                &quot;lensOcclusionData&quot;: {},
+                &quot;maskData&quot;: {
+                    &quot;FOVHeight&quot;: 90,
+                    &quot;FOVWidth&quot;: 60,
+                    &quot;controlPointInterpolation&quot;: &quot;cubicHermite&quot;,
+                    &quot;defaultCalibration&quot;: &quot;default&quot;,
+                    &quot;edgeTreatment&quot;: &quot;linear&quot;,
+                    &quot;edgeWidth&quot;: 2.5,
+                    &quot;isForVisionOS&quot;: true,
+                    &quot;leftMapToRight&quot;: &quot;standAlone&quot;,
+                    &quot;maskColor&quot;: [
+                        1,
+                        1,
+                        1
+                    ],
+                    &quot;maskViewParameters&quot;: {
+                        &quot;controlPoints&quot;: [
+                            [
+                                -0.9848077,
+                                -1.17437144e-08,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9800656,
+                                -0.09652785,
+                                -0.17364822
+                            ],
+                            [
+                                -0.96588504,
+                                -0.1921261,
+                                -0.17364822
+                            ],
+                            [
+                                -0.94240224,
+                                -0.2858745,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9098438,
+                                -0.37686932,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8685229,
+                                -0.46423513,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8188378,
+                                -0.5471297,
+                                -0.17364822
+                            ],
+                            [
+                                -0.76126695,
+                                -0.6247551,
+                                -0.17364822
+                            ],
+                            [
+                                -0.69636434,
+                                -0.6963641,
+                                -0.17364822
+                            ],
+                            [
+                                -0.6247557,
+                                -0.76126647,
+                                -0.17364822
+                            ],
+                            [
+                                -0.5471299,
+                                -0.8188377,
+                                -0.17364822
+                            ],
+                            [
+                                -0.4642354,
+                                -0.8685227,
+                                -0.17364822
+                            ],
+                            [
+                                -0.37687004,
+                                -0.90984356,
+                                -0.17364822
+                            ],
+                            [
+                                -0.28587475,
+                                -0.9424022,
+                                -0.17364822
+                            ],
+                            [
+                                -0.19212683,
+                                -0.96588486,
+                                -0.17364822
+                            ],
+                            [
+                                -0.09652814,
+                                -0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                0,
+                                -0.9848077,
+                                -0.17364822
+                            ],
+                            [
+                                0.09652803,
+                                -0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                0.19212644,
+                                -0.965885,
+                                -0.17364822
+                            ],
+                            [
+                                0.2858746,
+                                -0.94240224,
+                                -0.17364822
+                            ],
+                            [
+                                0.3768696,
+                                -0.90984374,
+                                -0.17364822
+                            ],
+                            [
+                                0.46423513,
+                                -0.8685229,
+                                -0.17364822
+                            ],
+                            [
+                                0.54712987,
+                                -0.8188377,
+                                -0.17364822
+                            ],
+                            [
+                                0.6247554,
+                                -0.7612667,
+                                -0.17364822
+                            ],
+                            [
+                                0.6963642,
+                                -0.6963643,
+                                -0.17364822
+                            ],
+                            [
+                                0.76126665,
+                                -0.62475544,
+                                -0.17364822
+                            ],
+                            [
+                                0.8188377,
+                                -0.5471299,
+                                -0.17364822
+                            ],
+                            [
+                                0.8685228,
+                                -0.4642352,
+                                -0.17364822
+                            ],
+                            [
+                                0.9098437,
+                                -0.3768696,
+                                -0.17364822
+                            ],
+                            [
+                                0.9424022,
+                                -0.28587466,
+                                -0.17364822
+                            ],
+                            [
+                                0.9658849,
+                                -0.19212648,
+                                -0.17364822
+                            ],
+                            [
+                                0.9800656,
+                                -0.09652815,
+                                -0.17364822
+                            ],
+                            [
+                                0.9848077,
+                                -7.4350915e-08,
+                                -0.17364822
+                            ],
+                            [
+                                0.9800656,
+                                0.096528,
+                                -0.17364822
+                            ],
+                            [
+                                0.965885,
+                                0.19212635,
+                                -0.17364822
+                            ],
+                            [
+                                0.94240224,
+                                0.28587452,
+                                -0.17364822
+                            ],
+                            [
+                                0.90984374,
+                                0.37686944,
+                                -0.17364822
+                            ],
+                            [
+                                0.8685229,
+                                0.46423504,
+                                -0.17364822
+                            ],
+                            [
+                                0.81883776,
+                                0.5471298,
+                                -0.17364822
+                            ],
+                            [
+                                0.7612667,
+                                0.6247554,
+                                -0.17364822
+                            ],
+                            [
+                                0.6963642,
+                                0.6963642,
+                                -0.17364822
+                            ],
+                            [
+                                0.62475556,
+                                0.7612665,
+                                -0.17364822
+                            ],
+                            [
+                                0.54713,
+                                0.81883764,
+                                -0.17364822
+                            ],
+                            [
+                                0.46423525,
+                                0.8685228,
+                                -0.17364822
+                            ],
+                            [
+                                0.37686965,
+                                0.9098437,
+                                -0.17364822
+                            ],
+                            [
+                                0.28587463,
+                                0.94240224,
+                                -0.17364822
+                            ],
+                            [
+                                0.19212668,
+                                0.9658849,
+                                -0.17364822
+                            ],
+                            [
+                                0.096528225,
+                                0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                1.4870183e-07,
+                                0.9848077,
+                                -0.17364822
+                            ],
+                            [
+                                -0.09652793,
+                                0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                -0.19212638,
+                                0.965885,
+                                -0.17364822
+                            ],
+                            [
+                                -0.28587434,
+                                0.9424023,
+                                -0.17364822
+                            ],
+                            [
+                                -0.37686938,
+                                0.9098438,
+                                -0.17364822
+                            ],
+                            [
+                                -0.46423498,
+                                0.86852294,
+                                -0.17364822
+                            ],
+                            [
+                                -0.54712975,
+                                0.8188378,
+                                -0.17364822
+                            ],
+                            [
+                                -0.6247553,
+                                0.76126677,
+                                -0.17364822
+                            ],
+                            [
+                                -0.69636405,
+                                0.69636446,
+                                -0.17364822
+                            ],
+                            [
+                                -0.76126665,
+                                0.62475544,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8188376,
+                                0.54713005,
+                                -0.17364822
+                            ],
+                            [
+                                -0.86852264,
+                                0.4642355,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9098437,
+                                0.37686974,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9424021,
+                                0.28587493,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9658849,
+                                0.19212651,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9800656,
+                                0.09652829,
+                                -0.17364822
+                            ]
+                        ],
+                        &quot;controlPointsOffsets&quot;: {},
+                        &quot;viewDescription&quot;: &quot;left&quot;
+                    },
+                    &quot;name&quot;: &quot;174_fov_circular_32_points&quot;
+                },
+                &quot;opticalData&quot;: {
+                    &quot;Fov&quot;: {
+                        &quot;horizontal&quot;: 111.94164276123047,
+                        &quot;vertical&quot;: 111.94164276123047
+                    },
+                    &quot;aperture&quot;: 4.0
+                },
+                &quot;processingParameters&quot;: {},
+                &quot;viewDescription&quot;: &quot;left&quot;
+            },
+            {
+                &quot;extrinsics&quot;: [
+                    {
+                        &quot;model&quot;: &quot;dualRectification&quot;,
+                        &quot;quat&quot;: [
+                            0.011495262908055413,
+                            -0.0036861100066260255,
+                            0.0022968330062464537,
+                            0.999924495190429
+                        ],
+                        &quot;translation&quot;: [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ],
+                &quot;imageSize&quot;: [
+                    8160,
+                    7200
+                ],
+                &quot;intrinsics&quot;: {
+                    &quot;calibrationLimitRadialAngle&quot;: 106.16143798828125,
+                    &quot;centerX&quot;: 4144.831151853823,
+                    &quot;centerY&quot;: 3529.946854189372,
+                    &quot;distortions&quot;: [
+                        -0.161614675579366,
+                        -0.0889378245145587,
+                        1.7174711134240308,
+                        0.008276787783480014,
+                        -0.006811162569588471
+                    ],
+                    &quot;fx&quot;: 6926.3403018357285,
+                    &quot;fy&quot;: 6882.719283486575,
+                    &quot;model&quot;: &quot;radial2ProjectionOffsetTangential2&quot;,
+                    &quot;skew&quot;: -39.31045092365779
+                },
+                &quot;lensOcclusionData&quot;: {},
+                &quot;maskData&quot;: {
+                    &quot;FOVHeight&quot;: 90,
+                    &quot;FOVWidth&quot;: 60,
+                    &quot;controlPointInterpolation&quot;: &quot;cubicHermite&quot;,
+                    &quot;defaultCalibration&quot;: &quot;default&quot;,
+                    &quot;edgeTreatment&quot;: &quot;linear&quot;,
+                    &quot;edgeWidth&quot;: 2.5,
+                    &quot;isForVisionOS&quot;: true,
+                    &quot;leftMapToRight&quot;: &quot;standAlone&quot;,
+                    &quot;maskColor&quot;: [
+                        1,
+                        1,
+                        1
+                    ],
+                    &quot;maskViewParameters&quot;: {
+                        &quot;controlPoints&quot;: [
+                            [
+                                -0.9848077,
+                                -1.17437144e-08,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9800656,
+                                -0.09652785,
+                                -0.17364822
+                            ],
+                            [
+                                -0.96588504,
+                                -0.1921261,
+                                -0.17364822
+                            ],
+                            [
+                                -0.94240224,
+                                -0.2858745,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9098438,
+                                -0.37686932,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8685229,
+                                -0.46423513,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8188378,
+                                -0.5471297,
+                                -0.17364822
+                            ],
+                            [
+                                -0.76126695,
+                                -0.6247551,
+                                -0.17364822
+                            ],
+                            [
+                                -0.69636434,
+                                -0.6963641,
+                                -0.17364822
+                            ],
+                            [
+                                -0.6247557,
+                                -0.76126647,
+                                -0.17364822
+                            ],
+                            [
+                                -0.5471299,
+                                -0.8188377,
+                                -0.17364822
+                            ],
+                            [
+                                -0.4642354,
+                                -0.8685227,
+                                -0.17364822
+                            ],
+                            [
+                                -0.37687004,
+                                -0.90984356,
+                                -0.17364822
+                            ],
+                            [
+                                -0.28587475,
+                                -0.9424022,
+                                -0.17364822
+                            ],
+                            [
+                                -0.19212683,
+                                -0.96588486,
+                                -0.17364822
+                            ],
+                            [
+                                -0.09652814,
+                                -0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                0,
+                                -0.9848077,
+                                -0.17364822
+                            ],
+                            [
+                                0.09652803,
+                                -0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                0.19212644,
+                                -0.965885,
+                                -0.17364822
+                            ],
+                            [
+                                0.2858746,
+                                -0.94240224,
+                                -0.17364822
+                            ],
+                            [
+                                0.3768696,
+                                -0.90984374,
+                                -0.17364822
+                            ],
+                            [
+                                0.46423513,
+                                -0.8685229,
+                                -0.17364822
+                            ],
+                            [
+                                0.54712987,
+                                -0.8188377,
+                                -0.17364822
+                            ],
+                            [
+                                0.6247554,
+                                -0.7612667,
+                                -0.17364822
+                            ],
+                            [
+                                0.6963642,
+                                -0.6963643,
+                                -0.17364822
+                            ],
+                            [
+                                0.76126665,
+                                -0.62475544,
+                                -0.17364822
+                            ],
+                            [
+                                0.8188377,
+                                -0.5471299,
+                                -0.17364822
+                            ],
+                            [
+                                0.8685228,
+                                -0.4642352,
+                                -0.17364822
+                            ],
+                            [
+                                0.9098437,
+                                -0.3768696,
+                                -0.17364822
+                            ],
+                            [
+                                0.9424022,
+                                -0.28587466,
+                                -0.17364822
+                            ],
+                            [
+                                0.9658849,
+                                -0.19212648,
+                                -0.17364822
+                            ],
+                            [
+                                0.9800656,
+                                -0.09652815,
+                                -0.17364822
+                            ],
+                            [
+                                0.9848077,
+                                -7.4350915e-08,
+                                -0.17364822
+                            ],
+                            [
+                                0.9800656,
+                                0.096528,
+                                -0.17364822
+                            ],
+                            [
+                                0.965885,
+                                0.19212635,
+                                -0.17364822
+                            ],
+                            [
+                                0.94240224,
+                                0.28587452,
+                                -0.17364822
+                            ],
+                            [
+                                0.90984374,
+                                0.37686944,
+                                -0.17364822
+                            ],
+                            [
+                                0.8685229,
+                                0.46423504,
+                                -0.17364822
+                            ],
+                            [
+                                0.81883776,
+                                0.5471298,
+                                -0.17364822
+                            ],
+                            [
+                                0.7612667,
+                                0.6247554,
+                                -0.17364822
+                            ],
+                            [
+                                0.6963642,
+                                0.6963642,
+                                -0.17364822
+                            ],
+                            [
+                                0.62475556,
+                                0.7612665,
+                                -0.17364822
+                            ],
+                            [
+                                0.54713,
+                                0.81883764,
+                                -0.17364822
+                            ],
+                            [
+                                0.46423525,
+                                0.8685228,
+                                -0.17364822
+                            ],
+                            [
+                                0.37686965,
+                                0.9098437,
+                                -0.17364822
+                            ],
+                            [
+                                0.28587463,
+                                0.94240224,
+                                -0.17364822
+                            ],
+                            [
+                                0.19212668,
+                                0.9658849,
+                                -0.17364822
+                            ],
+                            [
+                                0.096528225,
+                                0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                1.4870183e-07,
+                                0.9848077,
+                                -0.17364822
+                            ],
+                            [
+                                -0.09652793,
+                                0.9800656,
+                                -0.17364822
+                            ],
+                            [
+                                -0.19212638,
+                                0.965885,
+                                -0.17364822
+                            ],
+                            [
+                                -0.28587434,
+                                0.9424023,
+                                -0.17364822
+                            ],
+                            [
+                                -0.37686938,
+                                0.9098438,
+                                -0.17364822
+                            ],
+                            [
+                                -0.46423498,
+                                0.86852294,
+                                -0.17364822
+                            ],
+                            [
+                                -0.54712975,
+                                0.8188378,
+                                -0.17364822
+                            ],
+                            [
+                                -0.6247553,
+                                0.76126677,
+                                -0.17364822
+                            ],
+                            [
+                                -0.69636405,
+                                0.69636446,
+                                -0.17364822
+                            ],
+                            [
+                                -0.76126665,
+                                0.62475544,
+                                -0.17364822
+                            ],
+                            [
+                                -0.8188376,
+                                0.54713005,
+                                -0.17364822
+                            ],
+                            [
+                                -0.86852264,
+                                0.4642355,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9098437,
+                                0.37686974,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9424021,
+                                0.28587493,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9658849,
+                                0.19212651,
+                                -0.17364822
+                            ],
+                            [
+                                -0.9800656,
+                                0.09652829,
+                                -0.17364822
+                            ]
+                        ],
+                        &quot;controlPointsOffsets&quot;: {},
+                        &quot;viewDescription&quot;: &quot;right&quot;
+                    },
+                    &quot;name&quot;: &quot;174_fov_circular_32_points&quot;
+                },
+                &quot;opticalData&quot;: {
+                    &quot;Fov&quot;: {
+                        &quot;horizontal&quot;: 111.94164276123047,
+                        &quot;vertical&quot;: 111.94164276123047
+                    },
+                    &quot;aperture&quot;: 4.0
+                },
+                &quot;processingParameters&quot;: {},
+                &quot;viewDescription&quot;: &quot;right&quot;
+            }
+        ]
+    },
+    &quot;formatVersion&quot;: [
+        0,
+        1,
+        0
+    ],
+    &quot;generator&quot;: &quot;Apple Immersive Camera Calibration Service&quot;,
+    &quot;generatorVersion&quot;: [
+        1,
+        18,
+        0
+    ],
+    &quot;uuid&quot;: &quot;97ade50d-72d8-4fb4-909d-85a9d95bf547&quot;
+}</code></pre>
+</doc-codeblock></div>
+<p><code v-pre>proim.fcpxml</code>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fcpxml&gt;
+&lt;fcpxml version=&quot;1.13&quot;&gt;
+    &lt;resources&gt;
+        &lt;format frameDuration=&quot;1/90s&quot; width=&quot;8160&quot; name=&quot;FFVideoFormatRateUndefined&quot; id=&quot;r0&quot; height=&quot;7200&quot;/&gt;
+        &lt;effect name=&quot;Fade To Color&quot; id=&quot;r2&quot; uid=&quot;FxPlug:F779C565-486D-4633-8035-0374B4DB8F5C&quot;/&gt;
+        &lt;effect name=&quot;Cross Dissolve&quot; id=&quot;r4&quot; uid=&quot;FxPlug:4731E73A-8DAC-4113-9A30-AE85B1761265&quot;/&gt;
+        &lt;asset format=&quot;r0&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Outside%20Stables/A002_02091448_C046.braw&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091448_C046.braw&quot; id=&quot;r1&quot; duration=&quot;1289/90s&quot;/&gt;
+        &lt;asset format=&quot;r0&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Inside%20Stables/A002_02091554_C053.braw&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091554_C053.braw&quot; id=&quot;r3&quot; duration=&quot;779/45s&quot;/&gt;
+        &lt;asset format=&quot;r0&quot; src=&quot;file:///Users/chrishocking/Desktop/BRAW%20Clips/-%20Immersive/Cowboy%20at%20Sunset/A002_02091625_C065.braw&quot; start=&quot;0/1s&quot; hasVideo=&quot;1&quot; name=&quot;A002_02091625_C065.braw&quot; id=&quot;r5&quot; duration=&quot;1429/90s&quot;/&gt;
+    &lt;/resources&gt;
+    &lt;library&gt;
+        &lt;event name=&quot;Timeline 1 (Resolve)&quot;&gt;
+            &lt;project name=&quot;Timeline 1 (Resolve)&quot;&gt;
+                &lt;sequence format=&quot;r0&quot; tcStart=&quot;0/1s&quot; tcFormat=&quot;NDF&quot; duration=&quot;3139/90s&quot;&gt;
+                    &lt;spine&gt;
+                        &lt;clip offset=&quot;0/1s&quot; format=&quot;r0&quot; start=&quot;0/1s&quot; name=&quot;A002_02091448_C046.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;11/1s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;&gt;
+                                &lt;proim-camera cameraId=&quot;fce01524-11a7-4aec-8235-6a699db380f9&quot; cameraSer=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1&quot;/&gt;
+                                &lt;proim-optical calibrationType=&quot;dynamicCalData&quot; calibrationUUID=&quot;97ade50d-72d8-4fb4-909d-85a9d95bf547&quot; calibrationFileName=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1.97ade50d-72d8-4fb4-909d-85a9d95bf547.ilpd&quot; projectionKind=&quot;fish&quot;/&gt;
+                                &lt;proim-world worldRotationX=&quot;0&quot; worldFlipX=&quot;0&quot; worldRotationY=&quot;0&quot; worldFlipY=&quot;0&quot; worldRotationZ=&quot;0&quot;/&gt;
+                                &lt;proim-mask&gt;
+                                    &lt;maskData controlPointInterpolation=&quot;cubicHermite&quot; maskType=&quot;dynamicMaskData&quot; maskStartFoV=&quot;0&quot; maskEdgeWidth=&quot;0.9&quot; fovWidth=&quot;60&quot; fovHeight=&quot;90&quot; maskName=&quot;174_fov_circular_32_points&quot; leftMapToRight=&quot;standAlone&quot; edgeTreatment=&quot;linear&quot; maskBypass=&quot;0&quot; maskStartOffset=&quot;0&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.984625, -0.015847, 0.173959, -0.979706, -0.101871, 0.172623, -0.968211, -0.18755, 0.165509, -0.949834, -0.272721, 0.1531, -0.924101, -0.357073, 0.136147, -0.890481, -0.440103, 0.115558, -0.848481, -0.521115, 0.0923026, -0.797732, -0.599239, 0.0673535, -0.738048, -0.673462, 0.0416542, -0.669466, -0.742668, 0.0161068, -0.592278, -0.805689, -0.00843865, -0.507043, -0.861356, -0.0311914, -0.414589, -0.908554, -0.0514331, -0.316, -0.946281, -0.0685353, -0.212592, -0.973696, -0.081975, -0.105862, -0.990176, -0.0913546, 0.00256147, -0.995338, -0.0964155, 0.110985, -0.989072, -0.0970496, 0.21772, -0.971542, -0.0933005, 0.32115, -0.943173, -0.0853645, 0.419794, -0.904632, -0.0735771, 0.512357, -0.856784, -0.058403, 0.597773, -0.800646, -0.0404181, 0.675225, -0.737333, -0.0202922, 0.744156, -0.668005, 0.00122819, 0.804266, -0.593811, 0.0233282, 0.855494, -0.515841, 0.0451414, 0.897987, -0.435082, 0.0657534, 0.93206, -0.352379, 0.084223, 0.958141, -0.268411, 0.0996098, 0.976697, -0.183671, 0.111034, 0.988147, -0.0984744, 0.117762, 0.992772, -0.0129927, 0.119309, 0.990643, 0.0726806, 0.115519, 0.981597, 0.158445, 0.106596, 0.965272, 0.244111, 0.0930571, 0.941179, 0.329335, 0.07564, 0.908788, 0.41359, 0.0552108, 0.867615, 0.496161, 0.0326866, 0.817292, 0.576154, 0.00898931, 0.75762, 0.652524, -0.0149762, 0.688618, 0.724111, -0.0383355, 0.610554, 0.789679, -0.0602544, 0.523975, 0.847973, -0.0799477, 0.42971, 0.897774, -0.0967001, 0.328872, 0.93796, -0.109884, 0.222831, 0.967569, -0.118982, 0.113169, 0.985857, -0.123611, 0.00163088, 0.992338, -0.12354, -0.109953, 0.986823, -0.118703, -0.219742, 0.969427, -0.1092, -0.325966, 0.940566, -0.0953025, -0.427001, 0.90093, -0.0774294, -0.521429, 0.851446, -0.0561355, -0.608089, 0.79322, -0.0320872, -0.686106, 0.727476, -0.00603663, -0.754903, 0.655494, 0.0211988, -0.814192, 0.578546, 0.0487548, -0.863957, 0.497839, 0.0757315, -0.904418, 0.41447, 0.101202, -0.935989, 0.329383, 0.124221, -0.959216, 0.243341, 0.143841, -0.974705, 0.156905, 0.15916, -0.983029, 0.0704438, 0.169389&quot; viewDescription=&quot;left&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.987587, 0.0105871, 0.156714, -0.984746, -0.074616, 0.15719, -0.97529, -0.159807, 0.152551, -0.958956, -0.244824, 0.143057, -0.93532, -0.329374, 0.129185, -0.903871, -0.412997, 0.111585, -0.864091, -0.495036, 0.0910298, -0.815539, -0.574649, 0.0683689, -0.757925, -0.650823, 0.0444871, -0.691161, -0.722417, 0.0202798, -0.615407, -0.788202, -0.00337443, -0.531102, -0.84692, -0.0256343, -0.438972, -0.897337, -0.0457151, -0.34003, -0.938308, -0.0629122, -0.235554, -0.968836, -0.0766216, -0.127051, -0.988129, -0.0863611, -0.0162067, -0.995647, -0.0917895, 0.0951838, -0.991132, -0.0927203, 0.205289, -0.974634, -0.0891316, 0.312319, -0.946503, -0.0811699, 0.414599, -0.907374, -0.0691421, 0.51064, -0.858128, -0.0535101, 0.59919, -0.799847, -0.0348707, 0.679272, -0.733754, -0.0139414, 0.75021, -0.661146, 0.0084644, 0.811624, -0.583333, 0.031456, 0.863422, -0.501574, 0.0540918, 0.905764, -0.417021, 0.0754024, 0.939011, -0.33067, 0.0944268, 0.963658, -0.243326, 0.110252, 0.980251, -0.15559, 0.122065, 0.989292, -0.0678652, 0.129215, 0.991152, 0.0196073, 0.131276, 0.986008, 0.10668, 0.128094, 0.973814, 0.193219, 0.119805, 0.954325, 0.279022, 0.106817, 0.927159, 0.363755, 0.089766, 0.891879, 0.446909, 0.0694548, 0.848084, 0.527792, 0.0467848, 0.795486, 0.605547, 0.0227044, 0.733974, 0.679175, -0.0018309, 0.663659, 0.747587, -0.0258943, 0.584898, 0.809649, -0.0486093, 0.498312, 0.864234, -0.0691692, 0.404778, 0.910281, -0.0868573, 0.305414, 0.946842, -0.101063, 0.201548, 0.973135, -0.111297, 0.0946761, 0.988585, -0.117205, -0.0135943, 0.992851, -0.118582, -0.121603, 0.985851, -0.11537, -0.227703, 0.96776, -0.107667, -0.33032, 0.939003, -0.0957176, -0.428018, 0.900231, -0.0799025, -0.519538, 0.852286, -0.0607279, -0.603843, 0.796158, -0.0388072, -0.68014, 0.732932, -0.0148434, -0.747889, 0.663742, 0.0103882, -0.806804, 0.589718, 0.0360585, -0.856835, 0.511934, 0.061301, -0.89814, 0.431369, 0.0852333, -0.931047, 0.348867, 0.106978, -0.95599, 0.265111, 0.125693, -0.973451, 0.180609, 0.140617, -0.983873, 0.095701, 0.151111&quot; viewDescription=&quot;right&quot;/&gt;
+                                &lt;/proim-mask&gt;
+                            &lt;/adjust-transform&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r1&quot; start=&quot;0/1s&quot; duration=&quot;1289/90s&quot;/&gt;
+                        &lt;/clip&gt;
+                        &lt;transition offset=&quot;19/2s&quot; name=&quot;Dip To Color Dissolve&quot; duration=&quot;3/1s&quot;&gt;
+                            &lt;filter-video ref=&quot;r2&quot; name=&quot;Transition&quot;&gt;
+                                &lt;param value=&quot;0 0 1 1&quot; name=&quot;color&quot; key=&quot;3&quot;/&gt;
+                            &lt;/filter-video&gt;
+                            &lt;proim-effect type=&quot;Dip To Color&quot; name=&quot;transition&quot; bypass=&quot;1&quot;/&gt;
+                        &lt;/transition&gt;
+                        &lt;clip offset=&quot;11/1s&quot; format=&quot;r0&quot; start=&quot;206/45s&quot; name=&quot;A002_02091554_C053.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;464/45s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;&gt;
+                                &lt;proim-camera cameraId=&quot;efadb0cf-2b0c-4fec-b51d-419c18c34359&quot; cameraSer=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1&quot;/&gt;
+                                &lt;proim-optical calibrationType=&quot;dynamicCalData&quot; calibrationUUID=&quot;97ade50d-72d8-4fb4-909d-85a9d95bf547&quot; calibrationFileName=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1.97ade50d-72d8-4fb4-909d-85a9d95bf547.ilpd&quot; projectionKind=&quot;fish&quot;/&gt;
+                                &lt;proim-world worldRotationX=&quot;0&quot; worldFlipX=&quot;0&quot; worldRotationY=&quot;0&quot; worldFlipY=&quot;0&quot; worldRotationZ=&quot;0&quot;/&gt;
+                                &lt;proim-mask&gt;
+                                    &lt;maskData controlPointInterpolation=&quot;cubicHermite&quot; maskType=&quot;dynamicMaskData&quot; maskStartFoV=&quot;0&quot; maskEdgeWidth=&quot;16.7143&quot; fovWidth=&quot;60&quot; fovHeight=&quot;90&quot; maskName=&quot;174_fov_circular_32_points_2026-02-01T21:15:40&quot; dateTime=&quot;2026-02-01T21:15:40&quot; leftMapToRight=&quot;standAlone&quot; edgeTreatment=&quot;linear&quot; maskBypass=&quot;1&quot; maskStartOffset=&quot;0&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.984625, -0.015847, 0.173959, -0.979706, -0.101871, 0.172623, -0.968211, -0.18755, 0.165509, -0.949834, -0.272721, 0.1531, -0.924101, -0.357073, 0.136147, -0.890481, -0.440103, 0.115558, -0.848481, -0.521115, 0.0923026, -0.797732, -0.599239, 0.0673535, -0.738048, -0.673462, 0.0416542, -0.669466, -0.742668, 0.0161068, -0.592278, -0.805689, -0.00843865, -0.507043, -0.861356, -0.0311914, -0.414589, -0.908554, -0.0514331, -0.316, -0.946281, -0.0685353, -0.212592, -0.973696, -0.081975, -0.105862, -0.990176, -0.0913546, 0.00256147, -0.995338, -0.0964155, 0.110985, -0.989072, -0.0970496, 0.21772, -0.971542, -0.0933005, 0.32115, -0.943173, -0.0853645, 0.419794, -0.904632, -0.0735771, 0.512357, -0.856784, -0.058403, 0.597773, -0.800646, -0.0404181, 0.675225, -0.737333, -0.0202922, 0.744156, -0.668005, 0.00122819, 0.804266, -0.593811, 0.0233282, 0.855494, -0.515841, 0.0451414, 0.897987, -0.435082, 0.0657534, 0.93206, -0.352379, 0.084223, 0.960605, -0.260672, -0.0963759, 0.9781, -0.184574, -0.0961912, 0.98937, -0.108032, -0.0973458, 0.994517, -0.0308547, -0.0999172, 0.993701, 0.0425437, -0.103678, 0.98671, 0.120479, -0.109032, 0.973221, 0.198621, -0.115719, 0.941179, 0.329335, 0.07564, 0.908788, 0.41359, 0.0552108, 0.867615, 0.496161, 0.0326866, 0.817292, 0.576154, 0.00898931, 0.75762, 0.652524, -0.0149762, 0.688618, 0.724111, -0.0383355, 0.610554, 0.789679, -0.0602544, 0.523975, 0.847973, -0.0799477, 0.42971, 0.897774, -0.0967001, 0.328872, 0.93796, -0.109884, 0.222831, 0.967569, -0.118982, 0.113169, 0.985857, -0.123611, 0.00163088, 0.992338, -0.12354, -0.109953, 0.986823, -0.118703, -0.219742, 0.969427, -0.1092, -0.325966, 0.940566, -0.0953025, -0.427001, 0.90093, -0.0774294, -0.521429, 0.851446, -0.0561355, -0.608089, 0.79322, -0.0320872, -0.686106, 0.727476, -0.00603663, -0.754903, 0.655494, 0.0211988, -0.814192, 0.578546, 0.0487548, -0.863957, 0.497839, 0.0757315, -0.904418, 0.41447, 0.101202, -0.935989, 0.329383, 0.124221, -0.959216, 0.243341, 0.143841, -0.974705, 0.156905, 0.15916, -0.983029, 0.0704438, 0.169389&quot; viewDescription=&quot;left&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.987587, 0.0105871, 0.156714, -0.984746, -0.074616, 0.15719, -0.97529, -0.159807, 0.152551, -0.958956, -0.244824, 0.143057, -0.93532, -0.329374, 0.129185, -0.903871, -0.412997, 0.111585, -0.864091, -0.495036, 0.0910298, -0.815539, -0.574649, 0.0683689, -0.757925, -0.650823, 0.0444871, -0.691161, -0.722417, 0.0202798, -0.615407, -0.788202, -0.00337443, -0.531102, -0.84692, -0.0256343, -0.438972, -0.897337, -0.0457151, -0.34003, -0.938308, -0.0629122, -0.235554, -0.968836, -0.0766216, -0.127051, -0.988129, -0.0863611, -0.0162067, -0.995647, -0.0917895, 0.0951838, -0.991132, -0.0927203, 0.205289, -0.974634, -0.0891316, 0.312319, -0.946503, -0.0811699, 0.414599, -0.907374, -0.0691421, 0.51064, -0.858128, -0.0535101, 0.59919, -0.799847, -0.0348707, 0.679272, -0.733754, -0.0139414, 0.75021, -0.661146, 0.0084644, 0.811624, -0.583333, 0.031456, 0.863422, -0.501574, 0.0540918, 0.905764, -0.417021, 0.0754024, 0.939011, -0.33067, 0.0944268, 0.967086, -0.236603, -0.0936124, 0.983081, -0.157876, -0.0928875, 0.992478, -0.0790306, -0.0935002, 0.995426, 8.49511e-05, -0.0955367, 0.992281, 0.0749388, -0.0988062, 0.982622, 0.153976, -0.103661, 0.966313, 0.232737, -0.109872, 0.927159, 0.363755, 0.089766, 0.891879, 0.446909, 0.0694548, 0.848084, 0.527792, 0.0467848, 0.795486, 0.605547, 0.0227044, 0.733974, 0.679175, -0.0018309, 0.663659, 0.747587, -0.0258943, 0.584898, 0.809649, -0.0486093, 0.498312, 0.864234, -0.0691692, 0.404778, 0.910281, -0.0868573, 0.305414, 0.946842, -0.101063, 0.201548, 0.973135, -0.111297, 0.0946761, 0.988585, -0.117205, -0.0135943, 0.992851, -0.118582, -0.121603, 0.985851, -0.11537, -0.227703, 0.96776, -0.107667, -0.33032, 0.939003, -0.0957176, -0.428018, 0.900231, -0.0799025, -0.519538, 0.852286, -0.0607279, -0.603843, 0.796158, -0.0388072, -0.68014, 0.732932, -0.0148434, -0.747889, 0.663742, 0.0103882, -0.806804, 0.589718, 0.0360585, -0.856835, 0.511934, 0.061301, -0.89814, 0.431369, 0.0852333, -0.931047, 0.348867, 0.106978, -0.95599, 0.265111, 0.125693, -0.973451, 0.180609, 0.140617, -0.983873, 0.095701, 0.151111&quot; viewDescription=&quot;right&quot;/&gt;
+                                &lt;/proim-mask&gt;
+                            &lt;/adjust-transform&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r3&quot; start=&quot;0/1s&quot; duration=&quot;779/45s&quot;/&gt;
+                        &lt;/clip&gt;
+                        &lt;transition offset=&quot;1783/90s&quot; name=&quot;Cross Dissolve&quot; duration=&quot;3/1s&quot;&gt;
+                            &lt;filter-video ref=&quot;r4&quot; name=&quot;Transition&quot;&gt;
+                                &lt;param value=&quot;-1&quot; name=&quot;ease&quot; key=&quot;50&quot;/&gt;
+                            &lt;/filter-video&gt;
+                            &lt;proim-effect type=&quot;Cross Dissolve&quot; name=&quot;transition&quot; bypass=&quot;0&quot;/&gt;
+                        &lt;/transition&gt;
+                        &lt;clip offset=&quot;959/45s&quot; format=&quot;r0&quot; start=&quot;104/45s&quot; name=&quot;A002_02091625_C065.braw&quot; enabled=&quot;1&quot; tcFormat=&quot;NDF&quot; duration=&quot;407/30s&quot;&gt;
+                            &lt;adjust-transform position=&quot;0 0&quot; anchor=&quot;0 0&quot; scale=&quot;1 1&quot;&gt;
+                                &lt;proim-camera cameraId=&quot;f499da24-b8df-42bc-8155-f64d5ddb201e&quot; cameraSer=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1&quot;/&gt;
+                                &lt;proim-optical calibrationType=&quot;dynamicCalData&quot; calibrationUUID=&quot;97ade50d-72d8-4fb4-909d-85a9d95bf547&quot; calibrationFileName=&quot;c1343890-bc6d-4ec3-b806-5263d67febd1.97ade50d-72d8-4fb4-909d-85a9d95bf547.ilpd&quot; projectionKind=&quot;fish&quot;/&gt;
+                                &lt;proim-world worldRotationX=&quot;0&quot; worldFlipX=&quot;0&quot; worldRotationY=&quot;0&quot; worldFlipY=&quot;0&quot; worldRotationZ=&quot;0&quot;/&gt;
+                                &lt;proim-mask&gt;
+                                    &lt;maskData controlPointInterpolation=&quot;cubicHermite&quot; maskType=&quot;dynamicMaskData&quot; maskStartFoV=&quot;0&quot; maskEdgeWidth=&quot;0.9&quot; fovWidth=&quot;60&quot; fovHeight=&quot;90&quot; maskName=&quot;174_fov_circular_32_points&quot; leftMapToRight=&quot;standAlone&quot; edgeTreatment=&quot;linear&quot; maskBypass=&quot;0&quot; maskStartOffset=&quot;0&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.984625, -0.015847, 0.173959, -0.979706, -0.101871, 0.172623, -0.968211, -0.18755, 0.165509, -0.949834, -0.272721, 0.1531, -0.924101, -0.357073, 0.136147, -0.890481, -0.440103, 0.115558, -0.848481, -0.521115, 0.0923026, -0.797732, -0.599239, 0.0673535, -0.738048, -0.673462, 0.0416542, -0.669466, -0.742668, 0.0161068, -0.592278, -0.805689, -0.00843865, -0.507043, -0.861356, -0.0311914, -0.414589, -0.908554, -0.0514331, -0.316, -0.946281, -0.0685353, -0.212592, -0.973696, -0.081975, -0.105862, -0.990176, -0.0913546, 0.00256147, -0.995338, -0.0964155, 0.110985, -0.989072, -0.0970496, 0.21772, -0.971542, -0.0933005, 0.32115, -0.943173, -0.0853645, 0.419794, -0.904632, -0.0735771, 0.512357, -0.856784, -0.058403, 0.597773, -0.800646, -0.0404181, 0.675225, -0.737333, -0.0202922, 0.744156, -0.668005, 0.00122819, 0.804266, -0.593811, 0.0233282, 0.855494, -0.515841, 0.0451414, 0.897987, -0.435082, 0.0657534, 0.93206, -0.352379, 0.084223, 0.958141, -0.268411, 0.0996098, 0.976697, -0.183671, 0.111034, 0.988147, -0.0984744, 0.117762, 0.992772, -0.0129927, 0.119309, 0.990643, 0.0726806, 0.115519, 0.981597, 0.158445, 0.106596, 0.965272, 0.244111, 0.0930571, 0.941179, 0.329335, 0.07564, 0.908788, 0.41359, 0.0552108, 0.867615, 0.496161, 0.0326866, 0.817292, 0.576154, 0.00898931, 0.75762, 0.652524, -0.0149762, 0.688618, 0.724111, -0.0383355, 0.610554, 0.789679, -0.0602544, 0.523975, 0.847973, -0.0799477, 0.42971, 0.897774, -0.0967001, 0.328872, 0.93796, -0.109884, 0.222831, 0.967569, -0.118982, 0.113169, 0.985857, -0.123611, 0.00163088, 0.992338, -0.12354, -0.109953, 0.986823, -0.118703, -0.219742, 0.969427, -0.1092, -0.325966, 0.940566, -0.0953025, -0.427001, 0.90093, -0.0774294, -0.521429, 0.851446, -0.0561355, -0.608089, 0.79322, -0.0320872, -0.686106, 0.727476, -0.00603663, -0.754903, 0.655494, 0.0211988, -0.814192, 0.578546, 0.0487548, -0.863957, 0.497839, 0.0757315, -0.904418, 0.41447, 0.101202, -0.935989, 0.329383, 0.124221, -0.959216, 0.243341, 0.143841, -0.974705, 0.156905, 0.15916, -0.983029, 0.0704438, 0.169389&quot; viewDescription=&quot;left&quot;/&gt;
+                                    &lt;mask-view controlPoints=&quot; -0.987587, 0.0105871, 0.156714, -0.984746, -0.074616, 0.15719, -0.97529, -0.159807, 0.152551, -0.958956, -0.244824, 0.143057, -0.93532, -0.329374, 0.129185, -0.903871, -0.412997, 0.111585, -0.864091, -0.495036, 0.0910298, -0.815539, -0.574649, 0.0683689, -0.757925, -0.650823, 0.0444871, -0.691161, -0.722417, 0.0202798, -0.615407, -0.788202, -0.00337443, -0.531102, -0.84692, -0.0256343, -0.438972, -0.897337, -0.0457151, -0.34003, -0.938308, -0.0629122, -0.235554, -0.968836, -0.0766216, -0.127051, -0.988129, -0.0863611, -0.0162067, -0.995647, -0.0917895, 0.0951838, -0.991132, -0.0927203, 0.205289, -0.974634, -0.0891316, 0.312319, -0.946503, -0.0811699, 0.414599, -0.907374, -0.0691421, 0.51064, -0.858128, -0.0535101, 0.59919, -0.799847, -0.0348707, 0.679272, -0.733754, -0.0139414, 0.75021, -0.661146, 0.0084644, 0.811624, -0.583333, 0.031456, 0.863422, -0.501574, 0.0540918, 0.905764, -0.417021, 0.0754024, 0.939011, -0.33067, 0.0944268, 0.963658, -0.243326, 0.110252, 0.980251, -0.15559, 0.122065, 0.989292, -0.0678652, 0.129215, 0.991152, 0.0196073, 0.131276, 0.986008, 0.10668, 0.128094, 0.973814, 0.193219, 0.119805, 0.954325, 0.279022, 0.106817, 0.927159, 0.363755, 0.089766, 0.891879, 0.446909, 0.0694548, 0.848084, 0.527792, 0.0467848, 0.795486, 0.605547, 0.0227044, 0.733974, 0.679175, -0.0018309, 0.663659, 0.747587, -0.0258943, 0.584898, 0.809649, -0.0486093, 0.498312, 0.864234, -0.0691692, 0.404778, 0.910281, -0.0868573, 0.305414, 0.946842, -0.101063, 0.201548, 0.973135, -0.111297, 0.0946761, 0.988585, -0.117205, -0.0135943, 0.992851, -0.118582, -0.121603, 0.985851, -0.11537, -0.227703, 0.96776, -0.107667, -0.33032, 0.939003, -0.0957176, -0.428018, 0.900231, -0.0799025, -0.519538, 0.852286, -0.0607279, -0.603843, 0.796158, -0.0388072, -0.68014, 0.732932, -0.0148434, -0.747889, 0.663742, 0.0103882, -0.806804, 0.589718, 0.0360585, -0.856835, 0.511934, 0.061301, -0.89814, 0.431369, 0.0852333, -0.931047, 0.348867, 0.106978, -0.95599, 0.265111, 0.125693, -0.973451, 0.180609, 0.140617, -0.983873, 0.095701, 0.151111&quot; viewDescription=&quot;right&quot;/&gt;
+                                &lt;/proim-mask&gt;
+                            &lt;/adjust-transform&gt;
+                            &lt;video offset=&quot;0/1s&quot; ref=&quot;r5&quot; start=&quot;0/1s&quot; duration=&quot;1429/90s&quot;/&gt;
+                        &lt;/clip&gt;
+                    &lt;/spine&gt;
+                &lt;/sequence&gt;
+            &lt;/project&gt;
+        &lt;/event&gt;
+    &lt;/library&gt;
+&lt;/fcpxml&gt;</code></pre>
+</doc-codeblock></div>
+<hr>
+<doc-anchor-target id="beginners-guide">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#beginners-guide">#</doc-anchor-trigger>
+        <span>Beginner’s Guide</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.youtube.com/@hughhou" class="outbound" target="_blank"><span>Hugh Hou</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> has a great <strong>Beginner’s Guide to URSA Cine Immersive for Apple Vision Pro + Pro Tips</strong> video.</p>
+<p>You can watch it on YouTube:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=0dm_zYf09rQ">
+        <img src="../../static/beginners-guide-immersive.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<hr>
+<doc-anchor-target id="wwdc-2025">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wwdc-2025">#</doc-anchor-trigger>
+        <span>WWDC 2025</span>
+    </h2>
+</doc-anchor-target>
+<p>There&#x27;s a great video from WWDC 2025 called <strong>Explore video experiences for visionOS</strong>.</p>
+<p>The description is:</p>
+<blockquote>
+<p>Learn about the different ways you can create and present immersive video experiences within your app. We&#x27;ll explore the diverse media types available in visionOS 26, including profiles for 180°, 360°, and wide FOV video; options for creating and playing Apple Immersive Video; and expanded capabilities for 2D, 3D, and spatial video. Discover which profiles are best for your app and its content.</p>
+</blockquote>
+<p>You can watch it on the <a href="https://developer.apple.com/videos/play/wwdc2025/304/" class="outbound" target="_blank"><span>Apple Developer website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>There&#x27;s another one called <strong>Learn about Apple Immersive Video technologies</strong>.</p>
+<p>The description is:</p>
+<blockquote>
+<p>Explore the capabilities of Apple Immersive Video and Apple Spatial Audio Format technologies to create truly immersive experiences. Meet the new ImmersiveMediaSupport framework, which offers functionality to read and write the necessary metadata for enabling Apple Immersive Video. Learn guidelines for encoding and publishing Apple Immersive Video content in standalone files for playback or streaming via HLS.</p>
+<p>To get the most out of this session, we recommend first watching “Explore video experiences for visionOS.”</p>
+</blockquote>
+<p>You can watch it on the <a href="https://developer.apple.com/videos/play/wwdc2025/403/" class="outbound" target="_blank"><span>Apple Developer website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<doc-anchor-target id="immersive-media-support">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#immersive-media-support">#</doc-anchor-trigger>
+        <span>Immersive Media Support</span>
+    </h2>
+</doc-anchor-target>
+<p>Apple has a Developer Framework called <strong>Immersive Media Support</strong>, which enables you to create custom workflows for processing Apple Immersive Video (<code v-pre>AIV</code>).</p>
+<p>You can use it to read and write <code v-pre>AIV</code>-specific metadata and enable previewing content in editorial workflows.</p>
+<p>You can find more information on the <a href="https://developer.apple.com/documentation/ImmersiveMediaSupport" class="outbound" target="_blank"><span>Apple Developer Site</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>There&#x27;s also a <a href="https://developer.apple.com/documentation/immersivemediasupport/authoring-apple-immersive-video" class="outbound" target="_blank"><span>sample Xcode project</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for Authoring Apple Immersive Video.</p>
+<hr>
+<doc-anchor-target id="apple-immersive-video-utility">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#apple-immersive-video-utility">#</doc-anchor-trigger>
+        <span>Apple Immersive Video Utility</span>
+    </h2>
+</doc-anchor-target>
+<p>Apple Immersive Video Utility on macOS lets you import, organize, package, and review Apple Immersive Video media through a 2D interface. And when you combine it with Apple Immersive Video Utility on visionOS, you can review your immersive video on Apple Vision Pro.</p>
+<p><figure class="content-center">
+    <img src="../../static/apple-immersive-video-utility.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can find more information in the <a href="https://support.apple.com/en-au/guide/immersive-video-utility/welcome/web" class="outbound" target="_blank"><span>User Guide</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>You can download it for free on the <a href="https://apps.apple.com/app/apple-immersive-video-utility/id6477489398" class="outbound" target="_blank"><span>Mac App Store</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<doc-anchor-target id="apple-compressor">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#apple-compressor">#</doc-anchor-trigger>
+        <span>Apple Compressor</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.youtube.com/@hughhou" class="outbound" target="_blank"><span>Hugh Hou</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> has posted a great video on YouTube titled, <strong>High-Quality Apple Immersive Video Encoding with Compressor (AIVU Workflow)</strong>.</p>
+<p>You can watch it on YouTube:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=Fz9KYhaaPVE">
+        <img src="../../static/compressor-aivu.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<hr>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Want to contribute? <a href="../../contribute/">Learn more here!</a></p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="discuss-this-page">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#discuss-this-page">#</doc-anchor-trigger>
+        <span>Discuss this page</span>
+    </h2>
+</doc-anchor-target>
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                                <div class="flex flex-wrap items-center justify-between mt-14">
+                                    <a id="retype-edit-this-page" class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-body-link font-body-link-weight hover:text-body-link-hover hover:underline" href="https://github.com/CommandPost/FCPCafe/blob/main/docs/learn/immersive.md" target="_blank" rel="noopener">
+                                        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        <span>Edit this page on GitHub</span>
+                                    </a>
+                                </div>
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../learn/history/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">History of Final Cut Pro</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../learn/training/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Training</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="inline-flex items-center mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="../../contribute/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                    <g fill="currentColor">
+                                                        <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
+                                                    </g>
+                                                </svg>
+                                                <span>Contribute</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Immersive", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
