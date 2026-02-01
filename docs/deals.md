@@ -6,8 +6,6 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 ---
 
-{{ include "latenite/pro-editor-bundle" }}
-
 ## 2026 Deals
 
 Here's some of the deals we know about in 2026:
@@ -19,6 +17,10 @@ Here's some of the deals we know about in 2026:
 You can get **25% off** Jumper with the Discount code: `25OFF`.
 
 You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
+
+---
+
+{{ include "latenite/pro-editor-bundle" }}
 
 ---
 
