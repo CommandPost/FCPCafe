@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 01 Feb 2026 01:14:48 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Feb 2026 01:23:19 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 01 Feb 2026 01:14:48 GMT</pubDate>
+        <pubDate>Sun, 01 Feb 2026 01:23:19 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15309,6 +15309,8 @@ Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
 <p><a href="https://www.youtube.com/watch?v=DJKrrGaQ9hc"><img src="/static/appleinsider-youtube.jpg" alt=""></a></p>
 <p>You can also take a look at this AMAZING video, <a href="https://www.youtube.com/watch?v=HZvj8T5_oUE">A Year in The Life at MKBHD</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=HZvj8T5_oUE"><img src="/static/year-in-the-life.jpg" alt=""></a></p>
+<p>The MKBHD team all cut in Final Cut Pro:</p>
+<p><img src="/static/mkhd-edit-in-fcp.png" alt=""></p>
 <p>...and last but not least, Clayton Jacobson has created this using Nano Banana Pro, Kling 2.6, Eleven Labs and Final Cut Pro:</p>
 <p><a href="https://www.youtube.com/watch?v=n0dU5QfMrgI"><img src="/static/clayton-youtube.jpg" alt=""></a></p>
 <p>Enjoy the rest of your weekend team!</p>
