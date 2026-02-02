@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 02 Feb 2026 02:05:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Feb 2026 02:19:15 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Feb 2026 02:05:23 GMT</pubDate>
+        <pubDate>Mon, 02 Feb 2026 02:19:15 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15448,6 +15448,12 @@ Swift     :      55389 (++12423, +28.91%)
 </blockquote>
 <p>He also posted some <a href="https://joema.smugmug.com/XCode-Instruments-trace-of-slow-FCP-performance/n-tBwgCJ">Xcode Instruments traces</a> for those that want to get really deep in the inner workings of Final Cut Pro.</p>
 <p>Long story short... Apple still has a LOT of engineering work to do under-the-hood, so I don't imagine we'll see a dramatic change in the update schedule over the next couple of years - I think it will continue to be slow and steady.</p>
+<p>The <strong>FCP Vietnam Community</strong> has also <a href="https://x.com/nikewrayy/status/2017915579559211451">reported</a> that Apple is finally checking for valid App Store receipts when launching Final Cut Pro - so you can no longer just &quot;steal&quot; Final Cut Pro with a USB-C when visiting the App Store.</p>
+<p><img src="/static/app-store-says-no.png" alt=""></p>
+<p>Final Cut Pro has always been really easy to share. Final Cut Pro 7 and earlier just had a license key that could be used unlimited times (although only one license could be activated on the same local network at a time).</p>
+<p>Final Cut Pro v10 has only ever been on the App Store - but no actual verification ever took place after the initial download.</p>
+<p>Apple also offered a very good free trial, which was also trivial to reset the trial period by just deleting a hidden file on the filesystem.</p>
+<p>It seems Apple now wants to make SURE you're purchasing. I wonder if this applies to all of their paid Mac App Store apps now?</p>
 ]]></description>
             <link>https://fcp.cafe/#2nd-february-2026</link>
             <guid isPermaLink="false">2nd February 2026</guid>
