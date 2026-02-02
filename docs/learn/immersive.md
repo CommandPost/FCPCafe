@@ -20,6 +20,8 @@ Viewer-facing shorthand: Apple Support also describes Apple Immersive Video titl
 **AIME (Apple Immersive Media Embedded)**
 The static metadata that enables correct playback—especially camera/lens calibration and other "presentation metadata". Depending on the workflow, you’ll encounter `AIME` either as a separate metadata file (i.e. from set) or embedded as a metadata track.
 
+You can create an `AIME` file using the [VenueDescriptor](https://developer.apple.com/documentation/immersivemediasupport/venuedescriptor) API.
+
 **AIVU (Apple Immersive Video Universal)**
 A packaged container used for review/testing and delivery workflows. [Apple Immersive Video Utility](https://apps.apple.com/app/apple-immersive-video-utility/id6477489398) can package a folder of components into a single `AIVU` — typically including high-bit-rate `MV-HEVC` video, `AIME` metadata, audio, and an optional presentation track.
 
@@ -63,6 +65,22 @@ An Apple Immersive Video feature discussed as part of the format/tooling story�
 
 **Edge blend curve**
 Per-shot metadata that can feather/transition edges at playback time (described as dynamic rather than a baked mask).  ￼
+
+---
+
+## Immersive Video Workflow Presentations
+
+In **October 2025** Apple hosted a two day workshop on Immersive video.
+
+Iain Anderson wrote a summary on [ProVideo Coalition](https://www.provideocoalition.com/apple-publishes-comprehensive-immersive-video-workflow-presentations/).
+
+You can watch **Day One** here:
+
+[![](/static/apple-immersive-day01.jpg)](https://www.youtube.com/live/leGqoF8HJxU)
+
+You can watch **Day Two** here:
+
+[![](/static/apple-immersive-day02.jpg)](https://www.youtube.com/watch?v=4V_7-1bm4Rk)
 
 ---
 
