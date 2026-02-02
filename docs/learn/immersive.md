@@ -1,10 +1,30 @@
 # Immersive
 
-This page is dedicated to stuff that Chris finds interesting about Immersive workflows related to Final Cut Pro workflows.
+This page is dedicated to stuff that [Chris Hocking](/latenite/#chris-hocking) finds interesting about Immersive workflows related to Final Cut Pro workflows.
 
 This is very much an evolving space - so if you find something interesting online, please share!
 
 This is NOT an area I'm an expert in, so please reach out if there's any mistakes!
+
+---
+
+## BRAW Toolbox
+
+As of today, **BRAW Toolbox v1.5.0 (79)** has the following Immersive exclusive feature:
+
+> We've added a "Video Track" parameter in the "Quality" section for Blackmagic URSA Cine Immersive clips - so you can pick between the left or right lens. You can then put two of the same Blackmagic URSA Cine Immersive clip next to each other in a Final Cut Pro timeline, to do side-by-side immersive editing. Thanks for suggesting Iain Anderson!
+
+![](/static/braw-toolbox-video-track.png)
+
+Using this method you can kinda of "hack together" a workflow where you do the offline edit in Final Cut Pro, then send a FCPXML to DaVinci Resolve to "fix up" and deliver to Apple Compressor.
+
+![](/static/braw-toolbox-immersive.png)
+
+I am currently working on adding more Immersive functionality to BRAW Toolbox, so that you can edit and DELIVER directly from Final Cut Pro, with no DaVinci Resolve needed.
+
+This page is essentially documenting my explorations as I go down this path (as I currently don't own or have easy access to an Apple Vision Pro or Blackmagic URSA Cine Immersive camera.
+
+You can learn more about BRAW Toolbox on the [BRAW Toolbox website](https://brawtoolbox.fcp.cafe).
 
 ---
 
