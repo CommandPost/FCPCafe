@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823258840828">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823309740633">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.11.0.823258840828" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.823309740633" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823258840828" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823309740633" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823258840828" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823309740633" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -361,6 +361,7 @@ A premium immersive-video format from Apple for Apple Vision Pro playback. In Ap
 <p>Viewer-facing shorthand: Apple Support also describes Apple Immersive Video titles as &quot;180-degree 8K recordings, captured with Spatial Audio&quot;.  ￼</p>
 <p><strong>AIME (Apple Immersive Media Embedded)</strong>
 The static metadata that enables correct playback—especially camera/lens calibration and other &quot;presentation metadata&quot;. Depending on the workflow, you’ll encounter <code v-pre>AIME</code> either as a separate metadata file (i.e. from set) or embedded as a metadata track.</p>
+<p>You can create an <code v-pre>AIME</code> file using the <a href="https://developer.apple.com/documentation/immersivemediasupport/venuedescriptor" class="outbound" target="_blank"><span>VenueDescriptor</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> API.</p>
 <p><strong>AIVU (Apple Immersive Video Universal)</strong>
 A packaged container used for review/testing and delivery workflows. <a href="https://apps.apple.com/app/apple-immersive-video-utility/id6477489398" class="outbound" target="_blank"><span>Apple Immersive Video Utility</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> can package a folder of components into a single <code v-pre>AIVU</code> — typically including high-bit-rate <code v-pre>MV-HEVC</code> video, <code v-pre>AIME</code> metadata, audio, and an optional presentation track.</p>
 <p>The only thing you need to make a ⁨<code v-pre>AIVU</code>⁩ is:</p>
@@ -391,6 +392,31 @@ The codec Apple calls out for encoding positional/immersive audio for delivery. 
 An Apple Immersive Video feature discussed as part of the format/tooling story—described as a unique capability for final encodes in Apple’s immersive media sessions.  ￼</p>
 <p><strong>Edge blend curve</strong>
 Per-shot metadata that can feather/transition edges at playback time (described as dynamic rather than a baked mask).  ￼</p>
+<hr>
+<doc-anchor-target id="immersive-video-workflow-presentations">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#immersive-video-workflow-presentations">#</doc-anchor-trigger>
+        <span>Immersive Video Workflow Presentations</span>
+    </h2>
+</doc-anchor-target>
+<p>In <strong>October 2025</strong> Apple hosted a two day workshop on Immersive video.</p>
+<p>Iain Anderson wrote a summary on <a href="https://www.provideocoalition.com/apple-publishes-comprehensive-immersive-video-workflow-presentations/" class="outbound" target="_blank"><span>ProVideo Coalition</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>You can watch <strong>Day One</strong> here:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/live/leGqoF8HJxU">
+        <img src="../../static/apple-immersive-day01.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can watch <strong>Day Two</strong> here:</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=4V_7-1bm4Rk">
+        <img src="../../static/apple-immersive-day02.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    </a>
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <hr>
 <doc-anchor-target id="davinci-resolve-quick-start">
     <h2>
