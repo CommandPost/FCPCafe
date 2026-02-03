@@ -1,1 +1,2 @@
+- [Crash - `setStateForPlugIn` crashed when waking from sleep (February 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/506)
 - [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
