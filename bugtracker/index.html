@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823397575596">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823409970349">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.823397575596" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.823409970349" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.823397575596" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.823409970349" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.823397575596" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.823409970349" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -355,14 +355,35 @@
     </div>
 </div>
 <p>This page is dedicated to keeping track of the latest Final Cut Pro bugs and issues.</p>
-<p><strong>The only way Apple&#x27;s management will put bug fixes and feature requests into their engineers work queue is if they have a Feedback Request about it.</strong></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>IMPORTANT!</h5>
+<p>The only way Apple&#x27;s management will put bug fixes and feature requests into their engineers work queue is if they have a Feedback Request (previously and internally still called a <code v-pre>Radar</code>) about it.</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="../static/feedback-assistant-screenshot.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <p>You can read our <a href="../update-guide/">recommendations on if you should update Final Cut Pro</a>.</p>
 <p>We keep track of these bugs via our <a href="https://github.com/CommandPost/FCPCafe/issues">GitHub issues site</a>.</p>
-<p><a href="https://github.com" class="outbound" target="_blank"><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is a <strong>safe and secure</strong> developers platform used by <strong>over 73 million users</strong> worldwide.</p>
-<p>To submit a new bug report, simply sign up for a <strong>free GitHub account</strong> and <a href="https://github.com/CommandPost/FCPCafe/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=bug-report.md&amp;title=">post an issue</a>.</p>
+<p><a href="https://github.com" class="outbound" target="_blank"><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is a <strong>safe and secure</strong> developers platform used by <strong>over 150 million users</strong> worldwide.</p>
+<p>To submit a new bug report, simply sign up for a <strong>completely FREE GitHub account</strong> and <a href="https://github.com/CommandPost/FCPCafe/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=bug-report.md&amp;title=">post an issue</a>.</p>
 <p>If you&#x27;d prefer not to use GitHub, then you can always email us your bug report: <a href="mailto:support@latenitefilms.com">support@latenitefilms.com</a></p>
 <p>Whenever posting a new bug/issue to GitHub, we also submit feedback directly to Apple via <a href="https://feedbackassistant.apple.com" class="outbound" target="_blank"><span>Feedback Assistant</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p>You can also send feedback directly to the Final Cut Pro team via their <a href="https://www.apple.com/feedback/finalcutpro/" class="outbound" target="_blank"><span>Feedback Form</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, however, unlike Feedback Assistant you can&#x27;t track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you use Feedback Assistant as well.</p>
+<p>You can also send feedback directly to the Final Cut Pro team via their <a href="https://www.apple.com/feedback/finalcutpro/" class="outbound" target="_blank"><span>Feedback Form</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, however, unlike <strong>Feedback Assistant</strong> you can&#x27;t track your request or add additional information after submitting, nor can you have a discussion with the Apple team via the comments - so we generally recommend you <strong>ALWAYS</strong> submit to <strong>Feedback Assistant</strong> as well.</p>
 <hr>
 <doc-anchor-target id="recently-added">
     <h3>
