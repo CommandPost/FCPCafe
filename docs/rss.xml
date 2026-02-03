@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 03 Feb 2026 12:37:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Feb 2026 23:55:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Feb 2026 12:37:05 GMT</pubDate>
+        <pubDate>Tue, 03 Feb 2026 23:55:34 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15505,6 +15505,102 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#3rd-february-2026</link>
             <guid isPermaLink="false">3rd February 2026</guid>
             <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p>It's timeline... Wednesday? Yeah, sure, why not!</p>
+<p>Here's a great screenshot from Geoffrey Orthwein:</p>
+<blockquote>
+<p>Here is the Picture Lock timeline from our feature I Don’t Want To Drink Your Blood Anymore (82 mins).</p>
+<p><img src="/static/idwtdyba-fcp-pl-timeline.png" alt=""></p>
+</blockquote>
+<p>You can follow along on <a href="https://www.instagram.com/idontwantblood/">Instagram</a>.</p>
+<p>For any developers following along, we've added a bunch more content to our <a href="/developers/fxplug/">FxPlug</a> page. Enjoy!</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p><strong>BRAW Toolbox v2.0.0 (80)</strong> is out now!</p>
+<p>This is a MAJOR update with MASSIVE performance improvements!</p>
+<p>It contains the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>This is a MASSIVE update. We've made HUGE changes under the hood to improve performance on Apple Silicon Mac's. BRAW Toolbox should now be faster and more stable than ever before. HUGE thank you to the amazing Anton Marini for all his help, guidance, genius and support! However, due to the sheer number of under-the-hood changes, we highly recommend making a ZIP of your current version of BRAW Toolbox before updating for safety, so that you can rollback if needed.</li>
+<li>Added a &quot;Open User Guide&quot; button to the BRAW Toolbox application.</li>
+<li>Updated from FxPlug v4.3.3 to v4.3.4. Thanks Darrin Cardani and everyone at Apple!</li>
+</ul>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixed a regression in <strong>BRAW Toolbox v1.5.0</strong> which could cause non-Immersive BRAW clips to crash BRAW Toolbox. My sincerest apologies for missing this bug during testing! HUGE thank you to Aaron Hokanson, Chris Johnson, Joseph Teegardin, Sallen307, SamVChicago, Samir Varma and Vinnys-Cinevita for reporting and helping me troubleshoot!</li>
+</ul>
+<p>Now that this is out the door, we're busily working on new Immersive features!</p>
+<p><img src="/static/braw-toolbox-immersive-coming-soon.png" alt=""></p>
+<p>The plan is to have a completely end-to-end workflow in Final Cut Pro &amp; BRAW Toolbox, so that you can edit in Final Cut Pro and export to Vision Pro in Compressor. Stay tuned!</p>
+<p>You can learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p><strong>FidelityFuze v2.6.0</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Detail Recovery now honors human color perception. Previous versions measured color differences in RGB, a model built for screens, not for eyes. RGB treats every channel equally. Human vision does not. We notice some shifts more than others. We see edges where contrast matters to us, not where mathematics says it should. This release aligns the algorithm with how we actually see. The stubborn remnants that occasionally surfaced during detail extraction lose more of their foothold. Faint halos, shimmer, stair-stepping. Previous releases pushed these into the margins. This one pushes further. What you get is cleaner detail, more stable edges, and images that hold together under scrutiny.</li>
+<li>Detail extraction reaches deeper into the image, pulling out texture and subtlety that was harder to access before, while edges stay locked. Transitions between detail and noise are smooth and predictable, so subtle frame-to-frame variations no longer compound into flicker.</li>
+<li>Detail Recovery now adds dimensionality that invites your eye to wander. Foreground and background each find their own presence. Especially when upscaling from 4K or higher. Grab your action cam footage from that mountain pass, that coastline, that road trip. Throw in some supersampling. And feel like you're there again. If your footage is well-lit and clean, try pushing Detail Sensitivity higher while easing back on Detail Recovery. The new algorithm won't punish you for it.</li>
+<li>Updated to FxPlug SDK <code>v4.3.4</code> for seamless Final Cut Pro 12 support.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.fidelityfuze.com">FidelityFuze website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p><strong>Picture This...</strong> v1.0.8 is out now!</p>
+<p>It includes the following new features:</p>
+<ul>
+<li>Improvements to error messages raised by <code>FCPXML</code> problems</li>
+<li>Support for Final Cut Pro Creator Studio (subscription)</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/picture-this/id6466822042">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p><strong>captionAnimator v1.1.6</strong> is out now!</p>
+<p>This release has the following bug fix:</p>
+<ul>
+<li>Bug fix to support opening the new project in the running version of Final Cut Pro</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/captionanimator/id6736841747">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th February 2026]]></title>
+            <description><![CDATA[<p><strong>captionTranslator v1.0.3</strong> is out now!</p>
+<p>It contains the following changes:</p>
+<ul>
+<li><strong>New feature:</strong> support for Final Cut Pro Creator Studio (subscription)</li>
+<li>New app icon</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/captiontranslator/id6737919696">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-february-2026</link>
+            <guid isPermaLink="false">4th February 2026</guid>
+            <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
