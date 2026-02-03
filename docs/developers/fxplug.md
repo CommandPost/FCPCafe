@@ -42,6 +42,8 @@ The incredible **Anton Marini** is basically a genius at all things video. Check
 >
 > When I'm not optimizing GPU pipelines, I perform stand-up comedy—turns out debugging shader code and writing punchlines both require seeing problems from unexpected angles.
 
+**David Lublin** and **Ray Cutler** from [Vidvox](https://www.vidvox.net) also do amazing work in the video space.
+
 And unrelated to FxPlug... [Warren Moore](https://warrenmoore.net) and [AdrianEddy](https://github.com/AdrianEddy) are both absolute geniuses at Metal in general, and some of the kindest, smartest and nicest people working in tech.
 
 ---
