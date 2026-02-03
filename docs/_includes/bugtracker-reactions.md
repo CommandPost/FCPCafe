@@ -1,5 +1,6 @@
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
 - [Library Corruption & Preference Reset Issues (September 30, 2025)](https://github.com/CommandPost/FCPCafe/issues/493)
 - [Effects added to Motion Templates have yellow triangle (July 27, 2025)](https://github.com/CommandPost/FCPCafe/issues/484)
 - [Final Cut Pro Fails to Copy All Project Media to a New Location After a Previously Cancelled or Failed Copy Operation (June 17, 2025)](https://github.com/CommandPost/FCPCafe/issues/476)
@@ -27,4 +28,3 @@
 - [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
 - [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
-- [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)

@@ -1,0 +1,1 @@
+- [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
