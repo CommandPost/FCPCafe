@@ -26,11 +26,13 @@ Sadly, there's very few FxPlug experts in the world.
 
 Here's who we know about...
 
-Well, there's myself - [Chris Hocking](/latenite/#chris-hocking).
+Well, there's myself - [Chris Hocking](/latenite/#chris-hocking). [BRAW Toolbox](https://brawtoolbox.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) and [Metaburner](https://metaburner.fcp.cafe) use FxPlug.
 
 The amazing **Darrin Cardani** is a Senior Software Engineer at Apple, and has been there for 20 years. He's one of the geniuses behind FxPlug. His public LinkedIn says:
 
 > I write and maintain the visual effects plugins, architecture, and 3rd party SDK for the Final Cut Studio suite of products. I work on the filters, generators, and transitions that ship with Final Cut Pro and Motion. My duties include creating new visual effect plugins for the applications, as well as helping 3rd parties to create their own plugins. I have also worked on Aperture.
+
+**Tim Dashwood** is an industry legend. He was creator of **360VR Toolbox**, but when he [moved to Apple](https://appleinsider.com/articles/17/04/23/apple-hires-3d-360vr-toolbox-developer-tim-dashwood-to-final-cut-pro-x-team) to work on Final Cut Pro, he made all his tools free! He's now working on the Vision Pro Team as "Immersive Media Production Engineering - Vision Products Group".
 
 The incredible **Anton Marini** is basically a genius at all things video. Check out his [GitHub](https://github.com/vade).
 
@@ -67,6 +69,44 @@ Whilst Apple has put a lot of time into making FxPlug more Swift-friendly, there
 We are actively talking to Apple about how they can improve FxPlug for Swift and Swift UI Developers.
 
 It's also worth looking at [FxKit](https://github.com/jslinker/FxKit) for inspiration and ideas.
+
+---
+
+### Why does the FxPlug samples have `kMaxCommandQueues`?
+
+The FxPlug team explains:
+
+> Internally our apps currently break rendering into 2 pieces: first we build of graph of what needs to be rendered, then we do the rendering of that graph.
+>
+> These 2 actions happen on different threads in the host, and calls are made to the plug-in to handle various pieces of each step.
+>
+> Theoretically, if you are on a system with 2 GPUs, there could be a number of actions happening at once. You might be asked to build the graph for frame `n` on one thread, and at the same time, you’re asked to render frame `n-1` on another thread.
+>
+> Then you’re asked to render from `n`. The render from frame `n-1` may not have completed yet, when you’re asked to do work from graph building for frame `n+1`. So now you potentially have 3 operations going on.
+>
+> Of course, macOS will end up serializing some of that work to send to the GPUs, but it’s a lot easier for the plug-in to let the macOS handle that. Plus there could also be analysis happening from the `FxAnalysisAPI` which would potentially need other `MTLCommandQueues`.
+>
+> In the future, it’s conceivable that we might add something else that requires GPU work that happens while the user is playing back or scrubbing, or whatever.
+>
+> We settled on 5 because it was a number that was likely to work without issue for most developers trying to understand the examples.
+>
+> For Intel systems, the user could have several e-GPUs connected, and then 5 isn’t enough because we tend to scale with the number of GPUs. But it seemed like a lot to put that into example code.
+
+Generally speaking though, having one `MTLCommandQueue` per GPU is all you need, as Metal Command Queues are thread safe.
+
+---
+
+### What's the deal with `kFxPropertyKey_NeedsFullBuffer`?
+
+The FxPlug team explains:
+
+> If your plug-in keeps returning the full image size, it will eventually get down to 2x2 pixel tiles, and only after it tries that, give up and render nothing and output an error to the console saying that it couldn’t find a suitable tile size.
+>
+> If your plug-in cannot handle a tiled input, it shouldn't tell the app it handle can a tiled input. Instead, set the `kFxPropertyKey_NeedsFullBuffer` to `YES` in your plug-in’s `-properties:error:` method. Then we’ll never ask your plug-in to tile.
+>
+> But if the user uses an image that’s BIGGER than the GPU can handle (`16,384` pixels on any side in MOST cases), we’ll display an error to the user that your plug-in can’t render.
+>
+> If you want to do tiling, you need to actually return tile bounds that are smaller than the entire input image.
 
 ---
 
