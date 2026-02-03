@@ -8,6 +8,16 @@ If you want a real-world example of a FxPlug 4 application, you can look at [Gyr
 
 ---
 
+## Swift Example
+
+Whilst FxPlug does ship with some sample code/projects, they're not very complete.
+
+**Sebastian** at [FidelityFuze](https://www.fidelityfuze.com) has very kindly thrown together an updated **FxBrightness** example, with handles tiling and non-square-pixels.
+
+You can download the code on [GitHub](https://github.com/FidelityFuze/FxBrightness).
+
+---
+
 ## Frequently Asked Questions
 
 ### Who's using FxPlug?
