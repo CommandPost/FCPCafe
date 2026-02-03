@@ -1,3 +1,4 @@
+- [Crash - `setStateForPlugIn` crashed when waking from sleep (February 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/506)
 - [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
 - [Library Corruption & Preference Reset Issues (September 30, 2025)](https://github.com/CommandPost/FCPCafe/issues/493)
 - [Effects added to Motion Templates have yellow triangle (July 27, 2025)](https://github.com/CommandPost/FCPCafe/issues/484)
@@ -27,4 +28,3 @@
 - [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
 - [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
 - [Intel MacBook Pro - Kernel Panics in FCP Under Heavy Load (June 30, 2024)](https://github.com/CommandPost/FCPCafe/issues/375)
-- [Trackers on video of not the same FPS as Project (29.97 vs 30) is about a frame off (trackers incorrectly interpolate?) (June 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/374)
