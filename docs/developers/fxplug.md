@@ -10,6 +10,42 @@ If you want a real-world example of a FxPlug 4 application, you can look at [Gyr
 
 ## Frequently Asked Questions
 
+### Who's using FxPlug?
+
+Sadly, there's very few FxPlug experts in the world.
+
+Here's who we know about...
+
+Well, there's myself - [Chris Hocking](/latenite/#chris-hocking).
+
+The amazing **Darrin Cardani** is a Senior Software Engineer at Apple, and has been there for 20 years. He's one of the geniuses behind FxPlug. His public LinkedIn says:
+
+> I write and maintain the visual effects plugins, architecture, and 3rd party SDK for the Final Cut Studio suite of products. I work on the filters, generators, and transitions that ship with Final Cut Pro and Motion. My duties include creating new visual effect plugins for the applications, as well as helping 3rd parties to create their own plugins. I have also worked on Aperture.
+
+The incredible **Anton Marini** is basically a genius at all things video. Check out his [GitHub](https://github.com/vade).
+
+**Gabriele de Simone** at [FxFactory](https://fxfactory.com/developer/) is one of the smartest and nicest people you'll ever met in this industry. What he's build with [FxCore](https://fxfactory.com/fxcore/) is next level awesome.
+
+**Eberhard** at [CoreMelt](https://coremelt.com) makes a bunch of awesome plugins!
+
+**Dmitry Lavrov** at [Color Trix](https://colorfinale.com) creates ColorFinale and ColorFinale Transcoder and does incredible work in this space.
+
+**Greg Cotten** at [Video Village](https://videovillage.com) is also doing some amazing stuff in FxPlug.
+
+**Mateusz Stompór** at [MotionVFX](https://www.motionvfx.com) is also doing amazing things. His website [says](https://arctic.codes/#experience):
+
+**Sebastian** at [FidelityFuze](https://www.fidelityfuze.com) is a "new kid on the block" in terms of FxPlug, but he's already proving to be a legend in the field!
+
+> I build GPU-accelerated rendering engines and professional video plugins that process millions of pixels in real-time. Currently Senior Software Engineer at MotionVFX developing Final Cut Pro tools, previously Principal Engineer at IBM working on large-scale C++ systems (500K+ LOC).
+>
+> I've architected three 3D engines from scratch using Metal, OpenGL, and low-level graphics APIs. My work spans shader programming, physically-based rendering, and systems-level optimization with C++, Objective-C, and Swift. I'm also a Red Hat Certified Architect with DevOps and security experience.
+>
+> When I'm not optimizing GPU pipelines, I perform stand-up comedy—turns out debugging shader code and writing punchlines both require seeing problems from unexpected angles.
+
+And unrelated to FxPlug... [Warren Moore](https://warrenmoore.net) and [AdrianEddy](https://github.com/AdrianEddy) are both absolute geniuses at Metal in general, and some of the kindest, smartest and nicest people working in tech.
+
+---
+
 ### Objective-C or Metal?
 
 There is a lot more documentation and sample code for Objective-C.
