@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 02 Feb 2026 02:19:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Feb 2026 12:37:05 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Feb 2026 02:19:15 GMT</pubDate>
+        <pubDate>Tue, 03 Feb 2026 12:37:05 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15458,6 +15458,53 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#2nd-february-2026</link>
             <guid isPermaLink="false">2nd February 2026</guid>
             <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd February 2026]]></title>
+            <description><![CDATA[<p><strong>Chapter Tool v1.0.0</strong> is out now for free!</p>
+<p><img src="/static/chapter-tool.jpg" alt=""></p>
+<p>Parse <code>FCPXML</code> files to detect both Chapter and standard FCP markers, automatically convert them into YouTube-compliant chapters with validation, and export ready-to-paste descriptions with a single click. Includes integrated text editing and handles projects of any scale.</p>
+<p>Marco Bucci writes on <a href="https://www.facebook.com/groups/108687235938893/posts/3522856664521916/?__cft__%5B0%5D=AZaro9bdGxbyAOLso540x3aLJE8zqjoioF2lBjO2HNpfqiYSZFDbz0q_raPEgb8QjaHM3jntCcYSOW5s8TE3Nhk8UF6yJRiTYNKEgosOoUFqUeg_sesttV95e06p5sxF5k6odk9aqp1jm9Rx3fOc208n&amp;__tn__=%2CO*F">Facebook</a>:</p>
+<blockquote>
+<p>As a fellow FCP editor, I wanted to share a tool I originally developed for myself to fix a major frustration in my workflow between Final Cut Pro and YouTube.</p>
+<p>Since it saved me so much time managing markers, I decided to polish it and share it for free with the entire community. Chapter Tool parses your FCPXML exports and instantly generates ready-to-paste YouTube timestamps, including automatic validation.</p>
+<p>It’s a native macOS app, lightweight and built for editors who regularly deal with long-form content. I hope it saves you some valuable time on your next project!</p>
+<p>I’d love to hear your feedback in the comments.</p>
+</blockquote>
+<p>He writes on the <a href="https://www.marcobucci.eu/chapter-tool.html">website</a>:</p>
+<blockquote>
+<p>Streamline your workflow. Chapter Tool is now free for everyone.</p>
+<p>As a developer and video editor, I know how tedious managing markers and chapters can be during the final stages of production. I originally built Chapter Tool to solve this frustration in my own Final Cut Pro projects.</p>
+<p>To support the creative community and gather valuable feedback for my upcoming utilities, I've decided to make Chapter Tool available for free.</p>
+<p>It is a native macOS app, built with Swift 6 and fully notarized by Apple to ensure the highest security and performance. Download it today and take the hassle out of your delivery process.</p>
+</blockquote>
+<p>It offers similar functionality to <a href="https://www.intelligentassistance.com/creators-best-friend/">Creator's Best Friend</a> - although Creator's Best Friend also supports Adobe Premiere Pro and Blackmagic DaVinci Resolve.</p>
+<p>You can download for free and learn more on the <a href="https://www.marcobucci.eu/chapter-tool.html">Chapter Tool website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-february-2026</link>
+            <guid isPermaLink="false">3rd February 2026</guid>
+            <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd February 2026]]></title>
+            <description><![CDATA[<p><a href="https://www.youtube.com/@SEIDS_">SEIDS</a> sits down with the Apple Creator Studio team in her video titled, <strong>Apple Explains Subscription, New Logic Pro and AI!</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=IdYX7BOphVk">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=IdYX7BOphVk"><img src="/static/seids-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-february-2026</link>
+            <guid isPermaLink="false">3rd February 2026</guid>
+            <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd February 2026]]></title>
+            <description><![CDATA[<p>This isn't specifically Final Cut Pro related, but it's awesome none-the-less.</p>
+<p>Dallas Taylor has released a video titled, <strong>Why Bluey Doesn’t Sound Like a Cartoon w/ Bluey’s Sound Designer</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=2z6hd2dCv_w">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=2z6hd2dCv_w"><img src="/static/bluey-sound-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-february-2026</link>
+            <guid isPermaLink="false">3rd February 2026</guid>
+            <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
