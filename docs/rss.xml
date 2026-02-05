@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 03 Feb 2026 23:55:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Feb 2026 12:55:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Feb 2026 23:55:34 GMT</pubDate>
+        <pubDate>Thu, 05 Feb 2026 12:55:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15601,6 +15601,97 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#4th-february-2026</link>
             <guid isPermaLink="false">4th February 2026</guid>
             <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>CommandPost v2.0.0</strong> is out now! 🥳</p>
+<p><img src="/static/commandpost-v2-0-0.png" alt=""></p>
+<p><strong>CommandPost v2</strong> requires at least ONE paid LateNite App installed.</p>
+<p>After 9 years of free updates, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it &quot;inner circle&quot; software (i.e. only our mates get access to it).</p>
+<p>Thank you to <strong>EVERYONE</strong> who has supported CommandPost throughout these years!</p>
+<p>To use CommandPost v2 (and later) please download and install at least ONE LateNite App from the <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">Mac App Store</a> <strong>OR</strong> roll back to a previous version of CommandPost v1.</p>
+<p>This release has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for <strong>Final Cut Pro Creator Studio</strong> (subscription).</li>
+<li>Added support for FCPXML <code>v1.14</code>.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed Effects Browser actions in <strong>Final Cut Pro v12</strong>.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>Strada V90 (agent version v2026.2.3)</strong> is out now!</p>
+<p>The Strada team writes:</p>
+<blockquote>
+<p>In this release we have continued our focus on support and stability of agents.</p>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixes issue where agents are stuck in &quot;Disconnecting&quot;</li>
+<li>If this ever does happen again we added a button to reset them instead of having to paste the terminal command</li>
+<li>Fixes issue where speed tests were coming back with very low and incorrect results</li>
+<li>Windows does not allow for automatic updates, so they are now disabled rather then updating and breaking because it requires user confirmation. Overall the windows install and update process is much smoother.</li>
+<li>NOTE: We still have one more improvement we are making here around windows asking many times for authentication credentials</li>
+<li>Added a Strada Doctor feature for support to help us identify any issues with one simple command</li>
+<li>Many improvements to our auto-update functionality</li>
+<li>Many improvements to auto-retrying various pieces of the agent removing the need to manually restart it</li>
+<li>Many improvements to our bandwidth limiter / Speed test</li>
+</ul>
+<p><strong>New features:</strong></p>
+<ul>
+<li>We've added SORTING! Sort by kind, name, date, etc...</li>
+<li>We've added IN APP support. Message us directly from in the app. While we love our Discord community we want to make it easy and fast to reach us. Also it gives us some extra information so we can support you faster without asking you for it first.</li>
+</ul>
+<p><strong>Minor fixes/changes:</strong></p>
+<ul>
+<li>The jobs panel hyperlink now opens the jobs panel</li>
+<li>Checking available drives immediately after agent is started now works</li>
+<li>Refreshes. When connecting an agent, inviting a user, connecting a drive. The app now updates without having to refresh the page. We've made a lot of steps forward and will continue to do so!</li>
+<li>We have added a left navigation component as our app continues to expand. The jobs panel is now available there instead of the top right.</li>
+</ul>
+</blockquote>
+<p>You can learn more about <a href="https://strada.tech">Strada on their website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>Rafael Ludwig</strong> has released a video titled, <strong>Creator Studio: Apple’s Genius Move to Sell More Macs</strong>.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=lcZAhk82rag">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=lcZAhk82rag"><img src="/static/apple-secret-plan.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>AXEL AXE</strong> has released a video titled, <strong>The Death of the Cloud: Michael Cioni on Strada and the Future of Filmmaking</strong>.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=d9GavjFuN54">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=d9GavjFuN54"><img src="/static/man-behind-strada.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>Brad West</strong> has released a video titled, <strong>FIRST LOOK at Final Cut Pro 12! NEW FEATURES Explained!</strong></p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=1j7fmizQFNM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=1j7fmizQFNM"><img src="/static/brad-west-update.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
