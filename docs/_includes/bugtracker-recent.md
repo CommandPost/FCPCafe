@@ -1,3 +1,4 @@
+- [Crash in `-[PEAppController validateUserInterfaceItem:]` on quit (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/509)
 - [Regression - Effects Inspector painfully slow when scrolling (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/507)
 - [Crash - `setStateForPlugIn` crashed when waking from sleep (February 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/506)
 - [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
@@ -27,4 +28,3 @@
 - [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
 - [Reversing Clip - Draw Mask Keyframe Control Points overwritten/clobbered by first keyframe (July 11, 2024)](https://github.com/CommandPost/FCPCafe/issues/384)
 - [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
-- [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
