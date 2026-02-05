@@ -32,8 +32,8 @@ xxx
 
 **SPECS:**
 - 2021 16-inch MacBook Pro (M1 Max, 64GB RAM, 8TB SSD)
-- macOS Sonoma 14.1.2
-- Final Cut Pro 10.7.1
+- macOS Sonoma 26.2
+- Final Cut Pro 12.0.0
 
 ---
 
