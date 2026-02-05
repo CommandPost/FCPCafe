@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CommandPost/FinalCutPro/master/docs/static/fcpcafe.png" align="right" width="15%" height="15%" />
+<p align="right"><img src="https://raw.githubusercontent.com/CommandPost/FinalCutPro/master/docs/static/fcpcafe.png" width="150" alt="FCPCafe Logo" /></p>
 
 # FCP Cafe
 
