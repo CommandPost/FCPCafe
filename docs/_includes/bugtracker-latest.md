@@ -1,2 +1,4 @@
+- [Crash in `-[PEAppController validateUserInterfaceItem:]` on quit (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/509)
+- [Regression - Effects Inspector painfully slow when scrolling (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/507)
 - [Crash - `setStateForPlugIn` crashed when waking from sleep (February 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/506)
 - [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)

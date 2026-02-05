@@ -1,5 +1,7 @@
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Crash in `-[PEAppController validateUserInterfaceItem:]` on quit (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/509)
+- [Regression - Effects Inspector painfully slow when scrolling (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/507)
 - [Crash - `setStateForPlugIn` crashed when waking from sleep (February 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/506)
 - [Crash - `[FFEffect(FFEffectRegistry) allRegisteredEffectIDs]` (February 2, 2026)](https://github.com/CommandPost/FCPCafe/issues/505)
 - [Library Corruption & Preference Reset Issues (September 30, 2025)](https://github.com/CommandPost/FCPCafe/issues/493)
@@ -26,5 +28,3 @@
 - [Background Tasks - Sharing - Percentage Error with Multiple Export: Resets after each completes + lack of "completed" exports (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/403)
 - [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
 - [Reversing Clip - Draw Mask Keyframe Control Points overwritten/clobbered by first keyframe (July 11, 2024)](https://github.com/CommandPost/FCPCafe/issues/384)
-- [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
-- [Moving a library file in 10.8 destroys all consolidated clips in the library. (July 1, 2024)](https://github.com/CommandPost/FCPCafe/issues/376)
