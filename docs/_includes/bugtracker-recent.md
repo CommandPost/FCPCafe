@@ -13,7 +13,6 @@
 - [Hard Crash when opening a Project with a complex Audition (March 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/448)
 - [Audition Audio loses non-FCP Audio Effects when changing Clips (eg macOS AU or Logic AU) (March 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/447)
 - ["Allow export segmentation" option during export, doesn't export chapter information (February 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/446)
-- [FCP Crash AppleAVCIntraCodec - Canon C80 All-Intra, All Resolutions and Frame Rates, Intel Only (February 12, 2025)](https://github.com/CommandPost/FCPCafe/issues/445)
 - [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
@@ -28,3 +27,4 @@
 - [Background Tasks - Sharing - Percentage Error with Multiple Export: Resets after each completes + lack of "completed" exports (October 26, 2024)](https://github.com/CommandPost/FCPCafe/issues/403)
 - [Multiple "Draw Mask" effects - Panel open/close on one effects all... (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/386)
 - [Reversing Clip - Draw Mask Keyframe Control Points overwritten/clobbered by first keyframe (July 11, 2024)](https://github.com/CommandPost/FCPCafe/issues/384)
+- [Can't change parameter value from pluginInstanceAddedToDocument method (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/378)
