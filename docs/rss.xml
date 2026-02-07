@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Feb 2026 12:55:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2026 03:52:44 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Feb 2026 12:55:33 GMT</pubDate>
+        <pubDate>Sat, 07 Feb 2026 03:52:44 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15688,6 +15688,18 @@ Swift     :      55389 (++12423, +28.91%)
             <description><![CDATA[<p><strong>Brad West</strong> has released a video titled, <strong>FIRST LOOK at Final Cut Pro 12! NEW FEATURES Explained!</strong></p>
 <p>You can watch it on <a href="https://www.youtube.com/watch?v=1j7fmizQFNM">YouTube</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=1j7fmizQFNM"><img src="/static/brad-west-update.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#5th-february-2026</link>
+            <guid isPermaLink="false">5th February 2026</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th February 2026]]></title>
+            <description><![CDATA[<p><strong>Ben's Gadget Reviews</strong> has released a video titled, <strong>Using Apple's Creator Studio apps to make a music video from scratch in just 45 minutes</strong>.</p>
+<p>This video gives a sneak peak into the Apple Creator Studio event last week.</p>
+<p>You can also read Ben's full article, titled <strong>We Used Apple’s Creator Studio To Make A Music Video From Scratch In 30 Minutes</strong> on the <a href="https://www.forbes.com/sites/bensin/2026/02/02/we-used-apples-creator-studio-to-make-a-music-video-from-scratch-in-30-minutes/">Forbes</a> website.</p>
+<p>You can watch his video on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=V7G6hKOGhYw"><img src="/static/forbes-video.jpg" alt=""></a></p>
 ]]></description>
             <link>https://fcp.cafe/#5th-february-2026</link>
             <guid isPermaLink="false">5th February 2026</guid>
