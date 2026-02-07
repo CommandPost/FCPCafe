@@ -4,6 +4,8 @@ This section of the site is dedicated to **Workflow Extensions**.
 
 You can find the official [Workflow Extensions documentation](https://developer.apple.com/documentation/professional_video_applications/workflow_extensions?language=objc).
 
+You can download the Workflow Extension SDK on the [Apple Developer Website](https://developer.apple.com/download/all/?q=WorkflowExtensions).
+
 If you want a real-world example of a Workflow Extension, you can look at [CommandPost](https://github.com/CommandPost/CommandPost-App/tree/master/CommandPost%20Workflow%20Extension).
 
 ---

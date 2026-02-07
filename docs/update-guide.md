@@ -10,29 +10,47 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
-**Last Updated:** 31st January 2026
+**Last Updated:** 7th February 2026
 
 ---
 
 ## Summary
 
-Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure you backup Final Cut Pro and your Library first!
+At the timing of writing (7th Feb 2026), I've been using **Final Cut Pro 12.0 (lifetime/perpetual)** every day for 7 days on some very big and complex Final Cut Pro libraries.
 
-My suggestion would be to wait until **Final Cut Pro 12.0.1** until you update unless you REALLY need a feature that the new version has. Trend with care.
+My current library has 40 events and 194 hours and 18 minutes of footage inside.
 
-FWIW - [Jumper](https://getjumper.io/?ref=fcpcafe) does a far better job with machine learning search anyway.
+Generally speaking, it's been pretty good for editing - with no major issues or show-stoppers.
 
-I've already seen reports of corrupted projects, crashes, and general sluggishness.
+However, the Effects Inspector scrolling is super laggy.
+
+This is logged on FCP Cafe:
+
+- [FB21876245: Regression - Effects Inspector painfully slow when scrolling #507](https://github.com/CommandPost/FCPCafe/issues/507)
+
+There's also quite a few crashes already logged:
+
+- [FB21878003: Crash in -[PEAppController validateUserInterfaceItem:] on quit #509](https://github.com/CommandPost/FCPCafe/issues/509)
+- [FB21859688: Crash - setStateForPlugIn crashed when waking from sleep #506](https://github.com/CommandPost/FCPCafe/issues/506)
+- [FB21850781: Crash - [FFEffect(FFEffectRegistry) allRegisteredEffectIDs] #505](https://github.com/CommandPost/FCPCafe/issues/505)
+
+My suggestion... Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure you **backup** Final Cut Pro and your Library first!
+
+My suggestion would be to wait until **Final Cut Pro 12.0.1** until you update unless you **REALLY** need a feature that the new version has. **Trend with care.**
+
+FWIW - [Jumper](https://getjumper.io/?ref=fcpcafe) does a far better job with machine learning search anyway - the Final Cut Pro visual search is insanely fast and handy (so I would never disable it), but it's not very accurate.
+
+I've also already seen social media reports of corrupted projects, crashes, and general sluggishness - however, I can't confirm until people submit feedback to FCP Cafe, so that I can chase up with Apple.
 
 If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** works great.
 
-However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [ugly](https://tonsky.me/blog/tahoe-icons/).
+However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't **NEED** to update, stay on **macOS 15 Sequoia**, because Tahoe is just [super ugly](https://tonsky.me/blog/tahoe-icons/).
 
-There was also previously reported issues of audio cracking/popping, but this is now resolved.
+There was also previously reported issues of audio cracking/popping in Tahoe, but this is now resolved in **macOS Tahoe 26.2**.
 
 For most users, on modern Apple Silicon Mac's **Final Cut Pro 11.2** is rock solid.
 
-We've been using **Final Cut Pro 11.2** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
+We've previously been using **Final Cut Pro 11.2** on large, complex, fast-turnaround jobs without issue on our MacBook Pro (16-inch 2021 M1 Max, 64GB RAM, 8TB SSD, macOS 15.3.2).
 
 If you're currently on **Final Cut Pro 11.0.1**, **Final Cut Pro 11.1**, or **Final Cut Pro 11.1.1** you can safely update to **Final Cut Pro 11.2**.
 
@@ -64,7 +82,7 @@ Our suggestion...
 
 If you're on a new Mac, with **macOS 26 Tahoe** pre-installed - then **Final Cut Pro 11.2** seems like it's working well.
 
-However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [ugly](https://tonsky.me/blog/tahoe-icons/).
+However, if you haven't updated to **macOS 26 Tahoe** yet - if you don't NEED to update, stay on **macOS 15 Sequoia**, because Tahoe is [super ugly](https://tonsky.me/blog/tahoe-icons/).
 
 ---
 
@@ -85,9 +103,9 @@ I've already seen reports of corrupted projects, crashes, and general sluggishne
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| BRAW Toolbox             | No Known Issues                                                                                         |
+| BRAW Toolbox             | Update to BRAW Toolbox v2.0.0.                                                                          |
 | Capacitor                | Update to Capacitor v1.2.0 for FCPXML v1.14 support.                                                    |
-| Color Finale             | No Known Issues                                                                                         |
+| Color Finale             | Update to Color Finale v2.14.0.                                                                         |
 | CommandPost              | Requires an update.                                                                                     |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
@@ -95,7 +113,7 @@ I've already seen reports of corrupted projects, crashes, and general sluggishne
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | Requires Arctic v26.1                                                                                   |
+| Hedge Arctic             | Requires Arctic v26.1.                                                                                  |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
