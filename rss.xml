@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 07 Feb 2026 03:52:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2026 07:33:12 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 07 Feb 2026 03:52:44 GMT</pubDate>
+        <pubDate>Sat, 07 Feb 2026 07:33:11 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15704,6 +15704,44 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#5th-february-2026</link>
             <guid isPermaLink="false">5th February 2026</guid>
             <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th February 2026]]></title>
+            <description><![CDATA[<p><strong>Logic Pro v12.0.1</strong> and <strong>Logic Pro Creator Studio v12.0.1</strong> are out now!</p>
+<p>This update includes stability improvements and bug fixes.</p>
+<p>This is the first time we've seen an update for any Creator Studio apps, and it's pretty clear that the Logic Team is still the king of ProApps - with the fastest bug fix turnaround.</p>
+<p>There's quite a few bugs and crashes in <strong>Final Cut Pro v12</strong>, so HOPEFULLY we see the Final Cut Pro team push out a bug fix update soon too!</p>
+<p>If you haven't updated yet, please check our <a href="/update-guide/">Update Guide</a>.</p>
+<p>You can learn more and download Logic Pro from the <a href="https://apps.apple.com/app/logic-pro/id634148309">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-february-2026</link>
+            <guid isPermaLink="false">7th February 2026</guid>
+            <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th February 2026]]></title>
+            <description><![CDATA[<p><strong>Color Finale v2.14.0 (Build 605)</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Improved overall stability and reliability</li>
+<li>Fixed an issue affecting on-screen controls</li>
+<li>Updated to the latest Apple <code>FxPlug</code> technology for Final Cut Pro 12</li>
+</ul>
+<p>You can learn more on the <a href="https://colorfinale.com">Color Finale website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-february-2026</link>
+            <guid isPermaLink="false">7th February 2026</guid>
+            <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th February 2026]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.3.5</strong> is out now!</p>
+<p>It includes a bug fix for a Workflow Extension crash.</p>
+<p>You can learn more and download from the <a href="https://apps.apple.com/app/creators-best-friend/id1524172135">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-february-2026</link>
+            <guid isPermaLink="false">7th February 2026</guid>
+            <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
