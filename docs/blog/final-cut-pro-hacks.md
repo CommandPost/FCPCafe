@@ -62,7 +62,7 @@ Also, if there’s a feature that you or your company desperately need, please [
 
 ## DOWNLOAD
 
-Please be aware that I’m a *filmmaker*, **not** a *programmer*, so ***use at your own risk!***
+Please be aware that I’m a *filmmaker*, **not** a *programmer*, so **use at your own risk!**
 
 **FCPX Hacks is no longer supported or updated. We recommend using [CommandPost](http://commandpost.io) instead.**
 
@@ -108,7 +108,7 @@ Another handy feature is the **Display Proxy/Original Icon**. This inserts a blu
 
 ---
 
-**FCPX Hacks Console *(Default Shortcut: CONTROL+SPACEBAR)***
+**FCPX Hacks Console (Default Shortcut: `CONTROL+SPACEBAR`)**
 Inspired by [Andrew Kramer’s INCREDIBLE FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) free plugin for After Effects, we’ve also added a “console” to FCPX Hacks. It allows you to activate a bunch of the different shortcuts and automation features directly from the search tool. However, what’s really handy is that if you, for example, click **Update Effects List** from the **Assign Effects Shortcuts** menu, ALL of your effects will appear in the console for easy access – allowing you to very quickly add effects with only your keyboard! You can do this for **Effects**, **Transitions**, **Titles** and **Generators**. You can also right click on the Console to control what items are displayed (i.e. you may only want to see Effects).
 
 Sometimes you might also want to remove certain things from the console too – such as the Blur Title, because what you REALLY want is the Blur Video Effect. To do this, simply right click on an item and select **Remove from List**. We also offer a **Remove From List Mode** that allows you to remove multiple items in bulk. You can also **Favourite** items to make sure they always appear on the top of the list.
@@ -117,7 +117,8 @@ Sometimes you might also want to remove certain things from the console too – 
 
 ---
 
-**FCPX Hacks HUD *(Default Shortcut: CONTROL+OPTION+COMMAND+A)***The HUD (Heads Up Display) is a cool little extra window for Final Cut Pro that offers an **Inspector**, **Drop Targets** and **Buttons** – which can individually be shown or hidden via the **Preferences > HUD Options** menubar. The Inspector shows you what Media & Quality mode you’re currently in, as well as if Automatic Background Rendering is enabled.
+**FCPX Hacks HUD (Default Shortcut: `CONTROL+OPTION+COMMAND+A`)**
+The HUD (Heads Up Display) is a cool little extra window for Final Cut Pro that offers an **Inspector**, **Drop Targets** and **Buttons** – which can individually be shown or hidden via the **Preferences > HUD Options** menubar. The Inspector shows you what Media & Quality mode you’re currently in, as well as if Automatic Background Rendering is enabled.
 
 The XML Sharing feature is discussed below.
 
@@ -129,70 +130,93 @@ The four buttons at the bottom of the HUD, are completely customisable via the *
 
 ## SHORTCUTS
 
-**Open Final Cut Pro *(Default Shortcut: CONTROL+OPTION+COMMAND+L)***With FCPX Hacks open, you can now open Final Cut Pro at any time, system wide.
+**Open Final Cut Pro (Default Shortcut: `CONTROL+OPTION+COMMAND+L`)**
+With FCPX Hacks open, you can now open Final Cut Pro at any time, system wide.
 
-**Create Optimized Media *(No Default Shortcut)***This shortcut simply activates “Create Optimized Media” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in one mouse click.
+**Create Optimized Media (No Default Shortcut)**
+This shortcut simply activates “Create Optimized Media” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in one mouse click.
 
-**Create Multicam Optimized Media *(No Default Shortcut)***This shortcut simply activates “Create optimized media for multicam clips” within the Final Cut Pro Playback Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click
+**Create Multicam Optimized Media (No Default Shortcut)**
+This shortcut simply activates “Create optimized media for multicam clips” within the Final Cut Pro Playback Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click
 
-**Create Proxy Media *(No Default Shortcut)***This shortcut simply activates “Create Proxy Media” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click.
+**Create Proxy Media (No Default Shortcut)**
+This shortcut simply activates “Create Proxy Media” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click.
 
-**Leave Files in Place on Import *(No Default Shortcut)***This shortcut simply activates “Leave in Place” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click.
+**Leave Files in Place on Import (No Default Shortcut)**
+This shortcut simply activates “Leave in Place” within the Final Cut Pro Import Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not in a single mouse click.
 
-**Enable Background Render *(No Default Shortcut)***This shortcut simply activates “Background Render” within the Final Cut Pro Playback Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not, as well as what the start after time is set to in a single mouse click.
+**Enable Background Render (No Default Shortcut)**
+This shortcut simply activates “Background Render” within the Final Cut Pro Playback Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not, as well as what the start after time is set to in a single mouse click.
 
 ---
 
 ## AUTOMATION
 
-**Highlight Browser Playhead *(Default Shortcut: CONTROL+OPTION+COMMAND+H)***By default this feature puts a big red rectangle around the Final Cut Pro browser playhead to make it really easy to instantly spot. You can change the colour to Blue, Green or Yellow and the shape to a circle or diamond within the FCPX Hacks preferences.
+**Highlight Browser Playhead (Default Shortcut: `CONTROL+OPTION+COMMAND+H`)**
+By default this feature puts a big red rectangle around the Final Cut Pro browser playhead to make it really easy to instantly spot. You can change the colour to Blue, Green or Yellow and the shape to a circle or diamond within the FCPX Hacks preferences.
 
-![highlight](/static/blog/09-highlight.jpg)
+![](/static/blog/09-highlight.jpg)
 
-**Reveal in Browser & Highlight *(Default Shortcut: CONTROL+OPTION+COMMAND+F)***The original feature of FCPX Hacks! This feature performs a normal “Reveal in Browser”, but then highlights the playhead so that you can spot it easily.
+**Reveal in Browser & Highlight (Default Shortcut: `CONTROL+OPTION+COMMAND+F`)**
+The original feature of FCPX Hacks! This feature performs a normal “Reveal in Browser”, but then highlights the playhead so that you can spot it easily.
 
-**Single Match Frame & Highlight *(Default Shortcut: CONTROL+OPTION+COMMAND+S)***This feature performs a normal “Reveal in Browser”, however whatever clip your playhead is over (for example, let’s say it’s a clip called “Test”) – this feature will then automatically insert “Test” into the Browser Search box, so that only the single clip appears in the Browser, and also highlights the playhead.
+**Single Match Frame & Highlight (Default Shortcut: `CONTROL+OPTION+COMMAND+S`)**
+This feature performs a normal “Reveal in Browser”, however whatever clip your playhead is over (for example, let’s say it’s a clip called “Test”) – this feature will then automatically insert “Test” into the Browser Search box, so that only the single clip appears in the Browser, and also highlights the playhead.
 
-**Reveal Multicam in Browser & Highlight *(Default Shortcut: CONTROL+OPTION+COMMAND+D)***This feature performs essentially performs a “Reveal in Browser” command on the source clip within a multicam clip. Once match-framed into the browser, it will then highlight it for easily spotting.
+**Reveal Multicam in Browser & Highlight (Default Shortcut: `CONTROL+OPTION+COMMAND+D`)**
+This feature performs essentially performs a “Reveal in Browser” command on the source clip within a multicam clip. Once match-framed into the browser, it will then highlight it for easily spotting.
 
-**Reveal Multicam in Angle Editor & Highlight *(Default Shortcut: CONTROL+OPTION+COMMAND+G)***This feature allows you to easily “match frame” to whatever frame your playhead is over in the Multicam Angle editor, and will also highlight the source clip within the browser.
+**Reveal Multicam in Angle Editor & Highlight (Default Shortcut: `CONTROL+OPTION+COMMAND+G`)**
+This feature allows you to easily “match frame” to whatever frame your playhead is over in the Multicam Angle editor, and will also highlight the source clip within the browser.
 
-**Cut n Switch Audio/Video/Both Angle 1-16 *(No Default Shortcut)***Changes the multi-cam mode then performs a standard “Cut and Switch to Viewer Angle” shortcut in a single keypress.
+**Cut n Switch Audio/Video/Both Angle 1-16 (No Default Shortcut)**
+Changes the multi-cam mode then performs a standard “Cut and Switch to Viewer Angle” shortcut in a single keypress.
 
-![cut-n-switch](/static/blog/09-cut-n-switch.jpg)
+![](/static/blog/09-cut-n-switch.jpg)
 
-**Move To Playhead *(No Default Shortcut)***Performs a Cut then Paste in a single keypress.
+**Move To Playhead (No Default Shortcut)**
+Performs a Cut then Paste in a single keypress.
 
-**Select Clips Forward *(Default Shortcut: CONTROL+OPTION+COMMAND+RIGHT)*Select Clips Backwards *(Default Shortcut: CONTROL+OPTION+COMMAND+RIGHT)***The shortcut brings back the “Select Track Forward/Backwards” or “T” tool as it was known in Final Cut Pro 7. It allows you to select all the clips in the timeline to the left or right of the timeline playhead.
+**Select Clips Forward (Default Shortcut: `CONTROL+OPTION+COMMAND+RIGHT`)**
+**Select Clips Backwards (Default Shortcut: `CONTROL+OPTION+COMMAND+RIGHT`)**
+The shortcut brings back the “Select Track Forward/Backwards” or “T” tool as it was known in Final Cut Pro 7. It allows you to select all the clips in the timeline to the left or right of the timeline playhead.
 
-**Select Clip at Lane 1-10 *(No Default Shortcuts)***These shortcuts allow you to easily select clips outside of the Primary Storyline. For example, if you want to select a connected clip that’s directly above your primary storyline, you can assign the “Select Clip at Lane 1” to your preferred shortcut key via the Command Editor and away you go!
+**Select Clip at Lane 1-10 (No Default Shortcuts)**
+These shortcuts allow you to easily select clips outside of the Primary Storyline. For example, if you want to select a connected clip that’s directly above your primary storyline, you can assign the “Select Clip at Lane 1” to your preferred shortcut key via the Command Editor and away you go!
 
-![select-lane](/static/blog/09-select-lane.jpg)
+![](/static/blog/09-select-lane.jpg)
 
-**Restore Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+1 TO 9)*
-Save Keyword Preset *(Default Shortcut: CONTROL+OPTION+COMMAND+SHIFT+1 TO 9)***One of the coolest features of FCPX Hacks is the ability to save and restore up to nine keyword presets. What this means is that if you type in up to nine keywords in the Keyword Editor, you can save all of these these keyword shortcuts to a preset, and restore it at a later time – and even on a completely different library. This is great if you’re constantly using the same keywords between libraries, or you want to have more than the default nine keyword shortcuts.
+**Restore Keyword Preset (Default Shortcut: `CONTROL+OPTION+COMMAND+1 TO 9`)**
+**Save Keyword Preset (Default Shortcut: `CONTROL+OPTION+COMMAND+SHIFT+1 TO 9`)**
+One of the coolest features of FCPX Hacks is the ability to save and restore up to nine keyword presets. What this means is that if you type in up to nine keywords in the Keyword Editor, you can save all of these these keyword shortcuts to a preset, and restore it at a later time – and even on a completely different library. This is great if you’re constantly using the same keywords between libraries, or you want to have more than the default nine keyword shortcuts.
 
-![fcpx-keywords](/static/blog/09-fcpx-keywords.jpg)
+![](/static/blog/09-fcpx-keywords.jpg)
 
-**Timeline Clip Height Increase/Decrease *(Default Shortcut: CONTROL+OPTION+COMMAND+PLUS OR MINUS)***Allows you to easily increase and decrease the timeline clip height. You can either press once to move in small increments, or hold down to increase/decrease quickly (something Final Cut Pro’s native shortcuts can’t do).
+**Timeline Clip Height Increase/Decrease (Default Shortcut: `CONTROL+OPTION+COMMAND+PLUS OR MINUS`)**
+Allows you to easily increase and decrease the timeline clip height. You can either press once to move in small increments, or hold down to increase/decrease quickly (something Final Cut Pro’s native shortcuts can’t do).
 
-**Batch Export from Browser *(Default Shortcut: CONTROL+OPTION+COMMAND+E)***This incredibly powerful feature allows you batch export multiple clips and projects, or even the entire contents of multiple Smart/Keyword Collections, Events or even entire Libraries directly from the Final Cut Pro browser. All you need to do is make your selection, press the shortcut and let Final Cut Pro do it’s thing! By default the Batch Exporter will using your default destination and export to your last used export location, however this can be overridden via the Batch Export options in the FCPX Hacks menubar preferences.
+**Batch Export from Browser (Default Shortcut: `CONTROL+OPTION+COMMAND+E`)**
+This incredibly powerful feature allows you batch export multiple clips and projects, or even the entire contents of multiple Smart/Keyword Collections, Events or even entire Libraries directly from the Final Cut Pro browser. All you need to do is make your selection, press the shortcut and let Final Cut Pro do it’s thing! By default the Batch Exporter will using your default destination and export to your last used export location, however this can be overridden via the Batch Export options in the FCPX Hacks menubar preferences.
 
 ![](/static/blog/09-batchexport-1.jpg)
 
-**Scrolling Timeline *(Default Shortcut: CONTROL+OPTION+COMMAND+W)***
+**Scrolling Timeline (Default Shortcut: `CONTROL+OPTION+COMMAND+W`)**
 As its been the number one request on [Richard Taylor’s Final Cut Pro X Top Requests Master List](http://fcpx.tv/top/) since day one, we’ve finally added a **Scrolling Timeline** option to Final Cut Pro. To activate and deactivate Scrolling Timeline Mode, by default you press **CONTROL+OPTION+COMMAND+W**, or select **Enable Scrolling Timeline** from the FCPX Hacks menu. Once activated, you will see a little notification on your screen saying “**Scrolling Timeline Activated”**. Now, if you have your **mouse in the timeline area** and press **spacebar**, the timeline will automatically scroll for you! However, if you press spacebar with the mouse outside of the timeline area – the timeline will playback as normal, allowing you to easily switch between the two modes. You can also deactivate the scrolling timeline during playback by pressing the Scrolling Timeline Mode shortcut key again (**CONTROL+OPTION+COMMAND+W**). Of course, this shortcut key can always be customised as explained above! If your playhead is not visible when you press play, FCPX Hacks will automatically move your playhead to the middle of the timeline. You can continue to use all your usual shortcuts (i.e. ‘Add Marker’ and ‘Blade’) whilst playing back and the playhead will remain static.
 
 ![](/static/blog/09-scrollingtimeline-1.jpg)
 
-**Timeline Playhead Lock *(No Default Shortcut)***Similar to the Scrolling Timeline, we also offer a Timeline Playhead Lock, which when enabled, locks the timeline playhead to the centre of the timeline. This feature is off by default and you must assign it a shortcut key in the Command Editor to activate it.
+**Timeline Playhead Lock (No Default Shortcut)**
+Similar to the Scrolling Timeline, we also offer a Timeline Playhead Lock, which when enabled, locks the timeline playhead to the centre of the timeline. This feature is off by default and you must assign it a shortcut key in the Command Editor to activate it.
 
-**Select Color Board Puck *(Default Shortcuts: CONTROL+OPTION+COMMAND+M , . / )***Until now there’s been no shortcut key to individual select Color Board pucks – however thanks to FCPX Hacks, you can now not only select individual pucks with a single mouse click, but also to make colour grading within Final Cut Pro a lot easier with a control surface, we’ve added lots of additional **Color Board Shortcuts** to the Command Editor – such as “Color Board: Color Puck 1 & Down” – which selects the Global puck within the Color panel and then moves the puck in a downward direction. If you hold one of these shortcuts down, the puck will continue to move until you release the shortcut. None of these shortcuts have defaults, so you’ll need to assign them in the Command Editor to use them.
+**Select Color Board Puck (Default Shortcuts: `CONTROL+OPTION+COMMAND+M , . /`)**
+Until now there’s been no shortcut key to individual select Color Board pucks – however thanks to FCPX Hacks, you can now not only select individual pucks with a single mouse click, but also to make colour grading within Final Cut Pro a lot easier with a control surface, we’ve added lots of additional **Color Board Shortcuts** to the Command Editor – such as “Color Board: Color Puck 1 & Down” – which selects the Global puck within the Color panel and then moves the puck in a downward direction. If you hold one of these shortcuts down, the puck will continue to move until you release the shortcut. None of these shortcuts have defaults, so you’ll need to assign them in the Command Editor to use them.
+
 ![](/static/blog/09-fcpx-40-commandeditor.png)
 
-**Mouse Control of Color Board Pucks *(No Default Shortcut)***These shortcuts are unassigned by default, so you’ll need to activate **Enable Hacks Shortcuts in Final Cut Pro** to use them. Once assigned via the Final Cut Pro Command Editor, these shortcuts allow you to control the Color Board pucks with your mouse. For example, if you assign **Mouse Control Color Puck 1** to OPTION+Z, when you hold down the OPTION+Z and move your mouse – the puck will move with the mouse. This video demonstrates:
+**Mouse Control of Color Board Pucks (No Default Shortcut)**
+These shortcuts are unassigned by default, so you’ll need to activate **Enable Hacks Shortcuts in Final Cut Pro** to use them. Once assigned via the Final Cut Pro Command Editor, these shortcuts allow you to control the Color Board pucks with your mouse. For example, if you assign **Mouse Control Color Puck 1** to OPTION+Z, when you hold down the OPTION+Z and move your mouse – the puck will move with the mouse. This video demonstrates:
 
-**Enable Shortcuts During Fullscreen Playback *(No Default Shortcut)***
+**Enable Shortcuts During Fullscreen Playback (No Default Shortcut)**
 FCPX Hacks also adds the ability to perform **Set Range Start**, **Set Range Out**, **Connect to Primary Storyline**, **Connect to Primary Storyline Backtimed,** **Insert** and **Append to Storyline**, whilst in fullscreen playback mode. This feature is off by default, and can be enabled via the FCPX Hacks Menubar. These shortcuts will still work, even if you customise your shortcuts for these commands (i.e. if you change the **Set Range Start** to a key other than **I**).
 
 ![](/static/blog/09-fullscreenplayback.jpg)
@@ -205,27 +229,33 @@ You can now **Assign Individual Effects, Transitions, Titles & Generators to Key
 
 ## TOOLS
 
-**Touch Bar *(Default Shortcut: CONTROL+OPTION+COMMAND+Z)***For those that don’t have access to the fancy brand new MacBook Pro, inspired by the [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp), we’re brought the Touch Bar to the desktop as an on-screen display! The Touch Bar offers some really handy features, such as the ability to view a “mini-timeline” allowing you to very quickly navigate your project. Via the FCPX Hacks menubar you can choose to have the Touch Bar appear wherever your mouse pointer is, to have it appear at the top centre of your timeline, for a more consistent experience. The Touch Bar will “disappear” when you close FCPX, and reposition itself if you resize the window. If you hold down the left **OPTION** key and click on the Touch Bar you can drag it to another location regardless of which mode you’re in.
+**Touch Bar (Default Shortcut: `CONTROL+OPTION+COMMAND+Z`)**
+For those that don’t have access to the fancy brand new MacBook Pro, inspired by the [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp), we’re brought the Touch Bar to the desktop as an on-screen display! The Touch Bar offers some really handy features, such as the ability to view a “mini-timeline” allowing you to very quickly navigate your project. Via the FCPX Hacks menubar you can choose to have the Touch Bar appear wherever your mouse pointer is, to have it appear at the top centre of your timeline, for a more consistent experience. The Touch Bar will “disappear” when you close FCPX, and reposition itself if you resize the window. If you hold down the left **OPTION** key and click on the Touch Bar you can drag it to another location regardless of which mode you’re in.
 
-![touchbar](/static/blog/09-touchbar.jpg)
+![](/static/blog/09-touchbar.jpg)
 
-![touchbar-settings](/static/blog/09-touchbar-settings.jpg)
+![](/static/blog/09-touchbar-settings.jpg)
 
-**Paste From Clipboard History *(No Default Shortcut)***This feature is off by default and must be activated by clicking **Enable Clipboard History** in the **Tools Options** menubar. Once activated, every time you copy something in Final Cut Pro, it will be added to the Clipboard History. FCPX Hacks currently remembers the last 5 items – even after you restart your computer. If you want to clear your history, there’s a **Clear Clipboard History** option in the menubar.
+**Paste From Clipboard History (No Default Shortcut)**
+This feature is off by default and must be activated by clicking **Enable Clipboard History** in the **Tools Options** menubar. Once activated, every time you copy something in Final Cut Pro, it will be added to the Clipboard History. FCPX Hacks currently remembers the last 5 items – even after you restart your computer. If you want to clear your history, there’s a **Clear Clipboard History** option in the menubar.
 
 ![](/static/blog/09-clipboardhistory.jpg)
 
-**Paste from Shared Clipboard *(No Default Shortcut)***This feature is off by default and must be activated by clicking both **Enable Clipboard History** and **Enable Shared Clipboard** from the FCPX Hacks menubar. When you click **Enable Shared Clipboard** you will be prompted to select a folder in which you’ll save your shared clipboard. This should be a network drive, or cloud storage such as iCloud or Dropbox, so multiple editors can access the shared clipboard at the same time. Once enabled, when you copy anything in FCPX it will automatically appear on all of your machines that are running FCPX Hacks and pointing to the same Shared Clipboard folder. This makes sharing assets between machines as easy as copying and pasting!
+**Paste from Shared Clipboard (No Default Shortcut)**
+This feature is off by default and must be activated by clicking both **Enable Clipboard History** and **Enable Shared Clipboard** from the FCPX Hacks menubar. When you click **Enable Shared Clipboard** you will be prompted to select a folder in which you’ll save your shared clipboard. This should be a network drive, or cloud storage such as iCloud or Dropbox, so multiple editors can access the shared clipboard at the same time. Once enabled, when you copy anything in FCPX it will automatically appear on all of your machines that are running FCPX Hacks and pointing to the same Shared Clipboard folder. This makes sharing assets between machines as easy as copying and pasting!
 
 ![](/static/blog/09-sharedclipboard-1.jpg)
 
-**Import Shared XML File *(No Default Shortcut)***This feature is off by default and must be activated by clicking **Enable XML Sharing** from the FCPX Hacks menubar. When you click this you will be prompted to select a folder to use as your “shared” folder (which should be a network drive, or cloud storage such as iCloud or Dropbox so that multiple editors can access this folder at the same time). Once enabled, if you drag anything from the Final Cut Pro browser to the HUD XML Sharing Drop Zone, you will be presented with a dialog box to enter a name for this XML file. Once you enter a name and click “OK”, it will automatically appear on all of your machines that are running FCPX Hacks and pointing to the same shared folder. Everyone running FCPX Hacks and pointing to the same shared XML folder will receive a macOS notification alerting them to the new XML.
+**Import Shared XML File (No Default Shortcut)**
+This feature is off by default and must be activated by clicking **Enable XML Sharing** from the FCPX Hacks menubar. When you click this you will be prompted to select a folder to use as your “shared” folder (which should be a network drive, or cloud storage such as iCloud or Dropbox so that multiple editors can access this folder at the same time). Once enabled, if you drag anything from the Final Cut Pro browser to the HUD XML Sharing Drop Zone, you will be presented with a dialog box to enter a name for this XML file. Once you enter a name and click “OK”, it will automatically appear on all of your machines that are running FCPX Hacks and pointing to the same shared folder. Everyone running FCPX Hacks and pointing to the same shared XML folder will receive a macOS notification alerting them to the new XML.
 
 ![](/static/blog/09-sharedxml.jpg)
 
-**Close Media Import When Card Inserted *(No Default Shortcut)***This feature is off by default and must be activated by clicking **Close Media Import When Card Inserted** in the menubar. Once activated, this feature will automatically close the **Media Import** window in Final Cut Pro when you insert a camera card (such as an SD or CF card). **![](/static/blog/09-mediaimport.jpg)**
+**Close Media Import When Card Inserted (No Default Shortcut)**T
+his feature is off by default and must be activated by clicking **Close Media Import When Card Inserted** in the menubar. Once activated, this feature will automatically close the **Media Import** window in Final Cut Pro when you insert a camera card (such as an SD or CF card). **![](/static/blog/09-mediaimport.jpg)**
 
-**Mobile Notifications *(No Default Shortcut)***This feature is off by default and must be activated by clicking **Enable Mobile Notifications** in the menubar. When activating this feature, you’ll be asked to enter your **Prowl API key**. If you don’t already have one, you can register and get one for free [here](https://www.prowlapp.com/register.php).
+**Mobile Notifications (No Default Shortcut)**
+This feature is off by default and must be activated by clicking **Enable Mobile Notifications** in the menubar. When activating this feature, you’ll be asked to enter your **Prowl API key**. If you don’t already have one, you can register and get one for free [here](https://www.prowlapp.com/register.php).
 
 Once activated, every time Final Cut Pro successfully or unsuccessfully completes an export, you’ll get an alert on any mobile devices that have the [Prowl app](https://www.prowlapp.com/apps.php) installed, such as your iPhone or iPad.
 
@@ -235,15 +265,20 @@ Once activated, every time Final Cut Pro successfully or unsuccessfully complete
 
 ## HACKS
 
-**Enable Timecode Overlay *(Default Shortcut: CONTROL+OPTION+COMMAND+T)***This feature turns on a hidden Final Cut Pro preference that enables timecode overlays in the Viewer. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
+**Enable Timecode Overlay (Default Shortcut: `CONTROL+OPTION+COMMAND+T`)**
+This feature turns on a hidden Final Cut Pro preference that enables timecode overlays in the Viewer. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
 
-**Enable Moving Markers *(Default Shortcut: CONTROL+OPTION+COMMAND+Y)***This feature turns on a hidden Final Cut Pro preference originally discovered by [Alex4D](http://alex4d.com/notes/item/fcpx-movable-markers) that allows you to move markers in your timeline with your mouse. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
+**Enable Moving Markers (Default Shortcut: `CONTROL+OPTION+COMMAND+Y`)**
+This feature turns on a hidden Final Cut Pro preference originally discovered by [Alex4D](http://alex4d.com/notes/item/fcpx-movable-markers) that allows you to move markers in your timeline with your mouse. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
 
-**Enable Render During Playback *(Default Shortcut: CONTROL+OPTION+COMMAND+P)***This feature turns on a hidden Final Cut Pro preference that allows you to continue rendering and performing other tasks whilst Final Cut Pro is still playing back in the timeline. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
+**Enable Render During Playback (Default Shortcut: `CONTROL+OPTION+COMMAND+P`)**
+This feature turns on a hidden Final Cut Pro preference that allows you to continue rendering and performing other tasks whilst Final Cut Pro is still playing back in the timeline. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
 
-**Change Backup Interval *(Default Shortcut: CONTROL+OPTION+COMMAND+B)***This feature allows you to manipulate a hidden Final Cut Pro preference that allows you to change Final Cut’s internal backup interval. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
+**Change Backup Interval (Default Shortcut: `CONTROL+OPTION+COMMAND+B`)**
+This feature allows you to manipulate a hidden Final Cut Pro preference that allows you to change Final Cut’s internal backup interval. As this is a “hack” it requires Final Cut Pro to restart before taking affect.
 
-**Change Smart Collections Label *(Currently Accessed by Menubar Only)***This feature allows you to change the label of the Smart Collection that’s added by default in every new Final Cut Pro project. This is just changing the meta-data behind the scenes, so it doesn’t affect your library at all (i.e. if you open the same library on another machine, it will go back to saying “Smart Collections”).
+**Change Smart Collections Label (Currently Accessed by Menubar Only)**
+This feature allows you to change the label of the Smart Collection that’s added by default in every new Final Cut Pro project. This is just changing the meta-data behind the scenes, so it doesn’t affect your library at all (i.e. if you open the same library on another machine, it will go back to saying “Smart Collections”).
 
 ---
 
@@ -316,7 +351,7 @@ I’m also currently working on a bunch of other features based on things I’d 
 - Select all single clips of one role directly in the timeline for adjusting (not just on/off) without making an compound
 - Re-calculate optical flow for everything in the timeline
 
-Also, feel free to leave more detailed feature suggestions in the comments below, or shoot me through an [email](./../contact/).
+Also, feel free to leave more detailed feature suggestions in the comments below, or shoot me through an email.
 
 ***Thanks for testing!***
 
@@ -364,27 +399,27 @@ If you want to test it out, here’s how:
 * Hammerspoon comes as a ZIP file. Unzip it and drag the **Hammerspoon.app** to your **Applications** folder.
 * You can now run Hammerspoon. The first time you run it you’ll be presented with a **Preferences** panel:
 
-![hammerspoon-01](/static/blog/09-hammerspoon-01.jpg)
+![](/static/blog/09-hammerspoon-01.jpg)
 
 * To actually function properly, Hammerspoon needs Accessibility permissions. Click the **Enable Accessibility** button.
 * You’ll then be presented with a Security window like the below. Click **Open System Preferences**.
 
-![hammerspoon-02](/static/blog/09-hammerspoon-02.jpg)
+![](/static/blog/09-hammerspoon-02.jpg)
 
 * This will open the **Security & Privacy** system preferences. You’ll need to unlock the panel by clicking the paddock in the left hand corner of the screen, and enter in your computers password. Once the panel is unlocked, you’ll need to make sure the Hammerspoon item is ticked as per below. Once done, you can now close this window.
 
-![hammerspoon-03](/static/blog/09-hammerspoon-03.jpg)
+![](/static/blog/09-hammerspoon-03.jpg)
 
 * Out of the box, Hammerspoon does nothing. What you need to do now is *feed* it some code!
 * So let’s **Quit** Hammerspoon for now.
 * You can download the latest script at the top of this page (I’ll be constantly updating this link as I slowly improve the script based on your feedback). This also comes as a ZIP. When you unzip it, you’ll find a file called **init.lua** and a folder called **hs**. This is what we need to give to Hammerspoon. The file is just a plain text file, so you can open it up in TextEdit (or my preference [BBEdit](http://www.barebones.com/products/bbedit/)) if you want to check out the code. The **hs** folder contains some [additional Hammerscript modules](https://github.com/asmagill/hammerspoon_asm/tree/master/axuielement) not written by me.
 * We now need to move the downloaded **init.lua** and **hs** folder to **~/.hammerspoon/**. The easiest way to do this is click **Go > Go To Folder** from the menubar in Finder (or press **COMMAND + SHIFT + G** from the desktop).
 
-![hammerspoon-04](/static/blog/09-hammerspoon-04.jpg)
+![](/static/blog/09-hammerspoon-04.jpg)
 
 * You’ll then be presented with a dialogue box, where you need to type **~/.hammerspoon/**.
 
-![hammerspoon-05](/static/blog/09-hammerspoon-05.jpg)
+![](/static/blog/09-hammerspoon-05.jpg)
 
 * This will open the hidden **Hammerspoon** folder, where you need to drop in the previously downloaded **init.lua** file and **hs** folder.
 * Now when you open **Hammerspoon** it should load the script, ready to rock and roll!
