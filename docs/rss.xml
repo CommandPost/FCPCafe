@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 07 Feb 2026 07:33:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Feb 2026 11:33:10 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 07 Feb 2026 07:33:11 GMT</pubDate>
+        <pubDate>Sun, 08 Feb 2026 11:33:09 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15742,6 +15742,71 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#7th-february-2026</link>
             <guid isPermaLink="false">7th February 2026</guid>
             <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th February 2026]]></title>
+            <description><![CDATA[<p><strong>CommandPost v2.0.1</strong> is out now!</p>
+<p><img src="/static/commandpost-v2-0-1.png" alt=""></p>
+<p>It includes the following changes:</p>
+<p><strong>NEW FEATURE:</strong></p>
+<ul>
+<li>Added new <strong>Focus on Scale All</strong> action. Thanks for suggesting Iván de Paz!</li>
+</ul>
+<p><strong>IMPROVEMENTS:</strong></p>
+<ul>
+<li>Updated translations for all 24 languages! Thanks team!</li>
+<li>Improved how we handle things when <strong>Final Cut Pro v12</strong> (perpetual/lifetime), <strong>Final Cut Pro v11.2 Free Trial</strong> and <strong>Final Cut Pro Creator Studio v12</strong> (subscription) are all installed in your <code>/Applications</code> folder. CommandPost will prioritise whatever is running at the time CommandPost starts.</li>
+<li>Improved the Final Cut Pro General Preferences API when using <strong>Final Cut Pro Creator Studio</strong> (subscription).</li>
+<li>Improved Administrator Permission popups when using <strong>Final Cut Pro Creator Studio</strong> (subscription).</li>
+<li>Updated the Monogram Plugin to work with <strong>Final Cut Pro Creator Studio v12</strong> (subscription).</li>
+</ul>
+<p><strong>BUG FIXES:</strong></p>
+<ul>
+<li>Fixed Titles &amp; Generator Actions in <strong>Final Cut Pro v12</strong>. Thanks for reporting Geroimparable and Pebowski!</li>
+<li>Fixed Video Inspector Tint Actions. Thanks for reporting  푸쉬맨!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
+<p>Whilst generally speaking the feedback we've gotten so far from CommandPost users is insanely positive, there are still a few people confused as to why CommandPost is no longer &quot;free&quot; to download. To give you some backstory...</p>
+<p>Back on 15th September 2016, <strong>FCPX Hacks</strong> was born into the world. You can read the origin story <a href="https://fcp.cafe/blog/final-cut-pro-hacks/#original-blog-post-15th-september-2016">on this old blog post</a>.</p>
+<p>I wrote:</p>
+<blockquote>
+<p>Over the last few days, I’ve been having lots of discussions with other Final Cut Pro users on social media about how annoying the <strong>Reveal in Browser</strong> (aka &quot;Match Frame&quot;) feature in FCPX is. The problem is that if you have hundreds of clips within your browser, when you match frame it’s really hard to instantly visually see where the playhead is in a sea of other clips. It’s also really annoying if you’ve got your playhead at a specific position in the browser, then continue editing in the timeline for a hour or so, and want to easily jump back to that browser playhead position to continue where you left off. It’s VERY hard to spot which clip is selected and where the tiny white playhead is hiding in the browser!</p>
+</blockquote>
+<p>Basically, I really wanted to solve this problem for <a href="https://www.scottsimmons.tv">Scott Simmons</a>, and I couldn't solve it with AppleScript or Automator (and at the time I had ZERO idea about Xcode), but I found a little open source project called <a href="https://www.hammerspoon.org">Hammerspoon</a>, and kinda fell in love.</p>
+<p>I grew up with BASIC programming on a PC, and Lua (the scripting language used in Hammerspoon) was VERY similar.</p>
+<p>Once I solved the <strong>Highlight Playhead</strong> problem, I started tackling hundreds of other Final Cut Pro Workflow issues.</p>
+<p>Eventually <strong>FCPX Hacks</strong> became a monster with hundreds of features. You can read about it on <a href="https://fcp.cafe/blog/final-cut-pro-hacks/#final-cut-pro-hacks">this old blog post</a>.</p>
+<p>As <strong>FCPX Hacks</strong> grew though, something awesome happened. A Brisbane guy called David Peterson got in touch. He was a filmmaker, but also a professional programmer, and he had some ideas on how to fix up <strong>FCPX Hacks</strong> to make it better.</p>
+<p>We started collaborating... a lot. He introduced me to <a href="https://github.com">GitHub</a>. He slowly helped me transform my GIANT single Lua file (that was <strong>FCPX Hacks</strong>) into <strong>many</strong> individual files.</p>
+<p>Eventually, we decided, rather than just shipping a bunch of Lua scripts, and asking users to install Hammerspoon - we forked Hammerspoon, renamed <strong>FCPX Hacks</strong> to <strong>CommandPost</strong>, and started shipping it as a self-contained application.</p>
+<p>In <strong>November 2019</strong>, after <strong>78 releases</strong> of <strong>FCPX Hacks</strong> and <strong>91 beta releases</strong> of CommandPost, CommandPost v1.0.0 was released into the world.</p>
+<p>At the time, with over 3300 active monthly users and over 1208 users in our Facebook Community, we were very happy with the progress CommandPost had made over the previous three years.</p>
+<p>Over the next 7 years, we continued to update CommandPost and make it bigger and better.</p>
+<p>More control surfaces were added. Every time Apple pushed out a Final Cut Pro update, we had to madly work to support it on launch day.</p>
+<p>Apple has never given us access to early copies/betas/seeds of Final Cut Pro - so we get our hands on it the same day that you do - and generally speaking something breaks, because a user interface has changed, a button has been renamed, or the <code>FCPXML DTD</code> has been updated.</p>
+<p>Whilst there were some amazing companies like Tangent and Loupedeck who have been INCREDIBLY supportive of CommandPost, for most control surface companies, they didn't really care about CommandPost, so we had to buy our own hardware to make things work.</p>
+<p>Over the years both David and I have spent an insane amount of hours on CommandPost, especially in the early days:</p>
+<p><img src="/static/github-stats.png" alt=""></p>
+<p>We've also spent a LOT of money on control surfaces out of our own pockets.</p>
+<p><img src="/static/commandpost-buttons.jpg" alt=""></p>
+<p>Whilst we've always offered a way to sponsor CommandPost on GitHub, very few took up the opportunity.</p>
+<p>At the time of writing, the CommandPost GitHub repository currently has 9 sponsors, and my personal GitHub repository currently has 3 sponsors.</p>
+<p>The GitHub income barely covers the cost of the domain, let alone buying control surfaces for testing.</p>
+<p>The hope/dream has always been to get CommandPost onto the Mac App Store, but unfortunately the Mac App Store doesn't allow any applications that use Private APIs or applications that use the Accessibility API - so that basically rules out CommandPost all together.</p>
+<p>However, there are &quot;tricks&quot; to get it on the Mac App Store - some apps get around the Accessibility API rules by having an optional helper application that does all the Accessibility work.</p>
+<p>I spent a few months trying to get something onto the Mac App Store - but just hit road-block after road-block, so in the end I decided to come up with another plan.</p>
+<p>Building out our own licensing system, and online shop was definitely an option, but I helped do that for <a href="https://getjumper.io">Jumper</a>, and it was a HUGE amount of work, and there's an on-going cost for Paddle &amp; Keygen. Basically, this just all falls into the too hard basket, so I came up with something a bit more unique...</p>
+<p><strong>CommandPost v2</strong> now requires at least <strong>ONE PAID</strong> <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application installed.</p>
+<p>After <strong>9 years of free updates</strong>, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application installed to use CommandPost moving forward - consider it &quot;inner circle&quot; software (i.e. only our mates get access to it).</p>
+<p>To use <strong>CommandPost v2</strong> please download and install at least <strong>ONE</strong> <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application from the <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">Mac App Store</a>. The cheapest is <strong>USD$10</strong>.</p>
+<p>Alternatively, you can always stay on <strong>CommandPost v1</strong> without updating (you can turn off <strong>Automatically Check for Updates</strong> in the CommandPost's <strong>General Preferences</strong>), or build CommandPost yourself in <a href="https://github.com/CommandPost/CommandPost">Xcode</a>, as it remains completely open source.</p>
+<p>HOPEFULLY this little bit of extra income will allow me to spend more time on CommandPost, so that I can continue to add more control surface support, and deeper integration into Final Cut Pro moving forward.</p>
+<p>Thank you to <strong>EVERYONE</strong> who has supported CommandPost throughout these years!</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-february-2026</link>
+            <guid isPermaLink="false">8th February 2026</guid>
+            <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
