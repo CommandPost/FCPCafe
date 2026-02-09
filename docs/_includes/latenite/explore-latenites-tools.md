@@ -34,6 +34,15 @@ This page showcases all the stuff we've build, throw together and collaborated o
 
 ## Chris Hocking
 
+You can follow Chris on:
+
+- [Twitter](https://x.com/chrisatlatenite)
+- [Mastodon](https://mastodon.social/@latenitefilms)
+- [Bluesky](https://bsky.app/profile/latenite.bsky.social)
+- [Threads](https://www.threads.com/@chrisatlatenite)
+
+However, the best place to chat is on [Discord](https://ltnt.tv/discord).
+
 If you want to learn more about Chris' backstory, you can watch him on [Ascent Media's podcast](https://ascentmedia.com.au/ascendyourstory):
 
 [![](/static/chris-hocking-podcast-youtube.jpg)](https://www.youtube.com/watch?v=Ik4_jlKK_Tg)
