@@ -15,6 +15,6 @@ Some of the core features include :
 
 If you are a FCP user or developer who is trying to send or upload data to Airtable, you can use our tool!
 
-Spearheaded by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran).
+Spearheaded by [Vigneswaran Rajkumar](https://bsky.app/profile/vigneswaranrajkumar.com).
 
 [!button text="View on GitHub" target="blank" variant="info"](https://github.com/TheAcharya/Airlift)
