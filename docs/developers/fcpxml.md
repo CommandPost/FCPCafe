@@ -42,21 +42,29 @@ You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Cla
 
 ---
 
-## DAWFileKit
+## swift-daw-file-tools
 
-[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called [DAWFileKit](https://github.com/orchetect/DAWFileKit), which can read and process FCPXML.
+[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called [swift-daw-file-tools](https://github.com/orchetect/swift-daw-file-tools), which can read and process FCPXML.
 
 ---
 
-## Pipeline Neo
+## SwiftSecuencia
 
-[Pipeline](https://github.com/reuelk/pipeline) was originally developed by [Reuel Kim](https://github.com/reuelk) and it is no longer maintained. **Pipeline Neo** was created as a spin-off project to fix and update the library when necessary.
+SwiftSecuencia provides a type-safe, Swift-native API for creating and exporting media timelines. Build timelines programmatically and export to professional formats for Final Cut Pro, audio production, and more.
 
-**Pipeline Neo** extends the `XMLDocument` and `XMLElement` classes in the Foundation framework. It adds properties and methods that simplify the creation and management of FCPXML document structure.
+You can learn more about [SwiftSecuencia](https://github.com/intrusive-memory/SwiftSecuencia).
 
-**Pipeline Neo** also includes supplemental classes and a `CMTime` extension to help in the processing of FCPXML data. For example, you can easily convert a timing value that looks like `59983924/30000s` in the XML to `00:33:19,464` for display in an app.
+---
 
-In most cases, we'd recommend [DAWFileKit](https://github.com/orchetect/DAWFileKit) instead of Pipeline Neo, however we include it here as it does have some functionality that DAWFileKit is currently lacking.
+## Pipeline Neo (CLI & Library)
+
+**Pipeline Neo** is modern Swift 6 framework for working with Final Cut Pro's FCPXML with full concurrency support and SwiftTimecode integration. Pipeline Neo is a spiritual successor to the original [Pipeline](https://github.com/reuelk/pipeline), modernised for Swift 6.0 and contemporary development practices. 
+
+Pipeline Neo provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling. Built with Swift 6.0 and targeting macOS 12+, it offers type-safe operations, comprehensive test coverage, and seamless integration with SwiftTimecode for professional video editing workflows.
+
+Pipeline Neo's codebase is derived from [swift-daw-file-tools](https://github.com/orchetect/swift-daw-file-tools) and [SwiftSecuencia](https://github.com/intrusive-memory/SwiftSecuencia). The project now includes an experimental CLI tool for testing and expanding Pipeline Neo's functionality.
+
+This codebase is developed using AI agents.
 
 You can learn more about [Pipeline Neo](https://github.com/TheAcharya/pipeline-neo).
 
