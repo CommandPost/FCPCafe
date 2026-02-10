@@ -10,12 +10,6 @@
 
 ---
 
-## D
-
-{{ include "developer-tools-and-frameworks/dawfilekit" }}
-
----
-
 ## F
 
 {{ include "developer-tools-and-frameworks/fxcore" }}
@@ -50,12 +44,24 @@
 
 ---
 
-## T
+{{ include "developer-tools-and-frameworks/swift-daw-file-tools" }}
 
-{{ include "developer-tools-and-frameworks/timecodekit" }}
+---
+
+{{ include "developer-tools-and-frameworks/swift-timecode" }}
+
+---
+
+{{ include "developer-tools-and-frameworks/swiftsecuencia" }}
 
 ---
 
 ## V
 
 {{ include "developer-tools-and-frameworks/vuo" }}
+
+---
+
+## X
+
+{{ include "developer-tools-and-frameworks/xlkit" }}
