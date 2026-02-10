@@ -2,7 +2,7 @@
 
 A Swift library for reading and writing common import/export file formats between popular DAW and video editing applications with the ability to convert between formats.
 
-## Supported File Formats
+#### Supported File Formats
 
 |              Format               |        Read         |                Write                |
 | :-------------------------------: | :-----------------: | :---------------------------------: |
