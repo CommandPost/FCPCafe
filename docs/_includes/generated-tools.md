@@ -186,6 +186,10 @@
 
 ## P
 
+{{ include "tools/pipeline-neo" }}
+
+---
+
 {{ include "tools/postlab" }}
 
 ---

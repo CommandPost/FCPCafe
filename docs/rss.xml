@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 09 Feb 2026 21:04:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Feb 2026 00:14:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Feb 2026 21:04:17 GMT</pubDate>
+        <pubDate>Tue, 10 Feb 2026 00:14:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15817,6 +15817,28 @@ Swift     :      55389 (++12423, +28.91%)
 <li>Updated privacy policy to explain we're using TelemetryDeck for usage analytics</li>
 </ul>
 <p>You can download and learn more on the <a href="https://apps.apple.com/app/marker-to-reminder/id6757208568">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-february-2026</link>
+            <guid isPermaLink="false">10th February 2026</guid>
+            <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th February 2026]]></title>
+            <description><![CDATA[<p>Just to keep you on your toes, <strong>CommandPost v2.0.2</strong> and <strong>CommandPost v2.0.3</strong> is out now!</p>
+<p><img src="/static/commandpost-2-0-3.png" alt=""></p>
+<p><strong>CommandPost v2.0.2</strong> contains the following bug fix:</p>
+<ul>
+<li>Fixed Transition Actions in Final Cut Pro v12. Thanks for reporting Pebowski!</li>
+</ul>
+<p><strong>CommandPost v2.0.3</strong> contains the following bug fix:</p>
+<ul>
+<li>Fixed all actions that used the <strong>Reveal in Browser</strong> menubar item, including the <strong>Reveal in Browser and Highlight</strong> action. This menubar item has been renamed in to <strong>Reveal Source in Browser</strong> in Final Cut Pro v12. Thanks for reporting Johnny!</li>
+</ul>
+<p>Thanks heaps for reporting Pebowski and Johnny!</p>
+<p>Because Apple doesn't give us access to any beta/pre-release versions of upcoming Final Cut Pro releases - whenever there's a major update we kinda just have to wait until we get user feedback as to what's broken. But as you can see, we try our best to jump on these bugs as quickly as possible!</p>
+<p>We have lots of exciting things planned for CommandPost over the coming weeks and months - more control surface support, Action Stacks, deeper Avid Media Composer support, deeper Adobe Premiere Pro support - lots of exciting things!</p>
+<p>The more people that buy a LateNite application, and upgrade to CommandPost v2, then more time I can spend on it! Thanks team!</p>
+<p>You can download and learn more on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#10th-february-2026</link>
             <guid isPermaLink="false">10th February 2026</guid>
