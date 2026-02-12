@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Feb 2026 00:14:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Feb 2026 07:22:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Feb 2026 00:14:54 GMT</pubDate>
+        <pubDate>Wed, 11 Feb 2026 07:22:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15843,6 +15843,60 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#10th-february-2026</link>
             <guid isPermaLink="false">10th February 2026</guid>
             <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th February 2026]]></title>
+            <description><![CDATA[<p><strong>CommandPost v2.0.4</strong> is out now!</p>
+<p><img src="/static/commandpost-2-0-4.png" alt=""></p>
+<p>It includes the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li><strong>Scan Running Application Menubars on Startup</strong> and <strong>Scan the Menubars of the Active Application</strong> are now enabled by default on a fresh install, to avoid confusion for new users. These were originally disabled by default to make a fresh install of CommandPost launch as quickly as possible - however it confuses too many new users.</li>
+</ul>
+<p><strong>🐞 Bug Fix</strong></p>
+<ul>
+<li>Fixed all actions that used the <strong>Reveal in Browser</strong> menubar item, including the <strong>Reveal in Browser and Highlight</strong> action in Final Cut Pro v11.1. This menubar item has been renamed in to <strong>Reveal Source in Browser</strong> in Final Cut Pro v11.1. Thanks for reporting Johnny!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://commandpost.fcp.cafe">CommandPost website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-february-2026</link>
+            <guid isPermaLink="false">11th February 2026</guid>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th February 2026]]></title>
+            <description><![CDATA[<p><strong>Marker to Reminder v1.4</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Added a settings screen with default new reminder list and choice for dark or light mode, or auto</li>
+<li>Optional and tip jar for users wanting to support development</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/marker-to-reminder/id6757208568">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-february-2026</link>
+            <guid isPermaLink="false">11th February 2026</guid>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11th February 2026]]></title>
+            <description><![CDATA[<p><strong>Pipeline Neo v2.0.1</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>Logging: seven levels (trace–critical), optional file + console, quiet mode; <code>--log</code> records user-visible output for all CLI commands</li>
+<li>CLI: <code>--log</code>, <code>--log-level</code>, <code>--quiet</code>; <code>--extension-type</code> for convert (fcpxmld | fcpxml; default fcpxmld; 1.5–1.9 always .fcpxml); <code>--extract-media</code> → <code>--media-copy</code> under EXTRACTION; <code>--validate</code> (semantic + DTD; progress when not quiet); single binary with embedded DTDs, no bundle</li>
+<li>Progress bar (TQDM-style) for <code>--media-copy</code> and <code>--validate</code></li>
+<li>Semantic validation: refs resolved against all element IDs (e.g. text-style-def in titles), not only top-level resources</li>
+<li>Library: <code>FCPXMLVersion.supportsBundleFormat</code> (1.10+ for .fcpxmld; 1.5–1.9 .fcpxml only)</li>
+<li>Scripts: <code>generate_embedded_dtds.sh</code> / <code>swift run GenerateEmbeddedDTDs</code> regenerate EmbeddedDTDs.swift (version order 1.5→1.14); Scripts/README; Xcode Build post-actions remove generator binary after build</li>
+<li>Service logs parse, convert, save, DTD validate, media extract/copy</li>
+<li>Test suite: 181 tests</li>
+<li>Documentation updated (README, Manual, CLI README, Documentation/, Scripts, .cursorrules, AGENT.md)</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/TheAcharya/pipeline-neo">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#11th-february-2026</link>
+            <guid isPermaLink="false">11th February 2026</guid>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
