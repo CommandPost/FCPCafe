@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 11 Feb 2026 07:22:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 10:55:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Feb 2026 07:22:43 GMT</pubDate>
+        <pubDate>Thu, 12 Feb 2026 10:55:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15897,6 +15897,23 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#11th-february-2026</link>
             <guid isPermaLink="false">11th February 2026</guid>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th February 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday!</p>
+<p><strong>Robin S. Kurz</strong> has posted an awesome detailed video titled, <strong>Final Cut Pro 12 Lets You Search Video Like Text (Transcript &amp; Visual Search)</strong>.</p>
+<p>You can watch the 37 minute video on <a href="https://www.youtube.com/watch?v=Y0OAbE-4cEQ">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Y0OAbE-4cEQ"><img src="/static/find-any-clip-youtube.jpg" alt=""></a></p>
+<p><strong>Alex Raccuglia</strong> has posted a new video titled, <strong>The Morning Rant: I almost finished an (epic!) AI Animated Short Movie for Children</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=UUpYrrKdDg0">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=UUpYrrKdDg0"><img src="/static/the-morning-rant-kids-youtube.jpg" alt=""></a></p>
+<p><strong>Better Creating</strong> has posted a new video titled, <strong>Apple Creator Studio Makes No Sense… Until You See This</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=ikOp-fIw2fQ">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=ikOp-fIw2fQ"><img src="/static/two-week-verdict-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#12th-february-2026</link>
+            <guid isPermaLink="false">12th February 2026</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
