@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 12 Feb 2026 10:55:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2026 01:05:14 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Feb 2026 10:55:21 GMT</pubDate>
+        <pubDate>Sat, 14 Feb 2026 01:05:14 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -15914,6 +15914,58 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#12th-february-2026</link>
             <guid isPermaLink="false">12th February 2026</guid>
             <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th February 2026]]></title>
+            <description><![CDATA[<p>Coming soon... here's a sneak peak at <strong>ScriptStar v1.0.0</strong> coming VERY soon!</p>
+<p>Created by <a href="https://iain-anderson.com">Iain Anderson</a>.</p>
+<p>This product uses LateNite's <a href="https://fcp.cafe/latenite/#fcpxmlkit">FCPXMLKit</a> for FCPXML processing, created by <a href="https://github.com/randomeizer/">David Peterson</a>.</p>
+<p>The <strong>ScriptStar</strong> icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p><img src="/static/scriptstar-01.png" alt=""></p>
+<p>Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-february-2026</link>
+            <guid isPermaLink="false">14th February 2026</guid>
+            <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th February 2026]]></title>
+            <description><![CDATA[<p><strong>FCP Template Manager v0.3.1</strong> is out now for public beta testing!</p>
+<blockquote>
+<p>Browse, organise, and manage your Final Cut Pro templates. Fast search, favorites, tagging, and more. Completely free.</p>
+</blockquote>
+<p><img src="/static/fcptm-1.png" alt=""></p>
+<p>You can download and learn more on the <a href="https://robtoearth.com">FCP Template Manager website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-february-2026</link>
+            <guid isPermaLink="false">14th February 2026</guid>
+            <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th February 2026]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> has a lot of updates to their plugins:</p>
+<ul>
+<li><strong>mCallouts Simple v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mMessage v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mCallouts Simple 2 v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mPointer v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mFlare 2 v3.1.10:</strong> Improved stability and major crash fixes</li>
+<li><strong>mCamRig v1.6:</strong> Structure optimization for DVR 20, focus controls added, adjustments controls added</li>
+<li><strong>mFilmLook v3.0.5:</strong> Updated UI for the white balance color well</li>
+<li><strong>mPuppet v2.1.4:</strong> Fixed the render crash and duplicated exports</li>
+<li><strong>mFreezeFrame Movie v2.0.6:</strong> Minor bug and crash fixes</li>
+<li><strong>mTracker 3D v2.1.5:</strong> Minor bug and crash fixes</li>
+<li><strong>mMockup v1.3:</strong> Minor bug fixes</li>
+<li><strong>mMessage 2 v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mMorphCut v2.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mHUD 2 v3.0.3:</strong> Minor bug and crash fixes</li>
+<li><strong>mHUD 3 v3.0.3:</strong> Minor bug and crash fixes</li>
+</ul>
+<p>You can download and learn more on the <a href="https://www.motionvfx.com">MotionVFX website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-february-2026</link>
+            <guid isPermaLink="false">14th February 2026</guid>
+            <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
