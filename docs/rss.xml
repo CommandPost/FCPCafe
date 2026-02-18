@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 16 Feb 2026 22:11:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 09:48:21 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Feb 2026 22:11:35 GMT</pubDate>
+        <pubDate>Wed, 18 Feb 2026 09:48:21 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16026,6 +16026,22 @@ Swift     :      55389 (++12423, +28.91%)
             <link>https://fcp.cafe/#17th-february-2026</link>
             <guid isPermaLink="false">17th February 2026</guid>
             <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th February 2026]]></title>
+            <description><![CDATA[<p>For anyone who has impatiently updated to the <strong>macOS Tahoe 26.4 Beta</strong>, there's a known issue with external HFS drives.</p>
+<p><a href="https://developer.apple.com/documentation/macos-release-notes/macos-26_4-release-notes">Apple's release notes</a> say:</p>
+<blockquote>
+<h3>External Media</h3>
+<p><strong>Known Issues</strong>
+HFS external media might fail to mount automatically. (168672160)
+<strong>Workaround:</strong> For macOS only, use CLI tool diskutil mount to attach the relevant disk device.</p>
+</blockquote>
+<p>You can learn more about this the <a href="https://www.youtube.com/watch?v=D3cEa2fuAT0&amp;t=19s">Mr. Macintosh YouTube page</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-february-2026</link>
+            <guid isPermaLink="false">18th February 2026</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
