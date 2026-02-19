@@ -10,11 +10,15 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
-**Last Updated:** 7th February 2026
+**Last Updated:** 19th February 2026
 
 ---
 
 ## Summary
+
+!!!danger macOS Tahoe 26.4 Beta
+There are multiple reports of issues in macOS Tahoe 26.4 Beta with HFS drives, Karabiner-Elements, etc. I would definitely avoid installing this beta on any production machines, and be wary about updating once it gets out of beta.
+!!!
 
 At the timing of writing (7th Feb 2026), I've been using **Final Cut Pro 12.0 (lifetime/perpetual)** every day for 7 days on some very big and complex Final Cut Pro libraries.
 
