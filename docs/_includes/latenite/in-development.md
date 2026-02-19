@@ -1,5 +1,7 @@
 ## In Development
 
+To follow along with the latest LateNite creations, the best place is [Discord](https://ltnt.tv/discord), where we post TestFlight links and exclusive sneak peaks!
+
 Here's a **sneak peak** of some of the things we have in various stages of development:
 
 ---

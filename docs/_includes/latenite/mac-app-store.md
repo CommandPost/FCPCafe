@@ -4,6 +4,10 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
+{{ include "latenite/scriptstar" }}
+
+---
+
 {{ include "latenite/braw-toolbox" }}
 
 ---
