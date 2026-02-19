@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 18 Feb 2026 10:27:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2026 01:51:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 18 Feb 2026 10:27:41 GMT</pubDate>
+        <pubDate>Thu, 19 Feb 2026 01:51:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16041,6 +16041,85 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
             <link>https://fcp.cafe/#18th-february-2026</link>
             <guid isPermaLink="false">18th February 2026</guid>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th February 2026]]></title>
+            <description><![CDATA[<p>Following on from yesterday's post, <strong>macOS Tahoe 26.4 Beta</strong> also <a href="https://x.com/tekezo/status/2024132161717330388">breaks Karabiner-Elements</a>.</p>
+<p>Given Apple seems to have made some MAJOR under-the-hood changes to <strong>macOS Tahoe 26.4 Beta</strong>, I would avoid upgrading for the time being.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-february-2026</link>
+            <guid isPermaLink="false">19th February 2026</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th February 2026]]></title>
+            <description><![CDATA[<p><a href="https://iain-anderson.com">Iain Anderson</a> and myself (Chris Hocking) will be on <strong>Final Cut TV LIVE!</strong> tonight!</p>
+<p>We'll be chatting about our upcoming <a href="https://scriptstar.fcp.cafe">ScriptStar</a> application release.</p>
+<p>You can watch on <a href="https://www.youtube.com/live/5RIfXrnd3ZM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/live/5RIfXrnd3ZM"><img src="/static/fcp-live-podcast.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#19th-february-2026</link>
+            <guid isPermaLink="false">19th February 2026</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th February 2026]]></title>
+            <description><![CDATA[<p><strong>Dylan Higginbotham</strong> has posted a new blog post titled, <strong>The Easiest Way to Add Captions in Final Cut Pro (Just 3 Steps)</strong>.</p>
+<p>You can read about it on the <a href="https://stupidraisins.com/the-easiest-way-to-add-captions-in-final-cut-pro-just-3-steps/">Stupid Raisins blog</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-february-2026</link>
+            <guid isPermaLink="false">19th February 2026</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th February 2026]]></title>
+            <description><![CDATA[<p>Introducing <strong>Agentic Editing</strong> in <strong>Jumper</strong>! 🥳</p>
+<p><img src="/static/jumper-in-claude-code.png" alt=""></p>
+<p>Jumper now integrates with Claude Desktop and OpenAI Codex Desktop, allowing AI agents to operate directly inside Jumper.</p>
+<p>This is pretty crazy stuff.</p>
+<p>These integrations let agents query Jumper’s backend and orchestrate multi-step workflows across your analysed media.</p>
+<p>With these new integrations, the agent can operate Jumper just like a human.</p>
+<ul>
+<li>Search visually across analyzed footage</li>
+<li>Search across transcriptions</li>
+<li>Retrieve clip segments</li>
+<li>Find similar clips</li>
+<li>Find clips by face recognition</li>
+<li>Trigger workflow actions (e.g. export a sequence to Premiere, Final Cut Pro, DaVinci Resolve or Avid Media Composer)</li>
+</ul>
+<p>But it can also do things that you can’t do with the normal Jumper interface.</p>
+<p>For example:</p>
+<ul>
+<li>Export scenes as individual files to a folder</li>
+<li>Export a set of clips as a sequence for your editing software</li>
+</ul>
+<p>Since the agent is acting as the orchestrator of the workflow, you can give it a complex task and it will break it down into smaller steps and execute them in the correct order. For example:</p>
+<ul>
+<li>“use Jumper to find all shots of Anna smiling, export as individual files and also export a sequence to premiere”</li>
+<li>“use Jumper to cut a sizzle reel from the event footage in /day1_footage/ and the voiceover is sizzle_reel_audio.wav”</li>
+</ul>
+<p>This has the potential to speed up time consuming tasks that are a part of the routine media production process. Finding B-roll that matches a script, pulling every clip of a certain person, creating sequences of selects and probably a host of other tasks that we haven’t thought of yet.</p>
+<p>Since you can run multiple agents in parallel, you can fire off multiple tasks at the same time and focus on other tasks while the agents are working.</p>
+<p><img src="/static/example-jumper-claude.jpg" alt=""></p>
+<p>At the moment, Jumper is compatible with Claude Desktop (Chat, Cowork and Code) and OpenAI Codex Desktop. The team are working on adding support for other agents in the future.</p>
+<p>If you're interested in testing out MCP support in Jumper, make sure you sign up for a <a href="https://getjumper.io/?ref=fcpcafe">free trial</a> and join the Discord.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-february-2026</link>
+            <guid isPermaLink="false">19th February 2026</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th February 2026]]></title>
+            <description><![CDATA[<p><strong>Pipeline Neo v2.3.1</strong> has been released!</p>
+<p>For those unfamiliar, Pipeline Neo is an experimental FCPXML library built with the assistance of LLM tools.</p>
+<p>It currently supports reading, creating, and modifying FCPXML documents and bundles, with parsing and validation against bundled DTDs spanning versions <code>v1.5</code> through <code>v1.14</code>.</p>
+<p>Typed models cover resources, clips, adjustments, filters, transitions, multi-cam, captions, smart collections and many more.</p>
+<p>Pipeline Neo provides a strong foundation and the essential building blocks for expanding FCPXML parsing and reading capabilities and adding features.</p>
+<p>You can learn more on <a href="https://github.com/TheAcharya/pipeline-neo">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-february-2026</link>
+            <guid isPermaLink="false">19th February 2026</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
