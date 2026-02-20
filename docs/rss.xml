@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Feb 2026 01:51:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2026 19:51:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Feb 2026 01:51:23 GMT</pubDate>
+        <pubDate>Thu, 19 Feb 2026 19:51:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16120,6 +16120,52 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
             <link>https://fcp.cafe/#19th-february-2026</link>
             <guid isPermaLink="false">19th February 2026</guid>
             <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th February 2026]]></title>
+            <description><![CDATA[<p><strong>ScriptStar v1.0.3</strong> is now <a href="https://apps.apple.com/app/scriptstar/id6759045715">available for purchase on the Mac App Store</a> for <strong>USD$9.99</strong>! 🥳</p>
+<p><img src="/static/scriptstar-01.png" alt=""></p>
+<p><strong>ScriptStar</strong> brings text-based editing to Final Cut Pro.</p>
+<p>It was created by the amazing <a href="https://iain-anderson.com">Iain Anderson</a>.</p>
+<p>This product uses LateNite's <a href="/latenite/#fcpxmlkit">FCPXMLKit</a> for FCPXML processing, created by <a href="https://github.com/randomeizer/">David Peterson</a>.</p>
+<p>The <strong>ScriptStar</strong> icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p>You can watch the intro video on Vimeo:</p>
+<p><a href="https://scriptstar.fcp.cafe/#intro-video"><img src="/static/scriptstar-vimeo.png" alt=""></a></p>
+<p>It converts Final Cut Pro’s built-in transcripts into named favourite ranges on the same browser clips. This lets you see exactly what was said, instantly select it, and add it to your timeline.</p>
+<p>To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.</p>
+<p>By default in <strong>Final Cut Pro v12</strong> (lifetime/perpetual) and <strong>Final Cut Pro Creator Studio v12</strong> (subscription), <strong>Transcribe in English</strong> is enabled by default.</p>
+<p><img src="/static/fcp-preferences.png" alt=""></p>
+<p>ScriptStar uses this transcription data. However, if you didn't transcribe your clips on import (which will be the case if your library was created before FCP 12) then you can transcribe them now. Select one or many clips, right-click, choose Analyze and Fix, and check Transcribe in English in the dialog that appears.</p>
+<p>However, If you'd prefer to use your own transcripts, which is necessary for non-English captions, you can provide an <code>SRT</code> file that will be used in place of the built-in transcripts.</p>
+<p>With clips transcribed, you can now launch ScriptStar from either your <code>/Applications</code> folder, or via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.</p>
+<p><img src="/static/scriptstar-extension-smaller.png" alt=""></p>
+<p>Once launched, simply drag your <strong>Final Cut Pro Library</strong> from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.</p>
+<p>Due to sandbox requirements, if this is the first time you have worked with this Library, you will also have to give permission to access it.</p>
+<p>To confirm, you need to drag the Final Cut Pro Library from the Final Cut Pro interface, and <strong>NOT</strong> Finder.</p>
+<p><img src="/static/scriptstar-01.png" alt=""></p>
+<p>Choose the events you want to process, then press <strong>Continue</strong>.</p>
+<p><img src="/static/scriptstar-02.png" alt=""></p>
+<p>At this point you can replace any of the built-in transcripts by dragging in <code>SRT</code> files that match the names of any of your existing clips.</p>
+<p>This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked or has poor results.</p>
+<p><img src="/static/scriptstar-04.png" alt=""></p>
+<p>Press <strong>Continue</strong> to send the named favorites back to Final Cut Pro.</p>
+<p>They'll appear in new events with a star at the end of the name.</p>
+<p>Before you leave ScriptStar, there’s one more optional step.</p>
+<p>If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you'd found it useful yourself, you can now export those transcripts in whatever format suits your workflow.</p>
+<p>Formats include <code>CSV</code>, <code>Word</code> and <code>PDF</code>.</p>
+<p><img src="/static/scriptstar-05-cropped.jpg" alt=""></p>
+<p>Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue.</p>
+<p>Select a line, play it back by pressing / (slash), then drag it to a timeline or tap <code>E</code> to append it.</p>
+<p>The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose <strong>Favorites</strong> in the Clip Filtering menu. If you don't do this, searches return the entire source clip.</p>
+<p><img src="/static/scriptstar-still-clip-filtering-crop.jpg" alt=""></p>
+<p>Scriptstar works with regular clips and Multicam clips, and it's a great way to find not just dialogue, but anything said out loud during a shoot.</p>
+<p>If something great just happened, or there's anything else you need to remember, say it out loud and you'll see it in your Browser during the edit.</p>
+<p><img src="/static/scriptstar-logging-crop.jpg" alt=""></p>
+<p>You can learn more on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-february-2026</link>
+            <guid isPermaLink="false">20th February 2026</guid>
+            <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

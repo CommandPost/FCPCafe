@@ -110,6 +110,10 @@
 
 ## S
 
+{{ include "workflow-extensions/scriptstar" }}
+
+---
+
 {{ include "workflow-extensions/evo-sharebrowser" }}
 
 ---
