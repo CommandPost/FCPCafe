@@ -1,3 +1,4 @@
+- [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
 - [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [MacOS 26.3: Thunderbolt RAID disk sleep causes system-wide I/O stalls & hangs apps (Arctic/FCP libraries) (February 20, 2026)](https://github.com/CommandPost/FCPCafe/issues/520)
@@ -27,4 +28,3 @@
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 - [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
 - [Initial Audio Rendering missing samples.... (November 13, 2024)](https://github.com/CommandPost/FCPCafe/issues/414)
-- [Export and Real Time Performance Issues with Clips of Alpha=0, not optimized out of render pipeline (October 27, 2024)](https://github.com/CommandPost/FCPCafe/issues/409)

@@ -1,3 +1,4 @@
+- [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
 - [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [One pixel boundary at the frame edges on Viewer and in Export (February 9, 2026)](https://github.com/CommandPost/FCPCafe/issues/511)
