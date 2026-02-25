@@ -10,7 +10,7 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
-**Last Updated:** 19th February 2026
+**Last Updated:** 25th February 2026
 
 ---
 
@@ -34,9 +34,14 @@ This is logged on FCP Cafe:
 
 There's also quite a few crashes already logged:
 
+- [FB22029602: FCP 12 - Beat Detective Crash with Full Zoom out #522](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FB21878003: Crash in -[PEAppController validateUserInterfaceItem:] on quit #509](https://github.com/CommandPost/FCPCafe/issues/509)
 - [FB21859688: Crash - setStateForPlugIn crashed when waking from sleep #506](https://github.com/CommandPost/FCPCafe/issues/506)
 - [FB21850781: Crash - [FFEffect(FFEffectRegistry) allRegisteredEffectIDs] #505](https://github.com/CommandPost/FCPCafe/issues/505)
+
+...and some FCPXML quirks:
+
+- [FB22046427: Final Cut Pro mishandles format of PDF files in FCPXML #523](https://github.com/CommandPost/FCPCafe/issues/523)
 
 My suggestion... Maybe hold off on **Final Cut Pro 12.0** for now, as it's a bit buggy. If you do upgrade, make sure you **backup** Final Cut Pro and your Library first!
 
