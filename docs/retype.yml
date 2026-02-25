@@ -76,3 +76,6 @@ include:
 
 scheme:
   mode: dark
+
+blog:
+  pageSize: 50
