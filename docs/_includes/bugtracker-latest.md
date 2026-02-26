@@ -1,3 +1,4 @@
+- [[FxPlug v4.3.4] Undo API prevents FxPlug from Rendering (February 25, 2026)](https://github.com/CommandPost/FCPCafe/issues/524)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
 - [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
