@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 26 Feb 2026 19:52:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Feb 2026 22:40:22 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Feb 2026 19:52:33 GMT</pubDate>
+        <pubDate>Fri, 27 Feb 2026 22:40:22 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16312,6 +16312,29 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
             <link>https://fcp.cafe/#27th-february-2026</link>
             <guid isPermaLink="false">27th February 2026</guid>
             <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th February 2026]]></title>
+            <description><![CDATA[<p>Apple has brought back their <strong>Final Cut Pro ecosystem</strong> content to their <a href="https://support.apple.com/en-us/125519">support page</a>.</p>
+<p>This website has some great links to all the 3rd party Final Cut Pro tools, and includes links to FCP Cafe! 🥳</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-february-2026</link>
+            <guid isPermaLink="false">28th February 2026</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th February 2026]]></title>
+            <description><![CDATA[<p><strong>gAnalyzer v1.0 (Build 21)</strong> is out now for <strong>USD$9.99</strong>.</p>
+<p>The website explains:</p>
+<blockquote>
+<p>Instant plugin intelligence for Final Cut Pro. Identify any effect, find missing plugins, and see vendor, category, and file path — without leaving the timeline.</p>
+</blockquote>
+<p>It's a Final Cut Pro Workflow Extension.</p>
+<p>You can download and learn more on the <a href="https://www.gphyx.com/#products">gAnalyzer website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-february-2026</link>
+            <guid isPermaLink="false">28th February 2026</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
