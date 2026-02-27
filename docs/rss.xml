@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 25 Feb 2026 20:55:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2026 19:52:34 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Feb 2026 20:55:12 GMT</pubDate>
+        <pubDate>Thu, 26 Feb 2026 19:52:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16266,6 +16266,52 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
             <link>https://fcp.cafe/#26th-february-2026</link>
             <guid isPermaLink="false">26th February 2026</guid>
             <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th February 2026]]></title>
+            <description><![CDATA[<p><strong>ScriptStar v1.3.3</strong> is out now! 🥳</p>
+<p>Yes, we jumped from <code>v1.1.0</code> to <code>v1.3.3</code> very quickly, haha. Thanks to all our awesome TestFlight testers! 🥰</p>
+<p>This is a BIG update.</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>It’s now possible to drag a <strong>Library</strong> or <strong>one or more Events</strong> to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid <code>FCPXML</code> issues related to processing some kinds of clips in other Events.</li>
+<li>This release also adds a <strong>Show Options</strong> button to the page where <code>SRT</code>'s can optionally be added. Press this button to choose the conversion mode - <strong>Named Favorites</strong>, <strong>Named Favorites on current Favorite ranges only</strong> or <strong>Notes on Keywords</strong>. Please refer to the online <a href="/how-to-use/">How to Use</a> page for more information on these modes. Thanks for suggesting Jeff Roy!</li>
+<li>All transcription formats (<code>CSV</code>, Word, <code>PDF</code>) can now be exported at once with a new button below the individual format choices.  Thanks for suggesting Richard Taylor!</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>A bug related to handling of clips at <code>47.95fps</code> was fixed in <a href="https://fcp.cafe/latenite/#fcpxmlkit">FCPXMLKit</a>. Thanks for reporting FernKraft!</li>
+<li>A bug related to handling of Point 2D data in FCPXML was fixed in <a href="https://fcp.cafe/latenite/#fcpxmlkit">FCPXMLKit</a>. Thanks for reporting Fernando Gorrotxategi Ugarte!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-february-2026</link>
+            <guid isPermaLink="false">27th February 2026</guid>
+            <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th February 2026]]></title>
+            <description><![CDATA[<p><strong>Keyframe Toolbox</strong> is out now for public beta!</p>
+<p>We would LOVE your ideas and feedback!</p>
+<p><img src="/static/keyframe-toolbox.png" alt=""></p>
+<p>You can learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-february-2026</link>
+            <guid isPermaLink="false">27th February 2026</guid>
+            <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th February 2026]]></title>
+            <description><![CDATA[<p><strong>Scene Cut Detector v1.0.1 (Build 3)</strong> is out now.</p>
+<p>It includes the following improvement:</p>
+<ul>
+<li>Added <code>FCPXML</code> version selection: Choose the <code>FCPXML</code> version on export for better compatibility with older versions of Final Cut Pro.</li>
+</ul>
+<p>You can learn more and download from the <a href="https://apps.apple.com/app/scene-cut-detector/id6759056281">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-february-2026</link>
+            <guid isPermaLink="false">27th February 2026</guid>
+            <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
