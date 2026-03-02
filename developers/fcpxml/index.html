@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825547396475">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825726922528">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.0.1">
+    <meta name="generator" content="Retype 4.1.0">
 
     <!-- Primary Meta Tags -->
     <title>FCPXML</title>
@@ -32,12 +32,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.0.1.825547396475" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.1.0.825726922528" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.0.1.825547396475" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.1.0.825726922528" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -426,7 +426,7 @@
 </div>
 <p>You can download all the <a href="https://github.com/CommandPost/CommandPost/tree/develop/src/extensions/cp/apple/fcpxml/dtd" class="outbound" target="_blank"><span><code translate="no" v-pre>FCPXML</code> <code translate="no" v-pre>DTD</code> files</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>You can then use this Terminal Command to validate things:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="dtd-validation-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">xmllint --dtdvalid &quot;/path/to/FCPXMLv1_9.dtd&quot; &quot;/path/to/your/file.fcpxml&quot;</code></pre>
 </doc-codeblock></div>
 <div class="flex mb-6">
@@ -484,7 +484,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 <p>The duration of the Video clip is <code translate="no" v-pre>00:01:00:00</code> (60 seconds / 1500 frames).</p>
 <p>The start source timecode of the Video Clip is <code translate="no" v-pre>03:04:05:06</code> (11045.24 seconds / 276131 frames).</p>
 <p>The FCPXML of the timeline is (I&#x27;ve removed the bookmark data and metadata to simplify):</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 
@@ -520,14 +520,14 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 &lt;/fcpxml&gt;</code></pre>
 </doc-codeblock></div>
 <p>The FCPXML is really made up of two parts:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;fcpxml version=&quot;1.11&quot;&gt;
     &lt;resources/&gt;
     &lt;project/&gt;
 &lt;/fcpxml&gt;</code></pre>
 </doc-codeblock></div>
 <p>Looking at the <code translate="no" v-pre>sequence</code> we can see:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-3" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;sequence format=&quot;r1&quot; duration=&quot;325200/10000s&quot; tcStart=&quot;7446320/2000s&quot; tcFormat=&quot;NDF&quot; audioLayout=&quot;stereo&quot; audioRate=&quot;48k&quot;&gt;</code></pre>
 </doc-codeblock></div>
 <p>Looking at the <code translate="no" v-pre>tcStart</code>, we can do the maths and confirm it matches the timecode we&#x27;re seeing in FCPX:</p>
@@ -535,7 +535,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 <p>7446320 / 2000 = 3723.16 seconds (<code translate="no" v-pre>01:02:03:04</code> / 93079 frames)</p>
 </blockquote>
 <p>Within the <code translate="no" v-pre>sequence</code> we have the <code translate="no" v-pre>spine</code>. Within the <code translate="no" v-pre>spine</code> he have our Gap and Synchronised Clip (the <code translate="no" v-pre>...</code> signals things that have been removed for simplicity):</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-4" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;spine&gt;
     &lt;gap name=&quot;Gap&quot; offset=&quot;37231600/10000s&quot; start=&quot;3600s&quot; duration=&quot;1s&quot;/&gt;
     &lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;
@@ -548,7 +548,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 <p>37231600 / 10000 = 3723.16 seconds (<code translate="no" v-pre>01:02:03:04</code> / 93079 frames)</p>
 </blockquote>
 <p>If we look inside the <code translate="no" v-pre>sync-clip</code>, the Video clip inside is actually an <code translate="no" v-pre>asset-clip</code>.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-5" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;
     &lt;spine&gt;
         &lt;gap name=&quot;Gap&quot; offset=&quot;0s&quot; start=&quot;3600s&quot; duration=&quot;104700/2500s&quot;&gt;
@@ -584,7 +584,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 11059.28 - 11003.36 = 55.92</p>
 </blockquote>
 <p>Let&#x27;s now go back and have a look at the <code translate="no" v-pre>sync-clip</code> again:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-6" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;sync-clip offset=&quot;37241600/10000s&quot; name=&quot;Sync Clip&quot; start=&quot;132100/2500s&quot; duration=&quot;78800/2500s&quot; tcFormat=&quot;NDF&quot;&gt;</code></pre>
 </doc-codeblock></div>
 <p>The <code translate="no" v-pre>offset</code> value is:</p>
@@ -643,7 +643,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 <hr>
 <p>Let&#x27;s try another example.</p>
 <p>This time our frame of interest is: <code translate="no" v-pre>01:02:14:06</code> / 3734.24 seconds / 93356 frames</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-7" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 
@@ -677,7 +677,7 @@ Simply type <code translate="no" v-pre>xmllint --dtdvalid</code>, then drag in t
 <hr>
 <p>Now to complicate things, let&#x27;s do the same idea with a <strong>Multicam Clip</strong>.</p>
 <p>Here&#x27;s our FCPXML:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-8" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 
@@ -788,7 +788,7 @@ We will update the below once we get our heads around it better. Stay tuned.</p>
     </div>
 </div>
 <p>Now to complicate things even further, let&#x27;s try a <strong>25fps clip</strong> inside a <strong>24fps timeline</strong>:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="getting-source-timecode-code-9" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 

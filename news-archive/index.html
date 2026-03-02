@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825547396475">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825726922528">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.0.1">
+    <meta name="generator" content="Retype 4.1.0">
 
     <!-- Primary Meta Tags -->
     <title>News Archive</title>
@@ -32,12 +32,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.0.1.825547396475" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.1.0.825726922528" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.0.1.825547396475" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.1.0.825726922528" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -2265,7 +2265,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 </p>
 <p>You can learn more about Transfer Toolbox on the <a href="https://transfertoolbox.fcp.cafe" class="outbound" target="_blank"><span>Transfer Toolbox website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>FCPXML has been updated to <strong>FCPXML v1.14</strong> with some minor additions:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="29th-january-2026-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;!ELEMENT smart-collection ((match-text | match-ratings | match-media | match-clip | match-stabilization | match-keywords | match-shot | match-property | match-time | match-timeRange | match-roles | match-usage | match-representation | match-markers | match-analysis-type)*)&gt;
 
 &lt;!ATTLIST match-text rule (includes | doesNotInclude | is | isNot | startsWith | endsWith | isRelatedTo) &quot;includes&quot;&gt;
@@ -2313,7 +2313,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <li>In relation to the above, when there are multiple workflow extension instances installed in different locations with the same extension bundle version, which one the OS service will choose is undetermined. It is recommended to maintain a single copy of a particular workflow extension along with its container app in the standard installed location as much as possible.</li>
 <li>Part of the implementation of the <code translate="no" v-pre>ProExtensionHost</code> framework currently uses Apple Events as the messaging transport with the host. The extension, being sandboxed, requires the security entitlement below to send Apple Events to Final Cut Pro and its variants such as Final Cut Pro Trial. Beginning in Winter 2026, an additional new variant (<code translate="no" v-pre>com.apple.FinalCutApp</code>) should be included:</li>
 </ul>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="29th-january-2026-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;key&gt;com.apple.security.scripting-targets&lt;/key&gt;
 &lt;dict&gt;
     &lt;key&gt;com.apple.FinalCut&lt;/key&gt;
@@ -2334,7 +2334,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <li>See <a href="https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW25" class="outbound" target="_blank"><span>Enabling Scripting of Other Apps</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for additional information.</li>
 <li>In addition to the entitlement above, the container application requires the following <code translate="no" v-pre>Info.plist</code> entry:</li>
 </ul>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="29th-january-2026-code-3" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;key&gt;NSAppleEventsUsageDescription&lt;/key&gt;
 &lt;string&gt;Extensions can interact with Final Cut Pro.&lt;/string&gt;</code></pre>
 </doc-codeblock></div>
@@ -4627,10 +4627,10 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <td>33.17%</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>Final Cut Pro (Mac)</td>
@@ -4651,10 +4651,10 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <td>48.16%</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>Final Cut Pro (Mac)</td>
@@ -7878,7 +7878,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 </figure>
 </p>
 <p>Here&#x27;s some example Swift code:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="10th-june-2025-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-swift"><code v-pre class="language-swift">import BackgroundTasks
 import SwiftUI
 
@@ -9150,7 +9150,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <p>Final Cut Pro for Mac has a database update (<code translate="no" v-pre>1133</code> in <code translate="no" v-pre>v11.0.1</code>, and now <code translate="no" v-pre>1150</code> in <code translate="no" v-pre>v11.1</code>) - which means existing Libraries will need to be updated. We recommend manually making backups of your Final Cut Pro Libraries before updating.</p>
 <p>There was no update to FCPXML in this release - it&#x27;s still on FCPXML <code translate="no" v-pre>v1.13</code>.</p>
 <p>Interestingly, new <strong>Adjustment Clips</strong> in FCPXML are just standard <code translate="no" v-pre>video</code> items with a new special <code translate="no" v-pre>effect</code> applied - so existing FCPXML-based tools should continue to work without any updates:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="28th-march-2025-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 
@@ -11639,7 +11639,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <p>I really wish I was able to take a photo of this moment, as it was super special - thank you Knut &amp; Sam for all the incredible work you put into the Final Cut Pro community!</p>
 <p>With this update, we also see a jump from <strong>FCPXML v1.12 to v1.13</strong>.</p>
 <p>For those developers following along, the additions are:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="13th-november-2024-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;!ATTLIST format heroEye CDATA #IMPLIED&gt;			&lt;!-- (&quot;left&quot; | &quot;right&quot;) --&gt;
 
 &lt;!ATTLIST asset heroEyeOverride CDATA #IMPLIED&gt;		&lt;!-- (&quot;left&quot; | &quot;right&quot;) --&gt;
@@ -18156,7 +18156,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 </blockquote>
 <p>This is the perfect problem for something like CommandPost to solve, via it&#x27;s powerful Lua scripting.</p>
 <p>Here&#x27;s the solution I quickly came up with (which was posted <a href="https://github.com/CommandPost/CommandPost/discussions/3293" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> on the CommandPost GitHub Discussions):</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="12th-december-2023-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">-- Get a the Source Folder Path:
 local lastSourceFolder = cp.config.get(&quot;tagCopier.LastSourceFolder&quot;, &quot;&quot;)
 local sourceFolder = hs.dialog.chooseFileOrFolder(&quot;Source Folder:&quot;, lastSourceFolder, false, true, false)
@@ -18490,7 +18490,7 @@ hs.dialog.blockAlert(&quot;Tag Copier Complete!&quot;, &quot;Tags were applied t
 </p>
 <p>But I totally agree with Alex in that <a href="https://developer.apple.com/documentation/coremedia/cmtime-u58" class="outbound" target="_blank"><span>CMTime</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is really hard and FCPXML can get insanely confusing.</p>
 <p>For example, this is how we get the &quot;current frame number&quot; in Gyroflow Toolbox and BRAW Toolbox:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="12th-december-2023-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-objectivec"><code v-pre class="language-objectivec">//---------------------------------------------------------
 // Load the timing API:
 //---------------------------------------------------------
@@ -19088,7 +19088,7 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <p>Once this happens, maybe they&#x27;ll add a Scrolling Timeline toggle next to the Skimming button in the Timeline Toolbar.</p>
 <p>In the meantime, CommandPost&#x27;s <strong>Enable Rendering During Playback</strong> preference still seems to work on Final Cut Pro 10.7, which is great.</p>
 <p>Alternatively, if you <strong>never</strong> want to use the new scrolling timeline, but still want to generate thumbnails and waveforms during playback without CommandPost, you can also use this Terminal command:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="2nd-december-2023-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">defaults write com.apple.FinalCut FFGenerateThumbnailsDuringPlayback -bool true</code></pre>
 </doc-codeblock></div>
 <p>However, if you turn on the scrolling timeline and then turn it off again, <code translate="no" v-pre>FFGenerateThumbnailsDuringPlayback</code> will also be disabled again.</p>

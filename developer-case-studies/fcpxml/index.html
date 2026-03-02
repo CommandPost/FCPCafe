@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825547396475">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825726922528">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.0.1">
+    <meta name="generator" content="Retype 4.1.0">
 
     <!-- Primary Meta Tags -->
     <title>Demystifying Final Cut Pro XMLs</title>
@@ -32,12 +32,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.0.1.825547396475" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.1.0.825726922528" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.0.1.825547396475" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.0.1.825547396475" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825726922528" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.1.0.825726922528" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -372,19 +372,19 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
     </h3>
 </doc-anchor-target>
 <p>Classic FCP (and Premiere Pro CC) is <code translate="no" v-pre>xmeml</code>:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="figure-1-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE xmeml&gt;
 &lt;xmeml version=&quot;4&quot;&gt;</code></pre>
 </doc-codeblock></div>
 <p>The modern Final Cut Pro X XML is <code translate="no" v-pre>fcpxml</code>:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="figure-1-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE fcpxml&gt;
 &lt;fcpxml version=&quot;1.6&quot;&gt;</code></pre>
 </doc-codeblock></div>
 <p>Motion <code translate="no" v-pre>.motn</code> file (which is actually XML) is <code translate="no" v-pre>ozml</code>:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="figure-1-code-3" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE ozxmlscene&gt;
 &lt;ozml version=&quot;5.7&quot;&gt;</code></pre>
@@ -399,7 +399,7 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
     </h3>
 </doc-anchor-target>
 <p>Here’s some data from an EDL:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="figure-2-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">001  100      V     C        01:00:35:19 01:00:49:19 00:59:56:12 01:00:10:12
 * CLIP NAME: 2014-05-05 14_53_37 TRIM (A)
 002  100      V     C        01:00:51:15 01:01:17:00 01:00:10:12 01:00:35:25
@@ -419,18 +419,18 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
 <p>For the web we mark up text with a HyperText Markup Language (HTML), which works well for pages of text. But for editing (or motion graphics in Motion) we want to transfer an almost infinite range of different information, which is why the X is for eXtensible.  HTML is limited to display options, whereas XML, because it&#x27;s extensible, does not have limits to the type of data that can be marked up.</p>
 <p>Both HTML and XML mark up using tags. HTML marks up blocks of text to tell the browser how to display it. XML marks up blocks of data with tags that tell us what type of information or data is stored.</p>
 <p>These markup tags tell us what type of data is stored between the tag ‘open’ and the ‘close’. A simple HTML example would be like this:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="whats-inside-xml-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;p&gt; at the &lt;b&gt;beginning&lt;/b&gt; of a paragraph &lt;/p&gt;</code></pre>
 </doc-codeblock></div>
 <p>There are two sets of tags in this example: the pair of &#x27;p&#x27; tags tell the browser to display all the text between the opening <code translate="no" v-pre>&lt;p&gt;</code> and closing <code translate="no" v-pre>&lt;/p&gt;</code> tags as a paragraph, and the pair of <code translate="no" v-pre>&lt;b&gt; &lt;/b&gt;</code> tags tell the browser to display the word &quot;beginning&quot; in bold.</p>
 <p>Likewise in an XML file there are tags. but these tags tell the reader or computer what type of information is between the tags. Instead of paragraphs we might have <code translate="no" v-pre>&lt;timecode&gt;</code> at the start of a Timecode entry, and <code translate="no" v-pre>&lt;/timecode&gt;</code> at the end of a Timecode entry. Like the <code translate="no" v-pre>&lt;b&gt; &lt;/b&gt;</code> tags in the paragraph above, all XML tags can nest as well. This means we can have this piece of XML code that gives keyword and marker details for a Clip (out of a FCP X XML export):</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="whats-inside-xml-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;keyword start=&quot;3600s&quot; duration=&quot;500s&quot; value=“Interview&quot;/&gt;
 &lt;marker start=&quot;4000s&quot; duration=&quot;1s&quot; value=&quot;Answer&quot;/&gt;</code></pre>
 </doc-codeblock></div>
 <p>In this example, the keyword tag is “self closing” by the simple use of <code translate="no" v-pre>/</code> inside the last <code translate="no" v-pre>&gt;</code>. It also nests data within the tag as attributes. Start, duration and value are attributes for the tag keyword.</p>
 <p>It’s a much more efficient structure, which is one of the reasons why fcpxml is so much more concise than xmeml. Expressed the old way without attributes this data would look something like:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="whats-inside-xml-code-3" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;keyword&gt;
     &lt;start&gt;3600s&lt;/start&gt;
     &lt;duration&gt;500s&lt;/duration&gt;
@@ -480,7 +480,7 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
 </p>
 <p>We’re going to use the exported Event <code translate="no" v-pre>.fcpxml</code> to find some information: the file path to the media file, clip frame rate, clip note and keywords.</p>
 <p>At the top of the <code translate="no" v-pre>.fcpxml</code> file is a resources area which has information about media assets, formats, titles/generators/effects, and even multicam and compound clips used in the export. Here’s a trimmed version of the resources area describing this clip:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="finding-a-clips-keywords-in-final-cut-pro-x-xml-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;resources&gt;
     &lt;asset id=&quot;r1&quot; name=&quot;2014-05-05 14_53_37 trim (A)&quot; uid=&quot;BC4F2ECE4BDCDA28FCFE245355800DEB&quot; src=&quot;file:///Users/greg/Footage/Wounded%20Warrior/2014-05-05%2014_53_37%20trim%20(A).mov&quot; start=&quot;651158508/180000s&quot; duration=&quot;49903855/90000s&quot; hasVideo=&quot;1&quot; format=&quot;r2&quot; hasAudio=&quot;1&quot; audioSources=&quot;1&quot; audioChannels=&quot;2&quot; audioRate=&quot;48000&quot;&gt;
         &lt;metadata&gt;
@@ -504,7 +504,7 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
 <p>So we know the media is 1920x1080, but what does that frameDuration number mean?</p>
 <p>2002/60000 is a <a href="https://en.wikipedia.org/wiki/Rational_number" class="outbound" target="_blank"><span>rational number</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> describing the duration of a single frame as a fraction of a second (literally the seconds-per-frame). The frame rate (in frames-per-second) is actually the inverse of this: 60000/2002 = 29.97002997 frames per second. OK, so it’s 29.97 fps (which is NTSC 30 fps), so why bother with the rational number? Because it’s way more accurate than 30 or even 29.97! (If this was 25 fps PAL footage the frameDuration would be 100/2500s.)</p>
 <p>Time to look at the clip and its keywords (this is 10.3’s new version 1.6 XML). This <strong>asset-clip</strong> in the Event represents the asset we&#x27;ve just seen because the <code translate="no" v-pre>ref=“r1”</code> attribute points to the asset with <code translate="no" v-pre>id=“r1”</code>:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="finding-a-clips-keywords-in-final-cut-pro-x-xml-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;event name=&quot;A Single Clip&quot; uid=&quot;188233E2-EF34-4881-A986-61CA405BAEB3&quot;&gt;
     &lt;asset-clip name=&quot;2014-05-05 14_53_37 (A)&quot; ref=&quot;r1&quot; duration=&quot;399230840/720000s&quot; start=&quot;651158508/180000s&quot; audioRole=&quot;dialogue&quot; format=&quot;r2&quot; tcFormat=&quot;DF&quot; modDate=&quot;2016-12-13 16:01:05 +1100&quot;&gt;
         &lt;note&gt;Wounded Warrior, A cam&lt;/note&gt;
@@ -541,7 +541,7 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
 </figure>
 </p>
 <p>Information about a media file is in a file element which is a child of a clipitem element:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="finding-a-clips-markers-in-premiere-pro-xml-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;file id=&quot;file-1&quot;&gt;
     &lt;name&gt;2014-05-05 14_53_37 trim (A).mov&lt;/name&gt;
     &lt;pathurl&gt;file://localhost///Users/greg/Footage/Wounded%20Warrior/2014-05-05%2014_53_37%20trim%20(A).mov&lt;/pathurl&gt;
@@ -604,11 +604,11 @@ Philip &amp; Gregory have kindly allowed us to release it on FCP Cafe. Thank you
 <p>The file path to the media is the content of the <strong>pathurl</strong> tag, and the frame rate is described in the <strong>rate</strong> element: timebase at 30 frames per second when ntsc is TRUE means 29.97 fps — or more accurately 30,000/1,001 or 60,000/2,002. (If this was 25 fps PAL footage the timebase would be 25 and ntsc would be FALSE.)</p>
 <p>The first <strong>frame</strong> of the media file is 108,418 because this file has timecode and does not start at zero. We’ve also got information about the number of audio channels and the sample rate of the audio.</p>
 <p>To save space, Premiere Pro exports this full file listing only once. Any other time it appears in the XML is a reference back to the full file listing using the unique id attribute, like this:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="finding-a-clips-markers-in-premiere-pro-xml-code-2" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;file id=&quot;file-1&quot;/&gt;</code></pre>
 </doc-codeblock></div>
 <p>To get to the Log Note and Markers we have to skip over descriptions of the audio tracks until we get to this at the bottom of the clip:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
+<div id="finding-a-clips-markers-in-premiere-pro-xml-code-3" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-markup"><code v-pre class="language-markup">&lt;marker&gt;
     &lt;name&gt;Interview, Michael&lt;/name&gt;
     &lt;comment&gt;&lt;/comment&gt;
