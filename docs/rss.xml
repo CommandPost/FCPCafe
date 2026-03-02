@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 02 Mar 2026 06:08:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Mar 2026 23:55:43 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Mar 2026 06:08:11 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 23:55:43 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16449,6 +16449,31 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
             <link>https://fcp.cafe/#2nd-march-2026</link>
             <guid isPermaLink="false">2nd March 2026</guid>
             <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd March 2026]]></title>
+            <description><![CDATA[<p>Scott Simmons has written a great article over at ProVideo Coalition titled, <strong>Useful Tools for Editors: Where Ya Been? Edition</strong>.</p>
+<p>You can read it on <a href="https://www.provideocoalition.com/useful-tools-for-editors-where-ya-been-edition/">ProVideo Coalition</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-march-2026</link>
+            <guid isPermaLink="false">3rd March 2026</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd March 2026]]></title>
+            <description><![CDATA[<p><strong>LUT Robot v1.1.0</strong> is out now!</p>
+<p>Automatically apply Camera LUTs with matching filenames.</p>
+<p>When working on big long-form projects, such as feature films and television shows, DITs on-set create unique Camera LUTs for each shot.</p>
+<p>For example, the production might be shooting on an ARRI Alexa and when they hand over the rushes, they also hand over LUTs for each camera file.</p>
+<p>LUT Robot automatically applies Camera LUTs with matching filenames, saving hours of work for Assistant Editors, who until now, had to manually set the Camera LUT for each clip.</p>
+<p>You can select a specific sub-folder within your Camera LUTs folder to scan.</p>
+<p>This is a simple niche app, that saves high-end professional assistant editors using Final Cut Pro hours of time.</p>
+<p>This release includes support for <code>FCPXML v1.14</code> and <strong>Final Cut Pro v12</strong>.</p>
+<p>You can learn more and download on the <a href="https://lutrobot.fcp.cafe">LUT Robot website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-march-2026</link>
+            <guid isPermaLink="false">3rd March 2026</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
