@@ -79,3 +79,4 @@ scheme:
 
 blog:
   pageSize: 50
+  layout: page
