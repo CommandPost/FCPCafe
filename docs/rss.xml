@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 27 Feb 2026 22:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Mar 2026 06:08:11 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 27 Feb 2026 22:40:22 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 06:08:11 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16335,6 +16335,120 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
             <link>https://fcp.cafe/#28th-february-2026</link>
             <guid isPermaLink="false">28th February 2026</guid>
             <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd March 2026]]></title>
+            <description><![CDATA[<p>It's March 2026, and the world has changed... dramatically.</p>
+<p>Every man, woman and dog is now creating their own tools and software using LLMs like Codex and Claude Code.</p>
+<p>Every filmmaker and post production nerd is now becoming a developer.</p>
+<p>When I first started working on BRAW Toolbox a few years ago, there was ZERO information about FxPlug online, and very few who knew anything about it.</p>
+<p>Now in this new world, the most traffic to hit FCP Cafe is LLMs reading information about FxPlug and Workflow Extensions.</p>
+<p>Crazy times indeed. So over the coming weeks and months, I expect to see a LOT more Final Cut Pro tools hit the market, both from myself, and many, many others.</p>
+<p>LLMs like Codex and Claude Code have changed the game DRAMATICALLY. You can now EASILY build whatever you imagine.</p>
+<p>This will be absolutely awesome for creative filmmakers who have a very clear vision of what they want.</p>
+<p>This will be absolutely devastating from indie developers who previously made all their income from Final Cut Pro applications.</p>
+<p>Please, please, please, continue to support those Final Cut Pro developers who have been with us since the beginning, such as <a href="https://www.intelligentassistance.com">Intelligent Assistance</a>, <a href="https://coremelt.com">CoreMelt</a>, <a href="https://fxfactory.com">FxFactory</a>, <a href="https://www.rippletraining.com/product-category/plugins/">Ripple Training</a>, <a href="https://digitalanarchy.com/">Digital Anarchy</a>, etc.</p>
+<p>Because once we start loosing all the old guards... it'll be way worse for everyone.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-march-2026</link>
+            <guid isPermaLink="false">2nd March 2026</guid>
+            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd March 2026]]></title>
+            <description><![CDATA[<p><strong>gAnalyzer v1.1 (Build 22)</strong> is out now for <strong>USD$9.99</strong>.</p>
+<p>The website explains:</p>
+<blockquote>
+<p>Instant plugin intelligence for Final Cut Pro. Identify any effect, find missing plugins, and see vendor, category, and file path — without leaving the timeline.</p>
+</blockquote>
+<p>It's a Final Cut Pro Workflow Extension.</p>
+<p><img src="/static/ganalyzer-v1-1.png" alt=""></p>
+<p>You can download and learn more on the <a href="https://www.gphyx.com/#products">gAnalyzer website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-march-2026</link>
+            <guid isPermaLink="false">2nd March 2026</guid>
+            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd March 2026]]></title>
+            <description><![CDATA[<p><strong>pravMotion v1.1.0</strong> is out now for free on GitHub.</p>
+<p>It's a free and open-source FxPlug4 effect.</p>
+<p>You can download and learn more on <a href="https://github.com/pravbk100/pravMotion">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-march-2026</link>
+            <guid isPermaLink="false">2nd March 2026</guid>
+            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd March 2026]]></title>
+            <description><![CDATA[<p><strong>ISD Caption Converter</strong> is out now for free online.</p>
+<blockquote>
+<p>Say goodbye to boring, outdated captions! 🛑 Elevate your workflow with ISD Caption Converter.<br>
+Tired of blank white captions? Convert them to fully customisable FCP captions in seconds! 🚀<br>
+✨ You'll love it because:<br>
+• Load up to 8 caption styles simultaneously.<br>
+• Batch editing: Change styles for multiple lines in one click.<br>
+• Smart break tool: Automatically calculates timing when breaking long captions.<br>
+• Error-free: Creates a clean XML file for FCP.<br>
+🔥 Exclusive to Final Cut Pro | 100% Free Forever!<br>
+<br>
+See the workflow <a href="https://sites.google.com/view/isdcreate">here</a> 📥
+<br>
+(If this saves you hours of editing time, please consider buying me a coffee! ☕️)</p>
+</blockquote>
+<p>You can learn more on the <a href="https://sites.google.com/view/isdcreate">ISD Caption Converter website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-march-2026</link>
+            <guid isPermaLink="false">2nd March 2026</guid>
+            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd March 2026]]></title>
+            <description><![CDATA[<p><strong>ScriptBlade v1.0.2</strong> is now available on the Mac App Store.</p>
+<p><img src="/static/scriptblade.png" alt=""></p>
+<p>The Mac App Store reads:</p>
+<blockquote>
+<p>SRT-based paper editing for Final Cut Pro - now with Multitrack FCPXML support for Multicam, Sync Clip, and Compound Clips.</p>
+<p>ScriptBlade turns your SRT into a rough cut timeline for Final Cut Pro — without touching a single clip manually.</p>
+<p>Select the lines you want to keep, hide the rest, and export a trimmed FCPXML. Final Cut Pro opens it as a pre-cut timeline, ready to refine.</p>
+<p><strong>What You Can Do:</strong></p>
+<ul>
+<li>Build a paper edit from any SRT file</li>
+<li>Select, deselect, and hide unwanted sections</li>
+<li>Multi-select with &amp; / Shift — or use Select All / Deselect All</li>
+<li>Export FCPXML and import directly into Final Cut Pro</li>
+<li>Supports Multicam, Sync Clip, and Compound Clip timelines •</li>
+<li>Import .fcpxmld packages exported from Final Cut Pro</li>
+<li>100% offline — all processing happens locally on your Mac.</li>
+<li>Nothing is uploaded or sent to any server.</li>
+</ul>
+<p><strong>How It Works:</strong></p>
+<ul>
+<li>Prepare an SRT file (generated with any external transcription tool)</li>
+<li>Select only the sections you want to keep</li>
+<li>Export → link your original FCPXML → generate → import into Final Cut Pro</li>
+</ul>
+<p><strong>Best For:</strong></p>
+<ul>
+<li>Interviews (including multi-camera setups), documentaries, lectures — any long-form content where you need to find the moments that matter.</li>
+</ul>
+<p><strong>Note:</strong>
+ScriptBlade does not include transcription. You'll need an SRT file created with an external tool. Source media must already be available in your Final Cut Pro library for the exported timeline to link correctly.
+All operations are performed locally. No files, media, or script content are ever uploaded.</p>
+<p><strong>FAQ:</strong></p>
+<ul>
+<li>The clips are offline after import. Why?
+The FCPXML references your original source media. Make sure the same files exist in your FCP library.
+Use Final Cut Pro's Relink tool if needed.</li>
+<li>Does it transcribe audio or video?
+No - transcription is not included. ScriptBlade works with existing SRT files only.</li>
+</ul>
+</blockquote>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/scriptblade/id6758888024">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-march-2026</link>
+            <guid isPermaLink="false">2nd March 2026</guid>
+            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
