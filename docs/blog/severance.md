@@ -4,7 +4,6 @@ date: 2007-08-15
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Severance
 
@@ -23,7 +22,6 @@ Once the killing starts, the comedy is put on hold and is only given out again i
 This is a very enjoyable and unpredictable film, with some tremendous high production values. The musical score by *John Frankish* (who also wrote the score for MIFF 2006’s *Opal Dream*), as well as a terrific sound design helps keeps the audience going. The photography and images are both beautiful and petrifying – which is a great accomplishment considering this is *Ed Wild’s* first feature film as cinematographer.
 
 You will be either clutching the person next to you or weeping with laughter as Smith takes you on an increasingly insane roller-coaster ride with everything you want in this kind of film – it even has a bear!
-
 ---
 
 ## References

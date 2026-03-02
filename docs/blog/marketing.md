@@ -2,7 +2,6 @@
 title: Marketing
 date: 2010-11-13
 author: Nicholas Colla
-layout: blog
 ---
 # Marketing
 

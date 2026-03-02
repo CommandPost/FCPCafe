@@ -2,7 +2,6 @@
 title: Inside Insanity
 date: 2010-09-23
 author: Alistair Marks
-layout: blog
 ---
 # Inside Insanity
 

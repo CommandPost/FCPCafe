@@ -2,7 +2,6 @@
 title: Balls To The Wall
 date: 2010-11-16
 author: Alistair Marks
-layout: blog
 ---
 # Balls To The Wall
 

@@ -2,7 +2,6 @@
 title: Performances
 date: 2012-01-07
 author: Nicholas Colla
-layout: blog
 ---
 # Performances
 

@@ -4,7 +4,6 @@ date: 2014-08-22
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Here Be Dragons
 

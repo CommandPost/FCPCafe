@@ -2,7 +2,6 @@
 title: Itacoatiara
 date: 2013-12-17
 author: Jacqui Hocking
-layout: blog
 ---
 # Itacoatiara
 

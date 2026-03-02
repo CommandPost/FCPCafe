@@ -2,7 +2,6 @@
 title: Late Nights and Big Swells
 date: 2014-08-21
 author: Jacqui Hocking
-layout: blog
 ---
 # Late Nights and Big Swells
 

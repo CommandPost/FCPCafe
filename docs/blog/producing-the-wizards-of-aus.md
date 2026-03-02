@@ -2,7 +2,6 @@
 title: Producing The Wizards of Aus
 date: 2016-01-11
 author: Nicholas Colla
-layout: blog
 ---
 # Producing The Wizards of Aus
 

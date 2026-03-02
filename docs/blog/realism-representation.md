@@ -4,7 +4,6 @@ date: 2006-03-30
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Realism & Representation
 
@@ -25,7 +24,6 @@ There was a point in the past though, when the term ‘*realism*‘ was consider
 With realism back in the limelight, we can once again start to put it under the magnifying glass. One of the main problems concerning realism is the idea that any representation is a selection, and therefore elements have been specifically selected or ignored for inclusion and arranged in whatever manner the creator so desires. For example, in the build up to the 2001 Federal Election the Australian government told the public that a group of Iraqi asylum seekers threw their children overboard, backing their claims with photographs to help fuel the government’s campaign to demonise asylum seekers trying to reach the country. It was later revealed that the public weren’t shown the bigger picture – the refugee’s boat was sinking and no one was in fact thrown in – they jumped.
 
 But even if we were able to include every single itty-bitty detail and possess a completely objective perspective, we cannot convey *reality* in words because words are just signs – arbitrary signifiers that have no logical relationship to what they symbolize, and therefore cannot clearly and objectively represent reality (Lye 1997). Even the word ‘reality’ has its problems – it’s far too comprehensive and encompasses way too much to be of any real use as well as restricting our very sense of what ‘reality’ actually is (Lye 1997).
-
 ---
 
 ## Bibliography/References

@@ -2,7 +2,6 @@
 title: Adventures in Asia!
 date: 2012-08-10
 author: Jacqui Hocking
-layout: blog
 ---
 # Adventures in Asia!
 

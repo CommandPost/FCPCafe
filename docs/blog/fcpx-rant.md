@@ -4,14 +4,12 @@ date: 2014-01-28
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # FCPX Rant
 
 ![fcpx](/static/blog/01-fcpx.png)
 
 Ever since Apple announced Final Cut Pro X (pronounced “Final Cut Pro Ten”) back in April 2011 I have been keeping a very close eye on it. Like many people, as soon as it was released in June 2011, I instantly bought and downloaded it, and started playing. You could see it had potential – but it was so different to it’s predecessor and lacked so many important basic functions. Although I’ve always had it installed on my laptop, and opened it up after each update Apple pushed out – it never looked compelling enough to actually use for a job.
-
 ---
 
 ## Background
@@ -45,7 +43,6 @@ As far as I’m concerned, FCP7 is now officially in retirement after many years
 The main problem with Avid, Premiere, FCP7 and Smoke for that matter is that they’re all based on very old code. I’m pretty confident there’s still code in Media Composer 7 that came from the original 2.5 release back in June 2006 (although that said, I wouldn’t even be surprised if the Animatte is still using lines from the original 1998 code)! Although Adobe did some major changes behind the scenes with Premiere in the last couple of years – that was still in the last couple of years, and a lot has changed on the Mac platform since then. Sorry Autodesk, but Smoke on Mac is a hack job at best. None of these tools were written specifically for the hardware and operating systems of today.
 
 And so now we finally move onto the whole point of this blog post…
-
 ---
 
 ## FCPX
@@ -55,7 +52,6 @@ Re-thinking and re-writing the whole Final Cut Pro application from scratch was 
 One of the main reasons FCPX is so exciting is because it’s based on completely new and modern code. It’s entirely 64-bit (meaning it can use all the RAM in your system – something FCP7 could never do), it’s built with Apple’s Cocoa framework (meaning it can make use of all the latest functions the operating system supports), it makes great use of your GPUs (including the multiple GPUs in the new MacPro), it uses modern interface technologies such as Core Animation (which means even the UI elements can be GPU accelerated), 3rd party plugins can make use of 64-bit processing and GPU acceleration (through FxPlug 3), it has a proper ColorSync-managed pipeline (meaning files will look identical between FCPX, Motion, QuickTime Player, etc.), it does all it’s image processing in a floating-point linear-light colour space, and it has native format support for all of the most popular shooting formats (such as R3D, XAVC, AVCHD, H.264, AVC‑Intra, etc.). OK… so it’s modern code, I get it – but why do I as a creative editor care at all about these geeky details? Simple – it makes things fast, and it makes things stable. The software is designed to run at it’s absolute best on the hardware of TODAY. There’s no old redundant code lying around to support older systems. Everything can be streamlined. By starting from scratch, and by having a clear direction of where they want the product to go, the developers can build the application in a way that’s easy to grow and maintain. If you look at Avid and FCP7, there are bugs in the most recent versions that have existed there for years and years. Why were they never fixed? Probably because it’s too hard to revisit all that old code! I’ve been pushing FCPX pretty hard recently – and to be perfectly honest, it hasn’t crashed once. I can’t say the same thing for Premiere or Media Composer.
 
 FCPX is currently the only modern NLE on the Mac platform. This is exciting.
-
 ---
 
 ## My First Project
@@ -96,7 +92,6 @@ In terms of actually cutting, I actually found FCPX pretty easy to get started i
 In terms of actual cutting – I found FCPX made me go back to basic’s and do things a bit differently than I’m used to in Avid and Premiere. In a nutshell… I’d basically have a temporary Project called ‘Review’ and I’d copy and paste an interview (along with subtitles) into the Project, I’d then go through and make selects and delete anything I was sure I wouldn’t use. I’d do this for all the interviews, and once I had selects of everything, I’d paste it all into a new edit project. I then tried to get the interviews into a logical order that flows nicely, and start applying overlay’s and B-roll. For B-roll, I’d just search for the material I’d want by Keyword Collection, then more often than not, I could visually see all the really good stuff as it’s already marked as a Favourite. If there was specific B-roll footage that related to one of the interviewees – it already had a keyword for the interviewees name, so it was easy to find. I’d try get the in and out point as close as possible in the Browser (using the JKL and arrow keys), and then use the Q key to insert it over the top of the interviews on the primary storyline. Although I had created Compound clips for each interview, I never actually inserted a Compound Clip into the edit – I normally just used these clips when I wanted to go back and skim through and re-watch the interviews – and when I found something I liked, I’d copy and paste from the Compound Clip timeline. For music, I’d just ‘attach’ it to the video on the primary storyline and shift it around when necessary.
 
 Overall, I found trimming and re-arranging clips pretty easy – the magnetic timeline is definitely handy for keeping things in sync. The only time I really got “lost” was when I’d make a mistake, and try to undo, but it would undo something else I didn’t want it to, and re-do’ing didn’t put me back in the original location (sadly, the Undo button is useless is a lot of situations as it doesn’t remember everything). Having a magnetic timeline definitely helped keep my subtitles in sync, and overall I actually enjoyed working with it. There were times when I was frustrated (mainly because sometimes it made it work slower than I’m used to) – but I can’t remember any specific examples. I think if the Undo button actually worked as you’d expect, it would have saved me a lot of hassle.
-
 ---
 
 ## Things I like
@@ -117,7 +112,6 @@ Overall, I found trimming and re-arranging clips pretty easy – the magnetic ti
 – FCPX can now share media successfully across standard network drives. I found this out accidentally, as I moved a project from one machine to another in our office, and discovered that FCPX was being REALLY slow – upon further investigation, FCPX has actually relinked to the media across the network, rather than connecting to the locally stored media on another drive!
 – The Trim Commands (Trim Start, Trim End, Trim to Playhead) are very useful. ‘The Trim to Playhead’ command does different things depending on where the playhead is – if it’s in the first half of a clip, it trims the start to the playhead, if it’s in the second half, it trims the end to the playhead. If you use the Range tool to select a range in a timeline clip, the command turns into the ‘Trim Selection’ tool, trimming the clip to match the selection.
 – If you hold down the COMMAND+OPTION keys, and click a connected clip (or the grey border of a storyline) at the point where you want to position the connection point, the connection point is moved to the point where you clicked. Another handy tip is if you need to move or trim clips in the primary storyline but want to keep any connected clips where they are, you can hold down the Grave Accent (`) key while editing to preserve the timing and position of connected clips.
-
 ---
 
 ## THINGS THAT NEEDS IMPROVING:
@@ -138,7 +132,6 @@ Overall, I found trimming and re-arranging clips pretty easy – the magnetic ti
 – Avid has the best Metadata “Readers” of any NLE – essentially any bin column can be “burnt” into the image. Given that FCPX is the “king” of metadata – it would be fantastic if we could actually use this data in the form of a generator (i.e. “burn” timecode, filename and even keywords into the image for rushes exports, etc.).
 – It would be great if you could drag and effect (or a bunch of effects) from the Inspector to the timeline.
 – One of the most commonly requested things I’ve heard of, is the ability to “lock” a clip in place in a storyline (i.e. if you know you need something to happen at an exact timecode reference) – this would be really handy.
-
 ---
 
 ## CONCLUSION

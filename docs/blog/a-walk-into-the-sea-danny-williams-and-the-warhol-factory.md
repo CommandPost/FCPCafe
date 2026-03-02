@@ -4,7 +4,6 @@ date: 2007-08-28
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # A Walk into the Sea: Danny Williams and the Warhol Factory
 

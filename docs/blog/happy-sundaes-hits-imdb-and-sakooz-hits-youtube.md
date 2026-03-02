@@ -4,7 +4,6 @@ date: 2009-06-29
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Happy Sundaes hits IMDB and SAKOOZ hits YouTube!
 

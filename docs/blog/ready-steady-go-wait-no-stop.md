@@ -4,7 +4,6 @@ date: 2008-07-23
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Ready… Steady… Go! Wait, no, stop!
 

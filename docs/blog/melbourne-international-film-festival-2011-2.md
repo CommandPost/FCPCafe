@@ -2,7 +2,6 @@
 title: Melbourne International Film Festival 2011
 date: 2011-07-26
 author: Nicholas Colla
-layout: blog
 ---
 # Melbourne International Film Festival 2011
 

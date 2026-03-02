@@ -2,7 +2,6 @@
 title: Year In Review 2013 – Part 3
 date: 2013-12-31
 author: Nicholas Colla
-layout: blog
 ---
 # Year In Review 2013 – Part 3
 
@@ -27,7 +26,6 @@ All in all the shoot couldn’t have gone any better if we tried. The production
 ![06](/static/blog/12-061.jpg)
 
 And so with a rapidly closing deadline for both Time Trap and Rocketman, we all began busting our balls to get them finished. Hocking, working simultaneously between the two as Shanks continued with the enormous amount of visual effects on Time Trap and me working with Mike Lutman to lock an edit on Rocketman.
-
 ---
 
 ## October
@@ -47,7 +45,6 @@ So with Horror as our genre, and after Nato and my “Killer Turkey” idea got 
 I gotta say this was my favourite of the films that we’ve done for the 48 hour over the years. It was such a pleasure working alongside a team that were just so excited to be creating something together in 48 hours and who were willing to do anything to make not just a great 48 hour film, but a great film! I did learn one enormous lesson though – trying to scare people is bloody hard when you know when the scares are coming. I found it near impossible to work out whether the film was scary or not. Alas with the film making it in comfortably on time, we had to play the waiting game to see if our film would indeed make the audience jump out of their seats like we hoped.
 
 As usual, half way across the globe, Jacqui was busy working with [Gone Adventurin’](http://www.goneadventurin.com), covering a bike ride from Ankor Wat in Cambodia, through Thailand and ending in Vientiane in Laos. It was a project that managed to raise over 102,000 USD to end avoidable blindness through the initiative Seeing Is Believing. Amazing girl that Jacqui!
-
 ---
 
 ## November
@@ -61,7 +58,6 @@ And then came the big one. The 48 hour awards night in which we would discover w
 What happened next surprised us all quite a bit. We took out the awards for Best Sound Design, Best Editing, Best Director, Best Film AND the Audience Award. The film now goes on to compete in New Orleans in March at the International 48 hour film festival along with 100 other films from around the globe. A huge thank you to the Melbourne 48 hour team and all the other teams that competed. There were so many amazing films this year and we all feel very fortunate to have come away with what we did!
 
 ![09](/static/blog/12-092.jpg)
-
 ---
 
 ## December

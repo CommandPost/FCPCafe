@@ -4,7 +4,6 @@ date: 2014-07-13
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Vance Joy – Mess is Mine
 
@@ -13,7 +12,6 @@ Michael Shanks recently helped out with Visual Effects on this beautiful and qui
 The clip was cut by our very good friend [Michael J. Lutman](http://www.lutmanfilms.com) and graded by the amazingly talented [Roslyn Di Sisto](http://www.roslyndisisto.com/) – the same awesome duo that worked on [Rocketman](./../portfolio/rocketman/).
 
 Enjoy!
-
 ---
 
 ## CREDITS

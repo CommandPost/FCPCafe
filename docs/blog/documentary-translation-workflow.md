@@ -2,12 +2,10 @@
 title: Documentary Translation Workflow
 date: 2014-01-24
 author: Joel Sharpe
-layout: blog
 ---
 # Documentary Translation Workflow
 
 This Guest Blog has been written by our good friend, [Joel Sharpe](http://joelsharpe.com). Enjoy!
-
 ---
 
 In this post I’m going to explain my process working with translation on a recent film I did for NGO [As Green As It Gets](http://asgreenasitgets.org/) in Guatemala. Like most documentarians, having very little budget to deal with means creating a workflow that requires as little time with a paid translator as possible. Here is how I dealt with it.

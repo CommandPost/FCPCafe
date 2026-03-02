@@ -2,7 +2,6 @@
 title: The Oscars 2013
 date: 2013-02-24
 author: Nicholas Colla
-layout: blog
 ---
 # The Oscars 2013
 
@@ -15,7 +14,6 @@ layout: blog
 So it’s that time of year again where the people that you watch on the big screen, and the hard working team that make them look so damn good come together to celebrate another year of films. I’m excited this year because for once I have seen almost all (I’m short a [Lincoln](http://www.imdb.com/title/tt0443272/) and a [Zero Dark Thirty](http://www.imdb.com/title/tt1790885/)) the films nominated in both performance and technical categories. I’m pretty opinionated about stuff like this so please take whatever I say with a grain of salt, no use tearing me to shreds - just a humble movie goer’s opinion.
 
 Let’s start with the technical shall we:
-
 ---
 
 ## VISUAL EFFECTS
@@ -42,7 +40,6 @@ And so, I have to agree with the [The VFX Predictinator](http://fxrant.blogspot.
 ![pivfx](/static/blog/02-pivfx-459x590.jpg)
 
 OK… Back to **Nick**…
-
 ---
 
 ##  ADAPTED SCREENPLAY
@@ -53,7 +50,6 @@ Having just come back from the [AWG National Screenwriters Conference](./../2013
 **Head Says:** [Chris Terrio](http://www.imdb.com/name/nm0006516/), [Argo](http://www.imdb.com/title/tt1024648/)
 
 ![argo](/static/blog/02-argo1-590x244.jpg)
-
 ---
 
 ## ORIGINAL SCREENPLAY
@@ -66,7 +62,6 @@ It’s always interesting when [Quentin Tarantino](http://www.imdb.com/name/nm00
 ![django-unchained](/static/blog/02-django-unchained-590x332.jpg)
 
 ![1134604 - Zero Dark Thirty](/static/blog/02-zero-dark-thirty-590x393.jpg)
-
 ---
 
 ## FILM EDITING
@@ -87,7 +82,6 @@ Everything about Life of Pi is technically brilliant – it looks incredible, it
 ![argo-1](/static/blog/02-argo-1-590x323.jpg)
 
 Back to **Nick** again…
-
 ---
 
 ## CINEMATOGRAPHY
@@ -98,7 +92,6 @@ Again this is a tough one without having seen [Lincoln](http://www.imdb.com/titl
 **Head Says:** [Roger Deakins](http://www.imdb.com/name/nm0005683/), [Skyfall](http://www.imdb.com/title/tt1074638/)
 
 ![skyfall](/static/blog/02-skyfall-590x389.jpg)
-
 ---
 
 ## BEST SUPPORTING ACTOR
@@ -111,7 +104,6 @@ This category is slightly hilarious considering every person nominated has won a
 ![robert-de-niro](/static/blog/02-robert-de-niro-590x464.jpg)
 
 ![christoph-waltz](/static/blog/02-christoph-waltz-590x252.jpg)
-
 ---
 
 ## BEST SUPPORTING ACTRESS
@@ -122,7 +114,6 @@ A particularly hard one for me to judge based on the fact that I’ve only seen 
 **Head Says:** [Anne Hathaway](http://www.imdb.com/name/nm0004266/), [Les Misérables](http://www.imdb.com/title/tt1707386/)
 
 ![anne-hathaway](/static/blog/02-anne-hathaway-590x394.jpg)
-
 ---
 
 ## BEST ACTOR
@@ -133,7 +124,6 @@ Another category that you’d have to be a gypsy to be able to predict. You have
 **Head Says:** [Daniel Day-Lewis](http://www.imdb.com/name/nm0000358/), [Lincoln](http://www.imdb.com/title/tt0443272/) or [Hugh Jackman](http://www.imdb.com/name/nm0413168/), [Les Misérables](http://www.imdb.com/title/tt1707386/)
 
 ![day-lewis-jackman](/static/blog/02-day-lewis-jackman-590x241.jpg)
-
 ---
 
 ## BEST ACTRESS
@@ -144,7 +134,6 @@ Having the oldest AND youngest nominees ever makes this a rather unique category
 **Head Says:** [Emmanuelle Riva](http://www.imdb.com/title/tt1602620/), [Amour](http://www.imdb.com/title/tt1602620/)
 
 ![riva-and-lawrence](/static/blog/02-riva-and-lawrence-590x241.jpg)
-
 ---
 
 ## BEST DIRECTOR
@@ -157,7 +146,6 @@ The most controversial category this year thanks to the surprise omission of [Be
 ![benh-zeitlin](/static/blog/02-benh-zeitlin1.jpg)
 
 ![steven-spielberg](/static/blog/02-steven-spielberg-590x392.jpg)
-
 ---
 
 ## BEST FILM

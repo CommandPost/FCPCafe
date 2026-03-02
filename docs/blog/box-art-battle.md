@@ -2,7 +2,6 @@
 title: Box Art Battle
 date: 2012-06-18
 author: Michael Shanks
-layout: blog
 ---
 # Box Art Battle
 

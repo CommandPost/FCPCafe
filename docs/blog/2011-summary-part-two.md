@@ -2,12 +2,10 @@
 title: 2011 Summary (Part Two)
 date: 2011-12-27
 author: Nicholas Colla
-layout: blog
 ---
 # 2011 Summary (Part Two)
 
 So just before Christmas you heard about the first 6 months which were very exciting at LateNite HQ, so who would have thought the next 6 were going to be even busier…
-
 ---
 
 ## July
@@ -17,7 +15,6 @@ It was a slow movie month in Australia. I’m assuming due to the fact that the 
 It was also a relatively slow month for LateNite with everyone being a little bit exhausted after the [Hannah](./../portfolio/hannah-and-the-hasbian/) screening in San Francisco. Slow may not be entirely the right word, with Jacqui being very busily plugging the first instalment of [Spinning Dreams](./../portfolio/spinning-dreams-timor-leste/).
 
 The 40min doco became available for viewing online through Fairfax Digital, and even made it to the front page of The Age and Sydney Morning Herald websites, giving it a huge national audience. Why not do yourself a favour and [check it out](http://www.smh.com.au/tv/show/spinning-dreams/spinning-dreams-20110712-1hbpk/) – and see what all this fuss is about!
-
 ---
 
 ## August
@@ -43,7 +40,6 @@ To wrap up the month we slowly but surely began moving into our new home. The fi
 ![](/static/blog/12-books-02-590x440.jpg "books-02")
 
 ![](/static/blog/12-books-01-590x440.jpg "books-01")
-
 ---
 
 ## September
@@ -59,7 +55,6 @@ Chris was also back on board with the Daperis Brothers short [Phone Call](./../p
 Upon his return from New York, Al was keeping busy in Canberra shooting some doco footage for a highly anticipated documentary which will take him around Australia next year with Australian actor [Samuel Johnson](http://en.wikipedia.org/wiki/Samuel_Johnson_(actor)). More on that in the New Year!
 
 [Hannah](./../portfolio/hannah-and-the-hasbian/) continued to screen around the globe as we rolled into October where the 48 hour film festival awaited.
-
 ---
 
 ## October
@@ -80,7 +75,6 @@ With numerous locations, over 20 actors, having to wrangle RED footage, horses, 
 48 hours and several melt downs later and LateNite submitted their entry for the 48 Hour Film Project for 2011 with the working title [The Script Machine](./../portfolio/the-script-machine/).
 
 ![](/static/blog/12-48hour-crew-590x393.jpg "48hour-crew")
-
 ---
 
 ## November
@@ -114,7 +108,6 @@ I feel like our approach to filmmaking is very bold in the respect that even if 
 That’s one thing that I can say that I am truly proud of us for. The fact that even though sometimes it may seem like what we are attempting is insane and completely impossible, we are still prepared to give it a go. Sure there is always a possibility of failure… but if you don’t even attempt the impossible, how do you know if it was impossible in the first place?
 
 ![](/static/blog/12-48-hour-team-590x338.jpg "48-hour-team")
-
 ---
 
 ## December

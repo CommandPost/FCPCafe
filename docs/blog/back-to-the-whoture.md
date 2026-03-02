@@ -2,7 +2,6 @@
 title: Back to the Whoture
 date: 2012-09-20
 author: Michael Shanks
-layout: blog
 ---
 # Back to the Whoture
 

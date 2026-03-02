@@ -2,7 +2,6 @@
 title: A Day in the Life of Max Payne
 date: 2012-06-27
 author: Michael Shanks
-layout: blog
 ---
 # A Day in the Life of Max Payne
 

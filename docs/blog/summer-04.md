@@ -4,7 +4,6 @@ date: 2006-08-22
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Summer 04
 

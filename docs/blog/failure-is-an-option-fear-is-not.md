@@ -4,7 +4,6 @@ date: 2010-03-12
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Failure is an option. Fear is not.
 

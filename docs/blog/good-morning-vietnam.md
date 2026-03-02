@@ -4,7 +4,6 @@ date: 2010-03-05
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Good Morning Vietnam!
 

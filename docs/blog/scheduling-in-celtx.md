@@ -2,7 +2,6 @@
 title: Scheduling in Celtx
 date: 2010-10-04
 author: Nicholas Colla
-layout: blog
 ---
 # Scheduling in Celtx
 

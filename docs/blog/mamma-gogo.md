@@ -4,7 +4,6 @@ date: 2011-03-15
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Mamma Gogo
 

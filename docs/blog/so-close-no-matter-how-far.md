@@ -2,7 +2,6 @@
 title: So Close, No Matter How Far
 date: 2011-04-12
 author: Alistair Marks
-layout: blog
 ---
 # So Close, No Matter How Far
 

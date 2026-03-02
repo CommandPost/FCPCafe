@@ -2,7 +2,6 @@
 title: The End of the Beginning
 date: 2010-10-22
 author: Alistair Marks
-layout: blog
 ---
 # The End of the Beginning
 

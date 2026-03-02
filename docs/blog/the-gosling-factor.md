@@ -2,7 +2,6 @@
 title: The Gosling Factor
 date: 2011-12-07
 author: Nicholas Colla
-layout: blog
 ---
 # The Gosling Factor
 

@@ -2,7 +2,6 @@
 title: Blocking
 date: 2015-10-26
 author: Daniel Daperis
-layout: blog
 ---
 # Blocking
 

@@ -4,14 +4,12 @@ date: 2014-02-18
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Fragile – All The Colours
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/chA8-cClxt0?si=CO2qaNSu1hjY7uha" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Michael Shanks recently helped out on this beautiful music video for [All The Colours](http://allthecolours.bandcamp.com), directed and shot by our very good friend, [Edward Goldner](http://www.edwardgoldner.com/). It was colour graded by the amazingly talented CJ Dobson from [Pocket Post](http://www.pocket-post.com). Enjoy!
-
 ---
 
 ## Credits

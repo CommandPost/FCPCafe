@@ -2,7 +2,6 @@
 title: The Making of PLASTICIZED
 date: 2013-07-29
 author: Michael Lutman
-layout: blog
 ---
 # The Making of PLASTICIZED
 

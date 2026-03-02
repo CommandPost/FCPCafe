@@ -4,7 +4,6 @@ date: 2010-08-13
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Photos from the Short Film
 

@@ -4,12 +4,10 @@ date: 2014-01-30
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # FCPX’s Hidden Debug Preferences
 
 **UPDATE (JUNE 2017):** The *PEAppDebugPreferencesModule.nib* file no longer exists in the Final Cut Pro 10.3.4 package, but has been replaced with *PEAppAudioPreferencesModule.nib* and *PEAppUserPreferencesModule.nib*.
-
 ---
 
 Back in November last year, I was listening to a [FCPX Grill episode](http://digitalcinemacafe.com/2013/11/26/fcg003-reading-the-fcpx-tea-leaves-feat-alex-gollner/) with [Alex Gollner](http://blog.alex4d.com), where he talked about talked about a secret “debug mode” he discovered whilst looking through all the FCPX .plist and .nib files.

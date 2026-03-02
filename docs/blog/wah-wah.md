@@ -2,7 +2,6 @@
 title: Wah Wah
 date: 2010-11-18
 author: Nicholas Colla
-layout: blog
 ---
 # Wah Wah
 

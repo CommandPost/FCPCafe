@@ -2,7 +2,6 @@
 title: 2012 Summary – Part Two
 date: 2012-12-26
 author: Nicholas Colla
-layout: blog
 ---
 # 2012 Summary – Part Two
 
@@ -21,7 +20,6 @@ The great news being that from the above screenings, Andrea’s film won Best Do
 And **Jacqui**? Well she took off with Ash for GoneAdventurin, producing her biggest project yet, [Cycle On Ceylon](http://www.goneadventurin.com/project/cycle-on-ceylon/).
 
 Teaming up again with Michael Lutman, the 45-minute Branded Documentary captured the spirit of adventure in a 728km cycling journey from the southern to northern tips of Sri Lanka, to raise awareness and funds for [Practical Action](http://practicalaction.org/). You can read about the behind the scenes filming experience on our [blog](./../2012/07/01/5am-sri-lanka-in-may/).
-
 ---
 
 ## JUNE
@@ -43,7 +41,6 @@ On top of these three projects we were also up for a pitch for a drive safety ca
 ![02](/static/blog/12-021-590x440.jpg)
 
 While **Jacqui** was in the edit room for [Cycle on Ceylon](http://www.goneadventurin.com/project/cycle-on-ceylon/) ([#POSTDONTSTOP](https://twitter.com/search?q=%23POSTDONTSTOP&src=typd)), the super-talented composer and musical genius [Dmitri Golovko](http://www.dgmusichouse.com/) was beginning to work on the documentary score. It was awesome to secure such an incredibly talented artist – for those that don’t know Dmitri, composed the score for [Red Hill](http://www.imdb.com/title/tt1530983/) (directed by [Patrick Hughes](http://patrickhughes.com.au/)) for which he received a nomination for **Best Soundtrack Album** at the [2011 Screen Music Awards](http://www.apra-amcos.com.au/2011ScreenMusicAwards/index/).
-
 ---
 
 ## JULY
@@ -53,7 +50,6 @@ Of course being blockbuster season in the States, I have indeed left out two of 
 This month was another for events with a number of the **LateNite** crew gracing the stage in some way shape or form. **Nick** finished up his run at **Theatreworks** with the production **Himmelweg**, **Chris** lent his Post Production know how to the **ASE** and their [Digital Workflows](./../2012/07/31/ase-digital-workflows-event-summary/) talk held at [Swinburne University](http://www.swinburne.edu.au/) and **Michael** made his forum debut at the [Adobe Creative Suite 6 Roadshow](http://www.adobe.com/au/special/cs6roadshow/) held at the [Melbourne Convention and Exhibition Centre](http://www.mcec.com.au/).
 
 And as for **Jacqui**? Well she was back in Singapore,being interviewed on Singapore’s biggest radio station [938 LIVE](http://entertainment.xin.msn.com/en/radio/938live/) to talk about her Documentary Adventures with Ash ([listen here](http://www.podcast.sg/radiopodcast/938/MDC110304_0000002/audio/MDC120730-0000005.mp3)).
-
 ---
 
 If the four trailers above didn’t give it away then you all missed out on **Nick’s** favourite event of the year. The month of August of course plays host to the [Melbourne International Film Festival](http://miff.com.au/) every year and **Nick** was fortunate enough (with the help of **Jacqui** and brother **Ryan**) to win himself a free festival pass. MASSIVE mistake that was. Above are just a few of the amazing films that he managed to catch during **MIFF** 2012.

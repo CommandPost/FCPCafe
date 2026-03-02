@@ -4,12 +4,10 @@ date: 2011-08-11
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Calculating Timecode in Excel
 
 **UPDATE (26th January 2017):** As Brad mentions in the comments below, you can now download the [TC.XLAM 2.0 beta](http://www.belle-nuit.com/tc-xla), which is no longer password protected and works on modern versions of Excel. For those that no longer use Excel, there’s also a [Google Sheets](./../calculating-timecode-in-google-sheets/) version explained here.
-
 ---
 
 Today I was contacted by a filmmaker friend that wanted to work out a way to calculate timecode within an Excel spreadsheet. Fortunately there are some great Macro’s out there that allow you to do just that, however the one I recommended is not terribly well documented, so I thought I would jot down some notes here.

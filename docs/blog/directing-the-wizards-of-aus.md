@@ -2,7 +2,6 @@
 title: Directing The Wizards of Aus
 date: 2015-12-20
 author: Michael Shanks
-layout: blog
 ---
 # Directing The Wizards of Aus
 

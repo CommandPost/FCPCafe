@@ -4,7 +4,6 @@ date: 2006-06-05
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Reality TV has no redeeming features…
 
@@ -31,7 +30,6 @@ One of the key differences between reality television of the past, and that of t
 It is not only new technology that has helped networks satisfy advertisers. Producers also have taken advantage of more traditional advertising means to increase their cash flow. *Big Brother* is again a most appropriate example. All the items inserted into the house have been placed there through sponsorship deals. In Australia, all of the food products within the house come from specific food companies that have commercial agreements with the show’s production company. Any food products that are not covered by a contract have their labels removed (Wikipedia 2006). The Australian *Big Brother* has affiliations and sponsorship agreements with paint suppliers, alcohol brewers, car manufactures, building supplies, home automation fitters, fitness organisations and even carpet companies. More obvious forms of traditional advertising can be found during eviction shows, where walls are covered in signs and banners much like that of football ovals.
 
 When shows such as *An American Family* were being aired in the 1970s, reality television was just another harmless form of entertainment. But as society progressed, and “making a profit” became more important, programs like MTV’s *Cops* emerged to keep networks afloat. By the new millennium reality television no longer had any redeeming features; it was all about making a profit. Television networks started to exploit a wide variety of social groups to help achieve this aim. They started to use new technology to increase their cash flow. Product placement techniques started to become common place, keeping advertisers happy. Reality television demonstrates that civilisation has put ethics and morals aside, so that corporations can make money. It will be interesting to see what networks will do next when people become bored of the current reality television format, forcing producers to formulate new ways of keeping advertisers satisfied.
-
 ---
 
 ## Bibliography/Reference

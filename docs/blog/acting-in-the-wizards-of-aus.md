@@ -2,12 +2,10 @@
 title: Acting in The Wizards of Aus
 date: 2016-01-22
 author: Menik Gooneratne
-layout: blog
 ---
 # Acting in The Wizards of Aus
 
 **In today’s blog post, we have yet another very special guest. Best known for her role as Priya Kapoor on iconic Network Ten television series Neighbours, Menik Gooneratne has had a film and television career spanning over a decade, encompassing both Australian and international productions, including working with Nicole Kidman on the upcoming feature Lion. Today she talks to us about her experiences on The Wizards of Aus. Enjoy!**
-
 ---
 
 ![01_kylie](/static/blog/01-01_kylie.jpg)

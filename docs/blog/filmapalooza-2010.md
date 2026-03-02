@@ -4,7 +4,6 @@ date: 2011-03-14
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Filmapalooza 2010
 

@@ -2,7 +2,6 @@
 title: Writing The Wizards of Aus
 date: 2016-01-16
 author: Nick Issell
-layout: blog
 ---
 # Writing The Wizards of Aus
 

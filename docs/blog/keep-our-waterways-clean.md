@@ -2,7 +2,6 @@
 title: Keep Our Waterways Clean
 date: 2013-12-18
 author: Jacqui Hocking
-layout: blog
 ---
 # Keep Our Waterways Clean
 

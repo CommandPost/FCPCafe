@@ -2,7 +2,6 @@
 title: The read from AL’s POV
 date: 2010-10-17
 author: Alistair Marks
-layout: blog
 ---
 # The read from AL’s POV
 

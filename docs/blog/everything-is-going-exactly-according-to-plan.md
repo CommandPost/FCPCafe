@@ -4,7 +4,6 @@ date: 2008-05-11
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Everything is going exactly according to plan…
 

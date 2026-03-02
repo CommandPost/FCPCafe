@@ -2,7 +2,6 @@
 title: 2012 Summary – Part Three
 date: 2013-01-02
 author: Nicholas Colla
-layout: blog
 ---
 # 2012 Summary – Part Three
 
@@ -19,7 +18,6 @@ This project was made all the more exciting by the fact that we were lucky enoug
 Whilst all of this was occurring **Michael** **Shanks** continued on his merry way shooting some more viral videos for his [Timtimfed](http://timtimfed.com) brand. One of which involved a secret location and a very famous car…
 
 With all this shooting going on, **Chris** was busy helping our good friend **Jaime Snyder** prep for yet another [Three One Six Oh!](http://threeonesixoh.com/) Film Festival whilst **Jacqui** was off again on another shoot for [Tour de Timor](http://www.tourdetimor.com/) helping out our good friends at [Jungle Run Productions](http://jungle-run.com/) with the broadcast coverage.
-
 ---
 
 ## OCTOBER
@@ -45,7 +43,6 @@ And as always with the 48 hour, then we played the waiting game.
 ![17](/static/blog/01-17.jpg)
 
 Meanwhile Jacqui was in Singapore organising the premiere of our feature documentary film [Cycle on Ceylon: Spirit of the Journey](http://www.goneadventurin.com/project/cycle-on-ceylon/) at The British High Commissioner’s Residence – which ended up raising over SDG$35,000 for [Practical Action](http://practicalaction.org/).
-
 ---
 
 ## NOVEMBER
@@ -81,7 +78,6 @@ And of course to wrap up the month was the annual screenings and awards night fo
 The awards were swept up this year by our good friends at [Ready to Roll](http://readytoroll.com.au/) with their detective/cop entry **The Anti Social Network**. We can’t wait to hear how they go over at the international screening in LA early in 2013!
 
 ![07](/static/blog/01-07-590x590.jpg)
-
 ---
 
 ## DECEMBER

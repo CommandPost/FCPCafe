@@ -2,7 +2,6 @@
 title: Hitman - Playstyles
 date: 2013-01-13
 author: Michael Shanks
-layout: blog
 ---
 # Hitman: Playstyles
 

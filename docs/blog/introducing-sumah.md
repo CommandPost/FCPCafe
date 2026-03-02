@@ -2,7 +2,6 @@
 title: Introducing Sumah
 date: 2014-08-26
 author: Sumah Hurley
-layout: blog
 ---
 # Introducing Sumah
 
@@ -13,7 +12,6 @@ Being the first blog entry, I should perhaps bring you up to speed with the adve
 Meeting LateNite has been an absolute highlight - and I’m not just saying that because they *will* read this. They are a strong, talented team of creatives who without reservations graciously accepted me with open arms. They didn’t waste anytime either. Before finishing my coffee at our first meeting they offered me the opportunity to produce their next short film ‘Hit’. Written and to be directed by Daniel and Jared Daperis, I, without hesitation accepted their offer. From there it all began.
 
 ![hit-ambo](/static/blog/08-hit-ambo.jpeg)
-
 ---
 
 ## ‘HIT’
@@ -23,7 +21,6 @@ While I had done many short films previously, this one was unlike the rest and i
 ![hit-team](/static/blog/08-hit-team.jpg)
 
 I must say the Daperis Brother’s have such passion for their ideas. It’s no surprise that people want to offer up their time and skills without question. This film was no exemption. We had some of the best in the industry helping to create the boy’s vision. Even Daniel turned to me on day one just in awe of their generosity. It astounds me how blessed we were to not only have the crew we did but also the incredible cast. Each one was as dedicated as they were talented. Even to the point where one of the actors calls two days before shooting to inform me that they were in hospital, but to worry because they’ll leave with enough time to get to set. That’s dedication. I mean that’s some messed up kind of dedication to put it bluntly, but it is that commitment from all involved that made the film what it was. And even more so makes me proud to be the producer.
-
 ---
 
 ## ‘IT’S A DATE’
@@ -37,7 +34,6 @@ Walking into their office, an old refurbished church in Prahan, past accomplishm
 ![iad2](/static/blog/08-iad2.jpg)
 
 The shoot was as unique as the show itself. With a new location everyday and new actors every week it was unlike anything I had done before. When on a day you have Kat Stewart to your left and Lisa McCune to your right, I’d say it’s pretty good. The show taught me a great deal, not only about the job but also about myself - my strengths and my limitations. I thank them for allowing me the flexibility to learn and the opportunity to grow.
-
 ---
 
 ## ‘MYSTERY FEATURE’

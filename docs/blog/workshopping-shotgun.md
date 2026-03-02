@@ -2,7 +2,6 @@
 title: Workshopping SHOTGUN!
 date: 2010-08-18
 author: Nicholas Colla
-layout: blog
 ---
 # Workshopping SHOTGUN!
 

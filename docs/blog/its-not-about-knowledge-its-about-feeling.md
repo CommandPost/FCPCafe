@@ -2,7 +2,6 @@
 title: It’s not about knowledge – it’s about feeling…
 date: 2012-07-22
 author: Jacqui Hocking
-layout: blog
 ---
 # It’s not about knowledge – it’s about feeling…
 

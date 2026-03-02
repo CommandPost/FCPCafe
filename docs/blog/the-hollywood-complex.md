@@ -2,7 +2,6 @@
 title: The Hollywood Complex
 date: 2011-07-26
 author: Nicholas Colla
-layout: blog
 ---
 # The Hollywood Complex
 

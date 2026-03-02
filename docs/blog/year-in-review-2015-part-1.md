@@ -2,7 +2,6 @@
 title: Year in Review 2015 - Part 1
 date: 2015-12-26
 author: Nicholas Colla
-layout: blog
 ---
 # Year in Review 2015 - Part 1
 
@@ -15,7 +14,6 @@ THE GOD DAMN FUTURE.
 Well that’s what it feels like anyway. I swear I just wrote one of these end of year things only a few months back, but then I guess that’s the perfect way to describe this year. We started with our biggest project to date in January and from there the year has sped by, bringing us to a point where we find ourselves on the verge of releasing our first television series unto the world in a little over three weeks.
 
 Bizarre.
-
 ---
 
 ## JANUARY
@@ -27,7 +25,6 @@ So January started with us getting the green light for what would become Michael
 ![01_flickerfest](/static/blog/12-01_flickerfest.jpg)
 
 Whilst that was going on we also had our short films [Palindromes](./../portfolio/palindromes/) & [Rocketman](./../portfolio/rocketman/) screening at the prestigious Flickerfest in Sydney and of course Shanks still found some time to knock out this wee little gem:
-
 ---
 
 ## FEBRUARY
@@ -39,7 +36,6 @@ So whilst pre-production was still motoring along on Wizards, [Palindromes](./..
 ![02_peninsula](/static/blog/12-02_peninsula.png)
 
 And shortly after that Hocking, Shanks and myself jumped on different planes and headed over to the US of A…
-
 ---
 
 ## MARCH
@@ -63,7 +59,6 @@ Now I could spend the rest of the blog highlighting just how bloody incredible t
 But that’s not for this blog – we’ll have more Wizards BTS than you can throw a stick at in the New Year, so stay tuned! And instead of any sneaky BTS photos I leave you with this. An EXCLUSIVE photo of the entire *Wizards* crew helping to lift Eve’s (art department) car out of a ditch. You’re welcome.
 
 ![05_eve](/static/blog/12-05_eve.jpg)
-
 ---
 
 ## APRIL
@@ -83,7 +78,6 @@ Hocking & Shanks dived straight into post production and Sumah and myself handed
 The Daperis boys were constructing an underwater bar… yep. You heard me.
 
 ![08_underwater](/static/blog/12-08_underwater.png)
-
 ---
 
 ## MAY
@@ -95,7 +89,6 @@ And so it came time to sink the huge underwater bar that the Daperis boys had pr
 ![09_pool](/static/blog/12-09_pool.png)
 
 And on top of editing Wizards, rotoscoping goblins and setting up an underwater communications system, Hocking managed to take the time out to talk on a Post Production panel at St Kilda Festival for the [ASE](http://www.screeneditors.com.au) (like he wasn’t busy enough already!).
-
 ---
 
 ## JUNE

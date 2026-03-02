@@ -4,7 +4,6 @@ date: 2007-08-21
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Rescue Dawn
 

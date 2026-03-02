@@ -2,7 +2,6 @@
 title: Half-Life - Counting to 3
 date: 2013-06-09
 author: Michael Shanks
-layout: blog
 ---
 # Half-Life: Counting to 3
 

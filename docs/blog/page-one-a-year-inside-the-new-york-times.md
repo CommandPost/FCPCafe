@@ -4,7 +4,6 @@ date: 2011-03-09
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Page One: A Year Inside The New York Times
 

@@ -2,7 +2,6 @@
 title: Tropfest - The Rock Show of Film Festivals
 date: 2013-02-20
 author: Nicholas Colla
-layout: blog
 ---
 # Tropfest: The Rock Show of Film Festivals
 
@@ -20,7 +19,6 @@ Now to quickly answer your questions, no I am not a bitter entrant that didn’t
 What I do want to do though is give my thoughts on the films this year. Same as every year, I loved some, I hated some, and I’ll try my very best to give reasons why.
 
 ![GREAT-DAY-Still-2-670x376](/static/blog/02-GREAT-DAY-Still-2-670x376-590x331.jpg)
-
 ---
 
 ## Great Day
@@ -30,7 +28,6 @@ The festival kicked off with Great Day, a film by a young female filmmaker named
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/great-day-4321611/).
 
 ![LET-IT-RAIN-K-670x376](/static/blog/02-LET-IT-RAIN-K-670x376-590x331.jpg)
-
 ---
 
 ## Let It Rain
@@ -40,7 +37,6 @@ This one created a little bit of tension in my camp as most people that I was wi
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/let-it-rain-4321609/).
 
 ![TIME-Still06-670x376](/static/blog/02-TIME-Still06-670x376-590x331.jpg)
-
 ---
 
 ## Time
@@ -52,7 +48,6 @@ This one created a little bit of tension in my camp as most people that I was wi
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/time-4321602/).
 
 ![emma-booth-scene-16-still-670x377](/static/blog/02-emma-booth-scene-16-still-670x377-590x331.jpg)
-
 ---
 
 ## Scene 16
@@ -62,7 +57,6 @@ This is a bit of a hard one to judge as I think as an actor I could relate to th
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/scene-16-4321605/).
 
 ![2_Monobrow_Production-Still-2-670x376](/static/blog/02-2_Monobrow_Production-Still-2-670x376-590x331.jpg)
-
 ---
 
 ## Monobrow
@@ -72,7 +66,6 @@ Very weird and felt like something you’d see on Funny or Die that’s been sub
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/monobrow-4321610/).
 
 ![INSIDE_still_1-670x284](/static/blog/02-INSIDE_still_1-670x284-590x250.jpg)
-
 ---
 
 ## Inside
@@ -82,7 +75,6 @@ I don’t wanna say much about this but in short, I hated it. The performance by
 > Watch [Here](http://http//www.smh.com.au/tv/movies/show/tropfest/inside-4321612/).
 
 ![Bunny-Still-02-670x286](/static/blog/02-Bunny-Still-02-670x286-590x251.jpg)
-
 ---
 
 ## The Pledge for Mr Bunny
@@ -92,7 +84,6 @@ A film I liked but many didn’t. I think what I did like about this film was it
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/the-pledge-for-mister-bunny-4321607/).
 
 ![CASH-COW-pic-02-670x376](/static/blog/02-CASH-COW-pic-02-670x376-590x331.jpg)
-
 ---
 
 ## Cash Cow – a 63% True Story
@@ -102,7 +93,6 @@ Funnily enough it was also a 63% shit film. Every year there seems to be those b
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/cash-cow-4321613/).
 
 ![ProdStill01-670x287](/static/blog/02-ProdStill01-670x287-590x252.jpg)
-
 ---
 
 ## Cargo
@@ -112,7 +102,6 @@ I really dug this little take on a Zombie film. It had a great, simplistic conce
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/cargo-4321614/).
 
 ![TASER-Production-Still-1-preferred-670x376](/static/blog/02-TASER-Production-Still-1-preferred-670x376-590x331.jpg)
-
 ---
 
 ## Taser
@@ -122,7 +111,6 @@ This is a difficult one because I seem to be in the minority of people that thou
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/taser-4321604/).
 
 ![Punctured-670x357](/static/blog/02-Punctured-670x357-590x314.jpg)
-
 ---
 
 ## Punctured
@@ -132,7 +120,6 @@ A really cute little animation made by a couple of young Sydney-siders. Really e
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/punctured-4321608/).
 
 ![PRODUCTION-STILL-2-670x376](/static/blog/02-PRODUCTION-STILL-2-670x376-590x331.png)
-
 ---
 
 ## Better Than Sinatra
@@ -142,7 +129,6 @@ I know this was another film that split people but I really enjoyed it. Much lik
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/better-than-sinatra-4321615/).
 
 ![Remote-Still-2a-670x390](/static/blog/02-Remote-Still-2a-670x390-590x343.jpg)
-
 ---
 
 ## Remote
@@ -152,7 +138,6 @@ There really isn’t much to say about this one. I laughed out loud at the punch
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/remote-4321606/).
 
 ![The-Hustle-Still-02-ID955-670x353](/static/blog/02-The-Hustle-Still-02-ID955-670x353-590x310.jpg)
-
 ---
 
 ## The Hustle
@@ -162,7 +147,6 @@ A little biased with this one cause it starred a few mates of mine. I thought th
 > Watch [Here](http://www.smh.com.au/tv/movies/show/tropfest/the-hustle-4321603/).
 
 ![A-MAN-WALKS-INTO-A-BAR-Still-1-670x376](/static/blog/02-A-MAN-WALKS-INTO-A-BAR-Still-1-670x376-590x331.png)
-
 ---
 
 ## A Man Walk’s Into A Bar…
@@ -172,7 +156,6 @@ Much like Cash Cow, I imagine this entry got into the finals based on the streng
 > Watch [Here](http://www.smh.com.au/tv/Movies/show/Tropfest/A-Man-Walks-Into-A-Bar-4321616/).
 
 ![WABT-JOAN-and-JESS-670x446](/static/blog/02-WABT-JOAN-and-JESS-670x446-590x392.jpg)
-
 ---
 
 ## We’ve All Been There

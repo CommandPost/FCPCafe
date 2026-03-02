@@ -4,14 +4,12 @@ date: 2014-07-06
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Dan Webb – Coming Up Roses
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z0paesrt6Pc?si=ZbpPHdNOY-UGZN3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Michael Shanks recently helped out on this impressive (and slightly silly) music video for Dan Webb’s debut album [Sandstorm](https://itunes.apple.com/us/album/sandstorm/id829408387?uo=4), directed by our good friend, [Kess Broekman-Dattner](http://kessbd.com/). It was colour graded by the amazingly talented CJ Dobson from [Pocket Post](http://www.pocket-post.com), and crewed by some of our favourite people in the world (including Austin Haigh, Tom Savige, Jesse Maskell and Glenn Clayton). Enjoy!
-
 ---
 
 ## CREDITS

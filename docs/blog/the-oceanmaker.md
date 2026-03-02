@@ -2,7 +2,6 @@
 title: The OceanMaker
 date: 2013-04-25
 author: Lucas Martell
-layout: blog
 ---
 # The OceanMaker
 
@@ -15,7 +14,6 @@ Lucas documented his whole process in an amazingly insightful and hugely helpful
 Since **Pigeon: Impossible**, Lucas has created several original feature projects, all in various states of development, as well as working on a new short film entitled **The OceanMaker**.
 
 Here’s an interview we did with Lucas, talking about this amazingly exciting new project (that we really hope you’ll help [support](http://www.indiegogo.com/projects/the-oceanmaker-animated-short-film/x/294963)!)…
-
 ---
 
 **Tell us about The OceanMaker.**

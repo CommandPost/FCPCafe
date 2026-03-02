@@ -2,7 +2,6 @@
 title: Fran-tick-tick-tick-tick-tick-tick-toc… And so the count down begins.
 date: 2010-10-04
 author: Alistair Marks
-layout: blog
 ---
 # Fran-tick-tick-tick-tick-tick-tick-toc… And so the count down begins.
 

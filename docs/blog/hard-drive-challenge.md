@@ -4,7 +4,6 @@ date: 2013-12-12
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # The Hard Drive Challenge
 
@@ -19,7 +18,6 @@ Rather than just destroy all the drives and be done with it – I’ve decided t
 There is always lots of discussion on the Internet about the shelf life of hard drives – so this will hopefully offer some insight as a real world example, with lots of different drives from a wide range of generations and era’s stored in pretty average and horrible conditions. We’ve had some stinking hot summers, and some awfully cold winters over the years – so these poor drives have just sat there whilst it’s been [snowing outside](./../2008/08/27/let-it-snow-let-it-snow-let-it-snow/), and also when there’s been bush fires nearby!
 
 To give you some idea of what limits a hard drives shelf life, the longevity of the data stored on any drive depends on the conditions where it is stored and for how long. For hard drives, there are three main factors: **magnetic field breakdown, environmental conditions, and mechanical failure.**
-
 ---
 
 ## Magnetic Field Breakdown
@@ -29,7 +27,6 @@ Most sources state that permanent magnets lose their magnetic field strength at 
 To periodically refresh the data on the drive, simply transfer it to another location, and re-writing it back to the drive. That way, the magnetic domains in the physical disk surface will be renewed with their original strength (because you just re-wrote the files back to the disk). If you’re concerned about filesystem corruption, you can also format the disk before transferring the data back. There are also [Terminal commands](http://www.larryjordan.biz/technique-refreshing-hard-disk-storage/) on MacOS that allow you to “access” all the files on your hard drive, which makes the hard drive re-write each used block on the hard drive.
 
 You can also help to avoid this issue by archiving your data with recovery data and error correction when you put the data onto the drive. Many archive formats support the inclusion of data recovery algorithms, so even if you have a few corrupted sectors, you can still re-build the lost data.
-
 ---
 
 ## Environmental Conditions
@@ -37,7 +34,6 @@ You can also help to avoid this issue by archiving your data with recovery data 
 Some government organizations “sanitise” hard drives by exposing them to a very powerful magnetic field, effectively (and literally) removing the data from the hard drive by “resetting” all of the sectors. It’s important to note that storing a hard drive in, or near the presence of magnetic fields (alternating *or* static) will severely impact the data stored on the drive.
 
 [Geomagnetic storms](http://en.wikipedia.org/wiki/Geomagnetic_storm) have also been so powerful in some areas that they have actually corrupted hard disks in the past. If you worry about this issue, consider storing your drives in a basement or somewhere heavily insulated from the environment.
-
 ---
 
 ## Mechanical Failure

@@ -2,7 +2,6 @@
 title: 2012 Summary – Part One
 date: 2012-12-19
 author: Nicholas Colla
-layout: blog
 ---
 # 2012 Summary – Part One
 
@@ -11,7 +10,6 @@ layout: blog
 A little something that we started last year here at **LateNite** was to take a moment to reflect on the year that was. The projects, the people, the joy, the tears, the wins, the losses and of course the movies that made 2012. Instead of two enormous blogs though, this year we will be breaking it up into thirds for your reading pleasure and releasing one a week right up until 2013 ticks over, at which point we’ll be revealing some of our exciting new projects in the works.
 
 So here goes nothing…
-
 ---
 
 ## JANUARY
@@ -37,7 +35,6 @@ From the twisted mind of **Michael Shanks** came his very first music video for 
 The one man (wo-man) machine that is **Jacqui Hocking** was meanwhile was filming in [South Africa](http://expedition.toptotop.org/archives/2012_01/) as part of her ongoing [TOPtoTOP](http://www.toptotop.org/) documentary. **Chris** and **Nick** have worked out if you ever want to hate on your current situation, just check out **Jacqui’s** photos - odds are she’s having a far better time than you are!
 
 ![03](/static/blog/12-03.jpg)
-
 ---
 
 ## FEBRUARY
@@ -65,7 +62,6 @@ Producer [Julian Costanzo](http://www.imdb.com/name/nm2630377/) took out the mai
 We also had our friend **Hannah Moon** and her team in the finals of the [Optus180 Competition](http://www.mtv.com.au/shows/optus-one80project/) with their TV series concept **Starfish**. The concept trailer starred [16th Street](http://www.16thstreet.com.au/) actors [Shannon Glowacki](http://www.imdb.com/name/nm4254556/) and [Emily Wheaton](http://www.imdb.com/name/nm1720228/) in a cute little concept.
 
 One of **Chris’** acquaintances from the [SPAA Emerging Producers Scheme](./../2011/11/18/spaa-conference-2011/) from the previous year, **Kirsty Stark**, had her project [Wastelander Panda](http://wastelanderpanda.com/), also competing in the same competition as **Starfish**. You can check out the EPIC trailer below:
-
 ---
 
 ## MARCH
@@ -95,7 +91,6 @@ The boys at [Dark Heart Productions](http://www.darkheartproductions.com/) raise
 [Nidhi Chanani](http://everydayloveart.com/), the amazingly talented artist behind the illustrations in [Hannah & The Hasbian](./../portfolio/hannah-and-the-hasbian/), was honoured at The White House by **Presdident Obama** as a “Champion of Change” for her work in the community as an artist. We love **Nidhi** and are all incredibly proud of all that she has achieved and can’t wait to see what she does next! Onwards & Upwards!
 
 ![08](/static/blog/12-08-590x473.jpg)
-
 ---
 
 ## APRIL

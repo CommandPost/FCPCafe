@@ -2,7 +2,6 @@
 title: My eyes are bleeding…
 date: 2010-10-15
 author: Nicholas Colla
-layout: blog
 ---
 # My eyes are bleeding…
 

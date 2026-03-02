@@ -4,7 +4,6 @@ date: 2009-05-10
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Avid vs FCP – My thoughts…
 

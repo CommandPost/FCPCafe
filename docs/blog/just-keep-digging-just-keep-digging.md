@@ -4,7 +4,6 @@ date: 2008-07-10
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Just keep digging… Just keep digging…
 

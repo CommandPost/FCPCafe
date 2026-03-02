@@ -4,7 +4,6 @@ date: 2009-02-24
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # So many things to do!
 

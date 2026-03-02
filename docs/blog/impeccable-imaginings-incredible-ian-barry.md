@@ -2,7 +2,6 @@
 title: The Impeccable Imaginings of the Incredible Ian Barry
 date: 2013-12-11
 author: Nicholas Colla
-layout: blog
 ---
 # The Impeccable Imaginings of the Incredible Ian Barry
 

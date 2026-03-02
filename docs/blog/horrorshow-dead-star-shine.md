@@ -4,7 +4,6 @@ date: 2013-12-17
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Horrorshow – Dead Star Shine
 
@@ -13,7 +12,6 @@ layout: blog
 Michael Shanks recently helped out with the Visual Effects on this impressive music video for [Horrorshow](http://elefanttraks.com/releases/king-amongst-many), directed by the very talented [Kess Broekman-Dattner](http://kessbd.com/). It was also colour graded by our wonderful friend [Roslyn Di Sisto](http://www.roslyndisisto.com). Enjoy!
 
 You can read about the [making of here](http://kessbd.com/kessbd/2013/12/16/horrorshows-end-of-the-world).
-
 ---
 
 ## Credits

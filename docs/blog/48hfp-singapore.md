@@ -2,7 +2,6 @@
 title: 48HFP Singapore
 date: 2014-12-10
 author: Jacqui Hocking
-layout: blog
 ---
 # 48HFP Singapore
 

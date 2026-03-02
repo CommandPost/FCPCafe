@@ -4,7 +4,6 @@ date: 2014-01-29
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Dolby Atmos
 

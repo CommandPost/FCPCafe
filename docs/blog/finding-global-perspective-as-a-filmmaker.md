@@ -2,7 +2,6 @@
 title: Finding Global Perspective as a Filmmaker
 date: 2012-06-07
 author: Jacqui Hocking
-layout: blog
 ---
 # Finding Global Perspective as a Filmmaker
 

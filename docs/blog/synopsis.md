@@ -2,7 +2,6 @@
 title: Synopsis
 date: 2010-08-07
 author: Alistair Marks
-layout: blog
 ---
 # Synopsis
 

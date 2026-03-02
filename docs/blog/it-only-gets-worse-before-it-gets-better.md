@@ -4,7 +4,6 @@ date: 2008-08-23
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # It only gets worse before it gets better…
 

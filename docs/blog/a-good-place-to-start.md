@@ -2,7 +2,6 @@
 title: A Good Place To Start
 date: 2010-09-23
 author: Alistair Marks
-layout: blog
 ---
 # A Good Place To Start
 

@@ -4,7 +4,6 @@ date: 2007-10-04
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Ladri di biciclette
 
@@ -31,7 +30,6 @@ But by far the most memorable scene is that of the restaurant. After an emotiona
 To fund most of his films, De Sica worked as an actor right throughout his 150+ movie career. “All my good films, which I financed myself, made nothing. Only my bad films made money. Money has been my ruin” (*Woman Times Seven* is an obvious example). This also goes to show that in order to make an absolutely amazing film you don’t need high paid actors, or a studio space full of expensive lights. With Ladri di biciclette, De Sica had a story he felt he needed the world to know. His openness to form and versatility, allowed him to experiment with untried methods to ensure the technology matched the content and not the other way around. With the assistance of one of the most distinguished and experienced cinematographers in Italy, Carlo Montuori, together they proved that even with natural lighting you can still achieve images that look far more beautiful than some of the garbage coming out of Hollywood. The romantic Italianesque score by Alessandro Cicognini (who went on to do many other well respected Italian films) helps provides real emotional depth in a most subliminal way – as opposed to the emotional manipulation music performs on many mainstream films – truly adding to the magic on screen.
 
 Long before life was beautiful, and only shortly after the city was open, Ladri di biciclette shows that there are no heroes, and that not all criminals are evil; that people are simply human – flawed and corruptible. But it’s not all negative – even in the direst of times, with the right person by your side, you can slog your way through anything…
-
 ---
 ## References:
 

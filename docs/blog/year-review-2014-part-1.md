@@ -2,14 +2,12 @@
 title: Year in Review 2014 – Part 1
 date: 2014-12-27
 author: Nicholas Colla
-layout: blog
 ---
 # Year in Review 2014 – Part 1
 
 Just the other day after purchasing a pork roll (no chirri) from my favourite Vietnamese pork roll emporium on Smith Street, I took a moment to think about the ridiculous year that 2014 had been. In a personal sense, a company sense and just a general world sense.
 
 With that in mind I hope you enjoy our traditional end of year blog which covers the highs and lows of what has been the Chinese Year of the Horse [#notadickjoke](https://twitter.com/hashtag/notadickjoke).
-
 ---
 
 ## JANUARY
@@ -25,7 +23,6 @@ And Jacqui?
 Well, she spent most of the month just kinda hanging around.
 
 ![](/static/blog/12-jacqui.jpg)
-
 ---
 
 ## FEBRUARY
@@ -51,7 +48,6 @@ You can donate or find out more about the cause [here](http://www.loveyoursister
 The month was ended with this little gem from Michael Shanks featuring me in a wet suit that Hocking wore when he was 15.
 
 Fit like a glove.
-
 ---
 
 ## MARCH
@@ -69,7 +65,6 @@ Although there were a few near death experiences to be had (if you’re ever in 
 The rest of March included another Windsor Smith TVC, some casting for the Daperis Brothers Short [HIT](./../portfolio/hit/) and Shanks doing some VFX testing for a possible new music video.
 
 ![shanks](/static/blog/12-shanks.jpg)
-
 ---
 
 ## APRIL
@@ -87,7 +82,6 @@ Oh, and we also got word that our short [Rocketman](./../portfolio/rocketman/) w
 Not a bad way to end the month.
 
 ![rocketman](/static/blog/12-rocketman.jpg)
-
 ---
 
 ## MAY

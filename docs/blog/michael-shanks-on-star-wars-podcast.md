@@ -4,7 +4,6 @@ date: 2014-12-16
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Michael Shanks on Star Wars Podcast
 

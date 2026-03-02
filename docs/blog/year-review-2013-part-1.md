@@ -2,7 +2,6 @@
 title: Year in Review 2013 – Part 1
 date: 2013-12-26
 author: Nicholas Colla
-layout: blog
 ---
 # Year in Review 2013 – Part 1
 
@@ -11,7 +10,6 @@ For the past couple of years, Chris and I have had the same conversation when th
 This year was a very hard but particularly special year. Hard because Chris and I both quit our jobs to go full time LateNite and also moved into a brand new office and special because we were lucky enough to add some extraordinarily talented people to the LateNite family and we got to shoot some of our most ambitious projects to date.
 
 So, as always, let’s start at the very beginning with a trailer for my favourite movie released in Jan…
-
 ---
 
 ## JANUARY
@@ -25,7 +23,6 @@ January started off a little quietly for everyone but Jacqui, who began the year
 Meanwhile, director Michael Shanks was at it again with another brilliant YouTube video to coincide with the release of the Hitman HD Trilogy video game. Chris went along for the ride as usual along with [Timtimfed](http://www.youtube.com/user/timtimfed) regulars Sam McCabe, Jackson McInerney and Mark Taylor.
 
 I was busy on the acting side of things shooting with the boys at [Dark Heart Productions](http://darkheartproductions.com/) on their crowd funded TV series **The Weatherman**. The show has since gone into post production for a release in 2014.
-
 ---
 
 ## FEBRUARY
@@ -43,7 +40,6 @@ I spent some of the month attending the [Australian Writer’s Guild](http://www
 Other shoots to occur this month were a promo video with trucks as far as the eye could see for trucking company Magic Logistics as well as the beginnings of a music video for well-known metal band [12 Foot Ninja](http://twelvefootninja.com/). The music video involved an 8 foot stuffed bear which was a little harder to fit in an elevator than expected…
 
 ![03](/static/blog/12-031.jpg)
-
 ---
 
 ## MARCH
@@ -59,7 +55,6 @@ In amongst the prep I also found time to work on a very special project for the 
 Jacqui, meanwhile, was flying to the Amazon in Brazil to film once again for the carbon offset company [MyClimate](http://www.myclimate.org). After an incredible shoot, Jac flew on to Panama to continue her epic coverage of the TOPtoTOP Global Climate Expedition documentary. It’s quite amazing to think this is the 5th year of filming this project - which, according to Jacqui, will hopefully become an interactive and feature length project by 2020.
 
 The end of the month saw Chris take off to shoot with our good friend Dave Christison on his Flickerfest selected short film [MAN](https://www.facebook.com/manthemovie).
-
 ---
 
 ## APRIL

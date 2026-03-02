@@ -4,7 +4,6 @@ date: 2014-08-03
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # MAN
 
@@ -25,7 +24,6 @@ With cast and crew flown in from Sydney, Melbourne, Brisbane and New Zealand, an
 MASSIVE congradulations to everyone involved! It was incredibly fun and exciting project to be involved with, and we’re very proud of what Dave & Rich have achieved. They’re now working on a [feature film](http://www.thewoolshedcompany.com/in-development/) – so keep an eye out in the future!
 
 ![MAN_Slate](/static/blog/07-MAN_Slate.jpg)
-
 ---
 
 #### CREDITS

@@ -2,12 +2,10 @@
 title: Year in Review 2014 – Part 2
 date: 2015-01-01
 author: Nicholas Colla
-layout: blog
 ---
 # Year in Review 2014 – Part 2
 
 Sure the first half of the year seemed relatively quiet in comparison to previous years. But the second 6 months (ok 7 cause my mathematics when doing the last blog was way off) was when stuff got a little cray cray. Starting with a wee music video…
-
 ---
 
 ## JUNE
@@ -29,7 +27,6 @@ We were asked to come up with a short film that would test the limits of the new
 We battled high winds and a rotating crew but once again, thanks to the efforts of everyone involved, we punched out one heck of a little short. Twas’ also nice to have our dear friends [Ben Ridgwell](http://www.imdb.com/name/nm2899893/) and [Mahalia Brown](http://www.imdb.com/name/nm3836702/) back on set – it had been a bit too long since we’d stuck a camera in their beautiful faces.
 
 Oh and did I mention Hocking was back? At some point he came back. I can’t remember when or where or how but he flew in on a big jet plane and I assume came straight to set. Such is the dedication of the man. Unless he has a clone. In which case the guy in the picture above may be his clone…
-
 ---
 
 ## JULY
@@ -43,7 +40,6 @@ So July launched us straight into post on [Palindromes](./../portfolio/palindrom
 After Sportsbet was done and dusted Shanks lent his VFX skills to a couple of music videos directed by Kess Broekman-Dattner and Luci Schroeder. Both very fucking cool clips!
 
 Of course this wasn’t enough to appease the young man so he also knocked over a music video himself for [Hudson & Troop](https://www.triplejunearthed.com/artist/hudson-and-troop). Twas a battle of the elements but I think you’ll agree the end product ain’t too shabby.
-
 ---
 
 ## AUGUST
@@ -57,7 +53,6 @@ So August was a slightly quieter month as we all drew breath from the craziness 
 I gotta take a wee moment to thank everyone associated with that shoot too. My beautiful Nonna unfortunately passed away in the middle of filming and the team banded together to not only get the film finished but to also support me in the most beautiful way. That’s one thing I love about this industry, you may find some dirtbags here and there but for the most part cast and crew alike wonderful, loving people who are more friends than just workmates.
 
 And thus August was over with another short in the bag and only a few months left before the end of the year.
-
 ---
 
 ## SEPTEMBER
@@ -69,7 +64,6 @@ So [Boyhood](http://www.imdb.com/title/tt1065073/) took 10 years to make. I trie
 As we haven’t been around for 10 years we decided instead to make two short films in the space of one week. Idiotic I hear you say? Agreed I say. Nevertheless we made our Tropfest entry for 2014 which was a (very) dark comedy written by the talented [Simon Keck](http://simonkeck.com) a couple of days before we did [The 48 Hour Film Project](https://www.48hourfilm.com) for the 6th time. With the regular crew and cast in tow we once again whittled away at an undercooked script for 48 very long hours. Highlights were my folks catering, Nato getting pulled over by the cops for being covered in blood, [Virginia Gay](http://www.imdb.com/name/nm2332962/) being hilariously amazing and Hocking once again pulling out a mammoth effort to get the film over the line in time. Thanks again to all the usuals who made the weekend fun.
 
 ![48hfp](/static/blog/01-48hfp.jpg)
-
 ---
 
 ## OCTOBER
@@ -89,7 +83,6 @@ I did forget to mention that at the start of the month the 48 Hour Film Project 
 Oh yeah – and because of that, even after I’d told Hocking there was no way in hell we were shooting anything else this year… we got asked to compete in another short turn around festival for 20th Century Fox and Parrot Drones.
 
 God damn it November.
-
 ---
 
 ## NOVEMBER
@@ -107,7 +100,6 @@ It was one of the hardest things I reckon we’ve had to do and we couldn’t ha
 And out of a very impressive International field of 10, our film was judged to be best overall with [Kyrié](http://www.imdb.com/name/nm3907408/) taking out best actress and [Paul Dawkins](http://www.imdb.com/name/nm2317183/) taking our best original score. I think to say we were shocked would be a huge understatement.
 
 So with that good news rounding out our month and the finishing touches being put on [HIT](./../portfolio/hit/), it was time for a Shanks sketch to properly explode the internet. And it did.
-
 ---
 
 ## DECEMBER

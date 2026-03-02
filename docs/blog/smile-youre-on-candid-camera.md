@@ -4,7 +4,6 @@ date: 2008-05-06
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Smile! You’re on candid camera!
 

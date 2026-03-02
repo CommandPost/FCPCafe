@@ -2,7 +2,6 @@
 title: Year In Review 2013 – Part 2
 date: 2013-12-29
 author: Nicholas Colla
-layout: blog
 ---
 # Year In Review 2013 – Part 2
 
@@ -43,7 +42,6 @@ We are ENORMOUSLY proud of both films and couldn’t have done it without the ha
 And what about that handsome Shanks devil? Well he had a pretty quiet month by his standards. Just spoke at a talk for the Australian Screen Editors Guild and won Best Independent Music Video at St Kilda Film Fest for a second year running with this beauty:
 
 Like I said…not a big month for him!
-
 ---
 
 ## June
@@ -63,7 +61,6 @@ With myself returning from overseas it was time to say goodbye to our office in 
 ![05](/static/blog/12-052.jpg)
 ![07](/static/blog/12-071.jpg)
 ![06](/static/blog/12-06.jpg)
-
 ---
 
 ## July
@@ -77,7 +74,6 @@ July was a slightly quieter month at LateNite with the team working towards some
 ![08](/static/blog/12-081.jpg)
 
 July was also the very beginning of my favourite time of year…
-
 ---
 
 ## AUGUST

@@ -4,7 +4,6 @@ date: 2009-03-30
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # The problem with full time work…
 

@@ -2,7 +2,6 @@
 title: Africa
 date: 2012-11-13
 author: Jacqui Hocking
-layout: blog
 ---
 # Africa
 

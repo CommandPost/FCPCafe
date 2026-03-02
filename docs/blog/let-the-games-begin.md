@@ -4,7 +4,6 @@ date: 2010-10-14
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Let the games begin!
 

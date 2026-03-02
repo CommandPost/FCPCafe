@@ -2,7 +2,6 @@
 title: From Little Things. Big Things Grow.
 date: 2012-08-08
 author: Nicholas Colla
-layout: blog
 ---
 # From Little Things. Big Things Grow.
 

@@ -4,7 +4,6 @@ date: 2014-06-24
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Calculating Timecode in Google Sheets
 

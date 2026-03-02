@@ -2,12 +2,10 @@
 title: Year in Review 2015 - Part 2
 date: 2015-12-30
 author: Nicholas Colla
-layout: blog
 ---
 # Year in Review 2015 - Part 2
 
 If you haven’t already, check out Part 1 [here](/blog/year-in-review-2015-part-1/).
-
 ---
 
 ## JULY
@@ -19,7 +17,6 @@ July was another quiet month in the sense that a lot of time was being put into 
 ![01_chris](/static/blog/12-01_chris.jpg)
 
 And then of course, MIFF happened.
-
 ---
 
 ## AUGUST
@@ -33,7 +30,6 @@ August was a month of post for everyone at LateNite.
 Hocking was helping the Daperis boys out with their music video whilst Shanks continued to pump through the never ending list of visual effects for Wizards. I was also in post on the commercials that we’d shot the month before so found myself spending my days in with the fine people at *Method.*
 
 And just when i thought I was staring down the barrel of some downtime to do some writing, I got a call from Neighbours to see if i’d be interested in doing a directors attachment with veteran Neighbours director Tony Oscika. And so began pre production…
-
 ---
 
 ## SEPTEMBER
@@ -47,7 +43,6 @@ So whilst I was busy learning how to direct 6 episodes of television a week on *
 ![04_horse](/static/blog/12-04_horse.png)
 
 We also had some more festival luck this month with the Daperis boys film *Hit* getting accepted into the Greek Australian Film Festival and *Palindromes* continuing on it’s merry way with selection in the Heart of Gold Film Festival and Capricorn Film Festivals up in Queensland.
-
 ---
 
 ## OCTOBER
@@ -61,7 +56,6 @@ So I finished up on Neighbours after 5-6 short weeks. I won’t go into great de
 And whilst all this was going on…you guessed it. Chris & Shanks were getting closer to the SBS deadline for Wizards, one VFX shot at a time. Look how happy they are!
 
 ![06_post](/static/blog/12-06_post.png)
-
 ---
 
 ## NOVEMBER
@@ -77,7 +71,6 @@ After months and months of trying to decide who to cast, Shanks & Hocking decide
 ![08_bruce](/static/blog/12-08_bruce.jpg)
 
 On top of all the fun and excitement of *Wizards* nearing completion, Shanks also had some more success with his popular short film *Time Trap,* which screened at the Lorne Film Festival and also the Forest Short Film Festival in Japan!
-
 ---
 
 ## DECEMBER

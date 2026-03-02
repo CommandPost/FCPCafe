@@ -4,7 +4,6 @@ date: 2008-08-27
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Photo Evidence…
 

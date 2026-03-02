@@ -2,7 +2,6 @@
 title: Shooting The Wizards of Aus
 date: 2016-01-18
 author: Benjamin Hidalgo De la Barrera
-layout: blog
 ---
 # Shooting The Wizards of Aus
 

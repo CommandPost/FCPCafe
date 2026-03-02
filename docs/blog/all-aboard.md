@@ -2,7 +2,6 @@
 title: ALL ABOARD!!
 date: 2010-10-15
 author: Alistair Marks
-layout: blog
 ---
 # ALL ABOARD!!
 

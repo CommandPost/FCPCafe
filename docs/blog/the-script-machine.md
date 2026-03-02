@@ -4,7 +4,6 @@ date: 2011-11-13
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # The Script Machine
 

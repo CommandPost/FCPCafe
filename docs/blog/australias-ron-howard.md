@@ -2,7 +2,6 @@
 title: Australia’s Ron Howard
 date: 2012-08-05
 author: Nicholas Colla
-layout: blog
 ---
 # Australia’s Ron Howard
 

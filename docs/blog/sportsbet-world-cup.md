@@ -4,14 +4,12 @@ date: 2014-07-19
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Sportsbet World Cup
 
 **Written by Chris Hocking on 19th July 2014**
 
 We recently teamed up with [Sportsbet](https://www.youtube.com/user/sportsbetcomau) to produce three little funny online videos based around the World Cup. Enjoy!
-
 ---
 
 ## CREDITS

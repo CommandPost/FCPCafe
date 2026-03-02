@@ -2,7 +2,6 @@
 title: AWG Screenwriters Conference - Part Three
 date: 2013-03-09
 author: Nicholas Colla
-layout: blog
 ---
 # AWG Screenwriters Conference - Part Three
 
@@ -11,7 +10,6 @@ layout: blog
 > I made a film with ping pong balls flying out of an Asian stripper which was a huge success, then one with a dude fisting a sheep which was a complete disaster – no one knows nothing!
 >  **Stephan Elliot, 2013**
 >  **Writer/Director, The Adventures of Priscilla, Queen of the Desert**
-
 ---
 
 ## In Conversation with Tom Schulman
@@ -42,7 +40,6 @@ He finished with this quote which I found rather cool:
 **“Writing is a wonderful exercise into the imagination. You get to play God.”**
 
 **![malcolm](/static/blog/03-malcolm.jpg)**
-
 ---
 
 ## Recipe for Success: The Ingredients of a Smash Hit Comedy Feature

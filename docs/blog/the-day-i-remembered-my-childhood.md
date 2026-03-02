@@ -2,7 +2,6 @@
 title: The Day I Remembered My Childhood.
 date: 2012-08-08
 author: Nicholas Colla
-layout: blog
 ---
 # The Day I Remembered My Childhood.
 

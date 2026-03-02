@@ -2,7 +2,6 @@
 title: 2012. Best Year In Movies since… sliced bread?
 date: 2012-06-09
 author: Nicholas Colla
-layout: blog
 ---
 # 2012. Best Year In Movies since… sliced bread?
 

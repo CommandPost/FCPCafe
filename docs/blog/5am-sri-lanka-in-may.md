@@ -2,7 +2,6 @@
 title: 5am, Sri Lanka in May…
 date: 2012-07-01
 author: Michael Lutman
-layout: blog
 ---
 # 5am, Sri Lanka in May…
 

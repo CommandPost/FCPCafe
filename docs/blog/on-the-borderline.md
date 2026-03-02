@@ -2,7 +2,6 @@
 title: On The Borderline
 date: 2012-05-24
 author: Michael Shanks
-layout: blog
 ---
 # On The Borderline
 

@@ -4,7 +4,6 @@ date: 2009-05-04
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Don’t worry… We’re not dead! Just busy!
 

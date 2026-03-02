@@ -2,7 +2,6 @@
 title: Planting the Seeds of Change
 date: 2014-03-11
 author: Jacqui Hocking
-layout: blog
 ---
 # Planting the Seeds of Change
 

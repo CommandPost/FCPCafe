@@ -4,7 +4,6 @@ date: 2010-12-01
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Lightworks – Day One
 

@@ -2,7 +2,6 @@
 title: International Team of Mystery… (aka The 444 Club)
 date: 2010-10-11
 author: Alistair Marks
-layout: blog
 ---
 # International Team of Mystery… (aka The 444 Club)
 

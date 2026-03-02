@@ -4,7 +4,6 @@ date: 2008-05-08
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Zhan. Gu / The Drummer
 
@@ -31,7 +30,6 @@ But one of the biggest things going for this film is the score by Andre Matthias
 Internationally speaking, this movie should do quite well for several reasons. Firstly, it stars Jackie Chan’s son – and for this reason alone, it will draw a big Western crowd. But by also merging two very visually strong and bold worlds together (the land of the gangsters and the land of the Zen drummers, high up in the mountains), the audience is really taken on a journey of stunning proportions. Forgetting about the story for just a second – the sound design and cinematography alone is reason enough to watch this film. That said, I still don’t agree that it was necessarily a poor script (as some critics have suggested – although notably a lot of them were actually from Hong Kong) – I just think that maybe the director decided to go down an unconventional route when it came time to making the film. And of course, the U-Theatre fans will obviously come flocking to the theatres to see these amazing drummers up there on the big screen.
 
 In conclusion, The Drummer is an amazingly beautiful film – with visuals that easily rival the very best BBC documentaries and Hollywood blockbusters such as Lord of the Rings. However, the highlight of this film is by far the music and the drumming. The soundscape that is created by the filmmakers is truly incredible. It’s also great to see Jackie Chan’s son up there on the big screen – as well as a host of other fantastic actors. Although the script may not be as tight and exciting as some might have liked – it really doesn’t matter. You have to sit down in the theatre, relax, and become at one with the drumming…
-
 ---
 
 ## References

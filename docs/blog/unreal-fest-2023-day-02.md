@@ -4,7 +4,6 @@ date: 2023-06-22
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Unreal Fest 2023 - Day 02
 
@@ -15,7 +14,6 @@ Today is day two (and the final day) of **Unreal Fest 2023** in the Gold Coast. 
 I'll be around at Unreal Fest all day, so if you see me, come and say "hi".
 
 I'll continue to document the sessions I attend here. Enjoy!
-
 ---
 
 **Sam Anderson** (Technical Marketing Manager @ Epic Games) just did an epic presentation that blew my mind.
@@ -53,7 +51,6 @@ Here's some slides from the presentation, however the presentation was mostly a 
 ![](/static/twinmotion-10.jpeg)
 
 ![](/static/twinmotion-11.jpeg)
-
 ---
 
 The second session I attended today was **Fortifying Your Delivery Pipeline: Repurposing Technology and Solutions for Live Events**.
@@ -217,7 +214,6 @@ There was lots of juicy geeky technical slides:
 ![](/static/dev-ops-70.jpeg)
 
 ![](/static/dev-ops-71.jpeg)
-
 ---
 
 This was THE session that made me want to come to Unreal Fest and I so glad I came - it's been an INCREDIBLE two days.
@@ -309,7 +305,6 @@ Here's the slides from the talk:
 ![](/static/liam-37.jpeg)
 
 ![](/static/liam-38.jpeg)
-
 ---
 
 The fourth session I attended was **An Artist’s Path to Becoming a Successful Unreal Generalist** by Nathan Farquhar (Lead Digital Artist, Wētā FX).
@@ -423,7 +418,6 @@ There's the slides:
 ![](/static/weta-talk-50.jpeg)
 
 ![](/static/weta-talk-51.jpeg)
-
 ---
 
 Talk about ending on a high! Wow.

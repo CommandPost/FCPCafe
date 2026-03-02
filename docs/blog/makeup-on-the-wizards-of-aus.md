@@ -2,12 +2,10 @@
 title: Makeup on The Wizards of Aus
 date: 2016-01-21
 author: Marie Kealy
-layout: blog
 ---
 # Makeup on The Wizards of Aus
 
 In today’s blog post we have a very special guest, our absolutely incredible Makeup Designer, [Marie Kealy](http://www.mariekealy.com/). Enjoy!
-
 ---
 
 ![01_makeup](/static/blog/01-01_makeup.jpg)

@@ -2,7 +2,6 @@
 title: Scheduling OR why my brain hurts…
 date: 2010-09-29
 author: Nicholas Colla
-layout: blog
 ---
 # Scheduling OR why my brain hurts…
 

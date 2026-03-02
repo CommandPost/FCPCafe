@@ -2,7 +2,6 @@
 title: Keeping up with the Comstocks
 date: 2013-05-19
 author: Michael Shanks
-layout: blog
 ---
 # Keeping up with the Comstocks
 
@@ -11,7 +10,6 @@ layout: blog
 *Meanwhile, in a Parallel Universe…*
 
 **WARNING:** *This video may contain game spoilers.*
-
 ---
 
 ## Credits

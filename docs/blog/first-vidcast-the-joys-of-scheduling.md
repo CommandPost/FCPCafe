@@ -2,7 +2,6 @@
 title: First Vidcast – The Joys of Scheduling
 date: 2010-09-30
 author: Nicholas Colla
-layout: blog
 ---
 # First Vidcast – The Joys of Scheduling
 

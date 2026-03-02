@@ -4,7 +4,6 @@ date: 2010-10-17
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Not long to go now…
 

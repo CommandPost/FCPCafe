@@ -4,7 +4,6 @@ date: 2006-04-19
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Alien
 

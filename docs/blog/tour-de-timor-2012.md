@@ -2,7 +2,6 @@
 title: Tour de Timor 2012
 date: 2012-09-19
 author: Jacqui Hocking
-layout: blog
 ---
 # Tour de Timor 2012
 

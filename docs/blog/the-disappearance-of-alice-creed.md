@@ -4,7 +4,6 @@ date: 2010-07-26
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # The Disappearance of Alice Creed
 

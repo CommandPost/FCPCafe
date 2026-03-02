@@ -4,7 +4,6 @@ date: 2008-09-20
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # What’s up Doc?
 

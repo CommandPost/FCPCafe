@@ -2,7 +2,6 @@
 title: Sir Peter Jackson
 date: 2010-08-15
 author: Nicholas Colla
-layout: blog
 ---
 # Sir Peter Jackson
 

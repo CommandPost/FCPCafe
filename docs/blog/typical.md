@@ -4,7 +4,6 @@ date: 2008-11-21
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Typical…
 

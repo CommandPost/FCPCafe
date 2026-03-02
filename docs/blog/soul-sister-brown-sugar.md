@@ -2,7 +2,6 @@
 title: Soul Sister, Brown Sugar.
 date: 2012-08-05
 author: Nicholas Colla
-layout: blog
 ---
 # Soul Sister, Brown Sugar.
 

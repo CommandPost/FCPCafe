@@ -4,7 +4,6 @@ date: 2008-09-29
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Day Two Happy Snaps!
 

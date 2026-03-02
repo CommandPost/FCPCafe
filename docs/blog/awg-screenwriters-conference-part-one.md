@@ -2,7 +2,6 @@
 title: AWG Screenwriters Conference – Part One
 date: 2013-02-23
 author: Nicholas Colla
-layout: blog
 ---
 # AWG Screenwriters Conference – Part One
 
@@ -16,7 +15,6 @@ On the drive up to the Mornington Peninsula to my first ever [National Screenwri
 I think what I enjoy about coming to these conferences (this is my third after attending the Screen Producers Conference last year and also SPAA Fringe in Sydney) is that it gives you a perspective from every corner of the industry. What are writers currently doing, how do they feel about the content that is being produced, what are their frustrations, their hopes, their dreams for the future of Australian Film & Television. I also do have aspirations of being a writer. At the moment I enjoy working with writers in a collaborative sense as I think it’s an incredibly efficient and enjoyable way of working. What I came to discover over the next few days was that word collaboration was an extremely important one, and one that I think quite often as young, curious filmmakers we forget about…
 
 ![Shameless](/static/blog/02-Shameless-590x331.jpg)
-
 ---
 
 ## Paul Abbott in Conversation
@@ -41,7 +39,6 @@ Paul was a pleasure to listen to and I really think captured the imagination of 
 ![State of Play](/static/blog/02-State-of-Play.jpg)
 
 ![439956-the-sapphires](/static/blog/02-439956-the-sapphires-590x332.jpg)
-
 ---
 
 ## Sapphires: A Case Study

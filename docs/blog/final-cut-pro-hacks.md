@@ -4,14 +4,12 @@ date: 2016-09-15
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Final Cut Pro Hacks
 
 ![blog-banner](/static/blog/09-blog-banner.jpg)
 
 **Updated (20TH APRIL 2017)**
-
 ---
 
 ## IMPORTANT UPDATE
@@ -21,7 +19,6 @@ layout: blog
 **We strongly recommend removing FCPX Hacks, and installing CommandPost instead.**
 
 **You can learn more about CommandPost here: [commandpost.io](http://commandpost.io)**
-
 ---
 
 ## INTRODUCTION
@@ -29,7 +26,6 @@ layout: blog
 **FCPX Hacks** is a **free** and **open source** [Hammerspoon](http://www.hammerspoon.org) script that adds a mountain-load of new features to **Final Cut Pro**. It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv) (read the [original blog post](./../final-cut-pro-hacks/#original) below) – but has since grown into a huge collection of handy workflow hacks, shortcuts, tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
 Video inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com).
-
 ---
 
 ## SYSTEM REQUIREMENTS
@@ -45,7 +41,6 @@ The **Touch Bar** feature requires [macOS Sierra 10.12.1 build 16B2657](https://
 We recommend changing the Hammerspoon Notification alert style to **Alerts**. This can be done in the **Notifications** section of macOS **System Preferences** once Hammerspoon has been installed.
 
 **FCPX Hacks** is compatible with **Final Cut Pro 10.2.3**, however it’s no longer supported and new features will not be added for this older version – we recommend updating to Final Cut Pro 10.3.2. Earlier versions of Final Cut Pro X are not supported, and FCPX Hacks is not designed to have Final Cut Pro 10.2 and 10.3 on the same system. It does **not** work with **Final Cut Pro 7** (or below).
-
 ---
 
 ## DONATE
@@ -57,7 +52,6 @@ Don’t have any spare cash? Then consider just sharing the news of FCPX Hacks o
 Also, if there’s a feature that you or your company desperately need, please [get in touch](./../contact/) to discuss contracting me to throw it together as a priority.
 
 ![](/static/blog/scr-pixel.gif)![](/static/blog/scr-pixel.gif)
-
 ---
 
 ## DOWNLOAD
@@ -71,7 +65,6 @@ After downloading and installing the latest version of [Hammerspoon](https://git
 **DISCLAIMER:** As some of the Advanced features in FCPX Hacks make changes to Final Cut Pro’s internal files (which requires your Administrator password), please take care when using on mission critical or production systems. However, FCPX Hacks basically sits “on top” of Final Cut Pro, so it **shouldn’t** ever cause Final Cut Pro to crash to slow down.
 
 ![fcpx-install](/static/blog/09-fcpx-install.jpg)
-
 ---
 
 ## SPECIAL THANKS
@@ -85,7 +78,6 @@ MASSIVE thank you to the INCREDIBLE Andrew Kramer at [Video Copilot](http://www.
 An equally MASSIVE thank you to the always amazing Karen Hocking, Daniel Daperis, [David Hocking](http://www.dphocking.com), Андрей Смирнов, [Alex Gollner](http://alex4d.com), [Scott Simmons](http://www.scottsimmons.tv), [Isaac J. Terronez](https://twitter.com/ijterronez), Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync Facebook Group for all their ideas and advice!
 
 The FCPX Hacks **logo** was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
-
 ---
 
 ## HOW TO USE
@@ -97,7 +89,6 @@ The FCPX Hacks **logo** was designed by the very generous and talented [Sam Wood
 If you don’t want **FCPX Hacks** appearing in your menubar, you can also use an **icon** instead:
 
 ![](/static/blog/09-fcpxhacksicon.jpg)
-
 ---
 
 When you launch FCPX Hacks for the first time, it will use default shortcuts keys, which are listed below. However you can customise these shortcut keys via Final Cut Pro’s own **Command Editor**. This feature is **disabled by default** and must be activated by clicking **Enable Hacks Shortcuts in Final Cut Pro** from the **FCPX Hacks** menubar. As this feature changes Final Cut Pro’s internal keyboard layouts – it will require your Administrator password (so as with all of the Hacks, use with care).
@@ -105,7 +96,6 @@ When you launch FCPX Hacks for the first time, it will use default shortcuts key
 ![](/static/blog/09-enablehacks.jpg)
 
 Another handy feature is the **Display Proxy/Original Icon**. This inserts a blue or red dot (as shown in the first screenshot above) in the menubar to visually highlight if you’re watching Proxy or Original files in the Viewer. This is really handy to be able to instantly see if you’re watching full quality or not.
-
 ---
 
 **FCPX Hacks Console (Default Shortcut: `CONTROL+SPACEBAR`)**
@@ -114,7 +104,6 @@ Inspired by [Andrew Kramer’s INCREDIBLE FX Console](http://www.videocopilot.ne
 Sometimes you might also want to remove certain things from the console too – such as the Blur Title, because what you REALLY want is the Blur Video Effect. To do this, simply right click on an item and select **Remove from List**. We also offer a **Remove From List Mode** that allows you to remove multiple items in bulk. You can also **Favourite** items to make sure they always appear on the top of the list.
 
 ![](/static/blog/09-console071.jpg)
-
 ---
 
 **FCPX Hacks HUD (Default Shortcut: `CONTROL+OPTION+COMMAND+A`)**
@@ -125,7 +114,6 @@ The XML Sharing feature is discussed below.
 The four buttons at the bottom of the HUD, are completely customisable via the **Assign HUD Buttons** menu in the FCPX Hacks menubar.
 
 ![](/static/blog/09-hud.jpg)
-
 ---
 
 ## SHORTCUTS
@@ -147,7 +135,6 @@ This shortcut simply activates “Leave in Place” within the Final Cut Pro Imp
 
 **Enable Background Render (No Default Shortcut)**
 This shortcut simply activates “Background Render” within the Final Cut Pro Playback Preferences. This can save you a couple of clicks, and also allows you to quickly check whether the setting is ticked or not, as well as what the start after time is set to in a single mouse click.
-
 ---
 
 ## AUTOMATION
@@ -224,7 +211,6 @@ FCPX Hacks also adds the ability to perform **Set Range Start**, **Set Range Out
 You can now **Assign Individual Effects, Transitions, Titles & Generators to Keyboard shortcuts** via the FCPX Hacks menubar. For example, if you assign a “Directional Blur” to Effects Shortcut 1 via the menu, when you have a clip selected in the Final Cut Pro timeline and press **CONTROL+SHIFT+1**, it will automatically apply the “Directional Blur” effect to that clip. You can currently assign up to 5 individual effects shortcuts. However, before the “Assign Effects Shortcuts” buttons are enabled, you need to click **Update Effects List** first, at this will create a list of all the effects you currently have installed on your system. If you add new effects to Final Cut Pro, you’ll need to run this command again.
 
 ![](/static/blog/09-effectsshortcuts.jpg)
-
 ---
 
 ## TOOLS
@@ -260,7 +246,6 @@ This feature is off by default and must be activated by clicking **Enable Mobile
 Once activated, every time Final Cut Pro successfully or unsuccessfully completes an export, you’ll get an alert on any mobile devices that have the [Prowl app](https://www.prowlapp.com/apps.php) installed, such as your iPhone or iPad.
 
 **![](/static/blog/09-mobilenotifications.jpg)**
-
 ---
 
 ## HACKS
@@ -279,13 +264,11 @@ This feature allows you to manipulate a hidden Final Cut Pro preference that all
 
 **Change Smart Collections Label (Currently Accessed by Menubar Only)**
 This feature allows you to change the label of the Smart Collection that’s added by default in every new Final Cut Pro project. This is just changing the meta-data behind the scenes, so it doesn’t affect your library at all (i.e. if you open the same library on another machine, it will go back to saying “Smart Collections”).
-
 ---
 
 ## WHAT’S NEXT?
 
 I’m also currently working on a bunch of other features based on things I’d love to see in Final Cut Pro, and also feedback from the Final Cut Pro community. If there’s something you’d love to see added to FCPX Hacks, let me know via the below poll.
-
 ---
 
 ## What features would you like to see in FCPX Hacks?
@@ -354,7 +337,6 @@ I’m also currently working on a bunch of other features based on things I’d 
 Also, feel free to leave more detailed feature suggestions in the comments below, or shoot me through an email.
 
 ***Thanks for testing!***
-
 ---
 
 ## ORIGINAL BLOG POST (15TH SEPTEMBER 2016):

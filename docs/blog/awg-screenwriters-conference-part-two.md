@@ -2,7 +2,6 @@
 title: AWG Screenwriters Conference - Part Two
 date: 2013-03-04
 author: Nicholas Colla
-layout: blog
 ---
 # AWG Screenwriters Conference - Part Two
 
@@ -17,7 +16,6 @@ layout: blog
 So day two rolled around and unfortunately due to the commute back and forth from Melbourne I managed to miss what I was told was a brilliant networking breakfast. Although to be honest every time I hear that word networking I cringe a little. I just feel like the word makes me feel like I’m supposed to be friendly with people because I may need them at some stage. I’d rather think of it as an opportunity to meet like minded people in film who i’ll hopefully have long lasting relationships with. Either way I missed it, so onto the first session for the day.
 
 ![thekingsspeech](/static/blog/03-thekingsspeech.jpg)
-
 ---
 
 ## Moneyball: The High Stakes World of Development for the International Market.
@@ -74,7 +72,6 @@ Penny Chapman was last in line and she spoke at great length about her experienc
 They finished off with a story about a writer called Graeme Simsion, a man who I’ve had the pleasure of working with through a table read of his script The Rosie Project a few years back. Graeme won an AWGie award for his script but just couldn’t get the project up, no one wanted to touch it. After a few years he managed to get the script bought as a novel, with a publisher putting forward quite a substantial amount of money to get it written. And would you believe it – now people are chasing him for the film rights… what a strange industry we work in!
 
 ![madmax](/static/blog/03-madmax-590x337.png)
-
 ---
 
 ## Warp Factor None: Writing Sci Fi Film & TV in Australia
@@ -93,7 +90,6 @@ Before I move on I’d like to point out the huge slate of Sci Fi films being ma
 Check them out if you get the chance.
 
 ![undead](/static/blog/03-undead.jpg)
-
 ---
 
 ## Horror, The Horror
@@ -182,7 +178,6 @@ This talk involved writers [Shane Krause](http://www.imdb.com/name/nm1324960/), 
 A couple of interesting points in there but the discussion ended up descending into [Anthony Ginane](http://www.imdb.com/name/nm0320060/) telling everyone that the industry is hard and eventually people have to start being realistic about their careers. Perhaps not the best forum for negativity but he makes an interesting point all the same.
 
 ![littlefish](/static/blog/03-littlefish-590x391.jpg)
-
 ---
 
 ## The Eclectic Writer: Pleasures and Pains of working in multiple genres

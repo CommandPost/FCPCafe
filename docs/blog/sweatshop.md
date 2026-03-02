@@ -2,7 +2,6 @@
 title: Sweatshop
 date: 2014-09-09
 author: Alistair Marks
-layout: blog
 ---
 # Sweatshop
 
@@ -13,13 +12,11 @@ Previously, Alistair wrote and directed the short film [Shotgun!](http://vimeo.c
 Today we’re chatting with Alistair about his latest project, Sweatshop. Enjoy!
 
 ![sweatshop](/static/blog/09-sweatshop.jpg)
-
 ---
 
 **Tell Us About Sweatshop.**
 
 Sweatshop is a TV series that I’ve been writing with Phil Spencer for about two years now. Think *Clerks* meets *Wilfred*, set in a gym. It’s a place where pop culture meets fitness, and nothing is quite as it seems. It’s a TV show made by fans of great film & TV, so, naturally, it has all those quirky elements you’d come to expect from the aforementioned shows, as well as things like *Workaholics*, *Louie* and just about anything Kevin Smith has done. It’s not straight comedy, it’s not straight drama - it’s a melting pot of genre bending hilarity.
-
 ---
 
 **Where did the idea come from?**
@@ -27,7 +24,6 @@ Sweatshop is a TV series that I’ve been writing with Phil Spencer for about tw
 The idea was loosely based on my life and the things I was going through circa June 2012. I’ve never been a PT (although I’ve gone to a fair few), but it seems to me as though the politics and incidents that occur in a gym are the same as in any environment. But on steroids. Punintentional. It’s a turnstile environment, with people from all walks of life constantly coming and going, and in today’s age of superficial gratification, is the perfect setting to put my own experiences, and people in general, under the microscope.
 
 (On a side note, it was on this project that I figured out how I could get the ABC to commission me as a writer - join a crew as an assistant in a department, and then during down time, sit in the back of a truck and type type type.)
-
 ---
 
 ![cast](/static/blog/09-cast.jpg)
@@ -37,7 +33,6 @@ The idea was loosely based on my life and the things I was going through circa J
 **How have you managed to get such an great cast attached?**
 
 As with all my projects, I am always concerned with getting the best people attached. Working with someone like Samuel Johnson gives the project great authenticity, so I’m then able to approach great people about working with me. The first person we hit up was Michala Banas, whom Samuel had just done a play with. She was on board straight away, and from there, we could use her name and Samuel’s name. From here, I set about casting the show with my good buddy, and the best casting agent I know, Sarah Hallam (also a pretty damn good actor & director). I’m never interested in just packing the show with ‘name’ actors. They have to be the right fit. But having a couple of names attached allows us to shoot for the top. We were pretty fortunate to get a cracking cast full of up and comers, the next big lot of actors, Luke McKenzie, Tegan Higginbotham, Steph Lillis, Lee Beckhurst & Jesse Velik are wonderfully complimented by Michala, Samuel, Rhys Muldoon, Tottie Goldsmith, to name a few.
-
 ---
 
 **How have you found the experience so far/any tips for people looking at crowd funding for their projects?**
@@ -49,7 +44,6 @@ The first thing I’ll say is, do research. I remember years ago when I was work
 To be completely honest with you, I didn’t give too much thought into how I would run the campaign via social media, such was the nature of getting this together in such a short amount of time. However, after a couple of days of positive traction and audience interaction, I quickly figured out that what the audience wants is to see the show coming to life. Introducing actors, crew, parts of the show and stunt offerings all help drive pledges and traffic.
 
 Be grateful, gracious and humble, and let your audience and supporters know that they are an integral part of your show. They ARE your show. Without them, there is no show. Don’t forget that. The story may be the thing, but the audience is the what. Coin a phrase for them. Our supporters are all part of the Sweatshop Nation.
-
 ---
 
 **Why did you choose the crowd funding route?**
@@ -63,7 +57,6 @@ So, naturally when it was suggested to me that we crowd fund to raise a short fa
 I think I had about 6 days to get the campaign together, to launch it on a date that would allow for a 4 week campaign, with enough time to process the money before the shoot at the end of the campaign (still with me?). This included working out how much we wanted to raise (the easy part), allocating parts of the budget to the crowd funding pledges, scripting a video, shooting the portion with Samuel, shooting the portion with me (thanks Nato), shooting some stuff with some actors in a park, in a gym and some voice over (because I never script anything straight forward), figuring out interesting rewards that are relevant to our show, figuring out an approach to the copy within the body of the campaign (story of the project; funds allocation; challenges). I worked around the clock for those 6 days to make the campaign as strong as it could possibly be.
 
 Thankfully, I’d done those 2 or 3 years of research. I established what I loved about some campaigns, and common areas where I felt that others were weak. From there, it was a race against time, but we got there. And now we have a little under 2 weeks to try and smash our stretch targets out of the water. What a position to be in!
-
 ---
 
 **How did it feel to reach your target so quickly?**
@@ -71,7 +64,6 @@ Thankfully, I’d done those 2 or 3 years of research. I established what I love
 Out of this world, staggering, humbling, amazing, sexy, stunning, mind blowing! Forgetting the fact that it meant we were definitely going to make the show, the generosity and interest that the campaign has sparked in the project is truly remarkable. To reach our goal in two weeks was a pretty amazing feat, but to then blow, not one, but TWO of our stretch targets out of the water in 15 days (a little over half) of our campaign… I was, and still kind of am, speechless.
 
 To me, it backs up my point earlier about really using the crowdfunding campaign as your first port of call for your show, project or product. Engage the audience, introduce them to and get them excited by that thing that you’re more passionate about than anyone else. I guess it’s a modern “build it and they will come” kinda deal.
-
 ---
 
 **What is next for Sweatshop?**
@@ -85,7 +77,6 @@ By way of example - currently, the plan is to shoot it on a Canon C100 with stil
 Beyond the crowd funding campaign, we will be shooting the pilot episode, packaging it, and taking it to ABC2 and SBS. Failing a pitch with either of these networks, we go back to the public, and look at other options. Maybe we go back and crowd fund for the whole season. Maybe we just make the whole show, and then self distribute. Maybe we just give it away for free, and create an entire world around the life of the show - BTS, Director’s Commentary, Deleted Scenes, Gag Reels, Merch - are just some ways you can recoup your output.
 
 The Netflix model, that has seen so much success for shows like *House of Cards*, is becoming a more realistic approach - make the whole show, and give it to the audience. Let them, no sorry, let YOU decide when and how you watch it. We just need a platform to launch that from. Any ideas?
-
 ---
 
 **Any final thoughts?**

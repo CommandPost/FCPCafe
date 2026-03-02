@@ -2,7 +2,6 @@
 title: When Gordon Met Chell
 date: 2012-10-12
 author: Michael Shanks
-layout: blog
 ---
 # When Gordon Met Chell
 

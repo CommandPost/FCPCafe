@@ -2,7 +2,6 @@
 title: SOCHI 2014 – Speed Skating
 date: 2014-02-23
 author: Michael Shanks
-layout: blog
 ---
 # SOCHI 2014 – Speed Skating
 

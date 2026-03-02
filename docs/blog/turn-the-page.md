@@ -2,7 +2,6 @@
 title: Turn The Page
 date: 2010-12-01
 author: Alistair Marks
-layout: blog
 ---
 # Turn The Page
 

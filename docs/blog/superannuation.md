@@ -4,12 +4,10 @@ date: 2018-06-06
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Superannuation for Filmmakers
 
 This blog post was last updated on the **8th June 2018**.
-
 ---
 
 ## Disclaimer
@@ -31,7 +29,6 @@ In no event will LateNite Films or employees thereof be liable to you or anyone 
 Certain links on this blog connect to other web sites maintained by third parties over whom LateNite Films has absolutely no control. LateNite Films makes no representations as to the accuracy or any other aspect of information contained in other web sites.
 
 And with that out of the way, *let’s begin…*
-
 ---
 
 ## What is Superannuation?
@@ -51,7 +48,6 @@ There’s no fixed retirement age in Australia – but many people choose to ret
 It’s your money, so once you’ve turned 65, you can choose to have a [regular super income stream](https://www.ato.gov.au/Individuals/Super/Accessing-your-super/Super-withdrawal-options/) (basically, you just keep getting paid a wage, just like when you were working a normal job), you can combine your regular income stream with the [Government Pension](https://www.ato.gov.au/individuals/super/accessing-your-super/pensions-and-other-benefits/), or you can take out a lump sum if you’re really game (and make that feature film you always wanted to do as a youngster)!
 
 There are also some very limited circumstances when you can [access your super early](https://www.ato.gov.au/Individuals/Super/Accessing-your-super/Early-access-to-your-super/) – mainly related to specific medical conditions or severe financial hardship.
-
 ---
 
 ## How Do You Get Paid Super?
@@ -89,7 +85,6 @@ You can also [add extra money to your super account](https://www.ato.gov.au/Indi
 > If you’re a low or middle-income earner and make personal (after-tax) contributions to your super fund, the government also makes a contribution (called a co-contribution) up to a maximum amount of $500.
 
 Your super is your savings for retirement. It is important to be aware of what super accounts you have, how much is being contributed, and what insurance they provide. You can use the [myGov service to consolidate superannuation funds](https://www.moneysmart.gov.au/superannuation-and-retirement/keeping-track-and-lost-super/consolidating-super-funds) – as ideally you only want a single super fund, to keep fees to a minimum.
-
 ---
 
 ## The Super Dilema
@@ -107,7 +102,6 @@ The ATO currently receives [20,000 reports of possible non-payment](https://www.
 The government is so serious about solving this issue, that they have introduced a [new bill which threatens directors with jail-time](https://thenewdaily.com.au/money/superannuation/2018/03/29/government-moves-unpaid-super-new-laws-threatening-directors-jail/) if they don’t pay their employees super.
 
 So what’s the problem exactly?
-
 ---
 
 ## Employee Vs Contractor
@@ -141,7 +135,6 @@ If you’re unsure, use the tools above, or better yet – [contact the ATO](htt
 The ATO are on [Twitter](https://twitter.com/ato_gov_au). They have a [Live Chat](https://www.ato.gov.au/About-ATO/About-us/Contact-us/Live-Chat/). They have hundreds of hours of content on [YouTube](https://www.youtube.com/user/AusTaxOffice). Even if you don’t like talking to people over the phone – there are plenty of ways to easily communicate with the ATO.
 
 If you need superannuation advice from the ATO, I would suggest [completing this form](https://www.ato.gov.au/taxadvice/), so that their early engagement team can get back to you promptly.
-
 ---
 
 ## PTY LTD Companies
@@ -274,7 +267,6 @@ There’s also nothing stopping a sound recordist from doing PAYG for the labour
 [Freelance Promotions](http://www.freelancers.com.au), the go-to TVC crewing agency in Melbourne, note on their rate card that:
 
 > Higher rates are usually charged by assistants who bill as P/L companies & cover super, insurance & workcover costs.
-
 ---
 
 ## Super For Film Crew
@@ -309,7 +301,6 @@ The **MPPCA** states:
 This means that production companies are required to pay crew superannuation **even if they earn less than $450 gross a month**. This is really important for entry-level crew who are doing a single day on a television show or feature film, for example. It also means that under the MPPCA, superannuation is paid on contracted hours (including contracted overtime). However, under the BREA, it is not paid on overtime.
 
 For further information on this agreement, please contact [Screen Producers Australia](https://www.screenproducers.org.au) or the [Media, Entertainment & Arts Alliance](https://www.meaa.org).
-
 ---
 
 ## Super For Actors
@@ -351,25 +342,21 @@ The **ATPA** on the other hand states:
 Long story short – with both agreements, even if you’re actor is over 70, you still need to pay them superannuation. If you’re doing a film the actors superannuation rate is **10%**, however if you’re doing TV the actors superannuation rate is **10.5%**.
 
 For further information on these agreements, please contact [Screen Producers Australia](https://www.screenproducers.org.au) or the [Media, Entertainment & Arts Alliance](https://www.meaa.org).
-
 ---
 
 ## Super For Artists
 
 [The National Association for the Visual Arts](https://visualarts.net.au) has a [Fees & Wages PDF](https://visualarts.net.au/media/uploads/files/CHAPTER_7_-_2017_5.pdf) which covers superannuation. It’s well worth a read.
-
 ---
 
 ## Super For Editors
 
 [The Australian Screen Editors](https://www.screeneditors.com.au) has both a [public](http://www.screeneditors.com.au/wp-content/uploads/2011/12/ASE-Rates-and-conditions_public_2017.pdf) and a [members only](http://www.screeneditors.com.au/resources/wages-condition/) rate card which also covers superannuation and the employer versus contractor discussion. This document is extremely detailed and well written, so well worth reading in detail.  Keep in mind however that the ASE is a guild and not a union, and they can not enforce rates and conditions.
-
 ---
 
 ## Making Life Easier For Production Companies
 
 It’s really annoying and time consuming to have to chase up superannuation details for contractors and freelancers. When you send your ABN Sole Trader invoice, please make sure you also send a completed [Super Choice form](https://www.ato.gov.au/uploadedFiles/Content/SPR/downloads/SPR56761NAT13080.pdf) along with a [Tax File Number declaration](https://www.ato.gov.au/Forms/TFN-declaration/) (as we need your Tax File Number & Date of Birth for Superannuation processing). It’s also a good idea to include your superannuation details on your Tax Invoice, if you have a Sole Trader ABN, as it will make the production companies book keeper very happy.
-
 ---
 
 ## Penalties For Not Paying Super
@@ -381,7 +368,6 @@ Swinburne University recently [underpaid their staff by $3.66m](https://www.the
 The director of a company that fails to meet an SGC liability in full by the due date automatically becomes [personally liable](https://www.ato.gov.au/Business/Your-workers/In-detail/Director-penalty-regime/) for a penalty equal to the unpaid amount.
 
 For further information refer to the ATO’s page on [Penalties, amendments and objections](https://www.ato.gov.au/Business/Super-for-employers/Paying-super-contributions/Penalties,-amendments-and-objections/).
-
 ---
 
 ## What Do I Do If I’m Owed Super?
@@ -399,7 +385,6 @@ Subject to the passage of legislation, the Amnesty will be available from **24 
 [According to the ATO](https://www.ato.gov.au/Newsroom/smallbusiness/Super/Missed-a-super-guarantee-payment-/?sbnews20180606), employers who are not up-to-date with their super guarantee payments and who don’t come forward during the Amnesty **may face higher penalties in the future**.
 
 **UPDATE (SEPTEMBER 2019):** The legislation failed to pass through parliament, however on 18 September 2019, the legislation was reintroduced. You can read more about this [here](https://www.equitykeep.com/what-is-the-superannuation-guarantee-amnesty).
-
 ---
 
 ## Insurance & Workers Comp
@@ -409,7 +394,6 @@ If you’re working as a contractor or run your own PTY LTD, it’s also really 
 WorkSafe Victoria has [some information](https://www.worksafe.vic.gov.au/insurance/types-of-workers) on determining if someone is considered a worker by WorkSafe.
 
 The Fair Work Ombudsman has links to all the [individual states and territories regulators](https://www.fairwork.gov.au/leave/workers-compensation) for further information.
-
 ---
 
 ## Suggestions For The ATO & Wider Industry
@@ -422,7 +406,6 @@ Here’s some things I’d LOVE to see implemented by the ATO & Industry Guilds 
 * As discussed above, the [Employee/contractor decision tool](https://www.ato.gov.au/Calculators-and-tools/Host/?anchor=ECDTSGET&anchor=ECDTSGET/questions/ECDT#ECDTSGET/questions/ECDT) can sometimes give some misleading results. I would love to ATO to add some further detail and clarification to the tool.
 * I would love the [Australian Screen Editors (ASE)](http://screeneditors.com.au) to either release their full rate card publicly, or at the very least, provide the full rate card to all [Screen Producer Australia (SPA)](http://screenproducers.org.au) members. What the ASE has done with their full rate card is incredibly awesome and very comprehensive – and it seems such a shame to restrict it’s access to just full fee paying ASE members. I personally believe it would be WAY more beneficial to the filmmaking community if producers and production companies had easy access to this document. I will be actively pushing this with the ASE.
 * I would love for the ATO to run some workshops in conjunction with Screen Producers Australia, Screen Australia and Film Victoria on superannuation, and Workers Comp insurance for our industry.
-
 ---
 
 ## Where Do I Learn More?

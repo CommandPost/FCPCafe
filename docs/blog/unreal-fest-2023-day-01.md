@@ -4,7 +4,6 @@ date: 2023-06-21
 author:
   name: Chris Hocking
   avatar: https://fcp.cafe/static/chrishocking.jpg
-layout: blog
 ---
 # Unreal Fest 2023 - Day 01
 
@@ -19,7 +18,6 @@ Last night was the Welcome Reception at Stingray Lounge, which was a huge amount
 [Liz Ballantyne](https://twitter.com/ShifterCreative) captured a great photo and posted it to [Twitter](https://twitter.com/ShifterCreative/status/1671159475896750080):
 
 ![](/static/unrealfest-reception.jpeg)
-
 ---
 
 The opening welcome talk in the Rocket Room was fantastic.
@@ -73,7 +71,6 @@ Here's some photos of the slides from the opening talk:
 ![](/static/unreal-fest-18.jpeg)
 
 ![](/static/unreal-fest-19.jpeg)
-
 ---
 
 The first session I went to was **The Golden Trifecta: Creating Hollywood-Ready Unreal Developers**. It was awesome.
@@ -111,7 +108,6 @@ Here's some photos of the slides:
 ![](/static/proxi-11.jpeg)
 
 ![](/static/proxi-12.jpeg)
-
 ---
 
 The second session I attended by by **Kevin Romond** from **Victoria University of Wellington**, titled **Lessons in Building a High-Quality Performance Capture Pipeline**.
@@ -195,7 +191,6 @@ Here's some photos of the slides:
 ![](/static/praxis-36.jpeg)
 
 ![](/static/praxis-37.jpeg)
-
 ---
 
 The third session I attended was **Photorealistic Digital Doubles for Feature Films: Technical Processing and Applications** with Duncan Jones & Lyle Hardwicke.
@@ -269,7 +264,6 @@ Here's some photos of the slides:
 ![](/static/myriad-30.jpeg)
 
 ![](/static/myriad-31.jpeg)
-
 ---
 
 The **fourth** session I attended was **Essential Learning for Linear Content in Unreal** by **Shawn Dunn** (Lead Technical Product Manager, Virtual Production @ Epic Games).
@@ -346,7 +340,6 @@ There's LOTS of useful tips and tricks in these slides...
 ![](/static/shawn-dunn-27.jpeg)
 
 ![](/static/shawn-dunn-28.jpeg)
-
 ---
 
 The **fifth** session was by our good friend **Pete Divers**, Head of CG/VFX @ Fika Entertainment talking about **Hairy Situations: Implementing Character Grooms**.
@@ -390,7 +383,6 @@ Again, lots of useful tips in tricks in here...
 ![](/static/fika-14.jpeg)
 
 ![](/static/fika-15.jpeg)
-
 ---
 
 Last but not least, I went to see Shawn Dunn (Lead Technical Product Manager, Virtual Production @ Epic Games) again to talk about **State of the Universal Scene Description (USD) format in Unreal Engine**.
