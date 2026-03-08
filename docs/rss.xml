@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Mar 2026 06:31:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 10:17:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Mar 2026 06:31:38 GMT</pubDate>
+        <pubDate>Thu, 05 Mar 2026 10:17:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16536,7 +16536,7 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
             <title><![CDATA[5th March 2026]]></title>
             <description><![CDATA[<p>It's beta day, and we need your help!</p>
 <p><strong>SyncScript Pro v1.0.0 (Build 6)</strong> is out now on <strong>TestFlight</strong>, and we'd LOVE your feedback!</p>
-<p><strong>SyncScript Pro</strong> allows you to synchronise Script Keywords with transcribed Captions and generate <code>FCPXML</code> Titles for Final Cut Pro.</p>
+<p><strong>SyncScript Pro</strong> allows you to synchronise script lines with transcribed Captions and generate Keywords on Browser clips for script lines.</p>
 <p><img src="https://fcp.cafe/static/syncscript-pro-01.png" alt=""></p>
 <p><img src="https://fcp.cafe/static/syncscript-pro-02.png" alt=""></p>
 <p>You can learn more and download on the <a href="https://syncscriptpro.fcp.cafe/">SyncScript Pro website</a>.</p>
