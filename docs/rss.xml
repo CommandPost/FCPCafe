@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 05 Mar 2026 10:17:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Mar 2026 20:38:09 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Mar 2026 10:17:00 GMT</pubDate>
+        <pubDate>Sun, 08 Mar 2026 20:38:09 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -11470,7 +11470,7 @@ Developer, <a href="https://www.evrapp.cloud">evrApps</a></p>
 <li>Better collaboration between Final Cut Pro on Mac and Final Cut Pro on iPad (bye-bye <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox</a>).</li>
 <li>Blackmagic will finally release their BRAW MediaExtension they announced at last years FCP Creative Summit (bye-bye <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>).</li>
 </ul>
-<p>Then, once macOS 27 is out (dropping Intel support), we might finally see some big major machine learning improvements added to Final Cut Pro - i.e. machine learning image and audio search to compete with <a href="https://getjumper.io">Jumper</a>.</p>
+<p>Then, once macOS 27 is out (dropping Intel support), we might finally see some big major machine learning improvements added to Final Cut Pro - i.e. machine learning image and audio search to compete with <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>.</p>
 <p>It's certainly going to be an interesting few years!</p>
 ]]></description>
             <link>https://fcp.cafe/#15th-november-2025</link>
@@ -11809,7 +11809,7 @@ See you in April.</p>
             <title><![CDATA[14th January 2026]]></title>
             <description><![CDATA[<p><strong>Jumper v2026.01.12 (Build 2740)</strong> is out now!</p>
 <p>This release includes facial recognition support.</p>
-<p>You can learn more on the <a href="https://getjumper.io">Jumper website</a>.</p>
+<p>You can learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#14th-january-2026</link>
             <guid isPermaLink="false">14th January 2026</guid>
@@ -12296,7 +12296,7 @@ I stopped using custom layouts as I need these features to work.</li>
 <p>We've also dropped the price of <a href="https://lutrobot.fcp.cafe">LUT Robot</a> to <strong>USD$9.99</strong>. It's a very niche application to automatically apply Camera LUTs to video files with matching filenames.</p>
 <p>As we continue to add more applications to the Mac App Store, we'll try use this more consistent pricing as a base.</p>
 <p>I expect we'll basically need to update all these applications again very soon with the release of Apple Creator Studio.</p>
-<p>In terms of my collaborations, <a href="https://getjumper.io">Jumper</a> &amp; <a href="https://hedge.co/products/arctic">Hedge Arctic</a> were already looking good on <strong>macOS 26 Tahoe</strong>, so no need for an update there!</p>
+<p>In terms of my collaborations, <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a> &amp; <a href="https://hedge.co/products/arctic">Hedge Arctic</a> were already looking good on <strong>macOS 26 Tahoe</strong>, so no need for an update there!</p>
 ]]></description>
             <link>https://fcp.cafe/#23rd-january-2026</link>
             <guid isPermaLink="false">23rd January 2026</guid>
@@ -15795,7 +15795,7 @@ Swift     :      55389 (++12423, +28.91%)
 <p>The hope/dream has always been to get CommandPost onto the Mac App Store, but unfortunately the Mac App Store doesn't allow any applications that use Private APIs or applications that use the Accessibility API - so that basically rules out CommandPost all together.</p>
 <p>However, there are &quot;tricks&quot; to get it on the Mac App Store - some apps get around the Accessibility API rules by having an optional helper application that does all the Accessibility work.</p>
 <p>I spent a few months trying to get something onto the Mac App Store - but just hit road-block after road-block, so in the end I decided to come up with another plan.</p>
-<p>Building out our own licensing system, and online shop was definitely an option, but I helped do that for <a href="https://getjumper.io">Jumper</a>, and it was a HUGE amount of work, and there's an on-going cost for Paddle &amp; Keygen. Basically, this just all falls into the too hard basket, so I came up with something a bit more unique...</p>
+<p>Building out our own licensing system, and online shop was definitely an option, but I helped do that for <a href="https://getjumper.io/?ref=fcpcafe">Jumper</a>, and it was a HUGE amount of work, and there's an on-going cost for Paddle &amp; Keygen. Basically, this just all falls into the too hard basket, so I came up with something a bit more unique...</p>
 <p><strong>CommandPost v2</strong> now requires at least <strong>ONE PAID</strong> <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application installed.</p>
 <p>After <strong>9 years of free updates</strong>, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application installed to use CommandPost moving forward - consider it &quot;inner circle&quot; software (i.e. only our mates get access to it).</p>
 <p>To use <strong>CommandPost v2</strong> please download and install at least <strong>ONE</strong> <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">LateNite</a> application from the <a href="https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641">Mac App Store</a>. The cheapest is <strong>USD$10</strong>.</p>
@@ -16569,6 +16569,158 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
             <link>https://fcp.cafe/#5th-march-2026</link>
             <guid isPermaLink="false">5th March 2026</guid>
             <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p>Since the announcement of the <strong>MacBook Neo</strong>, a lot of people have asked me if this laptop is suitable for Final Cut Pro?</p>
+<p>The answer is... hell yes.</p>
+<p>A lot of people are incorrectly saying that the A18 Pro chip is not &quot;good enough&quot;, or that there's not enough RAM.</p>
+<p>That's honestly just bullshit.</p>
+<p>The MacBook Neo comes with:</p>
+<blockquote>
+<p><strong>Apple A18 Pro chip</strong></p>
+<ul>
+<li>6‑core CPU with 2 performance cores and 4 efficiency cores</li>
+<li>5‑core GPU</li>
+<li>Hardware-accelerated ray tracing</li>
+<li>16-core Neural Engine</li>
+<li>60GB/s memory bandwidth</li>
+</ul>
+<p><strong>Media Engine</strong></p>
+<ul>
+<li>Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW</li>
+<li>Video decode engine</li>
+<li>Video encode engine</li>
+<li>ProRes encode and decode engine</li>
+<li>AV1 decode</li>
+</ul>
+</blockquote>
+<p>When it comes to playing back H.264, HEVC, ProRes and ProRes RAW - it doesn't really even need to put ANY load on the CPU/GPU - this is all decoded on-device.</p>
+<p>It might only have <strong>8GB unified memory</strong>, but it has a super fast <strong>256GB or 512GB SSD</strong>, so once the system uses 8GB of RAM, it will just move &quot;old memory&quot; off to the SSD.</p>
+<p>As long as you keep your 256/512GB internal drive relatively clean, and store all your non-Applications stuff on an external SSD or Network Drive - this thing will FLY.</p>
+<p>If you think Final Cut Pro on iPad is snappy - Final Cut Pro on MacBook Neo will be AWESOME.</p>
+<p>People love to complain... but I think the MacBook Neo will be the ultimate low-cost Final Cut Pro editing machine, and I'd still use this over the most expensive Windows machine running Resolve or Premiere.</p>
+<p>My 2c.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>Dylan Bates (The Final Cut Bro)</strong> has released a new video titled, <strong>I can't believe this app is FREE for Final Cut Pro</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=F6AK5LO1eiY"><img src="/static/fcp-template-manager-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>Keyframe Toolbox v1.0.0 (Build 23)</strong> is now available for testing on TestFlight.</p>
+<p>We'd still LOVE your ideas, thoughts, comments and suggestions!</p>
+<p>You can learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>Jumper v2026.03.07 (Build 2984)</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>You can now reveal media files directly in Finder on macOS or File Explorer on Windows from the media list.</li>
+<li>Avid: You can now save Scan MXF Metadata results to a shared location so multiple machines can reuse them.</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>The Settings view has been redesigned to make common options easier to find.</li>
+<li>Media list interactions are much faster, especially when selecting large numbers of files.</li>
+<li>If a speech download is missing, you now also see this in Watch Folders. Thanks for reporting Simon Cull!</li>
+<li>Large file and selection counts are easier to read at a glance.</li>
+<li>Windows file picking is faster when browsing large network drives.</li>
+<li>Speech analysis is more reliable with a wider range of audio files. Thanks for reporting Jim Young!</li>
+<li>Shared analysis folders work more reliably when multiple people use the same storage.</li>
+<li>DaVinci Resolve works better with media on mapped network drives. Thanks for reporting Claudio Domenicali!</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed Final Cut Pro 11 Free Trial support. Thanks for reporting Charles Teton!</li>
+<li>Fixed media list checkbox layout issues in Standard Jumper. Thanks for reporting Max_B!</li>
+<li>Fixed dialog and popover issues on older Avid versions.</li>
+<li>Fixed cases where speech analysis could mishandle missing or silent files. Thanks for reporting Samuel Bignell!</li>
+<li>Fixed some issues that could cause thumbnails or problematic media files to fail unexpectedly.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>Scene Cut Detector v1.0.2</strong> is out now.</p>
+<p>It has the following improvements:</p>
+<ul>
+<li>Improved Scene Detection Accuracy</li>
+<li>Hard cuts are now detected more reliably, including in fast-paced content like show reels and action sequences</li>
+<li>Fixed cases where obvious cuts were occasionally missed due to the adaptive threshold being set too conservatively</li>
+<li>The detector now combines a global threshold with a local adaptive one, so cuts only need to clear one of the two to be flagged</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/scene-cut-detector/id6759056281">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>fontAudition-X v1.1.0</strong> is out now.</p>
+<p>It includes the following improvement:</p>
+<ul>
+<li>Code optimized to handle thousands of fonts.</li>
+<li>Bug fixes.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/fontaudition-x/id1554676357">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p>There's a new kid on the block... Introducing <a href="https://use-focus.com">Focus</a>.</p>
+<blockquote>
+<p>The editor's shortcut from footage to delivery.
+Search by meaning, assemble sequences, and export to Premiere, Resolve, or Final Cut.</p>
+</blockquote>
+<p>Sadly however, the Final Cut Pro integration is currently a bit broken and buggy, but we'll keep our eye on this.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[9th March 2026]]></title>
+            <description><![CDATA[<p><strong>MotionVFX</strong> have updated a bunch of their applications:</p>
+<ul>
+<li><strong>mCallouts Simple v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mMessage v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mCallouts Simple 2 v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mPointer v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mFlare 2 v3.1.11</strong> - Minor bug fixes</li>
+<li><strong>mPuppet v2.1.5</strong> - Fixed alpha blending issues, improved stability and major crash fixes</li>
+<li><strong>mMessage 2 v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mHUD 2 v3.0.4</strong> - Minor bug fixes</li>
+<li><strong>mHUD 3 v3.0.4</strong> - Minor bug fixes</li>
+</ul>
+<p>You can learn more on the <a href="https://www.motionvfx.com">MotionVFX website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#9th-march-2026</link>
+            <guid isPermaLink="false">9th March 2026</guid>
+            <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
