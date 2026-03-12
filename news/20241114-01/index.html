@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.826571714741">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826592470609">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.2.0">
 
     <!-- Primary Meta Tags -->
     <title>News - 14th November 2024</title>
@@ -29,14 +29,17 @@
     <meta property="og:site_name" content="FCP Cafe">
     <meta property="og:locale" content="en_US">
 
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="https://fcp.cafe/blog/feed.xml">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.1.0.826571714741" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.2.0.826592470609" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.826571714741" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.826571714741" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.826592470609" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.826592470609" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -316,7 +319,7 @@
 <p>First up, Matthew O&#x27;Brien has released a <a href="https://www.youtube.com/watch?v=b0CmR9MK5WU" class="outbound" target="_blank"><span>new video on YouTube</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> talking about Final Cut Pro 11:</p>
 <p><figure class="content-center">
     <a href="https://www.youtube.com/watch?v=b0CmR9MK5WU">
-        <img src="../../static/fcpcs24-matthew-o-brien.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+        <img src="../../static/fcpcs24-matthew-o-brien.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     </a>
     <figcaption class="caption"></figcaption>
 </figure>
@@ -327,7 +330,7 @@
 <p>You can watch a trailer here:</p>
 <p><figure class="content-center">
     <a href="https://www.youtube.com/watch?v=AMGNe9_gD_0">
-        <img src="../../static/fcpcs24-the-weeknd.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+        <img src="../../static/fcpcs24-the-weeknd.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     </a>
     <figcaption class="caption"></figcaption>
 </figure>
@@ -346,14 +349,14 @@
 <p>You can&#x27;t move it outside the bundle - it needs to live inside the Library bundle (unlike other cache files). This is super interesting, and may present some challenges with collaborative workflows (i.e. with Postlab).</p>
 <p><strong>Magnetic Mask</strong> data is also not transferred with FCPXML - so if you export a project/timeline containing a clip with a Magnetic Mask, then re-import the FCPXML, the mask won&#x27;t correctly come across - in fact, you&#x27;ll just get an empty effect:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-magnetic-mask-no-fcpxml.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-magnetic-mask-no-fcpxml.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2422" height="1294" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>This could also prove to be a pain if you use FCPXML round-tripping in your workflow.</p>
 <p>Ok, back to the Summit... here was the day two schedule:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs-day-two-program.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs-day-two-program.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2673" height="3052" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -364,168 +367,168 @@
 <p>Michael is so eloquent, passionate and prepared. He knows everything he&#x27;s talking about back to front. He&#x27;s a true filmmaker, who walks the talk.</p>
 <p>The Strada crew had some serious cameras recording the presentation so hopefully we&#x27;ll see it on the <a href="https://www.youtube.com/@Strada-Tech" class="outbound" target="_blank"><span>Strada YouTube channel</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> soon!</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-film-crew.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-film-crew.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2439" height="1463" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>In the meantime, here&#x27;s some photos from the epic presentation:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1803" height="1170" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3330" height="1884" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-3.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-3.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3156" height="2232" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-4.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-4.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3126" height="2300" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-5.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-5.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2860" height="2164" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-6.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-6.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="4032" height="3024" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-7.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-7.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1775" height="1125" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-8.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-8.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1733" height="1117" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-9.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-9.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1704" height="1091" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-10.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-10.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2894" height="2600" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-11.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-11.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3857" height="2495" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-12.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-12.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1742" height="1163" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-13.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-13.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1757" height="1106" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-14.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-14.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1745" height="1063" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-15.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-15.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3748" height="2075" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-16.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-16.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3737" height="2169" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-17.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-17.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3152" height="2334" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-18.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-18.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2686" height="2368" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-19.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-19.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2559" height="1455" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-20.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-20.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1797" height="1244" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-21.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-21.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3834" height="2481" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-22.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-22.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3691" height="2493" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-23.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-23.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3649" height="2354" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-24.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-24.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3767" height="1905" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-25.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-25.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3724" height="2397" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-26.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-26.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3510" height="2511" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-27.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-27.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3831" height="2356" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-28.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-28.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1494" height="790" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-29.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-29.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3493" height="1909" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-30.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-30.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3798" height="2510" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-31.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-31.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2546" height="1804" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-strada-32.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-strada-32.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1444" height="805" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -535,14 +538,14 @@
 <p>Lunch was supplied by the conference and it was really great - a proper hot meal, that was delicious! Thanks FMC!</p>
 <p>After lunch everyone went back into the main conference room for <strong>Shamir Allibhai</strong> (of <a href="https://www.simonsaysai.com" class="outbound" target="_blank"><span>Simon Says</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> fame), talking about his new startup, <a href="https://heyeddie.ai" class="outbound" target="_blank"><span>Eddie AI</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-eddie-ai-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-eddie-ai-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3075" height="2099" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can watch the video he opened with below on <a href="https://www.youtube.com/watch?v=Pvh6pm4MKeo" class="outbound" target="_blank"><span>YouTube</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
 <p><figure class="content-center">
     <a href="https://www.youtube.com/watch?v=Pvh6pm4MKeo">
-        <img src="../../static/fcpcs24-eddie-ai.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+        <img src="../../static/fcpcs24-eddie-ai.jpg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     </a>
     <figcaption class="caption"></figcaption>
 </figure>
@@ -551,7 +554,7 @@
 <p>You can then &quot;chat&quot; to your footage, and get Eddie AI to create edits and selects for you.</p>
 <p>You can watch these edits in your browser, but also export these edits as videos and exchange formats, such as FCPXML for Final Cut Pro.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-eddie-ai-1.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-eddie-ai-1.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1858" height="952" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -561,77 +564,77 @@
 <p>He opened with a AI-generated song about the Final Cut Pro Creative Summit - it took some people in the audience a few minutes to realise what they were actually listening to!</p>
 <p>Jeff will eventually post his presentation <a href="https://www.jgreenbergconsulting.com" class="outbound" target="_blank"><span>on his website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, however in the mean time, here&#x27;s a look at some of his slides:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3464" height="2167" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3502" height="2158" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-3.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-3.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3465" height="2185" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-4.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-4.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3450" height="2251" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-5.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-5.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3458" height="2199" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-6.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-6.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3429" height="2211" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-7.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-7.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3488" height="2258" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-8.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-8.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3400" height="1940" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-9.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-9.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2664" height="1291" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-10.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-10.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3446" height="2352" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-11.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-11.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3398" height="2157" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-12.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-12.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3522" height="2272" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-13.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-13.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3546" height="2278" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-14.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-14.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3468" height="2269" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jeff-15.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jeff-15.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3453" height="2198" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -639,7 +642,7 @@
 <p>It&#x27;s pretty awesome, and I&#x27;ll be talking about it more in my session tomorrow.</p>
 <p>After Jeff, I went into the amazing <strong>Jenn Jager&#x27;s</strong> presentation talking about <strong>Masking and Tracking Secrets in Final Cut Pro</strong> - mainly focussing on the Magnetic Mask.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-jenn-jager-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-jenn-jager-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3758" height="1692" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -648,20 +651,20 @@
 <p>You can watch one of Jenn&#x27;s awesome <a href="https://www.youtube.com/watch?v=yfl5w0Q-SIU" class="outbound" target="_blank"><span>YouTube videos</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> explaining the Magnetic Mask below:</p>
 <p><figure class="content-center">
     <a href="https://www.youtube.com/watch?v=yfl5w0Q-SIU">
-        <img src="../../static/fcpcs24-jenn-jager.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+        <img src="../../static/fcpcs24-jenn-jager.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="720" />
     </a>
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>After Jenn, I attended <strong>Daniel Cohn&#x27;s</strong> epic presentation on <strong>Movie Magic in Motion</strong>.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-daniel-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-daniel-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3477" height="1902" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Daniel is a true indie filmmaker, and absolute Apple Motion guru - and can do some absolutely incredible things with that tool.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-daniel-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-daniel-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2255" height="1455" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -670,203 +673,203 @@
 <p>This was incredibly special, as it wasn&#x27;t under NDA, and whilst there was no Q&amp;A session, they shared a lot of stats and information.</p>
 <p>Here&#x27;s some of the slides:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3061" height="1853" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3640" height="2332" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-3.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-3.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3805" height="2245" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-4.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-4.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3473" height="1282" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-5.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-5.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3447" height="2372" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-6.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-6.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3768" height="2258" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-7.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-7.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3804" height="2227" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-8.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-8.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2754" height="2109" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-9.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-9.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3734" height="2232" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-10.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-10.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2958" height="2176" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-11.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-11.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3732" height="2328" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-12.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-12.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3810" height="2232" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-13.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-13.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3806" height="2243" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-14.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-14.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3785" height="2240" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-15.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-15.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3883" height="2301" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-16.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-16.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3899" height="2290" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-17.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-17.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3791" height="2258" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-18.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-18.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3839" height="2406" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-19.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-19.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3770" height="2265" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-20.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-20.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3806" height="2304" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-21.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-21.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2398" height="1401" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-22.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-22.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2913" height="1182" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-23.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-23.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3081" height="1536" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-24.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-24.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2634" height="1376" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-25.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-25.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3076" height="1678" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-26.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-26.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2603" height="1522" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-27.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-27.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2809" height="915" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-28.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-28.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2556" height="1762" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-29.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-29.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2887" height="1402" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-30.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-30.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2948" height="1314" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-31.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-31.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2320" height="1819" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-32.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-32.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2913" height="1785" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-33.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-33.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3814" height="2278" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-34.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-34.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2472" height="1444" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-35.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-35.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3095" height="1338" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-36.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-36.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2710" height="1273" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-37.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-37.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2800" height="1298" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-38.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-38.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3482" height="1442" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-39.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-39.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1898" height="1280" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>The below photo only contains <strong>ten percent</strong> of the team that work on Apple Fitness+:</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-fitnessplus-40.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-fitnessplus-40.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3657" height="1331" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -876,12 +879,12 @@
 <p>One interesting thing to ponder though is... does the Fitness app on iPhone, iPhone and Apple TV actually run the Motion Engine under the hood for doing the personalised animation, or are they generating something similar using Swift/SwiftUI?</p>
 <p>After the Apple presentation it was then the Networking Expo Night - which again, had absolutely awesome food and a free drink.</p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-expo-1.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-expo-1.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="4008" height="2100" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p><figure class="content-center">
-    <img src="../../static/fcpcs24-expo-2.jpeg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../static/fcpcs24-expo-2.jpeg" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="3020" height="1793" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -913,12 +916,18 @@
         async>
 </script>
 
+                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2025-06-02T03:56:47" title="2025-06-02" data-absolute-label="Last updated on 2025-06-02" data-absolute-label-html="Last updated on 2025-06-02" data-relative-template="Last updated {0}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN">
+                        Last updated on 2025-06-02
+                    </time>
+                </div>
+
                 <!-- Required only on API pages -->
                 <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
             </div>
             <footer id="retype-content-footer" class="clear-both">
-                <div class="flex flex-wrap items-center justify-between mt-14">
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-2 mt-14">
                     <a id="retype-edit-this-page" class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-body-link font-body-link hover:text-body-link-hover hover:underline" href="https://github.com/CommandPost/FCPCafe/blob/main/docs/news/20241114-01.md" target="_blank" rel="noopener">
                         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         <span>Edit this page on GitHub</span>
