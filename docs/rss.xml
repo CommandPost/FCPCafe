@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 08 Mar 2026 20:38:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 21:10:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 08 Mar 2026 20:38:09 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 21:10:33 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16721,6 +16721,184 @@ Search by meaning, assemble sequences, and export to Premiere, Resolve, or Final
             <link>https://fcp.cafe/#9th-march-2026</link>
             <guid isPermaLink="false">9th March 2026</guid>
             <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>ScriptStar v1.4.0 (Build 20)</strong> is out now!</p>
+<p>It includes the following improvements:</p>
+<ul>
+<li>We've improved the error messages for the Open Dialog's and Permission Dialog prompts. Thanks for your feedback FCP Cafe Discord team!</li>
+<li>We've improved the handling of comma-delimited decimals when using in <code>Point2D</code> in <code>FCPXML</code>. Thanks David Peterson for your genius!</li>
+<li>We now support both Compound Clips and Synchronised Clips (although we still strongly recommend using Multicam clips)! Thanks Bill (from Bill and Ben) and TechMixr!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>Jonathan Harris</strong> has finally done it! The first working open source <strong>MediaExtension</strong>! 🥳</p>
+<p><strong>QuickLook Video v3.05</strong> is out now!</p>
+<blockquote>
+<p>This app allows macOS Finder to display thumbnails/cover art, QuickLook previews, and metadata for most types of audio and video files.</p>
+<p>QuickLook, AVFoundation and Spotlight understand a limited number of media files - mostly only MPEG audio and video codecs within MPEG container files. This app adds support for wide range of other codecs and &quot;non-native&quot; media file types, including:</p>
+<p><strong>File formats:</strong> Matroska (<code>.mka</code>, <code>.mkv</code>), WebM (<code>.webm</code>), Windows Media (<code>.wma</code>, <code>.wmv</code>), Ogg Video (<code>.ogm</code>, <code>.ogv</code>), AVI (partial support) (<code>.avi</code>), Flash Video (<code>.flv</code>, <code>.f4v</code>), Real Media (<code>.ra</code>, <code>.rm</code>, <code>.rv</code>), SMPTE (<code>.gxf</code>, <code>.mxf</code>)
+<strong>Audio codecs:</strong> Vorbis, Windows Media Audio, WavPak, ATRAC, etc.
+<strong>Video codecs:</strong> VP6, VP8, VP9, AV1, VVC/H.266, Dolby Vision, Theora, Sorenson 1 &amp; 3, Cinepak, Flash, Real Video, Intel Indeo, etc.</p>
+<p>The app contains a Spotlight extension that adds support for non-native file formats, and two Media Extensions that add support to AVFoundation for non-native file formats and video codecs. (Long-time Mac users may remember Perian which performed a similar function with the QuickTime framework before QuickTime was replaced by AVFoundation).</p>
+</blockquote>
+<p>Whilst it's still a work-in-progress, and there's some performance issues, this is an awesome step in the right direction!</p>
+<p>I've been experimenting with MediaExtension's for years now for BRAW Toolbox, but have never gotten as far as Jonathan Harris has gone.</p>
+<p><a href="https://github.com/vade">Anton Marini</a> was the first person playing in this space, with his <a href="https://github.com/Fabric-Project/FFMPEGMediaExtension">FFMPEGMediaExtension</a>, but it's still not currently ready for prime time.</p>
+<p>Anton has also been helping me with BRAW Toolbox (he's a genius.</p>
+<p>Congratulations Jonathan Harris - hopefully this is the start of more MediaExtension's hitting the Open Source world!</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>Apple</strong> to celebrate 50 years of thinking different!</p>
+<blockquote>
+<p>Apple today announced it will mark its 50th anniversary, celebrating five decades of thinking different and the innovations that have helped shape the way people connect, create, learn and experience the world.</p>
+<p>Since its founding on 1 April 1976, Apple has been driven by a belief that progress comes from those who challenge convention and imagine what could be. That spirit of thinking different has led to products and services that have transformed entire industries and enriched the lives of people around the globe. From groundbreaking products like Apple II and Macintosh, to iPod, iPhone, iPad, Apple Watch, Mac and Apple Vision Pro, and to services that users rely on every day, from the App Store to Apple Music, Apple Pay, iCloud and Apple TV, Apple has consistently combined powerful technology with intuitive design to empower individuals to do extraordinary things.</p>
+<p>While Apple is known for looking forward, this milestone offers a special moment to reflect on the journey that has brought the company here, to celebrate the people and communities who have thought different with us, and to honour the enduring values that continue to guide our work.</p>
+<p>To mark this occasion, CEO Tim Cook has <a href="https://www.apple.com/50-years-of-thinking-different/">shared a letter on apple.com</a> reflecting on the company’s history and values, and celebrating people who have shaped Apple over the past 50 years.</p>
+<p>In the coming weeks, Apple and its global community will celebrate the company’s 50th anniversary, recognising the creativity, innovation and impact that people around the world have made possible with Apple technology.</p>
+<p>“Thinking different has always been at the heart of Apple,” said Tim Cook, Apple’s CEO. “It’s what has driven us to create products that empower people to express themselves, to connect and to create something wonderful. As we celebrate 50 years, we are deeply grateful to everyone who has been part of this journey and who continues to inspire what comes next.”</p>
+<p>From the beginning, Apple has believed that technology alone is not enough. It is the intersection of technology and the liberal arts, guided by a human touch, that makes its products meaningful. That belief continues to shape Apple’s work today, from advancing Apple Intelligence, to creating products and services designed with privacy at their core, built for accessibility and created with the planet in mind.</p>
+<p>As Apple celebrates this milestone, the company remains focused on the future and on continuing to think different in the years ahead. Apple will continue to innovate in groundbreaking silicon, life-enriching products, transformative software and services that improve people’s lives, while deepening its commitments to environmental responsibility, education and community impact around the world. Press Contacts</p>
+</blockquote>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p>The amazing <strong>Mat X</strong> has written a great blog post titled, <strong>Trust but Verify - Why I stopped worrying and built my own MHL verification apps</strong>.</p>
+<p>You can read more on his <a href="https://macvfx.blog/2026/03/13/trust-but-verify/">blog</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p>Our good friends at <strong>Corridor Digital</strong> have got into the software development game, and it's impressive!</p>
+<p>They've released a new website video on their <strong>Corridor Crew</strong> channel titled, <strong>It Took Me 30 Years to Solve this VFX Problem</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=3Ploi723hg4">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=3Ploi723hg4"><img src="/static/fixed-green-screens.jpg" alt=""></a></p>
+<p>You can join their <a href="https://discord.com/invite/bHPZvbhS4">Discord Community too</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>Pro Zooms For Final Cut Pro v4.1.1</strong> is out now!</p>
+<p>You can learn more and download on <strong>Dylan Bates</strong> (aka The Final Cut Bro)'s <a href="https://fcbplugins.com/b/prozooms">website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>FilmConvert Nitrate</strong> and <strong>CineMatch</strong> now include dedicated profiles for the <strong>Sony FX2</strong>, helping you build a consistent look when grading FX2 footage alongside other cameras.</p>
+<p>You can learn more on the <a href="https://www.filmconvert.com">FilmConvert website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p>MacRumors reports, <strong>New Apple Studio Displays Double Internal Storage to 128GB</strong>. Fun!</p>
+<p>You can read more on the <a href="https://www.macrumors.com/2026/03/11/studio-display-internal-storage-128gb/">MacRumors website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p>Episode 442 of <strong>The Talk Show</strong> is out now, and talks about Apple Creator Studio.</p>
+<blockquote>
+<p>Jason Snell returns to the show to discuss the 2025 Six Colors Apple Report Card, MacOS 26 Tahoe, Apple Creator Studio, along with what we expect/hope for in next week’s Apple product announcements.</p>
+</blockquote>
+<p>If you don't have time to listen, you can <a href="https://podsearch.david-smith.org/episodes/7915">read a transcript</a>.</p>
+<p>You can download and learn more on the <a href="https://daringfireball.net/thetalkshow/2026/02/28/ep-442">Daring Fireball website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>Richard Taylor</strong> had another one of his weekly live streams titled, <strong>What to Expect for Final Cut Pro for 2026?</strong></p>
+<p>You can watch on <a href="https://www.youtube.com/live/VcixaDbiWoA">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/live/VcixaDbiWoA"><img src="/static/fcp-radio-march-2026.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p>The handsome and talented <strong>Tyler Stalman</strong> has released a new video titled, <strong>MacBook Neo: Can It Handle Pro Apps?</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=d-VOt9559Gk">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=d-VOt9559Gk"><img src="/static/macbook-neo-youtube.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>Bowdler v1.1.0</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<p><strong>Subtitles</strong></p>
+<ul>
+<li>FCPXML Style editor - customize font, size, position, face color/opacity, and outline directly from the app with a live preview</li>
+</ul>
+<p><strong>Silence Removal</strong></p>
+<ul>
+<li>Delete Click Sound - removes the audible click that appears at cut points when background music is present</li>
+<li>FCP Autocut - exports an FCPXML where the video is already cut and trimmed</li>
+</ul>
+<p><strong>Censorship</strong></p>
+<ul>
+<li>FCP Autocut - exports an FCPXML where the video is already cut and trimmed</li>
+</ul>
+<p><strong>General</strong></p>
+<ul>
+<li>Better timeline zoom - smooth pinch/scroll zoom centered on cursor position</li>
+<li>AAC Support - process AAC audio files natively</li>
+<li>Export quality &amp; speed improvements - faster processing with better output quality</li>
+<li>Better Export flow - stay on the current screen after export, see results inline, and jump back with one click</li>
+<li>UI Improvements - gray area settings when editing, other improvements</li>
+</ul>
+<p>You can learn more and download on <a href="https://github.com/whyaang/Bowdler/releases/tag/v1.1.0">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th March 2026]]></title>
+            <description><![CDATA[<p><strong>The VFX Campus</strong> is closing.</p>
+<p>As a thank you to their community, every course they've ever created is now available at no cost — no account, no payment required.</p>
+<p>Stream all videos on Vimeo and download the complete class files below while access lasts.</p>
+<p>You can download and learn more on <a href="https://thevfxschool.com">The VFX Campus website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-march-2026</link>
+            <guid isPermaLink="false">15th March 2026</guid>
+            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
