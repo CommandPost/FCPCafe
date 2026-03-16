@@ -1,3 +1,4 @@
+- [Zooming out the Timeline is crashing Final Cut Pro (March 16, 2026)](https://github.com/CommandPost/FCPCafe/issues/530)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
