@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Mar 2026 04:06:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 13:02:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Mar 2026 04:06:28 GMT</pubDate>
+        <pubDate>Tue, 17 Mar 2026 13:02:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16962,6 +16962,30 @@ It doesn't look like MotionVFX has removed the <a href="https://www.motionvfx.co
 <p><a href="https://www.youtube.com/watch?v=sh0-rla1oAo"><img src="/static/motionvfx-resolve.jpg" alt=""></a></p>
 <p><s>It looks like Apple has already removed all the DaVinci Resolve plugins from the website, and it sounds like the DaVinci Resolve team has already been let go:</s></p>
 <p><img src="/static/motionvfx-resolve.png" alt=""></p>
+<p>However, it's definitely R.I.P for <strong>mCredits</strong> - they've been completely removed from the website, and remove from Apple's new Terms &amp; Conditions. 🪦</p>
+<p>Speaking of <a href="https://www.motionvfx.com/conditions-new">Terms &amp; Conditions</a> (you can find the <a href="https://www.motionvfx.com/conditions">old ones here</a>)...</p>
+<p><strong>What stayed broadly the same:</strong></p>
+<ul>
+<li>Digital products, generally non-refundable</li>
+<li>Subscriptions auto-renew</li>
+<li>One-user license model</li>
+<li>One main device plus one extra owned device</li>
+<li>No resale, sharing, reverse engineering</li>
+<li>No stock/template/competitive-product use</li>
+<li>Termination on breach or subscription/trial end</li>
+</ul>
+<p><strong>What changed the most:</strong></p>
+<ul>
+<li>Privacy/GDPR and cookie disclosures were stripped out</li>
+<li>Account-operation detail was removed</li>
+<li>Trial/subscription mechanics were simplified</li>
+<li>Support/update discontinuation rights became more explicit</li>
+<li>Liability cap was added</li>
+<li>License wording became shorter and broader</li>
+<li>Backup-copy and explicit client-use language disappeared</li>
+<li>New harmful/unlawful/infringing-use restriction was added</li>
+</ul>
+<p>The most notable items from a user-risk perspective are the <strong>new liability cap</strong>, the <strong>explicit right to discontinue products/support/updates</strong>, and the <strong>replacement of the detailed privacy notice with a brief reference to an Apple privacy URL</strong>.</p>
 <p>In other MotionVFX news, <strong>mTracker 3D v2.1.6</strong> is out now with an updated tracking engine! I wonder if it's using Apple's code?</p>
 <p>Certainly interesting times ahead!</p>
 ]]></description>
