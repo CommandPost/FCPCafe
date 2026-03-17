@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.827010457198">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827023194808">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>Release Notes</title>
@@ -29,17 +29,25 @@
     <meta property="og:site_name" content="FCP Cafe">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fcp.cafe/releasenotes/">
+    <meta name="twitter:title" content="Release Notes">
+    <meta name="twitter:description" content="This page is designed to not just copy and paste Final Cut Pro's official release notes for Mac or iPad, but also keep track of changes/bugs/additions that">
+    <meta name="twitter:image" content="https://fcp.cafe/static/thumbnail.jpg">
+    <meta name="twitter:image:alt" content="Release Notes">
+
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="https://fcp.cafe/blog/feed.xml">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.2.0.827010457198" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.3.0.827023194808" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.2.0.827010457198" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.2.0.827010457198" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.3.0.827023194808" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.3.0.827023194808" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -94,10 +102,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://fcp.cafe/" class="flex items-center leading-snug text-2xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../static/fcpcafe.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="../static/fcpcafe.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../static/fcpcafe.png" alt="" width="250" height="250">
+                            <img class="max-h-10 hidden dark:inline-block" src="../static/fcpcafe.png" alt="" width="250" height="250">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">FCP Cafe</span>
                     </a>
@@ -112,60 +120,48 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                 </svg>
                                 <span>Discord</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../contribute/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
                                 </svg>
                                 <span>Contribute</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../wishlist/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
                                 </svg>
                                 <span>Wish List</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../bugtracker/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
                                 </svg>
                                 <span>Bug Tracker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                 </svg>
                                 <span>Discussions</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../latenite/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
                                 </svg>
                                 <span>LateNite</span>
                             </a>
@@ -215,60 +211,48 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                         </svg>
                                         <span>Discord</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../contribute/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
                                         </svg>
                                         <span>Contribute</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../wishlist/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
                                         </svg>
                                         <span>Wish List</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../bugtracker/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
                                         </svg>
                                         <span>Bug Tracker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/CommandPost/FCPCafe/discussions" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                         </svg>
                                         <span>Discussions</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../latenite/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
                                         </svg>
                                         <span>LateNite</span>
                                     </a>
@@ -308,12 +292,7 @@
                 </nav>
 
                 <!-- Page content  -->
-<doc-anchor-target id="release-notes" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#release-notes">#</doc-anchor-trigger>
-        <span>Release Notes</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="release-notes">Release Notes</h1>
 <p>This page is designed to not just copy and paste Final Cut Pro&#x27;s <a href="https://support.apple.com/en-us/HT201237" class="outbound" target="_blank"><span>official release notes for Mac</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> or <a href="https://support.apple.com/en-us/HT213774" class="outbound" target="_blank"><span>iPad</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, but also keep track of changes/bugs/additions that weren&#x27;t actually included in the official release notes.</p>
 <hr>
 <div class="flex mb-6">
@@ -334,12 +313,7 @@
     </div>
 </div>
 <hr>
-<doc-anchor-target id="statistics">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#statistics">#</doc-anchor-trigger>
-        <span>Statistics</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="statistics">Statistics</h2>
 <p>The below information was originally consolidated by <a href="https://twitter.com/finalcutgod" class="outbound" target="_blank"><span>finalcutgod</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> and is now updated by Chris Hocking.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
@@ -948,18 +922,8 @@
 </table>
 </div>
 <hr>
-<doc-anchor-target id="mac">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#mac">#</doc-anchor-trigger>
-        <span>Mac</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="final-cut-pro-120">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-120">#</doc-anchor-trigger>
-        <span>Final Cut Pro 12.0</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="mac">Mac</h2>
+<h3 id="final-cut-pro-120">Final Cut Pro 12.0</h3>
 <p><strong>Released January 28, 2026</strong></p>
 <p><strong>Final Cut Pro v12.0</strong> includes the following <a href="https://support.apple.com/en-us/102825" class="outbound" target="_blank"><span>features, enhancements, and fixes</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
 <ul>
@@ -982,12 +946,7 @@
 </ul>
 <p>Of course, it&#x27;s very early days, so please comment on the above issues if you have any insight!</p>
 <hr>
-<doc-anchor-target id="final-cut-pro-112">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-112">#</doc-anchor-trigger>
-        <span>Final Cut Pro 11.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-112">Final Cut Pro 11.2</h3>
 <p><strong>Released September 19, 2025</strong></p>
 <p><strong>Final Cut Pro v11.2</strong> includes the following enhancements, changes, and bug fixes:</p>
 <ul>
@@ -1000,12 +959,7 @@
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1111">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1111">#</doc-anchor-trigger>
-        <span>Final Cut Pro 11.1.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1111">Final Cut Pro 11.1.1</h3>
 <p><strong>Released May 22, 2025</strong></p>
 <ul>
 <li>Addresses an issue that could cause MXF media to play back incorrectly.</li>
@@ -1013,12 +967,7 @@
 <li>Fixes an issue when sharing with the “Allow export segmentation” setting that caused inconsistent frame rates.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-111">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-111">#</doc-anchor-trigger>
-        <span>Final Cut Pro 11.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-111">Final Cut Pro 11.1</h3>
 <p><strong>Released March 27, 2025</strong></p>
 <p><strong>Final Cut Pro 11.1</strong> includes the following enhancements:</p>
 <ul>
@@ -1048,12 +997,7 @@
 <li>Fixes an issue that caused the selected browser clip to change when Show Hidden Clips was enabled.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1101">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1101">#</doc-anchor-trigger>
-        <span>Final Cut Pro 11.0.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1101">Final Cut Pro 11.0.1</h3>
 <p><strong>Released February 3, 2025</strong></p>
 <p>Final Cut Pro 11.0.1 includes these fixes:</p>
 <ul>
@@ -1063,12 +1007,7 @@
 <li>Improves performance when pressing and holding the H key to scroll the timeline manually.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1100">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1100">#</doc-anchor-trigger>
-        <span>Final Cut Pro 11.0.0</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1100">Final Cut Pro 11.0.0</h3>
 <p><strong>Released November 13, 2024</strong></p>
 <p><strong>Final Cut Pro 11.0</strong> includes the following enhancements:</p>
 <ul>
@@ -1096,12 +1035,7 @@
 <li>Updates FCPXML to version 1.13.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1081">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1081">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.8.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1081">Final Cut Pro 10.8.1</h3>
 <p><strong>Released August 13, 2024</strong></p>
 <p>Final Cut Pro 10.8.1 includes the following bug fixes:</p>
 <ul>
@@ -1110,12 +1044,7 @@
 <li>Fixes an issue that could cause Final Cut Pro to stop responding when three-finger gestures were used on a trackpad.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-108">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-108">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.8</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-108">Final Cut Pro 10.8</h3>
 <p><strong>Released June 20, 2024</strong></p>
 <p><strong>Final Cut Pro 10.8 includes the following enhancements and bug fixes:</strong></p>
 <ul>
@@ -1147,24 +1076,14 @@
 <li>Updates FCPXML to version 1.12.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1071">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1071">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.7.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1071">Final Cut Pro 10.7.1</h3>
 <p><strong>Released December 21, 2023</strong></p>
 <ul>
 <li>Improves stability on Intel-based Mac models when using Color Wheels or Color Curves on H.264 video clips.</li>
 <li>Fixes an issue with some default keyboard shortcuts working incorrectly on non-English keyboards.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-107">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-107">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.7</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-107">Final Cut Pro 10.7</h3>
 <p><strong>Released November 30, 2023</strong></p>
 <p><strong>Final Cut Pro 10.7</strong> includes the following enhancements and fixes:</p>
 <ul>
@@ -1178,22 +1097,12 @@
 <li>Fixes an issue that could cause video to be cropped in the multicam angle editor.</li>
 <li>Improves performance when upgrading a library that contains many markers.</li>
 </ul>
-<doc-anchor-target id="notes-from-fcp-cafe">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes-from-fcp-cafe">#</doc-anchor-trigger>
-        <span>Notes from FCP Cafe:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="notes-from-fcp-cafe">Notes from FCP Cafe:</h4>
 <ul>
 <li>Pro Video Formats 2.3 and FxPlug 4.2.9 were also released at the same time.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-10610">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-10610">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.10</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-10610">Final Cut Pro 10.6.10</h3>
 <p><strong>Released October 5, 2023</strong></p>
 <p><strong>Final Cut Pro 10.6.10</strong> includes the following fixes:</p>
 <ul>
@@ -1201,39 +1110,19 @@
 <li>Fixes an issue that could cause a Motion template with an applied Align To behavior to display an incorrect animation.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1069">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1069">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.9</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1069">Final Cut Pro 10.6.9</h3>
 <p><strong>Released September 19, 2023</strong></p>
-<doc-anchor-target id="notes-from-fcp-cafe-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes-from-fcp-cafe-1">#</doc-anchor-trigger>
-        <span>Notes from FCP Cafe:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="notes-from-fcp-cafe-1">Notes from FCP Cafe:</h4>
 <ul>
 <li>This <a href="https://fxfactory.com/news/finalcutpro-10.6.9-skip-the-update/" class="outbound" target="_blank"><span>release breaks the Analysis API used by plugins such as those by FxFactory</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</li>
 </ul>
-<doc-anchor-target id="new-features">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
-        <span>New Features:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="new-features">New Features:</h4>
 <ul>
 <li>Take advantage of the flexibility and dynamic range of log-encoded video shot on iPhone 15 Pro and iPhone 15 Pro Max.</li>
 <li>Use new third-party log profiles to enhance the look of footage shot on popular cameras from Fujifilm, DJI, and ARRI.</li>
 <li>Adds support for Cinematic video recorded with iPhone on iOS 17.</li>
 </ul>
-<doc-anchor-target id="improvements-and-bug-fixes">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements-and-bug-fixes">#</doc-anchor-trigger>
-        <span>Improvements and bug fixes:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="improvements-and-bug-fixes">Improvements and bug fixes:</h4>
 <ul>
 <li>Fixes an issue that could cause Motion templates to not respond to Opacity parameter adjustments.</li>
 <li>Fixes an issue that could cause duplicating a project to result in the original project opening in the timeline.</li>
@@ -1242,39 +1131,19 @@
 <li>Fixes an issue where a background render would sometimes not complete when stabilization or rolling shutter were selected in the inspector.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1068">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1068">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.8</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1068">Final Cut Pro 10.6.8</h3>
 <p><strong>Released August 1, 2023</strong></p>
 <ul>
 <li>Fixes an issue where video could freeze in the viewer.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1067">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1067">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.7</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1067">Final Cut Pro 10.6.7</h3>
 <p><strong>Released July 18, 2023</strong></p>
-<doc-anchor-target id="notes-from-fcp-cafe-2">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes-from-fcp-cafe-2">#</doc-anchor-trigger>
-        <span>Notes from FCP Cafe:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="notes-from-fcp-cafe-2">Notes from FCP Cafe:</h4>
 <ul>
 <li>This <a href="https://github.com/CommandPost/FCPCafe/issues/223">release is incredibly buggy, and should be avoided</a>.</li>
 </ul>
-<doc-anchor-target id="release-notes-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#release-notes-1">#</doc-anchor-trigger>
-        <span>Release Notes:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="release-notes-1">Release Notes:</h4>
 <ul>
 <li>Addresses an issue where audio effects would not be reset during playback.</li>
 <li>Fixes an issue where an Audio Units effect could have incorrect values when importing using FCPXML.</li>
@@ -1284,28 +1153,13 @@
 <li>Fixes an issue where the Control Range setting in the Color Adjustments effect would be incorrectly set to SDR when importing using FCPXML.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1066">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1066">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.6</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1066">Final Cut Pro 10.6.6</h3>
 <p><strong>Released May 23, 2023</strong></p>
-<doc-anchor-target id="notes-from-fcp-cafe-3">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes-from-fcp-cafe-3">#</doc-anchor-trigger>
-        <span>Notes from FCP Cafe:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="notes-from-fcp-cafe-3">Notes from FCP Cafe:</h4>
 <ul>
 <li>This <a href="https://coremelt.com/blogs/news/final-cut-pro-10-6-6-important-note-before-you-update" class="outbound" target="_blank"><span>release removes FxPlug2 and FxPlug3 support</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>. Only FxPlug4 is now supported, and older plugins will no longer work..</li>
 </ul>
-<doc-anchor-target id="new-features-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features-1">#</doc-anchor-trigger>
-        <span>New features:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="new-features-1">New features:</h4>
 <ul>
 <li>Import your project from Final Cut Pro for iPad to take advantage of blazing performance, advanced color correction tools, and more on your Mac.</li>
 <li>Use automatic color management to easily edit HDR and SDR clips in the same project, with intelligent tone mapping of video to match your color space.</li>
@@ -1326,12 +1180,7 @@
 <li>Fixes an issue where the progress bar would not update when opening or updating a large library.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1065">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1065">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.5</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1065">Final Cut Pro 10.6.5</h3>
 <p><strong>Released 24 October 2022</strong></p>
 <ul>
 <li>Supports faster exporting of H.264 or HEVC on Macs with Apple silicon.</li>
@@ -1340,23 +1189,13 @@
 <li>Fixes an issue where adding images from the Photos browser to a new project may cause additional media to be appended before the last clip.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1064">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1064">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1064">Final Cut Pro 10.6.4</h3>
 <p><strong>9 August 2022</strong></p>
 <ul>
 <li>Fixes an issue where video frames may be out of order during playback or export.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1063">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1063">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1063">Final Cut Pro 10.6.3</h3>
 <p><strong>Released 19 May 2022</strong></p>
 <ul>
 <li>Improves reliability when using drag and drop to replace a transition.</li>
@@ -1364,12 +1203,7 @@
 <li>Fixes an issue where custom sound effects don&#x27;t always appear in the Sound Effects browser.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1062">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1062">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1062">Final Cut Pro 10.6.2</h3>
 <p><strong>Released 12 April 2022</strong></p>
 <ul>
 <li>Quickly locate media that appears more than once in a project using highlighted clip ranges or the Timeline Index.</li>
@@ -1399,12 +1233,7 @@
 <li>Includes an alpha channel when exporting a PNG file from the timeline.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1061">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1061">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1061">Final Cut Pro 10.6.1</h3>
 <p><strong>Released 15 November 2021</strong></p>
 <ul>
 <li>Fixes an issue that could prevent successful import of FCPXML 1.9 and 1.10 files.</li>
@@ -1418,19 +1247,9 @@
 <li>Improves stability when dragging clip ranges to Keyword Collections.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-106">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-106">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.6</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-106">Final Cut Pro 10.6</h3>
 <p><strong>Released Monday, 18 October 2021</strong></p>
-<doc-anchor-target id="object-tracker">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#object-tracker">#</doc-anchor-trigger>
-        <span>Object Tracker</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="object-tracker">Object Tracker</h4>
 <ul>
 <li>Drag effects, titles or generators into the viewer to automatically detect, track and match the movement of faces or objects using machine learning.</li>
 <li>Manually add a tracker from the inspector, adjust its mask shape and choose between different tracking analysis types.</li>
@@ -1438,12 +1257,7 @@
 <li>Attach additional titles or generators to existing tracks using the tracker source drop-down in the viewer.</li>
 <li>Object tracking uses the Apple Neural Engine to accelerate video analysis on Mac computers with Apple silicon.</li>
 </ul>
-<doc-anchor-target id="cinematic-mode">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#cinematic-mode">#</doc-anchor-trigger>
-        <span>Cinematic Mode</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="cinematic-mode">Cinematic Mode</h4>
 <ul>
 <li>Edit videos recorded with iPhone 13 in Cinematic mode (requires macOS Monterey).</li>
 <li>Use Cinematic controls in the inspector to modify the intensity of the depth effect, and add keyframes to change the effect over time.</li>
@@ -1479,24 +1293,14 @@
 <li>Adds support for hiding FCPXML extension during export.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1054">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1054">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.5.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1054">Final Cut Pro 10.5.4</h3>
 <p><strong>Released Thursday, 8 July 2021</strong></p>
 <ul>
 <li>Improves stability when exporting with certain macOS Language &amp; Region preferences.</li>
 <li>Improves stability when playing H.264 or HEVC media.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1053">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1053">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.5.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1053">Final Cut Pro 10.5.3</h3>
 <p><strong>Released Thursday, 17 June 2021</strong></p>
 <ul>
 <li>Create and edit custom column views with the new column editor.</li>
@@ -1515,12 +1319,7 @@
 <li>Improves stability and performance when working with multicam clips that contain corrupt media.</li>
 <li>Fixes an issue in which audio waveforms would sometimes not update when using the Trim tool to perform a slip edit.</li>
 </ul>
-<doc-anchor-target id="final-cut-pro-1052">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1052">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.5.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1052">Final Cut Pro 10.5.2</h3>
 <p><strong>Released Thursday, 4 March 2021</strong></p>
 <ul>
 <li>Adds support for a new Universal RED plug-in enabling native RED RAW decoding and playback on both Apple silicon and Intel-based Mac computers.</li>
@@ -1532,24 +1331,14 @@
 <li>Improves stability when using AirPlay with Final Cut Pro on a Mac computer with Apple silicon.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1051">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1051">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.5.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1051">Final Cut Pro 10.5.1</h3>
 <p><strong>Released Monday, 14 December 2020</strong></p>
 <ul>
 <li>Adds an Export for YouTube and Facebook share option to create a file for uploading to those sites.</li>
 <li>Includes stability improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-105">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-105">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.5</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-105">Final Cut Pro 10.5</h3>
 <p><strong>Released Thursday, 12 November 2020</strong></p>
 <ul>
 <li>Improved performance and efficiency on Mac computers with Apple silicon.</li>
@@ -1573,12 +1362,7 @@
 <li>Includes built-in support for Avid DNxHR® and Avid DNxHD® decoding and playback.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-10410">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-10410">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.10</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-10410">Final Cut Pro 10.4.10</h3>
 <p><strong>Released 24 September 2020</strong></p>
 <ul>
 <li>Fixes an issue in which XAVC media from the Sony PXW-FX9 camera is not recognised.</li>
@@ -1590,43 +1374,23 @@
 <li>Fixes an issue in which sharing a Compound or Multicam clip from the timeline was disabled.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1049">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1049">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.9</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1049">Final Cut Pro 10.4.9</h3>
 <p><strong>Released 25 August 2020</strong></p>
-<doc-anchor-target id="improved-proxy-workflows">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#improved-proxy-workflows">#</doc-anchor-trigger>
-        <span>Improved proxy workflows</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="improved-proxy-workflows">Improved proxy workflows</h4>
 <ul>
 <li>Generate proxy media in custom frame sizes of 1/8, 1/4, 1/2 or full resolution.</li>
 <li>Choose to create proxy media in either ProRes Proxy or H.264.</li>
 <li>Choose to display original or optimised media if proxy media is not available for some clips in your project.</li>
 <li>Create a proxy-only copy of a library to reduce size for portability or performance.</li>
 </ul>
-<doc-anchor-target id="social-media-tools">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#social-media-tools">#</doc-anchor-trigger>
-        <span>Social media tools</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="social-media-tools">Social media tools</h4>
 <ul>
 <li>Automatically transform projects for square or vertical delivery with Smart Conform.</li>
 <li>Display media outside the Viewer boundary when adjusting scale, rotation and position using Transform Overscan.</li>
 <li>Add a Custom Overlay as an on-screen guide when placing text and graphics within a square or vertical frame.</li>
 <li>Use the new Duplicate Project As command in combination with Smart Conform to quickly create a social media version of your existing project.</li>
 </ul>
-<doc-anchor-target id="other-new-features">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#other-new-features">#</doc-anchor-trigger>
-        <span>Other new features</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="other-new-features">Other new features</h4>
 <ul>
 <li>Adjust ProRes RAW camera settings such as ISO, colour temperature and exposure offset using new controls in the inspector.</li>
 <li>Crossfade audio on adjacent clips in one step using a menu command or keyboard shortcut.</li>
@@ -1655,12 +1419,7 @@
 <li>Improves reliability when importing multicam camera angle metadata via XML.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1048">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1048">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.8</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1048">Final Cut Pro 10.4.8</h3>
 <p><strong>Released 10 December 2019</strong></p>
 <ul>
 <li>Prevents an issue that could lead to visual artefacts appearing on a Mac with a Nvidia graphics card that has the Reduce Transparency accessibility preference turned on.</li>
@@ -1673,12 +1432,7 @@
 <li>Improves reliability when importing and exporting CEA 608 captions.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1047">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1047">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.7</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1047">Final Cut Pro 10.4.7</h3>
 <p><strong>Released 7 October 2019</strong></p>
 <ul>
 <li>New Metal-based processing engine improves playback and accelerates graphics tasks, including rendering, compositing, real-time effects, exporting and more.</li>
@@ -1707,12 +1461,7 @@
 <li>Adds support for fragmented MP4 format in HTTP live streaming.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1046">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1046">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.6</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1046">Final Cut Pro 10.4.6</h3>
 <p><strong>Released 21 March 2019</strong></p>
 <ul>
 <li>Detects media files that may be incompatible with future versions of macOS after Mojave and converts them to a compatible format.</li>
@@ -1727,12 +1476,7 @@
 <li>Improves reliability when sharing video to YouTube.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1045">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1045">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.5</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1045">Final Cut Pro 10.4.5</h3>
 <p><strong>Released Thursday, 17 January 2019</strong></p>
 <ul>
 <li>Improves performance when generating waveforms for clips with no audio channels.</li>
@@ -1741,19 +1485,9 @@
 <li>Improves stability when switching tabs in the Timeline Index.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1044">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1044">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1044">Final Cut Pro 10.4.4</h3>
 <p><strong>Released 15 November 2018</strong></p>
-<doc-anchor-target id="workflow-extensions">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#workflow-extensions">#</doc-anchor-trigger>
-        <span>Workflow extensions</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="workflow-extensions">Workflow extensions</h4>
 <ul>
 <li>Extend the capabilities of Final Cut Pro with third-party extensions that open directly within the app interface.</li>
 <li>Drag and drop clips between the extension window, browser and timeline.</li>
@@ -1761,24 +1495,14 @@
 <li>Deep integration allows extensions to control timeline playback, navigation, clip markers and more.</li>
 <li>Workflow extensions include tools for collaboration (Frame.io), stock media (Shutterstock) and asset management (CatDV).</li>
 </ul>
-<doc-anchor-target id="batch-share">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#batch-share">#</doc-anchor-trigger>
-        <span>Batch share</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="batch-share">Batch share</h4>
 <ul>
 <li>Export and transcode multiple clips in the browser — with or without a camera lookup table (LUT) — for fast turnaround of dailies and other reviews.</li>
 <li>Select and export multiple projects.</li>
 <li>Combine batch sharing with bundles to encode multiple files to multiple formats in one step.</li>
 <li>Monitor export progress in the background tasks window.</li>
 </ul>
-<doc-anchor-target id="video-noise-reduction">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#video-noise-reduction">#</doc-anchor-trigger>
-        <span>Video noise reduction</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="video-noise-reduction">Video noise reduction</h4>
 <ul>
 <li>Apply the high-quality, drag-and-drop noise reduction effect to reduce grain and video noise.</li>
 <li>Use simple controls to quickly adjust the look and amount of noise reduction.</li>
@@ -1786,35 +1510,20 @@
 <li>The viewer shows the noise reduction effect when paused and disables the effect when skimming for optimal performance.</li>
 <li>Apply 360° noise reduction to 360° video clips while preserving a flawless seam.</li>
 </ul>
-<doc-anchor-target id="timecode-window">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#timecode-window">#</doc-anchor-trigger>
-        <span>Timecode window</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="timecode-window">Timecode window</h4>
 <ul>
 <li>View project and source timecode in one or more floating timecode windows.</li>
 <li>Resize the timecode window and drag any one to a second screen.</li>
 <li>Choose to display clip names and role names.</li>
 <li>Colour coding in the timecode window matches the colours of roles in the timeline.</li>
 </ul>
-<doc-anchor-target id="comparison-viewer">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#comparison-viewer">#</doc-anchor-trigger>
-        <span>Comparison Viewer</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="comparison-viewer">Comparison Viewer</h4>
 <ul>
 <li>Open the Comparison Viewer to reference other frames for consistent colour grading across your project.</li>
 <li>Quickly select the previous or next clip in the timeline as your reference frame.</li>
 <li>Save any image to the frame browser to reference it later in the Comparison Viewer.</li>
 </ul>
-<doc-anchor-target id="tiny-planet">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tiny-planet">#</doc-anchor-trigger>
-        <span>Tiny Planet</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="tiny-planet">Tiny Planet</h4>
 <ul>
 <li>Select the Tiny Planet mapping option when adding 360º video to a non-360° project to create interesting spherical looks.</li>
 <li>Use the roll and tilt parameters to wrap your tiny planet effect into an infinite cylinder.</li>
@@ -1822,12 +1531,7 @@
 <li>Animate the field of view to transition from a close up to a satellite view flying high above your footage.</li>
 <li>Give 360° titles and generators a powerfully warped look by applying the Tiny Planet mapping option.</li>
 </ul>
-<doc-anchor-target id="other-new-features-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#other-new-features-1">#</doc-anchor-trigger>
-        <span>Other new features</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="other-new-features-1">Other new features</h4>
 <ul>
 <li>View, edit and deliver closed captions in the SRT format, which is used by a wide range of websites, including Facebook.</li>
 <li>Choose to burn closed captions into your video to ensure they appear at all times during playback.</li>
@@ -1837,12 +1541,7 @@
 <li>Typing the first few letters of a font name jumps directly to the font in the list.</li>
 </ul>
 <p><strong>Final Cut Pro 10.4.4 also includes the following:</strong></p>
-<doc-anchor-target id="360-video">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#360-video">#</doc-anchor-trigger>
-        <span>360° video</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="360-video">360° video</h4>
 <ul>
 <li>360° clips added to equirectangular projects display correctly in auditions.</li>
 <li>Fixes an issue where clicking the delete keyframe button when adjusting orientation incorrectly added a keyframe.</li>
@@ -1852,12 +1551,7 @@
 <li>Dragging the orientation tool vertically in the Viewer using the on-screen controls works correctly.</li>
 <li>Adding equirectangular media to a connected storyline that contains 360° video media remains equirectangular.</li>
 </ul>
-<doc-anchor-target id="audio">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio">#</doc-anchor-trigger>
-        <span>Audio</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="audio">Audio</h4>
 <ul>
 <li>Volume control is adjustable for a selected, connected clip.</li>
 <li>Audio playback continues when resetting the peak indicators.</li>
@@ -1866,12 +1560,7 @@
 <li>Fixes an issue where disabling and re-enabling audio channels when previewing an audio effect in the effects browser caused audio to be inaudible.</li>
 <li>Fixes an issue where audio meters of third-party audio plug-ins became unresponsive when changing the order of audio effects in the Audio inspector.</li>
 </ul>
-<doc-anchor-target id="closed-captions">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#closed-captions">#</doc-anchor-trigger>
-        <span>Closed Captions</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="closed-captions">Closed Captions</h4>
 <ul>
 <li>Fixes an issue where disabling an invalid caption would hide other captions in the Viewer.</li>
 <li>Embedded captions in shared files now display as expected in QuickTime Player 7.</li>
@@ -1883,12 +1572,7 @@
 <li>Caption timing is honoured when copying and pasting captions between projects.</li>
 <li>Fixes an issue where Lane Headers unexpectedly move when selecting a caption and scrolling vertically.</li>
 </ul>
-<doc-anchor-target id="colour-correction">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#colour-correction">#</doc-anchor-trigger>
-        <span>Colour Correction</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="colour-correction">Colour Correction</h4>
 <ul>
 <li>Fixes an issue where the display order of LUTs after import were appearing alphabetically based on the content of folders.</li>
 <li>Colour Wheels accurately reflect the values set when using the colour picker to choose a colour.</li>
@@ -1898,39 +1582,19 @@
 <li>Fixes an issue where 10-bit HEVC rec.2020 HLG media in a Wide Gamut library would cause Final Cut Pro to quit unexpectedly.</li>
 <li>Fixes an issue when manually white-balancing a 50fps HDR clip in an HDR library and project would cause Final Cut Pro to quit unexpectedly.</li>
 </ul>
-<doc-anchor-target id="effects">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#effects">#</doc-anchor-trigger>
-        <span>Effects</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="effects">Effects</h4>
 <ul>
 <li>Option clicking an audio effects preset opens all controls for each individual effect in the preset.</li>
 </ul>
-<doc-anchor-target id="multicam">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#multicam">#</doc-anchor-trigger>
-        <span>Multicam</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="multicam">Multicam</h4>
 <ul>
 <li>Fixes an issue where colour correcting an angle in the angle editor would cause the playhead to move unexpectedly to the beginning of the timeline.</li>
 </ul>
-<doc-anchor-target id="roles">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#roles">#</doc-anchor-trigger>
-        <span>Roles</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="roles">Roles</h4>
 <ul>
 <li>Select All no longer selects secondary storylines and toggles selection of components based on role of clip in selection.</li>
 </ul>
-<doc-anchor-target id="timeline">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#timeline">#</doc-anchor-trigger>
-        <span>Timeline</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="timeline">Timeline</h4>
 <ul>
 <li>Selected connected clips now properly follow the pointer and get placed where positioned in a non-zero starting project timeline.</li>
 <li>Fixes an issue where an audio-only clip in a connected storyline plays video frames from the source clip that the audio is attached to.</li>
@@ -1939,31 +1603,16 @@
 <li>Double-clicking to add an effect adds it to the top clip at the playhead position.</li>
 <li>Join Clips and Join Captions combined into a single command in the Command Editor.</li>
 </ul>
-<doc-anchor-target id="titles">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#titles">#</doc-anchor-trigger>
-        <span>Titles</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="titles">Titles</h4>
 <ul>
 <li>Core Text engine ensures accurate display of Arabic letters, Indic vowel signs in Devanagari and Thai diacritics.</li>
 </ul>
-<doc-anchor-target id="xml">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#xml">#</doc-anchor-trigger>
-        <span>XML</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="xml">XML</h4>
 <ul>
 <li>Shape and Effect Mask values are properly transferred via XML.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1043">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1043">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1043">Final Cut Pro 10.4.3</h3>
 <ul>
 <li>Support for viewing and editing ProRes RAW files from DJI Inspire 2 drone with the DJI D-Log setting.</li>
 <li>Fixes an issue where some 25 fps-interlaced MXF files may display incorrectly.</li>
@@ -1974,12 +1623,7 @@
 <li>Deleting unused render files from a Compound clip in the browser works correctly.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1042">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1042">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1042">Final Cut Pro 10.4.2</h3>
 <ul>
 <li>Fixes an issue in which selecting multiple clips using the Shift key or marquee selection could inadvertently select other clips in the timeline.</li>
 <li>Fixes an issue in which XML imports may not preserve colour effect and colour board settings.</li>
@@ -1987,18 +1631,8 @@
 <li>Removes unnecessary settings that were included in XML 1.7 export.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1041">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1041">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4.1</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="closed-captions-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#closed-captions-1">#</doc-anchor-trigger>
-        <span>Closed Captions</span>
-    </h4>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1041">Final Cut Pro 10.4.1</h3>
+<h4 id="closed-captions-1">Closed Captions</h4>
 <p>Import caption files into a Final Cut Pro project to automatically create time-synced, connected captions in the timeline.
 See captions directly in the Viewer.
 Use the Inspector to adjust text, colour, on-screen location and timing.
@@ -2011,12 +1645,7 @@ Validation indicator instantly warns about common errors including caption overl
 Embed captions in an exported video file or create a separate caption sidecar file.
 Share captioned videos directly to YouTube and Vimeo.
 Support for CEA-608 and iTT closed-caption formats.</p>
-<doc-anchor-target id="prores-raw">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#prores-raw">#</doc-anchor-trigger>
-        <span>ProRes RAW</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="prores-raw">ProRes RAW</h4>
 <ul>
 <li>Support for ProRes RAW files lets you import, edit and grade using pristine RAW image data from the camera sensor.</li>
 <li>RAW image data provides ultimate flexibility when adjusting highlights and shadows — ideal for HDR workflows.</li>
@@ -2025,12 +1654,7 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>ProRes RAW preserves more of the original image data, making it an ideal format for archiving.</li>
 <li>Work natively with ProRes RAW or ProRes RAW HQ files created by ATOMOS recorders and DJI Inspire 2 drone.</li>
 </ul>
-<doc-anchor-target id="enhanced-export">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#enhanced-export">#</doc-anchor-trigger>
-        <span>Enhanced export</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="enhanced-export">Enhanced export</h4>
 <ul>
 <li>The new Roles tab in the share pane displays title, video and audio roles in a single, consolidated interface.</li>
 <li>Quickly view and choose roles to be included in exported video files.</li>
@@ -2038,12 +1662,7 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Embed closed captions in a video file or export a separate captions sidecar file in CEA-608 and iTT formats.</li>
 </ul>
 <p><strong>Final Cut Pro 10.4.1 also includes the following:</strong></p>
-<doc-anchor-target id="360-vr">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#360-vr">#</doc-anchor-trigger>
-        <span>360 VR</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="360-vr">360 VR</h4>
 <ul>
 <li>Changing 360° metadata from rectilinear to equirectangular displays the clip&#x27;s correct orientation.</li>
 <li>360° Viewer has a new keyboard shortcut to reset field of view: Control-Option-Command-Delete.</li>
@@ -2051,43 +1670,23 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>VR headset drop frame warning preferences are honoured with a VR headset connected.</li>
 <li>Stray pixels are no longer visible in high-contrast regions of a frame.</li>
 </ul>
-<doc-anchor-target id="accessibility">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessibility">#</doc-anchor-trigger>
-        <span>Accessibility</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="accessibility">Accessibility</h4>
 <ul>
 <li>It is easier to create custom project sizes when using accessibility applications, as accessibility width and height labels have been added for project properties.</li>
 </ul>
-<doc-anchor-target id="audio-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-1">#</doc-anchor-trigger>
-        <span>Audio</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="audio-1">Audio</h4>
 <ul>
 <li>Volume automation is retained after a retiming effect has been applied.</li>
 <li>Quicker display of custom audio effects interface from the audio Inspector tab when using Final Cut Pro in German.</li>
 <li>Correct parameters are displayed in the Inspector when viewing a duplicate audio effect.</li>
 </ul>
-<doc-anchor-target id="browser">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#browser">#</doc-anchor-trigger>
-        <span>Browser</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="browser">Browser</h4>
 <ul>
 <li>Text in the notes field of the Inspector is saved automatically.</li>
 <li>Text entered into the notes field in list view in the Browser displays in the Inspector.</li>
 <li>Project thumbnails load correctly when the system is connected to an HDMI display.</li>
 </ul>
-<doc-anchor-target id="colour-correction-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#colour-correction-1">#</doc-anchor-trigger>
-        <span>Colour Correction</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="colour-correction-1">Colour Correction</h4>
 <ul>
 <li>Colour wheel sliders retain values at 100 IRE for white and 0 IRE for black, with the ability to move above and below using colour correction controls.</li>
 <li>Colour board exposure parameters are consistent for Rec. 2020 PQ projects.</li>
@@ -2095,12 +1694,7 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Custom white balance values are pasted correctly in Rec. 2020 HDR libraries.</li>
 <li>View Masks selection displays the mask in the Viewer before colour grading parameters are changed.</li>
 </ul>
-<doc-anchor-target id="effects-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#effects-1">#</doc-anchor-trigger>
-        <span>Effects</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="effects-1">Effects</h4>
 <ul>
 <li>Camera LUT is applied correctly to deinterlaced media.</li>
 <li>Fixes an issue in which the playhead jumps to a transition when adjusting the Ken Burns effect.</li>
@@ -2109,12 +1703,7 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Undo works correctly after a Luma Keyer effect has been applied.</li>
 <li>Fixes an issue where a blade edit could reset an effect tick box.</li>
 </ul>
-<doc-anchor-target id="formats">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#formats">#</doc-anchor-trigger>
-        <span>Formats</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="formats">Formats</h4>
 <ul>
 <li>MXF Item Signal Standard is set to correct values for AVC Intra, DVCPRO HD and Uncompressed HD.</li>
 <li>Fixes an issue where spanned Canon C300 clips are imported as multiple clips.</li>
@@ -2127,12 +1716,7 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Failures while Sharing with AVCHD media now displays the corrupt file name in the error dialogue for easier troubleshooting.</li>
 <li>Fixes an issue where, with multiple camera volumes mounted in the Import window, skimming in Filmstrip view displayed the incorrect clip.</li>
 </ul>
-<doc-anchor-target id="general">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#general">#</doc-anchor-trigger>
-        <span>General</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="general">General</h4>
 <ul>
 <li>Changing media storage locations from one location to another and then back again on NFS storage updates the media links correctly.</li>
 <li>After typing text into an Inspector metadata field, entering text into a second text field works correctly.</li>
@@ -2140,53 +1724,28 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Screen recordings created using QuickTime Player in French or Spanish apply retiming effects correctly when imported into Final Cut Pro.</li>
 <li>Find People and Create Smart Collections After Analysis works correctly.</li>
 <li>Fixes an issue where PSDs with an alpha from Pixelmator appeared cropped in the Viewer.</li>
-<li><doc-anchor-target id="multicam-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#multicam-1">#</doc-anchor-trigger>
-        <span>Multicam</span>
-    </h4>
-</doc-anchor-target>
+<li><h4 id="multicam-1">Multicam</h4>
 </li>
 <li>Fixes an issue where switching between video scopes and the Angle Viewer or the 360° Viewer caused the Angle Viewer to display incorrectly.</li>
 <li>Fixes an issue where spatial conform causes Multicam clip angles to display incorrectly in the Angle Viewer.</li>
 </ul>
-<doc-anchor-target id="optical-flow">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#optical-flow">#</doc-anchor-trigger>
-        <span>Optical Flow</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="optical-flow">Optical Flow</h4>
 <ul>
 <li>Last frame of 100% reversed clip with optical flow retiming renders correctly.</li>
 <li>Optical flow retiming renders correctly on clips with audio that is longer than video.</li>
 <li>Reversed clips with optical flow applied now render in the timeline without requiring analysis on the entire source clip.</li>
 </ul>
-<doc-anchor-target id="rendering">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rendering">#</doc-anchor-trigger>
-        <span>Rendering</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="rendering">Rendering</h4>
 <ul>
 <li>Render bars appear correctly on 29.97i (60 field) clip in a 30p project.</li>
 <li>Background rendering works correctly on 29.97i (60 field) clip in a 30p project.</li>
 </ul>
-<doc-anchor-target id="share">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#share">#</doc-anchor-trigger>
-        <span>Share</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="share">Share</h4>
 <ul>
 <li>29.97i (60 field) clips in a 30p project export correctly.</li>
 <li>YouTube “Visit” and “Tell a Friend” buttons open video URL correctly.</li>
 </ul>
-<doc-anchor-target id="stability-and-reliability">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#stability-and-reliability">#</doc-anchor-trigger>
-        <span>Stability and reliability</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="stability-and-reliability">Stability and reliability</h4>
 <ul>
 <li>Fixes an issue in which resetting a gradient control could cause Final Cut Pro to quit unexpectedly.</li>
 <li>Fixes an issue in which quickly switching back and forth between View &gt; Layouts and then selecting a colour picker could cause Final Cut Pro to quit unexpectedly.</li>
@@ -2197,48 +1756,23 @@ Support for CEA-608 and iTT closed-caption formats.</p>
 <li>Improves stability when inserting a SxS card into a Sony SxS USB card reader.</li>
 <li>Fixes an occasional hang after adding a title, relaunching Final Cut Pro and then modifying parameters.</li>
 </ul>
-<doc-anchor-target id="text">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#text">#</doc-anchor-trigger>
-        <span>Text</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="text">Text</h4>
 <ul>
 <li>On-screen controls for text in the Viewer are more responsive and properly sync with the Inspector.</li>
 </ul>
-<doc-anchor-target id="timeline-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#timeline-1">#</doc-anchor-trigger>
-        <span>Timeline</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="timeline-1">Timeline</h4>
 <ul>
 <li>Timecode display no longer skips timecode or frames during processor-intensive tasks.</li>
 <li>Rename Clip in the timeline applies to all selected clips.</li>
 </ul>
-<doc-anchor-target id="xml-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#xml-1">#</doc-anchor-trigger>
-        <span>XML</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="xml-1">XML</h4>
 <ul>
 <li>Colour Balance effect now properly round trips via XML in HDR Libraries.</li>
 <li>Final Cut Pro no longer considers the part of the library name after a full stop &quot;.&quot; specified as the library location import option in FCPXML as a file extension.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-104">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-104">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.4</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="360-vr-editing">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#360-vr-editing">#</doc-anchor-trigger>
-        <span>360 VR editing</span>
-    </h4>
-</doc-anchor-target>
+<h3 id="final-cut-pro-104">Final Cut Pro 10.4</h3>
+<h4 id="360-vr-editing">360 VR editing</h4>
 <p>Import and edit 360° equirectangular video in a wide range of formats and frame sizes.
 Output 360° video to a connected VR headset (Requires compatible VR headset, macOS High Sierra or later, and SteamVR. Video output to VR headset requires a Mac computer with discrete graphics running macOS High Sierra or later. 27-inch iMac with Radeon Pro 580 graphics recommended).
 Open the 360° viewer to simultaneously monitor headset and equirectangular views while editing.
@@ -2250,12 +1784,7 @@ Use the Horizon overlay to easily change the orientation of 360° video directly
 Edit 360° video into a non-360° project and animate the pan, tilt and zoom.
 Place any graphic, still or video into a 360° project, then reposition and resize to fit perfectly into the 360° scene.
 Support for monoscopic and stereoscopic 360° video.</p>
-<doc-anchor-target id="advanced-colour-grading">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#advanced-colour-grading">#</doc-anchor-trigger>
-        <span>Advanced colour grading</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="advanced-colour-grading">Advanced colour grading</h4>
 <p>Dedicated colour tab in the inspector provides one location for all colour controls.
 Powerful new colour wheels improve upon traditional wheels with integrated sliders to adjust hue, saturation and brightness.
 Colour curves enable ultra-fine adjustments using multiple control points to change colour and contrast.
@@ -2266,23 +1795,13 @@ Apply custom LUTs from popular colour grading apps and sites.
 Adjust colour corrections over time with precise keyframe controls.
 Speed through colour correction using new keyboard shortcuts for colour adjustments and role-based timeline navigation.
 Colour presets are now located in the effects browser for skimmable preview and fast search.</p>
-<doc-anchor-target id="high-dynamic-range">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#high-dynamic-range">#</doc-anchor-trigger>
-        <span>High Dynamic Range</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="high-dynamic-range">High Dynamic Range</h4>
 <p>Import, grade and deliver High Dynamic Range (HDR) video as Rec. 2020 HLG or Rec. 2020 PQ for HDR10.
 Output video to third-party HDR monitors using third-party I/O devices.
 Built-in waveform monitor indicates HDR brightness levels up to 10,000 nits.
 HDR Tools effect lets you easily tone map HDR to Standard Dynamic Range (SDR) output as well as convert between PQ and HLG formats.
 Option to view HDR as raw values when working without an HDR monitor.</p>
-<doc-anchor-target id="additional-features">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#additional-features">#</doc-anchor-trigger>
-        <span>Additional features</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="additional-features">Additional features</h4>
 <p>Import your iMovie for iOS project directly into Final Cut Pro for advanced editing, audio work and finishing.
 Import, playback and editing of High Efficiency Video Coding (HEVC, also known as H.265) video clips and High Efficiency Image Format (HEIF) photos from Apple devices (HEVC and HEIF support requires macOS High Sierra or later).
 Send to Compressor to export video projects in the HEVC format.
@@ -2291,12 +1810,7 @@ Support for Canon Cinema RAW Light format with additional software from Canon.
 Faster Optical Flow analysis using Metal 2.
 Support for NFS-based libraries and media.
 XML 1.7 with support for new colour grading controls, 360 VR effects and HDR.</p>
-<doc-anchor-target id="issues-addressed-in-final-cut-pro-104">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#issues-addressed-in-final-cut-pro-104">#</doc-anchor-trigger>
-        <span>Issues addressed in Final Cut Pro 10.4:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="issues-addressed-in-final-cut-pro-104">Issues addressed in Final Cut Pro 10.4:</h4>
 <ul>
 <li>Support for importing and exporting WAV files greater than 4GB as RF64 when using macOS High Sierra 10.13.</li>
 <li>Fixes a stability issue that could occur when using Final Cut Pro on macOS High Sierra with a laptop in closed-display mode and attached to an external monitor.</li>
@@ -2313,24 +1827,14 @@ XML 1.7 with support for new colour grading controls, 360 VR effects and HDR.</p
 <li>Press Ctrl-Tab to cycle through tabs in the Inspector when the Inspector is selected.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1034">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1034">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.3.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1034">Final Cut Pro 10.3.4</h3>
 <ul>
 <li>Resolves a stability issue when using keyboard shortcuts to trim in Secondary Storylines.</li>
 <li>Fixes an issue in which certain editing operations could create an extra audio fade-in.</li>
 <li>Fixes an issue in which the Share dialogue could incorrectly display a codec warning.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1033">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1033">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.3.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1033">Final Cut Pro 10.3.3</h3>
 <ul>
 <li>Ability to expand the width of the Inspector to view and adjust effect parameters.</li>
 <li>Fixes issues with updating older libraries.</li>
@@ -2346,12 +1850,7 @@ XML 1.7 with support for new colour grading controls, 360 VR effects and HDR.</p
 <li>Enhanced DVD User dialogue messages with embedded links to documentation.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1032">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1032">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.3.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1032">Final Cut Pro 10.3.2</h3>
 <ul>
 <li>Ability to add custom folders of audio files to the Sound Effects browser.</li>
 <li>Using ripple delete on audio-only clips no longer disables the selected range.</li>
@@ -2364,42 +1863,22 @@ XML 1.7 with support for new colour grading controls, 360 VR effects and HDR.</p
 <li>Fixes an issue that could prevent burning Final Cut Pro projects to DVD via Apple USB SuperDrive.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1031">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1031">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.3.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1031">Final Cut Pro 10.3.1</h3>
 <ul>
 <li>Fixes an issue with cropped images in the Viewer when the Language &amp; Region System Preference is set to Spanish.</li>
 <li>Fixes issues with updating libraries.</li>
 <li>Fixes an issue when using Paste Attributes to copy colour correction between clips.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-103">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-103">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.3</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="new-interface">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#new-interface">#</doc-anchor-trigger>
-        <span>New Interface</span>
-    </h4>
-</doc-anchor-target>
+<h3 id="final-cut-pro-103">Final Cut Pro 10.3</h3>
+<h4 id="new-interface">New Interface</h4>
 <ul>
 <li>Redesigned dark interface puts the focus on your video.</li>
 <li>Configure window layouts into custom workspaces for tasks such as organising and colour grading.</li>
 <li>Fill a second display with the Timeline or hide the Timeline completely.</li>
 <li>Expand the Inspector to full-screen height.</li>
 </ul>
-<doc-anchor-target id="magnetic-timeline-2">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#magnetic-timeline-2">#</doc-anchor-trigger>
-        <span>Magnetic Timeline 2</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="magnetic-timeline-2">Magnetic Timeline 2</h4>
 <ul>
 <li>Colour coding of clips based on roles such as dialogue, music and effects lets you understand your project at a glance.</li>
 <li>Create, assign and customise the colours of roles to identify different types of audio and video clips.</li>
@@ -2411,44 +1890,24 @@ XML 1.7 with support for new colour grading controls, 360 VR effects and HDR.</p
 <li>Custom Roles assignment can be combined with iXML metadata during import.</li>
 <li>Create and manage a unique set of roles for each Final Cut Pro library.</li>
 </ul>
-<doc-anchor-target id="wide-colour">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#wide-colour">#</doc-anchor-trigger>
-        <span>Wide Colour</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="wide-colour">Wide Colour</h4>
 <p>Images are now viewable in wide colour on supported Mac computers and external displays.
 Import, edit and deliver video in standard Rec. 601 and Rec. 709 colour spaces, or in wide Rec. 2020 colour space.
 Configure colour spaces for both libraries and projects.
 Log footage from ARRI, Blackmagic Design, Canon, Panasonic and Sony cameras, as well as RED RAW footage, can be manipulated in real time while preserving wide colour.
 Range check overlay in the viewer highlights areas out of the standard RGB range.
 Video scopes display wide colour in real time.</p>
-<doc-anchor-target id="support-for-the-touch-bar-on-macbook-pro">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#support-for-the-touch-bar-on-macbook-pro">#</doc-anchor-trigger>
-        <span>Support for the Touch Bar on MacBook Pro</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="support-for-the-touch-bar-on-macbook-pro">Support for the Touch Bar on MacBook Pro</h4>
 <p>Tap to execute common functions such as volume control, fade in and out, and media import.
 Easily access advanced editing commands, including Override Clip Connections, Trim to Start and Trim to End.
 View your entire project at a glance and navigate with touch in the timeline overview.</p>
-<doc-anchor-target id="more-video-formats">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#more-video-formats">#</doc-anchor-trigger>
-        <span>More Video Formats</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="more-video-formats">More Video Formats</h4>
 <p>MXF-wrapped Apple ProRes provides a flexible new format for broadcast delivery.
 MXF master file export uses audio roles to configure industry-standard channel layouts.
 Support for Canon Log2/Cinema Gamut and Panasonic V-Log.
 Support for Sony XAVC-L at 4K for the Sony PXW-FS7 and PXW-X70 cameras.
 Export AVC-Intra files</p>
-<doc-anchor-target id="additional-features-1">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#additional-features-1">#</doc-anchor-trigger>
-        <span>Additional Features</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="additional-features-1">Additional Features</h4>
 <ul>
 <li>Flow transition seamlessly merges jump cuts to remove pauses or mistakes in on-camera interviews.</li>
 <li>Remove Effects and Remove Attributes commands let you delete specific effects from clips.</li>
@@ -2496,12 +1955,7 @@ Export AVC-Intra files</p>
 <li>Timecode and audio meters are now displayed in the Event Viewer.</li>
 <li>An arrow cursor has been added as a new option for the Shapes generator.</li>
 </ul>
-<doc-anchor-target id="issues-addressed-in-final-cut-pro-103">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#issues-addressed-in-final-cut-pro-103">#</doc-anchor-trigger>
-        <span>Issues addressed in Final Cut Pro 10.3:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="issues-addressed-in-final-cut-pro-103">Issues addressed in Final Cut Pro 10.3:</h4>
 <ul>
 <li>Optical Flow on retimed clips with an alpha channel no longer causes transparent areas to become briefly opaque.</li>
 <li>Resolves an issue in which lines are displayed across the timecode window on macOS Sierra.</li>
@@ -2531,12 +1985,7 @@ Export AVC-Intra files</p>
 <li>Fixes an issue where the Basic Lower Third title could revert back to the original type style and not retain user changes after relaunching Final Cut Pro.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1023">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1023">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.2.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1023">Final Cut Pro 10.2.3</h3>
 <ul>
 <li>Customisable Default Effect lets you choose both a video and audio effect that is assigned to a keyboard shortcut.</li>
 <li>4K export preset to create video files for Apple devices.</li>
@@ -2553,12 +2002,7 @@ Export AVC-Intra files</p>
 <li>Adds iPhone 6s, iPhone 6s Plus, iPad Pro and Apple TV HD to the Apple Devices compatibility list in the Share window.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1022">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1022">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.2.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1022">Final Cut Pro 10.2.2</h3>
 <ul>
 <li>Native support for Sony XAVC-L and Panasonic AVC-Intra 4:4:4 up to 4K resolution.</li>
 <li>Import Canon XF-AVC 8-bit video files with Canon plug-in.</li>
@@ -2572,30 +2016,15 @@ Export AVC-Intra files</p>
 <li>Addresses issues with timing on certain animated effects.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1021">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1021">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.2.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1021">Final Cut Pro 10.2.1</h3>
 <ul>
 <li>Restores support for Panasonic AVCCAM video at 25p and 30p.</li>
 <li>Improves accuracy when dragging to select a range in the Timeline.</li>
 <li>Fixes an issue that may cause Final Cut Pro to quit on launch.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-102">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-102">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.2</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="introducing-3d-titles">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#introducing-3d-titles">#</doc-anchor-trigger>
-        <span>Introducing 3D titles:</span>
-    </h4>
-</doc-anchor-target>
+<h3 id="final-cut-pro-102">Final Cut Pro 10.2</h3>
+<h4 id="introducing-3d-titles">Introducing 3D titles:</h4>
 <ul>
 <li>Beautifully animated and easily customisable 3D text.</li>
 <li>Simple templates to get started quickly.</li>
@@ -2606,12 +2035,7 @@ Export AVC-Intra files</p>
 <li>Instantly convert 2D titles to 3D.</li>
 <li>Open any title in Motion to add multiple lights, cameras and tracking.</li>
 </ul>
-<doc-anchor-target id="advanced-effects">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#advanced-effects">#</doc-anchor-trigger>
-        <span>Advanced effects:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="advanced-effects">Advanced effects:</h4>
 <ul>
 <li>Display up to four video scopes simultaneously.</li>
 <li>Apply super ellipse Shape Mask to any clip.</li>
@@ -2625,12 +2049,7 @@ Export AVC-Intra files</p>
 <li>Improved optical flow for beautiful slow motion on a wider range of content.</li>
 <li>Better performance of FxPlug plug-ins and built-in effects that use multiple frames such as Visual Echo and Trails.</li>
 </ul>
-<doc-anchor-target id="camera-formats">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#camera-formats">#</doc-anchor-trigger>
-        <span>Camera formats:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="camera-formats">Camera formats:</h4>
 <ul>
 <li>Support for Panasonic AVC-Ultra codec family.</li>
 <li>Support for Sony XAVC S format.</li>
@@ -2639,12 +2058,7 @@ Export AVC-Intra files</p>
 <li>GPU-accelerated RED RAW processing with support for dual GPUs.</li>
 <li>Support for RED RAW anamorphic formats.</li>
 </ul>
-<doc-anchor-target id="additional-features-2">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#additional-features-2">#</doc-anchor-trigger>
-        <span>Additional features:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="additional-features-2">Additional features:</h4>
 <ul>
 <li>You can now use Smart Collections at the event and library level.</li>
 <li>Import window consolidates all options into a single sidebar.</li>
@@ -2652,12 +2066,7 @@ Export AVC-Intra files</p>
 <li>CABAC entropy mode for multi-pass encoding.</li>
 <li>XML 1.5 for third-party interchange. For legacy third-party applications, XML 1.4 continues to be supported.</li>
 </ul>
-<doc-anchor-target id="final-cut-pro-102-also-includes-the-following">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-102-also-includes-the-following">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.2 also includes the following:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="final-cut-pro-102-also-includes-the-following">Final Cut Pro 10.2 also includes the following:</h4>
 <ul>
 <li>Faster drawing of audio waveforms, which improves performance especially when editing over a network.</li>
 <li>Transform controls work correctly with photos in a secondary storyline.</li>
@@ -2671,12 +2080,7 @@ Export AVC-Intra files</p>
 <li>MXF-wrapped AVC-Intra and Uncompressed files export faster.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1014">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1014">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.1.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1014">Final Cut Pro 10.1.4</h3>
 <ul>
 <li>Native MXF import, edit and export with the Pro Video Formats 2.0 software update.</li>
 <li>Option to export AVC-Intra MXF files.</li>
@@ -2687,12 +2091,7 @@ Export AVC-Intra files</p>
 <li>Stabilisation and Rolling Shutter reduction works correctly with 240 fps video.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1013">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1013">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.1.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1013">Final Cut Pro 10.1.3</h3>
 <ul>
 <li>Fixes reliability issues when burning a Blu-ray Disc or creating a Blu-ray disk image.</li>
 <li>Colour corrections you paste between clips are retained during Share.</li>
@@ -2702,12 +2101,7 @@ Export AVC-Intra files</p>
 <li>Improves stability when skimming growing files in the Browser.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1012">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1012">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.1.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1012">Final Cut Pro 10.1.2</h3>
 <ul>
 <li>Optimised, proxy and rendered media can be stored at any location outside the library.</li>
 <li>View and set storage locations for each of your libraries using the Library Properties inspector.</li>
@@ -2732,12 +2126,7 @@ Export AVC-Intra files</p>
 <li>Linear and smooth motion interpolation between keyframes applies to both time and distance.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1011">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1011">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.1.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1011">Final Cut Pro 10.1.1</h3>
 <ul>
 <li>Preserves media files if an external drive or network is disconnected while consolidating a library.</li>
 <li>Resolves an issue with loading audio content in the Music and Sound Browser.</li>
@@ -2746,12 +2135,7 @@ Export AVC-Intra files</p>
 <li>Improves Timeline responsiveness with very large projects.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-101">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-101">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-101">Final Cut Pro 10.1</h3>
 <ul>
 <li>Optimised playback and rendering using dual GPUs in the new Mac Pro.</li>
 <li>Video monitoring up to 4K via Thunderbolt 2 and HDMI on selected Mac computers.</li>
@@ -2804,24 +2188,14 @@ Export AVC-Intra files</p>
 <li>Transform correctly maintains linear motion on all keyframes.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1009">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1009">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.9</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1009">Final Cut Pro 10.0.9</h3>
 <ul>
 <li>Addresses issues resulting in green artefacts when using Sony XAVC media.</li>
 <li>Fixes several issues related to interlaced media and retimed segments, which could cause exports to fail.</li>
 <li>Includes stability improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1008">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1008">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.8</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1008">Final Cut Pro 10.0.8</h3>
 <ul>
 <li>Support for Sony XAVC codec up to 4K resolution.</li>
 <li>Option to display ProRes Log C files from ARRI ALEXA cameras with standard Rec. 709 colour and contrast levels.</li>
@@ -2836,12 +2210,7 @@ Export AVC-Intra files</p>
 <li>Fixes an issue where the Play Around function did not work properly on certain clips when viewed through external video devices.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1007">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1007">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.7</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1007">Final Cut Pro 10.0.7</h3>
 <ul>
 <li>The Letterbox effect Offset slider is restored.</li>
 <li>Fixes an issue that could occur when creating a single-layer DVD.</li>
@@ -2853,12 +2222,7 @@ Export AVC-Intra files</p>
 <li>Fixes an issue in which an incorrect frame size is used with filters on two adjacent clips with different pixel aspect ratio.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1006">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1006">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.6</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1006">Final Cut Pro 10.0.6</h3>
 <ul>
 <li>Expand multichannel audio files directly in the timeline for precise editing of individual audio channels.</li>
 <li>Unified import window provides single interface for transferring media from file-based cameras, networks and folders of files. Choose between Filmstrip and List views for browsing media, and save frequently used locations to the Favourites sidebar for fast access.</li>
@@ -2895,12 +2259,7 @@ Export AVC-Intra files</p>
 <li>Ability to import SDII audio files.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1005">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1005">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.5</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1005">Final Cut Pro 10.0.5</h3>
 <ul>
 <li>Final Cut Pro 10.0.5 improves overall stability and is enhanced for the MacBook Pro (Retina, Mid 2012).</li>
 <li>Fixes an issue in which changes were not properly saved when working off an SAN.</li>
@@ -2910,12 +2269,7 @@ Export AVC-Intra files</p>
 <li>Correctly marks in and out points for spanned clips imported using the Sony Camera Import Plug-in PDZK-LT2.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1004">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1004">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.4</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1004">Final Cut Pro 10.0.4</h3>
 <ul>
 <li>Improves image quality and responsiveness of broadcast monitoring with compatible third-party PCIe and Thunderbolt I/O devices.</li>
 <li>Improves performance of multicam syncing and editing.</li>
@@ -2928,12 +2282,7 @@ Export AVC-Intra files</p>
 <li>Fixes an issue that caused some titles to be rendered again after each application launch.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1003">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1003">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1003">Final Cut Pro 10.0.3</h3>
 <ul>
 <li>Multicam editing with automatic sync and support for mixed formats, mixed frame rates and up to 64 camera angles.</li>
 <li>Advanced chroma keying with controls for colour sampling and edge quality.</li>
@@ -2956,24 +2305,14 @@ Export AVC-Intra files</p>
 <li>Fixes an issue in which constant speed retiming was not properly applied when using the Paste Effects command.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1002">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1002">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1002">Final Cut Pro 10.0.2</h3>
 <ul>
 <li>Fixes an issue in which a title may revert to the default font after restarting Final Cut Pro.</li>
 <li>Resolves an issue that could cause files recorded with certain third-party mobile devices to play back incorrectly.</li>
 <li>Addresses a stability issue caused by changing the start time on a Compound Clip.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-1001">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-1001">#</doc-anchor-trigger>
-        <span>Final Cut Pro 10.0.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-1001">Final Cut Pro 10.0.1</h3>
 <ul>
 <li>Export audio and video stems as a single multitrack QuickTime movie or as separate files using Roles.</li>
 <li>Import and export XML to support third-party workflows.</li>
@@ -2995,18 +2334,8 @@ Export AVC-Intra files</p>
 <li>Improves the performance and reliability of automatic saving.</li>
 </ul>
 <hr>
-<doc-anchor-target id="ipad">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ipad">#</doc-anchor-trigger>
-        <span>iPad</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="final-cut-pro-for-ipad-30">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-for-ipad-30">#</doc-anchor-trigger>
-        <span>Final Cut Pro for iPad 3.0</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="ipad">iPad</h2>
+<h3 id="final-cut-pro-for-ipad-30">Final Cut Pro for iPad 3.0</h3>
 <p><strong>Released January 28, 2026</strong></p>
 <p><strong>Final Cut Pro for iPad v3.0</strong> includes the following <a href="https://support.apple.com/en-us/102731" class="outbound" target="_blank"><span>features and enhancements</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>:</p>
 <ul>
@@ -3042,12 +2371,7 @@ Export AVC-Intra files</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-for-ipad-23">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-for-ipad-23">#</doc-anchor-trigger>
-        <span>Final Cut Pro for iPad 2.3</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-for-ipad-23">Final Cut Pro for iPad 2.3</h3>
 <p><strong>Final Cut Pro for iPad v2.3</strong> includes the following features and enhancements:</p>
 <ul>
 <li>Unlock even more controls for ProRes RAW video shot on iPhone, so you can adjust exposure, color temperature, tint, and demosaicing. (ProRes RAW capture requires supported iPhone models.)</li>
@@ -3058,23 +2382,13 @@ Export AVC-Intra files</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-for-ipad-221">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-for-ipad-221">#</doc-anchor-trigger>
-        <span>Final Cut Pro for iPad 2.2.1</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-for-ipad-221">Final Cut Pro for iPad 2.2.1</h3>
 <p><strong>Released May 8, 2025</strong></p>
 <ul>
 <li>Fixes an issue that caused user-installed fonts to not appear.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-for-ipad-22">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-for-ipad-22">#</doc-anchor-trigger>
-        <span>Final Cut Pro for iPad 2.2</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-for-ipad-22">Final Cut Pro for iPad 2.2</h3>
 <p><strong>Released March 27, 2025</strong></p>
 <p><strong>Final Cut Pro for iPad 2.2</strong> includes the following features and enhancements:</p>
 <ul>
@@ -3115,23 +2429,13 @@ Export AVC-Intra files</p>
 <li>Import from Image Playground: Shift-Option-P</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-211-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-211-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 2.1.1 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-211-for-ipad">Final Cut Pro 2.1.1 (for iPad)</h3>
 <p><strong>Released February 3, 2025</strong></p>
 <ul>
 <li>Fixes an issue that caused Final Cut Pro for iPad to display a black screen and close unexpectedly.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-21-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-21-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 2.1 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-21-for-ipad">Final Cut Pro 2.1 (for iPad)</h3>
 <p><strong>Released November 13, 2024</strong></p>
 <p><strong>Final Cut Pro for iPad 2.1</strong> includes the following features and enhancements:</p>
 <ul>
@@ -3179,12 +2483,7 @@ Export AVC-Intra files</p>
 <li>Zoom Out (Browser): Command-Minus Sign (-)</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-20-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-20-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 2.0 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-20-for-ipad">Final Cut Pro 2.0 (for iPad)</h3>
 <p><strong>Released June 20, 2024</strong></p>
 <p><strong>Final Cut Pro for iPad 2.0</strong> includes the following features and enhancements:</p>
 <ul>
@@ -3217,12 +2516,7 @@ Export AVC-Intra files</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-13-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-13-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.3 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-13-for-ipad">Final Cut Pro 1.3 (for iPad)</h3>
 <p><strong>Released November 30, 2023</strong></p>
 <p><strong>Final Cut Pro for iPad 1.3</strong> includes the following features and enhancements:</p>
 <ul>
@@ -3258,24 +2552,14 @@ Export AVC-Intra files</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-121-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-121-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.2.1 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-121-for-ipad">Final Cut Pro 1.2.1 (for iPad)</h3>
 <p><strong>Released October 5, 2023</strong></p>
 <p><strong>Final Cut Pro for iPad 1.2.1</strong> includes the following fixes:</p>
 <ul>
 <li>Fixes an issue that caused some titles and transitions to have incorrect animations.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-12-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-12-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.2 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-12-for-ipad">Final Cut Pro 1.2 (for iPad)</h3>
 <p><strong>Released September 19, 2023</strong></p>
 <p><strong>Final Cut Pro for iPad 1.2</strong> includes the following enhancements:</p>
 <ul>
@@ -3313,12 +2597,7 @@ Export AVC-Intra files</p>
 <li>Includes stability and performance improvements.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-11-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-11-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.1 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-11-for-ipad">Final Cut Pro 1.1 (for iPad)</h3>
 <p><strong>Released July 18, 2023</strong></p>
 <p><strong>Build:</strong> 451.1.61</p>
 <p>Final Cut Pro for iPad 1.1 includes the following bug fixes and enhancements:</p>
@@ -3347,42 +2626,22 @@ Export AVC-Intra files</p>
 <li>Fixes an issue where the Keywords window would open offscreen with the timeline minimized.</li>
 <li>Resolves an issue where disabled multicam audio angles would appear in the audio component list in the inspector.</li>
 </ul>
-<doc-anchor-target id="notes-from-fcp-cafe-4">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes-from-fcp-cafe-4">#</doc-anchor-trigger>
-        <span>Notes from FCP Cafe:</span>
-    </h4>
-</doc-anchor-target>
+<h4 id="notes-from-fcp-cafe-4">Notes from FCP Cafe:</h4>
 <ul>
 <li>Final Cut Pro 10.6.7 on Mac uses a newer Library format than Final Cut Pro 1.1 on iPad. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using Final Cut Pro 10.6.6.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-101-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-101-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.0.1 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-101-for-ipad">Final Cut Pro 1.0.1 (for iPad)</h3>
 <p><strong>Released June 1, 2023</strong></p>
 <ul>
 <li>Fixes an issue where the validation of third-party Audio Unit Extensions prevented Final Cut Pro for iPad from opening.</li>
 </ul>
 <hr>
-<doc-anchor-target id="final-cut-pro-100-for-ipad">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#final-cut-pro-100-for-ipad">#</doc-anchor-trigger>
-        <span>Final Cut Pro 1.0.0 (for iPad)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="final-cut-pro-100-for-ipad">Final Cut Pro 1.0.0 (for iPad)</h3>
 <p>This is the first release of Final Cut Pro for iPad!</p>
 <!-- RETYPE_BACKLINKS_PLACEHOLDER -->
 <hr>
-<doc-anchor-target id="discuss-this-page">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#discuss-this-page">#</doc-anchor-trigger>
-        <span>Discuss this page</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="discuss-this-page">Discuss this page</h2>
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/FCPCafe"
         data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
