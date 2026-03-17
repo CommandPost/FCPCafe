@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 16 Mar 2026 20:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Mar 2026 21:04:41 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Mar 2026 20:39:42 GMT</pubDate>
+        <pubDate>Mon, 16 Mar 2026 21:04:41 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16954,8 +16954,11 @@ This is the beginning of something truly wonderful!</p>
 <p>MotionVFX has always been an incredibly loved part of the Final Cut Pro eco-system, however, recently the love has been tested, as MotionVFX pushes everyone towards subscription.</p>
 <p>My PREDICTION is that MAYBE Apple will turn this around, and offer all their Motion Templates as single purchases in a Final Cut Pro in-app store.</p>
 <p>It's also entirely possible that the FxPlug gurus at MotionVFX will now work alongside the ProApps team, and we might FINALLY see some big improvements to Apple Motion.</p>
-<p>It's entirely possible they could take all their FxPlug Plugins like mFilmLook and mO2 and offer them for free in Final Cut Pro.</p>
-<p>Time will tell. Certainly interesting times ahead!</p>
+<p>It's entirely possible they could take all their FxPlug Plugins like mFilmLook and mO2 and offer them for free in Final Cut Pro. Time will tell.</p>
+<p>It looks like Apple has already removed all the DaVinci Resolve plugins from the website, and it sounds like the DaVinci Resolve team has already been let go:</p>
+<p><img src="/static/motionvfx-resolve.png" alt=""></p>
+<p>In other MotionVFX news, <strong>mTracker 3D v2.1.6</strong> is out now with an updated tracking engine! I wonder if it's using Apple's code?</p>
+<p>Certainly interesting times ahead!</p>
 ]]></description>
             <link>https://fcp.cafe/#17th-march-2026</link>
             <guid isPermaLink="false">17th March 2026</guid>
