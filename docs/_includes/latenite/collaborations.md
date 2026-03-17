@@ -1,6 +1,6 @@
 ## Collaborations
 
-In addition to our own LateNite apps, we also work closely with other developers...
+In addition to our own **LateNite** apps, we also work closely with other developers...
 
 ---
 
@@ -23,6 +23,18 @@ I’m very biased, but it’s amazing. I basically describe it as **Spotlight fo
 You should stop reading this and go download it now from [here](https://getjumper.io/?ref=fcpcafe).
 
 You can learn more about my involvement via [this FCP Cafe news article](https://fcp.cafe/news/20241106/).
+
+---
+
+### FCP Template Manager
+
+The missing template (aka "Plug-Ins" or "Effects") manager for Final Cut Pro. Fast search, favorites, tagging, profiles, missing template repair wizards, and way more. Completely free.
+
+Created by RobToEarth.
+
+Chris sponsored **FCP Template Manager** by funding a new icon design, created by the incredible [Matthew Skiles](https://matthewskiles.com), as well as providing technical ideas/feedback on the product.
+
+You can download and learn more on the [FCP Template Manager website](https://robtoearth.com).
 
 ---
 

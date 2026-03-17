@@ -34,6 +34,16 @@ This page showcases all the stuff we've build, throw together and collaborated o
 
 ## Chris Hocking
 
+Chris has been working in the entertainment industry for over two decades. He was previously the Post Production Supervisor at Melbourne's award winning editing house The Butchery, and finishing house The Refinery.
+
+He has an incredibly strong and varied technical and business background, ensuring that each production makes use of the best and most relevant technology and workflows.
+
+He is the creator of the open source macOS application, [CommandPost](https://commandpost.fcp.cafe), which has been downloaded over 277K times - as well as a suite of Final Cut Pro tools on the [Mac App Store](https://fcp.cafe/latenite/).
+
+His producing credits include the SBS2 series [The Wizards of Aus](https://latenitefilms.com/live-action/the-wizards-of-aus/), the Fairy Tale unit on Foxtel mini series [Lambs of God](https://latenitefilms.com/collaborations/lambs-of-god/), and the ABC ME project [The Legend of Burnout Barry](https://latenitefilms.com/live-action/the-legend-of-burnout-barry/).
+
+Chris is a member of [Screen Producers Australia](https://www.screenproducers.org.au), [Australian Screen Editors](https://www.screeneditors.com.au), and is an [Adobe Certified Expert](https://www.credly.com/badges/3dd5788a-3256-464f-a0f2-e1e70216d3ce).
+
 You can follow Chris on:
 
 - [Twitter](https://x.com/chrisatlatenite)
@@ -46,6 +56,11 @@ However, the best place to chat is on [Discord](https://ltnt.tv/discord).
 If you want to learn more about Chris' backstory, you can watch him on [Ascent Media's podcast](https://ascentmedia.com.au/ascendyourstory):
 
 [![](/static/chris-hocking-podcast-youtube.jpg)](https://www.youtube.com/watch?v=Ik4_jlKK_Tg)
+
+You can also listen to Chris on:
+
+- [Coming up Next Podcast (12th July 2016)](https://podcasts.apple.com/au/podcast/coming-up-next/id1019053801?i=1000372372572)
+- [FCP Radio (1st Feb 2023)](https://podcasts.apple.com/au/podcast/final-cut-pro-radio/id1061415673?i=1000597468348)
 
 ---
 
