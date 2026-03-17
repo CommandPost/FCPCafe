@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Mar 2026 00:37:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 04:06:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Mar 2026 00:37:10 GMT</pubDate>
+        <pubDate>Tue, 17 Mar 2026 04:06:28 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16958,6 +16958,8 @@ This is the beginning of something truly wonderful!</p>
 <p>!!!warning Correction (17th March 2026 1130)
 It doesn't look like MotionVFX has removed the <a href="https://www.motionvfx.com/store/davinci-resolve">DaVinci Resolve</a> or <a href="https://www.motionvfx.com/store/adobe-premiere-after-effects">Adobe Premiere/After Effects</a> for sale despite reports on Twitter. Apologies for any misreporting!
 !!!</p>
+<p>You can watch Patrick Stirling has posted on YouTube about this:</p>
+<p><a href="https://www.youtube.com/watch?v=sh0-rla1oAo"><img src="/static/motionvfx-resolve.jpg" alt=""></a></p>
 <p><s>It looks like Apple has already removed all the DaVinci Resolve plugins from the website, and it sounds like the DaVinci Resolve team has already been let go:</s></p>
 <p><img src="/static/motionvfx-resolve.png" alt=""></p>
 <p>In other MotionVFX news, <strong>mTracker 3D v2.1.6</strong> is out now with an updated tracking engine! I wonder if it's using Apple's code?</p>
