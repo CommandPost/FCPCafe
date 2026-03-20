@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827121796684">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827359821968">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.3.0">
@@ -43,12 +43,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/favicon.ico" />
-    <link href="resources/css/retype.css?v=4.3.0.827121796684" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.3.0.827359821968" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.3.0.827121796684" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.3.0.827359821968" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.3.0.827121796684" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=4.3.0.827121796684" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.3.0.827359821968" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=4.3.0.827359821968" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -319,6 +319,117 @@ Get all of the <strong>LateNite</strong> Tools on the <a href="latenite/#pro-edi
 <hr>
 <h1 id="2026">2026</h1>
 <h2 id="march">March</h2>
+<h3 id="21st-march-2026"><a href="news/20260321/">21st March 2026</a></h3>
+<p><strong>Jumper v2026.03.19 (Build 3032)</strong> has now been released for macOS and Windows.</p>
+<p>It now basically gives you script-based editing in Final Cut Pro (and other NLEs)!</p>
+<p><figure class="content-center">
+    <img src="static/jumper-speech.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2056" height="1240" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can read more about the Script Editor on the <a href="https://getjumper.io/blog/script_editor" class="outbound" target="_blank"><span>Jumper Blog</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>This update includes the following changes:</p>
+<p><strong><span class="docs-emoji">&#x1F973;</span> New Features:</strong></p>
+<ul>
+<li><strong>Script Inspector:</strong> A new transcript viewer that lets you read, search, and navigate full transcripts with timeline integration.</li>
+<li><strong>Transcript Export:</strong> You can now export transcripts directly from Jumper.</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>macOS analysis speed improved by 25-30% for <strong>Accurate</strong> and <strong>Most Accurate</strong> visual search models.</li>
+<li>Visual search accuracy improved across all models.</li>
+<li>Context Picker performance optimized for large media libraries.</li>
+<li>License handling reworked to be more reliable across different NLE integrations.</li>
+<li>Final Cut Pro and DaVinci Resolve: Speech search results now navigate to the exact frame.</li>
+</ul>
+<p><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</p>
+<ul>
+<li>Fixed a bug where &#x27;Search by Frame&#x27; could fail for <code translate="no" v-pre>BRAW</code> and <code translate="no" v-pre>R3D</code> files.</li>
+<li>Fixed visual analysis incorrectly cropping BRAW files.</li>
+<li>Fixed text clipping in the &quot;Add to timeline&quot; behavior dropdown.</li>
+<li>Fixed media table layout offset on larger screens.</li>
+<li>Fixed button styling issues in the onboarding flow.</li>
+<li>Fixed the uninstaller on macOS.</li>
+<li><strong>Avid:</strong> Fixed Shared MXF Metadata styling.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://getjumper.io" class="outbound" target="_blank"><span>Jumper website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<p><strong>FCPX AutoDuck v1.50.0 (Build 10513.628)</strong> by Ulti.Media is out now!</p>
+<p><figure class="content-center">
+    <img src="static/fcp-autoduck.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1984" height="1408" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can download and learn more on the <a href="https://ulti.media/fcp-autoduck/" class="outbound" target="_blank"><span>Ulti.Media website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<p><strong>FilmConvert Nitrate</strong> and <strong>CineMatch</strong> now include dedicated profiles for the <strong>DJI Osmo Action 6</strong>, helping you build a consistent look when grading FX2 footage alongside other cameras.</p>
+<p>You can learn more on the <a href="https://www.filmconvert.com" class="outbound" target="_blank"><span>FilmConvert website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<p><strong>CrumplePop 2026</strong> is out now with the following new features:</p>
+<ul>
+<li><strong>Rebuilt SoundApp 2026:</strong> New GPU-accelerated SoundApp features 3 AI stem separation models, on-the-fly processing to quickly find, preview, and isolate specific audio, and a redesigned user interface.</li>
+<li><strong>Demix Audio with SoundApp:</strong> Do the unthinkable! Take a fully mixed audio file and separate it into editable and exportable elements.</li>
+<li><strong>Readjust &amp; Extract Audio from Any Video:</strong> Cinema 4 Stems lets you split any video or audio file into Voice, Music, Sound Effects, or Other. Readjust levels, export, or remove each aspect easily.</li>
+<li><strong>Split Music into 4 Instruments:</strong> SoundApp&#x27;s Music 4 Stems separates any music track into Vocals, Drums, Bass, and Other (Guitar, Synth &amp; More) for adjustments or full exports.</li>
+<li><strong>Cleanly Separate Voice from Music:</strong> Use Voice 2 Stems to pull voice from any music. Create instrumental or karaoke tracks, isolate vocals for sampling, or reduce background music.</li>
+</ul>
+<p>You can learn more on the <a href="https://borisfx.com/news/crumplepop-2026-unmix-any-audio-with-ai/" class="outbound" target="_blank"><span>BorisFX website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<hr>
+<p><strong>Strada v2026.3.17</strong> is out now.</p>
+<p>Austin Case explains:</p>
+<blockquote>
+<p>Hey @everyone we launched Strada V99 (V100 is in the queue already!!! CRAZY!!!) with agent version 2026.3.17 <span class="docs-emoji">&#x1F525;</span></p>
+<p>In this release we shipped a HUGE AND SUPER COOL feature... UPLOAD LINKS this is available to everyone for a limited time but will ultimately be moved to our unlimited plan at $24/month/user <span class="docs-emoji">&#x1F92F;</span></p>
+<ul>
+<li>On any folder that you have Edit or Admin permissions to you can create a public link for users to drop files into. The goal of this is so that users do NOT have to sign up, install an agent, just to give you a few files. This is limited to 2GB files and 10GB total... of course if you want to transfer more then that, you can always invite that user to the folder. They just have to go through the sign up and then they can transfer unlimited amounts!</li>
+<li>Upload Link features</li>
+<li>Set a custom name for the link</li>
+<li>Optionally set a password for the link</li>
+<li>Optionally set an expiration for the link</li>
+<li>Send an email with a custom message right to people from within Strada</li>
+<li>Link Library! On the left hand side of Strada is a new &#x27;links&#x27; page! Here you can see ALL the links you have made or others have made on your agents. You can manage these links at anytime, changing their settings, copying the link, etc...</li>
+</ul>
+<p>This was a feature we started JUST two weeks ago. For many months the engineering team at Strada has been focused on building foundational elements and we can feel the momentum build where we get to build cool features like this in a super short amount of time at a high quality. Thank you to some of you who found the feature and have helped us work out some of the day 1 quirks. We have a few more releasing over the coming days!</p>
+<p><strong>Fixes:</strong></p>
+<ul>
+<li>Everywhere in the app now displays the correct filesize / jobsize / etc... we were previously showing you the size in base 2 instead of base 10 <span class="docs-emoji">&#x1F913;</span></li>
+<li>Rotated Videos now rotate</li>
+<li>Job gets stuck initializing even after refresh</li>
+</ul>
+<p>We now support playback of Blackmagic RAW (beta)!! This is very exciting because its the first demonstration of RAW in Strada. We are the first product that allows for instant remote playback of a RAW file regardless of bandwidth.</p>
+<p>This is a step towards the future. Where there is no more online/offline workflows. No duplication of media via proxies.</p>
+<p>The future filmmaker who is in 5th grade right now will not know how difficult digital file formats USED to be and how much it effected everything. How much you had to learn. Its like the future engineer who won&#x27;t know what it was like to learn to code without AI.</p>
+<p>Notes/Limitations
+the source computer must be macOS but users can playback the files on any desktop or mobile platform
+no audio support (obviously not very common except for scratch tracks, but just noting)</p>
+<p>Anyways, we will keep adding more formats over time... but cheers <span class="docs-emoji">&#x1F37B;</span>  to the next step in building a future where you shoot and edit without worrying about what file a computer is on, what format it is, or even your internet bandwidth!!</p>
+</blockquote>
+<p>You can download and learn more on the <a href="https://strada.tech" class="outbound" target="_blank"><span>Strada website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p><a href="news/20260321/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Discuss this news item</span>
+</a></p>
+<hr>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Sponsored</h5>
+<p><strong>Jump to the best parts of editing.</strong><br />
+A powerful machine learning search engine for your footage.<br />
+<strong><em>No clouds. No uploads. All on device.</em></strong><br />
+Read the origin story on <a href="news/20241106/">FCP Cafe</a> or <a href="https://getjumper.io/?ref=fcpcafe" class="outbound" target="_blank"><span>download a free trial</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>!</p>
+        </div>
+    </div>
+</div>
+<hr>
 <h3 id="18th-march-2026"><a href="news/20260318/">18th March 2026</a></h3>
 <p>Now owned by Apple, MotionVFX has released a new YouTube video titled, <strong>One Toolkit. Endless Creation — Enter the MotionVFX Universe</strong>.</p>
 <p>It&#x27;s really great. You can watch on YouTube:</p>
@@ -416,10 +527,9 @@ Get all of the <strong>LateNite</strong> Tools on the <a href="latenite/#pro-edi
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><strong>Jump to the best parts of editing.</strong><br />
-A powerful machine learning search engine for your footage.<br />
-<strong><em>No clouds. No uploads. All on device.</em></strong><br />
-Read the origin story on <a href="news/20241106/">FCP Cafe</a> or <a href="https://getjumper.io/?ref=fcpcafe" class="outbound" target="_blank"><span>download a free trial</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>!</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -536,9 +646,8 @@ This is the beginning of something truly wonderful!</p>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -570,8 +679,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -711,8 +820,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -844,9 +954,8 @@ Search by meaning, assemble sequences, and export to Premiere, Resolve, or Final
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -900,8 +1009,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -974,8 +1083,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -1010,9 +1120,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1128,8 +1237,8 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1163,8 +1272,9 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -1218,9 +1328,8 @@ No - transcription is not included. ScriptBlade works with existing SRT files on
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1297,8 +1406,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1353,8 +1462,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -1458,9 +1568,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1545,8 +1654,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1577,8 +1686,9 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -1640,9 +1750,8 @@ HFS external media might fail to mount automatically (Feedback Assistant: 168672
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1706,8 +1815,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1758,8 +1867,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -1821,9 +1931,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1873,8 +1982,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -1967,8 +2076,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -2010,9 +2120,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -2129,8 +2238,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -2216,8 +2325,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -2284,9 +2394,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -2447,8 +2556,8 @@ Swift     :      55389 (++12423, +28.91%)</code></pre>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -2538,8 +2647,9 @@ Swift     :      55389 (++12423, +28.91%)</code></pre>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -2592,9 +2702,8 @@ Swift     :      55389 (++12423, +28.91%)</code></pre>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -2653,8 +2762,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -5487,8 +5596,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -5562,9 +5672,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -5622,8 +5731,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -5679,8 +5788,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -5854,9 +5964,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -5897,8 +6006,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -5940,8 +6049,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -6008,9 +6118,8 @@ I stopped using custom layouts as I need these features to work.</li>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6056,8 +6165,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6082,8 +6191,9 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -6122,9 +6232,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6291,8 +6400,8 @@ You can learn more and download BRAW Toolbox on the <a href="https://brawtoolbox
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6591,8 +6700,9 @@ See you in April.</p>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -6742,9 +6852,8 @@ See you in April.</p>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6792,8 +6901,8 @@ Developer, <a href="https://www.evrapp.cloud" class="outbound" target="_blank"><
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6840,8 +6949,9 @@ It is a smaller update focused on making the first run smoother for new users an
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
         </div>
     </div>
 </div>
@@ -6900,9 +7010,8 @@ It is a smaller update focused on making the first run smoother for new users an
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p><em>Tight. Terse. Terrific. Bim. Bam. Boom.</em> – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="outbound" target="_blank"><span>Cut/daily.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>Native Blackmagic RAW support in Final Cut Pro.<br />
+<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -6950,8 +7059,8 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Sponsored</h5>
-<p>Native Blackmagic RAW support in Final Cut Pro.<br />
-<a href="https://brawtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download BRAW Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
+<p>Gyroscope Stabilisation in Final Cut Pro.<br />
+<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
         </div>
     </div>
 </div>
@@ -7033,72 +7142,6 @@ Sign up for <strong>free</strong> at <a href="https://www.cut-daily.com" class="
 <li>Includes stability and performance improvements.</li>
 </ul>
 <p><a href="news/20250924/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
-    <span>Discuss this news item</span>
-</a></p>
-<hr>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Sponsored</h5>
-<p>Gyroscope Stabilisation in Final Cut Pro.<br />
-<a href="https://gyroflowtoolbox.fcp.cafe" class="outbound" target="_blank"><span>Download Gyroflow Toolbox</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> today from the Mac App Store.</p>
-        </div>
-    </div>
-</div>
-<hr>
-<h3 id="17th-september-2025"><a href="news/20250917/">17th September 2025</a></h3>
-<p><strong>evrExpanse <code translate="no" v-pre>v6.1.0</code></strong> Adds Finder Tag Support for Final Cut Pro.</p>
-<p>The metadata-focused workflow app <strong>evrExpanse</strong> has just released <strong>version 6.1.0</strong>, expanding its <em>Apply Finder Tags</em> feature with full <strong>Final Cut Pro</strong> integration.</p>
-<p>With this update, editors can now automatically apply Finder Tags directly from <strong>Final Cut Pro Keywords</strong> using FCPXML Library or Event exports. This builds on the existing DaVinci Resolve integration, completing a seamless round trip between NLE metadata and macOS Finder organization.</p>
-<p><figure class="content-center">
-    <img src="static/evre610_preprocess_tag_fcp.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="862" height="715" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>What’s New</strong></p>
-<ul>
-<li><strong>Final Cut Pro Integration</strong> — Apply Finder Tags from FCP Keywords via FCPXML exports.</li>
-<li><strong>Duplicate Handling</strong> — A new “Include Duplicate Files” option in Preferences gives editors control to skip or include duplicates.</li>
-<li><strong>Detailed Progress Window</strong> — Now includes missing file detection and clear reporting.</li>
-</ul>
-<p><figure class="content-center">
-    <img src="static/evre610_progresstag.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="862" height="420" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><figure class="content-center">
-    <img src="static/evre610_final_report_tag_fcp.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1042" height="725" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>Why Use evrExpanse to Tag Files in macOS?</strong></p>
-<p>Unlike simpler tagging utilities that only append tags, evrExpanse gives editors full flexibility:</p>
-<ul>
-<li>Batch-add, replace, or remove Finder Tags (including macOS color labels)</li>
-<li>Skip or include duplicates depending on workflow needs</li>
-<li>Detect missing files with clear progress reports</li>
-<li>Remove tags applied from metadata exports without wiping all tags</li>
-<li>Seamlessly bridge metadata between <strong>Final Cut Pro, DaVinci Resolve,</strong> and macOS Finder</li>
-</ul>
-<p><strong>More Than Finder Tags</strong></p>
-<p>evrExpanse remains a complete workflow suite for media professionals:</p>
-<ul>
-<li><span class="docs-emoji">&#x1F3F7;&#xFE0F;</span> Extract and import video metadata into NLEs</li>
-<li><span class="docs-emoji">&#x1F504;</span> Transcode and embed rich metadata</li>
-<li><span class="docs-emoji">&#x1F4E4;</span> Automate secure backups and transfers</li>
-<li><span class="docs-emoji">&#x1F4CC;</span> And now: Organize everything with Finder Tags across both <strong>Resolve and Final Cut Pro</strong></li>
-</ul>
-<p><strong>evrExpanse 6.1.0</strong> is available now at <a href="https://www.evrapp.cloud/evrexpanse" class="outbound" target="_blank"><span>evrapp.cloud/evrexpanse</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
-<p><a href="news/20250917/#discuss-this-page" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>Discuss this news item</span>
 </a></p>
 <hr>
