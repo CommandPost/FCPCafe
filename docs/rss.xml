@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Mar 2026 13:02:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Mar 2026 03:59:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Mar 2026 13:02:06 GMT</pubDate>
+        <pubDate>Wed, 18 Mar 2026 03:59:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -16992,6 +16992,86 @@ It doesn't look like MotionVFX has removed the <a href="https://www.motionvfx.co
             <link>https://fcp.cafe/#17th-march-2026</link>
             <guid isPermaLink="false">17th March 2026</guid>
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2026]]></title>
+            <description><![CDATA[<p>Now owned by Apple, MotionVFX has released a new YouTube video titled, <strong>One Toolkit. Endless Creation — Enter the MotionVFX Universe</strong>.</p>
+<p>It's really great. You can watch on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=DssJ-YmXpHs"><img src="/static/motionvfx-youtube.jpg" alt=""></a></p>
+<p>There has also been some confusion with MotionVFX in terms of previously purchased assets no longer being available.</p>
+<p>Back on <strong>27th February 2026</strong>, MotionVFX sent out a mass email titled, <strong>Action required ⚠️ Download your products by March 12.</strong>:</p>
+<p><img src="/static/motionvfx-final-days.png" alt=""></p>
+<p>The link pointed to their <a href="https://www.motionvfx.com/product-archive">Product Archive page</a>, which is still active.</p>
+<p>If you visit the <a href="https://www.motionvfx.com/product-archive">Product Archive page</a> you can see all the products that are now <strong>LEGACY</strong> and no longer available for download.</p>
+<p>If you log in, you'll be able to see all the products you previously owned, that are no longer available.</p>
+<p>For example, there are many templates I own, that are now <strong>LEGACY</strong> and can't be download on both Mac:</p>
+<p><img src="/static/motionvfx-legacy-mac.png" alt=""></p>
+<p>...and a couple on iPad (even though on iPad they still have a non-functional download button):</p>
+<p><img src="/static/motionvfx-ipad.png" alt=""></p>
+<p>Basically, all these <strong>LEGACY</strong> products are now 100% gone from the Internet - and there's THOUSANDS of them <strong>3616 products</strong> to be exact.</p>
+<p>If you haven't already downloaded them - you no longer have access to them.</p>
+<p>Of course, not EVERYTHING is legacy - it's mostly old m02 models, older products, After Effects templates, etc.</p>
+<p>Lots of people have asked me in the last 24 hours what I think will happen with MotionVFX, and this is what I've posted elsewhere on the Interwebs:</p>
+<blockquote>
+<p>Personally, I think it's VERY unlikely that Apple will basically give all MotionVFX content away for free with Creator Studio. Apple didn't come the richest company in the world by giving things away for free.</p>
+<p>My prediction... MotionVFX will remain a standalone company/brand - they'll continue to do Resolve &amp; Adobe Motion Templates.</p>
+<p>All the current products will remain on a MotionVFX subscription BUT eventually Apple will also allow you to buy individual Motion Templates via an in-app store, directly in Final Cut Pro. This online store will also be available to third parties, so that the Dylan Bates for example, can sell his plugins directly in FCP, with Apple taking a 15-30% cut. They'll become the same as FxFactory.</p>
+<p>However, it's possible that all the FxPlug effects will be bundled in FCP for free in the next major FCP update.</p>
+<p>The MotionVFX team will make NEW templates, specifically for Final Cut Pro Creator Studio subscribers - these will be all new/modern Motion Templates. At some point this year, they'll release Motion Templates for iPad, and all of the free templates that come bundled will be created by the MotionVFX team. We already knew MotionVFX was working on iPad Motion Templates - Apple has said it coming &quot;soon&quot; for years now.</p>
+<p>I would predict that M03 will be included natively in Motion at some point.</p>
+<p>We'll see!</p>
+</blockquote>
+<p>...and:</p>
+<blockquote>
+<p>Given the amount of subscription revenue MotionVFX generates, I just can't imagine Apple Shareholders being happy with Apple charging LESS than what MotionVFX was already charging.</p>
+<p>Apple has more money than God, so they could easily have just hired a bunch of incredible Motion Designers, just like Microsoft did with ClipChamp if they wanted to - and just released a whole bunch of Motion Templates themselves without having to buy MotionVFX.</p>
+<p>I think the benefit of Apple owning MotionVFX is they can use this as a &quot;framework&quot; for a new in-app App Store - and to be honest, I wouldn't be surprised if Blackmagic implemented this before the Final Cut Pro team (as has been the case with a LOT of things, such as Vision Pro Immersive editing). I think Apple would really like 15-30% of Blackmagic's Motion Templates sales on Mac - not just on iPad.</p>
+<p>Apple now have a HEAP of Final Cut Pro, Adobe Premiere Pro/After Effects AND DaVinci Resolve Motion Templates that they own and can sell. I think this is more an infrastructure move.</p>
+<p>Really though, I'm just guessing... I'm still kinda surprised Apple bought MotionVFX, and even more surprised this happened AFTER the launch of Apple Creator Studio.</p>
+<p>Also, given Apple now already owns and controls MotionVFX - if they were going to just bundle all the MotionVFX in Apple Creator Studio - why wouldn't they just do this at launch? Why just silently announce it on the website, kill lifetime/perpetual versions of all their Motion Templates, and update the terms and conditions? If they were going to do it, why not just do it at launch and create a positive PR story?</p>
+<p>Guess, time will tell.</p>
+</blockquote>
+<p>Honestly... your guess is as good as mine. Certainly interesting times ahead!</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2026</link>
+            <guid isPermaLink="false">18th March 2026</guid>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2026]]></title>
+            <description><![CDATA[<p><strong>Hedge PostLab v26.1</strong> is out now!</p>
+<p>It includes the following changes:</p>
+<p><strong>New &amp; Improved:</strong></p>
+<ul>
+<li>Improved handling of syncing conflicts, with changes appearing only after a successful sync.</li>
+<li><code>[PRO]</code> The app activity indicator now includes syncing activity for certified storage providers.</li>
+<li><code>[PRO]</code> PostLab now checks if your certified storage provider is available.</li>
+<li><code>[PRO]</code> PostLab now supports Maestral, the open-source Dropbox client.</li>
+<li>Opening Team Bundles and large documents is now noticeably faster.</li>
+<li>You can now set a status for a Collection.</li>
+<li>PostLab can now import a Logic Project folder.</li>
+<li>The app activity indicator has been redesigned with a fresh new look.</li>
+<li>The installer now includes an option to uninstall PostLab.</li>
+</ul>
+<p><strong>Fixed:</strong></p>
+<ul>
+<li>When creating a Collection while working from Dropbox, a sync alert could incorrectly appear. This has been fixed. Thanks for the report, John!</li>
+<li>In some cases, when switching Team Bundles, a database error could occur. This is fixed.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://hedge.co/products/postlab">PostLab website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2026</link>
+            <guid isPermaLink="false">18th March 2026</guid>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th March 2026]]></title>
+            <description><![CDATA[<p><strong>Magic Captions v1.3</strong> is out now on FxFactory.</p>
+<p>You can download and learn more on <a href="https://fxfactory.com/info/magiccaptions/">FxFactory</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-march-2026</link>
+            <guid isPermaLink="false">18th March 2026</guid>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
