@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 24 Mar 2026 20:39:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 20:52:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Mar 2026 20:39:54 GMT</pubDate>
+        <pubDate>Tue, 24 Mar 2026 20:52:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17180,6 +17180,38 @@ no audio support (obviously not very common except for scratch tracks, but just 
             <link>https://fcp.cafe/#21st-march-2026</link>
             <guid isPermaLink="false">21st March 2026</guid>
             <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th March 2026]]></title>
+            <description><![CDATA[<p>Happy Wednesday! 👋</p>
+<p>Firstly... did you listen to the <strong>Final Cut Grill</strong> back in the day, hosted by the amazing Chris Fenwick?</p>
+<p>I did, and I LOVED it - but I realised, it was gone from the interwebs. Well, now it's back - you can download and listen to ALL the old Episodes on <a href="https://grill.fcp.cafe">FCP Cafe</a>!</p>
+<p>I'm HOPING that Chris will release new episodes soon too! Stay tuned.</p>
+<p>My sincerest apologies for the lack of updates to <strong>BRAW Toolbox v2.0.0</strong> - I hope to get a bug fix update out ASAP.</p>
+<p>I've just submitted <strong>Metaburner v1.2.2</strong> to FxFactory and the Mac App Store with bug fixes and improvements. Hopefully it's out very soon!</p>
+<p><strong>Keyframe Toolbox v1.0.0 (Build 30)</strong> is now out on <a href="https://discord.com/channels/1365861122720137276/1473245182387556363">TestFlight</a> and submitted to Mac App Store Review.</p>
+<p>You can learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+<p>We hope to release ASAP - we're just waiting on Apple. Sadly, I think with the rise of &quot;vibe coded&quot; apps, and WWDC nearing closer, App Review is taking longer and longer these days.</p>
+<p><strong>ScriptStar v1.5.0 (Build 22)</strong> is also now available for testing on <a href="https://testflight.apple.com/join/rBww3mHe">TestFlight</a>.</p>
+<p>This release includes local transcription with downloadable models! You'll find all the changes on the page where you can add <code>SRT</code>s and kick off the processing.</p>
+<p>To create a <strong>New Transcript</strong> for any clip, whether it's been transcribed by Final Cut Pro already or not, just check the box for that clip in the <strong>New Transcript</strong> column, or click the <strong>New Transcript</strong> column header itself to check that box for all clips.</p>
+<p>All transcriptions are local, private, free, and never leave your Mac.</p>
+<p>Models include:</p>
+<ul>
+<li><strong>Parakeet v3</strong> (fast, multiple European languages)</li>
+<li><strong>Whisper v3-large</strong> (slow, but includes Asian languages like Chinese and Japanese)</li>
+<li><strong>Apple's SpeechTranscriber</strong> model that's built in (fast, but not as accurate as the other models, and seemingly the model Final Cut Pro uses natively, with poor multi-language support).</li>
+</ul>
+<p>You can choose the model to use in the <strong>Options</strong> panel, and the first time you transcribe, the model will download automatically, displaying a progress bar as it does so.</p>
+<p>For the most accurate timing, don't use the built-in transcripts — just re-transcribe with Parakeet. It's fast, and the timing is more accurate than Final Cut Pro's own transcripts.</p>
+<p>You shouldn't need to manage these models, but if you try Whisper and find it doesn't work for you, just hold <code>COMMAND+OPTION</code> as you choose that option to delete its files.</p>
+<p>Once we get enough feedback that <strong>ScriptStar v1.5.0</strong> is stable and bug free, we'll release on the Mac App Store.</p>
+<p>Feedback on all of the above is very welcome!</p>
+<p>Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-march-2026</link>
+            <guid isPermaLink="false">25th March 2026</guid>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[25th March 2026]]></title>
