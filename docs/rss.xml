@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 24 Mar 2026 20:52:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Mar 2026 09:08:30 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Mar 2026 20:52:50 GMT</pubDate>
+        <pubDate>Thu, 26 Mar 2026 09:08:30 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17315,6 +17315,46 @@ no audio support (obviously not very common except for scratch tracks, but just 
             <link>https://fcp.cafe/#25th-march-2026</link>
             <guid isPermaLink="false">25th March 2026</guid>
             <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th March 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday! 👋</p>
+<p>For anyone not following along in our <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>, we're currently gearing up to release two new apps on the Mac App Store created by the amazing Sam Pluemacher.</p>
+<p><a href="https://notiontoolbox.fcp.cafe">Notion Toolbox</a> is a macOS application for merging CSV files and importing data into Notion databases.</p>
+<p><img src="/static/notion-toolbox-01.png" alt=""></p>
+<p><a href="https://vfxtoolbox.fcp.cafe">VFX Toolbox</a> is for visual effects editors and post-production supervisors working with Final Cut Pro.</p>
+<p><img src="/static/vfx-toolbox-01.png" alt=""></p>
+<p>Notion Toolbox, VFX Toolbox and <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a> are all just patiently sitting in Apple's App Review.</p>
+<p>Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-march-2026</link>
+            <guid isPermaLink="false">26th March 2026</guid>
+            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th March 2026]]></title>
+            <description><![CDATA[<p><strong>Simon Says Transcription v3.9.91</strong> is out now.</p>
+<p>This release contains &quot;Solve bugs and Improve User Experience&quot;.</p>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/simon-says-transcription/id1441555493">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-march-2026</link>
+            <guid isPermaLink="false">26th March 2026</guid>
+            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th March 2026]]></title>
+            <description><![CDATA[<p><strong>Keyframeless v2026-03-24</strong> is out now for free on GitHub.</p>
+<p>It contains:</p>
+<ul>
+<li>Keyframeless X with automated Caption generation</li>
+<li>Rounded Corners Plugin</li>
+<li>Motion Blur Plugin</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/overpolish/keyframeless">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-march-2026</link>
+            <guid isPermaLink="false">26th March 2026</guid>
+            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
