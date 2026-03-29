@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 29 Mar 2026 05:37:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2026 23:42:48 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 29 Mar 2026 05:37:22 GMT</pubDate>
+        <pubDate>Sun, 29 Mar 2026 23:42:47 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17479,6 +17479,22 @@ If you’ve been waiting for us to get this right — this is where it starts.</
             <link>https://fcp.cafe/#29th-march-2026</link>
             <guid isPermaLink="false">29th March 2026</guid>
             <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[30th March 2026]]></title>
+            <description><![CDATA[<p>Happy Monday! 👋</p>
+<p>Gotta collect them all! Niche professional apps with beautiful icons!</p>
+<p><a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a>, <a href="https://vfxtoolbox.fcp.cafe">VFX Toolbox</a> &amp; <a href="https://notiontoolbox.fcp.cafe">Notion Toolbox</a> are now up on the <strong>Mac App Store</strong>! 🥳</p>
+<p><img src="/static/mac-apps-march-2026.png" alt=""></p>
+<p><strong>Keyframe Toolbox</strong> is a collaboration with the handsome and amazing, Queensland-based <a href="https://iain-anderson.com">Iain Anderson</a>.</p>
+<p><strong>VFX Toolbox</strong> &amp; <strong>Notion Toolbox</strong> is a collaboration with the equally handsome and amazing Berlin-based <a href="https://www.linkedin.com/in/sam-pl%C3%BCmacher-747b66116/">Sam Plümacher</a> (with the help of <a href="https://www.knuthake.de">Knut Hake</a> as well, who's also working on a HEAP of incredible stuff).</p>
+<p>Iain, Sam &amp; Knut have real-world high-end professional problems that they NEED to solve for the projects they're currently working on. They're building tools that they'll use every day on jobs you'll probably watch - I'm helping bring those tools to everyone else, so that even indie filmmakers get to play with the big kid toys!</p>
+<p>All of these tools also &quot;unlock&quot; <a href="https://commandpost.fcp.cafe">CommandPost</a>!</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#30th-march-2026</link>
+            <guid isPermaLink="false">30th March 2026</guid>
+            <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
