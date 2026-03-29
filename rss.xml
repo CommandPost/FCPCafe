@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 26 Mar 2026 09:08:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2026 05:37:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Mar 2026 09:08:30 GMT</pubDate>
+        <pubDate>Sun, 29 Mar 2026 05:37:22 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17355,6 +17355,130 @@ no audio support (obviously not very common except for scratch tracks, but just 
             <link>https://fcp.cafe/#26th-march-2026</link>
             <guid isPermaLink="false">26th March 2026</guid>
             <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p>Happy Sunday! 👋</p>
+<p>After a lot of frustrating back-and-forth with Apple's App Review, <strong>Keyframe Toolbox v1.0.0</strong> is now finally available for purchase on the Mac App Store! 🥳</p>
+<p>You can purchase it for <strong>USD$19.99</strong> on the <a href="https://apps.apple.com/app/keyframe-toolbox/id6759331578">Mac App Store</a>.</p>
+<p><strong>Keyframe Toolbox</strong> finally brings advanced keyframe animation to Final Cut Pro.</p>
+<p><img src="/static/keyframe-toolbox-01.png" alt=""></p>
+<p>Whilst Final Cut Pro has some basic keyframe controls for Opacity, Position, Scale, Rotation, it includes only limited control over how keyframes transition into one another. In many contexts, only linear keyframes can be created, leading to clunky animations.</p>
+<p>Though the classic Final Cut Pro included basic keyframe graphs, no version of the modern Final Cut Pro has ever offered a complete set of integrated keyframe controls.</p>
+<p>It's time.</p>
+<p>Built directly into the Final Cut Pro Inspector, Keyframe Toolbox gives you complete control of your keyframes so you can really refine your movements, rotations, scales, fades and virtual focus pulls.</p>
+<p>This is a power-user’s tool to help editors and animators create complex, precise animations on the Final Cut Pro timeline.</p>
+<p>Keyframe Toolbox takes all the very best keyframe controls from Apple Motion (color, repeating animation patterns), Adobe After Effects (scalable keyframe groups), Blender (precise value editing) and more.</p>
+<p>We've made our graphs as easy to edit as curves in Adobe Illustrator, and included flexible oscillations and other common patterns to make it easy to create and then tweak many kinds of animations.</p>
+<p>Keyframe Toolbox is a one-time purchase, not a subscription, and we hope you love it.</p>
+<p>You can learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+<p>If you need help, the please place to go is the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>Please share the news far and wide - we've love everyone to test out Keyframe Toolbox!</p>
+<p>Unfortunately we're still waiting on Apple's App Review to release <a href="https://vfxtoolbox.fcp.cafe">VFX Toolbox</a> and <a href="https://notiontoolbox.fcp.cafe">Notion Toolbox</a>.</p>
+<p>However, you can still access them via TestFlight in the meantime. Stay tuned!</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>FCP Template Manager v1.6</strong> is out now.</p>
+<p>It now supports <strong>Final Cut Pro Creator Studio v12 (subscription)</strong> and the <strong>Final Cut Pro v11 Free Trial</strong>.</p>
+<p>It also includes various bug fixes and user interface improvements.</p>
+<p>You can learn more on the <a href="https://robtoearth.com/">FCP Template Manager website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>Keyframeless v2026-03-27</strong> is out now for free on GitHub.</p>
+<p>It contains:</p>
+<ul>
+<li>See where your captions will be broken apart, and add manual breaks.</li>
+<li>Added Intel Support.</li>
+<li>Added support for macOS 15 Sequoia.</li>
+<li><strong>Fixed:</strong> Have to reboot Final Cut Pro after download template for it to become usable</li>
+<li><strong>Fixed:</strong> Behaviours not mapping correctly to FCPXML</li>
+<li><strong>Fixed:</strong> Downloaded templates not exposing styling</li>
+<li><strong>Fixed:</strong> Freezing and no audio waveforms</li>
+<li><strong>Fixed:</strong> Rounded crash on launch</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/overpolish/keyframeless">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>Colourlab AI</strong> has some big announcements ahead...</p>
+<blockquote>
+<p>We know it’s been quiet. - That wasn’t by accident.</p>
+<p>While things may have looked calm on the surface, behind the scenes we’ve been rebuilding Colourlab from the ground up. The last six months have been some of the most intense R&amp;D we’ve ever done — including bringing real-time 4K AI colour grading to mobile through our partnership with ARRI and HONOR.</p>
+<p>That wasn’t the end goal. That was the foundation.
+Now comes the part that matters to you.</p>
+<p>At NAB, we will introduce <strong>Colourlab AI v4</strong>. Not an update. Not a patch. A complete rewrite.</p>
+<p>And this time, we didn’t just focus on new features — we focused on fixing what was broken.</p>
+<p>Playback issues. Linking problems. Licensing confusion. Trials that didn’t work the way they should. Subscriptions that felt messy. We heard you — clearly — and we’ve rebuilt the system to remove that friction entirely.</p>
+<p>If you’ve been frustrated with us in the past, you had a reason.
+And we’ve done something about it.</p>
+<p>Version 4 introduces a new way of working — what we call agentic AI workflows — where the system starts to understand intent, not just execute commands. It’s faster, cleaner, and far more aligned with how you actually want to work.</p>
+<p>We’re also rethinking training from the ground up, because powerful tools only matter if you can truly use them.</p>
+<p>On April 10, we’ll show you the first glimpse of what’s coming ahead of NAB.
+If you’ve been waiting for us to get this right — this is where it starts.</p>
+</blockquote>
+<p>You can register for the <a href="https://colourlab.ai/?ns_url=25b6&amp;mid=3431363&amp;fch=bac109f8">Live Stream on 10th April</a> to learn more.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>Marker to Reminder v1.5</strong> is out now.</p>
+<p>It includes the following change:</p>
+<ul>
+<li>Added user-requested marker filtering based on marker text, available as in-app purchase.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/marker-to-reminder/id6757208568">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>Curves v1.1.1</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Add projection mode parameter: Select either object or world projection to configure how your 3D rotations are rendered</li>
+<li>If you have an older version of Curves installed:</li>
+<li>Update the Curves app from the App Store</li>
+<li>Open the Curves app and click <strong>Upgrade Effect</strong></li>
+<li>Restart Final Cut Pro</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/curves-for-final-cut/id6760507188">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[29th March 2026]]></title>
+            <description><![CDATA[<p><strong>Backups for Final Cut Pro v2.1.6</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Verified to work with Final Cut Pro v12.0.</li>
+<li>Sterner warring if you try to just restore a Project or Event instead of a whole library.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/backups-for-final-cut-pro/id586594646">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#29th-march-2026</link>
+            <guid isPermaLink="false">29th March 2026</guid>
+            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
