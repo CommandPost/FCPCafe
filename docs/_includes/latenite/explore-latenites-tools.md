@@ -20,7 +20,7 @@ Constantly looking for ways to innovate, at LateNite we're as passionate about p
 
 Our pursuit of creative excellence has seen us work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
 
-For example, our debut free and open-source application **CommandPost**, has been downloaded over **[258 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**.
+For example, our debut free and open-source application **CommandPost**, has been downloaded well over **258 thousand times**.
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
@@ -72,17 +72,21 @@ You can also listen to Chris on:
 
 Below are some of our developer tools:
 
+---
+
 ### FCPXMLKit
 
-FCPXMLKit is a private framework we developed for [Metaburner](#metaburner) & [Capacitor](#capacitor), created by David Peterson.
+**FCPXMLKit** is a private framework we developed for [Metaburner](#metaburner) & [Capacitor](#capacitor).
 
-It's also currently used in several of our other applications.
+It was created by David Peterson.
 
-FCPXMLKit provides support for parsing, manipulating and exporting FCPXML files.
+It's also currently used in several of our other applications such as [Keyframe Toolbox](https://keyframetoolbox.fcp.cafe) and [VFX Toolbox](https://vfxtoolbox.fcp.cafe).
 
-It currently fully supports FCPXML `v1.6` to `v1.13` (although we are working on older FCPXML versions).
+FCPXMLKit provides support for parsing, manipulating and exporting of FCPXML files.
 
-It can be licensed for third party use. If you're interested please get in touch.
+It currently fully supports FCPXML `v1.6` to `v1.13` - although we are actively working on supporting older FCPXML versions, and full FCP7 XML support.
+
+It can be licensed for third party use. If you're interested please get in touch for a quotation and further information.
 
 ![](/static/fcpxmlkit.png)
 

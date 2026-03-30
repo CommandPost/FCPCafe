@@ -4,7 +4,7 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
-{{ include "latenite/scriptstar" }}
+{{ include "latenite/atem-exporter" }}
 
 ---
 
@@ -12,11 +12,7 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
-{{ include "latenite/gyroflow-toolbox" }}
-
----
-
-{{ include "latenite/marker-toolbox" }}
+{{ include "latenite/capacitor" }}
 
 ---
 
@@ -24,11 +20,11 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
-{{ include "latenite/recall-toolbox" }}
+{{ include "latenite/gyroflow-toolbox" }}
 
 ---
 
-{{ include "latenite/capacitor" }}
+{{ include "latenite/keyframe-toolbox" }}
 
 ---
 
@@ -36,7 +32,7 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
-{{ include "latenite/news-import" }}
+{{ include "latenite/marker-toolbox" }}
 
 ---
 
@@ -44,8 +40,24 @@ Here's some of our products currently for sale on the official Apple **Mac App S
 
 ---
 
+{{ include "latenite/news-import" }}
+
+---
+
+{{ include "latenite/notion-toolbox" }}
+
+---
+
+{{ include "latenite/recall-toolbox" }}
+
+---
+
+{{ include "latenite/scriptstar" }}
+
+---
+
 {{ include "latenite/transfer-toolbox" }}
 
 ---
 
-{{ include "latenite/atem-exporter" }}
+{{ include "latenite/vfx-toolbox" }}
