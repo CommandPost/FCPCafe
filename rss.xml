@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 03 Apr 2026 01:14:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 22:10:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Apr 2026 01:14:59 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 22:10:28 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17952,6 +17952,62 @@ Vegas Pro 2026 includes extensive engine optimizations and performance enhanceme
             <link>https://fcp.cafe/#3rd-april-2026</link>
             <guid isPermaLink="false">3rd April 2026</guid>
             <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th April 2026]]></title>
+            <description><![CDATA[<p>For anyone interested in on-device transcription, <strong>ScriptStar v1.5.0 (Build 23)</strong> is now available for testing on <strong>TestFlight</strong>.</p>
+<p>You can find TestFlight links to all of LateNite's products over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>This is really the best place to chat to other Final Cut Pro gurus.</p>
+<p>There's some cool changes to <strong>Keyframe Toolbox</strong> hitting TestFlight VERY soon!</p>
+<p>Whilst the FCP Creative Summit looks like it might have quietly disappeared, NAB is going full stream ahead!</p>
+<p><img src="/static/fcp-creative-summit-2026.png" alt=""></p>
+<p>FMC writes:</p>
+<blockquote>
+<p><strong>The Apple Creator Studio Track Is Here</strong></p>
+<p>If you create with Apple tools—or want to discover how Apple Creator Studio can elevate your next production—this dedicated track at <strong>Post|Production World</strong> Las Vegas is crafted for you.</p>
+<p>It brings together real-world workflows, practical techniques, and advanced tools across Final Cut Pro, Motion, and Pixelmator Pro.</p>
+<p>Whether you're editing on tight deadlines, building dynamic templates, or optimizing your creative pipeline, these sessions are designed to help you work with greater speed, intelligence, and creative control.</p>
+</blockquote>
+<p><img src="/static/post-production-world-2026.jpg" alt=""></p>
+<p>The sessions include a bunch of industry legends:</p>
+<blockquote>
+<p><code>8:15 – 9:15 AM</code>
+<strong>Mobile Production with Live Multicam</strong>
+Steve Martin</p>
+<p><code>9:30 – 10:30 AM</code>
+<strong>Create Your Own Final Cut Pro Templates!</strong>
+Jenn Jager</p>
+<p><code>10:45 – 11:45 AM</code>
+<strong>AI-Enhanced Creator Studio Workflows</strong>
+Mark Spencer</p>
+<p><code>1:30 – 2:30 PM</code>
+<strong>Pixelmator Pro Crash Course</strong>
+Jenn Jager</p>
+<p><code>2:45 – 3:45 PM</code>
+<strong>10 Apple Motion Secrets or Plugins &amp; Workflow Accelerators for FCP</strong>
+Dylan Bates</p>
+<p><code>4:00 – 5:00 PM</code>
+<strong>The Ultimate Creator Studio Tips and Tricks</strong>
+Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
+<p>From live multicam production to advanced Motion workflows, this is where Apple creators level up.</p>
+</blockquote>
+<p>Steve, Mark, Jenn &amp; Dylan are four of the nicest, kindest, smartest and most attractive experts in the Final Cut Pro community, and such great presenters!</p>
+<p>If you're heading to NAB, I would HIGHLY recommend heading to <strong>Post|Production World</strong>.</p>
+<p>Sadly, I won't be making the trek to NAB this year - both for cost and safety reasons, given the current state of the world.</p>
+<p>I'm ASSUMING this is similar reasons why the <strong>FCP Creative Summit</strong> has been delayed or cancelled all-together.</p>
+<p>Based on the years that I've been, a large portion of the FCP Creative Summit attendees and presenters were from overseas, and I think travelling anywhere, let alone the USA in the current climate is a lot more challenging than it was a year ago.</p>
+<p>I also think, with Apple's recent MotionVFX acquisition, the Apple team probably isn't entirely sure of timelines for product releases - it's probably all still an evolving work-in-progress.</p>
+<p>I do however expect to see SOME kind of announcement about Final Cut Pro and MotionVFX at NAB - what exactly I have no idea.</p>
+<p>As I've written on FCP Cafe, I would be REALLY surprised if Apple just add all of MotionVFX's collection to Apple Creator Studio.</p>
+<p>It's POSSIBLE they might just move all the <strong>MotionVFX DesignStudio</strong> elements to Apple Creator Studio:</p>
+<p><img src="/static/motionvfx-design-studio.png" alt=""></p>
+<p>It'll be interesting to see if they keep <strong>mExtension</strong> or if they just include all the Motion Templates as optional downloads in the Effects/Transitions/Titles/Generator Browsers, like they currently do on both Mac and iPad.</p>
+<p><a href="https://www.youtube.com/watch?v=lF5DNGmLlPE"><img src="/static/motionvfx-minstaller.png" alt=""></a></p>
+<p>Either way, NAB will be interesting times!</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-april-2026</link>
+            <guid isPermaLink="false">4th April 2026</guid>
+            <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
