@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 02 Apr 2026 07:15:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 00:55:31 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Apr 2026 07:15:58 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 00:55:31 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17914,6 +17914,30 @@ Vegas Pro 2026 includes extensive engine optimizations and performance enhanceme
             <link>https://fcp.cafe/#2nd-april-2026</link>
             <guid isPermaLink="false">2nd April 2026</guid>
             <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd April 2026]]></title>
+            <description><![CDATA[<p>Happy Easter Friday! 🐣</p>
+<p>First up... <a href="https://codybrom.github.io/CallTheYak/">Bruce the Wonder Yak</a> is back! 🥳</p>
+<p><img src="/static/bruce.png" alt=""></p>
+<p>A few weeks ago the amazing <a href="https://www.samanthabell.com.au">Samantha Bell</a> invited me to her podcast, <a href="https://naturalgenius.com.au/">Natural Genius</a>.</p>
+<p>I love Sam - she's a genius, so lovely, so smart, and just so much fun.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=WLByY6z1cR4">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=WLByY6z1cR4"><img src="/static/chris-on-natural-genius.jpg" alt=""></a></p>
+<p>You can also listen to it on <a href="https://open.spotify.com/episode/0LdfHsWbaec7WAst52PsOe">Spotify</a> and <a href="https://podcasts.apple.com/us/podcast/31-chris-hocking-saying-yes-solving-problems-and/id1866513082?i=1000758937097">Apple Podcasts</a>.</p>
+<p>Hope you enjoy my rants!</p>
+<p><strong>The Wall Street Journal</strong> has also released an awesome little video titled <strong>Apple Just Showed Us Rare Prototypes—Even Tim Cook Hasn’t Seen Them</strong>.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=74qPQt_5DdM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=74qPQt_5DdM"><img src="/static/wsj-tim-cook.jpg" alt=""></a></p>
+<p>Also, following on from yesterday's news post, there's been some cool things in the <strong>FCPBridge</strong> world!</p>
+<p>There's an awesome geeky read on <a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCP_APPLICATION_INTERNALS.md">Final Cut Pro Application Internals</a>.</p>
+<p>There's also an equally geeky and great read on <a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCP_Mac_vs_iPad_Comparison.md">Final Cut Pro: Mac vs iPad — Deep Dive Comparison Report</a>.</p>
+<p>We now have a dedicated FCPBridge channel in the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>For those that celebrate, have an awesome fun and relaxing Easter long-weekend break! 🍫</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-april-2026</link>
+            <guid isPermaLink="false">3rd April 2026</guid>
+            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
