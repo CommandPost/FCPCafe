@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 03 Apr 2026 00:55:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 01:09:03 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Apr 2026 00:55:31 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 01:09:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -17934,6 +17934,19 @@ Vegas Pro 2026 includes extensive engine optimizations and performance enhanceme
 <p>There's also an equally geeky and great read on <a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCP_Mac_vs_iPad_Comparison.md">Final Cut Pro: Mac vs iPad — Deep Dive Comparison Report</a>.</p>
 <p>We now have a dedicated FCPBridge channel in the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
 <p>For those that celebrate, have an awesome fun and relaxing Easter long-weekend break! 🍫</p>
+]]></description>
+            <link>https://fcp.cafe/#3rd-april-2026</link>
+            <guid isPermaLink="false">3rd April 2026</guid>
+            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[3rd April 2026]]></title>
+            <description><![CDATA[<p><strong>FCPBridge v2.8.3</strong> is out now.</p>
+<p>It includes the following improvement:</p>
+<ul>
+<li><strong>Effect drag as adjustment clip:</strong> drag effects to empty timeline space to create named adjustment clips with effects applied, toggle via FCPBridge menu</li>
+</ul>
+<p>You can learn more and download from <a href="https://github.com/elliotttate/FCPBridge">GitHub</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#3rd-april-2026</link>
             <guid isPermaLink="false">3rd April 2026</guid>
