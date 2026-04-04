@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 03 Apr 2026 22:10:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Apr 2026 21:31:06 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Apr 2026 22:10:28 GMT</pubDate>
+        <pubDate>Sat, 04 Apr 2026 21:31:06 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18008,6 +18008,127 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
             <link>https://fcp.cafe/#4th-april-2026</link>
             <guid isPermaLink="false">4th April 2026</guid>
             <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2026]]></title>
+            <description><![CDATA[<p>Happy Easter Sunday! Hope the bunny delivered you lots of yummy chocolate eggs! 🐣</p>
+<p>For some lazy Sunday morning viewing, below are some fun videos.</p>
+<p>First up we have a Steve Wozniak showcasing the &quot;Revolutions&quot; exhibit at the The Computer History Museum, in Mountain View California back in 2011.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=da62VjETjsg">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=da62VjETjsg"><img src="/static/woz-video.jpg" alt=""></a></p>
+<p>Next up we have the handsome <a href="https://iain-anderson.com">Iain Anderson</a> talking about all things AI on Office Hours Global.</p>
+<p>You can watch it on <a href="https://www.youtube.com/live/q6iv0opOT9A">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/live/q6iv0opOT9A"><img src="/static/iain-anderson-live.jpg" alt=""></a></p>
+<p>Finally, we have the unstoppable <strong>Richard Taylor</strong> talking about all things Final Cut Pro &amp; NAB 2026.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=i7J7omWq5ns">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=i7J7omWq5ns"><img src="/static/fcpradio-nab-2026.jpg" alt=""></a></p>
+<p>In more nerdy news, here's some cool things:</p>
+<ul>
+<li><a href="https://github.com/Netflix/void-model">VOID: Video Object and Interaction Deletion</a></li>
+<li><a href="https://github.com/jjang-ai/mlxstudio">MLXStudio: The native macOS desktop app for local AI on Apple Silicon</a></li>
+<li><a href="https://github.com/Arthur-Ficial/apfel">apfel: FREE local Apple Intelligence LLM on your Mac</a></li>
+</ul>
+<p>If you want to go even more nerdy, here's some great reads from the <strong>FCPBridge</strong> project:</p>
+<ul>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/CONTENT_EXCHANGE_GUIDE.md">Content Exchange with Final Cut Pro</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCPXML_FORMAT_REFERENCE.md">FCPXML Format Reference</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCP_API_REFERENCE.md">Final Cut Pro Internal API Reference</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FCP_PASTEBOARD_MEDIA_LINKING.md">FCP Pasteboard &amp; Media Linking: Restoring Clips with Attributes</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/FXPLUG_PLUGIN_GUIDE.md">FxPlug 4 Plugin Development Guide</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/TIMELINE_DRAG_DROP_GUIDE.md">Dragging FCPXML Content Directly onto the FCP Timeline</a></li>
+<li><a href="https://github.com/elliotttate/FCPBridge/blob/main/docs/WORKFLOW_EXTENSIONS_GUIDE.md">Workflow Extensions Guide</a></li>
+</ul>
+<p>The amazing Brian Elliott Tate has also open-sourced <strong>Spectra</strong> - a high-performance FxPlug4 plugin for Final Cut Pro that applies <code>.cube</code> 3D LUTs (Look-Up Tables) for color grading. Runs out-of-process via XPC with Metal GPU rendering.</p>
+<p>You can learn more an download on <a href="https://github.com/elliotttate/Spectra">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2026</link>
+            <guid isPermaLink="false">5th April 2026</guid>
+            <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2026]]></title>
+            <description><![CDATA[<p><strong>FCPBridge v2.8.4</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<p><strong>Effect Browser Favorites:</strong></p>
+<ul>
+<li>Right-click any effect in the Effects Browser to Add to Favorites or Remove from Favorites</li>
+<li>Uses FCP's built-in favorites API — favorites persist across sessions</li>
+</ul>
+<p><strong>FCP Internal Debug &amp; Diagnostics:</strong></p>
+<ul>
+<li>Expose Final Cut Pro's built-in developer tools via MCP:</li>
+<li><strong>Timeline visual overlays:</strong> lane indices, misaligned edges, hidden gaps, render bars</li>
+<li><strong>Performance monitoring:</strong> framerate monitor, video decoder logging, frame drop tracking</li>
+<li><strong>Logging system:</strong> ProAppSupport structured logging with configurable levels and categories</li>
+<li><strong>Presets for quick enable/disable:</strong> <code>timeline_visual</code>, <code>performance</code>, <code>verbose_logging</code>, <code>all_off</code></li>
+</ul>
+<p><strong>Patcher Signing Fix:</strong></p>
+<ul>
+<li>Use ad-hoc signing only — preserves Apple framework signatures</li>
+<li>Fixes crash in ProAppSupport when Developer ID certificate was present</li>
+</ul>
+<p><strong>Crash Prevention:</strong></p>
+<ul>
+<li>Block known unsafe trim selectors with nil error pointers that caused segfaults</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fix <code>retimeHold</code> action mapping (was using non-existent <code>retimeHoldFromSelection:</code>, now correctly uses <code>retimeHold:</code>)</li>
+<li>Updated patcher shell script with same signing fix</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/elliotttate/FCPBridge">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2026</link>
+            <guid isPermaLink="false">5th April 2026</guid>
+            <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2026]]></title>
+            <description><![CDATA[<p><strong>PaperCut Pro v1.0</strong> is now live.</p>
+<p>This is created by <a href="https://patrokiras.com">Chenxing Liu</a>, the same developer behind <a href="https://fcpbooster.com/workspace-remapper/">Workspace Remapper</a> and <a href="https://fcpbooster.com/subtitle-wrangler/">Subtitle Wrangler</a>.</p>
+<blockquote>
+<p>PaperCut Pro is a browser-based, text-driven rough cut editor for language-heavy content such as interviews, monologues, and dialogue.</p>
+<p>Import transcribed footage (media + SRT/VTT/ITT, or FCPXML with captions). Edit directly on the text — copy, cut, paste, and rearrange like a document, with media staying in sync for preview. Export timelines as FCPXML for finishing in Final Cut Pro.</p>
+<p>Projects can be shared for collaboration — structure can be shaped in text and returned as a timeline foundation, without rebuilding from scratch.</p>
+<p>Built as a side project to address a long-standing pain point in FCP documentary workflows.</p>
+<p>Free and fully local (runs in the browser, no uploads). Google Chrome recommended.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://fcpbooster.com/paper-cut-pro/">PaperCut Pro website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2026</link>
+            <guid isPermaLink="false">5th April 2026</guid>
+            <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5th April 2026]]></title>
+            <description><![CDATA[<p><strong>FCP Backup Manager v0.8.0</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<p><strong>Added:</strong></p>
+<ul>
+<li>Preferred Time: optional time-of-day picker for daily and weekly schedules (e.g., run at 6:00 PM every day instead of on a rolling interval)</li>
+<li>Quiet Hours: optional time window during which scheduled backups are suppressed (e.g., skip 9:00 AM to 5:00 PM to avoid running during editing sessions)</li>
+<li>Quiet hours supports overnight windows (e.g., 10:00 PM to 6:00 AM)</li>
+<li>Setup JSON support for preferredTimeEnabled, preferredTime, quietHoursEnabled, quietHoursStart, quietHoursEnd (all times in HH:mm format)</li>
+<li>MDM profile support for PreferredTimeEnabled, PreferredTime, QuietHoursEnabled, QuietHoursStart, QuietHoursEnd</li>
+<li>Config export now includes preferred time and quiet hours when enabled</li>
+<li>Wake-from-sleep detection resets the schedule timer to avoid drift after the Mac wakes</li>
+</ul>
+<p><strong>Fixed:</strong></p>
+<ul>
+<li>MDM profile support for preferred time and quiet hours keys was missing — PreferredTimeEnabled, PreferredTime, QuietHoursEnabled, QuietHoursStart, QuietHoursEnd are now read from managed preferences, applied at highest priority, and locked in the Settings UI</li>
+<li>Schedule timer now starts at app launch instead of waiting for the user to open the menu bar dropdown — previously, if the app launched via Login Items and the user never clicked the menu icon, scheduled backups would never fire</li>
+<li>Overdue backup catch-up: if a scheduled backup was missed while the app was quit or the Mac was asleep, the app now fires the backup shortly after launch instead of waiting the full interval</li>
+<li>Menu bar &quot;Next:&quot; display now accounts for preferred time and quiet hours when calculating the next run</li>
+</ul>
+<p><strong>Changed:</strong></p>
+<ul>
+<li>Schedule settings moved to their own Schedule tab in the Settings sidebar under Utilities, giving more room for the new preferred time and quiet hours controls</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/macvfx/FCP-Backup-Manager">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#5th-april-2026</link>
+            <guid isPermaLink="false">5th April 2026</guid>
+            <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
