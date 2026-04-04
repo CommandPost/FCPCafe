@@ -8,6 +8,12 @@ If you want a real-world example of a FxPlug 4 application, you can look at [Gyr
 
 ---
 
+## FCPBridge FxPlug Guide
+
+You can read a detailed FxPlug guide over on the [FCPBridge GitHub](https://github.com/elliotttate/FCPBridge/blob/main/docs/FXPLUG_PLUGIN_GUIDE.md).
+
+---
+
 ## Swift Example
 
 Whilst FxPlug does ship with some sample code/projects, they're not very complete.
@@ -15,6 +21,10 @@ Whilst FxPlug does ship with some sample code/projects, they're not very complet
 **Sebastian** at [FidelityFuze](https://www.fidelityfuze.com) has very kindly thrown together an updated **FxBrightness** example, with handles tiling and non-square-pixels.
 
 You can download the code on [GitHub](https://github.com/FidelityFuze/FxBrightness).
+
+The amazing elliotttate has also open-sourced **Spectra** - a high-performance FxPlug4 plugin for Final Cut Pro that applies `.cube` 3D LUTs (Look-Up Tables) for color grading. Runs out-of-process via XPC with Metal GPU rendering.
+
+You can learn more an download on [GitHub](https://github.com/elliotttate/Spectra).
 
 ---
 

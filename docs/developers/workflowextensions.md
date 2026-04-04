@@ -10,6 +10,12 @@ If you want a real-world example of a Workflow Extension, you can look at [Comma
 
 ---
 
+## FCPBridge Workflow Extension Guide
+
+You can read a detailed Workflow Extension guide over on the [FCPBridge GitHub](https://github.com/elliotttate/FCPBridge/blob/main/docs/WORKFLOW_EXTENSIONS_GUIDE.md).
+
+---
+
 ## Frequently Asked Questions
 
 ### Why do developers make Workflow Extension icon's greyscale?
