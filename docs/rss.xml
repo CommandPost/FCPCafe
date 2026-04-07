@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 07 Apr 2026 23:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 23:51:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Apr 2026 23:15:17 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 23:51:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18260,6 +18260,22 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
         </item>
         <item>
             <title><![CDATA[8th April 2026]]></title>
+            <description><![CDATA[<p><strong>ATEM Exporter v1.1.0</strong> is out now! 🥳</p>
+<p>HUGE thank you to Vlad at Amid Films for all his work improving and testing ATEM Exporter! THANK YOU!</p>
+<p>It contains the following improvements:</p>
+<ul>
+<li>Adds an optional checkbox to log preview bus camera changes alongside program bus cuts. Thanks Vlad at Amid Films!</li>
+<li>Adds a dropdown to select which Mix/Effect bus (M/E 1-4) to log cuts from. Defaults to M/E 1. Both program and preview bus handlers now filter events by the selected M/E. Thanks Vlad at Amid Films!</li>
+<li>Allows a recorded cut log to be saved as a readable XML file and reimported later, so FCPXML export can be done at any time without needing to be connected to the ATEM. Thanks Vlad at Amid Films!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://atemexporter.fcp.cafe">ATEM Exporter website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2026</link>
+            <guid isPermaLink="false">8th April 2026</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2026]]></title>
             <description><![CDATA[<p><strong>SpliceKit v3.1.1</strong> was released with the following update:</p>
 <ul>
 <li><strong>Support Final Cut Pro Creator Studio:</strong> fixed subscription validation and CloudKit crash on ad-hoc signed builds</li>
@@ -18288,6 +18304,52 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
 <li>Working with Suite could result in an incorrect &quot;Drive not available&quot; alert.</li>
 </ul>
 <p>You can download and learn more on the <a href="https://hedge.co/products/postlab">Hedge website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2026</link>
+            <guid isPermaLink="false">8th April 2026</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2026]]></title>
+            <description><![CDATA[<p><strong>Keyframeless v2026-04-07</strong> is out now.</p>
+<p>It's so cool to see that <a href="https://github.com/elliotttate/SpliceKit">SliceKit</a> is already helping 3rd party developers!</p>
+<p>It contains the following improvements:</p>
+<p><strong>Timing:</strong></p>
+<ul>
+<li>Up to 10s for animate in and out.</li>
+<li>⚠️ Any existing usage will be limited to the old 2s limit. You'll need to delete and re-apply any any effects (Rounded, MagicMove).</li>
+</ul>
+<p><strong>Keyframeless X - Audio:</strong></p>
+<ul>
+<li>Drag straight to timeline without compound clips being created - shout out to <a href="https://github.com/elliotttate/SpliceKit">SliceKit</a> for making this possible.</li>
+<li>Add import button - allows choosing a library and imports as a new Captions event.</li>
+<li>Font on published parameters - taking templates one step closer to not needing editing in Final Cut Pro 🎉</li>
+<li>Caption styling options always visible</li>
+<li>Ability to update community templates.</li>
+<li>Paste to FCP button - clicking this button pastes straight to timeline</li>
+<li>‼️ requires granting Accessibility permissions for Keyframeless X, needed for overlapping clips, or use Import button as an alternative</li>
+<li>Fix color picker hiding behind windows when Final Cut Pro timeline hovered.</li>
+<li>Fix 59.94fps causes line break in dropdown.</li>
+<li>Preview not representative of where title ends up in Final Cut Pro</li>
+</ul>
+<p><strong>Magic Move:</strong></p>
+<ul>
+<li>New 3D rotation OSC - hold <code>OPTION</code> key to access these</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/overpolish/keyframeless">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2026</link>
+            <guid isPermaLink="false">8th April 2026</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2026]]></title>
+            <description><![CDATA[<p><strong>Doza Assist</strong> is out now for free on GitHub.</p>
+<blockquote>
+<p>A local-first AI-powered interview transcription and editing tool for documentary filmmakers.</p>
+<p>Built for video production workflows — transcribe interviews, discover clips with AI, highlight and organize selects, and export pre-cut timelines directly to Final Cut Pro.</p>
+</blockquote>
+<p>You can download and learn more on <a href="https://github.com/DozaVisuals/doza-assist">GitHub</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#8th-april-2026</link>
             <guid isPermaLink="false">8th April 2026</guid>
