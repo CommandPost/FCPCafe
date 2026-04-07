@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 07 Apr 2026 08:01:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 23:15:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Apr 2026 08:01:54 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 23:15:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18257,6 +18257,41 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
             <link>https://fcp.cafe/#7th-april-2026</link>
             <guid isPermaLink="false">7th April 2026</guid>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2026]]></title>
+            <description><![CDATA[<p><strong>SpliceKit v3.1.1</strong> was released with the following update:</p>
+<ul>
+<li><strong>Support Final Cut Pro Creator Studio:</strong> fixed subscription validation and CloudKit crash on ad-hoc signed builds</li>
+</ul>
+<p>Quickly followed by <strong>SpliceKit v3.1.2</strong>:</p>
+<ul>
+<li>App Store receipt validation for Creator Studio: verify subscription locally via PKCS7 receipt before launching, show alert if no valid subscription found</li>
+</ul>
+<p>You can download and learn more on the <a href="https://github.com/elliotttate/SpliceKit">SpliceKit GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2026</link>
+            <guid isPermaLink="false">8th April 2026</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th April 2026]]></title>
+            <description><![CDATA[<p><strong>PostLab v26.1.1</strong> is out now with the following changes:</p>
+<p><strong>Improved:</strong></p>
+<ul>
+<li>Significant stability improvements when using unreliable network connections. Thank you for reporting, Elias!</li>
+<li>Delayed background activity from still-open apps is handled more reliably, helping prevent conflicts while saving your work. Thanks, Fabrice!</li>
+<li>[PRO] When your cloud storage is not yet ready, PostLab now shows a more specific warning so you know exactly what's going on.</li>
+</ul>
+<p><strong>Fixed:</strong></p>
+<ul>
+<li>Working with Suite could result in an incorrect &quot;Drive not available&quot; alert.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://hedge.co/products/postlab">Hedge website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-april-2026</link>
+            <guid isPermaLink="false">8th April 2026</guid>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

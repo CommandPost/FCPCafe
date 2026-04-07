@@ -1,0 +1,24 @@
+# 9 Square Metres for Two
+
+This is a great experimental documentary, made up of a series of short clips filmed by actual inmates of Baumettes Prison in France. Basically, someone has given ten men a handheld video camera, some quick instructions on how to press record, and let the people do their thing. This is a really interesting film, as the characters are so interesting. However, it is what it is: a bunch of criminals with digital cameras.
+
+---
+
+## Discuss this page
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

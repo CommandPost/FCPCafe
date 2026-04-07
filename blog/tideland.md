@@ -1,0 +1,24 @@
+# Tideland
+
+I honestly don’t know what to make of this film. It’s really bizarre! It tells the story through the eyes of a highly imaginative young girl, the daughter of junkies, who’s taken to the country with her father after her mother dies. When her father dies as well, her world comes even wackier as she gets to know her neighbours. This film has some great special effects, some really funny moments and some moments that truly stun you. It has everything from talking squirrels, to talking bodiless Barbie dolls, to train disasters. The opening scenes scared the crap out of me, as I have a great fear of needles, but I really loved the dream sequences. This is truly a unique and ambitious film that I just can’t really make sense of. The young actress that played the lead did an amazing job; she’s got some real talent!
+
+---
+
+## Discuss this page
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

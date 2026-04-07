@@ -1,0 +1,32 @@
+# Importing AVCHD Footage into Avid
+
+We have thrown together a quick little PDF tutorial on how to import **AVCHD** footage (specifically footage from a **Sony NX5**) into **Avid Media Composer 6.5** using AMA. This tutorial assumes you are a beginner to Avid Media Composer, so it goes through all the steps in quite a bit of detail.
+
+**You can download the PDF [here](https://github.com/CommandPost/FCPCafe/blob/main/downloads/04-Importing-AVCHD-Footage-into-Avid.pdf).**
+
+For more detailed technical information, it’s also worth checking out Avid’s [AVCHD AMA Plug-in Guide](http://resources.avid.com/SupportFiles/attach/AVCHD_AMA_v6.0_v10.pdf).
+
+If you’re doing a more traditional offline/online workflow, then it’s worth checking out this video:
+
+Any questions, let me know!
+
+---
+
+## Discuss this page
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

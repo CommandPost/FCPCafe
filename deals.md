@@ -1,0 +1,304 @@
+# Deals
+
+This page is dedicated to showcasing the latest deals for Final Cut Pro related tools.
+
+If there's something missing or incorrect, [please let us know](/contribute/).
+
+---
+
+## 2026 Deals
+
+Here's some of the deals we know about in 2026:
+
+---
+
+### Jumper
+
+You can get **25% off** Jumper with the Discount code: `25OFF`.
+
+You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
+
+---
+
+## Pro Editor Bundles
+
+For only **USD$100** (save USD$29.95!), you can now buy [BRAW Toolbox](https://brawtoolbox.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [Marker Toolbox](https://markertoolbox.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) & [Fast Collections](https://fastcollections.fcp.cafe) as a bundle!
+
+Better yet, for an **extra USD$50**, you can also get [LUT Robot](https://lutrobot.fcp.cafe) and [Capacitor](https://capacitor.fcp.cafe) (save USD$9.93)!
+
+However, if you want **EVERYTHING**, the **Pro Editor Bundle v3** is only **USD$179.99** (save USD$9.92) and includes:
+
+- [BRAW Toolbox](/latenite/#braw-toolbox)
+- [Capacitor](/latenite/#capacitor)
+- [Fast Collections](/latenite/#fast-collections)
+- [Gyroflow Toolbox](/latenite/#gyroflow-toolbox)
+- [LUT Robot](/latenite/#lut-robot)
+- [Marker Toolbox](/latenite/#marker-toolbox)
+- [Metaburner](/latenite/#metaburner)
+- [News Import](/latenite/#news-import)
+- [Recall Toolbox](/latenite/#recall-toolbox)
+
+The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
+
+You can find the bundles on the **Apple Mac App Store** here:
+
+- [**Pro Editor Bundle**](https://apps.apple.com/app-bundle/pro-editor-bundle/id1717681153).
+- [**Pro Editor Bundle v2**](https://apps.apple.com/app-bundle/pro-editor-bundle-v2/id1750813030).
+- [**Pro Editor Bundle v3**](https://apps.apple.com/app-bundle/pro-editor-bundle-v3/id1814969493).
+
+![](/static/pro-editor-bundle.jpg)
+
+---
+
+## Black Friday Deals 2025
+
+Looking for **Black Friday** deals?
+
+**Jonny Elwyn's** site is probably the best place to find them!
+
+You can check out his detailed list of deals [on his website](https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2025/).
+
+---
+
+## Black Friday Deals 2024
+
+Looking for **Black Friday** deals?
+
+**Jonny Elwyn's** site is probably the best place to find them!
+
+You can check out his detailed list of deals [on his website](https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2024/).
+
+---
+
+### Jumper
+
+**Jumper** is having a Black Friday sale!
+
+Get **50% off** yearly and lifetime licenses with the discount code: `BLACKFRIDAY50`.
+
+You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
+
+---
+
+### CoreMelt
+
+**CoreMelt** is also having a massive Black Friday sale!
+
+Get **50% off** everything with the discount code: `CM2024BF`.
+
+Offer ends **4th December**.
+
+You can learn more on the [CoreMelt website](https://coremelt.com/blogs/news/black-friday-2024-our-bee-st-ever-sale).
+
+---
+
+### Hedge
+
+**Hedge** is also doing a Black Friday sale!
+
+Until **7th December**, all new licenses and upgrades to Pro are **20% off**. Yes, that includes bundles 🥳
+
+Use the discount code: `BLACKFRIDAY`.
+
+You can learn more on the [Hedge website](https://hedge.co).
+
+---
+
+### MotionVFX
+
+MotionVFX are offering **30% off** on their site using the promo code: `BW30`
+
+![](/static/motionvfx-promo.jpg)
+
+You can learn more [here](https://www.motionvfx.com/black-weeks-2024).
+
+---
+
+### Color Finale
+
+**Color Finale** is having their Black Friday Sale offering up to **65% off** post-production tools.
+
+![](/static/colorfinale-black-friday-2024.jpeg)
+
+You can learn more on the [Color Finale website](https://colorfinale.com/sale).
+
+---
+
+## NAB 2024
+
+**timeinpixels** is currently offering 20% off **OmniScope**.
+
+You can use the discount code: `NAB2024`.
+
+You can learn more [here](https://timeinpixels.com).
+
+---
+
+## Black Friday Deals 2023
+
+**Valentina Vee** has a great [Twitter thread](https://twitter.com/valentinavee/status/1726386386004275590) with all the deals she's interested in.
+
+**Pro Video Coalition** has a blog post titled: [PVC’s BIG Black Friday list for 2023](https://www.provideocoalition.com/pvcs-big-black-friday-list-for-2023/)
+
+**Jordi Bruin** also has an incredible website called [Indie Friday](https://www.indiefriday.app) showcasing a whole bunch of independently developed apps.
+
+---
+
+### Audio Design Desk
+
+Audio Design Desk is currently doing a Black Friday Sale with **50% off** all perpetual licenses and subscription plans.
+
+Use code **BF2023** at checkout.
+
+You can learn more [here](https://add.app/pricing/).
+
+---
+
+### BretFX
+
+**BretFX** has released **Outliner FX**, a comprehensive package of animated Outline Effects, Outline Styles and Custom Outline Shape Effects.
+
+You can download a free trial, and purchase for USD$19.99 (instead of the regular price of USD$29.99).
+
+You can learn more [here](https://www.bretfx.com/product/outliner/).
+
+---
+
+### Color Finale
+
+**Color Finale** is having a Black Friday sale with deals at over **50% off**.
+
+For example, get **Color Finale 2 Pro** for USD$99, instead of USD$149!
+
+You can learn more [here](https://colorfinale.com/store).
+
+---
+
+### FabFilter
+
+**FabFilter** currently has a 25% discount on all plug-ins, bundles and in your account until 27th November.
+
+You can learn more [here](https://www.fabfilter.com).
+
+---
+
+### FilmConvert
+
+FilmConvert is currently doing a Black Friday Sale with up to **40% off**, as well as discount and upgrades for existing customers.
+
+You can learn more [here](https://www.filmconvert.com/purchase).
+
+---
+
+### FxFactory
+
+**FxFactory** is currently doing a Black Friday Sale with **20% off** if you use the code: **BLACKFRIDAY**
+
+You can learn more [here](https://fxfactory.com).
+
+---
+
+### iZotope
+
+Upgrade and save on **iZotope Post Production Suite 7.5**, including brand-new **Nectar 4**, and let your vocals shine. Or, complete your toolkit with **70% off** all iZotope's flagship products in the **Everything Bundle**.
+
+You can learn more [here](https://www.izotope.com/en/deals/loyalty-pps7.html).
+
+---
+
+### Klevgrand
+
+Klevgrand also has a bunch of Black Friday deals:
+
+- Up to $551 to be saved on single products!
+- Two temporary special bundles, saving up to $264!
+- Choose two Tomofon Extension packs (worth $30) for free with every purchase of our multi-layer wavetable synth Tomofon! Choose packs at checkout.
+
+You can learn more on [their website](https://klevgrand.com).
+
+---
+
+### MotionVFX
+
+**MotionVFX** is also having their biggest sale of the year, with up to **50% off** and free packs.
+
+You can learn more [here](https://www.motionvfx.com/black-deals).
+
+---
+
+### Pixelmator
+
+Get **Photomator** for USD$9.99 for the first year of an annual subscription and **Pixelmator Pro** for USD$24.99 for a lifetime!
+
+![](/static/pixelmator-discount.jpeg)
+
+You can purchase on the Mac App Store [here](https://apps.apple.com/mac/developer/pixelmator-team/407963107?mt=12).
+
+---
+
+### Ripple Training
+
+**Ripple Training** is offering **40% off** tutorials and plugins.
+
+You can learn more [here](https://www.rippletraining.com).
+
+---
+
+### Sound Ideas
+
+**Sound Ideas** is currently having a Black Friday sale with 50% off all Sound Ideas Proprietary Libraries & Buy 2 Products and get the third free!
+
+Offer ends 30th November.
+
+You can learn more [here](https://www.sound-ideas.com).
+
+---
+
+### SynQR
+
+Are you struggling with out-of-sync video playback? Do you feel uncomfortable guessing your DAW's video offset based on a 2-pop? Say goodbye to guesswork. With SynQR, you can measure the video offset of your playback system in real-time.
+
+This app is currently **50% off** on the Mac App Store.
+
+You can learn more [here](https://apps.apple.com/de/app/synqr/id6448926987).
+
+---
+
+### timeinpixels
+
+**timeinpixels** is currently offering 20% off **OmniScope**.
+
+You can use the discount code: `NAB2024`.
+
+You can learn more [here](https://timeinpixels.com).
+
+---
+
+### Ulti.Media
+
+**Ulti.Media** is having a Black Friday Super Sale.
+
+Get up to **50% off** their products and bundles, like BeatMark Pro, FCP Diet 2, FCP Cut Finder, FCP STR Importer 2, BeatMark 2, Ulti.Media Converter 2, FCP Video Tag and PoweResize.
+
+You can learn more [here](https://ulti.media/black-friday/).
+
+---
+
+## Discuss this page
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/FCPCafe"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk5NTAwMjEwMg=="
+        data-category="Website Discussions"
+        data-category-id="DIC_kwDOBamd9s4CW0qy"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

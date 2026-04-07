@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fcp.cafe/sitemap.xml.gz
+Sitemap: https://fcp.cafe/sitemap.xml
