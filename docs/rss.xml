@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 04 Apr 2026 21:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Apr 2026 22:58:44 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 04 Apr 2026 21:31:06 GMT</pubDate>
+        <pubDate>Sun, 05 Apr 2026 22:58:44 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18129,6 +18129,57 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
             <link>https://fcp.cafe/#5th-april-2026</link>
             <guid isPermaLink="false">5th April 2026</guid>
             <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th April 2026]]></title>
+            <description><![CDATA[<p>First up, <strong>Tim de Groot</strong> from Hedge has released a little personal project - introducing <a href="https://apps.apple.com/au/app/tv-knight/id6757367595">TV Knight</a>.</p>
+<p><img src="/static/tv-knight.png" alt=""></p>
+<p>Next up... Bye-bye <strong>FCPBridge</strong>, hello, <strong>SpliceKit</strong>! 🥳</p>
+<p>With input from the <a href="https://ltnt.tv/discord">FCP Cafe community</a>, the application has been renamed, and the installation process has been dramatically simplified and made much more consumer-friendly.</p>
+<p>A new icon is currently being designed by the incredible <a href="https://matthewskiles.com">Matthew Skiles</a> - and should be done at some point in the next week or so.</p>
+<p><strong>SpliceKit v3.0.0</strong> contains the following changes:</p>
+<ul>
+<li><strong>New name:</strong> FCPBridge is now SpliceKit</li>
+<li><strong>Wizard UI:</strong> 3-panel setup wizard (Welcome, Patching, Status) with separate log window</li>
+<li><strong>Xcode project:</strong> Proper build system replaces raw <code>swiftc</code> compilation</li>
+<li><strong>DMG distribution:</strong> Professional macOS disk image with Applications shortcut</li>
+<li><strong>&quot;Enhancements&quot; menu:</strong> Final Cut Pro menu bar item renamed from product name to feature-oriented label</li>
+<li><strong>Portable paths:</strong> All hardcoded user-specific paths removed — tools are found via standard locations (<code>~/Applications/SpliceKit/tools/</code>)</li>
+<li>New app icon</li>
+</ul>
+<p><strong>SpliceKit v3.0.1</strong> contains the following changes:</p>
+<ul>
+<li>Fix Sparkle showing false update when already on latest version (<code>CFBundleVersion</code> mismatch)</li>
+<li>Bundle pre-built parakeet-transcriber in the DMG — transcription works out of the box without Xcode CLT</li>
+<li>Improved Parakeet error messages with specific guidance for common failures (short clips, missing media, network issues, disk space, permissions, Apple Silicon requirement)</li>
+<li>Skip clips shorter than 0.5s instead of sending them to Parakeet and failing</li>
+<li>Deploy tools (parakeet, silence-detector) to ~/Applications/SpliceKit/tools/ during make deploy</li>
+<li>Detailed logging of search paths and file status for easier debugging</li>
+</ul>
+<p>If you look on the <a href="https://github.com/elliotttate/SpliceKit">SpliceKit GitHub repository</a> there's already a lot of new stuff not yet released, so definitely exciting times ahead!</p>
+<p>You can now easily install the <strong>Enhancements</strong> into Final Cut Pro with a couple of clicks.</p>
+<p><img src="/static/splicekit-01.png" alt=""></p>
+<p><img src="/static/splicekit-02.png" alt=""></p>
+<p><img src="/static/splicekit-03.png" alt=""></p>
+<p><img src="/static/splicekit-04.png" alt=""></p>
+<p><img src="/static/splicekit-05.png" alt=""></p>
+<p><img src="/static/splicekit-06.png" alt=""></p>
+<p><img src="/static/splicekit-07.png" alt=""></p>
+<p>SpliceKit is SUPER interesting and exciting, as it opens up basically unlimited possibilities with Final Cut Pro, but it also gives developers a much better insight into the inner workings of Final Cut Pro, allowing developers to build even better Workflow Extensions and FxPlug Filters.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-april-2026</link>
+            <guid isPermaLink="false">6th April 2026</guid>
+            <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6th April 2026]]></title>
+            <description><![CDATA[<p><strong>OnderK Studio v1.0.1</strong> is out now.</p>
+<p><img src="/static/onderk-studio.png" alt=""></p>
+<p>You can download and learn more on the <a href="https://onderk.com/apps/onderk-studio">OnderK Studio website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#6th-april-2026</link>
+            <guid isPermaLink="false">6th April 2026</guid>
+            <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
