@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 05 Apr 2026 22:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 08:01:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Apr 2026 22:58:44 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 08:01:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18180,6 +18180,83 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
             <link>https://fcp.cafe/#6th-april-2026</link>
             <guid isPermaLink="false">6th April 2026</guid>
             <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th April 2026]]></title>
+            <description><![CDATA[<p>Happy Tuesday! I hope everyone had an awesome fun and relaxing long weekend! 🥳</p>
+<p>Someone asked me what movies I've watched in the cinema recently, so here you go...</p>
+<p>I love them all - all five stars out of five! ⭐️⭐️⭐️⭐️⭐️</p>
+<ul>
+<li><a href="https://www.imdb.com/title/tt11891850/">Hard Truths (2024)</a></li>
+<li><a href="https://www.imdb.com/title/tt12042730/">Project Hail Mary (2026)</a></li>
+<li><a href="https://www.imdb.com/title/tt27704325/">Out of Season (2023)</a></li>
+<li><a href="https://www.imdb.com/title/tt21800162/">There’s Still Tomorrow (2023)</a></li>
+</ul>
+<p>I also recently went to see <strong>Art of the Score: James Horner</strong>, performed by the <strong>Melbourne Symphony Orchestra</strong>, and it was wonderful.</p>
+<p>So many great soundtracks!</p>
+<ul>
+<li>Star Trek II: The Wrath of Khan</li>
+<li>Apollo 13: Suite</li>
+<li>Aliens: Suite</li>
+<li>The Rocketeer: The Flying Circus</li>
+<li>Braveheart: Suite</li>
+<li>Willow: Theme</li>
+<li>A Beautiful Mind: A Kaleidoscope of Mathematics</li>
+<li>The Amazing Spiderman: Promises and End Credits</li>
+<li>Field of Dreams: The Place Where Dreams Come True</li>
+<li>The Mask of Zorro: The Ride</li>
+<li>Avatar: Suite</li>
+<li>Titanic: Suite</li>
+</ul>
+<p>For anyone in Melbourne, you can learn more on the <a href="https://www.mso.com.au/performance/2026-art-of-the-score-james-horner">MSO website</a>.</p>
+<p>In other news... Things have been moving fast in the world of <strong>SpliceKit</strong>!</p>
+<p><strong>SpliceKit v3.0.2</strong> contains the following fixes:</p>
+<ul>
+<li><strong>Auto-discover FCP</strong> — Uses Spotlight to find Final Cut Pro anywhere on the system (e.g. <code>/Applications/New/Final Cut Pro.app</code>), not just the default <code>/Applications</code> path</li>
+<li><strong>Browse for FCP</strong> — If auto-discovery fails, a <code>Browse for Final Cut Pro...</code> button lets users locate the app manually</li>
+<li><strong>Fix launch crash</strong> — <code>SpliceKitLogPanel.m</code> was missing from the dylib build script, causing FCP to crash on launch with <code>symbol not found '_OBJC_CLASS_$_SpliceKitLogPanel'</code></li>
+<li><strong>Fix version display</strong> — PlistBuddy error text (<code>File Doesn't Exist, Will Create:</code>) no longer shown as the FCP version when the app is at a non-standard path</li>
+</ul>
+<p><strong>SpliceKit v3.1.0</strong> contains the following changes:</p>
+<ul>
+<li><strong>Configurable J/L Playback Speed Ladders:</strong></li>
+<li>Swizzle <code>fastForward:</code> and <code>rewind:</code> on <code>FFPlayerModule</code> so each press of <code>L</code> or <code>J</code> walks a user-configurable speed ladder instead of the hardcoded <code>1→2→4→8→16→32</code> progression.</li>
+<li><strong>Custom speed steps</strong> — add intermediate speeds like 1.5x and 1.8x (e.g. 1, 1.5, 1.8, 2, 4, 8)</li>
+<li><strong>Configure via menu</strong> — Enhancements &gt; Playback Speed &gt; click <code>L</code> Speeds or <code>J</code> Speeds to edit</li>
+<li><strong>Configure via API</strong> — <code>set_bridge_option(&quot;lLadder&quot;, value=[1, 1.5, 2, 4, 8])</code></li>
+<li><strong>New MCP tool</strong> — <code>set_playback_speed(rate=1.5)</code> for exact rates, <code>set_playback_speed(action=&quot;faster&quot;)</code> for progressive shuttle</li>
+<li><strong>Rate reporting</strong> — <code>get_playhead_position()</code> now returns current playback rate</li>
+<li><strong>K+L / K+J</strong> - single-frame stepping preserved from original Final Cut Pro behaviour</li>
+<li>Settings persist across restarts via <code>NSUserDefaults</code></li>
+</ul>
+<p>You can download and learn more on the <a href="https://github.com/elliotttate/SpliceKit">SpliceKit GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-april-2026</link>
+            <guid isPermaLink="false">7th April 2026</guid>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[7th April 2026]]></title>
+            <description><![CDATA[<p><strong>ATEM TO FCP v1.5</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<ul>
+<li><strong>New:</strong> Relink ISO Files — replace ATEM recordings with camera originals while preserving the live edit</li>
+<li><strong>New:</strong> Flexible sync modes - shared timecode or manual reference alignment</li>
+<li><strong>New:</strong> Project Resolution override (HD / UHD / DCI / QHD)</li>
+<li><strong>New:</strong> Color Generator support with per-segment color accuracy</li>
+<li><strong>Improved:</strong> Frame-accurate timing for NTSC and Drop Frame formats</li>
+<li><strong>Improved:</strong> Automatic handling of midnight crossover timecode</li>
+<li><strong>Improved:</strong> Reconstruction of Flying Key animations</li>
+<li><strong>Improved:</strong> Accurate alignment of simultaneous transitions and overlays</li>
+<li><strong>Improved:</strong> Smarter handling of missing media with offline-ready export</li>
+<li><strong>Improved:</strong> More reliable audio mapping and WAV matching</li>
+<li><strong>UI:</strong> Cleaner layout, collapsible sections, and improved feedback</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/atem-to-fcp/id6760610577">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#7th-april-2026</link>
+            <guid isPermaLink="false">7th April 2026</guid>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
