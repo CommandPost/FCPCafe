@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 09 Apr 2026 13:03:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Apr 2026 13:21:59 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Apr 2026 13:03:02 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 13:21:59 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18443,7 +18443,7 @@ On to the fun bits, as it’s currently raining 26.1 releases 🙂</p>
 <li>Fix parakeet-transcriber build for updated FluidAudio API (<code>AsrManager.initialize</code> → <code>loadModels</code>, new model version enum variants)</li>
 <li>Caption script is now non-blocking for long clips with transcript reuse</li>
 </ul>
-<p><strong>SpliceKit v3.1.3</strong> includes the following change:</p>
+<p><strong>SpliceKit v3.1.4</strong> includes the following change:</p>
 <ul>
 <li>Improves social caption insertion and relaunch restore. Fixes title placeholder recovery on restart, preserves caption placement on reload, and tightens word highlighting behavior.</li>
 </ul>
