@@ -49,6 +49,36 @@ edit:
   base: /docs
   label: Edit this page on GitHub
 
+actions:
+  items:
+    - text: Copy page
+      action: copy-page-markdown
+      icon: copy
+    - text: Copy link
+      action: copy-page-link
+      icon: link
+    - type: separator
+    - text: View as Markdown
+      action: view-page-markdown
+      icon: markdown
+    - text: Print page
+      action: print-page
+      icon: brand-printer
+    - type: separator
+    - text: Open in ChatGPT
+      icon: brand-openai
+      action: open-in-chatgpt
+      target: blank
+    - text: Open in Claude
+      icon: brand-claude
+      action: open-in-claude
+      target: blank
+    - type: separator
+    - text: Edit on GitHub
+      icon: mark-github
+      action: edit-on-github
+      target: blank
+
 favicon: static/favicon.ico
 
 data:
