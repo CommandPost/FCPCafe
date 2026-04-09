@@ -72,6 +72,12 @@ You can also listen to Chris on:
 - [Coming up Next Podcast (12th July 2016)](https://podcasts.apple.com/au/podcast/coming-up-next/id1019053801?i=1000372372572)
 - [FCP Radio (1st Feb 2023)](https://podcasts.apple.com/au/podcast/final-cut-pro-radio/id1061415673?i=1000597468348)
 
+You can also watch Chris talk about development at these CocoaHeads talks:
+
+- [Melbourne CocoaHeads No. 194 — April 2026](https://www.youtube.com/watch?v=0TbMkst_9JI)
+- [Melbourne CocoaHeads No. 170 — October 2023](https://www.youtube.com/watch?v=nm0dMV3HVO0)
+- [Melbourne CocoaHeads No. 162 - February 2023](https://www.youtube.com/watch?v=KYpYJHWbZUg)
+
 ---
 
 ## Custom Tools & Consulting
