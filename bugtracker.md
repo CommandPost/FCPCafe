@@ -32,6 +32,7 @@ You can also send feedback directly to the Final Cut Pro team via their [Feedbac
 
 Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 
+- [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
@@ -61,7 +62,6 @@ Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
-- [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -73,6 +73,7 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
@@ -100,7 +101,6 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
-- [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
