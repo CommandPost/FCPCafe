@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 07:54:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 08:51:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 07:54:34 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 08:51:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19020,6 +19020,8 @@ On to the fun bits, as it’s currently raining 26.1 releases 🙂</p>
 <p>This was the start of our love of Blackmagic Cameras.</p>
 <p>I was at university when the RED ONE first came out (I actually shot my <a href="https://www.youtube.com/watch?v=Wfmk7tLZSw0">3rd year Uni film on it</a>) - but RED's were never really affordable for regular people.</p>
 <p>Blackmagic's cameras on the other hand, were cheap, yet still achieved absolutely beautiful images.</p>
+<p>Unrelated, there's a fun image from around that era:</p>
+<p><img src="/static/blackmagic-and-r3d.jpg" alt=""></p>
 <p>Fun fact... if you go to the Blackmagic Forums, my 2017 <a href="https://forum.blackmagicdesign.com/viewtopic.php?f=2&amp;t=7952">Frequently Asked Questions post</a> is still pinned in the Camera Forums, haha.</p>
 <p>This love of Blackmagic cameras actually gave me my first professional software product that I released on the Mac App Store, <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a>.</p>
 <p>Over the years, I've worked pretty closely with the Blackmagic team - and their support has been INCREDIBLE.</p>
