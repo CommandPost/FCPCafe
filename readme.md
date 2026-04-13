@@ -21,6 +21,424 @@ Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-b
 # 2026
 ## April
 
+### [13th April 2026](/news/20260413)
+
+Happy Monday! 👋
+
+At 3AM tonight (Melbourne time) Blackmagic will be pushing out their NAB update video to the world. 🥳
+
+[![](/static/bmd-nab-2026.png)](https://www.blackmagicdesign.com)
+
+Whilst I most likely won't watch the video until a more sensible hour, like 6AM (unlike WWDC where I'll generally get up in the middle of the night) - Blackmagic's pre-NAB announcements are always super exciting and interesting.
+
+To give some backstory... Blackmagic Design was founded on 7 September 2001 by the amazing and seemingly unstoppable **Grant Petty**, in my hometown of **Melbourne, Australia**.
+
+![](/static/grant-petty.jpg)
+
+Blackmagic’s first breakthrough was not a cinema camera or an editing suite. It was **DeckLink**, launched in 2002: a capture card for Mac workflows that brought uncompressed 10-bit video into a price range that was startlingly low for the era.
+
+One official release framed the value proposition bluntly: **high-quality uncompressed video at US$995**.
+
+Later Blackmagic materials would describe DeckLink as having launched a broader revolution in affordability for post-production.
+
+![](/static/grant-petty-2.jpg)
+
+That detail matters because it reveals something fundamental about Grant’s operating style. He did not begin with a prestige product meant to impress the top end of Hollywood. He began at a pressure point: a technical bottleneck where price and capability were wildly out of balance.
+
+That pattern would repeat again and again over the next two decades. Blackmagic rarely behaved like a luxury manufacturer. It behaved like a company studying where incumbents had become complacent - then using engineering and cost discipline to collapse the old margin structure.
+
+Blackmagic became known as the company that brought high-end post production tools to the world.
+
+Grant has always been about bringing professional hardware to the masses. He makes products for EVERYONE - not the Hollywood elite.
+
+He grew up in a housing commission flat - his family didn't have much money.
+
+In a [Financial Review](https://www.afr.com/wealth/people/he-grew-up-in-a-housing-commission-now-he-s-worth-1-4b-20220712-p5b14k) article he explained:
+
+> “When you’ve come from that [humble] background, you realise that the world you’re in is too fat and too lazy and too slow and too greedy. You realise that what you actually have is a very nimble, unconstrained thing. And what you’re going to do is, basically, take over the whole industry.”
+
+Grant has described his early experience in television as a confrontation with a strange contradiction: the industry was full of creative people, but the tools were priced and structured in ways that concentrated power in a handful of large facilities.
+
+In the early 2000s, high-end post-production hardware could cost extraordinary sums, which meant much of the industry behaved less like a creative field and more like an expensive equipment-rental hierarchy.
+
+That insight became the foundation for Blackmagic Design.
+
+This is what makes the Blackmagic story so interesting. It was never just a product story. It was an argument about access.
+
+Grant was not trying merely to sell gear into an existing system. He wanted to alter who could participate in that system at all.
+
+The company’s enduring philosophy - professional capability at dramatically lower prices - makes the most sense when you see it not as a pricing strategy, but as a political philosophy of technology.
+
+Blackmagic’s products are designed to move power away from gatekeepers and toward editors, colourists, cinematographers, small studios, students, and eventually YouTubers, indie filmmakers, live producers, and entire classrooms.  ￼
+
+Many company histories become less interesting the moment the founder becomes a “visionary” in the vague corporate sense. Grant's story is more compelling because he never seems to have fully left the engineering bench behind.
+
+Profiles of Grant emphasize that he remained unusually close to the technical and operational guts of the business, including writing internal SQL code that helped run company systems. [CineD](https://www.cined.com/the-story-of-blackmagic-design-how-grant-petty-changed-the-industry/), drawing on [Forbes’](https://www.forbes.com/sites/schifrin/2022/04/11/how-an-aussie-from-the-housing-projects-became-a-billionaire-making-gear-for-next-gen-spielbergs/) reporting, described this as part of what makes Blackmagic so unusual: a founder-CEO still directly engaged in the architecture of how the company works.  ￼
+
+That detail helps explain Blackmagic’s culture. The company often comes across less like a brand-management machine and more like a deeply opinionated engineering organisation.
+
+Grant has consistently argued for practical knowledge over corporate polish, and for keeping decision-making close to the people who actually understand the tools and the users.
+
+[SmartCompany’s interview](https://www.smartcompany.com.au/entrepreneurs/blackmagic-design-founder-grant-petty-on-how-a-burning-revelation-led-him-to-create-his-300-million-video-technology-company/) with him captures that ethos clearly: he speaks less like a financier and more like a builder who distrusts distance between problem and solution.  ￼
+
+If you look at Blackmagic's branding - it's super slick. Every product photo is hyper stylised, and Photoshop'd to the max.
+
+You never see messy cables, to wear and tear on equipment - it always looks perfect.
+
+![](/static/blackmagic-hollywood.jpg)
+
+On the flip side, if you watch Blackmagic's previous NAB videos, like the below:
+
+[![](/static/blackmagic-nab-2025.jpg)](https://www.youtube.com/watch?v=GxX-Wnfi51k)
+
+It's just Grant talking directly to camera - constantly going off script - but always talking with an insane amount of product knowledge.
+
+He's always wearing his trademark black Blackmagic shirt.
+
+Unlike a modern Apple Keynote video, Grant and Blackmagic do something more like Steve Jobs - it's just Grant talking honestly and enthusiastically directly to his audience. And I love it.
+
+Despite being the CEO - Grant is INSANELY hands on, and I would guess that he probably knows more about Blackmagic's products, both inside and out, than anyone else in the world.
+
+Grant has built one of the most influential companies in modern screen production not by chasing glamour, but by attacking a simple problem over and over again.
+
+Why should the best creative tools be locked behind absurd prices? Why should the people with the strongest ideas have the weakest access?
+
+According to Petty’s own retellings, that frustration was not a side note. It was the mission.
+
+I've never actually had the pleasure or privilege of talking directly to Grant before (despite being in the same room as him many times in the past), but even just being in the same space as him, you certainly learn a lot.
+
+For example, I was editing and filming content for Pause Fest for several years in Melbourne, where Blackmagic was a major sponsor, and Grant was a special guest.
+
+You can watch his 2019 presentation at Pause Fest on [YouTube](https://www.youtube.com/watch?v=N_2G7EMK_lQ):
+
+[![](/static/grant-pausefest-video.jpg)](https://www.youtube.com/watch?v=N_2G7EMK_lQ)
+
+You can watch his 2025 presentation at Pause Fest on [YouTube](https://www.youtube.com/watch?v=xuKP5VecUj4):
+
+[![](/static/grant-pausefest-2025.jpg)](https://www.youtube.com/watch?v=xuKP5VecUj4)
+
+The first year I worked on Pause Fest, Blackmagic, as a major sponsor, supplied all the cameras and production equipment to film the conference - with all the labour being supplied by Swinburne University.
+
+Blackmagic's Engineers were on-location to train up students to film the live event.
+
+Blackmagic brought in some of their big production cameras and racks of gear.
+
+The students were trained, very quickly, on how to do each of their chosen tasks (i.e. camera operator, vision switcher, CCU operator, sound mixer, etc) by the Blackmagic team and set to work to film every main stage talk, with some of the most amazing speakers on the planet.
+
+The event was amazing, and the speakers on the stage were incredible, however what I found most interesting was observing Grant look at the setup.
+
+Even from afar, you could see the wheels were turning - "why do we need so many racks", "these cameras are too large", "we're running too many cables", etc.
+
+The Swinburne students filmed everything on the main stage, EXCEPT when Grant was talking - this is where the Blackmagic staff took over, and operated the cameras and switches.
+
+Then after this presentation, you could see all the Blackmagic team having a big debrief - what worked, what didn't.
+
+The next time I did Pause Fest, Blackmagic had smaller ATEM mixers, and smaller cameras. Their camera system and built-in comms, and could run everything over fibre.
+
+Grant had looked at the problems, and his incredible team solved them.
+
+The first year I did Pause Fest, the Swinburne students were also doing all the edits on-location, using iMac's supplied by Swinburne - editing in Adobe Premiere Pro.
+
+They didn't have any shared storage (only a single big Promise Pegasus), and the amount of data they were getting from each session was pretty insane, so I helped them interconnect all their edit suites with Thunderbolt connections, so they could more easily share data.
+
+The next year however, all the students were using DaVinci Resolve. But when Grant went into the editing room and saw the students working (again using the Promise shared over Thunderbolt), I could again see him looking at the situation and brainstorming.
+
+The next year or so, Blackmagic came out with the [Blackmagic Cloud Store](https://www.blackmagicdesign.com/products/blackmagiccloudstore).
+
+Again, Grant looked at the situation, identified the issues, then his team came out with new products to solve the issues.
+
+I was very fortunate to see this play out in real time, over the number of years. Each year Blackmagic came out with new products, to make their real world production experience easier.
+
+But as far as I can tell, Grant always looks at things from a traditional broadcast eye. He's not a filmmaker - he's a technician, who's quite happy to be deep within an OB truck patching SDI cables.
+
+Everything Blackmagic do, is very much with a broadcast eye - as opposed to a indie filmmakers eye - which is why we have things like the [Speed Editor](https://www.blackmagicdesign.com/products/davinciresolve/keyboard) and [Editor's Keyboard](https://www.blackmagicdesign.com/products/davinciresolve/keyboard) - which are very much tied into that broadcast/EVS-style world.
+
+The second act of the Blackmagic story is about expansion, but not in the usual startup sense.
+
+Rather than simply releasing adjacent products, the company began acquiring critical pieces of the professional production pipeline.
+
+In **2009**, Blackmagic bought the assets of **Da Vinci Systems**, one of the most important names in high-end colour correction.
+
+[![](/static/davinci-old.jpg)](https://www.youtube.com/watch?v=-UmLkGO7PaY)
+
+In **2010**, it acquired **Echolab**, bringing ATEM live production switchers into the fold.
+
+[![](/static/echolab.jpg)](https://www.youtube.com/watch?v=PmGmHxJX3Nk)
+
+In **2012**, it acquired **Cintel’s** assets.
+
+[![](/static/cinetel.jpg)](https://www.youtube.com/watch?v=O4pUc1PB-do)
+
+In **2014**, it acquired **eyeon Software**, maker of **Fusion**.
+
+[![](/static/fusion.jpg)](https://www.youtube.com/watch?v=1XvzmPKyaws)
+
+In **2016**, it acquired **Fairlight**, a storied Australian audio technology company. Blackmagic’s own release archive and announcements make that progression clear.  ￼
+
+[![](/static/fairlight.jpg)](https://www.youtube.com/watch?v=bDnxZHbHeE8)
+
+Fun fact, the **PYXIS** name actually came from Fairlight! I'm guessing Grant looked at the list of trademarks he owned, and decided to save some cash!
+
+Seen one by one, these look like smart deals. Seen together, they look like a map.
+
+Colour. Live switching. Film scanning. VFX compositing. Audio post.
+
+Blackmagic was not merely collecting brands. It was assembling an end-to-end production and post-production ecosystem.
+
+That is why DaVinci Resolve matters so much to the company’s identity. Resolve became the place where several of those acquired capabilities could converge into one integrated environment.
+
+By **2017**, Blackmagic was publicly describing DaVinci Resolve 14 as effectively three high-end applications in one: editing, colour correction, and Fairlight audio tools.  ￼
+
+That integration is one of Grant's most important achievements. Plenty of technology companies lower prices. Fewer manage to lower prices while also simplifying the workflow itself.
+
+Perhaps the clearest expression of Blackmagic’s worldview is what it did with Resolve.
+
+Da Vinci had long been associated with elite colour finishing. Under Blackmagic, Resolve was not just maintained; it was progressively transformed into a much broader platform and distributed in versions that dramatically widened access, including free and lower-cost editions in the early 2010s.
+
+Blackmagic announcements from 2011 document the release of DaVinci Resolve Lite and the company’s push to make the software available more broadly, including on Windows.  ￼
+
+This was classic Grant strategy: take a tool associated with elite post houses, repackage it for creative users, lower the price barrier, and expand the market by making the pie bigger rather than simply fighting over the old premium tier.
+
+[SmartCompany’s](https://www.smartcompany.com.au/entrepreneurs/blackmagic-design-founder-grant-petty-on-how-a-burning-revelation-led-him-to-create-his-300-million-video-technology-company/) profile of Grant captures this theme directly, including his view that creative ambition does not disappear just because the industry’s old economics are irrational.  ￼
+
+Blackmagic did not merely make professional tools cheaper. It changed expectations about what professional tools should cost.
+
+Side note... given that we're on FCP Cafe (and this is going massively down a rabbit hole) - back in 2009 I released a blog post titled, [Final Cut Studio 3 Predictions](https://fcp.cafe/blog/final-cut-studio-3-predictions/).
+
+Reading this back now, and it almost seems like the Blackmagic team read this and used it as a bible for DaVinci Resolve.
+
+For example:
+
+> So what will make this new FCX so different? Well, it’s our prediction that most of the Final Cut Studio (i.e. Final Cut Pro, Soundtrack Pro, Color, LiveType, etc.) will be merged into the one application. We predict a MASSIVE interface and workflow overhaul. No longer will you need to Send to Soundtrack Pro, or use XML workarounds to get your timeline into Color. Everything will be in the one “box”. In typical Apple style – we predict they’ll make things better, by making them substantially simpler.
+>
+> So how the hell will this actually work? We believe the key is a new Universal Timeline and a set of different Rooms.
+
+This is basically what DaVinci Resolve has become.
+
+There are many successful hardware and software companies in media technology. Very few inspire the kind of loyalty Blackmagic does.
+
+Part of that is **practical**. The company has products across cameras, capture, switching, colour, storage, monitoring, and finishing.
+
+Part of it is **symbolic**. For a generation of creators, Blackmagic represents the moment professional production stopped feeling like a private club.
+
+Official company materials routinely describe DeckLink as revolutionary for affordability, and customer-facing narratives around Blackmagic products repeatedly frame the brand as giving smaller teams access to capabilities once reserved for major facilities.
+
+[CineD’s](https://www.cined.com/the-story-of-blackmagic-design-how-grant-petty-changed-the-industry/) summary of the company’s history makes the same point in broader terms: Blackmagic built high-quality tools for filmmakers without the traditional price tag.  ￼
+
+That does not mean every product launch has been perfect, or that the company has avoided controversy. But even critics usually concede the larger truth: Blackmagic shifted the industry’s centre of gravity.
+
+Once creators saw what was possible at Blackmagic prices, the old premium logic became much harder to defend.
+
+A good example of this is back in 2012, I wrote another blog post titled, [Blackmagic Cinema Camera](https://fcp.cafe/blog/blackmagic-cinema-camera/).
+
+The amazing Australian cinematographer [John Brawley](https://www.johnbrawley.com) - who's DOP on Shrinking, Bad Monkey, The Morning Show, etc. leant us his camera to just play with.
+
+This was the start of our love of Blackmagic Cameras.
+
+I was at university when the RED ONE first came out (I actually shot my [3rd year Uni film on it](https://www.youtube.com/watch?v=Wfmk7tLZSw0)) - but RED's were never really affordable for regular people.
+
+Blackmagic's cameras on the other hand, were cheap, yet still achieved absolutely beautiful images.
+
+Fun fact... if you go to the Blackmagic Forums, my 2017 [Frequently Asked Questions post](https://forum.blackmagicdesign.com/viewtopic.php?f=2&t=7952) is still pinned in the Camera Forums, haha.
+
+This love of Blackmagic cameras actually gave me my first professional software product that I released on the Mac App Store, [BRAW Toolbox](https://brawtoolbox.fcp.cafe).
+
+Over the years, I've worked pretty closely with the Blackmagic team - and their support has been INCREDIBLE.
+
+In the early days of BRAW Toolbox I had zero idea what I was doing - I knew very little about C++, I knew very little about Metal, I knew very little about codecs in general - but the team was always happy to answer my dumb questions, and help were they can.
+
+Another fun side-story... **Hook Stowers** is the "Frequency Wrangler" at Blackmagic - he looks after camera colour science, BRAW and other things at Blackmagic. Previously he was based in Melbourne, but now he's based in LA.
+
+Why oh why would you move from the most magical place on earth (Melbourne) to LA you might ask?
+
+Well, turns out, whilst [John Brawley](https://www.johnbrawley.com) has been shooting Shrinking for Apple, Hook has been grading it! 🤯
+
+![](/static/shrinking-01.jpg)
+
+![](/static/shrinking-02.jpg)
+
+![](/static/shrinking-03.jpg)
+
+![](/static/shrinking-04.jpg)
+
+![](/static/shrinking-05.jpg)
+
+![](/static/shrinking-06.jpg)
+
+![](/static/shrinking-07.jpg)
+
+...and it's beautiful.
+
+But back to Grant...
+
+The most interesting thing about Grant is not that he became wealthy, though profiles from [Forbes](https://www.forbes.com/sites/schifrin/2022/04/11/how-an-aussie-from-the-housing-projects-became-a-billionaire-making-gear-for-next-gen-spielbergs/) and the [Financial Review](https://www.afr.com/wealth/people/he-grew-up-in-a-housing-commission-now-he-s-worth-1-4b-20220712-p5b14k) note that Blackmagic’s success eventually made him a billionaire.
+
+The more important point is how unusual his route was: he built a global screen-technology company from **Melbourne** by serving the people who had historically been underestimated by the industry’s power structure.  ￼
+
+His story is ultimately about conviction in the hands of users.
+
+Grant seems to have understood earlier than most that when you make creative tools cheaper, you are not merely changing budgets.
+
+You are changing who gets to experiment, who gets to learn, who gets to fail, and who gets to become excellent.
+
+Lowering the cost of entry does not diminish an art form. Very often, it expands it.
+
+That is why Blackmagic Design matters.
+
+It is a case study in what happens when an engineer decides that the structure of an industry is itself a design problem.
+
+And once Grant saw that problem, he spent the next two decades building tools that made the old order harder and harder to justify.
+
+And I fricken love that.
+
+So the big question... what do we expect from Blackmagic's NAB video?
+
+Well, I think we'll definitely see Blackmagic expand into [Jumper](https://getjumper.io) territory and bring machine learning search to DaVinci Resolve.
+
+However, looking at Blackmagic's hiring for the last year - I do think that **cloud** will play a massive role, as they seem to be employing and searching for more **Golang** programmers than C++ programmers these days.
+
+I think a big focus of this years NAB will be camera to cloud - going directly from Blackmagic Cameras to Blackmagic's Cloud Storage to Blackmagic's local on-premises shared storage, and straight into DaVinci Resolve.
+
+Whilst Apple has been avoiding collaboration in Final Cut Pro (and even between iPad and Mac) like the plague - I think Grant see's collaboration as a REALLY important thing to solve.
+
+I've written about this before:
+
+> The problem with Final Cut Pro is that had some awesome ideas to simplify things, and made the frontend slick and amazing, but under the hood everything’s not really designed for purpose. The creatives had more power than the engineers.
+>
+> Whereas Blackmagic is almost the opposite - the engineers rule the land, so you have incredible technology under the hood, but the frontend also looks like a spaceship.
+>
+> Blackmagic really has built the most amazing platform that continues to improve at a dramatic pace because under the hood, they have the power, tools and technology to do anything. They have an amazing ML platform, amazing colour science pipeline, a true multi-user collaborative database backend, a powerful cloud platform, and it works across Mac, Windows and Linux. They also have some of the smartest engineers across every aspect of the film and television industry from acquisition to delivery.
+>
+> Apple on the other hand struggle with performance of large timeline, struggle with audio thumbnails, struggle with third party audio effects (despite using Apple’s own Audio Units as the plugin infrastructure) and struggle to play nicely with third party developers. I’m not sure how fixable these problems are, and how much of a priority it is for Apple to fix, or if they’ll just continue to wait until hardware gets faster and faster.
+>
+> As Blackmagic continues to add more ML features and workflow improvements, and more people actually start using Resolve’s Edit page for creative editing, Blackmagic will continue to iterate and improve based on real-world feedback.
+>
+> I think there’s a tipping point where Resolve’s advantages will eventually outweigh FCP’s - but it won’t be because of a single feature or change - it’ll be because Resolve makes the whole pipeline easier, with the ability to edit footage whilst camera’s still rolling, on-device ML syncing and logging, real collaborative editing, and powerful delivery tools - the one-stop-shop.
+
+Final Cut Pro definitely allows me to be the most creative and have the most fun. With Resolve, I feel like I’m driving a spaceship, whereas Final Cut Pro feels like I’m playing a fun musical instrument.
+
+I can do things faster which leaves me more time to experiment and be creative.
+
+Whilst I have the upmost respect for DaVinci Resolve - for now... it's not the most fun tool to play with.
+
+Hopefully Grant can eventually change that. Time will tell.
+
+You can watch this great interview of Grant by **The Interview** on [YouTube](https://www.youtube.com/watch?v=ZTJFXSNl6YE):
+
+[![](/static/grant-the-interview.jpg)](https://www.youtube.com/watch?v=ZTJFXSNl6YE)
+
+You can watch this great interview of Grant by **Conversation Bytes** on [YouTube](https://www.youtube.com/watch?v=xBxy3q-xe94):
+
+[![](/static/conversation-bytes-grant.jpg)](https://www.youtube.com/watch?v=xBxy3q-xe94)
+
+You can read more about Grant Petty below (a lot of which I reference to above as I was doing some digging):
+
+- [CineD: The Story of Blackmagic Design – How Grant Petty Changed the Industry (13th April 2022)](https://www.cined.com/the-story-of-blackmagic-design-how-grant-petty-changed-the-industry/)
+- [The Australian Financial Review: "Stop caring about how you look or what people think of you - and focus" (20th July 2022)](https://www.afr.com/wealth/people/he-grew-up-in-a-housing-commission-now-he-s-worth-1-4b-20220712-p5b14k)
+- [Forbes: How An Aussie From The Housing Projects Became A Billionaire Making Gear For Next-Gen Spielbergs (11th April 2022)](https://www.forbes.com/sites/schifrin/2022/04/11/how-an-aussie-from-the-housing-projects-became-a-billionaire-making-gear-for-next-gen-spielbergs/)
+- [SmartCompany: Blackmagic Design founder Grant Petty on how a “burning revelation” led him to create his $300 million video technology company (11th July 2017)](https://www.smartcompany.com.au/entrepreneurs/blackmagic-design-founder-grant-petty-on-how-a-burning-revelation-led-him-to-create-his-300-million-video-technology-company/)
+
+Somewhat related, in other crazy Melbourne news, **Atomos** recently announced the acquisition of **Flanders Scientific (FSI)**, one of the most respected names in professional reference monitoring.
+
+Colourists and video editors all over the world LOVE their Flanders Scientific monitors - so this is big news!
+
+For those that don't know, Atomos was founded in 2010 by Jeromy Young & Ian Overliese after both leaving Blackmagic because they disagreed with Grant Petty's business plans.
+
+Blackmagic and Atomos have always had a BIG rivalry.
+
+You can watch this amazing **Frame Voyager** documentary on YouTube, titled **The DISTURBING history of ATOMOS**:
+
+[![](/static/frame-voyager-atomos.jpg)](https://www.youtube.com/watch?v=nHiokt2g94E)
+
+For those that don't know, **Estelle McGechie** mentioned in the video above was ALSO born in Melbourne (are we seeing a pattern here?!), and has an INCREDIBLE CV including:
+
+- 2006-2009: Video Engineering & Workflow Specialist @ Disney
+- 2004-2010: Product Marketing, Professional Video Applications @ Apple
+- 2013-2019: Senior Manager, Worldwide Product Development and Product Marketing @ Apple (responsible for Final Cut Pro)
+- 2019-2020: Senior Director - Global Head of Video, Creativity and Productivity @ Logitech
+- 2020-2021: Vice President Marketing @ Frame.io
+- 2021-2023: Product Advisor @ Hedge
+- 2023-2024: Vision Pro Engineering Program Manager @ Apple
+- 2024-2026: Vision Pro Strategic Partnerships Manager, Production Technology & Cameras @ Apple
+
+What's even more interesting though is that in **2025**, two-time Atomos CEO **Jermony Young** was replaced with **Peter Barber**, who was also a co-founder of Blackmagic Design. 🤯
+
+Jermony Young remains at Atmos as a non-executive director.
+
+You can read more about this on [PetaPixel](https://petapixel.com/2025/05/06/two-time-atomos-ceo-jeromy-young-replaced-by-co-founder-of-blackmagic-design/).
+
+You can real the full press release on the [Atomos site](https://www.atomos.com/2026/04/07/flanders-scientific-aquisition/).
+
+Pretty crazy to think Blackmagic, Atomos and [Rode](https://rode.com) are all Australian companies hitting well above their weight - and that there's so many talented Aussie's in Apple as well! 🦘
+
+How crazy would it be if Blackmagic, Atmos and Rode all combined. 🤯
+
+---
+
+**SpliceKit v3.1.7** is out now!
+
+This release includes a new amazing feature, **Sections**.
+
+- Sections bar for timeline song structure, add default transition to all clips command, fuzzy search stop-word handling
+
+You can watch it in action on [YouTube](https://www.youtube.com/watch?v=plirvqHe6o0):
+
+[![](/static/splicekit-sections-youtube.jpg)](https://www.youtube.com/watch?v=plirvqHe6o0)
+
+You can download and learn more on the [SpliceKit Website](https://splicekit.fcp.cafe).
+
+---
+
+**Production's Best Friend** is out now by the amazing team at [Intelligent Assistance](https://www.intelligentassistance.com).
+
+Interestingly, Production's Best Friend is an eventual replacement for [Producer's Best Friend](https://www.intelligentassistance.com/productions-best-friend/).
+
+Producer's Best Friend is currently built for Intel Mac's and only runs on Apple Silicon with Rosetta 2, which is being removed in [macOS 28](https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment/).
+
+![](/static/producers-best-friend-activity-monitor.png)
+
+You can watch an introduction video on [YouTube](https://www.youtube.com/watch?v=-00a6BpQf2M):
+
+[![](/static/productions-best-friend.jpg)](https://www.youtube.com/watch?v=-00a6BpQf2M)
+
+The website says:
+
+> Stop building production reports by hand.
+> Production’s Best Friend turns your Projects into a professional Excel spreadsheet — instantly.
+>
+> Whether you’re the editor generating it, the coordinator submitting it, or the producer signing off on it — Production’s Best Friend speaks everyone’s language.
+>
+> - Generate clip lists, shot lists and track-accurate sequence reports instantly
+> - Deliver editorial metadata to VFX, audio, QC, grading, legal and archive teams
+> - Capture effects, transitions and markers — perfect for editorial turnovers
+> - Designed for Final Cut Pro
+> - Exports clean Excel for producers, coordinators and post teams
+
+Purchase Options:
+
+- Monthly for $19.99
+- One Year for $129.99
+- Three Years for $199.99
+
+At $19.99 a month, Production’s Best Friend costs less than an hour of a post coordinator’s time and saves many.
+
+Or save 46% on an annual plan and reduce admin.
+
+You can learn more on the [Production's Best Friend website](https://www.intelligentassistance.com/productions-best-friend/).
+
+[!button text="Discuss this news item" variant="info"](news/20260413/#discuss-this-page)
+
+---
+
+!!!warning Sponsored
+**Jump to the best parts of editing.**\
+A powerful machine learning search engine for your footage.\
+**_No clouds. No uploads. All on device._**\
+Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+!!!
+
+---
+
 ### [12th April 2026](/news/20260412)
 
 Happy Sunday! 👋
@@ -71,15 +489,16 @@ We've been tinkering with Media Extensions for a few years now though - so it's 
 
 HUGE THANK YOU to the amazing [Anton Marini](https://github.com/vade) for all his on-going ideas, help and support with BRAW Toolbox.
 
+You can download and learn more on the [BRAW Toolbox website](https://brawtoolbox.fcp.cafe).
+
 [!button text="Discuss this news item" variant="info"](news/20260412/#discuss-this-page)
 
 ---
 
 !!!warning Sponsored
-**Jump to the best parts of editing.**\
-A powerful machine learning search engine for your footage.\
-**_No clouds. No uploads. All on device._**\
-Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -423,9 +842,8 @@ You can download and learn more on the [SpliceKit Website](https://splicekit.fcp
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -553,8 +971,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -643,8 +1061,9 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -729,9 +1148,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -800,8 +1218,8 @@ You can download and learn more on the [OnderK Studio website](https://onderk.co
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -929,8 +1347,9 @@ You can download and learn more on [GitHub](https://github.com/macvfx/FCP-Backup
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1020,9 +1439,8 @@ Either way, NAB will be interesting times!
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1080,8 +1498,8 @@ You can learn more and download from [GitHub](https://github.com/elliotttate/FCP
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1245,8 +1663,9 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1496,9 +1915,8 @@ You can download and learn more on the [Recall Toolbox website](https://recallto
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1607,8 +2025,8 @@ You can download and learn more on the [Marker Data website](https://markerdata.
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1638,8 +2056,9 @@ Onwards & Upwards!
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1778,9 +2197,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1828,8 +2246,8 @@ You can download and learn more on [GitHub](https://github.com/overpolish/keyfra
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1978,8 +2396,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2088,9 +2507,8 @@ You can download and learn more on the [Strada website](https://strada.tech).
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2197,8 +2615,8 @@ You can download and learn more on [FxFactory](https://fxfactory.com/info/magicc
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2306,8 +2724,9 @@ Certainly interesting times ahead!
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2330,9 +2749,8 @@ You can download and learn more on the [FidelityFuze website](https://www.fideli
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2497,8 +2915,8 @@ You can download and learn more on [The VFX Campus website](https://thevfxschool
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2639,8 +3057,9 @@ You can learn more on the [MotionVFX website](https://www.motionvfx.com).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2685,9 +3104,8 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2771,8 +3189,8 @@ You can download and learn more on the [FCP Template Manager website](https://ro
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2808,8 +3226,9 @@ You can learn more and download on the [LUT Robot website](https://lutrobot.fcp.
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2929,9 +3348,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2961,8 +3379,8 @@ You can download and learn more on the [gAnalyzer website](https://www.gphyx.com
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3011,8 +3429,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3077,9 +3496,8 @@ You can learn more and download on Dylan Bates (aka The Final Cut Bro)'s [websit
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3120,8 +3538,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3211,8 +3629,9 @@ You can learn more on the [ScriptStar website](https://scriptstar.fcp.cafe).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3301,9 +3720,8 @@ You can learn more on [GitHub](https://github.com/TheAcharya/pipeline-neo).
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3326,8 +3744,8 @@ You can learn more about this the [Mr. Macintosh YouTube page](https://www.youtu
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3398,8 +3816,9 @@ You can learn more and buy evrExpanse on their [website](https://evrapp.gumroad.
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3455,9 +3874,8 @@ You can download and learn more on the [MotionVFX website](https://www.motionvfx
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3489,8 +3907,8 @@ You can watch on [YouTube](https://www.youtube.com/watch?v=ikOp-fIw2fQ):
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3545,8 +3963,9 @@ You can download and learn more on [GitHub](https://github.com/TheAcharya/pipeli
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3591,9 +4010,8 @@ You can download and learn more on the [CommandPost website](https://commandpost
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3697,8 +4115,8 @@ Onwards & Upwards!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3742,8 +4160,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3845,9 +4264,8 @@ You can watch his video on YouTube:
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3940,8 +4358,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4001,8 +4419,9 @@ You can watch on [YouTube](https://www.youtube.com/watch?v=2z6hd2dCv_w):
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4178,9 +4597,8 @@ It seems Apple now wants to make SURE you're purchasing. I wonder if this applie
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4234,8 +4652,8 @@ Enjoy the rest of your weekend team!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4279,8 +4697,9 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=cqxgfY0zzac):
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4343,9 +4762,8 @@ You can download and learn more on the [Capacitor website](https://capacitor.fcp
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5232,8 +5650,8 @@ Thanks team! Happy editing!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5302,41 +5720,6 @@ It includes the following changes:
 You can learn more and download on the [Mac App Store](https://apps.apple.com/app/xtocc/id487899517).
 
 [!button text="Discuss this news item" variant="info"](news/20260128/#discuss-this-page)
-
----
-
-!!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
-!!!
-
----
-
-### [25th January 2026](/news/20260125)
-
-For some lazy Sunday viewing...
-
-**Richard Taylor** continues to do his regular **Final Cut TV Live** shows.
-
-You can watch the latest one below on YouTube:
-
-[![](/static/fcp-tv-live-jan.jpg)](https://www.youtube.com/live/UjARQIj7iMc)
-
-**Rafael Ludwig** posts on YouTube, **Apple, Don’t Screw This Up**:
-
-[![](/static/clock-is-ticking-youtube.jpg)](https://www.youtube.com/live/Upkb1vFMyy4)
-
-**Matthew O'Brien** posts on YouTube, **"Creator Studio KILLED Final Cut Pro!"**:
-
-[![](/static/im-done.jpg)](https://www.youtube.com/watch?v=lIU5ids4m_k)
-
-**Dylan Bates (The Final Cut Bro)** posts on YouTube, **Final Cut Pro Goes Subscription Based? (Apple Creator Studio)**:
-
-[![](/static/fcp-bro-youtube-jan.jpg)](https://www.youtube.com/watch?v=Eo1gSICaV-0)
-
-Have you come across any interesting Final Cut Pro related videos this week? If so, share in the comments!
-
-[!button text="Discuss this news item" variant="info"](news/20260125/#discuss-this-page)
 
 ---
 
