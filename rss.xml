@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 09:56:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 11:40:24 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 09:56:26 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 11:40:24 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19162,6 +19162,166 @@ Production’s Best Friend turns your Projects into a professional Excel spreads
             <link>https://fcp.cafe/#13th-april-2026</link>
             <guid isPermaLink="false">13th April 2026</guid>
             <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p>Happy Tuesday! 👋</p>
+<p>Following on from yesterday's Blackmagic-heavy post, their NAB 2026 video went live last night.</p>
+<p>You can watch it on <a href="https://www.youtube.com/watch?v=RQP06snnWOY">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=RQP06snnWOY"><img src="/static/blackmagic-nab-2026.jpg" alt=""></a></p>
+<p>I just really love these launch videos - they're perfect.</p>
+<p>Grant is just awesome - he's so knowledgeable, so on-top of everything, and clearly just loves what he does, and what his and his team builds.</p>
+<p>I get so much joy at watching him geeking out over &quot;beautiful racks&quot; of gear.</p>
+<p>It's clear that he's VERY excited about Immersive Filmmaking - especially for live broadcast.</p>
+<p>As this is a Final Cut Pro site, I won't go into too much detail over the changes in DaVinci Resolve - however it's basically what I was expecting.</p>
+<p><a href="https://getjumper.io">Jumper</a> now has competition in the DaVinci Resolve space, and there's a HEAP of incredible new machine learning tools.</p>
+<p><a href="https://www.blackmagicdesign.com/au/products/fairlightlive">Fairlight Live</a> looks AMAZING - and insanely powerful.</p>
+<p>You can learn more about all their announcements and new products on the <a href="https://www.blackmagicdesign.com">Blackmagic website</a>.</p>
+<p>Interestingly, the one thing we didn't actually see released is an official Blackmagic RAW Media Extension, which was announced at the previous Final Cut Pro Creative Summit - so <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox</a> remains the best way to get BRAW footage into Final Cut Pro.</p>
+<p>I'm still tinkering with a BRAW Toolbox Media Extension - but it's a very tricky problem to solve, so no promises or ETA.</p>
+<p>In other news, Apple has removed the old Pages, Keynote, Numbers apps from the Mac App Store, which is kinda sad - leaving only the Apple Creator Studio versions.</p>
+<p>You can read more on <a href="https://9to5mac.com/2026/04/13/apple-removes-old-pages-keynote-numbers-apps-for-macos/">9to5Mac</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p>Things have been busy in the world of <strong>SpliceKit</strong>! 🔥</p>
+<p>We now have OpenTimelineIO import and export, and the beginnings of an Audio Mixer! 🥳</p>
+<p>There's been a quite few releases in the last 24 hours...</p>
+<p><strong>SliceKit v3.1.8</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li><strong>Transcript persistence across projects</strong> — switching projects no longer shows stale transcript from previous project; added <code>transcript.clear</code> RPC endpoint</li>
+<li><strong>addTodoMarker fixed</strong> — was returning &quot;No responder handled&quot;; now uses direct sequence method</li>
+<li><strong>Silence detection</strong> — was returning 0 silences on clips with obvious pauses; improved threshold algorithm and added start-to-start interval detection</li>
+<li><strong>Timeline duration</strong> — was reporting 0.000s; now falls back to summing spine clip durations</li>
+<li><strong>add_markers_at_times offset</strong> — now accounts for timeline start offset (e.g. 01:00:00:00)</li>
+</ul>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li><strong>OpenTimelineIO import/export</strong> — universal timeline exchange with DaVinci Resolve, Premiere Pro, Avid (<code>.otio</code>, <code>.edl</code>, <code>.aaf</code>)</li>
+<li><strong>Native OTIO-to-FCPXML converter</strong> — frame-exact conversion with canonical SMPTE timebases</li>
+<li><strong>Compound clip drilling</strong> — <code>get_timeline_clips</code> now exposes <code>isCompound</code>, <code>nestedItemCount</code>, and <code>include_nested</code> parameter</li>
+<li><strong>Batch editing tools</strong> — <code>apply_transition_to_all_clips</code>, <code>batch_apply_effect</code>, <code>batch_color_correct</code></li>
+<li><strong>Expanded command palette</strong> — full categorized action lists, comprehensive AI capabilities prompt</li>
+<li><strong>Lua example</strong> — <code>shuffle_clips.lua</code> script</li>
+</ul>
+<p><strong>SliceKit v3.1.9</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fix patcher signing on macOS 15.7.3 — the patcher was applying only 1 entitlement (cs-disable-library-validation) instead of the full set needed for ad-hoc signing. This caused the re-signed app to launch unsigned on some systems, triggering a CloudKit crash (EXC_BREAKPOINT in CloudContentCatalog.updateCatalogAndRegistry()). Now applies all 4 required entitlements including explicit app-sandbox=false to prevent CloudKit entitlement validation failures. Fixed across all patcher paths: GUI app (initial patch + update), shell script, and entitlements.plist. (Fixes #23)</li>
+</ul>
+<p><strong>📄 Documentation:</strong></p>
+<ul>
+<li>Added plain-English explainer — What Is SpliceKit? covers what it is, how it works, and whether it's safe, written for non-technical users. Linked from the top of the README.</li>
+</ul>
+<p><strong>SliceKit v3.1.10</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix CloudKit crash on Final Cut Pro 12.2+, patcher diagnostic logging to <code>~/Library/Logs/SpliceKit/patcher.log</code>, comprehensive startup diagnostics in <code>dylib</code>, disable spring-loaded blade.</li>
+</ul>
+<p><strong>SliceKit v3.1.11</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix transcript editor missing connected clips (<code>FFAnchoredClip</code> URL resolution), mixer panel, caption enhancements, CloudContent diagnostic logging, patcher launch monitoring.</li>
+</ul>
+<p><strong>SliceKit v3.1.12</strong> had the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Live audio metering in mixer panel, Final Cut Pro role colors, keyframed volume support.</li>
+</ul>
+<p><strong>SliceKit v3.1.13</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Mixer metering works without Audio Meters panel, CALayer tree search for mini transport meters.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p><strong>PostLab v26.1.2</strong> has been released with the following changes:</p>
+<p><strong>Improved:</strong></p>
+<ul>
+<li>Much improved and faster Synology Drive support.</li>
+</ul>
+<p><strong>Fixed:</strong></p>
+<ul>
+<li>On Synology Drive, Box and Dropbox, an error could occur when switching and loading collections. Also, loading and saving could take longer than expected. Thanks for reporting, Felipe, Matthieu and Sam!</li>
+</ul>
+<p>You can learn more and download on the <a href="https://hedge.co/products/postlab">PostLab website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p><strong>Doza Assist v2.1.0 and v2.1.1</strong> have been released with the following changes:</p>
+<p><strong>Stories Sidebar:</strong></p>
+<ul>
+<li>Browse, rename, and switch between stories in the left sidebar</li>
+<li>Duration and clip count shown per story</li>
+<li>Trash button with confirmation dialog</li>
+</ul>
+<p><strong>Chat Story Building:</strong></p>
+<ul>
+<li>Build stories directly from Chat using natural language</li>
+<li>Build as Story button when chat returns clips</li>
+<li>Inline story results in chat with clip previews and Open in Story Builder action</li>
+</ul>
+<p><strong>UI Improvements:</strong></p>
+<ul>
+<li>Reordered tabs: Transcript &gt; AI Analysis &gt; Chat &gt; Story Builder &gt; Clips &gt; Export</li>
+<li>Removed story topbar, moved Play All to action buttons</li>
+<li>Better sidebar scrolling - video player stays visible</li>
+<li>Clean spacing between action buttons and story clips</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed story clips not rendering when opening Story Builder from Chat</li>
+<li>Speakers section hidden on Story Builder tab to reduce clutter</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/DozaVisuals/doza-assist">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p><strong>FCP Library Cleaner v0.8.0</strong> is out now with the following improvements:</p>
+<ul>
+<li>Cleanup Options: Added a &quot;Delete All Temporary Files&quot; button to quickly remove render, proxy, optimized, and optical flow files in a single click.</li>
+<li>Library Import: Enhanced macOS integration allowing libraries to be imported by dragging and dropping them directly onto the application icon.</li>
+<li>Translations: Expanded language support with new translations for German, Spanish, and Portuguese.</li>
+<li>User Interface: Refined the interface for a more intuitive experience.</li>
+<li>Error Handling: Improved internal logic to catch and display detailed error messages directly within the interface for better diagnostics.</li>
+<li>Maintenance: Updated dependencies and refactored internal code architecture to improve stability and reliability.</li>
+</ul>
+<p>You can learn more and download from the <a href="https://apps.apple.com/app/fcp-library-cleaner/id6499542720">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th April 2026]]></title>
+            <description><![CDATA[<p><strong>Change List X v1.2.27</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Critical bug fix for a crash caused by audio with no timecode</li>
+</ul>
+<p>You can learn more and download from the <a href="https://apps.apple.com/app/change-list-x/id694746044">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-april-2026</link>
+            <guid isPermaLink="false">14th April 2026</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
