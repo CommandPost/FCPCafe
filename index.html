@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829551095484">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829603399318">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/favicon.ico" />
-    <link href="resources/css/retype.css?v=4.5.3.829551095484" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.5.3.829603399318" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.5.3.829551095484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.5.3.829603399318" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.5.3.829551095484" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.5.3.829603399318" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -398,22 +398,22 @@ Or download Eddie AI &gt; New Project &gt; Show All Modes &gt; Night Shift</p>
     </a>
     <figcaption class="caption"></figcaption>
 </figure>
-<p><strong>SliceKit v3.1.14</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.14</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F973;</span> New Features:</strong></p>
 <ul>
 <li><strong>All-new Audio Mixer UI:</strong> role-colored faders with gradient strips, segmented LED meters with clipping detection, per-fader automation arming, real-time volume during playback, keyframe management</li>
 </ul>
-<p><strong>SliceKit v3.1.141</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.141</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix Remove All Keyframes command: recursive discovery of keyframe targets across child clips, effect stacks, and audio channels</li>
 </ul>
-<p><strong>SliceKit v3.1.142</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.142</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix audio mixer clip discovery for nested compound clips and storylines, handle deduplication, caption panel visibility guard</li>
 </ul>
-<p><strong>SliceKit v3.1.143</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.143</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F528;</span> Improvements</strong></p>
 <ul>
 <li>Add song cut workflow for beat-synced video assembly from sequence-backed sources. Fix cumulative frame drift in FCPXML builds, fix connected song alignment, add half-beat pairing rule, add sequence name substring matching, resolve timeline clips to browser equivalents for native insertion.</li>
@@ -505,7 +505,7 @@ Read the origin story on <a href="news/20241106/">FCP Cafe</a> or <a href="https
 <p>Things have been busy in the world of <strong>SpliceKit</strong>! <span class="docs-emoji">&#x1F525;</span></p>
 <p>We now have OpenTimelineIO import and export, and the beginnings of an Audio Mixer! <span class="docs-emoji">&#x1F973;</span></p>
 <p>There&#x27;s been a quite few releases in the last 24 hours...</p>
-<p><strong>SliceKit v3.1.8</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.8</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li><strong>Transcript persistence across projects</strong> — switching projects no longer shows stale transcript from previous project; added <code translate="no" v-pre>transcript.clear</code> RPC endpoint</li>
@@ -523,7 +523,7 @@ Read the origin story on <a href="news/20241106/">FCP Cafe</a> or <a href="https
 <li><strong>Expanded command palette</strong> — full categorized action lists, comprehensive AI capabilities prompt</li>
 <li><strong>Lua example</strong> — <code translate="no" v-pre>shuffle_clips.lua</code> script</li>
 </ul>
-<p><strong>SliceKit v3.1.9</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.9</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fix patcher signing on macOS 15.7.3 — the patcher was applying only 1 entitlement (cs-disable-library-validation) instead of the full set needed for ad-hoc signing. This caused the re-signed app to launch unsigned on some systems, triggering a CloudKit crash (EXC_BREAKPOINT in CloudContentCatalog.updateCatalogAndRegistry()). Now applies all 4 required entitlements including explicit app-sandbox=false to prevent CloudKit entitlement validation failures. Fixed across all patcher paths: GUI app (initial patch + update), shell script, and entitlements.plist. (Fixes #23)</li>
@@ -532,22 +532,22 @@ Read the origin story on <a href="news/20241106/">FCP Cafe</a> or <a href="https
 <ul>
 <li>Added plain-English explainer — What Is SpliceKit? covers what it is, how it works, and whether it&#x27;s safe, written for non-technical users. Linked from the top of the README.</li>
 </ul>
-<p><strong>SliceKit v3.1.10</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.10</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix CloudKit crash on Final Cut Pro 12.2+, patcher diagnostic logging to <code translate="no" v-pre>~/Library/Logs/SpliceKit/patcher.log</code>, comprehensive startup diagnostics in <code translate="no" v-pre>dylib</code>, disable spring-loaded blade.</li>
 </ul>
-<p><strong>SliceKit v3.1.11</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.11</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix transcript editor missing connected clips (<code translate="no" v-pre>FFAnchoredClip</code> URL resolution), mixer panel, caption enhancements, CloudContent diagnostic logging, patcher launch monitoring.</li>
 </ul>
-<p><strong>SliceKit v3.1.12</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.12</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F528;</span> Improvements</strong></p>
 <ul>
 <li>Live audio metering in mixer panel, Final Cut Pro role colors, keyframed volume support.</li>
 </ul>
-<p><strong>SliceKit v3.1.13</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.13</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Mixer metering works without Audio Meters panel, CALayer tree search for mini transport meters.</li>
@@ -1532,7 +1532,7 @@ On to the fun bits, as it’s currently raining 26.1 releases <span class="docs-
 </figure>
 <hr>
 <p><strong>SpliceKit</strong> has been moving at a RAPID speed. <span class="docs-emoji">&#x1F525;</span></p>
-<p>We&#x27;ve also added a dedicated SliceKit website to FCP Cafe - <a href="https://splicekit.fcp.cafe" class="outbound" target="_blank"><span>splicekit.fcp.cafe</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>!</p>
+<p>We&#x27;ve also added a dedicated SpliceKit website to FCP Cafe - <a href="https://splicekit.fcp.cafe" class="outbound" target="_blank"><span>splicekit.fcp.cafe</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>!</p>
 <p>This website is still a work-in-progress, and we encourage you to help contribute and make it as useful as it can be!</p>
 <p><strong>SpliceKit v3.1.3</strong> includes the following changes:</p>
 <p><strong>Apple Intelligence+ (Agentic Mode):</strong></p>
@@ -1650,7 +1650,7 @@ On to the fun bits, as it’s currently raining 26.1 releases <span class="docs-
 <p>You can download and learn more on the <a href="https://hedge.co/products/postlab" class="outbound" target="_blank"><span>Hedge website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <hr>
 <p><strong>Keyframeless v2026-04-07</strong> is out now.</p>
-<p>It&#x27;s so cool to see that <a href="https://github.com/elliotttate/SpliceKit" class="outbound" target="_blank"><span>SliceKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is already helping 3rd party developers!</p>
+<p>It&#x27;s so cool to see that <a href="https://github.com/elliotttate/SpliceKit" class="outbound" target="_blank"><span>SpliceKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> is already helping 3rd party developers!</p>
 <p>It contains the following improvements:</p>
 <p><strong>Timing:</strong></p>
 <ul>
@@ -1659,7 +1659,7 @@ On to the fun bits, as it’s currently raining 26.1 releases <span class="docs-
 </ul>
 <p><strong>Keyframeless X - Audio:</strong></p>
 <ul>
-<li>Drag straight to timeline without compound clips being created - shout out to <a href="https://github.com/elliotttate/SpliceKit" class="outbound" target="_blank"><span>SliceKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for making this possible.</li>
+<li>Drag straight to timeline without compound clips being created - shout out to <a href="https://github.com/elliotttate/SpliceKit" class="outbound" target="_blank"><span>SpliceKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for making this possible.</li>
 <li>Add import button - allows choosing a library and imports as a new Captions event.</li>
 <li>Font on published parameters - taking templates one step closer to not needing editing in Final Cut Pro <span class="docs-emoji">&#x1F389;</span></li>
 <li>Caption styling options always visible</li>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829551095484">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829603399318">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.5.3.829551095484" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.829603399318" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.829551095484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.829603399318" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.829551095484" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.829603399318" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -301,7 +301,7 @@
 <p>Things have been busy in the world of <strong>SpliceKit</strong>! <span class="docs-emoji">&#x1F525;</span></p>
 <p>We now have OpenTimelineIO import and export, and the beginnings of an Audio Mixer! <span class="docs-emoji">&#x1F973;</span></p>
 <p>There&#x27;s been a quite few releases in the last 24 hours...</p>
-<p><strong>SliceKit v3.1.8</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.8</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li><strong>Transcript persistence across projects</strong> — switching projects no longer shows stale transcript from previous project; added <code translate="no" v-pre>transcript.clear</code> RPC endpoint</li>
@@ -319,7 +319,7 @@
 <li><strong>Expanded command palette</strong> — full categorized action lists, comprehensive AI capabilities prompt</li>
 <li><strong>Lua example</strong> — <code translate="no" v-pre>shuffle_clips.lua</code> script</li>
 </ul>
-<p><strong>SliceKit v3.1.9</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.9</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fix patcher signing on macOS 15.7.3 — the patcher was applying only 1 entitlement (cs-disable-library-validation) instead of the full set needed for ad-hoc signing. This caused the re-signed app to launch unsigned on some systems, triggering a CloudKit crash (EXC_BREAKPOINT in CloudContentCatalog.updateCatalogAndRegistry()). Now applies all 4 required entitlements including explicit app-sandbox=false to prevent CloudKit entitlement validation failures. Fixed across all patcher paths: GUI app (initial patch + update), shell script, and entitlements.plist. (Fixes #23)</li>
@@ -328,22 +328,22 @@
 <ul>
 <li>Added plain-English explainer — What Is SpliceKit? covers what it is, how it works, and whether it&#x27;s safe, written for non-technical users. Linked from the top of the README.</li>
 </ul>
-<p><strong>SliceKit v3.1.10</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.10</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix CloudKit crash on Final Cut Pro 12.2+, patcher diagnostic logging to <code translate="no" v-pre>~/Library/Logs/SpliceKit/patcher.log</code>, comprehensive startup diagnostics in <code translate="no" v-pre>dylib</code>, disable spring-loaded blade.</li>
 </ul>
-<p><strong>SliceKit v3.1.11</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.11</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Fix transcript editor missing connected clips (<code translate="no" v-pre>FFAnchoredClip</code> URL resolution), mixer panel, caption enhancements, CloudContent diagnostic logging, patcher launch monitoring.</li>
 </ul>
-<p><strong>SliceKit v3.1.12</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.12</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F528;</span> Improvements</strong></p>
 <ul>
 <li>Live audio metering in mixer panel, Final Cut Pro role colors, keyframed volume support.</li>
 </ul>
-<p><strong>SliceKit v3.1.13</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.13</strong> had the following changes:</p>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
 <ul>
 <li>Mixer metering works without Audio Meters panel, CALayer tree search for mini transport meters.</li>
@@ -370,8 +370,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-14T11:40:25" title="2026-04-14" data-absolute-label="Last updated on 2026-04-14" data-absolute-label-html="Last updated on 2026-04-14" data-relative-template="Last updated {0}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN">
-                        Last updated on 2026-04-14
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-16T07:17:58" title="2026-04-16" data-absolute-label="Last updated on 2026-04-16" data-absolute-label-html="Last updated on 2026-04-16" data-relative-template="Last updated {0}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN">
+                        Last updated on 2026-04-16
                     </time>
                 </div>
 

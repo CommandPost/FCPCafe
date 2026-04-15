@@ -119,22 +119,22 @@ You can watch a demo video on [YouTube](https://www.youtube.com/watch?v=sKZHMD_m
 
 [![](/static/audio-mixer.jpg)](https://www.youtube.com/watch?v=sKZHMD_mYxI)
 
-**SliceKit v3.1.14** had the following changes:
+**SpliceKit v3.1.14** had the following changes:
 
 **🥳 New Features:**
 - **All-new Audio Mixer UI:** role-colored faders with gradient strips, segmented LED meters with clipping detection, per-fader automation arming, real-time volume during playback, keyframe management
 
-**SliceKit v3.1.141** had the following changes:
+**SpliceKit v3.1.141** had the following changes:
 
 **🐞 Bug Fix:**
 - Fix Remove All Keyframes command: recursive discovery of keyframe targets across child clips, effect stacks, and audio channels
 
-**SliceKit v3.1.142** had the following changes:
+**SpliceKit v3.1.142** had the following changes:
 
 **🐞 Bug Fix:**
 - Fix audio mixer clip discovery for nested compound clips and storylines, handle deduplication, caption panel visibility guard
 
-**SliceKit v3.1.143** had the following changes:
+**SpliceKit v3.1.143** had the following changes:
 
 **🔨 Improvements**
 - Add song cut workflow for beat-synced video assembly from sequence-backed sources. Fix cumulative frame drift in FCPXML builds, fix connected song alignment, add half-beat pairing rule, add sequence name substring matching, resolve timeline clips to browser equivalents for native insertion.
@@ -231,7 +231,7 @@ We now have OpenTimelineIO import and export, and the beginnings of an Audio Mix
 
 There's been a quite few releases in the last 24 hours...
 
-**SliceKit v3.1.8** had the following changes:
+**SpliceKit v3.1.8** had the following changes:
 
 **🐞 Bug Fixes:**
 - **Transcript persistence across projects** — switching projects no longer shows stale transcript from previous project; added `transcript.clear` RPC endpoint
@@ -248,7 +248,7 @@ There's been a quite few releases in the last 24 hours...
 - **Expanded command palette** — full categorized action lists, comprehensive AI capabilities prompt
 - **Lua example** — `shuffle_clips.lua` script
 
-**SliceKit v3.1.9** had the following changes:
+**SpliceKit v3.1.9** had the following changes:
 
 **🐞 Bug Fixes:**
 - Fix patcher signing on macOS 15.7.3 — the patcher was applying only 1 entitlement (cs-disable-library-validation) instead of the full set needed for ad-hoc signing. This caused the re-signed app to launch unsigned on some systems, triggering a CloudKit crash (EXC_BREAKPOINT in CloudContentCatalog.updateCatalogAndRegistry()). Now applies all 4 required entitlements including explicit app-sandbox=false to prevent CloudKit entitlement validation failures. Fixed across all patcher paths: GUI app (initial patch + update), shell script, and entitlements.plist. (Fixes #23)
@@ -256,22 +256,22 @@ There's been a quite few releases in the last 24 hours...
 **📄 Documentation:**
 - Added plain-English explainer — What Is SpliceKit? covers what it is, how it works, and whether it's safe, written for non-technical users. Linked from the top of the README.
 
-**SliceKit v3.1.10** had the following changes:
+**SpliceKit v3.1.10** had the following changes:
 
 **🐞 Bug Fix:**
 - Fix CloudKit crash on Final Cut Pro 12.2+, patcher diagnostic logging to `~/Library/Logs/SpliceKit/patcher.log`, comprehensive startup diagnostics in `dylib`, disable spring-loaded blade.
 
-**SliceKit v3.1.11** had the following changes:
+**SpliceKit v3.1.11** had the following changes:
 
 **🐞 Bug Fix:**
 - Fix transcript editor missing connected clips (`FFAnchoredClip` URL resolution), mixer panel, caption enhancements, CloudContent diagnostic logging, patcher launch monitoring.
 
-**SliceKit v3.1.12** had the following changes:
+**SpliceKit v3.1.12** had the following changes:
 
 **🔨 Improvements**
 - Live audio metering in mixer panel, Final Cut Pro role colors, keyframed volume support.
 
-**SliceKit v3.1.13** had the following changes:
+**SpliceKit v3.1.13** had the following changes:
 
 **🐞 Bug Fix:**
 - Mixer metering works without Audio Meters panel, CALayer tree search for mini transport meters.
@@ -1246,7 +1246,7 @@ You can watch this on [YouTube](https://www.youtube.com/watch?v=8SbcvJ0UQ80):
 
 **SpliceKit** has been moving at a RAPID speed. 🔥
 
-We've also added a dedicated SliceKit website to FCP Cafe - [splicekit.fcp.cafe](https://splicekit.fcp.cafe)!
+We've also added a dedicated SpliceKit website to FCP Cafe - [splicekit.fcp.cafe](https://splicekit.fcp.cafe)!
 
 This website is still a work-in-progress, and we encourage you to help contribute and make it as useful as it can be!
 
@@ -1363,7 +1363,7 @@ You can download and learn more on the [Hedge website](https://hedge.co/products
 
 **Keyframeless v2026-04-07** is out now.
 
-It's so cool to see that [SliceKit](https://github.com/elliotttate/SpliceKit) is already helping 3rd party developers!
+It's so cool to see that [SpliceKit](https://github.com/elliotttate/SpliceKit) is already helping 3rd party developers!
 
 It contains the following improvements:
 
@@ -1372,7 +1372,7 @@ It contains the following improvements:
  - ⚠️ Any existing usage will be limited to the old 2s limit. You'll need to delete and re-apply any any effects (Rounded, MagicMove).
 
 **Keyframeless X - Audio:**
-- Drag straight to timeline without compound clips being created - shout out to [SliceKit](https://github.com/elliotttate/SpliceKit) for making this possible.
+- Drag straight to timeline without compound clips being created - shout out to [SpliceKit](https://github.com/elliotttate/SpliceKit) for making this possible.
 - Add import button - allows choosing a library and imports as a new Captions event.
 - Font on published parameters - taking templates one step closer to not needing editing in Final Cut Pro 🎉
 - Caption styling options always visible

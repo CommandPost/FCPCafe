@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 06:48:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 21:19:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 06:48:36 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 21:19:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -18312,7 +18312,7 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
         <item>
             <title><![CDATA[8th April 2026]]></title>
             <description><![CDATA[<p><strong>Keyframeless v2026-04-07</strong> is out now.</p>
-<p>It's so cool to see that <a href="https://github.com/elliotttate/SpliceKit">SliceKit</a> is already helping 3rd party developers!</p>
+<p>It's so cool to see that <a href="https://github.com/elliotttate/SpliceKit">SpliceKit</a> is already helping 3rd party developers!</p>
 <p>It contains the following improvements:</p>
 <p><strong>Timing:</strong></p>
 <ul>
@@ -18321,7 +18321,7 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
 </ul>
 <p><strong>Keyframeless X - Audio:</strong></p>
 <ul>
-<li>Drag straight to timeline without compound clips being created - shout out to <a href="https://github.com/elliotttate/SpliceKit">SliceKit</a> for making this possible.</li>
+<li>Drag straight to timeline without compound clips being created - shout out to <a href="https://github.com/elliotttate/SpliceKit">SpliceKit</a> for making this possible.</li>
 <li>Add import button - allows choosing a library and imports as a new Captions event.</li>
 <li>Font on published parameters - taking templates one step closer to not needing editing in Final Cut Pro 🎉</li>
 <li>Caption styling options always visible</li>
@@ -18396,7 +18396,7 @@ On to the fun bits, as it’s currently raining 26.1 releases 🙂</p>
         <item>
             <title><![CDATA[9th April 2026]]></title>
             <description><![CDATA[<p><strong>SpliceKit</strong> has been moving at a RAPID speed. 🔥</p>
-<p>We've also added a dedicated SliceKit website to FCP Cafe - <a href="https://splicekit.fcp.cafe">splicekit.fcp.cafe</a>!</p>
+<p>We've also added a dedicated SpliceKit website to FCP Cafe - <a href="https://splicekit.fcp.cafe">splicekit.fcp.cafe</a>!</p>
 <p>This website is still a work-in-progress, and we encourage you to help contribute and make it as useful as it can be!</p>
 <p><strong>SpliceKit v3.1.3</strong> includes the following changes:</p>
 <p><strong>Apple Intelligence+ (Agentic Mode):</strong></p>
@@ -19191,7 +19191,7 @@ Production’s Best Friend turns your Projects into a professional Excel spreads
             <description><![CDATA[<p>Things have been busy in the world of <strong>SpliceKit</strong>! 🔥</p>
 <p>We now have OpenTimelineIO import and export, and the beginnings of an Audio Mixer! 🥳</p>
 <p>There's been a quite few releases in the last 24 hours...</p>
-<p><strong>SliceKit v3.1.8</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.8</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fixes:</strong></p>
 <ul>
 <li><strong>Transcript persistence across projects</strong> — switching projects no longer shows stale transcript from previous project; added <code>transcript.clear</code> RPC endpoint</li>
@@ -19209,7 +19209,7 @@ Production’s Best Friend turns your Projects into a professional Excel spreads
 <li><strong>Expanded command palette</strong> — full categorized action lists, comprehensive AI capabilities prompt</li>
 <li><strong>Lua example</strong> — <code>shuffle_clips.lua</code> script</li>
 </ul>
-<p><strong>SliceKit v3.1.9</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.9</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fixes:</strong></p>
 <ul>
 <li>Fix patcher signing on macOS 15.7.3 — the patcher was applying only 1 entitlement (cs-disable-library-validation) instead of the full set needed for ad-hoc signing. This caused the re-signed app to launch unsigned on some systems, triggering a CloudKit crash (EXC_BREAKPOINT in CloudContentCatalog.updateCatalogAndRegistry()). Now applies all 4 required entitlements including explicit app-sandbox=false to prevent CloudKit entitlement validation failures. Fixed across all patcher paths: GUI app (initial patch + update), shell script, and entitlements.plist. (Fixes #23)</li>
@@ -19218,22 +19218,22 @@ Production’s Best Friend turns your Projects into a professional Excel spreads
 <ul>
 <li>Added plain-English explainer — What Is SpliceKit? covers what it is, how it works, and whether it's safe, written for non-technical users. Linked from the top of the README.</li>
 </ul>
-<p><strong>SliceKit v3.1.10</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.10</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix CloudKit crash on Final Cut Pro 12.2+, patcher diagnostic logging to <code>~/Library/Logs/SpliceKit/patcher.log</code>, comprehensive startup diagnostics in <code>dylib</code>, disable spring-loaded blade.</li>
 </ul>
-<p><strong>SliceKit v3.1.11</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.11</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix transcript editor missing connected clips (<code>FFAnchoredClip</code> URL resolution), mixer panel, caption enhancements, CloudContent diagnostic logging, patcher launch monitoring.</li>
 </ul>
-<p><strong>SliceKit v3.1.12</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.12</strong> had the following changes:</p>
 <p><strong>🔨 Improvements</strong></p>
 <ul>
 <li>Live audio metering in mixer panel, Final Cut Pro role colors, keyframed volume support.</li>
 </ul>
-<p><strong>SliceKit v3.1.13</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.13</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Mixer metering works without Audio Meters panel, CALayer tree search for mini transport meters.</li>
@@ -19403,22 +19403,22 @@ Or download Eddie AI &gt; New Project &gt; Show All Modes &gt; Night Shift</p>
 <p>The Audio Mixer has been dramatically improved. 🎚️</p>
 <p>You can watch a demo video on <a href="https://www.youtube.com/watch?v=sKZHMD_mYxI">YouTube</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=sKZHMD_mYxI"><img src="/static/audio-mixer.jpg" alt=""></a></p>
-<p><strong>SliceKit v3.1.14</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.14</strong> had the following changes:</p>
 <p><strong>🥳 New Features:</strong></p>
 <ul>
 <li><strong>All-new Audio Mixer UI:</strong> role-colored faders with gradient strips, segmented LED meters with clipping detection, per-fader automation arming, real-time volume during playback, keyframe management</li>
 </ul>
-<p><strong>SliceKit v3.1.141</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.141</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix Remove All Keyframes command: recursive discovery of keyframe targets across child clips, effect stacks, and audio channels</li>
 </ul>
-<p><strong>SliceKit v3.1.142</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.142</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix audio mixer clip discovery for nested compound clips and storylines, handle deduplication, caption panel visibility guard</li>
 </ul>
-<p><strong>SliceKit v3.1.143</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.143</strong> had the following changes:</p>
 <p><strong>🔨 Improvements</strong></p>
 <ul>
 <li>Add song cut workflow for beat-synced video assembly from sequence-backed sources. Fix cumulative frame drift in FCPXML builds, fix connected song alignment, add half-beat pairing rule, add sequence name substring matching, resolve timeline clips to browser equivalents for native insertion.</li>
