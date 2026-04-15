@@ -21,6 +21,185 @@ Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-b
 # 2026
 ## April
 
+### [15th April 2026](/news/20260415)
+
+Happy Wednesday! 👋
+
+It's still VERY early days, but we finally have Blackmagic RAW running natively in Final Cut Pro via a Media Extension! 🥳
+
+![](/static/braw-media-extension-fcp.png)
+
+I still have a lot of problem solving and testing to do before this is ready for prime time, so it's entirely possible Blackmagic & Apple will release their version first, but I'm HOPING to include it in BRAW Toolbox in the not-so-distant future.
+
+Stay tuned!
+
+As NAB edges closer and closer, we've already started getting industry news coming out.
+
+The big news today is that **Thomas Riedel** has acquired premium manufacturer **ARRI**. 🤯
+
+![](/static/arri-01.jpg)
+
+![](/static/arri-02.jpg)
+
+We basically shoot 80% of our stuff on ARRI cameras - pretty much every major DOP in Melbourne has one.
+
+The remaining 20% is probably Blackmagic Pocket's on Ronin's - so they're normally a B-camera, with an ARRI as the main - so this news hits pretty close to home!
+
+The press release [reads](https://www.wallstcom.com/Riedel/260414.html):
+
+> **Thomas Riedel Acquires Premium Manufacturer ARRI**
+> *Strategic Alignment With the Riedel Group for Innovation and Growth*
+>
+> *WUPPERTAL / MUNICH, Germany — April 14, 2026* — Thomas Riedel, founder and owner of Riedel Communications and the Riedel Group, has acquired ARRI, the Munich-based premium manufacturer of camera and lighting technology for motion picture and live entertainment. The entrepreneur from Wuppertal was chosen in a competitive international process with his concept for a new home for ARRI, marking the largest acquisition of his career to date.
+>
+> The Riedel Group is a globally recognized specialist in advanced audio, video, and data technology, delivering infrastructure solutions for many of the world’s most demanding broadcast, live event, and sports productions. Through the acquisition of ARRI, Thomas Riedel establishes a close strategic alignment between ARRI and the Riedel Group, expanding its expertise across the entire production chain — from camera optics to distribution. ARRI’s ecosystem of camera, lighting, and systems technology perfectly complements the Riedel Group’s existing portfolio and opens up new technological and strategic market opportunities for both companies.
+>
+> Founded in 1917, ARRI has been family-owned ever since and is regarded as a global leader in professional film technology, having been recognized with 20 scientific and technical awards from the Academy of Motion Picture Arts and Sciences. “For more than a century, ARRI has stood for engineering excellence, innovation, and the highest quality. This success story will now continue and remain in German ownership,” said Dr. Walter Stahl, Managing Director of ARRI GmbH and member of the founding family.
+>
+> Through close collaboration, ARRI and Riedel aim to unlock new areas of growth, especially in live entertainment and sports. By combining their respective technologies, the companies plan to develop integrated solutions that open new creative and technical possibilities for customers. As the first joint milestone of this collaboration, ARRI will debut its camera technology at the Eurovision Song Contest, where Riedel serves as the technology provider and NEP oversees production.
+>
+> Under the new ownership of Thomas Riedel, ARRI’s existing management team will continue to lead the company and further advance its ongoing transformation. The company will retain independent operations and remain headquartered in Munich.
+>
+> “Thomas Riedel has built a first-generation family business and stands for entrepreneurial continuity and long-term thinking,” said Chris Richter, Managing Director of ARRI. “We look forward to working with a successful entrepreneur and to the resulting market opportunities and access — both in existing and new markets.”
+>
+> “The Riedel Group brings highly complementary technologies and extensive expertise in live production to this partnership,” added David Bermbach, Managing Director of ARRI. “This strengthens our strategic direction as a ‘Trusted Technology Leader for the Next Generation of Media & Entertainment.’”
+>
+> “My entrepreneurial path has been closely tied to ARRI for years,” said Thomas Riedel. “This acquisition represents the most significant personal milestone of my career so far. I have great respect for this exceptional brand, its outstanding products, and its strong team. At the same time, I see tremendous potential and am confident that, together, we can position ARRI for long-term stability and future success.”
+>
+> **About ARRI:**
+> “Inspiring images. Since 1917.” ARRI is a global player within the motion picture and live entertainment industries. Named after its founders August Arnold and Robert Richter, ARRI was established in Munich, Germany, where the headquarters is still located today. Other subsidiaries are in Europe, North and South America, Asia, and Australia.
+>
+> The ARRI Group consists of the business units Camera Systems, Lighting, and Rental, all dedicated to synergizing creativity and future technologies to enhance moving images and live events. ARRI is a leading designer and manufacturer with a worldwide distribution and service network. The product portfolio includes digital cameras, lenses, lighting fixtures, apps, and accessories. ARRI also offers first-class services through ARRI Rental’s provision of both standard and exclusive camera, lighting, and grip packages to professional productions around the world. ARRI’s virtual production and innovative workflows solutions boost efficiency for a broad range of studio operators, producers, and corporations. In recognition of its innovative contributions to the film and television industries, ARRI has been honored with 20 scientific and technical awards from the Academy of Motion Picture Arts & Sciences and six Engineering Emmys from the Television Academy and the National Academy of Television Arts & Sciences.
+>
+> For locations and more information, please visit [www.arri.com](https://www.arri.com).
+>
+> **About Thomas Riedel:**
+> Thomas Riedel is a Wuppertal-based entrepreneur and innovator and the founder, 100% shareholder, and CEO of the Riedel Group. His innovative spirit and passion made him a pioneer and storyteller in the entertainment technology industry, where he has been shaping and redefining sports and entertainment formats with courage and creativity for almost four decades. In addition to his CEO duties, Thomas Riedel personally participates in numerous projects around the world as an investor, advisor, and driver of digital transformation.
+>
+> **About Riedel Communications:**
+> Riedel Communications is a leading provider of live production tools in the worlds of media, sports, and entertainment. The company's hard- and software solutions span from distributed video and audio networks over intercom and replay solutions to WAN and MPLS applications. Thanks to Riedel's holistic approach, its three business units — Product Division, Managed Technology Division, and Networks Division — can leverage powerful synergies to provide flexible infrastructures, tools, and services for both fixed and temporary installations around the globe, enabling Riedel customers to run even the most complex projects on-site, remotely, or in the cloud. Riedel is locally headquartered in Santa Clarita, California, with its global headquarters in Wuppertal, Germany. Riedel employs over 1,000 people in 30 locations throughout Europe, Australia, Asia, and the Americas.
+
+Whilst I don't know a lot about Thomas Riedel, this doesn't seem like the worst news - at least ARRI is still owned by someone in the industry. Kinda sad though that ARRI's struggling.
+
+---
+
+**VidCore** is currently looking for TestFlight testers.
+
+It adds `.mkv` support to macOS, including QuickTime and Final Cut Pro via a Media Extension.
+
+You can read more on [Reddit](https://www.reddit.com/r/TestFlight/comments/1rpe0za/vidcore_add_mkv_support_to_macos_including/).
+
+---
+
+**Eddie AI v3** is out now!
+
+**Shamir Allibhai** writes:
+
+> We launched Eddie AI v3 today!
+>
+> For the past few months we’ve been quietly working on something we’re really excited about.
+>
+> It began with an idea: what if you could finish a shoot day, send Eddie your footage, and wake up to a rough cut?
+>
+> Today, that idea is reality. Eddie v3 is live.
+>
+> The headline feature is Night Shift: text Eddie a link to your footage in Frame.io, Google Drive, or Dropbox - literally just send it to +1 650 444 9211 and by 8am the next morning you've got a rough cut, logs, and organized media ready to open in Premiere, Resolve, or Final Cut.
+>
+> It also handles B-roll placement for docu-style projects now with interview soundbites, story structure, and B-roll sequences assembled automatically.
+>
+> We built Night Shift because the best time to process footage is when nobody’s awake to watch the progress bar.
+>
+> Get started by texting Eddie a hello: +1 650 444 9211
+> Or download Eddie AI > New Project > Show All Modes > Night Shift
+>
+> For those going to NAB, text Eddie NAB2026 to get a link to our party with Reddit Post Pro.
+>
+> I'd love to hear what you think of Eddie v3!
+
+Regardless of what you think of Eddie AI, we STRONGLY recommend you sign up to their newsletter, [The Rough Cut](https://roughcut.heyeddie.ai/subscribe) - it's amazing.
+
+You can download and learn more on the [Eddie AI website](https://www.heyeddie.ai).
+
+---
+
+Yet again, things have been busy in the world of **SpliceKit**! 🔥
+
+The Audio Mixer has been dramatically improved. 🎚️
+
+You can watch a demo video on [YouTube](https://www.youtube.com/watch?v=sKZHMD_mYxI):
+
+[![](/static/audio-mixer.jpg)](https://www.youtube.com/watch?v=sKZHMD_mYxI)
+
+**SliceKit v3.1.14** had the following changes:
+
+**🥳 New Features:**
+- **All-new Audio Mixer UI:** role-colored faders with gradient strips, segmented LED meters with clipping detection, per-fader automation arming, real-time volume during playback, keyframe management
+
+**SliceKit v3.1.141** had the following changes:
+
+**🐞 Bug Fix:**
+- Fix Remove All Keyframes command: recursive discovery of keyframe targets across child clips, effect stacks, and audio channels
+
+**SliceKit v3.1.142** had the following changes:
+
+**🐞 Bug Fix:**
+- Fix audio mixer clip discovery for nested compound clips and storylines, handle deduplication, caption panel visibility guard
+
+**SliceKit v3.1.143** had the following changes:
+
+**🔨 Improvements**
+- Add song cut workflow for beat-synced video assembly from sequence-backed sources. Fix cumulative frame drift in FCPXML builds, fix connected song alignment, add half-beat pairing rule, add sequence name substring matching, resolve timeline clips to browser equivalents for native insertion.
+
+You can download and learn more on the [SpliceKit Website](https://splicekit.fcp.cafe).
+
+---
+
+**Doza Assist** has also had a heap of updates.
+
+**Doza Assist v2.2.0** contains the following changes:
+
+**FCPXML Framerate Auto-Detection**
+- FCPXML exports now automatically detect the source media's framerate via ffprobe instead of defaulting to 23.976fps. This fixes "Invalid edit with no respective media" errors when importing into Final Cut Pro with non-23.976 footage (25fps PAL, 29.97, etc.). The Export tab dropdown also pre-selects the detected framerate.
+
+**Expanded Language Support (29 languages)**
+- Added Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Romanian, Slovak, Swedish, Thai, Turkish, Ukrainian, and Vietnamese to the language dropdown — up from 12 to 29 languages.
+
+**Retranscribe Button:**
+- You can now change the language and re-run transcription on existing projects without recreating them. Open any transcribed project and click Retranscribe in the header bar to pick a new language. (#8)
+
+**Doza Assist v2.2.1** contains the following changes:
+
+**Non-English Transcription Quality:**
+- WhisperX was loading Whisper large-v3 with int8 quantization for speed. This is fine for English but significantly degrades quality for morphologically rich languages like Czech, Polish, Russian, Slovak, Hungarian, etc. — making transcriptions nearly unusable compared to tools like MacWhisper that use the unquantized model.
+- Doza now uses float32 on CPU (matching MacWhisper's quality). Transcription will be somewhat slower but quality will be dramatically better for non-English languages.
+
+**Doza Assist v2.2.2** contains the following changes:
+
+**Non-English Transcription Now Actually Works**
+- v2.2.1 was supposed to fix non-English transcription quality but didn't — the real root cause was two bugs layered on top of each other:
+- WhisperX was never installed in the venv (the installer only installs parakeet-mlx and openai-whisper), so the multilingual code path always failed silently and fell through to the fallback.
+- The fallback used Whisper base — a tiny 74M parameter model that produces roughly phonetic gibberish for morphologically rich non-English languages (Czech, Polish, Russian, etc.).
+
+**The Fix:**
+- Doza now uses Whisper large-v3-turbo (1.62 GB) — the exact same model MacWhisper uses. Verified locally on a Czech test file: the output now matches MacWhisper's near-perfect transcription.
+- The turbo model is a distilled version of large-v3 with 4 decoder layers instead of 32, making it ~8× faster than large-v3 while maintaining comparable quality including strong non-English support.
+- First transcription after updating will download the 1.51 GB model — subsequent transcriptions use the cached copy.
+
+You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-assist).
+
+[!button text="Discuss this news item" variant="info"](news/20260415/#discuss-this-page)
+
+---
+
+!!!warning Sponsored
+**Jump to the best parts of editing.**\
+A powerful machine learning search engine for your footage.\
+**_No clouds. No uploads. All on device._**\
+Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+!!!
+
+---
+
 ### [14th April 2026](/news/20260414)
 
 Happy Tuesday! 👋
@@ -174,10 +353,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-**Jump to the best parts of editing.**\
-A powerful machine learning search engine for your footage.\
-**_No clouds. No uploads. All on device._**\
-Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -608,9 +786,8 @@ You can learn more on the [Production's Best Friend website](https://www.intelli
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -672,8 +849,8 @@ You can download and learn more on the [BRAW Toolbox website](https://brawtoolbo
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1017,8 +1194,9 @@ You can download and learn more on the [SpliceKit Website](https://splicekit.fcp
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1146,9 +1324,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1237,8 +1414,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1323,8 +1500,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1393,9 +1571,8 @@ You can download and learn more on the [OnderK Studio website](https://onderk.co
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1523,8 +1700,8 @@ You can download and learn more on [GitHub](https://github.com/macvfx/FCP-Backup
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1614,8 +1791,9 @@ Either way, NAB will be interesting times!
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1673,9 +1851,8 @@ You can learn more and download from [GitHub](https://github.com/elliotttate/FCP
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1839,8 +2016,8 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2090,8 +2267,9 @@ You can download and learn more on the [Recall Toolbox website](https://recallto
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2200,9 +2378,8 @@ You can download and learn more on the [Marker Data website](https://markerdata.
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2232,8 +2409,8 @@ Onwards & Upwards!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2372,8 +2549,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2421,9 +2599,8 @@ You can download and learn more on [GitHub](https://github.com/overpolish/keyfra
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2572,8 +2749,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2682,8 +2859,9 @@ You can download and learn more on the [Strada website](https://strada.tech).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2790,9 +2968,8 @@ You can download and learn more on [FxFactory](https://fxfactory.com/info/magicc
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2900,8 +3077,8 @@ Certainly interesting times ahead!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2924,8 +3101,9 @@ You can download and learn more on the [FidelityFuze website](https://www.fideli
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3090,9 +3268,8 @@ You can download and learn more on [The VFX Campus website](https://thevfxschool
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3233,8 +3410,8 @@ You can learn more on the [MotionVFX website](https://www.motionvfx.com).
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3279,8 +3456,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3364,9 +3542,8 @@ You can download and learn more on the [FCP Template Manager website](https://ro
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3402,8 +3579,8 @@ You can learn more and download on the [LUT Robot website](https://lutrobot.fcp.
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3523,8 +3700,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3554,9 +3732,8 @@ You can download and learn more on the [gAnalyzer website](https://www.gphyx.com
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3605,8 +3782,8 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3671,8 +3848,9 @@ You can learn more and download on Dylan Bates (aka The Final Cut Bro)'s [websit
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3713,9 +3891,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3805,8 +3982,8 @@ You can learn more on the [ScriptStar website](https://scriptstar.fcp.cafe).
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3895,8 +4072,9 @@ You can learn more on [GitHub](https://github.com/TheAcharya/pipeline-neo).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3919,9 +4097,8 @@ You can learn more about this the [Mr. Macintosh YouTube page](https://www.youtu
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3992,8 +4169,8 @@ You can learn more and buy evrExpanse on their [website](https://evrapp.gumroad.
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4049,8 +4226,9 @@ You can download and learn more on the [MotionVFX website](https://www.motionvfx
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4082,9 +4260,8 @@ You can watch on [YouTube](https://www.youtube.com/watch?v=ikOp-fIw2fQ):
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4139,8 +4316,8 @@ You can download and learn more on [GitHub](https://github.com/TheAcharya/pipeli
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4185,8 +4362,9 @@ You can download and learn more on the [CommandPost website](https://commandpost
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4290,9 +4468,8 @@ Onwards & Upwards!
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4336,8 +4513,8 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4439,8 +4616,9 @@ You can watch his video on YouTube:
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4533,9 +4711,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4595,8 +4772,8 @@ You can watch on [YouTube](https://www.youtube.com/watch?v=2z6hd2dCv_w):
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4772,8 +4949,9 @@ It seems Apple now wants to make SURE you're purchasing. I wonder if this applie
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4827,9 +5005,8 @@ Enjoy the rest of your weekend team!
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4873,8 +5050,8 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=cqxgfY0zzac):
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4933,894 +5110,6 @@ It includes the following improvements:
 You can download and learn more on the [Capacitor website](https://capacitor.fcp.cafe).
 
 [!button text="Discuss this news item" variant="info"](news/20260130/#discuss-this-page)
-
----
-
-!!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
-!!!
-
----
-
-### [29th January 2026](/news/20260129)
-
-Happy Thursday! 👋
-
-![](/static/fcp-creator-studio-welcome.png)
-
-First up, MASSIVE congratulations to **Achu P. Chandra** for receiving a Kerala Government State Award for Best Video Editor for his documentary, **Guardians of Himalayas**. 🥳
-
-This documentary was cut on Final Cut Pro, and you can read a [detailed case study on FCP Cafe](/case-studies/guardians-of-himalayas/). Amazing work Achu!
-
-Also, before we jump into the news of the day, I also wanted to let you know about something I started playing with last night...
-
-I sent this message to the amazing [Iain Anderson](https://iain-anderson.com):
-
-> Oh, while I've got you... BRAW Immersive... reckon that would be useful to add to BRAW Toolbox somehow? Split screen the two cameras?
-
-What followed was many messages back and forth about 360 degrees video and Immersive video, and a few hours later, I've added a **Video Track** parameter to BRAW Toolbox:
-
-![](/static/braw-toolbox-video-track.png)
-
-If you're shooting on a **Blackmagic URSA Cine Immersive** camera, this means you can now switch between the two video tracks in BRAW Toolbox.
-
-Interestingly, the BRAW format actually supports MORE than two video tracks - I wonder if we'll see even crazier 360 degrees cameras from Blackmagic in the future?
-
-You can then put two of the exact same clip on top of each other in a Final Cut Pro timeline, offset them, and edit with side-by-side video:
-
-![](/static/braw-toolbox-immersive.png)
-
-You'll notice that the timeline is an INSANE **16320x7200 @ 90fps**, so unless you have a fully spec'd out Mac Studio, you'll most likely want to debayer at **Eighth Decode Quality**, which you can easily [force](https://brawtoolbox.fcp.cafe/workflow-extension/#inspector) for all clips in BRAW Toolbox.
-
-![](/static/braw-toolbox-force.png)
-
-**BRAW Toolbox v1.5.0** is now available on the Mac App Store, with the only change being this new parameter. Enjoy!
-
-To be honest, I have no idea where this might go, as I don't own a Apple Vision Pro - but if you have any ideas, comments or suggestions, please reach out!
-
-I'm hoping to add some big performance improvements to BRAW Toolbox over the coming weeks if all goes to plan too!
-
-![](/static/creator-studio-release.png)
-
-Today's the day - **Apple Creator Studio** is out now!
-
-You can read **Behind Kyle Hanagami's viral dance creations edited with Final Cut Pro** on the [Apple Newsroom](https://www.apple.com/newsroom/2026/01/behind-kyle-hanagamis-viral-dance-creations-edited-with-final-cut-pro/).
-
-![](/static/fcp-creator-studio-start-free-trial.png)
-
-Unfortunately I was stuck in an edit suite all day, which is why this blog post hasn't come out earlier - however, it did mean that I've now played with Final Cut Pro v12.0 for an entire day on a real-world job.
-
-Also, we did try reaching out to the Final Cut Pro Team and Apple Marketing to try get someone on the ground for the Apple Creator Studio launch - but all we got was radio silence. 🤷‍♂
-
-Sadly, it doesn't seem like FCP Cafe is a priority for the Final Cut Pro team - they're really going after influencers and YouTuber's rather than traditional Film & Television editors.
-
-The below is pricing in Australia:
-
-![](/static/fcp-creator-studio-aud-pricing.png)
-
-You can read Iain Anderson's great and detailed article **What’s New in Final Cut Pro 12 and more** on [ProVideo Coalition](https://www.provideocoalition.com/whats-new-in-final-cut-pro-12-and-more/).
-
-It's awesome that Iain was able to include some kind works about [Jumper](https://getjumper.io/?ref=fcpcafe):
-
-> I’ve wanted this for a very long time, even publicly wishing for it on a podcast and seeing Ulti.media create the FCP Video Tag app in response. Today, the third-party app Jumper probably leads this space, but we’ve seen similar features in the library management app Peakto, in previous versions of Strada (though not in the current release) and in Premiere’s Media Intelligence feature.
-
-> In comparative tests with Jumper and Premiere’s Media Intelligence, I think Jumper does the best job overall. Media Intelligence’s analysis is quickest, but it doesn’t always locate the part of a clip your search terms have matched, and a search for “apple” didn’t find all the Apple logos that FCP could. It’s a mixed bag, though — Final Cut Pro’s visual search didn’t find all the instances of “wheelchair” that the other two did.
-
-...and **BRAW Toolbox**:
-
-> UPDATE: although BRAW support was promised in FCP at the last FCP Creative Summit in 2024, it’s still to arrive. For now at least, you can use BRAW Toolbox to access BRAW footage in FCP, and the recent update to v1.5 allows previewing of Immersive footage from the URSA Cine Immersive — even letting you choose which lens to view. Without at least 3D 180° support in FCP it’ll be hard to deliver the footage in a proper immersive format, but for previewing and potential spatial (non-immersive) uses, it could be very handy.
-
-Bonus points if you can spot me in some of the screenshots in the article, haha.
-
-You can watch **Dylan Bates (The Final Cut Bro)'s** video titled, **Final Cut Pro 12.0 Update Has Arrived. Here's everything you need to know** on [YouTube](https://www.youtube.com/watch?v=D0IXVzvFbDc):
-
-[![](/static/dylan-fcp12-youtube.jpg)](https://www.youtube.com/watch?v=D0IXVzvFbDc)
-
-**Jenn Jager** has posted this video titled **FCP SUBSCRIPTION!? What I really think about Creator Studio** on [YouTube](https://www.youtube.com/watch?v=Q1kbAbkDqJA):
-
-[![](/static/jenn-fcp12-youtube.jpg)](https://www.youtube.com/watch?v=Q1kbAbkDqJA)
-
-**Mark Ellis Reviews** has posted this video, titled **The Apple Interview: Why Creator Studio Exists**:
-
-[![](/static/why-creator-studio-exists.jpg)](https://www.youtube.com/watch?v=oXm7RMFyNzQ)
-
-Technolobe has posted [this video](https://www.youtube.com/watch?v=r3Aa-Yqk5Zg), titled **I Asked Apple About Final Cut Pro, Creator Studio & More | ft. Bill Davis**:
-
-[![](/static/technolobe-youtube.jpg)](https://www.youtube.com/watch?v=r3Aa-Yqk5Zg)
-
-Good old **Ripple Training** is, as always, ready at launch with their **Final Cut Pro 12 Deep Dive** on [YouTube](https://www.youtube.com/watch?v=soIqczyU02w):
-
-[![](/static/ripple-fcp12-deep-dive.jpg)](https://www.youtube.com/watch?v=soIqczyU02w)
-
-And of course, the unstoppable **Richard Taylor** has been discussing things live on [YouTube](https://www.youtube.com/watch?v=936wZW4Rmgk) with his passionate community of followers:
-
-[![](/static/richard-fcp12-launch-youtube.jpg)](https://www.youtube.com/watch?v=936wZW4Rmgk)
-
-It's worth having a read and a watch of the above to get a broad surface level look at these new updates.
-
-But FCP Cafe isn't going for broad and mainstream...
-
-> FCP Cafe is a community for professional Final Cut Pro editors and developers.
-
-So let's get geeky!
-
-![](/static/fcp-creator-studio-all-set.png)
-
-Here's the official release notes, along with some of our observations:
-
-**Final Cut Pro v12.0** includes the following [features, enhancements, and fixes](https://support.apple.com/en-us/102825):
-
-- Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires a Mac with Apple silicon.)
-- Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires a Mac with Apple silicon.)
-- Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.
-- Accelerate your next edit with in-app guides on how to create a new library, import media, and add clips to a new timeline.
-- Use the new toolbar menu to quickly create new projects, events, and libraries.
-- Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.
-- Fixes an issue that could cause an adjustment clip to disappear when using Overwrite to Primary Storyline to move a connected clip to the primary storyline.
-- Resolves an issue that could cause role colors to change when upgrading a library from a previous version.
-- Addresses an issue that could cause Paste Attributes to not allow pasting spatial conform on a single clip.
-- Updates FCPXML to version 1.14.
-
-In terms of undocumented bug fixes, whilst it's still early days, we have some early observations:
-
-- **[Downscaling within FCPX leaves edge bleed from clips below top one #443](https://github.com/CommandPost/FCPCafe/issues/443)** - I THINK this has finally been solved! Hopefully the days of having 1 pixel borders around downscaled clips is finally fixed!
-- **[Renders being lost/missing after restart #44](https://github.com/CommandPost/FCPCafe/issues/44)** - Early days, but I THINK this has also been fixed, or at least improved.
-- We think there's been fixes related to **Send to Compressor** - as it's been pretty unreliable the last few updates.
-
-Of course, it's very early days, so please comment on the above issues if you have any insight!
-
-The only new keyboard shortcut additions are **Enable Beat Detection** and **Beat Detection Grid**.
-
-**Final Cut Pro for iPad v3.0** includes the following [features and enhancements](https://support.apple.com/en-us/102731):
-
-- Use Transcript Search to quickly find spoken words or phrases in your footage by searching for exact matches or using natural language descriptions. (Requires iPadOS 26.)
-- Discover Visual Search, a fast and easy way to locate moments in your footage, including objects and actions, using natural language. (Requires iPadOS 26.)
-- Let Beat Detection analyze any song to reveal its bars and beats, enabling you to easily align your video edits to the music’s rhythm.
-- Effortlessly create visual highlights videos set to your music with Montage Maker, ready to share or use as a creative starting point for your edits. (Requires iPadOS 26.)
-- Dive into editing with a special demo project featuring the talented singer-songwriter Allie Sherlock, and explore the exciting new features of Final Cut Pro firsthand.
-- Elevate your videos with dynamic titles, add a personal flair with customizable graphic elements, and set the perfect pace with countdowns and timers.
-- Streamline your workflow with multiple selection support in the inspector, allowing you to make batch adjustments and changes to several clips at once.
-- Keep your projects moving with background exports and track their progress in Live Activities, perfect for multitasking across apps. (Requires iPad models with M3 or later and iPadOS 26.)
-- Extend your workspace by connecting an external monitor to view and play back your edits with ease.
-
-...and improvements and bug fixes:
-
-- Clips under the timeline playhead and skimmer are automatically selected.
-- Improves reliability when resizing Final Cut Pro for iPad with Stage Manager and Windowed Apps.
-- Adds additional animation options for the Ken Burns effect.
-- Addresses an issue that caused snapping indicators to sometimes not appear.
-- Improves reliability when dragging to select multiple clips in the timeline.
-- Addresses an issue that caused unexpected scrolling in the timeline and browser when opening or closing the content browser.
-- Fixes an issue that prevented the multicam angle switcher from updating when the video or audio angle was changed in the inspector.
-- Addresses a Live Multicam issue that sometimes caused the stabilization setting to change unexpectedly on a connected camera angle.
-- Fixes a Live Multicam issue that caused clearing the transfer history to clear active transfers as well.
-- Addresses an issue that caused the audio meter to appear incorrectly in pro camera mode.
-- Improves reliability when recording voiceover with a third-party audio interface.
-- Fixes an issue that prevented the Select All keyboard shortcut from selecting all expanded audio components.
-- Addresses an issue that sometimes prevented the import of external projects with soundtracks.
-- Improves reliability when exporting media from the browser or Projects screen.
-- Improves reliability when importing a project using AirDrop.
-- Improves accessibility labels for the color picker in the inspector.
-- Fixes an issue that caused some inspector settings to not update when selecting different timeline titles.
-- Includes stability and performance improvements.
-
-To be honest, I don't really know ANYONE who's actually cutting things seriously in Final Cut Pro (for iPad), so I have no idea about undocumented bug fixes. 🤷‍♂️
-
-![](/static/fcp-creator-studio-motion.png)
-
-**Motion v6.0** includes the following [features, enhancements, and fixes](https://support.apple.com/en-us/102746):
-
-- Expand your creative freedom with the AI-powered Magnetic Mask, isolating people, objects and shapes in any footage without a green screen or time-consuming manual rotoscoping.
-- 3D text is now dramatically faster on Apple silicon, with Metal-powered improvements to playback and rendering.
-- Improves performance with FxPlug plug-ins that store large amounts of data.
-- Resolves an issue in the Keyframe Editor that caused Bezier handles to become misaligned when Command-dragging multiple selected keyframes.
-- Fixes an issue that could cause Motion to become unresponsive when using text scroll behaviors.
-- Resolves an issue in which the Library browser did not consistently respect the "Show scroll bars" setting in System Settings.
-- Resolves an issue in which the text ruler background did not appear for vertical text using the 'Scroll' layout method.
-- Fixes a rendering issue with the Concentric Polka Dots generator that occurred on some Mac models.
-- Addresses an issue that caused some controls and labels in the HUD to appear too dark.
-
-Again, I don't really spend much/any time in Apple Motion, so I don't really have any insight on undocumented bug fixes.
-
-![](/static/fcp-creator-studio-compressor.png)
-
-**Compressor v5.0** includes the following [improvements](https://support.apple.com/en-us/102745):
-
-- Create files for an Apple Immersive Video package for playback and HTTP live streaming on Apple Vision Pro.
-- Stability and performance improvements.
-
-Poor old Compressor - doesn't really seem like a major update.
-
-![](/static/logic-pro-12.png)
-
-As usual, **Logic Pro v12.0** has so many fixes and changes, that you can just read about them on the [release notes page](https://support.apple.com/en-us/109503).
-
-To be honest, there's nothing really announced that we didn't already know from when they announced Apple Creator Studio back on [14th January](/news/20260114/), so I won't go too deep into the new features - you can read Iain's article and watch the videos above to recap what's new.
-
-What we do now know is that **Final Cut Pro v12.0 (lifetime/perpetual)** retains it's icon and bundle identifier - `com.apple.FinalCut`.
-
-The new **Final Cut Pro v12.0 (subscription)** has a new bundle identifier - `com.apple.FinalCutApp`.
-
-Interestingly, the subscription version is actually called `Final Cut Pro Creator Studio.app`, and they use localisation to make it APPEAR as `Final Cut Pro` in Finder.
-
-![](/static/fcp12-compare.png)
-
-From a branding and communication perspective for FCP Cafe, this is probably a better way to talk about the two different products - **Final Cut Pro**, and **Final Cut Pro Creator Studio**.
-
-The Final Cut Pro library database format has been updated - meaning any old Final Cut Pro library will need to be updated (make sure you create a ZIP'ed backup first!).
-
-Here's the version information:
-
-{.compact}
-Application                         | Catalog Version
-------------------------------------|-----------------------------------
-Final Cut Pro (Mac)                 | 1171; 12.0 (445223)
-Final Cut Pro Creator Studio (Mac)  | 1171; 12.0 (445223)
-Final Cut Pro Creator Studio (iPad) | 1171; 3.0 (453.4.260)
-
-You can learn more about the Final Cut Pro Library Database file on [FCP Cafe's Developer Section](/developers/librarybundle/).
-
-If you need to get from **Final Cut Pro (Mac)** or **Final Cut Pro Creator Studio (Mac)** to **Final Cut Pro Creator Studio (iPad)**, the good news is that **Transfer Toolbox v1.5.0** has been submitted to the Mac App Store for review, so hopefully by the time you read this it will already be out.
-
-![](/static/transfer-toolbox-v1-5-0-01.png)
-
-![](/static/transfer-toolbox-v1-5-0-02.png)
-
-![](/static/transfer-toolbox-v1-5-0-03.png)
-
-![](/static/transfer-toolbox-v1-5-0-04.png)
-
-You can learn more about Transfer Toolbox on the [Transfer Toolbox website](https://transfertoolbox.fcp.cafe).
-
-FCPXML has been updated to **FCPXML v1.14** with some minor additions:
-
-```xml
-<!ELEMENT smart-collection ((match-text | match-ratings | match-media | match-clip | match-stabilization | match-keywords | match-shot | match-property | match-time | match-timeRange | match-roles | match-usage | match-representation | match-markers | match-analysis-type)*)>
-
-<!ATTLIST match-text rule (includes | doesNotInclude | is | isNot | startsWith | endsWith | isRelatedTo) "includes">
-
-<!ATTLIST match-text scope (all | notes | names | markers | transcript | visual | all-text) "all">
-
-<!ELEMENT match-analysis-type EMPTY>
-<!ATTLIST match-analysis-type enabled (0 | 1) "1">
-<!ATTLIST match-analysis-type rule (isAvailable | isMissing) "isAvailable">
-<!ATTLIST match-analysis-type value (any | transcript | visual) "any">
-```
-
-For a lot of applications working with FCPXML, these changes will be irrelevant, and not break anything.
-
-**FxPlug v4.3.4** has been [updated](https://developer.apple.com/download/all/?q=FxPlug) and includes the following:
-
-- Improved stability and reliability.
-- FxPlug SDK now requires macOS 13.0 (Ventura) or later.
-- Improved performance in FxPlugs that use custom data parameters.
-- Fixed an issue where 3rd party FxPlugs that use the project API might get an invalid URL for the media folder of their effect.
-- Improved performance by fixing a number of small memory leaks that can occur when using the `FxAnalysisAPI`.
-- Fixed a potential crash when scheduling frames in an interlaced project using the `FxTiming` API.
-- Fixed an issue where a plugin could leak instances.
-- Fixed an issue where a plugin using the `FxAnalysisAPI` may receive incorrect inputs during analysis.
-- Fixed a potential crash in Motion when an FxMatrix is initialized with `-[FxMatrix44 initWithFxMatrix:]`
-- Fixed an issue where the host app could crash when a plug-in calls the `-setVersionAtCreation:` method of the versioning API.
-- Fixed an issue where dragging the OnScreen Controls could cause the render to jitter.
-- Building with Swift 6 is known to cause compilation issues with example plug-ins. The fix is fairly straightforward. The `@NSApplicationMain` line in the wrapper application can be replaced with `@main`. An `NSLock` can be added to the `MTLDeviceCache` and locked at the start of the methods of `MTLDeviceCache` that use `deviceCaches` property, and unlocked before returning from the method. The `MTLDeviceCache` class can then be marked as `@unchecked Sendable`.
-- Analysis plugins built with older SDK versions (XPC version 10 or earlier) may see some performance degradation when processing higher-resolution clips (e.g. 8K) in Motion. Update your plugins to use the latest FxPlug SDK to ensure they utilize XPC version 11.
-
-Whilst it's great to have an FxPlug update, it's kinda sad that they didn't have the time/interest/resources to actually update their sample plugins.
-
-If you compare Blackmagic's RAW SDK to Apple's FxPlug4, it's INSANE and sad at how good Blackmagic is at supporting 3rd party developers compared to Apple.
-
-However, documentation and samples aside, it's AWESOME that Apple continues to update and improve FxPlug.
-
-Some of my plugins, such as [Metaburner](https://metaburner.fcp.cafe) and [BRAW Toolbox](https://brawtoolbox.fcp.cafe) make extensive use of FxPlug, so hopefully this will make them even more stable and performant in Final Cut Pro v12.
-
-**Workflow Extensions SDK v1.0.3** as been [updated](https://developer.apple.com/download/all/?q=WorkflowExtensions), and the release notes are as follows:
-
-- A Workflow Extension built with this version of SDK is compatible with Final Cut Pro 10.4.9 or later running on macOS 11 or later on Intel hardware. It will be compatible with Final Cut Pro 10.5 or later running on macOS 11 or later on Apple Silicon systems.
-- Refer to Workflow Extensions documentation for general topics in developing a workflow extension.
-
-Known Issues and Limitations:
-
-- Workflow Extensions SDK v1.0.3 may not be compatible with the Swift 6 Runtime due to initialization of the principal `ViewController` class from a background thread. Complete the initialization of this object by dispatching its inherited initialization synchronously to the main thread, or use an earlier toolchain.
-- Workflow Extensions SDK is not fully compatible with Hardened Runtime. In particular, the extension doesn’t work if it is built with Library Validation. If you are building your extension with Hardened Runtime, check the **Disable Library Validation** checkbox in the **Runtime Exceptions** section of the Hardened Runtime settings group of the Signing & Capabilities tab in Xcode.
-- In addition to the above, check the **Apple Events** checkbox in the **Resource Access** section of the same Hardened Runtime settings group.
-- There may be issues in window Z ordering in relation to other types of floating windows and popovers Final Cut Pro uses, for example the marker popover.
-- The OS service Final Cut Pro uses to discover workflow extensions also finds workflow extensions inside apps installed in non-standard locations. It may be necessary to remove those in addition to the one installed in the Applications folder when you wish to uninstall a workflow extension.
-- In relation to the above, when there are multiple workflow extension instances installed in different locations with the same extension bundle version, which one the OS service will choose is undetermined. It is recommended to maintain a single copy of a particular workflow extension along with its container app in the standard installed location as much as possible.
-- Part of the implementation of the `ProExtensionHost` framework currently uses Apple Events as the messaging transport with the host. The extension, being sandboxed, requires the security entitlement below to send Apple Events to Final Cut Pro and its variants such as Final Cut Pro Trial. Beginning in Winter 2026, an additional new variant (`com.apple.FinalCutApp`) should be included:
-
-```
-<key>com.apple.security.scripting-targets</key>
-<dict>
-    <key>com.apple.FinalCut</key>
-    <array>
-        <string>com.apple.FinalCut.library.inspection</string>
-    </array>
-    <key>com.apple.FinalCutApp</key>
-    <array>
-        <string>com.apple.FinalCut.library.inspection</string>
-    </array>
-    <key>com.apple.FinalCutTrial</key>
-    <array>
-        <string>com.apple.FinalCut.library.inspection</string>
-    </array>
-</dict>
-```
-
-- See [Enabling Scripting of Other Apps](https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW25) for additional information.
-- In addition to the entitlement above, the container application requires the following `Info.plist` entry:
-
-```
-<key>NSAppleEventsUsageDescription</key>
-<string>Extensions can interact with Final Cut Pro.</string>
-```
-
-- The text string is used as a message that tells the user why the extension is sending AppleEvents to Final Cut Pro. See `NSAppleEventsUsageDescription` for additional information. A future version of the ProExtensionHost framework may use a different implementation.
-- A workflow extension is not expected to link against the `ProExtensionHost` framework. The SDK has its headers only and does not include the framework binary. As a result, the extension does not have direct access to proxy object class symbols or their class methods, particularly the **class** method used in conjunction with the `-isKindOfClass` method. The extension can use the property that returns the object type as an enum value to determine the object’s type.
-
-As far as I can tell, there's no real code or header changes - the only thing that's change is you need to add the new `com.apple.FinalCutApp` bundle identifier so that things work with **Final Cut Pro Creator Studio**.
-
-So, what's the difference between **Final Cut Pro** and **Final Cut Pro Creator Studio**?
-
-Feature set wise, they're identical. Under the hood there's subtle changes - here's the percentage of differences:
-
-![](/static/fcp12-compare-insides.png)
-
-But really... the different frameworks are mostly related to things like subscription handling, on-boarding and different artwork.
-
-For all intents and purposes - **Final Cut Pro** and **Final Cut Pro Creator Studio** are the same.
-
-However, if we compare **Final Cut Pro on Mac** and **Final Cut Pro on iPad**, we see that they are very different.
-
-**Final Cut Pro on Mac** has 54 frameworks, whereas **Final Cut Pro on iPad** has a whopping 102 frameworks.
-
-Now, if we get into some REALLY nerdy details... thanks to an awesome little script by Joe Marler, we can see the split between Objective-C, C++ and Swift:
-
-First up we have **Final Cut Pro (on Mac):**
-
-{.compact}
-Framework                   |      Obj-C |        C++ |      Swift
-----------------------------|------------|------------|-----------
-AppAnalytics                |        361 |          0 |       2931
-AppleAVCIntraCodec          |          0 |         18 |          0
-AppleAVCIntraEncoder        |          0 |          7 |          0
-AppleAVCLGCodecEmbedded     |          0 |        161 |          0
-  mc_dec_avc                |          0 |         40 |          0
-  mc_enc_avc                |          0 |        103 |          0
-AppleAnimationCodec         |          0 |          3 |          0
-AppleCanonRAWDecoder        |          0 |        124 |          0
-AppleCanonRAWImport         |          0 |        214 |          0
-AppleDVCPROHDCodec          |          0 |          7 |          0
-AppleHEVCProCodec           |          0 |         70 |          0
-  mc_dec_hevc               |          0 |         53 |          0
-AppleIMXCodec               |          0 |          7 |          0
-AppleImageCodec             |          0 |         33 |          0
-AppleIntermediateCodec      |          0 |         14 |          0
-AppleMPEG2Codec             |          0 |         45 |          0
-AppleMXFImport              |          0 |         61 |          0
-AppleMediaServicesKit       |         58 |        161 |       1598
-AppleProResCodecEmbedded    |          0 |         24 |          0
-AppleProResRAWCodecEmbedded |          0 |         28 |          0
-AppleREDRAWDecoder          |          0 |        129 |          0
-AppleREDRAWImport           |          0 |        217 |          0
-AppleUncompressedCodec      |          0 |         14 |          0
-AudioEffects                |          0 |        952 |          0
-CloudContent                |        682 |          0 |       6814
-CompressorKit               |       7682 |      33140 |        289
-  AECore                    |        173 |       3247 |          0
-  BatchActions              |         81 |        622 |          0
-  ClusterManager            |          0 |        246 |          0
-  Compressor                |       6178 |      16325 |        289
-  CompressorKit             |       1289 |        401 |          0
-  ContentControl            |          0 |       1414 |          0
-  DistributedObjects        |        777 |       2159 |          0
-  ImageProcessing           |         38 |        663 |          0
-  JobControl                |         20 |       2970 |          0
-  MediaServerAPI            |          0 |        304 |          0
-  Qmaster                   |       1331 |      13264 |          0
-  RequestProcessing         |          0 |        399 |          0
-  ServiceControl            |          0 |        569 |          0
-  Status                    |          0 |        420 |          0
-  StompTypes                |         57 |       5402 |          0
-  StompUI                   |       4471 |       1571 |          0
-  StompUtil                 |         28 |        142 |          0
-  SwampCore                 |         42 |       1335 |          0
-  SwampService              |          0 |        348 |          0
-  SwampTypes                |        282 |       2901 |          0
-  SwampUI                   |        209 |        194 |          0
-  SwampUtil                 |          1 |        309 |          0
-  Transcoding               |        214 |       7524 |        289
-CoreAudioSDK                |          0 |        573 |          0
-DNXDecoder                  |          0 |        726 |          0
-EDEL                        |      20732 |      46127 |      13248
-  ChordsKit                 |          0 |          0 |       7670
-  MAAccessibility           |         60 |          0 |        451
-  MACore                    |       1889 |       4135 |        380
-  MADSP                     |          0 |      27630 |          0
-  MADSPPlugInPublic         |          0 |         54 |          0
-  MAFiles                   |        835 |        472 |        186
-  MAHarmony                 |        537 |       1560 |         27
-  MAMachineLearning         |        159 |         75 |         44
-  MAPlugInGUISwift          |         53 |          2 |        429
-  MAPlugInGUI_EDEL          |          0 |      11692 |          0
-  MASwiftUIControls         |          6 |          0 |       2498
-  MASwiftUtilities          |          0 |          0 |        542
-  MAToolKit                 |      17193 |        139 |       1021
-  MAVectorUIKit             |          0 |          4 |          0
-EmbeddedRemoteConfiguration |       1004 |          0 |         44
-Filters                     |       3155 |       7454 |          0
-Flexo                       |      66234 |      12945 |       1229
-  AnalysisKit               |         36 |          0 |        697
-  AudioAnalysis             |         90 |          0 |        348
-  DeepSkyLite               |        487 |        126 |          0
-  ProResRAWConversion       |          0 |        767 |          0
-FxPlug                      |       1299 |        264 |          0
-H264Encoder                 |          0 |        260 |          0
-  mc_enc_avc                |          0 |        111 |          0
-Helium                      |          3 |      14925 |          0
-HeliumSenso                 |        216 |       7739 |          0
-Interchange                 |       2401 |          0 |      10769
-Lithium                     |         20 |      10082 |          0
-LunaFoundation              |        624 |          0 |          0
-LunaKit                     |       7162 |        705 |          0
-MDPKit                      |        774 |        429 |          0
-MIO                         |       2145 |        823 |          0
-MXFExportSDK                |        175 |       4852 |          0
-MusicUnderstandingEmbedded  |         12 |          0 |       1917
-Ozone                       |      10967 |      38575 |       6550
-  AudioMixEngine            |          0 |       1591 |          0
-PMLCloudContent             |          9 |          0 |        566
-PMLUtilities                |          0 |          0 |        236
-PluginManager               |        258 |          0 |          0
-ProAppSupport               |        111 |          0 |        428
-ProAppsFxSupport            |       1621 |       3700 |          0
-ProChannel                  |        704 |       7075 |          0
-ProCore                     |        820 |       5259 |          0
-ProCurveEditor              |       1010 |        291 |          0
-ProExtension                |        772 |          0 |          0
-ProExtensionHost            |        176 |          0 |          0
-ProExtensionSupport         |        336 |          0 |          0
-ProGL                       |          0 |       1427 |          0
-ProGraphics                 |          3 |       1112 |          0
-ProInspector                |       1528 |        554 |          0
-ProInspectorFoundation      |         22 |          1 |          0
-ProMedia                    |          3 |       2957 |          0
-ProMediaLibrary             |          1 |          0 |        962
-ProOSC                      |       1048 |       1642 |          0
-ProOnboardingFlowModelOne   |         95 |          0 |       1173
-ProService                  |         28 |          0 |          0
-ProShapes                   |         79 |       1870 |          0
-ProTracker                  |        633 |       3049 |          0
-  ANSTKitVideoApps          |        232 |         30 |          0
-  AppleNeuralTracker        |          0 |         56 |          0
-ProViewServiceSupport       |         38 |          0 |          0
-RetimingMath                |          0 |        454 |          0
-Stalgo                      |          0 |        854 |          0
-StudioSharedResources       |          8 |          0 |          0
-SwiftASN1                   |          0 |          0 |        913
-TextFramework               |       1409 |       7682 |          0
-TimelineKit                 |       6989 |        121 |          0
-USearch                     |         25 |        594 |         41
-VAML                        |        697 |         34 |        351
-VAMLSentencePiece           |          2 |       3329 |          0
-XMLCodable                  |         93 |          0 |        494
-
-{.compact}
-Language    |    Symbols | Percentage
-------------|------------|-----------
-Objective-C |     149409 |     34.75%
-C++         |     225095 |     52.36%
-Swift       |      55389 |     12.89%
-
-Next up we have **Final Cut Pro Creator Studio (on Mac)**:
-
-{.compact}
-Framework                   |      Obj-C |        C++ |      Swift
-----------------------------|------------|------------|-----------
-AppAnalytics                |        361 |          0 |       2931
-AppSubscriptions            |          9 |          0 |       1941
-AppleAVCIntraCodec          |          0 |         18 |          0
-AppleAVCIntraEncoder        |          0 |          7 |          0
-AppleAVCLGCodecEmbedded     |          0 |        161 |          0
-  mc_dec_avc                |          0 |         40 |          0
-  mc_enc_avc                |          0 |        103 |          0
-AppleAnimationCodec         |          0 |          3 |          0
-AppleCanonRAWDecoder        |          0 |        124 |          0
-AppleCanonRAWImport         |          0 |        214 |          0
-AppleDVCPROHDCodec          |          0 |          7 |          0
-AppleHEVCProCodec           |          0 |         70 |          0
-  mc_dec_hevc               |          0 |         53 |          0
-AppleIMXCodec               |          0 |          7 |          0
-AppleImageCodec             |          0 |         33 |          0
-AppleIntermediateCodec      |          0 |         14 |          0
-AppleMPEG2Codec             |          0 |         45 |          0
-AppleMXFImport              |          0 |         61 |          0
-AppleMediaServicesKit       |         92 |        163 |       1699
-AppleProResCodecEmbedded    |          0 |         24 |          0
-AppleProResRAWCodecEmbedded |          0 |         28 |          0
-AppleREDRAWDecoder          |          0 |        129 |          0
-AppleREDRAWImport           |          0 |        217 |          0
-AppleUncompressedCodec      |          0 |         14 |          0
-AudioEffects                |          0 |        952 |          0
-CloudContent                |        682 |          0 |       6814
-CompressorKit               |       7682 |      33140 |        289
-  AECore                    |        173 |       3247 |          0
-  BatchActions              |         81 |        622 |          0
-  ClusterManager            |          0 |        246 |          0
-  Compressor                |       6178 |      16325 |        289
-  CompressorKit             |       1289 |        401 |          0
-  ContentControl            |          0 |       1414 |          0
-  DistributedObjects        |        777 |       2159 |          0
-  ImageProcessing           |         38 |        663 |          0
-  JobControl                |         20 |       2970 |          0
-  MediaServerAPI            |          0 |        304 |          0
-  Qmaster                   |       1331 |      13264 |          0
-  RequestProcessing         |          0 |        399 |          0
-  ServiceControl            |          0 |        569 |          0
-  Status                    |          0 |        420 |          0
-  StompTypes                |         57 |       5402 |          0
-  StompUI                   |       4471 |       1571 |          0
-  StompUtil                 |         28 |        142 |          0
-  SwampCore                 |         42 |       1335 |          0
-  SwampService              |          0 |        348 |          0
-  SwampTypes                |        282 |       2901 |          0
-  SwampUI                   |        209 |        194 |          0
-  SwampUtil                 |          1 |        309 |          0
-  Transcoding               |        214 |       7524 |        289
-CoreAudioSDK                |          0 |        573 |          0
-DNXDecoder                  |          0 |        726 |          0
-EDEL                        |      20732 |      46127 |      13248
-  ChordsKit                 |          0 |          0 |       7670
-  MAAccessibility           |         60 |          0 |        451
-  MACore                    |       1889 |       4135 |        380
-  MADSP                     |          0 |      27630 |          0
-  MADSPPlugInPublic         |          0 |         54 |          0
-  MAFiles                   |        835 |        472 |        186
-  MAHarmony                 |        537 |       1560 |         27
-  MAMachineLearning         |        159 |         75 |         44
-  MAPlugInGUISwift          |         53 |          2 |        429
-  MAPlugInGUI_EDEL          |          0 |      11692 |          0
-  MASwiftUIControls         |          6 |          0 |       2498
-  MASwiftUtilities          |          0 |          0 |        542
-  MAToolKit                 |      17193 |        139 |       1021
-  MAVectorUIKit             |          0 |          4 |          0
-EmbeddedRemoteConfiguration |       1004 |          0 |         44
-Filters                     |       3155 |       7454 |          0
-Flexo                       |      66234 |      12945 |       1229
-  AnalysisKit               |         36 |          0 |        697
-  AudioAnalysis             |         90 |          0 |        348
-  DeepSkyLite               |        487 |        126 |          0
-  ProResRAWConversion       |          0 |        767 |          0
-FxPlug                      |       1299 |        264 |          0
-H264Encoder                 |          0 |        260 |          0
-  mc_enc_avc                |          0 |        111 |          0
-Helium                      |          3 |      14925 |          0
-HeliumSenso                 |        216 |       7739 |          0
-Interchange                 |       2401 |          0 |      10769
-Jet2P                       |        199 |        794 |       8961
-Lithium                     |         20 |      10082 |          0
-LunaFoundation              |        624 |          0 |          0
-LunaKit                     |       7162 |        705 |          0
-MDPKit                      |        774 |        429 |          0
-MIO                         |       2145 |        823 |          0
-MXFExportSDK                |        175 |       4852 |          0
-MusicUnderstandingEmbedded  |         12 |          0 |       1917
-Ozone                       |      10967 |      38575 |       6550
-  AudioMixEngine            |          0 |       1591 |          0
-PMLCloudContent             |          9 |          0 |        566
-PMLUtilities                |          0 |          0 |        236
-PluginManager               |        258 |          0 |          0
-ProAppSupport               |        111 |          0 |        428
-ProAppsFxSupport            |       1621 |       3700 |          0
-ProChannel                  |        704 |       7075 |          0
-ProCore                     |        820 |       5259 |          0
-ProCurveEditor              |       1010 |        291 |          0
-ProExtension                |        772 |          0 |          0
-ProExtensionHost            |        176 |          0 |          0
-ProExtensionSupport         |        336 |          0 |          0
-ProGL                       |          0 |       1427 |          0
-ProGraphics                 |          3 |       1112 |          0
-ProInspector                |       1528 |        554 |          0
-ProInspectorFoundation      |         22 |          1 |          0
-ProMedia                    |          3 |       2957 |          0
-ProMediaLibrary             |          1 |          0 |        962
-ProOSC                      |       1048 |       1642 |          0
-ProOnboardingFlow           |         97 |          0 |       1433
-ProService                  |         28 |          0 |          0
-ProShapes                   |         79 |       1870 |          0
-ProTracker                  |        633 |       3049 |          0
-  ANSTKitVideoApps          |        232 |         30 |          0
-  AppleNeuralTracker        |          0 |         56 |          0
-ProViewServiceSupport       |         38 |          0 |          0
-RetimingMath                |          0 |        454 |          0
-Stalgo                      |          0 |        854 |          0
-StudioSharedResources       |          8 |          0 |          0
-SwiftASN1                   |          0 |          0 |        913
-TextFramework               |       1409 |       7682 |          0
-TimelineKit                 |       6989 |        121 |          0
-USearch                     |         25 |        594 |         41
-UnifiedMessagingKit2P       |        178 |         15 |       3152
-VAAppAnalytics              |        274 |          0 |       6145
-VAML                        |        697 |         34 |        351
-VAMLSentencePiece           |          2 |       3329 |          0
-XMLCodable                  |         93 |          0 |        494
-
-{.compact}
-Language    |    Symbols | Percentage
-------------|------------|-----------
-Objective-C |     150115 |     33.21%
-C++         |     225906 |     49.98%
-Swift       |      75949 |     16.80%
-
-...and last, but not least, **Final Cut Pro Creator Studio (for iPad)**:
-
-{.compact}
-Framework                   |      Obj-C |        C++ |      Swift
-----------------------------|------------|------------|-----------
-AnalysisKit                 |          0 |          0 |         41
-AnalysisService             |          0 |          0 |      21794
-AppAnalytics                |          0 |          0 |        167
-AppSubscriptions            |          0 |          0 |        224
-AppleMediaServicesKit       |          0 |          0 |         29
-AssistiveWorkflowKit        |          0 |          0 |          8
-AudioAnalysis               |          0 |          0 |         50
-AudioEffects                |          0 |        668 |          0
-Browser                     |          0 |          0 |        331
-BrowserUI                   |          0 |          0 |          5
-Camalot                     |          0 |          0 |        154
-CameraKit                   |          0 |          0 |        176
-CameraKitUI                 |          0 |          0 |        170
-CameraProfiler              |          0 |          0 |        880
-ChordsKit                   |          0 |          0 |        819
-CloudContent                |          0 |          0 |        147
-Communication               |          0 |          0 |         39
-CoreAudioSDK                |          0 |        566 |          0
-CoreDataCache               |          0 |          0 |       2083
-DeepSkyLite                 |        480 |        110 |          0
-DirectorKit                 |          0 |          0 |        137
-DirectorKitUI               |          0 |          0 |         94
-EDEL                        |          0 |        358 |          0
-EmbeddedRemoteConfiguration |          0 |          0 |          5
-Filmstrip                   |          0 |          0 |        443
-Filters                     |       2277 |       6342 |          0
-FlexMusicKit                |        720 |          0 |          0
-Flexo                       |      72467 |      19116 |          0
-FlexoCover                  |          0 |          0 |          5
-FxPlug                      |        133 |          6 |          0
-FxPlugEffects               |        154 |         64 |          0
-HLAppShareExtension         |          0 |          0 |         27
-HLAppSupport                |          0 |          0 |        274
-HLTimeline                  |       1692 |          0 |          0
-Helium                      |          3 |      13639 |          0
-HeliumSenso                 |        223 |       5431 |          0
-Inspector                   |          0 |          0 |        341
-InspectorUI                 |          0 |          0 |        372
-Interchange                 |          0 |          0 |         57
-Jet2P                       |          0 |          0 |        226
-KonaModel                   |          0 |          0 |         10
-LegacyOnboarding            |          0 |          0 |         69
-Lens                        |          0 |          0 |        138
-Lithium                     |         25 |       9977 |          0
-LunaFoundation              |        624 |          0 |          0
-LunaKit                     |       2005 |          0 |          0
-MAAccessibility             |          0 |          0 |          8
-MACore                      |          0 |          0 |          8
-MADSP                       |          0 |      25154 |          0
-MADSPPlugInPublic           |          0 |         54 |          0
-MAFiles                     |          0 |          0 |         35
-MAHarmony                   |          0 |          0 |          9
-MAMachineLearning           |          0 |          0 |          5
-MASwiftUtilities            |          0 |          0 |        541
-MDPKit                      |        719 |        428 |          0
-MotionEffect                |        864 |        719 |          0
-MovieKit                    |       5248 |        150 |      17464
-MusicUnderstandingEmbedded  |          0 |          0 |        100
-Ozone                       |       1147 |      28709 |          0
-PMLCloudContent             |          0 |          0 |         14
-PMLEffects                  |          0 |          0 |          5
-PMLFileSystem               |          0 |          0 |          8
-PMLHLApp                    |          0 |          0 |         94
-PMLUtilities                |          0 |          0 |        234
-PeerCam                     |       2887 |          0 |          0
-Player                      |          0 |          0 |          5
-PluginManager               |        252 |          0 |          0
-ProARCam                    |          0 |          0 |          8
-ProAppSupport               |          0 |          0 |          9
-ProAppsFxSupport            |        730 |       3035 |          0
-ProCamera                   |          0 |          0 |         22
-ProCameraDataModels         |        160 |          1 |          0
-ProChannel                  |        704 |       7065 |          0
-ProCore                     |        811 |       4435 |          0
-ProGL                       |          0 |       1201 |          0
-ProGraphics                 |          0 |       1022 |          0
-ProInspector                |        238 |         82 |          0
-ProInspectorFoundation      |         22 |          1 |          0
-ProMedia                    |         35 |       1011 |          0
-ProMediaLibrary             |          0 |          0 |          5
-ProOSC                      |       1008 |       1487 |          0
-ProOnboardingFlow           |          0 |          0 |        146
-ProResRAWConversion         |          7 |        846 |          0
-ProShapes                   |          3 |       1807 |          0
-ProTracker                  |        227 |       2263 |          0
-RetimingMath                |          0 |        454 |          0
-Share                       |          0 |          0 |         53
-SharedWidgets               |          0 |          0 |         24
-Stalgo                      |          0 |        854 |          0
-StudioSharedResources       |         11 |          0 |          0
-TextFramework               |        133 |       8301 |          0
-Timber                      |          0 |          0 |        562
-TimelineKit                 |       5588 |        122 |          0
-USearch                     |          0 |          0 |          5
-UnifiedMessagingKit2P       |          0 |          0 |        184
-VAAppAnalytics              |          0 |          0 |        125
-VACore                      |          0 |          0 |         16
-VAKit                       |        901 |         12 |          0
-VAML                        |          0 |          0 |         71
-VAMLSentencePiece           |          2 |       3333 |          0
-VideoCassette               |          0 |          0 |         21
-XMLCodable                  |          0 |          0 |         11
-
-{.compact}
-Language    |    Symbols | Percentage
-------------|------------|-----------
-Objective-C |     102500 |     33.17%
-C++         |     148823 |     48.16%
-Swift       |      57675 |     18.67%
-
-So now if we compare the above:
-
-{.compact}
-Application                              | Language    | Symbols    | Percentage
------------------------------------------|-------------|------------|------------
-Final Cut Pro (Mac)                      | Objective-C |     149409 |     34.75%
-Final Cut Pro Creator Studio (on Mac)    | Objective-C |     150115 |     33.21%
-Final Cut Pro Creator Studio (for iPad)  | Objective-C |     102500 |     33.17%
-                                         |             |            |
-Final Cut Pro (Mac)                      | C++         |     225095 |     52.36%
-Final Cut Pro Creator Studio (on Mac)    | C++         |     225906 |     49.98%
-Final Cut Pro Creator Studio (for iPad)  | C++         |     148823 |     48.16%
-                                         |             |            |
-Final Cut Pro (Mac)                      | Swift       |      55389 |     12.89%
-Final Cut Pro Creator Studio (on Mac)    | Swift       |      75949 |     16.80%
-Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%
-
-We can see that Final Cut Pro is still mostly C++, and very little Swift - even on iPad - which is SUPER interesting.
-
-If we look back to our [15th November 2025](/news/20251115/) blog post, we wrote:
-
-> For those that are interested, it looks like Apple is currently hiring lots of people for it's Creativity Apps and ProApps teams:
->
-> - [Pro Apps Acquisition Business Lead](https://jobs.apple.com/en-us/details/200627525-0836/pro-apps-acquisition-business-lead?team=MKTG)
-> - [Sr. Software Engineer-Video Apps](https://jobs.apple.com/en-us/details/200627013-0240/sr-software-engineer-video-apps)
-> - [Software Engineering Manager, Shared UI / UX - Creativity Apps](https://jobs.apple.com/en-us/details/200625892/software-engineering-manager-shared-ui-ux-creativity-apps)
-> - [Senior UI Software Engineer, Creativity Apps](https://jobs.apple.com/en-ca/details/200626006-3350/senior-ui-software-engineer-creativity-apps?team=SFTWR)
-> - [Software Engineer, Creativity Apps](https://jobs.apple.com/en-us/details/200625247-3350/software-engineer-creativity-apps?team=SFTWR)
-> - [Senior Software Engineer, Creativity Apps](https://jobs.apple.com/en-us/details/200626008-0836/senior-software-engineer-creativity-apps?team=SFTWR)
-> - [Software Engineering Manager, Creativity Apps & Frameworks](https://jobs.apple.com/en-us/details/200614972-0836/software-engineering-manager-creativity-apps-frameworks?team=SFTWR)
-> - [Senior Software Engineer, Creativity Apps & Frameworks](https://jobs.apple.com/en-us/details/200627052-1242/senior-software-engineer-creativity-apps-frameworks)
-> - [Software Engineer - LLM Workflows - Apps](https://jobs.apple.com/en-us/details/200627357/software-engineer-llm-workflows-apps?team=MLAI)
-> - [Sr iOS Engineer, Photography Editing & Creativity Tools](https://jobs.apple.com/en-us/details/200625102/sr-ios-engineer-photography-editing-creativity-tools)
->
-> Some interesting tidbits from these job ads include:
->
-> - The scope of this role is broad and the opportunity to drive customer impact is high. In this role, you will chart the strategic direction of our Pro Apps (including but not limited to Final Cut Pro and Logic Pro) across all Growth & Acquisition initiatives. As the Pro Apps Acquisition Business Lead, you will be responsible for driving the growth of the Pro Apps subscriber base through initiatives that achieve meaningful business results. The ideal candidate is able to set a clear vision for a multi-year growth plan, is adept at simplifying the complex, and influencing across a highly matrix organization. The role requires an experienced leader who will partner directly with product, engineering, marketing, design and finance working cross-functionally to deliver results.
-> - As a Senior Software Engineer, you’ll help drive the modernization of persistence systems that must handle multi-gigabyte projects with real-time responsiveness. You will be a technical contributor within the team while collaborating across Apple’s creative applications ecosystem.
-> - The Creativity Apps team is seeking a highly skilled Software Engineer with hands-on experience with media management, collaboration, persistence, or syncing. As a Software Engineer, you will play a key role in designing, implementing, and maintaining robust cloud syncing, media management, efficient on-device storage, and collaboration solutions to enhance our products and services.
-> - The Creativity Apps team is looking for a senior engineer with expertise in Apple platforms to help architect and build media management and collaboration features for creative tools. You’ll be working with the world-class teams behind Final Cut Pro, Logic Pro, and iWork to create next-generation tools for creators.
-> - Develop and enhance the data model, persistence infrastructure and shared frameworks used across Final Cut Pro applications.
-> - Contribute to the migration of legacy Objective-C systems to modern Swift applying best practices for maintainability and testability.
-> - Develop new capabilities using Swift structured concurrency and Grand Central Dispatch, ensuring thread safety and optimal performance.
-> - Collaborate closely with product and platform teams to deliver foundational improvements that enable seamless workflows across applications.
-> - Identify and resolve complex bottlenecks in multi-threaded, latency-sensitive environments processing large media files.
->
-> It certainly seems like behind the scenes, a lot is happening at Apple in the ProApps departments.
->
-> It looks like a big effort is being placed on updating a lot of Final Cut Pro's legacy Objective-C code to modern Swift is happening - although it's a massive long-term project.
-
-It seems like the major Swift rewrite is an on-going project with a LONG way to go.
-
-As expected the reaction from social media has been mixed.
-
-For example, [Chance_Noise_1702 on Reddit writes](https://www.reddit.com/r/finalcutpro/comments/1qpd085/comment/o2de585/):
-
-> Extremely disappointed. Was expecting useful AI tools to be integrated. The "beat detection" feels so redundant. I've been editing for decades, and I don't really need vertical lines to visually indicate when the tempo of a song changes— I can already determine this through an audio clip's waveforms (as I'm sure 99% of editors can do easily as well). Maybe the so-called 'AI beat detection' is good if you're a beginner trying to learn how to mix sound? But for the "pros" using Final Cut "Pro", I don't see it.
->
-> Also, the beat lines showing 'where to splice and make track sound continuous'. This is pretty easy to do naturally by simply listening to a track and determining, no?
->
-> The "visual search" also underwhelms. I'm a filmmaker by profession. When I finish shooting for the day, the first thing I'll do is import that day's footage, and organize it into folders accordingly, based on scene(s) we filmed that day. So, I can't imagine ever having a use to an "AI visual search" for objects/elements, text, types of shots, etc. to help locate footage. I already have shot lists, shooting schedules, and organized folders to go off of for that.
->
-> Really underwhelmed, and frankly disappointed. FCP is falling dangerously behind competitors. I've been finding myself using Adobe more and more. In fact, even the new 'Capcut' desktop editing app is MILES ahead of FCP in terms of features/effects. Embarrassing and pointless update imo.
-
-I've been editing with Final Cut Pro all day, and I have to say I LOVE the beat detection - it's really awesome.
-
-The project I was cutting today was started in Final Cut Pro v11.2, so I already had manually added markers on my music tracks to help me cut to the beat - and interestingly, my markers pretty much already perfectly lined up with Apple's.
-
-My only real complaint is that I find the interface to be completely visually overwhelming and annoying - there's simply too many green lines on the screen!
-
-![](/static/green-bar-overload.png)
-
-I kinda wish it had a "focus" mode and it only revealed the markers at an area close to the playhead, and an opacity setting, so you could make it super subtle.
-
-In my head I'm imagining if it has a "focus" mode, wherever my mouse or playhead is, I can see a those beat markers highlighted, but the lines slowly "fade out" in a circle, so your eye is directed JUST to the beat markers you NEED to see at the time.
-
-![](/static/focus-mode.png)
-
-I've added a feature request on [FCP Cafe's Feature Wish List](https://github.com/CommandPost/FCPCafe/issues/504).
-
-So I definitely disagree with `Chance_Noise_1702` - I think the Beat Markers are AWESOME! Thank you Final Cut Pro team!
-
-In regards to the visual search - I have to agree - the quality of the search results kinda sucks. Although that's not really unexpected, given how quickly it analyses things.
-
-The problem with this Final Cut Pro update is that for a year now, we've already had [Jumper](https://getjumper.io/?ref=fcpcafe) in the world, so you have a direct comparison in terms of search quality - and Jumper just kills Final Cut Pro in terms of visual search quality.
-
-Back on [14th January 2026](/news/20260114) I wrote:
-
-> We would ASSUME that both Transcript & Visual Search will be on by default in the `Import Settings`.
->
-> As someone who directly helped bring [Jumper](https://fcp.cafe/news/20241106/) to Final Cut Pro, it'll be super interesting to compare Jumper and Apple's offering in terms of speed, quality and ease-of-use.
->
-> I'm ASSUMING that Apple's machine learning models will be super fast - especially as they're supporting all Apple Silicon devices.
->
-> The quality - who knows until it ships. We do know that lots of people are using Jumper in Adobe Premiere, even though Media Intelligence is built in natively, simply because Jumper's search results are better - i.e. Jumper understands what a `Millennium Falcon` is.
->
-> My GUESS is that Apple will have to tread very carefully with their machine learning models - and like with Adobe, Apple's models also won't know what a Millennium Falcon is (for example).
->
-> Personally, I think Apple's Transcript & Visual Search will work awesome for most users. It'll be fast, native, and super handy.
->
-> Even today, when it comes to searching transcriptions, I sometimes find it faster and easier to just throw all my footage into a timeline, generate captions and search the Timeline Index to find specific things - as opposed to firing up Jumper.
->
-> However Jumper's advantage is that the same analysis files can be shared between Mac & PC, and between Final Cut Pro, DaVinci Resolve, Adobe Premiere Pro and Avid Media Composer. It also works in multiple languages - which Final Cut Pro won't do on launch.
-
-...and I think I was basically spot on.
-
-Interestingly, after spending a day switching between **Final Cut Pro** and **Final Cut Pro Creator Studio** on Mac - I've found the subscription version to be a lot more unstable, and crashy.
-
-![](/static/fcp-creator-studio-crash.png)
-
-There seems to be bugs and issues with the on-boarding flow, subscription management and migrating preferences.
-
-My GUESS is that Apple was never able to do any deep real-world testing with users having both **Final Cut Pro** and **Final Cut Pro Creator Studio** installed on the same machine - as I'm pretty sure all the top-secret-don't-exist beta builds were just a single application (i.e. `Final Cut Pro Beta.app`) - so there's probably a lot of unexpected flows and user setups that they simply didn't test or consider.
-
-However, generally speaking **Final Cut Pro v12.0** worked pretty well today - and did what it needed to do.
-
-Unfortunately you can't open **Final Cut Pro** and **Final Cut Pro Creator Studio** at the same time out-of-the-box:
-
-![](/static/fcp-cant-run-both.png)
-
-![](/static/fcp-cant-run-both-2.png)
-
-...which is not surprising. However, you can just launch one from Terminal to get around this block.
-
-So, what about third party apps?
-
-- As mentioned above [Transfer Toolbox v1.5.0](https://transfertoolbox.fcp.cafe) is already on it's way to the Mac App Store.
-- [Capacitor](https://capacitor.fcp.cafe) will require an update for `FCPXML v1.14` support. This has been submitted to the Mac App Store, so we're just waiting on Apple to review.
-- [Metaburner](https://metaburner.fcp.cafe) will require an update for `FCPXML v1.14` support. We'll get to this for FxFactory and the Mac App Store ASAP.
-- [Hedge Arctic v26.1](https://hedge.co/products/arctic) is out now with **Final Cut Pro v12.0** support!
-- [CommandPost](https://commandpost.fcp.cafe) will definitely need an update for **Final Cut Pro Creator Studio**. It currently works with **Final Cut Pro**, but there will no-doubt be bugs. I'll try and jump on CommandPost fixes ASAP.
-- [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) is working great, but we'll update to the latest FxPlug4 SDK ASAP.
-- [BRAW Toolbox](https://brawtoolbox.fcp.cafe) is working great, but we'll update to the latest FxPlug4 SDK ASAP.
-- [Recall Toolbox](https://recalltoolbox.fcp.cafe) is working great, but we'll update to the latest Workflow Extension SDK ASAP.
-- [LUT Robot](https://lutrobot.fcp.cafe) is working great, but we'll update to the latest Workflow Extension SDK ASAP.
-- [Marker Toolbox](https://markertoolbox.fcp.cafe) is working great, but we'll update to the latest Workflow Extension SDK ASAP.
-- [Fast Collections](https://fastcollections.fcp.cafe) is working great, but we'll update to the latest Workflow Extension SDK ASAP.
-- [News Import](https://newsimport.fcp.cafe) is working great, but we'll update to the latest Workflow Extension SDK ASAP.
-
-Yes... I make far too many apps, haha (with more to come!).
-
-Here's a sneak peak at something I'm working on in collaboration with the amazing Knut Hake and Sam Pluemacher:
-
-![](/static/logicsplitter.png)
-
-This will also require some tweaks for the latest Logic Pro update - so stay tuned for it's eventual release!
-
-And that basically sums up everything I can think of after a day of cutting!
-
-If you run into any bugs or crashes, please report them to [FCP Cafe](/bugtracker/). If you have any comments or questions, fire away in the comments section below.
-
-Thanks team! Happy editing!
-
-[!button text="Discuss this news item" variant="info"](news/20260129/#discuss-this-page)
 
 ---
 
