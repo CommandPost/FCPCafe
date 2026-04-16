@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 21:19:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 13:22:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 21:19:54 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 13:22:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19469,6 +19469,147 @@ Or download Eddie AI &gt; New Project &gt; Show All Modes &gt; Night Shift</p>
             <link>https://fcp.cafe/#15th-april-2026</link>
             <guid isPermaLink="false">15th April 2026</guid>
             <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday! 👋</p>
+<p>In very interesting news, <a href="https://frame.io">Frame.io</a> has teamed up with <a href="https://www.suitestudios.io">Suite</a> to bring the world <strong>Frame.io Drive</strong>.</p>
+<p><img src="/static/frameio-drive.jpg" alt=""></p>
+<blockquote>
+<p>Mount Frame.io projects to your desktop, and your media is live in Premiere, Photoshop, After Effects, and every other tool your team uses. No waiting for downloads. Work can start the moment you mount the project.</p>
+</blockquote>
+<p>This is super interesting because Adobe owns Frame.io, and has a <a href="https://www.lucidlink.com/blog/lucidlink-series-c">stake</a> in <a href="https://www.lucidlink.com">LucidLink</a> - which is essentially a competitor to Suite.</p>
+<p>You can read more on the <a href="https://frame.io/features/mounted-storage">Frame.io website</a> and <a href="https://blog.frame.io/2026/04/15/introducing-frame-io-drive-access-your-media-anywhere-instantly/">blog</a>.</p>
+<p>In other super interesting industry news, <strong>Maxon</strong> has just released <a href="https://www.maxon.net/en/autograph">Autograph</a> for free to the world! 🤯</p>
+<p>Autograph is free 2D/3D motion graphics &amp; VFX software with the following features:</p>
+<ul>
+<li>Free access to Autograph for individuals</li>
+<li>Access to Universe Plugins and Red Giant OFX tools (license required)</li>
+<li>Access to Cineversity Training</li>
+<li>Integration with third party VFX tools</li>
+</ul>
+<p>With Blackmagic now going after Photoshop with the new Photos page in DaVinci Resolve, and now Autograph targeting After Effects, this is certainly an interesting time for Adobe!</p>
+<p>Meanwhile, Adobe has just announced a new dedicated <strong>Color Mode</strong> for Adobe Premiere.</p>
+<p>You can read all about it from Scott Simmons over at <a href="https://www.provideocoalition.com/burning-questions-about-adobe-premiere-betas-new-dedicated-color-mode/">ProVideo Coalition</a>.</p>
+<p>Completely unrelated, someone sent us this free audio plugin today which seems super cool - <a href="https://github.com/werman/noise-suppression-for-voice">Real-time Noise Suppression Plugin</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p><strong>OrangeCue Hub (for Mac)</strong> and <strong>OrangeCue Client (for Vision Pro)</strong> is out now.</p>
+<p>This is a super interesting collection of apps created by <strong>Oliver Holtkamp</strong> - whom I originally created <a href="https://newsimport.fcp.cafe">News Import</a> for!</p>
+<p>Oliver writes:</p>
+<blockquote>
+<p>OrangeCue is a synchronized multi-device playback and show-control suite built for shared Apple Vision Pro experiences. It enables operators to manage media libraries and playlists, distribute clips to connected headsets, launch shows manually or on a schedule, trigger precise synchronized starts, and monitor playback status, progress, and device connectivity in real time. The platform includes a Mac-based Hub, an iPad control interface, a visionOS client, plus iPhone and Apple Watch remote control for fast transport access during live operation. It also supports welcome screens, looped start videos, branded startup modes, and automatic re-sync for headsets that join a show late.</p>
+<p>Beyond playback control, OrangeCue provides an end-to-end workflow for immersive show preparation and delivery. OrangeCue APMP Drop converts and packages 360 media for headset playback, OrangeCue Cable Uploader enables reliable wired transfer of large files, and Stream Deck support adds tactile control for event environments. Designed for operation across devices on the same local network, OrangeCue brings synchronized playback, media preparation, deployment, monitoring, and mobile remote control together in one streamlined solution for immersive screenings, installations, live events, and shared audience experiences.</p>
+<p>On App Store: OrangeCue Hub (Mac, Maximum of 2 x Vision Pro) , OrangeCue Client (Vision Pro, free)</p>
+<p>Later this month: OrangeCue Event (Mac, up to 100 Vision Pro via FxFactory), OrangeCue iHub for iPad, OrangeCue Assistant (iPhone + Apple Watch)</p>
+</blockquote>
+<p>You can find OrangeCue Hub on the <a href="https://apps.apple.com/app/orangecue-hub/id6759935750">Mac App Store</a>.</p>
+<p><img src="/static/orangecue-01.png" alt=""></p>
+<p><img src="/static/orangecue-02.png" alt=""></p>
+<p><img src="/static/orangecue-03.png" alt=""></p>
+<p>You can find OrangeCue Client on the <a href="https://apps.apple.com/app/orangecue-client/id6760079200">Vision Pro Store</a>.</p>
+<p><img src="/static/orangecut-04.jpg" alt=""></p>
+<p>It'll be super interesting to see where this goes!</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p><strong>G.Splatting v1.0.0</strong> is out now - a Gaussian Splatting plugin for Final Cut Pro with real-time Metal GPU rendering.</p>
+<blockquote>
+<p>Next-generation 3D scene reconstruction powered by Metal. Immersive volumetric environments for your timeline.</p>
+<p>Native <code>.PLY</code>: The industry gold standard for high-fidelity Gaussian Splats and custom training pipelines.</p>
+<p>Optimized <code>.SPLAT</code> &amp; <code>.KSPLAT</code>: Lightning-fast loading and playback for compressed, lightweight models from Luma AI, Polycam, and Postshot</p>
+</blockquote>
+<p>You can learn more on the <a href="https://www.gphyx.com">G.Splatting website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p><strong>Scene Cut Detector v2.0.0</strong> is out now.</p>
+<p>It has the following changes:</p>
+<ul>
+<li>Added FCP 7 XML export for DaVinci Resolve (replaces EDL)</li>
+<li>Fixed frame drift caused by misidentifying 24fps as 23.976fps</li>
+<li>Fixed missing frame at cut points in 29.97fps</li>
+<li>Added 47.952fps, 119.88fps support</li>
+<li>For variable frame rate (VFR) videos, we recommend transcoding to a constant frame rate before analysis.</li>
+</ul>
+<p>You can learn more and download from the <a href="https://apps.apple.com/app/scene-cut-detector/id6759056281">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p>As usual, SpliceKit has been bashing along at a rapid pace... 🔥</p>
+<p><strong>SpliceKit v3.1.144</strong> had the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Transcript Editor diagnostics, timestamp mapping fixes, speaker cleanup, and faster pause deletion.</li>
+</ul>
+<p><strong>SpliceKit v3.1.145</strong> had the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Audio Mixer: managed role-bus effects, solo/mute controls, FX menu, state mirroring, diagnostics.</li>
+</ul>
+<p><strong>SpliceKit v3.1.146</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix an Audio Mixer bug that could cause a major performance drop after adding audio bus effects. Mixer polling now avoids repeated effect-stack mutations while keeping bus effects attached to their roles.</li>
+</ul>
+<p><strong>SpliceKit v3.1.147</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix OTIO and FCPXML import reliability: preserve source in-points, normalize media URLs, avoid library-picker fallbacks, and import projects through the in-process pipeline.</li>
+</ul>
+<p><strong>SpliceKit v3.1.148</strong> had the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Automatically expose Apple's AUSoundIsolation effect on startup so Voice Isolation stays available in the audio effects browser across launches.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th April 2026]]></title>
+            <description><![CDATA[<p><strong>Doza Assist</strong> has also had a heap of updates.</p>
+<p>Doza Assist now exports to Final Cut Pro, Premiere Pro, or DaVinci Resolve.</p>
+<p>Pick your editing platform once with the new Edit in: selector in the project header — every export button throughout the app updates automatically to generate the right format.</p>
+<p><strong>Doza Assist v2.4.0</strong> contains the following changes:</p>
+<ul>
+<li><strong>Final Cut Pro → FCPXML 1.11</strong> — unchanged from v2.3, pre-cut timeline with source media references and keyword ranges</li>
+<li><strong>Premiere Pro → Final Cut Pro 7 XML (xmeml v5)</strong> — the format Adobe officially recommends for third-party round-tripping. Imports cleanly via File → Import with V1 + A1/A2 tracks, integer-frame timecode, and NTSC-aware rate handling (23.976 / 29.97 / 59.94)</li>
+<li><strong>DaVinci Resolve → CMX 3600 EDL</strong> — imports via File → Import → Timeline → Pre-Conformed EDL. Source clip names and Doza Assist's editorial notes are preserved as EDL comments. HH:MM:SS:FF non-drop timecode, sanitized reel names</li>
+<li>Platform choice <strong>persists per-project</strong> and updates the global default for new projects</li>
+<li>Preferences stored at <code>~/Library/Application Support/Doza Assist/preferences.json</code></li>
+</ul>
+<p><strong>Under the hood:</strong></p>
+<ul>
+<li>New <code>exporters/</code> package with a <code>BaseExporter</code> interface and a router</li>
+<li>FCPXML path is byte-for-byte identical to v2.3 — the new wrapper delegates to the existing <code>fcpxml_export.py</code> code (regression firewall, asserted by a golden test)</li>
+<li>Ffprobe resolution/framerate helpers extracted from two duplicated inline copies in <code>app.py</code> into a shared <code>media_probe</code> module</li>
+<li><strong>36 tests</strong> (22 new), including Premiere XML NTSC frame math, EDL 1-hour timecode (caught a 4-second drift mid-build), and the FCPXML byte-identity check</li>
+</ul>
+<p>You can download and learn more on <a href="https://github.com/DozaVisuals/doza-assist">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-april-2026</link>
+            <guid isPermaLink="false">16th April 2026</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
