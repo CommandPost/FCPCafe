@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 06:48:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 21:19:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 06:48:36 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 21:19:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19403,22 +19403,22 @@ Or download Eddie AI &gt; New Project &gt; Show All Modes &gt; Night Shift</p>
 <p>The Audio Mixer has been dramatically improved. 🎚️</p>
 <p>You can watch a demo video on <a href="https://www.youtube.com/watch?v=sKZHMD_mYxI">YouTube</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=sKZHMD_mYxI"><img src="/static/audio-mixer.jpg" alt=""></a></p>
-<p><strong>SliceKit v3.1.14</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.14</strong> had the following changes:</p>
 <p><strong>🥳 New Features:</strong></p>
 <ul>
 <li><strong>All-new Audio Mixer UI:</strong> role-colored faders with gradient strips, segmented LED meters with clipping detection, per-fader automation arming, real-time volume during playback, keyframe management</li>
 </ul>
-<p><strong>SliceKit v3.1.141</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.141</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix Remove All Keyframes command: recursive discovery of keyframe targets across child clips, effect stacks, and audio channels</li>
 </ul>
-<p><strong>SliceKit v3.1.142</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.142</strong> had the following changes:</p>
 <p><strong>🐞 Bug Fix:</strong></p>
 <ul>
 <li>Fix audio mixer clip discovery for nested compound clips and storylines, handle deduplication, caption panel visibility guard</li>
 </ul>
-<p><strong>SliceKit v3.1.143</strong> had the following changes:</p>
+<p><strong>SpliceKit v3.1.143</strong> had the following changes:</p>
 <p><strong>🔨 Improvements</strong></p>
 <ul>
 <li>Add song cut workflow for beat-synced video assembly from sequence-backed sources. Fix cumulative frame drift in FCPXML builds, fix connected song alignment, add half-beat pairing rule, add sequence name substring matching, resolve timeline clips to browser equivalents for native insertion.</li>
