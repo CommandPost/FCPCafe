@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 13:22:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 23:24:39 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 13:22:42 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 23:24:38 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19610,6 +19610,111 @@ Or download Eddie AI &gt; New Project &gt; Show All Modes &gt; Night Shift</p>
             <link>https://fcp.cafe/#16th-april-2026</link>
             <guid isPermaLink="false">16th April 2026</guid>
             <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th April 2026]]></title>
+            <description><![CDATA[<p>Happy Saturday! 👋</p>
+<p>Well, the lead up to NAB has certainly been interesting already!</p>
+<p>There's lots of big industry news and changes.</p>
+<p>The big one for the Final Cut Pro community is that <a href="https://www.axle.ai">axle.ai</a> has brought <a href="https://fcp.co">FCP.co</a> back from the dead! 🥳</p>
+<p><img src="/static/fcp-co.jpg" alt=""></p>
+<p>Interestingly, axle.ai also owns <a href="https://larryjordan.com">Larry Jordan's website</a> - so now they own two of the biggest Final Cut Pro news sites, despite not really playing in the Final Cut Pro world.</p>
+<p>Their USD$20/TB/month <strong>Axle AI Cloud</strong> solution sadly only has a Adobe Premiere panel - no Final Cut Pro Workflow Extension.</p>
+<p>It will be interesting if they start heading more down the <a href="https://www.heyeddie.ai">Eddie AI</a> and <a href="https://strada.tech">Strada</a> route and start to really try break into the Final Cut Pro community.</p>
+<p>The only reason FCP Cafe exists is because of FCP.co's closure.</p>
+<p>The origin story of FCP Cafe comes back to <a href="https://twitter.com/chrisatlatenite/status/1661729178826477569">this tweet</a>, where <a href="https://twitter.com/Alex4D">Alex Gollner</a> tweeted that &quot;fcp.co is no longer the Final Cut Pro watercoooler place&quot;, and I replied with &quot;Screw it... I just registered <a href="https://finalcutpro.tech">finalcutpro.tech</a>. Let’s do this thing!&quot;.</p>
+<p>I eventually decided that FCP Cafe was a better name/domain (inspired by Chris Fenwick's <a href="https://grill.fcp.cafe">FCP Grill</a>), and as a result, this site was born.</p>
+<p>Since creating the site, <a href="https://github.com/CommandPost/FCPCafe/pulls?q=is%3Apr+is%3Aclosed">lots of people</a> have contributed - which has been AMAZING.</p>
+<p>Just a friendly reminder... that the original idea for this website was not that I would be writing stuff, it was that YOU would be writing stuff. That hasn't quite panned out - but it is YOUR site - <a href="https://fcp.cafe/contribute/">you can push content to it</a>!</p>
+<p>Our <a href="https://ltnt.tv/discord">FCP Cafe Discord</a> has also grown into my absolute favourite online community, filled with some of the nicest, smartest and most talented people I know.</p>
+<p>Welcome back FCP.co - it's so awesome to have all those old articles back online!</p>
+<p>You can read some of the articles related to me here:</p>
+<ul>
+<li><a href="https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia">Chris Hocking from LateNite Films Explains How His Team Used Final Cut Pro X to Edit, Mix, Grade, and Deliver the Much Anticipated Series &quot;Neighbours - Erinsborough High&quot; For Fremantle Australia (20 November 2019)</a></li>
+<li><a href="https://fcp.co/final-cut-pro/news/2610-braw-toolbox-and-gyroflow-toolbox">BRAW Toolbox and Gyroflow Toolbox (30 January 2023)</a></li>
+<li><a href="https://fcp.co/final-cut-pro/tutorials/2612-native-braw-editing-in-final-cut-pro-with-chris-hocking">Native BRAW Editing in Final Cut Pro with Chris Hocking (08 February 2023)</a></li>
+</ul>
+<p>It's certainly also an interesting time for Adobe!</p>
+<p>In addition to <a href="https://www.maxon.net/en/autograph">Autograph</a> and the <a href="https://www.blackmagicdesign.com/products/davinciresolve/photo">Blackmagic DaVinci Resolve Photo page</a>, <a href="https://www.canva.com">Canva</a> has released <a href="https://cavalry.studio/en/">Cavalry</a> for free! 🤯</p>
+<blockquote>
+<p>Motion design reinvented
+Professional, real-time animation software. For free.</p>
+</blockquote>
+<p><img src="/static/cavalry-features.png" alt=""></p>
+<p>This now brings Canva head-to-head with After Effects. Adobe is literally getting attacked from all sides.</p>
+<p>Speaking of Adobe, Michelle Gallina over at ProVideo Coalition has written a great article, <a href="https://www.provideocoalition.com/why-adobe-rebuilt-color-from-scratch/">Why Adobe Rebuilt Color From Scratch</a>.</p>
+<p>This speaks more of the WHY, whereas Scott Simmons <a href="https://www.provideocoalition.com/burning-questions-about-adobe-premiere-betas-new-dedicated-color-mode/">article</a> I posted earlier talking more of the HOW.</p>
+<p>Not to be out-done, Maxon has also created waves by offering <strong>Cinema 4D</strong> for free on iPad. 🤯</p>
+<p>You can watch their YouTube video below titled, <a href="https://www.youtube.com/watch?v=6DiS4GC9ZB4">Announcing Cinema 4D for iPad, Free Tools, and Windows on Arm Support</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=6DiS4GC9ZB4"><img src="/static/cinema4d-ipad.jpg" alt=""></a></p>
+<p>Also interesting is <strong>Innovative Dreams</strong>.</p>
+<blockquote>
+<p>Innovative Dreams keeps human creativity at the center of the filmmaking process, while using performance capture, virtual production, and generative AI to get stories told that weren’t possible before. We seek to use technology to usher in a new era of filmmaking creativity.</p>
+</blockquote>
+<p>You can watch a video on <a href="https://x.com/innovdreams/status/2044794972059168814?s=20">Twitter</a>.</p>
+<p>Certainly interesting times - and we haven't even got to NAB yet!</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-april-2026</link>
+            <guid isPermaLink="false">18th April 2026</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th April 2026]]></title>
+            <description><![CDATA[<p>Speaking of crazy and exciting news... <strong>SpliceKit</strong> now has native Blackmagic RAW support! 🤯</p>
+<p>As usual, things have been moving quickly...</p>
+<p><strong>SpliceKit v3.1.149</strong> had the following changes:</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>Native Blackmagic RAW (BRAW) playback in Final Cut Pro — import, preview, and edit .braw files from URSA Cine / BMPCC / Pocket 4K/6K cameras without transcoding. Works with every codec variant we've seen in the wild (braw, brxq, brst, brvn) including URSA Cine 17K. Playback runs through the Blackmagic RAW SDK with zero-copy Metal decode and realtime framerates at 6K+.</li>
+</ul>
+<p><strong>SpliceKit v3.1.150</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix a BRAW decode crash: when VideoToolbox tore down a session while a decode was in flight on our BRAW serial queue, the race could free the host callback mid-Unbind and abort FCP. Release now serializes through the same queue as decode.</li>
+</ul>
+<p><strong>SpliceKit v3.1.151</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fix missing BRAW support on fresh installs. The patcher was shipping only the SpliceKit framework dylib — the VideoToolbox decoder and MediaToolbox format-reader bundles that actually register .braw with Final Cut Pro were never getting installed. Drag-and-drop and Import Media now work out of the box on every machine.</li>
+</ul>
+<p><strong>SpliceKit v3.2.01</strong> had the following changes:</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>Native Blackmagic BRAW Color Grading. New BRAW Settings inspector menu modeled after FCP's ProRes RAW panel — Gamma / Gamut / Color Science Gen, ISO / Color Temp / Tint / Exposure / Analog Gain, full tone curve (Saturation, Contrast, Midpoint, Highlights, Shadows, Black Level, White Level), Highlight Recovery, Gamut Compression, and 3D LUT Mode. Open it from the Info inspector by clicking 'Modify BRAW…' on any selected .braw clip. Fixed playback for several BRAW files that were silently dropping persisted color settings on library reopen — the in-process decoder now primes its settings cache from the asset's persisted dict during render setup, so adjustments apply on the first frame after relaunch instead of only after touching a slider. Also fixed a thumbnail-thread race that could crash FCP on rapid slider drags.</li>
+</ul>
+<p><strong>SpliceKit v3.2.02</strong> had the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fix jerky Effects browser category sidebar scroll on installs with many effects. Every row vended during scroll was re-filtering the full effect registry with ~10k locale-aware string comparisons per frame (via FFBKEffectLibraryFolder.items → FFEffect.userVisibleEffectIDs → bsearch); those results are now cached per-folder and invalidated on effect-registry notifications.</li>
+</ul>
+<p>This is honestly all amazing - not only is SpliceKit now adding features that we've been trying to solve for decades (like native BRAW), but it's also fixing Apple's bugs like the jerky Effects Browser! 🤯</p>
+<p>You can follow along the adventure over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-april-2026</link>
+            <guid isPermaLink="false">18th April 2026</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th April 2026]]></title>
+            <description><![CDATA[<p><strong>ScriptBlade v2.0.1</strong> is out now with the following changes:</p>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Fixed an issue where save actions (Export SRT, Save Project, etc.) were triggered in all open windows. Now only the active window responds</li>
+<li>Fixed a bug where incorrect session content could overwrite files</li>
+<li>Fixed an issue where text edits in blocks were not saved properly</li>
+<li>Improved project save reliability and consistency</li>
+</ul>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Added an Export SRT button to the Paper Edit panel for quicker access</li>
+<li>Added clearer visual distinction between focused and selected blocks (yellow for focus, blue for selection)</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/scriptblade/id6758888024">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-april-2026</link>
+            <guid isPermaLink="false">18th April 2026</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
