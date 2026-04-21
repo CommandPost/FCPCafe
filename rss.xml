@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 20 Apr 2026 04:03:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Apr 2026 09:44:23 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Apr 2026 04:03:46 GMT</pubDate>
+        <pubDate>Tue, 21 Apr 2026 09:44:23 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19868,6 +19868,70 @@ The biggest change in this new version is the relay-chain copies (copy safely to
             <link>https://fcp.cafe/#20th-april-2026</link>
             <guid isPermaLink="false">20th April 2026</guid>
             <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st April 2026]]></title>
+            <description><![CDATA[<p>Happy Tuesday! 👋</p>
+<p>Well, it's a big day at Apple.</p>
+<p><img src="/static/apple-john-ternus-tim-cook.jpg" alt=""></p>
+<p><strong>Tim Cook</strong> will become the <strong>Apple Executive Chairman</strong>.</p>
+<p>You can read the <a href="https://www.apple.com/community-letter-from-tim/">Community Letter from Tim</a>.</p>
+<p>I have emailed Tim Cook (and Craig Federighi) before - when Apple originally rejected Transfer Toolbox - and whilst I never got a personal reply from Tim or Craig, I did hear from several people close to Apple, that he definitely got the email, and meetings were had - so I do believe Tim (and/or his team) read EVERY email.</p>
+<p><strong>John Ternus</strong> will become the new <strong>Apple CEO</strong>.</p>
+<p>The transition happens on <strong>1st September</strong> this year.</p>
+<p>Whilst this has been rumoured for a long time, I personally didn't see it happening so soon.</p>
+<p>You can read the official Apple Press Release in the <a href="https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/">Apple Newsroom</a>.</p>
+<p>To quote the press release:</p>
+<blockquote>
+<p>Ternus joined Apple’s product design team in 2001 and became a vice president of Hardware Engineering in 2013. He joined the executive team in 2021 as senior vice president of Hardware Engineering. Throughout his tenure at Apple, Ternus has overseen hardware engineering work on a variety of groundbreaking products across every category. He was instrumental in the introduction of multiple new product lines, including iPad and AirPods, as well as many generations of products across iPhone, Mac, and Apple Watch.</p>
+<p>Ternus’s work on Mac has helped the category become more powerful and more popular globally than at any time in its 40-year history. That includes the recent introduction of MacBook Neo, an all-new laptop that makes the Mac experience even more accessible to more people around the world. This past fall, his team’s efforts were on full display with the introduction of a redefined iPhone lineup, including the incredibly powerful iPhone 17 Pro and Pro Max, the radically thin and durable iPhone Air, and the iPhone 17, which has been an incredible upgrade for users. Under his leadership, his team also drove advancements in AirPods to make them the world’s best in-ear headphones, with unprecedented active noise cancellation, as well as the capability to become an all-in-one hearing health system that can serve as over-the-counter hearing aids.</p>
+<p>Ternus led much of the company’s focus in areas like reliability and durability, introducing new techniques that have made Apple products remarkably resilient. He has also driven much of Apple’s innovation in materials and hardware design that have reduced the carbon footprint of its products, including the creation of a new, recycled aluminum compound that has been introduced across multiple product lines, the use of 3-D printed titanium in Apple Watch Ultra 3, and innovations in repairability that have increased the lifespans of several Apple products.</p>
+<p>Prior to Apple, Ternus worked as a mechanical engineer at Virtual Research Systems. He holds a bachelor’s degree in Mechanical Engineering from the University of Pennsylvania.</p>
+</blockquote>
+<p>In addition, Johny Srouji is now <strong>Apple’s Chief Hardware Officer</strong>.</p>
+<p><img src="/static/apple-johny-srouji.jpg" alt=""></p>
+<p>Certainly an interesting and exciting time for Apple, and it will be super interesting to watch the WWDC keynote later this year!</p>
+<p>AppleInsider has an interesting article, <a href="https://appleinsider.com/articles/26/04/20/dont-expect-changes-from-apple-anytime-soon-even-with-new-leadership">Don't expect changes from Apple anytime soon, even with new leadership</a>.</p>
+<p>I agree - Apple doesn't really move quickly, and they move very, very carefully. The way they handled iPhone's in space is a great example of their restraint, patience, and professionalism.</p>
+<p>In other news, this sounds interesting:</p>
+<blockquote>
+<p>conform.tools builds the tools post professionals wish existed. Convert timelines between any NLE, ship only the frames your edit touches, and wire workflow shortcuts directly into your editor.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://conform.tools">conform.tools website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-april-2026</link>
+            <guid isPermaLink="false">21st April 2026</guid>
+            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21st April 2026]]></title>
+            <description><![CDATA[<p><strong>SpliceKit's</strong> new icon is now shipping! 🥳</p>
+<p>The SpliceKit icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p><img src="/static/splicekit-3-3-1.png" alt=""></p>
+<p><strong>SpliceKit v3.3.0</strong> has the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>New icon by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>. 🥳</li>
+<li>Wider Wizard layout so the update buttons fit correctly when updating.</li>
+<li><strong>Launch Final Cut Pro</strong> button improvements. Thanks for reporting Jonny!</li>
+<li>Help button now opens the website.</li>
+<li>Switched Sparkle from a vendored framework to Swift Package Manager for easier updating.</li>
+</ul>
+<p><strong>SpliceKit v3.3.1</strong> has the following changes:</p>
+<p><strong>🔨 Improvements</strong></p>
+<ul>
+<li>Adds a Vision Pro preview panel, Bonjour discovery for <code>_ivtpreviewclient._tcp</code>, MCP bridge additions for the Vision Pro tools, and the Resolve Immersive BRAW reverse-engineering notes.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixes crash-on-launch regression in <code>v3.3.0</code>. The SpliceKitBridgeMetadata module had its declaration and call site committed but its implementation file was never included in the build, so the safe-install block jumped to <code>0x0</code> during Final Cut Pro's <code>didFinishLaunching</code> fanout.</li>
+</ul>
+<p>You can follow along the adventure over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#21st-april-2026</link>
+            <guid isPermaLink="false">21st April 2026</guid>
+            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
