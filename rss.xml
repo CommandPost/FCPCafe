@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 09:44:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 04:47:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Apr 2026 09:44:23 GMT</pubDate>
+        <pubDate>Wed, 22 Apr 2026 04:47:35 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -19932,6 +19932,105 @@ The biggest change in this new version is the relay-chain copies (copy safely to
             <link>https://fcp.cafe/#21st-april-2026</link>
             <guid isPermaLink="false">21st April 2026</guid>
             <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd April 2026]]></title>
+            <description><![CDATA[<p>Happy Wednesday! 👋</p>
+<p>This is a big day for FCP Cafe!</p>
+<p><strong>BRAW Toolbox v3.0.0</strong> is out now with Media Extension support! 🥳</p>
+<p><img src="/static/braw-toolbox-v3-0-0-immersive.png" alt=""></p>
+<p>This is something I've been working on, literally for YEARS.</p>
+<p>Back on <a href="/news/20241120">20th November 2024</a> I wrote:</p>
+<blockquote>
+<p>Whilst Apple did announce at the 2024 Final Cut Pro Creative Summit that <strong>Final Cut Pro 11</strong> now supports the new macOS system-wide <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension Framework</a>, and that Blackmagic will at some point release a Blackmagic RAW Media Extension - there is currently no time frame, so we have no idea if this is coming in days, weeks, or months.</p>
+<p>In <a href="https://x.com/chrisatlatenite/status/1667015417175625734">2023</a> Apple announced a new framework called <strong>MediaExtension</strong>, that provides a means for developers to create format readers and video decoders for media that the system doesn’t natively support - such as <strong>Blackmagic RAW</strong> and <strong>Nikon NRAW</strong>.</p>
+<p>This was supposed to come in <strong>macOS Sonoma</strong>, but they silently killed it - only for it to reappear in this years WWDC for <strong>macOS Sequoia</strong>.</p>
+<p>Whilst it's been out for a while, the documentation is insanely complicated and limited and the only person I know who's done ANYTHING with it so far is the incredible <a href="https://x.com/_vade">Anton Marini</a>, who's been building an <strong>ffmpeg</strong> Media Extension over on GitHub <a href="https://github.com/vade/FFMPEGMediaExtension">here</a>.</p>
+<p>I originally started playing with and testing MediaExtension's both back in 2023, and during the macOS Sequoia beta's, but never made much progress, as Final Cut Pro 10.8.1 didn't support Media Extensions anyway.</p>
+<p>However, given there's no certainty as to when Blackmagic will release a Blackmagic RAW Media Extension, we're going to go back and see if we can bring a Blackmagic RAW Media Extension to market sooner rather than later.</p>
+<p>Apple announced 3rd party Motion Templates were &quot;coming soon&quot; to iPad at launch, and that functionality is still not out - so we don't really want to waste time waiting for something that could be a year away.</p>
+</blockquote>
+<p>For the last three years, I've been constantly thinking about Media Extensions and how I could get things working for BRAW Toolbox.</p>
+<p>I've had MANY failed attempts.</p>
+<p>I've chatted with MANY smart people - especially my friends and co-workers at <a href="https://hedge.co">Hedge</a>.</p>
+<p>I've paid the incredible <a href="https://github.com/vade">Anton Marini</a> for some freelance consulting time to pick his brain.</p>
+<p>I've chatted with the amazing people at trade events, and have tried many times to get answers out of Apple.</p>
+<p>It was HARD... there's little documentation, no sample code, submitting an Apple Developer Technical Support (DTS) ticket just got closed and refunded without comment, and no one from Apple could connect me to the MediaExtension team.</p>
+<p>But... despite everyone telling me it was kinda impossible, and to just give up... I persisted, and inch-by-inch I eventually solved issues.</p>
+<p>I used OpenAI's Codex. I used Claude Code. I used ChatGPT. I used them all together comparing notes.</p>
+<p>Even with LLMs, it was HARD.</p>
+<p>But eventually, with a lot of &quot;human coding&quot; and a lot of help from old mate <strong>Opus 4.7 1M Max</strong>, I EVENTUALLY got something working.</p>
+<p><strong>BRAW Toolbox v3.0.0</strong> is now up on the Mac App Store for the world to play with! 🥳</p>
+<p><img src="/static/braw-toolbox-v3-0-0.png" alt=""></p>
+<p>The original/legacy BRAW Toolbox is all still there, so we don't break projects where you've currently using BRAW Toolbox.</p>
+<p>In some ways, the original might actually be better, as you can keyframe all the RAW parameters - something not possible with Media Extensions.</p>
+<p>The hero BRAW Toolbox application (i.e. the application you actually download from the Mac App Store and launch from your <code>/Applications</code> folder) has had a facelift:</p>
+<p><img src="/static/braw-toolbox-v3-0-0-wrapper.png" alt=""></p>
+<p>It now also contains a Blackmagic RAW Player for easy testing of the Media Extension:</p>
+<p><img src="/static/braw-toolbox-v3-0-0-player.png" alt=""></p>
+<p>And thanks to the incredible <a href="https://github.com/AdrianEddy">AdrianEddy</a> - the creator of Gyroflow - we even have Gyroflow built in:</p>
+<p><img src="/static/braw-toolbox-v3-0-0-gyroflow.png" alt=""></p>
+<p>The original BRAW Toolbox was always a bit of a hack job. The website explains:</p>
+<blockquote>
+<p>Because Final Cut Pro's decode API is private - we had to just make do with the two public API's we had access to - <a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions">Workflow Extensions</a> and <a href="https://developer.apple.com/documentation/professional_video_applications/fxplug?language=objc">FxPlug4</a>.</p>
+<p>We use the Workflow Extension API as our &quot;user interface&quot;, where users can select the footage they want to import, and preset any RAW controls.</p>
+<p>We use the FxPlug4 API as our &quot;renderer&quot;. Essentially, BRAW Toolbox is just a Filter in Apple Motion, and an Effect in Final Cut Pro, but instead of &quot;processing&quot; the source clip, we replace the clip contents with the processed BRAW clip.</p>
+<p>We use Blackmagic's official <a href="https://www.blackmagicdesign.com/developer/product/camera">BRAW SDK</a> - so you get all the same colour science and processing speed as DaVinci Resolve.</p>
+<p>As far as we know, BRAW Toolbox is the first application on the Mac App Store to include an FxPlug4 effect.</p>
+<p>Then in <strong>BRAW Toolbox v3.0.0</strong> we added a Media Extension for native Blackmagic RAW in QuickTime Player, Final Cut Pro and any other application that supports Media Extensions!</p>
+</blockquote>
+<p>Media Extensions is similarly a bit of a hack job... the BRAW SDK and the Media Extensions SDK aren't really compatible.</p>
+<p>One expects a file path, and filesystem access - the other is totally sandboxed and just wants individual frame data for processing.</p>
+<p>But, after lots of experimenting, and trying every trick in the book - I eventually got something working, that actually plays back well.</p>
+<p>Media Extensions are REALLY locked down. The RAW Processor can't use App Group's, and you can't use Security-Scoped Bookmarks to get access to files. It's REALLY sandboxed.</p>
+<p>So there was a LOT of problems to solve - and this was all unchartered territory. Whilst there's two open source Media Extensions in the wild now - neither use the RAW Processor, and neither actually try get metadata into Final Cut Pro.</p>
+<p>Blackmagic have always been SUPER helpful with the BRAW side of things, but they couldn't help with the Media Extension side of things.</p>
+<p>With no help from Apple... I just had to fly solo.</p>
+<p>Again, Apple &amp; Blackmagic did announce that an official Blackmagic RAW Media Extension was coming at the <strong>2024 Final Cut Pro Creative Summit</strong> - however it's now 2026, and it's still not here.</p>
+<p>I was fully expecting to see it at NAB 2026 - but when it wasn't mentioned in Grant's announcement video - I knew I just had to ship my own version.</p>
+<p>The super interesting thing about Media Extensions (which shows that SOMEONE at Apple is thinking ahead!), is that you can pick which one you want to use for specific codecs in <strong>System Settings</strong>:</p>
+<p><img src="/static/braw-toolbox-v3-0-0-system-settings.png" alt=""></p>
+<p>So if/when Apple &amp; Blackmagic do ship the official Blackmagic RAW Media Extension, users will have a choice.</p>
+<p>I'm going to GUESS that Blackmagic will do a minimal effort Media Extension - and probably not deeply support Blackmagic URSA Cine Immersive clips, and probably not feed in all the metadata to Final Cut Pro - because let's face it - Blackmagic want you to cut in DaVinci Resolve.</p>
+<p>Regardless... it was exciting when BRAW Toolbox was the first solution to bring native Blackmagic RAW to Final Cut Pro, and now I'm super happy to bring Blackmagic RAW to the whole of macOS!</p>
+<p>For a strictly limited time, as a thank you for your patience, love and support, BRAW Toolbox is currently discounted to <strong>USD$49.99</strong> (down from USD$79.99) on the Mac App Store.</p>
+<p>For users that have already purchased BRAW Toolbox - there's no upgrade fee - just download the latest version from the Mac App Store.</p>
+<p>If you run into any bugs, or have ideas or feature requests, the best place to do this is on <a href="https://github.com/latenitefilms/brawtoolbox/issues">GitHub</a>.</p>
+<p>So what's next for BRAW Toolbox? I'm going deep into Immersive workflows.</p>
+<p>You can read about my early Immersive Workflow notes on <a href="https://fcp.cafe/learn/immersive/">FCP Cafe</a>.</p>
+<p>I want to add a <strong>Share Destination</strong> to Final Cut Pro that allows you to export BRAW Immersive timelines directly for Vision Pro.</p>
+<p>I want to build realtime previews from your Final Cut Pro BRAW Immersive timelines to your Vision Pro.</p>
+<p>I want to make it so that you don't HAVE to use DaVinci Resolve - Final Cut Pro SHOULD be a valid workflow for Vision Pro Immersive, and it's CRAZY that it's currently not.</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-april-2026</link>
+            <guid isPermaLink="false">22nd April 2026</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd April 2026]]></title>
+            <description><![CDATA[<p><strong>Curves v1.2</strong> is out now.</p>
+<p>It includes the following changes:</p>
+<ul>
+<li>Add anchor point parameter: Hold the option key and drag the control point to offset the anchor point</li>
+<li>Improve motion blur for large slow-moving objects</li>
+<li>Fix scaling bug when scaling with Final Cut's built-in transform</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/curves-for-final-cut/id6760507188">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-april-2026</link>
+            <guid isPermaLink="false">22nd April 2026</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd April 2026]]></title>
+            <description><![CDATA[<p><strong>ShotPut IO v1.1.1 (Build 9)</strong> is out now.</p>
+<p><img src="/static/shotput-io.png" alt=""></p>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/shotputio/id6760034904">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-april-2026</link>
+            <guid isPermaLink="false">22nd April 2026</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
