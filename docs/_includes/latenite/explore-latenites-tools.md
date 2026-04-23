@@ -67,6 +67,20 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=WLByY6z1cR4):
 
 Or you can also listen to it on [Spotify](https://open.spotify.com/episode/0LdfHsWbaec7WAst52PsOe) and [Apple Podcasts](https://podcasts.apple.com/us/podcast/31-chris-hocking-saying-yes-solving-problems-and/id1866513082?i=1000758937097).
 
+Back in 2016, I did a presentation on the Adobe stage at NAB for our show, [The Wizards of Aus](https://latenitefilms.com/live-action/the-wizards-of-aus/).
+
+You can watch the presentation below:
+
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/16266cba6edc841d21ccff3ae2fd5712/iframe?poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F16266cba6edc841d21ccff3ae2fd5712%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D17s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+
 You can also listen to Chris on:
 
 - [Coming up Next Podcast (12th July 2016)](https://podcasts.apple.com/au/podcast/coming-up-next/id1019053801?i=1000372372572)
