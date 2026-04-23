@@ -38,6 +38,20 @@ However, if you want **EVERYTHING**, the **Pro Editor Bundle v3** is only **USD$
 - [News Import](/latenite/#news-import)
 - [Recall Toolbox](/latenite/#recall-toolbox)
 
+There's also **Pro Editor Bundle v4** for **USD$150** which includes:
+
+- [ATEM Exporter](/latenite/#atem-exporter)
+- [Capacitor](/latenite/#capacitor)
+- [Fast Collections](/latenite/#fast-collections)
+- [LUT Robot](/latenite/#lut-robot)
+- [Metaburner](/latenite/#metaburner)
+- [News Import](/latenite/#news-import)
+- [Notion Toolbox](/latenite/#notion-toolbox)
+- [Recall Toolbox](/latenite/#recall-toolbox)
+- [ScriptStar](/latenite/#scriptstar)
+- [Transfer Toolbox](/latenite/#transfer-toolbox)
+- [VFX Toolbox](/latenite/#vfx-toolbox)
+
 The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
 
 You can find the bundles on the **Apple Mac App Store** here:
@@ -45,6 +59,7 @@ You can find the bundles on the **Apple Mac App Store** here:
 - [**Pro Editor Bundle**](https://apps.apple.com/app-bundle/pro-editor-bundle/id1717681153).
 - [**Pro Editor Bundle v2**](https://apps.apple.com/app-bundle/pro-editor-bundle-v2/id1750813030).
 - [**Pro Editor Bundle v3**](https://apps.apple.com/app-bundle/pro-editor-bundle-v3/id1814969493).
+- [**Pro Editor Bundle v4**](https://apps.apple.com/app-bundle/pro-editor-bundle-v4/id1895132701)
 
 ![](/static/pro-editor-bundle.jpg)
 
