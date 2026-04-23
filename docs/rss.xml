@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 04:47:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 02:16:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Apr 2026 04:47:35 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 02:16:49 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20031,6 +20031,170 @@ The biggest change in this new version is the relay-chain copies (copy safely to
             <link>https://fcp.cafe/#22nd-april-2026</link>
             <guid isPermaLink="false">22nd April 2026</guid>
             <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd April 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday! 👋</p>
+<p>First up, I came across this new YouTube Channel, which I think is going to be pretty awesome.</p>
+<p><strong>Joanna Stern</strong> writes:</p>
+<blockquote>
+<p>It’s finally here! The new thing I’ve been building for the last few months: New Things!</p>
+<p>It’s a newsletter. It’s a video series. It’s independent tech journalism. And yes, it’s fun!</p>
+<p>Today we launched our YouTube channel with a video about why I left The Wall Street Journal, what we're building with this new publication and a cameo from the great Casey Neistat, who encouraged me to do my own thing long ago.</p>
+<p>We also launched our newsletter on beehiiv. The design looks fantastic, and I hope you’ll find the reporting and stories even better. Sign up to become a paid member now!</p>
+<p>Thank you to all the humans—and yes, the AI—joining me on this wild ride, especially David Hall and Amaya Austin. Read more about them on our new website. Truly a dream team. And a huge shout-out to Kenny Wassus for making my home studio look offensively good, and to Jason Snyder and Briana Feola for the gorgeous branding and hand-drawn font.</p>
+<p>Please watch, subscribe and come see what we’re building!</p>
+</blockquote>
+<p>The first episode of New Things is titled <strong>Why I Left My Prestigious Job to Make YouTube Videos</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=Qd2Dyr0m3BI">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Qd2Dyr0m3BI"><img src="/static/new-things.jpg" alt=""></a></p>
+<p>I think this is going to be a really fun channel to follow along, so please, like and subscribe, <em>like and subscribe</em>.</p>
+<p>It's also update day, and new product announcement day! 🥳</p>
+<p>First up... After a month of heavy beta testing and eight TestFlight releases, <strong>Keyframe Toolbox v1.1.0 (Build 39)</strong> is out now!</p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-1.png" alt=""></p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-2.png" alt=""></p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-3.png" alt=""></p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-4.png" alt=""></p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-5.png" alt=""></p>
+<p><img src="/static/keyframe-toolbox-1-1-0-info-6.png" alt=""></p>
+<p>It contains the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li><strong>Clicking the name of a property creates a keyframe at the current time</strong>, maintaining the current graph shape.</li>
+<li><strong>Shift-clicking a property name creates a keyframe on all graphs.</strong> Thanks for requesting, Honusan and others!
+<ul>
+<li>Related — clicking the name of a property while over a keyframe (or double-clicking the keyframe property name) opens that keyframe for numeric editing. Thanks for requesting, Honusan and others!</li>
+</ul>
+</li>
+<li><strong>Graphs can now be zoomed horizontally.</strong> Use two fingers on a trackpad or hold option while scrolling. Alternatively, double-click in empty space to zoom in to show just 25% of the graph width. When zoomed in, a scroll indicator at the bottom shows the visible part of the total graph. This can be dragged manually. Alternatively, you can scroll with a horizontal scroll on a trackpad or by holding shift while using a scroll wheel. Thanks for requesting, Jake, Honusan and others!</li>
+<li><strong>Presets can be saved</strong>, using the new Save Preset option at the end of the Presets menu. When you apply one of your own presets, you’ll be able to control limits, scale handles up or down, and flip the preset as you can with the other presets. Thanks for requesting, cinestillsamurai, Honusan and others!
+<ul>
+<li>Use <strong>Manage Presets</strong>, in the same menu, to reveal a folder containing all your presets. Share presets with your friends if you wish!</li>
+<li>Renaming presets renames them in the menu; deleting them removes them.</li>
+</ul>
+</li>
+<li><strong>Easing has been added</strong> to the graph menu and right-click menu, for Ease In, Ease Out, or Ease In+Out, for many common curve types (Linear, Sine, Quad, Cubic, Quart, Quint, Circ, Expo, Back). If you’re a fan of Easy Ease in After Effects, try Sine here. Note that selecting two or more keyframes applies easing to the curves between the presets, while selecting a single keyframe applies easing to the handles around that keyframe. Thanks for requesting something like this, Alex Gollner!</li>
+<li><strong>Clicking on a line connecting two keyframes selects both keyframes.</strong> This makes it easier to apply easing to the graph between two keyframes. (Note that double-clicking on a line still creates a new linear keyframe.)</li>
+<li><strong>Settings can now be saved as default.</strong> If you always want to use Motion Blur and Absolute Timing, set your preferred options, then press the new button at the bottom of the Settings panel. This affects new instances of Keyframe Toolbox. Thanks for requesting, Honusan!</li>
+<li><strong>In Absolute Timing mode, time is now shown in frames and timecode.</strong> If a clip is less than a minute long, only seconds and frames are shown. Thanks for requesting, Honusan!</li>
+<li>Several improvements to numeric editing.
+<ul>
+<li><strong>When you double-click a keyframe, the playhead moves to that frame</strong> so you can see your changes directly.</li>
+<li>When editing values numerically, use up/down to change by 1, ⇧-up/down to change by 10, and (new!) ⌥-up/down to change by 100.</li>
+<li><strong>Changing values with arrow keys now immediately updates</strong> a keyframe or handle.</li>
+<li><strong>Left and right arrow keys now switch to editing neighbouring keyframes</strong> (and move the playhead) so you can easily edit all values in a graph numerically if you wish.</li>
+</ul>
+</li>
+<li>If you wish, hold Command while using the scroll wheel to move the playhead.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Important: property changes now more closely follow extreme graph curves. Please check any existing animations to make sure they're still doing what you want; very minor tweaks may be needed.</li>
+<li>Scrolling behavior is more consistent.</li>
+<li>It's easier to select groups of keyframes.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+<p>Secondly... After a month of heavy beta testing and six TestFlight releases, <strong>ScriptStar v1.5.0 (Build 26)</strong> is out now!</p>
+<p><img src="/static/scriptstar-app-store-1.png" alt=""></p>
+<p><img src="/static/scriptstar-app-store-2.png" alt=""></p>
+<p><img src="/static/scriptstar-app-store-3.png" alt=""></p>
+<p><img src="/static/scriptstar-app-store-4.png" alt=""></p>
+<p><img src="/static/scriptstar-app-store-5.png" alt=""></p>
+<p><img src="/static/scriptstar-app-store-6.png" alt=""></p>
+<p>This release includes local transcription with downloadable models! You'll find all the changes on the page where you can add <code>SRT</code>s and kick off the processing.</p>
+<p>To create a <strong>New Transcript</strong> for any clip, whether it's been transcribed by Final Cut Pro already or not, just check the box for that clip in the <strong>New Transcript</strong> column, or click the <strong>New Transcript</strong> column header itself to check that box for all clips.</p>
+<p>All transcriptions are local, private, free, and never leave your Mac.</p>
+<p>Models include:</p>
+<ul>
+<li><strong>Parakeet v3</strong> (fast, multiple European languages)</li>
+<li><strong>Whisper v3-large</strong> (slow, but includes Asian languages like Chinese and Japanese)</li>
+<li><strong>Apple's SpeechTranscriber</strong> model that's built in (fast, but not as accurate as the other models, and seemingly the model Final Cut Pro uses natively, with poor multi-language support).</li>
+</ul>
+<p>You can choose the model to use in the <strong>Options</strong> panel, and the first time you transcribe, the model will download automatically, displaying a progress bar as it does so.</p>
+<p>For the most accurate timing, don't use the built-in transcripts — just re-transcribe with Parakeet. It's fast, and the timing is more accurate than Final Cut Pro's own transcripts.</p>
+<p>You shouldn't need to manage these models, but if you try Whisper and find it doesn't work for you, just hold <code>COMMAND+OPTION</code> as you choose that option to delete its files.</p>
+<p>You can download and learn more on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
+<p>Finally, because apparently I have too much free time and not enough apps to wrangle, I've got something new to share...</p>
+<p>Back on <a href="/news/20260315">15th March 2026</a> I posted:</p>
+<blockquote>
+<p>Our good friends at <strong>Corridor Digital</strong> have got into the software development game, and it's impressive!</p>
+<p>They've released a new website video on their <strong>Corridor Crew</strong> channel titled, <strong>It Took Me 30 Years to Solve this VFX Problem</strong>.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=3Ploi723hg4">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=3Ploi723hg4"><img src="/static/fixed-green-screens.jpg" alt=""></a></p>
+<p>You can join their <a href="https://discord.com/invite/bHPZvbhS4">Discord Community too</a>.</p>
+</blockquote>
+<p>Since then they've posted another epic video titled, <strong>I accidentally started a green screen revolution...</strong></p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=Y3Dfw969itU">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Y3Dfw969itU"><img src="/static/corridor-crew-green-screen-youtube.jpg" alt=""></a></p>
+<p>I've known the Corridor Crew for a long time, and have caught up with Wren and the gang a few times over the years at NAB.</p>
+<p><img src="/static/chris-and-wren.jpg" alt=""></p>
+<p>The first time was back in 2016, where I did a presentation on the Adobe stage for our show, <a href="https://latenitefilms.com/live-action/the-wizards-of-aus/">The Wizards of Aus</a>.</p>
+<p>If you're interested, you can watch the presentation below:</p>
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-2n8dqn7i3032pr6x.cloudflarestream.com/16266cba6edc841d21ccff3ae2fd5712/iframe?poster=https%3A%2F%2Fcustomer-2n8dqn7i3032pr6x.cloudflarestream.com%2F16266cba6edc841d21ccff3ae2fd5712%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D17s%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+<p>Needless to say, I love the Corridor Crew, and everything they do, and when Niko released the above videos, I was obviously totally into this.</p>
+<p>And so... introducing <strong>Corridor Key Toolbox</strong>! 🥳</p>
+<p><img src="/static/corridor-key-toolbox-01.png" alt=""></p>
+<p>This is still VERY early days, and very much a work-in-progress, but it's currently functional.</p>
+<p><img src="/static/corridor-key-toolbox-02.png" alt=""></p>
+<p>It's all written in Swift and Swift UI and uses MLX for the ML processing pipeline.</p>
+<p>It uses Final Cut Pro's analysis API, so you can actually do the analysis in the background.</p>
+<p>The plan is to release this on TestFlight ASAP, then on the Mac App Store as soon as it's ready.</p>
+<p>It's open source (<code>CC BY-NC-SA 4.0</code>), and you can find the (ever evolving) code on <a href="https://github.com/latenitefilms/CorridorKeyToolbox">GitHub</a>.</p>
+<p>Stay tuned for the TestFlight launch!</p>
+<p>Finally, we have a new bundle on the Mac App Store! Introducing... <a href="https://apps.apple.com/app-bundle/pro-editor-bundle-v4/id1895132701"><strong>Pro Editor Bundle v4</strong></a>.</p>
+<p>Onwards &amp; Upwards! 🛸</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-april-2026</link>
+            <guid isPermaLink="false">23rd April 2026</guid>
+            <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd April 2026]]></title>
+            <description><![CDATA[<p>As you would expect, <strong>SpliceKit</strong> also continues to bash along, but mostly with bug fixes the last few days, as more and more people take it for a spin!</p>
+<p>SpliceKit has now been downloaded <strong>578</strong> times! 🥳</p>
+<p><strong>SpliceKit v3.3.2</strong> has the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixes Blackmagic RAW thumbnail crash when third-party Media Extensions are installed.</li>
+<li>Restores LiveCam camera/microphone access.</li>
+<li>Fixes rare installer signing failures from stray extended attributes.</li>
+<li>Adds build-time guards against undefined <code>SpliceKit_</code> symbols.</li>
+</ul>
+<p><strong>SpliceKit v3.3.3</strong> has the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>Fixes the patcher signing path for existing modded installs so nested SpliceKit bundles, framework, and app wrapper are re-signed correctly during rebuilds and updates.</li>
+</ul>
+<p><strong>SpliceKit v3.3.4</strong> has the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixes the patcher update path on existing modded installs by rebuilding SpliceKit.</li>
+<li>Framework cleaned before signing, avoiding recursive framework symlink loops that caused the installer to fail at Re-signing application.</li>
+<li>Also re-signs nested SpliceKit bundles during patch/update and makes <code>xattr</code> clean-up non-fatal so harmless attribute clean-up issues do not abort the install.</li>
+</ul>
+<p>You can follow along the adventure over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-april-2026</link>
+            <guid isPermaLink="false">23rd April 2026</guid>
+            <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[23rd April 2026]]></title>
+            <description><![CDATA[<p><strong>CineDream</strong> is currently having a <strong>25% off</strong> sale for NAB!</p>
+<p>You can find out more on the <a href="https://www.cinedream.io/nab2026#pricing">CineDream website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#23rd-april-2026</link>
+            <guid isPermaLink="false">23rd April 2026</guid>
+            <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
