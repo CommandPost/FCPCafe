@@ -1,3 +1,4 @@
+- [Compressor 5.2 - Doesn't handle RAW Media Extensions correctly (April 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/536)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
@@ -27,4 +28,3 @@
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
-- [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
