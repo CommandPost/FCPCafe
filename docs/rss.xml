@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 23 Apr 2026 06:36:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Apr 2026 23:19:46 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 06:36:50 GMT</pubDate>
+        <pubDate>Sat, 25 Apr 2026 23:19:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20229,6 +20229,176 @@ The biggest change in this new version is the relay-chain copies (copy safely to
             <link>https://fcp.cafe/#23rd-april-2026</link>
             <guid isPermaLink="false">23rd April 2026</guid>
             <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th April 2026]]></title>
+            <description><![CDATA[<p>Happy Sunday! 👋</p>
+<p>First up some interesting news and observations...</p>
+<p><strong>OZU</strong> has released <strong>CinemaCLIP</strong> into the world!</p>
+<blockquote>
+<p>OZU builds video products to understand and explore stories at scale.</p>
+<p>We're a remote-first startup based in Brooklyn NY and backed by angels, VCs, and entrepreneurs from Figma, Atlassian, Runway, NVIDIA, and Maximum Effort.</p>
+<p>Introducing CinemaCLIP - A hybrid CLIP model and taxonomy for the visual language of cinema</p>
+<p>CinemaCLIP is one part of a family of models and techniques that we built at OZU to understand the art of visual storytelling, and is the backbone for a suite of tools and processes that power OZU's state of the art narrative understanding systems.</p>
+<p>It offers a demonstrable improvement over CLIP and VLM models for many industry professional use cases. Not only is it more accurate in understanding cinematic concepts, it can also be run on commodity hardware on edge, at greatly faster than real-time rates. This enables opportunities like real-time video search and retrieval systems, live camera assist systems, on set validation, and more.</p>
+<p>Our key contributions besides the model itself are two-fold: a dataset and ontology of visual language at the frame level, and a novel training recipe to add domain expertise to CLIP models while mitigating catastrophic forgetting. We believe this recipe is generic and can be adapted to other domains as well.</p>
+</blockquote>
+<p>You can read more about CinemaCLIP in a <a href="https://www.ozu.ai/cinemaclip/">detailed article on their website</a>.</p>
+<p>You can download it on <a href="https://github.com/Synopsis/cinemaclip">GitHub</a> and <a href="https://huggingface.co/OZU-Technology/CinemaCLIP">HuggingFace</a>.</p>
+<p>It'll be super interesting to see what people build with it!</p>
+<p><strong>Shade</strong> <a href="https://shade.inc/blog/shade-raises-14m-to-build-the-intelligent-file-system-for-creative-teams">Raises $14M</a> to Build The Intelligent File System for Creative Teams. 🤯</p>
+<blockquote>
+<p>We're excited to announce that we just raised a $14M fundraising round led by Khosla Ventures, with Construct Capital and Bling Capital. That brings Shade to $20M in total funding.
+This funding lets us keep building Shade as that system of record — one place for creative teams to ingest, search, review, archive, and automate, without shuttling files between six or seven tools.</p>
+</blockquote>
+<p>This kind of investment just blows my mind. The amount of insanely awesome stuff I could build in the FCP world if I had a million dollars, let alone $14 million.</p>
+<p>I've played around with Shade quite a bit over the years, and have seen it grow and evolve.</p>
+<p>I've chatted with CEO Brandon Fan over Zoom.</p>
+<p>Whilst I'm not a subscriber of Shade currently (we use a mixture of <a href="https://www.synology.com/en-global/dsm/feature/drive">Synology Drive</a> and <a href="https://frame.io">Frame.io</a>), it's certainly great to see good companies and great people kicking goals!</p>
+<p>In other news... <strong>Apple</strong> is hiring! 🥳</p>
+<p>They're currently trying to fill this role: <a href="https://jobs.apple.com/en-us/details/200658688-3543/senior-software-engineer-video-applications-fx-plug-api-s?team=SFTWR">Senior Software Engineer — Video Applications (FX Plug API’s)</a></p>
+<p>This is great news for Final Cut Pro users, as it means that Apple is actively working on improving <a href="/developers/fxplug/">FxPlug</a> - the developer technology behind Motion Templates in Final Cut Pro.</p>
+<p>The job reads:</p>
+<blockquote>
+<p><strong>Description:</strong>
+As a Senior Software Engineer on the Motion team, you’ll be the bridge between the core engineering team and our 3rd party developer ecosystem. You’ll design and develop new FxPlug APIs that enable developers to create powerful new effects for Final Cut Pro and Motion, as well as maintaining the existing FxPlug APIs. You'll own the developer experience end-to-end—from API design to community engagement.
+This is a hands-on role for someone who thrives on solving complex problems by creating clear and consistent developer-facing interfaces.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+<li>Design and implement robust, well-documented FxPlug APIs that enable 3rd party developers to extend the capabilities of our applications</li>
+<li>Diagnose and debug integration issues with our applications and the FxPlug APIs</li>
+<li>Identify and resolve performance bottlenecks in the implementation of the FxPlug APIs</li>
+<li>Maintain existing FxPlug APIs and their implementation.</li>
+<li>Write automated tests to exercise the FxPlug APIs</li>
+<li>Write clean, testable code</li>
+<li>Participate in code reviews, both giving and receiving feedback</li>
+<li>Create and maintain FxPlug API documentation and sample code</li>
+<li>Provide technical support and guidance to 3rd party developers, including communicating directly with them and helping them with troubleshooting</li>
+<li>Prioritize FxPlug API improvements by balancing 3rd party developer needs as well as Apple’s own roadmap</li>
+</ul>
+</blockquote>
+<p>This is the part that makes me REALLY excited:</p>
+<p><strong>Provide technical support and guidance to 3rd party developers, including communicating directly with them and helping them with troubleshooting</strong></p>
+<p>As I've explained in the past, Blackmagic is the leader in 3rd party developer support.</p>
+<p>They have a great <a href="https://forum.blackmagicdesign.com/viewforum.php?f=12&amp;sid=cd58f2dc02b3ce18136fd548dc223fe6">public forum</a>, excellent <a href="https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview">developer support</a> and a big developer presence at trade shows like NAB.</p>
+<p>HOPEFULLY, this job ad points to Apple offering better developer support in the future. We'll see.</p>
+<p>In the world of vibe coding, every day there seems to be a new Final Cut Pro on the market.</p>
+<p>Today I have two super interesting applications to share from two very interesting people...</p>
+<p><strong>Ulti.Media</strong> has released <strong>Media Matcher</strong>.</p>
+<p><img src="/static/media-matcher.jpg" alt=""></p>
+<blockquote>
+<p>Media Matcher is a sophisticated macOS application designed to solve the critical problem of media disconnection in professional post-production. It leverages advanced mathematics and high-performance engineering to reconnect &quot;To Match&quot; media with original sources, regardless of filename changes.</p>
+</blockquote>
+<p>You can watch a simple demo video on <a href="https://www.youtube.com/watch?v=byf81iFK-dw">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=byf81iFK-dw"><img src="/static/media-matcher-youtube.jpg" alt=""></a></p>
+<p>You can download and learn more on the <a href="https://ulti.media/matcher/">Ulti.Media website</a>.</p>
+<p><strong>Jinkyu Han</strong>, an on-set film editor working in Seoul, Korea has also released <strong>First Rush</strong>.</p>
+<p><img src="/static/firstrush.png" alt=""></p>
+<p>Jinkyu explains:</p>
+<blockquote>
+<p>Long-time admirer of CommandPost — it's been quietly running on a lot of FCP rigs over here too — and a regular reader of fcp.cafe.</p>
+<p>I just shipped 1.0 of something I built for myself called <strong>First Rush</strong> — a native macOS multi-cam SDI recorder designed around the Final Cut Pro pipeline. It came out of the same kind of frustration that produced CommandPost (workflow automation that nobody else was going to build), and I'd love to know if it might be a fit for a piece on fcp.cafe — or even a quick mention in the news feed.</p>
+<p><strong>What it is:</strong>
+A Movie Recorder alternative born from real on-set frustration. Korean drama productions stack ARRI ALEXA / Sony Venice / DJI Ronin 4D in the same shoot, and getting clean FCP-ready clips out of that mix — synchronized, with metadata that flows into Final Cut without any post-import cleanup — was always the bottleneck.</p>
+<p><strong>Highlights for fcp.cafe readers:</strong>
+Master camera REC trigger — detects the SMPTE RP 188 RECORD flag from ARRI ALEXA / Sony Venice / DJI Ronin 4D / Blackmagic URSA and synchronizes every video channel automatically.</p>
+<ul>
+<li><strong>HUD OCR</strong> — reads Clip · Reel · ISO · WB · shutter directly from the camera HUD via the Vision framework, writes them into clip metadata before recording even starts.</li>
+<li><strong>NLE-ready metadata</strong> — Reel · Scene · Take · Camera Name embedded into the .mov userdata atom. Final Cut Pro's Info inspector and DaVinci Resolve's metadata columns recognize them natively. No FCPXML round-trip needed for the basics.</li>
+<li><strong>Multi-cam grid + gang recording</strong> — up to 4×4 layouts, ⌘-click to group cameras and start/stop in sync.</li>
+<li><strong>Multi-source bulk configuration</strong> — apply Overlay / LUT / destination / auto-recording to multiple cameras in a single operation.</li>
+<li><strong>Portrait 9:16 mode</strong> — for Reels / Shorts / TikTok productions where cameras are mounted sideways. Both preview and recorded output rotate.</li>
+<li><strong>16-channel audio</strong> - SDI embedded audio at 24-bit / 48 kHz with cross-source routing (route any camera's audio onto another clip — useful when the wide camera's mic is too far from the talent).</li>
+</ul>
+<p><strong>Why it might be interesting for fcp.cafe:</strong>
+The biggest pain point I keep hearing from FCP editors here in Korea is &quot;the metadata never comes through cleanly.&quot; First Rush writes exactly what Final Cut Pro reads — Reel · Scene · Take · Camera columns populate themselves — so the editor opens the project and starts cutting, no manual tagging. Tested through real Korean drama productions before 1.0.</p>
+</blockquote>
+<ul>
+<li></li>
+</ul>
+<blockquote>
+<p><strong>Stack:</strong>
+Native Swift / SwiftUI / Metal · Apple Silicon optimized · macOS 14+
+Capture: Blackmagic DeckLink / AJA Kona / IoX3
+Output: ProRes (Proxy / 422 / HQ / 4444), H.264, HEVC</p>
+<p><strong>Try it:</strong>
+<a href="https://editorhan.me/tools/">v1.0 build</a> (7-day free trial, no key required)</p>
+<p>Thanks for fcp.cafe and CommandPost — both have been quiet companions for our part of the FCP world.</p>
+</blockquote>
+<p>This looks super interesting!</p>
+<p>You can download and learn more on the <a href="https://editorhan.me/tools/">First Rush website</a>.</p>
+<p>Enjoy the rest of your weekend!</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-april-2026</link>
+            <guid isPermaLink="false">26th April 2026</guid>
+            <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th April 2026]]></title>
+            <description><![CDATA[<p><strong>SpliceKit</strong> has now been downloaded <strong>670</strong> times! 🥳</p>
+<p><strong>SpliceKit v3.3.5</strong> has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Adds the Siri-style command palette with voice dictation.</li>
+<li>Polished liquid-glass layout and single-selection handling.</li>
+<li>Immersive Blackmagic RAW preview support.</li>
+<li>Patcher diagnostics/Sentry runtime hardening.</li>
+</ul>
+<p><strong>SpliceKit v3.3.6</strong> has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Adds Whisper large-v3 CoreML transcription for the social captions plugin (engine picker with Parakeet v3, Whisper large-v3-turbo, and Whisper large-v3; models download on first use).</li>
+<li>Adds Sentry Logs support.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixes caption positions resetting to center on FCP relaunch by running the persisted-caption repair headlessly when the panel isn't open.</li>
+</ul>
+<p><strong>SpliceKit v3.3.7</strong> has the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Continues the Apple Immersive/BRAW work-in-progress with safer immersive preview decoding, reduced-resolution playback handling, fisheye/equirect preview improvements, native viewer state hardening, and crash fixes for affected users.</li>
+</ul>
+<p>You can follow along the adventure over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-april-2026</link>
+            <guid isPermaLink="false">26th April 2026</guid>
+            <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[26th April 2026]]></title>
+            <description><![CDATA[<p><strong>ATEM TO FCP v1.5.2</strong> is out now:</p>
+<ul>
+<li>This update focuses on audio accuracy, multicam consistency, keyer correctness, and import stability in Final Cut Pro.</li>
+</ul>
+<p><strong>Audio:</strong></p>
+<ul>
+<li>Fixed preroll: sessions starting with Color Generator or Media Player now include correct audio from frame one (PGM, MIC1, MIC2).</li>
+<li>AFV behavior aligned with ATEM: no audio under Color/Media Player if the source has none.</li>
+<li>Improved audio dissolves: fades now start at transition onset with proper fade-in/out, removing audible bumps.</li>
+<li>Separated extended audio lanes (-1 / -2) to avoid visual merging in FCP.</li>
+<li>RELINK + PGM: extended audio correctly references original ISO files with ATEM mix.</li>
+</ul>
+<p><strong>Multicam:</strong></p>
+<ul>
+<li>All available audio angles are always included (ISO WAVS, MIC1, MIC2, PGM for RELINK). Mapping selects the active angle; others remain available for post.</li>
+</ul>
+<p><strong>Keyer:</strong></p>
+<ul>
+<li>Fixed Flying Luma/Chroma Key: correct keyer filters (Luma / Green Screen) now applied independently from DVE transforms.</li>
+<li>Keyer filters now correctly applied to Media Player sources (not only camera ISOs).</li>
+</ul>
+<p><strong>Stability:</strong></p>
+<ul>
+<li>Fixed FCP import error &quot;IDREF references unknown ID&quot; in sessions with only KEY/ USK transitions.</li>
+<li>Resolved &quot;Syntax of value for attribute ref of filter-audio&quot; by ensuring consistent transition effect allocation.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/atem-to-fcp/id6760610577">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#26th-april-2026</link>
+            <guid isPermaLink="false">26th April 2026</guid>
+            <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
