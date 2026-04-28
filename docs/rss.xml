@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 25 Apr 2026 23:19:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 04:25:20 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Apr 2026 23:19:46 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 04:25:20 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20399,6 +20399,174 @@ Output: ProRes (Proxy / 422 / HQ / 4444), H.264, HEVC</p>
             <link>https://fcp.cafe/#26th-april-2026</link>
             <guid isPermaLink="false">26th April 2026</guid>
             <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p>Happy Tuesday! 👋</p>
+<p>First up, Corridor Key Toolbox has been renamed to <strong>CorridorKey by LateNite</strong>.</p>
+<p><strong>CorridorKey by LateNite v1.0.0 (Build 6)</strong> is currently up on TestFlight for testing. 🥳</p>
+<p><img src="/static/corridor-key-build-4.png" alt=""></p>
+<p>It's been built for Final Cut Pro editors. It gives you all the power of <a href="https://github.com/nikopueringer/CorridorKey">CorridorKey</a>, directly in your Final Cut Pro timeline.</p>
+<p>However, there's also a very powerful <strong>Standalone Editor</strong> too.</p>
+<p><img src="/static/corridor-key-standalone.png" alt=""></p>
+<p>The official <a href="https://github.com/nikopueringer/CorridorKey">CorridorKey</a> repository does work on Mac, <em>however</em> it's written in Python and is not <em>really</em> optimised for the latest Apple Silicon hardware.</p>
+<p>We wanted to take the amazing <a href="https://huggingface.co/alexandrealvaro/corridorkey-models/tree/main">MLX Models</a> compiled by <a href="https://huggingface.co/alexandrealvaro">Alexandre Alvaro</a> for <a href="https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime">CorridorKey-Runtime</a>, and use them in something that's specifically built and optimised for Final Cut Pro and Mac's.</p>
+<p>Using the models as a starting point, we wanted to make something that feels native to Mac.</p>
+<p>Whilst we have other open source FxPlug effects on GitHub (such as <a href="https://gyroflowtoolbox.fcp.cafe">Gyroflow Toolbox</a>), we also wanted to showcase this as a great complex FxPlug, that others can use as a reference - as it has everything, Metal, MLX, OSC, etc.</p>
+<p>We hope this will be a great open source resource for people to really dive deep into FxPlug.</p>
+<p><strong>CorridorKey by LateNite</strong> has been built for Apple Silicon Mac's.</p>
+<p>It makes full use of the GPU, Neural Engine, Metal and MPX - pushing the hardware to the max.</p>
+<p>If you're working with ProRes or HEVC, it makes use of Apple Silicon's hardware encoders and decoders.</p>
+<p>If you enable <strong>Auto Subject Hint</strong> it uses Apple's <a href="https://developer.apple.com/documentation/vision">Vision Framework</a> to use machine learning to &quot;cut out&quot; any foreground people, to use as a &quot;hint&quot; for CorridorKey.</p>
+<p>You can download and learn more on the <a href="https://corridorkeybylatenite.fcp.cafe">CorridorKey by LateNite website</a>.</p>
+<p>We're currently waiting on the genius that is <a href="http://matthewskiles.com">Matthew Skiles</a> to come up with a new icon - and once that's done, we'll try submit to the Mac App Store as a free download.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p>Some other fun things I've found online recently...</p>
+<p><strong>Graphite</strong> is a free, open source vector graphics editor and animation engine, available now in alpha. Get creative with a fully nondestructive editing workflow that combines layer-based compositing with node-based generative design.</p>
+<p>You can download and learn more on the <a href="https://graphite.art">Graphite website</a>.</p>
+<p>In a world of vibe coding, I found this article super interesting: <a href="https://techtrenches.dev/p/the-west-forgot-how-to-make-things">The West Forgot How to Make Things. Now It’s Forgetting How to Code</a>.</p>
+<p>This video from Apple is SUPER fun - you can watch on <a href="https://www.youtube.com/shorts/y4DnsCzJTRQ">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/shorts/y4DnsCzJTRQ"><img src="/static/apple-handmade-magic.jpg" alt=""></a></p>
+<p>It just goes to show how much fricken work goes into these little videos! Amazing stuff!</p>
+<p>And for the real nerds amongst us: <a href="https://shd.mit.edu/home/">MIT’s Secure Hardware Design Class</a></p>
+<p>Thanks team! Chat later!</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p>A while back we reported that <strong>Audio Design Desk (ADD)</strong> has gone a bit radio silent, and hasn't been updated. It's most like DOA. 😭</p>
+<p>We're told that Audio Design Desk will make a formal announcement about what's happening soonish.</p>
+<p>In the meantime though, the amazing <strong>Ryan Francesconi</strong> (the lead developer on ADD) has released some super cool stuff on GitHub:</p>
+<p><strong>SPFKBase</strong>
+The foundational layer for the SPFK package ecosystem. SPFKBase provides core utilities, type extensions, and shared infrastructure used across all SPFK packages.</p>
+<p><strong>SPFKTime</strong>
+A Swift package for time representation, formatting, and high-precision timing across real-time, timecode (SMPTE), and musical domains. Designed for professional audio/video applications with support for multiple frame rates, tempo-based musical time, and display-linked transport timers.</p>
+<p><strong>SPFKPlaylistData</strong>
+Lightweight playlist data types and definitions extracted from <code>SPFKData</code>.</p>
+<p><strong>SPFKAudioHardware</strong>
+A Swift concurrency-first abstraction over the Core Audio Hardware Abstraction Layer (<code>HAL</code>) for macOS. Provides a type-safe, <code>Sendable</code> interface to audio device management built on actors and <code>async</code>/<code>await</code>.</p>
+<p><strong>SPFKUtils</strong>
+A Swift utility library providing UI definitions, audio extensions, and Foundation/CoreGraphics conveniences for macOS and iOS development.</p>
+<p><strong>SPFKMetadataBase</strong>
+Pure Swift audio metadata data types extracted from <a href="https://github.com/ryanfrancesconi/spfk-metadata">SPFKMetadata</a>. No C++, TagLib, or libsndfile dependency — suitable for lightweight consumers that need metadata type definitions without file I/O.</p>
+<p><strong>SPFKMetadata</strong>
+Swift based audio metadata I/O library wrapping TagLib via spfk-taglib and Core Audio to provide unified tag reading/writing, marker parsing, and broadcast wave (BEXT) support across common audio formats.</p>
+<p><strong>SPFKTesting</strong>
+A Swift package providing shared test resources and utilities for all SPFK test targets. Bundles a catalog of audio and image files used across the SPFK ecosystem, with platform-aware resource resolution for macOS and iOS.</p>
+<p><strong>spfk-taglib</strong>
+<a href="https://taglib.org/">TagLib</a> packaged for Swift Package Manager.</p>
+<p>You can download and learn more on his <a href="https://github.com/ryanfrancesconi?tab=repositories">GitHub Repository</a>.</p>
+<p>In addition to open source projects, he's also released <strong>ShadowTag</strong> - a professional audio metadata editor for macOS.</p>
+<p><img src="/static/shadowtag-marker-color.png" alt=""></p>
+<p>Ryan explains:</p>
+<blockquote>
+<p>Built for sound designers, sample library owners, and post-production teams who need complete, accurate metadata across large collections of audio files.</p>
+<p>ShadowTag is a first class modern macOS application. Designed for macOS 26, all tools are multi-threaded and run as fast as possible — scaling across every available core. Process a handful of files or an entire library — the work happens in parallel. ShadowTag is fast.</p>
+<p>ShadowTag reads and writes every major metadata standard — ID3v2, Vorbis Comments, MP4 atoms, BEXT, iXML, XMP, and UCS — directly into your audio and video files, keeping your library portable and compatible with any DAW, asset management system, or licensing platform.</p>
+<p>Everything is non-destructive to audio. ShadowTag only modifies metadata.</p>
+</blockquote>
+<p>ShadowTag is free, and ShadowTag Pro is <strong>USD$99</strong>.</p>
+<p>You can download and learn more on the <a href="https://spongefork.com/shadowtag/">ShadowTag website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p>It's been a busy time for <strong>Wes Plate</strong> over at <strong>Automatic Duck</strong> with lots of new apps out!</p>
+<p>Introducing...</p>
+<p><strong>Cut Shelf</strong> is an app and workflow extension that acts as a global clip library that you can share across your computers, or even with collaborators!</p>
+<p>It's very similar to our own <a href="https://recalltoolbox.fcp.cafe">Recall Toolbox</a> - but with a really neat &quot;shelf&quot; concept.</p>
+<p>You can use Cut Shelf to store elements like VLOG opens and closes, drag the compound clip from your library to Cut Shelf and the FCPXML is stored in Cut Shelf to be dragged back to a new library or event.</p>
+<p>Or use Cut Shelf to share projects and clips with other editors but saving a shelf on shared storage or cloud storage.</p>
+<p>You can watch a demo video on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=PhjWLtXFPxo"><img src="/static/cut-shelf-youtube.jpg" alt=""></a></p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a>.</p>
+<p><strong>MC Auto Cut</strong> is an app and workflow extension that creates rough cuts automatically from your synced multicam clips.</p>
+<p>After you sync your angles and create a multicam clip, drag the multicam clip into the MC Auto Cut workflow extension, and then specify whether you want your rough cut based on the angle of the person who is speaking, or you can choose automatic edits based on a specified clip duration.</p>
+<p>You can watch a demo video on <a href="https://www.youtube.com/watch?v=MZhOhE3t4PM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=MZhOhE3t4PM"><img src="/static/mc-auto-cut-youtube.jpg" alt=""></a></p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/mc-auto-cut/id6761138330">Mac App Store</a>.</p>
+<p><strong>Sequence Shortener</strong> is an app and workflow extension that shortens sequences by trimming every eligible clip in your timeline by a small amount that you specify.</p>
+<p>You can choose to ignore clips based on role, ignore through edits and gaps, and also choose the a duration not to allow clips to go below.</p>
+<p>Sequence Shortener is great for quickly shortening a rough cut to get it closer to your desired duration.</p>
+<p>You can watch a demo video on <a href="https://www.youtube.com/watch?v=Hy7g8P-PlRw">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=Hy7g8P-PlRw"><img src="/static/sequence-shortener-youtube.jpg" alt=""></a></p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/sequence-shortener/id6757253020">Mac App Store</a>.</p>
+<p>Then there's <strong>Library Slim</strong>.</p>
+<p>Embedded media in a Final Cut Pro library can be convenient, but sometimes you wish your embedded media was external to the library bundle.</p>
+<p>Library Slim makes it easy to move your embedded media files out of your library bundle, replacing them with links to the media’s new location.</p>
+<p>You can watch a demo video on <a href="https://www.youtube.com/watch?v=4Q15WWEWZUM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=4Q15WWEWZUM"><img src="/static/library-slim-youtube.jpg" alt=""></a></p>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/library-slim/id6761352856">Mac App Store</a>.</p>
+<p>Gotta collect them all!</p>
+<p>You can learn more about the full range of their apps on the <a href="https://www.automaticduck.com">Automatic Duck website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p><strong>ATEM TO FCP v1.5.3</strong> is out now:</p>
+<ul>
+<li>DSK USK Color Source Fix</li>
+<li>Previously, when a Downstream or Upstream Key used a Color or Black source as fill (instead of a camera or graphic), the key events were silently ignored and omitted from the exported timeline. They are now correctly exported as Color Generator clips in their respective key lanes, matching the on/off timing recorded by the ATEM switcher.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/atem-to-fcp/id6760610577">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p><strong>First Rush v1.0.2</strong> is out now.</p>
+<p>This release includes the following changes:</p>
+<ul>
+<li><strong>Preview stutter fix</strong> — the &quot;monitoring goes choppy after 5 minutes&quot; several of you reported. Two layers: SwiftUI rebuild storm at 24Hz timecode callbacks, plus Metal preview was polling at 60Hz regardless of source FPS. Both gone.</li>
+<li><strong>DeckLink color match</strong> — preview now matches the recorded file exactly. The 0.9.18 sRGB encoding chain was subtly desaturating preview vs. ProRes output.</li>
+<li><strong>Slate filename edits stick</strong> — delete <code>_C</code> / <code>_S</code> from your name format and it stays deleted across mode changes. Each mode (Standard/Drama/ARRI/Custom/Test) now remembers its own customizations.</li>
+<li><strong>New: Test Clip mode</strong> — 5th slate mode for lighting/lens/rehearsal takes. Records as <code>S01_C03_TEST-01-A</code> style, doesn't touch the main take counter, auto-tags keyword: test for FCP/Resolve smart filtering.</li>
+<li><strong>Burn-in TC + source name</strong> — actually bakes into the file now. Was a UI-only toggle before, embarrassing miss but finally wired through end-to-end.</li>
+<li>~50 smaller fixes across capture pipeline, writer error UX (disk-full / permission-denied properly surfaced now), AudioMixer thread safety, FCPXML NTSC frame duration was inverted (!), DeckLink/AJA exception boundaries, license key Keychain migration.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://editorhan.me/tools/">First Rush website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th April 2026]]></title>
+            <description><![CDATA[<p><strong>SpliceKit v3.3.8</strong> is out now.</p>
+<p>It has the following changes:</p>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Crash fixes from Sentry triage: silences false-positive 'FCP terminated shortly after launch' Sentry events on normal user quits.</li>
+<li>Suppresses Xcode CLT prereq from crash dashboards.</li>
+<li>Ships <code>whisper-transcriber</code> so the Whisper <code>large-v3</code> / <code>large-v3-turbo</code> engines in the social captions panel actually work.</li>
+<li>Hardens <code>NSTask</code> termination handling in transcript/caption transcription paths.</li>
+<li>Fixes a playhead-overlay <code>UAF</code> during timeline teardown.</li>
+<li>Rejects malformed <code>RPC</code> params instead of crashing.</li>
+<li>Fixes a string-argument crash in <code>system.callMethodWithArgs</code>.</li>
+</ul>
+<p>You can follow along the adventure over on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a>.</p>
+<p>You can download and learn more on the <a href="https://splicekit.fcp.cafe">SpliceKit Website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-april-2026</link>
+            <guid isPermaLink="false">28th April 2026</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
