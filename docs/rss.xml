@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 30 Apr 2026 09:18:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 06:23:13 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Apr 2026 09:18:40 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 06:23:13 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20716,6 +20716,126 @@ We've always been interested in preserving ephemera to do with these shows as pa
             <link>https://fcp.cafe/#30th-april-2026</link>
             <guid isPermaLink="false">30th April 2026</guid>
             <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p>Happy Saturday! 👋</p>
+<p>Episode 2 of The Grill is now live with special guest <a href="https://alex4d.com">Alex &quot;4D&quot; Gollner</a>! 🔥</p>
+<p>You can watch <strong>FCG-202: The Final Cut Grill is Back!!!!</strong> on <a href="https://www.youtube.com/watch?v=zGNBWtY_a_o">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=zGNBWtY_a_o"><img src="/static/fcp-grill-202.jpg" alt=""></a></p>
+<p>The description reads:</p>
+<blockquote>
+<p>It’s been way too long since I sat with my friend Alex Gollner and discussed the state of our industry, the world of Apple Computer and our favorite editorial application, Final Cut Pro. We discuss a bunch of fun stuff including the “Open Letter to Apple” and what it means now that Tim Cook is stepping down and John Ternus will take the CEO chair at Apple. Surprisingly we don’t pan Premiere all that much. Don’t worry, we got Alex’s mic distortion sorted about 5 minutes in, but then, he went out of sync. Whatever… its color, it moves and its on the internet. Sorry about that.</p>
+</blockquote>
+<p>You can find all the past podcast episodes on the <a href="https://grill.fcp.cafe">Final Cut Grill website</a>.</p>
+<p>In random news, I came across this cool app - <a href="https://github.com/darrylmorley/whatcable">WhatCable</a>.</p>
+<blockquote>
+<p>A small macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do, and why your Mac might be charging slowly.</p>
+<p>USB-C hides a lot under one connector. Anything from a USB 2.0 charge-only cable to a 240W / 40 Gbps Thunderbolt 4 cable, all looking identical in your drawer. macOS already exposes the relevant info via IOKit; WhatCable surfaces it as a friendly menu bar popover.</p>
+</blockquote>
+<p>You can download for free on <a href="https://github.com/darrylmorley/whatcable">GitHub</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p><strong>Jeff Asher</strong>, from our awesome Final Cut Pro community has released his first app on TestFlight!</p>
+<p><strong>PromptKit v1.5.0</strong> contains the following changes:</p>
+<p><strong>Facial Recognition:</strong></p>
+<ul>
+<li>New face detection feature that automatically identifies faces in your images</li>
+<li>Assign faces to named characters and manage them through a new Character Manager</li>
+<li>Faces are grouped and tracked across your media assets in the inspector</li>
+</ul>
+<p><strong>Smart Collections &amp; Folders:</strong></p>
+<ul>
+<li>New Smart Collections with customizable predicates to auto-organize assets</li>
+<li>New sidebar Folders support for manual organization</li>
+<li>Improved sidebar with better project and keyword row management</li>
+</ul>
+<p><strong>Bug Fixes &amp; Tweaks:</strong></p>
+<ul>
+<li>Various fixes to the asset detail view and keyword editor</li>
+<li>Improvements to comparison preview and asset card layout</li>
+<li>Asset import helper improvements</li>
+<li>Sidebar and keyword browser stability fixes</li>
+</ul>
+<p>You can learn more and download on <a href="https://testflight.apple.com/join/H87x62sH">TestFlight</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p><strong>CorridorKey by LateNite v1.0.0 (Build 9)</strong> is now up on TestFlight.</p>
+<p>It contains the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li><strong>Screen Colour: Blue</strong> now uses Corridor Digital's dedicated blue-screen MLX model (<code>CorridorKeyBlue v1.0</code>). Previously the renderer rotated blue footage into the green domain so the green-only model could process it. The new path feeds blue source straight into a model trained on actual blue-screen footage and produces noticeably cleaner mattes on hair, motion blur, and translucent fabric.</li>
+<li>Despill, edge decontaminate, and the chroma-prior alpha hint are now screen-colour aware throughout — every post-process stage operates on the user's chosen screen colour rather than always assuming green.</li>
+<li>Green-screen behaviour and quality are unchanged. The green model and pipeline continue to ship as the default.</li>
+<li><strong>Hint: Apple Vision Framework</strong> now layers the Vision subject mask on top of the chroma prior. Vision's foreground-instance detector segments people, animals, and salient subjects but ignores generic foreground objects. On shots with props (a sword, an instrument, a piece of set dressing) those would previously fall out of the matte. The combined hint keeps Vision's strong subject signal where it fires and falls back to chroma everywhere else, so foreground props in front of the screen stay in the key.</li>
+<li>Every parameter row in the <strong>Standalone Editor</strong> inspector now shows a <strong>↺ Reset to Default</strong> button next to the value when it differs from the factory default, so a single click restores the factory default value without the user having to remember the original number.</li>
+<li><strong>Despill Strength</strong> now also pulls matte alpha toward zero in pixels strongly biased toward the screen colour, matching the original CorridorKey reference's &quot;premultiply despilled foreground by alpha&quot; output convention. Previously, model-error pixels in the screen background showed up as a coloured halo on the composite — light blue at strength 0, greenish at strength 1 — because the despilled colour stayed bound to a non-zero alpha. Pushing the slider up now does what the name implies: the spill goes away, transparently.</li>
+<li>The <strong>Standalone Editor</strong> now auto-detects the <strong>Screen Colour</strong> from the first frame on import and sets the picker accordingly, so a blue-screen plate keys correctly without the user having to flip the popup first. The user's manual choice still takes precedence after import — the auto-detect only runs once per clip load.</li>
+<li>The Standalone Editor now remembers the last used <strong>Quality</strong>, <strong>Hint</strong>, and <strong>Upscale Method</strong> between sessions, so a user who's tuned their workflow doesn't have to re-pick the same three popups every time the editor opens. Per-clip parameters (sliders, screen colour) still start fresh — the Reset to Default affordance covers factory recovery for those.</li>
+<li>The Standalone Editor now also remembers the last-picked <strong>Player Background</strong> (checkerboard / white / black / yellow / red / custom colour / custom image) between sessions, so the preview opens with the same backdrop the user left it on. The custom-image bookmark already survived restarts. The new persistence covers the picker's current case so the choice itself is no longer reset to checkerboard on every launch.</li>
+<li>The <strong>Player Background</strong> picker now shows a small coloured swatch next to each preset (white / black / yellow / red) so the rows are visually distinguishable, and the <strong>Custom Colour…</strong> row mirrors the user's current swatch so the menu shows what you'll actually get without opening the colour wheel first. The previous icons were all rendered with the system foreground tint and were indistinguishable from each other.</li>
+<li>Quitting the <strong>Standalone Editor</strong> while an analyse pass is in progress now drains MLX's GPU stream and every Metal command queue before the process exits. Without this, Debug builds with Metal API Validation enabled would trip a <code>notifyExternalReferencesNonZeroOnDealloc</code> assertion when global pipeline state objects released while a command buffer still referenced them. Release builds were not crashing, but the lifecycle was racy - both paths are now deterministic.</li>
+<li><strong>Despill Strength</strong> range expanded from 0–1 to 0–5 in both the Final Cut Pro inspector and the Standalone Editor. Pushing past 1 over-corrects the chroma in problem regions (heavy reflection on hair, dense motion-blur edges) and the new spill-alpha attenuation pulls the matte to zero in spill regions, so the over-correction lands as transparency instead of a garish anti-screen tint. The default stays at 0.5 - existing projects open identically.</li>
+</ul>
+<p>This is still very much a work-in-progress, so ideas, feedback, comments and suggestions welcome!</p>
+<p>Once our fancy new icon is ready, we'll release on the Mac App Store.</p>
+<p>You can learn more on the <a href="https://corridorkeybylatenite.fcp.cafe">CorridorKey by LateNite website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p><strong>Sequence Shortener v1.0.2</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Added new mode: Target Duration. Specify the duration you want to get down to and let Sequence Shortner take more from longer clips and less from shorter clips</li>
+<li>Improvements resulting in fewer XML warnings on import</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/sequence-shortener/id6757253020">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p><strong>MC Auto Cut v1.0.3</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Improvements to the speaker detection algorithm</li>
+<li>New controls you to specify the speakers and and their angle relationship in your multicam clip, allowing you to choose different picture and sound sources</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/mc-auto-cut/id6761138330">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2nd May 2026]]></title>
+            <description><![CDATA[<p><strong>Cut Shelf v1.0.2</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Improved iCloud Drive handling</li>
+<li>Fix to case where FCP reported a frame alignment error on import</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#2nd-may-2026</link>
+            <guid isPermaLink="false">2nd May 2026</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
