@@ -8,9 +8,15 @@ This is NOT an area I'm an expert in, so please reach out if there's any mistake
 
 ---
 
-## BRAW Toolbox
+## BRAW Toolbox Media Extension
 
-As of today, **BRAW Toolbox v1.5.0 (79)** has the following Immersive exclusive feature:
+**BRAW Toolbox v3.1.0 (85)** has a Media Extension that allows you to import Blackmagic RAW Immersive clips directly into Final Cut Pro (or any other application that supports Media Extensions) as side-by-side clips.
+
+---
+
+## BRAW Toolbox (Legacy)
+
+**BRAW Toolbox v1.5.0 (79)** has the following Immersive exclusive feature:
 
 > We've added a "Video Track" parameter in the "Quality" section for Blackmagic URSA Cine Immersive clips - so you can pick between the left or right lens. You can then put two of the same Blackmagic URSA Cine Immersive clip next to each other in a Final Cut Pro timeline, to do side-by-side immersive editing. Thanks for suggesting Iain Anderson!
 
