@@ -1,6 +1,6 @@
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
-- [Compressor 5.2 - Doesn't handle RAW Media Extensions correctly (April 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/536)
+- [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
