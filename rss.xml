@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 May 2026 03:34:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 04:00:05 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 May 2026 03:34:01 GMT</pubDate>
+        <pubDate>Thu, 07 May 2026 04:00:05 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20937,12 +20937,12 @@ We've always been interested in preserving ephemera to do with these shows as pa
 <p>Optimised for <strong>ProRes</strong> in and out with hardware decoding and encoding. 🏎️</p>
 <p>It has been built for <strong>Final Cut Pro</strong> editors.</p>
 <p>It gives you all the power of CorridorKey, directly in your Final Cut Pro timeline.</p>
-<p><img src="/static/corridorkey-by-latenite.png" alt="Footage courtesy of Corridor Digital's Benchmark Test Footage"></p>
+<p><img src="/static/corridor-key-build-4.png" alt="Footage courtesy of Corridor Digital's Benchmark Test Footage"></p>
 <p>It has been built for <strong>Apple Silicon Mac's</strong>.</p>
 <p>It makes full use of the GPU, Neural Engine, Metal and MPX - pushing the hardware to the max. 🔥</p>
 <p>If you're working with ProRes or HEVC, it makes use of Apple Silicon's hardware encoders and decoders.</p>
 <p>It uses Apple's <a href="https://developer.apple.com/documentation/vision">Vision Framework</a> to use machine learning to &quot;cut out&quot; any foreground people, to use as a &quot;hint&quot; for CorridorKey.</p>
-<p><img src="/static/corridor-key-standalone.png" alt="Footage courtesy of Corridor Digital's Benchmark Test Footage"></p>
+<p><img src="/static/corridorkey-by-latenite.png" alt="Footage courtesy of Corridor Digital's Benchmark Test Footage"></p>
 <p><strong>CorridorKey by LateNite v1.0.0 (Build 10)</strong> contains the following changes:</p>
 <p><strong>🔨 Improvements:</strong></p>
 <ul>
