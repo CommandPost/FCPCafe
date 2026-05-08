@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 07 May 2026 04:00:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 May 2026 00:08:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 May 2026 04:00:05 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 00:08:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -20961,7 +20961,7 @@ We've always been interested in preserving ephemera to do with these shows as pa
 <p><a href="https://www.youtube.com/watch?v=sVjszn23-eA"><img src="/static/how-do-we-feel-about-apple.jpg" alt=""></a></p>
 <p>Jenn Jager shares <a href="https://www.youtube.com/watch?v=tF825ywlf8I">9 Time Saving (and Butt Saving!) AI Tools in FCP</a>:</p>
 <p><a href="https://www.youtube.com/watch?v=tF825ywlf8I"><img src="/static/time-saving-ai-tools.jpg" alt=""></a></p>
-<p>Finally, I came across this AWESOME project:</p>
+<p>I also came across this AWESOME project:</p>
 <blockquote>
 <p>We’re working on 3D Movie Maker Remastered, a browser-based community remake of Microsoft’s 3D Movie Maker from 1995.</p>
 <p>We already have an early editor prototype with characters, animations, depth-based backgrounds, timeline tools, onion skin, take management, and early video export.
@@ -20972,6 +20972,10 @@ Long term, it could also grow into a lightweight tool for previs, storyboard ani
 </blockquote>
 <p>I grew up on 3D Movie Maker - and I fricken LOVE it - so this is an awesome project!</p>
 <p>You can learn more on their <a href="https://phantomcrew.eu/3DMM/">website</a>.</p>
+<p>Finally, <strong>FCG 203: Social Media Tutorial</strong> is out now on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=QZ9xCgDJI30"><img src="/static/fcp-grill-ep203.jpg" alt=""></a></p>
+<p>There's also some fun <a href="https://www.youtube.com/@finalcutgrill/shorts">YouTube Shorts</a> on the channel.</p>
+<p>You can find all the past podcast episodes on the <a href="https://grill.fcp.cafe">Final Cut Grill website</a>.</p>
 ]]></description>
             <link>https://fcp.cafe/#7th-may-2026</link>
             <guid isPermaLink="false">7th May 2026</guid>
@@ -21037,6 +21041,119 @@ Happy to answer any questions!</p>
             <link>https://fcp.cafe/#7th-may-2026</link>
             <guid isPermaLink="false">7th May 2026</guid>
             <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th May 2026]]></title>
+            <description><![CDATA[<p>Happy Friday! 👋</p>
+<p>And a <strong>HUGE</strong> happy birthday to the incredible <strong>Sir David Attenborough</strong> who turns 100 today! 🥳</p>
+<p>This is one of my all time favourite photo collages:</p>
+<p><img src="/static/david-attenborough.jpg" alt=""></p>
+<p>Whilst my brother was hanging out with David Attenborough, my sister was touring with Carrie Fisher. 🤯</p>
+<p>Thank you Sir David Attenborough for EVERYTHING you've done for the world. Hopefully you live another decade - the world needs you!</p>
+<p>Secondly, <strong>HUGE</strong> thank you to the over <strong>4020</strong> video editors who have purchased BRAW Toolbox since it's launch! 🥳</p>
+<p>Back on 23rd December 2022, I launched <strong>BRAW Toolbox v1.0.0 (Build 14) - Public Beta 1</strong> into the world.</p>
+<p>It was very incomplete, it was buggy, but it was on TestFlight, and it was working. It was a big deal just getting it past TestFlight App Review!</p>
+<p>Lots of very smart people told me adding native Blackmagic RAW support to Final Cut Pro was impossible as a third party, but that didn't stop me.</p>
+<p>It was a giant jigsaw puzzle, with a huge amount of complexity, because of the sandboxed nature of Apple's FxPlug and Workflow Extensions.</p>
+<p>I spent <strong>225 hours</strong> developing version v1.0.0.</p>
+<p>On 30th January 2023, <strong>BRAW Toolbox v1.0.0 (Build 27)</strong> hit the Mac App Store, and it was a success. Yay!</p>
+<p>People LOVED the fact they could import Blackmagic RAW without having to create proxies or transcode.</p>
+<p>They LOVED that you had full access to all the RAW controls, and unlike DaVinci Resolve, you can even keyframe the RAW controls.</p>
+<p>It's been used on feature films, televisions series and high-end television commercials.</p>
+<p>This was my first proper Objective-C application, the first time working with FxPlug, the first time dealing with the Mac App Store, the first time selling software.</p>
+<p>I learnt a LOT.</p>
+<p>On Wednesday 4th February 2026, I released <strong>BRAW Toolbox v2.0.0 (Build 80)</strong> into the world.</p>
+<p>The release notes mention:</p>
+<blockquote>
+<p>This is a MASSIVE update. We've made HUGE changes under the hood to improve performance on Apple Silicon Mac's. BRAW Toolbox should now be faster and more stable than ever before. HUGE thank you to the amazing Anton Marini for all his help, guidance, genius and support! However, due to the sheer number of under-the-hood changes, we highly recommend making a ZIP of your current version of BRAW Toolbox before updating for safety, so that you can rollback if needed.</p>
+</blockquote>
+<p>However, whilst it dramatically improved performance, it had a big bug/regression that I totally missed - due to caching, if you zoomed in to the footage, using the scale parameters in Final Cut Pro, you lost quality. Doh!</p>
+<p>The most magical and wonderful part of the FCP Cafe community is everyone is patient, lovely and just plain awesome.</p>
+<p>Despite this major bug, people were so understanding and patient, and anyone I spoke to quite happily rolled back to the previous version whilst I tried to fix things.</p>
+<p>It took a lot longer than I hoped, but on Sunday 12th April 2026, <strong>BRAW Toolbox v2.1.0 (Build 82)</strong> hit the Mac App Store finally fixing this bug, whilst also adding better support for Blackmagic URSA Cine Immersive clips.</p>
+<p>Then on Wednesday 22nd April 2026, I released <strong>BRAW Toolbox v3.0.0 (Build 84)</strong> into the world.</p>
+<p>As you can tell from the build numbers, I had done a LOT of work between version 1 and version 3.</p>
+<p>Every time there was a Blackmagic RAW SDK update, I was one of the first third party developers to update, test, and release - a lot of the time even beating DaVinci Resolve!</p>
+<p>BRAW Toolbox v3 however brought with it something new - again, something that lots of very smart people told me was impossible to do as a third party - I added native Media Extension support.</p>
+<p>Back on <a href="/news/20241120">20th November 2024</a>, I posted:</p>
+<blockquote>
+<p>Whilst Apple did announce at the 2024 Final Cut Pro Creative Summit that <strong>Final Cut Pro 11</strong> now supports the new macOS system-wide <a href="https://developer.apple.com/documentation/mediaextension">MediaExtension Framework</a>, and that Blackmagic will at some point release a Blackmagic RAW Media Extension - there is currently no time frame, so we have no idea if this is coming in days, weeks, or months.</p>
+<p>In <a href="https://x.com/chrisatlatenite/status/1667015417175625734">2023</a> Apple announced a new framework called <strong>MediaExtension</strong>, that provides a means for developers to create format readers and video decoders for media that the system doesn’t natively support - such as <strong>Blackmagic RAW</strong> and <strong>Nikon NRAW</strong>.</p>
+<p>This was supposed to come in <strong>macOS Sonoma</strong>, but they silently killed it - only for it to reappear in this years WWDC for <strong>macOS Sequoia</strong>.</p>
+<p>Whilst it's been out for a while, the documentation is insanely complicated and limited and the only person I know who's done ANYTHING with it so far is the incredible <a href="https://x.com/_vade">Anton Marini</a>, who's been building an <strong>ffmpeg</strong> Media Extension over on GitHub <a href="https://github.com/vade/FFMPEGMediaExtension">here</a>.</p>
+<p>I originally started playing with and testing MediaExtension's both back in 2023, and during the macOS Sequoia beta's, but never made much progress, as Final Cut Pro 10.8.1 didn't support Media Extensions anyway.</p>
+<p>However, given there's no certainty as to when Blackmagic will release a Blackmagic RAW Media Extension, we're going to go back and see if we can bring a Blackmagic RAW Media Extension to market sooner rather than later.</p>
+<p>Apple announced 3rd party Motion Templates were &quot;coming soon&quot; to iPad at launch, and that functionality is still not out - so we don't really want to waste time waiting for something that could be a year away.</p>
+<p>We'll continue to keep you posted on our progress on FCP Cafe.</p>
+</blockquote>
+<p>As you can see, I've been working on Media Extensions for a LONG time. I even contracted <a href="https://x.com/_vade">Anton Marini</a> for a while to help me navigate the complexities of Media Extensions.</p>
+<p>Eventually, after a lot of hard work, and a lot of swearing, I was able to get it working.</p>
+<p><strong>BRAW Toolbox v3.0.0 (Build 84)</strong>  was a MASSIVE milestone.</p>
+<p>BRAW Toolbox was the first application in the world to bring an FxPlug to the Mac App Store.</p>
+<p>Now BRAW Toolbox was the first application in the world to bring a Media Extension to the Mac App Store.</p>
+<p>And just like with the original BRAW Toolbox release, once it was out there in the wild, getting tested on real-world feature films, televisions series and high-end television commercials, I started getting feedback.</p>
+<p>Unfortunately, like with version 2, version 3 also had a big bug/regression that I totally missed - due to system resource limitations, after rendering 4096 frames, BRAW Toolbox would stop rendering new BRAW frames and just show black in Final Cut Pro. Doh!</p>
+<p>No crashes, no errors - just black frames. Thanks to the amazing FCP Cafe community, I was eventually able to reproduce and fix in <strong>BRAW Toolbox v3.1.1 (Build 86)</strong>, which is out now.</p>
+<p>BRAW Toolbox has certainly been an adventure, and I'm so proud that over <strong>four thousand</strong> Final Cut Pro professionals find it useful.</p>
+<p>It's still entirely possible, and even likely that Blackmagic &amp; Apple will release a free version of the Blackmagic RAW Media Extension at some point - and whilst Blackmagic engineers are probably the best in the business and do AMAZING things with DaVinci Resolve, they will never have access to some of the greatest minds in the Final Cut Pro community to test things out, and improve based on real-world feedback - so I would be VERY surprised if their version has the same level of polish and feature-set at BRAW Toolbox.</p>
+<p>BRAW Toolbox v3 also moves forward towards deeper and better Immersive support - which is something that will definitely continue over the coming months.</p>
+<p>We want Final Cut Pro to be just as powerful and useful for Immersive editing as DaVinci Resolve - which is a MASSIVE challenge and undertaking, but I'm up for the challenge.</p>
+<p>So stay tuned... as we move towards BRAW Toolbox v4. Exciting times ahead!</p>
+<p><img src="/static/swell-11-years-ago.jpg" alt=""></p>
+<p>Amazingly, it's been <strong>11 years</strong> since we built a bar entirely underwater for a music video for <strong>American Doubles</strong> track, <strong>The Swell</strong>. 🤿</p>
+<p><img src="/static/swell3.jpg" alt=""></p>
+<p>This was an absolutely insane music video - with so many technical and creative challenges.</p>
+<p>You can watch the finished clip on <a href="https://www.youtube.com/watch?v=BobK7ZC3afE">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=BobK7ZC3afE"><img src="/static/swell-youtube.jpg" alt=""></a></p>
+<p>You can also watch a fun little behind the scenes video on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=evteZPWnG_o"><img src="/static/swell-youtube-bts.jpg" alt=""></a></p>
+<p>You can find the credits on the <a href="https://latenitefilms.com/collaborations/american-doubles-the-swell/">LateNite website</a>.</p>
+<p>Yes, this was cut in Final Cut Pro by myself. It was graded by the incredible CJ Dobson at <a href="https://moodlab.online">Moodlab</a>.</p>
+<p>As you've no-doubt released from FCP Cafe (especially if you've ever had a look at the old <a href="/blog/">Off-topic Rants</a> - I'm a MASSIVE movie nerd. I love films.</p>
+<p>This year, I've been a proud member of the <a href="https://www.croydonfilms.org.au">Croydon Film Society</a>, and I've already watched some AMAZING films:</p>
+<p><img src="/static/2026-film-list-small.jpg" alt=""></p>
+<p>I've already talked about some of these films on FCP Cafe, but wanted to quickly mention the last one I saw.</p>
+<p>The 2024 Documentary, <a href="https://www.imdb.com/title/tt30953759/">No Other Land</a> is such a powerful and insanely well crafted documentary - I HIGHLY recommend you watch it.</p>
+<p>A co-production between Palestine and Norway, the film was selected for the Panorama section at the <strong>74th Berlin International Film Festival</strong>, where it had its world premiere on 16 February 2024, winning the Panorama Audience Award for Best Documentary Film and the Berlinale Documentary Film Award. The film also won Best Documentary Feature Film at the 97th Academy Awards.</p>
+<p>Despite this, it never had a major USA theatrical release.</p>
+<p>Variety posted a very interesting article, <a href="https://variety.com/2024/film/global/palestinian-israeli-no-other-land-doc-eradication-palestinian-villages-political-solution-1235910522/">Palestinian, Israeli Activists Talk ‘No Other Land’ Doc on Eradication of Palestinian Villages and Hopes It Can Help ‘Find a Political Solution’</a>:</p>
+<blockquote>
+<p>First of all, Basal’s family and neighbors had a huge archive of videos that were filmed over the course of 20 years. And then we as activists, we were there on the ground together, working together for almost five years, and we filmed a lot. We had Rachel, the cinematographer and co-director of the film, who was shooting us. So there was an abundance of footage. The military entered Basal’s home twice and confiscated computers and cameras. So we were always very, very stressed. It was complicated logistically and quite stressful, but in the end we managed.</p>
+</blockquote>
+<p>I also found this quote super inspiring from <a href="https://www.screendaily.com/features/no-other-land-filmmakers-on-making-palestinian-israeli-documentary-the-camera-is-the-one-and-only-tool-we-have/5199890.article">Screen Daily</a>:</p>
+<blockquote>
+<p>People ask a lot where I get the hope or strength,” says Adra. “I don’t know if it’s strength. It’s hard to talk about these things when living this reality. What keeps me moving is the community not giving up, we have a steadfastness facing these horrific conditions. We’re not strong, we don’t have hope and we don’t have power against this oppressive machine which is doing whatever it can to uproot us from our land. The camera is the one and only tool we have to show and document the evidence.</p>
+</blockquote>
+<p>It's definitely worth checking out.</p>
+<p>Until next time... Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-may-2026</link>
+            <guid isPermaLink="false">8th May 2026</guid>
+            <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th May 2026]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.3.6</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Bug fix for accessing XML in the Workflow Extension</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/creators-best-friend/id1524172135">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#8th-may-2026</link>
+            <guid isPermaLink="false">8th May 2026</guid>
+            <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[8th May 2026]]></title>
+            <description><![CDATA[<p><strong>Library Slim v1.0.2</strong> is out now with the following improvements:</p>
+<ul>
+<li>Improvements to app diagnostic logging</li>
+</ul>
+<p>You can learn more and download on the <a href="https://apps.apple.com/app/library-slim/id6761352856">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#8th-may-2026</link>
+            <guid isPermaLink="false">8th May 2026</guid>
+            <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
