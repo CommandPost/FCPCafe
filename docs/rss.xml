@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 08 May 2026 00:08:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 09:04:54 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 08 May 2026 00:08:00 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 09:04:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -21154,6 +21154,98 @@ Happy to answer any questions!</p>
             <link>https://fcp.cafe/#8th-may-2026</link>
             <guid isPermaLink="false">8th May 2026</guid>
             <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th May 2026]]></title>
+            <description><![CDATA[<p>Happy Wednesday! 👋</p>
+<p>I'm currently up in Sydney on an editing job all week - so it's been go, go, go!</p>
+<p><img src="/static/sydney-2026.jpg" alt=""></p>
+<p><strong>Mark Spencer</strong> at <strong>Ripple Training</strong> has released an awesome new video course, <a href="https://www.rippletraining.com/products/final-cut-pro/ai-enhanced-workflows-in-creator-studio/">AI-Enhanced Workflows in Creator Studio</a>.</p>
+<p>Definitely worth checking out!</p>
+<p>In interesting industry news, MacRumours writes <a href="https://www.macrumors.com/2026/05/11/apple-color-io-acquisition/">Apple Bought Color Grading Tool Color.io in January</a>:</p>
+<blockquote>
+<p>Apple purchased a small, one-person company called Patchflyer back in January, according to new acquisition disclosures provided by the European Union. Patchflyer was owned by Jonathan Ochmann, who created Color.io, a web-based color grading tool popular with photographers and filmmakers.</p>
+</blockquote>
+<p>I wasn't actually aware of Color.io personally - you can read more about it here:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20251211160331/https://www.color.io/">Color.io on Wayback Machine</a></li>
+<li><a href="https://www.cined.com/color-io-photon-release-announcement/">20th April 2021 - CineD - Color.io Photon for 3D Color Grading Released</a></li>
+<li><a href="https://www.youtube.com/watch?v=-423w_hv4So">5th December 2023 - Color.io - Review and Tutorial</a></li>
+<li><a href="https://www.cined.com/color-io-shutting-down-popular-film-emulation-and-color-grading-tool-goes-offline-december-31/">16th December 2025 - CineD - Color.io Shutting Down – Popular Film Emulation and Color Grading Tool Goes Offline December 31</a></li>
+</ul>
+<p>PetaPixel <a href="https://petapixel.com/2026/05/12/apple-has-acquired-popular-web-based-color-grading-tool-color-io/">writes</a>:</p>
+<blockquote>
+<p>Now all of that technology Ochmann built is part of Apple, as is Ochmann himself. It is reasonable to expect that, at some point down the road, at least some of the tools Ochmann built at color.io will be integrated into Apple’s own creative software, including, most likely, Final Cut Pro. However, many photographers found color.io’s tools intuitive and powerful for photo editing as well, so it would not be shocking to see integration in Photos or Pixelmator Pro, another of Apple’s recent major creative software acquisitions.</p>
+</blockquote>
+<p>It'll be interested to see where Jonathan Ochmann ends up at Apple - maybe we'll see him on-stage at NAB?</p>
+<p>I wouldn't be surprised if Apple uses his skills for the Photos app, and ProRAW workflows - we'll see.</p>
+<p><strong>Final Cut Grill</strong> Episode 203 is out now!</p>
+<p>The description reads:</p>
+<blockquote>
+<p>Sam and I get pretty deep here and things get kind of philosophical. Sam asks “do you want to be 1984 or Star Trek”?</p>
+<p>Meeting Sam is one of my favorite NAB stories of all time and I’m so glad you get to meet him and hear from this inspirational guy. Sam is kind of famous for not so much thinking outside the box but ACTUALLY thinking ABOUT the box!</p>
+</blockquote>
+<p>You can watch <strong>This is so Fixable!</strong> on <a href="https://www.youtube.com/watch?v=C_XZueqITio">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=C_XZueqITio"><img src="/static/fcg-203.jpg" alt=""></a></p>
+<p>There's also some fun <a href="https://www.youtube.com/@finalcutgrill/shorts">YouTube Shorts</a> on the channel.</p>
+<p>You can find all the past podcast episodes on the <a href="https://grill.fcp.cafe">Final Cut Grill website</a>.</p>
+<p>Some interesting things that have popped up recently...</p>
+<p><strong>Ryan McCann</strong> (CEO, Claris, an Apple company), writes <a href="https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next">How Claris is building for what comes next</a>.</p>
+<p><strong>MacPaw</strong> writes, <a href="https://hackernoon.com/vibe-coded-mac-apps-are-arriving-fast-here-is-what-gets-lost-in-the-process">Vibe-coded Mac apps are arriving fast — here is what gets lost in the process</a>.</p>
+<p><strong>Alex &quot;4D&quot; Gollner</strong> writes on <a href="https://www.linkedin.com/posts/alex-4d_creator-studio-category-film-landscape-activity-7459613971365588992-fj_R?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAVQe00BED_arbD9zXel9tHXRnlUZRE3o1g">LinkedIn</a>:</p>
+<blockquote>
+<p><strong>New:</strong> Apple promoting Apple software</p>
+<p>During a YouTube visit just now, I saw a new preroll advert for Apple Creator Studio.</p>
+<p>So what? I’ve seen Apple videos about Final Cut Pro and Logic on YouTube.</p>
+<p>Apple has posted public videos about their hardware and software for years. The official launch video for Apple Creator Studio has been watched over 547,000 times.</p>
+<p>But the advent of ACS has brought with it Apple spending money on marketing of a software service.</p>
+<p>One of the cutdown edits of the launch video has now been watched 26 million times:</p>
+<p><a href="https://www.youtube.com/watch?v=5rjjSgEOA38"><img src="/static/apple-creator-studio-ad.jpg" alt=""></a></p>
+<p>It is unlisted and posted by Apple UK, which means it has been served as an ad 26 million times to people just in the UK.</p>
+<p>Another new development: Apple are spending time and money to promote ACS away from a specific update.</p>
+<p>The advert:</p>
+<p><a href="https://www.youtube.com/watch?v=-Jbus7LemY4"><img src="/static/apple-creator-studio-ad-2.jpg" alt=""></a></p>
+<p>After years of Apple not advertising their creative apps, I’m very happy that they want to be seen to promote their tools.</p>
+<p>That was one of the requests we included in our letter to Tim Cook just over four years ago. 🤓</p>
+</blockquote>
+<p>You can read more about the <a href="/openletter/">Open Letter on FCP Cafe</a>.</p>
+<p>Finally, <strong>BRAW Toolbox</strong> has had a couple of updates since I last posted.</p>
+<p><strong>BRAW Toolbox v3.1.2 (Build 88)</strong> contains the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>The Media Extension now supports <strong>Better Performance</strong> mode in Final Cut Pro. Thanks for your help and support Final Cut Pro team!</li>
+<li>Up until the M5-series, Apple Silicon only supports a maximum of 16,384 pixel Metal textures, whereas the M5-series supports up to 32,768 pixels. Due to this and limitations with Media Extensions in Final Cut Pro, when working with Blackmagic RAW footage greater than 16K on machines older than the M5-series, BRAW Toolbox now forces a lower decode quality so that the footage can import and play. On an M5-series Mac, full decode quality is supported. This is only relevant for cameras such as the Blackmagic URSA Cine 17K 65.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a bug where Gyroflow stabilisation would only work on macOS 26.</li>
+<li>Fixed a bug where Gyroflow stabilisation would only work at full decode quality.</li>
+<li>Fixed colour space handling in Apple Compressor. Thanks for your help and support Final Cut Pro team!</li>
+<li>Fixed a bug where an Apple Immersive Video Universal (<code>.aivu</code>) file from the <strong>Immersive Export</strong> could fail to load on Apple Vision Pro due to unsupported audio formats.</li>
+</ul>
+<p><strong>BRAW Toolbox v3.1.3 (Build 89)</strong> contains the following changes:</p>
+<p><strong>🐞 Bug Fix:</strong></p>
+<ul>
+<li>When using the <strong>Immersive Export</strong> feature, if you do an <strong>Immersive Fade</strong> at the of a clip, on a Apple Vision Pro, it would hold on the last frame of the Blackmagic RAW footage. We now apply a <strong>Default Camera</strong> for any non-Blackmagic RAW clips to fix this issue. Thanks Tim!</li>
+</ul>
+<p>This is still very much early days for Immersive workflows in BRAW Toolbox - so expect lots more updates and improvements and we dig deep into Blackmagic Immersive and Vision Pro Immersive workflows.</p>
+<p>You can learn more and download on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-may-2026</link>
+            <guid isPermaLink="false">13th May 2026</guid>
+            <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th May 2026]]></title>
+            <description><![CDATA[<p><strong>Cut Shelf v1.0.4</strong> is out now with the following bug fix:</p>
+<ul>
+<li>Fixes a problem that prevented shelves being stored on LucidLink</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-may-2026</link>
+            <guid isPermaLink="false">13th May 2026</guid>
+            <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
