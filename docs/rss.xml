@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 14 May 2026 09:04:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 06:56:29 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 09:04:26 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 06:56:29 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -21287,6 +21287,39 @@ Happy to answer any questions!</p>
             <link>https://fcp.cafe/#14th-may-2026</link>
             <guid isPermaLink="false">14th May 2026</guid>
             <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2026]]></title>
+            <description><![CDATA[<p>Happy Friday! 👋</p>
+<p><strong>MITOの하루</strong> has released a fun little video on <a href="https://www.youtube.com/watch?v=yokr3IioYCk">YouTube</a> about <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=yokr3IioYCk"><img src="/static/mito-keyframetoolbox-youtube.jpg" alt=""></a></p>
+<p>I love this video - it's so fun, honest, and true to itself.</p>
+<p>Speaking of videos, Apple has also invested in a bunch of commissioned Apple Creator Studios clips.</p>
+<p><a href="https://www.youtube.com/shorts/554NS4IIRGQ"><img src="/static/apple-creator-studio-commision-01.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/shorts/JMgzfIorID4"><img src="/static/apple-creator-studio-commision-02.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/shorts/9swmN_LGVJo"><img src="/static/apple-creator-studio-commision-03.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/shorts/jOUqLqlw39E"><img src="/static/apple-creator-studio-commision-04.jpg" alt=""></a></p>
+<p>You can read more on <a href="https://9to5mac.com/2026/05/14/apple-promotes-creator-studio-with-three-commissioned-pieces/">9to5Mac</a>.</p>
+<p>Have a great weekend team!</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2026</link>
+            <guid isPermaLink="false">15th May 2026</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th May 2026]]></title>
+            <description><![CDATA[<p><strong>Cut Shelf v1.0.5</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Fix: joining shelves from LucidLink, iCloud Drive, Google Drive, and other shared volumes no longer fails with an &quot;Invalid Folder&quot; error.</li>
+<li>Press 9, to open Settings. New <code>Reveal in Finder</code> button next to iCloud Drive in Settings, and a new <code>Open iCloud Folder</code> command in the Cut Shelf app menu - both useful when iCloud Drive's sidebar doesn't surface the Cut Shelf folder.</li>
+<li>You can now delete shelves that still contain items - the confirmation dialog spells out the item count first.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-may-2026</link>
+            <guid isPermaLink="false">15th May 2026</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
