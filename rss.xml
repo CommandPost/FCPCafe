@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 15 May 2026 06:56:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 09:46:02 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 May 2026 06:56:29 GMT</pubDate>
+        <pubDate>Wed, 20 May 2026 09:46:02 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -21320,6 +21320,62 @@ Happy to answer any questions!</p>
             <link>https://fcp.cafe/#15th-may-2026</link>
             <guid isPermaLink="false">15th May 2026</guid>
             <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th May 2026]]></title>
+            <description><![CDATA[<p>Happy Wednesday! 👋</p>
+<p>The love continues for <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a>, which is nice! 🥰</p>
+<p>The amazing and wonderful <strong>Jenn Jager</strong> has released an awesome video about Keyframe Toolbox on <a href="https://www.youtube.com/watch?v=t4n7wQKtHT0">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=t4n7wQKtHT0"><img src="/static/jenn-jager-keyframe-toolbox.jpg" alt=""></a></p>
+<p>Creator of Keyframe Toolbox, the equally amazing <a href="https://iain-anderson.com">Iain Anderson</a> has also written in-depth about <a href="https://www.provideocoalition.com/why-you-should-care-about-keyframe-graphs/">Why you should care about keyframe graphs</a> over on <strong>ProVideo Coalition</strong>, which is definitely worth a read!</p>
+<p>If you haven't yet looked into <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a> and you're a Final Cut Pro editor, you absolutely should - Iain has worked really hard on the documentation on the website.</p>
+<p>Unrelated, I watched <a href="https://www.imdb.com/title/tt14961016/">I'm Still Here (2024)</a> at the cinema on Monday night, and it's such a beautifully crafted film. Highly recommended!</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-may-2026</link>
+            <guid isPermaLink="false">20th May 2026</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th May 2026]]></title>
+            <description><![CDATA[<p>Mat X's <strong>BackupTrust v1.4</strong> is now available on the Mac App Store.</p>
+<blockquote>
+<p>BackupTrust backs up changing folders from your menu bar with hourly, daily, or weekly schedules, incremental copy, multi-destination support, and verification.</p>
+<p>BackupTrust is a macOS menu bar app for scheduled, incremental folder backup.</p>
+<p>Choose a source folder, add one or more destinations, and set an hourly, daily, or weekly schedule. BackupTrust runs quietly in the background and copies only files that are new or changed, helping protect active projects without repeating a full backup every time.</p>
+<p>BackupTrust is built for real working folders and supports locally mounted storage including internal drives, external SSDs, RAID volumes, network shares, NAS destinations, and other folders macOS can access.</p>
+<p>Features include:</p>
+<ul>
+<li>Incremental backup for new and changed files</li>
+<li>Multi-destination backup to multiple locations at the same time</li>
+<li>Menu bar access with quick status, progress, and manual run controls Busy windows to defer backups during working hours</li>
+<li>File filters for include-only rules, excluded extensions, hidden files, and file size limits</li>
+<li>Directory exclusion presets plus custom exclusion rules</li>
+<li>Conflict handling with overwrite, skip, or version-and-keep behavior</li>
+<li>Mirror mode to remove destination files that no longer exist in the source Retention controls for stored previous versions</li>
+<li>Optional post-copy verification for extra confidence</li>
+<li>Preflight space warnings before a run</li>
+<li>Notifications, logs, and diagnostics to help monitor backup health Optional overflow destination for oversized or long-filename files</li>
+<li>BackupTrust is designed for users who want dependable background backups for project folders, media libraries, and other data that changes over time.</li>
+</ul>
+</blockquote>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/backuptrust/id6767965282">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-may-2026</link>
+            <guid isPermaLink="false">20th May 2026</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th May 2026]]></title>
+            <description><![CDATA[<p><strong>MC Auto Cut v1.0.4</strong> is out now.</p>
+<p>It contains the following changes:</p>
+<ul>
+<li>Improved user interface for selecting angles for each speaker</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/mc-auto-cut/id6761138330">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-may-2026</link>
+            <guid isPermaLink="false">20th May 2026</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
