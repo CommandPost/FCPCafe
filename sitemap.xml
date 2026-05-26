@@ -1132,9 +1132,6 @@
     <loc>https://fcp.cafe/ecosystem/tools/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/learn/training/</loc>
-  </url>
-  <url>
     <loc>https://fcp.cafe/learn/360/</loc>
   </url>
   <url>
@@ -1148,6 +1145,9 @@
   </url>
   <url>
     <loc>https://fcp.cafe/learn/immersive/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/learn/training/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/learn/workflow/</loc>

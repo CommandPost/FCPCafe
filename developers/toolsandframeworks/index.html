@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832585775303">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833078386029">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Tools &amp; Frameworks</title>
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.5.3.832585775303" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.833078386029" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.832585775303" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.832585775303" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.833078386029" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.833078386029" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -450,6 +450,14 @@
 <h3 id="subtitlekit">SubtitleKit</h3>
 <p>Package for creating, modifying, and managing subtitle files, such as SubRip (.srt).</p>
 <p>Supported formats</p>
+<retype-table copy-text="| Format | File extension | Is supported |
+| --- | --- | --- |
+| SubRip | .srt | Yes |
+| WebVTT | .vtt | Partially |
+| SubViewer | .sub | No |
+| YouTube Captions | .sbv | No |
+| TTML | .ttml | No |
+| DXFP | .dxfp | No |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -493,6 +501,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p><a href="https://github.com/ggoraa/SubtitleKit" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>View on GitHub</span>
 </a></p>
@@ -500,6 +509,15 @@
 <h3 id="swift-daw-file-tools">swift-daw-file-tools</h3>
 <p>A Swift library for reading and writing common import/export file formats between popular DAW and video editing applications with the ability to convert between formats.</p>
 <h4 id="supported-file-formats">Supported File Formats</h4>
+<retype-table copy-text="|              Format               |        Read         |                Write                |
+| :-------------------------------: | :-----------------: | :---------------------------------: |
+|     Cubase: Track Archive XML     | marker tracks only† |         marker tracks only†         |
+| Pro Tools: Session Info text file |    full support     |                 n/a                 |
+|        Standard MIDI File         |       planned       | convert marker tracks to MIDI files |
+|            Logic Pro X            |      planned‡       |              planned‡               |
+|    Final Cut Pro XML (FCPXML)     |    full support     |            basic support            |
+|        Adobe Premiere XML         |       planned       |               planned               |
+|          SubRip SRT File          |    full support     |            full support             |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -548,6 +566,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p><em>† Full read/write support for Cubase Track Archive XML files is implemented for marker tracks only at this time, and only when in absolute timebase or musical timebase where the tempo track uses only &#x27;Jump&#x27; tempo events and there are no &#x27;Ramp&#x27; tempo events.</em> Full support for all track and event types may come in a future version of this library on an as-needed basis.</p>
 <p><em>‡ Research is needed for Logic Pro X to determine what file formats are common and the viability of their implementation</em>.</p>
 <p><a href="https://github.com/orchetect/swift-daw-file-tools" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
@@ -651,13 +670,7 @@
         async>
 </script>
 
-                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2023-06-08T11:29:06" title="2023-06-08" data-absolute-label="Last updated on 2023-06-08" data-absolute-label-html="Last updated on 2023-06-08" data-relative-template="Last updated {0}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN">
-                        Last updated on 2023-06-08
-                    </time>
-                </div>
-
                 <!-- Required only on API pages -->
                 <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
             </div>

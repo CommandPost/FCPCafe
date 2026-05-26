@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832585775303">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833078386029">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>News - 29th January 2026</title>
@@ -47,12 +47,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.5.3.832585775303" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.833078386029" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.832585775303" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.832585775303" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.5.3.832585775303" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.833078386029" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.833078386029" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.6.0.833078386029" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -515,6 +515,11 @@
 <p>From a branding and communication perspective for FCP Cafe, this is probably a better way to talk about the two different products - <strong>Final Cut Pro</strong>, and <strong>Final Cut Pro Creator Studio</strong>.</p>
 <p>The Final Cut Pro library database format has been updated - meaning any old Final Cut Pro library will need to be updated (make sure you create a ZIP&#x27;ed backup first!).</p>
 <p>Here&#x27;s the version information:</p>
+<retype-table copy-text="Application                         | Catalog Version
+------------------------------------|-----------------------------------
+Final Cut Pro (Mac)                 | 1171; 12.0 (445223)
+Final Cut Pro Creator Studio (Mac)  | 1171; 12.0 (445223)
+Final Cut Pro Creator Studio (iPad) | 1171; 3.0 (453.4.260)">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -539,6 +544,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>You can learn more about the Final Cut Pro Library Database file on <a href="../../developers/librarybundle/">FCP Cafe&#x27;s Developer Section</a>.</p>
 <p>If you need to get from <strong>Final Cut Pro (Mac)</strong> or <strong>Final Cut Pro Creator Studio (Mac)</strong> to <strong>Final Cut Pro Creator Studio (iPad)</strong>, the good news is that <strong>Transfer Toolbox v1.5.0</strong> has been submitted to the Mac App Store for review, so hopefully by the time you read this it will already be out.</p>
 <figure class="content-center">
@@ -649,6 +655,131 @@
 <p><strong>Final Cut Pro on Mac</strong> has 54 frameworks, whereas <strong>Final Cut Pro on iPad</strong> has a whopping 102 frameworks.</p>
 <p>Now, if we get into some REALLY nerdy details... thanks to an awesome little script by Joe Marler, we can see the split between Objective-C, C++ and Swift:</p>
 <p>First up we have <strong>Final Cut Pro (on Mac):</strong></p>
+<retype-table copy-text="Framework                   |      Obj-C |        C++ |      Swift
+----------------------------|------------|------------|-----------
+AppAnalytics                |        361 |          0 |       2931
+AppleAVCIntraCodec          |          0 |         18 |          0
+AppleAVCIntraEncoder        |          0 |          7 |          0
+AppleAVCLGCodecEmbedded     |          0 |        161 |          0
+  mc_dec_avc                |          0 |         40 |          0
+  mc_enc_avc                |          0 |        103 |          0
+AppleAnimationCodec         |          0 |          3 |          0
+AppleCanonRAWDecoder        |          0 |        124 |          0
+AppleCanonRAWImport         |          0 |        214 |          0
+AppleDVCPROHDCodec          |          0 |          7 |          0
+AppleHEVCProCodec           |          0 |         70 |          0
+  mc_dec_hevc               |          0 |         53 |          0
+AppleIMXCodec               |          0 |          7 |          0
+AppleImageCodec             |          0 |         33 |          0
+AppleIntermediateCodec      |          0 |         14 |          0
+AppleMPEG2Codec             |          0 |         45 |          0
+AppleMXFImport              |          0 |         61 |          0
+AppleMediaServicesKit       |         58 |        161 |       1598
+AppleProResCodecEmbedded    |          0 |         24 |          0
+AppleProResRAWCodecEmbedded |          0 |         28 |          0
+AppleREDRAWDecoder          |          0 |        129 |          0
+AppleREDRAWImport           |          0 |        217 |          0
+AppleUncompressedCodec      |          0 |         14 |          0
+AudioEffects                |          0 |        952 |          0
+CloudContent                |        682 |          0 |       6814
+CompressorKit               |       7682 |      33140 |        289
+  AECore                    |        173 |       3247 |          0
+  BatchActions              |         81 |        622 |          0
+  ClusterManager            |          0 |        246 |          0
+  Compressor                |       6178 |      16325 |        289
+  CompressorKit             |       1289 |        401 |          0
+  ContentControl            |          0 |       1414 |          0
+  DistributedObjects        |        777 |       2159 |          0
+  ImageProcessing           |         38 |        663 |          0
+  JobControl                |         20 |       2970 |          0
+  MediaServerAPI            |          0 |        304 |          0
+  Qmaster                   |       1331 |      13264 |          0
+  RequestProcessing         |          0 |        399 |          0
+  ServiceControl            |          0 |        569 |          0
+  Status                    |          0 |        420 |          0
+  StompTypes                |         57 |       5402 |          0
+  StompUI                   |       4471 |       1571 |          0
+  StompUtil                 |         28 |        142 |          0
+  SwampCore                 |         42 |       1335 |          0
+  SwampService              |          0 |        348 |          0
+  SwampTypes                |        282 |       2901 |          0
+  SwampUI                   |        209 |        194 |          0
+  SwampUtil                 |          1 |        309 |          0
+  Transcoding               |        214 |       7524 |        289
+CoreAudioSDK                |          0 |        573 |          0
+DNXDecoder                  |          0 |        726 |          0
+EDEL                        |      20732 |      46127 |      13248
+  ChordsKit                 |          0 |          0 |       7670
+  MAAccessibility           |         60 |          0 |        451
+  MACore                    |       1889 |       4135 |        380
+  MADSP                     |          0 |      27630 |          0
+  MADSPPlugInPublic         |          0 |         54 |          0
+  MAFiles                   |        835 |        472 |        186
+  MAHarmony                 |        537 |       1560 |         27
+  MAMachineLearning         |        159 |         75 |         44
+  MAPlugInGUISwift          |         53 |          2 |        429
+  MAPlugInGUI_EDEL          |          0 |      11692 |          0
+  MASwiftUIControls         |          6 |          0 |       2498
+  MASwiftUtilities          |          0 |          0 |        542
+  MAToolKit                 |      17193 |        139 |       1021
+  MAVectorUIKit             |          0 |          4 |          0
+EmbeddedRemoteConfiguration |       1004 |          0 |         44
+Filters                     |       3155 |       7454 |          0
+Flexo                       |      66234 |      12945 |       1229
+  AnalysisKit               |         36 |          0 |        697
+  AudioAnalysis             |         90 |          0 |        348
+  DeepSkyLite               |        487 |        126 |          0
+  ProResRAWConversion       |          0 |        767 |          0
+FxPlug                      |       1299 |        264 |          0
+H264Encoder                 |          0 |        260 |          0
+  mc_enc_avc                |          0 |        111 |          0
+Helium                      |          3 |      14925 |          0
+HeliumSenso                 |        216 |       7739 |          0
+Interchange                 |       2401 |          0 |      10769
+Lithium                     |         20 |      10082 |          0
+LunaFoundation              |        624 |          0 |          0
+LunaKit                     |       7162 |        705 |          0
+MDPKit                      |        774 |        429 |          0
+MIO                         |       2145 |        823 |          0
+MXFExportSDK                |        175 |       4852 |          0
+MusicUnderstandingEmbedded  |         12 |          0 |       1917
+Ozone                       |      10967 |      38575 |       6550
+  AudioMixEngine            |          0 |       1591 |          0
+PMLCloudContent             |          9 |          0 |        566
+PMLUtilities                |          0 |          0 |        236
+PluginManager               |        258 |          0 |          0
+ProAppSupport               |        111 |          0 |        428
+ProAppsFxSupport            |       1621 |       3700 |          0
+ProChannel                  |        704 |       7075 |          0
+ProCore                     |        820 |       5259 |          0
+ProCurveEditor              |       1010 |        291 |          0
+ProExtension                |        772 |          0 |          0
+ProExtensionHost            |        176 |          0 |          0
+ProExtensionSupport         |        336 |          0 |          0
+ProGL                       |          0 |       1427 |          0
+ProGraphics                 |          3 |       1112 |          0
+ProInspector                |       1528 |        554 |          0
+ProInspectorFoundation      |         22 |          1 |          0
+ProMedia                    |          3 |       2957 |          0
+ProMediaLibrary             |          1 |          0 |        962
+ProOSC                      |       1048 |       1642 |          0
+ProOnboardingFlowModelOne   |         95 |          0 |       1173
+ProService                  |         28 |          0 |          0
+ProShapes                   |         79 |       1870 |          0
+ProTracker                  |        633 |       3049 |          0
+  ANSTKitVideoApps          |        232 |         30 |          0
+  AppleNeuralTracker        |          0 |         56 |          0
+ProViewServiceSupport       |         38 |          0 |          0
+RetimingMath                |          0 |        454 |          0
+Stalgo                      |          0 |        854 |          0
+StudioSharedResources       |          8 |          0 |          0
+SwiftASN1                   |          0 |          0 |        913
+TextFramework               |       1409 |       7682 |          0
+TimelineKit                 |       6989 |        121 |          0
+USearch                     |         25 |        594 |         41
+VAML                        |        697 |         34 |        351
+VAMLSentencePiece           |          2 |       3329 |          0
+XMLCodable                  |         93 |          0 |        494">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -1401,6 +1532,12 @@
 </tbody>
 </table>
 </div>
+</retype-table>
+<retype-table copy-text="Language    |    Symbols | Percentage
+------------|------------|-----------
+Objective-C |     149409 |     34.75%
+C++         |     225095 |     52.36%
+Swift       |      55389 |     12.89%">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -1429,7 +1566,137 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>Next up we have <strong>Final Cut Pro Creator Studio (on Mac)</strong>:</p>
+<retype-table copy-text="Framework                   |      Obj-C |        C++ |      Swift
+----------------------------|------------|------------|-----------
+AppAnalytics                |        361 |          0 |       2931
+AppSubscriptions            |          9 |          0 |       1941
+AppleAVCIntraCodec          |          0 |         18 |          0
+AppleAVCIntraEncoder        |          0 |          7 |          0
+AppleAVCLGCodecEmbedded     |          0 |        161 |          0
+  mc_dec_avc                |          0 |         40 |          0
+  mc_enc_avc                |          0 |        103 |          0
+AppleAnimationCodec         |          0 |          3 |          0
+AppleCanonRAWDecoder        |          0 |        124 |          0
+AppleCanonRAWImport         |          0 |        214 |          0
+AppleDVCPROHDCodec          |          0 |          7 |          0
+AppleHEVCProCodec           |          0 |         70 |          0
+  mc_dec_hevc               |          0 |         53 |          0
+AppleIMXCodec               |          0 |          7 |          0
+AppleImageCodec             |          0 |         33 |          0
+AppleIntermediateCodec      |          0 |         14 |          0
+AppleMPEG2Codec             |          0 |         45 |          0
+AppleMXFImport              |          0 |         61 |          0
+AppleMediaServicesKit       |         92 |        163 |       1699
+AppleProResCodecEmbedded    |          0 |         24 |          0
+AppleProResRAWCodecEmbedded |          0 |         28 |          0
+AppleREDRAWDecoder          |          0 |        129 |          0
+AppleREDRAWImport           |          0 |        217 |          0
+AppleUncompressedCodec      |          0 |         14 |          0
+AudioEffects                |          0 |        952 |          0
+CloudContent                |        682 |          0 |       6814
+CompressorKit               |       7682 |      33140 |        289
+  AECore                    |        173 |       3247 |          0
+  BatchActions              |         81 |        622 |          0
+  ClusterManager            |          0 |        246 |          0
+  Compressor                |       6178 |      16325 |        289
+  CompressorKit             |       1289 |        401 |          0
+  ContentControl            |          0 |       1414 |          0
+  DistributedObjects        |        777 |       2159 |          0
+  ImageProcessing           |         38 |        663 |          0
+  JobControl                |         20 |       2970 |          0
+  MediaServerAPI            |          0 |        304 |          0
+  Qmaster                   |       1331 |      13264 |          0
+  RequestProcessing         |          0 |        399 |          0
+  ServiceControl            |          0 |        569 |          0
+  Status                    |          0 |        420 |          0
+  StompTypes                |         57 |       5402 |          0
+  StompUI                   |       4471 |       1571 |          0
+  StompUtil                 |         28 |        142 |          0
+  SwampCore                 |         42 |       1335 |          0
+  SwampService              |          0 |        348 |          0
+  SwampTypes                |        282 |       2901 |          0
+  SwampUI                   |        209 |        194 |          0
+  SwampUtil                 |          1 |        309 |          0
+  Transcoding               |        214 |       7524 |        289
+CoreAudioSDK                |          0 |        573 |          0
+DNXDecoder                  |          0 |        726 |          0
+EDEL                        |      20732 |      46127 |      13248
+  ChordsKit                 |          0 |          0 |       7670
+  MAAccessibility           |         60 |          0 |        451
+  MACore                    |       1889 |       4135 |        380
+  MADSP                     |          0 |      27630 |          0
+  MADSPPlugInPublic         |          0 |         54 |          0
+  MAFiles                   |        835 |        472 |        186
+  MAHarmony                 |        537 |       1560 |         27
+  MAMachineLearning         |        159 |         75 |         44
+  MAPlugInGUISwift          |         53 |          2 |        429
+  MAPlugInGUI_EDEL          |          0 |      11692 |          0
+  MASwiftUIControls         |          6 |          0 |       2498
+  MASwiftUtilities          |          0 |          0 |        542
+  MAToolKit                 |      17193 |        139 |       1021
+  MAVectorUIKit             |          0 |          4 |          0
+EmbeddedRemoteConfiguration |       1004 |          0 |         44
+Filters                     |       3155 |       7454 |          0
+Flexo                       |      66234 |      12945 |       1229
+  AnalysisKit               |         36 |          0 |        697
+  AudioAnalysis             |         90 |          0 |        348
+  DeepSkyLite               |        487 |        126 |          0
+  ProResRAWConversion       |          0 |        767 |          0
+FxPlug                      |       1299 |        264 |          0
+H264Encoder                 |          0 |        260 |          0
+  mc_enc_avc                |          0 |        111 |          0
+Helium                      |          3 |      14925 |          0
+HeliumSenso                 |        216 |       7739 |          0
+Interchange                 |       2401 |          0 |      10769
+Jet2P                       |        199 |        794 |       8961
+Lithium                     |         20 |      10082 |          0
+LunaFoundation              |        624 |          0 |          0
+LunaKit                     |       7162 |        705 |          0
+MDPKit                      |        774 |        429 |          0
+MIO                         |       2145 |        823 |          0
+MXFExportSDK                |        175 |       4852 |          0
+MusicUnderstandingEmbedded  |         12 |          0 |       1917
+Ozone                       |      10967 |      38575 |       6550
+  AudioMixEngine            |          0 |       1591 |          0
+PMLCloudContent             |          9 |          0 |        566
+PMLUtilities                |          0 |          0 |        236
+PluginManager               |        258 |          0 |          0
+ProAppSupport               |        111 |          0 |        428
+ProAppsFxSupport            |       1621 |       3700 |          0
+ProChannel                  |        704 |       7075 |          0
+ProCore                     |        820 |       5259 |          0
+ProCurveEditor              |       1010 |        291 |          0
+ProExtension                |        772 |          0 |          0
+ProExtensionHost            |        176 |          0 |          0
+ProExtensionSupport         |        336 |          0 |          0
+ProGL                       |          0 |       1427 |          0
+ProGraphics                 |          3 |       1112 |          0
+ProInspector                |       1528 |        554 |          0
+ProInspectorFoundation      |         22 |          1 |          0
+ProMedia                    |          3 |       2957 |          0
+ProMediaLibrary             |          1 |          0 |        962
+ProOSC                      |       1048 |       1642 |          0
+ProOnboardingFlow           |         97 |          0 |       1433
+ProService                  |         28 |          0 |          0
+ProShapes                   |         79 |       1870 |          0
+ProTracker                  |        633 |       3049 |          0
+  ANSTKitVideoApps          |        232 |         30 |          0
+  AppleNeuralTracker        |          0 |         56 |          0
+ProViewServiceSupport       |         38 |          0 |          0
+RetimingMath                |          0 |        454 |          0
+Stalgo                      |          0 |        854 |          0
+StudioSharedResources       |          8 |          0 |          0
+SwiftASN1                   |          0 |          0 |        913
+TextFramework               |       1409 |       7682 |          0
+TimelineKit                 |       6989 |        121 |          0
+USearch                     |         25 |        594 |         41
+UnifiedMessagingKit2P       |        178 |         15 |       3152
+VAAppAnalytics              |        274 |          0 |       6145
+VAML                        |        697 |         34 |        351
+VAMLSentencePiece           |          2 |       3329 |          0
+XMLCodable                  |         93 |          0 |        494">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -2206,6 +2473,12 @@
 </tbody>
 </table>
 </div>
+</retype-table>
+<retype-table copy-text="Language    |    Symbols | Percentage
+------------|------------|-----------
+Objective-C |     150115 |     33.21%
+C++         |     225906 |     49.98%
+Swift       |      75949 |     16.80%">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -2234,7 +2507,112 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>...and last, but not least, <strong>Final Cut Pro Creator Studio (for iPad)</strong>:</p>
+<retype-table copy-text="Framework                   |      Obj-C |        C++ |      Swift
+----------------------------|------------|------------|-----------
+AnalysisKit                 |          0 |          0 |         41
+AnalysisService             |          0 |          0 |      21794
+AppAnalytics                |          0 |          0 |        167
+AppSubscriptions            |          0 |          0 |        224
+AppleMediaServicesKit       |          0 |          0 |         29
+AssistiveWorkflowKit        |          0 |          0 |          8
+AudioAnalysis               |          0 |          0 |         50
+AudioEffects                |          0 |        668 |          0
+Browser                     |          0 |          0 |        331
+BrowserUI                   |          0 |          0 |          5
+Camalot                     |          0 |          0 |        154
+CameraKit                   |          0 |          0 |        176
+CameraKitUI                 |          0 |          0 |        170
+CameraProfiler              |          0 |          0 |        880
+ChordsKit                   |          0 |          0 |        819
+CloudContent                |          0 |          0 |        147
+Communication               |          0 |          0 |         39
+CoreAudioSDK                |          0 |        566 |          0
+CoreDataCache               |          0 |          0 |       2083
+DeepSkyLite                 |        480 |        110 |          0
+DirectorKit                 |          0 |          0 |        137
+DirectorKitUI               |          0 |          0 |         94
+EDEL                        |          0 |        358 |          0
+EmbeddedRemoteConfiguration |          0 |          0 |          5
+Filmstrip                   |          0 |          0 |        443
+Filters                     |       2277 |       6342 |          0
+FlexMusicKit                |        720 |          0 |          0
+Flexo                       |      72467 |      19116 |          0
+FlexoCover                  |          0 |          0 |          5
+FxPlug                      |        133 |          6 |          0
+FxPlugEffects               |        154 |         64 |          0
+HLAppShareExtension         |          0 |          0 |         27
+HLAppSupport                |          0 |          0 |        274
+HLTimeline                  |       1692 |          0 |          0
+Helium                      |          3 |      13639 |          0
+HeliumSenso                 |        223 |       5431 |          0
+Inspector                   |          0 |          0 |        341
+InspectorUI                 |          0 |          0 |        372
+Interchange                 |          0 |          0 |         57
+Jet2P                       |          0 |          0 |        226
+KonaModel                   |          0 |          0 |         10
+LegacyOnboarding            |          0 |          0 |         69
+Lens                        |          0 |          0 |        138
+Lithium                     |         25 |       9977 |          0
+LunaFoundation              |        624 |          0 |          0
+LunaKit                     |       2005 |          0 |          0
+MAAccessibility             |          0 |          0 |          8
+MACore                      |          0 |          0 |          8
+MADSP                       |          0 |      25154 |          0
+MADSPPlugInPublic           |          0 |         54 |          0
+MAFiles                     |          0 |          0 |         35
+MAHarmony                   |          0 |          0 |          9
+MAMachineLearning           |          0 |          0 |          5
+MASwiftUtilities            |          0 |          0 |        541
+MDPKit                      |        719 |        428 |          0
+MotionEffect                |        864 |        719 |          0
+MovieKit                    |       5248 |        150 |      17464
+MusicUnderstandingEmbedded  |          0 |          0 |        100
+Ozone                       |       1147 |      28709 |          0
+PMLCloudContent             |          0 |          0 |         14
+PMLEffects                  |          0 |          0 |          5
+PMLFileSystem               |          0 |          0 |          8
+PMLHLApp                    |          0 |          0 |         94
+PMLUtilities                |          0 |          0 |        234
+PeerCam                     |       2887 |          0 |          0
+Player                      |          0 |          0 |          5
+PluginManager               |        252 |          0 |          0
+ProARCam                    |          0 |          0 |          8
+ProAppSupport               |          0 |          0 |          9
+ProAppsFxSupport            |        730 |       3035 |          0
+ProCamera                   |          0 |          0 |         22
+ProCameraDataModels         |        160 |          1 |          0
+ProChannel                  |        704 |       7065 |          0
+ProCore                     |        811 |       4435 |          0
+ProGL                       |          0 |       1201 |          0
+ProGraphics                 |          0 |       1022 |          0
+ProInspector                |        238 |         82 |          0
+ProInspectorFoundation      |         22 |          1 |          0
+ProMedia                    |         35 |       1011 |          0
+ProMediaLibrary             |          0 |          0 |          5
+ProOSC                      |       1008 |       1487 |          0
+ProOnboardingFlow           |          0 |          0 |        146
+ProResRAWConversion         |          7 |        846 |          0
+ProShapes                   |          3 |       1807 |          0
+ProTracker                  |        227 |       2263 |          0
+RetimingMath                |          0 |        454 |          0
+Share                       |          0 |          0 |         53
+SharedWidgets               |          0 |          0 |         24
+Stalgo                      |          0 |        854 |          0
+StudioSharedResources       |         11 |          0 |          0
+TextFramework               |        133 |       8301 |          0
+Timber                      |          0 |          0 |        562
+TimelineKit                 |       5588 |        122 |          0
+USearch                     |          0 |          0 |          5
+UnifiedMessagingKit2P       |          0 |          0 |        184
+VAAppAnalytics              |          0 |          0 |        125
+VACore                      |          0 |          0 |         16
+VAKit                       |        901 |         12 |          0
+VAML                        |          0 |          0 |         71
+VAMLSentencePiece           |          2 |       3333 |          0
+VideoCassette               |          0 |          0 |         21
+XMLCodable                  |          0 |          0 |         11">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -2861,6 +3239,12 @@
 </tbody>
 </table>
 </div>
+</retype-table>
+<retype-table copy-text="Language    |    Symbols | Percentage
+------------|------------|-----------
+Objective-C |     102500 |     33.17%
+C++         |     148823 |     48.16%
+Swift       |      57675 |     18.67%">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -2889,7 +3273,21 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>So now if we compare the above:</p>
+<retype-table copy-text="Application                              | Language    | Symbols    | Percentage
+-----------------------------------------|-------------|------------|------------
+Final Cut Pro (Mac)                      | Objective-C |     149409 |     34.75%
+Final Cut Pro Creator Studio (on Mac)    | Objective-C |     150115 |     33.21%
+Final Cut Pro Creator Studio (for iPad)  | Objective-C |     102500 |     33.17%
+                                         |             |            |
+Final Cut Pro (Mac)                      | C++         |     225095 |     52.36%
+Final Cut Pro Creator Studio (on Mac)    | C++         |     225906 |     49.98%
+Final Cut Pro Creator Studio (for iPad)  | C++         |     148823 |     48.16%
+                                         |             |            |
+Final Cut Pro (Mac)                      | Swift       |      55389 |     12.89%
+Final Cut Pro Creator Studio (on Mac)    | Swift       |      75949 |     16.80%
+Final Cut Pro Creator Studio (for iPad)  | Swift       |      57675 |     18.67%">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -2970,6 +3368,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>We can see that Final Cut Pro is still mostly C++, and very little Swift - even on iPad - which is SUPER interesting.</p>
 <p>If we look back to our <a href="../20251115/">15th November 2025</a> blog post, we wrote:</p>
 <blockquote>
@@ -3117,13 +3516,7 @@
         async>
 </script>
 
-                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-01-29T12:01:47" title="2026-01-29" data-absolute-label="Last updated on 2026-01-29" data-absolute-label-html="Last updated on 2026-01-29" data-relative-template="Last updated {0}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN">
-                        Last updated on 2026-01-29
-                    </time>
-                </div>
-
                 <!-- Required only on API pages -->
                 <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
             </div>
