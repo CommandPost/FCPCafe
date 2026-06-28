@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 20 May 2026 09:46:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 09:33:57 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 May 2026 09:46:02 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 09:33:56 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -21376,6 +21376,257 @@ Happy to answer any questions!</p>
             <link>https://fcp.cafe/#20th-may-2026</link>
             <guid isPermaLink="false">20th May 2026</guid>
             <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p>Happy Sunday! 🥳</p>
+<p>And just like that... a month completely disappeared, and now it's nearly the middle of the year. 🤯</p>
+<p>My sincerest apologies for the radio silence over the last month and a bit!</p>
+<p>I had a few interstate work trips, some crazy busy periods, and just general life chaos, so the month got away from me. Sorry team!</p>
+<p>As July rapidly approaches, I'll try go back to more regular posting over the coming days and weeks.</p>
+<p>To bring you up to speed...</p>
+<p>We have a new <strong>Developer Case Study</strong> on the website about <a href="/developer-case-studies/first-rush">First Rush</a>! Thanks heaps Jinkyu!</p>
+<p><strong>BRAW Toolbox v3.1.4</strong> is out now with the following improvements:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>We've made some changes to how &quot;Better Performance&quot; mode works for the Media Extension in Final Cut Pro which improves quality and performance in some cases. Thanks for your help and support Final Cut Pro team!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+<p>The feedback from the BRAW Toolbox Media Extension has been really great - people love that you can now just drag-and-drop BRAW files directly into Final Cut Pro, and treat them like regular QuickTime files.</p>
+<p>Over the coming weeks and months, I'm going to continue to work on some Immersive improvements to BRAW Toolbox - stay tuned!</p>
+<p><strong>Keyframe Toolbox v1.4.0 (Build 55)</strong> is also out now with the following changes:</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>
+<p><strong>Keyframe Toolbox 360 Reframe</strong> has been added. Thanks for requesting, many people! Please read and follow the Quick Start instructions in the effect or shown below before using it.</p>
+<ul>
+<li>
+<p>To reframe 360° footage, you'll apply the new, dedicated effect: <strong>Keyframe Toolbox 360 Reframe</strong>. If you don't see it, please run the Keyframe Toolbox app, then restart FCP.</p>
+</li>
+<li>
+<p><strong>QUICK START INSTRUCTIONS</strong> — to work correctly, this effect needs to sidestep FCP's native 360° processing. To get started:</p>
+<ol>
+<li>Using your camera manufacturer's tools, process your original 360° camera footage into equirectangular (panoramic) format.</li>
+<li>Import the equirectangular clips into FCP, then select them in the Browser.</li>
+<li>In the Info Inspector, set the <em>Projection Mode</em> to <em>Rectangular</em> (not Equirectangular).</li>
+<li>Add your 360° clips to a regular (not 360º) timeline and set <em>Spatial Conform</em> to <em>Fill</em>.</li>
+<li>Add the Keyframe Toolbox 360 Reframe effect to your 360° timeline clips.</li>
+</ol>
+</li>
+<li>
+<p>Standard Keyframe Toolbox graph controls can be used with a new set of properties, including Pan, Tilt, Field of View and Roll. Additionally, Opacity, Distortion and Blur can be added in Settings.</p>
+</li>
+<li>
+<p>A new Projection button at the top switches between five ways to reframe your footage:</p>
+<ul>
+<li><strong>Rectilinear</strong> will never curve a straight line, but allows Field of View up to 180°.</li>
+<li><strong>Wide/Panini</strong> is a cylindrical view that allows a Field of View up to 220°.</li>
+<li><strong>Fisheye</strong> allows more distortion around the edges of frame, and allows a Field of View up to 360°.</li>
+<li><strong>Stereographic</strong> is the default projection, and it allows smooth transitions between a normal Field of View and (if Pan is adjusted down) a Tiny Planet-style view.</li>
+<li><strong>Tiny Planet</strong> is a stereographic projection with a Tilt and Field of View offset to make it easier to achieve this effect — it defaults to looking down, with a wider FOV.</li>
+<li>In each Projection, Field of View is interpreted slightly differently, and each has different Distortion parameters behind the scenes too.</li>
+</ul>
+</li>
+<li>
+<p>To animate smoothly between perspectives, choosing the Stereographic projection and recording keyframes on the Field of View property is usually enough. However, if you want more control, consider also animating the Distortion parameter. This graph is disabled by default, but can be enabled in Settings.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>New keyframes now maintain existing curves more closely</strong>.</p>
+<ul>
+<li>Previously, newly added keyframes defaulted to linear, unless Command was held. Now, if the new keyframe is along a curve, it will be created with handles that maintain that curve.</li>
+<li>While creating a new keyframe in the OSC, you can still hold Command or Option to force new flat handles to be created.</li>
+<li>If you want a linear keyframe, it's still easy to Command- or Option-click on a keyframe to remove its handles.</li>
+</ul>
+</li>
+<li>
+<p><strong>The Keyframe Toolbox effect now uses a more flexible height</strong>.</p>
+<ul>
+<li>The Inspector will always maintain enough space for all visible graphs to be shown at standard size.</li>
+<li>Graphs can still be minimized to make more room for larger graphs, but minimized graphs will be returned to standard size next time the effect is loaded. If any graphs are expanded, they will remain expanded.</li>
+<li>To force the Inspector to update, simply select any other clip, then reselect a clip with Keyframe Toolbox.</li>
+<li>In some rare situations, when most graphs were hidden and are then all made visible at once, there may not be enough space to show the header and the graphs in the limited space available. This is temporary. Simply select any other clip, then reselect the clip you want to work on, and the Inspector will return to normal.</li>
+</ul>
+</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>An issue with incorrect Position values being shown in Better Performance mode has been fixed.</li>
+<li>Linking keyframes is now more reliable and resilient.</li>
+<li>Previous/next keyframe buttons in the OSC are more reliable.</li>
+<li>Keyframes now light up (when the playhead is over them) more reliably.</li>
+<li>Performance improvements have been made to the regular Keyframe Toolbox effect. If you ever experienced a delay when loading a timeline with multiple instances of Keyframe Toolbox, this has now been improved.</li>
+<li>Potential issues with very large images have been resolved. Note that Keyframe Toolbox is now limited to images no larger than 8500px across.</li>
+</ul>
+<p>This is a big update! You can download and learn more on the <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox website</a>.</p>
+<p>You can also watch <strong>Iain Anderson</strong> talk about Keyframe Toolbox on <a href="https://www.youtube.com/watch?v=u2csDy7tnwk">Final Cut Grill</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=u2csDy7tnwk"><img src="/static/iain-anderson-fcp-grill.jpg" alt=""></a></p>
+<p>In <strong>Jumper</strong> news, the team has also been working on a big update, that's nearly ready to launch!</p>
+<p><img src="/static/jumper-june-update.png" alt=""></p>
+<p>Max writes on the Jumper Discord:</p>
+<blockquote>
+<p>We have a pretty big update we're about to release, which includes some much requested features like:</p>
+<ul>
+<li>
+<p><strong>Adding custom tags:</strong> ability to create add custom tags to search results segments or whole clips, and use them in searches, e.g. combining them with people search and regular visual searches. Tags exist as personal or shared &quot;Tag Collections&quot;. They have support for commenting on individual items, adding color markers, sorting, searching, etc.</p>
+</li>
+<li>
+<p>Everyone using the same analysis folder on a team has access to the shared Tag Collections inside it, and can modify them by adding comments, markers, new clips, etc.</p>
+</li>
+<li>
+<p>Personal tag collections are user-only, and can probably be used as a kind of &quot;bookmarks&quot; or an ephemeral &quot;working area&quot;?</p>
+</li>
+<li>
+<p>Ability to specify one or several audio channels for transcription (if mulitple channels, we do a &quot;smart merge&quot; to de-duplicate).
+This is something many have requested, and something that I don't believe any of the transcriptions in e.g. Premiere, FCP, or Resolve support?</p>
+</li>
+<li>
+<p>Added <strong>speaker detection</strong>, automatic speaker detection and the ability to name speakers in order to do speech search filtered to only things spoken by a specific person.
+Either auto-detect speaker count, or if you already know how many speakers there are, specify it in the transcription options for increased accuracy.</p>
+</li>
+<li>
+<p>Added new <strong>improved speech-to-text models</strong>. This includes single-language fine-tuned models for:</p>
+</li>
+<li>
+<p>Japanese, state-of-the-art</p>
+</li>
+<li>
+<p>Swedish, state-of-the-art (shoutout my fellow alumni at Linköping University)</p>
+</li>
+<li>
+<p>Moroccan Arabic (Darija), state-of-the-art (shoutout @Youssef Toufik)</p>
+</li>
+<li>
+<p>New model types coming in two sizes (faster vs more accurate) for: Chinese (with 20+ dialects support), Arabic, Hindi, Cantonese, Korean, Thai, Vietnamese, Filipino, Russian etc..</p>
+</li>
+<li>
+<p>Faster analysis on all other languages on Windows with Nvidia GPUs</p>
+</li>
+</ul>
+</blockquote>
+<p>If you would like to test out this upcoming release, the best way to chat to the Jumper team is on their <a href="https://discord.getjumper.io">Discord</a>.</p>
+<p>You can download a free trial of Jumper and learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+<p>In other news...</p>
+<p><strong>Dylan Bates (aka The Final Cut Bro)</strong> has released an awesome new product called <strong>DropHawk Pro</strong> into the world.</p>
+<p>You can try DropHawk Pro for free for 14 days, and it's also currently on sale, so now's a <a href="https://fcbplugins.com/b/drophawkpro">great time to buy</a>!</p>
+<p>You can watch the promo video on <a href="https://www.youtube.com/watch?v=0UtDuvGeoLA">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=0UtDuvGeoLA"><img src="/static/drophawk-pro-youtube.jpg" alt=""></a></p>
+<p>You can buy and learn more on <a href="https://fcbplugins.com/b/drophawkpro">Dylan's website</a> - there's currently lots of discounts and sales on the site, so it's worth checking out!</p>
+<p>Whilst CommandPost has had Watch Folder support for years, it was never really a popular feature, and it was implemented fairly poorly.</p>
+<p>There was a handful of people that loved and used CommandPost's Watch Folder support in some very bespoke and niche workflows, but for most users it was buggy and unreliable - so it never really took off.</p>
+<p>Lots of tricks and techniques we use in other areas of CommandPost (and in our other paid products) never made it into the Watch Folder feature, so it was kinda just left dormant.</p>
+<p>DropHawk Pro on the other hand is a super clean, slick and easy-to-use menubar application, that just works. It's simple - but powerful, and we highly recommend you take it for a test run!</p>
+<p>Earlier in the month, Dylan also did a <a href="https://www.youtube.com/watch?v=C0uK9dphNp0">YouTube video</a> on <strong>SilenceScout</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=C0uK9dphNp0"><img src="/static/silencescout.jpg" alt=""></a></p>
+<p>The website reads:</p>
+<blockquote>
+<p><strong>Find and Remove Silence in Final Cut Pro and DaVinci Resolve Without Ever Leaving your Timeline.</strong></p>
+<p>SilenceScout is a silence and freeze-frame detection plugin for Final Cut Pro and DaVinci Resolve. Apply it to any clip, dial in the threshold and minimum duration, and click Process — your timeline is restructured automatically. No external app. No FCPXML or EDL export/import dance. Never leave your NLE. One license covers both Final Cut Pro and DaVinci Resolve.</p>
+<p>Other tools require you to leave your NLE, import media into a separate app, configure, process, export FCPXML or EDL, switch back, and import. That's too many steps across multiple apps, and you have to repeat it if you switch NLEs. SilenceScout does it all without ever leaving your timeline. In DaVinci Resolve, it also offers a live waveform preview — a visual feedback loop that standalone tools structurally cannot offer.</p>
+</blockquote>
+<p>You can purchase and learn more on <a href="https://fxfactory.com/info/silencescout/">FxFactory</a>.</p>
+<p>Dylan also appeared on <strong>Final Cut Grill</strong>, which you can watch on <a href="https://www.youtube.com/watch?v=-YYFQwgbVVs">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=-YYFQwgbVVs"><img src="/static/fcg-205.jpg" alt=""></a></p>
+<p>Speaking of which, since I last posted on FCP Cafe, there's actually been quite a few <strong>Final Cut Grill</strong> episodes absolutely worth checking out!</p>
+<p><a href="https://www.youtube.com/watch?v=-lN_lZf1sAU"><img src="/static/fcg-204.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=y44xQ-Mu-IU"><img src="/static/fcg-206.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=0yby9PPqWOA"><img src="/static/fcg-207.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=EFa05zW-M30"><img src="/static/fcg-209.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=jBN7x0WUkMU"><img src="/static/fcg-210.jpg" alt=""></a></p>
+<p><strong>Richard Taylor</strong> recently recorded a live stream celebrating Final Cut Pro's birthday with Gabriel, Bill, Philip, Richard, Cirina and Brad.</p>
+<p>You can watch on <a href="https://www.youtube.com/watch?v=MdOfWGDyLbM">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=MdOfWGDyLbM"><img src="/static/final-cut-tv-birthday.jpg" alt=""></a></p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>Sequence Shortener v1.0.3</strong> is out now with the following changes:</p>
+<ul>
+<li>Stability improvements and cleaner Final Cut Pro imports</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/sequence-shortener/id6757253020">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>captionTranslator v1.0.6</strong> is out now with the following changes:</p>
+<ul>
+<li><strong>New feature:</strong> disable the Go button after clicking it</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/captiontranslator/id6737919696">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>MC Auto Cut v1.0.9</strong> is out now with the following changes:</p>
+<ul>
+<li>Fixes a problem parsing a live Multicam from Final Cut Pro for iPad</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/mc-auto-cut/id6761138330">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>Captionator for Final Cut v2.2.1</strong> is out now with the following changes:</p>
+<ul>
+<li>Multi-languages always assumed English, but it is now fixed to work correctly</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/captionator-for-final-cut/id1627843786">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>Creator's Best Friend v1.3.8</strong> is out now with the following changes:</p>
+<ul>
+<li>Bug fix for a workflow extension crash</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/creators-best-friend/id1524172135">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>FinalCap Ultimate v1.3</strong> is out now with the following changes:</p>
+<ul>
+<li>New Frutiger Metro based UI</li>
+<li>Use Compound Clips to upload audio straight from Final Cut Pro</li>
+<li>Save Presets for faster use</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/finalcap-ultimate/id6748661641">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th June 2026]]></title>
+            <description><![CDATA[<p><strong>Cut Shelf v1.1.1</strong> is out now with the following changes:</p>
+<ul>
+<li>Fixes a bug where clips dropped onto a shelf stored in an iCloud Drive folder could silently disappear after a refresh (offloaded iCloud files were mistaken for deleted ones).</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-june-2026</link>
+            <guid isPermaLink="false">28th June 2026</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
