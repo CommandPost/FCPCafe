@@ -100,10 +100,10 @@
     <loc>https://fcp.cafe/blog/michael-shanks-on-star-wars-podcast/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/48hfp-singapore/</loc>
+    <loc>https://fcp.cafe/blog/star-wars-episode-vii-trailer/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/star-wars-episode-vii-trailer/</loc>
+    <loc>https://fcp.cafe/blog/48hfp-singapore/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/stare-down/</loc>
@@ -358,10 +358,10 @@
     <loc>https://fcp.cafe/blog/project-nim/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/bugtracker/</loc>
+    <loc>https://fcp.cafe/blog/the-greatest-movie-ever-sold/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/the-greatest-movie-ever-sold/</loc>
+    <loc>https://fcp.cafe/bugtracker/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/a-quiet-life/</loc>
@@ -523,6 +523,9 @@
     <loc>https://fcp.cafe/ipad/</loc>
   </url>
   <url>
+    <loc>https://fcp.cafe/accessibility/</loc>
+  </url>
+  <url>
     <loc>https://fcp.cafe/camera-formats/</loc>
   </url>
   <url>
@@ -590,9 +593,6 @@
   </url>
   <url>
     <loc>https://fcp.cafe/blog/first-public-screenings/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/accessibility/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/contribute/</loc>
@@ -1199,6 +1199,9 @@
   </url>
   <url>
     <loc>https://fcp.cafe/case-studies/external-case-studies/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/developer-case-studies/first-rush/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/developer-case-studies/transcriber-ai-metadata/</loc>

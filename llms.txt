@@ -53,6 +53,7 @@
 
 ## Developer Case Studies
 
+- [Building First Rush](https://fcp.cafe/developer-case-studies/first-rush.md): How a Korean on-set editor ended up building a macOS SDI recorder for the Final Cut Pro workflow.
 - [Transcriber with AI Metadata](https://fcp.cafe/developer-case-studies/transcriber-ai-metadata.md): This is a story that starts not so long ago, about what I call the hardest job of all after being a dad: being a good husband...
 - [Transcriber](https://fcp.cafe/developer-case-studies/transcriber.md): A Developers Story
 - [Demystifying Final Cut Pro XMLs](https://fcp.cafe/developer-case-studies/fcpxml.md): Written by Philip Hodgetts & Dr Gregory Clarke from Intelligent Assistance

@@ -8,6 +8,239 @@ Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-b
 ---
 
 # 2026
+## June
+
+### [28th June 2026](/news/20260628)
+
+Happy Sunday! 🥳
+
+And just like that... a month completely disappeared, and now it's nearly the middle of the year. 🤯
+
+My sincerest apologies for the radio silence over the last month and a bit!
+
+I had a few interstate work trips, some crazy busy periods, and just general life chaos, so the month got away from me. Sorry team!
+
+As July rapidly approaches, I'll try go back to more regular posting over the coming days and weeks.
+
+To bring you up to speed...
+
+We have a new **Developer Case Study** on the website about [First Rush](/developer-case-studies/first-rush)! Thanks heaps Jinkyu!
+
+**BRAW Toolbox v3.1.4** is out now with the following improvements:
+
+**🔨 Improvements:**
+- We've made some changes to how "Better Performance" mode works for the Media Extension in Final Cut Pro which improves quality and performance in some cases. Thanks for your help and support Final Cut Pro team!
+
+You can download and learn more on the [BRAW Toolbox website](https://brawtoolbox.fcp.cafe).
+
+The feedback from the BRAW Toolbox Media Extension has been really great - people love that you can now just drag-and-drop BRAW files directly into Final Cut Pro, and treat them like regular QuickTime files.
+
+Over the coming weeks and months, I'm going to continue to work on some Immersive improvements to BRAW Toolbox - stay tuned!
+
+**Keyframe Toolbox v1.4.0 (Build 55)** is also out now with the following changes:
+
+**🔨 Improvements:**
+- **Keyframe Toolbox 360 Reframe** has been added. Thanks for requesting, many people! Please read and follow the Quick Start instructions in the effect or shown below before using it.
+  - To reframe 360° footage, you'll apply the new, dedicated effect: **Keyframe Toolbox 360 Reframe**. If you don't see it, please run the Keyframe Toolbox app, then restart FCP.
+
+  - **QUICK START INSTRUCTIONS** — to work correctly, this effect needs to sidestep FCP's native 360° processing. To get started:
+    1. Using your camera manufacturer's tools, process your original 360° camera footage into equirectangular (panoramic) format.
+    2. Import the equirectangular clips into FCP, then select them in the Browser.
+    3. In the Info Inspector, set the *Projection Mode* to *Rectangular* (not Equirectangular).
+    4. Add your 360° clips to a regular (not 360º) timeline and set *Spatial Conform* to *Fill*.
+    5. Add the Keyframe Toolbox 360 Reframe effect to your 360° timeline clips.
+
+  - Standard Keyframe Toolbox graph controls can be used with a new set of properties, including Pan, Tilt, Field of View and Roll. Additionally, Opacity, Distortion and Blur can be added in Settings.
+  - A new Projection button at the top switches between five ways to reframe your footage:
+    - **Rectilinear** will never curve a straight line, but allows Field of View up to 180°.
+    - **Wide/Panini** is a cylindrical view that allows a Field of View up to 220°.
+    - **Fisheye** allows more distortion around the edges of frame, and allows a Field of View up to 360°.
+    - **Stereographic** is the default projection, and it allows smooth transitions between a normal Field of View and (if Pan is adjusted down) a Tiny Planet-style view.
+    - **Tiny Planet** is a stereographic projection with a Tilt and Field of View offset to make it easier to achieve this effect — it defaults to looking down, with a wider FOV.
+    - In each Projection, Field of View is interpreted slightly differently, and each has different Distortion parameters behind the scenes too.
+   - To animate smoothly between perspectives, choosing the Stereographic projection and recording keyframes on the Field of View property is usually enough. However, if you want more control, consider also animating the Distortion parameter. This graph is disabled by default, but can be enabled in Settings.
+
+ - **New keyframes now maintain existing curves more closely**.
+   - Previously, newly added keyframes defaulted to linear, unless Command was held. Now, if the new keyframe is along a curve, it will be created with handles that maintain that curve.
+   - While creating a new keyframe in the OSC, you can still hold Command or Option to force new flat handles to be created.
+   - If you want a linear keyframe, it's still easy to Command- or Option-click on a keyframe to remove its handles.
+
+- **The Keyframe Toolbox effect now uses a more flexible height**.
+  - The Inspector will always maintain enough space for all visible graphs to be shown at standard size.
+  - Graphs can still be minimized to make more room for larger graphs, but minimized graphs will be returned to standard size next time the effect is loaded. If any graphs are expanded, they will remain expanded.
+  - To force the Inspector to update, simply select any other clip, then reselect a clip with Keyframe Toolbox.
+  - In some rare situations, when most graphs were hidden and are then all made visible at once, there may not be enough space to show the header and the graphs in the limited space available. This is temporary. Simply select any other clip, then reselect the clip you want to work on, and the Inspector will return to normal.
+
+**🐞 Bug Fixes:**
+- An issue with incorrect Position values being shown in Better Performance mode has been fixed.
+- Linking keyframes is now more reliable and resilient.
+- Previous/next keyframe buttons in the OSC are more reliable.
+- Keyframes now light up (when the playhead is over them) more reliably.
+- Performance improvements have been made to the regular Keyframe Toolbox effect. If you ever experienced a delay when loading a timeline with multiple instances of Keyframe Toolbox, this has now been improved.
+- Potential issues with very large images have been resolved. Note that Keyframe Toolbox is now limited to images no larger than 8500px across.
+
+This is a big update! You can download and learn more on the [Keyframe Toolbox website](https://keyframetoolbox.fcp.cafe).
+
+You can also watch **Iain Anderson** talk about Keyframe Toolbox on [Final Cut Grill](https://www.youtube.com/watch?v=u2csDy7tnwk):
+
+[![](/static/iain-anderson-fcp-grill.jpg)](https://www.youtube.com/watch?v=u2csDy7tnwk)
+
+In **Jumper** news, the team has also been working on a big update, that's nearly ready to launch!
+
+![](/static/jumper-june-update.png)
+
+Max writes on the Jumper Discord:
+
+> We have a pretty big update we're about to release, which includes some much requested features like:
+>
+> - **Adding custom tags:** ability to create add custom tags to search results segments or whole clips, and use them in searches, e.g. combining them with people search and regular visual searches. Tags exist as personal or shared "Tag Collections". They have support for commenting on individual items, adding color markers, sorting, searching, etc.
+> - Everyone using the same analysis folder on a team has access to the shared Tag Collections inside it, and can modify them by adding comments, markers, new clips, etc.
+> - Personal tag collections are user-only, and can probably be used as a kind of "bookmarks" or an ephemeral "working area"?
+>
+> - Ability to specify one or several audio channels for transcription (if mulitple channels, we do a "smart merge" to de-duplicate).
+> This is something many have requested, and something that I don't believe any of the transcriptions in e.g. Premiere, FCP, or Resolve support?
+>
+> - Added **speaker detection**, automatic speaker detection and the ability to name speakers in order to do speech search filtered to only things spoken by a specific person.
+> Either auto-detect speaker count, or if you already know how many speakers there are, specify it in the transcription options for increased accuracy.
+>
+> - Added new **improved speech-to-text models**. This includes single-language fine-tuned models for:
+>  - Japanese, state-of-the-art
+>  - Swedish, state-of-the-art (shoutout my fellow alumni at Linköping University)
+>  - Moroccan Arabic (Darija), state-of-the-art (shoutout @Youssef Toufik)
+> - New model types coming in two sizes (faster vs more accurate) for: Chinese (with 20+ dialects support), Arabic, Hindi, Cantonese, Korean, Thai, Vietnamese, Filipino, Russian etc..
+> - Faster analysis on all other languages on Windows with Nvidia GPUs
+
+If you would like to test out this upcoming release, the best way to chat to the Jumper team is on their [Discord](https://discord.getjumper.io).
+
+You can download a free trial of Jumper and learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
+
+In other news...
+
+**Dylan Bates (aka The Final Cut Bro)** has released an awesome new product called **DropHawk Pro** into the world.
+
+You can try DropHawk Pro for free for 14 days, and it's also currently on sale, so now's a [great time to buy](https://fcbplugins.com/b/drophawkpro)!
+
+You can watch the promo video on [YouTube](https://www.youtube.com/watch?v=0UtDuvGeoLA):
+
+[![](/static/drophawk-pro-youtube.jpg)](https://www.youtube.com/watch?v=0UtDuvGeoLA)
+
+You can buy and learn more on [Dylan's website](https://fcbplugins.com/b/drophawkpro) - there's currently lots of discounts and sales on the site, so it's worth checking out!
+
+Whilst CommandPost has had Watch Folder support for years, it was never really a popular feature, and it was implemented fairly poorly.
+
+There was a handful of people that loved and used CommandPost's Watch Folder support in some very bespoke and niche workflows, but for most users it was buggy and unreliable - so it never really took off.
+
+Lots of tricks and techniques we use in other areas of CommandPost (and in our other paid products) never made it into the Watch Folder feature, so it was kinda just left dormant.
+
+DropHawk Pro on the other hand is a super clean, slick and easy-to-use menubar application, that just works. It's simple - but powerful, and we highly recommend you take it for a test run!
+
+Earlier in the month, Dylan also did a [YouTube video](https://www.youtube.com/watch?v=C0uK9dphNp0) on **SilenceScout**:
+
+[![](/static/silencescout.jpg)](https://www.youtube.com/watch?v=C0uK9dphNp0)
+
+The website reads:
+
+> **Find and Remove Silence in Final Cut Pro and DaVinci Resolve Without Ever Leaving your Timeline.**
+>
+> SilenceScout is a silence and freeze-frame detection plugin for Final Cut Pro and DaVinci Resolve. Apply it to any clip, dial in the threshold and minimum duration, and click Process — your timeline is restructured automatically. No external app. No FCPXML or EDL export/import dance. Never leave your NLE. One license covers both Final Cut Pro and DaVinci Resolve.
+>
+> Other tools require you to leave your NLE, import media into a separate app, configure, process, export FCPXML or EDL, switch back, and import. That's too many steps across multiple apps, and you have to repeat it if you switch NLEs. SilenceScout does it all without ever leaving your timeline. In DaVinci Resolve, it also offers a live waveform preview — a visual feedback loop that standalone tools structurally cannot offer.
+
+You can purchase and learn more on [FxFactory](https://fxfactory.com/info/silencescout/).
+
+Dylan also appeared on **Final Cut Grill**, which you can watch on [YouTube](https://www.youtube.com/watch?v=-YYFQwgbVVs):
+
+[![](/static/fcg-205.jpg)](https://www.youtube.com/watch?v=-YYFQwgbVVs)
+
+Speaking of which, since I last posted on FCP Cafe, there's actually been quite a few **Final Cut Grill** episodes absolutely worth checking out!
+
+[![](/static/fcg-204.jpg)](https://www.youtube.com/watch?v=-lN_lZf1sAU)
+
+[![](/static/fcg-206.jpg)](https://www.youtube.com/watch?v=y44xQ-Mu-IU)
+
+[![](/static/fcg-207.jpg)](https://www.youtube.com/watch?v=0yby9PPqWOA)
+
+[![](/static/fcg-209.jpg)](https://www.youtube.com/watch?v=EFa05zW-M30)
+
+[![](/static/fcg-210.jpg)](https://www.youtube.com/watch?v=jBN7x0WUkMU)
+
+**Richard Taylor** recently recorded a live stream celebrating Final Cut Pro's birthday with Gabriel, Bill, Philip, Richard, Cirina and Brad.
+
+You can watch on [YouTube](https://www.youtube.com/watch?v=MdOfWGDyLbM):
+
+[![](/static/final-cut-tv-birthday.jpg)](https://www.youtube.com/watch?v=MdOfWGDyLbM)
+
+---
+
+**Sequence Shortener v1.0.3** is out now with the following changes:
+
+- Stability improvements and cleaner Final Cut Pro imports
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/sequence-shortener/id6757253020).
+
+---
+
+**captionTranslator v1.0.6** is out now with the following changes:
+
+- **New feature:** disable the Go button after clicking it
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/captiontranslator/id6737919696).
+
+---
+
+**MC Auto Cut v1.0.9** is out now with the following changes:
+
+- Fixes a problem parsing a live Multicam from Final Cut Pro for iPad
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/mc-auto-cut/id6761138330).
+
+---
+
+**Captionator for Final Cut v2.2.1** is out now with the following changes:
+
+- Multi-languages always assumed English, but it is now fixed to work correctly
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/captionator-for-final-cut/id1627843786).
+
+---
+
+**Creator's Best Friend v1.3.8** is out now with the following changes:
+
+- Bug fix for a workflow extension crash
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/creators-best-friend/id1524172135).
+
+---
+
+**FinalCap Ultimate v1.3** is out now with the following changes:
+
+- New Frutiger Metro based UI
+- Use Compound Clips to upload audio straight from Final Cut Pro
+- Save Presets for faster use
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/finalcap-ultimate/id6748661641).
+
+---
+
+**Cut Shelf v1.1.1** is out now with the following changes:
+
+- Fixes a bug where clips dropped onto a shelf stored in an iCloud Drive folder could silently disappear after a refresh (offloaded iCloud files were mistaken for deleted ones).
+
+You can download and learn more on the [Mac App Store](https://apps.apple.com/app/cut-shelf/id6757250209).
+
+[!button text="Discuss this news item" variant="info"](news/20260628/#discuss-this-page)
+
+---
+
+!!!warning Sponsored
+**Jump to the best parts of editing.**\
+A powerful machine learning search engine for your footage.\
+**_No clouds. No uploads. All on device._**\
+Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+!!!
+
+---
+
 ## May
 
 ### [20th May 2026](/news/20260520)
@@ -68,10 +301,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-**Jump to the best parts of editing.**\
-A powerful machine learning search engine for your footage.\
-**_No clouds. No uploads. All on device._**\
-Read the origin story on [FCP Cafe](/news/20241106/) or [download a free trial](https://getjumper.io/?ref=fcpcafe)!
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -117,9 +349,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -175,8 +406,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -300,8 +531,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -477,9 +709,8 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -769,8 +1000,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -887,8 +1118,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -976,9 +1208,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1077,8 +1308,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1302,8 +1533,9 @@ You can download and learn more on the [SpliceKit Website](https://splicekit.fcp
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1500,9 +1732,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1747,8 +1978,8 @@ You can download and learn more on the [Jumper website](https://getjumper.io).
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -1906,8 +2137,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -1994,9 +2226,8 @@ You can download and learn more on the [SpliceKit Website](https://splicekit.fcp
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2169,8 +2400,8 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2300,8 +2531,9 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -2453,9 +2685,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2631,8 +2862,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -2790,8 +3021,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3222,9 +3454,8 @@ You can learn more on the [Production's Best Friend website](https://www.intelli
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3286,8 +3517,8 @@ You can download and learn more on the [BRAW Toolbox website](https://brawtoolbo
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3631,8 +3862,9 @@ You can download and learn more on the [SpliceKit Website](https://splicekit.fcp
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -3760,9 +3992,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3851,8 +4082,8 @@ You can download and learn more on [GitHub](https://github.com/DozaVisuals/doza-
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -3937,8 +4168,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4007,9 +4239,8 @@ You can download and learn more on the [OnderK Studio website](https://onderk.co
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4137,8 +4368,8 @@ You can download and learn more on [GitHub](https://github.com/macvfx/FCP-Backup
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4228,8 +4459,9 @@ Either way, NAB will be interesting times!
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4287,9 +4519,8 @@ You can learn more and download from [GitHub](https://github.com/elliotttate/FCP
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4453,8 +4684,8 @@ You can learn more and download on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4704,8 +4935,9 @@ You can download and learn more on the [Recall Toolbox website](https://recallto
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -4814,9 +5046,8 @@ You can download and learn more on the [Marker Data website](https://markerdata.
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4846,8 +5077,8 @@ Onwards & Upwards!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -4986,8 +5217,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -5035,9 +5267,8 @@ You can download and learn more on [GitHub](https://github.com/overpolish/keyfra
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5186,8 +5417,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5296,8 +5527,9 @@ You can download and learn more on the [Strada website](https://strada.tech).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -5404,9 +5636,8 @@ You can download and learn more on [FxFactory](https://fxfactory.com/info/magicc
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5514,8 +5745,8 @@ Certainly interesting times ahead!
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5538,8 +5769,9 @@ You can download and learn more on the [FidelityFuze website](https://www.fideli
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -5704,9 +5936,8 @@ You can download and learn more on [The VFX Campus website](https://thevfxschool
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5847,8 +6078,8 @@ You can learn more on the [MotionVFX website](https://www.motionvfx.com).
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -5893,8 +6124,9 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -5978,9 +6210,8 @@ You can download and learn more on the [FCP Template Manager website](https://ro
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6016,8 +6247,8 @@ You can learn more and download on the [LUT Robot website](https://lutrobot.fcp.
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6137,8 +6368,9 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -6168,9 +6400,8 @@ You can download and learn more on the [gAnalyzer website](https://www.gphyx.com
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6219,8 +6450,8 @@ You can learn more and download from the [Mac App Store](https://apps.apple.com/
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6285,8 +6516,9 @@ You can learn more and download on Dylan Bates (aka The Final Cut Bro)'s [websit
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -6327,9 +6559,8 @@ You can download and learn more on the [Mac App Store](https://apps.apple.com/ap
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
+Native Blackmagic RAW support in Final Cut Pro.<br />
+[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6419,8 +6650,8 @@ You can learn more on the [ScriptStar website](https://scriptstar.fcp.cafe).
 ---
 
 !!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
+Gyroscope Stabilisation in Final Cut Pro.<br />
+[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
 
 ---
@@ -6509,8 +6740,9 @@ You can learn more on [GitHub](https://github.com/TheAcharya/pipeline-neo).
 ---
 
 !!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
+_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
+Post Production insight delivered to your inbox.<br />
+Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
 !!!
 
 ---
@@ -6533,136 +6765,6 @@ You can learn more about this the [Mr. Macintosh YouTube page](https://www.youtu
 ---
 
 !!!warning Sponsored
-_Tight. Terse. Terrific. Bim. Bam. Boom._ – Cut/daily reader<br />
-Post Production insight delivered to your inbox.<br />
-Sign up for **free** at [Cut/daily.com](https://www.cut-daily.com)
-!!!
-
----
-
-### [17th February 2026](/news/20260217)
-
-Happy Tuesday!
-
-Unrelated... I saw [There's Still Tomorrow (2023)](https://www.imdb.com/title/tt21800162/) in the cinema last night - and it was AMAZING. HIGHLY recommended.
-
-You can watch the trailer on [YouTube](https://www.youtube.com/watch?v=nNREdtrrQyk).
-
-We've got some exciting updates this week! Our latest app [ScriptStar](https://scriptstar.fcp.cafe) is now up for [pre-sale on the Mac App Store](https://apps.apple.com/app/scriptstar/id6759045715) and goes live on Friday! We'll share more later this week!
-
-Also, **VFX Toolbox** and **Notion Toolbox** will be making their way to the Mac App Store VERY soon.
-
-**LogicSplitter** will be making it's way to FxFactory VERY soon as well!
-
-Exciting times!
-
-Onwards & Upwards!
-
----
-
-Apple have announced a "Special Apple Experience" (as opposed to an "event") in **New York**, **London**, and **Shanghai**, taking place on **4th March 2026 at 9:00am ET**.
-
-![](/static/apple-event-new-york.jpg)
-
-This is most likely similar to the "experience" Apple gave a bunch of influencers in LA for the launch of Apple Creator Studio.
-
-Only select members from the media in the three major cities are invited.
-
-So far, there's been no information or leaks as to what they might be slowing, and the Apple logo doesn't really give much away.
-
-The rumour mill predicts that several new Apple products will be released soon including:
-
-- [2025 iPad Air with 11-inch and 13-inch display options, M3 chip, Touch ID power button, and optional 5G connectivity](https://www.macrumors.com/roundup/ipad-air/)
-- Apple TV
-- HomePod Mini
-- iPhone 17e
-- MacBook Pro M5 Max
-- MacBook Pro M5 Pro
-- MacBook with A18 chip
-- Studio Display
-
-For Final Cut Pro users, new MacBook Pro's would certainly be welcome and exciting!
-
----
-
-**LenoFX's Absolute Pack** is still only **USD$49**!
-
-It seems they've kept their Black Friday pricing!
-
-You can learn more and buy the pack on the [LenoFX website](https://www.lenofx.com/absolute-pack?coupon=BLACK49).
-
----
-
-**evrExpanse** is having a flash sale!
-
-Get **50% off** for the first 10 evrExpanse licenses - just USD$39.99.
-
-Once 10 licenses are sold at this pricing, the offer ends.
-
-You can learn more and buy evrExpanse on their [website](https://evrapp.gumroad.com/l/evrExpanse6/207gq70).
-
-[!button text="Discuss this news item" variant="info"](news/20260217/#discuss-this-page)
-
----
-
-!!!warning Sponsored
 Native Blackmagic RAW support in Final Cut Pro.<br />
 [Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
-!!!
-
----
-
-### [14th February 2026](/news/20260214)
-
-Coming soon... here's a sneak peak at **ScriptStar v1.0.0** coming VERY soon!
-
-Created by [Iain Anderson](https://iain-anderson.com).
-
-This product uses LateNite's [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit) for FCPXML processing, created by [David Peterson](https://github.com/randomeizer/).
-
-The **ScriptStar** icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
-
-![](/static/scriptstar-01.png)
-
-Stay tuned!
-
----
-
-**FCP Template Manager v0.3.1** is out now for public beta testing!
-
-> Browse, organise, and manage your Final Cut Pro templates. Fast search, favorites, tagging, and more. Completely free.
-
-![](/static/fcptm-1.png)
-
-You can download and learn more on the [FCP Template Manager website](https://robtoearth.com).
-
----
-
-**MotionVFX** has a lot of updates to their plugins:
-
-- **mCallouts Simple v3.0.3:** Minor bug and crash fixes
-- **mMessage v3.0.3:** Minor bug and crash fixes
-- **mCallouts Simple 2 v3.0.3:** Minor bug and crash fixes
-- **mPointer v3.0.3:** Minor bug and crash fixes
-- **mFlare 2 v3.1.10:** Improved stability and major crash fixes
-- **mCamRig v1.6:** Structure optimization for DVR 20, focus controls added, adjustments controls added
-- **mFilmLook v3.0.5:** Updated UI for the white balance color well
-- **mPuppet v2.1.4:** Fixed the render crash and duplicated exports
-- **mFreezeFrame Movie v2.0.6:** Minor bug and crash fixes
-- **mTracker 3D v2.1.5:** Minor bug and crash fixes
-- **mMockup v1.3:** Minor bug fixes
-- **mMessage 2 v3.0.3:** Minor bug and crash fixes
-- **mMorphCut v2.0.3:** Minor bug and crash fixes
-- **mHUD 2 v3.0.3:** Minor bug and crash fixes
-- **mHUD 3 v3.0.3:** Minor bug and crash fixes
-
-You can download and learn more on the [MotionVFX website](https://www.motionvfx.com).
-
-[!button text="Discuss this news item" variant="info"](news/20260214/#discuss-this-page)
-
----
-
-!!!warning Sponsored
-Gyroscope Stabilisation in Final Cut Pro.<br />
-[Download Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe) today from the Mac App Store.
 !!!
