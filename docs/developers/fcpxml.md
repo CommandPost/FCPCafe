@@ -62,17 +62,17 @@ You can learn more about [SwiftSecuencia](https://github.com/intrusive-memory/Sw
 
 ---
 
-## Pipeline Neo (CLI & Library)
+## OpenFCPXMLKit (CLI & Library)
 
-**Pipeline Neo** is modern Swift 6 framework for working with Final Cut Pro's FCPXML with full concurrency support and SwiftTimecode integration. Pipeline Neo is a spiritual successor to the original [Pipeline](https://github.com/reuelk/pipeline), modernised for Swift 6.0 and contemporary development practices.
+**OpenFCPXMLKit** is modern Swift 6 framework for working with Final Cut Pro's FCPXML with full concurrency support, SwiftTimecode integration, and [XLKit](https://github.com/TheAcharya/XLKit) integration.
 
-Pipeline Neo provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling. Built with Swift 6.0 and targeting macOS 12+, it offers type-safe operations, comprehensive test coverage, and seamless integration with SwiftTimecode for professional video editing workflows.
+OpenFCPXMLKit provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling. Built with Swift 6.3 and targeting **macOS 26+** and **iOS 26+**, it offers type-safe operations, comprehensive test coverage (877 tests), and seamless integration with SwiftTimecode and XLKit for professional video editing workflows. A cross-platform XML abstraction layer (Foundation on macOS, AEXML on iOS) keeps the library usable on both platforms.
 
-Pipeline Neo's codebase is derived from [swift-daw-file-tools](https://github.com/orchetect/swift-daw-file-tools) and [SwiftSecuencia](https://github.com/intrusive-memory/SwiftSecuencia). The project now includes an experimental CLI tool for testing and expanding Pipeline Neo's functionality.
+OpenFCPXMLKit is currently in an experimental stage. It covers most core FCPXML attributes and parameters and provides a solid foundation for parsing, creation, and manipulation, with room for future expansion and additional feature coverage.
 
 This codebase is developed using AI agents.
 
-You can learn more about [Pipeline Neo](https://github.com/TheAcharya/pipeline-neo).
+You can learn more about [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit).
 
 ---
 
