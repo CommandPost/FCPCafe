@@ -1,4 +1,4 @@
-### Pipeline Neo (CLI & Library)
+### OpenFCPXMLKit
 
 ![](/static/openfcpxmlkit-social-card.png)
 

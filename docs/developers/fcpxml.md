@@ -62,7 +62,7 @@ You can learn more about [SwiftSecuencia](https://github.com/intrusive-memory/Sw
 
 ---
 
-## OpenFCPXMLKit (CLI & Library)
+## OpenFCPXMLKit
 
 **OpenFCPXMLKit** is modern Swift 6 framework for working with Final Cut Pro's FCPXML with full concurrency support, SwiftTimecode integration, and [XLKit](https://github.com/TheAcharya/XLKit) integration.
 
