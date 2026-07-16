@@ -3,7 +3,6 @@
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
-- [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [MacOS 26.3: Thunderbolt RAID disk sleep causes system-wide I/O stalls & hangs apps (Arctic/FCP libraries) (February 20, 2026)](https://github.com/CommandPost/FCPCafe/issues/520)
 - [Launching Motion is painfully slow (February 18, 2026)](https://github.com/CommandPost/FCPCafe/issues/519)
@@ -28,3 +27,4 @@
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
+- [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
