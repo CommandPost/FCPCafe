@@ -32,12 +32,11 @@ You can also send feedback directly to the Final Cut Pro team via their [Feedbac
 
 Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 
+- [Severe Input Latency & Command Dropping: Playback and Editing Operations (M1 Ultra / macOS Tahoe) (May 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/540)
 - [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
-- [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
-- [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [MacOS 26.3: Thunderbolt RAID disk sleep causes system-wide I/O stalls & hangs apps (Arctic/FCP libraries) (February 20, 2026)](https://github.com/CommandPost/FCPCafe/issues/520)
 - [Launching Motion is painfully slow (February 18, 2026)](https://github.com/CommandPost/FCPCafe/issues/519)
@@ -62,6 +61,7 @@ Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
+- [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -73,12 +73,11 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Severe Input Latency & Command Dropping: Playback and Editing Operations (M1 Ultra / macOS Tahoe) (May 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/540)
 - [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
-- [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
-- [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [MacOS 26.3: Thunderbolt RAID disk sleep causes system-wide I/O stalls & hangs apps (Arctic/FCP libraries) (February 20, 2026)](https://github.com/CommandPost/FCPCafe/issues/520)
 - [Launching Motion is painfully slow (February 18, 2026)](https://github.com/CommandPost/FCPCafe/issues/519)
@@ -101,6 +100,7 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
+- [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -111,9 +111,7 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 Here's a list of the **30 most recently added** Final Cut Pro 12 bug reports:
 
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
-- [Final Cut Pro v12 (lifetime/perpetual) shows "Subscribe To Edit" button (March 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/527)
 - [Final Cut Pro mishandles `format` of PDF files in FCPXML (February 24, 2026)](https://github.com/CommandPost/FCPCafe/issues/523)
-- [FCP 12 - Beat Detective Crash with Full Zoom out (February 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/522)
 - [FCPXML Crash - `FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:` (February 21, 2026)](https://github.com/CommandPost/FCPCafe/issues/521)
 - [One pixel boundary at the frame edges on Viewer and in Export (February 9, 2026)](https://github.com/CommandPost/FCPCafe/issues/511)
 - [Viewer freezes when rapidly hovering thumbnails generated by FxPlug (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/510)
