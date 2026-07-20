@@ -1,6 +1,5 @@
 - [[FxPlug 4] Add ability for an EFFECT to behave like a GENERATOR/TITLE (March 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/529)
 - [Batch sync audio and video clips using timecode/audio waveform all at once (February 11, 2026)](https://github.com/CommandPost/FCPCafe/issues/516)
-- [Right-click on clip on timeline and "Scene Detection - Add Cuts" (February 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/508)
 - [Add Focus Mode to Beat Detection Grid (January 30, 2026)](https://github.com/CommandPost/FCPCafe/issues/504)
 - [Unexpected behavior for blade cuts and markers (October 4, 2025)](https://github.com/CommandPost/FCPCafe/issues/495)
 - [Regular Markers should have different colors and "tag color" integrated into "Index - Tags" (June 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/472)
@@ -28,3 +27,4 @@
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
 - [Output Volume Control 0% - 100% to 1000% [logarithmic?] (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/379)
+- [Video Inspector "Transform" Option: Scale Ratio Lock Button, eg text entry on 1 dimension (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/377)
