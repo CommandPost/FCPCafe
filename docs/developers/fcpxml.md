@@ -48,9 +48,11 @@ You can read [Demystifying Final Cut Pro XMLs by Philip Hodgetts and Gregory Cla
 
 ---
 
-## swift-daw-file-tools
+## SwiftFCPXML
 
-[Steffan Andrews](https://github.com/orchetect) has created an amazing Swift Framework called [swift-daw-file-tools](https://github.com/orchetect/swift-daw-file-tools), which can read and process FCPXML.
+Created by [Steffan Andrews](https://github.com/orchetect), SwiftFCPXML is a Swift library for efficiently parsing and extracting timeline events from FCPXML (Final Cut Pro XML) files, with limited authoring support. It focuses on two main areas: reading and authoring FCPXML using a fast, lightweight data model that wraps the XML objects, and reasoning on FCPXML data to extract information such as timeline events and markers. The library is currently macOS-only, a limitation of Apple's XMLDocument API, and is under active development, with substantial (though not complete) coverage of the FCPXML DTD.
+
+You can learn more about [SwiftFCPXML](https://github.com/orchetect/swift-fcpxml).
 
 ---
 
@@ -64,13 +66,7 @@ You can learn more about [SwiftSecuencia](https://github.com/intrusive-memory/Sw
 
 ## OpenFCPXMLKit
 
-**OpenFCPXMLKit** is modern Swift 6 framework for working with Final Cut Pro's FCPXML with full concurrency support, SwiftTimecode integration, and [XLKit](https://github.com/TheAcharya/XLKit) integration.
-
-OpenFCPXMLKit provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling. Built with Swift 6.3 and targeting **macOS 26+** and **iOS 26+**, it offers type-safe operations, comprehensive test coverage (877 tests), and seamless integration with SwiftTimecode and XLKit for professional video editing workflows. A cross-platform XML abstraction layer (Foundation on macOS, AEXML on iOS) keeps the library usable on both platforms.
-
-OpenFCPXMLKit is currently in an experimental stage. It covers most core FCPXML attributes and parameters and provides a solid foundation for parsing, creation, and manipulation, with room for future expansion and additional feature coverage.
-
-This codebase is developed using AI agents.
+OpenFCPXMLKit is a modern Swift 6 framework for working with Final Cut Pro's FCPXML, offering full concurrency support, SwiftTimecode integration, and [XLKit](https://github.com/TheAcharya/XLKit) integration for Excel/PDF reporting. It provides a type-safe API for parsing, creating, and manipulating FCPXML using async/await, and targets macOS 26+ and iOS 26+. The project is currently experimental, developed using AI agents, and covers most core FCPXML attributes with room for future expansion.
 
 You can learn more about [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit).
 
