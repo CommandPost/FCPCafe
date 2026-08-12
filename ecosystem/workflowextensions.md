@@ -183,6 +183,14 @@ Choose from ChatGPT, CoPilot, Gemini, Claude, Hix, Perplexity, You, or a custom 
 
 ---
 
+### CoreTrim
+
+CoreTrim is a Workflow Extension that exports a Final Cut Pro project with only the media the timeline actually uses, trimmed by stream copy with no re-encoding, and relinked so it imports back into Final Cut identically. Every source must prove it can be trimmed flawlessly before CoreTrim commits to a method, and the finished archive — media and project file alike — is verified again before it ships. Originals are never touched, anything that can't be proven safe is copied in full, and every export includes a report of exactly what was done. Multicam projects can keep all angles or be checkerboarded down to the shots in the cut.
+
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/coretrim/id6759543723)
+
+---
+
 ## D
 
 ### DAWBridge
@@ -224,7 +232,7 @@ If you have **thousands of keywords** across many events, it can take a long tim
 
 ---
 
-### fontAudition-X
+### FontAudition WFE
 
 A new way to look at fonts! See your text displayed in all your font styles size-by-side. Choose a favorite and then drag & drop your text directly onto the FCP timeline.
 
@@ -242,7 +250,7 @@ Enter your text into fontAudition and instantly see it displayed in every font a
 - Drag & drop your text from fontAudition directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
 - Runs natively on both Intel and Apple Silicon Macs
 
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/fontaudition-x/id1554676357?mt=12)
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/fontaudition-wfe/id1554676357)
 
 ---
 
