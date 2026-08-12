@@ -1,9 +1,5 @@
 ## A
 
-{{ include "tools/arcx" }}
-
----
-
 {{ include "tools/arctic" }}
 
 ---

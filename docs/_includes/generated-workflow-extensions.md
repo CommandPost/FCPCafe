@@ -28,6 +28,10 @@
 
 ---
 
+{{ include "workflow-extensions/coretrim" }}
+
+---
+
 ## D
 
 {{ include "workflow-extensions/dawbridge" }}
@@ -40,7 +44,7 @@
 
 ---
 
-{{ include "workflow-extensions/fontauditionx" }}
+{{ include "workflow-extensions/fontaudition-wfe" }}
 
 ---
 
