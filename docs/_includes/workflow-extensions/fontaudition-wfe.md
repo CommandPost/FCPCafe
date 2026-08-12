@@ -1,4 +1,4 @@
-### fontAudition-X
+### FontAudition WFE
 
 A new way to look at fonts! See your text displayed in all your font styles size-by-side. Choose a favorite and then drag & drop your text directly onto the FCP timeline.
 
@@ -16,4 +16,4 @@ Enter your text into fontAudition and instantly see it displayed in every font a
 - Drag & drop your text from fontAudition directly onto the Final Cut Pro timeline or copy & paste it into the FCP viewer
 - Runs natively on both Intel and Apple Silicon Macs
 
-[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/fontaudition-x/id1554676357?mt=12)
+[!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/app/fontaudition-wfe/id1554676357)
