@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 02:22:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 06:00:52 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 12 Aug 2026 02:22:50 GMT</pubDate>
+        <pubDate>Tue, 18 Aug 2026 06:00:51 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22083,6 +22083,77 @@ Analyze libraries, find media across SSDs and NAS, then repair or move it in one
             <link>https://fcp.cafe/#12th-august-2026</link>
             <guid isPermaLink="false">12th August 2026</guid>
             <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th August 2026]]></title>
+            <description><![CDATA[<p>Happy Tuesday! 👋</p>
+<p>*<em>BretFX</em> is celebrating 10 years in the business! HUGE congratulations Bret!</p>
+<p>To celebrate this incredible milestone, every BretFX product is just <strong>$10 for the next 10 days</strong>!</p>
+<p>You can learn more on the <a href="https://www.bretfx.com">BretFX website</a>.</p>
+<p>The <strong>Final Cut Grill</strong> has been releasing a heap of awesome episodes!</p>
+<p>Make sure you check out the latest, <a href="https://www.youtube.com/watch?v=XTfoEVg9CPg">The Making of Final Cut Pro at Apple - Colleen Pendergast</a>.</p>
+<p>Film editor <strong>Knut Hake</strong> has announced a whole suite of incredible applications to the world - many of which focus on Final Cut Pro improvements.</p>
+<p>Knut edited <strong>Blood &amp; Gold</strong> - which has a <a href="/case-studies/blood-and-gold/">great case study on FCP Cafe</a>.</p>
+<p>Knut writes:</p>
+<blockquote>
+<p>20+ apps. Built by one editor who got tired of missing tools. 🛠️
+Over the past months I built more than 20 Mac and iOS apps — for video editing and post-production, plus a bunch of everyday macOS tools. Built with Claude's help, but to a real quality bar, originally just for myself.</p>
+</blockquote>
+<p>Unlike a lot of vibe-coded apps being released at the moment, all these apps are actually notarised, code-signed and written in Swift.</p>
+<p>Fun random fact, the <a href="https://www.knuthake.de/apps/syncscript-pro">SyncScript Pro</a> icon, created by the amazing <a href="https://matthewskiles.com">Matthew Skiles</a>, features the name of my University film, <a href="https://www.youtube.com/watch?v=Wfmk7tLZSw0">SAKOOZ</a>.</p>
+<p>You can learn more on <a href="https://www.knuthake.de/apps">Knut's website</a>.</p>
+<p><strong>Rafael Ludwig</strong> has released <strong>PowerEQ</strong>:</p>
+<blockquote>
+<p>PowerEQ brings the one-click broadcast-voice engine of EQ Studio to Final Cut Pro, DaVinci Resolve, and Premiere Pro — play a few seconds, press Analyze, and your dialogue is cleaned, EQ-matched, leveled and loudness-targeted in real time. Also runs in Logic and any VST3/AU host.</p>
+</blockquote>
+<p>You can learn more on <a href="https://rafaelludwig.com/apps/powereqvst/">Rafael's website</a>.</p>
+<p>There's a bunch of new Final Cut Pro apps hitting the market, but most of them aren't notarised or code-signed (yet?) - so I haven't dug into them deeply yet.</p>
+<p>For example:</p>
+<p><strong>WaveXML</strong> by Matt Deguara:</p>
+<blockquote>
+<p>A free macOS beta that lines Zoom / MixPre / Sound Devices audio up to the cameras, then an FCPXML or FCP7 XML timeline back into Final Cut, Resolve, or Premiere. Local. Full app, no clip limits.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://wavexml.com">WaveXML website</a>.</p>
+<p><strong>AAF Everything</strong> by Jerome Gardie:</p>
+<blockquote>
+<p>Final Cut Pro writes FCPXML and has no AAF import or export in any version, while the mix runs on AAF. Getting a locked cut to audio post has always needed a third party step. AAF Everything converts between AAF, Premiere Pro XML, FCPXML and FCPXMLD in any direction, in batch, with no editing application in between.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://aafeverything.app">AAF Everything website</a>.</p>
+<p><strong>AAFx</strong>:</p>
+<blockquote>
+<p>AAFx turns a Final Cut Pro FCPXML file or .fcpxmld bundle into a self-contained AAF: roles become named tracks, every region keeps its source timecode, and the audio travels inside the file.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://aafx.app">AAFx website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#18th-august-2026</link>
+            <guid isPermaLink="false">18th August 2026</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th August 2026]]></title>
+            <description><![CDATA[<p><strong>Media Sync Tool v2.1</strong> is out now with the following changes:</p>
+<ul>
+<li>Convert continuity report PDF to CSV for seamless clip logging! Supports ScriptE Editor Logs, Peter Skarratt's templates and other common continuity formats.</li>
+<li>Review the converted CSV, then import it as usual.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/media-sync-tool/id1559556642">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#18th-august-2026</link>
+            <guid isPermaLink="false">18th August 2026</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[18th August 2026]]></title>
+            <description><![CDATA[<p><strong>Cut Shelf v1.1.4</strong> is out now with the following changes:</p>
+<ul>
+<li>Improves the behavior or dragging items between shelves. Now dragging between shelves moves the item instead of copying. To copy an item to another shelf, hold down Option.</li>
+<li>If you drag an item to the empty space under your shelves, the app now offers to create a new shelf.</li>
+</ul>
+<p>You can download and learn more on the <a href="https://apps.apple.com/app/cut-shelf/id6757250209">Mac App Store</a></p>
+]]></description>
+            <link>https://fcp.cafe/#18th-august-2026</link>
+            <guid isPermaLink="false">18th August 2026</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
