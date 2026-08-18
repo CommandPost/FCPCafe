@@ -25,7 +25,7 @@ Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-b
 
 Happy Tuesday! 👋
 
-**BretFX* is celebrating 10 years in the business! HUGE congratulations Bret!
+**BretFX** is celebrating 10 years in the business! HUGE congratulations Bret!
 
 To celebrate this incredible milestone, every BretFX product is just **$10 for the next 10 days**!
 
