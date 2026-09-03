@@ -71,9 +71,9 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
+- [Severe Input Latency & Command Dropping: Playback and Editing Operations (M1 Ultra / macOS Tahoe) (May 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/540)
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
-- [Severe Input Latency & Command Dropping: Playback and Editing Operations (M1 Ultra / macOS Tahoe) (May 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/540)
 - [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
