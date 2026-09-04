@@ -12,6 +12,16 @@ Here's some of the deals we know about in 2026:
 
 ---
 
+### Doza Assist
+
+You can get **USD$50 off** Doza Assist (USD$149 instead of USD$199, one-time, no subscription) with the discount code: `LAUNCH50`.
+
+The code is applied automatically at checkout.
+
+You can learn more on the [Doza Assist website](https://doza.ai/?ref=fcpcafe).
+
+---
+
 ### Jumper
 
 You can get **25% off** Jumper with the Discount code: `25OFF`.
