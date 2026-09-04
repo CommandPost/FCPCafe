@@ -78,6 +78,10 @@
 
 ---
 
+{{ include "tools/doza-assist" }}
+
+---
+
 ## E
 
 {{ include "tools/editing-tools-io" }}
