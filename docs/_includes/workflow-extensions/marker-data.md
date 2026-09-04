@@ -8,10 +8,6 @@ Marker Data optimises the way professionals manage Marker’s metadata within Fi
 
 Marker Data offers a multitude of use cases, including creation of Marker Notes Database, VFX Database, Shot Library, Stock footage Database, Music Cue Sheet Database and many more.
 
-![](/static/marker-data.gif)
-
-![](/static/marker-data-workflow-extension.gif)
-
 Core Features:
 
 - **Precise Marker Extraction:** Marker Data ensures precise extraction of markers, maintaining the integrity of metadata throughout the process.
