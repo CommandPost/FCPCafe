@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 06:10:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 11:10:53 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 18 Aug 2026 06:10:42 GMT</pubDate>
+        <pubDate>Mon, 14 Sep 2026 11:10:52 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22154,6 +22154,35 @@ Over the past months I built more than 20 Mac and iOS apps — for video editing
             <link>https://fcp.cafe/#18th-august-2026</link>
             <guid isPermaLink="false">18th August 2026</guid>
             <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[14th September 2026]]></title>
+            <description><![CDATA[<p>Happy Monday! 👋</p>
+<p><strong>Iain Anderson</strong> has released a new app on FxFactory called <strong>Softbox</strong>.</p>
+<blockquote>
+<p><strong>Gently and Selectively Smooth Skin and Sharpen Details</strong></p>
+<p>Softbox lets you target parts of the image by their tones or by their texture. This allows you to smooth midtone areas while sharpening shadows, or smooth areas with moderate texture while preserving fine details. By default, results look natural, but you can turn the settings up if you want a strong “beauty filter” effect.</p>
+<p>This is not a simple Gaussian Blur, and you have full control over the strength of the effects. Under the surface, Softbox uses Selective Clarity and Frequency Separation, as well as dedicated detail enhancement and blemish smooth algorithms.</p>
+<p><strong>Smooth Tones</strong> and <strong>Sharpen Tones</strong> use Selective Clarity. This allows tonal ranges in the image to be treated differently, each offering independent Texture and Clarity slider. It's similar to the controls offered in Pixelmator Pro, and goes beyond what’s included in Photoshop or Lightroom.</p>
+<p><strong>Smooth Textures</strong> and <strong>Sharpen Textures</strong> use Frequency Separation. This algorithm, used in high-end retouching, recognizes areas by how much detail they include, allowing you to smooth parts of people’s skin far more selectively and naturally. Smooth Blemishes recognizes small spots and pimples to target them alone, and can be used independently or with one of the other smoothing effects.</p>
+<p><strong>Sharpen Details</strong> is a sharpening algorithm with detail awareness that avoids introducing haloing artifacts. You can use this for final finishing, to re-sharpen a clip you’ve smoothed, or potentially rescue a shot that’s just out of focus.</p>
+<p>By default, Softbox affects the entire image, and if you’re planning to smooth skin, we recommend using Final Cut Pro’s new Auto Mask functionality set to Skin, for smoothing, or Skin (Inverted) for most kinds of sharpening . There’s no need to track, and though Auto Mask does increase processing time, it gives excellent results.</p>
+</blockquote>
+<p>You can learn more on <a href="https://fxfactory.com/info/softbox/">FxFactory</a>.</p>
+<p><strong>Vigneswaran Rajkumar</strong> at <strong>The Acharya</strong>, the creator of <a href="https://markerdata.theacharya.co">Marker Data</a>, has released <strong>Production Data</strong>, a lightweight spreadsheet creation application crafted for Final Cut Pro users seeking a straightforward, native way to turn timeline metadata into structured production reports.</p>
+<p>It is now available on the Mac App Store for <strong>USD$5.99</strong>, with no subscriptions and no in-app purchases.</p>
+<p>You can download and learn more on the <a href="https://productiondata.theacharya.co">Production Data website</a>.</p>
+<p><strong>Wes Plate</strong> at <strong>Automatic Duck</strong> has released a new app called <strong>Watch Import</strong>.</p>
+<blockquote>
+<p><strong>Auto-import new media into Final Cut Pro</strong>
+Watch Import watches your media folders and automatically sends new files to Final Cut Pro. Render from After Effects, save a graphic from Photoshop, or drop new tracks into your music folder — they're imported into your library the moment they land, with no dragging and no import dialog.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://automaticduck.com/watch-import/">Automatic Duck website</a>.</p>
+<p><strong>gSplatting v2</strong> is out now. You can learn more on the <a href="https://www.gphyx.com">GPHYX website</a>.</p>
+]]></description>
+            <link>https://fcp.cafe/#14th-september-2026</link>
+            <guid isPermaLink="false">14th September 2026</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
