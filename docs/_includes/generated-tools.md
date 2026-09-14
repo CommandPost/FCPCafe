@@ -68,6 +68,10 @@
 
 ---
 
+{{ include "tools/conform" }}
+
+---
+
 {{ include "tools/csv-to-motn-generator" }}
 
 ---
