@@ -4,7 +4,7 @@
 
 The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It serves as a native macOS frontend, allowing users to conveniently export structured Excel production reports from Final Cut Pro projects, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine.
 
-## Core Features
+#### Core Features
 
 - Functionality allowing export of Excel workbooks (`.xlsx`) from Final Cut Pro timelines.
 - Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.
