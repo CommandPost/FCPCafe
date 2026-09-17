@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 11:10:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 08:36:28 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 11:10:52 GMT</pubDate>
+        <pubDate>Thu, 17 Sep 2026 08:36:27 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -6289,8 +6289,6 @@ Of course none of this affects FCP if you're using a Magic Mouse, Mighty Mouse o
 <p>A unique application meticulously crafted for Final Cut Pro users seeking seamless Marker extraction, conversion, and database creation capabilities.</p>
 <p>Marker Data optimises the way professionals manage Marker’s metadata within Final Cut Pro projects. With its intuitive interface and robust feature set, Marker Data simplifies the extraction process while ensuring the utmost accuracy in representing Marker’s metadata.</p>
 <p>Marker Data offers a multitude of use cases, including creation of Marker Notes Database, VFX Database, Shot Library, Stock footage Database, Music Cue Sheet Database and many more.</p>
-<p><img src="/static/marker-data.gif" alt=""></p>
-<p><img src="/static/marker-data-workflow-extension.gif" alt=""></p>
 <p>Core Features:</p>
 <ul>
 <li>

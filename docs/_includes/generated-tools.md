@@ -1,5 +1,9 @@
 ## A
 
+{{ include "tools/aafx" }}
+
+---
+
 {{ include "tools/arctic" }}
 
 ---
@@ -222,6 +226,10 @@
 
 ---
 
+{{ include "tools/production-data" }}
+
+---
+
 ## R
 
 {{ include "tools/reference-x" }}
@@ -251,6 +259,10 @@
 ---
 
 {{ include "tools/smart-video-splitter" }}
+
+---
+
+{{ include "tools/snitt" }}
 
 ---
 
