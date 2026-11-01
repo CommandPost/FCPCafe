@@ -12,6 +12,54 @@ Something missing? Submit your favourite tools! [Learn more here!](/contribute/)
 
 ## A
 
+### AAFx
+
+Send a Final Cut Pro timeline to Pro Tools without losing a role or a
+timecode. AAFx reads an FCPXML or a `.fcpxmld` bundle and writes a
+self-contained AAF: the audio essence travels inside the file, so the
+mixer can open the session without ever seeing your rushes.
+
+Every role and subrole becomes a named Pro Tools track. Dialogue opens
+the session, then the roles you created in Final Cut, then effects and
+music. Clips of the same role that overlap take neighbouring sub-tracks
+instead of piling up.
+
+Each region carries the source timecode of its own rush, which keeps
+conforming possible months later. When a drive is offline, AAFx names
+every missing file, its role, how many clips use it and the volume it
+expects — then relinks by source timecode and exact duration rather
+than by filename, so two rushes with the same name from different
+shooting days can never be confused.
+
+Pro Tools only reads mono audio essence inside an AAF, which is why an
+interleaved stereo region turns into saturated noise. AAFx splits every
+source into one mono track per channel that actually carries sound, and
+discards silent channels — a 16-track field recording does not flood
+the session with 16 empty tracks.
+
+Multicam clips are resolved to their active audio angles, compound
+clips are expanded, and clips whose audio you disabled in the edit stay
+out of the AAF. Handles are adjustable from zero to thirty seconds.
+
+Nothing is installed on your Mac: Python and the audio extractor travel
+inside the application. No Homebrew, no ffmpeg, no Terminal. Nothing
+leaves your machine.
+
+Requirements
+
+- macOS 11 or later
+- Final Cut Pro 10.4 to 12.3, FCPXML up to 1.14, `.fcpxml` and
+  `.fcpxmld` bundles
+- Pro Tools for AAF import, via File > Import > Session Data
+
+Complete seven-day trial, no watermark and no credit card. One-off
+price, no subscription: 79 € for a single Mac, 139 € for four
+simultaneous floating seats.
+
+[!button text="Visit Website" target="blank" variant="info"](https://aafx.app/)
+
+---
+
 ### Arctic
 
 ![](/static/fclm.png)
@@ -321,6 +369,20 @@ All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final 
 Compressor Repair checks for problems that could be preventing Compressor from operating correctly. It checks for missing files, incorrect permissions, an invalid hostname, and attempts to manually start the qmasterd process.
 
 [!button text="Visit Website" target="blank" variant="info"](https://www.digitalrebellion.com/compressorrepair/)
+
+---
+
+### Conform
+
+Conform converts Final Cut Pro `.fcpxml` and `.fcpxmld` files to Final Cut Pro 7 XML (XMEML v5) for import into Adobe Premiere Pro. It reads FCPXML v1.6 to v1.14.
+
+Conform also creates a report listing known items that may look or behave differently in Premiere Pro. Each entry includes the item name, timecode and affected range, and the same ranges are marked in the converted timeline. Title text and line breaks become editable text in Premiere Pro.
+
+The 3D appearance of Motion templates, title tracking and leading, and transitions other than Cross Dissolve are not translated. DaVinci Resolve has not been tested. Current versions of After Effects do not import the generated XML, and Avid is not supported.
+
+Conform is made by ZUNO WORKS K.K. and requires macOS 14 or later on an Apple Silicon Mac. The direct-download version is signed with an Apple Developer ID and notarised by Apple. You can analyse a project and export one XML for free. A licence is a one-time purchase.
+
+[!button text="Visit Website" target="blank" variant="info"](https://conform.zunoworks.ai/en/)
 
 ---
 
@@ -964,6 +1026,33 @@ Reports can be further processed in your spreadsheet application for formatting 
 
 ---
 
+### Production Data
+
+![](/static/production-data-cover-banner.png)
+
+The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It serves as a native macOS frontend, allowing users to conveniently export structured Excel production reports from Final Cut Pro projects, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine.
+
+#### Core Features
+
+- Functionality allowing export of Excel workbooks (`.xlsx`) from Final Cut Pro timelines.
+- Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.
+- Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control across matching report sheets.
+- Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
+- Optional report sheets for Markers, Keywords, Titles & Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.
+- Configurable columns, timecode, disabled-clip exclusion, and optional Role Inventory screenshots.
+- Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.
+- Export on drop or confirm when you are ready, with automatic and manual export modes.
+- Accepts drag and drop and Final Cut Pro timeline drags.
+- Each export is saved to a uniquely named timestamped folder within your chosen export destination.
+- Optional experimental PDF report export (`.pdf`) alongside the Excel workbook, using the same active Configuration settings.
+- Exported Excel workbooks are compatible with Apple's Numbers and other spreadsheet applications.
+- Written in Apple Swift language and SwiftUI framework.
+- No hidden costs, no subscriptions, no in-app purchases.
+
+[!button text="Visit Website" target="blank" variant="info"](https://productiondata.theacharya.co)
+
+---
+
 ## R
 
 ### Reference X
@@ -1007,6 +1096,28 @@ All the audio & video scopes you'd expect from hardware, and many, many, more. A
 SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://apps.apple.com/au/app/sendtox/id496926258?mt=12)
+
+---
+
+### Shot Data
+
+![](/static/shot-data-cover-banner.png)
+
+The shot list database creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It serves as a native macOS frontend for storytellers who pre-cut a project as a stills timeline, turning that intention into ordered PNG stills and a shot list designed for [Notion](https://www.notion.com) Database before cameras roll, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine.
+
+#### Core Features
+
+- Create a Shot List Database for Notion from Final Cut Pro still-image timelines.
+- Built for pre-cut stills timelines on the primary timeline.
+- Extract as Notion or CSV, with upload to Notion when you choose a Database Profile.
+- Notion Queue for extract first, batch upload later.
+- Scene Number and Folder Format controls, plus a quick Scene Number badge on Extract.
+- Drag and drop `.fcpxml` / `.fcpxmld` files, or timelines from Final Cut Pro.
+- Each extract is saved to a uniquely named folder in your Export Folder.
+- Written in Apple Swift language and SwiftUI framework.
+- No hidden costs, no subscriptions, no in-app purchases.
+
+[!button text="Visit Website" target="blank" variant="info"](https://shotdata.theacharya.co)
 
 ---
 
@@ -1064,6 +1175,20 @@ Don’t just take our word for it though, Avid themselves recommend Shutter Enco
 Smart Video Splitter is the perfect app for those who create professional or semi-professional stories with videos on social networks like Instagram, Facebook, Whatsapp and Snapchat.
 
 [!button text="View on Mac App Store" target="blank" variant="info"](https://ulti.media/smart-video-splitter-for-instagram-facebook-whatsapp-and-snapchat-stories/)
+
+---
+
+### Snitt
+
+**AI rough cuts that match how you edit.**
+
+Snitt learns a creator's editing style from their published videos — how long pauses are allowed to run, which filler words get cut and which stay, how tight the cuts are — then rough-cuts new raw footage the same way.
+
+You review the cut word-by-word on a transcript, then export straight to Final Cut Pro: media auto-relinks, and everything Snitt removed rides along as disabled connected clips anchored where they were lifted from — drag one back down to restore exactly that material. An MP4 render is optional.
+
+Currently in free beta — new accounts get 10 hours of processing credit. Requires macOS 15 or later.
+
+[!button text="Visit Website" target="blank" variant="info"](https://snitt.ai)
 
 ---
 

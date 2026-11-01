@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.842699698572">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846818140841">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.842699698572" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.846818140841" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.842699698572" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.846818140841" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.842699698572" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.846818140841" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -327,6 +327,52 @@
 </div>
 <hr>
 <h2 id="a">A</h2>
+<h3 id="aafx">AAFx</h3>
+<p>Send a Final Cut Pro timeline to Pro Tools without losing a role or a
+timecode. AAFx reads an FCPXML or a <code translate="no" v-pre>.fcpxmld</code> bundle and writes a
+self-contained AAF: the audio essence travels inside the file, so the
+mixer can open the session without ever seeing your rushes.</p>
+<p>Every role and subrole becomes a named Pro Tools track. Dialogue opens
+the session, then the roles you created in Final Cut, then effects and
+music. Clips of the same role that overlap take neighbouring sub-tracks
+instead of piling up.</p>
+<p>Each region carries the source timecode of its own rush, which keeps
+conforming possible months later. When a drive is offline, AAFx names
+every missing file, its role, how many clips use it and the volume it
+expects — then relinks by source timecode and exact duration rather
+than by filename, so two rushes with the same name from different
+shooting days can never be confused.</p>
+<p>Pro Tools only reads mono audio essence inside an AAF, which is why an
+interleaved stereo region turns into saturated noise. AAFx splits every
+source into one mono track per channel that actually carries sound, and
+discards silent channels — a 16-track field recording does not flood
+the session with 16 empty tracks.</p>
+<p>Multicam clips are resolved to their active audio angles, compound
+clips are expanded, and clips whose audio you disabled in the edit stay
+out of the AAF. Handles are adjustable from zero to thirty seconds.</p>
+<p>Nothing is installed on your Mac: Python and the audio extractor travel
+inside the application. No Homebrew, no ffmpeg, no Terminal. Nothing
+leaves your machine.</p>
+<p>Requirements</p>
+<ul>
+<li>
+<p>macOS 11 or later</p>
+</li>
+<li>
+<p>Final Cut Pro 10.4 to 12.3, FCPXML up to 1.14, <code translate="no" v-pre>.fcpxml</code> and
+<code translate="no" v-pre>.fcpxmld</code> bundles</p>
+</li>
+<li>
+<p>Pro Tools for AAF import, via File &gt; Import &gt; Session Data</p>
+</li>
+</ul>
+<p>Complete seven-day trial, no watermark and no credit card. One-off
+price, no subscription: 79 € for a single Mac, 139 € for four
+simultaneous floating seats.</p>
+<p><a href="https://aafx.app/" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
 <h3 id="arctic">Arctic</h3>
 <figure class="content-center">
     <img src="../../static/fclm.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2559" height="943" />
@@ -594,6 +640,15 @@ You can read their blog post: <a href="https://blog.hedge.video/a-new-home-for-f
 </figure>
 <p>Compressor Repair checks for problems that could be preventing Compressor from operating correctly. It checks for missing files, incorrect permissions, an invalid hostname, and attempts to manually start the qmasterd process.</p>
 <p><a href="https://www.digitalrebellion.com/compressorrepair/" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
+<h3 id="conform">Conform</h3>
+<p>Conform converts Final Cut Pro <code translate="no" v-pre>.fcpxml</code> and <code translate="no" v-pre>.fcpxmld</code> files to Final Cut Pro 7 XML (XMEML v5) for import into Adobe Premiere Pro. It reads FCPXML v1.6 to v1.14.</p>
+<p>Conform also creates a report listing known items that may look or behave differently in Premiere Pro. Each entry includes the item name, timecode and affected range, and the same ranges are marked in the converted timeline. Title text and line breaks become editable text in Premiere Pro.</p>
+<p>The 3D appearance of Motion templates, title tracking and leading, and transitions other than Cross Dissolve are not translated. DaVinci Resolve has not been tested. Current versions of After Effects do not import the generated XML, and Avid is not supported.</p>
+<p>Conform is made by ZUNO WORKS K.K. and requires macOS 14 or later on an Apple Silicon Mac. The direct-download version is signed with an Apple Developer ID and notarised by Apple. You can analyse a project and export one XML for free. A licence is a one-time purchase.</p>
+<p><a href="https://conform.zunoworks.ai/en/" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>Visit Website</span>
 </a></p>
 <hr>
@@ -1176,6 +1231,33 @@ The suite contains tools for editing QuickTime movie metadata, watching render f
     <span>View on Mac App Store</span>
 </a></p>
 <hr>
+<h3 id="production-data">Production Data</h3>
+<figure class="content-center">
+    <img src="../../static/production-data-cover-banner.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1200" height="630" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<p>The lightweight spreadsheet creation application crafted for <a href="https://www.apple.com/final-cut-pro/" class="outbound" target="_blank"><span>Final Cut Pro</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>. It serves as a native macOS frontend, allowing users to conveniently export structured Excel production reports from Final Cut Pro projects, powered by <a href="https://github.com/TheAcharya/OpenFCPXMLKit" class="outbound" target="_blank"><span>OpenFCPXMLKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, a free and open-source, experimental FCPXML parsing engine.</p>
+<h4 id="core-features-1">Core Features</h4>
+<ul>
+<li>Functionality allowing export of Excel workbooks (<code translate="no" v-pre>.xlsx</code>) from Final Cut Pro timelines.</li>
+<li>Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.</li>
+<li>Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control across matching report sheets.</li>
+<li>Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.</li>
+<li>Optional report sheets for Markers, Keywords, Titles &amp; Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.</li>
+<li>Configurable columns, timecode, disabled-clip exclusion, and optional Role Inventory screenshots.</li>
+<li>Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.</li>
+<li>Export on drop or confirm when you are ready, with automatic and manual export modes.</li>
+<li>Accepts drag and drop and Final Cut Pro timeline drags.</li>
+<li>Each export is saved to a uniquely named timestamped folder within your chosen export destination.</li>
+<li>Optional experimental PDF report export (<code translate="no" v-pre>.pdf</code>) alongside the Excel workbook, using the same active Configuration settings.</li>
+<li>Exported Excel workbooks are compatible with Apple&#x27;s Numbers and other spreadsheet applications.</li>
+<li>Written in Apple Swift language and SwiftUI framework.</li>
+<li>No hidden costs, no subscriptions, no in-app purchases.</li>
+</ul>
+<p><a href="https://productiondata.theacharya.co" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
 <h2 id="r">R</h2>
 <h3 id="reference-x">Reference X</h3>
 <figure class="content-center">
@@ -1206,6 +1288,28 @@ The suite contains tools for editing QuickTime movie metadata, watching render f
 <p>SendToX (previously called 7toX) brings your Premiere Pro or Final Cut Pro 7 or 6 XML into Final Cut Pro X so you can use Apple’s powerful new professional editing tools to update or finish your older projects. The lightweight application is simple to use, with drag-and-drop support and progress information. SendToX translates important metadata from your Project XML — including bins, clips, subclips and sequences — to a new Event in Final Cut Pro X with the highest fidelity of any translation application for Final Cut Pro. In addition, the application provides clear, detailed reporting after every translation.</p>
 <p><a href="https://apps.apple.com/au/app/sendtox/id496926258?mt=12" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>View on Mac App Store</span>
+</a></p>
+<hr>
+<h3 id="shot-data">Shot Data</h3>
+<figure class="content-center">
+    <img src="../../static/shot-data-cover-banner.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1200" height="630" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<p>The shot list database creation application crafted for <a href="https://www.apple.com/final-cut-pro/" class="outbound" target="_blank"><span>Final Cut Pro</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>. It serves as a native macOS frontend for storytellers who pre-cut a project as a stills timeline, turning that intention into ordered PNG stills and a shot list designed for <a href="https://www.notion.com" class="outbound" target="_blank"><span>Notion</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> Database before cameras roll, powered by <a href="https://github.com/TheAcharya/OpenFCPXMLKit" class="outbound" target="_blank"><span>OpenFCPXMLKit</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>, a free and open-source, experimental FCPXML parsing engine.</p>
+<h4 id="core-features-2">Core Features</h4>
+<ul>
+<li>Create a Shot List Database for Notion from Final Cut Pro still-image timelines.</li>
+<li>Built for pre-cut stills timelines on the primary timeline.</li>
+<li>Extract as Notion or CSV, with upload to Notion when you choose a Database Profile.</li>
+<li>Notion Queue for extract first, batch upload later.</li>
+<li>Scene Number and Folder Format controls, plus a quick Scene Number badge on Extract.</li>
+<li>Drag and drop <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> files, or timelines from Final Cut Pro.</li>
+<li>Each extract is saved to a uniquely named folder in your Export Folder.</li>
+<li>Written in Apple Swift language and SwiftUI framework.</li>
+<li>No hidden costs, no subscriptions, no in-app purchases.</li>
+</ul>
+<p><a href="https://shotdata.theacharya.co" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
 </a></p>
 <hr>
 <h3 id="shot-notes-x">Shot Notes X</h3>
@@ -1256,6 +1360,15 @@ The suite contains tools for editing QuickTime movie metadata, watching render f
 <p>Smart Video Splitter is the perfect app for those who create professional or semi-professional stories with videos on social networks like Instagram, Facebook, Whatsapp and Snapchat.</p>
 <p><a href="https://ulti.media/smart-video-splitter-for-instagram-facebook-whatsapp-and-snapchat-stories/" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>View on Mac App Store</span>
+</a></p>
+<hr>
+<h3 id="snitt">Snitt</h3>
+<p><strong>AI rough cuts that match how you edit.</strong></p>
+<p>Snitt learns a creator&#x27;s editing style from their published videos — how long pauses are allowed to run, which filler words get cut and which stay, how tight the cuts are — then rough-cuts new raw footage the same way.</p>
+<p>You review the cut word-by-word on a transcript, then export straight to Final Cut Pro: media auto-relinks, and everything Snitt removed rides along as disabled connected clips anchored where they were lifted from — drag one back down to restore exactly that material. An MP4 render is optional.</p>
+<p>Currently in free beta — new accounts get 10 hours of processing credit. Requires macOS 15 or later.</p>
+<p><a href="https://snitt.ai" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
 </a></p>
 <hr>
 <h3 id="srt2subtitles">srt2subtitles</h3>
