@@ -1,4 +1,3 @@
-- [Severe Input Latency & Command Dropping: Playback and Editing Operations (M1 Ultra / macOS Tahoe) (May 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/540)
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [Thunderbolt Bridge: File Transfers Stall and Final Cut Pro Libraries Fail to Open When Wi-Fi or Ethernet Is Also Active (November 1, 2026)](https://github.com/CommandPost/FCPCafe/issues/564)
@@ -28,3 +27,4 @@
 - [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
+- [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
