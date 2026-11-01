@@ -250,6 +250,10 @@
 
 ---
 
+{{ include "tools/shot-data" }}
+
+---
+
 {{ include "tools/shot-notes-x" }}
 
 ---
