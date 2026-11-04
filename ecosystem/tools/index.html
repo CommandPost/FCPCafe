@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846888308202">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847105408303">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.846888308202" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.847105408303" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.846888308202" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.847105408303" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.846888308202" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.847105408303" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -659,6 +659,40 @@ You can read their blog post: <a href="https://blog.hedge.video/a-new-home-for-f
     <span>Visit Website</span>
 </a></p>
 <hr>
+<h3 id="cutler">Cutler</h3>
+<p>Claude or ChatGPT does the assistant editor&#x27;s work: syncs, logs, picks selects and builds a first cut, then hands Final Cut Pro a real project.</p>
+<figure class="content-center">
+    <img src="../../static/cutler-final-cut.jpg" alt="A Final Cut Pro library after Cutler: keyword collections, flagged defects, and Selects and Unused smart collections" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1400" height="1466" />
+    <figcaption class="caption">A Final Cut Pro library after Cutler: keyword collections, flagged defects, and Selects and Unused smart collections</figcaption>
+</figure>
+<p>Cutler is a Mac app that connects your own Claude or ChatGPT to your footage. Point it at a folder of rushes. It transcribes everything on your Mac, syncs sound by waveform (no timecode needed), builds multicam clips, flags soft, dark and shaky takes, and logs keywords and selects. The AI then proposes a first cut with a reason for every clip, and brings the judgement calls back to you as questions instead of guessing.</p>
+<figure class="content-center">
+    <img src="../../static/cutler.jpg" alt="Cutler's cut page: the AI explains its choices on the left, and the proposed cut lists a reason for every clip on the right" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1800" height="1125" />
+    <figcaption class="caption">Cutler's cut page: the AI explains its choices on the left, and the proposed cut lists a reason for every clip on the right</figcaption>
+</figure>
+<p>The result is a Final Cut Pro project, not a render: an editable timeline with roles, keywords and native multicam, pointing at your original media where it already lives. Nothing is installed into Final Cut Pro, and every FCPXML is validated against Apple&#x27;s DTD before Final Cut Pro sees it.</p>
+<figure class="content-center">
+    <img src="../../static/cutler-claude.jpg" alt="Cutler's panel inside the Claude app: the cut as picture, cover, motion and music lanes, with the decisions Claude made" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1535" height="1464" />
+    <figcaption class="caption">Cutler's panel inside the Claude app: the cut as picture, cover, motion and music lanes, with the decisions Claude made</figcaption>
+</figure>
+<ul>
+<li><strong>Your AI, your plan:</strong> works through Claude Code, the Claude app, Codex in the ChatGPT app, or Cutler&#x27;s own window signed in with your ChatGPT account. No API key and no credits. Cutler has no AI of its own and adds nothing to your provider&#x27;s bill.</li>
+<li><strong>Local where it matters:</strong> transcription (Whisper) runs on your Mac and video files are never uploaded. When the AI looks at shots, it sees still frames through your own account, or through a local model (Qwen) on Macs with 32 GB of memory or more.</li>
+<li><strong>Plain-language changes:</strong> ask for &quot;tighten it to four minutes&quot; or &quot;why this take?&quot;, and only what you ask for changes.</li>
+<li><strong>Other NLEs:</strong> Premiere Pro and DaVinci Resolve XML export is in beta, included in every licence.</li>
+</ul>
+<figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=gj-KTVQq580">
+        <img src="../../static/cutler-video.jpg" alt="Cutler in 90 seconds, on YouTube" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1280" height="800" />
+    </a>
+    <figcaption class="caption">Cutler in 90 seconds, on YouTube</figcaption>
+</figure>
+<p>The app is code-signed and notarized. It&#x27;s a one-time purchase (€25 for the first 100 founder licences, with 12 months of updates included; the app keeps working after that, no subscription) with a 7-day free trial of the full app, no card needed. Requires an Apple Silicon Mac running macOS 14 or later.</p>
+<p>Made by Erik Lindgren, an editor in Cascais, Portugal, with over 20 years of cutting, mostly in Final Cut Pro. The FCPXML import lessons from building Cutler are published as an open-source skill on <a href="https://github.com/erikvideos-tech/fcpxml-field-notes" class="outbound" target="_blank"><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>. Learn more at <a href="https://cutler.miracontents.com/?ref=fcpcafe" class="outbound" target="_blank"><span>cutler.miracontents.com</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p><a href="https://cutler.miracontents.com/?ref=fcpcafe" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
 <h2 id="d">D</h2>
 <h3 id="detail-video-studio">Detail: Video Studio</h3>
 <p>Record, remix, and share inspiring video in minutes. Supports exporting to FCPXML.</p>
@@ -816,6 +850,25 @@ How to do these things in an easy and smart way?</p>
     <span>Visit Website</span>
 </a></p>
 <hr>
+<h3 id="fcp2aaf">fcp2aaf</h3>
+<p><strong>fcp2aaf</strong> turns a Final Cut Pro timeline into an AAF for the sound team. Drop the <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> on the app and the session appears on screen before anything is written, ready to check and to hear.</p>
+<p><img src="/static/ss-fcp2aaf.png" alt="The fcp2aaf window: a Final Cut Pro project drawn as the AAF session it will become, with the delivery settings beside it" width="720" height="501" class="max-w-full h-auto"></p>
+<ul>
+<li>Roles and subroles become named tracks, in the order you choose.</li>
+<li>Clip gain, volume automation, pan, fades and crossfades travel into the session.</li>
+<li>The recorder&#x27;s source timecode, scene, take and sound roll arrive in Pro Tools.</li>
+<li>Markers, to-dos and chapters arrive as Memory Locations, with CSV and MIDI files for Nuendo and Cubase.</li>
+<li>Compound, sync and multicam clips, multitrack recorders and split edits all travel.</li>
+<li>Missing media is named and left out, and a plain-text report comes with every delivery.</li>
+</ul>
+<p>Tested against Pro Tools. The AAF is standard, so Nuendo, Cubase, DaVinci Resolve, Media Composer and Premiere Pro can import it too. Native app for Apple Silicon, macOS 14 or later, signed with a Developer ID and notarised by Apple. Your media stays on your Mac.</p>
+<p>Free for timelines up to five minutes, with every feature on. 3-Day Pass US$15, Lifetime licence US$79.</p>
+<p><a href="https://vimeo.com/1221620451" class="outbound" target="_blank"><span>Watch the two-minute guided tour</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></p>
+<p>A product of Soonus, made in Mexico by César Hernández.</p>
+<p><a href="https://fcp2aaf.com" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
 <h3 id="fcpx-autoduck">FCPX AutoDuck</h3>
 <p>Automatic Ducking for Final Cut Pro X.</p>
 <div class="review"><p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></p>
@@ -855,6 +908,22 @@ How to do these things in an easy and smart way?</p>
     <figcaption class="caption"></figcaption>
 </figure>
 <p><a href="https://intelligentassistance.com/findrcat.html" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
+    <span>Visit Website</span>
+</a></p>
+<hr>
+<h3 id="firstcut">FirstCut</h3>
+<p><strong>Edit the story before you edit the video.</strong></p>
+<p>FirstCut is a browser-based narrative editor for dialogue-led footage: interviews, documentaries, podcasts and talks. It transcribes your footage, finds the storylines in it, and assembles a rough cut from a short brief (target length, format and rhythm). The cut is laid out as beats, clips and words, so you restructure it like a paper edit: move a beat, drop a clip, cut a sentence, or ask for a change in plain language. Every revision plays in the browser from your local files.</p>
+<p>When the story holds together, export FCPXML and choose <strong>File &gt; Import &gt; XML</strong> in Final Cut Pro. The project arrives with the clips in story order, each with its source in and out points. The file references media by filename, so you may need to relink to your originals. Effects, titles, B-roll and extra camera angles are not part of the export. That is the work you do in Final Cut Pro.</p>
+<ul>
+<li><strong>What uploads:</strong> your browser extracts the audio track and uploads only that for transcription. The video files stay on your disk.</li>
+<li><strong>What the AI does:</strong> it selects and orders moments from the transcript. It does not analyse the picture, and it never generates images, video or audio.</li>
+<li><strong>Limits:</strong> source files can be up to two hours each. It is a web app, not a native Mac app or a Workflow Extension.</li>
+<li><strong>Other exports:</strong> Final Cut Pro 7 XML, CMX3600 EDL and OpenTimelineIO.</li>
+</ul>
+<p>There is a free plan (30 minutes of media and 5 AI cuts, no credit card). Paid plans start at USD$15/month.</p>
+<p>You can read <a href="https://firstcut.video/blog/transcript-edit-to-final-cut-pro-fcpxml" class="outbound" target="_blank"><span>how the FCPXML export works</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p><a href="https://firstcut.video" target="_blank" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-info hover:bg-button-info-hover text-button-info-text hover:text-button-info-text-hover border border-button-info-border hover:border-button-info-border-hover px-4 h-10 text-sm rounded-md">
     <span>Visit Website</span>
 </a></p>
 <hr>

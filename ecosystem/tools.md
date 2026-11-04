@@ -396,6 +396,35 @@ Input is taken from a CSV file, with all the names and info. Drop it on CSV to m
 
 ---
 
+### Cutler
+
+Claude or ChatGPT does the assistant editor's work: syncs, logs, picks selects and builds a first cut, then hands Final Cut Pro a real project.
+
+![A Final Cut Pro library after Cutler: keyword collections, flagged defects, and Selects and Unused smart collections](/static/cutler-final-cut.jpg)
+
+Cutler is a Mac app that connects your own Claude or ChatGPT to your footage. Point it at a folder of rushes. It transcribes everything on your Mac, syncs sound by waveform (no timecode needed), builds multicam clips, flags soft, dark and shaky takes, and logs keywords and selects. The AI then proposes a first cut with a reason for every clip, and brings the judgement calls back to you as questions instead of guessing.
+
+![Cutler's cut page: the AI explains its choices on the left, and the proposed cut lists a reason for every clip on the right](/static/cutler.jpg)
+
+The result is a Final Cut Pro project, not a render: an editable timeline with roles, keywords and native multicam, pointing at your original media where it already lives. Nothing is installed into Final Cut Pro, and every FCPXML is validated against Apple's DTD before Final Cut Pro sees it.
+
+![Cutler's panel inside the Claude app: the cut as picture, cover, motion and music lanes, with the decisions Claude made](/static/cutler-claude.jpg)
+
+- **Your AI, your plan:** works through Claude Code, the Claude app, Codex in the ChatGPT app, or Cutler's own window signed in with your ChatGPT account. No API key and no credits. Cutler has no AI of its own and adds nothing to your provider's bill.
+- **Local where it matters:** transcription (Whisper) runs on your Mac and video files are never uploaded. When the AI looks at shots, it sees still frames through your own account, or through a local model (Qwen) on Macs with 32 GB of memory or more.
+- **Plain-language changes:** ask for "tighten it to four minutes" or "why this take?", and only what you ask for changes.
+- **Other NLEs:** Premiere Pro and DaVinci Resolve XML export is in beta, included in every licence.
+
+[![Cutler in 90 seconds, on YouTube](/static/cutler-video.jpg)](https://www.youtube.com/watch?v=gj-KTVQq580)
+
+The app is code-signed and notarized. It's a one-time purchase (€25 for the first 100 founder licences, with 12 months of updates included; the app keeps working after that, no subscription) with a 7-day free trial of the full app, no card needed. Requires an Apple Silicon Mac running macOS 14 or later.
+
+Made by Erik Lindgren, an editor in Cascais, Portugal, with over 20 years of cutting, mostly in Final Cut Pro. The FCPXML import lessons from building Cutler are published as an open-source skill on [GitHub](https://github.com/erikvideos-tech/fcpxml-field-notes). Learn more at [cutler.miracontents.com](https://cutler.miracontents.com/?ref=fcpcafe).
+
+[!button text="Visit Website" target="blank" variant="info"](https://cutler.miracontents.com/?ref=fcpcafe)
+
+---
+
 ## D
 
 ### Detail: Video Studio
@@ -588,6 +617,31 @@ _Chris Hocking - 3rd June 2023_
 
 ---
 
+### fcp2aaf
+
+**fcp2aaf** turns a Final Cut Pro timeline into an AAF for the sound team. Drop the `.fcpxml` or `.fcpxmld` on the app and the session appears on screen before anything is written, ready to check and to hear.
+
+<p><img src="/static/ss-fcp2aaf.png" alt="The fcp2aaf window: a Final Cut Pro project drawn as the AAF session it will become, with the delivery settings beside it" width="720" height="501" class="max-w-full h-auto"></p>
+
+- Roles and subroles become named tracks, in the order you choose.
+- Clip gain, volume automation, pan, fades and crossfades travel into the session.
+- The recorder's source timecode, scene, take and sound roll arrive in Pro Tools.
+- Markers, to-dos and chapters arrive as Memory Locations, with CSV and MIDI files for Nuendo and Cubase.
+- Compound, sync and multicam clips, multitrack recorders and split edits all travel.
+- Missing media is named and left out, and a plain-text report comes with every delivery.
+
+Tested against Pro Tools. The AAF is standard, so Nuendo, Cubase, DaVinci Resolve, Media Composer and Premiere Pro can import it too. Native app for Apple Silicon, macOS 14 or later, signed with a Developer ID and notarised by Apple. Your media stays on your Mac.
+
+Free for timelines up to five minutes, with every feature on. 3-Day Pass US$15, Lifetime licence US$79.
+
+[Watch the two-minute guided tour](https://vimeo.com/1221620451)
+
+A product of Soonus, made in Mexico by César Hernández.
+
+[!button text="Visit Website" target="blank" variant="info"](https://fcp2aaf.com)
+
+---
+
 ### FCPX AutoDuck
 
 Automatic Ducking for Final Cut Pro X.
@@ -625,6 +679,27 @@ Simple, Easy & Inexpensive organization for your Final Cut Pro X Media. Translat
 [![](/static/yt-findrcat-02.jpg)](https://www.youtube.com/watch?v=Ke0K_0dV7R8)
 
 [!button text="Visit Website" target="blank" variant="info"](https://intelligentassistance.com/findrcat.html)
+
+---
+
+### FirstCut
+
+**Edit the story before you edit the video.**
+
+FirstCut is a browser-based narrative editor for dialogue-led footage: interviews, documentaries, podcasts and talks. It transcribes your footage, finds the storylines in it, and assembles a rough cut from a short brief (target length, format and rhythm). The cut is laid out as beats, clips and words, so you restructure it like a paper edit: move a beat, drop a clip, cut a sentence, or ask for a change in plain language. Every revision plays in the browser from your local files.
+
+When the story holds together, export FCPXML and choose **File > Import > XML** in Final Cut Pro. The project arrives with the clips in story order, each with its source in and out points. The file references media by filename, so you may need to relink to your originals. Effects, titles, B-roll and extra camera angles are not part of the export. That is the work you do in Final Cut Pro.
+
+- **What uploads:** your browser extracts the audio track and uploads only that for transcription. The video files stay on your disk.
+- **What the AI does:** it selects and orders moments from the transcript. It does not analyse the picture, and it never generates images, video or audio.
+- **Limits:** source files can be up to two hours each. It is a web app, not a native Mac app or a Workflow Extension.
+- **Other exports:** Final Cut Pro 7 XML, CMX3600 EDL and OpenTimelineIO.
+
+There is a free plan (30 minutes of media and 5 AI cuts, no credit card). Paid plans start at USD$15/month.
+
+You can read [how the FCPXML export works](https://firstcut.video/blog/transcript-edit-to-final-cut-pro-fcpxml).
+
+[!button text="Visit Website" target="blank" variant="info"](https://firstcut.video)
 
 ---
 
