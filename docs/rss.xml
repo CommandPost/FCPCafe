@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 08:36:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 10:59:53 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Sep 2026 08:36:27 GMT</pubDate>
+        <pubDate>Wed, 04 Nov 2026 10:59:53 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22181,6 +22181,314 @@ Watch Import watches your media folders and automatically sends new files to Fin
             <link>https://fcp.cafe/#14th-september-2026</link>
             <guid isPermaLink="false">14th September 2026</guid>
             <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[4th November 2026]]></title>
+            <description><![CDATA[<p>...and just like that, it's November. 🤯</p>
+<p>Apologies again for the radio silence, and complete lack of posts in October. 😬</p>
+<p>Ironically, it's actually been a pretty busy and interesting period for Final Cut Pro editors!</p>
+<p>On 29th September, <strong>Final Cut Pro v12.4</strong> was released.</p>
+<p>It included the following enhancements and fixes:</p>
+<ul>
+<li>Edit videos with Cinematic mode effects recorded in Final Cut Camera to adjust focus points and depth of field. (Requires macOS 27 Golden Gate.)</li>
+<li>Fixes an issue that could cause a title's font type to revert after being changed.</li>
+<li>Fixes an issue that could cause Final Cut Pro to quit when importing a project created in Final Cut Pro for iPad.</li>
+<li>Fixes an issue that could cause Final Cut Pro to quit unexpectedly when closing a project.</li>
+<li>Fixes an issue that prevented pasting keyframes in the Animation Editor.</li>
+<li>Fixes an issue that could cause multicam angle switches to be delayed when clicking angles in the angle viewer during playback.</li>
+<li>Fixes an issue that caused audio waveforms to take a long time to generate, or fail to generate, in the timeline.</li>
+<li>Fixes an issue that prevented backing up a library to a network volume.</li>
+</ul>
+<p>Unfortunately though, soon after release the community started <a href="https://discussions.apple.com/thread/256371421">reporting issues</a> with exports using the <strong>Voice Isolation</strong> - there's inconsistent and random audio pops/clicks on export.</p>
+<p>There's also been <a href="https://discussions.apple.com/thread/256385777">reports</a> of issues with <strong>SMB shares</strong> on macOS 27 and Final Cut Pro v12.4.</p>
+<p>I've installed Final Cut Pro 12.4 on our non-production testing machine, and have been able to reproduce the issues.</p>
+<p>As a result, we've stuck with <strong>Final Cut Pro v12.3</strong> on our main editing machines, and hope that Apple will push out a bug fix for this soon.</p>
+<p><strong>Final Cut Pro for iPad v3.4</strong> was also released.</p>
+<p>It included the following features and enhancements:</p>
+<ul>
+<li>Edit videos with Cinematic mode effects recorded in Final Cut Camera to adjust focus points and depth of field.</li>
+<li>Focus on your edits with a redesigned Liquid Glass interface that adapts to your content and expands your timeline.</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Easily access App Settings and Project Settings from within an open project.</li>
+<li>Adds new menu bar options to delete, duplicate and rename projects.</li>
+<li>Fixes an issue that caused undo and redo to be cleared after using Montage Maker.</li>
+<li>Addresses an issue that prevented the Go to Range Start/End keyboard shortcuts from updating the timecode for media browser clips.</li>
+<li>Improves reliability and accuracy when switching multicam angles.</li>
+<li>Resolves an issue that prevented Final Cut Pro for iPad from controlling a Final Cut Camera angle after it reconnected in a Live Multicam session.</li>
+<li>Fixes an issue that caused audio fade timing to unexpectedly change while modifying multiple clips with different audio fade timings.</li>
+<li>Addresses an issue that caused the microphone permission prompt to not appear when microphone access was disabled in Settings.</li>
+<li>Resolves an issue that caused the keyboard to unexpectedly disappear while using Voice Control to search in the media browser.</li>
+<li>Improves Voice Control accessibility support for navigating and browsing the content browser.</li>
+<li>Improves the VoiceOver accessibility description for the Project Menu button.</li>
+<li>Improves Larger Text and Bold Text accessibility support in the VoiceOver feature.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Add Basic Title: <code>Control-T</code></li>
+<li>Add Basic Lower Third: <code>Control-Shift-T</code></li>
+<li>Copy Effects: <code>Option-Command-C</code></li>
+<li>Paste Effects: <code>Option-Command-V</code></li>
+<li>Copy Keyframes: <code>Option-Shift-C</code></li>
+<li>Cut Keyframes: <code>Option-Shift-X</code></li>
+<li>Paste Keyframes: <code>Option-Shift-V</code></li>
+<li>Play Rate .5: <code>Option-L</code></li>
+<li>Play Rate -.5: <code>Option-J</code></li>
+<li>Delete Project: <code>Command-Delete</code></li>
+<li>Duplicate Project: <code>Command-D</code></li>
+</ul>
+<p><strong>Compressor v5.4</strong> was also released.</p>
+<p>It includes the following enhancements and fixes:</p>
+<ul>
+<li>Convert regular video with Cinematic mode effects recorded in Final Cut Camera to previous Cinematic mode format. (Requires macOS 27 Golden Gate.)</li>
+<li>Create HEVC MPEG-4 files to upload to social platforms with new export presets, including 10-bit options recommended for HDR content.</li>
+<li>Includes new optimisations for Liquid Glass.</li>
+<li>Improves VoiceOver navigation functionality.</li>
+<li>Improves Voice Control related to Preview controls.</li>
+<li>Fixes an issue where the app would crash when submitting a job that includes a job action.</li>
+<li>Fixes an issue where the app would hang when playing back an image sequence.</li>
+<li>Fixes an issue where job failures occurred when adding chapter markers to longer movies with high frame rates.</li>
+<li>Removes distributed processing functionality.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Motion v6.4</strong> was also released.</p>
+<p>It includes the following enhancements and fixes:</p>
+<ul>
+<li>Edit Cinematic mode videos recorded with Final Cut Camera and adjust focus points and depth of field. (Requires macOS 27 Golden Gate.)</li>
+<li>Fixes an issue that could cause Motion to unexpectedly quit after dragging an mTracker 3D Group into a project.</li>
+<li>Fixes an issue that prevented the “Go to App Store” button from opening the App Store when Pixelmator Pro isn’t installed.</li>
+</ul>
+<p><strong>Final Cut Camera v2.4</strong> was also released.</p>
+<p>It includes the following features and enhancements:</p>
+<ul>
+<li>Explore a beautiful new design featuring easy-to-access settings, customisable overlays, two-finger tap to put focus on the viewfinder, a tally light to indicate recording, and much more.</li>
+<li>Capture stunning video using the 48MP Fusion Main camera with variable aperture from F1.48 to F4, with aperture priority, shutter priority, and manual modes. (Requires iPhone 18 Pro.)</li>
+<li>Monitor your video with the RGB parade and histogram. (Requires iOS 27.)</li>
+<li>Dial in your exposure with false colour and clipping indicators with threshold settings.</li>
+<li>Nail focus using improved focus peaking with sensitivity control.</li>
+<li>Get Cinematic mode effects from regular video, including support for ProRes and Apple Log, to achieve beautiful bokeh you can adjust in Final Cut Pro. (Requires iPhone 18 Pro.)</li>
+<li>Send a clean video signal using an HDMI-to-SDI converter for broadcast quality streams. (Requires iPhone 17 Pro or later and iOS 27.)</li>
+<li>Set your genlock frame delay to compensate for image artefacts from a recorded display or latency differences between your iPhone and other genlocked cameras. (Requires iPhone 17 Pro or later.)</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Easily see your camera settings like aperture, shutter angle, ISO, and more at a glance.</li>
+<li>Tap a camera setting to quickly open the corresponding controls and make adjustments.</li>
+<li>Swipe overlays to minimise them, tap to expand them for more information, or two-finger tap to clear the viewfinder.</li>
+<li>Adds the option to use Shutter Angle for manual exposure setting.</li>
+<li>Adds tint controls for precise white balance adjustments.</li>
+<li>Adds sensitivity and colour settings to focus peaking lines.</li>
+<li>Adds exposure threshold settings to clipping and zebra indicators.</li>
+<li>Fixes an issue that prevented settings from being saved after Final Cut Camera was closed.</li>
+<li>Addresses an issue that prevented Audio Mix from working with Spatial Audio video captured in Final Cut Camera.</li>
+<li>Resolves an issue that prevented Final Cut Pro for iPad from controlling a Final Cut Camera angle after it reconnected in a Live Multicam session.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p>The <strong>FxPlug</strong> SDK wasn't updated - it remains on <code>v4.3.5</code>.</p>
+<p>The <strong>Workflow Extensions</strong> SDK wasn't updated - it remains on <code>v1.0.3</code>.</p>
+<p>I'll dig deeper into Final Cut Pro v12.4 over the coming weeks and hopefully share my findings here, as there seems to be quite a few under-the-hood changes.</p>
+<p>So that you can get from Final Cut Pro on Mac to iPad, I've finally released <strong>Transfer Toolbox v2.0.0</strong>!</p>
+<p><img src="/static/transfer-toolbox-v2.png" alt=""></p>
+<p>You can now export from Final Cut Pro v12.4 (on Mac) to Final Cut Pro v3.4 (on iPad).</p>
+<p>You can learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+<p>Of course, Final Cut Pro v12.4 wasn't the big news - Apple also announced the upcoming <strong>Final Cut Pro v13</strong>.</p>
+<p>You can read Apple's official press release: <a href="https://www.apple.com/au/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/">Apple Creator Studio adds powerful new AI features and even more creative tools</a>.</p>
+<p><img src="/static/acs-fcp-13-01.jpg" alt=""></p>
+<blockquote>
+<p>Final Cut Pro for Mac now includes built-in MotionVFX — an expansive collection of visual effects, plug-ins, transitions, templates, and motion graphics tools — as well as seamless editing in Pixelmator Pro.</p>
+</blockquote>
+<p>Apple bought MotionVFX in March, and everyone's been wondering what they're going to do with it. It seems like a lot, if not most of their products will be included in Apple Creator Studio! 🤯</p>
+<p>It seems that the only tools not coming across are <strong>mCaptionsAI</strong> and <strong>mUpscalerAI</strong>.</p>
+<p>It's super interesting that Apple has decided to keep the MotionVFX brand alive, and has literally placed a MotionVFX button in the Browser.</p>
+<blockquote>
+<p>If you are an active subscriber to any of the MotionVFX plans, your workflow stays the same — all tools included in your plan are accessible through mExtension.</p>
+</blockquote>
+<p><img src="/static/acs-fcp-13-02.jpg" alt=""></p>
+<blockquote>
+<p>Apple’s curated Content Hub now includes video assets and is available in Final Cut Pro.
+Editors can tap into the Content Hub directly within Final Cut Pro and access a library of Apple-curated stock video, photos, and backgrounds to fill gaps, add polish, or spark new ideas without leaving their workflow.</p>
+</blockquote>
+<p>Given Apple's video production quality is always top notch (just look at the Apple TV screen savers!) - it'll be super interesting to see what video content they include in the new Content Hub.</p>
+<blockquote>
+<p>Final Cut Pro introduces powerful workflow improvements, including more keyframe easing options for finer animation control</p>
+</blockquote>
+<p><img src="/static/acs-fcp-13-03.jpg" alt=""></p>
+<p>Back in March, we released <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a> into the world, finally adding powerful keyframing tools to Final Cut Pro - and it seems like Apple is now playing catch up.</p>
+<blockquote>
+<p>23 new transcription languages, making it easier than ever to caption and search footage</p>
+</blockquote>
+<p><img src="/static/acs-fcp-13-04.jpg" alt=""></p>
+<p>More transcription languages is great news!</p>
+<blockquote>
+<p>the ability to disconnect clips from the primary storyline to place them anywhere on the timeline</p>
+</blockquote>
+<p><img src="/static/acs-fcp-13-05.jpg" alt=""></p>
+<p>The ability <strong>Disconnect Connected Clips</strong> is a super interesting one - I can't wait to test this out and see if it's actually useful.</p>
+<p>One of the most powerful things, and one of the things I love most about Final Cut Pro is the magnetic timeline, so I'll be very curious to see how this feature works.</p>
+<p><img src="/static/acs-fcp-13-06.jpg" alt=""></p>
+<blockquote>
+<p>Cross-app workflows and visual creation also take a major leap forward in Final Cut Pro. Editors can open any image from their timeline directly in Pixelmator Pro, take advantage of advanced editing tools, and save changes back to the project automatically — no reimporting required. With advanced image generation, users can create stunning images from text descriptions right inside their project, apply quick edits, and adjust visual styles.</p>
+</blockquote>
+<p>Admittedly, I'm not currently a big Pixelmator Pro user - but I really need to dig into it deeper.</p>
+<p>Whilst Keynote, Pages, and Numbers all get Model Context Protocol (MCP) support - it seems that Final Cut Pro will have to wait for that - maybe next year.</p>
+<p>Overall, whilst not a particularly surprising update - it's a big one, simply because you get all the MotionVFX content as part of your Apple Creator Studio subscription.</p>
+<p>Of course, the other big news is <strong>hardware</strong>.</p>
+<p><img src="/static/mbp-proled-xdr-01.jpg" alt=""></p>
+<p>You can read Apple's official press release: <a href="https://www.apple.com/au/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/">Apple unveils groundbreaking MacBook Pro with PROLED XDR Display and Touch for the first time on Mac</a>.</p>
+<p><img src="/static/mbp-proled-xdr-02.jpg" alt=""></p>
+<p>Funnily enough, I've been predicted a Mac Touch Screen <a href="/blog/mac-hardware-predictions-death-to-the-mouse/">since 2009</a>!</p>
+<p>I would absolutely LOVE to buy this fully-kitted out MacBook Pro - but oh boy, it's expensive.</p>
+<p><img src="/static/mbp-proled-xdr-03.png" alt=""></p>
+<p>I think I'll be stuck with my trusty <strong>2021 16-inch MacBook Pro (M1 Max, 64GB, 8TB SSD)</strong> for a while to come, haha.</p>
+<p>In other news, I also updated <strong>CorridorKey by LateNite v2</strong>.</p>
+<p><img src="/static/corridorkey-by-latenite-v2.png" alt=""></p>
+<p>It now uses the <a href="https://github.com/nikopueringer/CorridorKey2.0/">CorridorKey 2.0</a> model, which was designed and trained by Zachary Harris, in direct collaboration with Niko &amp; Corridor Digital.</p>
+<p>It brings an Effect directly into Final Cut Pro, as well as a Standalone Editor - optimised for ProRes in and out.</p>
+<p>It has been built and optimised for Apple Silicon Mac's - written in Swift &amp; SwiftUI, built around Metal and MLX.</p>
+<p>If you're working with ProRes or HEVC, it makes use of Apple Silicon's hardware encoders and decoders.</p>
+<p>It uses Apple's Vision Framework to use machine learning to &quot;cut out&quot; any foreground people, to use as a &quot;hint&quot; for CorridorKey. You can also add manual hints.</p>
+<p>It's totally free and open source.</p>
+<p>You can learn more on the <a href="https://corridorkeybylatenite.fcp.cafe">CorridorKey by LateNite website</a>.</p>
+<p><strong>Jumper v2026.10.25</strong> was also a MASSIVE update. It included:</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>Timeline search: search the timeline open in Premiere, Resolve, Avid or FCP. Jumper shows how much of the timeline is analyzed, analyzes only the parts the timeline uses, and clicking a visual or speech match moves the playhead there. Visual and speech search supported.</li>
+<li>Drag visual and speech search results onto the Premiere, Resolve, Avid and FCP timeline. Only the matched range is placed.</li>
+<li>Avid: send a clip’s transcript into Media Composer from the Script panel. It shows up in Avid’s Transcript Tool and PhraseFind AI with its language, speakers and word timings.</li>
+<li>Export transcripts as SRT subtitles or Avid SubCap captions, and export many transcripts at once from the Script Editor.</li>
+<li>People: delete a face collection or a single person, jump from a face to the frame it was found in, and choose a profile picture for each named person.</li>
+<li>Search results: select individual visual results so batch actions (Tag, Add to timeline, Add to project, Export subclips, Copy to clipboard) apply only to those.</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Speech Analysis now transcribes every audio track of multi-track files (e.g. MXF and multi-track MOV), and the channel picker lists the channels of every track.</li>
+<li>Choose where exported subclips are saved.</li>
+<li>Choose face grouping when starting an analysis. The new Auto default keeps an existing collection’s grouping.</li>
+<li>Media tab: new “Reload shared analysis” option picks up analysis that teammates added to a shared Analysis folder.</li>
+<li>Search result card settings are saved separately for each editor, and buttons that don’t fit on a card move into a More menu.</li>
+<li>Summary Analysis and AI agents now see named speakers instead of SPEAKER_00-style IDs.</li>
+<li>Summary Analysis now recommends the Large model on every Mac, since Extra large is much slower.</li>
+<li>Faster media table in large libraries, and imports show real progress bars.</li>
+<li>AI agents can read word-level timings of new transcripts, put far less load on NAS Analysis folders while analyzing, and use Bionic as well as LM Studio for local thumbnail descriptions.</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Tag Collections: fixed other collections being deleted when the tag file couldn’t be read (e.g. a NAS timeout) while creating or sharing a collection.</li>
+<li>Shared Analysis folders: a brief NAS hiccup during a search no longer removes clips from everyone’s searches, a Standard-license machine re-analyzing a clip no longer deletes another machine’s analysis, and naming a speaker no longer erases names saved on another machine.</li>
+<li>People: faces found while the collection file is in use on a network share are kept instead of thrown away, and adding files to a collection no longer resets its grouping or drops names.</li>
+<li>Exported subclips of phone, camera and screen-recording footage now start and end exactly where requested, instead of up to several seconds early.</li>
+<li>Transcript PDF exports now show Japanese, Chinese, Korean, Russian, Greek and other non-Latin text.</li>
+<li>Speech model downloads no longer hang on a stalled connection.</li>
+<li>Avid: fixed media import and linking failures.</li>
+<li>Premiere: fixed the panel plugin failing to install in some setups.</li>
+<li>Agent-built timelines: music with embedded album art now lands on audio tracks, and OTIO import/export handles mixed frame rates in Resolve.</li>
+<li>Plus various minor bug fixes!</li>
+</ul>
+<p>Being able to drag-and-drop from Jumper to the Final Cut Pro timeline is SUPER cool, and something I've wanted in Jumper from day one.</p>
+<p>You can learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
+<p><img src="/static/immersive-event-2026.jpg" alt=""></p>
+<p>In other very exciting news, next week I'll be attending Apple's <strong>Create immersive media experiences for spatial computing</strong> event in Cupertino! 🛫</p>
+<blockquote>
+<p>Throughout the day, you'll hear directly from Apple engineers and designers, and from creators like you. You'll get the latest on visionOS 27 and be among the first to see new tools designed to streamline how you create. Exclusive guest speakers will share the experiences creators are shipping today, and you'll dive into advanced production workflows for Apple Immersive Video. We'll also give you a first look at how to produce Live in Apple Immersive.
+In the afternoon we'll be hosting intimate breakout sessions where you can go deeper on specific technical topics with Apple teams, connect with fellow experienced creators, and get hands-on with advanced workflows and equipment from Apple Immersive technology partners.</p>
+</blockquote>
+<p>You can <a href="https://developer.apple.com/events/view/K4R8XALMM3/dashboard">apply to attend in person</a> and <a href="https://developer.apple.com/events/view/7BV2U53325/dashboard">apply to watch online</a>.</p>
+<p>I'll definitely be posting about it all next week!</p>
+<p>In other news...</p>
+<p>There's been a million updates to the large collection of <a href="https://www.studiomalibu.de/apps/">Studio Malibu Berlin apps</a>:</p>
+<ul>
+<li>Malibu SyncSlate v0.17.21</li>
+<li>SyncScript Pro v1.2.85</li>
+<li>Malibu Meter v1.31</li>
+<li>MalibuMesh v0.1.128</li>
+<li>MalibuBurn v0.3.63</li>
+<li>Malibu Conform v0.1.11</li>
+<li>MalibuClip v2.6.0</li>
+<li>MalibuDictate v0.10.7</li>
+</ul>
+<p><strong>EMUL8 v3 Film Emulation for Final Cut Pro</strong> is out now!</p>
+<blockquote>
+<p>The Film Emulation we always wanted. So we built it.</p>
+<p>If you're looking for a real Dehancer alternative that doesn't slow your Mac down or break the bank, this is it. We've used Dehancer for years. And yes, the looks are solid. But the performance is terrible. The price? Ridiculous. And half the settings are just useless.</p>
+<p>So we built a Film Emulation Plugin for Final Cut Pro that does what matters. Instant results: Cinematic looks with rock-solid color science and the aesthetics of analog film in under 2 minutes.</p>
+<p>Blazing fast performance. At a fraction of the cost of Dehancer.</p>
+<p>Real-time playback with bloom, halation, chromatic aberration, film grain and beautiful film looks. No lagging sliders. No features you don't use anyway.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://cinem8.co/products/film-emulation-for-final-cut-pro-dehancer-alternative">EMUL8 website</a>.</p>
+<p><strong>PostLab 26.2</strong> is out now, and it's a big update! You can read all about it on the <a href="https://hedge.co/blog/postlab-26-2">Hedge blog</a>.</p>
+<p><strong>Doza Cuts</strong> for Final Cut Pro is now on <a href="https://fxfactory.com/info/dozacuts/">FxFactory</a>!</p>
+<p>There's an interesting read over at Pro Video Coalition: <a href="https://www.provideocoalition.com/desert-palms-captured-with-blackmagic-ursa-cine-immersive/">Desert Palms captured with Blackmagic URSA Cine Immersive</a>.</p>
+<p><strong>Sebastian</strong> from <strong>FidelityFuze</strong> writes:</p>
+<blockquote>
+<p>I’ve been quiet, but busy. <strong>Since March, I’ve been building the next major version of FidelityFuze.</strong>
+Version 2.8 never really shipped. I ran into some obstacles along the way, and I’m sorry for leaving you waiting.
+What’s coming has grown quite a bit. More on that soon. 🙂</p>
+<p><strong>A little help with footage</strong>
+For testing and new website examples, I’m looking for original 720p or 1080p footage you’re happy for me to use in public before-and-after comparisons and promotional material.</p>
+<p>Stock footage hasn’t been a great fit. Most of it is already very clean or over-sharpened, and the 720p downloads are usually downsampled from higher resolutions. I’d like to work with the actual limitations of the original recording.</p>
+<p><strong>What would be useful?</strong>
+Nicely composed shots with fine detail, movement, or real low-light noise would be great. Clean footage is welcome too. 5–20 seconds is enough.</p>
+<p>Thank you!</p>
+</blockquote>
+<p>You can jump on the <a href="https://ltnt.tv/discord">FCP Cafe Discord</a> to chat with Sebastian and follow along with <a href="https://www.fidelityfuze.com">FidelityFuze</a>.</p>
+<p><strong>Erik Lindgren</strong> at <strong>Mira Contents</strong> has released <strong>Cutler</strong>, a Mac app that turns Claude or ChatGPT into an assistant editor for Final Cut Pro.</p>
+<blockquote>
+<p><strong>Turn hours of raw footage into an editable Final Cut Pro first cut</strong></p>
+<p>Cutler lets Claude or ChatGPT work through a folder of raw footage the way an assistant editor would. It transcribes everything locally, syncs cameras and separate audio recorders by waveform (no timecode needed), and logs every shot, including soft, dark and shaky takes, from still frames the AI actually looks at.</p>
+<p>The AI then writes a paper edit with a reason for every clip and asks about the judgement calls. Cutler delivers it as a normal Final Cut Pro project on your original media, with keyword collections, roles and native multicam. Every FCPXML is checked against Apple's DTD before Final Cut sees it.</p>
+<p>Cutler runs inside the Claude or ChatGPT plan you already have, through MCP, so there are no credits or API keys.</p>
+</blockquote>
+<p>It's available now for <strong>€25</strong> (founder price for the first 100 licences) as a one-time purchase with no subscription, with a free 7-day trial. It requires an Apple silicon Mac running macOS 14 or later.</p>
+<p>You can learn more on the <a href="https://cutler.miracontents.com">Cutler website</a>.</p>
+<p><strong>Antonio Marogna</strong> at <strong>evrApps</strong> writes:</p>
+<blockquote>
+<p>EVRApps has released Readback Check 1.0, a free, open-source macOS app. It answers a question that matters to anyone who copies camera cards: <strong>when an offload app verifies a copy, does it actually read the data back from the destination device?</strong></p>
+<p><strong>Why it matters</strong></p>
+<p>Verification is what crews rely on before formatting a card, and it's the one step nobody sees working.
+Right after writing, macOS may keep recently written data in its file cache, as much as available memory allows. When an app verifies that data, macOS can satisfy the read from memory instead of requesting it from the destination device. In that case, the app checks the data returned from the cache, not necessarily what was actually stored on the destination.
+This is particularly relevant for the files written last, or when an entire card fits within the available cache. Potential problems with a cable, enclosure, card reader or destination drive may therefore go undetected, until the original card has been formatted.</p>
+<p><strong>How it works</strong></p>
+<p>Readback Check never looks inside the offload app and doesn't rely on what its maker says.
+It measures how many bytes each storage device reads and writes while the app copies a folder of generated test files. It then validates its measurements against two reference-copy tests, designed to distinguish cached reads from reads reaching the destination device.
+A guided test takes a few minutes and ends with a plain answer: the copy was read back from the destination device, it wasn't, or it can't be determined on that device.</p>
+<p><strong>Why open source</strong></p>
+<p>EVRApps also makes offload software, evrExpanse. Readback Check grew out of an internal tool we built to test the verification of evrExpanse's offload module.
+Making it open source lets anyone inspect how it measures, run it with any offload app, and check the results for themselves.
+It doesn't rank or grade apps: a result describes one app, on one device, with one set of settings.</p>
+<p><strong>Key facts</strong></p>
+<ul>
+<li>Free and open source (GPL-3.0)</li>
+<li>macOS 14 or later, Apple silicon and Intel; signed and notarized, nothing else to install</li>
+<li>Works with any offload app</li>
+<li>No data leaves the Mac</li>
+</ul>
+</blockquote>
+<p>You can learn more on <a href="https://github.com/evrApps/ReadbackCheck">GitHub</a>.</p>
+<p><strong>Jan Weiner</strong> writes:</p>
+<blockquote>
+<p>We've released tuu, a Mac app for card offloads that ends in Final Cut Pro – maybe something for FCP Cafe's news:</p>
+<ul>
+<li>Copies each card to the main drive and any number of backups at once, reads every file back (XXH3, optionally MD5/SHA/C4) and writes ASC MHL v2.0 and an offload certificate on every drive.</li>
+<li>Recognizes camera and operator by serial number and sorts cards into a folder template per project.</li>
+<li>Syncs picture and recorder sound by timecode or waveform and creates an FCPXML with the synced clips – also XML for Premiere Pro and Resolve.</li>
+<li>14-day trial with every feature, then tuu Free; subscription $89/year, license $219.</li>
+</ul>
+</blockquote>
+<p>You can learn more on the <a href="https://tuuapp.de">tuu website</a>.</p>
+<p><strong>Alex</strong> at <strong>Praxlane Resources</strong> writes:</p>
+<blockquote>
+<p>I made Presenter Push after we kept rebuilding the same presenter-and-graphic moves for weekly host videos at our midsize church. We wanted something simpler for staff who aren’t deeply trained in Final Cut Pro.</p>
+<p>It’s a native Motion title that moves the presenter aside while a photo or video slides in. There’s a keyframeable push slider, separate zoom and framing controls, and media selectors for each side. It’s $7 once, with no helper app needed. Framing and keyframes are manual; there’s no face tracking.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://payhip.com/b/eHcXp">Presenter Push website</a>.</p>
+<p>And that's it for today. I'm sure there's a billion other things I forgot to include from the last month, so I'll try and update FCP Cafe a bit more regularly towards the end of the year!</p>
+<p>Onwards &amp; Upwards! Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#4th-november-2026</link>
+            <guid isPermaLink="false">4th November 2026</guid>
+            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

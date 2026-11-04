@@ -16,6 +16,10 @@
 
 ---
 
+{{ include "developer-tools-and-frameworks/fxgrip" }}
+
+---
+
 {{ include "developer-tools-and-frameworks/fxkit" }}
 
 ---
