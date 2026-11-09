@@ -158,7 +158,7 @@ That's all for today team! Hopefully tomorrow Apple will approve a bunch of our 
 
 Onwards & Upwards!
 
-[!button text="Discuss this news item" variant="info"](news/20261109/#discuss-this-page)
+[!button text="Discuss this news item" variant="info"](news/20261110/#discuss-this-page)
 
 ---
 
