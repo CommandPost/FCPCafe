@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 04 Nov 2026 10:59:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 19:15:47 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 04 Nov 2026 10:59:53 GMT</pubDate>
+        <pubDate>Mon, 09 Nov 2026 19:15:46 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22489,6 +22489,111 @@ It doesn't rank or grade apps: a result describes one app, on one device, with o
             <link>https://fcp.cafe/#4th-november-2026</link>
             <guid isPermaLink="false">4th November 2026</guid>
             <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10th November 2026]]></title>
+            <description><![CDATA[<p>Greetings from the USA! 🇺🇸</p>
+<p>Yes, this post is from the future, because I'm still working on Australian time.</p>
+<p>I'm currently in Cupertino, for Apple's upcoming <strong>Create immersive media experiences for spatial computing</strong> event later this week.</p>
+<p><img src="/static/chris-san-fran-2026.jpg" alt=""></p>
+<p>I've also got a few exciting app updates in the pipeline - just waiting on Apple's App Review.</p>
+<p><img src="/static/november-app-update.png" alt=""></p>
+<p>I now get HEAPS of emails every day from people writing their own software and website tools using LLMs - it's kinda crazy.</p>
+<p>And because people are now hooking up their emails to LLMs as well, most, if not all those emails are automated.</p>
+<p>Every time someone &quot;vibe codes&quot; an app, they now get their LLM to come up with a marketing and promotion strategy, and because FCP Cafe is an important news site for the Final Cut Pro community - I now get an email.</p>
+<p>Now, I could counter this by getting my own &quot;AI agent&quot; to read all these emails and automate the posting of them on FCP Cafe... but, then what's the point?</p>
+<p>I want FCP Cafe to always remain honest, real, and human. I want it to have an authentic voice, an opinion, and be of real-world use for professional video editors.</p>
+<p>I'd rather miss posting for a few weeks when I'm busy, than have an LLM just post a bunch of stuff pretending to be human.</p>
+<p>In other news...</p>
+<p>Make sure you check out the latest episode of the <strong>Final Cut Grill</strong> on <a href="https://www.youtube.com/watch?v=i5slV2X6emQ">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/watch?v=i5slV2X6emQ"><img src="/static/fcp-grill-228.jpg" alt=""></a></p>
+<p>You can also listen to the old Podcast Episodes on the <a href="https://grill.fcp.cafe">Final Cut Grill website</a>.</p>
+<p><strong>Editor Toolkit 1.0 for SpliceKit</strong> is out now!</p>
+<p><strong>pratap</strong> writes:</p>
+<blockquote>
+<p>Editor Toolkit for SpliceKit: 14 new Final Cut Pro plugins 🎬</p>
+<p>Small native plugins for Final Cut Pro. Most bring over a Resolve habit that Final Cut doesn't have. Grab all of them, a preset, or just the ones you want.</p>
+<p>Download on <a href="https://github.com/ishubhampratap/SpliceKit/releases/tag/editor-toolkit-v1.0.0">GitHub</a>
+How to install: unzip → right-click Install.command → Open → restart Final Cut Pro
+(macOS asks once since it's from the internet. If there's no Open button: System Settings → Privacy &amp; Security → Open Anyway)</p>
+<p><strong>RAW</strong></p>
+<ul>
+<li>RAW Tab: Edit RAW Properties as its own inspector tab</li>
+<li>RAW Multi: change RAW settings on many selected clips at once</li>
+<li>RAW Gyro Presets: one-click gyro stabilisation + a strength dial</li>
+<li>Shortcuts: assign keys to Edit RAW Properties, Toggle Stabilization, Zoom to Fit and more</li>
+</ul>
+<p><strong>Layered timelines (put &quot;lock&quot; in a clip's name)</strong></p>
+<ul>
+<li>Grade Lock: grade layers can't be selected by accident</li>
+<li>Grade Lock Skim: the inspector shows the shot under the grade</li>
+<li>Paste Below Lock: pasted clips land under your grade layers</li>
+<li>Topmost Clip Editing: Blade/Copy hit the top visible clip</li>
+</ul>
+<p><strong>Editing</strong></p>
+<ul>
+<li>Batch Sync Audio: sync many clips to external audio at once</li>
+<li>XML Clips: imported XML clips show up in the browser</li>
+<li>Flip: Flip H/V + Image Orientation in Transform</li>
+</ul>
+<p><strong>Monitoring &amp; workspace</strong></p>
+<ul>
+<li>Playback Frame Rate: live FPS + dropped frames in the viewer</li>
+<li>Workspace Collapse: full-height timeline in a vertical workspace</li>
+<li>Workspace Fix: stops the custom-workspace crash</li>
+</ul>
+<p>Needs an Apple Silicon Mac with SpliceKit already working. Tested on FCP 12.4 / SpliceKit 3.3.9.
+Source + PR on <a href="https://github.com/elliotttate/SpliceKit/pull/100">GitHub</a>.</p>
+</blockquote>
+<p>It's absolutely amazing to see what the editing community is doing with <a href="https://splicekit.fcp.cafe">SpliceKit</a>.</p>
+<p>It's actually really interesting - originally I created CommandPost with the intention of building a community and open platform where ANYONE and EVERYONE could enhance Final Cut Pro.</p>
+<p>However, aside from David Peterson, no one really ever jumped on-board the CommandPost train. Even though we were using <a href="https://commandpost.fcp.cafe/developer/lua-overview/">Lua</a>, which is SUPER fun and easy to code - the bar was too high, and very few people contributed.</p>
+<p>Jump forward to 2026, and still, no one's really contributing to CommandPost. Instead, people are &quot;vibe coding&quot; their own apps that duplicate CommandPost functionality. And because CommandPost is open source, and LLMs have been trained on it's code - it's insanely easy for LLMs to build upon CommandPost's foundations.</p>
+<p>Rather than enhancing CommandPost, and fixing bugs, issues and limitations for the CommandPost community - people are just building their own products - and in most cases attempting to sell them and keep them closed source.</p>
+<p>SpliceKit on the other hand, is instead fostering what CommandPost always intended to do - video editors, without any real coding experience, are enhancing Final Cut Pro in all kinds of complex, weird and wonderful ways.</p>
+<p>SpliceKit has become the open platform, that CommandPost always intended to be, but never really reached.</p>
+<p>And CommandPost has kinda gone the opposite direction - it's still open source, but if you download it from the website, you need to have a paid LateNite app installed.</p>
+<p>My original idea with this was that if I can generate enough income, I can spend more time on CommandPost, but it hasn't really worked out like that so far.</p>
+<p>Ironically, I think if CommandPost to live on, it probably requires a complete re-write in Swift, and actually be closed source.</p>
+<p>Although... now that anyone can build anything they want with LLMs - does CommandPost even need to exist?</p>
+<p>Certainly interesting times!</p>
+<p><a href="https://www.kollaborate.tv">Kollaborate</a> has recently had a big update, adding a bunch of transcription features to significantly improve your captioning workflow.</p>
+<p><strong>Neat Video v6.1.4</strong> is out now. It includes:</p>
+<ul>
+<li>New Apple hardware: support for macOS 27 (Golden Gate) and the latest Apple M5 Ultra &amp; M6 GPUs.</li>
+<li>New Versions of Host Applications: support for Avid Media Composer 2026, Premiere Elements 2027, BorisFX Silhouette 2026, and the latest versions of MAGIX, Mistika, and DIAMANT.</li>
+<li>New Quick/Slow processing option for Premiere: Choose on-the-fly processing for faster hardware, or use the render cache when your hardware can't process the project fast enough.</li>
+<li>Improved stability: a fix for a rare render crash on systems with two or more GPUs, plus GUI improvements.</li>
+</ul>
+<p>You can learn more on the <a href="https://www.neatvideo.com">Neat Video website</a>.</p>
+<p><strong>Anthony Shorten</strong> writes:</p>
+<blockquote>
+<p><strong>Source Cut v1.6 is out, and it's 40% off until 16 Nov</strong></p>
+<p>Source Cut is a small Mac app I built because Final Cut Pro can't batch-export timeline clips with their original camera filenames. Share your timeline to Source Cut and every clip lands as its own file, still named after its camera source. DJI_0042.MOV stays DJI_0042.MOV.</p>
+<p>What it does:
+• Works as a share destination right inside Final Cut, or drop a master export plus its FCPXML onto the app
+• Frame-accurate cuts with no re-encode (passthrough from a ProRes master)
+• Or encode every clip to H.264, HEVC or ProRes at 1080p, 4K or original size
+• Keeps the original camera timecode on every clip
+• Handles on the head and tail
+• Renames on export: prefix, suffix, numbering, tokens like {source}, {seq}, {project}, {date}, and saved presets
+• Relink XML, so your timeline reconnects to the cut clips in Final Cut or Resolve
+• CSV manifest with timeline and source timecodes
+• An .srt caption file for each clip, including from Final Cut's Generate Captions
+• Review copies for client dailies
+• Pre-flight check that warns about missing audio or a codec that can't cut cleanly
+• Handles multicam, compound and synced clips, repeated clips (_2), gaps and transitions
+• Everything stays on your Mac: no account, no upload, no subscription</p>
+<p>New in 1.6: cleaner names when you add a prefix or suffix, because it now puts the underscore in for you.</p>
+<p>It's US$17.99 until 16 Nov (normally US$29.99), and you pay once. Search &quot;Source Cut&quot; on the Mac App Store. Happy to answer questions. The last few releases came straight from editor requests, so tell me what you'd want next.</p>
+</blockquote>
+<p>You can download Source Cut on the <a href="https://apps.apple.com/app/source-cut/id6779178347">Mac App Store</a>.</p>
+<p>That's all for today team! Hopefully tomorrow Apple will approve a bunch of our updates.</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#10th-november-2026</link>
+            <guid isPermaLink="false">10th November 2026</guid>
+            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

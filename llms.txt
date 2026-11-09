@@ -4,7 +4,6 @@
 
 - [Explore LateNite's Tools](https://fcp.cafe/latenite.md): This website has been thrown together by Chris Hocking from LateNite.
 - [Latest News](https://fcp.cafe/readme.md): Latest News
-- [News Archive](https://fcp.cafe/news-archive.md): FCP Cafe is a technical community for professional Final Cut Pro editors.
 - [Deals](https://fcp.cafe/deals.md): This page is dedicated to showcasing the latest deals for Final Cut Pro related tools.
 - [New to Final Cut Pro?](https://fcp.cafe/newbies.md): If you're brand new to Final Cut Pro for Mac or Final Cut Pro for iPad - this is the place for you!
 - [Update Guide](https://fcp.cafe/update-guide.md): All software has bugs, and new updates to software can sometimes have regressions that break features that were working fine in previous versions.
@@ -22,6 +21,13 @@
 - [Credits](https://fcp.cafe/credits.md): FCP Cafe was thrown together by Chris Hocking at LateNite.
 - [Privacy Policy](https://fcp.cafe/privacy.md): Last Updated: Tuesday 12th December 2023
 - [Contribute](https://fcp.cafe/contribute.md): FCP Cafe is entirely open source and hosted on GitHub & CloudFlare Pages.
+
+## News Archive
+
+- [2023 News](https://fcp.cafe/news-archive/2023.md): Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE! Get all of the LateNite Tools on the Mac App Store today!
+- [2024 News](https://fcp.cafe/news-archive/2024.md): Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE! Get all of the LateNite Tools on the Mac App Store today!
+- [2025 News](https://fcp.cafe/news-archive/2025.md): Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE! Get all of the LateNite Tools on the Mac App Store today!
+- [2026 News](https://fcp.cafe/news-archive/2026.md): Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE! Get all of the LateNite Tools on the Mac App Store today!
 
 ## Learn
 

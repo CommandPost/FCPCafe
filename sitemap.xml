@@ -28,9 +28,6 @@
     <loc>https://fcp.cafe/latenite/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/news-archive/</loc>
-  </url>
-  <url>
     <loc>https://fcp.cafe/deals/</loc>
   </url>
   <url>
@@ -94,16 +91,22 @@
     <loc>https://fcp.cafe/blog/year-review-2014-part-1/</loc>
   </url>
   <url>
+    <loc>https://fcp.cafe/news-archive/2023/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/news-archive/2024/</loc>
+  </url>
+  <url>
     <loc>https://fcp.cafe/blog/white-christmas/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/michael-shanks-on-star-wars-podcast/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/star-wars-episode-vii-trailer/</loc>
+    <loc>https://fcp.cafe/blog/48hfp-singapore/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/48hfp-singapore/</loc>
+    <loc>https://fcp.cafe/blog/star-wars-episode-vii-trailer/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/stare-down/</loc>
@@ -155,6 +158,9 @@
   </url>
   <url>
     <loc>https://fcp.cafe/blog/fcpx-rant/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/news-archive/2026/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/documentary-translation-workflow/</loc>
@@ -352,6 +358,12 @@
     <loc>https://fcp.cafe/blog/filmapalooza-2010/</loc>
   </url>
   <url>
+    <loc>https://fcp.cafe/bugtracker/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/news-archive/2025/</loc>
+  </url>
+  <url>
     <loc>https://fcp.cafe/blog/elite-squad-2-the-enemy-within/</loc>
   </url>
   <url>
@@ -359,9 +371,6 @@
   </url>
   <url>
     <loc>https://fcp.cafe/blog/the-greatest-movie-ever-sold/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/bugtracker/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/a-quiet-life/</loc>
@@ -421,16 +430,16 @@
     <loc>https://fcp.cafe/blog/live-read-aftermath/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/the-end-of-the-beginning/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/blog/and-fade-out/</loc>
-  </url>
-  <url>
     <loc>https://fcp.cafe/update-guide/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/fcp-creative-summit/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/blog/the-end-of-the-beginning/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/blog/and-fade-out/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/photos-from-the-live-script-read/</loc>
@@ -493,12 +502,6 @@
     <loc>https://fcp.cafe/blog/and-so-the-adventures-begins/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/synopsis/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/blog/the-disappearance-of-alice-creed/</loc>
-  </url>
-  <url>
     <loc>https://fcp.cafe/newbies/</loc>
   </url>
   <url>
@@ -523,10 +526,13 @@
     <loc>https://fcp.cafe/ipad/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/accessibility/</loc>
+    <loc>https://fcp.cafe/camera-formats/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/camera-formats/</loc>
+    <loc>https://fcp.cafe/blog/synopsis/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/blog/the-disappearance-of-alice-creed/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/failure-is-an-option-fear-is-not/</loc>
@@ -592,10 +598,13 @@
     <loc>https://fcp.cafe/blog/post-production-workflow/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/first-public-screenings/</loc>
+    <loc>https://fcp.cafe/accessibility/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/contribute/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/blog/first-public-screenings/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/done-done/</loc>
@@ -724,13 +733,13 @@
     <loc>https://fcp.cafe/blog/clean-linen/</loc>
   </url>
   <url>
-    <loc>https://fcp.cafe/blog/crossbow/</loc>
-  </url>
-  <url>
     <loc>https://fcp.cafe/credits/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/blog/crossbow/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/blog/day-watch/</loc>
