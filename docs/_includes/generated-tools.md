@@ -80,6 +80,10 @@
 
 ---
 
+{{ include "tools/cutler" }}
+
+---
+
 ## D
 
 {{ include "tools/detail-video-studio" }}
@@ -130,6 +134,10 @@
 
 ---
 
+{{ include "tools/fcp2aaf" }}
+
+---
+
 {{ include "tools/fcpx-autoduck" }}
 
 ---
@@ -139,6 +147,10 @@
 ---
 
 {{ include "tools/findrcat" }}
+
+---
+
+{{ include "tools/firstcut" }}
 
 ---
 
