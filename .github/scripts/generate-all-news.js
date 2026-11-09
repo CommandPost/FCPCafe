@@ -2,80 +2,35 @@ const fs   = require('fs');
 const path = require('path');
 
 const directoryPath       = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/news');
-const sponsorsPath        = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/sponsors');
 const outputFile          = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/generated-all-news.md');
 const newsOutputDirectory = path.join(process.env.GITHUB_WORKSPACE, 'docs/news');
+const archiveDirectory    = path.join(process.env.GITHUB_WORKSPACE, 'docs/news-archive');
 
 try {
-    // 1) Read and sort sponsor files
-    const sponsorFiles = fs
-      .readdirSync(sponsorsPath)
-      .filter(file => path.extname(file) === '.md')
-      .sort();
+    fs.mkdirSync(archiveDirectory, { recursive: true });
 
-    // 2) Scan the “news include” directory
+    // Scan the daily news sources.
     fs.readdir(directoryPath, function (err, files) {
         if (err) {
             throw new Error('Unable to scan directory: ' + err);
         }
 
-        // Filter only .md, sort descending (latest first)
+        // Sort dates chronologically so each archive runs January to December.
         const mdFiles = files
-          .filter(file => path.extname(file) === '.md')
-          .sort()
-          .reverse();
+          .filter(file => /^\d{8}\.md$/.test(file))
+          .sort();
 
-        let outputContent  = '';
-        let currentYear    = '';
+        const archivePages = new Map();
         let currentMonth   = '';
         const monthNames   = [
             'January', 'February', 'March', 'April', 'May', 'June',
             'July', 'August', 'September', 'October', 'November', 'December'
         ];
-        let sponsorIndex   = 0;
 
-        mdFiles.forEach((file, index) => {
+        mdFiles.forEach(file => {
             const date        = file.replace('.md', '');              // e.g. "20230526"
             const year        = date.slice(0, 4);                     // "2023"
             const month       = monthNames[parseInt(date.slice(4, 6), 10) - 1]; // "May"
-
-            // ─────────────────────────────────────────────────────────────────────────────
-            // (A) BUILD “generated-all-news.md” (the long page that lists every news item)
-            // ─────────────────────────────────────────────────────────────────────────────
-
-            // 1. Insert a new year header if needed
-            if (year !== currentYear) {
-                outputContent += `# ${year}\n`;
-                currentYear = year;
-                // Whenever the year changes, reset the month tracker
-                currentMonth = '';
-            }
-
-            // 2. Insert a new month header if needed
-            if (month !== currentMonth) {
-                outputContent += `## ${month}\n\n`;
-                currentMonth = month;
-            }
-
-            // 3. Include the entire file via Retype’s include syntax, then a “Discuss” button, then a separator
-            outputContent += `{{ include "news/${date}" }}\n\n`;
-            outputContent += `[!button text="Discuss this news item" variant="info"](news/${date}/#discuss-this-page)\n\n`;
-            outputContent += `---\n\n`;
-
-            // 4. Rotate through sponsors
-            if (sponsorFiles.length > 0) {
-                if (index === 0) {
-                    // Show sponsorFiles[0] once at the very top
-                    outputContent += `{{ include "sponsors/${sponsorFiles[0]}" }}\n\n---\n\n`;
-                } else {
-                    sponsorIndex = (sponsorIndex % (sponsorFiles.length - 1)) + 1;
-                    outputContent += `{{ include "sponsors/${sponsorFiles[sponsorIndex]}" }}\n\n---\n\n`;
-                }
-            }
-
-            // ─────────────────────────────────────────────────────────────────────────────
-            // (B) BUILD THE “DAILY” PAGE: docs/news/YYYYMMDD.md (one file per day)
-            // ─────────────────────────────────────────────────────────────────────────────
 
             // Extract day-of-month and turn it into an ordinal suffix:
             const newsYear  = date.slice(0, 4);                                   // "2023"
@@ -87,6 +42,33 @@ try {
             else if (newsDay % 10 === 3 && newsDay !== 13) suffix = 'rd';
 
             const formattedDateLabel = `${newsDay}${suffix} ${newsMonth} ${newsYear}`;
+
+            // (A) Build a lightweight yearly archive linking to the daily pages.
+            if (!archivePages.has(year)) {
+                archivePages.set(year, `---
+label: "${year}"
+icon: calendar
+image: /static/thumbnail.jpg
+---
+
+# ${year} News
+
+{{ include "hero-sponsor" }}
+
+---
+`);
+                currentMonth = '';
+            }
+
+            let archiveContent = archivePages.get(year);
+            if (month !== currentMonth) {
+                archiveContent += `\n## ${month}\n\n`;
+                currentMonth = month;
+            }
+            archiveContent += `- [${formattedDateLabel}](/news/${date})\n`;
+            archivePages.set(year, archiveContent);
+
+            // (B) Build the daily page: docs/news/YYYYMMDD.md.
             const dailyOutputFile    = path.join(newsOutputDirectory, `${date}.md`);
 
             // Build frontmatter for the daily page
@@ -170,7 +152,17 @@ image: /static/thumbnail.jpg
             });
         });
 
-        // Finally, write the “generated‐all‐news.md” index
+        // Write each year page and keep the old archive URL as a small year index.
+        for (const [year, content] of archivePages) {
+            const archiveFile = path.join(archiveDirectory, `${year}.md`);
+            fs.writeFileSync(archiveFile, content + '\n---\n\n{{ include "advertise-banner" }}\n');
+            console.log(`Successfully written yearly archive: ${archiveFile}`);
+        }
+
+        const outputContent = Array.from(archivePages.keys())
+            .map(year => `- [${year} News](/news-archive/${year})`)
+            .join('\n') + '\n';
+
         try {
             fs.writeFileSync(outputFile, outputContent);
             console.log(`Successfully written to index file: ${outputFile}`);

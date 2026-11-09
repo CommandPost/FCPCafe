@@ -4,6 +4,8 @@
 
 ---
 
+Browse the news by year:
+
 {{ include "generated-all-news" }}
 
 ---

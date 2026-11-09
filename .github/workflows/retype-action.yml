@@ -60,7 +60,7 @@ jobs:
       - name: Generate Latest News Markdown
         run: node .github/scripts/generate-latest-news.js
 
-      - name: Generate All News Markdown
+      - name: Generate News Pages and Yearly Archives
         run: node .github/scripts/generate-all-news.js
 
       - name: Generate Workflow Extensions Markdown
@@ -114,7 +114,7 @@ jobs:
           echo "Checking for changes to commit..."
           git status
           echo "Adding changes..."
-          git add -A docs/news/* docs/_includes/* docs/rss.xml
+          git add -A docs/news/* docs/news-archive/ docs/_includes/* docs/rss.xml
           git status
           echo "Committing changes..."
           git commit -m "Update Generated Markdown Files" || echo "No changes to commit"
