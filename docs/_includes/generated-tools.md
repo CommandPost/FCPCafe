@@ -200,6 +200,10 @@
 
 ## O
 
+{{ include "tools/octuedit" }}
+
+---
+
 {{ include "tools/offshoot" }}
 
 ---
