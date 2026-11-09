@@ -157,6 +157,8 @@ jobs:
           verbose: true
         env:
           RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
+          # Work around Retype 4.6.0's concurrent file-copy cache corruption.
+          DOTNET_PROCESSOR_COUNT: "1"
 
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
