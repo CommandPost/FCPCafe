@@ -1,9 +1,9 @@
 # 2026
 ## November
 
-{{ include "news/20261109" }}
+{{ include "news/20261110" }}
 
-[!button text="Discuss this news item" variant="info"](news/20261109/#discuss-this-page)
+[!button text="Discuss this news item" variant="info"](news/20261110/#discuss-this-page)
 
 ---
 
