@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 16:00:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 15:58:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Nov 2026 16:00:41 GMT</pubDate>
+        <pubDate>Wed, 11 Nov 2026 15:58:55 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22677,8 +22677,7 @@ Source + PR on <a href="https://github.com/elliotttate/SpliceKit/pull/100">GitHu
 <li>Quitting while a new Analysis folder is loading no longer saves the search index into the wrong folder.</li>
 </ul>
 <p>You can learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper website</a>.</p>
-<p>In other news <strong>Jeff Roy</strong> reports:
-·</p>
+<p>In other news <strong>Jeff Roy</strong> reports:</p>
 <blockquote>
 <p><strong>macOS 27.2</strong> bug affecting .fcpbundle files on NTFS servers.</p>
 <p>Most of you probably were not affected by this, but I was. In <strong>macOS 27.2</strong> there was a bug that prevented you from copying <code>.fcpbundle</code> files from a SMB server to any other volume. It also prevented you from changing the extension or zipping it. I don’t know if this affected other server formats, but ours is NTFS and I tested it on eight different Macs. The <strong>macOS 27.1</strong> devices and earlier were not impacted.
