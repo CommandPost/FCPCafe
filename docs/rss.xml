@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 15:58:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 17:07:18 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Nov 2026 15:58:55 GMT</pubDate>
+        <pubDate>Wed, 11 Nov 2026 17:07:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22695,6 +22695,132 @@ I’m happy to report that today’s <strong>macOS 27.2.1</strong> update fixed 
             <link>https://fcp.cafe/#11th-november-2026</link>
             <guid isPermaLink="false">11th November 2026</guid>
             <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12th November 2026]]></title>
+            <description><![CDATA[<p>Today's the day! <strong>BRAW Toolbox v4.0.0 (Build 109)</strong> is out today! 🥳</p>
+<p><img src="/static/braw-v4-enabled.png" alt=""></p>
+<p>I'll be demoing this at Apple's <strong>Create immersive media experiences for spatial computing</strong> event today at the Apple Developers Centre in Cupertino.</p>
+<p>You can watch the live stream of the event on <a href="https://www.youtube.com/live/iDbHBdI7nq0">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/live/iDbHBdI7nq0"><img src="/static/apple-live-stream.jpg" alt=""></a></p>
+<p>I've been working on this since the start of July.</p>
+<p>63,070 lines of code were added, 4,069 lines of code were removed.</p>
+<p>We did 19 TestFlight builds.</p>
+<p>This is a MASSIVE update - because BRAW Toolbox now has a <strong>Vision Pro</strong> app!</p>
+<p><img src="/static/vision-pro-playback.png" alt=""></p>
+<p>The Blackmagic URSA Cine Immersive camera shoots <code>16320x7200</code> at <code>90fps</code> - so that's a LOT of data to handle.</p>
+<p>I wasn't sure streaming to Vision Pro would even be remotely possible - but after a lot of work... it is.</p>
+<p><img src="/static/braw-player-immersive.png" alt=""></p>
+<p>The release notes explain:</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>We've added a Vision Pro app! You can now stream Blackmagic URSA Cine Immersive clips from the BRAW Player and Final Cut Pro to your Vision Pro via Wifi and with the Developer Strap.</li>
+<li>We've added a new Quick Look extension, allowing you to better preview Blackmagic RAW clips in Finder. It includes an Immersive view and Debayer controls.</li>
+<li>We've added new Immersive Tools! <strong>Batch Export</strong> allows you to convert multiple Blackmagic URSA Cine Immersive clips into Apple Immersive Video Universal files that you can AirDrop to your Apple Vision Pro.</li>
+<li>The <strong>Compressor</strong> Immersive Tool allows you to create dual-track ProRes files that you can use in Apple's Compressor or Colorfront Immersive Utility.</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>We've made various under-the-hood improvements to improve playback performance of the Media Extension. Thanks pratap!</li>
+<li>We've made various user interface improvements to make the BRAW Toolbox application more user friendly. Thanks for your feedback Iain Anderson!</li>
+<li>Updated from Blackmagic RAW SDK v5.1 to v6.0. Thanks Blackmagic team for all your amazing work and the new APIs!</li>
+<li>Added support for Blackmagic Generation 6 Color Science.</li>
+<li>Blackmagic URSA Cine Immersive clips in the Media Extension now display side-by-side with a QR code containing the camera identifier, so that the matching Immersive Lens Profile Data can be matched.</li>
+<li>We've improved the Immersive Transitions. There's now a checkbox in the Final Cut Pro Transition Inspector so you can globally enable and disable the transition rendering - so you can preview the transition in Final Cut Pro, and disable it in one click for exporting. You can also now Dip to Color.</li>
+<li>We've added a Static Foveation option to the Final Cut Pro Immersive Tool.</li>
+<li>The Media Extension now supports more than two audio tracks. Thanks for reporting Anthony Joey L!</li>
+</ul>
+<p><img src="/static/vision-pro-connect.png" alt=""></p>
+<p>The Quick Look extension is also going to be incredibly handy for Immersive creators!</p>
+<p><img src="/static/quick-look-immersive.png" alt=""></p>
+<p>Back on <a href="/news/20241113/">13th November 2024</a>, at the Final Cut Pro Creative Summit, Bill Davis announced that Blackmagic would be adding official support for Blackmagic RAW to Final Cut Pro.</p>
+<p>This is something I always knew that was coming - and once it happened, that would basically be the end to BRAW Toolbox.</p>
+<p>However, jump forward to today, and it's CRAZY to be back in Cupertino, having Tim Dashwood showcase BRAW Toolbox to the world. 🤯</p>
+<p>BRAW Toolbox has come a long back since 2024, and a heck of a long way since the first public beta back in 23rd December 2022.</p>
+<p>The original version of BRAW Toolbox was a bit hacky - using an FxPlug Effect to trick Final Cut Pro from reading BRAW.</p>
+<p>The Media Extension makes everything a lot more official and a lot more simple. Blackmagic RAW now just feels native in Final Cut Pro.</p>
+<p><img src="/static/fcp-side-by-side.png" alt=""></p>
+<p>But to get Immersive content from Final Cut Pro to Vision Pro - that also required some similar out-of-the-box thinking.</p>
+<p>To solve this, the Media Extension encodes the Immersive content as side-by-side, and puts a QR code in the bottom left with the Blackmagic camera's unique identifier.</p>
+<p>This QR code allows us to match the live video content (playing from Final Cut Pro's A/V Output), with the Lens Profile Data (which is baked into the BRAW files).</p>
+<p>So now, when you stream from Final Cut Pro to Vision Pro, the Vision Pro can use this Lens Profile Data (which is unique to each camera - and calibrated at manufacturing time using robots) to accurately display the Immersive content.</p>
+<p>Up until today the only way to really edit Immersive content was with Blackmagic DaVinci Resolve - but now, thanks to BRAW Toolbox, you can finally use Final Cut Pro. 🥳</p>
+<p>You can download <strong>BRAW Toolbox v4.0.0 (Build 109)</strong> from the Mac App Store today. BRAW Toolbox continues to be a one-time purchase, with no upgrade fee if you already own BRAW Toolbox.</p>
+<p>The Vision Pro application is included with the Mac application - there's no additional cost.</p>
+<p>HUGE THANK YOU to everyone that helped make BRAW Toolbox v4 happen! There was a lot of help behind the scenes with testing, as I'm totally new to this Immersive world.</p>
+<p>You can learn more on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+<p>There's a section on the website for <a href="https://brawtoolbox.fcp.cafe/immersive/">Immersive &amp; Vision Pro</a> explaining things in more detail.</p>
+<p>And whilst this is the main exciting news for today, I also wanted to share a sneak peak.</p>
+<p>Over the last few days, whilst I've been in Cupertino, I've been thinking a lot about CommandPost, and also chatting to a lot of very enthusiastic CommandPost users.</p>
+<p>To be honest, I've been a little unsure about what to do with CommandPost, and how much time I should spend on it.</p>
+<p>But after chatting to a bunch of people that really love and depend on CommandPost for their day-to-day editing work, I decided to start working on <strong>CommandPost v3.0.0</strong>.</p>
+<p>One of my big goals for CommandPost has to always been to get it on the Mac App Store. Last year I tried a heap of things to make this happen, but App Review simply made it too hard.</p>
+<p>I'm HOPING that with CommandPost v3, that I might FINALLY be able to bring it to the Mac App Store.</p>
+<p>This is a MASSIVE mission, and I'm sure App Review will put up many roadblocks - but it's something I've always wanted to do.</p>
+<p>CommandPost v3 will be a complete re-write and re-design - all written entirely in Swift and Swift UI.</p>
+<p>Over the years, a lot of people have taken ideas from CommandPost and released new products.</p>
+<p>For example, Dylan's <a href="https://fcbplugins.com/b/drophawkpro">DropHawk Pro</a> makes CommandPost's watch folders redundant.</p>
+<p><a href="https://www.youtube.com/watch?v=0UtDuvGeoLA"><img src="/static/drophawk-pro-youtube.jpg" alt=""></a></p>
+<p>Knut's <a href="https://www.studiomalibu.de/apps/syncscript-pro">ScriptSync Pro</a> makes a lot of CommandPost's Toolbox's redundant.</p>
+<p><img src="/static/05-keywords-timeline.webp" alt=""></p>
+<p>So, the focus of CommandPost v3 will really be on:</p>
+<ul>
+<li>Deep Control Surface Support</li>
+<li>Deep Automation Controls</li>
+<li>Deep Integration with Final Cut Pro</li>
+<li>Deep MCP Support</li>
+</ul>
+<p>Whilst CommandPost v3 will never be able to do all the INSANE things that <a href="https://splicekit.fcp.cafe">SpliceKit</a> can do, CommandPost can continue to be the tool that people use to automate Final Cut Pro, without having to mess with it's insides.</p>
+<p>The idea is that CommandPost v3 will continue to be the most powerful tool for controlling and automating Final Cut Pro.</p>
+<p>Of course, people will still be able to use CommandPost v3 to control other applications, and we may add deeper support for other applications in the future - but the main focus will be on good old Final Cut Pro.</p>
+<p>Here's a quick sneak peak at the initial ideas for the re-design (subject to change of course!):</p>
+<p><img src="/static/commandpost-v3-01.png" alt=""></p>
+<p><img src="/static/commandpost-v3-02.png" alt=""></p>
+<p><img src="/static/commandpost-v3-03.png" alt=""></p>
+<p><img src="/static/commandpost-v3-04.png" alt=""></p>
+<p>If you have any ideas, comments or suggestions, let me know!</p>
+<p>In other news...</p>
+<p><strong>Strada</strong> is also here in Cupertino, and they're also releasing a Vision Pro application!</p>
+<p><img src="/static/strada-vision-pro.png" alt=""></p>
+<p>I've tested this Vision Pro app, and it's AWESOME. I can literally watch Blackmagic RAW clips that are sitting on my Mac Studio in the office back in Australia, from a Cupertino hotel room. INSANE.</p>
+<p>You can learn more on the <a href="https://strada.tech/visionpro">Strada website</a>.</p>
+<p>Sticking with our Immersive trend, the amazing <strong>Hugh Hou</strong> writes:</p>
+<blockquote>
+<p>Monitor and control a URSA Cine Immersive from inside Apple Vision Pro.</p>
+<p>Wired to a MacBook Pro. No Wi-Fi, no NDI, no expensive setup!</p>
+<p>This is the new <strong>Spatial Film Live Camera v2.0</strong></p>
+<p>URSA Cine Immersive → 12G-SDI → MacBook Pro → Apple Vision Pro, wired with Apple's Developer Strap (or wireless with WiFi 6)</p>
+<p>What the director sees is the final format: correct 3D 180 Apple Immersive Video, built from the camera's own lens profile and streamed at up to 80 Mbps. No STMap to build and no converter in the chain.</p>
+<p>From the headset, you can change ISO, shutter, white balance and ND, roll the camera, and instant replay the last take in 3D 180 Apple Immersive Video format.</p>
+<p>Then there is progressive immersion. The director watches the immersive frame and still sees the talent and the real set. A true mixed reality directing experience.</p>
+<p>Spatial Film Live Camera on VisionOS and our new desktop livestream app Spatial Film AirStream are FREE. From one filmmaker to another! We love the immersive filmmaking community and are willing to share our knowledge to help everyone to succeed!</p>
+</blockquote>
+<p>You can watch him explain on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=jdz6AjiDxwo"><img src="/static/hugh-hou-vision-pro-stream.jpg" alt=""></a></p>
+<p><strong>CoreMelt</strong> has released a bunch of <strong>free</strong> assets online, and are putting up new ones every week!</p>
+<p>You can download Motion Templates, USDZ 3D Models and LUT files, from the <a href="https://coremelt.com/pages/coremelt-free-assets-for-final-cut-pro">CoreMelt website</a>.</p>
+<p>Also, all their <a href="https://coremelt.com/collections/5-packs">5 Pack's</a> are currently free too!</p>
+<p>Everything's been <a href="https://coremelt.com/blogs/news/coremelt-information-on-macos-27-golden-gate-and-final-cut-pro-12-4">tested and confirmed compatible</a> with macOS 27 Golden Gate and Final Cut Pro 12.4.</p>
+<p>The <strong>Doza</strong> team writes:</p>
+<blockquote>
+<p><strong>Doza Assist v1.1.15</strong> is out. It transcribes your interviews, finds the best moments and sends them to Final Cut Pro.</p>
+<p>What's new:</p>
+<ul>
+<li>Simpler layout</li>
+<li>Faster chat</li>
+<li>Soundbite and story finder is smarter</li>
+<li>Works with Claude and ChatGPT over MCP, so your assistant can read a transcript and pull selects for you</li>
+</ul>
+<p>We also launched <a href="https://doza.ai/cuts/">Doza Cuts</a>. It switches your multicam podcast or interview to whoever is talking and hands back a live multicam in Final Cut Pro.</p>
+<p><a href="https://doza.ai/final-cut-pro-mcp/">Free guide</a> on the MCP workflow.</p>
+<p><a href="https://doza.ai/changelog/1.1.15/">Release notes</a>.</p>
+<p>The direct download updates in the app, and the FxFactory version of Doza Assist is on its way.</p>
+</blockquote>
+<p>That's it for today! Tomorrow I'll be posting stories from Apple's Immersive Event! Stay tuned.</p>
+]]></description>
+            <link>https://fcp.cafe/#12th-november-2026</link>
+            <guid isPermaLink="false">12th November 2026</guid>
+            <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
