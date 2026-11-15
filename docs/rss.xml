@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 17:07:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 01:42:32 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Nov 2026 17:07:17 GMT</pubDate>
+        <pubDate>Fri, 13 Nov 2026 01:42:32 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22821,6 +22821,42 @@ I’m happy to report that today’s <strong>macOS 27.2.1</strong> update fixed 
             <link>https://fcp.cafe/#12th-november-2026</link>
             <guid isPermaLink="false">12th November 2026</guid>
             <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13th November 2026]]></title>
+            <description><![CDATA[<p>Today's my last day in sunny Cupertino - I fly back to Melbourne tonight. 🛫</p>
+<p>Apple's <strong>Create immersive media experiences for spatial computing</strong> event yesterday was absolutely fantastic.</p>
+<p>You can watch the recording of the event on <a href="https://www.youtube.com/live/iDbHBdI7nq0">YouTube</a>:</p>
+<p><a href="https://www.youtube.com/live/iDbHBdI7nq0"><img src="/static/apple-live-stream.jpg" alt=""></a></p>
+<p>Thanks to EVERYONE at the event that came up to me to get a demo of <strong>BRAW Toolbox v4</strong>!</p>
+<p><img src="/static/chris-immersive-demo.jpg" alt=""></p>
+<p>You can read more about BRAW Toolbox v4 on <a href="/news/20261112/">yesterday's post</a>, and on the <a href="https://brawtoolbox.fcp.cafe">BRAW Toolbox website</a>.</p>
+<p><img src="/static/chris-immersive-demo-02.jpg" alt=""></p>
+<p>It was actually amazing, and kinda surprising how many people came up to me and told me they love cutting in Final Cut Pro.</p>
+<p><img src="/static/chris-immersive-demo-03.jpg" alt=""></p>
+<p>The biggest news of the event was without a doubt the new B.A.M - <strong>Blackmagic Ambisonic Microphone</strong>. 💥</p>
+<p><img src="/static/bam.png" alt=""></p>
+<p>I got to see it up close, and it looks AWESOME.</p>
+<p>More importantly though, it sounds AMAZING.</p>
+<p><img src="/static/chris-and-bam.jpg" alt=""></p>
+<p>Designed and built by Australian's - so cool. 🦘</p>
+<p>You can download the <strong>Blackmagic Ambisonic Recorder</strong> on the <a href="https://www.blackmagicdesign.com/products/blackmagicambisonic">Blackmagic website</a> to hear what it sounds like on Apple AirPods.</p>
+<p>If you drag this sample file into Final Cut Pro, you'll just get the 64 mono tracks.</p>
+<p>The amazing <strong>Hugh Hou</strong> has posted an awesome video titled: <a href="https://www.youtube.com/watch?v=L8MTyqy6erE">Blackmagic Ambisonic Microphone: 108 Mics, 7th Order Spatial Audio for Apple Immersive</a></p>
+<p><a href="https://www.youtube.com/watch?v=L8MTyqy6erE"><img src="/static/hugh-hou-bam-youtube.jpg" alt=""></a></p>
+<p><strong>Strada</strong> was on the table next to me - again, you can learn more about their new Vision Pro app on <a href="https://strada.tech/visionpro">their website</a>.</p>
+<p><img src="/static/strada-vision-pro.png" alt=""></p>
+<p>I've played around with the Vision Pro app, and it's insanely impressive.</p>
+<p><strong>Colorfront</strong> was also on a table next to me demoing the awesome <strong>Colorfront Immersive Utility</strong>.</p>
+<p>You can buy the Colorfront Immersive Utility on the <a href="https://apps.apple.com/app/colorfront-immersive-utility/id6758009531">Mac App Store</a>.</p>
+<p>Aside from BRAW Toolbox there wasn't really any other Final Cut Pro news yesterday.</p>
+<p>My experiments with <strong>CommandPost v3</strong> continue! Once I get back to Australia I'll start testing with different control surfaces.</p>
+<p>That's all for today team! Chat again when I'm back down under.</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#13th-november-2026</link>
+            <guid isPermaLink="false">13th November 2026</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
