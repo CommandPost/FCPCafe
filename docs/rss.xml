@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 13 Nov 2026 01:42:32 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 00:11:33 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Nov 2026 01:42:32 GMT</pubDate>
+        <pubDate>Sun, 15 Nov 2026 00:11:32 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22857,6 +22857,57 @@ I’m happy to report that today’s <strong>macOS 27.2.1</strong> update fixed 
             <link>https://fcp.cafe/#13th-november-2026</link>
             <guid isPermaLink="false">13th November 2026</guid>
             <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[15th November 2026]]></title>
+            <description><![CDATA[<p>Greetings from Melbourne, Australia! 🇦🇺</p>
+<p>I'm back down under, after an amazing week in Cupertino!</p>
+<p><strong>CommandPost v3</strong> is now full steam ahead. 🥳</p>
+<p>Here's a sneak peak of what I'm currently working on:</p>
+<p><img src="/static/commandpost-v3-05.png" alt=""></p>
+<p><img src="/static/commandpost-v3-06.png" alt=""></p>
+<p><img src="/static/commandpost-v3-07.png" alt=""></p>
+<p><img src="/static/commandpost-v3-08.png" alt=""></p>
+<p>I'll continue to work over this over the coming weeks and months, and hopefully push to TestFlight in the not-so-distant future.</p>
+<p>In other news...</p>
+<p>There's a new kid on the block... introducing *<em>Density</em>.</p>
+<blockquote>
+<p>Grade groups instead of single clips, set up a whole timeline in one go, and finish with a film look you can keep shaping. All inside Final Cut Pro, no round trip to Resolve. Try Density free.</p>
+</blockquote>
+<p>I haven't played with it yet - but it looks interesting.</p>
+<p>You can learn more on the <a href="https://density.film">Density website</a>.</p>
+<p><strong>Watch Import v1.4.1</strong> is out now with the following improvements:</p>
+<ul>
+<li>New Help menu item to prepare diagnostic flies for support</li>
+</ul>
+<p>You can learn more on the <a href="https://apps.apple.com/app/watch-import/id6805610470">Mac App Store</a>.</p>
+<p><strong>GPS to FCP Converter v1.4.1</strong> is out now with the following improvements:</p>
+<ul>
+<li>Faster and more accurate for long recordings</li>
+<li>Long recordings spanning several hours now export reliably, and maps and videos render much faster.</li>
+<li>More accurate data: GPS outliers are filtered out, and speed, distance and elevation gain are more realistic and consistent across maps and overlays.</li>
+<li>Smoother track line with clean colour transitions.</li>
+<li>Overlays are exported as HEVC with transparency: files up to 90x smaller, faster rendering, and the same size and position in Final Cut Pro as before.</li>
+</ul>
+<p>You can learn more on the <a href="https://apps.apple.com/app/gps-to-fcp-converter/id6772071749">Mac App Store</a>.</p>
+<p><strong>ATEM to FCP v1.6.3</strong> is out now with the following improvements:</p>
+<ul>
+<li>Added a complete in-app User Guide with searchable Help.</li>
+<li>Added quick access to the product website and Terms &amp; Privacy.</li>
+<li>Updated documentation and improved overall reliability.</li>
+</ul>
+<p>You can learn more on the <a href="https://apps.apple.com/app/atem-to-fcp/id6760610577">Mac App Store</a>.</p>
+<p><strong>Worx4 X v1.3.12</strong> is out now with the following improvements:</p>
+<ul>
+<li>Built with support for ARM64 chips.</li>
+<li>Support for FCP XML 1.14.</li>
+</ul>
+<p>You can learn more on the <a href="https://apps.apple.com/app/worx4-x/id1195903030">Mac App Store</a>.</p>
+<p>That's it for today. Chat later! 👋</p>
+]]></description>
+            <link>https://fcp.cafe/#15th-november-2026</link>
+            <guid isPermaLink="false">15th November 2026</guid>
+            <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
