@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sun, 15 Nov 2026 00:11:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2026 04:36:55 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 15 Nov 2026 00:11:32 GMT</pubDate>
+        <pubDate>Mon, 16 Nov 2026 04:36:54 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22908,6 +22908,28 @@ I’m happy to report that today’s <strong>macOS 27.2.1</strong> update fixed 
             <link>https://fcp.cafe/#15th-november-2026</link>
             <guid isPermaLink="false">15th November 2026</guid>
             <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[16th November 2026]]></title>
+            <description><![CDATA[<p>It's that crazy time of year already!</p>
+<p><strong>BretFX</strong> is having a Black Friday sale:</p>
+<blockquote>
+<p>Act now and save 81% on the Everything Bundle lifetime license, or 50% off individual product lifetime licenses at BretFX.com!</p>
+</blockquote>
+<p>You can learn more at <a href="https://www.bretfx.com">BretFX</a>.</p>
+<p>So is <strong>uncompressed.io</strong>:</p>
+<blockquote>
+<p><a href="https://uncompressed.io">uncompressed.io</a> hosts, reviews and delivers films, with an extension that works inside Final Cut Pro.</p>
+<p>You can get <strong>30% off</strong> every yearly plan of <a href="https://uncompressed.io/black-friday">uncompressed.io</a>, film hosting, client review and delivery with an extension for Final Cut Pro. The 30% stays at every renewal while you stay subscribed. No code needed, from November 23 (12:01 am Eastern) to November 30, 2026 (11:59 pm Eastern).</p>
+</blockquote>
+<p>I'm sure there'll be a billion others, so will post more as they hit our inbox.</p>
+<p>Just to set expectations, all <a href="https://fcp.cafe/latenite/">LateNite's apps</a> will remain their usual pricing for this crazy November.</p>
+<p>However, <a href="https://metaburner.fcp.cafe">Metaburner</a> will be discounted on FxFactory during their sale.</p>
+<p>Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#16th-november-2026</link>
+            <guid isPermaLink="false">16th November 2026</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -142,6 +142,10 @@
 
 ---
 
+{{ include "tools/fcpx-headstart" }}
+
+---
+
 {{ include "tools/fcs-remover" }}
 
 ---
@@ -247,6 +251,10 @@
 ---
 
 ## R
+
+{{ include "tools/reelary" }}
+
+---
 
 {{ include "tools/reference-x" }}
 
