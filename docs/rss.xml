@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Nov 2026 19:57:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 20:28:07 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Nov 2026 19:57:31 GMT</pubDate>
+        <pubDate>Tue, 17 Nov 2026 20:28:07 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -22968,6 +22968,10 @@ Studio: a share link can include a translation, and your client chooses the lang
 <p><img src="/static/apple-down.png" alt=""></p>
 <p>Apple's support pages are also down, so I can't even get to the release notes.</p>
 <p>I'm GUESSING that the poor ProApps team can't actually get into App Store Connect to press publish.</p>
+<p>Apparently the whole of Apple Corporate is offline. 😬</p>
+<p><img src="/static/apple-down.jpg" alt=""></p>
+<p>Hopefully I didn't accidentally start Skynet whilst building <strong>CommandPost v3</strong>.</p>
+<p><img src="/static/lots-of-buttons.jpg" alt=""></p>
 <p>In the meantime...</p>
 <p><strong>CommandPost v3</strong> continues development and testing - it's coming together really nicely!</p>
 <p>Here's another sneak peak...</p>
@@ -22984,6 +22988,7 @@ Studio: a share link can include a translation, and your client chooses the lang
 <p><a href="https://www.youtube.com/watch?v=e1d6m_2fxNc"><img src="/static/brad-west-fcp13.jpg" alt=""></a></p>
 <p><strong>Ripple Training</strong> has also posted a video on YouTube:</p>
 <p><a href="https://www.youtube.com/watch?v=kf_giU9jq7k"><img src="/static/ripple-training-fcp-13.jpg" alt=""></a></p>
+<p><strong>Scott Simmons</strong> writes on <strong>ProVideo Coalition</strong>: <a href="https://www.provideocoalition.com/final-cut-pro-13-adds-motionvfx-for-one-of-the-biggest-updates-ever/">Final Cut Pro 13 adds MotionVFX for one of the biggest updates ever</a></p>
 <p><strong>CineD</strong> writes: <a href="https://www.cined.com/final-cut-pro-13-first-look-the-motionvfx-library-is-why-i-am-subscribing-to-apple-creator-studio/">Final Cut Pro 13 First Look – The MotionVFX Library Is Why I Am Subscribing to Apple Creator Studio</a>.</p>
 <p>I'm on a fast turnaround edit today, so I won't be looking at Final Cut Pro v13 deeply until tomorrow unfortunately, so if you get a chance to play, please share your feedback in the comments!</p>
 <p>In other news today...</p>
