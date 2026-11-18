@@ -28,6 +28,8 @@ Create a free GitHub account then [propose it](https://github.com/CommandPost/FC
 
 Here's a list of the **30 most popular** Final Cut Pro feature requests:
 
+- [Apple Motion Enhancement Request · A new template type: Subtitle (September 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/555)
+- [Korean Support for Final Cut Pro Transcript Search, Visual Search, and Transcription (May 26, 2026)](https://github.com/CommandPost/FCPCafe/issues/542)
 - [[FxPlug 4] Add ability for an EFFECT to behave like a GENERATOR/TITLE (March 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/529)
 - [Batch sync audio and video clips using timecode/audio waveform all at once (February 11, 2026)](https://github.com/CommandPost/FCPCafe/issues/516)
 - [Add Focus Mode to Beat Detection Grid (January 30, 2026)](https://github.com/CommandPost/FCPCafe/issues/504)
@@ -56,8 +58,6 @@ Here's a list of the **30 most popular** Final Cut Pro feature requests:
 - [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
-- [Output Volume Control 0% - 100% to 1000% [logarithmic?] (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/379)
-- [Video Inspector "Transform" Option: Scale Ratio Lock Button, eg text entry on 1 dimension (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/377)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -67,6 +67,8 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 
+- [Apple Motion Enhancement Request · A new template type: Subtitle (September 3, 2026)](https://github.com/CommandPost/FCPCafe/issues/555)
+- [Korean Support for Final Cut Pro Transcript Search, Visual Search, and Transcription (May 26, 2026)](https://github.com/CommandPost/FCPCafe/issues/542)
 - [[FxPlug 4] Add ability for an EFFECT to behave like a GENERATOR/TITLE (March 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/529)
 - [Batch sync audio and video clips using timecode/audio waveform all at once (February 11, 2026)](https://github.com/CommandPost/FCPCafe/issues/516)
 - [Add Focus Mode to Beat Detection Grid (January 30, 2026)](https://github.com/CommandPost/FCPCafe/issues/504)
@@ -95,8 +97,6 @@ Here's a list of the **30 most recently added** Final Cut Pro feature requests:
 - [Keyframe Copy and Paste, eg exact Draw Mask Control Points copying to second+ frame (July 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/385)
 - [Video Automation - right click options built in Fade in/out, not just linear (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/381)
 - [FCP Audio Limiter Effect - Interpolation options (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/380)
-- [Output Volume Control 0% - 100% to 1000% [logarithmic?] (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/379)
-- [Video Inspector "Transform" Option: Scale Ratio Lock Button, eg text entry on 1 dimension (July 5, 2024)](https://github.com/CommandPost/FCPCafe/issues/377)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
