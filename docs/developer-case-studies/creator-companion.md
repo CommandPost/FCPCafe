@@ -60,6 +60,8 @@ The overlays are not Final Cut Pro titles. Each title set is rendered frame by f
 
 **The hard part was the data, not the graphics.** Real GPS recordings contain glitches, jumps, double timestamps, and recorders that only log twice per second. If the map and the overlay each cleaned the data in their own way, the speed on the map wouldn't match the number in the overlay. So both run through one shared data pipeline, and speed, distance and elevation always agree.
 
+[GPS to FCP Converter](https://apps.apple.com/app/gps-to-fcp-converter/id6772071749) is free on the Mac App Store, with additional title sets as in-app purchases.
+
 ---
 
 ## Creator Companion PRO
