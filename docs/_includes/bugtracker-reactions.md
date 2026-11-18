@@ -1,3 +1,4 @@
+- [Views from effects get cut off when an FxPlug plugin is using a full-width parameter + Hidden parameters break first inspector layout height after launch (November 18, 2026)](https://github.com/CommandPost/FCPCafe/issues/574)
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
 - [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
@@ -27,4 +28,3 @@
 - [Space Designer Reverb Doesn't Export when Using Compound Clip (December 18, 2024)](https://github.com/CommandPost/FCPCafe/issues/436)
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
-- [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)

@@ -1,3 +1,4 @@
+- [Views from effects get cut off when an FxPlug plugin is using a full-width parameter + Hidden parameters break first inspector layout height after launch (November 18, 2026)](https://github.com/CommandPost/FCPCafe/issues/574)
 - [FCP 12: Option-drag between events fails to copy physical media (Data Loss) (May 5, 2026)](https://github.com/CommandPost/FCPCafe/issues/538)
 - [Final Cut Pro v12.2 - RegisterProExtension Crashes (April 10, 2026)](https://github.com/CommandPost/FCPCafe/issues/534)
 - [Final Cut Pro 12 - Library is damaged (March 12, 2026)](https://github.com/CommandPost/FCPCafe/issues/528)
@@ -27,4 +28,3 @@
 - [FxDynamicParameterAPI_v3::setAsDefaultsAtTime - API method is Missing ParameterID? (November 29, 2024)](https://github.com/CommandPost/FCPCafe/issues/423)
 - [German Language Bug Final Cut Pro 11 (November 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/422)
 - [Settings, Command Sets, Workspaces are reset to default  (November 14, 2024)](https://github.com/CommandPost/FCPCafe/issues/416)
-- [Initial Audio Rendering missing samples.... (November 13, 2024)](https://github.com/CommandPost/FCPCafe/issues/414)
