@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Nov 2026 05:25:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 05:44:42 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Nov 2026 05:25:50 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 05:44:42 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -23023,17 +23023,17 @@ Studio: a share link can include a translation, and your client chooses the lang
 <p>I've filed feedback to Apple via Feedback Assistant ID: <strong>FB25636418</strong></p>
 <p>Here's what it says:</p>
 <blockquote>
-<p><strong>SUMMARY</strong>
-Final Cut Pro can edit a QuickTime movie while it is still recording only if the recorder writes movie fragments (&quot;Sending media to Final Cut Pro as it's recorded&quot;). Blackmagic HyperDeck recorders writing to a Blackmagic Cloud Store keep the file editable in a different way, so Final Cut Pro imports their in-progress recordings as ordinary fixed-length clips. DaVinci Resolve edits the same files while they record. Please recognise this kind of file as a growing file.</p>
-<p><strong>HOW THE RECORDER WRITES THE FILE</strong>
-Observed on ProRes 422 1080p50 recordings (2-channel 24-bit PCM, timecode track):</p>
+<p><strong>SUMMARY</strong></p>
+<p>Final Cut Pro can edit a QuickTime movie while it is still recording only if the recorder writes movie fragments (&quot;Sending media to Final Cut Pro as it's recorded&quot;). Blackmagic HyperDeck recorders writing to a Blackmagic Cloud Store keep the file editable in a different way, so Final Cut Pro imports their in-progress recordings as ordinary fixed-length clips. DaVinci Resolve edits the same files while they record. Please recognise this kind of file as a growing file.</p>
+<p><strong>HOW THE RECORDER WRITES THE FILE</strong></p>
+<p>Observed on ProRes 422 1080p50 recordings (2-channel 24-bit PCM, timecode track):</p>
 <ul>
 <li>Layout: ftyp (24 bytes), one mdat with a 64-bit size, then a complete moov as the last box. Ordinary sample tables (stts, stsc, stsz, co64). No mvex and no moof.</li>
 <li>Every 5 seconds of recording, the new media is written over the previous moov, a new complete moov is appended, and the mdat size in the header is patched. Between updates the file is a complete, self-contained movie containing everything recorded so far. Existing samples never move.</li>
 <li>While recording, the file has the extended attribute com.blackmagicdesign.metadata:recording = {&quot;r&quot;:1, &quot;uuid&quot;:&quot;...&quot;} and an empty .mcc sidecar next to it. Both are removed when recording stops.</li>
 </ul>
-<p><strong>STEPS TO REPRODUCE</strong>
-With Blackmagic hardware:</p>
+<p><strong>STEPS TO REPRODUCE</strong></p>
+<p>With Blackmagic hardware:</p>
 <ol>
 <li>Record ProRes QuickTime on a HyperDeck to a Blackmagic Cloud Store and mount the share on the Mac.</li>
 <li>While it records, import the clip into Final Cut Pro with &quot;Leave files in place&quot;.</li>
@@ -23044,22 +23044,22 @@ With Blackmagic hardware:</p>
 It writes a test pattern in real time with the layout, 5-second update, extended attribute and sidecar described above.</li>
 <li>While it runs, import TEST_0001.mov into Final Cut Pro with &quot;Leave files in place&quot;.</li>
 </ol>
-<p><strong>EXPECTED RESULTS</strong>
-The clip is treated as a growing file: it gets longer as recording continues, the same as a fragmented QuickTime movie or a growing MXF file.</p>
-<p><strong>ACTUAL RESULTS</strong>
-AVAsset.containsFragments is NO for these files. From what I can see in Final Cut Pro 12.3, QuickTime media is only marked as growing when that property is YES (FFAVFMediaReader::initMetadata in Flexo).</p>
+<p><strong>EXPECTED RESULTS</strong></p>
+<p>The clip is treated as a growing file: it gets longer as recording continues, the same as a fragmented QuickTime movie or a growing MXF file.</p>
+<p><strong>ACTUAL RESULTS</strong></p>
+<p>AVAsset.containsFragments is NO for these files. From what I can see in Final Cut Pro 12.3, QuickTime media is only marked as growing when that property is YES (FFAVFMediaReader::initMetadata in Flexo).</p>
 <p><strong>NOTES</strong></p>
 <ol>
 <li>Opening the file during an update can fail. AVURLAsset returned AVFoundationErrorDomain -11829 &quot;Cannot Open&quot; (underlying OSStatus -12848) on 2 of 6 opens of a live recording over SMB. The simulator has the same window on every update (its --torn option sets the length), and opening the file inside it gives the same error. A refresh would need to retry instead of treating the clip as damaged.</li>
 <li>The media itself works as a growing file. The attached growbridge.py writes a second, small QuickTime file that holds only an index: a moov with mvex, then a moof every 10 seconds, with data references that point into the Blackmagic file. For that file AVFoundation reports containsFragments = YES, the duration increases every 10 seconds while recording, and the sample data read through it is byte-identical to the source. I checked this on live and finished HyperDeck recordings.</li>
 </ol>
-<p><strong>REQUEST</strong>
-Treat a QuickTime movie as growing when either:
+<p><strong>REQUEST</strong></p>
+<p>Treat a QuickTime movie as growing when either:
 (a) the recorder has marked it, using the Blackmagic extended attribute above or a marker Apple documents for recorders that don't write fragments (the QuickTime equivalent of the MXF &quot;duration unknown&quot; rule), or
 (b) its modification date changes after import and re-reading it gives the same tracks with a longer duration.
 Then refresh it on the same schedule as a fragmented growing file.</p>
-<p><strong>CONFIGURATION</strong>
-Final Cut Pro 12.3, macOS 26.5 (25F71), MacBook Pro (M1 Max, MacBookPro18,2).
+<p><strong>CONFIGURATION</strong></p>
+<p>Final Cut Pro 12.3, macOS 26.5 (25F71), MacBook Pro (M1 Max, MacBookPro18,2).
 Recorder: Blackmagic HyperDeck recording to a Blackmagic Cloud Store Max 24TB, mounted over SMB.</p>
 </blockquote>
 <p>Fingers and toes crossed Apple can fix! 🤞</p>
