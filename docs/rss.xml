@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Nov 2026 05:12:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 05:25:51 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Nov 2026 05:12:12 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 05:25:50 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -24907,6 +24907,26 @@ Recorder: Blackmagic HyperDeck recording to a Blackmagic Cloud Store Max 24TB, m
 </ul>
 <p>Apologies... that was nerdy, haha.</p>
 <p>I'm currently working on updating <strong>CommandPost v3</strong> to support <strong>Final Cut Pro v13</strong> - stay tuned.</p>
+<p>In other news, <strong>Sydney Woodward</strong> writes:</p>
+<blockquote>
+<p>Hi everyone. I'm Sydney, and I run the Folklore Creative Company. I've been editing in Final Cut for 20 years and always dreamed of a tool that would take the tedious work off my plate. So we built one. It's called SIFTfcp.
+It isn't trying to make your film for you. Shaping the story is the creative part of editing, and I think it's the part most of us love. SIFTfcp does the groundwork before it: the scrubbing, the logging, the ums.</p>
+<p>SELECTS
+Point it at your Final Cut library and it reads every frame, leaving out shaky, soft, dark and blown-out shots. You get a selects project in Final Cut, with a reason for everything left out, and you can fine-tune any select with I and O.</p>
+<p>PAPER EDIT (IN BETA)
+• Interviews are transcribed on your Mac, laid out question by question
+• Highlight the lines you want and send them to the edit
+• Delete words from the text and they're cut from the video too
+• Every cut lands in the quiet between words, and where a gap is too short, the interview's own room tone fills it, so the joins sound smooth and the pace stays natural
+• Take out every um and ah in one go
+• Need an &quot;and&quot; or a &quot;so&quot; to join two lines? Type it, and SIFTfcp finds every time that person said it, ranked by how cleanly it lifts out. Choose by ear and it's cut in.
+• Each paper edit opens in Final Cut as its own project</p>
+<p>NO AI NEEDED
+Everything above works without AI, and your footage never leaves your Mac. The one exception is the optional paper edit generator: describe the film you want and it drafts a starting point from your interviews, using Apple Intelligence, Claude or ChatGPT.
+Free for 7 days, every feature, no card needed:</p>
+<p>Needs macOS 15 or later (macOS 26 for the paper edit). Questions welcome in the comments.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://siftfcp.com">SIFTfcp website</a>. I haven't played with it yet.</p>
 <p>Chat again tomorrow for more fun and games!</p>
 <p>Onwards &amp; Upwards!</p>
 ]]></description>
