@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Tue, 17 Nov 2026 20:28:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 04:08:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Nov 2026 20:28:07 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 04:08:49 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -23009,6 +23009,1862 @@ Studio: a share link can include a translation, and your client chooses the lang
             <link>https://fcp.cafe/#18th-november-2026</link>
             <guid isPermaLink="false">18th November 2026</guid>
             <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19th November 2026]]></title>
+            <description><![CDATA[<p>Happy Thursday! I'm back in beautiful Melbourne. Home at last! 🥳</p>
+<p>Yesterday I was up in Sydney for the <a href="https://www.aria.com.au">ARIA Music Awards</a> - doing fast turnaround edits in Final Cut Pro (although the rest of the team was in Blackmagic DaVinci Resolve). 🎸</p>
+<p><img src="/static/aria-awards-2026.png" alt=""></p>
+<p>Everything worked perfectly - however, one REALLY annoying thing about Final Cut Pro that's a big deal is that Final Cut Pro doesn't support Blackmagic <strong>growing files</strong> that DaVinci Resolve can use.</p>
+<p>This SUCKS. Whilst Final Cut Pro can support SOME growing files - the fact it can't support growing files from Blackmagic HyperDeck's is a MAJOR workflow pain.</p>
+<p>As usual, Apple has it's own method for growing files - see: <a href="https://developer.apple.com/documentation/professional-video-applications/sending-media-to-final-cut-pro-as-it-s-recorded?language=objc">Sending media to Final Cut Pro as it’s recorded</a>.</p>
+<p>Sadly, Blackmagic doesn't use this method - so no growing files in Final Cut Pro. 😭</p>
+<p>I've started creating an app to workaround this - but I really shouldn't have to - HOPEFULLY this is something Apple can easily fix. Otherwise, maybe I'll just push the fix to <a href="https://splicekit.fcp.cafe">SpliceKit</a>.</p>
+<p>I've filed feedback to Apple via Feedback Assistant ID: <strong>FB25636418</strong></p>
+<p>Here's what it says:</p>
+<blockquote>
+<p><strong>SUMMARY</strong>
+Final Cut Pro can edit a QuickTime movie while it is still recording only if the recorder writes movie fragments (&quot;Sending media to Final Cut Pro as it's recorded&quot;). Blackmagic HyperDeck recorders writing to a Blackmagic Cloud Store keep the file editable in a different way, so Final Cut Pro imports their in-progress recordings as ordinary fixed-length clips. DaVinci Resolve edits the same files while they record. Please recognise this kind of file as a growing file.</p>
+<p><strong>HOW THE RECORDER WRITES THE FILE</strong>
+Observed on ProRes 422 1080p50 recordings (2-channel 24-bit PCM, timecode track):</p>
+<ul>
+<li>Layout: ftyp (24 bytes), one mdat with a 64-bit size, then a complete moov as the last box. Ordinary sample tables (stts, stsc, stsz, co64). No mvex and no moof.</li>
+<li>Every 5 seconds of recording, the new media is written over the previous moov, a new complete moov is appended, and the mdat size in the header is patched. Between updates the file is a complete, self-contained movie containing everything recorded so far. Existing samples never move.</li>
+<li>While recording, the file has the extended attribute com.blackmagicdesign.metadata:recording = {&quot;r&quot;:1, &quot;uuid&quot;:&quot;...&quot;} and an empty .mcc sidecar next to it. Both are removed when recording stops.</li>
+</ul>
+<p><strong>STEPS TO REPRODUCE</strong>
+With Blackmagic hardware:</p>
+<ol>
+<li>Record ProRes QuickTime on a HyperDeck to a Blackmagic Cloud Store and mount the share on the Mac.</li>
+<li>While it records, import the clip into Final Cut Pro with &quot;Leave files in place&quot;.</li>
+</ol>
+<p>Without hardware, using the attached files:</p>
+<ol>
+<li>Run: python3 bmd_growing_sim.py seed_prores422_1080p50.mov ~/Movies/GrowingTest/TEST_0001.mov --seconds 300
+It writes a test pattern in real time with the layout, 5-second update, extended attribute and sidecar described above.</li>
+<li>While it runs, import TEST_0001.mov into Final Cut Pro with &quot;Leave files in place&quot;.</li>
+</ol>
+<p><strong>EXPECTED RESULTS</strong>
+The clip is treated as a growing file: it gets longer as recording continues, the same as a fragmented QuickTime movie or a growing MXF file.</p>
+<p><strong>ACTUAL RESULTS</strong>
+AVAsset.containsFragments is NO for these files. From what I can see in Final Cut Pro 12.3, QuickTime media is only marked as growing when that property is YES (FFAVFMediaReader::initMetadata in Flexo).</p>
+<p><strong>NOTES</strong></p>
+<ol>
+<li>Opening the file during an update can fail. AVURLAsset returned AVFoundationErrorDomain -11829 &quot;Cannot Open&quot; (underlying OSStatus -12848) on 2 of 6 opens of a live recording over SMB. The simulator has the same window on every update (its --torn option sets the length), and opening the file inside it gives the same error. A refresh would need to retry instead of treating the clip as damaged.</li>
+<li>The media itself works as a growing file. The attached growbridge.py writes a second, small QuickTime file that holds only an index: a moov with mvex, then a moof every 10 seconds, with data references that point into the Blackmagic file. For that file AVFoundation reports containsFragments = YES, the duration increases every 10 seconds while recording, and the sample data read through it is byte-identical to the source. I checked this on live and finished HyperDeck recordings.</li>
+</ol>
+<p><strong>REQUEST</strong>
+Treat a QuickTime movie as growing when either:
+(a) the recorder has marked it, using the Blackmagic extended attribute above or a marker Apple documents for recorders that don't write fragments (the QuickTime equivalent of the MXF &quot;duration unknown&quot; rule), or
+(b) its modification date changes after import and re-reading it gives the same tracks with a longer duration.
+Then refresh it on the same schedule as a fragmented growing file.</p>
+<p><strong>CONFIGURATION</strong>
+Final Cut Pro 12.3, macOS 26.5 (25F71), MacBook Pro (M1 Max, MacBookPro18,2).
+Recorder: Blackmagic HyperDeck recording to a Blackmagic Cloud Store Max 24TB, mounted over SMB.</p>
+</blockquote>
+<p>Fingers and toes crossed Apple can fix! 🤞</p>
+<p>I also have a Feedback Assistant submission <strong>FB25636450</strong> for: <strong>Quick Look in Finder spins forever on a QuickTime reference movie whose media is on an SMB volume</strong>.</p>
+<p>So work adventures aside... yesterday was... interesting. 😬</p>
+<p><strong>Final Cut Pro v13</strong> was SUPPOSED to ship, and Apple Marketing gave all the influencers and media people permission to post, but alas, Apple had some MAJOR outages, and App Store Connect was totally busted.</p>
+<p><img src="/static/app-store-connect-busted.png" alt=""></p>
+<p>Apple said:</p>
+<blockquote>
+<p>“Many of our systems are back up and running after an internal update caused some outages this morning,” an Apple spokesperson had told NBC News early in the afternoon. “We’re working to get the remaining systems online as soon as possible.”</p>
+</blockquote>
+<p>Whilst most services were restored pretty quickly... <strong>App Store Connect</strong> took a long while to finally get fixed.</p>
+<p><img src="/static/apple-outage-green.png" alt=""></p>
+<p>It's pretty scary and crazy that it can take over a day to fix an outage like this.</p>
+<p>Putting on my conspiracy theory hat, today was also the first time I've ever seen this:</p>
+<p><img src="/static/app-review-robot.png" alt=""></p>
+<p>Apple adds AI review to App Store Connect... then... boom. 💥</p>
+<p>It's pretty disappointing that Apple hasn't said anything or sent out an apology letter to developers.</p>
+<p>We're giving them 15-30% of all our income when we sell stuff on the Mac App Store, and we get NO explanation or help with a MAJOR update that spans multiple days. That's pretty poor form.</p>
+<p>But, the good news is... the outage is fixed, and <strong>Final Cut Pro v13</strong> is out now on the Mac App Store! 🥳</p>
+<p>There's already <a href="https://www.youtube.com/shorts/IuIH_0Yui0o">some bug reports</a> in Final Cut Pro v13 - so tread with care.</p>
+<p>The handsome, talented and clever Iain Anderson has posted a detailed blog post over on ProVideo Coalition: <a href="https://www.provideocoalition.com/final-cut-pro-13-a-deep-dive/">Final Cut Pro 13 — a deep dive</a>.</p>
+<p><strong>Always make a backup of the Final Cut Pro application and your libraries before updating!</strong></p>
+<p>Ok... let's go... 🚀</p>
+<p>The official release notes say:</p>
+<p><strong>New features in Final Cut Pro in Apple Creator Studio:</strong></p>
+<ul>
+<li>
+<p><strong>Built-in Motion VFX:</strong></p>
+</li>
+<li>
+<p>Transform your video projects with the full power of MotionVFX, with access to a large collection of effects, titles, transitions, and more.</p>
+</li>
+<li>
+<p>Elevate your edits with powerful visual effects, featuring advanced AI rotoscoping, intelligent 3D camera and surface tracking, and dynamic 2D animation tools.</p>
+</li>
+<li>
+<p>Browse, preview, and apply MotionVFX assets right from a dedicated tab, or pop the panel out into a standalone floating window for a flexible multi-display workspace.</p>
+</li>
+<li>
+<p><strong>Integrated Media Library and Advanced Image Tools:</strong></p>
+</li>
+<li>
+<p>Tap into the Content Hub, a library of Apple-curated stock videos, photos, and backgrounds to finish your edits or spark new projects.</p>
+</li>
+<li>
+<p>Generate high-quality images from a text description right in your project, apply quick edits, and adjust the style.</p>
+</li>
+<li>
+<p>Open an image from your timeline in Pixelmator Pro to use advanced editing tools, then see your changes in Final Cut Pro.</p>
+</li>
+<li>
+<p><strong>New features for Final Cut Pro (one-time purchase) and Final Cut Pro in Apple Creator Studio:</strong></p>
+</li>
+<li>
+<p><strong>Workflow Enhancements:</strong></p>
+</li>
+<li>
+<p>Keep timeline clips in place by disconnecting them from the primary storyline, combining precise control with the full power of the Magnetic Timeline.</p>
+</li>
+<li>
+<p>Animate your footage with more precise keyframe easing options to fine-tune speed, position, scale, and more.</p>
+</li>
+<li>
+<p>Add realistic, optical-flow-based Natural Motion Blur to any video clip using an intuitive shutter angle slider with full support for retimed footage.</p>
+</li>
+<li>
+<p>Generate captions and search transcripts in 23 new supported languages.*</p>
+</li>
+<li>
+<p>Closed captions now default to the SRT format when adding them manually or using Generate Captions.</p>
+</li>
+<li>
+<p>Use intuitive two-finger trackpad gestures to zoom and navigate the viewer.</p>
+</li>
+<li>
+<p>Updates FCPXML to version 1.15.</p>
+</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixes an issue where creating a new event left the search field active, preventing keyboard shortcuts from working.</li>
+<li>Fixes an issue that prevented on-screen controls from appearing when editing titles in the viewer.</li>
+<li>Fixes an issue where ease settings for the Ken Burns effect were not saved.</li>
+<li>Fixes an issue where Match Color applied incorrect adjustments in Wide Gamut HDR libraries when clips contained prior color corrections.</li>
+<li>Fixes an issue where searching transcripts in the browser failed if words did not include accents or special characters.</li>
+<li>Fixes an issue that caused an unnecessary warning alert to appear when importing an FCPXML with retimed clips.</li>
+<li>Improves playback performance and memory efficiency when working with RED RAW media.</li>
+<li>Fixes an issue where third-party A/V output devices failed to reconnect after waking a Mac from sleep.</li>
+<li>Improves touch responsiveness and timeline gesture navigation when using Final Cut Pro on an iPad with Sidecar.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Motion v7.0</strong> includes new features, enhancements, and fixes:</p>
+<ul>
+<li>
+<p><strong>New features for Motion in Apple Creator Studio:</strong></p>
+</li>
+<li>
+<p><strong>Built-in MotionVFX:</strong></p>
+</li>
+<li>
+<p>3D object tracking</p>
+</li>
+<li>
+<p>Lens flares</p>
+</li>
+<li>
+<p>Animated graphics from static images</p>
+</li>
+<li>
+<p>Stylized visual effects</p>
+</li>
+<li>
+<p><strong>Advanced Image Tools:</strong></p>
+<ul>
+<li>Generate high-quality images from a text description right in your project, apply quick edits, and adjust the style.</li>
+<li>Open an image from your project in Pixelmator Pro to use advanced editing tools, then see your changes in Motion.</li>
+</ul>
+</li>
+<li>
+<p><strong>New features for Motion (one-time purchase) and Motion in Apple Creator Studio:</strong></p>
+</li>
+<li>
+<p><strong>Creative and Animation Enhancements:</strong></p>
+</li>
+<li>
+<p>Animate your graphics with more precise keyframe easing options in the Canvas and Keyframe Editor to fine-tune speed, position, scale, and more.</p>
+</li>
+<li>
+<p>Add dynamic visual distortion to your graphics and video using the new Displacement filter, featuring customizable refraction, chromatic aberration, and preset styles.</p>
+</li>
+<li>
+<p><strong>Bug Fixes:</strong></p>
+</li>
+<li>
+<p>Fixes an issue that prevented using the Space bar to pan in the Keyframe Editor.</p>
+</li>
+<li>
+<p>Fixes an issue where adjusting curve handles in the Keyframe Editor could cause the view to jump when Auto-Scale was disabled.</p>
+</li>
+<li>
+<p>Fixes an issue where choosing Ease Both on a keyframe caused its curve setting to display incorrectly in the Keyframe Editor.</p>
+</li>
+<li>
+<p>Fixes an issue where adding keyframes across multiple selected layers could cause Motion to stop responding.</p>
+</li>
+<li>
+<p>Fixes an issue where moving an animated object before its first keyframe could unexpectedly change the shape of an animation path.</p>
+</li>
+<li>
+<p>Fixes an issue where onscreen controls failed to display motion paths created by Behaviors.</p>
+</li>
+<li>
+<p>Improves performance and responsiveness when scrubbing clips with a Magnetic Mask applied.</p>
+</li>
+<li>
+<p>Fixes an issue where replicators did not display at full HDR brightness when using Automatic color processing.</p>
+</li>
+<li>
+<p>Fixes an issue that could cause Motion to quit when adding the Unstabilize tracking behavior to a clip.</p>
+</li>
+<li>
+<p>Fixes an issue that could cause Motion to quit when opening a project that contains missing text styles.</p>
+</li>
+<li>
+<p>Improves touch responsiveness and drawing accuracy when using Motion on an iPad with Sidecar.</p>
+</li>
+<li>
+<p>Includes stability and performance improvements.</p>
+</li>
+</ul>
+<p><strong>Compressor v6.0</strong> includes the following enhancements and fixes:</p>
+<ul>
+<li>Apply Cinematic mode effects to video recorded with iPhone 18 Pro or iPhone Duo. (Requires macOS 27 or later.)</li>
+<li>Use the Update Droplets button in Advanced settings to convert existing droplets to watch folders.</li>
+<li>Fixes an issue preventing batches from starting for Add to TV Home Videos job action.</li>
+<li>Fixes an issue where the Run Automator Workflow job action failed.</li>
+<li>Fixes a crash that occurs when caption text dictated using Siri is used in a batch.</li>
+<li>Fixes an issue where the Privacy &amp; Analytics window does not appear when selected from the Compressor menu.</li>
+<li>Fixes an issue where video preview is not shown when file is selected using VoiceOver.</li>
+<li>Fixes an issue where VoiceOver plays on a loop in the Active tab while a job is processing.</li>
+<li>Transcoded files save to the Movies folder by default; the Source and Automatic built-in locations are no longer available.</li>
+<li>Removes Save as Droplet option.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p><strong>Final Cut Pro for iPad v4.0</strong> includes the following features and enhancements:</p>
+<ul>
+<li>Tap into the Content Hub, a library of Apple-curated stock videos, photos, and backgrounds to finish your edits or spark new projects.</li>
+<li>Generate high-quality images from a text description right in your project, apply quick edits, and adjust the style.</li>
+<li>Open an image from your timeline in Pixelmator Pro to use advanced editing tools, then see your changes in Final Cut Pro.</li>
+<li>Keep timeline clips in place by disconnecting them from the primary storyline.</li>
+<li>Animate your footage with more precise keyframe easing options to fine-tune speed, position, scale, and more.</li>
+<li>Generate captions and search transcripts in 23 new supported languages. (Requires iPadOS 27 or later.)</li>
+</ul>
+<p><strong>Improvements and bug fixes:</strong></p>
+<ul>
+<li>Reveal the source of any timeline clip in the browser.</li>
+<li>Fixes an issue that prevented the inspector from updating when the active video angle of a multicam clip was changed.</li>
+<li>Addresses an issue that caused crop values to not be applied after the onscreen keypad was closed.</li>
+<li>Resolves an issue that prevented audio fade values from updating after an undo.</li>
+<li>Improves reliability when entering audio fade values in languages that use a comma as the decimal separator.</li>
+<li>Fixes an issue that caused opening the browser to take focus away from a timeline selection.</li>
+<li>Addresses an issue that prevented media analysis from resuming after a browser clip was selected while analysis was paused.</li>
+<li>Resolves an issue that caused Cinematic mode focus points to not appear after leaving and then returning to Final Cut Pro.</li>
+<li>Fixes an issue that caused the Edit button in the Keywords panel to disappear after all keywords were deleted.</li>
+<li>Addresses an issue in the angle editor that allowed the viewer to be dragged offscreen.</li>
+<li>Improves reliability when tapping a Live Multicam angle’s camera settings.</li>
+<li>Resolves a Live Multicam issue that interrupted the video preview from a connected device after its color space was changed.</li>
+<li>Improves VoiceOver support for moving onscreen keyboards and settings panels.</li>
+<li>Improves VoiceOver support for navigating a browser clip’s Media Info settings in the inspector.</li>
+<li>Fixes an issue that caused VoiceOver navigation to stop at the viewer options when the inspector was open.</li>
+<li>Addresses an issue that caused the playback controls to scale inconsistently when enabling the Larger Text accessibility setting.</li>
+<li>Resolves an issue that prevented Background Tasks from being dismissed with Voice Control.</li>
+<li>Adds caption support to the Introducing Allie Sherlock demo project preview.</li>
+<li>Includes other stability and performance improvements.</li>
+</ul>
+<p><strong>New keyboard shortcuts:</strong></p>
+<ul>
+<li>Disconnect Connected Clips: Option-Grave Accent (`)</li>
+<li>Go to Range Start: Shift-I</li>
+<li>Go to Range End: Shift-O</li>
+<li>Select Clip Above: Command-Up Arrow</li>
+<li>Select Clip Below: Command-Down Arrow</li>
+<li>Show/Hide Keyword Editor: Command-K</li>
+<li>Show/Hide Video Animation Editor: Control-V</li>
+<li>Show/Hide Angles: Shift-Command-7</li>
+<li>Show/Hide Video Scopes: Command-7</li>
+<li>Clip Mode: A</li>
+<li>Range Mode: R</li>
+<li>Edge Mode: T</li>
+<li>Reveal Source in Browser: Shift-F</li>
+<li>Apply Dialogue Role: Control-Option-D</li>
+<li>Apply Effects Role: Control-Option-E</li>
+<li>Apply Music Role: Control-Option-M</li>
+<li>Apply Titles Role: Control-Option-T</li>
+<li>Apply Video Role: Control-Option-V</li>
+<li>Exit Full-Screen Playback: Escape</li>
+<li>Copy Keyframes: Option-Shift-C</li>
+<li>Cut Keyframes: Option-Shift-X</li>
+<li>Paste Keyframes: Option-Shift-V</li>
+</ul>
+<p><strong>Final Cut Camera v3.0</strong> includes the following improvements and bug fixes:</p>
+<ul>
+<li>Improves the appearance of the false color overlay when monitoring HDR footage.</li>
+<li>Fixes an issue that caused the timecode to always switch to External Source after quitting and reopening the app.</li>
+<li>Addresses an issue that caused the monitoring panel to open incorrectly after a two-finger tap was used to hide and show the interface.</li>
+<li>Resolves an issue that caused monitoring tools to turn off after the media browser was opened and closed.</li>
+<li>Fixes an issue that prevented settings from switching to manual when locking AE/AF in a priority mode.</li>
+<li>Addresses an issue that caused the ISO slider to not appear when switching from the front camera to the rear camera with manual exposure enabled.</li>
+<li>Resolves an issue that prevented the zoom level from returning to 1x after turning off digital zoom while zoomed in.</li>
+<li>Includes stability and performance improvements.</li>
+</ul>
+<p>For the developers amongst us...</p>
+<p>The <strong>FxPlug v4.3.6</strong> SDK includes the following:</p>
+<ul>
+<li>Improved stability and reliability.</li>
+<li>FxPlug SDK requires macOS 14.6 or later.</li>
+<li><code>FxRemoteWindowAPI_v4</code> allows plug-ins to request a remote window by specifying its minimum and maximum size, style mask, appearance, and background color.</li>
+<li>FxGenerator plug-ins should not use parameter IDs 300, 301, or 302. These are reserved for the generator's Width, Height, and Pixel Aspect Ratio parameters. The host currently allows them and logs a warning, but a future version will reject them.</li>
+<li>Fixed an issue where setting the interpolation type of one keyframe with <code>FxKeyframeAPI</code> changed all keyframes on the parameter.</li>
+<li>Fixed an issue where custom parameter data set more than once at the same time created an extra keyframe.</li>
+<li>Fixed an issue where exported FCPXML files for effects with custom parameter data could grow excessively large.</li>
+<li>Fixed an issue where custom UI parameters could corrupt the Inspector layout on launch in Final Cut Pro.</li>
+<li>Fixed an issue where Inspector controls were clipped for effects stacked with an effect using full-width custom parameter UI.</li>
+<li>Fixed an issue where FxAnalysisAPI plug-ins could use another app's analyzer extension when multiple versions of Final Cut Pro or Motion are installed.</li>
+<li>Fixed an issue where Final Cut Pro could consume excessive memory while running FxAnalysisAPI plug-ins.</li>
+<li>Fixed memory leaks during dynamic plug-in registration.</li>
+<li>The <code>FxAnalysisAPI</code> start methods now return YES when the host accepts an analysis request, which may be before analysis actually begins. While a pass is running, the host can queue one more request, including one made from <code>-cleanupAnalysis:</code>. Wait for <code>-setupAnalysisForTimeRange:frameDuration:error:</code> before you expect frames. Don't call a start method a second time to check whether analysis is already running.</li>
+<li>Added the <code>-setRemoteWindowFrame:</code> and <code>-remoteWindowWithContentRect:minimumSize:maximumSize:windowCentered:windowStyleMask:appearance:backgroundColor:reply:</code> methods to <code>FxRemoteWindowAPI_v4</code>.</li>
+<li>Updated the XPC connection version to 12.</li>
+</ul>
+<p><strong>Workflow Extensions SDK v1.0.3</strong> remains the latest - no updates there sadly.</p>
+<p><strong>FCPXML v1.15</strong> is out now with some additions:</p>
+<pre><code>&lt;!ENTITY % ao_attrs &quot;
+	lane CDATA #IMPLIED
+	offset %time; #IMPLIED
+	flags CDATA #IMPLIED
+&quot;&gt;
+
+&lt;!ATTLIST keyframe interp (linear | ease | easeIn | easeOut | hold | bezier | passthrough) &quot;linear&quot;&gt; &lt;!-- interpolation type for point. --&gt;
+
+&lt;!ATTLIST pan-rect interp (linear | ease | easeIn | easeOut ) &quot;ease&quot;&gt;
+
+&lt;!-- An 'adjust-natural-motion-blur' defines the intrinsic Natural Motion Blur effect. It is supported only on primitive 'video' elements. --&gt;
+&lt;!ELEMENT adjust-natural-motion-blur (param*)&gt;
+&lt;!ATTLIST adjust-natural-motion-blur enabled (0 | 1) &quot;1&quot;&gt;
+&lt;!-- amount is #IMPLIED (0-100); when absent the application assumes the effect's default. --&gt;
+&lt;!ATTLIST adjust-natural-motion-blur amount CDATA #IMPLIED&gt;
+
+&lt;!-- The primitive video intrinsic params are a superset of intrinsic-params-video, adding adjustments supported only on 'video' elements. --&gt;
+&lt;!ENTITY % intrinsic-params-primitive-video &quot;(%intrinsic-params-video;, adjust-natural-motion-blur?)&quot;&gt;
+
+
+&lt;!ELEMENT video (param*, note?, %timing-params;, %intrinsic-params-primitive-video;, (%anchor_item;)*, (%marker_item;)*, (%video_filter_item;)*, reserved?)&gt;
+
+&lt;!ATTLIST gap flags CDATA #IMPLIED&gt;
+
+&lt;!ENTITY % mask_item &quot;(mask-shape | mask-isolation | mask-semantic)&quot;&gt;
+
+&lt;!-- The 'mask-semantic' element describes a semantic mask used for a mask filter. --&gt;
+&lt;!ELEMENT mask-semantic (param*)&gt;
+&lt;!ATTLIST mask-semantic name CDATA #IMPLIED&gt;
+&lt;!ATTLIST mask-semantic enabled (0 | 1) &quot;1&quot;&gt;
+&lt;!ATTLIST mask-semantic blendMode (add | subtract | multiply) &quot;add&quot;&gt;
+&lt;!ATTLIST mask-semantic type CDATA #IMPLIED&gt;
+
+&lt;!ATTLIST conform-rate frameSampling (floor | nearest-neighbor | frame-blending | optical-flow-classic | optical-flow | optical-flow-frc | vsa-motion-blur) &quot;floor&quot;&gt;
+
+&lt;!ATTLIST timeMap frameSampling (floor | nearest-neighbor | frame-blending | optical-flow-classic | optical-flow | optical-flow-frc | vsa-motion-blur) &quot;floor&quot;&gt;
+</code></pre>
+<p>This is AWESOME, and ticks off a bunch of stuff we requested for <a href="https://metaburner.fcp.cafe">Metaburner</a>. THANK YOU APPLE!</p>
+<p>But the big/interesting news is under the hood with a new addition of <code>fcptool</code> CLI:</p>
+<p><img src="/static/fcptool.png" alt=""></p>
+<p>This isn't MCP, and it really isn't for end users - it's for developers and companies like Hedge to improve <a href="https://hedge.co/products/postlab">PostLab</a>.</p>
+<p>It'll be super interesting to see what happens with this!</p>
+<p>FWIW - <strong>CommandPost v3</strong> will have full support of the CLI.</p>
+<p>Ok... we'll get REALLY nerdy in a sec, but first...</p>
+<p>The amazing <strong>Jenn Jager</strong> has posted some great videos on YouTube:</p>
+<p><a href="https://www.youtube.com/watch?v=OjHScukQhk0"><img src="/static/jenn-jager-fcp13.jpg" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=WrdvrmVqhIU"><img src="/static/jenn-jager-motion.jpg" alt=""></a></p>
+<p><strong>Rafael Ludwig</strong> has posted a video titled: <strong>Apple Actually Did It... MotionVFX in Final Cut Pro</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=cwN4BJ5YF1o"><img src="/static/rafael-ludwig-fcp13.jpg" alt=""></a></p>
+<p>Ok, with the fun videos out of the way... let's get REALLY nerdy...</p>
+<p>YES - I used various internal tools and LLMs to put this together...</p>
+<p>Here's the big nerdy under-the-hood changes:</p>
+<ol>
+<li><strong>A command-line tool ships.</strong> <code>Contents/MacOS/fcptool</code> is a sandboxed Swift tool that loads Flexo directly. It exposes 12 commands in four groups (<code>library</code>, <code>event</code>, <code>xml</code>, <code>metadata-view</code>), each with <code>--json</code>. Two more groups, <code>timeline</code> (5 commands) and <code>access</code> (4 commands), are compiled in but not registered.</li>
+<li><strong>FCPXML 1.15</strong> is added and is the export default. It adds two elements, a <code>flags</code> attribute on every anchored item, three keyframe interpolation values and one frame sampling value. DTD 1.13 and 1.14 are byte-identical to 12.4.</li>
+<li><strong>Four commands are added</strong> to <code>NSProCommands.plist</code> (572 to 576) and one to <code>NSProCommandsAdditional.plist</code> (0 to 1). None is removed or renamed. Every language's default command set grows from 398 to 402 entries.</li>
+<li><strong>The main menu gains six items and loses none.</strong> No existing item changes its title, shortcut, action or tag in the nib.</li>
+<li><strong>Seven frameworks are new</strong> (54 to 61 top-level entries): <code>AppEditIn</code>, <code>ArgumentParser</code>, <code>ArgumentParserToolInfo</code>, <code>MVFXAuth</code>, <code>MVFXContentKit</code>, <code>MVFXDecrypt</code> and <code>ProAppUI</code>. None is removed. Of 146 common Mach-O files, 106 were rebuilt and 40 are the same code.</li>
+<li><strong>Objective-C surface:</strong> 8,794 classes become 9,009 (226 added, 11 removed) and 1,980 protocols become 2,027. In common binaries 1,338 selectors are added and 422 removed. Flexo accounts for 732 and 205 of those.</li>
+<li><strong>New subsystems:</strong> MotionVFX content delivered through a Workflow Extension, Edit in Pixelmator Pro, image generation, the Content Hub, unconnected clips (called static clips internally), keyframe easing, Natural Motion Blur, transcription languages and regions, and touch input handling.</li>
+<li><strong>The AppleScript dictionary is unchanged</strong> (<code>ProEditor.sdef</code> has the same SHA-256) and remains read-only. No Shortcuts or App Intents metadata exists in either bundle. One URL scheme is new: <code>com.apple.apps.finalCutPro-edit-in</code>.</li>
+<li><strong>Accessibility in the nibs is almost unchanged:</strong> one description changed and two help tags were added across 632 nibs. In code, TimelineKit now appends a space to the delimiter of timeline item descriptions.</li>
+</ol>
+<p><strong>Architectures and size:</strong></p>
+<ul>
+<li>12.4 has 146 Mach-O files and 13.0 has 154. In both, all but five are universal <code>x86_64</code> and <code>arm64</code>. The same five codec binaries are <code>x86_64</code> only: <code>AppleAVCIntraEncoder</code>, <code>AppleAVCLGCodecEmbedded</code>, <code>AppleHEVCProCodec</code>, <code>mc_dec_avc</code> and <code>mc_dec_hevc</code> (<code>lipo -archs</code>).</li>
+<li>File count rises from 38,253 to 38,662 and symbolic links from 319 to 340.</li>
+<li>The sum of file sizes rises from 7,709,281,215 to 7,767,411,303 bytes, an increase of 58,130,088 bytes or 0.75 percent. Disk usage is not comparable, because the installed 13.0 copy is stored compressed by the App Store.</li>
+<li>Comparing SHA-256 digests by path: 1,470 files added, 1,040 removed, 1,262 changed and 36,270 identical.</li>
+<li>The growth is mostly <code>Contents/Resources</code> (61,353,830 to 100,854,768 bytes). <code>MotionVFXPromoBackground.mp4</code> is 35,923,292 bytes, <code>MVFXManifest.bundle</code> 1,410,358 bytes and <code>Assets.car</code> grows by 1,850,752 bytes. <code>Contents/MacOS</code> grows by 5,040,336 bytes: the application binary grows from 6,252,448 to 8,161,200 bytes (30.5 percent) and <code>fcptool</code> adds 3,131,584 bytes.</li>
+</ul>
+<p><strong>Signing and entitlements:</strong></p>
+<ul>
+<li>Both are signed by <code>Apple Mac OS Application Signing</code> under <code>Apple Worldwide Developer Relations Certification Authority</code> and <code>Apple Root CA</code>, team <code>PTN9T2S29T</code>, with the hardened runtime flag. Both carry <code>Contents/_MASReceipt/receipt</code>.</li>
+<li>The application has 30 entitlement keys in both releases. One value changes: <code>com.apple.security.application-groups</code> gains <code>PTN9T2S29T.com.apple.motionvfx</code> beside <code>PTN9T2S29T.com.apple.VAWorkspace</code> and <code>PTN9T2S29T.com.apple.videoProApps</code>.</li>
+<li>The sandbox is otherwise the same: <code>com.apple.security.app-sandbox</code>, the absolute path read and write exception for <code>/</code>, the Apple events exceptions for <code>com.apple.itunes</code>, <code>com.apple.mail</code>, <code>com.apple.motionapp</code> and <code>com.apple.TV</code>, the scripting target <code>com.apple.Photos</code> with <code>com.apple.Photos.spotlight</code>, the Mach lookup exception <code>com.newtek.NDIAssistant</code> and the same fifteen <code>sbpl</code> rules.</li>
+<li>The entitlement key counts of the eight nested executables are unchanged: <code>ProMSRendererTool_sb</code> 2, <code>FCPAEHelper</code> 5, <code>OOPDebayerService</code> 3, <code>OOPProResRawService</code> 2, <code>RegisterProExtension</code> 5, <code>ProTranscoderTool_sb</code> 2, <code>FxAnalyzer</code> 1 and <code>InternalFiltersXPC</code> 1.</li>
+<li><code>fcptool</code> is new, signed as <code>com.apple.FinalCut.fcptool</code> with its own seven entitlements, listed in <a href="#8-the-command-line-tool">section 8</a>.</li>
+</ul>
+<p><strong>Info.plist</strong></p>
+<p><code>Contents/Info.plist</code> has five differences. Everything else is identical, including <code>CFBundleDocumentTypes</code>, <code>UTExportedTypeDeclarations</code>, <code>UTImportedTypeDeclarations</code>, the four privacy usage strings, <code>NSAppleScriptEnabled</code>, <code>OSAScriptingDefinition</code> (<code>ProEditor.sdef</code>) and <code>NSPrincipalClass</code> (<code>PEApplication</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>12.4</th>
+<th>13.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CFBundleShortVersionString</code></td>
+<td>12.4</td>
+<td>13.0</td>
+</tr>
+<tr>
+<td><code>CFBundleVersion</code></td>
+<td>454072</td>
+<td>460023</td>
+</tr>
+<tr>
+<td><code>CFBundleURLTypes</code></td>
+<td>absent</td>
+<td>one entry: name and scheme <code>com.apple.apps.finalCutPro-edit-in</code>, role <code>Editor</code></td>
+</tr>
+<tr>
+<td><code>CKSendToCompressorMatchIndex</code></td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>SKIncludeConsumableInAppPurchaseHistory</code></td>
+<td>absent</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<p>Neither Info.plist has <code>NSServices</code>, <code>NSUserActivityTypes</code> or any intents key. Neither bundle contains a <code>Metadata.appintents</code> folder, an <code>.intentdefinition</code> file or <code>extract.actionsdata</code>.</p>
+<p><strong>Helpers, services and plug-ins:</strong></p>
+<p>The sets are identical in both releases (directory listings):</p>
+<ul>
+<li>XPC services in Flexo: <code>FCPAEHelper.xpc</code>, <code>OOPDebayerService.xpc</code> and <code>OOPProResRawService.xpc</code>.</li>
+<li><code>Contents/Helpers/RegisterProExtension.app</code>, <code>Flexo.framework/Versions/A/Helpers/ProMSRendererTool_sb</code> and Compressor's <code>ProTranscoderTool_sb</code>.</li>
+<li><code>Contents/PlugIns</code>: <code>Codecs</code>, <code>Codecs-x86-only</code>, <code>Compressor</code>, <code>DAL</code>, <code>FormatReaders</code>, <code>FxAnalyzer.appex</code>, <code>InternalCodecs</code>, <code>InternalFiltersXPC.pluginkit</code>, <code>MediaProviders</code> and <code>RADPlugins</code>, with the same bundles inside each.</li>
+</ul>
+<p>The only new executable is <code>Contents/MacOS/fcptool</code>.</p>
+<p><strong>Frameworks and binaries:</strong></p>
+<p><code>Contents/Frameworks</code> has 54 entries in 12.4 and 61 in 13.0. Nothing is removed.</p>
+<table>
+<thead>
+<tr>
+<th>New binary</th>
+<th>Identifier</th>
+<th>Version (build)</th>
+<th style="text-align:right">Bytes</th>
+<th>Linked by</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>AppEditIn.framework</code></td>
+<td><code>com.apple.AppEditIn</code></td>
+<td>1.0 (30)</td>
+<td style="text-align:right">748,880</td>
+<td>Flexo, weak</td>
+<td>Edit sessions shared between Apple apps, and a Pixelmator document reader</td>
+</tr>
+<tr>
+<td><code>ArgumentParser.framework</code></td>
+<td><code>com.apple.ArgumentParser</code></td>
+<td>1.0 (1)</td>
+<td style="text-align:right">2,961,424</td>
+<td><code>fcptool</code></td>
+<td>Swift Argument Parser</td>
+</tr>
+<tr>
+<td><code>ArgumentParserToolInfo.framework</code></td>
+<td><code>com.apple.ArgumentParserToolInfo</code></td>
+<td>1.0 (1)</td>
+<td style="text-align:right">402,992</td>
+<td><code>fcptool</code>, <code>ArgumentParser</code></td>
+<td>Swift Argument Parser tool description</td>
+</tr>
+<tr>
+<td><code>MVFXAuth.framework</code></td>
+<td><code>com.apple.motionvfx.mvfxauth</code></td>
+<td>1.0 (1)</td>
+<td style="text-align:right">415,424</td>
+<td>application</td>
+<td>MotionVFX access tokens, kept in the keychain</td>
+</tr>
+<tr>
+<td><code>MVFXContentKit.framework</code></td>
+<td><code>com.apple.MVFXContentKit</code></td>
+<td>1.0 (1)</td>
+<td style="text-align:right">330,976</td>
+<td>application, <code>MotionEffect.fxp</code> weak</td>
+<td>MotionVFX manifest, download and install</td>
+</tr>
+<tr>
+<td><code>MVFXDecrypt.framework</code></td>
+<td><code>com.apple.motionvfx.mvfxdecrypt</code></td>
+<td>1.0 (1)</td>
+<td style="text-align:right">241,216</td>
+<td>application, <code>MotionEffect.fxp</code> weak</td>
+<td>MotionVFX content decryption</td>
+</tr>
+<tr>
+<td><code>ProAppUI.framework</code></td>
+<td><code>com.apple.ProAppUI.ProAppUI</code></td>
+<td>1.0 (460000.0.3)</td>
+<td style="text-align:right">366,416</td>
+<td>application</td>
+<td>SwiftUI theme tokens</td>
+</tr>
+<tr>
+<td><code>Contents/MacOS/fcptool</code></td>
+<td><code>com.apple.FinalCut.fcptool</code></td>
+<td>13.0 (460000.0.23)</td>
+<td style="text-align:right">3,131,584</td>
+<td>none</td>
+<td>Command-line tool</td>
+</tr>
+</tbody>
+</table>
+<p>The roles are inferred from class and string names.</p>
+<p><strong>Changed:</strong></p>
+<p>Of the 146 Mach-O files both releases have, 40 have the same <code>LC_UUID</code> and size, so their code is unchanged and at most the signature differs. They are the whole of EDEL apart from two Swift interface frameworks, <code>MusicUnderstandingEmbedded</code>, <code>AudioMixEngine</code>, the neural tracker frameworks, <code>SwiftASN1</code> and most codecs. The other 106 were rebuilt. Many rebuilt binaries have the same size and differ only in their embedded project version.</p>
+<p>The size changes that suggest real work:</p>
+<table>
+<thead>
+<tr>
+<th>Binary</th>
+<th style="text-align:right">12.4 bytes</th>
+<th style="text-align:right">13.0 bytes</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Final Cut Pro</code></td>
+<td style="text-align:right">6,252,448</td>
+<td style="text-align:right">8,161,200</td>
+<td>+30.5 percent</td>
+</tr>
+<tr>
+<td><code>DeepSkyLite</code></td>
+<td style="text-align:right">585,760</td>
+<td style="text-align:right">745,024</td>
+<td>+27.2 percent</td>
+</tr>
+<tr>
+<td><code>StompTypes</code> (Compressor)</td>
+<td style="text-align:right">4,220,320</td>
+<td style="text-align:right">5,003,440</td>
+<td>+18.6 percent</td>
+</tr>
+<tr>
+<td><code>OOPDebayerService</code></td>
+<td style="text-align:right">145,472</td>
+<td style="text-align:right">162,960</td>
+<td>+12.0 percent</td>
+</tr>
+<tr>
+<td><code>AppleProResRAWCodecEmbedded</code></td>
+<td style="text-align:right">459,920</td>
+<td style="text-align:right">509,152</td>
+<td>+10.7 percent</td>
+</tr>
+<tr>
+<td><code>ProOnboardingFlowModelOne</code></td>
+<td style="text-align:right">1,526,528</td>
+<td style="text-align:right">1,657,568</td>
+<td>+8.6 percent</td>
+</tr>
+<tr>
+<td><code>AudioAnalysis</code></td>
+<td style="text-align:right">673,760</td>
+<td style="text-align:right">726,736</td>
+<td>+7.9 percent</td>
+</tr>
+<tr>
+<td><code>ProChannel</code></td>
+<td style="text-align:right">3,625,168</td>
+<td style="text-align:right">3,824,656</td>
+<td>+5.5 percent</td>
+</tr>
+<tr>
+<td><code>CloudContent</code></td>
+<td style="text-align:right">5,962,000</td>
+<td style="text-align:right">6,230,560</td>
+<td>+4.5 percent</td>
+</tr>
+<tr>
+<td><code>TimelineKit</code></td>
+<td style="text-align:right">6,322,000</td>
+<td style="text-align:right">6,471,632</td>
+<td>+2.4 percent</td>
+</tr>
+<tr>
+<td><code>ProCore</code></td>
+<td style="text-align:right">4,455,440</td>
+<td style="text-align:right">4,559,664</td>
+<td>+2.3 percent</td>
+</tr>
+<tr>
+<td><code>Interchange</code></td>
+<td style="text-align:right">6,338,080</td>
+<td style="text-align:right">6,480,160</td>
+<td>+2.2 percent</td>
+</tr>
+<tr>
+<td><code>Ozone</code></td>
+<td style="text-align:right">29,188,544</td>
+<td style="text-align:right">29,652,176</td>
+<td>+1.6 percent</td>
+</tr>
+<tr>
+<td><code>Flexo</code></td>
+<td style="text-align:right">78,772,992</td>
+<td style="text-align:right">79,731,952</td>
+<td>+1.2 percent</td>
+</tr>
+<tr>
+<td><code>LunaKit</code></td>
+<td style="text-align:right">5,140,672</td>
+<td style="text-align:right">5,198,560</td>
+<td>+1.1 percent</td>
+</tr>
+<tr>
+<td><code>FxPlugProvider</code></td>
+<td style="text-align:right">771,968</td>
+<td style="text-align:right">736,192</td>
+<td>-4.6 percent</td>
+</tr>
+</tbody>
+</table>
+<p>No binary shrank or grew enough to suggest a rewrite of an existing framework. The application binary grew most because the MotionVFX, feature promotion and launch presentation code lives there. DeepSkyLite replaced its save and sync coders (<code>DSSaveContext</code>, <code>DSSyncContext</code>) with <code>DSEncoder</code> and <code>DSDecoder</code>, which is the library persistence layer.</p>
+<p>Notable bundle version changes: <code>FxPlug</code> 4.3.5 to 4.3.6, the embedded Compressor frameworks 5.4 to 6.0, <code>AppleMediaServicesKit</code> 2026.1.5 to 2026.26.28, <code>CloudContent</code> and <code>PMLCloudContent</code> build 1 to 41.5.6, <code>AppAnalytics</code> build 573 to 595, <code>MXFExportSDK</code> 236.1.3 to 237.0.4, <code>VAML</code> 45.4.1 to 45.8.1 and the ProRes codecs 60804 to 60810. The full table is in <a href="#appendix-a-every-mach-o-file">appendix A</a>.</p>
+<p><strong>Linked library changes:</strong></p>
+<ul>
+<li><strong>Flexo</strong> adds weak links to <code>AppEditIn</code>, <code>AppImageGenerationModel</code>, <code>AppImageGenerationUI</code>, <code>AppsGen</code> and <code>AppsGenUI</code>, and to the Swift overlays <code>libswiftIntents</code>, <code>libswiftCoreLocation</code>, <code>libswiftAppleArchive</code> and <code>libswiftCompression</code>. It adds a strong link to <code>libswiftObservation</code>. It drops <code>DeveloperToolsSupport</code> and its weak link to <code>MusicUnderstandingEmbedded</code>.</li>
+<li><strong>Ozone</strong> adds <code>SwiftUI</code> and the same four weak image generation frameworks.</li>
+<li>The four frameworks <code>AppImageGenerationModel</code>, <code>AppImageGenerationUI</code>, <code>AppsGen</code> and <code>AppsGenUI</code> are <strong>not in this bundle</strong>. Inferred: they ship only with the Creator Studio edition, and the standard edition runs without them.</li>
+<li><strong>Final Cut Pro</strong> adds <code>MVFXAuth</code>, <code>MVFXContentKit</code>, <code>MVFXDecrypt</code>, <code>ProAppUI</code>, <code>AVFoundation</code> and <code>libswiftCoreMedia</code>.</li>
+<li><strong>MotionEffect.fxp</strong> adds weak links to <code>MVFXContentKit</code> and <code>MVFXDecrypt</code>.</li>
+<li><strong>StompTypes</strong> links the Swift runtime and <code>CryptoKit</code> for the first time. <strong>OOPDebayerService</strong> adds <code>CoreVideo</code>. <strong>AppAnalytics</strong> adds <code>AppKit</code>.</li>
+<li><strong>fcptool</strong> links <code>ArgumentParser</code>, <code>ArgumentParserToolInfo</code>, <code>Flexo</code>, <code>ProAppsFxSupport</code>, <code>ProCore</code>, <code>AppKit</code> and <code>Foundation</code>, with the run path <code>@executable_path/../Frameworks</code>.</li>
+</ul>
+<p><strong>Objective-C and Swift surface:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th style="text-align:right">12.4</th>
+<th style="text-align:right">13.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objective-C classes</td>
+<td style="text-align:right">8,794</td>
+<td style="text-align:right">9,009</td>
+</tr>
+<tr>
+<td>Objective-C protocols</td>
+<td style="text-align:right">1,980</td>
+<td style="text-align:right">2,027</td>
+</tr>
+<tr>
+<td>Categories on classes of another binary</td>
+<td style="text-align:right">268</td>
+<td style="text-align:right">270</td>
+</tr>
+<tr>
+<td>Swift type descriptors</td>
+<td style="text-align:right">4,418</td>
+<td style="text-align:right">4,966</td>
+</tr>
+</tbody>
+</table>
+<p>226 classes are added and 11 removed. 49 of the added classes are in the eight new binaries. In the common binaries, 1,338 selectors are added to existing classes and 422 removed.</p>
+<table>
+<thead>
+<tr>
+<th>Binary</th>
+<th>Classes</th>
+<th style="text-align:right">Added</th>
+<th style="text-align:right">Removed</th>
+<th style="text-align:right">Changed classes</th>
+<th style="text-align:right">Selectors added</th>
+<th style="text-align:right">Selectors removed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Flexo</code></td>
+<td>3,129 to 3,199</td>
+<td style="text-align:right">77</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">173</td>
+<td style="text-align:right">732</td>
+<td style="text-align:right">205</td>
+</tr>
+<tr>
+<td><code>TimelineKit</code></td>
+<td>313 to 327</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">26</td>
+<td style="text-align:right">123</td>
+<td style="text-align:right">33</td>
+</tr>
+<tr>
+<td><code>Final Cut Pro</code></td>
+<td>193 to 220</td>
+<td style="text-align:right">27</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">21</td>
+<td style="text-align:right">94</td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td><code>Ozone</code></td>
+<td>649 to 659</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">26</td>
+<td style="text-align:right">107</td>
+<td style="text-align:right">43</td>
+</tr>
+<tr>
+<td><code>DeepSkyLite</code></td>
+<td>26 to 25</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">62</td>
+<td style="text-align:right">34</td>
+</tr>
+<tr>
+<td><code>Interchange</code></td>
+<td>179 to 181</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">33</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td><code>CloudContent</code></td>
+<td>245 to 258</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td><code>ProCore</code></td>
+<td>46 to 58</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td><code>ProExtensionSupport</code></td>
+<td>13 to 13</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">19</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td><code>ProCurveEditor</code></td>
+<td>58 to 58</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">21</td>
+<td style="text-align:right">11</td>
+</tr>
+<tr>
+<td><code>ProChannel</code></td>
+<td>60 to 60</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">5</td>
+</tr>
+<tr>
+<td><code>FxPlug</code></td>
+<td>57 to 59</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td><code>LunaKit</code></td>
+<td>217 to 220</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td><code>ProInspector</code></td>
+<td>95 to 95</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+</tr>
+</tbody>
+</table>
+<p>A changed class is one that exists in both releases and gained or lost a selector or changed its superclass.</p>
+<p>The method symbols of Flexo name the category each merged method came from (<code>nm</code>). Flexo has 561 named categories in 12.4 and 596 in 13.0, with 36 added and one removed (<code>FFVoiceOverController(macOS)</code>). The added category names are the clearest map of the new work and are used below.</p>
+<p><strong>New subsystems, grouped by feature:</strong></p>
+<p><strong>Unconnected clips, internally static clips.</strong> A clip can be disconnected from the primary storyline and stay where it is.</p>
+<ul>
+<li>Flexo classes: <code>FFClipConnectionsFeature</code>, <code>FFToggleClipConnectionsCommand</code>, <code>FFBreakConnectionsCommand</code>, <code>FFRestoreConnectionsCommand</code>, <code>FFConnectedItemsCollection</code>, <code>FFGapInsertionReverter</code>, <code>FFRippleObserver</code>, <code>FFTimelineIndexStaticClipsFilterToken</code>. Protocol <code>FFClipConnectionsCommand</code>.</li>
+<li>Flexo categories: <code>FFAnchoredSequence(StaticCompoundClip)</code> with 31 methods such as <code>markObjectAsStaticClip:</code>, <code>unmarkStaticClips:</code>, <code>restoreStaticClips:</code> and <code>isAutoGeneratedGapMark:</code>, <code>FFAnchoredCollection(ClipConnections)</code>, <code>FFAnchoredTimelineModule(ClipConnections)</code>, <code>FFStory(ToggleClipConnections)</code>, <code>FFStory(BreakConnections)</code>, <code>FFStory(RestoreConnections)</code>, <code>FFXMLExporter(StaticExport)</code> and <code>FFXMLImporter(StaticImport)</code>.</li>
+<li>The protocols <code>FFStoryline</code> and <code>FFStorylineClip</code> gain <code>staticClips</code>, <code>isStatic</code> and <code>canBecomeStatic</code>. The marks are stored under the names <code>__staticClipMark</code> and <code>__autoGeneratedGapMark</code>.</li>
+<li>TimelineKit classes: <code>TLKClipConnectionVisibilityPolicy</code>, <code>TLKDrawClipConnectionsSuboperation</code>, <code>TLKConnectedItemBorderLayer</code>, <code>TLKTriangleAnchorTailLayer</code>. <code>TLKItemLayoutInfo</code> gains <code>isUnconnectedClip</code>, <code>canShowConnectionLine</code> and <code>showsConnectionLine</code>. <code>TLKDataSourceProxy</code> gains <code>fetchUnconnectedItemsForTrack:</code>.</li>
+</ul>
+<p><strong>Timeline selection and hit testing.</strong> TimelineKit moves selection into the view model and adds a magnetic selection of connected items.</p>
+<ul>
+<li>New classes: <code>TLKSelectObjectsCommand</code>, <code>TLKSelectionUtilities</code>, <code>TLKVerticalSelectionQuery</code>, <code>TLKReloadMagneticSelectionSuboperation</code>, <code>TLKTimelineHitTester</code>, <code>TLKTimelinePermissiveHitTester</code>, <code>TLKEventInputDetector</code>.</li>
+<li><code>TLKTimelineViewModel</code> gains <code>selectObjects:byExtendingSelection:selectionMask:</code>, <code>selectedObjects</code>, <code>deselectAll</code>, <code>rangeSelection</code> and <code>isMagneticSelectionEnabled</code>. <code>TLKTimelineHandler</code> loses nine private selection helpers and <code>TLKTimelineView</code> loses <code>showAnchors</code> and <code>setShowAnchors:</code>.</li>
+</ul>
+<p><strong>Model commands and queries.</strong> Flexo gains small command and query objects that act on the model without a view: <code>FFAddMarkerCommand</code>, <code>FFAddTitleCommand</code>, <code>FFBreakApartCommand</code>, <code>FFCopyEffectsCommand</code>, <code>FFPasteEffectsCommand</code>, <code>FFNextEditPositionQuery</code>, <code>FFPlaybackSelectionQuery</code>, <code>FFSelectedRangesOfMediaQuery</code>, <code>FFStoryItemsAtTimeQuery</code> and <code>FFStoryItemEnumerator</code>. <code>FFStory</code> gains 20 methods, including <code>breakApartClipItems:</code>, <code>copyEffects</code>, <code>pasteEffects</code>, <code>deleteClips:error:</code>, <code>deleteRanges:error:</code> and <code>toggleClipConnectionsForItems:</code>. Inferred: this is the same move away from view-bound editing code that makes a command-line tool possible.</p>
+<p><strong>Edit in Pixelmator Pro.</strong></p>
+<ul>
+<li><code>AppEditIn</code>: <code>AEICoordinator</code>, <code>AEIEditingSession</code>, <code>AEISessionFilePresenter</code>, <code>AEIUniversalLinkHandler</code>, <code>AEIPixelmatorDocumentInfo</code>, <code>AEIPixelmatorDocumentPreviewProvider</code>, <code>AEIPixelmatorDocumentSQLiteReader</code> and <code>AEIPixelmatorDocumentZIPArchive</code>.</li>
+<li>Flexo: <code>FFEditInPixelmatorManager</code>, <code>FFEditInSession</code>, <code>FFEditInSessionState</code>, <code>AEICoordinatorBridge</code>, <code>AEIEditingSessionBridge</code>, and a Pixelmator document media provider <code>FFProviderPXD</code> with <code>FFSourceVideoPXD</code>, <code>FFStreamVideoPXD</code>, <code>FFSourceMetadataPXD</code> and <code>FFStreamMetadataPXD</code>. <code>FFAnchoredObject</code> gains <code>isPXD</code> and <code>isEditedInPixelmator</code>.</li>
+<li>Application: <code>PEEditInPixelmatorHost</code>. Ozone: <code>OZEditInPixelmatorManager</code>, <code>OZEditInPixelmatorHost</code>, <code>OZEditInPixelmatorButtonController</code>.</li>
+</ul>
+<p><strong>MotionVFX content.</strong></p>
+<ul>
+<li>Application: <code>MVFXAuthProvider</code>, <code>MVFXDownloadController</code>, <code>MVFXOnboardingRecord</code>, <code>MVFXRemoteContext</code>, <code>MVFXCloudContentCatalog</code>, <code>MVFXDownloadRegistry</code>, <code>MotionVFXInstallStateProbe</code>, <code>PEZipExtractor</code>.</li>
+<li><code>MVFXContentKit</code>: <code>MVFXContentService</code>, <code>MVFXContentProvider</code>, <code>MVFXContentDownloader</code>, <code>MVFXInstaller</code>, <code>MVFXManifest</code>, <code>MVFXManifestFetcher</code>, <code>MVFXManifestCache</code>, <code>MVFXNetworkClient</code>. <code>MVFXAuth</code>: <code>MVFXTokenProvider</code>, <code>MVFXAccessToken</code>, <code>KeychainTokenStore</code>. <code>MVFXDecrypt</code>: <code>MVFXContentDecryptor</code>, <code>MVFXContentKeyStore</code>.</li>
+<li>Flexo: <code>MVFXDownloadTask</code> (a <code>FFBackgroundTask</code>), <code>FFMotionVFXExtensionButtonView</code>, protocol <code>FFMVFXContentDownloading</code>. <code>FFMotionEffectBundle</code> gains <code>installUserTemplateAtRelativePath:</code> and <code>isMVFXManagedUserTemplateRelPath:</code>.</li>
+<li><code>ProExtensionHost</code>: <code>FCPXMVFXContent</code>. The application adopts <code>PXProExtensionHostMVFXContextProtocol</code>.</li>
+</ul>
+<p><strong>Workflow Extensions in the Browser.</strong> Extensions can be hosted in a Browser sidebar tab and in a floating panel.</p>
+<ul>
+<li>Flexo: <code>FFMDWorkflowExtensionModule</code>, <code>FFProjectExtrasWorkflowExtensionNode</code>, <code>_FFMExtensionContainerView</code>. <code>FFEventLibraryModule</code> gains 44 methods such as <code>showExtensionsSidebarAction:</code>, <code>openWorkflowExtensionWithMode:sender:</code> and <code>isExtensionsSidebarActive</code>. <code>FFExternalProvidersManager</code> gains <code>blockedExtensionBundleIdentifiers</code> and <code>sidebarExtensionBundleIdentifiers</code>.</li>
+<li>Application: <code>PEWorkflowExtensionWindow</code>, <code>PEWorkflowExtensionWindowModule</code> and the category <code>PEAppController(WorkflowExtension)</code>. ProCore: <code>PCWorkflowExtensionBrowserFeature</code>.</li>
+</ul>
+<p><strong>Image generation and intelligence features.</strong> Flexo: <code>FFImageGeneration</code>, <code>FFImageGenerationInvocationData</code>, <code>FFAppsGenAvailability</code>, <code>FFAppsGenConfigurator</code>, <code>FFIntelligenceFeatures</code>, <code>FFAgeVerificationHelper</code>, protocol <code>FFImageGenerationDelegate</code>. Ozone: <code>OZImageGenBridge</code>, <code>OZAppGenBridge</code>. <code>PEWindowModule</code> gains <code>openImageGenerationEditorForEvent:</code> and <code>ff_imageGenerationInsertItem:imageData:</code>.</p>
+<p><strong>Content Hub.</strong> Flexo: <code>FFContentHubImportTask</code>, <code>FFContentHubMediaTraits</code>, <code>FFEventLibraryNewContentBadgeView</code>, the category <code>FFAsset(ContentHub)</code> with <code>isContentHubAsset</code> and <code>contentHubPersistentID</code>. <code>FFOrganizerFilmstripModule</code> gains <code>pauseContentHubDownload:</code>, <code>resumeContentHubDownload:</code> and <code>cancelContentHubDownload:</code>. <code>CloudContent</code> gains 13 classes for model, embedding and service endpoint items.</p>
+<p><strong>Keyframe easing.</strong> <code>FFCurveEditorDataSource</code> gains 14 methods such as <code>keyframeSpeedAtTime:isLeft:</code>, <code>setKeyframeSpeed:speed:</code> and <code>supportsCustomInterpolation</code>. <code>ProCurveEditor</code>, <code>ProChannel</code> and <code>ProOSC</code> gain speed and interpolation selectors. Ozone adds <code>OZMoCurveEditorRenderController</code> and <code>OZTimingModuleChannelCopyPaste</code>.</p>
+<p><strong>Natural Motion Blur.</strong> Flexo: <code>FFMotionBlurEffect</code> (a <code>FFHeliumEffect</code>), <code>FFMotionBlurEffectNotificationHandler</code>. <code>FFEffectStack</code> gains <code>addMotionBlurEffect</code> and <code>motionBlurEffect</code>. Interchange: <code>IXNaturalMotionBlur</code>. The Filters bundle adds <code>PAEDisplacement</code>.</p>
+<p><strong>Transcription languages.</strong> Flexo: <code>FFTranscriptionLocalePicker</code>, <code>FFTranscriptionLocaleMenuController</code>, <code>FFLocaleGrouper</code>, <code>FFLocaleGroup</code>, <code>FFLegacyTranscriptionCoordinator</code>, protocol <code>FFTranscriptionCoordinating</code>. <code>FFTranscriptionCoordinator</code> replaces <code>supportedLanguagesWithCompletionHandler:</code> with <code>supportedLocalesWithCompletionHandler:</code> and <code>qualifiedLocalesWithCompletionHandler:</code>. <code>FFLibrary</code> gains <code>transcriptionLocale</code>, <code>shouldTranscribeAudio</code> and <code>findOrCreateSubRoleWithLanguageIdentifier:forMainRoleWithUID:</code>. <code>FFRole</code> gains <code>isLanguageNamedSubRole</code>. The removed Swift class <code>FFGenerateCaptionsLanguagePicker</code> was the 12.4 picker.</p>
+<p><strong>Touch input.</strong> New gesture classes appear across the interface: <code>FFEffectLibraryTouchLiftObserver</code>, <code>FFOrganizerFilmstripTouchLiftObserver</code>, <code>TLKRulerTouchOverlayView</code>, <code>TLKRulerTouchPanGestureRecognizer</code> and <code>LKScrollPanSuppressingGestureRecognizer</code>. <code>FFPlayerVideoModule</code> gains <code>handlePan:</code>, <code>handlePinch:</code> and <code>handleDoubleTap:</code>. <code>LKContainerView</code> gains five <code>touch…SeamResize…</code> methods and <code>PECaplessContainerModule</code> gains <code>touchSeamPanAction:</code>. Inferred: the interface is being prepared for direct touch.</p>
+<p><strong>Feedback, notifications and launch.</strong> ProCore adds <code>PCFeedbackDelegate</code>, <code>PCFeedbackPolicy</code>, <code>PCFeedbackPolicySet</code>, <code>PCFeedbackProviderAppKit</code>, <code>PCFeedbackProviderConsole</code>, <code>PCFeedbackReply</code>, <code>PCFeedbackRequestContext</code> and <code>PCFeedbackTemplate</code>, which let Flexo ask a question through an alert or through a console. It also adds <code>PCNotificationsFeature</code>. The application adds <code>PEFeaturePromoHelper</code>, <code>PEWhatsNewModalWindowController</code>, <code>PELaunchPresentationCoordinator</code> and <code>PEDefaultPushNotificationsGate</code>.</p>
+<p><strong>Other.</strong> <code>FFVoiceoverSession</code> and <code>FFVoiceoverSession_macOS</code> replace much of <code>FFVoiceOverController</code>. <code>FFDestNonRealTime</code> becomes the superclass of <code>FFDestRenderer</code>, <code>FFDestQTExporter</code> and <code>FFDestProMSExporter</code>. <code>FFRoleImportApplier</code>, <code>FFModelLockSettingsObserver</code>, <code>FFUndoSignpostEmitter</code> and <code>FFAutomaticAudioProcessor</code> are new. <code>LKSBSavePanel</code> is a new save panel for the sandbox.</p>
+<p><strong>Removed:</strong></p>
+<p>Eleven classes are removed. Seven are in Flexo: <code>CMIOProducerWrapper</code>, <code>FFDestVideoCMIO</code>, <code>FFAudioUnitValidationProgressState</code>, <code>FFModifyAccessoryLayersOperation</code>, <code>FFSearchQuery</code>, <code>FFTextField</code> and <code>FFGenerateCaptionsLanguagePicker</code>. Three are in DeepSkyLite (<code>DSObject_FaultHandler</code>, <code>DSSaveContext</code>, <code>DSSyncContext</code>) and one in AudioAnalysis (<code>UnsupportedSpeechRecognitionModule</code>). Inferred: the CoreMediaIO video output path is gone.</p>
+<p>Trial support is removed. <code>LKAboutPanel</code> loses <code>isTrial</code>, <code>setTrial:</code> and <code>sharedTrialAboutPanel</code>. Interchange loses <code>isFinalCutProTrialWithIdentifier:</code>. The string <code>com.apple.FinalCutTrial</code> is gone from Ozone, ProAppSupport and ProExtensionHost, and twelve <code>PETrial…</code> strings are gone from <code>PELocalizable.strings</code>.</p>
+<p><strong>Selector changes in the classes automation cares about:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Class</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Timeline</td>
+<td><code>FFAnchoredTimelineModule</code></td>
+<td>22 added, 9 removed. Adds <code>toggleClipConnections:</code>, <code>editInPixelmator:</code>, <code>pasteAdjustmentsMotionBlur:</code>, <code>gotoAdjacentEdit:</code>, <code>generateCaptionsByTranscribingSelectionWithLocaleIdentifier:</code>. Removes <code>gotoAdjacentEdit:includeAnchored:</code>, <code>setOverrideConnections:</code>, <code>generateCaptionsByTranscribingSelectionWithLanguage:</code>, <code>addBasicTitleOrLowerThirdFromPasteboard</code></td>
+</tr>
+<tr>
+<td>Timeline</td>
+<td><code>FFAnchoredSequence</code></td>
+<td>53 added, 4 removed. The paste attributes operation gains a <code>customEffect:</code> argument. <code>pasteWithSelection:atTime:error:</code> is removed</td>
+</tr>
+<tr>
+<td>Timeline</td>
+<td><code>FFTimelineEditor</code></td>
+<td>13 added, 1 removed. Adds <code>enableOverrideConnectionsMode</code>, <code>toggleOverrideConnectionsMode</code>, <code>playSelected</code>. <code>initWithTimelineViewModel:</code> becomes <code>init</code> with <code>setTimelineViewModel:</code></td>
+</tr>
+<tr>
+<td>Timeline Index</td>
+<td><code>FFTimelineIndex</code></td>
+<td><code>reloadDataWithRootItem:</code> and <code>reloadDataWithRootItem:filterText:</code> become <code>reloadData</code>, <code>reloadDataWithFilterText:</code> and <code>reloadItems</code></td>
+</tr>
+<tr>
+<td>Browser</td>
+<td><code>FFEventLibraryModule</code>, <code>FFOrganizerFilmstripView</code>, <code>FFOrganizerFilmstripModule</code>, <code>FFMediaDetailContainerModule</code></td>
+<td>44, 17, 4 and 11 added, none removed. All for the extensions sidebar, MotionVFX, Content Hub downloads and touch lift</td>
+</tr>
+<tr>
+<td>Inspector</td>
+<td><code>FFInspectorModuleVideoChannels</code></td>
+<td>No selector change. One new outlet, <code>_editInPixelmatorButton</code>. No other <code>FFInspector…</code> class changes</td>
+</tr>
+<tr>
+<td>Share and export</td>
+<td><code>FFDestRenderer</code></td>
+<td>Superclass <code>FFDestVideo</code> becomes <code>FFDestNonRealTime</code> and 22 selectors move out. No <code>FFShare…</code> class changes</td>
+</tr>
+<tr>
+<td>Library management</td>
+<td><code>FFLibraryDocument</code></td>
+<td>Adds <code>cancelAndWaitForBackgroundTasksWithCompletionHandler:</code>, <code>initWithCatalog:store:ofType:validate:libraryItem:error:</code>, <code>writeBackupWithOptions:validate:backupURL:error:</code>. The menu helpers move to the new category <code>FFLibraryDocument(AppKitSupport)</code></td>
+</tr>
+<tr>
+<td>Library management</td>
+<td><code>FFLibrary</code>, <code>FFStorageManager</code>, <code>FFStorageLocation</code></td>
+<td><code>FFLibrary</code> adds <code>importItemsFromURLs:intoEvent:error:</code> and drops <code>openOrSaveAllowedFileTypes</code> and <code>proposedLibraryName:usingLocation:</code>. Storage locations are keyed by volume URL in place of a volume reference number</td>
+</tr>
+<tr>
+<td>Library management</td>
+<td><code>FFModelDocument</code></td>
+<td>Adds <code>compiledCatalogBranchID</code> and <code>withCustomCatalogBranchID:block:</code></td>
+</tr>
+<tr>
+<td>Command handling</td>
+<td><code>PEAppController</code></td>
+<td>32 added, 1 removed. Adds <code>toggleOrganizerWithExtensionsSidebarTab:</code>, <code>toggleWorkflowExtensionFloatingPanel:</code>, <code>toggleUsageStatusWindow:</code>, <code>resetImageGenPermissions:</code>, <code>suppressMenuItemsForCompiledOutFeatures</code>, <code>openFirstTimelineInLibraryWithURL:</code>. Removes <code>_registerDefaults</code></td>
+</tr>
+<tr>
+<td>Command handling</td>
+<td><code>PEEditorContainerModule</code></td>
+<td>Adds <code>stepForward10Frames:</code>, <code>stepBackward10Frames:</code>, <code>stepForwardField:</code>, <code>stepBackwardField:</code>, <code>stepForwardSubframe:</code>, <code>stepBackwardSubframe:</code></td>
+</tr>
+<tr>
+<td>Command handling</td>
+<td>LunaKit</td>
+<td>Only <code>LKContainerView</code>, <code>LKViewModule</code>, <code>LunaKit</code> and <code>LKAboutPanel</code> changed, so the command, command set and Command Editor classes are as they were</td>
+</tr>
+<tr>
+<td>Undo</td>
+<td><code>FFUndoHandler</code></td>
+<td>Adds <code>beginNonUndoableSession</code>, <code>endNonUndoableSession</code>, <code>performUndoIfTopOfHistoryMatches:</code></td>
+</tr>
+<tr>
+<td>Pasteboard</td>
+<td><code>FFPasteboard</code></td>
+<td>Adds <code>writePasteboardItems:</code>, <code>payloadEffectIDsOfType:</code>, <code>containsAllOfflineEffectsOfType:</code>. Removes <code>writeAnchoredObjects:options:</code> and <code>writeEffects:clearContents:</code>. New class <code>FFCopyPasteEffectsPasteboard</code></td>
+</tr>
+<tr>
+<td>FCPXML</td>
+<td><code>FFXML</code></td>
+<td>11 class methods added, including <code>validateFCPXMLDocument:error:</code>, <code>supportedExportVersionStrings</code>, <code>defaultExportVersionString</code>, <code>isSupportedExportVersionString:</code>, <code>versionStringForFCPXMLDocument:error:</code></td>
+</tr>
+<tr>
+<td>FCPXML</td>
+<td><code>FFXMLTranslationTask</code></td>
+<td>Adds <code>exportToFile:withOptions:taskDelegate:</code> and <code>newXMLDataWithOptions:taskDelegate:</code></td>
+</tr>
+<tr>
+<td>FCPXML</td>
+<td><code>FFXMLImporter</code>, <code>FFXMLExporter</code></td>
+<td>7 and 9 added. <code>processFlagsAttributeInItem:forObject:</code>, <code>addNaturalMotionBlur:effectStack:toObject:</code>, <code>addSemanticMask:effect:toObject:</code>, <code>markItemAsStaticIfNeeded:</code>, <code>newNaturalMotionBlurFromEffectStack:</code></td>
+</tr>
+<tr>
+<td>Start-up</td>
+<td><code>Flexo</code></td>
+<td><code>finishInit</code> and <code>finishInitWithFeatureFlags:</code> become <code>finishInitWithFlexMusicProvider:featureFlags:userDefaults:</code>. Adds <code>feedbackDelegate</code>, <code>versionString</code>, <code>contentHubEnabled</code>, <code>isWorkflowExtensionBrowserEnabled</code></td>
+</tr>
+<tr>
+<td>AppleScript</td>
+<td><code>FFGetCommand</code>, <code>PEApplication</code></td>
+<td>No change</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Commands and shortcuts:</strong></p>
+<p><code>NSProCommands.plist</code> has 572 definitions in 12.4 and 576 in 13.0. Four are added, none removed and none of the 572 changed. <code>NSProCommandsAdditional.plist</code> was empty and now has one.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Selector</th>
+<th>English name</th>
+<th>English description</th>
+<th>Group</th>
+<th>Default shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ToggleClipConnections</code></td>
+<td><code>toggleClipConnections:</code></td>
+<td>Disconnect/Reconnect Clip</td>
+<td>Disconnect selected clips in the timeline, or reconnect selected unconnected clips</td>
+<td>Editing</td>
+<td>Option-Grave Accent</td>
+</tr>
+<tr>
+<td><code>ToggleContentHub</code></td>
+<td><code>showContentHub:</code></td>
+<td>Show/Hide Content Hub</td>
+<td>Show or hide the Content Hub</td>
+<td>Windows</td>
+<td>Option-Command-5, also on the keypad</td>
+</tr>
+<tr>
+<td><code>ToggleEventExtensionsBrowser</code></td>
+<td><code>toggleOrganizerWithExtensionsSidebarTab:</code> with <code>downTag</code> 0</td>
+<td>Go to MotionVFX</td>
+<td>Go to MotionVFX</td>
+<td>Windows</td>
+<td>Shift-Option-Command-1, also on the keypad</td>
+</tr>
+<tr>
+<td><code>ToggleWorkflowExtensionFloatingPanel</code></td>
+<td><code>toggleWorkflowExtensionFloatingPanel:</code></td>
+<td>Show/Hide MotionVFX Floating Panel</td>
+<td>Show or hide the MotionVFX floating panel</td>
+<td>none</td>
+<td>Command-8, also on the keypad</td>
+</tr>
+<tr>
+<td><code>ShowImageGeneration</code> (Additional)</td>
+<td><code>showImageGenerationEditor:</code></td>
+<td>Generate Image…</td>
+<td>Create an image based on a description, another image, or suggested prompts.</td>
+<td>none</td>
+<td>Shift-Option-G</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><code>NSProCommandGroups.plist</code> keeps its 11 groups. Editing grows from 159 to 160 commands and Windows from 44 to 46. <code>ToggleWorkflowExtensionFloatingPanel</code> and <code>ShowImageGeneration</code> are in no group.</li>
+<li>The English names table grows from 596 to 600 entries and the descriptions table from 586 to 590. No existing name changes.</li>
+<li>One existing description changes. <code>Import</code> was “Import media from a device, camera, archive, or Image Playground” and is now “Import media into the library”.</li>
+</ul>
+<p><strong>Default command sets:</strong></p>
+<ul>
+<li>Every language's <code>Default.commandset</code> grows from 398 to 402 entries. The four new entries are the same four commands in every language. No existing entry is removed or changed in any language.</li>
+<li>In English 385 commands had a key in 12.4 and 389 have one in 13.0.</li>
+<li><code>Default-CommandSetAdditions.plist</code> was empty and now assigns <code>ShowImageGeneration</code> to <code>g</code> with <code>shift option</code>.</li>
+<li>None of the five new default shortcuts was assigned to another command in 12.4, and the 13.0 English set has no key assigned to two commands.</li>
+<li>The other languages use their usual localised keys. German assigns <code>ToggleClipConnections</code> to Option with <code>&lt;</code>. French assigns the Content Hub, MotionVFX and floating panel commands to <code>(</code>, <code>&amp;</code> and <code>!</code> with the same modifiers, each with a keypad alternative.</li>
+<li>Every language has translated names and descriptions for the four commands, and gains the two <code>Additional</code> tables for <code>ShowImageGeneration</code>.</li>
+</ul>
+<p><strong>Menus, windows and controls:</strong></p>
+<p>Six entries are added. Nothing is removed, and no existing item changes its title, key equivalent, modifier mask, action, tag or outlet.</p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Action</th>
+<th>Key equivalent</th>
+<th>Outlet</th>
+<th>Position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final Cut Pro › Intelligence Features</td>
+<td>submenu</td>
+<td>none</td>
+<td><code>intelligenceFeaturesMenuItem</code></td>
+<td>New submenu in the application menu</td>
+</tr>
+<tr>
+<td>Final Cut Pro › Intelligence Features › Show Usage Status</td>
+<td><code>toggleUsageStatusWindow:</code></td>
+<td>none</td>
+<td><code>usageStatusMenuItem</code></td>
+<td>First item</td>
+</tr>
+<tr>
+<td>Final Cut Pro › Intelligence Features › Reset Permissions</td>
+<td><code>resetImageGenPermissions:</code></td>
+<td>none</td>
+<td><code>resetPermissionsMenuItem</code></td>
+<td>Second item</td>
+</tr>
+<tr>
+<td>File › Import › Generate Image…</td>
+<td><code>showImageGenerationEditor:</code></td>
+<td>Shift-Option-G</td>
+<td><code>_fileImportImageGeneration</code></td>
+<td>After Image Playground…, before Transcode Media…</td>
+</tr>
+<tr>
+<td>Clip › Disconnect Clips</td>
+<td><code>toggleClipConnections:</code></td>
+<td>none</td>
+<td>none</td>
+<td>After Break Apart Clip Items</td>
+</tr>
+<tr>
+<td>Window › Show in Workspace › Content Hub</td>
+<td><code>showContentHub:</code></td>
+<td>none</td>
+<td><code>contentHubMenuItem</code></td>
+<td>After Transitions</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The static title Disconnect Clips is replaced at run time. <code>FFLocalizable.strings</code> adds <code>FFDisconnectClips</code> “Disconnect Clips”, <code>FFDisconnectConnectedClips</code> “Disconnect Connected Clips”, <code>FFReconnectClips</code> “Reconnect Clips” and <code>FFReconnectToPrimaryStoryline</code> “Reconnect to Primary Storyline”, and <code>FFStory</code> gains <code>localizedMenuTitleForTogglingConnectionsForItems:</code>.</li>
+<li><code>PEAppController</code> gains <code>suppressMenuItemsForCompiledOutFeatures</code>. Inferred: Intelligence Features, Generate Image… and Content Hub can be hidden when their feature is unavailable, so their presence must be read from the running menu.</li>
+<li>The same timeline action is added to the context menu in <code>FFAnchoredTimelineModule.nib</code> through <code>insertClipConnectionsContextMenuItems</code>.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Live title in 13.0</th>
+<th>In 12.4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Edit › Copy Timecode, Paste as Connected Clip, Add Adjustment Clip, Connect Title, Insert Generator, Generate Captions, Closed Captions, Find…, Find and Replace Title Text…</td>
+<td>All present at the same paths in the 12.4 nib</td>
+</tr>
+<tr>
+<td>Clip › Reference New Parent Clip, Solo Animation, Show Tracking Editor, Rename Clip</td>
+<td>All present in the 12.4 nib</td>
+</tr>
+<tr>
+<td>Clip › Show Magnetic Mask Editor, Show Cinematic Editor</td>
+<td>Run-time titles in both releases, from <code>FFSegmentationMaskEditorShow</code> and <code>FFCinematicShowCinematicEditor</code></td>
+</tr>
+<tr>
+<td>Clip › Enable Beat Detection</td>
+<td>Not new. Both nibs hold Detect Beats, and both <code>NSProCommandNames.strings</code> tables name <code>DetectBeats</code> “Enable Beat Detection”</td>
+</tr>
+<tr>
+<td>Clip › Disconnect Connected Clips</td>
+<td><strong>New in 13.0</strong></td>
+</tr>
+<tr>
+<td>Top-level menus Final Cut Pro, File, Edit, Trim, Mark, Clip, Modify, View, Window, Help</td>
+<td>The same ten in both nibs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nibs:</strong></p>
+<p>Both bundles were searched for <code>.nib</code> files: 630 in 12.4 and 632 in 13.0. 570 are byte-identical. Two are new. 14 changed in their strings, custom classes, connections or identifiers. 46 were recompiled with none of those changes. The full list is in <a href="#appendix-e-nib-differences">appendix E</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Nib</th>
+<th>What it is</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MainMenu.nib</code></td>
+<td>Menu bar</td>
+<td>Six entries, above</td>
+</tr>
+<tr>
+<td><code>FFAnchoredTimelineModule.nib</code></td>
+<td>Timeline and its context menus</td>
+<td>“Edit in Pixelmator Pro” items in two context menus, both with <code>editInPixelmator:</code></td>
+</tr>
+<tr>
+<td><code>FFEventLibraryModule.nib</code></td>
+<td>Browser container with the sidebar buttons</td>
+<td>New <code>FFMotionVFXExtensionButtonView</code> with <code>motionVFXExtensionButtonAction:</code>. The new content badge becomes <code>FFEventLibraryNewContentBadgeView</code>. Three layout constraint outlets</td>
+</tr>
+<tr>
+<td><code>FFOrganizerFilmstripModule.nib</code></td>
+<td>Browser filmstrip and its context menu</td>
+<td>Menu items Pause Download, Resume Download and Cancel Download for the Content Hub</td>
+</tr>
+<tr>
+<td><code>FFInspectorModuleVideoChannels.nib</code></td>
+<td>Video Inspector channels header</td>
+<td>New “Edit in Pixelmator Pro” button with a help tag</td>
+</tr>
+<tr>
+<td><code>FFAnalyzeMediaSheet.nib</code></td>
+<td>The “Analyze and Fix” sheet</td>
+<td>Checkbox “Transcribe in English” becomes “Transcribe audio”, with new Language and Region pop-up buttons</td>
+</tr>
+<tr>
+<td><code>PEAppImportPreferencesModule.nib</code></td>
+<td>Settings, Import pane</td>
+<td>The same checkbox change, under a new “Transcription:” label, with Language and Region pop-up buttons</td>
+</tr>
+<tr>
+<td><code>PEImportOptionsModule.nib</code></td>
+<td>Media Import window options</td>
+<td>The same checkbox change in a new collapsible Transcription box with a Hide button</td>
+</tr>
+<tr>
+<td><code>FFRAWProcessorSettings.nib</code></td>
+<td>RAW settings window</td>
+<td>New “Save Sidecar File” button with <code>saveSidecar:</code></td>
+</tr>
+<tr>
+<td><code>FFKeywordEditor.nib</code></td>
+<td>Keyword Editor</td>
+<td>Two outlets, <code>disclosureButton</code> and <code>disclosureTouchTarget</code></td>
+</tr>
+<tr>
+<td><code>LKAboutPanel.nib</code></td>
+<td>About window</td>
+<td>The trial version label is removed</td>
+</tr>
+<tr>
+<td><code>OZFootageListModule.nib</code>, <code>OZLayerListModule.nib</code>, <code>OZTimelineModule.nib</code></td>
+<td>Motion lists inside Ozone</td>
+<td>An “Edit in Pixelmator Pro” menu item with <code>openMediaInPixelmator:</code></td>
+</tr>
+<tr>
+<td><code>LKSBSavePanelAccessoryView.nib</code> (new)</td>
+<td>Save panel accessory</td>
+<td>A “Save As:” field for <code>LKSBSavePanel</code></td>
+</tr>
+<tr>
+<td><code>EditInPixelmator.nib</code> (new)</td>
+<td>Ozone Inspector button</td>
+<td>An “Edit in Pixelmator Pro” button</td>
+</tr>
+</tbody>
+</table>
+<p><code>Contents/Resources/Workspaces/Factory 1 - Default.moduleLayout</code> also changed (24,795 to 24,872 bytes). It is not a property list and was not decoded.</p>
+<p><strong>String tables:</strong></p>
+<p>Outside the bundled content package there are 19,072 <code>.strings</code> files in 12.4 and 19,173 in 13.0.</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th style="text-align:right">Tables added</th>
+<th style="text-align:right">Tables removed</th>
+<th style="text-align:right">Tables changed</th>
+<th style="text-align:right">Keys added</th>
+<th style="text-align:right">Keys removed</th>
+<th style="text-align:right">Keys changed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>en</code></td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">22</td>
+<td style="text-align:right">323</td>
+<td style="text-align:right">48</td>
+<td style="text-align:right">16</td>
+</tr>
+<tr>
+<td><code>de</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">39</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">52</td>
+</tr>
+<tr>
+<td><code>es</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">44</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">119</td>
+</tr>
+<tr>
+<td><code>fr</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">36</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">67</td>
+</tr>
+<tr>
+<td><code>it</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">571</td>
+</tr>
+<tr>
+<td><code>ja</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">39</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">62</td>
+</tr>
+<tr>
+<td><code>ko</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">35</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">54</td>
+</tr>
+<tr>
+<td><code>pt_BR</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">43</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">144</td>
+</tr>
+<tr>
+<td><code>zh_CN</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">42</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">198</td>
+</tr>
+<tr>
+<td><code>zh_TW</code></td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">62</td>
+<td style="text-align:right">376</td>
+<td style="text-align:right">55</td>
+<td style="text-align:right">257</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>New English tables: <code>FFImageGenBridge.strings</code> in Flexo, <code>OZImageGenBridge.strings</code> and <code>OZCinematicEverywhereLocalizable.strings</code> in Ozone, and <code>FileTransformer.strings</code> in Compressor's StompTypes.</li>
+<li>Removed English tables: <code>OZImagePlayground.strings</code> in Ozone and <code>PEWhatsNewAdditional.strings</code> in the application.</li>
+<li>The other nine languages each gain eleven tables, because they also carry tables paired with new nibs and resources: <code>PELocalizable_ContentHub.strings</code>, <code>LKSBSavePanelAccessoryView.strings</code>, <code>EditInPixelmator.strings</code>, ProAppUI's <code>Localizable.strings</code>, a second <code>FFImageGenBridge.strings</code> in the application and the two <code>Additional</code> command tables.</li>
+<li><code>FFLocalizable.strings</code> gains 59 keys and changes 4. <code>PELocalizable.strings</code> gains 29, loses 12 and changes 2. The Filters tables gain 56 keys, all for <code>PAEDisplacement</code>.</li>
+<li>Italian changes 571 existing values and Traditional Chinese 257, far more than the new features need. Inferred: those translations were revised throughout.</li>
+</ul>
+<p><strong>Preferences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th style="text-align:right">12.4</th>
+<th style="text-align:right">13.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Binaries read</td>
+<td style="text-align:right">76</td>
+<td style="text-align:right">83</td>
+</tr>
+<tr>
+<td>Call sites</td>
+<td style="text-align:right">2,133</td>
+<td style="text-align:right">2,156</td>
+</tr>
+<tr>
+<td>Keys named at call sites</td>
+<td style="text-align:right">849</td>
+<td style="text-align:right">858</td>
+</tr>
+<tr>
+<td>Registrations found</td>
+<td style="text-align:right">21</td>
+<td style="text-align:right">23</td>
+</tr>
+<tr>
+<td>Settings nib bindings</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">9</td>
+</tr>
+</tbody>
+</table>
+<p>Ten keys appear in 13.0 and not in 12.4.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Binary</th>
+<th>Read or written in</th>
+<th>Registered default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>EditIn.PersistedSessions</code></td>
+<td>dictionary</td>
+<td>Flexo</td>
+<td><code>+[FFEditInSession persistState:forSession:]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>FFAudioVoiceOverCountdown</code></td>
+<td>boolean</td>
+<td>Flexo</td>
+<td><code>-[FFVoiceoverSession_macOS enableCountdownWithPrerollTimeInSeconds:]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>FFLibraryTaskCopyOptions</code></td>
+<td>untyped</td>
+<td>Flexo</td>
+<td><code>+[FFLibraryTaskOptionsView chooseObjects:forDestination:isCopy:moveLibrary:]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>FFShouldBypassQualifiedTranscriptionLocalesFilter</code></td>
+<td>boolean</td>
+<td>Flexo</td>
+<td><code>+[FFTranscriptionCoordinator filterToQualifiedLocales:]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>OZPreferenceManager::RenderingTechnology</code></td>
+<td>untyped</td>
+<td>Ozone</td>
+<td>Registered in the <code>OZPreferenceManager</code> constructor</td>
+<td>not resolved</td>
+</tr>
+<tr>
+<td><code>PEFeaturePromoDisplayedForAppVersion</code></td>
+<td>dictionary</td>
+<td>Final Cut Pro</td>
+<td><code>FeaturePromoVersion.markDisplayedForCurrent</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>PEMotionVFXOnboardingPendingForAppVersion</code></td>
+<td>string</td>
+<td>Final Cut Pro</td>
+<td><code>+[MVFXOnboardingRecord recordPending]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>editInPixelmatorAcknowledged</code></td>
+<td>boolean</td>
+<td>Final Cut Pro, Ozone</td>
+<td><code>-[PEEditInPixelmatorHost confirmFirstUseWithCompletion:]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>isAppSubscriptionsNotificationsEnabled</code></td>
+<td>boolean</td>
+<td>ProCore</td>
+<td><code>-[PCNotificationsFeature shouldEnable]</code></td>
+<td>true</td>
+</tr>
+<tr>
+<td><code>isWorkflowExtensionBrowserEnabled</code></td>
+<td>boolean</td>
+<td>ProCore</td>
+<td><code>-[PCWorkflowExtensionBrowserFeature shouldEnable]</code></td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<p>Three more keys are strings in <code>AppEditIn</code> that discovery does not report because the framework reads them in Swift: <code>DebugEditIn.AskForSharedDirectory</code>, <code>DebugEditIn.SessionExpirationOverride</code> and <code>DebugEditIn.SharedDirectory</code>. Flexo also adds the strings <code>FFBreakOnModelLockViolations</code>, <code>FFClipTranscriptionEnabled</code> and <code>FFClipTranscriptionLanguage</code>. Whether those three are user defaults keys was not determined.</p>
+<p>Discovery reports 13 keys in 12.4 that it does not report in 13.0: <code>FFAllowOverlappedEdits</code>, <code>FFAudioScrubbingUseVarispeed</code>, <code>FFBrowseSequenceContent</code>, <code>FFDrawConformHint</code>, <code>FFEffectPickerSkimmingMode</code>, <code>FFEnableScreenSizeOverride</code>, <code>FFMovePlayheadWithSelection</code>, <code>FFNearestNeighborKey</code>, <code>FFSequenceAutoSpatialConform</code>, <code>FFSequenceTransMinDuration</code>, <code>FFSequenceVideoFormatDisplay</code>, <code>NSProDebugPaneEmphasis</code> and <code>PEAuditionPanel</code>. It also reports 31 keys, such as <code>FFPlayerQuality</code>, <code>FFAutoRenderDelay</code> and <code>FFDisableSnapping</code>, as having lost their registered default.</p>
+<p><strong>None of this is a real removal.</strong> In 12.4 the application registered 45 defaults in <code>-[PEAppController _registerDefaults]</code>. That method is gone. In 13.0 discovery finds a registration in <code>+[Flexo finishInitWithFlexMusicProvider:featureFlags:userDefaults:]</code> that it cannot resolve, and all 13 key strings are still in the 13.0 binaries. Inferred: the registration moved into Flexo so that the application and <code>fcptool</code> register the same defaults, and the dictionary is now built in a way the scanner does not follow.</p>
+<p>No key is known to be removed. The Settings nibs <code>PEAppEditingPreferencesModule</code>, <code>PEAppGeneralPreferencesModule</code>, <code>PEAppSharePreferencesModule</code> and <code>LKPreferences</code> are byte-identical. <code>PEAppPlaybackandRenderPreferencesModule.nib</code> was recompiled with the same seven bindings.</p>
+<p><strong>Feature flags:</strong></p>
+<p>Flexo has <code>FlexoConfig.</code> strings and a <code>_loadFeatureFlagsFromUserDefaults</code> method in both releases, so each flag name is a candidate user defaults key. 12.4 has 102 flag names and 13.0 has 103.</p>
+<ul>
+<li>Added: <code>FlexoConfig.allowsClipLevelAudioEffects</code>, <code>FlexoConfig.contentHubEnabled</code> and <code>FlexoConfig.isWorkflowExtensionBrowserEnabled</code>.</li>
+<li>Removed: <code>FlexoConfig.enableFlexMusicCloudContent</code> and <code>FlexoConfig.supportsAssigningSubroles</code>.</li>
+</ul>
+<p>The committed preference inventory has no <code>FlexoConfig.</code> key for any release. <code>fcptool</code> passes seven of these flags when it starts Flexo: <code>hasProCameraSupport</code>, <code>isConsumerTimeline</code>, <code>loadsFCPProjects</code>, <code>mediaExtensionsEnabled</code>, <code>messageTracerEnabled</code>, <code>visualSearchEnabled</code> and <code>semanticTextSearchEnabled</code>.</p>
+<p><strong>FCPXML:</strong></p>
+<p>Both releases ship DTD 1.0 to 1.14, fifteen files, byte-identical between the releases. 13.0 adds <code>FCPXMLv1_15.dtd</code>, so it ships sixteen.</p>
+<p><strong>Elements added (2)</strong></p>
+<ul>
+<li><code>adjust-natural-motion-blur</code>, content <code>(param*)</code>, attributes <code>enabled</code> <code>(0 | 1)</code> default <code>1</code> and <code>amount</code> <code>CDATA #IMPLIED</code>. The DTD comment says the amount is 0 to 100 and that the element is supported only on primitive <code>video</code> elements.</li>
+<li><code>mask-semantic</code>, content <code>(param*)</code>, attributes <code>name</code> <code>CDATA #IMPLIED</code>, <code>enabled</code> <code>(0 | 1)</code> default <code>1</code>, <code>blendMode</code> <code>(add | subtract | multiply)</code> default <code>add</code> and <code>type</code> <code>CDATA #IMPLIED</code>.</li>
+</ul>
+<p><strong>Content models changed (2)</strong></p>
+<ul>
+<li><code>video</code> now takes the new entity <code>intrinsic-params-primitive-video</code>, which is <code>intrinsic-params-video</code> followed by an optional <code>adjust-natural-motion-blur</code>.</li>
+<li><code>filter-video-mask</code> accepts <code>mask-semantic</code> through the <code>mask_item</code> entity, which is now <code>(mask-shape | mask-isolation | mask-semantic)</code>.</li>
+</ul>
+<p><strong>Attributes added (14)</strong></p>
+<ul>
+<li><code>flags</code> <code>CDATA #IMPLIED</code> is added to the <code>ao_attrs</code> entity, so it applies to the twelve anchored items <code>asset-clip</code>, <code>audio</code>, <code>audition</code>, <code>caption</code>, <code>clip</code>, <code>live-drawing</code>, <code>mc-clip</code>, <code>ref-clip</code>, <code>spine</code>, <code>sync-clip</code>, <code>title</code> and <code>video</code>. It is also declared on <code>gap</code>.</li>
+<li><code>pan-rect</code> gains <code>interp</code> <code>(linear | ease | easeIn | easeOut)</code> default <code>ease</code>.</li>
+</ul>
+<p><strong>Enumerations extended (3)</strong></p>
+<ul>
+<li><code>keyframe</code> <code>interp</code>: <code>(linear | ease | easeIn | easeOut)</code> gains <code>hold</code>, <code>bezier</code> and <code>passthrough</code>.</li>
+<li><code>conform-rate</code> <code>frameSampling</code> and <code>timeMap</code> <code>frameSampling</code> each gain <code>vsa-motion-blur</code>.</li>
+</ul>
+<p><strong>Fixed value.</strong> <code>fcpxml</code> <code>version</code> is <code>#FIXED &quot;1.15&quot;</code>.</p>
+<p>What the code adds:</p>
+<ul>
+<li>Interchange adds the classes <code>IXNaturalMotionBlur</code> and <code>IXMaskSemantic</code>, the Swift type <code>Versioned_1_15</code>, the type identifier <code>com.apple.finalcutpro.xml.v1-15</code> and a <code>flags</code> property with <code>setFlags:</code>.</li>
+<li>The DTD does not say what <code>flags</code> holds. In Flexo, <code>-[FFXMLImporter(StaticImport) processFlagsAttributeInItem:forObject:]</code> calls <code>makeStaticItemIfNeeded:associatedObject:</code>, which tests bit 0 of the item's <code>flags</code> and then runs a command on the item in its sequence. <strong>Inferred from that disassembly:</strong> <code>flags=&quot;1&quot;</code> marks an unconnected clip. No other bit was identified.</li>
+<li><code>FFXMLExporter(StaticExport)</code> adds <code>createGapForStaticObject:containerObject:</code> and <code>nestStaticItem:forStaticObject:inSpineItem:spineParent:containerObject:</code>. Inferred: an unconnected clip is exported nested in a gap, which is why <code>gap</code> gained <code>flags</code>.</li>
+<li><code>fcptool xml export</code> documents the versions 1.15, 1.14 and 1.13 and a default of 1.15. <code>FFXML</code> gains <code>supportedExportVersionStrings</code> and <code>defaultExportVersionString</code>.</li>
+<li>Flexo adds the type identifiers <code>com.apple.finalcutpro.xml</code>, <code>com.apple.finalcutpro.xmld</code> and <code>com.apple.finalcutpro.xml.validation</code>.</li>
+</ul>
+<p><strong>The command-line tool:</strong></p>
+<p><code>Contents/MacOS/fcptool</code> is new in v13.</p>
+<ul>
+<li>3,131,584 bytes, universal <code>x86_64</code> and <code>arm64</code>, minimum macOS 26.6, source version <code>460000.0.23</code>.</li>
+<li>It is two Swift modules, <code>fcptool</code> and <code>fcptoolkit</code>, both from <code>ProEditor-460000.0.23</code> (the <code>@(#)PROGRAM</code> strings). It has 143 Swift type descriptors and nine Objective-C visible classes.</li>
+<li>Its embedded <code>__TEXT,__info_plist</code> gives the identifier <code>com.apple.FinalCut.fcptool</code>, version 13.0 (460000.0.23), <code>LSBackgroundOnly</code> true, <code>PlugInKitHost</code> with <code>UsesEmbeddedCode</code> true, and six imported types: <code>com.apple.FinalCutProLibrary</code> (<code>fcpbundle</code>), <code>com.apple.iMovieLibrary</code> (<code>imovielibrary</code>), <code>com.apple.iMovie.iMovieTrailer</code>, <code>com.apple.iMovie.iMovieMobile</code>, <code>com.apple.finalcutpro.xmld</code> (<code>fcpxmld</code>) and <code>com.apple.FinalCutPro.xml</code> (<code>fcpxml</code>).</li>
+<li>It is signed by Apple Mac OS Application Signing for team <code>PTN9T2S29T</code> with the hardened runtime, and it is <strong>sandboxed</strong>. Its seven entitlements are <code>com.apple.security.app-sandbox</code>, <code>com.apple.security.assets.movies.read-write</code>, <code>com.apple.security.assets.music.read-only</code>, <code>com.apple.security.assets.pictures.read-only</code>, <code>com.apple.security.files.downloads.read-write</code>, <code>com.apple.security.files.user-selected.read-write</code> and the absolute path read and write exception for <code>/</code>.</li>
+</ul>
+<p>Every command accepts <code>-v</code> or <code>--verbose</code>, which the help describes as status messages, warnings and progress on stderr, <code>--json</code> and <code>-h</code> or <code>--help</code>. The root also accepts <code>--version</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Arguments and options</th>
+<th>Purpose in the help</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>library info &lt;path&gt;</code></td>
+<td>none</td>
+<td>Information about a library</td>
+</tr>
+<tr>
+<td><code>library new &lt;path&gt;</code></td>
+<td>none</td>
+<td>Create a new library</td>
+</tr>
+<tr>
+<td><code>library settings &lt;path&gt;</code></td>
+<td><code>-u</code> or <code>--update</code>, <code>--color-processing-mode</code> (<code>standard-gamut-sdr</code>, <code>wide-gamut-hdr</code>, <code>legacy-wide-gamut</code>), <code>--media-location</code> (<code>project</code> or a path), <code>--cache-location</code> (<code>project</code> or a path), <code>--motion-content-location</code> (<code>project</code> or <code>templates</code>), <code>--backup-policy</code> (<code>none</code>, <code>default</code> or a path)</td>
+<td>Display or update library settings</td>
+</tr>
+<tr>
+<td><code>library update &lt;path&gt;</code></td>
+<td>none</td>
+<td>Updates a library to the current catalog version</td>
+</tr>
+<tr>
+<td><code>event list &lt;path&gt;</code></td>
+<td><code>--update</code>, <code>--no-headers</code></td>
+<td>List the events in a library</td>
+</tr>
+<tr>
+<td><code>event new &lt;path&gt;</code></td>
+<td><code>--name</code>, <code>--update</code></td>
+<td>Create a new library event</td>
+</tr>
+<tr>
+<td><code>event copy</code></td>
+<td><code>--name</code>, <code>--from</code>, <code>--to</code>, <code>--update</code>, <code>--without-media</code>, <code>--include-original-media</code>, <code>--include-optimized-media</code>, <code>--include-proxy-media</code>, <code>--copy-external-media</code>, each <code>true</code> or <code>false</code></td>
+<td>Copy an event from one library to another</td>
+</tr>
+<tr>
+<td><code>xml validate &lt;path&gt;</code></td>
+<td>none</td>
+<td>Validate an FCPXML document against its DTD</td>
+</tr>
+<tr>
+<td><code>xml import &lt;fcpxml-path&gt;</code></td>
+<td><code>--new</code>, <code>--into</code>, <code>--conflict-resolution</code> (<code>cancel</code>, <code>keep-both</code>, <code>replace</code>, default <code>cancel</code>), <code>--update</code></td>
+<td>Import FCPXML or FCPXMLD into a library</td>
+</tr>
+<tr>
+<td><code>xml export &lt;library-path&gt;</code></td>
+<td><code>--output</code>, <code>--dtd-version</code> (1.15, 1.14, 1.13, default 1.15), <code>--metadata-view</code>, <code>--update</code></td>
+<td>Export FCPXML or FCPXMLD from a library</td>
+</tr>
+<tr>
+<td><code>xml versions</code></td>
+<td>none</td>
+<td>List the supported FCPXML DTD versions for export</td>
+</tr>
+<tr>
+<td><code>metadata-view list</code></td>
+<td><code>--no-headers</code></td>
+<td>List the available metadata view sets</td>
+</tr>
+</tbody>
+</table>
+<p><code>--update</code> is described as “Automatically update the library when it is opened”.</p>
+<p>Rules read from the binary's strings:</p>
+<ul>
+<li><code>xml import</code> needs exactly one of <code>--new</code> and <code>--into</code> (“Either --new or --into must be specified”, “--new and --into are mutually exclusive”).</li>
+<li><code>xml export</code> requires an output path ending in <code>.fcpxml</code> or <code>.fcpxmld</code>.</li>
+<li><code>event copy</code> refuses the same library for <code>--from</code> and <code>--to</code>, and <code>--without-media</code> cannot be combined with the three include options.</li>
+<li>A deprecated colour processing mode cannot be set as a new value.</li>
+</ul>
+<p>Read from the Swift field descriptors (<code>__swift5_fieldmd</code>). These are the encoded types, not observed output.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>JSON shape</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--version</code></td>
+<td><code>appVersion</code>, <code>appBuild</code>, <code>catalogVersion</code>, <code>oldestSupportedCatalogVersion</code></td>
+</tr>
+<tr>
+<td><code>library info</code></td>
+<td><code>library</code> with <code>name</code>, <code>location</code>, <code>libraryType</code>, <code>creationDate</code>, <code>modificationDate</code>. <code>catalog</code> with <code>catalogVersion</code>, <code>catalogVersionBase</code>, <code>catalogBranchID</code>. <code>openability</code></td>
+</tr>
+<tr>
+<td><code>library settings</code></td>
+<td><code>colorProcessingMode</code>, <code>mediaLocation</code>, <code>motionContentLocation</code>, <code>cacheLocation</code>, <code>backupPolicy</code>. Locations and the backup policy encode a <code>policy</code> and a <code>url</code></td>
+</tr>
+<tr>
+<td><code>event list</code></td>
+<td><code>events</code>, each with <code>name</code>, <code>modified</code>, <code>clipCount</code>, <code>timelineCount</code>, <code>stillsCount</code>, <code>audioCount</code></td>
+</tr>
+<tr>
+<td><code>xml validate</code></td>
+<td><code>valid</code>, <code>version</code>, <code>errors</code></td>
+</tr>
+<tr>
+<td><code>xml versions</code></td>
+<td><code>versions</code>, <code>default</code></td>
+</tr>
+<tr>
+<td><code>metadata-view list</code></td>
+<td><code>viewSets</code>, each with <code>name</code>, <code>properties</code>, <code>builtIn</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><code>openability</code> is one of <code>compatible</code>, <code>requiresUpdate</code>, <code>tooOld</code>, <code>tooNew</code> and <code>unknown</code>.</li>
+<li><code>libraryType</code> is one of <code>FCPLibrary</code>, <code>FCPProject</code>, <code>iMoviemacOSLibrary</code>, <code>iMovieiOSLibrary</code>, <code>FCPXML</code> and <code>FCPXMLBundle</code>. <code>location</code> is <code>filesystem</code> or <code>localManaged</code>.</li>
+<li>Without <code>--json</code> the list commands print a table, and <code>--no-headers</code> omits the headers and separators.</li>
+</ul>
+<p>The help text documents no exit codes. Every help call exited with 0. Inferred from the Swift Argument Parser library: a successful command exits with 0, a usage or validation error with 64 and a thrown error with 1. This was not observed.</p>
+<p>The tool has one error type, <code>fcptoolkit.LibraryError</code>, with 25 cases: <code>platformError</code>, <code>unsupportedDocument</code>, <code>unsupportedLibraryType</code>, <code>unsupportedLibraryLocation</code>, <code>libraryIsInTrash</code>, <code>libraryNotReachable</code>, <code>libraryAlreadyOpen</code>, <code>libraryPermissions</code>, <code>libraryVersionUnsupported</code>, <code>libraryNotFound</code>, <code>libraryRequiresUpdate</code>, <code>libraryCatalogTooNew</code>, <code>libraryBackupFailed</code>, <code>libraryTaskFailed</code>, <code>eventNameAlreadyInUse</code>, <code>eventWithNameNotFound</code>, <code>projectWithNameNotFound</code>, <code>importCancelledByConflict</code>, <code>internalError</code>, <code>notYetImplemented</code>, <code>invalidSettingValue</code>, <code>invalidPath</code>, <code>resourceNotAccessible</code>, <code>bookmarkExpired</code> and <code>deprecatedColorProcessingMode</code>. Each has a message, such as “Library already open: ”, “Library requires update: ” and “Pre-update backup failed[semicolon] library left unchanged: ”.</p>
+<p>The tool links Flexo and does not talk to the application.</p>
+<ul>
+<li>It imports the classes <code>Flexo</code>, <code>FFLibraryDocument</code>, <code>FFModelDocument</code>, <code>FFLibraryTask</code>, <code>FFLibraryTaskOptions</code>, <code>FFLibraryBackupTask</code>, <code>FFBackgroundTask</code>, <code>FFBackgroundTaskQueue</code>, <code>FFEventRecord</code>, <code>FFSequenceRecord</code>, <code>FFMediaEventProject</code>, <code>FFAnchoredSequence</code>, <code>FFEffect</code>, <code>FFStorageManager</code>, <code>FFMetadataViewSet</code>, <code>FFXML</code>, <code>FFXMLExportOptions</code>, <code>FFXMLImportOptions</code> and <code>FFXMLTranslationTask</code>.</li>
+<li>Start-up selectors: <code>finishInitWithFlexMusicProvider:featureFlags:userDefaults:</code>, <code>ensureEffectsRegisteredWithCompletionHandler:</code>, <code>applicationDidLaunch</code> and <code>applicationWillTerminate</code>. The Swift type <code>FlexoRuntimeConfig</code> has the cases <code>editor</code> and <code>commandLineTool</code>, and <code>FlexoRuntimeType</code> has <code>FCPMacOS</code> and <code>iMovieMacOS</code>.</li>
+<li>Libraries: <code>initWithURL:isTemporary:createDefaultEvent:error:</code>, <code>readLibraryVersionInfo:</code>, <code>versionCurrent</code>, <code>versionOldest</code>, <code>compiledCatalogBranchID</code>, <code>updateColorProcessingMode:error:</code>, <code>setExternalMediaLocation:error:</code>, <code>setExternalCacheLocation:error:</code>, <code>setExternalBackupLocation:error:</code>, <code>setBackupsEnabled:</code> and <code>setTemplateStorageLocation:</code>.</li>
+<li>Events and copies: <code>insertNewEvent:name:error:</code> and <code>prepareMove:to:options:copy:isSnapshot:moveLibrary:error:</code>.</li>
+<li>FCPXML: <code>validateFCPXMLDocument:error:</code>, <code>translationTaskForFile:bundleURL:origin:</code>, <code>translationTaskForLibrary:</code>, <code>importClipsWithOptions:taskDelegate:</code>, <code>exportToFile:withOptions:taskDelegate:</code>, <code>setConflictResolutionType:</code> and <code>setMetadataViewName:</code>.</li>
+<li>Its class <code>fcptoolkit.CLITaskDelegate</code> implements <code>FFXMLImportTaskDelegate</code>, and <code>fcptoolkit.ModalProgress</code> implements <code>FFModalProgress</code>, so progress and the import questions go to the console.</li>
+<li>It answers Flexo's alerts through ProCore's new feedback classes with <code>PCFeedbackProviderConsole</code> and eight keys: <code>FlexoFeedbackKeyLibraryIncompatibleCatalog</code>, <code>FlexoFeedbackKeyLibraryPreUpdateBackupFailed</code>, <code>FlexoFeedbackKeyLibraryTaskConsolidateMissingMedia</code>, <code>FlexoFeedbackKeyLibraryTaskMismatchedColorProcessing</code>, <code>FlexoFeedbackKeyLibraryTaskOptionsConfirmation</code>, <code>FlexoFeedbackKeyLibraryUpgradeConfirmation</code>, <code>FlexoFeedbackKeyProjectBranchBuildUpdate</code> and <code>FlexoFeedbackKeyProjectPrereleaseUpdate</code>.</li>
+</ul>
+<p><strong>AppleScript:</strong></p>
+<p><code>Contents/Resources/ProEditor.sdef</code> is byte-identical in both releases: 169 lines, 8,133 bytes, SHA-256 <code>91a59d695bb807523da0eccac9a02b6302d0d2137e1f4c6037c3944096afe4af</code>. The dictionary is read-only.</p>
+<ul>
+<li>Suite “Final Cut Pro Library” (<code>fxlm</code>): classes <code>sequence</code> (<code>FFAnchoredSequence</code>), <code>item</code> (<code>FFLibraryItem</code>), <code>project</code> (<code>FFSequenceRecord</code>), <code>event</code> (<code>FFEventRecord</code>) and <code>library</code> (<code>FFLibrary</code>), the record type <code>media time</code> and the enumeration <code>timecode formats</code>.</li>
+<li>Suite “Final Cut Pro Application” (<code>fxap</code>): one command, <code>get</code> (<code>FFGetCommand</code>), and the <code>application</code> extension with the element <code>library</code>.</li>
+<li><code>sequence</code> has <code>name</code>, <code>id</code>, <code>container</code>, <code>start time</code>, <code>duration</code>, <code>frame duration</code>, <code>timecode format</code> and <code>essential properties</code>. <code>library</code> also has <code>file</code>, the file URL of the library. <code>event</code> has the elements <code>sequence</code> and <code>project</code>.</li>
+<li>Every property and element is marked <code>access=&quot;r&quot;</code> except <code>name</code> and <code>properties</code> on the base class <code>item</code>, which carry no access attribute. The access group is <code>com.apple.FinalCut.library.inspection</code>, read only.</li>
+</ul>
+<p><strong>URL schemes and universal links:</strong></p>
+<ul>
+<li>New in the Info.plist: <code>com.apple.apps.finalCutPro-edit-in</code>. The note called it <code>finalCutPro-edit-in</code>.</li>
+<li><code>AppEditIn</code> handles it. The framework names sibling schemes for other apps (<code>com.apple.apps.pixelmator-edit-in</code>, <code>com.apple.apps.motion-edit-in</code>, <code>com.apple.apps.keynote-edit-in</code>, <code>com.apple.apps.numbers-edit-in</code>, <code>com.apple.apps.pages-edit-in</code>, <code>com.apple.apps.freeform-edit-in</code>), universal link hosts such as <code>finalcutpro.apple.com</code> and <code>pixelmatorpro.apple.com</code>, the group <code>group.com.apple.creatorstudio</code> and a shared directory watched with <code>NSFilePresenter</code>.</li>
+<li>Its selectors are <code>sessionFromUniversalLinkUserActivity:</code>, <code>launchApp(_:forEditSessionID:)</code> and <code>evaluateExistingSessions()</code>. The application has no associated domains entitlement, so only the URL scheme is registered.</li>
+<li>Inferred, and consistent with the note: the scheme carries an edit session identifier between two apps and is not a general automation entry point.</li>
+<li><code>PEAppController</code> gains <code>openFirstTimelineInLibraryWithURL:</code> and <code>openFirstTimelineInLibraryWhenReady:</code> in the category <code>OpenFirstTimeline</code>. What calls them was not determined.</li>
+</ul>
+<p><strong>Services, Shortcuts and AppIntents:</strong></p>
+<p>Neither Info.plist declares <code>NSServices</code>. Neither bundle has App Intents metadata or an intent definition, so the note is confirmed: there are no Shortcuts actions. Flexo newly links <code>libswiftIntents</code> weakly, which is not evidence of an intent.</p>
+<p><strong>Workflow Extensions:</strong></p>
+<ul>
+<li><code>ProExtension</code> moves from 45000.4.7 to 460000.0.3 and loses two selectors on one class (<code>ProExtensionRequestHandling</code> drops <code>init</code> and <code>dealloc</code>). <code>ProExtensionHost</code> adds the class <code>FCPXMVFXContent</code>, and <code>FCPXHost</code> replaces <code>+copyFCPBundleIDsIncludingTrial:</code> with <code>+copyFCPBundleIDs</code> and gains <code>-mvfxContent</code>.</li>
+<li><code>ProExtensionSupport</code> adds 19 selectors on three classes. <code>PXProExtensionHost</code> replaces <code>processHostActionFor:action:auxiliaryInfo:reply:</code> with <code>processHostActionFor:action:auxiliaryInfo:callerIsPrivileged:reply:</code> and gains eleven MotionVFX observer and notification methods. <code>ProExtensionHostContext</code> gains <code>callerIsPrivileged</code> and <code>enforcePeerCodeSigningRequirement:</code>. The binary adds the strings <code>anchor apple generic</code>, <code>com.apple.privileged</code> and <code>com.apple.ProExtension.embeddedDiscovery</code>.</li>
+<li>Inferred: the host now checks the code signature of the extension that connects to it and treats Apple's own extension as a privileged caller. <code>anchor apple generic</code> is the requirement any Apple-issued certificate meets, which a Developer ID or Mac App Store signature does and an ad hoc signature does not. What an unprivileged caller is refused was not determined.</li>
+<li>The application adopts the new <code>PXProExtensionHostMVFXContextProtocol</code> with <code>requestMVFXContentIndexWithReply:</code>, <code>requestMVFXContentKeyWithReply:</code>, <code>requestMVFXOnboardingStateWithReply:</code> and <code>requestMVFXRemoteConfigRefreshingIfCurrent:WithForce:Reply:</code>. <code>PXProExtensionHostTargetProtocol</code> gains <code>hostMVFXContextTarget</code>.</li>
+<li>MotionVFX is itself a Workflow Extension. Flexo names its bundle identifier <code>com.apple.motionvfx.mextension.app</code>, and the Browser hosts it in a sidebar tab or a floating panel.</li>
+<li>Neither bundle contains a header file, so the public SDK surface cannot be compared from the applications. The selector changes are in <a href="#appendix-d-selector-changes-in-existing-classes">appendix D</a>.</li>
+</ul>
+<p><strong>FxPlug and Motion templates:</strong></p>
+<ul>
+<li><code>FxPlug.framework</code> moves from 4.3.5 to 4.3.6. It adds <code>FxRemoteLicenseHandler</code> and <code>FxRemoteVideoSegmentationHandler</code> and the protocols <code>FxLicenseAPIPrivate</code>, <code>FxRemoteWindowAPIPrivate</code>, <code>FxRemoteWindowAPI_v4</code> and <code>FxVideoSegmentationAPI_Private</code>.</li>
+<li><code>FxPlugProvider.fxp</code>, Ozone, ProAppsFxSupport and the Filters bundle no longer hold the protocol metadata for <code>FxTemporalImageAPI</code>, <code>FxTimingAPI</code> and <code>FxTimingAPI_v2</code>. <code>FxPlugProvider</code> gains <code>FxTemporalImageAPI_v2</code>. Whether a plug-in using the older host APIs still loads was not determined.</li>
+<li><code>MotionEffect.fxp</code> has the same 1,135 Motion templates at the same paths in both releases. It gains weak links to the MotionVFX frameworks, 27 selectors and 18 localisation files for the Subtitles title category.</li>
+<li><code>FFMotionEffectBundle</code> gains class methods that install user templates and mark MotionVFX-managed template folders, and Flexo adds the notification name <code>FFUserMotionTemplatesDidChangeOnDiskNotification</code>.</li>
+</ul>
+<p><strong>Media extensions:</strong></p>
+<ul>
+<li>RAW media extensions can save a sidecar file. <code>FFRAWProcessorSettings.nib</code> gains a “Save Sidecar File” button, <code>FFAsset</code> gains <code>addVTRAWSidecarMediaRepIfNeededForURL:</code>, Flexo adds the identifier <code>com.apple.flexo.vtraw.sidecar</code> and four <code>FFVTRAW…Sidecar…</code> messages, such as “Media Extension did not provide any sidecar data to save.”</li>
+</ul>
+<p><strong>Notifications, services and endpoints found in strings:</strong></p>
+<p>All are strings added in 13.0 binaries. Whether a notification is distributed between processes was not determined.</p>
+<ul>
+<li>Notification names in Flexo: <code>FFEditInPixelmatorMediaDidChangeNotification</code>, <code>FFEditInPixelmatorNotInstalledNotification</code> and <code>FFUserMotionTemplatesDidChangeOnDiskNotification</code>.</li>
+<li>Keychain and service identifiers: <code>com.apple.motionvfx.mvfxauth.token</code>, <code>com.apple.motionvfx.decrypt.key</code>, <code>com.apple.motionvfx.mvfxdecrypt.contentkey</code>, <code>com.apple.FinalCut.MotionVFX</code> and <code>com.apple.FinalCut.FeaturePromo</code>.</li>
+<li>Network endpoints in the application: <code>https://api.videoapps.creatorstudio.apple.com</code>, its path <code>/mvfx/*</code> and <code>https://infoapps-auth-service.infoapps.apple.com/api/v1/urlAccessTokens</code>.</li>
+<li>CloudKit container names in CloudContent: <code>com.apple.videoapps.cloudcontent.motionapp</code> and its <code>.private</code> form.</li>
+<li>An internal URL format in Flexo: <code>contenthub://ContentHubImportTaskUnreachable/%@/%@</code>.</li>
+<li>Metadata keys: <code>com.apple.proapps.recordingAngleName</code> and <code>com.apple.proapps.recordingAngleNumber</code>.</li>
+<li>The application's Mach lookup entitlements are unchanged.</li>
+</ul>
+<p><strong>New features as the binaries reveal them:</strong></p>
+<p><code>en.lproj/PEWhatsNew.strings</code> gains eleven entries. Its three headline features are <strong>Keyframe Easing</strong>, <strong>Disconnect Timeline Clips</strong> and <strong>Expanded Transcription Languages</strong>. The 12.4 entry, Cinematic Video, was in the removed <code>PEWhatsNewAdditional.strings</code>.</p>
+<p><code>PELocalizable.strings</code> adds a feature promotion with two forms. <code>PEFeaturePromo_Title_OTP</code> is “Get Premium Content” with the button “Learn More”. <code>PEFeaturePromo_Title_SPV</code> is “MotionVFX, Now Built In” with the button “Explore”. Its background is <code>MotionVFXPromoBackground.mp4</code>. Inferred: the first is for the one-time purchase and the second for a Creator Studio subscription.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MotionVFX content</td>
+<td>Three frameworks, <code>MVFXManifest.bundle</code>, the application group <code>PTN9T2S29T.com.apple.motionvfx</code>, the command Go to MotionVFX and the strings “Show MotionVFX” and “Open MotionVFX in a floating panel”</td>
+</tr>
+<tr>
+<td>Edit in Pixelmator Pro</td>
+<td><code>AppEditIn</code>, a button in the Video Inspector, timeline context menu items, the URL scheme and the first-use alert “Open in Pixelmator Pro?”</td>
+</tr>
+<tr>
+<td>Generate Image</td>
+<td>The command <code>ShowImageGeneration</code>, File › Import › Generate Image…, <code>FFImageGenBridge.strings</code>, the Intelligence Features submenu and “Final Cut Pro will always ask before sending content to third-party providers to generate images.”</td>
+</tr>
+<tr>
+<td>Content Hub</td>
+<td>The command <code>ToggleContentHub</code>, Window › Show in Workspace › Content Hub, Pause, Resume and Cancel Download items and <code>FlexoConfig.contentHubEnabled</code></td>
+</tr>
+<tr>
+<td>Unconnected clips</td>
+<td>The command <code>ToggleClipConnections</code>, Clip › Disconnect Clips, the Timeline Index filter “Unconnected Clips” and the FCPXML <code>flags</code> attribute</td>
+</tr>
+<tr>
+<td>Keyframe easing</td>
+<td>Curve names Bezier, Continuous, Ease Both, Exponential, Hold, Logarithmic and From Path, the Speed menus in ProCurveEditor and ProOSC, and the FCPXML <code>interp</code> values <code>hold</code>, <code>bezier</code> and <code>passthrough</code></td>
+</tr>
+<tr>
+<td>Natural Motion Blur</td>
+<td><code>FFMotionBlurEffect</code>, the strings “Natural Motion Blur” and “VSA Based Motion Blur”, the element <code>adjust-natural-motion-blur</code> and the sampling value <code>vsa-motion-blur</code>. One message says the effect is not supported on some devices</td>
+</tr>
+<tr>
+<td>Transcription languages</td>
+<td>Language and Region pop-up buttons in three nibs, <code>FFTranscriptionLocalePicker</code> and the strings Change Language, Change Region and “Project Locale (%@)”</td>
+</tr>
+<tr>
+<td>Semantic masks</td>
+<td>The element <code>mask-semantic</code> and <code>IXMaskSemantic</code></td>
+</tr>
+<tr>
+<td>Displacement filter</td>
+<td><code>PAEDisplacement</code> in the Filters bundle with 56 strings and the presets Waves, Magnify, Heat and Custom</td>
+</tr>
+<tr>
+<td>Histogram overlay in the Viewer</td>
+<td><code>VideoHistogramModeOverlay_HL</code> “Histogram”</td>
+</tr>
+<tr>
+<td>Copy and paste effects</td>
+<td><code>FFCopyEffectsCommand</code>, <code>FFPasteEffectsCommand</code> and <code>FFCopyPasteEffectsPasteboard</code></td>
+</tr>
+<tr>
+<td>Transition trimming alert</td>
+<td>“Clips were trimmed to create the transition.” with Keep Transition and Remove Transition</td>
+</tr>
+<tr>
+<td>Multicam angle syncing</td>
+<td>23 selectors added to <code>FFMultiAngleAudioSyncTask</code>, the protocols <code>FFMulticamProgressControlling</code> and <code>FFMulticamProgressDelegate</code>, and “Clip angles are syncing.”</td>
+</tr>
+<tr>
+<td>RAW sidecar files</td>
+<td>Section 9</td>
+</tr>
+<tr>
+<td>Embedded Compressor 6.0</td>
+<td>Six <code>CQFileTransformer…</code> classes in StompTypes and messages for IMF, image sequences and cinematic analysis</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assets, models, templates and formats:</strong></p>
+<ul>
+<li><strong>Machine-learning models.</strong> Both bundles hold the same 34 <code>.mlmodelc</code> models. None is added or removed. 21 <code>coremldata.bin</code> files and some <code>metadata.json</code> files inside them differ with identical sizes. Inferred: they were recompiled, not retrained.</li>
+<li><strong>Asset catalogues.</strong> The application's <code>Assets.car</code> grows from 11,458,328 to 13,309,080 bytes and ProOnboardingFlowModelOne's from 3,191,272 to 5,791,800. Flexo's shrinks from 15,439,032 to 15,120,824. ProAppUI adds one of 30,728 bytes. Their contents were not listed.</li>
+<li><strong>Images and fonts.</strong> Flexo's Resources gain 15 <code>AudioEffect-….png</code> thumbnails, 11 effect and transition thumbnails such as <code>Cross_Dissolve.png</code> and <code>Chromakey_192x108.png</code>, and <code>Fonts/Geneva.ttf</code>.</li>
+<li><strong>Shaders.</strong> Four Metal libraries changed. <code>Filters</code> grows from 49,760 to 69,328 bytes, Helium's from 52,336 to 61,696, and MDPKit's <code>default.metallib</code> shrinks from 317,912 to 140,728.</li>
+<li><strong>MotionVFX index.</strong> <code>MVFXManifest.bundle/Contents/Resources/MVFXIndexManifest.json</code> lists 6,456 titles, 1,166 transitions, 191 effects, 151 generators and 435 compositing elements, 8,399 in all. Each has a <code>token</code>, <code>name</code>, <code>version</code>, <code>folder</code>, <code>size</code> and a <code>src</code> path such as <code>/mvfx/v1/elements/file/30/mac/fcp</code>. The folders include <code>DesignStudio</code> and <code>motionVFX Freebies</code>. The content itself is downloaded.</li>
+<li><strong>Bundled content package.</strong> <code>Contents/Resources/Bundled Package/VideoAppsFinalCutAppAssets</code> grows from 3,270 to 3,510 files, with 1,260 added, 1,020 removed and 179 changed.</li>
+<li><strong>Motion templates.</strong> The 1,135 templates in <code>MotionEffect.fxp</code> are unchanged.</li>
+<li><strong>Formats.</strong> Pixelmator documents are a new media source, with the types <code>com.pixelmatorteam.pixelmator.document.binary</code> and <code>com.pixelmatorteam.pixelmator.document.package</code> and the extension <code>pxd</code>. FCPXML 1.15 is new. <code>AppleProResRAWCodecEmbedded</code> grew by 10.7 percent. No codec or format reader bundle was added or removed.</li>
+<li><strong>Metadata.</strong> In <code>LiveMulticamMetadata.plist</code> the two values of <code>com.apple.proapps.authorIdentifier</code> change from the integers 0 and 1 to the strings <code>REMOTE_ORIGINAL_AUTHOR</code> and <code>REMOTE_SCRATCH_AUTHOR</code>.</li>
+</ul>
+<p><strong>Accessibility:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th style="text-align:right">12.4</th>
+<th style="text-align:right">13.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accessibility attribute connectors</td>
+<td style="text-align:right">1,541</td>
+<td style="text-align:right">1,541</td>
+</tr>
+<tr>
+<td>Accessibility relationship connectors</td>
+<td style="text-align:right">50</td>
+<td style="text-align:right">50</td>
+</tr>
+<tr>
+<td>Help tag connectors</td>
+<td style="text-align:right">332</td>
+<td style="text-align:right">334</td>
+</tr>
+<tr>
+<td><code>NSUserInterfaceItemIdentifier</code> values</td>
+<td style="text-align:right">137</td>
+<td style="text-align:right">137</td>
+</tr>
+<tr>
+<td><code>NSIdentifier</code> values</td>
+<td style="text-align:right">207</td>
+<td style="text-align:right">207</td>
+</tr>
+<tr>
+<td>Other identifier and autosave name values</td>
+<td style="text-align:right">92</td>
+<td style="text-align:right">92</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>One description changed.</strong> In <code>FFAnalyzeMediaSheet.nib</code> the checkbox description “transcribe in english” is now “transcribe audio”.</li>
+<li><strong>Two help tags were added</strong>, both “Use Pixelmator Pro to edit this image with advanced editing tools.”, in <code>FFInspectorModuleVideoChannels.nib</code> and the new <code>EditInPixelmator.nib</code>.</li>
+<li><strong>No identifier changed.</strong> No role changed, because no existing control changed its class.</li>
+<li><code>script/discover_fcp_nib_controls.py</code> reports 640 controls in 174 nibs for 12.4 and 647 for 13.0. The seven extra are the six Language and Region pop-up buttons and the Edit in Pixelmator Pro button. One is retitled.</li>
+<li><strong>Timeline descriptions.</strong> In 12.4, <code>-[TLKMarkerLayer accessibilityDelimiterString]</code> returns the localised string for the key <code>FFTimelineAccessibilityDelimiter</code>. In 13.0 the layers forward to a new method, <code>-[TLKTimelineView(Accessibility) accessibilityDelimiterString]</code>, which formats that same localised string with <code>%@ </code> and so appends a space. The key's value did not change in <code>FFLocalizable.strings</code>. Inferred from that disassembly: every timeline description built with the delimiter gains the space in every language. This matches the live observation below.</li>
+<li><strong>New timeline labels.</strong> <code>FFLocalizable.strings</code> adds <code>FFTimelineAccessibilityItemLocationUnconnectedLabel</code> “Unconnected” and <code>FFTimelineAccessibilityItemTypePixelmatorLabel</code> “Pixelmator Image”. TimelineKit refers to a new key, <code>FFTimelineAccessibilityItemLocationPrimaryStorylineLabel</code>. <code>TLKContainerLayer</code> gains <code>accessibilityHasEmptySpine</code>, <code>accessibilityIsEmptyAngle</code>, <code>accessibilitySpineFrame</code> and <code>accessibilityRect</code>.</li>
+<li><strong>Effects browser.</strong> <code>FFEffectLibraryItemView</code> gains <code>accessibilityCustomActions</code>, <code>accessibilityCustomActionName</code> and <code>accessibilityPerformDoubleClickAction</code>. <code>FFLocalizable.strings</code> adds <code>FFEffectLibraryAddToTimelineAction</code> “Add to Timeline” and <code>FFEffectLibraryApplyToSelectedClipAction</code> “Apply to Selected Clip”. Inferred: those are the names of the custom actions.</li>
+<li><strong>New labels.</strong> Flexo adds “Transcription Language pop-up accessibility label”, “Transcription Region pop-up accessibility label” and a description for the extension pop-out button, “Open MotionVFX in floating panel”. The application adds a label for the feature promotion's close button and calls <code>setAccessibilityIdentifier:</code>, which it did not in 12.4.</li>
+<li><strong>Search field identifiers.</strong> Flexo holds the strings <code>editor/timelineIndex/search</code>, <code>editor/browserContent/search</code> and <code>editor/browserMedia/search</code>, and LunaKit holds the suffixes <code>/menuButton</code> and <code>/textField</code>, <strong>in both releases</strong>. The Timeline Index identifiers seen live in 13.0 are therefore not new strings. Whether 12.4 exposes them at run time was not observed here.</li>
+<li>The SwiftUI views added in 13.0, such as the transcription locale picker, the feature promotion and the What's New window, have no nib. Their Accessibility cannot be read statically.</li>
+</ul>
+<p>Apologies... that was nerdy, haha.</p>
+<p>I'm currently working on updating <strong>CommandPost v3</strong> to support <strong>Final Cut Pro v13</strong> - stay tuned.</p>
+<p>Chat again tomorrow for more fun and games!</p>
+<p>Onwards &amp; Upwards!</p>
+]]></description>
+            <link>https://fcp.cafe/#19th-november-2026</link>
+            <guid isPermaLink="false">19th November 2026</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
