@@ -42,6 +42,7 @@ There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Hedge Arctic             | Requires an update.                                                                                     |
+| Jumper                   | Requires an update.                                                                                     |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
