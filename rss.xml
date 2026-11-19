@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Nov 2026 05:44:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 19:53:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Nov 2026 05:44:42 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 19:53:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -24933,6 +24933,72 @@ Free for 7 days, every feature, no card needed:</p>
             <link>https://fcp.cafe/#19th-november-2026</link>
             <guid isPermaLink="false">19th November 2026</guid>
             <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[20th November 2026]]></title>
+            <description><![CDATA[<p>Happy Friday! 🥳</p>
+<p><strong>ScriptStar v1.6.3 (Build 37)</strong> is out now with support for Final Cut Pro v13.</p>
+<p>You can learn more on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
+<p>There's a new Final Cut Grill out on <a href="https://www.youtube.com/watch?v=4fFslPL4aFA">YouTube</a>, titled: <strong>FCP 13, Finally here - Dylan, Rafael and Brad</strong>:</p>
+<p><a href="https://www.youtube.com/watch?v=4fFslPL4aFA"><img src="/static/fcp-grill-fcp13.jpg" alt=""></a></p>
+<p><strong>Doza Assist v1.2.5</strong> is out now with support for the new <code>fcptool</code>.</p>
+<p>This is the first product I know of that's added support for this new interesting tool (aside from the upcoming CommandPost v3).</p>
+<p>You can learn more on the <a href="https://doza.ai/changelog/1.2.5/">Doza Assist website</a>.</p>
+<p>One thing I forgot to mention yesterday...</p>
+<p><strong>Pro Video Formats v3.2</strong> was also released.</p>
+<blockquote>
+<p>The Pro Video Formats package includes the iPhone ProRes RAW plug-in, allowing supporting applications to provide more controls for ProRes RAW video shot on iPhone.</p>
+<p>It also provides support for the following codecs used in professional video workflows:</p>
+<ul>
+<li>Apple ProRes RAW and ProRes RAW HQ³</li>
+<li>Apple Intermediate Codec</li>
+<li>Avid DNxHD® / Avid DNxHR® decoder</li>
+<li>AVC-Intra 50 / 100 / 200 / 4:4:4 / LT</li>
+<li>AVC-LongG</li>
+<li>XAVC</li>
+<li>XF-AVC</li>
+<li>XF-HEVC</li>
+<li>DVCPRO HD</li>
+<li>HDV</li>
+<li>XDCAM EX / HD / HD422</li>
+<li>MPEG IMX</li>
+<li>Uncompressed 4:2:2</li>
+</ul>
+</blockquote>
+<p>It contains the following files:</p>
+<p><img src="/static/pro-video-formats-update.png" alt=""></p>
+<p>This update should appear in System Settings if you have one of the ProApps installed.</p>
+<p>Apple's released a new support article titled: <a href="https://support.apple.com/en-au/127888">About the intelligence features in Apple Creator Studio</a></p>
+<p>Long story short - you only get certain amount of &quot;credits&quot; for Generate Image in Final Cut Pro, and if you go over the limit - you need to pay more.</p>
+<p>Matthew O'Brien's post a new video on YouTube titled: <strong>Is 13 The Best Final Cut Pro Update, Like, Ever???</strong></p>
+<p><a href="https://www.youtube.com/watch?v=jArMlogETFk"><img src="/static/matt-fcp13.jpg" alt=""></a></p>
+<p><strong>Gerardo</strong> writes:</p>
+<blockquote>
+<p>Hey everyone 👋</p>
+<p>I'm Gerardo, a video editor. I have been working a lot with SpliceKit, fixing some things for me and other friend. I've been building something for my own Final Cut workflow and I'd love some honest feedback from fellow FCP editors.</p>
+<p>It's called Glow Captions, a Mac app for animated captions that exports straight into Final Cut:</p>
+<p>• Real layered glow on the keywords (not a basic outer glow)
+• Speed curves on every word, plus stacked and zigzag layouts
+• A sound for every word, from my own sound designs
+• Transcribes on your Mac, nothing gets uploaded
+• Export → it lands in your timeline, synced, with the SFX on their own track</p>
+<p>FCP 13's new subtitles are cool for clean captions, but for reels and ads I wanted something more premium, so I built it.</p>
+<p>It's in closed beta. I'm picking 20–30 editors: free license if you use it on 2 real projects and tell me what breaks 🙏</p>
+</blockquote>
+<p>You can learn more on the <a href="https://glowcaptions.com/">Glow Captions website</a>.</p>
+<p>We're getting closer and closer to releasing <strong>CommandPost v3</strong> - it's looking so great!</p>
+<p><img src="/static/commandpost-v3-20.png" alt=""></p>
+<p>We currently have a small group of people testing physical control surfaces via TestFlight whilst we wait for Apple's feedback for the Mac App Store.</p>
+<p>You can see a HEAP of buttons connected in the LateNite Lab:</p>
+<p><img src="/static/commandpost-buttons1.jpg" alt=""></p>
+<p><img src="/static/commandpost-buttons2.jpg" alt=""></p>
+<p><img src="/static/commandpost-buttons-01.png" alt=""></p>
+<p><img src="/static/commandpost-buttons-02.png" alt=""></p>
+<p>That's it for today. Chat later! 👋</p>
+]]></description>
+            <link>https://fcp.cafe/#20th-november-2026</link>
+            <guid isPermaLink="false">20th November 2026</guid>
+            <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
