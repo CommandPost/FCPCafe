@@ -8,17 +8,9 @@ This means, if you're a professional Final Cut Pro editor, you need to be very c
 
 You can learn more about [backing up Final Cut Pro on Apple's site](https://support.apple.com/HT203010).
 
-You can read our current recommendations below:
+You can read our current recommendations below...
 
 **Last Updated:** 19th November 2026
-
----
-
-## Summary
-
-**Final Cut Pro v13** is out now. Whilst this isn't a MAJOR update, it still has some big changes, so tread with caution until people have had a chance to actually use it on real-world jobs.
-
-There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
 
 ---
 
@@ -32,22 +24,23 @@ There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | Requires an update for FCPXML v1.15.                                                                    |
+| Capacitor                | **Requires an update for FCPXML v1.15.**                                                                |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | Wait for CommandPost v3.0.0.                                                                            |
+| CommandPost              | **Wait for CommandPost v3.0.0.**                                                                        |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | Requires an update.                                                                                     |
-| Jumper                   | Requires an update.                                                                                     |
+| Hedge Arctic             | **Requires an update.**                                                                                 |
+| Jumper                   | No Known Issues                                                                                         |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
-| Transfer Toolbox         | Requires an update.                                                                                     |
+| ScriptStar               | **Requires an update for FCPXML v1.15.**                                                                |
+| Transfer Toolbox         | **Requires an update.**                                                                                 |
 
 ---
 
