@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Nov 2026 19:49:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 19:53:17 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Nov 2026 19:49:05 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 19:53:17 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -24941,6 +24941,9 @@ Free for 7 days, every feature, no card needed:</p>
 <p>You can learn more on the <a href="https://scriptstar.fcp.cafe">ScriptStar website</a>.</p>
 <p>There's a new Final Cut Grill out on <a href="https://www.youtube.com/watch?v=4fFslPL4aFA">YouTube</a>, titled: <strong>FCP 13, Finally here - Dylan, Rafael and Brad</strong>:</p>
 <p><a href="https://www.youtube.com/watch?v=4fFslPL4aFA"><img src="/static/fcp-grill-fcp13.jpg" alt=""></a></p>
+<p><strong>Doza Assist v1.2.5</strong> is out now with support for the new <code>fcptool</code>.</p>
+<p>This is the first product I know of that's added support for this new interesting tool (aside from the upcoming CommandPost v3).</p>
+<p>You can learn more on the <a href="https://doza.ai/changelog/1.2.5/">Doza Assist website</a>.</p>
 <p>One thing I forgot to mention yesterday...</p>
 <p><strong>Pro Video Formats v3.2</strong> was also released.</p>
 <blockquote>
