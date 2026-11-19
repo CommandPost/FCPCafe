@@ -10,7 +10,7 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below...
 
-**Last Updated:** 19th November 2026
+**Last Updated:** 20th November 2026
 
 ---
 
@@ -24,23 +24,23 @@ There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | **Requires an update for FCPXML v1.15.**                                                                |
+| Capacitor                | **Requires an update for FCPXML v1.15**                                                                    |
 | Color Finale             | No Known Issues                                                                                         |
-| CommandPost              | **Wait for CommandPost v3.0.0.**                                                                        |
+| CommandPost              | **Requires CommandPost v3.0.0 or later**                                                                |
 | CoreMelt                 | No Known Issues                                                                                         |
 | evrExpanse               | No Known Issues                                                                                         |
 | Fast Collections         | No Known Issues                                                                                         |
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | **Requires an update.**                                                                                 |
+| Hedge Arctic             | **Requires an update**                                                                                  |
 | Jumper                   | No Known Issues                                                                                         |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
-| ScriptStar               | **Requires an update for FCPXML v1.15.**                                                                |
-| Transfer Toolbox         | **Requires an update.**                                                                                 |
+| ScriptStar               | **Requires ScriptStar v1.6.3 or later**                                                                 |
+| Transfer Toolbox         | **Requires an update**                                                                                  |
 
 ---
 
