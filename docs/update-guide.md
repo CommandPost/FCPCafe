@@ -10,11 +10,53 @@ You can learn more about [backing up Final Cut Pro on Apple's site](https://supp
 
 You can read our current recommendations below:
 
-**Last Updated:** 25th February 2026
+**Last Updated:** 19th November 2026
 
 ---
 
 ## Summary
+
+**Final Cut Pro v13** is out now. Whilst this isn't a MAJOR update, it still has some big changes, so tread with caution until people have had a chance to actually use it on real-world jobs.
+
+There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
+
+---
+
+## Final Cut Pro 13.0
+
+**Final Cut Pro v13** is out now. Whilst this isn't a MAJOR update, it still has some big changes, so tread with caution until people have had a chance to actually use it on real-world jobs.
+
+There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
+
+{.compact}
+| Plugin                   | Known Issues                                                                                            |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| BRAW Toolbox             | No Known Issues                                                                                         |
+| Capacitor                | Requires an update for FCPXML v1.15.                                                                    |
+| Color Finale             | No Known Issues                                                                                         |
+| CommandPost              | Wait for CommandPost v3.0.0.                                                                            |
+| CoreMelt                 | No Known Issues                                                                                         |
+| evrExpanse               | No Known Issues                                                                                         |
+| Fast Collections         | No Known Issues                                                                                         |
+| FxFactory                | No Known Issues                                                                                         |
+| Generic Motion Templates | No Known Issues                                                                                         |
+| Gyroflow Toolbox         | No Known Issues                                                                                         |
+| Hedge Arctic             | Requires an update.                                                                                     |
+| LUT Robot                | No Known Issues                                                                                         |
+| Marker Toolbox           | No Known Issues                                                                                         |
+| MotionVFX                | No Known Issues                                                                                         |
+| Recall Toolbox           | No Known Issues                                                                                         |
+| Transfer Toolbox         | Requires an update.                                                                                     |
+
+---
+
+## macOS 27 Golden Gate
+
+So far the feedback has been pretty good. If you're on Apple Silicon, Golden Gate seems good.
+
+---
+
+## Final Cut Pro 12.4
 
 !!!danger macOS Tahoe 26.4 Beta
 There are multiple reports of issues in macOS Tahoe 26.4 Beta with HFS drives, Karabiner-Elements, etc. I would definitely avoid installing this beta on any production machines, and be wary about updating once it gets out of beta.
