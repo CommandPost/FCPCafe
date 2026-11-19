@@ -16,6 +16,10 @@
 
 ---
 
+{{ include "tools/autoghost" }}
+
+---
+
 ## B
 
 {{ include "tools/backups-for-final-cut-pro" }}
