@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 19 Nov 2026 05:03:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 05:12:13 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Nov 2026 05:03:52 GMT</pubDate>
+        <pubDate>Thu, 19 Nov 2026 05:12:12 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -23081,6 +23081,7 @@ Recorder: Blackmagic HyperDeck recording to a Blackmagic Cloud Store Max 24TB, m
 <p>We're giving them 15-30% of all our income when we sell stuff on the Mac App Store, and we get NO explanation or help with a MAJOR update that spans multiple days. That's pretty poor form.</p>
 <p>But, the good news is... the outage is fixed, and <strong>Final Cut Pro v13</strong> is out now on the Mac App Store! 🥳</p>
 <p>There's already <a href="https://www.youtube.com/shorts/IuIH_0Yui0o">some bug reports</a> in Final Cut Pro v13 - so tread with care.</p>
+<p>Our <a href="/update-guide/">Upgrade Guide</a> has been updated.</p>
 <p>The handsome, talented and clever Iain Anderson has posted a detailed blog post over on ProVideo Coalition: <a href="https://www.provideocoalition.com/final-cut-pro-13-a-deep-dive/">Final Cut Pro 13 — a deep dive</a>.</p>
 <p><strong>Always make a backup of the Final Cut Pro application and your libraries before updating!</strong></p>
 <p>Ok... let's go... 🚀</p>
@@ -23313,6 +23314,7 @@ Recorder: Blackmagic HyperDeck recording to a Blackmagic Cloud Store Max 24TB, m
 <li>Includes stability and performance improvements.</li>
 </ul>
 <p>For the developers amongst us...</p>
+<p>There's a new <a href="https://github.com/apple/creator-studio-doc-format">Creator Studio Document Format</a>.</p>
 <p>The <strong>FxPlug v4.3.6</strong> SDK includes the following:</p>
 <ul>
 <li>Improved stability and reliability.</li>
