@@ -278,6 +278,10 @@
 
 ---
 
+{{ include "tools/sequency" }}
+
+---
+
 {{ include "tools/shot-data" }}
 
 ---
