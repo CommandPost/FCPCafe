@@ -64,6 +64,18 @@ You can find the bundles on the **Apple Mac App Store** here:
 
 ---
 
+### Cutler
+
+Until **Cyber Monday (30 November)**, the Cutler founder licence is **€25 instead of €59** (one-time, no subscription), limited to the first 100 licences.
+
+No code is needed: the founder price is applied at checkout.
+
+After that, you can get **€10 off** the €59 licence until **31 December** with the discount code: `FCPCAFE`.
+
+You can learn more on the [Cutler website](https://cutler.miracontents.com/?ref=fcpcafe).
+
+---
+
 ### FxFactory
 
 All products at **FxFactory**, including [Metaburner](https://metaburner.fcp.cafe) and Automatic Duck products, are **30% off** for Black Friday. Sale ends November 30.
