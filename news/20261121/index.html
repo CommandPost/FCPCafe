@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848514469388">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848516110751">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.848514469388" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.848516110751" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848514469388" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848516110751" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848514469388" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848516110751" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -402,6 +402,37 @@ FB6151118: Cannot detect when Final Cut Pro is playing or paused using the Acces
 </doc-codeblock></div>
 <p>However... on a happier note, there&#x27;s more fixed, than there is outstanding! <span class="docs-emoji">&#x1F973;</span></p>
 <p>Make sure you post your Final Cut Pro bugs on FCP Cafe&#x27;s <a href="../../bugtracker/">Bug Tracker</a>! It really does help!</p>
+<figure class="content-center">
+    <img src="../../static/jumper-nov-26.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2510" height="1724" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<p><strong>Jumper v2026.11.20</strong> is out now with Final Cut Pro v13 Creator Studio support!</p>
+<p><strong><span class="docs-emoji">&#x1F973;</span> New Features:</strong></p>
+<ul>
+<li>Face Collections use a new storage format, so renaming, merging, moving and deleting people and adding clips are much faster in large collections. Collections from earlier versions stay searchable. Jumper asks to upgrade one the first time you change it, or use &quot;Upgrade collection&quot; in the People tab&#x27;s collection menu. Earlier Jumper versions can&#x27;t use new or upgraded collections, so update every computer that shares an Analysis folder.</li>
+<li>New UI for reading Summary Analysis which uses a timeline you can scrub.</li>
+<li>Summary Analysis can now be started via Watch Folders. Thanks for reporting steve62179!</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>Many UI improvements across the whole app, plus a unified look and feel of UI components across standalone apps and NLE plugins.</li>
+<li>Visual analysis of long, high-resolution videos is much faster, since each file is decoded once instead of once per batch. Thanks for reporting Awakening!</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
+<ul>
+<li>Final Cut Pro: Add to timeline no longer inserts one-frame clips on French and other keyboard layouts when Paste Timecode has no shortcut. If the playhead doesn&#x27;t move, Jumper stops and tells you. Thanks for reporting ro1960!</li>
+<li>Final Cut Pro: clicking a speech result no longer shows &quot;Failed to start playback&quot;. The clip opens at that point in the Viewer, and Space plays and pauses.</li>
+<li>Final Cut Pro: fixed finding Libraries and Events in Final Cut Pro 13 (Creator Studio edition).</li>
+<li>Final Cut Pro: Events and Libraries with accented letters in their names are now found.</li>
+<li>Premiere Pro: Copy buttons now work in Script, search results and the AI Agents settings.</li>
+<li>Dragging results onto the timeline no longer leaves placeholder files piling up. In Premiere Pro, unused placeholders are cleared from the &quot;Jumper drag placeholders&quot; bin when the panel starts.</li>
+<li>Tags: a visual search result that&#x27;s already tagged now shows as tagged, and ticking it again no longer adds a duplicate.</li>
+<li>Search results you removed no longer come back when you show more.</li>
+<li>Typing @ in a search field opens the people picker again on keyboards that type @ with Option or AltGr, such as Swedish and other Nordic layouts.</li>
+<li>Summary Analysis now find visual analysis made with older visual models.</li>
+<li>Plus many other small improvements and bug fixes!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://getjumper.io/?ref=fcpcafe" class="outbound" target="_blank"><span>Jumper Website</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>In other news from the community...</p>
 <p>First up, my amazing co-worker, the fabulous <strong>Kevin Luk</strong> has released his first Mac App Store app for the Final Cut Pro community, called <strong>Simple Script Sync</strong>.</p>
 <figure class="content-center">

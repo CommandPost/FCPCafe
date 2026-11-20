@@ -43,7 +43,7 @@ Final Cut Pro v13 Creator Studio also seems to have some weird quirks/annoyances
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
 | Hedge Arctic             | **Requires an update**                                                                                  |
-| Jumper                   | No Known Issues                                                                                         |
+| Jumper                   | **Requires Jumper v2026.11.20 or later**                                                                |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |

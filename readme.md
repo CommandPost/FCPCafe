@@ -130,6 +130,34 @@ However... on a happier note, there's more fixed, than there is outstanding! �
 
 Make sure you post your Final Cut Pro bugs on FCP Cafe's [Bug Tracker](/bugtracker/)! It really does help!
 
+![](/static/jumper-nov-26.png)
+
+**Jumper v2026.11.20** is out now with Final Cut Pro v13 Creator Studio support!
+
+**🥳 New Features:**
+- Face Collections use a new storage format, so renaming, merging, moving and deleting people and adding clips are much faster in large collections. Collections from earlier versions stay searchable. Jumper asks to upgrade one the first time you change it, or use "Upgrade collection" in the People tab's collection menu. Earlier Jumper versions can't use new or upgraded collections, so update every computer that shares an Analysis folder.
+- New UI for reading Summary Analysis which uses a timeline you can scrub.
+- Summary Analysis can now be started via Watch Folders. Thanks for reporting steve62179!
+
+**🔨 Improvements:**
+- Many UI improvements across the whole app, plus a unified look and feel of UI components across standalone apps and NLE plugins.
+- Visual analysis of long, high-resolution videos is much faster, since each file is decoded once instead of once per batch. Thanks for reporting Awakening!
+
+**🐞 Bug Fixes:**
+- Final Cut Pro: Add to timeline no longer inserts one-frame clips on French and other keyboard layouts when Paste Timecode has no shortcut. If the playhead doesn't move, Jumper stops and tells you. Thanks for reporting ro1960!
+- Final Cut Pro: clicking a speech result no longer shows "Failed to start playback". The clip opens at that point in the Viewer, and Space plays and pauses.
+- Final Cut Pro: fixed finding Libraries and Events in Final Cut Pro 13 (Creator Studio edition).
+- Final Cut Pro: Events and Libraries with accented letters in their names are now found.
+- Premiere Pro: Copy buttons now work in Script, search results and the AI Agents settings.
+- Dragging results onto the timeline no longer leaves placeholder files piling up. In Premiere Pro, unused placeholders are cleared from the "Jumper drag placeholders" bin when the panel starts.
+- Tags: a visual search result that's already tagged now shows as tagged, and ticking it again no longer adds a duplicate.
+- Search results you removed no longer come back when you show more.
+- Typing @ in a search field opens the people picker again on keyboards that type @ with Option or AltGr, such as Swedish and other Nordic layouts.
+- Summary Analysis now find visual analysis made with older visual models.
+- Plus many other small improvements and bug fixes!
+
+You can download and learn more on the [Jumper Website](https://getjumper.io/?ref=fcpcafe).
+
 In other news from the community...
 
 First up, my amazing co-worker, the fabulous **Kevin Luk** has released his first Mac App Store app for the Final Cut Pro community, called **Simple Script Sync**.
