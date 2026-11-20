@@ -6,27 +6,16 @@ If there's something missing or incorrect, [please let us know](/contribute/).
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 ## 2026 Deals
 
 Here's some of the deals we know about in 2026:
-
----
-
-### Doza Assist
-
-You can get **USD$50 off** Doza Assist (USD$149 instead of USD$199, one-time, no subscription) with the discount code: `LAUNCH50`.
-
-The code is applied automatically at checkout.
-
-You can learn more on the [Doza Assist website](https://doza.ai/?ref=fcpcafe).
-
----
-
-### Jumper
-
-You can get **25% off** Jumper with the Discount code: `25OFF`.
-
-You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
 
 ---
 
@@ -72,6 +61,46 @@ You can find the bundles on the **Apple Mac App Store** here:
 - [**Pro Editor Bundle v4**](https://apps.apple.com/app-bundle/pro-editor-bundle-v4/id1895132701)
 
 ![](/static/pro-editor-bundle.jpg)
+
+---
+
+### FxFactory
+
+All products at **FxFactory**, including [Metaburner](https://metaburner.fcp.cafe) and Automatic Duck products, are **30% off** for Black Friday. Sale ends November 30.
+
+![](/static/fxfactory-black-friday.png)
+
+You can learn more on the [FxFactory website](https://fxfactory.com).
+
+---
+
+### FidelityFuze
+
+> **FidelityFuze v3.0** is available today. I've been working on it since February, and it grew into the biggest release I've made so far.
+>
+> At its core is a complete rebuild of Temporal Upscaling. Temporal is hard: lean on the wrong neighboring frame, and you get ghosting. Lean on none, and you lose the detail it was holding. So 3.0 asks a new question: is this difference more than your footage's own noise would explain? FidelityFuze no longer guesses where the line between detail and noise sits. It measures it, in your footage.
+>
+> Use code `BLACKFRIDAY2026` for **40% off**! Valid until Monday, November 30th. If you know someone who might benefit, feel free to pass it on.
+
+You can learn more on the [FidelityFuze website](https://www.fidelityfuze.com).
+
+---
+
+### Doza Assist
+
+You can get **USD$50 off** Doza Assist (USD$149 instead of USD$199, one-time, no subscription) with the discount code: `LAUNCH50`.
+
+The code is applied automatically at checkout.
+
+You can learn more on the [Doza Assist website](https://doza.ai/?ref=fcpcafe).
+
+---
+
+### Jumper
+
+You can get **25% off** Jumper with the Discount code: `25OFF`.
+
+You can learn more on the [Jumper website](https://getjumper.io/?ref=fcpcafe).
 
 ---
 

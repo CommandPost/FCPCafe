@@ -18,6 +18,13 @@ You can also [send feedback directly to the Final Cut Pro team](https://www.appl
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 !!!success Want to add something to the Wish List?
 Create a free GitHub account then [propose it](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=feature-request.md&title=)!
 !!!

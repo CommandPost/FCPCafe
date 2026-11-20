@@ -4,6 +4,13 @@ This section is dedicated to Final Cut Pro for iPad.
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 ### User Manual
 
 See the [Final Cut Pro for iPad manual](https://support.apple.com/en-au/guide/final-cut-pro-ipad/welcome/ipados).

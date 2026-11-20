@@ -4,7 +4,7 @@ FCP Cafe is entirely **open source** and hosted on [GitHub](https://github.com) 
 
 [GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
-FCP Cafe uses [CloudFlare](https://www.cloudflare.com) for DNS and [hosting](https://pages.cloudflare.com), and [VentraIP](https://ventraip.com.au) for domain registration.
+FCP Cafe uses [CloudFlare](https://www.cloudflare.com) for DNS and [hosting](https://pages.cloudflare.com), and domain registration.
 
 You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/FCPCafe).
 
@@ -17,6 +17,13 @@ The entire site is written in [Markdown](https://www.markdownguide.org), so it's
 The website is build on [Retype](https://retype.com), which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/) just using Markdown.
 
 However, if you're not confident using GitHub, you can also email us content here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
+
+---
+
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
 
 ---
 

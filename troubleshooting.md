@@ -6,6 +6,13 @@ You can also ask members of the FCP Cafe community for help on our [Discussions 
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 ### Apple Support
 
 You can visit the [official Final Cut Pro support page](https://support.apple.com/en-au/final-cut-pro).

@@ -4,6 +4,13 @@ If you're brand new to **Final Cut Pro for Mac** or **Final Cut Pro for iPad** -
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 ### Apple White Papers
 
 Here's a collection of official Apple White Papers to help people transition from **Final Cut Pro 7** to Final Cut Pro X:

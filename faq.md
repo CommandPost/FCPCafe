@@ -6,6 +6,13 @@ You can use the Search Tool at the top right of this page to search the FAQ.
 
 ---
 
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 !!!
 Something missing or have a question? [Learn more here!](/contribute/)
 !!!

@@ -1,10 +1,21 @@
 # FCP Creative Summit
 
+This page is dedicated to the Final Cut Pro Creative Summit.
+
+---
+
+!!!warning Sponsored
+_Advanced Keyframes + Text-based Editing + BRAW + Gyro Stabilisation + Email Comments + iCloud Sharing + MORE!_\
+Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-bundles) today!
+!!!
+
+---
+
 ## 2026
 
-So far there's no news on the Final Cut Pro Creative Summit for 2026.
+Sadly, there was no Final Cut Pro Creative Summit in 2026.
 
-However, FMC will have an exclusive Final Cut Pro track at Post|Production World during NAB.
+However, FMC did have an exclusive Final Cut Pro track at Post|Production World during NAB.
 
 ![](/static/fcp-creative-summit-2026-delayed.png)
 

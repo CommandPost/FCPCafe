@@ -8,7 +8,7 @@
 - [New to Final Cut Pro?](https://fcp.cafe/newbies.md): If you're brand new to Final Cut Pro for Mac or Final Cut Pro for iPad - this is the place for you!
 - [Update Guide](https://fcp.cafe/update-guide.md): All software has bugs, and new updates to software can sometimes have regressions that break features that were working fine in previous versions.
 - [Cut on Final Cut Pro](https://fcp.cafe/cut-on-fcp.md): This page is dedicated to listing all the amazing projects cut on Final Cut Pro.
-- [FCP Creative Summit](https://fcp.cafe/fcp-creative-summit.md): So far there's no news on the Final Cut Pro Creative Summit for 2026.
+- [FCP Creative Summit](https://fcp.cafe/fcp-creative-summit.md): This page is dedicated to the Final Cut Pro Creative Summit.
 - [Open Letter](https://fcp.cafe/openletter.md): On Tuesday 19th April 2022, a group of over 100 people in TV and film production worldwide sent an open letter to Tim Cook of Apple about Final Cut Pro.
 - [Wish List](https://fcp.cafe/wishlist.md): This page is dedicated to keeping track of Final Cut Pro feature requests, via our GitHub issues site.
 - [Bug Tracker](https://fcp.cafe/bugtracker.md): Create a free GitHub account then create a ticket!
