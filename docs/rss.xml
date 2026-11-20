@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 20 Nov 2026 18:24:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 18:49:00 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Nov 2026 18:24:32 GMT</pubDate>
+        <pubDate>Fri, 20 Nov 2026 18:49:00 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -25103,6 +25103,34 @@ FB6151118: Cannot detect when Final Cut Pro is playing or paused using the Acces
 </code></pre>
 <p>However... on a happier note, there's more fixed, than there is outstanding! 🥳</p>
 <p>Make sure you post your Final Cut Pro bugs on FCP Cafe's <a href="/bugtracker/">Bug Tracker</a>! It really does help!</p>
+<p><img src="/static/jumper-nov-26.png" alt=""></p>
+<p><strong>Jumper v2026.11.20</strong> is out now with Final Cut Pro v13 Creator Studio support!</p>
+<p><strong>🥳 New Features:</strong></p>
+<ul>
+<li>Face Collections use a new storage format, so renaming, merging, moving and deleting people and adding clips are much faster in large collections. Collections from earlier versions stay searchable. Jumper asks to upgrade one the first time you change it, or use &quot;Upgrade collection&quot; in the People tab's collection menu. Earlier Jumper versions can't use new or upgraded collections, so update every computer that shares an Analysis folder.</li>
+<li>New UI for reading Summary Analysis which uses a timeline you can scrub.</li>
+<li>Summary Analysis can now be started via Watch Folders. Thanks for reporting steve62179!</li>
+</ul>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Many UI improvements across the whole app, plus a unified look and feel of UI components across standalone apps and NLE plugins.</li>
+<li>Visual analysis of long, high-resolution videos is much faster, since each file is decoded once instead of once per batch. Thanks for reporting Awakening!</li>
+</ul>
+<p><strong>🐞 Bug Fixes:</strong></p>
+<ul>
+<li>Final Cut Pro: Add to timeline no longer inserts one-frame clips on French and other keyboard layouts when Paste Timecode has no shortcut. If the playhead doesn't move, Jumper stops and tells you. Thanks for reporting ro1960!</li>
+<li>Final Cut Pro: clicking a speech result no longer shows &quot;Failed to start playback&quot;. The clip opens at that point in the Viewer, and Space plays and pauses.</li>
+<li>Final Cut Pro: fixed finding Libraries and Events in Final Cut Pro 13 (Creator Studio edition).</li>
+<li>Final Cut Pro: Events and Libraries with accented letters in their names are now found.</li>
+<li>Premiere Pro: Copy buttons now work in Script, search results and the AI Agents settings.</li>
+<li>Dragging results onto the timeline no longer leaves placeholder files piling up. In Premiere Pro, unused placeholders are cleared from the &quot;Jumper drag placeholders&quot; bin when the panel starts.</li>
+<li>Tags: a visual search result that's already tagged now shows as tagged, and ticking it again no longer adds a duplicate.</li>
+<li>Search results you removed no longer come back when you show more.</li>
+<li>Typing @ in a search field opens the people picker again on keyboards that type @ with Option or AltGr, such as Swedish and other Nordic layouts.</li>
+<li>Summary Analysis now find visual analysis made with older visual models.</li>
+<li>Plus many other small improvements and bug fixes!</li>
+</ul>
+<p>You can download and learn more on the <a href="https://getjumper.io/?ref=fcpcafe">Jumper Website</a>.</p>
 <p>In other news from the community...</p>
 <p>First up, my amazing co-worker, the fabulous <strong>Kevin Luk</strong> has released his first Mac App Store app for the Final Cut Pro community, called <strong>Simple Script Sync</strong>.</p>
 <p><img src="/static/simple-script-sync-app-01.png" alt="Simple Script Sync subtitle synchronization screenshot"></p>
