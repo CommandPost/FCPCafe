@@ -6,6 +6,10 @@ If there's something missing, [please let us know](/contribute/).
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ## Notion Database
 
 In addition to everything listed below, we now have an awesome Notion database of a huge collection of projects cut in Final Cut Pro X.

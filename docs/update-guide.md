@@ -14,17 +14,23 @@ You can read our current recommendations below...
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ## Final Cut Pro 13.0
 
 **Final Cut Pro v13** is out now. Whilst this isn't a MAJOR update, it still has some big changes, so tread with caution until people have had a chance to actually use it on real-world jobs.
 
 There's already [some bug reports](https://www.youtube.com/shorts/IuIH_0Yui0o).
 
+Final Cut Pro v13 Creator Studio also seems to have some weird quirks/annoyances with the new MotionVFX panels and windows - with annoying promo videos automatically playing, etc.
+
 {.compact}
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | **Requires an update for FCPXML v1.15**                                                                    |
+| Capacitor                | **Requires an update for FCPXML v1.15**                                                                 |
 | Color Finale             | No Known Issues                                                                                         |
 | CommandPost              | **Requires CommandPost v3.0.0 or later**                                                                |
 | CoreMelt                 | No Known Issues                                                                                         |

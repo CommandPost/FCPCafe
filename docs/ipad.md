@@ -4,6 +4,10 @@ This section is dedicated to Final Cut Pro for iPad.
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ### User Manual
 
 See the [Final Cut Pro for iPad manual](https://support.apple.com/en-au/guide/final-cut-pro-ipad/welcome/ipados).

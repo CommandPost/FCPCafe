@@ -18,6 +18,10 @@ You can also [send feedback directly to the Final Cut Pro team](https://www.appl
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 !!!success Want to add something to the Wish List?
 Create a free GitHub account then [propose it](https://github.com/CommandPost/FCPCafe/issues/new?assignees=&labels=&projects=&template=feature-request.md&title=)!
 !!!

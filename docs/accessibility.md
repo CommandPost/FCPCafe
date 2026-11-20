@@ -4,6 +4,10 @@ This section is dedicated to Accessibility.
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ### Mac
 
 Here's an amazing video of **Christopher Hills** using Final Cut Pro on Mac using Switch Control.

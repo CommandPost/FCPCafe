@@ -4,6 +4,10 @@ If you're brand new to **Final Cut Pro for Mac** or **Final Cut Pro for iPad** -
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ### Apple White Papers
 
 Here's a collection of official Apple White Papers to help people transition from **Final Cut Pro 7** to Final Cut Pro X:

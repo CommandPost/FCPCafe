@@ -6,6 +6,10 @@ You can use the Search Tool at the top right of this page to search the FAQ.
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 !!!
 Something missing or have a question? [Learn more here!](/contribute/)
 !!!

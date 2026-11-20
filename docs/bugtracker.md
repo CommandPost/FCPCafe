@@ -28,6 +28,10 @@ You can also send feedback directly to the Final Cut Pro team via their [Feedbac
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 ### Recently Added
 
 Here's a list of the **30 most recently added** Final Cut Pro bug reports:
@@ -43,27 +47,6 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
 {{ include "bugtracker-reactions" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
-
----
-
-
-### Final Cut Pro 12
-
-Here's a list of the **30 most recently added** Final Cut Pro 12 bug reports:
-
-{{ include "bugtracker-latest" }}
-
-The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
-
----
-
-### Final Cut Pro 11.2
-
-Here's a list of the **30 most recently added** Final Cut Pro 11.2 bug reports:
-
-{{ include "bugtracker-previous" }}
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 

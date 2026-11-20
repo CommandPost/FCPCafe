@@ -4,6 +4,10 @@ This page is designed to not just copy and paste Final Cut Pro's [official relea
 
 ---
 
+{{ include "hero-sponsor" }}
+
+---
+
 {{ include "contribute-learn-more" }}
 
 ---
