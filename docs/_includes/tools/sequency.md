@@ -1,6 +1,6 @@
 ### Sequency
 
-Convert camera RAW and image sequences to ProRes, H.264 or EXR on a Mac, without a Resolve project.
+Convert camera RAW and image sequences to ProRes, H.264, HEVC or EXR on a Mac, without a Resolve project.
 
 ![Sequency's Output Settings: format, size and timing, colour space, LUT and burn-ins for an ACEScg EXR sequence](/static/sequency.jpg)
 
