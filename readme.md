@@ -215,6 +215,21 @@ All products at **FxFactory**, including [Metaburner](https://metaburner.fcp.caf
 
 You can learn more on the [FxFactory website](https://fxfactory.com).
 
+**Dylan Bates (The Final Cut Bro)** is having a sale...
+
+> MY BIGGEST SALE OF
+> THE YEAR STARTS NOW!
+> EVERYTHING in my store is
+> 35% off with code BF35
+>
+> BUT! That's not all!
+> BUNDLES = BIG SAVINGS!
+> This year I'm offering several
+> bundle packs with an even
+> BIGGER DISCOUNT - 40% OFF!
+
+You can learn more on [Dylan's website](https://fcbplugins.com).
+
 **Sebastian** writes:
 
 > **FidelityFuze v3.0** is available today. I've been working on it since February, and it grew into the biggest release I've made so far.
@@ -7595,12 +7610,3 @@ It'll be interesting to see if they keep **mExtension** or if they just include 
 [![](/static/motionvfx-minstaller.png)](https://www.youtube.com/watch?v=lF5DNGmLlPE)
 
 Either way, NAB will be interesting times!
-
-[!button text="Discuss this news item" variant="info"](news/20260404/#discuss-this-page)
-
----
-
-!!!warning Sponsored
-Native Blackmagic RAW support in Final Cut Pro.<br />
-[Download BRAW Toolbox](https://brawtoolbox.fcp.cafe) today from the Mac App Store.
-!!!
