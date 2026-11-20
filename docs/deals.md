@@ -20,6 +20,23 @@ Here's some of the deals we know about in 2026:
 
 ---
 
+### Dylan Bates (The Final Cut Bro)
+
+> MY BIGGEST SALE OF
+> THE YEAR STARTS NOW!
+> EVERYTHING in my store is
+> 35% off with code BF35
+>
+> BUT! That's not all!
+> BUNDLES = BIG SAVINGS!
+> This year I'm offering several
+> bundle packs with an even
+> BIGGER DISCOUNT - 40% OFF!
+
+You can learn more on [Dylan's website](https://fcbplugins.com).
+
+---
+
 ### Cutler
 
 Until **Cyber Monday (30 November)**, the Cutler founder licence is **€25 instead of €59** (one-time, no subscription), limited to the first 100 licences.
