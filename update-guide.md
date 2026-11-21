@@ -33,7 +33,7 @@ Final Cut Pro v13 Creator Studio also seems to have some weird quirks/annoyances
 | Plugin                   | Known Issues                                                                                            |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | BRAW Toolbox             | No Known Issues                                                                                         |
-| Capacitor                | **Requires an update for FCPXML v1.15**                                                                 |
+| Capacitor                | **Requires Capacitor v1.3.0 or later**                                                        |
 | Color Finale             | No Known Issues                                                                                         |
 | CommandPost              | **Requires CommandPost v3.0.0 or later**                                                                |
 | CoreMelt                 | No Known Issues                                                                                         |
@@ -42,14 +42,14 @@ Final Cut Pro v13 Creator Studio also seems to have some weird quirks/annoyances
 | FxFactory                | No Known Issues                                                                                         |
 | Generic Motion Templates | No Known Issues                                                                                         |
 | Gyroflow Toolbox         | No Known Issues                                                                                         |
-| Hedge Arctic             | **Requires an update**                                                                                  |
+| Hedge Arctic             | **Requires Arctic v26.2 or later**                                                                      |
 | Jumper                   | **Requires Jumper v2026.11.20 or later**                                                                |
 | LUT Robot                | No Known Issues                                                                                         |
 | Marker Toolbox           | No Known Issues                                                                                         |
 | MotionVFX                | No Known Issues                                                                                         |
 | Recall Toolbox           | No Known Issues                                                                                         |
 | ScriptStar               | **Requires ScriptStar v1.6.3 or later**                                                                 |
-| Transfer Toolbox         | **Requires an update**                                                                                  |
+| Transfer Toolbox         | **Requires Transfer Toolbox v2.1.0 or later**                                                           |
 
 ---
 
