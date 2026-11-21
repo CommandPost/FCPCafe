@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Fri, 20 Nov 2026 19:08:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 22:21:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Nov 2026 19:08:13 GMT</pubDate>
+        <pubDate>Sat, 21 Nov 2026 22:21:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -25214,6 +25214,48 @@ BIGGER DISCOUNT - 40% OFF!</p>
             <link>https://fcp.cafe/#21st-november-2026</link>
             <guid isPermaLink="false">21st November 2026</guid>
             <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22nd November 2026]]></title>
+            <description><![CDATA[<p>Happy Sunday! 👋</p>
+<p>A couple of updates for you...</p>
+<p><strong>Transfer Toolbox v2.1.0</strong> is out now! 🥳</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Final Cut Pro v13 (for Mac), Final Cut Pro Creator Studio v13 (for Mac) and Final Cut Pro Creator Studio v4.0 (for iPad).</li>
+</ul>
+<p>You can learn more on the <a href="https://transfertoolbox.fcp.cafe">Transfer Toolbox website</a>.</p>
+<p><strong>Capacitor v1.3.0 (Build 8)</strong> is out now too!</p>
+<p><strong>🔨 Improvements:</strong></p>
+<ul>
+<li>Added support for Final Cut Pro v13.0, Final Cut Pro Creator Studio v13.0 and FCPXML v1.15.</li>
+<li>Added support for Final Cut Pro 7 XML.</li>
+</ul>
+<p>You can learn more on the <a href="https://capacitor.fcp.cafe">Capacitor website</a>.</p>
+<p><strong>Keyframe Toolbox v2.1.0 (Build 61)</strong> has been sent out to our awesome TestFlight testers, so once we get the tick of approval from them, we'll release.</p>
+<p><strong>CommandPost v3.0.0 (Build 8169)</strong> is also currently on TestFlight.</p>
+<p>We've already received SO MUCH amazing feedback - THANKS TEAM!</p>
+<p>I hope to submit a new build with LOTS of improvements today or tomorrow.</p>
+<p>Here's a sneak peak of some of the new features:</p>
+<p><img src="/static/commandpost-v3-21.png" alt=""></p>
+<p><img src="/static/commandpost-v3-22.png" alt=""></p>
+<p><img src="/static/commandpost-v3-23.png" alt=""></p>
+<p><img src="/static/commandpost-v3-24.png" alt=""></p>
+<p>Yes... there'll be an iPhone, iPad and even an Vision Pro app. 🤯</p>
+<p><img src="/static/commandpost-iphone-vision-pro.png" alt=""></p>
+<p>In other news from the community...</p>
+<p><strong>Marker Data v2.2.0</strong> has been released.</p>
+<blockquote>
+<p>Support for FCPXML 1.15 and have been tested and verified with Final Cut Pro 13.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://markerdata.theacharya.co">Marker Data website</a>.</p>
+<p><strong>Swift DAW File Tools v0.9.4</strong> is also out now with Final Cut Pro v13 support.</p>
+<p>You can learn more on <a href="https://github.com/orchetect/swift-daw-file-tools">GitHub</a>.</p>
+<p>That's is for today. Enjoy the rest of your weekend!</p>
+]]></description>
+            <link>https://fcp.cafe/#22nd-november-2026</link>
+            <guid isPermaLink="false">22nd November 2026</guid>
+            <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
