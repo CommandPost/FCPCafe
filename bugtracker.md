@@ -39,6 +39,7 @@ Get all of the **LateNite** Tools on the [Mac App Store](/latenite/#pro-editor-b
 
 Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 
+- [Show/Hide state of duplicate effects instances gets mixed up (November 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/580)
 - [Audio Phasing between coherent mics with Voice Isolation applied. (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/572)
 - [Change Duration Does not work (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/571)
 - [FCP 12.4 hangs permanently reopening a library: all 150 worker threads blocked on AU instantiation (DeRoom 2, macOS 27.2) (November 8, 2026)](https://github.com/CommandPost/FCPCafe/issues/567)
@@ -68,7 +69,6 @@ Here's a list of the **30 most recently added** Final Cut Pro bug reports:
 - [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
-- [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
@@ -80,6 +80,7 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 
 - [FCP Browser Project Creation Date Sort Order Incorrect in Filmstrip Mode (May 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/459)
 - [FCP shows FFmpeg-generated ProRes 4444 alpha as opaque on Sonoma 14.4.1 Apple Silicon; Prores decode errors in log (May 12, 2024)](https://github.com/CommandPost/FCPCafe/issues/359)
+- [Show/Hide state of duplicate effects instances gets mixed up (November 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/580)
 - [Audio Phasing between coherent mics with Voice Isolation applied. (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/572)
 - [Change Duration Does not work (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/571)
 - [FCP 12.4 hangs permanently reopening a library: all 150 worker threads blocked on AU instantiation (DeRoom 2, macOS 27.2) (November 8, 2026)](https://github.com/CommandPost/FCPCafe/issues/567)
@@ -107,7 +108,6 @@ Here's a list of the **30 most popular** Final Cut Pro bug reports:
 - ["Allow export segmentation" option during export, doesn't export chapter information (February 18, 2025)](https://github.com/CommandPost/FCPCafe/issues/446)
 - [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
-- [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/FCPCafe/issues).
 
