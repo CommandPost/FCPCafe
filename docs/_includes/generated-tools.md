@@ -80,6 +80,10 @@
 
 ---
 
+{{ include "tools/creator-companion-pro" }}
+
+---
+
 {{ include "tools/csv-to-motn-generator" }}
 
 ---
@@ -167,6 +171,12 @@
 ---
 
 {{ include "tools/fxfactory" }}
+
+---
+
+## G
+
+{{ include "tools/gps-to-fcp-converter" }}
 
 ---
 
