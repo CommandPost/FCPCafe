@@ -526,6 +526,9 @@
     <loc>https://fcp.cafe/ipad/</loc>
   </url>
   <url>
+    <loc>https://fcp.cafe/accessibility/</loc>
+  </url>
+  <url>
     <loc>https://fcp.cafe/camera-formats/</loc>
   </url>
   <url>
@@ -596,9 +599,6 @@
   </url>
   <url>
     <loc>https://fcp.cafe/blog/post-production-workflow/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/accessibility/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/contribute/</loc>
@@ -1138,6 +1138,12 @@
     <loc>https://fcp.cafe/blog/realism-representation/</loc>
   </url>
   <url>
+    <loc>https://fcp.cafe/learn/training/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/case-studies/periodsomnia/</loc>
+  </url>
+  <url>
     <loc>https://fcp.cafe/ecosystem/tools/</loc>
   </url>
   <url>
@@ -1154,9 +1160,6 @@
   </url>
   <url>
     <loc>https://fcp.cafe/learn/immersive/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/learn/training/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/learn/workflow/</loc>
@@ -1178,9 +1181,6 @@
   </url>
   <url>
     <loc>https://fcp.cafe/case-studies/guardians-of-himalayas/</loc>
-  </url>
-  <url>
-    <loc>https://fcp.cafe/case-studies/periodsomnia/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/case-studies/schock/</loc>
@@ -1208,6 +1208,9 @@
   </url>
   <url>
     <loc>https://fcp.cafe/case-studies/external-case-studies/</loc>
+  </url>
+  <url>
+    <loc>https://fcp.cafe/developer-case-studies/creator-companion/</loc>
   </url>
   <url>
     <loc>https://fcp.cafe/developer-case-studies/first-rush/</loc>
