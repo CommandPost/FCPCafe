@@ -10938,7 +10938,7 @@ Just beautifully crisp footage that's ready when you are.</p>
         <item>
             <title><![CDATA[10th July 2025]]></title>
             <description><![CDATA[<p><strong>Pipeline Neo v1.0.0</strong> is now release!</p>
-<p><img src="/static/pipeline-neo-social-card.png" alt=""></p>
+<p><img src="/static/openfcpxmlkit-social-card.png" alt=""></p>
 <h4>Background</h4>
 <p>Pipeline Neo is a modern Swift framework and spiritual successor to the original <a href="https://github.com/reuelk/pipeline">Pipeline</a>, designed for professional video editing workflows. Built with Swift 6.0 and targeting macOS 12+, it provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling.</p>
 <p>The framework seamlessly integrates with <a href="https://github.com/orchetect/TimecodeKit">TimecodeKit</a> to deliver type-safe operations for professional video editing environments. Pipeline Neo is currently in experimental development, focusing on core functionality while providing a foundation for future expansion. The entire codebase has been developed and refined using AI-assisted development practices.</p>
@@ -15447,7 +15447,7 @@ Swift     :      55389 (++12423, +28.91%)
 <p>He also posted some <a href="https://joema.smugmug.com/XCode-Instruments-trace-of-slow-FCP-performance/n-tBwgCJ">Xcode Instruments traces</a> for those that want to get really deep in the inner workings of Final Cut Pro.</p>
 <p>Long story short... Apple still has a LOT of engineering work to do under-the-hood, so I don't imagine we'll see a dramatic change in the update schedule over the next couple of years - I think it will continue to be slow and steady.</p>
 <p>The <strong>FCP Vietnam Community</strong> has also <a href="https://x.com/nikewrayy/status/2017915579559211451">reported</a> that Apple is finally checking for valid App Store receipts when launching Final Cut Pro - so you can no longer just &quot;steal&quot; Final Cut Pro with a USB-C when visiting the App Store.</p>
-<p><img src="/static/app-store-says-no.png" alt=""></p>
+<p><img src="/static/app-store-says-no.jpeg" alt=""></p>
 <p>Final Cut Pro has always been really easy to share. Final Cut Pro 7 and earlier just had a license key that could be used unlimited times (although only one license could be activated on the same local network at a time).</p>
 <p>Final Cut Pro v10 has only ever been on the App Store - but no actual verification ever took place after the initial download.</p>
 <p>Apple also offered a very good free trial, which was also trivial to reset the trial period by just deleting a hidden file on the filesystem.</p>
@@ -18000,7 +18000,7 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
 <p>It's POSSIBLE they might just move all the <strong>MotionVFX DesignStudio</strong> elements to Apple Creator Studio:</p>
 <p><img src="/static/motionvfx-design-studio.png" alt=""></p>
 <p>It'll be interesting to see if they keep <strong>mExtension</strong> or if they just include all the Motion Templates as optional downloads in the Effects/Transitions/Titles/Generator Browsers, like they currently do on both Mac and iPad.</p>
-<p><a href="https://www.youtube.com/watch?v=lF5DNGmLlPE"><img src="/static/motionvfx-minstaller.png" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=lF5DNGmLlPE"><img src="/static/motionvfx-minstaller.jpg" alt=""></a></p>
 <p>Either way, NAB will be interesting times!</p>
 ]]></description>
             <link>https://fcp.cafe/#4th-april-2026</link>

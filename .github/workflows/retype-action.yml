@@ -160,6 +160,23 @@ jobs:
           # Work around Retype 4.6.0's concurrent file-copy cache corruption.
           DOTNET_PROCESSOR_COUNT: "1"
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache image previews between builds
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/fcpcafe-image-cache
+          key: image-previews-${{ hashFiles('.github/scripts/optimize-images.py') }}-${{ hashFiles('docs/static/**/*.png', 'docs/static/**/*.jpg', 'docs/static/**/*.jpeg') }}
+          restore-keys: |
+            image-previews-${{ hashFiles('.github/scripts/optimize-images.py') }}-
+
+      - name: Optimize article images
+        run: |
+          python -m pip install Pillow==12.2.0
+          python .github/scripts/optimize-images.py "$RETYPE_OUTPUT_PATH" "$RUNNER_TEMP/fcpcafe-image-cache"
+
       - name: Push to retype branch
         uses: retypeapp/action-github-pages@latest
         with:
