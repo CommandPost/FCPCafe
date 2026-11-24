@@ -1,3 +1,4 @@
+- [Show/Hide state of duplicate effects instances gets mixed up (November 23, 2026)](https://github.com/CommandPost/FCPCafe/issues/580)
 - [Audio Phasing between coherent mics with Voice Isolation applied. (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/572)
 - [Change Duration Does not work (November 13, 2026)](https://github.com/CommandPost/FCPCafe/issues/571)
 - [FCP 12.4 hangs permanently reopening a library: all 150 worker threads blocked on AU instantiation (DeRoom 2, macOS 27.2) (November 8, 2026)](https://github.com/CommandPost/FCPCafe/issues/567)
@@ -27,4 +28,3 @@
 - [Downscaling within FCPX leaves edge bleed from clips below top one (January 10, 2025)](https://github.com/CommandPost/FCPCafe/issues/443)
 - [Bug with timeline mouse overlay  (January 2, 2025)](https://github.com/CommandPost/FCPCafe/issues/442)
 - [In making a New Compound Clip, first Compound Clip isn't updating length when it's internally lengthened (December 28, 2024)](https://github.com/CommandPost/FCPCafe/issues/441)
-- [FxPlug 4 - PROAPIAccessing needs pluginUUID (December 22, 2024)](https://github.com/CommandPost/FCPCafe/issues/439)
