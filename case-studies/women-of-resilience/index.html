@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848877754397">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848926147305">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.848877754397" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.848926147305" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848877754397" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848926147305" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848877754397" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848926147305" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -378,36 +378,36 @@ As commonly done, I created events for corresponding steps in post-production. T
 <p>Secondly, I knew in the end we need to conform to a 52 minutes TV version (Central-European broadcast standard length for docs) and to 25p (which happens by a 4% speed change - what has always been done since the invention of analogue TV), so I needed a 55 minutes for the cinema master in 24p (the FPS conform would take care of the length automatically due to speed up of 4%). To exactly hit 52 minutes I would just adjust the length of credits (scrolling speed) in the very end. For audio improvement I usually use Voice Isolation at 50% combined with the EQ set to ‘Tremble Boost’ – at least for our wireless Sony mics this gives crisp and clear speech.</p>
 <p>Thirdly, I made sure during editing that all roles get directly assigned to the right ones for audio and video alike, also all non-English dialogue (we had German and Kurdish besides the English narration) was translated on-the-go and out into a corresponding SRT captions track. From this point on, whatever I was doing and moving around would clearly be color-coded and ready to be filtered by the timeline index. Grading was done exclusively with the new native ‘Color Adjustment’ correction (plus some shape masks) which allow for easy highlight recovery. For sharpening I used the ‘High-pass Filter’ ported from Apple’s Motion (see bottom for details).</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-1a.jpg" alt="Screenshot 1A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2331" height="798" />
+    <img loading="lazy" src="../../static/wor-screenshot-1a.jpg" alt="Screenshot 1A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2331" height="798" />
     <figcaption class="caption">Screenshot 1A</figcaption>
 </figure>
 <p><strong>Screenshot 1A:</strong> The original 24p cinema timeline. Note the clearly assigned roles: For video there are two different types of archive material (different sources) which do not have any other purpose other than source referencing (aka ‘clippings’). The ‘Titles’ role includes all on-screen text like lower thirds, fullscreen inserts, credits or titles. For audio all elements are grouped as well with red being English narration (voice-over). The SRT track includes subtitles for all non-English dialogue.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-1b.jpg" alt="Screenshot 1B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2333" height="929" />
+    <img loading="lazy" src="../../static/wor-screenshot-1b.jpg" alt="Screenshot 1B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2333" height="929" />
     <figcaption class="caption">Screenshot 1B</figcaption>
 </figure>
 <p><em><strong>Screenshot 1B:</strong> The original 24p cinema timeline as its own project with audio lanes enabled.</em></p>
 <p>Fast forward to the interesting part of delivery preparation: The simple roles setup is enough to immediately export different assets such as clean-feed or M&amp;E (music and effects) tracks.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-2.jpg" alt="Screenshot 2" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="790" height="800" />
+    <img loading="lazy" src="../../static/wor-screenshot-2.jpg" alt="Screenshot 2" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="790" height="800" />
     <figcaption class="caption">Screenshot 2</figcaption>
 </figure>
 <p><strong>Screenshot 2:</strong> Now with roles being set, the real power of FCP’s export (share) window comes into play. Switching to ‘Separate Files’ I exported the following: A ProRes HQ clean video file, aka ‘clean-feed’, which includes everything BUT titles (important for localizations of TV channels per on territory). Note that the ‘titles’ role is missing. And the most important part is audio tracks (or ‘stems’ in this case), which are created easily that way. I will end up with 4 files, 3 of which being audio, separated into: Speech (original dialogue and extra recorded narration/voice-over), Effects (all the ambience, atmospherics or SFX I placed manually or were recorded on location) and Music. Music &amp; Effects are stereo tracks, Speech is mono, so a total of 6 channels. It should be clear now which purpose this will server a little later on: A rough, home-made 5.1 Surround up-mix from pure stereo sources for a better cinematic experience. Last but not least: All subtitles/captions as separate SRT files per language (English and German in my case).</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-3.jpg" alt="Screenshot 3" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="967" height="202" />
+    <img loading="lazy" src="../../static/wor-screenshot-3.jpg" alt="Screenshot 3" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="967" height="202" />
     <figcaption class="caption">Screenshot 3</figcaption>
 </figure>
 <p><strong>Screenshot 3:</strong> In a new surround (!) project I assemble the just exported stereo audio files and use FCP’s unique and genius surround panner in the inspector (set to the respective purposes) as displayed in the next screenshots. Note: I also export a special M&amp;E stereo track now, which is a combination of all sound effects/atmospherics and music, hence the name ‘music and effects’. TV needs this for dubbing their own language version. They would re-mix audio after adding their own voice-over and synchro. Same for surround. Tedious, I know, but necessary.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-3a.jpg" alt="Screenshot 3A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="484" height="327" />
+    <img loading="lazy" src="../../static/wor-screenshot-3a.jpg" alt="Screenshot 3A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="484" height="327" />
     <figcaption class="caption">Screenshot 3A</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-3b.jpg" alt="Screenshot 3B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="484" height="336" />
+    <img loading="lazy" src="../../static/wor-screenshot-3b.jpg" alt="Screenshot 3B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="484" height="336" />
     <figcaption class="caption">Screenshot 3B</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-3c.jpg" alt="Screenshot 3C" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="481" height="332" />
+    <img loading="lazy" src="../../static/wor-screenshot-3c.jpg" alt="Screenshot 3C" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="481" height="332" />
     <figcaption class="caption">Screenshot 3C</figcaption>
 </figure>
 <p><strong>Screenshots 3A-C:</strong> The presets for Dialogue (tuned to 90), Ambience and Music delivery a solid, yet quick &amp; dirty, way to create a 5.1 surround mix by spreading audio signals over all channels but keeping speech mainly in front (center speaker behind the cinema screen). Note: You need a separate voice/dialogue track for this, hence the before mentioned preparation. I would not recommend this (although it is possible and works OK) for just a single stereo mix – if you want to up-mix one single stereo mix, you should choose ‘create space’ as the preset instead.</p>
@@ -419,7 +419,7 @@ As commonly done, I created events for corresponding steps in post-production. T
 <li>SRT captions for subtitles (sidecar files)</li>
 </ol>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-4.jpg" alt="Screenshot 4" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2199" height="617" />
+    <img loading="lazy" src="../../static/wor-screenshot-4.jpg" alt="Screenshot 4" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2199" height="617" />
     <figcaption class="caption">Screenshot 4</figcaption>
 </figure>
 <p><strong>Screenshot 4:</strong> In yet another project (still 2K flat 24p but set to surround) I copy&amp;paste all titles on top of the re-imported clean-feed, which I also added the ‘Broadcast Safe’ effect set to standard ‘0’ to. I also re-import the captions and prepared audio files. Now I have full control over ‘versioning’, which means cinema or broadcast/streaming in ‘clean’ or ‘fixed’ English.</p>
@@ -434,12 +434,12 @@ As commonly done, I created events for corresponding steps in post-production. T
 </ol>
 <p>Checking the list from the beginning again, there are some special requirements for non-cinema releases. Namely R128 (audio) and R103 (video) normalizations. The latter we took care of with the ‘Broadcast Safe’ filter directly in FCP but sadly, Apple has not included audio mastering yet. Again, this task is covered by Davinci Resolve (this time ‘lite’ suffices) where you can normalize audio according to the most important standards via a right click 	on it in a timeline. So we have to re-import a final mix in R128 once again and put in our project. This is represented in Screenshot 4.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-5a.jpg" alt="Screenshot 5A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="953" height="785" />
+    <img loading="lazy" src="../../static/wor-screenshot-5a.jpg" alt="Screenshot 5A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="953" height="785" />
     <figcaption class="caption">Screenshot 5A</figcaption>
 </figure>
 <p><strong>Screenshot 5A:</strong> Using the unique Multitrack option during sharing again, it is easy to deliver a ProRes master file with 12 audio tracks, where tracks 1-6 are the full surround mix in R128 for example (assigned to ‘Dialogue’ role but you could create your own) and tracks 7-12 are surround M&amp;E, meaning everything without speech for dubbing purposes and in full scale (not R128). Also, through removing or adding the ‘Titles’ role it is easy to create a clean-feed or localized English version. Again, cations are exported separately as sidecar SRT files, as shown at the bottom.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-5b.jpg" alt="Screenshot 5B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="957" height="865" />
+    <img loading="lazy" src="../../static/wor-screenshot-5b.jpg" alt="Screenshot 5B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="957" height="865" />
     <figcaption class="caption">Screenshot 5B</figcaption>
 </figure>
 <p><em><strong>Screenshot 5B:</strong> Same thing as 5a but now it is a project set to stereo with the corresponding mixes we created before hand from the original project and/or stems.</em></p>
@@ -452,11 +452,11 @@ As commonly done, I created events for corresponding steps in post-production. T
 <p>The same you can do for titles to receive a CSV for the titles inserts list as demonstrated in Screenshot 6b. It really helps, however a possible improvement would be to have the CSV also include the duration of the clips, not only their starting position.</p>
 <p><strong>UPDATE (1st Dec 2023):</strong> You could also create a Smart Collection of Used Media, and export a CSV from the Browser using CommandPosts&#x27;s <strong>Save Browser Contents to CSV</strong>.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-6a.jpg" alt="Screenshot 6A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="498" height="956" />
+    <img loading="lazy" src="../../static/wor-screenshot-6a.jpg" alt="Screenshot 6A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="498" height="956" />
     <figcaption class="caption">Screenshot 6A</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-6b.jpg" alt="Screenshot 6B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="503" height="958" />
+    <img loading="lazy" src="../../static/wor-screenshot-6b.jpg" alt="Screenshot 6B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="503" height="958" />
     <figcaption class="caption">Screenshot 6B</figcaption>
 </figure>
 <p><em><strong>Screenshots 6A-B:</strong> Using the Timeline Index to get a list of music and titles cues as CSV via CommandPost. As you can see, the duration is missing, which would be helpful if requested.</em></p>
@@ -465,16 +465,16 @@ As commonly done, I created events for corresponding steps in post-production. T
 <p>For audio, I drop in the previously exported Stereo mixes (R128 and M&amp;E) and manually speed-change them (FCP does not do this automatically for audio, which is a good thing!) by 4,1% (remember, the original FPS was 23,98 not native 24p, hence 0,1% more – yes, I know everything is super confusing). Audio should not be in complete sync and at the exact same length as video.</p>
 <p>Remember the captions? The only thing not speed-changeable (why not, I ask, would be a neat feature) are the subtitles, so before we can import them here, we need them to be conformed to 25p too. Luckily there is a great free online tool for this purpose as shown in Screenshots 8a-b: <a href="https://editingtools.io/subtitles/" class="outbound" target="_blank"><span>https://editingtools.io/subtitles/</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> (expand the ‘advanced’ options).</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-7.jpg" alt="Screenshot 7" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2307" height="635" />
+    <img loading="lazy" src="../../static/wor-screenshot-7.jpg" alt="Screenshot 7" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2307" height="635" />
     <figcaption class="caption">Screenshot 7</figcaption>
 </figure>
 <p><strong>Screenshot 7:</strong> The clean-feed 24p assets (audio and video) in yet a new project, which is set to HD 25p for broadcast PAL conforming. Note: This requires a speed change of 4,1% and will make the film shorter (or longer if you go the other way). FCP takes care of most of the process automatically. If you have separate sound (and did not include it in the clean video), you need to change its speed manually: Right click, change duration, use 104,1% for 24p -&gt; 25p.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-8a.jpg" alt="Screenshot 8A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="241" />
+    <img loading="lazy" src="../../static/wor-screenshot-8a.jpg" alt="Screenshot 8A" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="700" height="241" />
     <figcaption class="caption">Screenshot 8A</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-8b.jpg" alt="Screenshot 8B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1101" height="516" />
+    <img loading="lazy" src="../../static/wor-screenshot-8b.jpg" alt="Screenshot 8B" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1101" height="516" />
     <figcaption class="caption">Screenshot 8B</figcaption>
 </figure>
 <p><em><strong>Screenshots 8A-B:</strong> This way I can speed change (adjust timings) all SRTs too for re-import.</em></p>
@@ -488,12 +488,12 @@ As commonly done, I created events for corresponding steps in post-production. T
 <h2 id="appendix">Appendix</h2>
 <p>As a reference, to illustrate what the Broadcast Safe filter does and what the EBU R103 norm refers to: Luma levels limitation, often also called IRE 0-100 or ‘legal range’ or ‘video levels’.</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-9.jpg" alt="Screenshot 9" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="438" height="547" />
+    <img loading="lazy" src="../../static/wor-screenshot-9.jpg" alt="Screenshot 9" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="438" height="547" />
     <figcaption class="caption">Screenshot 9</figcaption>
 </figure>
 <p>It is similar to audio normalization like the inhere often mentioned EBU R128 standard, which, in short, limits loudness (to -23 LUFS as a mean value). The difference being, it does so through lowering the mix volume, not compressing it (video levels are compressed, not cut, for roll-off).</p>
 <figure class="content-center">
-    <img src="../../static/wor-screenshot-10.jpg" alt="Screenshot 10" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1024" height="647" />
+    <img loading="lazy" src="../../static/wor-screenshot-10.jpg" alt="Screenshot 10" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1024" height="647" />
     <figcaption class="caption">Screenshot 10</figcaption>
 </figure>
 <hr>

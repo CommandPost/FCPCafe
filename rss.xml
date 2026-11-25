@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Sat, 21 Nov 2026 22:21:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Nov 2026 12:43:49 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 21 Nov 2026 22:21:25 GMT</pubDate>
+        <pubDate>Wed, 25 Nov 2026 12:43:49 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -10938,7 +10938,7 @@ Just beautifully crisp footage that's ready when you are.</p>
         <item>
             <title><![CDATA[10th July 2025]]></title>
             <description><![CDATA[<p><strong>Pipeline Neo v1.0.0</strong> is now release!</p>
-<p><img src="/static/pipeline-neo-social-card.png" alt=""></p>
+<p><img src="/static/openfcpxmlkit-social-card.png" alt=""></p>
 <h4>Background</h4>
 <p>Pipeline Neo is a modern Swift framework and spiritual successor to the original <a href="https://github.com/reuelk/pipeline">Pipeline</a>, designed for professional video editing workflows. Built with Swift 6.0 and targeting macOS 12+, it provides a comprehensive API for parsing, creating, and manipulating FCPXML files with advanced timecode operations, async/await patterns, and robust error handling.</p>
 <p>The framework seamlessly integrates with <a href="https://github.com/orchetect/TimecodeKit">TimecodeKit</a> to deliver type-safe operations for professional video editing environments. Pipeline Neo is currently in experimental development, focusing on core functionality while providing a foundation for future expansion. The entire codebase has been developed and refined using AI-assisted development practices.</p>
@@ -15447,7 +15447,7 @@ Swift     :      55389 (++12423, +28.91%)
 <p>He also posted some <a href="https://joema.smugmug.com/XCode-Instruments-trace-of-slow-FCP-performance/n-tBwgCJ">Xcode Instruments traces</a> for those that want to get really deep in the inner workings of Final Cut Pro.</p>
 <p>Long story short... Apple still has a LOT of engineering work to do under-the-hood, so I don't imagine we'll see a dramatic change in the update schedule over the next couple of years - I think it will continue to be slow and steady.</p>
 <p>The <strong>FCP Vietnam Community</strong> has also <a href="https://x.com/nikewrayy/status/2017915579559211451">reported</a> that Apple is finally checking for valid App Store receipts when launching Final Cut Pro - so you can no longer just &quot;steal&quot; Final Cut Pro with a USB-C when visiting the App Store.</p>
-<p><img src="/static/app-store-says-no.png" alt=""></p>
+<p><img src="/static/app-store-says-no.jpeg" alt=""></p>
 <p>Final Cut Pro has always been really easy to share. Final Cut Pro 7 and earlier just had a license key that could be used unlimited times (although only one license could be activated on the same local network at a time).</p>
 <p>Final Cut Pro v10 has only ever been on the App Store - but no actual verification ever took place after the initial download.</p>
 <p>Apple also offered a very good free trial, which was also trivial to reset the trial period by just deleting a hidden file on the filesystem.</p>
@@ -18000,7 +18000,7 @@ Jenn Jager, Steve Martin, Mark Spencer, Dylan Bates</p>
 <p>It's POSSIBLE they might just move all the <strong>MotionVFX DesignStudio</strong> elements to Apple Creator Studio:</p>
 <p><img src="/static/motionvfx-design-studio.png" alt=""></p>
 <p>It'll be interesting to see if they keep <strong>mExtension</strong> or if they just include all the Motion Templates as optional downloads in the Effects/Transitions/Titles/Generator Browsers, like they currently do on both Mac and iPad.</p>
-<p><a href="https://www.youtube.com/watch?v=lF5DNGmLlPE"><img src="/static/motionvfx-minstaller.png" alt=""></a></p>
+<p><a href="https://www.youtube.com/watch?v=lF5DNGmLlPE"><img src="/static/motionvfx-minstaller.jpg" alt=""></a></p>
 <p>Either way, NAB will be interesting times!</p>
 ]]></description>
             <link>https://fcp.cafe/#4th-april-2026</link>
@@ -25256,6 +25256,115 @@ BIGGER DISCOUNT - 40% OFF!</p>
             <link>https://fcp.cafe/#22nd-november-2026</link>
             <guid isPermaLink="false">22nd November 2026</guid>
             <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[25th November 2026]]></title>
+            <description><![CDATA[<p>Happy Wednesday! 👋</p>
+<p><strong>Jumper</strong> is currently <strong>30% off</strong>! 🥳</p>
+<p>If you haven't played with Jumper yet, it's totally worth downloading the free trial and taking it for a spin!</p>
+<p>You can learn more on the <a href="https://getjumper.io/">Jumper website</a>.</p>
+<p>The amazing <strong>Jonny Elwyn</strong> has all the latest Black Friday deals on his <a href="https://jonnyelwyn.co.uk/film-and-video-editing/the-best-black-friday-post-production-deals-2026/">website</a>.</p>
+<p><strong>CommandPost v3.1.0</strong> is now available to purchase for iOS on the App Store! 🤯</p>
+<p>It's is a one-time payment of <strong>AUD$79.99</strong> in Australia and <strong>USD$79.99</strong> elsewhere in the world. Sorry - there's no Black Friday sales or anything like that.</p>
+<p>This single payment gives you access to the <strong>Mac</strong>, <strong>iPhone</strong>, <strong>iPad</strong>, <strong>Apple Watch</strong> and <strong>Vision</strong> Pro versions of CommandPost v3.</p>
+<p>Alternatively, you can download the open-source <a href="https://commandpost.fcp.cafe/commandpost-v2/introduction/">CommandPost v2</a> - although I will no longer be updating or maintaining this.</p>
+<p>To be honest, there's been many times when I've never thought the CommandPost icon would make it to the App Store - but here we are. Amazing.</p>
+<p>Unfortunately however, the Mac App is still &quot;waiting for review&quot; and the Vision Pro App is &quot;ready for review&quot;.</p>
+<p>I've already been rejected once for the Vision Pro app, because App Review request a demo video, which I've since sent.</p>
+<p>Fingers and toes crossed we can get both those apps approved over the next couple of days.</p>
+<p>There's also been LOTS of improvements since we first submitted these builds to TestFlight, so we'll try and do fairly regular updates once we're approved and live.</p>
+<p>Until then, I'm busy testing all the control surfaces and building out new features and functionality.</p>
+<p>Here's a look at my crazy testing lab - most of these devices are connected:</p>
+<p><img src="/static/latenite-lab-buttons.jpg" alt=""></p>
+<p><img src="/static/latenite-lab-screens.jpg" alt=""></p>
+<p><img src="/static/latenite-lab-devices.png" alt=""></p>
+<p>Thanks to EVERYONE who's <a href="https://github.com/CommandPost/CommandPost/issues">given feedback</a> on CommandPost v3 - it's a MASSIVE undertaking.</p>
+<p>Now in nerdy news...</p>
+<p>We have a new Developers Case Study on FCP Cafe! 🥳</p>
+<p>Check out <a href="/developer-case-studies/creator-companion/">Building Creator Companion &amp; GPS to FCP Converter</a>. Thanks Dirk!</p>
+<p>Beginning with <strong>FxFactory v9.0.8</strong>, it is now possible to build and distribute native plug-ins that use custom FxCore plug-ins created through the FxCore SDK! 🤯</p>
+<p>You can learn more on the <a href="https://fxfactory.com/developer/distribute-fxcore-plugins-in-fxpacks/">FxFactory developer website</a>.</p>
+<p>Also, a reminder that FxFactory is having a Black Friday sale - get <strong>30% off</strong> with the offer code <code>BLACKFRIDAY</code>.</p>
+<p>You can learn more on the <a href="https://fxfactory.com">FxFactory website</a>.</p>
+<p>And this is SUPER interesting...</p>
+<p><strong>Robbie Tilton</strong> (Designer/Founder/Reinventing the computer) writes:</p>
+<blockquote>
+<p>I made a video editor that lets you cut by hand or with AI agents. It's called <strong>Editroom</strong>.</p>
+<p>It's 100% free and open source. I built it for myself since I found iMovie unusable, Resolve too complicated, and Premiere too heavy.</p>
+<p>the app includes:
+• Color grading + LUTs, with HDR and Log support
+• Speed ramps, transitions and fades
+• Auto captions, timed word by word
+• Search footage by what's said or what's in the shot
+• AI editing: on-device, or with Claude and ChatGPT
+• Built-in MCP server</p>
+<p>Editroom is 23 MB. Premiere is 6.95 GB, Resolve 6.34 GB, and iMovie 4.29 GB</p>
+</blockquote>
+<p>You can learn more on <a href="http://robbietilton.com/editroom">Robbie's website</a>.</p>
+<p><strong>Wes Plate</strong> at Automatic Duck writes:</p>
+<blockquote>
+<p><strong>Clip Exploder v1.2.2</strong> is now on available on the Mac App Store and on FxFactory.</p>
+<p>Clip Exploder answers the question &quot;How can I export each timeline clip as a separate movie, with added handles and clip effects intact?&quot; by creating a separate FCP project for each timeline clip, with the original effects intact (only effects that round-trip via FCPXML) and user-defined handles added.</p>
+</blockquote>
+<p>You can learn more on the <a href="https://automaticduck.com/#clip-exploder">Automatic Duck website</a>.</p>
+<p>A few days ago I posted a whole bunch of Feedback Assistant topics.</p>
+<p>I was then asked by a few people what my priorities would be... so... here you go:</p>
+<pre><code>**GENERAL:**
+FB12100432: There's no &quot;area&quot; for Final Cut Pro, FxPlug4 or Workflow Extensions on Feedback Assistant
+
+**APPLE IMMERSIVE FEATURE REQUESTS:**
+FB25511001: [Final Cut Pro] A/V Output should support full timeline resolution
+FB25511023: [Final Cut Pro] A/V Output should support metadata tracks
+FB22574049: Icon missing for Media Extensions
+FB22227341: [FxPlug 4] Add ability for an EFFECT to behave like a GENERATOR/TITLE
+
+**FINAL CUT PRO BUGS:**
+FB7383600: [Final Cut Pro] Missing an accessibility method for applying an individual effect/transition
+FB6151118: Cannot detect when Final Cut Pro is playing or paused using the Accessibility API
+FB6159440: No Accessibility Object for Audio Fade Handles in Final Cut Pro
+FB6151137: Accessibility Object for &quot;Show/Hide&quot; buttons in Final Cut Pro Inspector disappear when mouse is not hovering
+FB6151156: Changing a slider value in Final Cut Pro via the Accessibility API doesn't update correctly
+FB6158831: Color Mask Controls in Final Cut Pro has no Accessibility Objects in the Viewer
+FB12359441: [Final Cut Pro 10.6.6] Generator with Effect doesn't update correctly during playback
+FB12359669: [Final Cut Pro 10.6.6] Changing Color Adjustments Sliders via Accessibility API do not update correctly
+FB12051540: [Final Cut Pro 10.6.5] No Accessibility Object for Audio Group in Audio Effects Browser
+FB9006078: [Final Cut Pro 10.4.10] Accessibility Issue with detecting selected clips when Video Animation visible
+FB9963855: [Final Cut Pro 10.6.1] Pan Mode Dropdown has wrong AXValue
+FB13434162: [Final Cut Pro 10.7] FCPXML doesn't support all Title Parameters
+FB21876245: [Final Cut Pro 12] Regression - Effects Inspector painfully slow when scrolling #507
+FB25636418: [Final Cut Pro] Final Cut Pro doesn't treat Blackmagic HyperDeck / Cloud Store recordings as growing files
+FB25636450: Quick Look in Finder spins forever on a QuickTime reference movie whose media is on an SMB volume
+FB21914652: [Final Cut Pro 12] One pixel boundary at the frame edges on Viewer and in Export #511
+FB21914564: [Final Cut Por 12] Downscaling within FCPX leaves edge bleed from clips below top one
+FB21885502: [Final Cut Pro 12] Viewer freezes when rapidly hovering thumbnails generated by FxPlug #510
+FB13547810: [Final Cut Pro 10.7.1.] When all Libraries are closed the Viewer doesn't go black/transparent
+FB13525033: [Final Cut Pro 10.7.1] Renders being lost/missing after restart
+FB13525010: [FCXPML / Final Cut Pro 10.7.1] Missing smooth position keyframes in FCPXML
+FB13486195: [Final Cut Pro 10.7.1] Incorrectly shows &quot;Missing Plugin&quot; Red Error Message when Media if Offline
+FB13477599: [Motion 5.7] Creating a new Motion Category is painfully slow
+FB12209024: [Final Cut Pro 10.6.6] FCPXML v1.11 doesn't support Soundtracks
+
+**FINAL CUT PRO FEATURE REQUESTS:**
+FB12100407: [Final Cut Pro 10.6.5] Improve AV Output
+FB12377845: [Final Cut Pro (for iPad) v1.0.1] Add ability to set custom start timecode for timeline
+FB21937500: [Final Cut Pro 12] Batch sync audio and video clips using timecode/audio waveform all at once
+FB21807628: [Final Cut Pro 12.0.0] Add Focus Mode to Beat Detection Grid
+
+**FXPLUG/WORKFLOW EXTENSIONS REQUESTS:**
+FB12043900: [FxPlug4] Add methods to access source clip timecode &amp; frame number
+FB12179692: [Final Cut Pro 10.6.5] Add ability to trigger commands in Final Cut Pro via Workflow Extension
+FB13524991: [FxPlug 4 / Final Cut Pro] Add API for setting the font
+FB13500590: [FxPlug4 / Final Cut Pro 10.7.1] Can't collapse or uncollapse Parameter SubGroup's programatically
+FB13500385: [FxPlug / Final Cut Pro 10.7.1] Bad documentation for FxOnScreenControl keyDownAtPositionX
+FB13500374: [FxPlug / Final Cut Pro 10.7.1] Can't change ParameterSubGroup Name in parameterChanged
+FB13477747: [Motion 5.7/Final Cut Pro 10.7] FxPlug Parameter with an parameterID of 300 incorrectly shows a slider
+</code></pre>
+<p>Fingers and toes crossed Apple can tick some of these off the list.</p>
+<p>That's it for today - hopefully I'll have some more CommandPost news tomorrow! Thanks team!</p>
+]]></description>
+            <link>https://fcp.cafe/#25th-november-2026</link>
+            <guid isPermaLink="false">25th November 2026</guid>
+            <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

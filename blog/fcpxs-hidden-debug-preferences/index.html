@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848877754397">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848926147305">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -48,11 +48,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.848877754397" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.848926147305" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848877754397" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.848926147305" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848877754397" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.848926147305" data-turbo-eval="false" defer></script>
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for FCP Cafe" href="https://fcp.cafe/rss.xml" />
     <link rel="apple-touch-icon" href="https://fcp.cafe/static/fcpcafe.png">
@@ -337,27 +337,27 @@
 </figure>
 <p><strong>Step 1:</strong> Duplicate the “Final Cut Pro.app” within Finder by right clicking on the application and selecting duplicate, or pressing CMD+D. You can rename the new file to whatever you like (i.e. “Final Cut Pro Debug”).</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-02.png" alt="02" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="173" />
+    <img loading="lazy" src="../../static/blog/01-02.png" alt="02" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="173" />
     <figcaption class="caption">02</figcaption>
 </figure>
 <p><strong>Step 2:</strong> Right click on the new file and select <strong>Show Package Contents</strong>.</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-03.png" alt="03" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="222" />
+    <img loading="lazy" src="../../static/blog/01-03.png" alt="03" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="222" />
     <figcaption class="caption">03</figcaption>
 </figure>
 <p><strong>Step 3:</strong> Navigate to the <strong>Contents &gt; Resources &gt; en.lproj</strong> folder (assuming you’re working on an English machine).</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-04.png" alt="04" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="572" height="88" />
+    <img loading="lazy" src="../../static/blog/01-04.png" alt="04" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="572" height="88" />
     <figcaption class="caption">04</figcaption>
 </figure>
 <p><strong>Step 4:</strong> Rename the <strong>PEAppGeneralPreferencesModule.nib</strong> file to <strong>PEAppGeneralPreferencesModuleOLD.nib</strong>.</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-05.png" alt="05" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="572" height="117" />
+    <img loading="lazy" src="../../static/blog/01-05.png" alt="05" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="572" height="117" />
     <figcaption class="caption">05</figcaption>
 </figure>
 <p><strong>Step 5:</strong> Rename the <strong>PEAppDebugPreferencesModule.nib</strong> file to <strong>PEAppGeneralPreferencesModule.nib</strong>.</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-06.png" alt="06" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="916" />
+    <img loading="lazy" src="../../static/blog/01-06.png" alt="06" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="916" />
     <figcaption class="caption">06</figcaption>
 </figure>
 <p><strong>Step 6:</strong> Now when you open the new Final Cut Pro file, the General Preferences panel will be replaced by the Debug options – simple as that! These changes ONLY affect the duplicated Final Cut Pro application – so if you open the original Final Cut Pro application, the General preferences will still be there.</p>
@@ -432,7 +432,7 @@
 <p>Again, I don’t think actually having access to these debug features is particularly useful, and I wouldn’t recommend messing with them on a production system – but it’s a bit of fun none-the-less.</p>
 <p>If anyone has FCPX running on a SAN and works out how to activate and use the “Guards” functionality – let me know! Hopefully this is feature we’ll see in a future FCPX release (ideally with iCloud integration!).</p>
 <figure class="content-center">
-    <img src="../../static/blog/01-secret_fcpx_settings.jpg" alt="secret_fcpx_settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="416" />
+    <img loading="lazy" src="../../static/blog/01-secret_fcpx_settings.jpg" alt="secret_fcpx_settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="850" height="416" />
     <figcaption class="caption">secret_fcpx_settings</figcaption>
 </figure>
 <hr>

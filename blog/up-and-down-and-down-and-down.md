@@ -6,57 +6,57 @@ So what’s been happening since my last confession? Well, as I’m sure you can
 
 As I said, the rest of that week was just getting everything organised for the big Thursday night event! Putting together hampers, encoding videos for the DVD screenings, doing sound checks, printing labels, etc. It was one crazy week – there was so much to do, and to be perfectly honest, just not enough people to do it, which meant everyone had to work around the clock pulling everything together. But soon enough it was Thursday, and we got everything done in time! To start things off, here are some photos of the event:
 
-![](/static/2008-06-lens_flair_event_12june2008_01.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_01.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_02.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_02.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_03.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_03.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_04.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_04.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_05.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_05.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_06.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_06.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_07.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_07.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_08.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_08.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_09.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_09.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_10.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_10.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_11.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_11.jpg)
 
 ![](/static/2008-06-lens_flair_event_12june2008_12.jpg)
 
 ![](/static/2008-06-lens_flair_event_12june2008_13.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_14.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_14.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_15.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_15.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_16.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_16.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_17.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_17.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_18.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_18.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_19.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_19.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_20.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_20.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_21.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_21.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_22.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_22.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_23.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_23.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_24.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_24.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_25.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_25.jpg)
 
-![](/static/2008-06-lens_flair_event_12june2008_26.jpg)
+![](/static/blog/2008-06-lens_flair_event_12june2008_26.jpg)
 
 Overall, I think we can classify the event as a success. We had a massive turn out – probably around 200 people at it’s peak, although we had people coming and going all night. Not sure how many unique people turned up, but I would imagine it would be around the 300-350 mark. A lot of the people that were there for the first screening didn’t hang around for the second screening, but luckily were replaced by new people! From all reports, everyone had a fantastic time! We’ve recieved quite a few e-mails saying “thank you” for putting on the night, and saying how much fun they had which is great! Word has even got out into the “low budget” film making community in Melbourne saying how fun the event was – and a lot of people who didn’t attend for whatever reason have said to me they wish they made the extra effort, or changed their schedule around to fit it in.
 
