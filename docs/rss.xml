@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Wed, 25 Nov 2026 12:43:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Nov 2026 22:36:25 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Nov 2026 12:43:49 GMT</pubDate>
+        <pubDate>Thu, 26 Nov 2026 22:36:25 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -25365,6 +25365,102 @@ FB13477747: [Motion 5.7/Final Cut Pro 10.7] FxPlug Parameter with an parameterID
             <link>https://fcp.cafe/#25th-november-2026</link>
             <guid isPermaLink="false">25th November 2026</guid>
             <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[27th November 2026]]></title>
+            <description><![CDATA[<p>Happy Friday! 👋</p>
+<p><strong>Dylan Bates (aka The Final Cut Bro)</strong> just 100K subscribers on YouTube! 🥳</p>
+<p>HUGE congratulations Dylan - that's MASSIVE! Who knew there were 100K hardcore Final Cut Pro users! 🤯</p>
+<p><img src="/static/fcp-bro-and-chris.jpg" alt=""></p>
+<p>Reminder that he's also having a MASSIVE Black Friday sale on his <a href="https://fcbplugins.com/collection/all">website</a>.</p>
+<p><strong>CommandPost v3</strong> development continues at a rapid pace - I'm so excited about it!</p>
+<p>Whilst Final Cut Pro remains the priority I've also added:</p>
+<ul>
+<li>DaVinci Resolve Panel &amp; thousands of actions using the official APIs</li>
+<li>Adobe Premiere Panel &amp; thousands of actions using the official APIs</li>
+<li>Avid Media Composer Panel  &amp; thousands of actions using the official APIs</li>
+</ul>
+<p>I'm currently working on adding <strong>Lego Cybermaster</strong> actions, because... well, it's cool.</p>
+<p>Here's a sneak peak:</p>
+<p><img src="/static/commandpost-v3-20161127-1.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-2.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-3.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-4.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-5.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-6.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-7.png" alt=""></p>
+<p><img src="/static/commandpost-v3-20161127-8.png" alt=""></p>
+<p>I recently posted on social media:</p>
+<blockquote>
+<p>CommandPost v3 is currently on TestFlight and coming to the Mac App Store soon (well, as soon as Apple eventually reviews it)! 🥳</p>
+<p>There's also a Vision Pro, iPhone, iPad, and Apple Watch app!</p>
+<p>The iPhone/iPad/Watch app is already live on the App Store.</p>
+<p>CommandPost v3 is a one-time payment of AUD$79.99 in Australia and USD$79.99 elsewhere in the world.</p>
+<p>This single payment gives you access to the Mac, iPhone, iPad, Apple Watch and Vision Pro versions of CommandPost v3.</p>
+<p>It has 81 control surfaces it supports - all directly and natively - no additional software required.</p>
+<p>This is a complete re-write from scratch in Swift &amp; SwiftUI, using the last decade of experiences I had building CommandPost v2. This isn't another &quot;vibe-coded&quot; app - CommandPost v2 has been used by industry professionals for decades, well before LLMs changed the world. Unlike CommandPost v2 however, it will be closed source - for the simple reason that very few ever contributed to CommandPost v2.</p>
+<p>CommandPost v2 has been used for projects at Netflix, Pixar and the BBC. People at companies such as Apple, Avid and Adobe use it daily. All of the 2024-2026 Apple Worldwide Developer Conference (WWDC) videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost v2. 🤯</p>
+<p>Originally CommandPost was entirely focussed on Final Cut Pro, but we've now added a DaVinci Resolve Panel, Avid Media Composer Panel and Adobe Premiere Panel. These new panels are still very much a work-in-progress, but we're getting there.</p>
+<p>It can do some insane things already. Watch Folders, Triggers, LLM support, deep MCP support - and soon Lego Cybermaster actions, because, you know... it's fun.</p>
+<p>If you're interested in learning more and trying out join the FCP Cafe Discord. Thanks team!</p>
+<p><a href="https://commandpost.fcp.cafe">https://commandpost.fcp.cafe</a></p>
+</blockquote>
+<p>Exciting times!</p>
+<p>In other news Sebastian writes:</p>
+<blockquote>
+<p><strong>FidelityFuze 3.0 Released: Real-Time Upscaling That Tells Detail From Noise</strong></p>
+<p>Hi there, Sebastian here.</p>
+<p><strong>FidelityFuze 3.0</strong> is out now.</p>
+<p>If you're new here, <a href="https://fidelityfuze.com">FidelityFuze</a> is my plugin for upscaling footage directly in the Final Cut Pro timeline on Apple Silicon.</p>
+<p>At its core is a complete rebuild of Temporal Upscaling. Temporal is hard. Borrowing detail from neighboring frames sounds simple, until the camera moves or the shot cuts. Lean on the wrong frame, and you get ghosting. Lean on none, and you lose the very detail the neighbors were holding.</p>
+<p><img src="/static/01-yellowstone-coyote.png" alt="Yellowstone coyote comparison"></p>
+<p>Earlier versions asked whether a neighboring frame looked similar enough to trust. The trouble is that no single answer fits every camera. Set the bar loose, and grain slips through as detail. Set it strict, and real texture gets thrown away. So 3.0 asks a different question: <strong>is this difference more than your footage's own noise would explain?</strong> FidelityFuze no longer guesses where the line between detail and noise sits. It measures it, in your footage, and the new <strong>Noise Profile</strong> lets you keep that measurement for the whole clip.</p>
+<p><strong>The Noise Profile: Every Camera Has Its Own Signature</strong></p>
+<p>Every camera, sensor setting, and grade leaves its own pattern of noise, and it is not even the same across one frame: shadows carry more than highlights, and color noise behaves differently from brightness noise. <strong>Temporal Upscaling now measures that signature</strong> and judges every difference against it. Clean footage gets more room to reveal its fine detail. Noisy footage gets a more careful hand, so grain is less likely to be mistaken for something worth bringing forward.</p>
+<p>Without a profile, FidelityFuze works this out automatically. With one, the whole clip is judged against the same picture of your footage's noise, so the result stays consistent from the first frame to the last. Building a <strong>Noise Profile</strong> takes one click: turn on Temporal Upscaling, park the playhead on a representative frame, and click <strong>Build</strong> in the new Noise Profile section of the inspector. The profile stays with your project, and a status tag shows when it is in effect.</p>
+<p>Two new controls let you adjust the result to taste. <strong>Noise Baseline</strong> moves the measured line between detail and noise, from 50% to 200%. Raise it to allow more temporal smoothing, or lower it to keep more of the original frame. <strong>Edge Emphasis</strong> controls how strongly outlines stand out. Push it for a crisper image, or ease it back for a softer, more natural feel.</p>
+<p><img src="/static/02-noise-night-street.png" alt="Night street comparison"></p>
+<p>If you have a grainy night shot you were never quite happy with, this is the release to try it on. Build a profile, move the sliders, and see where it starts to feel right.</p>
+<p><strong>Footage Rarely Makes It Easy</strong></p>
+<p>Slow pans across fine textures. A little camera shake. A light switching on halfway through the shot. Motion alignment is now FidelityFuze's own, built to follow those small movements precisely. It is measured on the denoised image, so grain no longer nudges each frame a little differently, and neighboring frames line up steadily, one after another. Exposure shifts and flicker are handled more carefully, too, so a change in one frame is less likely to spill into its neighbors.</p>
+<p><img src="/static/03-yellowstone-bison-face.png" alt="Yellowstone bison face comparison"></p>
+<p>And when in doubt, it lets go. A cut, a flash, or an abrupt change in the grade closes the door to the neighboring frames. Losing a little temporal help is better than blending two shots. In those moments, and during very fast motion, the current frame is still denoised on its own. It is not magic, and I would rather you see that on your own footage than read a promise here.</p>
+<p><strong>Lighter on Your Mac</strong></p>
+<p>Reaching further across time used to cost a lot of memory. Not anymore. Each neighboring frame is now taken in and let go before the next one arrives, so the Temporal Window can reach ±5 frames while <strong>memory use no longer grows with it</strong>. For a 4K-to-8K render with Supersampling and a ±4-frame window, peak memory drops from around <strong>32 GB to around 15 GB</strong>, and Final Cut Pro can render several frames at once again.</p>
+<p><img src="/static/04-yellowstone-raven.png" alt="Yellowstone raven comparison"></p>
+<p>There is one less setting to think about, too. FidelityFuze now reads Rec. 709 or Rec. 2020 directly from your project, so the manual Color Space setting is gone.</p>
+<p><strong>What Is FidelityFuze?</strong></p>
+<p>FidelityFuze is a native Final Cut Pro plugin that upscales your footage in real time, right in the timeline, from 1080p to 4K or 4K to 8K. No proxies, no exports, no round-tripping. Detail Recovery, Noise Reduction, and Temporal Upscaling are there for the shots that ask for more, and all of it is about keeping the character of your image.</p>
+<p><img src="/static/fidelityfuze-logo-lockup.png" alt="FidelityFuze logo"></p>
+<p>It does not rely on generative AI. It adds clarity only where the footage can genuinely support it, and it runs exclusively on Apple Silicon, accelerated with Metal, so you see the result in the viewer while you edit.</p>
+<p><strong>Before You Update</strong></p>
+<p>If you're in the middle of a 2.7 project, I recommend <strong>finishing it before updating</strong>. Temporal Quality Mode, Temporal Window, and Noise Reduction Strategy return to their defaults in 3.0. Noise Reduction strength has also been recalibrated, so check any clips where you've used it.</p>
+<p>Major updates do not install themselves, so download 3.0 from the website. If you already own FidelityFuze, <strong>3.0 and all 3.x updates are included at no additional cost</strong>.</p>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>A Mac with Apple Silicon (M1 or newer); Intel Macs are not supported</li>
+<li>macOS 13 Ventura or later</li>
+<li>Final Cut Pro 11.0 or later (11.1 or newer recommended)</li>
+<li>Recommended: M1 Pro, M1 Max, or newer</li>
+</ul>
+<p>Temporal processing and 8K projects ask for more. The <a href="https://fidelityfuze.com/user-guide#system-requirements">system requirements</a> list the details.</p>
+<p><strong>Black Friday Offer</strong></p>
+<p><strong>Lifetime License:</strong> no subscriptions.</p>
+<p>Use this code for <strong>40% off</strong>, valid until Monday, November 30th, 23:59 UTC:</p>
+<pre><code>BLACKFRIDAY2026
+</code></pre>
+<p><strong>Get FidelityFuze 3.0</strong></p>
+<p>If you want to judge FidelityFuze before trying it, the website has been rebuilt around real renders. No original was made worse and no render made better, so the imperfections FidelityFuze leaves are in there too. There is a full-resolution frame you can zoom into pixel by pixel and switch against the original.</p>
+<p>FidelityFuze 3.0 is available now, with a free trial if you would like to see it on your own footage first.</p>
+<p>→ <a href="https://fidelityfuze.com">https://fidelityfuze.com</a></p>
+<p>Thank you to everyone who sent footage, questions, and honest feedback over the past year. A lot of this release started as one of your messages. If anything comes up, whether it is a question, a hiccup, or something you notice in your workflow, feel free to contact me at <a href="mailto:contact@fidelityfuze.com">contact@fidelityfuze.com</a>. I will have an open ear.</p>
+<p>Sebastian</p>
+</blockquote>
+<p>Thanks team! Chat again soon!</p>
+]]></description>
+            <link>https://fcp.cafe/#27th-november-2026</link>
+            <guid isPermaLink="false">27th November 2026</guid>
+            <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
