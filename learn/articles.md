@@ -32,6 +32,14 @@ There's still a handful of a articles on the Internet Archive, for example:
 
 ---
 
+### Claude-assisted rough cuts
+
+For spoken footage on a Mac, prepare a rough cut outside Final Cut Pro and export it as an MP4. Generate a separate SRT against the exported cut. Import both files into Final Cut Pro and spot-check the captions at the beginning and end for drift before finishing. If you need editable clip boundaries in the timeline, use an FCPXML workflow.
+
+[Guide to Claude-assisted editing in Final Cut Pro](https://orkas.ai/blog/claude-final-cut-pro/) walks through the MP4 and SRT handoff and explains where community MCP tools fit. I work on the Orkas development team, which published the guide.
+
+---
+
 ## Discuss this page
 
 <script src="https://giscus.app/client.js"

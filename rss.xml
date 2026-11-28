@@ -4,9 +4,9 @@
         <description><![CDATA[Latest News from FCP Cafe]]></description>
         <link>https://fcp.cafe</link>
         <generator>FCP Cafe</generator>
-        <lastBuildDate>Thu, 26 Nov 2026 22:36:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Nov 2026 10:49:36 GMT</lastBuildDate>
         <atom:link href="https://fcp.cafe/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 26 Nov 2026 22:36:25 GMT</pubDate>
+        <pubDate>Sat, 28 Nov 2026 10:49:35 GMT</pubDate>
         <item>
             <title><![CDATA[23rd May 2023]]></title>
             <description><![CDATA[<p>Iain Anderson has written a very detailed <a href="https://www.provideocoalition.com/final-cut-pro-10-6-6-for-mac/">Final Cut Pro 10.6.6 blog post</a> over at Pro Video Coalition.</p>
@@ -25461,6 +25461,53 @@ FB13477747: [Motion 5.7/Final Cut Pro 10.7] FxPlug Parameter with an parameterID
             <link>https://fcp.cafe/#27th-november-2026</link>
             <guid isPermaLink="false">27th November 2026</guid>
             <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[28th November 2026]]></title>
+            <description><![CDATA[<p>Happy Saturday! 👋</p>
+<p>I have a really mixed relationship with Large Language Models (LLMs) like ChatGPT and Claude. Half of me loves them, half of me hates them.</p>
+<p>I do think that LLMs will eventually destroy the world.</p>
+<p>When LLMs first hit the scene, and people started using them for coding - honestly, it made me super depressed.</p>
+<p>What I loved about CommandPost was building things that people told me were impossible, for example, I added to Final Cut Pro:</p>
+<ul>
+<li>A scrolling timeline, a decade before Apple added it</li>
+<li>The original FCPX Hacks &quot;injected&quot; commands into the Command Editor</li>
+<li>Copy on one Mac and paste on another with Pasteboard Sharing</li>
+<li>Thousands of little workflow improvements that Apple never got around to</li>
+</ul>
+<p>...and of course BRAW Toolbox, brings Blackmagic RAW to Final Cut Pro before Apple and Blackmagic, and more recently, bringing Blackmagic RAW Immersive to Vision Pro. 🥳</p>
+<p>I love the creative and technical problem solving - I love the process, I love playing around with physical hardware and making it do stuff that it's not supposed to.</p>
+<p>I love buttons and wires.</p>
+<p>But with LLMs - you basically outsource those tasks to the LLM to solve.</p>
+<p>LLMs didn't take away the tasks I didn't enjoy doing - they took away the tasks I actually enjoyed doing.</p>
+<p>LLMs, at least in the early days were crap at user interface design and Apple Frameworks - so the one thing I needed help with, they weren't much help with - but could do all the stuff that I enjoyed doing faster and better.</p>
+<p>I felt the same way a lot of filmmakers feel about Generative AI.</p>
+<p>So whilst I used LLMs like Codex and Claude - I kinda hated them.</p>
+<p>I started collaborating with amazing people like <a href="https://iain-anderson.com">Iain Anderson</a> on <a href="https://scriptstar.fcp.cafe">ScriptStar</a> and <a href="https://keyframetoolbox.fcp.cafe">Keyframe Toolbox</a>.</p>
+<p>This kinda of relationship works way better - because Iain is a design and products brain - he's also a great communicator, so he can &quot;chat&quot; with LLMs and come up with really clever user interfaces and logical designs.</p>
+<p>He know what he wants to build - he just doesn't have the engineering or programming skill to do it by hand.</p>
+<p>I HATE just &quot;chatting&quot; to an LLM. I'm more a &quot;guy hiding in a server closet&quot; kinda guy - than someone that likes small talk - so for me, LLMs just didn't work for my brain.</p>
+<p>But for people like Iain - they perfectly complement his skills. And then, once Iain's done a pass, I can come in and offer technical ideas and advice, and more importantly, be a sounding board and a bull-shit filter for when the LLM is wrong or &quot;lying&quot;.</p>
+<p>For example, the reason Iain never build Keyframe Toolbox himself before we started collaborating is because he wasn't sure it was technically possible within Final Cut Pro's very strict plugin architecture - whereas I was confident we could make it work.</p>
+<p>Since then, there's been a HEAP of other &quot;vibe coded&quot; apps that tackle similar problems - because once a human solves the issue, LLMs can easily solve things.</p>
+<p>But whilst LLMs have kinda depressed me and annoyed me, I also saw people like <a href="https://www.knuthake.de">Knut Hake</a> do some absolutely INSANE things with his <a href="https://www.knuthake.de/apps">applications</a> - it's totally inspiring what he's built.</p>
+<p>And so over the last few weeks I've been trying to learn all the techniques, processes and workflows that innovators like Knut have been pioneering - and get my head around the latest frontier models, agents, and orchestration software. It's been super interesting.</p>
+<p>CommandPost v3 is being heavily developed using LLMs - but there's a human behind it, and it's being driven by 10 years of manual coding.</p>
+<p>It's also really easy for LLMs to work on CommandPost v3 because CommandPost v2 is so heavily documented - by humans.</p>
+<p>Certainly, very interesting times!</p>
+<p>In other news...</p>
+<p><strong>Arthur Moore</strong> has <strong>50% off</strong> all his plugins!</p>
+<p>You can learn more on <a href="https://arthurmoorefx.sellfy.store">Arthur's website</a>.</p>
+<p>Wada Digital Lab has posted two handy Final Cut Pro 13 walkthroughs. The first goes from <a href="https://en.wadadigitallab.com/blog/final-cut-pro-zoom-slow">Ken Burns and speed ramps to cutting on the beat</a>. The second shows how to <a href="https://en.wadadigitallab.com/blog/final-cut-pro-mosaic">pixelate a moving face and keep colour on just one part of a shot</a>.</p>
+<p>A neat little tip - if your viewer is set to add a Magnetic Mask when you drop an effect, hold <strong>Command</strong> as you drag to get the Tracker instead.</p>
+<p>In Black Friday news, <a href="https://proxyforge.app/">ProxyForge</a> is <strong>US$9.99</strong>, down from <strong>US$14.99</strong>, through 1st December on the Mac App Store. It makes batches of proxies locally and has a Final Cut Pro naming mode to make relinking easier. It requires macOS 26 or later. No code needed. You can find the <a href="https://floor1point2.com/black-friday">sale details on the Floor 1.2 website</a>.</p>
+<p>A quick heads-up if you use the third-party FCPXML tool <strong>fcp-mcp-server</strong>: its developer recommends updating to <a href="https://github.com/DareDev256/fcp-mcp-server/releases/tag/v0.36.1">v0.36.1</a>, a security release.</p>
+<p>And for a weekend watch - after <a href="/news/20261118">Ian Failes’s book appeared here last week</a>, Ian has a new video on <a href="https://beforesandafters.com/2026/11/27/i-mean-how-freakin-cool-was-ed-209/">how Tippett Studio brought RoboCop’s ED-209 to life with stop-motion</a>. Worth a look if you love seeing how a practical effect comes together!</p>
+<p>Thanks team! Have a great weekend!</p>
+]]></description>
+            <link>https://fcp.cafe/#28th-november-2026</link>
+            <guid isPermaLink="false">28th November 2026</guid>
+            <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
