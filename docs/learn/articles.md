@@ -29,3 +29,11 @@ There's still a handful of a articles on the Internet Archive, for example:
 
 - [Timbrée or How to Use Stamps to Build a Story (09 May 2023)](https://web.archive.org/web/20230610153050/https://fcp.co/final-cut-pro/articles/2616-timbree-or-how-to-use-stamps-to-build-a-story)
 - [In Love with Final Cut Pro (10 February 2023)](https://web.archive.org/web/20230604103506/https://fcp.co/final-cut-pro/articles/2614-in-love-with-final-cut-pro)
+
+---
+
+### Claude-assisted rough cuts
+
+For spoken footage on a Mac, prepare a rough cut outside Final Cut Pro and export it as an MP4. Generate a separate SRT against the exported cut. Import both files into Final Cut Pro and spot-check the captions at the beginning and end for drift before finishing. If you need editable clip boundaries in the timeline, use an FCPXML workflow.
+
+[Guide to Claude-assisted editing in Final Cut Pro](https://orkas.ai/blog/claude-final-cut-pro/) walks through the MP4 and SRT handoff and explains where community MCP tools fit. I work on the Orkas development team, which published the guide.
